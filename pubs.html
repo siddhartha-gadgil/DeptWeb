@@ -1,0 +1,50 @@
+---
+title: Publications - Dept of Mathematics, IISc
+showpubs: true
+---
+
+
+
+
+
+<h2> Publications (by year) </h2>
+
+<div class="row">
+  <div class="col-md-1 bg-info">
+    <div class="navbar navbar-fixed-bottom">
+      <div class="container">
+      <strong> By year</strong>
+      {% assign years = site.data.pubs | group_by: "year" %}
+      <ul>
+        {% for y in years  limit: 15 %}
+        <li> <a href="#{{y.name}}"> {{y.name}} </a> </li>
+        {% endfor %}
+        <li><a href="#{{years[15].name}}">{{years[15].name}}  and earlier</a> </li>
+      </ul>
+
+      <h4> <a href="#">Top</a></h4>
+      <p>&nbsp;</p>
+    </div>
+    </div>
+
+  </div>
+  <div class="col-md-offset-1 col-md-9">
+
+{% assign years = site.data.pubs | group_by: "year" %}
+{% for y in years %}
+
+<h4 id ="{{y.name}}">{{y.name}}</h4>
+
+
+<ol>
+{% for paper in y.items %}
+  <li>
+    {{ paper.author }}, <em>{{ paper.title }}</em>, {{paper.journal}}, <strong>{{paper.volume}} </strong> ({{paper.year}}), {{paper.pages}}.
+  </li>
+{% endfor %}
+</ol>
+
+{% endfor %}
+</div>
+
+</div>

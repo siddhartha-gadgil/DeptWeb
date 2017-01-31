@@ -1,0 +1,23 @@
+---
+title: Seminars
+---
+
+<h3>Seminars</h3>
+    {% assign sorted = (site.seminars | sort: 'date') | reverse %}
+
+{% for sem in sorted  %}
+<div class="row">
+
+  <div class="col-md-10">
+  <h5><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
+ <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
+  <h5>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </h5>
+
+
+    {{ sem.content }}
+  </div>
+
+</div>
+
+  <p>&nbsp;</p>
+ {% endfor %}

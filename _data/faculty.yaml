@@ -1,0 +1,153 @@
+- name: Arvind Ayyer
+  user-id: arvind
+  position: Assistant Professor
+  research-areas: Probability, Combinatorics, Statistical Mechanics,Mathematical Physics, Experimental Mathematics
+  phd: Rutgers
+  phone-ext: 3215
+
+- name: Abhishek Banerjee
+  user-id: abhishek
+  position: Assistant Professor
+  research-areas: Algebraic geometry, Noncommutative geometry.
+  phd: Johns Hopkins
+  phone-ext: 3326
+
+- name: Gautam Bharali
+  user-id: bharali
+  position: Associate Professor
+  research-areas: Several Complex Variables
+  phd: Wisconsin
+  phone-ext: 3328
+
+- name: Tirthankar Bhattacharya
+  user-id: tirtha
+  position: Professor
+  research-areas: Operator Theory
+  phd: ISI
+  phone-ext: 2710
+
+- name: Soumya Das
+  user-id: somu
+  position: Assistant Professor
+  research-areas: Number Theory
+  phd: HRI
+  phone-ext: 3205
+
+- name: Basudeb Datta
+  user-id: dattab
+  position: Professor
+  research-areas: Algebraic and Combinatorial Topology
+  phd: ISI
+  phone-ext: 3211
+
+- name: Siddhartha Gadgil
+  user-id: gadgil
+  position: Professor
+  research-areas: Geometric Topology
+  phd: Caltech
+  phone-ext: 3209
+
+- name: Mrinal K. Ghosh
+  user-id: mkg
+  position: Professor
+  research-areas: Stochastic Control, Markov Decision Process, Stochastic Dynamic Games, Stochastic Hybrid Systems, Applications of Stochastic Analysis to Manufacturing systems  Finance etc.
+  phd: IISc-TIFR
+  phone-ext: 3210
+
+- name: Thirupathi Gudi
+  user-id: gudi
+  position: Associate Professor
+  research-areas: Numerical Analysis and Partial Differential Equations.
+  phd: IIT Bombay
+  phone-ext: 3208
+
+- name: Subhojoy Gupta
+  user-id: subhojoy
+  position: Assistant Professor
+  research-areas: Teichmueller theory, low dimensional geometry and topology
+  phd: Yale
+  phone-ext: 3330
+
+- name: Srikanth K. Iyer
+  user-id: skiyer
+  position: Professor
+  research-areas: Theoritical and Applied Probability, Statistics; Branching Particle Systems, Random Geometric Graphs, Mathematical Finance, Credit Risk Modelling, Time Series Analysis, Monte Carlo Simulation.
+  phd: UC, Santa Barbara
+  phone-ext: 3327
+
+- name: Manjunath Krishnapur
+  user-id: manju
+  position: Associate Professor
+  research-areas: Probability Theory (random matrix theory, zeros of random analytic functions)
+  phd: Berkeley
+  phone-ext: 3207
+
+- name: Gadadhar Misra
+  user-id: gm
+  position: Professor
+  research-areas: Functional Analysis
+  phd: Stony Brook
+  phone-ext: 2712
+
+- name: A. K. Nandakumaran
+  user-id: nands
+  position: Professor
+  research-areas: Partial Differential Equations Homogenization, Controllability, Optimal Control and Differential games, Viscosity Solutions
+  phd: IISc-TIFR
+  phone-ext: 2835
+
+- name: E. K. Narayanan
+  user-id: naru
+  position: Associate Professor
+  research-areas: Harmonic Analysis
+  phd: ISI
+  phone-ext: 3270
+
+- name: Dilip P. Patil
+  user-id: patil
+  position: Professor
+  research-areas: Commutative Algebra and Algebraic Geometry
+  phd: Bombay
+  phone-ext: 3212
+
+- name: Vamsi Pritham Pingali
+  user-id: vamsipingali
+  position: Assistant Professor
+  research-areas: Differential geometry, several complex variables, and mathematical physics
+  phd: Stony Brook
+  phone-ext:
+
+- name: Govindan Rangarajan
+  user-id: rangarajan
+  position: Professor
+  research-areas: Nonlinear Dynamics and Time Series Analysis
+  phd: Maryland
+  phone-ext: 3213
+
+- name: Harish Seshadri
+  user-id: harish
+  position: Professor
+  research-areas: Differential Geometry
+  phd: Strony Brook
+  phone-ext: 2709
+
+- name: Pooja Singla
+  user-id: pooja
+  position: Assistant Professor
+  research-areas: Representation Theory
+  phd: IMSc
+  phone-ext: 2571
+
+- name: S. Thangavelu
+  user-id: veluma
+  position: Professor
+  research-areas: Harmonic Analysis
+  phd: Princeton
+  phone-ext: 3206
+
+- name:  Kaushal Verma
+  user-id: kverma
+  position: Professor
+  research-areas: Several Complex Variables
+  phd: Indiana
+  phone-ext: 3216

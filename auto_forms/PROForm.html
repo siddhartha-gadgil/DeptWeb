@@ -1,0 +1,151 @@
+---
+---
+<blockquote> </blockquote>
+
+<center>
+<img src="Form_files/IISclogo.jpg" height="150" width="150"><br>
+<p class="style1" align="center">INDIAN INSTITUTE OF SCIENCE BANGALORE - 560012</p>
+<p><strong>DEPARTMENT OF MATHEMATICS</strong></p>
+
+<h1>Request for PRO'S Approval for Visit</h1>
+
+<font face="Arial, Helvetica, sans-serif">
+
+<p>Name of the visitor(s):
+<input id="name" type="text" maxlength="28" size=26> (please enter name in capitals)</p>
+<p>Nationality:
+<input id="Nationality" type="text" maxlength="28"></p>
+<p> Designation:
+<input id="Designation"type="text" maxlength="28"></p>
+<p> Office Address, line 1:
+<input id="Office Address1" maxlength="27" type="text"></p>
+<p> Office Address, line 2:
+<input id="Office Address2"  maxlength="27" type="text"></p>
+<p> Office Address, line 3:
+<input id="Office Address3"  maxlength="27" type="text"></p>
+<p> Telephone no.:
+<input id="Mobile"  maxlength="14" type="text"></p>
+<p>Period: from/on
+<input id="Period" type="text"maxlength="10"> to
+<input id="To" type="text" maxlength="10"></p>
+<p>No.of days:
+<input id="Days" type="text" maxlength="04"></p>
+<p>Purpose of visit:
+<input id ="Purpose" type="text" maxlength="25"></p>
+<p>Honorarium:
+<input type="text" value="To be filled by dept. office" readonly size=26></p>
+<p>TA (Airfare):
+<input type="text" value="To be filled by dept. office" readonly size=26></p>
+<p>DA:
+<input type="text" value="To be filled by dept. office" readonly size=26></p>
+<p>Local conveyance:
+<input type="text" value="To be filled by dept. office" readonly size=26></p>
+<p>Payment details:
+<input type="text" value="To be filled by dept. office" readonly size=26></p>
+<p>Name of the hosting faculty member <input id="Host" type="text" size=26 maxlength="25"></p>
+<p>with designation: <input id="HostDD" type="text" size=26 maxlength="19"></p>
+
+<p></p>
+
+<p><font color="#CC0000">If you are using Firefox to fill out this form, and your
+				browser is not set to automatically open PDF files in a PDF viewer (e.g., Adobe Reader), then
+				PLEASE download from Firefox the formatted PDF form generated and open and print it using
+				Adobe Reader (or whichever PDF viewer you prefer)!</font></p>
+
+</font>
+
+
+<script>
+
+function makePDF()
+{
+var nm = document.getElementById("name").value;
+var Nationality=document.getElementById("Nationality").value;
+var Designation=document.getElementById("Designation").value;
+var Office1=document.getElementById("Office Address1").value;
+var Office2=document.getElementById("Office Address2").value;
+var Office3=document.getElementById("Office Address3").value;
+var Mobile=document.getElementById("Mobile").value;
+var Period=document.getElementById("Period").value;
+var To=document.getElementById("To").value;
+var Days=document.getElementById("Days").value;
+var Purpose=document.getElementById("Purpose").value;
+var Host=document.getElementById("Host").value;
+var HostDD=document.getElementById("HostDD").value;
+<!--var Reason=document.getElementById("Reason").value;-->
+
+
+var doc = new jsPDF()
+var imgData ="data:image/jpeg;base64,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REQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQP/9k=";
+
+doc.addImage(imgData, 'JPEG', 10, 05, 45,45);
+
+doc.setFontSize(15); doc.setFontType("bold")
+doc.text(58,25, "DEPARTMENT OF MATHEMATICS")
+doc.text(60,31, "INDIAN INSTITUTE OF SCIENCE")
+doc.setFontType("normal"); doc.text(70,38, "BANGALORE - 560012")
+
+doc.setFontSize(14)
+doc.text(17,55, "Ref:")
+doc.text(155,55, "Date:")
+
+doc.setFontType("bold"); doc.text(17,70, "To:"); doc.setFontType("normal"); doc.text(27,70, "The Public Relations Officer")
+doc.text(27,76, "IISc")
+
+doc.setFontType("bold"); doc.text(72,85, "Subject:"); doc.setFontType("normal")
+doc.text(93,85, "Request for approval for the visit")
+
+doc.text(15, 102, "NAME OF THE VISITOR(S)               "+nm+"")
+doc.text(15, 110, "Nationality                                           "+Nationality+"")
+doc.text(15, 117, "Designation                                         "+Designation+"")
+doc.text(15, 124, "Office address with telephone no.")
+doc.text(15,124,"                                                            "+Office1+" \n                                                            "+Office2+" \n                                                            "+Office3+" \n                                                            "+Mobile+"")
+doc.text(15, 145, "Period of visit to IISc                            From  "+Period+"      to  "+To+"")
+doc.text(99, 150, "No. of days: "+Days+"")
+doc.text(15,157,"Purpose of visit                                    "+Purpose+"")
+doc.text(15, 167, "Honorarium ")
+doc.text(15,178,"TA (Airfare)                                         From:")
+doc.text(15,188,"DA")
+doc.text(15,195,"Local conveyance")
+doc.text(15,205,"Payment details                                   By Guest:")
+doc.text(99,211,"By IISc:")
+doc.text(99,217,"Debit head:")
+doc.text(15,225,"Name of the faculty member with \n desgination/department")
+doc.text(99,225,""+Host+" \n"+HostDD+"/Mathematics")
+doc.text(15,238,"Signature of faculty member")
+doc.text(15,255,"Recommendation of")
+doc.text(15,260,"Chairman of the Department")
+doc.text(15,275,"PS: All the information above must necessarily be provided.")
+<!--doc.addPage();-->
+
+<!--for horizontal lines-->
+doc.line(10, 95, 190, 95); 
+doc.line(10, 103, 190, 103); 
+doc.line(10, 111, 190, 111);
+doc.line(10, 119, 190, 119)
+doc.line(10, 140, 190, 140)
+doc.line(10, 152, 190, 152)
+doc.line(10, 162, 190, 162);
+doc.line(10, 171, 190, 171);
+doc.line(10, 180, 190, 180);
+doc.line(10, 190, 190, 190);
+doc.line(10, 200, 190, 200);
+doc.line(10, 220, 190, 220);
+doc.line(10, 232, 190, 232);
+doc.line(10, 242, 190, 242);
+
+<!--for vertical lines-->
+doc.line(10,95,10,242);
+doc.line(95, 95, 95, 242);
+doc.line(190, 95, 190, 242);
+
+
+doc.save("PRO_Form.html")
+
+
+
+}
+</script>
+<button type="button" onClick="makePDF()">Make PDF</button>
+</center>
+

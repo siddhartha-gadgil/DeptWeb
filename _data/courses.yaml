@@ -1,0 +1,15 @@
+jan2017:
+  core1:
+    - code: MA 213
+      name: Algebra II
+      instructor: Abhishek Banerjee
+
+    - code: MA 222
+      name: Measure and Integration
+      instructor: Gautam Bharali
+
+
+    - code: MA 372
+      name: HoTT
+      instructor: SG
+      webpage: http://math.iisc.ac.in/~gadgil/HoTT-Course.html

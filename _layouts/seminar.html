@@ -1,0 +1,19 @@
+{% include header.html %}
+
+<div class="row">
+
+  <div class="col-md-10">
+ <h5><strong> Title: </strong> {{ page.title }} </h5>
+<h5>  <strong>Speaker: </strong> {{page.speaker}} </h5>
+<h5>  <strong>Date: </strong>{{ page.date | date_to_long_string }} </h5>
+
+
+    {{ content }}
+  </div>
+
+</div>
+
+<div>
+<a href="{{ site.baseurl}}/seminars-all.html "> All seminars.</a>
+</div>
+{% include footer.html %}

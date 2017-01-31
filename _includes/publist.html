@@ -1,0 +1,23 @@
+<!-- <li class="dropdown col-md-1">
+  <a href="{{ site.baseurl }}/pubs" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Publications by year
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+    {% assign years = site.data.pubs | group_by: "year" %}
+{% for y in years %}
+<li> <a href="{{ site.baseurl }}/pubs/#{{y.name}}"> {{y.name}} </a> </li>
+{% endfor %}
+  </ul>
+<li> -->
+
+<li class="dropdown">
+          <a href="{{ site.baseurl }}/pubs.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Publications (by year) <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            {% assign years = site.data.pubs | group_by: "year" %}
+        {% for y in years %}
+        <li> <a href="{{ site.baseurl }}/pubs.html#{{y.name}}"> {{y.name}} </a> </li>
+        {% endfor %}
+          </ul>
+        </li>

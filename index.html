@@ -1,0 +1,52 @@
+---
+---
+
+<div class="row">
+  <div class="col-md-8">
+    <h3>Introduction</h3>
+    <p>The department of Mathematics was established in 1956 and over the
+                years has evolved into a Department with a healthy balance between
+                pure and applied mathematics. The Department has a vibrant research
+                atmosphere backed up by excellent infrastructural facilities.
+                We have a modern computer laboratory and a good Departmental library.
+                <a href="faculty.html">Members of our faculty</a> have won many
+                honours in recognition of their academic achievements. </p>
+
+              <p>The Department admits students under two programmes - the <a href="degprog-phd.html">Ph.D.
+                programme</a> and the <a href="degprog-intphd.html">integrated
+                Ph.D. programme</a>. Further information can be found by following
+                the links on the home page. In the current economic scenario,
+                employment opportunities for Ph.D.'s in mathematics are excellent
+                - both in academics and in industry. </p>
+
+              <p>The Department has pioneered interdisciplinary programmes like
+                the <a href="http://math.iisc.ernet.in/~imi" target="_blank">IISc
+                Mathematics Initiative</a>. It takes active part in the Indo-French <a href="http://disc.iisc.ernet.in/ficus/ficus.html" target="_blank">Cyber
+                University project</a> with Toulouse University Network. The Department
+                is also deeply involved in the Kishore Vaigyanik Protsahan Yojana
+                and the Mathematical
+                Olympiad programme.</p>
+  </div>
+
+  <div class="col-md-offset-1 col-md-3">
+    <h3> <a href="seminars-all.html">Seminars</a></h3>
+    {% assign sorted = (site.seminars | sort: 'date') | reverse %}
+
+<ul>
+
+{% for sem in sorted limit: 3 %}
+<li>
+ <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+<div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
+<div>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </div>
+<div class="">
+&nbsp;
+</div>
+</li>
+ {% endfor %}
+</ul>
+
+
+  </div>
+
+</div>

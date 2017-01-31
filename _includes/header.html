@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  {% assign topbar = 'Department of Mathematics, IISc' %}
+
+  {% if page.title %}
+  {% capture topbar %} {{page.title}} - Maths@IISc {% endcapture %}
+  {% endif %}
+
+  <title> {{ topbar }}</title>
+  <link rel="icon" href="{{ site.baseurl }}/IIScLogo.jpg">
+
+
+  <!-- Bootstrap -->
+
+  <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+</head>
+
+
+
+<body>
+
+  <div class="container">
+    <!-- <img src="images/title.gif" class="center-block" width="100%"> -->
+    <!-- <div class="bg-primary" style="color:white; text-align:center">
+      <img src="IIScLogo.jpg" height="40" />
+      <h2 class="center-block">Department of Mathematics</h2>
+      <h3>Indian Institute of Science, Bangalore</h3>
+    </div> -->
+
+    <!-- <div class="row bg-primary">
+      <img src="{{ site.baseurl }}/IIScLogo.jpg" class="col-md-1" style="padding-top:20px;" />
+      <div class="col-md-10" style="color:white; text-align:center">
+        <h2 class="center-block">Department of Mathematics</h2>
+        <h3>Indian Institute of Science, Bangalore</h3>
+      </div>
+
+    </div> -->
+    <div class="bg-primary">
+    <h1 class="text-center"> Department of Mathematics, Indian Institute of Science </h1>
+  </div>
+
+  {% include navbar.html %}

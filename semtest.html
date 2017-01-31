@@ -1,0 +1,10 @@
+---
+---
+
+{% assign sorted = (site.seminars | sort: 'date') | reverse %}
+
+{% for sem in sorted limit: 5 %}
+ <a href="{{ sem.url }}">{{ sem.title }}</a> {{sem.speaker}}
+ <p>{{ sem.date | date_to_long_string }}</p>
+ <p>{{ sem.content }}</p>
+ {% endfor %}
