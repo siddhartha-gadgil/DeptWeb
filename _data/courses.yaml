@@ -8,8 +8,49 @@ jan2017:
       name: Measure and Integration
       instructor: Gautam Bharali
 
+    - code: MA 224
+      name: Complex Analysis
+      instructor: E. K. Narayanan
 
+    - code: MA 229
+      name: Calculus on Manifolds
+      instructor: Gadadhar Misra
+
+    - code: MA 241
+      name: Ordinary Differential Equations
+      instructor: G. Rangarajan
+
+
+  electives:
     - code: MA 372
-      name: HoTT
-      instructor: SG
+      name: Introduction to Homotopy Type Theory
+      instructor: Siddhartha Gadgil
       webpage: http://math.iisc.ac.in/~gadgil/HoTT-Course.html
+
+    - code: MA 313
+      name: Algebraic Number Theory
+      instructor: Dilip P. Patil
+
+    - code: MA 327
+      name: Topics in Analysis
+      instructor: Manjunath Krishnapur
+
+    - code: MA 332
+      name: Algebraic Topology
+      instructor:	Subhojoy Gupta
+
+    - code:  MA 350
+      name: Analytic number theory
+      instructor: Soumya Das
+
+    - code: MA 371
+      name: Control and Homogenization
+      instructor:	A. K. Nandakumaran
+
+    - code: MA 383
+      name: Introduction to Minimal Surfaces
+      instructor: Rukmini Dey / Kaushal Verma.
+
+    - code: MA 390
+      name: Percolation and Random Graphs
+      instructor: Srikanth Iyer
