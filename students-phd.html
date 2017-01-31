@@ -1,0 +1,40 @@
+---
+title: PhD students
+---
+<div class="col-md-10 col-md-offset-1">
+<h2 class="text-center">PhD students</h2>
+
+<h4 class="text-center">By year of joining</h4>
+
+
+{% assign students = site.data.students | where: "programme", "PhD" %}
+{% assign years = students | group_by: "year-of-joining" %}
+
+{% for y in years %}
+
+<h3>Year of joining: {{y.name}}</h3>
+
+<table class="table table-striped">
+  {% for stu in y.items %}
+  <tr>
+    <td class="col-md-7"><div><h4>{{ stu.name }}</h4> </div>
+      <div class="">
+        <strong>Program:</strong> {{ stu.programme}}
+      </div>
+        <div>
+          <strong>E-mail:</strong> <a href="mailto:{{stu.user-id}}@math.iisc.ernet.in">{{stu.user-id}}@math.iisc.ernet.in</a>
+        </div>
+        <div>
+        <strong>Web page:</strong> <a href="http://math.iisc.ac.in/~{{stu.user-id}}/">http://math.iisc.ac.in/~{{stu.user-id}}/</a>
+      </div>
+      </div>
+    </td>
+    <td>
+      {% if stu.image %}
+      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
+      {% endif %}
+  </tr>
+  {%  endfor %}
+</table>
+{% endfor %}
+</div>

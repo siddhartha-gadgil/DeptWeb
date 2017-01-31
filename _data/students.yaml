@@ -1,0 +1,397 @@
+- name:	Sandeep K Mody
+  user-id:	eskimo
+  year-of-joining: 2009
+  programme: PhD
+  image: true
+
+
+- name	:	Sudipto Chowdhury
+  user-id	:	sudipto10
+  year-of-joining: 2010
+  programme: PhD
+
+- name	:	Rajeev Gupta
+  user-id	:	rajeev10
+  year-of-joining: 2010
+  programme: PhD
+  image: true
+
+- name	:	Pranav Haridas
+  user-id	:	pranav10
+  year-of-joining: 2010
+  programme: PhD
+
+- name	:	Jis Joseph
+  user-id	:	joseph10
+  year-of-joining: 2010
+  programme: PhD
+
+- name	:	Ratna Pal
+  user-id	:	ratna10
+  year-of-joining: 2010
+  programme: PhD
+
+- name	:	A Tulasi Ram Reddy
+  user-id	:	tulasi10
+  year-of-joining: 2010
+  programme: PhD
+  webpage	:	http://math.iisc.ernet.in/~tulasi10
+
+
+- name	:	S. Nanda Kishore Reddy
+  user-id	:	kishore11
+  year-of-joining: 2011
+  programme: PhD
+  image: true
+
+
+
+- name	:	S Aiyappan
+  user-id	:	aiyappan12
+  year-of-joining: 2012
+  programme: PhD
+  image: true
+
+
+- name	:	Manojit Bhattachariya
+  user-id	:	monojit12
+  year-of-joining: 2012
+  programme: PhD
+  image: true
+
+
+
+
+- name	:	Somnath Hazra
+  user-id	:	somnath12
+  year-of-joining: 2013
+  programme: PhD
+
+- name	:	Gaddam Sharat
+  user-id	:	sharat12
+  year-of-joining: 2013
+  programme: PhD
+
+
+
+- name	:	Rakesh Kumar
+  user-id	:	rakesh13
+  year-of-joining: 2013
+  programme: PhD
+  webpage	:	http://www.math.iisc.ac.in/~rakesh13/index.html
+
+
+- name	:	Anirban Kundu
+  user-id	:	anirban14
+  year-of-joining: 2014
+  programme: PhD
+
+
+- name	:	Pramath A.V
+  user-id	:	pramath14
+  year-of-joining: 2014
+  programme: PhD
+
+
+- name	:	Ritwik Pal
+  user-id	:	ritwik14
+  year-of-joining: 2014
+  programme: PhD
+
+
+- name	:	Sanjay kumar jhawar
+  user-id	:	sanjay14
+  year-of-joining: 2014
+  programme: PhD
+
+- name	:	Sourav hait
+  user-id	:	sourav14
+  year-of-joining: 2014
+  programme: PhD
+
+
+- name	:	Lakshmi Priya M.E
+  user-id	:	lpriya15
+  year-of-joining: 2015
+  programme: PhD
+
+- name	:	Paramita Pramanick
+  user-id	:	paramita15
+  year-of-joining: 2015
+  programme: PhD
+
+- name	:	Srimala Srikanth
+  user-id	:	srikanth15
+  year-of-joining: 2015
+  programme: PhD
+
+
+- name	:	Londhe Mayuresh Mahadeo
+  user-id	:	mayuresh16
+  year-of-joining: 2016
+  programme: PhD
+
+- name	:	K. Hariram
+  user-id	:	khariram16
+  year-of-joining: 2016
+  programme: PhD
+
+- name	:	Anubhav Mukherjee
+  user-id	:	anubhav16
+  year-of-joining: 2016
+  programme: PhD
+
+- name	:	G. V. K. Teja
+  user-id	:	teja16
+  year-of-joining: 2016
+  programme: PhD
+
+
+
+- name	:	Kartick Adhikari
+  user-id	:	kartickmath
+  year-of-joining: 2009
+  programme: Integrated PhD
+  webpage	:	math.iisc.ac.in/~kartickmath
+  image: true
+
+
+
+
+
+
+
+- name	:	Vikramjeet Singh Chandel
+  user-id	:	abelvikram
+  year-of-joining: 2009
+  programme: Integrated PhD
+  image: true
+
+- name	:	Arpan Kabiraj
+  user-id	:	arpan.into
+  year-of-joining: 2009
+  programme: Integrated PhD
+  webpage	:	math.iisc.ac.in/~arpan.into
+  image: true
+
+
+- name	:	Md. Ramiz Reza
+  user-id	:	ramiz
+  year-of-joining: 2009
+  programme: Integrated PhD
+  image: true
+
+
+- name	:	Haripada Sau
+  user-id	:	sau10
+  year-of-joining: 2010
+  programme: Integrated PhD
+  image: true
+
+
+- name	:	Bidhan Chandra Sardar
+  user-id	:	bidhan10
+  year-of-joining: 2010
+  programme: Integrated PhD
+  image: true
+
+
+- name	:	Soumitra Ghara
+  user-id	:	ghara11
+  year-of-joining: 2011
+  programme: Integrated PhD
+
+
+- name	:	Harshavardan R
+  user-id	:	harsha11
+  year-of-joining: 2011
+  programme: Integrated PhD
+
+
+- name	:	Samarpita Ray
+  user-id	:	samarpita11
+  year-of-joining: 2011
+  programme: Integrated PhD
+  image: true
+
+
+- name	:	Amar Deep Sarkar
+  user-id	:	amar11
+  year-of-joining: 2011
+  programme: Integrated PhD
+  image: true
+
+
+
+- name	:	Hassain M
+  user-id	:	hassain12
+  year-of-joining: 2012
+  programme: Integrated PhD
+  image: true
+
+
+- name	:	Anwoy Maitra
+  user-id	:	maitra12
+  year-of-joining: 2012
+  programme: Integrated PhD
+
+
+- name	:	Samrat Sen
+  user-id	:	samrat12
+  year-of-joining: 2012
+  programme: Integrated PhD
+
+
+- name	:	Manish Kumar
+  user-id	:	manish13
+  year-of-joining: 2013
+  programme: Integrated PhD
+
+
+- name	:	Puspendu Jana
+  user-id	:	Jana13
+  year-of-joining: 2013
+  programme: Integrated PhD
+
+
+- name	:	Sayantan Maitra
+  user-id	:	Sayantan13
+  year-of-joining: 2013
+  programme: Integrated PhD
+
+
+- name	:	Somnath Pradhan
+  user-id	:	Pradhan13
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Subhajit Ghosh
+  user-id	:	Subhajit13
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Anindya Biswas
+  user-id	:	anindya14
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Rahul Biswas
+  user-id	:	rahul14
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Nimisha Pahuja
+  user-id	:	nimisha14
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Nidhi Rathi
+  user-id	:	nidhi14
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Ramesh Chandra Sau
+  user-id	:	ramesh14
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Sruthi Sekar
+  user-id	:	sruthi14
+  year-of-joining: 2014
+  programme: Integrated PhD
+
+
+- name	:	Abu Sufian
+  user-id	:	abu15
+  year-of-joining: 2015
+  programme: Integrated PhD
+
+
+- name	:	Himanshu Gupta
+  user-id	:	himanshu15
+  year-of-joining: 2015
+  programme: Integrated PhD
+  image: true
+
+
+
+
+
+
+
+- name	:	Kriti Sehgal
+  user-id	:	kriti15
+  year-of-joining: 2015
+  programme: Integrated PhD
+
+- name	:	Prateek Kumar Vishwakarma
+  user-id	:	pkrv15
+  year-of-joining: 2015
+  programme: Integrated PhD
+
+
+- name	:	Sahil Gehlawat
+  user-id	:	sahil.gehlawat15
+  year-of-joining: 2015
+  programme: Integrated PhD
+
+
+- name	:	Surjadipta De Sarkar
+  user-id	:	surjo15
+  year-of-joining: 2015
+  programme: Integrated PhD
+
+
+- name	:	Kartick Ghosh
+  user-id	:	kartick16
+  year-of-joining: 2016
+  programme: Integrated PhD
+
+
+- name	:	Pabitra Barman
+  user-id	:	pabitra16
+  year-of-joining: 2016
+  programme: Integrated PhD
+
+
+- name	:	Pranab Sarkar
+  user-id	:	pranab16
+  year-of-joining: 2016
+  programme: Integrated PhD
+
+
+- name	:	Pritam Ganguly
+  user-id	:	pritam16
+  year-of-joining: 2016
+  programme: Integrated PhD
+
+
+- name	:	Poornendu Kumar
+  user-id	:	poornendusingh16
+  year-of-joining: 2016
+  programme: Integrated PhD
+
+
+- name	:	Ragavendra Tripathi
+  user-id	:	raghav16
+  year-of-joining: 2016
+  programme: Integrated PhD
+
+
+- name	:	Shubham Rastogi
+  user-id	:	shubhamrastogi16
+  year-of-joining: 2016
+  programme: Integrated PhD
+
+
+- name	:	Swarnalipa Datta
+  user-id	:	swarnalipa16
+  year-of-joining: 2016
+  programme: Integrated PhD
