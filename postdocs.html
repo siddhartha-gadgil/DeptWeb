@@ -1,0 +1,25 @@
+---
+title: Postdocs
+---
+<div class="col-md-10 col-md-offset-1">
+<h2 class="text-center">Postdocs</h2>
+
+<table class="table table-striped">
+  {% for stu in site.data.postdocs %}
+  <tr>
+    <td class="col-md-7"><div><h4>{{ stu.name }}</h4> </div>
+        <div>
+          <strong>E-mail:</strong> <a href="mailto:{{stu.user-id}}@math.iisc.ernet.in">{{stu.user-id}}@math.iisc.ernet.in</a>
+        </div>
+        <div>
+        <strong>Web page:</strong> <a href="http://math.iisc.ac.in/~{{stu.user-id}}/">http://math.iisc.ac.in/~{{stu.user-id}}/</a>
+      </div>
+      </div>
+    </td>
+    <td>
+      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
+  </tr>
+  {%  endfor %}
+</table>
+
+</div>

@@ -51,3 +51,9 @@ defaults:
       type: seminars
     values:
       layout: seminar
+
+  - scope:
+      path: ""
+      type: all-courses
+    values:
+      layout: course
