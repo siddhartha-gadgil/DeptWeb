@@ -11,9 +11,11 @@ title: Postdocs
         <div>
           <strong>E-mail:</strong> <a href="mailto:{{stu.user-id}}@math.iisc.ernet.in">{{stu.user-id}}@math.iisc.ernet.in</a>
         </div>
+        {% if stu.webpage %}
         <div>
-        <strong>Web page:</strong> <a href="http://math.iisc.ac.in/~{{stu.user-id}}/">http://math.iisc.ac.in/~{{stu.user-id}}/</a>
+        <strong>Web page:</strong> <a href="{{ stu.webpage}}"> {{ stu.webpage }}</a>
       </div>
+      {% endif %}
       </div>
     </td>
     <td>

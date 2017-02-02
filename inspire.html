@@ -1,25 +1,16 @@
 ---
-title: Integrated PhD students
+title: INSPIRE fellows and DST scientists
 ---
 <div class="col-md-10 col-md-offset-1">
-<h2 class="text-center">Integrated PhD students</h2>
-
-<h4 class="text-center">By year of joining</h4>
-
-
-{% assign students = site.data.students | where: "programme", "Integrated PhD" %}
-{% assign years = students | group_by: "year-of-joining" %}
-
-{% for y in years %}
-
-<h3>Year of joining: {{y.name}}</h3>
+<h2 class="text-center">INSPIRE fellows and DST scientists</h2>
 
 <table class="table table-striped">
-  {% for stu in y.items %}
+  {% for stu in site.data.InspireDST %}
   <tr>
-    <td class="col-md-7"><div><h4>{{ stu.name }}</h4> </div>
+    <td class="col-md-7">
+      <div><h4>{{ stu.name }}</h4> </div>
       <div class="">
-        <strong>Program:</strong> {{ stu.programme}}
+        <strong>Research areas:</strong> {{ stu.research-areas}}
       </div>
         <div>
           <strong>E-mail:</strong> <a href="mailto:{{stu.user-id}}@math.iisc.ernet.in">{{stu.user-id}}@math.iisc.ernet.in</a>
@@ -32,11 +23,9 @@ title: Integrated PhD students
       </div>
     </td>
     <td>
-      {% if stu.image %}
       <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
-      {% endif %}
   </tr>
   {%  endfor %}
 </table>
-{% endfor %}
+
 </div>
