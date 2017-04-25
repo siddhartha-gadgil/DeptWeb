@@ -1,0 +1,919 @@
+- name: A. C. Jain
+  year: 1962
+  title: Studies in laminar boundary layer flows with suction or injection
+  advisor: P. L. Bhatnagar
+
+- name: G. K. Rajeswari
+  year: 1964
+  title: Some problems of non-newtonian flows
+  advisor: P. L. Bhatnagar
+
+- name: C. Devanathan
+  year: 1964
+  title: Wave propagation in plasmas and some allied problems
+  advisor: P. L. Bhatnagar
+
+- name: B. B. Chakrabarty
+  year: 1964
+  title: Some magneto-hydrodynamical problems with an application to astronomy
+  advisor: P. L. Bhatnagar
+
+- name: S. L. Rathna
+  year: 1964
+  title: Some non-newtonian flow problems
+  advisor: P. L. Bhatnagar
+
+- name: G. C. Ahuja
+  year: 1965
+  title: 3-dimensional boundry layers with suction and injection
+  advisor: P. L. Bhatnagar
+
+- name: D. K. Mohan Rao
+  year: 1965
+  title: Some flow problems in non-newtonian fluids
+  advisor: P. L. Bhatnagar
+
+- name: Chanchal Uberoi
+  year: 1966
+  title: Small amplitude phenomena in conducting fluids and transport properties of plasmas
+  advisor: P. L. Bhatnagar
+
+- name: R. K. Bhatnagar
+  year: 1967
+  title: Secondary flows and heat transfer to non-newtonian fluids
+  advisor: P. L .Bhatnagar
+
+- name: P. L. Sachdeva
+  year: 1967
+  title: Propagation of radiative shocks in inhomogeneous media
+  advisor: P. L. Bhatnagar
+
+- name: Phoolan Prasad
+  year: 1968
+  title: Finite amplitude waves with or without radiation
+  advisor: P. L. Bhatnagar
+
+- name: M. N. Mathur
+  year: 1968
+  title: Heat transfer and secondary flows in elastico-viscous fluids
+  advisor: P. L. Bhatnagar
+
+- name: Renuka Rajagopalan
+  year: 1968
+  title: Theoretical studies in micropolar and visco-elastic fluids
+  advisor: P. L . Bhatnagar
+
+- name: M. P. Srivastava
+  year: 1969
+  title: Some problems in plasma physics and rarified gas dynamics
+  advisor: P. L. Bhatnagar
+
+- name: P. K. Bhat
+  year: 1969
+  title: Some stability and flow problems in hydro-magnetics
+  advisor: P. L. Bhatnagar
+
+- name: M. R. Raghavachar
+  year: 1969
+  title: Magnetohydrodynamical instability and allied problems
+  advisor: P. L. Bhatnagar
+
+- name: V. G. Tikekar
+  year: 1970
+  title: Some flow and heat transfer problems with special reference to numerical procedure
+  advisor: P. L. Bhatnagar
+
+- name: Isaac Jayakaran
+  year: 1970
+  title: Stability problems in plasma physics
+  advisor: P. L. Bhatnagar, C. Uberoi
+
+- name: B. C. Pandey
+  year: 1970
+  title: Some problems concerning shock waves and thermal boundary layers
+  advisor: P. L. Bhatnagar
+
+- name: K. S. Bhatnagar
+  year: 1970
+  title: Secondary flows and heat transfer problems in micropolar and viscoelastic fluids
+  advisor: P. L. Bhatnagar
+
+- name: S. Narasimha Murthi
+  year: 1971
+  title: Stability and allied problems in magnetohydrodynamics
+  advisor: P. K. Bhat
+
+- name: J. R. Saraf
+  year: 1971
+  title: Some problems in plasma physics and rarified gas dynamics
+  advisor: P. L. Bhatnagar
+
+- name: S. Ashraf
+  year: 1972
+  title: Analytic solutions of some radiating flow problems with shock boundaries
+  advisor: P. L. Sachdeva
+
+- name: K. K. Raju
+  year: 1972
+  title: Theoretical studies on problems of non-newtonian flow and heat transfer
+  advisor: Rathna Devanathan
+
+- name: S. G. Tagore
+  year: 1972
+  title: Some problems in nonlinear wave propagation in fluid mechanics
+  advisor: Phoolan Prasad
+
+- name: G. C. Das
+  year: 1974
+  title: Electromagnetic waves in plasmas
+  advisor: C. Uberoi
+
+- name: A. G. Deshpande
+  year: 1974
+  title: Some problems in fluid mechanics with special reference to turbomechanary
+  advisor: G. Nath
+
+- name: R. Girija Devi
+  year: 1974
+  title: Theoretical studies on flow problems in polar fluids
+  advisor: Rathna Devenathan, Renuka Ravindran
+
+- name: C. S. Vimala
+  year: 1974
+  title: Flow problems in laminar compressible boundary layers
+  advisor: G. Nath
+
+- name: Sthiti Chakrabarti
+  year: 1975
+  title: Nega-base computer arithmetic theory and applications
+  advisor: E. V. K. Murthi
+
+- name: T. Mahadeva Rao
+  year: 1975
+  title: Finite field computational techniques for exact solutions of numerical problems
+  advisor: E. V. K. Murthi
+
+- name: M. P. Ravindra
+  year: 1975
+  title: A non-linear analysis of lower hybrid many body techniques
+  advisor: K. P. Sinha, Somkrishan
+
+- name: A. Amarnath
+  year: 1975
+  title: Some boundary value problems in elasticity with and without magnetic field
+  advisor: A. Chakrabarti
+
+- name: K. C. Balan
+  year: 1976
+  title: Time dependent flows of rotating and stratified fluids
+  advisor: Rathna Devanathan, A. Ramachandra Rao
+
+- name: Swarnalatha Prabhu
+  year: 1976
+  title: Numerical techniques for reconstruction of objects from projections
+  advisor: E.  V. K. Murthi
+
+- name: Margarat Muthanna
+  year: 1977
+  title: Steady flow problems in laminar compressible boundary layer theory
+  advisor: G. Nath
+
+- name: V. S. Seshadri
+  year: 1978
+  title: Some analytic approaches to nonlinear wave propagation in non-uniform media
+  advisor: P. L. Sachdeva
+
+- name: K. Ramamurthy
+  year: 1978
+  title: Convergence of state distribution in multitype Bellman-Harris and Crump model
+  advisor: K. B. Athreya
+
+- name: U. J. Rao
+  year: 1978
+  title: Wave phenomena at the interface between two anisotropic dielectric media
+  advisor: C. Uberoi
+
+- name: B. J. Venkatachala
+  year: 1979
+  title: A numerical study of some flow and heat transfer problems in laminar boundary layers
+  advisor: G. Nath
+
+- name: E. V. Krishnan
+  year: 1979
+  title: Nonlinear wave propagation in multidimensions
+  advisor: Phoolan Prasad
+
+- name: B. K. Meena
+  year: 1979
+  title: Analysis of some boundary layer flows by numerical methods
+  advisor: G. Nath
+
+- name: N. Padmanabhan
+  year: 1980
+  title: Theoretical studies on the fluid dynamics of the cardiovascular system
+  advisor: Rathna Devanathan
+
+- name: V. V. S. S. Shastri
+  year: 1981
+  title: Some boundary value problems for Helmoltz equation arising in diffraction theory
+  advisor: A. Chakrabarti
+
+- name: R. Krishnaswamy
+  year: 1981
+  title: Numerical study of laminar compressible boundary payer problems
+  advisor: G. Nath
+
+- name: Mahesh Kumari
+  year: 1981
+  title: Investigations of laminar boundary layer flows using finite difference methods
+  advisor: G. Nath
+
+- name: K. Manivashekan
+  year: 1982
+  title: Integral transform and related methods applied to some problems of elasticity
+  advisor: A. Chakrabarti
+
+- name: C. R. Praneshachar
+  year: 1982
+  title: Enumerative considerations of SDR's and Latin rectangles
+  advisor: R. Vittal Rao
+
+- name: C. R. Seshan
+  year: 1982
+  title: Some investigations in mathematical programming
+  advisor: V. G. Tikekar
+
+- name: J. L. R. Mathew
+  year: 1982
+  title: Rotating laminar boundary layer studies through finite difference methods
+  advisor: G. Nath
+
+- name: Micheal Lobo
+  year: 1982
+  title: A numerically oriented study of the nonlinear singular integral equations describing transonic flow
+  advisor: P. L. Sachdev
+
+- name: S. S. Reddy
+  year: 1983
+  title: On numerical solution of first order system of hyperbolic equations
+  advisor: V. G. Tikekar
+
+- name: K. K. Acharya
+  year: 1983
+  title: Studies on some mathematical programming problems
+  advisor: V. G. Tikekar
+
+- name: A. Sathyanarayanan
+  year: 1983
+  title: Studies on internal atmospheric gravity waves and their stability characteristics
+  advisor: P. L. Sachdev
+
+- name: N. P. Gopalan
+  year: 1983
+  title: Mathematical models of some physiological systems
+  advisor: Rathna Devanathan, G. Nath
+
+- name: Rangan C. Panda
+  year: 1983
+  title: "Studies on graph grammars: comparison of various models and applications to graph theory"
+  advisor: E. V. K. Murthi
+
+- name: P. Raghupathi Rao
+  year: 1983
+  title: Some flow problems in non-coaxial rotating systems
+  advisor: A. Ramachandra Rao
+
+- name: G. N. M. Dixit
+  year: 1983
+  title: Unsteady laminar boundary layer studies through finite difference methods
+  advisor: G. Nath
+
+- name: Asish Mukhopadhyay
+  year: 1983
+  title: Iterative and direct p-adic algorithms for exact solutions of numerical problems
+  advisor: E. V. K. Murthi
+
+- name: Somasundaram
+  year: 1983
+  title: Hydromagnetic surface waves
+  advisor: C. Uberoi
+
+- name: C. V. Mahalakshmi
+  year: 1983
+  title: Mathematical models of blood flows and hear transfer
+  advisor: Rathna Devanathan
+
+- name: R. Vellingiri
+  year: 1984
+  title: Solutions of some radially symmetric problems of heat conduction with phase change
+  advisor: S. C. Gupta
+
+- name: A. V. Reddy
+  year: 1985
+  title: Numerical studies of some laminary boundary layer flows using finite difference methods
+  advisor: G. Nath, P. L. Sachdeva
+
+- name: N. Sukavanam
+  year: 1985
+  title: Some results on finite section linear integral operators
+  advisor: R. Vittal Rao
+
+- name: R. Vasantha
+  year: 1985
+  title: Numerical studies of laminar boundary layer flow problems
+  advisor: G. Nath
+
+- name: M. V. Narasimhachari
+  year: 1985
+  title: Numerical studies of some problems in mixed convection boundary layer flows
+  advisor: G. Nath
+
+- name: T. M. Ramanathan
+  year: 1985
+  title: Huygen's method of construction of weakly nonlinear wave fronts and shock fronts with application to hyperbolic caustics
+  advisor: Phoolan Prasad
+
+- name: E. A. David
+  year: 1986
+  title: Some nonlinear surface wave propagation problems
+  advisor: Renuka Ravindran
+
+- name: S. Sekar
+  year: 1986
+  title: Boundary element methods applied to fluid flow problems
+  advisor: G. Nath
+
+- name: Mainak Gupta
+  year: 1987
+  title: Numerical studies of rotating laminar boundary layer flows
+  advisor: G. Nath
+
+- name: V. N. Nalani
+  year: 1987
+  title: A study on a class of boundary value problems associated with dams
+  advisor: A. Chakrabarti
+
+- name: K. S. Deshikachar
+  year: 1987
+  title: Magnetohydrodynamic flow and diffusion in channels or pipes with some physiological applications
+  advisor: A. R. Rao
+
+- name: S. Donerah
+  year: 1988
+  title: The Wiener-Hopf technique and allied methods in a class of scattering problems
+  advisor: A. Chakrabarti
+
+- name: A. Chandrasekar
+  year: 1988
+  title: Numerical studies of some flow problems in rotating laminar boundary layers
+  advisor: G. Nath
+
+- name: R. Srinivasan
+  year: 1988
+  title: A mathematical theory of propagation of multidimensional shock and nonlinear waves
+  advisor: Phoolan Prasad
+
+- name: R. Jagadish
+  year: 1988
+  title: Theoretical studies of some superconductors
+  advisor: G. Nath
+
+- name: V. Ch. Venkaiah
+  year: 1988
+  title: "Computations in linear algebra: a new look at resevue arithmetic"
+  advisor: A. R. Rao
+
+- name: S. R. Kasiviswanathan
+  year: 1988
+  title: The swirling flow between rotating coaxial and non-coaxial disks
+  advisor: A. R. Rao
+
+- name: Savitha Mahajan
+  year: 1988
+  title: Numerical studies of unsteady double diffusive mixed convective boundary layer flows
+  advisor: G. Nath
+
+- name: H. G. Datar
+  year: 1988
+  title: Numerical solutions of some unsteady boundary layer flows
+  advisor: G. Nath
+
+- name: Mrinal K. Ghosh
+  year: 1989
+  title: Ergodic and adaptive control of Markov Processes
+  advisor: V. Borkar, V. G. Tikekar
+
+- name: M. S. Ganagi
+  year: 1989
+  title: On some problems in relativistic and non-relativistic hydro- and magnetohydrodynamics
+  advisor: A. V. Gopalakrishna
+
+- name: K. Ramachandra Nair
+  year: 1989
+  title: Numerical and analytical studies of generalized Burgers equations
+  advisor: P. L. Sachdev
+
+- name: S. Parai
+  year: 1990
+  title: Stability of incompressible stratified fluid flows
+  advisor: G. Nath
+
+- name: S. Bhattacharyya
+  year: 1990
+  title: Numerical studies of compressible rotating laminar boundary layer flows
+  advisor: G. Nath
+
+- name: B. D. Thatte
+  year: 1990
+  title: On reconstruction problems in graph theory
+  advisor: N. Manickam
+
+- name: D. Chandrasekar
+  year: 1991
+  title: Transonic flow of a real fluid and some problems using a new theory of shock dynamics
+  advisor: Phoolan Prasad
+
+- name: A. K. Nandakumaran
+  year: 1991
+  title: Homogenization of partial differential equations in perforated domains
+  advisor: Phoolan Prasad
+
+- name: V. Rajeswari
+  year: 1992
+  title: Numerical studies of unsteady boundary layer flow problems
+  advisor: G. Nath
+
+- name: B. R. Shankar
+  year: 1992
+  title: Finite section convolution integral operations structure  of resolvent and solution of equations of the first kind
+  advisor: R. Vittal Rao
+
+- name: R. V. Sagayamary
+  year: 1992
+  title: Theoretical studies of the flow of physiological fluids under pathological situations
+  advisor: G. Nath
+
+- name: K. V. Manjula
+  year: 1992
+  title: Analysis of the mathematical models of blood flow in the cardiovascular system
+  advisor: G. Nath
+
+- name: Amalendu Sau
+  year: 1992
+  title: Numerical studies of some compressible boundary layer flows
+  advisor: G. Nath
+
+- name: Lingala Vijayabharathi
+  year: 1992
+  title: A study of a class of water wave scattering problems
+  advisor: A. Chakrabarti
+
+- name: A. T. Easwara
+  year: 1993
+  title: Numerical investigations of unsteady incompressible boundary layer flows
+  advisor: G. Nath
+
+- name: M. Sathyakrishna
+  year: 1993
+  title: Analysis of some unsteady laminar boundary layer flows using numerical methods
+  advisor: G. Nath
+
+- name: Sathyajit Roy
+  year: 1993
+  title: Numerical studies of laminar compressible boundary layer flows with heat and mass transfer
+  advisor: G. Nath, A. Chakrabarti
+
+- name: K. Padmavathi
+  year: 1993
+  title: Flow in pipes of uniform and nonuniform cross sections with physiological applications
+  advisor: A. Ramachandra Rao
+
+- name: Rajeev K. Tripathi
+  year: 1993
+  title: A numerical study of natural convection boundary layer flows
+  advisor: G. Nath
+
+- name: S. Ganapathi Ramay
+  year: 1994
+  title: Fredholm determinant and decay properties of eigenvalues of Hilbert-Schmidt intergral operators
+  advisor: R. Vittal Rao
+
+- name: B. Mayil Vaganan
+  year: 1994
+  title: Exact analytic solutions for some classes of PDE's
+  advisor: P. L. Sachdev
+
+- name: T. Chitra
+  year: 1995
+  title: Combat modelling simulation of aerial combact of m vs n aircraft
+  advisor: G. Nath, A. Chakrabarti
+
+- name: Durga Pada Manna
+  year: 1995
+  title: Some mixed boundary value problems arising in viscous flow theory
+  advisor: A. Chakrabarti
+
+- name: Ratikanta Panda
+  year: 1995
+  title: Some nonlinear elliptic equations involving nonlinearities of critical growth
+  advisor: R. Vittal Rao, Adimurthi
+
+- name: Nageswara Yogi A Y
+  year: 1995
+  title: On the analytic theory of explosions
+  advisor: P. L. Sachdev
+
+- name: Sarathy R
+  year: 1995
+  title: Regular and chaotic behaviour of some dynamical systems
+  advisor: P. L. Sachdev
+
+- name: Sharada Ramanan
+  year: 1995
+  title: Singularity structure of dynamical systems
+  advisor: P. L. Sachdev
+
+- name: A. J. George
+  year: 1996
+  title: A study of solutions of singular integral equations
+  advisor: A. Chakrabarti
+
+- name: Trilochan Sahoo
+  year: 1996
+  title: Fourier analysis and allied methods in problems of scattering and radiation of water waves
+  advisor: A. Chakrabarti
+
+- name: R. Mukundan
+  year: 1996
+  title: Image based altitude and position estimation using moment functions
+  advisor: A. Chakrabarti
+
+- name: G. V. Ramanan
+  year: 1997
+  title: Proof of a conjecture of Framkl and Fuvedi and some related theorems
+  advisor: R. Vittal Rao
+
+- name: N. Srinivas
+  year: 1997
+  title: Uncertainty handling in knowledge based systems via evidence representations
+  advisor: A. Chakrabarti
+
+- name: S. Usha
+  year:
+  title: Peristaltic transport of biofluids
+  advisor: A. Ramachandra Rao
+
+- name: K. Sangeetha
+  year: 1997
+  title: Numerical simulation of converging nonlinear wavefronts
+  advisor: Phoolan Prasad
+
+- name: A. K. Chakraborty
+  year: 1997
+  title: Software quality testing and remedies
+  advisor: R. Ravindran
+
+- name: Pankaj Sahay
+  year: 1997
+  title: Optimal control of a stochastic hybrid system
+  advisor: M. K. Ghosh
+
+- name: Hamsapriya
+  year: 1997
+  title: A study and development of numerical techniques for the solution of integral equations
+  advisor: A. Chakrabarti
+
+- name: S. K. Singh
+  year: 1998
+  title: Some problems on the propagation of plane and curved shocks
+  advisor: Phoolan Prasad
+
+- name: K. Suresh Kumar
+  year: 1998
+  title: Stochastic differential games in a bounded domain
+  advisor: M. K. Ghosh
+
+- name: P. C. Biswas
+  year: 1998
+  title: Benard-Marangoric convection and instability in a layered fluid system
+  advisor: A. Ramachandra Rao
+
+- name: S. Suresha
+  year: 1999
+  title: Thermal sensitivity analysis of some space craft components
+  advisor: R. Vittal Rao
+
+- name: Chi. Srinivasa Rao
+  year: 1999
+  title: Some analytic studies ongeneralized Burger's equations
+  advisor: A. Chakrabarti, P. L. Sachdev
+
+- name: Monica Anand
+  year: 1999
+  title: Propagation of a curved weak shock front
+  advisor: Phoolan Prasad
+
+- name: Minita S. Sachidanand
+  year: 2000
+  title: Applications of Lie algebraic techniques to Hamiltonian systems
+  advisor: G. Rangarajan
+
+- name: T. M. Janaki
+  year: 2000
+  title: Computation of Lypunov spectrum and dynamic moment invariants
+  advisor: G. Rangarajan
+
+- name: Vinay Rao
+  year: 2000
+  title: Spectral approximations
+  advisor: R. Vittal Rao
+
+- name: Indranath Sengupta
+  year: 2001
+  title: Betti numbers, Grobner bases and syzygies for cerain affine monomial curves
+  advisor: Dilip P. Patil
+
+- name: Nandini Nilakantan
+  year: 2001
+  title: Two dimensional weak pseudomanifolds with few vertices
+  advisor: Basudeb Datta
+
+- name: Nirmalendu Chaudhuri
+  year: 2001
+  title: On the Hardy-Sobolev inequality and its applications to certain singular problems
+  advisor: M. K. Ghosh, Mythily Ramaswamy
+
+- name: Sista Sivaji Ganesh
+  year: 2002
+  title: Periodic homogenization via Bloch wave method
+  advisor: R. Ravindran
+
+- name: K. S. Mallikarjuna Rao
+  year: 2002
+  title: Differential games and viscosity solutions
+  advisor: M. K. Ghosh, A. K. Nandakumaran
+
+- name: S. Jayanthi (QIP)
+  year: 2003
+  title: Non-Darcy non-newtonian free or mixed convection flow heat transfer problems in porous media
+  advisor: A. Chakrabarti, M. K. Ghosh
+
+- name: Srinivasa Rao Manaas
+  year: 2003
+  title: Singular integral equations in water wave scattering
+  advisor: A. Chakrabarti
+
+- name: Baskar. S.
+  year: 2003
+  title: Kinematical conservation laws and applications
+  advisor: Phoolan Prasad, A. K. Nandakumaran
+
+- name: A. J. Shaiju
+  year: 2004
+  title: Optimal control and differential games in a Hilbert space
+  advisor: M. K. Ghosh, A. K. Nandakumaran
+
+- name: Manoranjan Mishra
+  year: 2005
+  title: Peristaltic flows with some applications
+  advisor: A. Ramachandra Rao
+
+- name: Dharmathi Sheetal
+  year: 2005
+  title: Optimal control, differential games and quasivariational inequalities
+  advisor: M. K. Ghosh, Mythily Ramaswamy
+
+- name: Ashish Kumar Upadhyay
+  year: 2005
+  title: Degree-regular triangulations of the torus, the Klein bottle and the double torus
+  advisor: Basudeb Datta
+
+- name: Siddhartha Mishra
+  year: 2005
+  title: Analysis and numerical approximation of conservation laws with discontinuous coefficients
+  advisor: M. K. Ghosh, Adimurthi
+
+- name: N. Hariharan
+  year: 2005
+  title: Time series analysis of neurobiological signals
+  advisor: G. Rangarajan
+
+- name: Rahul Jain
+  year: 2006
+  title: Regularity and propagation phenomenon in some linear and nonlinear pdes with particular reference to microlocal analysis
+  advisor: B. R. Nagaraj, Sameer Jalnapurkar
+
+- name: Jaydeb Sarkar
+  year: 2006
+  title: Characteristic functions for tuples of commuting operators
+  advisor: T. Bhattacharyya
+
+- name: Sanjiban Santra
+  year: 2006
+  title: On a class of superlinear elliptic problems in symmetric domains and in a fourth order singular eigenvalue problem
+  advisor: A. K. Nandakumaran, P. N. Srikanth
+
+- name: S. Akila
+  year: 2007
+  title: Orbit model analysis and dynamic filter compensation for onboard autonomy
+  advisor: M. K. Ghosh, R. Pandian (ISRO)
+
+- name: Prabal Paul
+  year: 2007
+  title: On the peak-to-average power ratio for affine linear codes
+  advisor: C. R. Pradeep
+
+- name: J. P. Mohan Das
+  year: 2007
+  title: Spectral theory and root bases associated with multiparameter eigenvalue problems
+  advisor: T. Bhattacharyya
+
+- name: Anindya Goswami
+  year: 2008
+  title: Semi-Markov processes in dynamic games and quantitative finance
+  advisor: M. K. Ghosh
+
+- name: Nedungadi Atira G.
+  year: 2010
+  title: Granger causality for point processes and block coherence
+  advisor: G. Rangarajan
+
+- name: Prachi M.
+  year: 2010
+  title: Some aspects of the Kobayashi and Caratheodory metrics on pseudoconvex domains
+  advisor: K. Verma
+
+- name: Hari Shankar Gupta
+  year: 2010
+  title: Numerical tudy of regularization methods for elliptic Cauchy problems
+  advisor: Phoolan Prasad
+
+- name: Arun K. R.
+  year: 2010
+  title: Kinematical conservation laws and propagation of nonlinear waves in three dimensions
+  advisor: Phoolan Prasad
+
+- name: Sushil Gorai
+  year: 2010
+  title: Exploring polynomial convexity of certain classes of sets
+  advisor: G. Bharali
+
+- name: Diganta Borah
+  year: 2010
+  title: A study of the metric induced by the Robin function
+  advisor: K. Verma
+
+- name: Suparna Sen
+  year: 2011
+  title: Segal-Bargmann transform and Paley-Wiener theorems on motion groups
+  advisor: E. K. Narayanan
+
+- name: Rahul Garg
+  year: 2012
+  title: On the role of the Bargmann transform in Uncertainty Principles
+  advisor: S. Thangavelu
+
+- name: Amit Tripathi
+  year: 2012
+  title: Vector bundles over hypersurfaces of projective varieties
+  advisor: G. V. Ravindra, M. K. Ghosh
+
+- name: Dheeraj D. Kulkarni
+  year:
+  title: Relative symplectic caps, 4 genus and fibered knots
+  advisor: S. Gadgil
+
+- name: Dinesh K. Keshari
+  year: 2012
+  title: Infinitely divisible metrics, curvature inequalities and curvature formulae
+  advisor: G. Misra
+
+- name: Amit Samanta
+  year: 2012
+  title: Joint eigenfunctions on the Heisenberg group and support theorems on R^n
+  advisor: E. K. Narayanan
+
+- name: Jotsaroop Kaur
+  year: 2012
+  title: Grushin multipliers and Toeplitz operators
+  advisor: S. Thangavelu
+
+- name: Gururaja H. A.
+  year: 2012
+  title: Ricci flow and isotropic curvature
+  advisor: H. Seshadri
+
+- name: Sourav Pal
+  year: 2012
+  title: Dilations, functional model and a complete unitary invariant of a F-contraction
+  advisor: T. Bhattacharyya
+
+- name: G. P. Balakumar
+  year: 2013
+  title: Rigidity and regularity of holomorphic mappings
+  advisor: K. Verma
+
+- name: Soma Maity
+  year: 2013
+  title: On the study of certain Riemannian functionals
+  advisor: H. Seshadri
+
+- name: Sanjay P. K.
+  year: 2013
+  title: Riesz transforms associated with Heisenberg groups and Grushin operators
+  advisor: S. Thangavelu
+
+- name: Ravi Prakash
+  year: 2013
+  title: Homogenization of optimal control problems in a domain with oscillating boundary
+  advisor: A. K. Nandakumaran
+
+- name: Tamal Banerjee
+  year: 2013
+  title: Analyzing credit risk models in a regime switching market
+  advisor: M. K. Ghosh, S. Iyer
+
+- name: Subhamay Saha
+  year: 2013
+  title: Single and multi-player stochastic dynamic optimization
+  advisor: M. K. Ghosh
+
+- name: Jaikrishnan J.
+  year: 2014
+  title: On the structure of proper holomorphic mappings
+  advisor: G. Bharali
+
+- name: Atreyee Bhattacharya
+  year: 2014
+  title: On an ODE associated with the Ricci flow
+  advisor: H. Seshadri
+
+- name: Kamana Porwal
+  year: 2014
+  title: A posteriori error analysis of discontinuous Galerkin methods for elliptic variational inequalities
+  advisor: T. Gudi
+
+- name: Divakaran D.
+  year: 2014
+  title: Compactness theorems for the spaces of distance measure spaces and Riemann surface laminations
+  advisor: S. Gadgil
+
+- name: Avijit Pal
+  year: 2014
+  title: Contractivity, complete contractivity and curvature inequalities
+  advisor: G. Misra
+
+- name: Sayani Bera
+  year: 2015
+  title: Shift-like automorphisms of Ck
+  advisor: K. Verma
+
+- name: Pradeep Boggarapu
+  year: 2015
+  title: Mixed norm estimates in Dunkl setting and chaotic behaviour of heal semigroups
+  advisor: S. Thangavelu
+
+- name: Santanu Sarkar
+  year: 2015
+  title: Some problems in multivariable operator theory
+  advisor: T. Bhattacharyya
+
+- name: T. V. H. Prathamesh
+  year: 2015
+  title: Mechanising Knot theory
+  advisor: S. Gadgil
+
+- name: Sayan Bagchi
+  year: 2015
+  title: Weighted norm inequalities for Weyl multipliers and Hermite pseudo-multipliers
+  advisor: S. Thangavelu
+
+- name: Bidyut Sanki
+  year: 2015
+  title: Shortest length geodesics on closed hyperbolic surfaces
+  advisor: S. Gadgil
+
+- name: Biplab Basak
+  year: 2015
+  title: Minimal crystallizations of 3- and 4-manifolds
+  advisor: Basudeb Datta
+
+- name: Senthil Raani K. S.
+  year: 2016
+  title: Lp asymptotics of Fourier transform of fractal measures
+  advisor: E. K. Narayanan
+
+- name: Tulasi Ram Reddy A.
+  year: 2016
+  title: On critical points of random polynomials and spectrum of certain products of random matrices
+  advisor: Manjunath K.
+
+- name: Ratna Pal
+  year: 2016
+  title: Dynamical properties of families of holomorphic mappings
+  advisor: K. Verma
+
+- name: Pranav Haridas
+  year: 2016
+  title: The Green's function, the Bergman Kernel and quadrature domains in Cn
+  advisor: K. Verma
