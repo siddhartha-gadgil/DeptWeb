@@ -54,3 +54,64 @@ jan2017:
     - code: MA 390
       name: Percolation and Random Graphs
       instructor: Srikanth Iyer
+
+aug2016:
+  core1:
+    - code: MA 212
+      name: Algebra I
+      instructor: Abhishek Banerjee
+
+    - code: MA 219
+      name: Linear Algebra
+      instructor: Pooja Singla
+
+    - code: MA 221
+      name: "Analysis I: Real Anaysis"
+      instructor: E. K. Narayanan
+
+    - code: MA 231
+      name: Topology
+      instructor: Subhojoy Gupta
+
+    - code: MA 261
+      name: Probability Models
+      instructor: M. K. Ghosh
+
+  core2:
+    - code: MA 223
+      name: Functional Analysis
+      instructor: S. Thangavelu
+
+    - code: MA 232
+      name: Introduction to Algebraic Topology
+      instructor: Siddhartha Gadgil
+      webpage: http://math.iisc.ac.in/~gadgil/AlgebraicTopology/home/
+
+    - code: MA 242
+      name: Partial Differential Equations
+      instructor: Thirupathi Gudi
+
+  electives:
+    - code: MA 278
+      name: Introduction to Dynamical Systems Theory
+      instructor: Govindan Rangarajan & Janaki Balakrishnan
+
+    - code: MA 321
+      name: Analysis III
+      instructor: A. K. Nandakumaran
+
+    - code: MA 340
+      name: Advanced Functional Analysis
+      instructor: Tirthankar Bhattacharyya
+
+    - code: MA 351
+      name: Modular Forms
+      instructor: Soumya Das
+
+    - code: MA 361
+      name: Probability Theory
+      instructor: Srikanth K. Iyer
+
+    - code: MA 380
+      name: Introduction to Complex Dynamics
+      instructor: Gautam Bharali

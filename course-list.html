@@ -2,29 +2,25 @@
 ---
 
 {% assign semester = site.data.courses.jan2017 %}
+<div class="col-md-8 col-offset-md-1">
 <h3 class="text-center">Courses for the semester January-April 2017</h3>
 
-<div class="col-md-8 col-offset-md-1">
+{% include semester-courses.html %}
 
-<h4> Core for Integrated Ph.D. first year: </h4>
+{% assign semester = site.data.courses.aug2016 %}
+<h3 class="text-center">Courses for the semester August-December 2017</h3>
 
-{% assign list = semester.core1 %}
+{% include semester-courses.html %}
 
-{% include course-table.html %}
-<p>&nbsp;</p>
 
-{% if semester.core2 %}
-<h4> Core for Integrated Ph.D. second year: </h4>
-
-{% assign list = semester.core2 %}
-
-{% include course-table.html %}
-<p>&nbsp;</p>
-{% endif %}
-
-<h4> Elective Courses </h4>
-
-{% assign list = semester.electives %}
-
-{% include course-table.html %}
+<h3>Earlier Semesters</h3>
+<ul>
+  <li> <a href="/courses2015AD.html"> August-December 2015</a></li>
+  <li> <a href="/courses2015JA.html">January-April 2015</a></li>
+  <li> <a href="/courses2014AD.html"> August-December 2014</a></li>
+  <li> <a href="/courses2014JA.html"> January-April 2014</a></li>
+  <li> <a href="/courses2013AD.html"> August-December 2013</a></li>
+  <li> <a href="/coursesold.html"> Earlier courses</a></li>
+  </li>
+ </ul>
  </div>
