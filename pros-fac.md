@@ -52,6 +52,7 @@ three referees, and any other relevant details to:
   Indian Institute of Science  
   Bangalore  560 012  
   INDIA  
+
   e-mail: chairman[at]math.iisc.ernet.in
 
 General information about IISc is available on the [IISc website](http://www.iisc.ac.in).

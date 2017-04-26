@@ -2,6 +2,7 @@
 ---
  
 LINEAR AND NONLINEAR TIME SERIES ANALYSIS 
+
 Linear time series analysis - modelling time series using stochastic processes,
 stationarity, autocovariance, auto correlation, multivariate analysis - AR, MA,
 ARMA, AIC criterion for order selection; spectral analysis - deterministic
@@ -13,6 +14,7 @@ bootstrap techniques for estimation of parameters; nonlinear time series
 analysis - Lyapunov Xexponents, correlation dimension, embedding methods,
 surrogate data analysis.   
  
+
 Books
 
 *

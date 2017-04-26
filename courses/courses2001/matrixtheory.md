@@ -2,10 +2,12 @@
 ---
  
 MATRIX THEORY
+
 Vector spaces, Bases and dimension, Direct ums, linear transformations, Matrix
 algebra, Eigenvalues and eigenvectors, Cayley Hamilton Theorem, Jordan
 canonical form., Orthogonal matrices and rotations, Polar decomposition.,
 Bilinear forms.
+
 Books
 
 * Artin, M., Algebra, Prentice-Hall of India, 1994.

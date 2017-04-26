@@ -19,4 +19,5 @@ Recommended books
 
  
 PREREQUISITES:
+
 MA 224 (Complex Analysis) or equivalent

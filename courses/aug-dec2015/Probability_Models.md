@@ -1,6 +1,7 @@
 ---
 ---
 PROBABILITY MODELS
+
 Sample spaces, events, probability, discrete and continuous random variables,
 Conditioning and independence, Bayes'  formula, moments and moment generating
 function, characteristic function, laws of large numbers, central limit

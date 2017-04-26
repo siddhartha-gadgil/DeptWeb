@@ -4,6 +4,7 @@
 
  
 MATHEMATICAL METHODS
+
 Matrix Algebra: Systems of linear equations, Nullspace, Range, Nullity, Rank,
 Similarity, Eigenvalues, Eigenvectors, Diagonalization, Jordan Canonical form.
 Ordinary Differential Equations: Singular points, Series solution Sturm
@@ -14,6 +15,7 @@ Complex Variables:Analytic functions, Cauchy�s integral theorem and integral
 formula, Taylor and Laurent series, isolated singularities, Residue and
 Cauchy�s residue theorem
 chwarz lemma.
+
 Books
 
 * Hoffman, J. and Kunze, R., Linear Algebra, Prentice-Hall, 1970.

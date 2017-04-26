@@ -4,6 +4,7 @@
 
  
  STOCHASTIC FINANCE  I
+
  
 Financial market. Financial instruments: bonds, stocks, derivatives.  Binomial
 no-arbitrage pricing model: single period and multi-period models.  Martingale
@@ -12,6 +13,7 @@ dependent assets: binomial models for interest rates, fixed income derivatives,
 forward measure and future.  Investment portfolio: Markovitz�s
 diversification.  Capital asset pricing model (CAPM).  Utility theory.
  
+
 Books
 
 * Luenberger, D.V., Investment Science, Oxford University Press, 1998.

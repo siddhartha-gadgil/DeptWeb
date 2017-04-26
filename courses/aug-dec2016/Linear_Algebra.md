@@ -1,6 +1,7 @@
 ---
 ---
 LINEAR ALGEBRA
+
 Vector spaces: Definition, Basis and dimension, Direct sums.
 Linear transformations: Definition, Rank-nullity theorem, Algebra of linear
 transformations, Dual spaces, Matrices.

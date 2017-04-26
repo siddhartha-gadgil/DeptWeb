@@ -3,6 +3,7 @@
 
 
 TOPOLOGY
+
 Open and closed sets,  continuous functions, the metric topology, the product
 topology, the ordered topology, the quotient topology. Connectedness and path
 connectedness, local  path connectedness. Compactness. Countability axioms.

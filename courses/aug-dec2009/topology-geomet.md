@@ -14,6 +14,7 @@ Landmarks in Mathematics, Princeton Univ. Press, 1997. * Munkres, J. R.,
 Elements of Algebraic Topology, Addison-Wesley, 1984. Â  Â 
 ---
 --- TOPOLOGY &
+
 GEOMETRY Manifolds:Â DifferentiableÂ manifolds, differentiable maps and
 tangentÂ  spaces,Â  regular values and Sard's theorem, vector fields,
 submersionsÂ  and immersions, LieÂ  groups,Â  theÂ  Lie algebra of aÂ  LieÂ 

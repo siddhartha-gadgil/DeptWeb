@@ -1,6 +1,7 @@
 ---
 ---
 TOPICS IN ANALYSIS
+
 In this course we begin by stating many wonderful theorems in analysis and
 proceed to prove them one by one. In contrast to usual courses (where we learn
 techniques and see results as "applications of those techniques). We take a

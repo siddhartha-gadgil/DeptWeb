@@ -1,6 +1,7 @@
 ---
 ---
 LINEAR ALGEBRA
+
 Vector spaces: Basis and dimension, Direct sums.
 Determinants: Theory of determinants, Cramer’s rule.
 Linear transformations: Rank-nullity theorem, Algebra of linear

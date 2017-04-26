@@ -1,6 +1,7 @@
 ---
 ---
 NUMERICAL ANALYSIS
+
 Introduction: Floating point representation of numbers and roundoff errors,
 Interpolation Numerical integration.
 Linear systems and matrix theory: Various factorizations of inversion of
@@ -12,6 +13,7 @@ other methods.
 Numerical methods for PDE: Finite difference method for Laplace, Heat and wave
 equations.
  
+
 Books
 
 * Faires, J. D. and Burden, R., Numerical Methods, Brooks/Cole Publishing Co.,

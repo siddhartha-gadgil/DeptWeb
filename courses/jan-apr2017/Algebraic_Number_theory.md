@@ -1,6 +1,7 @@
 ---
 ---
 ALGEBRAIC NUMBER THEORY
+
 Algebraic preliminaries: Algebraic field extensions: Normal, separable and
 Galois extensions. Euclidean rings, principal ideal domains and factorial
 rings. Quadratic number fields. Cyclotomic number fields.
@@ -24,6 +25,7 @@ Recommended books
 * Samuel, P., Algebraic Theory of Numbers, Hermann, 1970
 
 PREREQUISITES:
+
 
 * Linear algebra (MA 219 or equivalent)
 * Basic algebra: Groups, rings, modules (MA 212 or equivalent), and algebraic

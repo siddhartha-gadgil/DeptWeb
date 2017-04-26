@@ -2,6 +2,7 @@
 ---
  
 RIEMANNIAN GEOMETRY
+
 Prerequisites:  MA 331
 Riemannian metric, Levi-Civita connection, geodesics, exponential map, Hopf-
 Rinow theorem, curvature tensior, first and second variational formula, jacobi
@@ -9,6 +10,7 @@ fields, Myers Bonnet theorem, Bishop-Gromov volume comparison theorem, Cartan-
 Hadamard theorem, Synge’s theorem, de Rham cohomology and the Bochner
 techniques.  Topological implications of positive or negative curvature.
  
+
 Books
 
 *

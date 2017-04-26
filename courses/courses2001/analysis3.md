@@ -2,6 +2,7 @@
 ---
  
 ANALYSIS III
+
 Theory of Distributions: Introduction, Topology of test functions,
 Convolutions, Schwartz Space, Tempered distributions.
 
@@ -11,6 +12,7 @@ Continuum and Compact imbeddings, Trace results.
 Elliptic boundary value problems: Variational formulation, Weak solutions,
 Maximum Principle, Regularity results.
  
+
 Books
 
 * Barros-Nato: An introduction to the theory of Distributions, Marcel Dekker

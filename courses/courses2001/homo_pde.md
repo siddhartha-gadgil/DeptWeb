@@ -4,12 +4,14 @@
 
  
 HOMOGENIZATION OF PARTIAL DIFFERENTIAL EQUATIONS
+
 Review of Distributions, Sobolev spaces and Variational formulation.
 Introduction to Homogenization. Homogenization of elliptic PDEs. Specific
 Cases: Periodic structures and layered materials. Convergence Results: Energy
 method, Two-scale multi-scale methods, H-Convergence, Bloch wave method.
 General Variational convergence: G -convergence and G- convergence, Compensated
 compactness. Study of specific examples and applications
+
 Books
 
 * A. Bensoussan, J. L., Lions and G., Papanicolaon., Asymptotic Analysis for

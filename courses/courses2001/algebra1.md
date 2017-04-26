@@ -4,6 +4,7 @@
 
  
 ALGEBRA I
+
 Groups: Groups, Subgroups, Normal subgroups, Quotient groups, Group
 homomorphisms, Isomorphisms, Isomorphism theorems, Direct products, Finitely
 generated abelian groups, Group actions, Permutation groups, Sylow�s theorems,
@@ -15,6 +16,7 @@ theory.
 Modules: Modules, Submodules, Free modules, Rank of a module, Module
 homomorphisms.
  
+
 Books
 
 * Fraleigh, P. A.., First course in Abstract Algebra, Addison-Wesley / Narosa,

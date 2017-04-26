@@ -2,6 +2,7 @@
 ---
  
 DISCRETE MATHEMATICS
+
 Combinatorics: Basic counting techniques. Principle of inclusion and exclusion.
 Recurrence relations and generating functions. Pigeon-hole principle, Ramsey
 theory. Standard counting numbers, Polya enumeration theorem.
@@ -11,6 +12,7 @@ assignment prolem. Colouring or Graphs.
 Number Theory: Divisibility Arithmetic functions. Congruences. Diophantine
 equations. Fermat's big theorem, Quadratic reciprocity laws. Primitive roots.
  
+
 Books
 
 * Bondy, J. A. and Muirty, U. S. R., Graph theory with applications, Elsevier-

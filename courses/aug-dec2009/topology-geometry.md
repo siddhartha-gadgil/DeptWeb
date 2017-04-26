@@ -1,6 +1,7 @@
 ---
 ---
 TOPOLOGY & GEOMETRY
+
 Manifolds: Differentiable manifolds, differentiable maps and tangent  spaces, 
 regular values and Sard's theorem, vector fields, submersions  and immersions,
 Lie  groups,  the  Lie algebra of a  Lie  group.
@@ -8,6 +9,7 @@ Fundamental Groups:Homotopy of maps, multiplication of paths, the fundamental
 group, induced homomorphisms, the fundamental group of the circle, covering
 spaces, lifting theorems, the universal covering space, Seifert-Van Kampen
 theorem, applications.
+
 Books
 
 * Brickell, F. and Clark, R. S., Differentiable Manifolds, Van Nostrand
@@ -24,6 +26,7 @@ Books
 ---
 ---
 TOPOLOGY & GEOMETRY
+
 Manifolds: Differentiable manifolds, differentiable maps and tangent  spaces, 
 regular values and Sard's theorem, vector fields, submersions  and immersions,
 Lie  groups,  the  Lie algebra of a  Lie  group.
@@ -31,6 +34,7 @@ Fundamental Groups:Homotopy of maps, multiplication of paths, the fundamental
 group, induced homomorphisms, the fundamental group of the circle, covering
 spaces, lifting theorems, the universal covering space, Seifert-Van Kampen
 theorem, applications.
+
 Books
 
 * Brickell, F. and Clark, R. S., Differentiable Manifolds, Van Nostrand

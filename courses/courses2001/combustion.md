@@ -2,11 +2,13 @@
 ---
  
 COMBUSTION AND SHOCKWAVES
+
 Basic background material on ODE, PDE and fluid mechanics, Conservation laws,
 Combustion modelling, Blast waves and detonations, Hamillton-Jacobi equations.
 Special topics from one of the following three: (1) Numerics of conservation
 laws, (2) Mathematicsal problems in low Mach number combustions, (3) Formation
 and propagation of singularities on a nonlinear wavefront in two-dimensions.
+
 Books
 
 * Evans. L. C., Partial Differential Equations, AMS, 1998, Providence, RI.

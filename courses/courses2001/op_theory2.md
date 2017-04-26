@@ -4,6 +4,7 @@
 
  
 OPERATOR THEORY II
+
 Sz.-Nagy � Foias theory: Dilation of contractions on a Hilbert space, minimal
 isometric dilation, unitary dilation. Von Neumann�s inequality. Ando�s theorem
 : simultaneous dilation of a pair of commuting contractions. Parrott�s example
@@ -14,6 +15,7 @@ Operators spaces. Completely positive and completely bounded maps.
 Endomorphisms. Towards dilation of completely positive maps. Unbounded
 operators: Basic theory of unbounded self-adjoint operators.
  
+
 Books
 
 * John B. Conway, A course in Functional Analysis, Springer, 1985.

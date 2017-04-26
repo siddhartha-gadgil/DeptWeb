@@ -1,6 +1,7 @@
 ---
 ---
 INTRODUCTION TO COMPLEX DYNAMICS
+
 The dynamics alluded to by the title of the course refers to dynamical systems
 that arise from iterating a holomorphic self-map of a complex manifold. In this
 course, the manifolds underlying these dynamical systems will be of complex

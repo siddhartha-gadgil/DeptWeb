@@ -1,6 +1,7 @@
 ---
 ---
 PARTIAL DIFFERENTIAL EQUATIONS
+
 First-order partial differential equations: Method of characteristics, Cauchy
 problem, Hamilton-Jacobi equations (including either the Hopf-Lax formula or
 introduction to viscosity solutions, as per audience interest).

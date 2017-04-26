@@ -4,10 +4,12 @@
 
  
 COMPLEX ANALYSIS I
+
 Complex numbers, Analytic functions, Cauchy�s integral theorem, Power series,
 Liouville�s theorem, Mean-value and maximum-modulus theorem, Morera�s theorem,
 Schwartz reflection principle, Isolated singularities, Residue theorem, Contour
 integration, Bilinear transformations.
+
 Books
 
 * Bak, J. and Newman, D.J., Complex Analysis, Springer-Verlag, 1982.

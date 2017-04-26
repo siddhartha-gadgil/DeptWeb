@@ -1,6 +1,7 @@
 ---
 ---
 SPECIAL TOPIC IN OPERATOR THEORY
+
 Quick  review  of  the  theory  of  bounded  operators  on  a  Hilbert  space
  compactoperators,  Fredholm  operators,  spectral  theory  of  compact  self-
 adjoint  operators.
@@ -11,6 +12,7 @@ calculus  for an  unbounded  self-adjoint  operator.
 Schatten  p-classes- interpolation.
 Krein's  spectral  shift  function
 Prerequisite  :  MA  223
+
 Books
 
 * Conway,  J.  B.,  A  course  in  functional  analysis,  Springer.

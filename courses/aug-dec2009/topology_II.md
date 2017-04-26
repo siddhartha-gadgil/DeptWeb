@@ -1,6 +1,7 @@
 ---
 ---
 TOPOLOGY - II
+
 Point Set Topology: Continuous functions, metric topology, connectedness, path
 connectedness, compactness, countability axioms, separation axioms, complete
 metric spaces,  function  spaces, quotient  topology, topological groups, orbit
@@ -9,6 +10,7 @@ The fundamental group:  Homotopy  of  maps, multiplication of paths, the
 fundamental group, induced homomorphisms, the  fundamental group of the
 circle,  covering spaces, lifting theorems, the universal covering space,
 Seifert-Van Kampen theorem, applications.
+
 Books
 
 * Armstrong, M. A., Basic Topology, Springer (India), 2004.
@@ -25,6 +27,7 @@ Books
 ---
 ---
 TOPOLOGY - II
+
 Point Set Topology: Continuous functions, metric topology, connectedness, path
 connectedness, compactness, countability axioms, separation axioms, complete
 metric spaces,  function  spaces, quotient  topology, topological groups, orbit
@@ -33,6 +36,7 @@ The fundamental group:  Homotopy  of  maps, multiplication of paths, the
 fundamental group, induced homomorphisms, the  fundamental group of the
 circle,  covering spaces, lifting theorems, the universal covering space,
 Seifert-Van Kampen theorem, applications.
+
 Books
 
 * Armstrong, M. A., Basic Topology, Springer (India), 2004.

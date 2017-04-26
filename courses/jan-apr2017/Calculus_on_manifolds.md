@@ -1,6 +1,7 @@
 ---
 ---
 CALCULUS ON MANIFOLDS
+
 Functions of several variables, Directional derivatives and continuity, total
 derivative, mean value theorem for differentiable functions, Taylor's formula.
 The inverse function and implicit function theorems, extreme of functions of

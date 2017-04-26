@@ -2,9 +2,11 @@
 ---
  
 NONLINEAR FUNCTIONAL ANALYSIS AND APPLICATIONS TO DIFFERENTIAL EQUATIONS - II
+
 Introduction to Calculus of Variations and Morse Theory.
 Critical Point Theory for Gradient Mappings: Mountain Pass theorem, linking
 Theorems, Saddle Point theorem, Dual formulation etc.
+
 Books
 
 * Rabinowitz, minimax methods in critical point theory with applications to

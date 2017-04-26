@@ -3,6 +3,7 @@
 
 
 ALGEBRA - II
+
 Rings, Euclidaen domains, PIDs, UFDs, Factorization in Polynomial rings, Prime
 and maximal ideals, Chinese remainder theorem.
 
@@ -11,6 +12,7 @@ Separable extensions, Splitting fields, Galois extensions, Galois group of a
 polynomial. Fundamental theorem of Galois theory, Solvabality by radicals,
 Transcendence bases.
  
+
 Books
 
 * Herstein, I. N., Topics in Algebra, Vikas Pub. 1972.

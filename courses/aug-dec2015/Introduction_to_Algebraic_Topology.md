@@ -1,6 +1,7 @@
 ---
 ---
 INTRODUCTION TO ALGEBRAIC TOPOLOGY
+
 The Fundamental group: Homotopy of maps, multiplication of paths, the
 fundamental group, induced homo-morphism, the fundamental group of the circle,
 covering space, lifting theorems, the universal covering space, Seifert Van

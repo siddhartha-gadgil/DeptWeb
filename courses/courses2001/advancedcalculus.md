@@ -2,12 +2,14 @@
 ---
  
 ADVANCED CALCULUS
+
 Differentiation:Basic definitions and theorems, Partial derivatives,
 Derivatives (as linear maps), Inverse and Implicit function theorems.
 Integration:Basic definitions and theorems, Integrable functions, Partitions of
 unity, Change of variables.
 Manifolds:Basic definitions, forms on manifolds, Stokes theorem on manifolds,
 Volume element, classical theorems (Green's and divergence).
+
 Books
 
 * Rudin, W., Principles of Mathematical Analysis, Third Edition, International

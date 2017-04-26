@@ -4,6 +4,7 @@
 
  
 OPERATOR THEORY I
+
 Review of basic notions from Banach and Hilbert space theory.
 
 Bounded linear operators: Spectral theory of compact, Self adjoint and normal
@@ -14,6 +15,7 @@ Unbound linear operators on Hilbert spaces: Symmetric and self adjoint
 operators, Spectral theory. Banach algebras Gelfand representation theorem. C*
 algebras, Gelfand � Naimark � Segal construction.
  
+
 Books
 
 * Conway, J. B., A course in Functional Analysis, Springer-Verlag, 1990.

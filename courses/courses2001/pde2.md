@@ -2,6 +2,7 @@
 ---
  
 PARTIAL DIFFERENTIAL EQUATIONS II
+
 Introduction to distribution theory and Sobolev spaces, Fundamental solutions
 for Laplace, heat and wave operations.
 
@@ -14,6 +15,7 @@ wave equations.
 System of first order hyperbolic equations: Bicharacteristics, Shocks, Ray
 theory, symmetric hyperbolic systems.
  
+
 Books
 
 * Evans, L. C., Partial Differential Equations, AMS, 1998.

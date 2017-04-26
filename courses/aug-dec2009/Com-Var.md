@@ -1,6 +1,7 @@
 ---
 ---
 TOPICS IN SEVERAL COMPLEX VARIABLES
+
 Prerequisites  :  MA  329 
 
   This will be a self contained course on Riemann Surfaces. Topics include the
@@ -11,6 +12,7 @@ Prerequisites  :  MA  329 
 ---
 ---
 TOPICS IN SEVERAL COMPLEX VARIABLES
+
 Prerequisites  :  MA  329 
 
   This will be a self contained course on Riemann Surfaces. Topics include the

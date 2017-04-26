@@ -1,6 +1,7 @@
 ---
 ---
 LINEAR ALGEBRA
+
 Vector spaces: Basis and dimension, Direct sums.
 Determinants: Theory of determinants, Cramer’s rule.
 Linear transformations: Rank-nullity theorem, Algebra of linear
@@ -14,6 +15,7 @@ of inertia, Spectral theorem for the Hermitian and normal operators on finite
 dimensional vector spaces.
 Linear groups: Classical linear groups, SU2 and SL 2(R).
  
+
 Books
 
 * Artin, M., Algebra, Prentice-Hall of India, 1994.

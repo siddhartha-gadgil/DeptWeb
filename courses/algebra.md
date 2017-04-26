@@ -1,6 +1,7 @@
 ---
 ---
 ALGEBRA
+
 Groups: Review of Groups, Subgroups, Homomorphisms, Normal subgroups, Quotient
 groups, Isomorphism theorems. Group actions and its applications, Sylow
 theorems. Structure of finitely generated abelian groups, Free groups.
@@ -11,6 +12,7 @@ polynomial rings.
 Modules: Modules, Homomorphisms and exact sequences. Free modules. Hom and
 tensor products. Structure theorem for modules over PIDs.
  
+
 Books
 
 * Artin, M., Algebra, Prentice-Hall of India, 1994.

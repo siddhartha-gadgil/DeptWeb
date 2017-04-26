@@ -1,6 +1,7 @@
 ---
 ---
 INTRODUCTION TO MINIMAL SURFACES
+
 Serre-Frenet formula for curves, Parametric surfaces, Isothermal parameters,
 Gauss Map, Gaussian Curvature, Mean curvature, Area functional etc.
 

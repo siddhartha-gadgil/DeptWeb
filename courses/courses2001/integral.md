@@ -2,6 +2,7 @@
 ---
  
 INTEGRAL EQUATIONS WITH APPLICATIONS
+
 Classification of integral equations and occurrence in boundary value problems
 for Ordinary and Partial Differential Equations, Abel's integral equations,
 Integral equations of the second kind, Degenerate Kernels, The Neumann series
@@ -11,6 +12,7 @@ Riemann-Hilbert problems, The Wiener-Hopf equations, The Wiener-Hopf technique,
 Numerical methods, Applications of integral equations of problems of
 Elasticity, Fluid Mechanics and Electromagnetic theory.
  
+
 Books
 
 *

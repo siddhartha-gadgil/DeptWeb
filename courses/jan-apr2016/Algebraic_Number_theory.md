@@ -1,6 +1,7 @@
 ---
 ---
 ALGEBRAIC NUMBER THEORY
+
 Algebraic preliminaries: Algebraic field extensions: Normal, separable and
 Galois extensions. Euclidean rings, principal ideal domains and factorial
 rings. Quadratic number fields. Cyclotomic number fields.
@@ -10,6 +11,7 @@ traces. Resultants and discriminants. Integral bases.
 Class numbers:Lattices and Minkowski theory. Finiteness of class number.
 Dirichlet's unit theorem.
 Ramification Theory: Discriminants.
+
 Books
 
 * Artin, E., Galois Theory, University of Notre Dame Press, 1944
@@ -23,6 +25,7 @@ Books
 * Samuel, P., Algebraic Theory of Numbers, Hermann, 1970
 
 PREREQUISITES:
+
 
 * Linear algebra (MA 219 or equivalent)
 * Basic algebra: Groups, rings, modules (MA 212 or equivalent), and algebraic

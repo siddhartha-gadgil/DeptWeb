@@ -1,6 +1,7 @@
 ---
 ---
 ALGEBRA - II
+
 Part A
 
 * Introduction to categories and functors, direct and inverse limits;
@@ -18,6 +19,7 @@ Part B
 * The Primitive Element Theorem.
 
  
+
 Books
 
 * Artin, M., Algebra, Prentice-Hall of India, 1994.

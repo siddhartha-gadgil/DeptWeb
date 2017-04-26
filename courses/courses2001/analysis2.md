@@ -4,10 +4,12 @@
 
  
 ANALYSIS II
+
 Construction of Lebesgue measure, measurable functions, Limit theorems,
 Lebesgue integration, Convergence theorems, Product measures and Fubini�s
 theorem, Signed measure and Radon-Nikodyn theorem, Change of variables, L �
 Spaces, Riesz representation theorem.
+
 Books
 
 * Rudin, W., Real and Complex Analysis, McGraw-Hill, 1986.

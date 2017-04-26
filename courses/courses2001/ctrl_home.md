@@ -2,6 +2,7 @@
 ---
  
 CONTROL AND HOMOGENIZATION
+
 Prerequisites:Sobolev spaces, Elliptic boundary value problems, Heat and wave
 equations, Variational formulation and semigroup theory.
 Optimal Control of PDE:Optimal control problems governed by elliptic equations
@@ -14,6 +15,7 @@ Controllability and Stabilization of Infinite Dimensional Systems, Hamilton-
 Jacobi-Bellman equations and Riccati equations, Optimal control and
 stabilization of flow related models.
  
+
 Books
 
 * B. Lee and L. Markus, Foundations of Optimal Control Theory, John Wiley,

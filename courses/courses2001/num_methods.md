@@ -1,6 +1,7 @@
 ---
 ---
 NUMERICAL METHODS
+
 Numerical solution of algebraic and transcendental equations, Iterative
 algorithms, Convergence, Newton Raphson procedure, Solutions of polynomial and
 simultaneous linear equations, Gauss method, Relaxation procedure, Error
@@ -17,6 +18,7 @@ Solution of partial differential equations:Finite-difference techniques,
 Stability and convergence of the solution, Method of characteristics. Finite
 element and boundary element methods.
  
+
 Books
 
 * Gupta, A. and Bose, S. C., Introduction to Numerical analysis, Academic
