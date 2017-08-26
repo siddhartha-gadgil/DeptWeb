@@ -1,0 +1,32 @@
+---
+title: Project staff
+---
+<div class="col-md-10 col-md-offset-1">
+<h2 class="text-center">Project Staff</h2>
+
+<table class="table table-striped">
+  {% for stu in site.data.trainee %}
+  <tr>
+    <td class="col-md-7">
+      <div><h4>{{ stu.name }}</h4> </div>
+      {% if stu.email %}
+        <div>
+          <strong>E-mail:</strong> <a href="mailto:{{stu.email}}">{{stu.email}}</a>
+        </div>
+        {% endif %}
+        {% if stu.webpage %}
+        <div>
+        <strong>Web page:</strong> <a href="{{ stu.webpage}}"> {{ stu.webpage }}</a>
+      </div>
+      {% endif %}
+      </div>
+    </td>
+    {% if stu.photo %}
+    <td>
+      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/{{stu.photo}}"></td>
+    {% endif %}
+  </tr>
+  {%  endfor %}
+</table>
+
+</div>
