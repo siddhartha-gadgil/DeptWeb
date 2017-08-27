@@ -10,7 +10,13 @@ val db = parser.parse(reader)
 
 val regex = "[^a-zA-Z0-9 \\-,.\\\\$\\{\\}\\(\\)_\\^]".r
 def fix(s: String) =
-  regex.replaceAllIn(s, "").replace("\\", "\\\\")
+  {
+    val purged = regex.replaceAllIn(s, "").replace("\\", "\\\\")
+    val debraceVec = purged.split('$').toVector.zipWithIndex.map {
+      case (x, n) => if (n % 2 == 0) x.replace("{", "").replace("}", "") else x
+    }
+    debraceVec.mkString("$")
+  }
 val mp = db.getEntries.toMap.values.map(_.getFields.toMap.map{
   case (k, v) => k.getValue.toLowerCase -> v.toUserString})
 val out = mp.map((h) => h.map {

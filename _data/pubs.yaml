@@ -6,7 +6,7 @@
   mrnumber: "2501475"
   pages: "123--142"
   year: 2009
-  title: "Watson-{C}rick pairing, the {H}eisenberg group and {M}ilnor invariants"
+  title: "Watson-Crick pairing, the Heisenberg group and Milnor invariants"
   doi: "10.1007s00285-008-0223-x"
   mrclass: "57M27 (92D10)"
   volume: "59"
@@ -34,7 +34,7 @@
   pages: "2575--2587"
   year: 2012
   mrreviewer: "Thomas Ward"
-  title: "Badly approximable numbers and vectors in {C}antor-like sets"
+  title: "Badly approximable numbers and vectors in Cantor-like sets"
   doi: "10.1090S0002-9939-2011-11105-5"
   mrclass: "11J25 (37C35 37D40)"
   volume: "140"
@@ -48,7 +48,7 @@
   pages: "237--250"
   year: 2015
   mrreviewer: "Sanoli Gun"
-  title: "Simultaneous nonvanishing of {D}irichlet {$L$}-functions and twists of {H}ecke-{M}aass {$L$}-functions"
+  title: "Simultaneous nonvanishing of Dirichlet $L$-functions and twists of Hecke-Maass $L$-functions"
   mrclass: "11F11 (11F66)"
   volume: "30"
   issn: "0970-1249"
@@ -59,7 +59,7 @@
   year: 2000
   mrreviewer: "Radan Ku\\Aera"
   publisher: "Bhaskaracharya Pratishthana, Pune"
-  booktitle: "Cyclotomic fields and related topics ({P}une, 1999)"
+  booktitle: "Cyclotomic fields and related topics (Pune, 1999)"
   title: "Stickelberger revisited"
   mrclass: "11R18 (11R29)"
 
@@ -70,7 +70,7 @@
   year: 2010
   publisher: "Birkh\\auser Verlag, Basel"
   booktitle: "Pseudo-differential operators complex analysis and partial differential equations"
-  title: "Spectral invariance of {SG} pseudo-differential operators on {$L^p(\\Bbb R^n)$}"
+  title: "Spectral invariance of SG pseudo-differential operators on $L^p(\\Bbb R^n)$"
   mrclass: "35S05 (47G30)"
   volume: "205"
 
@@ -81,7 +81,7 @@
   year: 1994
   mrreviewer: "Darrell L. Hicks"
   publisher: "Plenum, New York"
-  booktitle: "Singular limits of dispersive waves ({L}yon, 1991)"
+  booktitle: "Singular limits of dispersive waves (Lyon, 1991)"
   title: "A new theory of shock dynamics"
   mrclass: "35L67 (76L05)"
   volume: "320"
@@ -138,7 +138,7 @@
   pages: "89--120"
   year: 1999
   mrreviewer: "Marcel Oliver"
-  title: "Analytic and numerical study of {N}-waves governed by the nonplanar {B}urgers equation"
+  title: "Analytic and numerical study of N-waves governed by the nonplanar Burgers equation"
   doi: "10.11111467-9590.00122"
   mrclass: "35Q53 (35C20 76N99)"
   volume: "103"
@@ -152,7 +152,7 @@
   pages: "165--204"
   year: 2012
   mrreviewer: "Jaydeb Sarkar"
-  title: "Unitary invariants for {H}ilbert modules of finite rank"
+  title: "Unitary invariants for Hilbert modules of finite rank"
   doi: "10.1515CRELLE.2011.091"
   mrclass: "46L87 (46L08)"
   volume: "662"
@@ -167,7 +167,7 @@
   pages: "427--430"
   year: 2006
   mrreviewer: "Martin Deraux"
-  title: "A class of nonpositively curved {K}\\ahler manifolds biholomorphic to the unit ball in {$\\Bbb C^n$}"
+  title: "A class of nonpositively curved K\\ahler manifolds biholomorphic to the unit ball in $\\Bbb C^n$"
   doi: "10.1016j.crma.2006.01.005"
   mrclass: "32Q05 (32Q15 32V15)"
   volume: "342"
@@ -196,7 +196,7 @@
   pages: "1506--1522"
   year: 1986
   mrreviewer: "Yusuke Kato"
-  title: "Generalized {B}urgers equations and {E}uler-{P}ainlev\\e transcendents. {I}"
+  title: "Generalized Burgers equations and Euler-Painlev\\e transcendents. I"
   doi: "10.10631.527111"
   mrclass: "35Q20 (65M10)"
   volume: "27"
@@ -225,7 +225,7 @@
   pages: "13--28"
   year: 2013
   mrreviewer: "Maedeh Soroushmehr"
-  title: "Spectral analysis on {${\\rm SL}(2, \\Bbb{R})$}"
+  title: "Spectral analysis on ${\\rm SL}(2, \\Bbb{R})$"
   doi: "10.1007s00229-011-0525-y"
   mrclass: "43A85 (22E30 43A80)"
   volume: "140"
@@ -265,7 +265,7 @@
   pages: "165--176"
   year: 1988
   publisher: "Springer, Berlin"
-  booktitle: "System modelling and optimization ({T}okyo, 1987)"
+  booktitle: "System modelling and optimization (Tokyo, 1987)"
   title: "Distributed nonlinear optimization algorithms for general network problems"
   doi: "10.1007BFb0042784"
   mrclass: "90C35"
@@ -295,7 +295,7 @@
   mrreviewer: "Hongyu L. He"
   publisher: "Amer. Math. Soc., Providence, RI"
   booktitle: "Harmonic analysis and partial differential equations"
-  title: "On the unreasonable effectiveness of {G}utzmers formula"
+  title: "On the unreasonable effectiveness of Gutzmers formula"
   doi: "10.1090conm50509924"
   mrclass: "43A85 (22E30 43A90 46E35)"
   volume: "505"
@@ -308,7 +308,7 @@
   mrnumber: "1292202"
   pages: "519--527"
   year: 1994
-  title: "On the solution of the equation {$u_tu^n u_xH(x,t,u)0$}"
+  title: "On the solution of the equation $u_tu^n u_xH(x,t,u)0$"
   doi: "10.1090qam1292202"
   mrclass: "35L65 (35Q53)"
   volume: "52"
@@ -323,7 +323,7 @@
   pages: "Art. ID rnm164, 33"
   year: 2008
   mrreviewer: "Alexey A. Panchishkin"
-  title: "Equivariant {B}irch-{S}winnerton-{D}yer conjecture for the base change of elliptic curves an example"
+  title: "Equivariant Birch-Swinnerton-Dyer conjecture for the base change of elliptic curves an example"
   doi: "10.1093imrnrnm164"
   mrclass: "11G40 (11G05 19F99)"
   issn: "1073-7928"
@@ -366,7 +366,7 @@
   pages: "941--956"
   year: 2013
   mrreviewer: "Adrian Sandovici"
-  title: "Infinitely divisible metrics and curvature inequalities for operators in the {C}owen-{D}ouglas class"
+  title: "Infinitely divisible metrics and curvature inequalities for operators in the Cowen-Douglas class"
   doi: "10.1112jlmsjdt045"
   mrclass: "47B35 (53C55)"
   volume: "88"
@@ -381,7 +381,7 @@
   pages: "311--315"
   year: 1984
   mrreviewer: "Mauro Cerasoli"
-  title: "On the probability that the determinant of an {$n\\times n$}\\ matrix over a finite field vanishes"
+  title: "On the probability that the determinant of an $n\\times n$\\ matrix over a finite field vanishes"
   doi: "10.10160012-365X(84)90013-X"
   mrclass: "15A15 (15A52)"
   volume: "51"
@@ -394,7 +394,7 @@
   pages: "101--106"
   year: 2009
   mrreviewer: "Boris Petrovich Osilenker"
-  title: "Hermite-{S}obolev spaces and the {F}eichtingers algebra"
+  title: "Hermite-Sobolev spaces and the Feichtingers algebra"
   mrclass: "42C15 (33C45 42B35 46E35)"
   volume: "17"
   issn: "0971-3611"
@@ -408,7 +408,7 @@
   pages: "127--145"
   year: 2009
   mrreviewer: "Jacek Cygan"
-  title: "On theorems of {B}eurling and {H}ardy for certain step two nilpotent groups"
+  title: "On theorems of Beurling and Hardy for certain step two nilpotent groups"
   doi: "10.108010652460802503595"
   mrclass: "43A30 (22E30 43A80)"
   volume: "20"
@@ -423,7 +423,7 @@
   pages: "2135--2140"
   year: 2010
   mrreviewer: "Franz Luef"
-  title: "Benedicks theorem for the {H}eisenberg group"
+  title: "Benedicks theorem for the Heisenberg group"
   doi: "10.1090S0002-9939-10-10272-X"
   mrclass: "42B10 (22E30 43A05)"
   volume: "138"
@@ -465,7 +465,7 @@
   mrnumber: "3522223"
   pages: "Paper No. 168, 10"
   year: 2016
-  title: "{$C^{2,\\alpha}$} estimates and existence results for a nonconcave {PDE}"
+  title: "$C^{2,\\alpha}$ estimates and existence results for a nonconcave PDE"
   mrclass: "35J60 (35A01 35B65 35J96)"
   issn: "1072-6691"
 
@@ -489,7 +489,7 @@
   pages: "605--615"
   year: 2000
   publisher: "WIT Press, Southampton"
-  booktitle: "Advances in fluid mechanics, {III} ({M}ontreal, {QC}, 2000)"
+  booktitle: "Advances in fluid mechanics, III (Montreal, QC, 2000)"
   title: "Surface water waves against a vertical wall in the presence of an ice-cover"
   mrclass: "86A05 (76B15)"
   volume: "26"
@@ -503,13 +503,13 @@
   pages: "369--411"
   year: 2014
   mrreviewer: "Fusheng Deng"
-  title: "Model domains in {$\\Bbb{C}^3$} with abelian automorphism group"
+  title: "Model domains in $\\Bbb{C}^3$ with abelian automorphism group"
   doi: "10.108017476933.2012.734505"
   mrclass: "32M05 (32M17)"
   volume: "59"
   issn: "1747-6933"
 
-- author: "Ayyer, Arvind and Bouttier, J\\er\\emie and Corteel, Sylvie and Nunzi, Fran\\c{c}ois"
+- author: "Ayyer, Arvind and Bouttier, J\\er\\emie and Corteel, Sylvie and Nunzi, Fran\\ccois"
   fjournal: "Electronic Journal of Probability"
   url: "httpdx.doi.org10.1214EJP.v20-3495"
   journal: "Electron. J. Probab."
@@ -547,7 +547,7 @@
   pages: "511--514"
   year: 2014
   mrreviewer: "Lajos Moln\\Ar"
-  title: "Flag structure for operators in the {C}owen-{D}ouglas class"
+  title: "Flag structure for operators in the Cowen-Douglas class"
   doi: "10.1016j.crma.2014.04.001"
   mrclass: "47B10 (46L08)"
   volume: "352"
@@ -561,7 +561,7 @@
   pages: "433--446"
   year: 1998
   mrreviewer: "Santiago Zarzuela Armengou"
-  title: "On the {C}ohen-{M}acaulayness of the associated graded ring of certain monomial curves"
+  title: "On the Cohen-Macaulayness of the associated graded ring of certain monomial curves"
   mrclass: "13A30 (13H10 14H20)"
   volume: "39"
   issn: "0138-4821"
@@ -675,7 +675,7 @@
   pages: "279--307"
   year: 2005
   mrreviewer: "Wolfgang K\\A${}^1\\\\_4$hnel"
-  title: "Degree-regular triangulations of torus and {K}lein bottle"
+  title: "Degree-regular triangulations of torus and Klein bottle"
   doi: "10.1007BF02829658"
   mrclass: "57Q15"
   volume: "115"
@@ -718,7 +718,7 @@
   mrnumber: "1328830"
   pages: "57--76"
   year: 1995
-  title: "Exact free surface flows for shallow water equations. {II}. {T}he compressible case"
+  title: "Exact free surface flows for shallow water equations. II. The compressible case"
   doi: "10.1002sapm199594157"
   mrclass: "76N10 (76B15)"
   volume: "94"
@@ -733,7 +733,7 @@
   pages: "579--602"
   year: 2014
   mrreviewer: "Nataliya I. Kalashnykova"
-  title: "A posteriori error control of discontinuous {G}alerkin methods for elliptic obstacle problems"
+  title: "A posteriori error control of discontinuous Galerkin methods for elliptic obstacle problems"
   doi: "10.1090S0025-5718-2013-02728-7"
   mrclass: "65N30 (65K15 65N15)"
   volume: "83"
@@ -748,7 +748,7 @@
   pages: "255--275, 277--310"
   year: 1997
   mrreviewer: "Andrei A. Kapaev"
-  title: "Singularity structure of third-order dynamical systems. {I}, {II}"
+  title: "Singularity structure of third-order dynamical systems. I, II"
   doi: "10.11111467-9590.00049"
   mrclass: "34A20 (34A34 34D05 58F36)"
   volume: "98"
@@ -792,7 +792,7 @@
   mrnumber: "3230073"
   pages: "655--675"
   year: 2014
-  title: "Risk-sensitive control of continuous time {M}arkov chains"
+  title: "Risk-sensitive control of continuous time Markov chains"
   doi: "10.108017442508.2013.872644"
   mrclass: "49L20 (60J27)"
   volume: "86"
@@ -807,7 +807,7 @@
   pages: "11--27"
   year: 2007
   mrreviewer: "Ali Baklouti"
-  title: "Variations on a theorem of {C}owling and {P}rice with applications to nilpotent {L}ie groups"
+  title: "Variations on a theorem of Cowling and Price with applications to nilpotent Lie groups"
   doi: "10.1017S1446788700017444"
   mrclass: "43A30 (22E25 43A25)"
   volume: "82"
@@ -822,7 +822,7 @@
   pages: "135--146"
   year: 2015
   mrreviewer: "Yehonatan Salman"
-  title: "Variations on a theorem of {B}eurling"
+  title: "Variations on a theorem of Beurling"
   doi: "10.1515apam-2014-0048"
   mrclass: "42C15 (42B35 42C10)"
   volume: "6"
@@ -849,7 +849,7 @@
   pages: "27--41"
   year: 2015
   mrreviewer: "Anqiang Zhu"
-  title: "Lower bounds on {R}icci flow invariant curvatures and geometric applications"
+  title: "Lower bounds on Ricci flow invariant curvatures and geometric applications"
   doi: "10.1515crelle-2013-0042"
   mrclass: "53C44"
   volume: "703"
@@ -863,7 +863,7 @@
   mrnumber: "727413"
   pages: "579--589"
   year: 1983
-  title: "On the uncapacitated plant location problem. {I}. {V}alid inequalities and facets"
+  title: "On the uncapacitated plant location problem. I. Valid inequalities and facets"
   doi: "10.1287moor.8.4.579"
   mrclass: "90B05"
   volume: "8"
@@ -877,7 +877,7 @@
   pages: "451--456"
   year: 2007
   mrreviewer: "Christine Guenther"
-  title: "On the proof of the {P}oincar\\e conjecture"
+  title: "On the proof of the Poincar\\e conjecture"
   mrclass: "53C44 (57M40)"
   volume: "87"
   issn: "0970-4140"
@@ -891,7 +891,7 @@
   pages: "172--177"
   year: 2006
   mrreviewer: "Gabjin Yun"
-  title: "Weyl curvature and the {E}uler characteristic in dimension four"
+  title: "Weyl curvature and the Euler characteristic in dimension four"
   doi: "10.1016j.difgeo.2005.08.008"
   mrclass: "53C21"
   volume: "24"
@@ -905,7 +905,7 @@
   mrnumber: "747955"
   pages: "2919--2935"
   year: 1984
-  title: "Nonabelian monopoles break color. {I}. {C}lassical mechanics"
+  title: "Nonabelian monopoles break color. I. Classical mechanics"
   doi: "10.1103PhysRevD.29.2919"
   mrclass: "81G20 (53C80)"
   volume: "29"
@@ -960,7 +960,7 @@
   mrnumber: "2225468"
   pages: "719--720"
   year: 2006
-  title: "Corrigendum to {S}chr\\odinger equation and the oscillatory semigroup for the {H}ermite operator {J}. {F}unct. {A}nal. {\\bf 224} (2005), no. 2, 371--385 MR2146045"
+  title: "Corrigendum to Schr\\odinger equation and the oscillatory semigroup for the Hermite operator J. Funct. Anal. \\bf 224 (2005), no. 2, 371--385 MR2146045"
   doi: "10.1016j.jfa.2005.12.004"
   mrclass: "33C45 (35J10 35Q40 47N50)"
   volume: "235"
@@ -1019,7 +1019,7 @@
   mrnumber: "1489782"
   pages: "211--222"
   year: 1997
-  booktitle: "Proceedings of the {S}econd {W}orld {C}ongress of {N}onlinear {A}nalysts, {P}art 1 ({A}thens, 1996)"
+  booktitle: "Proceedings of the Second World Congress of Nonlinear Analysts, Part 1 (Athens, 1996)"
   title: "Limit theorems for random degenerate diffusions"
   doi: "10.1016S0362-546X(97)00120-X"
   mrclass: "60F05 (60J60)"
@@ -1049,7 +1049,7 @@
   pages: "1--11"
   year: 2008
   mrreviewer: "B. S. Rubin"
-  title: "Solution of the generalized {A}bel integral equation"
+  title: "Solution of the generalized Abel integral equation"
   doi: "10.1216JIE-2008-20-1-1"
   mrclass: "45E10 (30E25)"
   volume: "20"
@@ -1078,7 +1078,7 @@
   pages: "145--159"
   year: 2007
   mrreviewer: "Emmanuel Pedon"
-  title: "A {P}aley-{W}iener theorem for the inverse {F}ourier transform on some homogeneous spaces"
+  title: "A Paley-Wiener theorem for the inverse Fourier transform on some homogeneous spaces"
   mrclass: "22E30 (22E45 43A85 43A90)"
   volume: "37"
   issn: "0018-2079"
@@ -1092,7 +1092,7 @@
   mrreviewer: "Andrzej Wi\\AA nicki"
   publisher: "Springer, Cham"
   booktitle: "Interactive theorem proving"
-  title: "Formalising knot theory in {I}sabelle{HOL}"
+  title: "Formalising knot theory in IsabelleHOL"
   doi: "10.1007978-3-319-22102-1_29"
   mrclass: "57M25 (03B35)"
   volume: "9236"
@@ -1106,7 +1106,7 @@
   pages: "195--207"
   year: 2002
   note: "Spectral and inverse spectral theory (Goa, 2000)"
-  title: "Homogenization of a parabolic equation in perforated domain with {N}eumann boundary condition"
+  title: "Homogenization of a parabolic equation in perforated domain with Neumann boundary condition"
   doi: "10.1007BF02829651"
   mrclass: "35B27 (35K20)"
   volume: "112"
@@ -1157,7 +1157,7 @@
   mrnumber: "1114226"
   pages: "171--194"
   year: 1991
-  title: "An annotated bibliography of research in parallel computing at the {I}ndian {I}nstitute of {S}cience, 1985--1991"
+  title: "An annotated bibliography of research in parallel computing at the Indian Institute of Science, 1985--1991"
   mrclass: "68-00 (00A15)"
   volume: "71"
   issn: "0970-4140"
@@ -1195,7 +1195,7 @@
   pages: "61--66"
   year: 2009
   mrreviewer: "Radu Miculescu"
-  title: "Approximation by {$K$}-finite functions on {$L^p$} spaces"
+  title: "Approximation by $K$-finite functions on $L^p$ spaces"
   mrclass: "43A85 (46E30)"
   volume: "17"
   issn: "0971-3611"
@@ -1208,7 +1208,7 @@
   mrnumber: "3164504"
   pages: "297--314"
   year: 2013
-  title: "Uniqueness of solutions to {S}chr\\odinger equations on {$H$}-type groups"
+  title: "Uniqueness of solutions to Schr\\odinger equations on $H$-type groups"
   doi: "10.1017S1446788713000311"
   mrclass: "35R03 (35A02 35H20 35K08 35Q41 43A80)"
   volume: "95"
@@ -1234,7 +1234,7 @@
   pages: "Paper No. 2, 22"
   year: 2016
   mrreviewer: "M. Klimek"
-  title: "Dynamics of semigroups of entire maps of {$\\Bbb{C}^k$}"
+  title: "Dynamics of semigroups of entire maps of $\\Bbb{C}^k$"
   doi: "10.1186s40627-016-0006-x"
   mrclass: "32H02 (32H50)"
   volume: "2"
@@ -1279,7 +1279,7 @@
   pages: "853--868"
   year: 2004
   mrreviewer: "Martin Stynes"
-  title: "An {$O(h^4)$} accurate cubic spline {TAGE} method for nonlinear singular two point boundary value problems"
+  title: "An $O(h^4)$ accurate cubic spline TAGE method for nonlinear singular two point boundary value problems"
   doi: "10.1016j.amc.2003.08.145"
   mrclass: "65L10 (65L60)"
   volume: "158"
@@ -1321,7 +1321,7 @@
   mrnumber: "2012530"
   pages: "3091--3099"
   year: 2003
-  title: "Expression for a general element of an {${\\rm SO}(n)$} matrix"
+  title: "Expression for a general element of an ${\\rm SO}(n)$ matrix"
   doi: "10.1155S0161171203302030"
   mrclass: "20G20 (81R05)"
   issn: "0161-1712"
@@ -1334,7 +1334,7 @@
   mrnumber: "3551199"
   pages: "3357--3384"
   year: 2016
-  title: "Continuum percolation for {G}aussian zeroes and {G}inibre eigenvalues"
+  title: "Continuum percolation for Gaussian zeroes and Ginibre eigenvalues"
   doi: "10.121415-AOP1051"
   mrclass: "60D05 (60G55 60K35)"
   volume: "44"
@@ -1364,7 +1364,7 @@
   pages: "199--210"
   year: 2011
   mrreviewer: "Linda Saal"
-  title: "Analogues of the {W}iener {T}auberian and {S}chwartz theorems for radial functions on symmetric spaces"
+  title: "Analogues of the Wiener Tauberian and Schwartz theorems for radial functions on symmetric spaces"
   doi: "10.2140pjm.2011.249.199"
   mrclass: "43A80 (43A30)"
   volume: "249"
@@ -1379,7 +1379,7 @@
   pages: "169--231"
   year: 2015
   mrreviewer: "Michael Voit"
-  title: "Markov chains, {$\\scr{R}$}-trivial monoids and representation theory"
+  title: "Markov chains, $\\scr{R}$-trivial monoids and representation theory"
   doi: "10.1142S0218196715400081"
   mrclass: "60J10 (05E10 20M30 47D03 60B15 60C05)"
   volume: "25"
@@ -1407,7 +1407,7 @@
   mrnumber: "2025724"
   pages: "353--369"
   year: 2004
-  title: "Non-{D}arcy mixed convection in power-law fluids along a non-isothermal horizontal surface in a porous medium"
+  title: "Non-Darcy mixed convection in power-law fluids along a non-isothermal horizontal surface in a porous medium"
   doi: "10.1016S0020-7225(03)00140-X"
   mrclass: "76S05 (76R99)"
   volume: "42"
@@ -1422,7 +1422,7 @@
   pages: "437--449"
   year: 2010
   mrreviewer: "George A. Willis"
-  title: "{$L^p$} {W}iener-{T}auberian theorems for {$M(2)$}"
+  title: "$L^p$ Wiener-Tauberian theorems for $M(2)$"
   doi: "10.1007s00209-009-0523-x"
   mrclass: "43A20 (22D15)"
   volume: "265"
@@ -1436,7 +1436,7 @@
   mrnumber: "3300744"
   pages: "569--570"
   year: 2015
-  title: "Corrigendum to {C}ombinatorial triangulations of homology spheres {D}iscrete {M}ath. 305 (2005) 1--17 MR2186679"
+  title: "Corrigendum to Combinatorial triangulations of homology spheres Discrete Math. 305 (2005) 1--17 MR2186679"
   doi: "10.1016j.disc.2014.11.010"
   mrclass: "57Q15 (05E18)"
   volume: "338"
@@ -1465,7 +1465,7 @@
   pages: "689--695"
   year: 2014
   mrreviewer: "Zhi Jiang"
-  title: "On the {K}\\ahler structures over {Q}uot schemes, {II}"
+  title: "On the K\\ahler structures over Quot schemes, II"
   mrclass: "14H60 (14H81 32Q10)"
   volume: "58"
   issn: "0019-2082"
@@ -1533,7 +1533,7 @@
   mrnumber: "852945"
   pages: "1236"
   year: 1986
-  title: "Erratum {S}ingularity-free cosmology a simple model {P}hys.\\ {R}ev.\\ {D} (3) {\\bf 33} (1986), no.\\ 8, 2196--2200"
+  title: "Erratum Singularity-free cosmology a simple model Phys.\\ Rev.\\ D (3) \\bf 33 (1986), no.\\ 8, 2196--2200"
   doi: "10.1103PhysRevD.34.1236"
   mrclass: "83F05 (83C75)"
   volume: "34"
@@ -1642,7 +1642,7 @@
   pages: "11--15"
   year: 2015
   mrreviewer: "Ignasi Mundet-Riera"
-  title: "The {F}ujiki class and positive degree maps"
+  title: "The Fujiki class and positive degree maps"
   doi: "10.1515coma-2015-0002"
   mrclass: "32Q15 (32H04 57R35)"
   volume: "2"
@@ -1671,7 +1671,7 @@
   pages: "1--15"
   year: 2007
   mrreviewer: "Francisco O. V. de Paiva"
-  title: "Asymptotic behavior of radial solutions for a semilinear elliptic problem on an annulus through {M}orse index"
+  title: "Asymptotic behavior of radial solutions for a semilinear elliptic problem on an annulus through Morse index"
   doi: "10.1016j.jde.2007.04.008"
   mrclass: "35J60 (35B25 35B40 37B30 47J30)"
   volume: "239"
@@ -1700,8 +1700,8 @@
   mrnumber: "3149618"
   pages: "71--87"
   year: 2014
-  mrreviewer: "Alain Pi\\A\\copyright{}trus"
-  title: "A remark on the a posteriori error analysis of discontinuous {G}alerkin methods for the obstacle problem"
+  mrreviewer: "Alain Pi\\A\\copyrighttrus"
+  title: "A remark on the a posteriori error analysis of discontinuous Galerkin methods for the obstacle problem"
   doi: "10.1515cmam-2013-0015"
   mrclass: "65N30 (65K15 65N15)"
   volume: "14"
@@ -1716,7 +1716,7 @@
   pages: "542--560"
   year: 2011
   mrreviewer: "Wolfgang K\\A${}^1\\\\_4$hnel"
-  title: "From the icosahedron to natural triangulations of {$\\Bbb C P^2$} and {$S^2\\times S^2$}"
+  title: "From the icosahedron to natural triangulations of $\\Bbb C P^2$ and $S^2\\times S^2$"
   doi: "10.1007s00454-010-9281-0"
   mrclass: "57Q15 (52B70 57Q91)"
   volume: "46"
@@ -1741,7 +1741,7 @@
   pages: "86--96"
   year: 1989
   publisher: "Springer, Berlin"
-  booktitle: "Differential games and applications ({S}ophia-{A}ntipolis, 1988)"
+  booktitle: "Differential games and applications (Sophia-Antipolis, 1988)"
   title: "A feedback guidance for pre-launch maneuvering in medium range air combat with missiles"
   doi: "10.1007BFb0004265"
   mrclass: "90D26 (90C90)"
@@ -1756,7 +1756,7 @@
   pages: "549--561"
   year: 1995
   mrreviewer: "Y. Roditty"
-  title: "Some results on the reconstruction problems. {$p$}-claw-free, chordal, and {$P_4$}-reducible graphs"
+  title: "Some results on the reconstruction problems. $p$-claw-free, chordal, and $P_4$-reducible graphs"
   doi: "10.1002jgt.3190190409"
   mrclass: "05C60"
   volume: "19"
@@ -1770,7 +1770,7 @@
   mrnumber: "1436783"
   pages: "103--124"
   year: 1997
-  title: "On modified {G}regory rules based on a generalised mixed interpolation formula"
+  title: "On modified Gregory rules based on a generalised mixed interpolation formula"
   doi: "10.1016S0377-0427(96)00135-5"
   mrclass: "65B15 (65D32)"
   volume: "78"
@@ -1799,7 +1799,7 @@
   pages: "3373--3391"
   year: 2009
   mrreviewer: "Abdeslam Mimouni"
-  title: "The {N}oether-{L}efschetz theorem for the divisor class group"
+  title: "The Noether-Lefschetz theorem for the divisor class group"
   doi: "10.1016j.jalgebra.2008.09.003"
   mrclass: "13C20 (14C20)"
   volume: "322"
@@ -1814,7 +1814,7 @@
   pages: "280--290"
   year: 1993
   mrreviewer: "Y. Roditty"
-  title: "On the {N}ash-{W}illiams lemma in graph reconstruction theory"
+  title: "On the Nash-Williams lemma in graph reconstruction theory"
   doi: "10.1006jctb.1993.1044"
   mrclass: "05C60"
   volume: "58"
@@ -1828,7 +1828,7 @@
   mrnumber: "2282574"
   pages: "1316--1329"
   year: 2006
-  title: "Orthogonal cubic spline collocation method for the {C}ahn-{H}illiard equation"
+  title: "Orthogonal cubic spline collocation method for the Cahn-Hilliard equation"
   doi: "10.1016j.amc.2006.05.017"
   mrclass: "65M70"
   volume: "182"
@@ -1856,7 +1856,7 @@
   pages: "1--16"
   year: 2013
   mrreviewer: "Saulo Pomponet Oliveira"
-  title: "A fully discrete {$C^0$} interior penalty {G}alerkin approximation of the extended {F}isher-{K}olmogorov equation"
+  title: "A fully discrete $C^0$ interior penalty Galerkin approximation of the extended Fisher-Kolmogorov equation"
   doi: "10.1016j.cam.2012.12.019"
   mrclass: "65M60 (65M12 65M15)"
   volume: "247"
@@ -1870,7 +1870,7 @@
   pages: "41--63"
   year: 2002
   mrreviewer: "M. Miyanishi"
-  title: "On {G}orenstein surfaces dominated by {${\\bf P}^2$}"
+  title: "On Gorenstein surfaces dominated by ${\\bf P}^2$"
   mrclass: "14J26 (14E20)"
   volume: "168"
   issn: "0027-7630"
@@ -1898,7 +1898,7 @@
   pages: "117--144"
   year: 2013
   mrreviewer: "Rasul Shafikov"
-  title: "Some regularity theorems for {CR} mappings"
+  title: "Some regularity theorems for CR mappings"
   doi: "10.1007s00209-012-1060-6"
   mrclass: "32H40 (32Q45 32V10)"
   volume: "274"
@@ -1927,7 +1927,7 @@
   mrnumber: "2520777"
   pages: "219--228"
   year: 2009
-  title: "The credit {${\\rm risk}^$} model with general sector correlations"
+  title: "The credit ${\\rm risk}^$ model with general sector correlations"
   doi: "10.1007s10100-009-0084-4"
   mrclass: "62P05 (60E10 91G40)"
   volume: "17"
@@ -1967,7 +1967,7 @@
   pages: "35--50"
   year: 2007
   mrreviewer: "Muhammad Zafrullah"
-  title: "On type sequences and {A}rf rings"
+  title: "On type sequences and Arf rings"
   mrclass: "13A18 (20M25)"
   volume: "6"
   issn: "1643-6555"
@@ -1979,7 +1979,7 @@
   editor: "Balakrishnan, R. and Veni Madhavan, C. E."
   publisher: "Ramanujan Mathematical Society, Mysore"
   isbn: "978-81-902545-7-1"
-  booktitle: "Proceedings of the {I}nternational {C}onference ({ICDM} 2006) held in {B}angalore, {D}ecember 15--18, 2006"
+  booktitle: "Proceedings of the International Conference (ICDM 2006) held in Bangalore, December 15--18, 2006"
   title: "Discrete mathematics"
   mrclass: "05-06 (05-02 05C15)"
   volume: "7"
@@ -2020,7 +2020,7 @@
   mrnumber: "1288915"
   pages: "238--244"
   year: 1994
-  title: "On the gluing and ungluing of strange attractors in the study of the {L}orenz system"
+  title: "On the gluing and ungluing of strange attractors in the study of the Lorenz system"
   doi: "10.10160375-9601(94)90133-3"
   mrclass: "58F13 (34C99 34D45)"
   volume: "191"
@@ -2035,7 +2035,7 @@
   pages: "863--881"
   year: 2015
   mrreviewer: "Adam Shwartz"
-  title: "Risk-sensitive ergodic control of continuous time {M}arkov processes with denumerable state space"
+  title: "Risk-sensitive ergodic control of continuous time Markov processes with denumerable state space"
   doi: "10.108007362994.2015.1050674"
   mrclass: "93E20 (49L20 60J27 90C39)"
   volume: "33"
@@ -2065,7 +2065,7 @@
   pages: "89--120"
   year: 2015
   mrreviewer: "Li Zhong Peng"
-  title: "Mixed norm estimates for the {R}iesz transforms associated to {D}unkl harmonic oscillators"
+  title: "Mixed norm estimates for the Riesz transforms associated to Dunkl harmonic oscillators"
   mrclass: "42C10 (26A33 33C52 47G40)"
   volume: "22"
   issn: "1259-1734"
@@ -2107,7 +2107,7 @@
   mrnumber: "2529985"
   pages: "55--64"
   year: 2009
-  title: "Analyzing multiple spike trains with nonparametric {G}ranger causality"
+  title: "Analyzing multiple spike trains with nonparametric Granger causality"
   doi: "10.1007s10827-008-0126-2"
   mrclass: "92C20"
   volume: "27"
@@ -2122,7 +2122,7 @@
   pages: "565--578"
   year: 2002
   mrreviewer: "Brian D. Sleeman"
-  title: "Right-definite multiparameter {S}turm-{L}iouville problems with eigenparameter-dependent boundary conditions"
+  title: "Right-definite multiparameter Sturm-Liouville problems with eigenparameter-dependent boundary conditions"
   doi: "10.1017S0013091501000207"
   mrclass: "34B24 (34L20)"
   volume: "45"
@@ -2149,7 +2149,7 @@
   pages: "167--179"
   year: 2003
   mrreviewer: "Nina N. Subbotina"
-  title: "A zero sum differential game in a {H}ilbert space"
+  title: "A zero sum differential game in a Hilbert space"
   doi: "10.1016S0022-247X(03)00266-X"
   mrclass: "91A05 (49N70 91A23)"
   volume: "283"
@@ -2164,7 +2164,7 @@
   pages: "53--67"
   year: 1997
   mrreviewer: "Zolt\\An F\\A${}^1\\\\_4$redi"
-  title: "Proof of a conjecture of {F}rankl and {F}\\uredi"
+  title: "Proof of a conjecture of Frankl and F\\uredi"
   doi: "10.1006jcta.1997.2774"
   mrclass: "05D05 (05A05 05C65)"
   volume: "79"
@@ -2192,7 +2192,7 @@
   pages: "255--273"
   year: 2013
   mrreviewer: "Sanjiv Kumar Gupta"
-  title: "Riesz transforms and multipliers for the {G}rushin operator"
+  title: "Riesz transforms and multipliers for the Grushin operator"
   doi: "10.1007s11854-013-0008-z"
   mrclass: "42B10"
   volume: "119"
@@ -2207,7 +2207,7 @@
   pages: "275202, 16"
   year: 2011
   mrreviewer: "Marius V. Ionescu"
-  title: "Coherent states on {H}ilbert modules"
+  title: "Coherent states on Hilbert modules"
   doi: "10.10881751-81134427275202"
   mrclass: "81R15 (46E22 46L08 46N50 81R30)"
   volume: "44"
@@ -2221,7 +2221,7 @@
   mrnumber: "3244573"
   pages: "1461--1472"
   year: 2014
-  title: "Solutions of a system of forced {B}urgers equation in terms of generalized {L}aguerre polynomials"
+  title: "Solutions of a system of forced Burgers equation in terms of generalized Laguerre polynomials"
   doi: "10.1016S0252-9602(14)60096-5"
   mrclass: "35Q53 (35C05 35K15 35K59)"
   volume: "34"
@@ -2236,7 +2236,7 @@
   pages: "478--485"
   year: 1984
   mrreviewer: "Robert L. Warnock"
-  title: "A {F}redholm-type theory for third-kind linear integral equations"
+  title: "A Fredholm-type theory for third-kind linear integral equations"
   doi: "10.10160022-247X(84)90096-9"
   mrclass: "45E99 (45A05)"
   volume: "100"
@@ -2279,7 +2279,7 @@
   mrnumber: "2065467"
   pages: "26--35"
   year: 2004
-  title: "Analyzing multiple nonlinear time series with extended {G}ranger causality"
+  title: "Analyzing multiple nonlinear time series with extended Granger causality"
   doi: "10.1016j.physleta.2004.02.032"
   mrclass: "62M10 (94A12)"
   volume: "324"
@@ -2306,7 +2306,7 @@
   pages: "5338--5360"
   year: 2011
   mrreviewer: "Miroslav Engli\\AA "
-  title: "A classification of homogeneous operators in the {C}owen-{D}ouglas class"
+  title: "A classification of homogeneous operators in the Cowen-Douglas class"
   doi: "10.1016j.aim.2011.01.012"
   mrclass: "47B32 (46E22)"
   volume: "226"
@@ -2333,7 +2333,7 @@
   year: 1986
   mrreviewer: "Konrad Engel"
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Algorithmic combinatorics"
   mrclass: "05A10 (05A15)"
   volume: "111"
@@ -2346,7 +2346,7 @@
   mrnumber: "2552716"
   pages: "415--419"
   year: 2009
-  title: "Asymptotic analysis of option pricing in a {M}arkov modulated market"
+  title: "Asymptotic analysis of option pricing in a Markov modulated market"
   doi: "10.1016j.orl.2009.06.005"
   mrclass: "91G20"
   volume: "37"
@@ -2360,7 +2360,7 @@
   mrnumber: "2183594"
   pages: "23--32"
   year: 2005
-  mrreviewer: "L\\Aszl\\A${}^3$ K\\A\\copyright{}rchy"
+  mrreviewer: "L\\Aszl\\A${}^3$ K\\A\\copyrightrchy"
   title: "Characteristic function of a pure commuting contractive tuple"
   doi: "10.1007s00020-004-1309-5"
   mrclass: "47A45 (47A13)"
@@ -2373,8 +2373,8 @@
   pages: "53--60"
   year: 1982
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Proceedings of the conference on stochastic processes and applications ({O}otacamund, 1980)"
-  title: "Stochastic interpretation of van {L}eeuwen theorem on the absence of diamagnetism in classical electron gas"
+  booktitle: "Proceedings of the conference on stochastic processes and applications (Ootacamund, 1980)"
+  title: "Stochastic interpretation of van Leeuwen theorem on the absence of diamagnetism in classical electron gas"
   mrclass: "82A31"
   volume: "106"
 
@@ -2386,7 +2386,7 @@
   pages: "467--474"
   year: 2007
   mrreviewer: "Linda Saal"
-  title: "An analogue of the {W}iener {T}auberian theorem for the {H}eisenberg motion group"
+  title: "An analogue of the Wiener Tauberian theorem for the Heisenberg motion group"
   mrclass: "43A80 (22E25)"
   volume: "87"
   issn: "0970-4140"
@@ -2399,7 +2399,7 @@
   pages: "171--180"
   year: 2006
   mrreviewer: "Sergey G. Pyatkov"
-  title: "Concentration phenomena for {L}iouvilles equation in dimension four"
+  title: "Concentration phenomena for Liouvilles equation in dimension four"
   mrclass: "35J60 (35J40)"
   volume: "8"
   issn: "1435-9855"
@@ -2409,8 +2409,8 @@
   pages: "247--254"
   year: 2003
   publisher: "Hindustan Book Agency, New Delhi"
-  booktitle: "Elliptic curves, modular forms and cryptography ({A}llahabad, 2000)"
-  title: "{$L$}-functions of modular forms"
+  booktitle: "Elliptic curves, modular forms and cryptography (Allahabad, 2000)"
+  title: "$L$-functions of modular forms"
   mrclass: "11F66"
 
 - number: "1"
@@ -2422,7 +2422,7 @@
   pages: "79--102"
   year: 2015
   mrreviewer: "Mehmetcik Pamuk"
-  title: "Strongly minimal triangulations of {$(S^3\\times S^1)^{\\3}$} and {$(S^3\\mathbin{\\times\\kern-.7em{{}_-} \\,}S^1)^{\\3}$}"
+  title: "Strongly minimal triangulations of $(S^3\\times S^1)^{\\3}$ and $(S^3\\mathbin{\\times\\kern-.7em{{}_-} \\,}S^1)^{\\3}$"
   doi: "10.1007s12044-015-0217-8"
   mrclass: "57Q15 (57R05)"
   volume: "125"
@@ -2437,7 +2437,7 @@
   pages: "361--388"
   year: 2015
   mrreviewer: "Yehonatan Salman"
-  title: "Mixed norm estimates for the {R}iesz transforms on the {H}eisenberg group"
+  title: "Mixed norm estimates for the Riesz transforms on the Heisenberg group"
   doi: "10.1007s00605-015-0790-z"
   mrclass: "42C10 (26A33 33C45 42B20 42B35 43A90 47G40)"
   volume: "178"
@@ -2466,7 +2466,7 @@
   pages: "141--147"
   year: 2001
   mrreviewer: "Yuri B. Suris"
-  title: "Symplectic integration of {H}amiltonian systems using polynomial maps"
+  title: "Symplectic integration of Hamiltonian systems using polynomial maps"
   doi: "10.1016S0375-9601(01)00409-1"
   mrclass: "37M15 (65P10)"
   volume: "286"
@@ -2480,7 +2480,7 @@
   pages: "69--78"
   year: 2010
   mrreviewer: "Jean-Marie Vilaire"
-  title: "Riemann-{H}ilbert problems associated with singular integral equations and their solutions"
+  title: "Riemann-Hilbert problems associated with singular integral equations and their solutions"
   mrclass: "45E05 (30E25)"
   volume: "18"
   issn: "2231-5306"
@@ -2493,7 +2493,7 @@
   mrnumber: "3572349"
   pages: "2813--2838"
   year: 2016
-  title: "The extended {G}oldman bracket determines intersection numbers for surfaces and orbifolds"
+  title: "The extended Goldman bracket determines intersection numbers for surfaces and orbifolds"
   doi: "10.2140agt.2016.16.2813"
   mrclass: "57M50 (17B60)"
   volume: "16"
@@ -2520,7 +2520,7 @@
   pages: "127--137"
   year: 2008
   publisher: "Springer, Berlin"
-  booktitle: "Algorithm theory---{SWAT} 2008"
+  booktitle: "Algorithm theory---SWAT 2008"
   title: "Bounded unpopularity matchings"
   doi: "10.1007978-3-540-69903-3_13"
   mrclass: "05C70 (68R05)"
@@ -2593,7 +2593,7 @@
   mrnumber: "2845645"
   pages: "225--237"
   year: 2011
-  title: "Conjugacy invariant pseudo-norms, representability and {RNA} secondary structures"
+  title: "Conjugacy invariant pseudo-norms, representability and RNA secondary structures"
   doi: "10.1007s13226-011-0015-7"
   mrclass: "92D20"
   volume: "42"
@@ -2605,7 +2605,7 @@
   year: 1983
   mrreviewer: "Neal Koblitz"
   publisher: "Tata Inst. Fund. Res., Bombay"
-  booktitle: "Foundations of software technology and theoretical computer science ({B}angalore, 1983)"
+  booktitle: "Foundations of software technology and theoretical computer science (Bangalore, 1983)"
   title: "Hensels methods in linear algebraic computing"
   mrclass: "11S80 (11Q25 68M99)"
 
@@ -2617,8 +2617,8 @@
   mrnumber: "3232587"
   pages: "801--815"
   year: 2014
-  mrreviewer: "Luc Del\\A\\copyright{}aval"
-  title: "{$L^p$}-integrability, dimensions of supports of {F}ourier transforms and applications"
+  mrreviewer: "Luc Del\\A\\copyrightaval"
+  title: "$L^p$-integrability, dimensions of supports of Fourier transforms and applications"
   doi: "10.1007s00041-014-9334-5"
   mrclass: "42B10 (28A78 37F35 40E05)"
   volume: "20"
@@ -2632,7 +2632,7 @@
   mrnumber: "1367045"
   pages: "251--252"
   year: 1996
-  title: "Errata corrige {S}tochastic differential games occupation measure based approach {J}. {O}ptim.\\ {T}heory {A}ppl.\\ {\\bf 73} (1992), no.\\ 2, 359--385 {MR}1163266 (93g93082)"
+  title: "Errata corrige Stochastic differential games occupation measure based approach J. Optim.\\ Theory Appl.\\ \\bf 73 (1992), no.\\ 2, 359--385 MR1163266 (93g93082)"
   doi: "10.1007BF02192034"
   mrclass: "93E05 (90D15 90D25)"
   volume: "88"
@@ -2661,7 +2661,7 @@
   mrnumber: "2048670"
   pages: "532--550"
   year: 2003
-  title: "Peristaltic transport of a {N}ewtonian fluid in an asymmetric channel"
+  title: "Peristaltic transport of a Newtonian fluid in an asymmetric channel"
   doi: "10.1007s00033-003-1070-7"
   mrclass: "76Z05 (74F10 74L15 92C35)"
   volume: "54"
@@ -2676,7 +2676,7 @@
   pages: "5521--5544"
   year: 2006
   mrreviewer: "Juan Carlos Marrero Gonzalez"
-  title: "Discrete {R}outh reduction"
+  title: "Discrete Routh reduction"
   doi: "10.10880305-44703919S12"
   mrclass: "37J15 (37M15 65L06 70-08 70H33)"
   volume: "39"
@@ -2690,7 +2690,7 @@
   pages: "106--158"
   year: 2016
   mrreviewer: "Fran\\A\\S oise Lust-Piquard"
-  title: "Hardys inequality for fractional powers of the sublaplacian on the {H}eisenberg group"
+  title: "Hardys inequality for fractional powers of the sublaplacian on the Heisenberg group"
   doi: "10.1016j.aim.2016.07.010"
   mrclass: "43A80 (26D15 35A08 35H20 35R03 46E35)"
   volume: "302"
@@ -2703,7 +2703,7 @@
   mrnumber: "2413758"
   pages: "69--86"
   year: 2008
-  title: "On the {PAPR} of cosets of linear codes"
+  title: "On the PAPR of cosets of linear codes"
   mrclass: "94B05 (94A05)"
   volume: "39"
   issn: "0019-5588"
@@ -2716,7 +2716,7 @@
   pages: "273--305"
   year: 2003
   mrreviewer: "Krystyn Stycze\\AA "
-  title: "An optimal hybrid control problem in a {H}ilbert space"
+  title: "An optimal hybrid control problem in a Hilbert space"
   mrclass: "49J27 (49K27 49L25)"
   volume: "11"
   issn: "0971-3514"
@@ -2728,7 +2728,7 @@
   mrnumber: "3330146"
   pages: "5--16"
   year: 2012
-  title: "Numerical solution of {F}redholm integral equations involving smooth curves"
+  title: "Numerical solution of Fredholm integral equations involving smooth curves"
   mrclass: "65R20 (45B05)"
   volume: "31"
   issn: "0975-2323"
@@ -2796,7 +2796,7 @@
   pages: "383--409"
   year: 2014
   mrreviewer: "Nikolai K. Smolentsev"
-  title: "On the stability of the {$L^p$}-norm of the {R}iemannian curvature tensor"
+  title: "On the stability of the $L^p$-norm of the Riemannian curvature tensor"
   doi: "10.1007s12044-014-0187-2"
   mrclass: "58E11 (53C21 58D17)"
   volume: "124"
@@ -2811,7 +2811,7 @@
   pages: "1447--1472"
   year: 2002
   mrreviewer: "Alp O. Eden"
-  title: "Analysis of the self-similar solutions of the nonplanar {B}urgers equation"
+  title: "Analysis of the self-similar solutions of the nonplanar Burgers equation"
   doi: "10.1016S0362-546X(01)00909-9"
   mrclass: "35Q53 (76D33)"
   volume: "51"
@@ -2853,7 +2853,7 @@
   mrnumber: "1367193"
   pages: "5--24"
   year: 1995
-  title: "Recent trends in {M}arkov decision processes"
+  title: "Recent trends in Markov decision processes"
   mrclass: "90C40 (90-02)"
   volume: "75"
   issn: "0970-4140"
@@ -2925,7 +2925,7 @@
   pages: "820--842"
   year: 2013
   mrreviewer: "T. J. Suffridge"
-  title: "Condition {R} and proper holomorphic maps between equidimensional product domains"
+  title: "Condition R and proper holomorphic maps between equidimensional product domains"
   doi: "10.1016j.aim.2013.08.014"
   mrclass: "32H40"
   volume: "248"
@@ -2939,7 +2939,7 @@
   pages: "230--244"
   year: 2014
   mrreviewer: "Rainer Schulze-Pillot"
-  title: "Sign changes of {F}ourier coefficients of {H}ilbert modular forms"
+  title: "Sign changes of Fourier coefficients of Hilbert modular forms"
   doi: "10.1016j.jnt.2014.05.004"
   mrclass: "11F41 (11F67 11J81 11J91)"
   volume: "145"
@@ -2954,7 +2954,7 @@
   pages: "1350003, 20"
   year: 2013
   mrreviewer: "Angelo Lopez"
-  title: "Extensions of vector bundles with application to {N}oether-{L}efschetz theorems"
+  title: "Extensions of vector bundles with application to Noether-Lefschetz theorems"
   doi: "10.1142S021919971350003X"
   mrclass: "14J60 (14B10 14C22)"
   volume: "15"
@@ -3010,7 +3010,7 @@
   mrnumber: "1695307"
   pages: "3197--3200"
   year: 1999
-  title: "The {H}erzog-{V}asconcelos conjecture for affine semigroup rings"
+  title: "The Herzog-Vasconcelos conjecture for affine semigroup rings"
   doi: "10.108000927879908826621"
   mrclass: "13N15"
   volume: "27"
@@ -3052,7 +3052,7 @@
   mrnumber: "2095287"
   pages: "1817--1829"
   year: 2004
-  title: "Transient {MHD} rotating flow over a rotating sphere in the vicinity of the equator"
+  title: "Transient MHD rotating flow over a rotating sphere in the vicinity of the equator"
   doi: "10.1016j.ijengsci.2004.05.005"
   mrclass: "76W05 (76U05 85A30 86A10)"
   volume: "42"
@@ -3082,7 +3082,7 @@
   pages: "539--553"
   year: 2016
   mrreviewer: "Martin Westerholt-Raum"
-  title: "Cuspidality and the growth of {F}ourier coefficients small weights"
+  title: "Cuspidality and the growth of Fourier coefficients small weights"
   doi: "10.1007s00209-015-1609-2"
   mrclass: "11F30 (11F46)"
   volume: "283"
@@ -3138,7 +3138,7 @@
   mrnumber: "965668"
   pages: "255--263"
   year: 1988
-  title: "Stochastic response and stability of the {D}uffing oscillator under narrowband excitation"
+  title: "Stochastic response and stability of the Duffing oscillator under narrowband excitation"
   doi: "10.10160022-460X(88)90240-4"
   mrclass: "70L05"
   volume: "126"
@@ -3168,7 +3168,7 @@
   pages: "109--128"
   year: 2008
   mrreviewer: "Monireh Sedghi"
-  title: "On the {C}ohen-{M}acaulayness of some graded rings"
+  title: "On the Cohen-Macaulayness of some graded rings"
   doi: "10.1142S0219498808002692"
   mrclass: "13H10 (13A30)"
   volume: "7"
@@ -3183,7 +3183,7 @@
   pages: "2117--2123"
   year: 2006
   mrreviewer: "Carmen J. Vanegas"
-  title: "Isotopic families of contact manifolds for elliptic {PDE}"
+  title: "Isotopic families of contact manifolds for elliptic PDE"
   doi: "10.1090S0002-9939-06-08404-8"
   mrclass: "35J40 (35A08 35B60 35J67)"
   volume: "134"
@@ -3211,7 +3211,7 @@
   pages: "171--190"
   year: 1994
   mrreviewer: "Sorin Dragomir"
-  title: "{$(1,2)$}-symplectic structures, nearly {K}\\ahler structures and {$S^6$}"
+  title: "$(1,2)$-symplectic structures, nearly K\\ahler structures and $S^6$"
   mrclass: "53C15"
   volume: "60"
   issn: "0019-5839"
@@ -3224,7 +3224,7 @@
   mrnumber: "2074318"
   pages: "1099--1117"
   year: 2004
-  title: "Unsteady {MHD} film flow over a rotating infinite disk"
+  title: "Unsteady MHD film flow over a rotating infinite disk"
   doi: "10.1016j.ijengsci.2004.01.007"
   mrclass: "76W05 (76A20 76U05)"
   volume: "42"
@@ -3239,7 +3239,7 @@
   pages: "309--317"
   year: 2008
   mrreviewer: "Marek Be\\AA ka"
-  title: "Proximinality in {B}anach spaces"
+  title: "Proximinality in Banach spaces"
   doi: "10.1016j.jmaa.2007.10.024"
   mrclass: "46B20 (41A65)"
   volume: "341"
@@ -3254,7 +3254,7 @@
   pages: "1337--1352"
   year: 2013
   mrreviewer: "Petr Gurka"
-  title: "On the images of {S}obolev spaces under the heat kernel transform on the {H}eisenberg group"
+  title: "On the images of Sobolev spaces under the heat kernel transform on the Heisenberg group"
   doi: "10.1002mana.201100233"
   mrclass: "42B35 (43A80 46E35)"
   volume: "286"
@@ -3267,7 +3267,7 @@
   mrnumber: "1078470"
   pages: "620--641"
   year: 1990
-  title: "Boundary element solution for {N}avier-{S}tokes equations in a constricted channel"
+  title: "Boundary element solution for Navier-Stokes equations in a constricted channel"
   mrclass: "76M15 (76D05)"
   volume: "35"
   issn: "0001-7043"
@@ -3293,7 +3293,7 @@
   mrnumber: "1976158"
   pages: "415--422"
   year: 2003
-  title: "Generalized {T}uring patterns and their selective realization in spatiotemporal systems"
+  title: "Generalized Turing patterns and their selective realization in spatiotemporal systems"
   doi: "10.1016S0375-9601(03)00447-X"
   mrclass: "37L60 (35K57 37L10)"
   volume: "310"
@@ -3320,7 +3320,7 @@
   pages: "289--307"
   year: 2004
   mrreviewer: "Fabrizio Zanello"
-  title: "On the {$H$}-polynomial of certain monomial curves"
+  title: "On the $H$-polynomial of certain monomial curves"
   doi: "10.1216rmjm1181069906"
   mrclass: "13D40"
   volume: "34"
@@ -3428,7 +3428,7 @@
   pages: "B.6, 11"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Properties of permutations"
   mrclass: "05A05"
   volume: "111"
@@ -3441,7 +3441,7 @@
   pages: "1245--1259"
   year: 2006
   mrreviewer: "Lud\\Ak Zaj\\A-\\Aek"
-  title: "Semicontinuity of metric projections in {$c_0$}-direct sums"
+  title: "Semicontinuity of metric projections in $c_0$-direct sums"
   mrclass: "41A65 (46B20)"
   volume: "10"
   issn: "1027-5487"
@@ -3456,7 +3456,7 @@
   year: 2010
   note: "With an appendix by Manjunath Krishnapur"
   mrreviewer: "Sasha Sodin"
-  title: "Random matrices universality of {ESD}s and the circular law"
+  title: "Random matrices universality of ESDs and the circular law"
   doi: "10.121410-AOP534"
   mrclass: "60B20 (60F15 60F17)"
   volume: "38"
@@ -3470,7 +3470,7 @@
   mrnumber: "812746"
   pages: "1387--1395"
   year: 1985
-  title: "M{HD} flow of a second grade fluid in an orthogonal rheometer"
+  title: "MHD flow of a second grade fluid in an orthogonal rheometer"
   doi: "10.10160020-7225(85)90117-X"
   mrclass: "76W05"
   volume: "23"
@@ -3498,8 +3498,8 @@
   pages: "67--76"
   year: 2001
   publisher: "Springer, Berlin"
-  booktitle: "Applied algebra, algebraic algorithms and error-correcting codes ({M}elbourne, 2001)"
-  title: "{$\\bold F_q$}-linear cyclic codes over {$\\bold F_{q^m}$} {DFT} characterization"
+  booktitle: "Applied algebra, algebraic algorithms and error-correcting codes (Melbourne, 2001)"
+  title: "$\\bold F_q$-linear cyclic codes over $\\bold F_{q^m}$ DFT characterization"
   doi: "10.10073-540-45624-4_7"
   mrclass: "94B15"
   volume: "2227"
@@ -3527,7 +3527,7 @@
   pages: "2301--2305"
   year: 2016
   mrreviewer: "Cherng-tiao Perng"
-  title: "A note on small gaps between nonzero {F}ourier coefficients of cusp forms"
+  title: "A note on small gaps between nonzero Fourier coefficients of cusp forms"
   doi: "10.1090proc12887"
   mrclass: "11F30 (11F11 11G05)"
   volume: "144"
@@ -3542,7 +3542,7 @@
   pages: "581--591"
   year: 1994
   mrreviewer: "A. B\\A\\P ttcher"
-  title: "Extended {K}ac-{A}khiezer formulae and the {F}redholm determinant of finite section {H}ilbert-{S}chmidt kernels"
+  title: "Extended Kac-Akhiezer formulae and the Fredholm determinant of finite section Hilbert-Schmidt kernels"
   doi: "10.1007BF02867122"
   mrclass: "47B35 (45B05 47G10)"
   volume: "104"
@@ -3583,7 +3583,7 @@
   pages: "207--218"
   year: 2001
   publisher: "Springer, Berlin"
-  booktitle: "F{ST} {TCS} 2001 {F}oundations of software technology and theoretical computer science ({B}angalore)"
+  booktitle: "FST TCS 2001 Foundations of software technology and theoretical computer science (Bangalore)"
   title: "Verification of a leader election algorithm in timed asynchronous systems"
   doi: "10.10073-540-45294-X_18"
   mrclass: "68M14"
@@ -3641,7 +3641,7 @@
   mrreviewer: "Domingo A. Tarzia"
   publisher: "Elsevier Science B.V., Amsterdam"
   isbn: "0-444-51086-9"
-  title: "The classical {S}tefan problem"
+  title: "The classical Stefan problem"
   mrclass: "35R35 (35C15 35R30 80A22)"
   volume: "45"
 
@@ -3709,7 +3709,7 @@
   mrnumber: "1978559"
   pages: "723--741"
   year: 2003
-  title: "Self-similar solutions of a generalized {B}urgers equation with nonlinear damping"
+  title: "Self-similar solutions of a generalized Burgers equation with nonlinear damping"
   doi: "10.1016S1468-1218(02)00083-4"
   mrclass: "35Q53"
   volume: "4"
@@ -3779,7 +3779,7 @@
   mrnumber: "1360206"
   pages: "1--16"
   year: 1995
-  title: "The {H}iggs mechanism for a spinor field and the sigma model"
+  title: "The Higgs mechanism for a spinor field and the sigma model"
   mrclass: "81T13"
   volume: "65"
   issn: "0369-8203"
@@ -3793,7 +3793,7 @@
   pages: "217--237"
   year: 2007
   mrreviewer: "Jingzhi Tie"
-  title: "Gutzmers formula and {P}oisson integrals on the {H}eisenberg group"
+  title: "Gutzmers formula and Poisson integrals on the Heisenberg group"
   doi: "10.2140pjm.2007.231.217"
   mrclass: "43A85 (22E25 22E30 43A90)"
   volume: "231"
@@ -3807,7 +3807,7 @@
   mrnumber: "2830600"
   pages: "303--308"
   year: 2011
-  title: "Coherence of the real symmetric {H}ardy algebra"
+  title: "Coherence of the real symmetric Hardy algebra"
   doi: "10.7153oam-05-21"
   mrclass: "30H05 (16S15 30H50 46J15)"
   volume: "5"
@@ -3820,7 +3820,7 @@
   mrnumber: "3076273"
   pages: "337--355"
   year: 2013
-  title: "Optimal control problem for the time-dependent {K}irchhoff-{L}ove plate in a domain with rough boundary"
+  title: "Optimal control problem for the time-dependent Kirchhoff-Love plate in a domain with rough boundary"
   mrclass: "49J45 (35L35 49K20)"
   volume: "81"
   issn: "0921-7134"
@@ -3891,7 +3891,7 @@
   pages: "371--385"
   year: 2005
   mrreviewer: "Nicholay G. Tomin"
-  title: "Schr\\odinger equation and the oscillatory semigroup for the {H}ermite operator"
+  title: "Schr\\odinger equation and the oscillatory semigroup for the Hermite operator"
   doi: "10.1016j.jfa.2004.12.011"
   mrclass: "33C45 (35G10 35J10 35Q40 47N50)"
   volume: "224"
@@ -3916,7 +3916,7 @@
   pages: "211--219"
   year: 2004
   mrreviewer: "Jean Ludwig"
-  title: "An optimal theorem for the spherical maximal operator on the {H}eisenberg group"
+  title: "An optimal theorem for the spherical maximal operator on the Heisenberg group"
   doi: "10.1007BF02916713"
   mrclass: "43A80 (22E30)"
   volume: "144"
@@ -3946,7 +3946,7 @@
   pages: "2661--2674"
   year: 2015
   mrreviewer: "Juan-Ru Gu"
-  title: "Non-coercive {R}icci flow invariant curvature cones"
+  title: "Non-coercive Ricci flow invariant curvature cones"
   doi: "10.1090S0002-9939-2015-12619-6"
   mrclass: "53C44"
   volume: "143"
@@ -3997,7 +3997,7 @@
   pages: "E.63--E.76"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Domination and its variants"
   mrclass: "05C35 (68R05)"
   volume: "111"
@@ -4025,7 +4025,7 @@
   mrnumber: "2825895"
   pages: "839--854"
   year: 2011
-  title: "An inverse problem for {H}elmholtz equation"
+  title: "An inverse problem for Helmholtz equation"
   doi: "10.108017415977.2011.556705"
   mrclass: "65N21 (31A25)"
   volume: "19"
@@ -4040,7 +4040,7 @@
   pages: "279--303"
   year: 2012
   mrreviewer: "Erlend Grong"
-  title: "Analyticity of the {S}chr\\odinger propagator on the {H}eisenberg group"
+  title: "Analyticity of the Schr\\odinger propagator on the Heisenberg group"
   doi: "10.1007s00605-012-0424-7"
   mrclass: "22E30 (35H20 35R03)"
   volume: "168"
@@ -4136,7 +4136,7 @@
   pages: "913--925"
   year: 2004
   mrreviewer: "Joseph So"
-  title: "Fitz{H}ugh-{N}agumo revisited types of bifurcations, periodical forcing and stability regions by a {L}yapunov functional"
+  title: "FitzHugh-Nagumo revisited types of bifurcations, periodical forcing and stability regions by a Lyapunov functional"
   doi: "10.1142S0218127404009685"
   mrclass: "34C23 (34C25 37G15 37N25 92C20)"
   volume: "14"
@@ -4178,8 +4178,8 @@
   year: 2009
   mrreviewer: "Stephen Bruce Sontz"
   publisher: "World Sci. Publ., Hackensack, NJ"
-  booktitle: "Perspectives in mathematical sciences. {II}"
-  title: "Gutzmers formula and the {S}egal-{B}argmann transform"
+  booktitle: "Perspectives in mathematical sciences. II"
+  title: "Gutzmers formula and the Segal-Bargmann transform"
   doi: "10.11429789814273657_0013"
   mrclass: "22E30 (22E25)"
   volume: "8"
@@ -4191,8 +4191,8 @@
   mrnumber: "1630092"
   pages: "17--34"
   year: 1996
-  booktitle: "Proceedings of {I}nternational {S}ymposium on {M}athematical {P}hysics with {S}pecial {S}essions on {B}oses {W}orks, {P}art {II} ({C}alcutta, 1994)"
-  title: "The effect of two translating disks in {S}ampson flow"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part II (Calcutta, 1994)"
+  title: "The effect of two translating disks in Sampson flow"
   mrclass: "76D99"
   volume: "4"
   issn: "2231-5306"
@@ -4217,7 +4217,7 @@
   mrnumber: "3135030"
   pages: "319--334"
   year: 2013
-  title: "Quantitative ultrasound-modulated optical tomography a direct {G}auss-{N}ewton approach to recover elasticity distribution from the measured intensity autocorrelation"
+  title: "Quantitative ultrasound-modulated optical tomography a direct Gauss-Newton approach to recover elasticity distribution from the measured intensity autocorrelation"
   mrclass: "74J25 (35J25 35R30 65N21 78A40)"
   volume: "21"
   issn: "1061-5369"
@@ -4231,7 +4231,7 @@
   pages: "751--801"
   year: 2011
   mrreviewer: "Norman Levenberg"
-  title: "Remarks on the metric induced by the {R}obin function"
+  title: "Remarks on the metric induced by the Robin function"
   doi: "10.1512iumj.2011.60.4307"
   mrclass: "32F45 (32T99)"
   volume: "60"
@@ -4259,7 +4259,7 @@
   pages: "65--76"
   year: 2006
   publisher: "Springer, Berlin"
-  booktitle: "Algorithm theory---{SWAT} 2006"
+  booktitle: "Algorithm theory---SWAT 2006"
   title: "Dynamic matching markets and voting paths"
   doi: "10.100711785293_9"
   mrclass: "91B68 (05C70 91A43)"
@@ -4318,7 +4318,7 @@
   pages: "2419--2436"
   year: 2008
   mrreviewer: "Harald Upmeier"
-  title: "Homogeneous operators on {H}ilbert spaces of holomorphic functions"
+  title: "Homogeneous operators on Hilbert spaces of holomorphic functions"
   doi: "10.1016j.jfa.2007.12.014"
   mrclass: "47B32 (46E22 46H25)"
   volume: "254"
@@ -4385,7 +4385,7 @@
   pages: "269--277"
   year: 2015
   mrreviewer: "Mohammed-Larbi Labbi"
-  title: "A gap theorem for {R}icci-flat 4-manifolds"
+  title: "A gap theorem for Ricci-flat 4-manifolds"
   doi: "10.1016j.difgeo.2015.02.012"
   mrclass: "53C21 (53C20 53C25)"
   volume: "40"
@@ -4468,7 +4468,7 @@
   mrnumber: "1816457"
   pages: "1--5"
   year: 2001
-  title: "Bounding the torsion in {CM} elliptic curves"
+  title: "Bounding the torsion in CM elliptic curves"
   mrclass: "11G05 (11G15 14G05)"
   volume: "23"
   issn: "0706-1994"
@@ -4537,7 +4537,7 @@
   pages: "849--866"
   year: 2005
   mrreviewer: "Alexandru Krist\\Aly"
-  title: "Non-radially symmetric solutions for a superlinear {A}mbrosetti-{P}rodi type problem in a ball"
+  title: "Non-radially symmetric solutions for a superlinear Ambrosetti-Prodi type problem in a ball"
   doi: "10.1142S0219199705001982"
   mrclass: "35J60 (35J20 35J25 47J30 58E05)"
   volume: "7"
@@ -4551,7 +4551,7 @@
   pages: "1441--1464"
   year: 2014
   mrreviewer: "Sevak Mkrtchyan"
-  title: "The {G}inibre ensemble and {G}aussian analytic functions"
+  title: "The Ginibre ensemble and Gaussian analytic functions"
   mrclass: "60B20 (60G55 60G99)"
   issn: "1073-7928"
 
@@ -4562,7 +4562,7 @@
   mrnumber: "1383044"
   pages: "577--585"
   year: 1995
-  title: "Solution of a class of mixed boundary-value problems for {L}aplaces equation arising in water-wave scattering"
+  title: "Solution of a class of mixed boundary-value problems for Laplaces equation arising in water-wave scattering"
   mrclass: "76B15"
   volume: "75"
   issn: "0970-4140"
@@ -4574,7 +4574,7 @@
   mrnumber: "3136892"
   pages: "135--143"
   year: 2012
-  title: "Differentiation, homogeneous operators and matrix valued co-cycles for the {M}\\obius group"
+  title: "Differentiation, homogeneous operators and matrix valued co-cycles for the M\\obius group"
   mrclass: "47A16"
   volume: "81"
   issn: "0025-5742"
@@ -4588,7 +4588,7 @@
   pages: "1979--1995"
   year: 2011
   mrreviewer: "Nilima Nigam"
-  title: "{$\\scr C^0$} penalty methods for the fully nonlinear {M}onge-{A}mp\\ere equation"
+  title: "$\\scr C^0$ penalty methods for the fully nonlinear Monge-Amp\\ere equation"
   doi: "10.1090S0025-5718-2011-02487-7"
   mrclass: "65N30 (35J96 65N12)"
   volume: "80"
@@ -4603,7 +4603,7 @@
   pages: "259--281"
   year: 2011
   mrreviewer: "Aleksandar Mijatovi\\A"
-  title: "Risk minimizing option pricing for a class of exotic options in a {M}arkov-modulated market"
+  title: "Risk minimizing option pricing for a class of exotic options in a Markov-modulated market"
   doi: "10.108007362994.2011.548665"
   mrclass: "91G20 (60H30 60J27 91G60)"
   volume: "29"
@@ -4617,7 +4617,7 @@
   mrnumber: "2990135"
   pages: "1091--1108"
   year: 2012
-  title: "Revisiting {R}iesz transforms on {H}eisenberg groups"
+  title: "Revisiting Riesz transforms on Heisenberg groups"
   doi: "10.4171RMI704"
   mrclass: "47B35 (22E30 43A65)"
   volume: "28"
@@ -4631,7 +4631,7 @@
   mrnumber: "919292"
   pages: "551--565"
   year: 1986
-  title: "Systolic architecture for {$B$}-spline surfaces"
+  title: "Systolic architecture for $B$-spline surfaces"
   doi: "10.1007BF01407413"
   mrclass: "65D10 (65D07)"
   volume: "15"
@@ -4659,7 +4659,7 @@
   pages: "512--523"
   year: 2007
   publisher: "Springer, Berlin"
-  booktitle: "S{TACS} 2007"
+  booktitle: "STACS 2007"
   title: "New approximation algorithms for minimum cycle bases of graphs"
   doi: "10.1007978-3-540-70918-3_44"
   mrclass: "68W25 (05C38 05C85)"
@@ -4715,7 +4715,7 @@
   mrnumber: "3517621"
   pages: "183--194"
   year: 2016
-  title: "Persistence probabilities in centered, stationary, {G}aussian processes in discrete time"
+  title: "Persistence probabilities in centered, stationary, Gaussian processes in discrete time"
   doi: "10.1007s13226-016-0183-6"
   mrclass: "60G10 (60G15)"
   volume: "47"
@@ -4756,7 +4756,7 @@
   pages: "97--116"
   year: 2002
   mrreviewer: "Gelu Fanica Popescu"
-  title: "A model theory for {$q$}-commuting contractive tuples"
+  title: "A model theory for $q$-commuting contractive tuples"
   mrclass: "47A45 (46L05 47A13 47A20)"
   volume: "47"
   issn: "0379-4024"
@@ -4780,7 +4780,7 @@
   pages: "493--509"
   year: 2010
   mrreviewer: "Ernesto C. Mistretta"
-  title: "Arithmetically {C}ohen-{M}acaulay bundles on complete intersection varieties of sufficiently high multidegree"
+  title: "Arithmetically Cohen-Macaulay bundles on complete intersection varieties of sufficiently high multidegree"
   doi: "10.1007s00209-009-0526-7"
   mrclass: "14J60 (14M05)"
   volume: "265"
@@ -4795,7 +4795,7 @@
   pages: "257--268"
   year: 2015
   mrreviewer: "W\\AA odzimierz Zwonek"
-  title: "Proper holomorphic mappings of balanced domains in {$\\Bbb{C}^n$}"
+  title: "Proper holomorphic mappings of balanced domains in $\\Bbb{C}^n$"
   doi: "10.1007s00209-015-1421-z"
   mrclass: "32H35"
   volume: "280"
@@ -4810,7 +4810,7 @@
   pages: "36--59"
   year: 2016
   mrreviewer: "Dietrich Braess"
-  title: "A {$C^0$} interior penalty method for a fourth-order variational inequality of the second kind"
+  title: "A $C^0$ interior penalty method for a fourth-order variational inequality of the second kind"
   doi: "10.1002num.21983"
   mrclass: "65N30 (65K15 65N15)"
   volume: "32"
@@ -4824,7 +4824,7 @@
   mrnumber: "2103477"
   pages: "2966--2984"
   year: 2004
-  title: "L{DPC} block and convolutional codes based on circulant matrices"
+  title: "LDPC block and convolutional codes based on circulant matrices"
   doi: "10.1109TIT.2004.838370"
   mrclass: "94B10 (05C90 15A57)"
   volume: "50"
@@ -4838,7 +4838,7 @@
   mrnumber: "722716"
   pages: "331--337"
   year: 1983
-  title: "On the conversion of {H}ensel codes to {F}arey rationals"
+  title: "On the conversion of Hensel codes to Farey rationals"
   doi: "10.1109TC.1983.1676233"
   mrclass: "11A63 (11Y16 68Q25)"
   volume: "32"
@@ -4852,7 +4852,7 @@
   mrnumber: "1675698"
   pages: "267--292"
   year: 1999
-  title: "The {W}iener-{H}opf solution of a class of mixed boundary value problems arising in surface water wave phenomena"
+  title: "The Wiener-Hopf solution of a class of mixed boundary value problems arising in surface water wave phenomena"
   doi: "10.1016S0165-2125(98)00032-8"
   mrclass: "76B15 (45E10)"
   volume: "29"
@@ -4878,7 +4878,7 @@
   mrnumber: "2727976"
   pages: "2285--2288"
   year: 2010
-  title: "Eigenvalues of kinematical conservation laws ({KCL}) based 3-{D} weakly nonlinear ray theory ({WNLRT})"
+  title: "Eigenvalues of kinematical conservation laws (KCL) based 3-D weakly nonlinear ray theory (WNLRT)"
   doi: "10.1016j.amc.2010.06.041"
   mrclass: "35L65 (76N15)"
   volume: "217"
@@ -4892,7 +4892,7 @@
   mrnumber: "2319062"
   pages: "1643--1659"
   year: 2007
-  title: "Effect of variable viscosity on non-{D}arcy free or mixed convection flow on a vertical surface in a non-{N}ewtonian fluid saturated porous medium"
+  title: "Effect of variable viscosity on non-Darcy free or mixed convection flow on a vertical surface in a non-Newtonian fluid saturated porous medium"
   doi: "10.1016j.amc.2006.08.072"
   mrclass: "76S05"
   volume: "186"
@@ -4906,7 +4906,7 @@
   pages: "141--165"
   year: 2012
   mrreviewer: "Sima Soltani Renani"
-  title: "Contractive {H}ilbert modules and their dilations"
+  title: "Contractive Hilbert modules and their dilations"
   doi: "10.1007s11856-011-0166-6"
   mrclass: "46H25 (47H09)"
   volume: "187"
@@ -4948,7 +4948,7 @@
   mrnumber: "3077856"
   pages: "Art. ID 784398, 9"
   year: 2013
-  title: "A note on generalized {H}ardy-{S}obolev inequalities"
+  title: "A note on generalized Hardy-Sobolev inequalities"
   mrclass: "35A23 (26D15 35J20 46E35)"
   issn: "2314-498X"
 
@@ -4986,7 +4986,7 @@
   pages: "2791--2809"
   year: 2003
   mrreviewer: "Maria Evelina Rossi"
-  title: "A minimal free resolution for certain monomial curves in {$\\Bbb A^4$}"
+  title: "A minimal free resolution for certain monomial curves in $\\Bbb A^4$"
   doi: "10.1081AGB-120021893"
   mrclass: "13D02"
   volume: "31"
@@ -4999,7 +4999,7 @@
   mrnumber: "2361600"
   pages: "467--490"
   year: 2007
-  title: "Ray theories for hyperbolic waves, kinematical conservation laws ({KCL}) and applications"
+  title: "Ray theories for hyperbolic waves, kinematical conservation laws (KCL) and applications"
   mrclass: "35L05 (35-02 35C20 76J20 76L05)"
   volume: "38"
   issn: "0019-5588"
@@ -5013,7 +5013,7 @@
   pages: "451--466"
   year: 2011
   mrreviewer: "Oscar F. Bandtlow"
-  title: "A {P}aley-{W}iener theorem for some eigenfunction expansions"
+  title: "A Paley-Wiener theorem for some eigenfunction expansions"
   doi: "10.1515APAM.2010.042"
   mrclass: "47B35 (22E30 32V40 43A85)"
   volume: "2"
@@ -5027,7 +5027,7 @@
   mrnumber: "3081177"
   pages: "20110610, 14"
   year: 2013
-  title: "Multivariate {G}ranger causality an estimation framework based on factorization of the spectral density matrix"
+  title: "Multivariate Granger causality an estimation framework based on factorization of the spectral density matrix"
   doi: "10.1098rsta.2011.0610"
   mrclass: "62M15 (62J15 62M10 92B15)"
   volume: "371"
@@ -5040,7 +5040,7 @@
   mrnumber: "3012723"
   pages: "227--230"
   year: 2010
-  title: "Algebraic geometry in {I}ndia"
+  title: "Algebraic geometry in India"
   mrclass: "01A32 (14-03)"
   volume: "19"
   issn: "0971-1694"
@@ -5065,7 +5065,7 @@
   year: 2005
   publisher: "Springer, Berlin"
   booktitle: "Automata, languages and programming"
-  title: "An {$\\O(m^2n)$} randomized algorithm to compute a minimum cycle basis of a directed graph"
+  title: "An $\\O(m^2n)$ randomized algorithm to compute a minimum cycle basis of a directed graph"
   doi: "10.100711523468_23"
   mrclass: "68W20 (05C38 68R10)"
   volume: "3580"
@@ -5103,8 +5103,8 @@
   pages: "605--614"
   year: 2007
   publisher: "ACM, New York"
-  booktitle: "S{TOC}07---{P}roceedings of the 39th {A}nnual {ACM} {S}ymposium on {T}heory of {C}omputing"
-  title: "An {$\\O(mn)$} {G}omory-{H}u tree construction algorithm for unweighted graphs"
+  booktitle: "STOC07---Proceedings of the 39th Annual ACM Symposium on Theory of Computing"
+  title: "An $\\O(mn)$ Gomory-Hu tree construction algorithm for unweighted graphs"
   doi: "10.11451250790.1250879"
   mrclass: "90C27 (05C40 05C70 05C85)"
 
@@ -5116,7 +5116,7 @@
   pages: "523--546"
   year: 2012
   mrreviewer: "Sergey Ivashkovich"
-  title: "Domains in complex surfaces with a noncompact automorphism group---{II}"
+  title: "Domains in complex surfaces with a noncompact automorphism group---II"
   mrclass: "32M12"
   volume: "27"
   issn: "0970-1249"
@@ -5183,7 +5183,7 @@
   pages: "1587--1613"
   year: 2016
   mrreviewer: "Matteo Ruggiero"
-  title: "The dynamics of holomorphic correspondences of {$\\Bbb P^1$}  invariant measures and the normality set"
+  title: "The dynamics of holomorphic correspondences of $\\Bbb P^1$  invariant measures and the normality set"
   doi: "10.108017476933.2016.1185419"
   mrclass: "37F05 (30F40 37F10)"
   volume: "61"
@@ -5239,7 +5239,7 @@
   mrnumber: "2903591"
   pages: "795--809"
   year: 2012
-  title: "A numerical study of variable coefficient elliptic {C}auchy problem via projection method"
+  title: "A numerical study of variable coefficient elliptic Cauchy problem via projection method"
   doi: "10.108000207160.2012.659426"
   mrclass: "65N21"
   volume: "89"
@@ -5269,7 +5269,7 @@
   pages: "293--304"
   year: 1999
   note: "1st International Workshop on Retrial Queues (Madrid, 1998)"
-  title: "Reliability of a {$k$}-out-of-{$n$} system with repair and retrial of failed units"
+  title: "Reliability of a $k$-out-of-$n$ system with repair and retrial of failed units"
   doi: "10.1007BF02564728"
   mrclass: "60K10 (90B22 90B25)"
   volume: "7"
@@ -5283,7 +5283,7 @@
   mrnumber: "789046"
   pages: "305--309"
   year: 1985
-  title: "Hamiltonian formulation of the anomalous chiral {S}chwinger model"
+  title: "Hamiltonian formulation of the anomalous chiral Schwinger model"
   doi: "10.10160370-2693(85)90369-7"
   mrclass: "81E13"
   volume: "154"
@@ -5353,7 +5353,7 @@
   pages: "253--282"
   year: 2001
   mrreviewer: "Roman O. Popovych"
-  title: "Analysis of the self-similar solutions of a generalized {B}urgers equation with nonlinear damping"
+  title: "Analysis of the self-similar solutions of a generalized Burgers equation with nonlinear damping"
   doi: "10.1155S1024123X01001648"
   mrclass: "35Q53 (34A12 35C05 35K57 65L05)"
   volume: "7"
@@ -5368,7 +5368,7 @@
   pages: "723--730"
   year: 1985
   mrreviewer: "J. L\\A$\\mu$hmus"
-  title: "Geometrical interpretation of {I}n\\on\\u-{W}igner contractions"
+  title: "Geometrical interpretation of In\\on\\u-Wigner contractions"
   doi: "10.1007BF00670879"
   mrclass: "22E99 (22E70 81C40)"
   volume: "24"
@@ -5397,7 +5397,7 @@
   mrnumber: "726739"
   pages: "3020--3031"
   year: 1983
-  title: "Relativistic rotator. {I}. {Q}uantum observables and constrained {H}amiltonian mechanics"
+  title: "Relativistic rotator. I. Quantum observables and constrained Hamiltonian mechanics"
   doi: "10.1103PhysRevD.28.3020"
   mrclass: "81C40 (81D05 81G30 81G50 81M05)"
   volume: "28"
@@ -5410,7 +5410,7 @@
   year: 1986
   mrreviewer: "Andreas Guthmann"
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Primality testing and its implications"
   mrclass: "11Y11 (11Y16)"
   volume: "111"
@@ -5452,7 +5452,7 @@
   pages: "169--183"
   year: 2010
   mrreviewer: "Nils Byrial Andersen"
-  title: "Segal-{B}argmann transform and {P}aley-{W}iener theorems on {$M(2)$}"
+  title: "Segal-Bargmann transform and Paley-Wiener theorems on $M(2)$"
   doi: "10.1007s12044-010-0024-1"
   mrclass: "42B20"
   volume: "120"
@@ -5482,7 +5482,7 @@
   pages: "279--290"
   year: 2008
   mrreviewer: "Jingzhi Tie"
-  title: "An analogue of {G}utzmers formula for {H}ermite expansions"
+  title: "An analogue of Gutzmers formula for Hermite expansions"
   doi: "10.4064sm185-3-5"
   mrclass: "42A38 (42B99 43A90)"
   volume: "185"
@@ -5493,7 +5493,7 @@
   pages: "463--472"
   year: 1998
   publisher: "ACM, New York"
-  booktitle: "Proceedings of the {N}inth {A}nnual {ACM}-{SIAM} {S}ymposium on {D}iscrete {A}lgorithms ({S}an {F}rancisco, {CA}, 1998)"
+  booktitle: "Proceedings of the Ninth Annual ACM-SIAM Symposium on Discrete Algorithms (San Francisco, CA, 1998)"
   title: "Approximate string matching a simpler faster algorithm"
   mrclass: "68Q20"
 
@@ -5506,7 +5506,7 @@
   pages: "458--467"
   year: 1986
   mrreviewer: "C. Carton-Lebrun"
-  title: "Kac-{A}khiezer formula for normal integral operators"
+  title: "Kac-Akhiezer formula for normal integral operators"
   doi: "10.10160022-247X(86)90099-5"
   mrclass: "47G05 (45P05 47B35)"
   volume: "114"
@@ -5535,7 +5535,7 @@
   pages: "719--740"
   year: 2010
   mrreviewer: "Miroslav Engli\\AA "
-  title: "Segal-{B}argmann transform and {P}aley-{W}iener theorems on motion groups"
+  title: "Segal-Bargmann transform and Paley-Wiener theorems on motion groups"
   doi: "10.2977PRIMS23"
   mrclass: "22E30 (22E45 43A32)"
   volume: "46"
@@ -5578,7 +5578,7 @@
   pages: "363--385"
   year: 2010
   mrreviewer: "Zeng Hu Li"
-  title: "Critical age-dependent branching {M}arkov processes and their scaling limits"
+  title: "Critical age-dependent branching Markov processes and their scaling limits"
   doi: "10.1007s12044-010-0028-x"
   mrclass: "60J80 (60J68)"
   volume: "120"
@@ -5592,7 +5592,7 @@
   mrreviewer: "Petr Mandl"
   publisher: "Longman Scientific \\ Technical, Harlow copublished in the United States with John Wiley \\ Sons, Inc., New York"
   isbn: "0-582-06821-5"
-  title: "Topics in controlled {M}arkov chains"
+  title: "Topics in controlled Markov chains"
   mrclass: "93-02 (60J10 93E99)"
   volume: "240"
 
@@ -5605,7 +5605,7 @@
   pages: "2415--2422"
   year: 1986
   mrreviewer: "M. Carmeli"
-  title: "Gauge theory of a group of diffeomorphisms. {I}. {G}eneral principles"
+  title: "Gauge theory of a group of diffeomorphisms. I. General principles"
   doi: "10.10631.526980"
   mrclass: "81E13 (58D05)"
   volume: "27"
@@ -5618,7 +5618,7 @@
   mrnumber: "2334620"
   pages: "45--50"
   year: 2007
-  title: "Affine one dimensional domains which are not {E}uclidean domains"
+  title: "Affine one dimensional domains which are not Euclidean domains"
   mrclass: "13F07 (13G05)"
   volume: "1"
   issn: "0973-5240"
@@ -5646,7 +5646,7 @@
   pages: "463--477"
   year: 2004
   mrreviewer: "Ayse Kara"
-  title: "Controllability of second order semi-linear neutral functional differential inclusions in {B}anach spaces"
+  title: "Controllability of second order semi-linear neutral functional differential inclusions in Banach spaces"
   doi: "10.1007s00009-004-0024-4"
   mrclass: "93B05 (34A60 34K40 93C23)"
   volume: "1"
@@ -5661,7 +5661,7 @@
   year: 2002
   note: "Special issue dedicated to Professor T. Ando"
   mrreviewer: "Christian Le Merdy"
-  title: "Some thoughts on {A}ndos theorem and {P}arrotts example"
+  title: "Some thoughts on Andos theorem and Parrotts example"
   doi: "10.1016S0024-3795(01)00454-2"
   mrclass: "47L55 (47A20 47A45)"
   volume: "341"
@@ -5676,7 +5676,7 @@
   pages: "1269--1272"
   year: 2011
   mrreviewer: "Yusuke Kuno"
-  title: "The {G}oldman bracket characterizes homeomorphisms"
+  title: "The Goldman bracket characterizes homeomorphisms"
   doi: "10.1016j.crma.2011.11.005"
   mrclass: "57N05 (57R19)"
   volume: "349"
@@ -5701,7 +5701,7 @@
   pages: "D.4, 6"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Finding maximum in a set"
   mrclass: "68Q25"
   volume: "111"
@@ -5714,7 +5714,7 @@
   mrnumber: "1695258"
   pages: "385--404"
   year: 1999
-  title: "The onset of steady {B}\\enard-{M}arangoni convection in a two-layer system of conducting fluid in the presence of a uniform magnetic field"
+  title: "The onset of steady B\\enard-Marangoni convection in a two-layer system of conducting fluid in the presence of a uniform magnetic field"
   doi: "10.1023A1004439231890"
   mrclass: "76E15 (76E25 76W05)"
   volume: "35"
@@ -5740,7 +5740,7 @@
   pages: "449--455"
   year: 1998
   publisher: "Allied Publ., New Delhi"
-  booktitle: "Special functions and differential equations ({M}adras, 1997)"
+  booktitle: "Special functions and differential equations (Madras, 1997)"
   title: "On three unified approaches in problems of scattering of water waves by vertical barriers"
   mrclass: "76B15 (45Exx)"
 
@@ -5768,7 +5768,7 @@
   pages: "595--599"
   year: 2009
   mrreviewer: "Bahmann Yousefi"
-  title: "A classification of homogeneous operators in the {C}owen-{D}ouglas class"
+  title: "A classification of homogeneous operators in the Cowen-Douglas class"
   doi: "10.1007s00020-009-1673-2"
   mrclass: "47B32 (46E22)"
   volume: "63"
@@ -5808,7 +5808,7 @@
   pages: "2361--2370"
   year: 2013
   mrreviewer: "Jordi Pau"
-  title: "Reproducing kernel for a class of weighted {B}ergman spaces on the symmetrized polydisc"
+  title: "Reproducing kernel for a class of weighted Bergman spaces on the symmetrized polydisc"
   doi: "10.1090S0002-9939-2013-11514-5"
   mrclass: "32A25 (30H10 30H20 32A35 46E22 47B32)"
   volume: "141"
@@ -5823,7 +5823,7 @@
   pages: "391--410"
   year: 2006
   mrreviewer: "Hideo Yamagata"
-  title: "W{EB}-spline-based multigrid methods for the stationary {S}tokes problem"
+  title: "WEB-spline-based multigrid methods for the stationary Stokes problem"
   doi: "10.108001630560600686207"
   mrclass: "65M55 (65D07 65M60 76M25)"
   volume: "27"
@@ -5838,7 +5838,7 @@
   pages: "77--81"
   year: 2011
   mrreviewer: "Stamatis Koumandos"
-  title: "Lacunary {F}ourier series and a qualitative uncertainty principle for compact {L}ie groups"
+  title: "Lacunary Fourier series and a qualitative uncertainty principle for compact Lie groups"
   doi: "10.1007s12044-011-0006-y"
   mrclass: "42A55 (43A10 43A25 43A80)"
   volume: "121"
@@ -5866,7 +5866,7 @@
   mrnumber: "2671000"
   pages: "254--261"
   year: 2010
-  title: "Open manifolds, {O}zsv\\ath-{S}zab\\o invariants and exotic {$\\Bbb R^4$}s"
+  title: "Open manifolds, Ozsv\\ath-Szab\\o invariants and exotic $\\Bbb R^4$s"
   doi: "10.1016j.exmath.2009.09.002"
   mrclass: "57M27 (57N10 57R58)"
   volume: "28"
@@ -5950,7 +5950,7 @@
   pages: "131--155"
   year: 1994
   mrreviewer: "Krzysztof Szajowski"
-  title: "Controlled {M}arkov processes on the infinite planning horizon weighted and overtaking cost criteria"
+  title: "Controlled Markov processes on the infinite planning horizon weighted and overtaking cost criteria"
   doi: "10.1007BF01415579"
   mrclass: "93E20 (60G40 90C40)"
   volume: "39"
@@ -5965,7 +5965,7 @@
   pages: "59--70"
   year: 2006
   mrreviewer: "Bernhard Lamel"
-  title: "Boundary regularity of correspondences in {$\\Bbb C^n$}"
+  title: "Boundary regularity of correspondences in $\\Bbb C^n$"
   doi: "10.1007BF02829739"
   mrclass: "32H40 (32V25)"
   volume: "116"
@@ -5977,7 +5977,7 @@
   pages: "B.7, 4"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Counting configurations arising in the analysis of algorithms"
   mrclass: "68R05 (05A15)"
   volume: "111"
@@ -5990,7 +5990,7 @@
   editor: "Bhattacharyya, Tirthankar and Dritschel, Michael A."
   publisher: "Birkh\\auserSpringer, Cham"
   isbn: "978-3-319-18181-3 978-3-319-18182-0"
-  booktitle: "Proceedings of the 24th {I}nternational {W}orkshop in {O}perator {T}heory and its {A}pplications ({IWOTA}) held at the {I}ndian {I}nstitute of {S}cience, {B}angalore, {D}ecember 16--20, 2013"
+  booktitle: "Proceedings of the 24th International Workshop in Operator Theory and its Applications (IWOTA) held at the Indian Institute of Science, Bangalore, December 16--20, 2013"
   title: "Operator algebras and mathematical physics"
   doi: "10.1007978-3-319-18182-0"
   mrclass: "47-06"
@@ -6004,7 +6004,7 @@
   pages: "75--93"
   year: 2009
   mrreviewer: "Brian C. Hall"
-  title: "Harmonic analysis on {H}eisenberg nilmanifolds"
+  title: "Harmonic analysis on Heisenberg nilmanifolds"
   mrclass: "43A85 (35K05 35K08)"
   volume: "50"
   issn: "0041-6932"
@@ -6018,7 +6018,7 @@
   pages: "2571--2576"
   year: 2011
   mrreviewer: "G. K. Sankaran"
-  title: "Almost quarter-pinched {K}\\ahler metrics and {C}hern numbers"
+  title: "Almost quarter-pinched K\\ahler metrics and Chern numbers"
   doi: "10.1090S0002-9939-2010-10676-7"
   mrclass: "53C21 (53C20 53C55)"
   volume: "139"
@@ -6060,7 +6060,7 @@
   pages: "1019--1024"
   year: 2013
   mrreviewer: "Stefan Schreieder"
-  title: "On the {K}\\ahler structures over {Q}uot schemes"
+  title: "On the K\\ahler structures over Quot schemes"
   mrclass: "32Q05 (14C20 32Q10 53C55)"
   volume: "57"
   issn: "0019-2082"
@@ -6085,7 +6085,7 @@
   mrnumber: "2638977"
   pages: "279--288"
   year: 2010
-  title: "Use of {A}bel integral equations in water wave scattering by two surface-piercing barriers"
+  title: "Use of Abel integral equations in water wave scattering by two surface-piercing barriers"
   doi: "10.1016j.wavemoti.2009.12.002"
   mrclass: "76B15 (45E05)"
   volume: "47"
@@ -6127,8 +6127,8 @@
   mrnumber: "2259892"
   pages: "36--83"
   year: 2006
-  mrreviewer: "Rodney Josu\\A\\copyright{} Biezuner"
-  title: "Optimal {H}ardy-{R}ellich inequalities, maximum principle and related eigenvalue problem"
+  mrreviewer: "Rodney Josu\\A\\copyright Biezuner"
+  title: "Optimal Hardy-Rellich inequalities, maximum principle and related eigenvalue problem"
   doi: "10.1016j.jfa.2006.07.011"
   mrclass: "35B50 (35J20 35P15)"
   volume: "240"
@@ -6186,7 +6186,7 @@
   pages: "416--426"
   year: 1985
   mrreviewer: "G. S. Agarwal"
-  title: "Fourier optics for the {M}axwell field formalism and applications"
+  title: "Fourier optics for the Maxwell field formalism and applications"
   doi: "10.1364JOSAA.2.000416"
   mrclass: "78A25"
   volume: "2"
@@ -6200,7 +6200,7 @@
   mrnumber: "1298425"
   pages: "251--274"
   year: 1994
-  title: "Exact free surface flows for shallow water equations. {I}. {T}he incompressible case"
+  title: "Exact free surface flows for shallow water equations. I. The incompressible case"
   doi: "10.1002sapm1994933251"
   mrclass: "76B15"
   volume: "93"
@@ -6215,7 +6215,7 @@
   pages: "333--349"
   year: 2008
   mrreviewer: "Peter Damaschke"
-  title: "An {$\\O(m^2n)$} algorithm for minimum cycle basis of graphs"
+  title: "An $\\O(m^2n)$ algorithm for minimum cycle basis of graphs"
   doi: "10.1007s00453-007-9064-z"
   mrclass: "05C85 (05C38 05C50 68R10 68W25)"
   volume: "52"
@@ -6230,7 +6230,7 @@
   pages: "205--223"
   year: 2008
   mrreviewer: "Pierre Portal"
-  title: "Maximal regularity for second order non-autonomous {C}auchy problems"
+  title: "Maximal regularity for second order non-autonomous Cauchy problems"
   doi: "10.4064sm189-3-1"
   mrclass: "34G10 (35B65 35L90 47D09 47N20)"
   volume: "189"
@@ -6273,7 +6273,7 @@
   pages: "103--120"
   year: 2011
   mrreviewer: "Robert Hartmann"
-  title: "On the {B}urnside algebra of a finite group"
+  title: "On the Burnside algebra of a finite group"
   mrclass: "19A22 (20B05)"
   volume: "91"
   issn: "0970-4140"
@@ -6302,7 +6302,7 @@
   pages: "2710--2719"
   year: 1997
   mrreviewer: "A. U. Klimyk"
-  title: "Representations of {${\\rm Sp}(6,{\\bf R})$} and {${\\rm SU}(3)$} carried by homogeneous polynomials"
+  title: "Representations of ${\\rm Sp}(6,{\\bf R})$ and ${\\rm SU}(3)$ carried by homogeneous polynomials"
   doi: "10.10631.531982"
   mrclass: "22E46 (81R05)"
   volume: "38"
@@ -6317,7 +6317,7 @@
   pages: "1721--1733"
   year: 2011
   mrreviewer: "I. G. Kossovskiy"
-  title: "Polynomial approximation, local polynomial convexity, and degenerate {CR} singularities---{II}"
+  title: "Polynomial approximation, local polynomial convexity, and degenerate CR singularities---II"
   doi: "10.1142S0129167X11007446"
   mrclass: "32E20 (30E10 32A65 32V20)"
   volume: "22"
@@ -6331,7 +6331,7 @@
   mrnumber: "2536023"
   pages: "293--311"
   year: 2009
-  title: "3-{D} kinematical conservation laws ({KCL}) evolution of a surface in {$\\Bbb R^3$}---in particular propagation of a nonlinear wavefront"
+  title: "3-D kinematical conservation laws (KCL) evolution of a surface in $\\Bbb R^3$---in particular propagation of a nonlinear wavefront"
   doi: "10.1016j.wavemoti.2009.03.004"
   mrclass: "35L65 (76L05)"
   volume: "46"
@@ -6360,7 +6360,7 @@
   mrnumber: "1752130"
   pages: "1--6"
   year: 2000
-  title: "{$N$}-wave solution of modified {B}urgers equation"
+  title: "$N$-wave solution of modified Burgers equation"
   doi: "10.1016S0893-9659(99)00199-8"
   mrclass: "35Q53"
   volume: "13"
@@ -6374,7 +6374,7 @@
   mrnumber: "3007890"
   pages: "183--190"
   year: 2013
-  title: "Non-stationary semi-{M}arkov decision processes on a finite horizon"
+  title: "Non-stationary semi-Markov decision processes on a finite horizon"
   doi: "10.108007362994.2013.741405"
   mrclass: "90C40 (60K15)"
   volume: "31"
@@ -6389,7 +6389,7 @@
   pages: "34--43"
   year: 2007
   mrreviewer: "Esther Cabezas Rivas"
-  title: "Ricci flow and the {P}oincar\\e conjecture"
+  title: "Ricci flow and the Poincar\\e conjecture"
   doi: "10.1007BF02986174"
   mrclass: "53C44 (57M40)"
   volume: "29"
@@ -6431,7 +6431,7 @@
   pages: "407--415"
   year: 2000
   publisher: "ACM, New York"
-  booktitle: "Proceedings of the {T}hirty-{S}econd {A}nnual {ACM} {S}ymposium on {T}heory of {C}omputing"
+  booktitle: "Proceedings of the Thirty-Second Annual ACM Symposium on Theory of Computing"
   title: "Faster suffix tree construction with missing suffix links"
   doi: "10.1145335305.335352"
   mrclass: "68P20 (68P05)"
@@ -6445,7 +6445,7 @@
   pages: "327--339"
   year: 2014
   mrreviewer: "Vladimir A. Zolotarev"
-  title: "A functional model for pure {$\\Gamma$}-contractions"
+  title: "A functional model for pure $\\Gamma$-contractions"
   doi: "10.7900jot.2012mar21.1946"
   mrclass: "47A13 (47A20)"
   volume: "71"
@@ -6474,7 +6474,7 @@
   pages: "187--207"
   year: 2007
   mrreviewer: "Mark Agranovsky"
-  title: "Approximation by {$K$}-finite functions in {$L^p$} spaces"
+  title: "Approximation by $K$-finite functions in $L^p$ spaces"
   doi: "10.1007s11856-007-0078-7"
   mrclass: "43A85 (46E30)"
   volume: "161"
@@ -6488,7 +6488,7 @@
   mrreviewer: "Ian Kiming"
   publisher: "Birkh\\auser, Basel"
   booktitle: "Number theory"
-  title: "A report on {A}rtins holomorphy conjecture"
+  title: "A report on Artins holomorphy conjecture"
   mrclass: "11R42 (11F80 11R39)"
 
 - number: "1"
@@ -6498,7 +6498,7 @@
   mrnumber: "2292348"
   pages: "49--67"
   year: 2006
-  title: "Wavelet based 2-{D} spectral finite element formulation for wave propagation analysis in isotropic plates"
+  title: "Wavelet based 2-D spectral finite element formulation for wave propagation analysis in isotropic plates"
   mrclass: "65T60 (65M70 74S05)"
   volume: "15"
   issn: "1526-1492"
@@ -6527,7 +6527,7 @@
   pages: "329--338"
   year: 1991
   mrreviewer: "Tadeusz Radzik"
-  title: "On finding the nucleolus of an {$N$}-person cooperative game"
+  title: "On finding the nucleolus of an $N$-person cooperative game"
   doi: "10.1007BF01766424"
   mrclass: "90D12 (90C08 90D06)"
   volume: "19"
@@ -6542,7 +6542,7 @@
   pages: "1539--1551"
   year: 2011
   mrreviewer: "Adela N. Vraciu"
-  title: "C{M} defect and {H}ilbert functions of monomial curves"
+  title: "CM defect and Hilbert functions of monomial curves"
   doi: "10.1016j.jpaa.2010.08.007"
   mrclass: "13A30 (13D40 13H10)"
   volume: "215"
@@ -6557,7 +6557,7 @@
   pages: "269--284"
   year: 2001
   mrreviewer: "J. Chrastina"
-  title: "One-dimensional symmetry in the {H}eisenberg group"
+  title: "One-dimensional symmetry in the Heisenberg group"
   mrclass: "35A30 (35B50 35J60 35J70)"
   volume: "30"
   issn: "0391-173X"
@@ -6615,7 +6615,7 @@
   pages: "253--263"
   year: 2016
   mrreviewer: "T. J. Suffridge"
-  title: "Complex geodesics, their boundary regularity, and a {H}ardy-{L}ittlewood-type lemma"
+  title: "Complex geodesics, their boundary regularity, and a Hardy-Littlewood-type lemma"
   doi: "10.5186aasfm.2016.4116"
   mrclass: "32F45 (30C55 32H40)"
   volume: "41"
@@ -6644,7 +6644,7 @@
   pages: "5087--5095"
   year: 2008
   mrreviewer: "Frank H. Lutz"
-  title: "Uniqueness of {W}alkups 9-vertex 3-dimensional {K}lein bottle"
+  title: "Uniqueness of Walkups 9-vertex 3-dimensional Klein bottle"
   doi: "10.1016j.disc.2007.09.030"
   mrclass: "57Q15 (52B70)"
   volume: "308"
@@ -6670,8 +6670,8 @@
   mrnumber: "2174963"
   pages: "1--14"
   year: 2005
-  mrreviewer: "Jos\\A\\copyright{} C. Sabina de Lis"
-  title: "Role of fundamental solutions for optimal {L}ipschitz extensions on hyperbolic space"
+  mrreviewer: "Jos\\A\\copyright C. Sabina de Lis"
+  title: "Role of fundamental solutions for optimal Lipschitz extensions on hyperbolic space"
   doi: "10.1016j.jde.2005.07.004"
   mrclass: "35J60 (35A08 35B50 35J70 49K20 49L25)"
   volume: "218"
@@ -6686,7 +6686,7 @@
   pages: "41--75"
   year: 2014
   mrreviewer: "Hartmut F\\A${}^1\\\\_4$hr"
-  title: "End point estimates for {R}adon transform of radial functions on non-{E}uclidean spaces"
+  title: "End point estimates for Radon transform of radial functions on non-Euclidean spaces"
   doi: "10.1007s00605-014-0620-8"
   mrclass: "44A12 (42B20)"
   volume: "174"
@@ -6714,7 +6714,7 @@
   mrnumber: "747591"
   pages: "3273--3279"
   year: 1984
-  title: "Generalized rays in first-order optics transformation properties of {G}aussian {S}chell-model fields"
+  title: "Generalized rays in first-order optics transformation properties of Gaussian Schell-model fields"
   doi: "10.1103PhysRevA.29.3273"
   mrclass: "78A05"
   volume: "29"
@@ -6728,7 +6728,7 @@
   pages: "35--40"
   year: 2014
   mrreviewer: "Bojan Ba\\AA i\\A"
-  title: "On additive combinatorics of permutations of {$\\Bbb {Z}_n$}"
+  title: "On additive combinatorics of permutations of $\\Bbb {Z}_n$"
   mrclass: "11A05 (05A05 11A07 11A41)"
   volume: "16"
   issn: "1365-8050"
@@ -6751,7 +6751,7 @@
   pages: "143--160"
   year: 1993
   publisher: "Dekker, New York"
-  booktitle: "Mathematical theory of control ({B}ombay, 1990)"
+  booktitle: "Mathematical theory of control (Bombay, 1990)"
   title: "Observability of a class of nonlinear abstract systems"
   mrclass: "93B07"
   volume: "142"
@@ -6764,7 +6764,7 @@
   mrnumber: "1842607"
   pages: "973--981"
   year: 2001
-  title: "{$k$}-out-of-{$n\\G$} system with repair the {$D$}-policy"
+  title: "$k$-out-of-$n\\G$ system with repair the $D$-policy"
   doi: "10.1016S0305-0548(00)00019-8"
   mrclass: "90B25 (90C15)"
   volume: "28"
@@ -6794,7 +6794,7 @@
   pages: "117--126"
   year: 2009
   mrreviewer: "Troels Roussau Johansen"
-  title: "Wiener {T}auberian theorems for {$L^1(K\\backslash GK)$}"
+  title: "Wiener Tauberian theorems for $L^1(K\\backslash GK)$"
   doi: "10.2140pjm.2009.241.117"
   mrclass: "43A30 (22E46 43A80)"
   volume: "241"
@@ -6820,7 +6820,7 @@
   pages: "325--327"
   year: 1999
   mrreviewer: "Cem Y. Y\\A$\\pm$ld\\A$\\pm$r\\A$\\pm$m"
-  title: "A remark on product of {D}irichlet {$L$}-functions"
+  title: "A remark on product of Dirichlet $L$-functions"
   mrclass: "11M06"
   volume: "91"
   issn: "0065-1036"
@@ -6832,8 +6832,8 @@
   mrnumber: "2779375"
   pages: "83--97"
   year: 2010
-  mrreviewer: "Ingrid Alma Belti\\AA \\sterling{}\\A"
-  title: "The semigroup and the inverse of the {L}aplacian on the {H}eisenberg group"
+  mrreviewer: "Ingrid Alma Belti\\AA \\sterling\\A"
+  title: "The semigroup and the inverse of the Laplacian on the Heisenberg group"
   mrclass: "35R03 (35S30 47D06 47F05 47G30)"
   volume: "12"
   issn: "0716-7776"
@@ -6859,7 +6859,7 @@
   mrnumber: "3129636"
   pages: "151--157"
   year: 2013
-  title: "Solutions of a system of forced {B}urgers equation"
+  title: "Solutions of a system of forced Burgers equation"
   doi: "10.1016j.amc.2013.09.019"
   mrclass: "35Q53 (35C06)"
   volume: "225"
@@ -6873,7 +6873,7 @@
   mrnumber: "1813955"
   pages: "1385--1404"
   year: 2000
-  title: "An {$O(n\\log n)$} algorithm for the maximum agreement subtree problem for binary trees"
+  title: "An $O(n\\log n)$ algorithm for the maximum agreement subtree problem for binary trees"
   doi: "10.1137S0097539796313477"
   mrclass: "68Q25 (68W40)"
   volume: "30"
@@ -6888,7 +6888,7 @@
   pages: "1550092, 38"
   year: 2015
   mrreviewer: "Alfonso Zamora"
-  title: "Moduli of equivariant sheaves and {K}ronecker-{M}c{K}ay modules"
+  title: "Moduli of equivariant sheaves and Kronecker-McKay modules"
   doi: "10.1142S0129167X15500925"
   mrclass: "14D20 (16G20)"
   volume: "26"
@@ -6902,7 +6902,7 @@
   year: 2006
   publisher: "Springer, Berlin"
   booktitle: "Algorithmic number theory"
-  title: "Use of extended {E}uclidean algorithm in solving a system of linear {D}iophantine equations with bounded variables"
+  title: "Use of extended Euclidean algorithm in solving a system of linear Diophantine equations with bounded variables"
   doi: "10.100711792086_14"
   mrclass: "11Y50 (11D04)"
   volume: "4076"
@@ -6931,7 +6931,7 @@
   pages: "193--197"
   year: 2006
   mrreviewer: "Chengmin Yang"
-  title: "Some remarks on quasi-{C}hebyshev subspaces"
+  title: "Some remarks on quasi-Chebyshev subspaces"
   doi: "10.1016j.jmaa.2005.08.027"
   mrclass: "41A65 (46B20)"
   volume: "321"
@@ -6960,7 +6960,7 @@
   pages: "127--134"
   year: 1984
   mrreviewer: "J. J. C. Nimmo"
-  title: "The {B}urgers hierarchy on nonlinear initial and boundary value problems"
+  title: "The Burgers hierarchy on nonlinear initial and boundary value problems"
   doi: "10.1007BF02721585"
   mrclass: "35Q20"
   volume: "83"
@@ -7016,7 +7016,7 @@
   pages: "393--417"
   year: 2006
   mrreviewer: "Natalia Gasitoi"
-  title: "On isometries of the {C}arath\\eodory and {K}obayashi metrics on strongly pseudoconvex domains"
+  title: "On isometries of the Carath\\eodory and Kobayashi metrics on strongly pseudoconvex domains"
   mrclass: "32F45 (32Q45 32T15)"
   volume: "5"
   issn: "0391-173X"
@@ -7029,7 +7029,7 @@
   mrnumber: "2497327"
   pages: "143--158"
   year: 2009
-  mrreviewer: "Steffen J\\A\\c{ }rgensen"
+  mrreviewer: "Steffen J\\A\\c rgensen"
   title: "Differential games of mixed type with control and stopping times"
   doi: "10.1007s00030-008-6007-6"
   mrclass: "49N70 (49L25 91A05 91A23)"
@@ -7056,7 +7056,7 @@
   pages: "B.4, 6"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Elements of data structure and combinatorial algorithms"
   mrclass: "68R05 (05A15)"
   volume: "111"
@@ -7068,7 +7068,7 @@
   mrnumber: "737810"
   pages: "219--228"
   year: 1983
-  title: "A generalization of functional dependencies in relational databases and use of {B}oolean algebra"
+  title: "A generalization of functional dependencies in relational databases and use of Boolean algebra"
   mrclass: "68P15"
   volume: "64"
   issn: "0019-4964"
@@ -7082,7 +7082,7 @@
   pages: "145--150"
   year: 1996
   mrreviewer: "John F. Harper"
-  title: "Shear-free boundary in {S}tokes flow"
+  title: "Shear-free boundary in Stokes flow"
   doi: "10.1155S016117129600021X"
   mrclass: "76D07"
   volume: "19"
@@ -7110,7 +7110,7 @@
   year: 2002
   mrreviewer: "Gelu Fanica Popescu"
   publisher: "Austral. Nat. Univ., Canberra"
-  booktitle: "Surveys in analysis and operator theory ({C}anberra, 2001)"
+  booktitle: "Surveys in analysis and operator theory (Canberra, 2001)"
   title: "Dilation of contractive tuples a survey"
   mrclass: "47A20 (46L99 47A13 47A45 47L99)"
   volume: "40"
@@ -7123,7 +7123,7 @@
   mrnumber: "1732267"
   pages: "6614--6626"
   year: 1999
-  title: "Computation of the {L}yapunov spectrum for continuous-time dynamical systems and discrete maps"
+  title: "Computation of the Lyapunov spectrum for continuous-time dynamical systems and discrete maps"
   doi: "10.1103PhysRevE.60.6614"
   mrclass: "37M25 (34D08 37D99)"
   volume: "60"
@@ -7149,7 +7149,7 @@
   pages: "189--200"
   year: 2003
   publisher: "Horwood, Chichester"
-  booktitle: "Wind over waves {II} forecasting and fundamentals of applications"
+  booktitle: "Wind over waves II forecasting and fundamentals of applications"
   title: "Kinematical conservation laws applied to study geometrical shapes of a solitary wave"
   mrclass: "76B15 (76B25 76E30)"
 
@@ -7170,8 +7170,8 @@
   pages: "17--25"
   year: 2001
   publisher: "SIAM, Philadelphia, PA"
-  booktitle: "Proceedings of the {T}welfth {A}nnual {ACM}-{SIAM} {S}ymposium on {D}iscrete {A}lgorithms ({W}ashington, {DC}, 2001)"
-  title: "A faster implementation of the {G}oemans-{W}illiamson clustering algorithm"
+  booktitle: "Proceedings of the Twelfth Annual ACM-SIAM Symposium on Discrete Algorithms (Washington, DC, 2001)"
+  title: "A faster implementation of the Goemans-Williamson clustering algorithm"
   mrclass: "68W25 (05C85 90C35)"
 
 - number: "11"
@@ -7198,7 +7198,7 @@
   pages: "23--29"
   year: 1995
   mrreviewer: "Antony Maciocia"
-  title: "Flat connections, geometric invariants and energy of harmonic functions on compact {R}iemann surfaces"
+  title: "Flat connections, geometric invariants and energy of harmonic functions on compact Riemann surfaces"
   doi: "10.1007BF02840586"
   mrclass: "58D27 (58E20)"
   volume: "105"
@@ -7287,7 +7287,7 @@
   pages: "351--368"
   year: 2006
   mrreviewer: "Marshall A. Whittlesey"
-  title: "Polynomial approximation, local polynomial convexity, and degenerate {CR} singularities"
+  title: "Polynomial approximation, local polynomial convexity, and degenerate CR singularities"
   doi: "10.1016j.jfa.2006.02.001"
   mrclass: "32E20 (32V20 46J10)"
   volume: "236"
@@ -7300,7 +7300,7 @@
   mrnumber: "2392113"
   pages: "491--496"
   year: 2007
-  mrreviewer: "Jos\\A\\copyright{} Villa-Morales"
+  mrreviewer: "Jos\\A\\copyright Villa-Morales"
   title: "Branching particle systems and superprocess"
   mrclass: "60J60 (60J80)"
   volume: "87"
@@ -7314,7 +7314,7 @@
   mrnumber: "3451268"
   pages: "111--130"
   year: 2016
-  mrreviewer: "Jos\\A\\copyright{} Antonio Vilches"
+  mrreviewer: "Jos\\A\\copyright Antonio Vilches"
   title: "Simple crystallizations of 4-manifolds"
   doi: "10.1515advgeom-2015-0043"
   mrclass: "57Q15 (05C90 57N13 57Q05)"
@@ -7341,7 +7341,7 @@
   mrnumber: "1372508"
   pages: "501--517"
   year: 1994
-  title: "Exact {$N$}-wave solutions for the non-planar {B}urgers equation"
+  title: "Exact $N$-wave solutions for the non-planar Burgers equation"
   doi: "10.1098rspa.1994.0074"
   mrclass: "76B15 (35Q53)"
   volume: "445"
@@ -7355,7 +7355,7 @@
   mrnumber: "3549396"
   pages: "4354--4374"
   year: 2016
-  title: "Asymptotic analysis of {N}eumann periodic optimal boundary control problem"
+  title: "Asymptotic analysis of Neumann periodic optimal boundary control problem"
   doi: "10.1002mma.3865"
   mrclass: "49J45 (49J20)"
   volume: "39"
@@ -7395,7 +7395,7 @@
   pages: "833--847"
   year: 2002
   mrreviewer: "L. C. Thomas"
-  title: "Non-cooperative {$N$}-person semi-{M}arkov games on a denumerable state space"
+  title: "Non-cooperative $N$-person semi-Markov games on a denumerable state space"
   mrclass: "91A15 (91A06 91A10)"
   volume: "21"
   issn: "1807-0302"
@@ -7422,7 +7422,7 @@
   pages: "652--677"
   year: 2004
   mrreviewer: "Lubom\\A-r Kub\\A\\Aek"
-  title: "The {LINEX} risk of maximum likelihood estimators of parameters of normal populations having order restricted means"
+  title: "The LINEX risk of maximum likelihood estimators of parameters of normal populations having order restricted means"
   mrclass: "62F10"
   volume: "66"
   issn: "0972-7671"
@@ -7436,7 +7436,7 @@
   pages: "2604--2626"
   year: 2010
   mrreviewer: "Harumi Hattori"
-  title: "An application of 3-{D} kinematical conservation laws propagation of a 3-{D} wavefront"
+  title: "An application of 3-D kinematical conservation laws propagation of a 3-D wavefront"
   doi: "10.1137080732742"
   mrclass: "35L60 (35L65 65M06)"
   volume: "70"
@@ -7474,7 +7474,7 @@
   pages: "583--596"
   year: 2002
   mrreviewer: "Igor Rivin"
-  title: "The edge-minimal polyhedral maps of {E}uler characteristic {$-8$}"
+  title: "The edge-minimal polyhedral maps of Euler characteristic $-8$"
   mrclass: "52B70 (51M20 57M20)"
   volume: "43"
   issn: "0138-4821"
@@ -7484,7 +7484,7 @@
   pages: "437--448"
   year: 1998
   publisher: "Allied Publ., New Delhi"
-  booktitle: "Special functions and differential equations ({M}adras, 1997)"
+  booktitle: "Special functions and differential equations (Madras, 1997)"
   title: "Role of special functions in problems of fluid mechanics"
   mrclass: "76B99 (45F05)"
 
@@ -7497,7 +7497,7 @@
   pages: "731--748"
   year: 2009
   mrreviewer: "N. Mohan Kumar"
-  title: "Curves on threefolds and a conjecture of {G}riffiths-{H}arris"
+  title: "Curves on threefolds and a conjecture of Griffiths-Harris"
   doi: "10.1007s00208-009-0376-y"
   mrclass: "14J30 (14C25 14C30 14J60 14M05)"
   volume: "345"
@@ -7527,7 +7527,7 @@
   pages: "565--590"
   year: 2009
   mrreviewer: "Filippo Maria Denaro"
-  title: "Finite volume evolution {G}alerkin method for hyperbolic conservation laws with spatially varying flux functions"
+  title: "Finite volume evolution Galerkin method for hyperbolic conservation laws with spatially varying flux functions"
   doi: "10.1016j.jcp.2008.10.004"
   mrclass: "65M06 (76M12)"
   volume: "228"
@@ -7565,7 +7565,7 @@
   mrnumber: "1358008"
   pages: "1919--1921"
   year: 1995
-  title: "A note on an {LQG} regulator with {M}arkovian switching and pathwise average cost"
+  title: "A note on an LQG regulator with Markovian switching and pathwise average cost"
   doi: "10.11099.471215"
   mrclass: "93E10 (93E20)"
   volume: "40"
@@ -7578,8 +7578,8 @@
   year: 2013
   mrreviewer: "Jae-Hyun Yang"
   publisher: "Ramanujan Math. Soc., Mysore"
-  booktitle: "The legacy of {S}rinivasa {R}amanujan"
-  title: "Some remarks on the {R}esnikoff-{S}alda\\na conjecture"
+  booktitle: "The legacy of Srinivasa Ramanujan"
+  title: "Some remarks on the Resnikoff-Salda\\na conjecture"
   mrclass: "11F30 (11F46)"
   volume: "20"
 
@@ -7591,8 +7591,8 @@
   year: 2009
   mrreviewer: "William Thomas Ross"
   publisher: "World Sci. Publ., Hackensack, NJ"
-  booktitle: "Perspectives in mathematical sciences. {II}"
-  title: "Multiplicity-free homogeneous operators in the {C}owen-{D}ouglas class"
+  booktitle: "Perspectives in mathematical sciences. II"
+  title: "Multiplicity-free homogeneous operators in the Cowen-Douglas class"
   doi: "10.11429789814273657_0005"
   mrclass: "47B32 (46E22 47B38)"
   volume: "8"
@@ -7635,7 +7635,7 @@
   pages: "1388--1419"
   year: 2015
   mrreviewer: "Mukesh Kumar"
-  title: "A framework for the error analysis of discontinuous finite element methods for elliptic optimal control problems and applications to {$C^0$} {IP} methods"
+  title: "A framework for the error analysis of discontinuous finite element methods for elliptic optimal control problems and applications to $C^0$ IP methods"
   doi: "10.108001630563.2015.1068182"
   mrclass: "65N30 (49M25 65N15)"
   volume: "36"
@@ -7649,7 +7649,7 @@
   mrnumber: "1614538"
   pages: "117--118"
   year: 1998
-  title: "A {$2.5$}-factor approximation algorithm for the {$k$}-{MST} problem"
+  title: "A $2.5$-factor approximation algorithm for the $k$-MST problem"
   doi: "10.1016S0020-0190(98)00010-6"
   mrclass: "68Q25"
   volume: "65"
@@ -7688,7 +7688,7 @@
   pages: "4577--4583"
   year: 1999
   mrreviewer: "Jair Koiller"
-  title: "Dynamic moment invariants for nonlinear {H}amiltonian systems"
+  title: "Dynamic moment invariants for nonlinear Hamiltonian systems"
   doi: "10.1103PhysRevE.59.4577"
   mrclass: "37J15 (37J40 70H05 70H33)"
   volume: "59"
@@ -7699,7 +7699,7 @@
   pages: "730--738"
   year: 1997
   publisher: "ACM, New York"
-  booktitle: "Proceedings of the {E}ighth {A}nnual {ACM}-{SIAM} {S}ymposium on {D}iscrete {A}lgorithms ({N}ew {O}rleans, {LA}, 1997)"
+  booktitle: "Proceedings of the Eighth Annual ACM-SIAM Symposium on Discrete Algorithms (New Orleans, LA, 1997)"
   title: "A combinatorial algorithm for the determinant"
   mrclass: "15A15 (65F40)"
 
@@ -7710,7 +7710,7 @@
   pages: "49--57"
   year: 2011
   publisher: "Springer, Heidelberg"
-  booktitle: "Finite volumes for complex applications. {VI}. {P}roblems \\ perspectives. {V}olume 1, 2"
+  booktitle: "Finite volumes for complex applications. VI. Problems \\ perspectives. Volume 1, 2"
   title: "Numerical front propagation using kinematical conservation laws"
   doi: "10.1007978-3-642-20671-9_6"
   mrclass: "76N15 (35L60 35L65 35L67 65M08)"
@@ -7725,7 +7725,7 @@
   pages: "335--348"
   year: 2006
   mrreviewer: "Gert Lube"
-  title: "Weighted extended {B}-spline method for the approximation of the stationary {S}tokes problem"
+  title: "Weighted extended B-spline method for the approximation of the stationary Stokes problem"
   doi: "10.1016j.cam.2005.02.008"
   mrclass: "65N30 (65D07 65N12 76D07 76M25)"
   volume: "186"
@@ -7781,7 +7781,7 @@
   pages: "45--53"
   year: 2010
   mrreviewer: "Gon\\A\\S alo Dos Reis"
-  title: "An implicit method for some {NSDDE}s of {I}t\\^os form"
+  title: "An implicit method for some NSDDEs of It\\^os form"
   mrclass: "65C30 (60H10)"
   volume: "2"
   issn: "2151-2302"
@@ -7807,7 +7807,7 @@
   year: 1985
   mrreviewer: "V. D. Sharma"
   publisher: "Pitman, Boston, MA"
-  booktitle: "Advances in nonlinear waves, {V}ol. {II}"
+  booktitle: "Advances in nonlinear waves, Vol. II"
   title: "Kinematics of a shock front and resolution of a hyperbolic caustic"
   mrclass: "76L05 (35L67)"
   volume: "111"
@@ -7889,7 +7889,7 @@
   pages: "189--209"
   year: 2015
   mrreviewer: "Anqiang Zhu"
-  title: "On the curvature {ODE} associated to the {R}icci flow"
+  title: "On the curvature ODE associated to the Ricci flow"
   doi: "10.1007s10711-014-0035-7"
   mrclass: "53C44 (53C20 53C21)"
   volume: "175"
@@ -7931,7 +7931,7 @@
   pages: "574--584"
   year: 2009
   publisher: "Springer, Berlin"
-  booktitle: "Automata, languages and programming. {P}art {I}"
+  booktitle: "Automata, languages and programming. Part I"
   title: "Popular mixed matchings"
   doi: "10.1007978-3-642-02927-1_48"
   mrclass: "68Q25 (05C70 05C85)"
@@ -7944,7 +7944,7 @@
   mrnumber: "1632471"
   pages: "31--42"
   year: 1995
-  booktitle: "Proceedings of {I}nternational {S}ymposium on {M}athematical {P}hysics with {S}pecial {S}essions on {B}oses {W}orks, {P}art {I} ({C}alcutta, 1994)"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part I (Calcutta, 1994)"
   title: "Reflection of waterwaves by a porous nearly vertical wall"
   mrclass: "76B15"
   volume: "3"
@@ -7957,8 +7957,8 @@
   mrnumber: "1630091"
   pages: "1--16"
   year: 1996
-  booktitle: "Proceedings of {I}nternational {S}ymposium on {M}athematical {P}hysics with {S}pecial {S}essions on {B}oses {W}orks, {P}art {II} ({C}alcutta, 1994)"
-  title: "Motion of obstacles on the two layered {E}arth surface"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part II (Calcutta, 1994)"
+  title: "Motion of obstacles on the two layered Earth surface"
   mrclass: "73F99 (73N20 86A04)"
   volume: "4"
   issn: "2231-5306"
@@ -8000,19 +8000,19 @@
   pages: "753--764"
   year: 2014
   mrreviewer: "Koffi B. Fadimba"
-  title: "Convergence analysis of the lowest order weakly penalized adaptive discontinuous {G}alerkin methods"
+  title: "Convergence analysis of the lowest order weakly penalized adaptive discontinuous Galerkin methods"
   doi: "10.1051m2an2013119"
   mrclass: "65N30 (65N12 65N50)"
   volume: "48"
   issn: "0764-583X"
 
-- author: "Ayyer, Arvind and Bouttier, J\\er\\emie and Corteel, Sylvie and Nunzi, Fran\\c{c}ois"
+- author: "Ayyer, Arvind and Bouttier, J\\er\\emie and Corteel, Sylvie and Nunzi, Fran\\ccois"
   series: "Discrete Math. Theor. Comput. Sci. Proc., BA"
   mrnumber: "3525959"
   pages: "1--12"
   year: 2014
   publisher: "Assoc. Discrete Math. Theor. Comput. Sci., Nancy"
-  booktitle: "Proceedings of the 25th {I}nternational {C}onference on {P}robabilistic, {C}ombinatorial and {A}symptotic {M}ethods for the {A}nalysis of {A}lgorithms"
+  booktitle: "Proceedings of the 25th International Conference on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithms"
   title: "Multivariate juggling probabilities"
   mrclass: "60J10 (05A17)"
 
@@ -8035,7 +8035,7 @@
   pages: "282--344"
   year: 1993
   mrreviewer: "Robert Kertz"
-  title: "Discrete-time controlled {M}arkov processes with average cost criterion a survey"
+  title: "Discrete-time controlled Markov processes with average cost criterion a survey"
   doi: "10.11370331018"
   mrclass: "90C40 (60J10 90B22 93E20)"
   volume: "31"
@@ -8048,7 +8048,7 @@
   mrnumber: "3414789"
   pages: "102--112"
   year: 2015
-  title: "A modified approach to numerical solution of {F}redholm integral equations of the second kind"
+  title: "A modified approach to numerical solution of Fredholm integral equations of the second kind"
   doi: "10.1016j.amc.2015.08.111"
   mrclass: "65R20 (45B05)"
   volume: "271"
@@ -8063,7 +8063,7 @@
   pages: "429--454"
   year: 2012
   mrreviewer: "Evgeny A. Poletsky"
-  title: "Holomorphic mappings between domains in {$\\Bbb C^2$}"
+  title: "Holomorphic mappings between domains in $\\Bbb C^2$"
   doi: "10.4153CJM-2011-056-3"
   mrclass: "32H40 (32D15 32H02)"
   volume: "64"
@@ -8077,7 +8077,7 @@
   mrnumber: "704459"
   pages: "277--278"
   year: 1983
-  title: "Comment on {P}ath integration of a quadratic action with a generalized memory\\ {P}hys. {L}ett. {A} {\\bf 93} (198283), no. 4, 167--172\\ {MR} 84f81029a\\ by {D}. {C}. {K}handekar, {S}. {V}. {L}awande and {K}. {V}. {B}hagwat"
+  title: "Comment on Path integration of a quadratic action with a generalized memory\\ Phys. Lett. A \\bf 93 (198283), no. 4, 167--172\\ MR 84f81029a\\ by D. C. Khandekar, S. V. Lawande and K. V. Bhagwat"
   doi: "10.10160375-9601(83)90017-8"
   mrclass: "81C35 (58D30)"
   volume: "95"
@@ -8091,7 +8091,7 @@
   pages: "437--458"
   year: 1999
   mrreviewer: "Santiago Zarzuela Armengou"
-  title: "On the {C}ohen-{M}acaulayness of the coordinate ring of certain projective monomial curves"
+  title: "On the Cohen-Macaulayness of the coordinate ring of certain projective monomial curves"
   mrclass: "13H10 (14H20 14M05)"
   volume: "40"
   issn: "0138-4821"
@@ -8105,7 +8105,7 @@
   pages: "26--39"
   year: 2008
   mrreviewer: "Hyeong Soo Chang"
-  title: "Partially observed semi-{M}arkov zero-sum games with average payoff"
+  title: "Partially observed semi-Markov zero-sum games with average payoff"
   doi: "10.1016j.jmaa.2008.03.052"
   mrclass: "91A15"
   volume: "345"
@@ -8119,7 +8119,7 @@
   mrnumber: "2914959"
   pages: "577--606"
   year: 2012
-  title: "Dilations of {$\\Gamma$}-contractions by solving operator equations"
+  title: "Dilations of $\\Gamma$-contractions by solving operator equations"
   doi: "10.1016j.aim.2012.02.016"
   mrclass: "47A13 (32A70)"
   volume: "230"
@@ -8132,7 +8132,7 @@
   mrnumber: "2527571"
   pages: "189--203 (2008)"
   year: 2007
-  title: "Invariant {H}ilbert spaces of holomorphic functions"
+  title: "Invariant Hilbert spaces of holomorphic functions"
   mrclass: "46E20 (30H05 33C80 46A13)"
   issn: "0025-5742"
 
@@ -8142,7 +8142,7 @@
   pages: "592--601"
   year: 2002
   publisher: "ACM, New York"
-  booktitle: "Proceedings of the {T}hirty-{F}ourth {A}nnual {ACM} {S}ymposium on {T}heory of {C}omputing"
+  booktitle: "Proceedings of the Thirty-Fourth Annual ACM Symposium on Theory of Computing"
   title: "Verifying candidate matches in sparse and wildcard matching"
   doi: "10.1145509907.509992"
   mrclass: "68W05 (68W40)"
@@ -8156,7 +8156,7 @@
   pages: "149--162"
   year: 2010
   mrreviewer: "Joseph A. Ball"
-  title: "Complete {P}ick positivity and unitary invariance"
+  title: "Complete Pick positivity and unitary invariance"
   doi: "10.4064sm200-2-3"
   mrclass: "47A20 (32A70 46E22 47A13 47A45 47A48 47B32 47L80)"
   volume: "200"
@@ -8235,8 +8235,8 @@
   pages: "147--150"
   year: 2001
   publisher: "Allied Publ., New Delhi"
-  booktitle: "Analysis and its applications ({C}hennai, 2000)"
-  title: "A new identity. {III}"
+  booktitle: "Analysis and its applications (Chennai, 2000)"
+  title: "A new identity. III"
   mrclass: "30B10"
 
 - number: "1"
@@ -8248,7 +8248,7 @@
   pages: "145--199"
   year: 2016
   mrreviewer: "Sasha Sodin"
-  title: "Universality of the stochastic {A}iry operator"
+  title: "Universality of the stochastic Airy operator"
   doi: "10.1002cpa.21573"
   mrclass: "60B20 (15B52 47B36 47B80)"
   volume: "69"
@@ -8288,7 +8288,7 @@
   pages: "291--299"
   year: 1999
   publisher: "ACM, New York"
-  booktitle: "Proceedings of the {T}enth {A}nnual {ACM}-{SIAM} {S}ymposium on {D}iscrete {A}lgorithms ({B}altimore, {MD}, 1999)"
+  booktitle: "Proceedings of the Tenth Annual ACM-SIAM Symposium on Discrete Algorithms (Baltimore, MD, 1999)"
   title: "Clustering in large graphs and matrices"
   mrclass: "68R05 (68Q25 68U05)"
 
@@ -8301,7 +8301,7 @@
   pages: "2088--2110"
   year: 2012
   mrreviewer: "H. P. Dikshit"
-  title: "A quadratic {$C^{\\circ}$} interior penalty method for linear fourth order boundary value problems with boundary conditions of the {C}ahn-{H}illiard type"
+  title: "A quadratic $C^{\\circ}$ interior penalty method for linear fourth order boundary value problems with boundary conditions of the Cahn-Hilliard type"
   doi: "10.1137110847469"
   mrclass: "65N30 (65N15)"
   volume: "50"
@@ -8316,7 +8316,7 @@
   pages: "244020, 6"
   year: 2012
   mrreviewer: "Marius V. Ionescu"
-  title: "Hilbert {$W^$}-modules and coherent states"
+  title: "Hilbert $W^$-modules and coherent states"
   doi: "10.10881751-81134524244020"
   mrclass: "81R30 (46L08)"
   volume: "45"
@@ -8330,7 +8330,7 @@
   pages: "411--422"
   year: 1996
   note: "Differential equations---theory, methods and applications (Hyderabad, 1995)"
-  mrreviewer: "Marl\\A\\{\\ }ne Frigon"
+  mrreviewer: "Marl\\A\\\\ ne Frigon"
   title: "Weak solutions of integro-differential and functional-differential equations"
   mrclass: "34K10 (45J05 47H15 47N20)"
   volume: "4"
@@ -8385,7 +8385,7 @@
   pages: "61--80"
   year: 2012
   mrreviewer: "Linda Saal"
-  title: "On the structure of analytic vectors for the {S}chr\\odinger representation"
+  title: "On the structure of analytic vectors for the Schr\\odinger representation"
   doi: "10.1007s00605-011-0286-4"
   mrclass: "22E50 (42C15)"
   volume: "167"
@@ -8400,7 +8400,7 @@
   pages: "1019--1050"
   year: 2012
   mrreviewer: "Jaydeb Sarkar"
-  title: "Resolution of singularities for a class of {H}ilbert modules"
+  title: "Resolution of singularities for a class of Hilbert modules"
   doi: "10.1512iumj.2012.61.4633"
   mrclass: "47B32 (32A26 32L05 46H25 46M20)"
   volume: "61"
@@ -8414,8 +8414,8 @@
   mrnumber: "1862130"
   pages: "489--505"
   year: 2002
-  mrreviewer: "Cristian E. Guti\\A\\copyright{}rrez"
-  title: "An improved {H}ardy-{S}obolev inequality and its application"
+  mrreviewer: "Cristian E. Guti\\A\\copyrightrrez"
+  title: "An improved Hardy-Sobolev inequality and its application"
   doi: "10.1090S0002-9939-01-06132-9"
   mrclass: "35P15 (35J15 35J65)"
   volume: "130"
@@ -8444,7 +8444,7 @@
   mrnumber: "829838"
   pages: "139--149"
   year: 1986
-  title: "Weak discontinuities in relativistic {MHD}"
+  title: "Weak discontinuities in relativistic MHD"
   doi: "10.1007BF00653906"
   mrclass: "76Y05 (83C55)"
   volume: "120"
@@ -8499,7 +8499,7 @@
   mrreviewer: "Hyeong Soo Chang"
   publisher: "Birkh\\auserSpringer, New York"
   booktitle: "Optimization, control, and applications of stochastic systems"
-  title: "Continuous-time controlled jump {M}arkov processes on the finite horizon"
+  title: "Continuous-time controlled jump Markov processes on the finite horizon"
   doi: "10.1007978-0-8176-8337-5_6"
   mrclass: "90C40 (91A05 91A15 93E20)"
 
@@ -8552,7 +8552,7 @@
   mrnumber: "2365123"
   pages: "1448"
   year: 2007
-  title: "Shyam {L}al {Y}adava (1953--2007)"
+  title: "Shyam Lal Yadava (1953--2007)"
   mrclass: "01A70"
   volume: "93"
   issn: "0011-3891"
@@ -8595,7 +8595,7 @@
   pages: "281--388"
   year: 2015
   mrreviewer: "Marco Abate"
-  title: "Bounds for invariant distances on pseudoconvex {L}evi corank one domains and applications"
+  title: "Bounds for invariant distances on pseudoconvex Levi corank one domains and applications"
   doi: "10.5802afst.1449"
   mrclass: "32Q45 (32T99)"
   volume: "24"
@@ -8610,7 +8610,7 @@
   pages: "109--117"
   year: 1994
   mrreviewer: "Hermann K\\A\\P nig"
-  title: "Eigenvalues of integral operators on {$L_2(I)$} given by analytic kernels"
+  title: "Eigenvalues of integral operators on $L_2(I)$ given by analytic kernels"
   doi: "10.1007BF01225215"
   mrclass: "47G10 (47A10 47A75)"
   volume: "18"
@@ -8625,7 +8625,7 @@
   mrreviewer: "Adela N. Vraciu"
   publisher: "Birkh\\auserSpringer Basel AG, Basel"
   booktitle: "Advances in ring theory"
-  title: "On the blowing-up rings, {A}rf rings and type sequences"
+  title: "On the blowing-up rings, Arf rings and type sequences"
   doi: "10.1007978-3-0346-0286-0_18"
   mrclass: "14H20 (13A30 13H10)"
 
@@ -8637,8 +8637,8 @@
   year: 2005
   mrreviewer: "Sundaram Thangavelu"
   publisher: "Amer. Math. Soc., Providence, RI"
-  booktitle: "Complex analysis and dynamical systems {II}"
-  title: "A local two radii theorem for the twisted spherical means on {$\\Bbb C^n$}"
+  booktitle: "Complex analysis and dynamical systems II"
+  title: "A local two radii theorem for the twisted spherical means on $\\Bbb C^n$"
   doi: "10.1090conm38207044"
   mrclass: "32A50 (35L05 43A85 44A15)"
   volume: "382"
@@ -8665,8 +8665,8 @@
   mrnumber: "1438768"
   pages: "568--575"
   year: 1997
-  mrreviewer: "Kh\\A\\copyright{}lifa Trim\\A\\{\\ }che"
-  title: "Diagonalizable generalized {A}bel integral operators"
+  mrreviewer: "Kh\\A\\copyrightlifa Trim\\A\\\\ che"
+  title: "Diagonalizable generalized Abel integral operators"
   doi: "10.1137S0036139995279676"
   mrclass: "45E99 (45P05)"
   volume: "57"
@@ -8679,7 +8679,7 @@
   note: "Invited lectures, Held in Hyderabad, August 19--27, 2010"
   publisher: "Hindustan Book Agency, New Delhi distributed by World Scientific Publishing Co. Pte. Ltd., Singapore"
   isbn: "978-81-85931-08-3 978-981-4324-34-2 981-4324-34-5"
-  title: "Proceedings of the {I}nternational {C}ongress of {M}athematicians. {V}olume {IV}"
+  title: "Proceedings of the International Congress of Mathematicians. Volume IV"
   mrclass: "00B20"
 
 - author: "Ding, Mingzhou and Rangarajan, Govindan"
@@ -8688,7 +8688,7 @@
   year: 2004
   publisher: "Springer, Berlin"
   booktitle: "New directions in statistical physics"
-  title: "First passage time problem a {F}okker-{P}lanck approach"
+  title: "First passage time problem a Fokker-Planck approach"
   mrclass: "82C31 (60J65)"
 
 - number: "12"
@@ -8713,7 +8713,7 @@
   mrnumber: "3520252"
   pages: "1668--1688"
   year: 2016
-  title: "Elliptic problems in {${\\Bbb R}^N$} with critical and singular discontinuous nonlinearities"
+  title: "Elliptic problems in ${\\Bbb R}^N$ with critical and singular discontinuous nonlinearities"
   doi: "10.108017476933.2016.1198787"
   mrclass: "35J91 (35B33 35J20 35J25 35J75)"
   volume: "61"
@@ -8728,7 +8728,7 @@
   pages: "1--25"
   year: 1993
   mrreviewer: "D. R. Heath-Brown"
-  title: "Transformation formula for exponential sums involving {F}ourier coefficients of modular forms"
+  title: "Transformation formula for exponential sums involving Fourier coefficients of modular forms"
   doi: "10.1007BF02837893"
   mrclass: "11F30 (11F11 11L03 11M41)"
   volume: "103"
@@ -8741,7 +8741,7 @@
   pages: "421--433"
   year: 2008
   publisher: "Springer, Berlin"
-  booktitle: "Automata, languages and programming. {P}art {I}"
+  booktitle: "Automata, languages and programming. Part I"
   title: "Faster algorithms for incremental topological ordering"
   doi: "10.1007978-3-540-70575-8_35"
   mrclass: "05C38 (68W25)"
@@ -8754,7 +8754,7 @@
   year: 2011
   publisher: "World Sci. Publ., Hackensack, NJ"
   booktitle: "Mathematics in science and technology"
-  title: "Kinematical conservation laws ({KCL}) equations of evolution of curves and surfaces"
+  title: "Kinematical conservation laws (KCL) equations of evolution of curves and surfaces"
   doi: "10.11429789814338820_0002"
   mrclass: "35L60 (35L65 35L67)"
 
@@ -8767,7 +8767,7 @@
   pages: "239--261"
   year: 2010
   mrreviewer: "Riccardo Sacco"
-  title: "Some nonstandard error analysis of discontinuous {G}alerkin methods for elliptic problems"
+  title: "Some nonstandard error analysis of discontinuous Galerkin methods for elliptic problems"
   doi: "10.1007s10092-010-0022-9"
   mrclass: "65N30 (65N15)"
   volume: "47"
@@ -8818,7 +8818,7 @@
   mrnumber: "1483190"
   pages: "L635--L641"
   year: 1997
-  title: "Uncertainty principle enhanced pairing correlations in projected {F}ermi systems near half filling"
+  title: "Uncertainty principle enhanced pairing correlations in projected Fermi systems near half filling"
   doi: "10.10880305-44703018005"
   mrclass: "82B20"
   volume: "30"
@@ -8847,7 +8847,7 @@
   mrnumber: "2979291"
   pages: "439--451"
   year: 2012
-  title: "Heat kernel transform on nilmanifolds associated to {H}-type groups"
+  title: "Heat kernel transform on nilmanifolds associated to H-type groups"
   doi: "10.2748tmj1347369372"
   mrclass: "58J35 (22E30 35H20 35K08)"
   volume: "64"
@@ -8860,7 +8860,7 @@
   mrnumber: "3098189"
   pages: "9--17"
   year: 2013
-  title: "On the global character of the solutions of {$X_{n1}\\frac{\\alpha\\beta X_n\\gamma X_{n-k}}{AX_{n-k}}$}"
+  title: "On the global character of the solutions of $X_{n1}\\frac{\\alpha\\beta X_n\\gamma X_{n-k}}{AX_{n-k}}$"
   mrclass: "39A30"
   volume: "26"
   issn: "1311-1728"
@@ -8874,7 +8874,7 @@
   pages: "1043--1063"
   year: 2012
   mrreviewer: "I. G. Kossovskiy"
-  title: "The local polynomial hull near a degenerate {CR} singularity {B}ishop discs revisited"
+  title: "The local polynomial hull near a degenerate CR singularity Bishop discs revisited"
   doi: "10.1007s00209-011-0902-y"
   mrclass: "32E20 (32V20 46J10)"
   volume: "271"
@@ -8886,7 +8886,7 @@
   mrnumber: "3241373"
   pages: "1--7"
   year: 2011
-  title: "Scattering of surface waves by small undulation on a porous seabed a {F}ourier transform approach"
+  title: "Scattering of surface waves by small undulation on a porous seabed a Fourier transform approach"
   mrclass: "86A05 (35B25 35C20 35J25 76B15)"
   volume: "4"
   issn: "2229-3884"
@@ -8900,7 +8900,7 @@
   pages: "177--195"
   year: 2010
   mrreviewer: "Lesley A. Ward"
-  title: "On the {H}ermite expansions of functions from the {H}ardy class"
+  title: "On the Hermite expansions of functions from the Hardy class"
   doi: "10.4064sm198-2-5"
   mrclass: "42B35 (42C15)"
   volume: "198"
@@ -8924,7 +8924,7 @@
   mrnumber: "2469593"
   pages: "101--139"
   year: 2009
-  title: "F{RAPP} a framework for high-accuracy privacy-preserving mining"
+  title: "FRAPP a framework for high-accuracy privacy-preserving mining"
   doi: "10.1007s10618-008-0119-9"
   mrclass: "Other"
   volume: "18"
@@ -8964,7 +8964,7 @@
   pages: "673--685"
   year: 2011
   mrreviewer: "Manuel T. Flores"
-  title: "Two extension theorems of {H}artogs-{C}hirka type involving continuous multifunctions"
+  title: "Two extension theorems of Hartogs-Chirka type involving continuous multifunctions"
   doi: "10.1307mmj1320763054"
   mrclass: "32D10 (30B40 32D15)"
   volume: "60"
@@ -8978,7 +8978,7 @@
   mrnumber: "1193660"
   pages: "627--640"
   year: 1992
-  title: "Asymptotic solutions of a generalized {B}urgers equation"
+  title: "Asymptotic solutions of a generalized Burgers equation"
   doi: "10.1090qam1193660"
   mrclass: "35Q53 (76R99 76S05)"
   volume: "50"
@@ -9006,7 +9006,7 @@
   pages: "9--22"
   year: 2016
   mrreviewer: "Kalyan Chakraborty"
-  title: "Cuspidality and the growth of {F}ourier coefficients of modular forms a survey"
+  title: "Cuspidality and the growth of Fourier coefficients of modular forms a survey"
   doi: "10.1007s13226-015-0165-0"
   mrclass: "11F30"
   volume: "47"
@@ -9019,7 +9019,7 @@
   pages: "328--339"
   year: 2007
   publisher: "Springer, Berlin"
-  booktitle: "F{STTCS} 2007 {F}oundations of software technology and theoretical computer science"
+  booktitle: "FSTTCS 2007 Foundations of software technology and theoretical computer science"
   title: "Faster algorithms for all-pairs small stretch distances in weighted graphs"
   doi: "10.1007978-3-540-77050-3_27"
   mrclass: "68Q25 (05C85)"
@@ -9048,7 +9048,7 @@
   mrnumber: "1356813"
   pages: "91--97"
   year: 1995
-  title: "The {A}domian method applied to some extraordinary differential equations"
+  title: "The Adomian method applied to some extraordinary differential equations"
   doi: "10.10160893-9659(95)00036-P"
   mrclass: "34A45"
   volume: "8"
@@ -9063,7 +9063,7 @@
   pages: "493--499"
   year: 2007
   mrreviewer: "Fumio Maitani"
-  title: "On theta characteristics of a compact {R}iemann surface"
+  title: "On theta characteristics of a compact Riemann surface"
   doi: "10.1016j.bulsci.2007.02.001"
   mrclass: "30F20 (57R15)"
   volume: "131"
@@ -9077,8 +9077,8 @@
   mrnumber: "3365786"
   pages: "1987--2001"
   year: 2015
-  mrreviewer: "Guangshi L\\A${}^1\\\\_4$"
-  title: "{$L^\\infty$} norms of holomorphic modular forms in the case of compact quotient"
+  mrreviewer: "Guangshi L\\A${}^1\\\\_4"
+  title: "$L^\\infty$ norms of holomorphic modular forms in the case of compact quotient"
   doi: "10.1515forum-2013-6004"
   mrclass: "11F11 (11F12)"
   volume: "27"
@@ -9120,7 +9120,7 @@
   pages: "800--819"
   year: 2014
   mrreviewer: "Ignacio Romero"
-  title: "Error analysis of discontinuous {G}alerkin methods for the {S}tokes problem under minimal regularity"
+  title: "Error analysis of discontinuous Galerkin methods for the Stokes problem under minimal regularity"
   doi: "10.1093imanumdrt022"
   mrclass: "65N30 (65N15 76D07 76M10)"
   volume: "34"
@@ -9134,7 +9134,7 @@
   mrnumber: "1986038"
   pages: "703--708"
   year: 2003
-  title: "A generalisation to the hybrid {F}ourier transform and its application"
+  title: "A generalisation to the hybrid Fourier transform and its application"
   doi: "10.1016S0893-9659(03)00070-3"
   mrclass: "44A15 (42A16 76B15)"
   volume: "16"
@@ -9163,7 +9163,7 @@
   mrnumber: "3572350"
   pages: "2839--2849"
   year: 2016
-  title: "Center of the {G}oldman {L}ie algebra"
+  title: "Center of the Goldman Lie algebra"
   doi: "10.2140agt.2016.16.2839"
   mrclass: "57M50 (17B60 57M05 57M07)"
   volume: "16"
@@ -9178,7 +9178,7 @@
   pages: "3107--3116"
   year: 1984
   mrreviewer: "Mankal N. Murthy"
-  title: "On optimum stratification with proportional allocation for a class of {P}areto distributions"
+  title: "On optimum stratification with proportional allocation for a class of Pareto distributions"
   doi: "10.108003610928408828879"
   mrclass: "62D05"
   volume: "13"
@@ -9193,7 +9193,7 @@
   pages: "243--266"
   year: 2008
   mrreviewer: "Thomas J. Bieske"
-  title: "Heat kernel transform for nilmanifolds associated to the {H}eisenberg group"
+  title: "Heat kernel transform for nilmanifolds associated to the Heisenberg group"
   doi: "10.4171RMI535"
   mrclass: "35H20 (35K05)"
   volume: "24"
@@ -9220,7 +9220,7 @@
   mrnumber: "1632472"
   pages: "43--60"
   year: 1995
-  booktitle: "Proceedings of {I}nternational {S}ymposium on {M}athematical {P}hysics with {S}pecial {S}essions on {B}oses {W}orks, {P}art {I} ({C}alcutta, 1994)"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part I (Calcutta, 1994)"
   title: "Sampson flow through a nearly circular hole in a plane wall"
   mrclass: "76D99"
   volume: "3"
@@ -9235,7 +9235,7 @@
   pages: "Art. 15, 18"
   year: 2007
   mrreviewer: "Gerard Jennhwa Chang"
-  title: "Strongly stable matchings in time {$O(nm)$} and extension to the hospitals-residents problem"
+  title: "Strongly stable matchings in time $O(nm)$ and extension to the hospitals-residents problem"
   doi: "10.11451240233.1240238"
   mrclass: "05C70 (05C85 68R10 68W05 68W40 91B68)"
   volume: "3"
@@ -9250,7 +9250,7 @@
   pages: "558--582"
   year: 2008
   mrreviewer: "Tomasz F. Schreiber"
-  title: "Limit laws for {$k$}-coverage of paths by a {M}arkov-{P}oisson-{B}oolean model"
+  title: "Limit laws for $k$-coverage of paths by a Markov-Poisson-Boolean model"
   doi: "10.108015326340802427448"
   mrclass: "60D05 (05C38 60F05 60F15 60J99 90C27)"
   volume: "24"
@@ -9280,7 +9280,7 @@
   pages: "491--560"
   year: 2012
   mrreviewer: "Gregor Herbort"
-  title: "Some aspects of the {K}obayashi and {C}arath\\eodory metrics on pseudoconvex domains"
+  title: "Some aspects of the Kobayashi and Carath\\eodory metrics on pseudoconvex domains"
   doi: "10.1007s12220-010-9206-4"
   mrclass: "32F45 (32Q45)"
   volume: "22"
@@ -9294,7 +9294,7 @@
   pages: "775--794"
   year: 2014
   mrreviewer: "Sergio Polidoro"
-  title: "{$L^p$} estimates for the wave equation associated to the {G}rushin operator"
+  title: "$L^p$ estimates for the wave equation associated to the Grushin operator"
   mrclass: "35L15 (35H10 35R03 42C10 47D09)"
   volume: "13"
   issn: "0391-173X"
@@ -9331,7 +9331,7 @@
   pages: "Art. B58f, 20"
   year: 2007/08
   mrreviewer: "Jae-Hoon Kwon"
-  title: "Kostka-{F}oulkes polynomials for symmetrizable {K}ac-{M}oody algebras"
+  title: "Kostka-Foulkes polynomials for symmetrizable Kac-Moody algebras"
   mrclass: "17B67 (33D67)"
   volume: "58"
   issn: "1286-4889"
@@ -9345,7 +9345,7 @@
   pages: "267--285"
   year: 2015
   mrreviewer: "\\AA ukasz Kosi\\AA ski"
-  title: "A family of domains associated with {$\\mu$}-synthesis"
+  title: "A family of domains associated with $\\mu$-synthesis"
   doi: "10.1007s00020-014-2198-x"
   mrclass: "30E05 (32A07 32E99 32F45 47A56 93D21)"
   volume: "82"
@@ -9400,14 +9400,14 @@
   pages: "Art. ID rnm025, 11"
   year: 2007
   mrreviewer: "Carlo Giovanni Madonna"
-  title: "Arithmetically {C}ohen-{M}acaulay bundles on three dimensional hypersurfaces"
+  title: "Arithmetically Cohen-Macaulay bundles on three dimensional hypersurfaces"
   mrclass: "14J60 (14J70)"
   issn: "1073-7928"
 
 - number: "1-4"
   author: "Tikekar, V. G."
   fjournal: "Gaita-Bh\\arat\\\\i . Indian Society for History of Mathematics. Bulletin"
-  journal: "Gaita-Bh\\arat\\{\\i }"
+  journal: "Gaita-Bh\\arat\\\\i "
   mrnumber: "1960403"
   pages: "122--124"
   year: 2001
@@ -9424,7 +9424,7 @@
   pages: "346--364"
   year: 2010
   mrreviewer: "Manuel Ord\\A${}^3$\\A$\\pm$ez Cabrera"
-  title: "Central limit theorem for truncated heavy tailed {B}anach valued random vectors"
+  title: "Central limit theorem for truncated heavy tailed Banach valued random vectors"
   doi: "10.1214ECP.v15-1564"
   mrclass: "60F05 (60B11 60B12)"
   volume: "15"
@@ -9454,7 +9454,7 @@
   pages: "567--577"
   year: 2014
   mrreviewer: "Carlos S. Kubrusly"
-  title: "Wandering subspaces of the {B}ergman space and the {D}irichlet space over {$\\Bbb{D}^n$}"
+  title: "Wandering subspaces of the Bergman space and the Dirichlet space over $\\Bbb{D}^n$"
   doi: "10.1007s00020-014-2128-y"
   mrclass: "47A13 (47A15)"
   volume: "79"
@@ -9483,7 +9483,7 @@
   pages: "121--151"
   year: 2012
   mrreviewer: "Weiping Yin"
-  title: "On isometries of the {K}obayashi and {C}arath\\eodory metrics"
+  title: "On isometries of the Kobayashi and Carath\\eodory metrics"
   doi: "10.4064ap104-2-2"
   mrclass: "32F45 (32Q45)"
   volume: "104"
@@ -9495,7 +9495,7 @@
   pages: "D.5, 5"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Bubble sort"
   mrclass: "68P10"
   volume: "111"
@@ -9508,7 +9508,7 @@
   pages: "624--669"
   year: 2015
   mrreviewer: "Valentin Blomer"
-  title: "Nonvanishing of {K}oecher-{M}aass series attached to {S}iegel cusp forms"
+  title: "Nonvanishing of Koecher-Maass series attached to Siegel cusp forms"
   doi: "10.1016j.aim.2015.05.007"
   mrclass: "11F30 (11F46)"
   volume: "281"
@@ -9523,7 +9523,7 @@
   pages: "140--170"
   year: 2015
   mrreviewer: "Li Zhong Peng"
-  title: "On {H}ermite pseudo-multipliers"
+  title: "On Hermite pseudo-multipliers"
   doi: "10.1016j.jfa.2014.09.020"
   mrclass: "43A80 (33C45 35J10 42B20 42B25 42B35)"
   volume: "268"
@@ -9552,7 +9552,7 @@
   pages: "627--639"
   year: 1993
   mrreviewer: "Meng Ru Li"
-  title: "Exact analysis of {B}urgers equation on semiline with flux condition at the origin"
+  title: "Exact analysis of Burgers equation on semiline with flux condition at the origin"
   doi: "10.10160020-7462(93)90024-F"
   mrclass: "35Q53 (76D99)"
   volume: "28"
@@ -9566,7 +9566,7 @@
   mrnumber: "2516177"
   pages: "1519--1541"
   year: 2009
-  title: "Risk minimizing option pricing in a semi-{M}arkov modulated market"
+  title: "Risk minimizing option pricing in a semi-Markov modulated market"
   doi: "10.1137080716839"
   mrclass: "91G30 (60G40 60H30 91B70)"
   volume: "48"
@@ -9650,7 +9650,7 @@
   pages: "1550007, 18"
   year: 2015
   mrreviewer: "Swaminathan Subramanian"
-  title: "On linear series and a conjecture of {D}. {C}. {B}utler"
+  title: "On linear series and a conjecture of D. C. Butler"
   doi: "10.1142S0129167X1550007X"
   mrclass: "14H60"
   volume: "26"
@@ -9680,7 +9680,7 @@
   pages: "257--271"
   year: 2012
   mrreviewer: "Ra\\A${}^{\\underline{\\rm o}}$l Montes-de-Oca"
-  title: "Optimal control of {M}arkov processes with age-dependent transition rates"
+  title: "Optimal control of Markov processes with age-dependent transition rates"
   doi: "10.1007s00245-012-9171-3"
   mrclass: "90C40 (93E20)"
   volume: "66"
@@ -9695,7 +9695,7 @@
   pages: "561--569"
   year: 2014
   mrreviewer: "J. P. E. Hodgson"
-  title: "Non-existence of tight neighborly triangulated manifolds with {$\\beta_12$}"
+  title: "Non-existence of tight neighborly triangulated manifolds with $\\beta_12$"
   doi: "10.1515advgeom-2014-0005"
   mrclass: "57Q15 (57R05)"
   volume: "14"
@@ -9723,8 +9723,8 @@
   pages: "227--237"
   year: 2002
   publisher: "Springer, Berlin"
-  booktitle: "S{TACS} 2002"
-  title: "Approximations for {ATSP} with parametrized triangle inequality"
+  booktitle: "STACS 2002"
+  title: "Approximations for ATSP with parametrized triangle inequality"
   doi: "10.10073-540-45841-7_18"
   mrclass: "68W25 (05C20 05C85 90C35)"
   volume: "2285"
@@ -9738,7 +9738,7 @@
   pages: "235--240"
   year: 2014
   mrreviewer: "Zejun Hu"
-  title: "Some unstable critical metrics for the {$L^{\\frac{n}{2}}$}-norm of the curvature tensor"
+  title: "Some unstable critical metrics for the $L^{\\frac{n}{2}}$-norm of the curvature tensor"
   doi: "10.4310MRL.2014.v21.n2.a2"
   mrclass: "58E11 (53C20)"
   volume: "21"
@@ -9752,7 +9752,7 @@
   mrnumber: "1255232"
   pages: "125--128"
   year: 1994
-  title: "A mixed boundary value problem for {L}aplaces equation involving a nearly circular disk"
+  title: "A mixed boundary value problem for Laplaces equation involving a nearly circular disk"
   doi: "10.1155S0161171294000177"
   mrclass: "31B20"
   volume: "17"
@@ -9796,7 +9796,7 @@
   pages: "3977--4005"
   year: 2011
   mrreviewer: "David F. Mart\\A-nez-Torres"
-  title: "Surfaces of bounded mean curvature in {R}iemannian manifolds"
+  title: "Surfaces of bounded mean curvature in Riemannian manifolds"
   doi: "10.1090S0002-9947-2011-05190-1"
   mrclass: "53C21 (53C40 53D45)"
   volume: "363"
@@ -9824,7 +9824,7 @@
   pages: "989--995"
   year: 2011
   mrreviewer: "Ashish K. Upadhyay"
-  title: "On {W}alkups class {$\\scr K(d)$} and a minimal triangulation of {$(S3\\mathop{\\hbox{$}\\times{$}\\\\\\\\\\lower 3pt\\hbox{--}}\\ S1)^{\\3}$}"
+  title: "On Walkups class $\\scr K(d)$ and a minimal triangulation of $(S3\\mathop{\\hbox{$\\times$}\\\\\\\\\\lower 3pt\\hbox{--}}\\ S1)^{\\3}$"
   doi: "10.1016j.disc.2011.02.032"
   mrclass: "57Q15 (52B70 57R05)"
   volume: "311"
@@ -9838,7 +9838,7 @@
   pages: "257--278"
   year: 2016
   mrreviewer: "Dmitriy Leykekhman"
-  title: "A posteriori error estimates of discontinuous {G}alerkin methods for the {S}ignorini problem"
+  title: "A posteriori error estimates of discontinuous Galerkin methods for the Signorini problem"
   doi: "10.1016j.cam.2015.07.008"
   mrclass: "65N30 (65N12 65N15)"
   volume: "292"
@@ -9853,7 +9853,7 @@
   pages: "1155--1173"
   year: 2015
   mrreviewer: "Benjamin Linowitz"
-  title: "Action de {H}opf sur les op\\erateurs de {H}ecke modulaires tordus"
+  title: "Action de Hopf sur les op\\erateurs de Hecke modulaires tordus"
   doi: "10.4171JNCG219"
   mrclass: "11F03 (16T05)"
   volume: "9"
@@ -9896,7 +9896,7 @@
   year: 2006
   publisher: "Birkh\\auser, Basel"
   booktitle: "Contributions to nonlinear analysis"
-  title: "A note on the superlinear {A}mbrosetti-{P}rodi type problem in a ball"
+  title: "A note on the superlinear Ambrosetti-Prodi type problem in a ball"
   doi: "10.10073-7643-7401-2_34"
   mrclass: "35J60 (35J20 35J25)"
   volume: "66"
@@ -9966,7 +9966,7 @@
   pages: "113--122"
   year: 2012
   mrreviewer: "Qing Gu"
-  title: "A characterisation of the {W}eyl transform"
+  title: "A characterisation of the Weyl transform"
   doi: "10.1515apam.2011.015"
   mrclass: "42A85 (43A32)"
   volume: "3"
@@ -9980,7 +9980,7 @@
   mrnumber: "2526044"
   pages: "459--466"
   year: 2009
-  title: "Approximate solutions of {F}redholm integral equations of the second kind"
+  title: "Approximate solutions of Fredholm integral equations of the second kind"
   doi: "10.1016j.amc.2009.01.088"
   mrclass: "65R20 (45B05)"
   volume: "211"
@@ -10024,7 +10024,7 @@
   pages: "181--204"
   year: 2003
   mrreviewer: "Grzegorz Karch"
-  title: "Large-time asymptotics for periodic solutions of some generalized {B}urgers equations"
+  title: "Large-time asymptotics for periodic solutions of some generalized Burgers equations"
   doi: "10.11111467-9590.00236"
   mrclass: "35Q53 (35B10 35B40 35B45 76D99)"
   volume: "110"
@@ -10038,7 +10038,7 @@
   pages: "299--316"
   year: 2014
   mrreviewer: "Lucas J\\A${}^3$dar"
-  title: "Babu\\v skas penalty method for inhomogeneous {D}irichlet problem error estimates and multigrid algorithms"
+  title: "Babu\\v skas penalty method for inhomogeneous Dirichlet problem error estimates and multigrid algorithms"
   mrclass: "65N30 (65N22 65N55)"
   volume: "5"
   issn: "1923-2942"
@@ -10051,7 +10051,7 @@
   mrnumber: "3161508"
   pages: "47--63"
   year: 2014
-  title: "Revisiting the {F}ourier transform on the {H}eisenberg group"
+  title: "Revisiting the Fourier transform on the Heisenberg group"
   mrclass: "43A30"
   volume: "58"
   issn: "0214-1493"
@@ -10120,7 +10120,7 @@
   pages: "Art. B75g, 13"
   year: 2015
   mrreviewer: "Eric S. Egge"
-  title: "Odd partitions in {Y}oungs lattice"
+  title: "Odd partitions in Youngs lattice"
   mrclass: "05A17 (05A15 05E10)"
   volume: "75"
   issn: "1286-4889"
@@ -10148,7 +10148,7 @@
   pages: "125--141"
   year: 2015
   mrreviewer: "Harold P. Boas"
-  title: "Quadrature domains in {$\\Bbb{C}^n$}"
+  title: "Quadrature domains in $\\Bbb{C}^n$"
   doi: "10.1007s40315-014-0090-y"
   mrclass: "32A36 (32A25)"
   volume: "15"
@@ -10162,7 +10162,7 @@
   mrnumber: "2903589"
   pages: "760--779"
   year: 2012
-  title: "Five-stage {M}ilstein methods for {SDE}s"
+  title: "Five-stage Milstein methods for SDEs"
   doi: "10.108000207160.2012.657629"
   mrclass: "65C30 (60H10)"
   volume: "89"
@@ -10177,7 +10177,7 @@
   pages: "138--154"
   year: 2011
   mrreviewer: "Dean H. Fearn"
-  title: "Supercritical age-dependent branching {M}arkov processes and their scaling limits"
+  title: "Supercritical age-dependent branching Markov processes and their scaling limits"
   doi: "10.315010-BEJ264"
   mrclass: "60J80 (60F05 60K05)"
   volume: "17"
@@ -10207,7 +10207,7 @@
   pages: "350--358"
   year: 2013
   mrreviewer: "\\Amer G\\A\\P k"
-  title: "Characterization of {B}irkhoff-{J}ames orthogonality"
+  title: "Characterization of Birkhoff-James orthogonality"
   doi: "10.1016j.jmaa.2013.05.022"
   mrclass: "46B20 (46L05 46L08)"
   volume: "407"
@@ -10235,7 +10235,7 @@
   year: 1982
   publisher: "South Asian Pub., New Delhi"
   booktitle: "Basics of solitons"
-  title: "Some analytical and numerical aspects of {K}d{V}-type equations"
+  title: "Some analytical and numerical aspects of KdV-type equations"
   mrclass: "35Q20 (65M99)"
 
 - number: "1"
@@ -10258,7 +10258,7 @@
   pages: "B.5, 8"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Algorithms for generation of combinatorial configurations"
   mrclass: "05A15"
   volume: "111"
@@ -10272,7 +10272,7 @@
   pages: "1--13"
   year: 2010
   mrreviewer: "Friedrich Haslinger"
-  title: "On the growth of the {B}ergman kernel near an infinite-type point"
+  title: "On the growth of the Bergman kernel near an infinite-type point"
   doi: "10.1007s00208-009-0421-x"
   mrclass: "32A25 (32A36)"
   volume: "347"
@@ -10299,7 +10299,7 @@
   pages: "227--259"
   year: 2014
   mrreviewer: "Masatoshi Iida"
-  title: "Asymptotics of {H}arish-{C}handra expansions, bounded hypergeometric functions associated with root systems, and applications"
+  title: "Asymptotics of Harish-Chandra expansions, bounded hypergeometric functions associated with root systems, and applications"
   doi: "10.1016j.aim.2013.10.027"
   mrclass: "33C67 (43A90)"
   volume: "252"
@@ -10314,7 +10314,7 @@
   pages: "835--851"
   year: 2016
   mrreviewer: "Oscar Vega-Amaya"
-  title: "Zero-sum risk-sensitive stochastic games for continuous time {M}arkov chains"
+  title: "Zero-sum risk-sensitive stochastic games for continuous time Markov chains"
   doi: "10.108007362994.2016.1180995"
   mrclass: "91A15 (60J28 60J75 93E20)"
   volume: "34"
@@ -10329,7 +10329,7 @@
   pages: "448--475"
   year: 2012
   mrreviewer: "Guohe Deng"
-  title: "Pricing defaultable bonds in a {M}arkov modulated market"
+  title: "Pricing defaultable bonds in a Markov modulated market"
   doi: "10.108007362994.2012.668442"
   mrclass: "91G20 (60H30 91B70)"
   volume: "30"
@@ -10372,7 +10372,7 @@
   pages: "119--128"
   year: 2007
   mrreviewer: "David Yost"
-  title: "Strongly proximinal subspaces of finite codimension in {$C(K)$}"
+  title: "Strongly proximinal subspaces of finite codimension in $C(K)$"
   doi: "10.4064cm109-1-10"
   mrclass: "41A65 (46B20)"
   volume: "109"
@@ -10386,7 +10386,7 @@
   pages: "577--589"
   year: 2012
   mrreviewer: "Marcel Morales"
-  title: "On the {C}hern number of {$I$}-admissible filtrations of ideals"
+  title: "On the Chern number of $I$-admissible filtrations of ideals"
   mrclass: "13H15 (13D40)"
   volume: "4"
   issn: "1939-0807"
@@ -10413,7 +10413,7 @@
   mrreviewer: "T. S. S. R. K. Rao"
   publisher: "Amer. Math. Soc., Providence, RI"
   booktitle: "Function spaces"
-  title: "Strongly proximinal subspaces in {B}anach spaces"
+  title: "Strongly proximinal subspaces in Banach spaces"
   doi: "10.1090conm43508372"
   mrclass: "41A65 (46B20)"
   volume: "435"
@@ -10454,7 +10454,7 @@
   pages: "275--296"
   year: 2009
   mrreviewer: "U Jin Choi"
-  title: "Portfolio optimization in a semi-{M}arkov modulated market"
+  title: "Portfolio optimization in a semi-Markov modulated market"
   doi: "10.1007s00245-009-9074-0"
   mrclass: "91G10 (60K15)"
   volume: "60"
@@ -10469,7 +10469,7 @@
   pages: "1031--1042"
   year: 2014
   mrreviewer: "Steven George Krantz"
-  title: "A simple {K}ontinuit\\atssatz"
+  title: "A simple Kontinuit\\atssatz"
   doi: "10.108017476933.2013.809572"
   mrclass: "32D10 (32D15)"
   volume: "59"
@@ -10499,7 +10499,7 @@
   pages: "471--481"
   year: 2013
   mrreviewer: "Hao Yin"
-  title: "On {W}ilkings criterion for the {R}icci flow"
+  title: "On Wilkings criterion for the Ricci flow"
   doi: "10.1007s00209-012-1079-8"
   mrclass: "53C44 (53C21)"
   volume: "274"
@@ -10511,8 +10511,8 @@
   pages: "167--176"
   year: 2003
   publisher: "ACM, New York"
-  booktitle: "Proceedings of the {T}hirty-{F}ifth {A}nnual {ACM} {S}ymposium on {T}heory of {C}omputing"
-  title: "A fast algorithm for computing {S}teiner edge connectivity"
+  booktitle: "Proceedings of the Thirty-Fifth Annual ACM Symposium on Theory of Computing"
+  title: "A fast algorithm for computing Steiner edge connectivity"
   doi: "10.1145780542.780568"
   mrclass: "05C40 (05C35 68R10)"
 
@@ -10525,7 +10525,7 @@
   pages: "2587--2612"
   year: 2010
   mrreviewer: "Andrei K. Lerner"
-  title: "Support theorems on {$\\Bbb R^n$} and non-compact symmetric spaces"
+  title: "Support theorems on $\\Bbb R^n$ and non-compact symmetric spaces"
   doi: "10.1016j.jfa.2010.07.019"
   mrclass: "42B10 (43A85 44A35)"
   volume: "259"
@@ -10590,7 +10590,7 @@
   pages: "575--581"
   year: 2010
   mrreviewer: "W. C. Royster"
-  title: "On some results of {A}. {E}. {L}ivingston and coefficient problems for concave univalent functions"
+  title: "On some results of A. E. Livingston and coefficient problems for concave univalent functions"
   doi: "10.1007s00013-010-0203-4"
   mrclass: "30C50 (30C45)"
   volume: "95"
@@ -10650,7 +10650,7 @@
   pages: "1--16"
   year: 2008
   mrreviewer: "Mohammed Guedda"
-  title: "Exact analytic solution of a boundary value problem for the {F}alkner-{S}kan equation"
+  title: "Exact analytic solution of a boundary value problem for the Falkner-Skan equation"
   doi: "10.1111j.1467-9590.2007.00386.x"
   mrclass: "34B40 (76D10)"
   volume: "120"
@@ -10680,7 +10680,7 @@
   pages: "590--612"
   year: 1983
   mrreviewer: "F. Weinberg"
-  title: "On the uncapacitated plant location problem. {II}. {F}acets and lifting theorems"
+  title: "On the uncapacitated plant location problem. II. Facets and lifting theorems"
   doi: "10.1287moor.8.4.590"
   mrclass: "90B05"
   volume: "8"
@@ -10694,7 +10694,7 @@
   pages: "143--149"
   year: 2008
   mrreviewer: "Teruhisa Kadokami"
-  title: "Non-orientable {S}eifert surfaces and a {T}hom-{P}ontrjagin type construction"
+  title: "Non-orientable Seifert surfaces and a Thom-Pontrjagin type construction"
   mrclass: "57N70 (57M25)"
   volume: "23"
   issn: "0970-1249"
@@ -10738,7 +10738,7 @@
   pages: "564--574"
   year: 2009
   mrreviewer: "Nils Byrial Andersen"
-  title: "Holomorphic {S}obolev spaces, {H}ermite and special {H}ermite semigroups and a {P}aley-{W}iener theorem for the windowed {F}ourier transform"
+  title: "Holomorphic Sobolev spaces, Hermite and special Hermite semigroups and a Paley-Wiener theorem for the windowed Fourier transform"
   doi: "10.1016j.jmaa.2009.01.021"
   mrclass: "46E35 (42B25 46F12 47D06)"
   volume: "354"
@@ -10751,7 +10751,7 @@
   pages: "301--310"
   year: 2002
   publisher: "Springer, Berlin"
-  booktitle: "F{ST} {TCS} 2002 {F}oundations of software technology and theoretical computer science ({K}anpur)"
+  booktitle: "FST TCS 2002 Foundations of software technology and theoretical computer science (Kanpur)"
   title: "Lower bounds for embedding graphs into graphs of smaller characteristic"
   doi: "10.10073-540-36206-1_27"
   mrclass: "68R10 (05C10 05C80)"
@@ -10765,7 +10765,7 @@
   pages: "281--295"
   year: 2003
   mrreviewer: "Brian Bradie"
-  title: "T{AGE} method for nonlinear singular two point boundary value problem using a fourth order difference scheme"
+  title: "TAGE method for nonlinear singular two point boundary value problem using a fourth order difference scheme"
   mrclass: "65L10 (65L12)"
   volume: "11"
   issn: "1061-5369"
@@ -10895,7 +10895,7 @@
   pages: "459--473"
   year: 2006
   mrreviewer: "Li Zhong Peng"
-  title: "A spectral {P}aley-{W}iener theorem for the {H}eisenberg group and a support theorem for the twisted spherical means on {$\\Bbb C^n$}"
+  title: "A spectral Paley-Wiener theorem for the Heisenberg group and a support theorem for the twisted spherical means on $\\Bbb C^n$"
   mrclass: "43A80 (32A50 43A90 44A35)"
   volume: "56"
   issn: "0373-0956"
@@ -10918,7 +10918,7 @@
   pages: "1065--1071"
   year: 1982
   publisher: "IFAC, Laxenburg"
-  booktitle: "Control science and technology for the progress of society, {V}ol. 2 ({K}yoto, 1981)"
+  booktitle: "Control science and technology for the progress of society, Vol. 2 (Kyoto, 1981)"
   title: "An automaton model of a hierarchical learning system"
   mrclass: "92A25 (68Q75)"
 
@@ -10945,7 +10945,7 @@
   mrnumber: "2533861"
   pages: "75--87"
   year: 2009
-  title: "Water-wave scattering by two submerged plane vertical barriers---{A}bel integral-equation approach"
+  title: "Water-wave scattering by two submerged plane vertical barriers---Abel integral-equation approach"
   doi: "10.1007s10665-009-9265-3"
   mrclass: "76B15"
   volume: "65"
@@ -10960,7 +10960,7 @@
   pages: "943--950"
   year: 1988
   mrreviewer: "Kenneth Dunn"
-  title: "The {B}rans-{D}icke scalar field in {E}instein-{C}artan theory"
+  title: "The Brans-Dicke scalar field in Einstein-Cartan theory"
   doi: "10.1007BF00760092"
   mrclass: "83D05"
   volume: "20"
@@ -11001,7 +11001,7 @@
   pages: "D.6, 12"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Average number of intermediate variables required in the evaluation of expressions"
   mrclass: "68Q50 (68N15)"
   volume: "111"
@@ -11044,7 +11044,7 @@
   pages: "481--505"
   year: 2001
   mrreviewer: "Grzegorz Karch"
-  title: "Initial boundary value problems for scalar and vector {B}urgers equations"
+  title: "Initial boundary value problems for scalar and vector Burgers equations"
   doi: "10.11111467-9590.00175"
   mrclass: "35Q53 (35B25 35B40 35C05 35K55)"
   volume: "106"
@@ -11058,7 +11058,7 @@
   mrnumber: "1415463"
   pages: "1--4"
   year: 1996
-  title: "Solution of a system of generalized {A}bel integral equations using fractional calculus"
+  title: "Solution of a system of generalized Abel integral equations using fractional calculus"
   doi: "10.10160893-9659(96)00063-8"
   mrclass: "45L05 (26A33 45E10)"
   volume: "9"
@@ -11085,7 +11085,7 @@
   mrnumber: "2126108"
   pages: "829"
   year: 2005
-  title: "Obituary {F}red {L}. {W}hipple"
+  title: "Obituary Fred L. Whipple"
   mrclass: "01A70"
   volume: "88"
   issn: "0011-3891"
@@ -11139,7 +11139,7 @@
   pages: "560--576"
   year: 2001
   mrreviewer: "Brian D. Sleeman"
-  title: "Multiparameter {S}turm-{L}iouville problems with eigenparameter dependent boundary conditions"
+  title: "Multiparameter Sturm-Liouville problems with eigenparameter dependent boundary conditions"
   doi: "10.1006jmaa.2001.7695"
   mrclass: "34B08 (34L99)"
   volume: "264"
@@ -11154,7 +11154,7 @@
   pages: "565--571"
   year: 1988
   mrreviewer: "N. V. Mitskevich"
-  title: "A singularity-free cosmological model in {ECSK} theory"
+  title: "A singularity-free cosmological model in ECSK theory"
   doi: "10.1007BF00758911"
   mrclass: "83E10 (53C80 83F05)"
   volume: "20"
@@ -11196,7 +11196,7 @@
   pages: "1--13"
   year: 1994
   mrreviewer: "A. Marin"
-  title: "On {K}\\uhnels {$9$}-vertex complex projective plane"
+  title: "On K\\uhnels $9$-vertex complex projective plane"
   doi: "10.1007BF01263646"
   mrclass: "52B70 (57Q15)"
   volume: "50"
@@ -11211,7 +11211,7 @@
   pages: "291--295"
   year: 2016
   mrreviewer: "Genkai Zhang"
-  title: "Homogeneous {H}ermitian holomorphic vector bundles and the {C}owen-{D}ouglas class over bounded symmetric domains"
+  title: "Homogeneous Hermitian holomorphic vector bundles and the Cowen-Douglas class over bounded symmetric domains"
   doi: "10.1016j.crma.2015.11.002"
   mrclass: "32M15 (53C55)"
   volume: "354"
@@ -11238,7 +11238,7 @@
   pages: "1035--1059"
   year: 2006
   mrreviewer: "Xian Ping Guo"
-  title: "Partially observable semi-{M}arkov games with discounted payoff"
+  title: "Partially observable semi-Markov games with discounted payoff"
   doi: "10.108007362990600870512"
   mrclass: "91A15 (60K15 91A25)"
   volume: "24"
@@ -11268,7 +11268,7 @@
   pages: "223--233"
   year: 2011
   mrreviewer: "Hiro-Fumi Yamada"
-  title: "Affine {H}all-{L}ittlewood functions for {$A^{(1)}_1$} and some constant term identities of {C}herednik-{M}acdonald-{M}ehta type"
+  title: "Affine Hall-Littlewood functions for $A^{(1)}_1$ and some constant term identities of Cherednik-Macdonald-Mehta type"
   doi: "10.1093qmathhap035"
   mrclass: "17B10 (05A15 17B67)"
   volume: "62"
@@ -11281,7 +11281,7 @@
   mrnumber: "2392192"
   pages: "123--136 (2007)"
   year: 2006
-  title: "P. {L}. {B}hatnagar and the {BGK} model"
+  title: "P. L. Bhatnagar and the BGK model"
   mrclass: "01A70 (76P05 82C40)"
   volume: "75"
   issn: "0025-5742"
@@ -11307,7 +11307,7 @@
   mrnumber: "2250989"
   pages: "148--168"
   year: 2004
-  title: "Semi-{M}arkov decision processes with partial observation"
+  title: "Semi-Markov decision processes with partial observation"
   mrclass: "90C40"
   volume: "1"
   issn: "0973-2721"
@@ -11321,7 +11321,7 @@
   pages: "1035--1055"
   year: 2013
   mrreviewer: "I. G. Kossovskiy"
-  title: "Condition {R} and holomorphic mappings of domains with generic corners"
+  title: "Condition R and holomorphic mappings of domains with generic corners"
   mrclass: "32H40"
   volume: "57"
   issn: "0019-2082"
@@ -11334,7 +11334,7 @@
   mrnumber: "722721"
   pages: "396--398"
   year: 1983
-  title: "Fast iterative division of {$p$}-adic numbers"
+  title: "Fast iterative division of $p$-adic numbers"
   doi: "10.1109TC.1983.1676241"
   mrclass: "11A63 (11T06 11Y16 65H05 68M05)"
   volume: "32"
@@ -11347,7 +11347,7 @@
   mrnumber: "3450013"
   pages: "Art. ID 1122276, 12"
   year: 2015
-  title: "Dynamics of the equation {$z_{n1}\\frac{\\alpha\\beta z_n}{Az_{n-1}}$} in the complex plane"
+  title: "Dynamics of the equation $z_{n1}\\frac{\\alpha\\beta z_n}{Az_{n-1}}$ in the complex plane"
   doi: "10.108023311835.2015.1122276"
   mrclass: "39A10 (39A14 39A45)"
   volume: "2"
@@ -11361,7 +11361,7 @@
   mrnumber: "3081399"
   pages: "1350018, 43"
   year: 2013
-  title: "Pricing credit derivatives in a {M}arkov-modulated reduced-form model"
+  title: "Pricing credit derivatives in a Markov-modulated reduced-form model"
   doi: "10.1142S0219024913500180"
   mrclass: "91G40 (60H30 60J27 91G20)"
   volume: "16"
@@ -11373,8 +11373,8 @@
   year: 2002
   mrreviewer: "Massimiliano Guzzo"
   publisher: "Narosa, New Delhi"
-  booktitle: "Nonlinear systems ({C}hennai, 2001)"
-  title: "An invariant norm for nonlinear {H}amiltonian systems"
+  booktitle: "Nonlinear systems (Chennai, 2001)"
+  title: "An invariant norm for nonlinear Hamiltonian systems"
   mrclass: "37J15 (22E99 37J40 70H09 70H33)"
 
 - author: "Kavitha, Telikepalli"
@@ -11384,7 +11384,7 @@
   pages: "343--354"
   year: 2008
   publisher: "Springer, Berlin"
-  booktitle: "Algorithm theory---{SWAT} 2008"
+  booktitle: "Algorithm theory---SWAT 2008"
   title: "On a special co-cycle basis of graphs"
   doi: "10.1007978-3-540-69903-3_31"
   mrclass: "05C38"
@@ -11395,8 +11395,8 @@
   pages: "287--294"
   year: 2006
   publisher: "Yokohama Publ., Yokohama"
-  booktitle: "Hyperbolic problems theory, numerics and applications. {I}"
-  title: "K{CL}, ray theories and application to sonic boom"
+  booktitle: "Hyperbolic problems theory, numerics and applications. I"
+  title: "KCL, ray theories and application to sonic boom"
   mrclass: "35L65 (35F20 35L67 76H05)"
 
 - number: "9"
@@ -11422,7 +11422,7 @@
   pages: "327--340"
   year: 1985
   mrreviewer: "John M. S. Rassias"
-  title: "On the regularity of the variational solution of the {T}ricomi problem in the elliptic region"
+  title: "On the regularity of the variational solution of the Tricomi problem in the elliptic region"
   mrclass: "35M05 (65N30)"
   volume: "19"
   issn: "0764-583X"
@@ -11436,7 +11436,7 @@
   pages: "3032--3040"
   year: 1983
   mrreviewer: "R. Mirman"
-  title: "Relativistic rotator. {II}. {T}he simplest representation spaces"
+  title: "Relativistic rotator. II. The simplest representation spaces"
   doi: "10.1103PhysRevD.28.3032"
   mrclass: "81C40 (81D05 81G30 81G50 81M05)"
   volume: "28"
@@ -11451,7 +11451,7 @@
   pages: "51--55"
   year: 2009
   mrreviewer: "P. E. Newstead"
-  title: "On the {P}icard bundle"
+  title: "On the Picard bundle"
   doi: "10.1016j.bulsci.2008.08.004"
   mrclass: "14D20"
   volume: "133"
@@ -11462,7 +11462,7 @@
   pages: "279--288"
   year: 2001
   publisher: "SIAM, Philadelphia, PA"
-  booktitle: "Proceedings of the {T}welfth {A}nnual {ACM}-{SIAM} {S}ymposium on {D}iscrete {A}lgorithms ({W}ashington, {DC}, 2001)"
+  booktitle: "Proceedings of the Twelfth Annual ACM-SIAM Symposium on Discrete Algorithms (Washington, DC, 2001)"
   title: "Overlap matching"
   mrclass: "68W05"
 
@@ -11475,7 +11475,7 @@
   pages: "3266--3282"
   year: 2008
   mrreviewer: "Jordi Blasco"
-  title: "W{EB}-spline based mesh-free finite element analysis for the approximation of the stationary {N}avier-{S}tokes problem"
+  title: "WEB-spline based mesh-free finite element analysis for the approximation of the stationary Navier-Stokes problem"
   doi: "10.1016j.na.2007.03.021"
   mrclass: "65N30 (65N12 65N15 76D05)"
   volume: "68"
@@ -11500,7 +11500,7 @@
   pages: "195--203"
   year: 1994
   publisher: "World Sci. Publ., River Edge, NJ"
-  booktitle: "Commutative algebra ({T}rieste, 1992)"
+  booktitle: "Commutative algebra (Trieste, 1992)"
   title: "Certain curves are set-theoretic complete intersections"
   mrclass: "13C40 (14M10)"
 
@@ -11513,7 +11513,7 @@
   pages: "645--701"
   year: 2009
   mrreviewer: "B. Gilligan"
-  title: "A characterization of domains in {$\\Bbb C^2$} with noncompact automorphism group"
+  title: "A characterization of domains in $\\Bbb C^2$ with noncompact automorphism group"
   doi: "10.1007s00208-008-0321-5"
   mrclass: "32M12 (32M05)"
   volume: "344"
@@ -11528,7 +11528,7 @@
   pages: "299--316"
   year: 2006
   mrreviewer: "Dmitry Kaliuzhnyi-Verbovetskyi"
-  title: "On {CNC} commuting contractive tuples"
+  title: "On CNC commuting contractive tuples"
   doi: "10.1007BF02829747"
   mrclass: "47A13 (47A15 47A45)"
   volume: "116"
@@ -11549,7 +11549,7 @@
   pages: "117--123"
   year: 2002
   publisher: "ACM, New York"
-  booktitle: "Proceedings of the {T}hirty-{F}ourth {A}nnual {ACM} {S}ymposium on {T}heory of {C}omputing"
+  booktitle: "Proceedings of the Thirty-Fourth Annual ACM Symposium on Theory of Computing"
   title: "Improved decremental algorithms for maintaining transitive closure and all-pairs shortest paths"
   doi: "10.1145509907.509928"
   mrclass: "68R10 (05C85 68Q25 68W20)"
@@ -11562,7 +11562,7 @@
   year: 2009
   mrreviewer: "David J. Wraith"
   publisher: "Univ. Grenoble I, Saint-Martin-dH\\eres"
-  booktitle: "Actes du {S}\\eminaire de {T}h\\eorie {S}pectrale et {G}\\eom\\etrie. {V}ol. 26. {A}nn\\ee 2007--2008"
+  booktitle: "Actes du S\\eminaire de Th\\eorie Spectrale et G\\eom\\etrie. Vol. 26. Ann\\ee 2007--2008"
   title: "Isotropic curvature a survey"
   doi: "10.5802tsg.264"
   mrclass: "53C21"
@@ -11576,7 +11576,7 @@
   editor: "Nori, K. V. and Veni Madhavan, C. E."
   publisher: "Springer-Verlag, Berlin"
   isbn: "3-540-53487-3"
-  booktitle: "Proceedings of the {T}enth {C}onference held in {B}angalore, {D}ecember 17--19, 1990"
+  booktitle: "Proceedings of the Tenth Conference held in Bangalore, December 17--19, 1990"
   title: "Foundations of software technology and theoretical computer science"
   doi: "10.10073-540-53487-3"
   mrclass: "68-06"
@@ -11590,7 +11590,7 @@
   mrnumber: "1416104"
   pages: "349--367"
   year: 1996
-  title: "Exact {$N$}-wave solutions of generalized {B}urgers equations"
+  title: "Exact $N$-wave solutions of generalized Burgers equations"
   doi: "10.1002sapm1996974349"
   mrclass: "35Q53 (35C05)"
   volume: "97"
@@ -11615,7 +11615,7 @@
   pages: "97--119"
   year: 2006
   mrreviewer: "Yongqian Zhang"
-  title: "Formulation of the problem of sonic boom by a maneuvering aerofoil as a one-parameter family of {C}auchy problems"
+  title: "Formulation of the problem of sonic boom by a maneuvering aerofoil as a one-parameter family of Cauchy problems"
   doi: "10.1007BF02829742"
   mrclass: "76N15 (76L05)"
   volume: "116"
@@ -11658,7 +11658,7 @@
   pages: "147--157"
   year: 2008
   mrreviewer: "Pierre Portal"
-  title: "{$L^p$} maximal regularity for second order {C}auchy problems is independent of {$p$}"
+  title: "$L^p$ maximal regularity for second order Cauchy problems is independent of $p$"
   mrclass: "47D06 (34G10 47N20)"
   volume: "1"
   issn: "1972-6724"
@@ -11685,7 +11685,7 @@
   pages: "1--17"
   year: 2014
   mrreviewer: "Vladimir L. Popov"
-  title: "On the unramified principal series of {$\\roman{GL}(3)$} over non-{A}rchimedean local fields"
+  title: "On the unramified principal series of $\\roman{GL}(3)$ over non-Archimedean local fields"
   doi: "10.1016j.jalgebra.2013.08.022"
   mrclass: "20G25 (20G05)"
   volume: "397"
@@ -11714,7 +11714,7 @@
   mrnumber: "2414662"
   pages: "63--75"
   year: 2008
-  title: "{$GIM1$} queues with server vacations and dependent interarrival and service times"
+  title: "$GIM1$ queues with server vacations and dependent interarrival and service times"
   doi: "10.108016843703.2008.11673176"
   mrclass: "Other"
   volume: "5"
@@ -11728,7 +11728,7 @@
   pages: "537--544"
   year: 2005
   mrreviewer: "Satyan L. Devadoss"
-  title: "A note on the existence of {$\\{k,k\\}$}-equivelar polyhedral maps"
+  title: "A note on the existence of $\\{k,k\\}$-equivelar polyhedral maps"
   mrclass: "52B70 (51M20 57M20)"
   volume: "46"
   issn: "0138-4821"
@@ -11756,7 +11756,7 @@
   mrnumber: "3192685"
   pages: "1263--1274"
   year: 2014
-  title: "Steady mixed convection flow of {M}axwell fluid over an exponentially stretching vertical surface with magnetic field and viscous dissipation"
+  title: "Steady mixed convection flow of Maxwell fluid over an exponentially stretching vertical surface with magnetic field and viscous dissipation"
   doi: "10.1007s11012-014-9884-2"
   mrclass: "76W05"
   volume: "49"
@@ -11786,7 +11786,7 @@
   pages: "409--420"
   year: 1984
   mrreviewer: "A. O. Barut"
-  title: "Spinorial relativistic rotator the transformation from quasi-{N}ewtonian to {M}inkowski coordinates"
+  title: "Spinorial relativistic rotator the transformation from quasi-Newtonian to Minkowski coordinates"
   doi: "10.1103PhysRevD.30.409"
   mrclass: "81C40 (81M05)"
   volume: "30"
@@ -11829,7 +11829,7 @@
   pages: "701--719"
   year: 1997
   mrreviewer: "R. R. Akhmerov"
-  title: "A {L}eray-{S}chauder type theorem and applications to boundary value problems for neutral equations"
+  title: "A Leray-Schauder type theorem and applications to boundary value problems for neutral equations"
   doi: "10.10160362-546X(95)00181-T"
   mrclass: "47H15 (34K10 34K40 47H09 47H10 47N20)"
   volume: "28"
@@ -11844,7 +11844,7 @@
   pages: "3051--3054"
   year: 1986
   mrreviewer: "M. Carmeli"
-  title: "Gauge theory of a group of diffeomorphisms. {II}. {T}he conformal and de {S}itter groups"
+  title: "Gauge theory of a group of diffeomorphisms. II. The conformal and de Sitter groups"
   doi: "10.10631.527234"
   mrclass: "81E13 (58D05)"
   volume: "27"
@@ -11858,7 +11858,7 @@
   pages: "95--98"
   year: 1983
   mrreviewer: "J. Segethov\\A"
-  title: "Fast parallel exact computation of the {M}oore-{P}enrose inverse and rank of a matrix"
+  title: "Fast parallel exact computation of the Moore-Penrose inverse and rank of a matrix"
   mrclass: "65F20 (65W05)"
   volume: "19"
   issn: "0013-5712"
@@ -11886,7 +11886,7 @@
   pages: "657--668"
   year: 2012
   mrreviewer: "Patrick Henning"
-  title: "Finite element method for a nonlocal problem of {K}irchhoff type"
+  title: "Finite element method for a nonlocal problem of Kirchhoff type"
   doi: "10.1137110822931"
   mrclass: "65N30 (65N12)"
   volume: "50"
@@ -11901,7 +11901,7 @@
   pages: "2493--2501 (2011)"
   year: 2010
   mrreviewer: "Seungsu Hwang"
-  title: "Almost-{E}instein manifolds with nonnegative isotropic curvature"
+  title: "Almost-Einstein manifolds with nonnegative isotropic curvature"
   mrclass: "53C21 (53C44)"
   volume: "60"
   issn: "0373-0956"
@@ -11927,7 +11927,7 @@
   pages: "265--277"
   year: 2012
   mrreviewer: "Rongwei Yang"
-  title: "Coincidence of {S}chur multipliers of the {D}rury-{A}rveson space"
+  title: "Coincidence of Schur multipliers of the Drury-Arveson space"
   mrclass: "47A13 (47A56)"
   volume: "78"
   issn: "0001-6969"
@@ -11954,7 +11954,7 @@
   mrnumber: "1358811"
   pages: "345--380"
   year: 1995
-  mrreviewer: "Manuel N\\A${}^{\\underline{\\rm o}}$\\A$\\pm$ez Jim\\A\\copyright{}nez"
+  mrreviewer: "Manuel N\\A${}^{\\underline{\\rm o}}$\\A$\\pm$ez Jim\\A\\copyrightnez"
   title: "Singularity structure and chaotic behavior of the homopolar disk dynamo"
   doi: "10.1002sapm1995954345"
   mrclass: "76W05 (34C25 58F13 58F40 85A30)"
@@ -11983,7 +11983,7 @@
   pages: "1--17"
   year: 2010
   mrreviewer: "Troels Roussau Johansen"
-  title: "Variants of {M}iyachis theorem for nilpotent {L}ie groups"
+  title: "Variants of Miyachis theorem for nilpotent Lie groups"
   doi: "10.1017S144678870900038X"
   mrclass: "22E25 (43A80)"
   volume: "88"
@@ -12027,7 +12027,7 @@
   pages: "261--270"
   year: 1996
   mrreviewer: "Yuri I. Cherski\\A-"
-  title: "Solution of singular integral equations with logarithmic and {C}auchy kernels"
+  title: "Solution of singular integral equations with logarithmic and Cauchy kernels"
   doi: "10.1007BF02867434"
   mrclass: "45E10 (30C70 45E05 76B15)"
   volume: "106"
@@ -12042,7 +12042,7 @@
   pages: "1308--1317"
   year: 2008
   mrreviewer: "No\\A$\\ll$l Veraverbeke"
-  title: "Analysis of the {$MAPG^{(a,b)}1N$} queue with multiple vacations"
+  title: "Analysis of the $MAPG^{(a,b)}1N$ queue with multiple vacations"
   doi: "10.1016j.apm.2007.04.003"
   mrclass: "60K25 (90B22)"
   volume: "32"
@@ -12056,13 +12056,13 @@
   mrnumber: "747956"
   pages: "2936--2943"
   year: 1984
-  title: "Nonabelian monopoles break color. {II}. {F}ield theory and quantum mechanics"
+  title: "Nonabelian monopoles break color. II. Field theory and quantum mechanics"
   doi: "10.1103PhysRevD.29.2936"
   mrclass: "81G20 (53C80)"
   volume: "29"
   issn: "0556-2821"
 
-- author: "Balachandran, A. P. and K\\urk\\c{c}\\uo\\u glu, S. and Vaidya, S."
+- author: "Balachandran, A. P. and K\\urk\\cc\\uo\\u glu, S. and Vaidya, S."
   url: "httpdx.doi.org10.11429789812707468"
   mrnumber: "2304140"
   pages: "xiv181"
@@ -12070,7 +12070,7 @@
   mrreviewer: "Sergio L. Cacciatori"
   publisher: "World Scientific Publishing Co. Pte. Ltd., Hackensack, NJ"
   isbn: "978-981-270-466-5 981-270-466-3"
-  title: "Lectures on fuzzy and fuzzy {SUSY} physics"
+  title: "Lectures on fuzzy and fuzzy SUSY physics"
   doi: "10.11429789812707468"
   mrclass: "81S10 (58B34 81-02 81R60 81T13 81T60)"
 
@@ -12082,7 +12082,7 @@
   pages: "970--981"
   year: 2012
   mrreviewer: "Henri Schurz"
-  title: "Split-step forward {M}ilstein method for stochastic differential equations"
+  title: "Split-step forward Milstein method for stochastic differential equations"
   mrclass: "65C30 (34F05 60H10 60H35)"
   volume: "9"
   issn: "1705-5105"
@@ -12093,7 +12093,7 @@
   pages: "E.51--E.59"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "Lattices what can they do for relational databases"
   mrclass: "68P15 (06B99)"
   volume: "111"
@@ -12107,7 +12107,7 @@
   pages: "171--190"
   year: 2016
   mrreviewer: "Yehonatan Salman"
-  title: "Mixed norm estimates for the {R}iesz transforms on {$SU(2)$}"
+  title: "Mixed norm estimates for the Riesz transforms on $SU(2)$"
   mrclass: "42C10 (26A33 33C45 42B20 42B35 43A90 47G40)"
   volume: "60"
   issn: "0214-1493"
@@ -12221,7 +12221,7 @@
   pages: "2318--2329"
   year: 2013
   mrreviewer: "Jonathan Ariel Barmak"
-  title: "On {$k$}-stellated and {$k$}-stacked spheres"
+  title: "On $k$-stellated and $k$-stacked spheres"
   doi: "10.1016j.disc.2013.06.010"
   mrclass: "57Qxx (55U10)"
   volume: "313"
@@ -12304,7 +12304,7 @@
   pages: "384--389"
   year: 2001
   publisher: "Springer, Berlin"
-  booktitle: "Computing and combinatorics ({G}uilin, 2001)"
+  booktitle: "Computing and combinatorics (Guilin, 2001)"
   title: "Edge connectivity vs vertex connectivity in chordal graphs"
   doi: "10.10073-540-44679-6_42"
   mrclass: "05C40 (68R10)"
@@ -12318,7 +12318,7 @@
   mrnumber: "2733692"
   pages: "2495--2500"
   year: 2010
-  title: "Invariant norm quantifying nonlinear content of {H}amiltonian systems"
+  title: "Invariant norm quantifying nonlinear content of Hamiltonian systems"
   doi: "10.1016j.amc.2010.07.060"
   mrclass: "70H15 (37M15 70H05)"
   volume: "217"
@@ -12375,7 +12375,7 @@
   mrnumber: "1225939"
   pages: "1243--1258"
   year: 1993
-  title: "Biorthogonal series method for {O}seen type flows"
+  title: "Biorthogonal series method for Oseen type flows"
   doi: "10.10160020-7225(93)90129-I"
   mrclass: "76D99"
   volume: "31"
@@ -12390,7 +12390,7 @@
   pages: "317--346"
   year: 2011
   mrreviewer: "Troels Roussau Johansen"
-  title: "Toeplitz operators with special symbols on {S}egal-{B}argmann spaces"
+  title: "Toeplitz operators with special symbols on Segal-Bargmann spaces"
   doi: "10.1007s00020-010-1846-z"
   mrclass: "47B35 (22E30 32A37 32A50 43A85)"
   volume: "69"
@@ -12405,7 +12405,7 @@
   pages: "3839--3851"
   year: 2014
   mrreviewer: "Li Zhong Peng"
-  title: "Dimension free boundedness of {R}iesz transforms for the {G}rushin operator"
+  title: "Dimension free boundedness of Riesz transforms for the Grushin operator"
   doi: "10.1090S0002-9939-2014-12143-5"
   mrclass: "42C05 (43A65)"
   volume: "142"
@@ -12444,7 +12444,7 @@
   year: 1997
   mrreviewer: "Du\\AA an Repov\\AA "
   publisher: "de Gruyter, Berlin"
-  booktitle: "Geometry from the {P}acific {R}im ({S}ingapore, 1994)"
+  booktitle: "Geometry from the Pacific Rim (Singapore, 1994)"
   title: "Minimal triangulation, complementarity and projective planes"
   mrclass: "57Q15 (57M20 57N05)"
 
@@ -12456,7 +12456,7 @@
   mrreviewer: "Pierre Portal"
   publisher: "Soc. Math. France, Paris"
   booktitle: "Orthogonal families and semigroups in analysis and probability"
-  title: "Hermite and {L}aguerre semigroups some recent developments"
+  title: "Hermite and Laguerre semigroups some recent developments"
   mrclass: "42B08 (42A38 42B15 42C10 47D03)"
   volume: "25"
 
@@ -12467,7 +12467,7 @@
   mrnumber: "3135029"
   pages: "305--318"
   year: 2013
-  title: "Fermats and {H}uygens principles, and hyperbolic equations and their equivalence in wavefront construction"
+  title: "Fermats and Huygens principles, and hyperbolic equations and their equivalence in wavefront construction"
   mrclass: "35F20 (35A18 35L60)"
   volume: "21"
   issn: "1061-5369"
@@ -12481,7 +12481,7 @@
   pages: "915--920"
   year: 2013
   mrreviewer: "Adela-Gabriela Mihai"
-  title: "The projective plane, {$J$}-holomorphic curves and {D}esargues theorem"
+  title: "The projective plane, $J$-holomorphic curves and Desargues theorem"
   doi: "10.1016j.crma.2013.10.022"
   mrclass: "53D05 (32Q65 51A30)"
   volume: "351"
@@ -12494,7 +12494,7 @@
   mrnumber: "1679820"
   pages: "95--100"
   year: 1997
-  booktitle: "Proceedings of the {S}eminar on {C}ontinuum {M}echanics ({C}alcutta, 1996)"
+  booktitle: "Proceedings of the Seminar on Continuum Mechanics (Calcutta, 1996)"
   title: "On reflection of water waves by a vertical wall in the presence of surface tension"
   mrclass: "76B15"
   volume: "5"
@@ -12537,7 +12537,7 @@
   pages: "531--547"
   year: 2005
   mrreviewer: "Bruce A. Watson"
-  title: "Two-parameter uniformly elliptic {S}turm-{L}iouville problems with eigenparameter-dependent boundary conditions"
+  title: "Two-parameter uniformly elliptic Sturm-Liouville problems with eigenparameter-dependent boundary conditions"
   doi: "10.10071-4020-2623-4_2"
   mrclass: "34B08 (34B24)"
   volume: "48"
@@ -12552,7 +12552,7 @@
   pages: "B148--B178"
   year: 2012
   mrreviewer: "Francesca Brini"
-  title: "A numerical scheme for three-dimensional front propagation and control of {J}ordan mode"
+  title: "A numerical scheme for three-dimensional front propagation and control of Jordan mode"
   doi: "10.1137100802177"
   mrclass: "76W05 (65M08 76N15)"
   volume: "34"
@@ -12567,7 +12567,7 @@
   pages: "189--197"
   year: 2010
   mrreviewer: "William Thomas Ross"
-  title: "The {B}ergman kernel function"
+  title: "The Bergman kernel function"
   doi: "10.1007s13226-010-0010-4"
   mrclass: "46E20 (30C40 47B20 47B38)"
   volume: "41"
@@ -12581,7 +12581,7 @@
   mrnumber: "3109423"
   pages: "1350006, 21"
   year: 2013
-  title: "Convergence of a class of {T}oeplitz type matrices"
+  title: "Convergence of a class of Toeplitz type matrices"
   doi: "10.1142S2010326313500068"
   mrclass: "60B20"
   volume: "2"
@@ -12636,7 +12636,7 @@
   year: 1997
   note: "Joint work with V. Borkar, V. Chandru and D. Micciancio"
   publisher: "Springer, London"
-  booktitle: "Control using logic-based switching ({B}lock {I}sland, {RI}, 1995)"
+  booktitle: "Control using logic-based switching (Block Island, RI, 1995)"
   title: "Logic and mathematical programming"
   doi: "10.1007BFb0036085"
   mrclass: "03B80 (03B35 03B45 90C90)"
@@ -12650,7 +12650,7 @@
   mrnumber: "2951545"
   pages: "21--41"
   year: 2012
-  title: "Percolation and connectivity in {$AB$} random geometric graphs"
+  title: "Percolation and connectivity in $AB$ random geometric graphs"
   doi: "10.1239aap1331216643"
   mrclass: "60D05 (05C40 05C80 60K35)"
   volume: "44"
@@ -12710,7 +12710,7 @@
   pages: "325--346"
   year: 2015
   mrreviewer: "Andrzej \\AA ada"
-  title: "Exact internal controllability for the wave equation in a domain with oscillating boundary with {N}eumann boundary condition"
+  title: "Exact internal controllability for the wave equation in a domain with oscillating boundary with Neumann boundary condition"
   doi: "10.3934eect.2015.4.325"
   mrclass: "93B05 (35B27 35L20 93C20)"
   volume: "4"
@@ -12751,7 +12751,7 @@
   pages: "B.8, 11"
   year: 1986
   publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on {M}athematics of {C}omputer {A}lgorithms ({M}adras, 1986)"
+  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
   title: "P\\olya theory of counting"
   mrclass: "05C30"
   volume: "111"
@@ -12779,7 +12779,7 @@
   pages: "13--28"
   year: 2016
   mrreviewer: "Hongyu L. He"
-  title: "Segal-{B}argmann transform and {P}aley-{W}iener theorems on {H}eisenberg motion groups"
+  title: "Segal-Bargmann transform and Paley-Wiener theorems on Heisenberg motion groups"
   doi: "10.1515apam-2015-0010"
   mrclass: "22E30 (43A77)"
   volume: "7"
@@ -12794,7 +12794,7 @@
   pages: "425--439"
   year: 2002
   mrreviewer: "Alain Brillard"
-  title: "Homogenization of a parabolic equation in perforated domain with {D}irichlet boundary condition"
+  title: "Homogenization of a parabolic equation in perforated domain with Dirichlet boundary condition"
   doi: "10.1007BF02829795"
   mrclass: "35B27 (35K20 35K55)"
   volume: "112"
@@ -12823,7 +12823,7 @@
   pages: "307--323"
   year: 2005
   mrreviewer: "M\\Arcia Scialom"
-  title: "Large-time asymptotics for periodic solutions of the modified {B}urgers equation"
+  title: "Large-time asymptotics for periodic solutions of the modified Burgers equation"
   doi: "10.1111j.0022-2526.2005.01551.x"
   mrclass: "35Q53 (35B10 35B40)"
   volume: "114"
@@ -12864,7 +12864,7 @@
   mrnumber: "3467550"
   pages: "111--112"
   year: 2015
-  title: "An elementary proof of the connectedness of the general linear group {$GL_n(\\Bbb C)$}"
+  title: "An elementary proof of the connectedness of the general linear group $GL_n(\\Bbb C)$"
   mrclass: "54H11 (20G15)"
   volume: "84"
   issn: "0025-5742"
@@ -12877,7 +12877,7 @@
   mrnumber: "2642870"
   pages: "259--267"
   year: 2010
-  title: "Convergence analysis of the {N}ewton algorithm and a pseudo-time marching scheme for diffuse correlation tomography"
+  title: "Convergence analysis of the Newton algorithm and a pseudo-time marching scheme for diffuse correlation tomography"
   doi: "10.1364JOSAA.27.000259"
   mrclass: "65N21 (35R25 35R30 78A70)"
   volume: "27"
@@ -12892,7 +12892,7 @@
   pages: "438--462"
   year: 2007
   mrreviewer: "Miroslav Engli\\AA "
-  title: "Holomorphic {S}obolev spaces associated to compact symmetric spaces"
+  title: "Holomorphic Sobolev spaces associated to compact symmetric spaces"
   doi: "10.1016j.jfa.2007.07.009"
   mrclass: "43A85 (22E30 46E35)"
   volume: "251"
@@ -12920,7 +12920,7 @@
   mrnumber: "2903272"
   pages: "109--120"
   year: 2012
-  title: "A characterisation of the {F}ourier transform on the {H}eisenberg group"
+  title: "A characterisation of the Fourier transform on the Heisenberg group"
   doi: "10.15352afa1399900028"
   mrclass: "43A32"
   volume: "3"
@@ -12963,7 +12963,7 @@
   pages: "250--261"
   year: 2006
   publisher: "Springer, Berlin"
-  booktitle: "Automata, languages and programming. {P}art {I}"
+  booktitle: "Automata, languages and programming. Part I"
   title: "A faster deterministic algorithm for minimum cycle bases in directed graphs"
   doi: "10.100711786986_23"
   mrclass: "05C38 (68R10 68W20)"
