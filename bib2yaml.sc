@@ -1,3 +1,5 @@
+#!/usr/bin/env amm
+
 import $ivy.`org.jbibtex:jbibtex:1.0.5`
 import org.jbibtex._
 import scala.collection.JavaConversions._
