@@ -1,13 +1,12 @@
 ---
 title: Publications - Dept of Mathematics, IISc
-showpubs: true
 ---
 
 
 
 
 
-<h2> Publications (by year) </h2>
+
 
 <div class="row">
   <div class="col-md-1 bg-info">
@@ -29,6 +28,7 @@ showpubs: true
 
   </div>
   <div class="col-md-offset-1 col-md-9">
+    <h2> Publications (by year) </h2>
 
 {% assign years = site.data.pubs | group_by: "year" | sort: 'name' | reverse %}
 {% for y in years %}
