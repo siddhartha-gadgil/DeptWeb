@@ -14,7 +14,7 @@ showpubs: true
     <div class="navbar navbar-fixed-bottom">
       <div class="container">
       <strong> By year</strong>
-      {% assign years = site.data.pubs | group_by: "year" %}
+      {% assign years = site.data.pubs | group_by: "year" | sort: 'name' | reverse %}
       <ul>
         {% for y in years  limit: 15 %}
         <li> <a href="#{{y.name}}"> {{y.name}} </a> </li>
@@ -30,7 +30,7 @@ showpubs: true
   </div>
   <div class="col-md-offset-1 col-md-9">
 
-{% assign years = site.data.pubs | group_by: "year" %}
+{% assign years = site.data.pubs | group_by: "year" | sort: 'name' | reverse %}
 {% for y in years %}
 
 <h4 id ="{{y.name}}">{{y.name}}</h4>
