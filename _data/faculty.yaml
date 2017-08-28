@@ -79,7 +79,7 @@
   user-id: khare
   position: Assistant Professor
   phd: Chicago
-  reserach-areas: Positivity and analysis; Representation theory of Lie algebras; Combinatorics and discrete mathematics (with connections to the two research areas above) 
+  reserach-areas: Positivity and analysis; Representation theory of Lie algebras; Combinatorics and discrete mathematics (with connections to the two research areas above)
   phone-ext: 3214
 
 - name: Manjunath Krishnapur
@@ -151,9 +151,9 @@
   research-areas: Harmonic Analysis
   phd: Princeton
   phone-ext: 3206
-  
+
 - name: R. Venkatesh
-  uder-id: rvenkat
+  user-id: rvenkat
   position: Assistant Professor
   research-areas: Representation Theory of Infinite Dimensional Lie algebras
   phd: IMSc, Chennai

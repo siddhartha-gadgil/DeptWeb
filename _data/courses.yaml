@@ -1,3 +1,64 @@
+aug2017:
+  core1:
+    - code: MA 212
+      name: Algebra I
+      instructor: Abhishek Banerjee
+
+    - code: MA 219
+      name: Linear Algebra
+      instructor: Soumya Das
+
+    - code: MA 221
+      name: "Analysis I: Real Anaysis"
+      instructor: Apoorva Khare
+
+    - code: MA 231
+      name: Topology
+      instructor: Harish Seshadri
+
+    - code: MA 261
+      name: Probability Models
+      instructor: Manjunath Krishnapur
+      webpage: http://math.iisc.ernet.in/~manju/PM17/PM17.html
+
+  core2:
+    - code: MA 223
+      name: Functional Analysis
+      instructor: Tirthankar Bhattacharyya
+
+    - code: MA 232
+      name: Introduction to Algebraic Topology
+      instructor: Subhojoy Gupta
+
+    - code: MA 242
+      name: Partial Differential Equations
+      instructor: S. Thangavelu
+
+  electives:
+    - code: MA 213
+      name: Representation Theory
+      instructor: Pooja Singla
+
+    - code: MA 312
+      name: Commutative Algebra
+      instructor: Dilip Patil
+      webpage: http://www.math.iisc.ernet.in/~patil/current_courses/MA312-CA2017/MA312-CA2017.html
+
+    - code: MA 338
+      name: Differentiable Manifolds and Lie Groups
+      instructor: Vamsi Pingali
+      webpage: http://math.iisc.ac.in/~vamsipingali/338_2017.html
+
+
+    - code: MA 361
+      name: Probability Theory
+      instructor: Srikanth K. Iyer
+
+    - code: MA 369
+      name: Random Matrix Theory
+      instructor: Manjunath Krishnapur
+      webpage: http://math.iisc.ernet.in/~manju/RMT17/RMT.html
+
 jan2017:
   core1:
     - code: MA 213
