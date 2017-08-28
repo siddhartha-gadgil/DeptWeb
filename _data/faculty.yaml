@@ -75,6 +75,13 @@
   phd: UC, Santa Barbara
   phone-ext: 3327
 
+- name: Apoorva Khare
+  user-id: khare
+  position: Assistant Professor
+  phd: Chicago
+  reserach-areas: Positivity and analysis; Representation theory of Lie algebras; Combinatorics and discrete mathematics (with connections to the two research areas above) 
+  phone-ext: 3214
+
 - name: Manjunath Krishnapur
   user-id: manju
   position: Associate Professor
@@ -144,6 +151,13 @@
   research-areas: Harmonic Analysis
   phd: Princeton
   phone-ext: 3206
+  
+- name: R. Venkatesh
+  uder-id: rvenkat
+  position: Assistant Professor
+  research-areas: Representation Theory of Infinite Dimensional Lie algebras
+  phd: IMSc, Chennai
+  phone-ext: 3616
 
 - name:  Kaushal Verma
   user-id: kverma
