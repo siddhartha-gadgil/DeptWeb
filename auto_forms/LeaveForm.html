@@ -2,6 +2,8 @@
 ---
 <blockquote> </blockquote>
 
+<div class="form-group">
+
 <center>
 <img src="Form_files/IISclogo.jpg" height="150" width="150"><br>
 <p class="style1" align="center">INDIAN INSTITUTE OF SCIENCE BANGALORE - 560012</p>
@@ -9,11 +11,13 @@
 
 <h1>Application for Casual Leave</h1>
 
+</center>
+
 <font face="Arial, Helvetica, sans-serif">
 
-<p> Name:
+<p  > Name:
 <input id="name" type="text"  maxlength="28"></p>
-<p> Designation:
+<p  > Designation:
 <!--<input id="Designation" type="text"></p>-->
 <select id="Designation" name="Designation">
  <option id="Designation" value=""> - Select - </option>
@@ -24,14 +28,14 @@
  <option id="Designation" value="Student">Student</option>
 </select>
 </p>
-<p> Department:
+<p  > Department:
 <input id="Department" value="Mathematics"  type="text" maxlength="11"></p>
-<p> No.of days:
+<p  > No.of days:
 <input id="No.of Days" type="text" maxlength="5"></p>
-<p>Period: from/on
+<p  >Period: from/on
 <input id="Period" type="text" maxlength="10"> to
 <input id="To" type="text" maxlength="10"></p>
-<p> Reason:
+<p > Reason:
 <input id="Reason" value="Personal" type="text" maxlength="50"></p>
 <!--<select id="Reason" name="Reason">
 <option id="Reason" value=""> - Select a reason - </option>
@@ -103,5 +107,4 @@ doc.save("leave_form.html")
 }
 </script>
 <button type="button" onClick="makePDF()">Make PDF</button>
-</center>
-
+</div>

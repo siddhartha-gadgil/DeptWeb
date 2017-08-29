@@ -10,7 +10,8 @@
 <h1>Request for PRO'S Approval for Visit</h1>
 
 <font face="Arial, Helvetica, sans-serif">
-
+</center>
+<div class="form-group">
 <p>Name of the visitor(s):
 <input id="name" type="text" maxlength="28" size=26> (please enter name in capitals)</p>
 <p>Nationality:
@@ -119,8 +120,8 @@ doc.text(15,275,"PS: All the information above must necessarily be provided.")
 <!--doc.addPage();-->
 
 <!--for horizontal lines-->
-doc.line(10, 95, 190, 95); 
-doc.line(10, 103, 190, 103); 
+doc.line(10, 95, 190, 95);
+doc.line(10, 103, 190, 103);
 doc.line(10, 111, 190, 111);
 doc.line(10, 119, 190, 119)
 doc.line(10, 140, 190, 140)
@@ -147,5 +148,4 @@ doc.save("PRO_Form.html")
 }
 </script>
 <button type="button" onClick="makePDF()">Make PDF</button>
-</center>
-
+</div>

@@ -8,8 +8,10 @@
 
 <h1>Request for PRO's Approval for Visit</h1>
 
+</center>
 <font face="Arial, Helvetica, sans-serif">
 
+<div class="form-group">
 <p> Name of the visitor(s):
 <input id="name" size="26" maxlength="28" type="text"> (please enter name in capitals)</p>
 <p> Nationality:
@@ -80,9 +82,9 @@ function accomod(){
 				<input name="choice" value="mgh" onClick="accomod();" type="radio">Main Guest House
 				<input name="choice" value="cvh" onClick="accomod();" type="radio">CVH
 				<input name="choice" onClick="makePDF();" type="radio">No (This will generate only a PRO-approval request.)
-				
+
 				<p></p>
-				
+
 				<p><font color="#CC0000">If you are using Firefox to fill out this form, and your
 				browser is not set to automatically open PDF files in a PDF viewer (e.g., Adobe Reader), then
 				PLEASE download from Firefox the formatted PDF form generated and open and print it using
@@ -93,7 +95,7 @@ function accomod(){
 						Conference/Workshop:
 						<input id="Conference" maxlength="27" type="text"></p>
                         <p>
-                        <label>Type of accommodation:</label>      
+                        <label>Type of accommodation:</label>
                         <select id="Acco" name="Accommodation">
                          <option selected="selected" value="">-Select-</option>
                          <option value="snac">Single-bed Room Non-A/C</option>
@@ -103,27 +105,27 @@ function accomod(){
                         </select>
 						</p>
 						<p>
-						<label>Who will pay:</label> 
+						<label>Who will pay:</label>
 						<select id="Pay" name="Payment">
 						 <option value="" selected="selected">Select</option>
 						 <option value="Guest">Guest</option>
 						 <option value="Dept">Department</option>
                         </select>
 						</p>
-						
+
 						<p></p>
-						
-						<h6>In the PDF document that will be generated, a page in between the 
+
+						<h6>In the PDF document that will be generated, a page in between the
 						Request for Accommodation and the PRO Approval forms will intentionally
 						be left blank. (If your printer
-						is set for double-sided printing, you will get two separate forms 
+						is set for double-sided printing, you will get two separate forms
 						without having to change any settings.)</h6>
-						
-						<p></p> 
-						<button type="button" onClick="makePDF1()">Make PDF</button> 
-						
+
 						<p></p>
-						
+						<button type="button" onClick="makePDF1()">Make PDF</button>
+
+						<p></p>
+
 						</div>
 
                         <div style="display: none;" id="aloop">
@@ -131,7 +133,7 @@ function accomod(){
 						Conference/Workshop:
 						<input id="Conference." maxlength="27" type="text"></p>
                         <p>
-                        <label>Type of accommodation:</label>      
+                        <label>Type of accommodation:</label>
                          <select id="Accom" name="Accommodation">
                           <option selected="selected" value="">-Select-</option>
                           <option value="studio">Studio Apartment</option>
@@ -141,26 +143,26 @@ function accomod(){
                          </select>
 						</p>
 						<p>
-					    <label>Who will pay:</label> 
+					    <label>Who will pay:</label>
 					    <select id="Paym" name="Payment">
 						 <option value="" selected="selected">Select</option>
                          <option value="Guest">Guest</option>
                          <option value="Dept">Department</option>
                         </select>
-						</p> 
-						
+						</p>
+
 						<p></p>
-						
-						<h6>In the PDF document that will be generated, a page in between the 
+
+						<h6>In the PDF document that will be generated, a page in between the
 						Request for Accommodation and the PRO Approval forms will intentionally
 						be left blank. (If your printer
-						is set for double-sided printing, you will get two separate forms 
+						is set for double-sided printing, you will get two separate forms
 						without having to change any settings.)</h6>
-						
-						<p></p> 
-						
-						<button type="button" onClick="makePDF2()">Make PDF</button> 
-						
+
+						<p></p>
+
+						<button type="button" onClick="makePDF2()">Make PDF</button>
+
 						</div>
 </form>
 </font>
@@ -211,7 +213,7 @@ doc.text(156,55, "Date : .... / .... /20.....")
 doc.setFontSize(13)
 doc.text(20,62, "a) INDIVIDUAL")
 doc.setFontSize(10)
-doc.text(15,67, "NAME OF THE VISITOR(S)")                                                      
+doc.text(15,67, "NAME OF THE VISITOR(S)")
 doc.text(113,67, ""+nm+"")
 doc.setFontSize(10)
 doc.text(15,72, "Designation")
@@ -251,7 +253,7 @@ doc.text(114,170, "b)        By Dept. - Debit Head : ...........................
 doc .text(15,183, "Faculty member requesting accommodation")
 doc.text(114,180, "Name : "+Host+"" )
 doc.text(114,185, "Designation : "+HostDD+"")
-doc.text(114,190, "Signature") 
+doc.text(114,190, "Signature")
 doc.text(15,202, "Recommendation of Chairman of the Department")
 doc.text(114,202, "Signature                                            Dept. (Seal)")
 
@@ -286,9 +288,9 @@ doc.setFontSize(17)
  if (Acco == "snac") {doc.text(114,136,"x");}
  	else if (Acco == "sac"){doc.text(163,136,"x");}
 			else if (Acco == "dnac") {doc.text(114,143,"x");}
-					else if (Acco=="dac") {doc.text(163,143,"x");} 
+					else if (Acco=="dac") {doc.text(163,143,"x");}
 					        else {doc.text(114,143,"");}
-							
+
 <!-- if else if for payment mode -->
 if (Pay=="Guest"){doc.text(120,161,"x");}
    else if (Pay=="Dept"){doc.text(120,170,"x");}
@@ -296,8 +298,8 @@ if (Pay=="Guest"){doc.text(120,161,"x");}
 
 
 <!--for horizontal lines-->
-doc.line(10, 57, 203, 57); 
-doc.line(10, 68, 203, 68); 
+doc.line(10, 57, 203, 57);
+doc.line(10, 68, 203, 68);
 doc.line(10, 77, 203, 77);
 doc.line(10, 90, 203, 90);
 doc.line(10, 97, 203, 97);
@@ -308,7 +310,7 @@ doc.line(10, 154, 203, 154);
 doc.line(10, 175, 203, 175);
 doc.line(10, 192, 203, 192);
 doc.line(10, 204, 203, 204);
-//for guest house 
+//for guest house
 doc.line(15, 272, 85, 272);
 doc.line(15, 282, 85, 282);
 doc.line(15, 292, 85, 292);
@@ -321,13 +323,13 @@ doc.line(203, 57, 203, 204);
 doc.line(15, 272, 15, 292);
 doc.line(85, 272, 85, 292);
 // Empty square
-doc.rect(114, 133, 03, 03); 
-doc.rect(114, 140, 03, 03); 
-doc.rect(163, 133, 03, 03); 
-doc.rect(163, 140, 03, 03); 
+doc.rect(114, 133, 03, 03);
+doc.rect(114, 140, 03, 03);
+doc.rect(163, 133, 03, 03);
+doc.rect(163, 140, 03, 03);
 
-//Empty squares for payment details 
-doc.rect(120, 158, 03, 03); 
+//Empty squares for payment details
+doc.rect(120, 158, 03, 03);
 doc.rect(120, 167, 03, 03);
 
 doc.addPage();
@@ -348,7 +350,7 @@ doc.text(17,55, "Ref:")
 doc.text(155,55, "Date:")
 
 doc.setFontType("bold"); doc.text(17,70, "To:"); doc.setFontType("normal"); doc.text(27,70, "The Public Relations Officer")
-doc.text(27,76, "IISc")             
+doc.text(27,76, "IISc")
 
 doc.setFontType("bold"); doc.text(72,85, "Subject:"); doc.setFontType("normal")
 doc.text(93,85, "Request for approval for the visit")
@@ -377,9 +379,9 @@ doc.text(15,275,"PS: All the information above must necessarily be provided.")
 
 
 <!--for horizontal lines-->
- 
-doc.line(10, 95, 190, 95); 
-doc.line(10, 103, 190, 103); 
+
+doc.line(10, 95, 190, 95);
+doc.line(10, 103, 190, 103);
 doc.line(10, 111, 190, 111);
 doc.line(10, 119, 190, 119);
 doc.line(10, 140, 190, 140);
@@ -408,7 +410,7 @@ doc.save("VisitorForm_combi.html")
 <script>
 
                               <!--code for CVH form is written below-->
-							  
+
 function makePDF()
 {
 var nm = document.getElementById("name").value;
@@ -470,8 +472,8 @@ doc.text(15,275,"PS: All the information above must necessarily be provided.")
 
 
 <!--for horizontal lines-->
- doc.line(10, 95, 190, 95); 
-doc.line(10, 103, 190, 103); 
+ doc.line(10, 95, 190, 95);
+doc.line(10, 103, 190, 103);
 doc.line(10, 111, 190, 111);
 doc.line(10, 119, 190, 119);
 doc.line(10, 140, 190, 140);
@@ -574,7 +576,7 @@ doc.text(114,170, "b)        By Dept. - Debit Head : ...........................
 doc .text(15,183, "Faculty member requesting accommodation")
 doc.text(114,180, "Name : "+Host+"" )
 doc.text(114,185, "Designation : "+HostDD+"")
-doc.text(114,190, "Signature") 
+doc.text(114,190, "Signature")
 doc.text(15,202, "Recommendation of Chairman of the Department")
 doc.text(114,202, "Signature                                            Dept. (Seal)")
 
@@ -606,9 +608,9 @@ doc.setFontSize(17)
 <!--if else if for room choice-->
  if (Acco == "studio") {doc.text(114,136,"x");}
  	else if (Acco == "one"){doc.text(154, 136,"x");}
-			else if (Acco == "two") {doc.text(114,143,"x");}		
+			else if (Acco == "two") {doc.text(114,143,"x");}
 					        else{doc.text(114,143,"");}
-							
+
 <!-- if else if for payment -->
 if(Pay=="Guest"){doc.text(120,161,"x");}
    else if(Pay=="Dept"){doc.text(120,170,"x");}
@@ -616,8 +618,8 @@ if(Pay=="Guest"){doc.text(120,161,"x");}
 
 
 <!--for horizontal lines-->
-doc.line(10, 57, 203, 57); 
-doc.line(10, 68, 203, 68); 
+doc.line(10, 57, 203, 57);
+doc.line(10, 68, 203, 68);
 doc.line(10, 77, 203, 77);
 doc.line(10, 90, 203, 90);
 doc.line(10, 97, 203, 97);
@@ -628,7 +630,7 @@ doc.line(10, 154, 203, 154);
 doc.line(10, 175, 203, 175);
 doc.line(10, 192, 203, 192);
 doc.line(10, 204, 203, 204);
-//for guest house 
+//for guest house
 doc.line(15, 263, 85 , 263);
 doc.line(15, 273, 85 , 273);
 doc.line(15, 283, 85 , 283);
@@ -641,13 +643,13 @@ doc.line(203, 57, 203, 204);
 doc.line(15, 263, 15 , 283);
 doc.line(85, 263, 85 , 283);
 // Empty square
-doc.rect(114, 133, 03, 03); 
-doc.rect(114, 140, 03, 03); 
-doc.rect(154, 133, 03, 03); 
+doc.rect(114, 133, 03, 03);
+doc.rect(114, 140, 03, 03);
+doc.rect(154, 133, 03, 03);
 <!--doc.rect(163, 120, 03, 03);-->
 
-//Empty squares for payment details 
-doc.rect(120, 158, 03, 03); 
+//Empty squares for payment details
+doc.rect(120, 158, 03, 03);
 doc.rect(120, 167, 03, 03);
 
 
@@ -698,9 +700,9 @@ doc.text(15,275,"PS: All the information above must necessarily be provided.")
 
 
 <!--for horizontal lines-->
- 
-doc.line(10, 95, 190, 95); 
-doc.line(10, 103, 190, 103); 
+
+doc.line(10, 95, 190, 95);
+doc.line(10, 103, 190, 103);
 doc.line(10, 111, 190, 111);
 doc.line(10, 119, 190, 119);
 doc.line(10, 140, 190, 140);
@@ -727,4 +729,4 @@ doc.save("VisitorForm_combi.html")
 
 
 
-</center>
+</div>
