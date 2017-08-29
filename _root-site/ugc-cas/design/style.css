@@ -1,0 +1,668 @@
+/* CSS Document */
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: #EAEDD8;
+    color: #6C6C6C;
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0;
+    line-height: 0;
+}
+.spacer
+{
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+/*------------------------------------------------main--------------------*/
+
+/*------------------------------------------------header--------------------*/
+#header
+{
+    background: url(images/header.gif) 0 0 no-repeat;
+    width: 1024px;
+    height: 93px;
+    margin: 0 auto;
+    padding: 0 5px 0 -5px;
+}
+#ugc
+{
+    float:right;
+	    
+    padding: 10px 30px 10px 24px;
+}
+#header ul.topLink
+{
+    width: 111px;
+    height: 16px;
+    float: right;
+}
+#header ul.topLink li
+{
+    float: left;
+    font-size: 0;
+    line-height: 0;
+}
+#header ul.topLink li a.subscribe
+{
+    display: block;
+    background: url(images/subscribe_bg.html) 0 0 no-repeat;
+    width: 60px;
+    height: 16px;
+    margin: 0 4px 0 0;
+}
+#header ul.topLink li a.subscribe:hover
+{
+    background: url(images/subscribe_bg_hover.html) 0 0 no-repeat;
+}
+#header ul.topLink li a.signup
+{
+    display: block;
+    background: url(images/signup_bg.html) 0 0 no-repeat;
+    width: 47px;
+    height: 16px;
+    margin: 0;
+}
+#header ul.topLink li a.signup:hover
+{
+    background: url(images/signup_bg_hover.html) 0 0 no-repeat;
+}
+#header img.logo
+{
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    margin: 7px 0px 0 25px;
+    float: left;
+}
+
+
+#header p.topTxt
+{
+    display: block;
+    font: normal 26px Arial, Helvetica, sans-serif;
+    color: #C2C2C2;
+    background-color: inherit;
+    margin: 12px 0 0 10px;
+    float: none;
+}
+#header p.topTxt span
+{
+    color: #fff;
+    background-color: #9D0303;
+    padding: 0 3px 0 3px;
+}
+/*------------------------------------------------header--------------------*/
+
+/*------------------------------------------------body--------------------*/
+#body
+{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #6C6C6C;
+}
+#body p.navLeft
+{
+    display: block;
+    background: url(images/nav_left.gif) 0 0 no-repeat;
+    width: 22px;
+    height: 34px;
+    float: left;
+}
+#body ul.nav
+{
+    width: 935px;
+    height: 34px;
+    background: url(images/nav_bg.gif) 0 0 repeat-x;
+    float: left;
+    margin: 0 0 6px 0;
+}
+#body ul.nav li
+{
+    float: left;
+    background: url(images/nav_div.gif) right top no-repeat;
+    height: 34px;
+    padding: 0 2px 0 0;
+}
+#body ul.nav li a
+{
+    display: block;
+    padding: 0 15px;
+    font: bold 11px/34px Arial, Helvetica, sans-serif;
+    color: #1B1B1B;
+    background-color: inherit;
+    text-decoration: none;
+}
+#body ul.nav li a:hover
+{
+    color: #fff;
+    background-color: #9D0303;
+}
+#body ul.nav li.noImg
+{
+    background-image: none;
+}
+#body p.navRight
+{
+    display: block;
+    background: url(images/nav_right.gif) 0 0 no-repeat;
+    width: 22px;
+    height: 34px;
+    float: left;
+}
+/*------------------------------------------------left--------------------*/
+#left
+{
+    width: 440px;
+    float: left;
+    padding: 15px 26px 40px 33px;
+    background: none;
+}
+#left h2.welcome
+{
+    display: block;
+    width: 418px;
+    height: 28px;
+    background: url(images/welcome_div.gif) left bottom repeat-x;
+    margin: 0 0 21px 0;
+}
+#left h2.welcome span
+{
+    font-size: 0;
+    line-height: 0;
+}
+#left p.lftTxt
+{
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+}
+#left p.lftTxt span
+{
+    color: #9D0303;
+    font-weight: bold;
+    background-color: inherit;
+}
+#left h2.le
+{
+    display: block;
+    margin: 50px 0 20px 0;
+    font-size: 0;
+    line-height: 0;
+}
+#left p.lftTxt2
+{
+    display: block;
+    width: 264px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #637704;
+    background-color: inherit;
+    font-weight: bold;
+    margin: 0 0 9px 0;
+}
+#left p.lftTxt3
+{
+    display: block;
+    width: 262px;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 5px 0;
+}
+#left p.lftTxt3 span
+{
+    color: #9D0303;
+    font-weight: bold;
+    background-color: inherit;
+    display: block;
+}
+#left a.rm
+{
+    display: block;
+    background: url(images/read_more.gif) 0 0 no-repeat;
+    width: 60px;
+    height: 15px;
+    margin: 0 0 5px 201px;
+}
+#left a.rm:hover
+{
+    background: url(images/read_more_hover.gif) 0 0 no-repeat;
+}
+/*------------------------------------------------left--------------------*/
+
+/*------------------------------------------------right--------------------*/
+#right
+{
+    width: 482px;
+    float: right;
+    padding: 0 8px 0 0;
+}
+#right h3.rightBot
+{
+    display: block;
+    color: #141414;
+    font: normal 12px  Verdana, Arial, Helvetica, sans-serif;
+    background-color: inherit;
+}
+#right p.rightTxt
+{
+    display: block;
+    font-size: 11px;
+    line-height: 18px;
+    width: 452px;
+}
+#right p.rightTxt a
+{
+    color: #1E759A;
+    background-color: inherit;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#right p.rightTxt a:hover
+{
+    text-decoration: none;
+}
+#service
+{
+    width: 237px;
+    background: url(images/dept2_.jpg);
+    color: #fff;
+    padding: 15px 0 0 0;
+    margin: 0 0 9px 0;
+	text-align:center;
+	text-decoration: none;
+	float: left;
+	
+	height:180px;
+}
+
+#service h2 img.head
+{
+    display: block;
+    height: 21px;
+    margin: 0 0 6px 0;
+    padding: 0 0 0 21px;
+}
+#service h3
+{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 16px 0;
+    display: block;
+    padding: 0 0 0 21px;
+}
+#service img.pic
+{
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    float: left;
+    padding: 0 0 0 21px;
+}
+#service ul
+{
+    width: 122px;
+    float: right;
+}
+#service ul li
+{
+    font-size: 0;
+    line-height: 0;
+}
+#service ul li a
+{
+    display: block;
+    padding: 0 0 0 7px;
+    background: url(images/arrow.gif) 0 7px no-repeat;
+    font: normal 11px/17px Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+}
+#service ul li a:hover
+{
+    background-color: #8DA909;
+    color: #fff;
+}
+#service ul li a.rm2
+{
+   display: block;
+    background: url(images/read_more2.gif) 0 0 no-repeat;
+    width: 56px;
+    height: 17px;
+    margin: 17px 0 0 0;
+}
+#service ul li a.rm2:hover
+{
+    background: url(images/read_more2_hover.gif) 0 0 no-repeat;
+}
+#service p.serBot
+{
+    display: block;
+    background: url(images/service_bottom.gif) 0 0 no-repeat;
+    width: 237px;
+    height: 16px;
+    font-size: 0;
+    line-height: 0;
+    float: left;
+}
+#question
+{
+    width: 237px;
+    background: url(images/dept3_.jpg);
+    color: #fff;
+    padding: 15px 0 0 0;
+    margin: 0 0 9px 0;
+    float: right;
+	height:180px;
+}
+#question h2 img.head2
+{
+    display: block;
+    height: 21px;
+    margin: 0 0 7px 0;
+    padding: 0 0 0 21px;
+}
+#question h3
+{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 16px 0;
+    display: block;
+    padding: 0 0 0 21px;
+}
+#question img.pic2
+{
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    float: left;
+    padding: 0 0 0 21px;
+}
+#question ul
+{
+    width: 122px;
+    float: right;
+}
+#question ul li
+{
+    font-size: 0;
+    line-height: 0;
+}
+#question ul li a
+{
+    display: block;
+    padding: 0 0 0 7px;
+    background: url(images/arrow.gif) 0 7px no-repeat;
+    font: normal 11px/17px Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+}
+#question ul li a:hover
+{
+    background-color: #D4950C;
+    color: #fff;
+}
+#question ul li a.rm3
+{
+    display: block;
+    background: url(images/read_more2.gif) 0 0 no-repeat;
+    width: 56px;
+    height: 17px;
+    margin: 17px 0 0 0;
+}
+#question ul li a.rm3:hover
+{
+    background: url(images/read_more3_hover.gif) 0 0 no-repeat;
+}
+#question p.questionBot
+{
+    display: block;
+    background: url(images/question_bottom.gif) 0 0 no-repeat;
+    width: 237px;
+    height: 16px;
+    font-size: 0;
+    line-height: 0;
+    float: left;
+}
+#s p.linktext a
+{
+   position: relative; 
+	top: 150px;
+	left: -60px;
+    color: #fff;
+	font-size:14px;    
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+#q p.linktext a
+{
+   position: relative; 
+	top: 150px;
+	left: 120px;
+    color: #fff;
+	font-size:14px;    
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+#other p.linktext a
+{
+   position: relative; 
+	top: 160px;
+	left: 20px;
+    color: #fff;
+	font-size:14px;    
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+#visitor p.linktext a
+{
+   position: relative; 
+	top: 160px;
+	left: 160px;
+    color: #fff;
+	font-size:14px;    
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+/* block 3 */
+
+#mem
+{
+    width: 237px;
+    background: url(images/old_dept1.jpg);
+    color: #000;
+    padding: 0 0 11px 0;
+    margin: 0;
+    float: left;
+    height:180px;
+}
+#mem h2
+{
+    display: block;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background: url(images/member_login.gif) 0 0 no-repeat;
+    text-indent: -2000px;
+}
+
+.memText
+{
+    font-size: 11px;
+    padding: 10px;
+}
+
+/* block 4 */
+
+#direction
+{
+    width: 237px;
+    background: url(images/dept4_.jpg);
+    color: #fff;
+    padding: 0 0 11px 0;
+    margin: 0;
+    float: right;
+	height:180px;
+}
+#direction h2
+{
+    display: block;
+    height: 42px;
+    margin: 0 0 4px 0;
+    padding: 0;
+    background: url(images/proper_direction.gif) 0 0 no-repeat;
+    text-indent: -2000px;
+}
+#direction h3
+{
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 5px 0;
+    display: block;
+    padding: 0 0 0 21px;
+}
+#direction img.pic3
+{
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    float: left;
+    padding: 0 0 0 14px;
+}
+#direction ul
+{
+    width: 122px;
+    float: right;
+}
+#direction ul li
+{
+    font-size: 0;
+    line-height: 0;
+}
+#direction ul li a
+{
+    display: block;
+    padding: 0 0 0 7px;
+    background: url(images/arrow.gif) 0 7px no-repeat;
+    font: normal 11px/17px Verdana, Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: inherit;
+    text-decoration: none;
+}
+#direction ul li a:hover
+{
+    background-color: #D4950C;
+    color: #fff;
+}
+#direction ul li a.rm4
+{
+    display: block;
+    background: url(images/read_more2.gif) 0 0 no-repeat;
+    width: 56px;
+    height: 17px;
+    margin: 17px 0 0 0;
+}
+#direction ul li a.rm4:hover
+{
+    background: url(images/read_more4_hover.gif) 0 0 no-repeat;
+}
+/*------------------------------------------------right--------------------*/
+
+/*------------------------------------------------body--------------------*/
+
+/*------------------------------------------------footer--------------------*/
+#footer
+{
+    width: 979px;
+    height: 60px;
+    background: url(images/footer_bg.gif) 0 0 no-repeat;
+    padding: 14px 0 0 0;
+    margin: 0 auto;
+    position: relative;
+}
+#footer p.copyright
+{
+    font: normal 10px/18px Verdana, Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 723px;
+    top: 14px;
+    width: 253px;
+    color: #000;
+    background-color: inherit;
+}
+#footer p.design
+{
+    display: block;
+    padding: 0;
+    position: absolute;
+    left: 797px;
+    top: 31px;
+    font: bold 10px/18px Verdana, Arial, Helvetica, sans-serif;
+    color: #0F6B92;
+    background-color: inherit;
+}
+#footer p.design a.link
+{
+    font: bold 10px/18px Verdana, Arial, Helvetica, sans-serif;
+    color: #0F6B92;
+    background-color: inherit;
+    text-decoration: none;
+    padding: 2px;
+}
+#footer p.design a.link:hover
+{
+    color: #fff;
+    background-color: #000;
+}
+#footer a.xhtml
+{
+    display: block;
+    background: url(images/xhtml_bg.html) 0 0 no-repeat;
+    width: 91px;
+    height: 21px;
+    position: absolute;
+    left: 13px;
+    top: 14px;
+    text-indent: -2000px;
+}
+#footer a.xhtml:hover
+{
+    background: url(images/xhtml_bg_hover.html) 0 0 no-repeat;
+}
+#footer a.css
+{
+    display: block;
+    background: url(images/css_bg.html) 0 0 no-repeat;
+    width: 91px;
+    height: 21px;
+    position: absolute;
+    left: 110px;
+    top: 14px;
+    text-indent: -2000px;
+}
+#footer a.css:hover
+{
+    background: url(images/css_bg_hover.html) 0 0 no-repeat;
+}
+/*------------------------------------------------footer--------------------*/

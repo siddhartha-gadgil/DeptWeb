@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  
+
+  
+
+  <title> Department of Mathematics, IISc</title>
+  <link rel="icon" href="/IIScLogo.jpg">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap -->
+
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/extras.css">
+
+  <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+  <!-- mathjax config similar to math.stackexchange -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  jax: ["input/TeX", "output/HTML-CSS"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  messageStyle: "none",
+  "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+});
+</script>
+</head>
+
+
+
+<body>
+<div class="container">
+  <div class="bg-primary" style="border-radius: 25px;" >
+    <div class="banner">
+      <img src="/IISc_logo_transparentI.png" class="pull-right" width="100" style="margin-top: 20px; margin-right: 20px;"></img>
+      <h1 class="text-center" style="margin-top: 30px;"> Department of Mathematics  </h1>
+      <h2 class="text-center">Indian Institute of Science</h2>
+
+    </div>
+
+
+    </div>
+
+
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"> <a href="http://www.iisc.ac.in"> IISc</a></span>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/course-list.html">Courses</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Research <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/research-areas.html">Research Areas</a></li>
+            <li><a href="/pubs.html">Publications</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            People <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/faculty.html">Faculty </a></li>
+            <li><a href="/emsci.html">Emeritus Scientists </a></li>
+            <li><a href="/nmi-dist.html">NMI distinguished associates </a></li>
+            <li><a href="/inspire.html">Inspire Fellows/DST Young scientists</a></li>
+            <li><a href="/postdocs.html">Post-Docs</a></li>
+            <li role="separator" class="divider"></li>
+            <li> <strong>Students </strong></li>
+
+                <li><a href="/students-phd.html">Ph.D.</a></li>
+                <li><a href="/students-intphd.html">Int Ph.D.</a></li>
+                <li><a href="/students-intdisphd.html">Interdisciplinary Ph.D.</a></li>
+            </li>
+            <li role="separator" class="divider"></li>
+
+                <li><a href="/people-staff.html">Staff</a></li>
+                <li><a href="/trainees.html">Project staff</a></li>
+            </li>
+
+          </ul>
+        </li>
+
+
+
+
+
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    Degree progs <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="/degprog-phd.html">Ph.D. program</a></li>
+    <li><a href="/degprog-intphd.html">Integrated Ph.D. program</a></li>
+    <li><a href="http://www.iisc.ernet.in/ug/" target="_blank">Undergraduate program</a></li>
+  </ul>
+</li>
+
+<li><a href="/pros-fac.html">Faculty Jobs</a></li>
+
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    Events <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="/seminars-all.html">Seminars</a></li>
+
+  </ul>
+</li>
+      </ul>
+
+      <div class="col-sm-3 col-md-3">
+        <form class="navbar-form" role="search" action="http://www.google.com/search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="q">
+            <input type="hidden" class="form-control" name="sitesearch" value="math.iisc.ac.in"/>
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        </form>
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <!-- <li><a href="https://homotopytypetheory.org/">Homotopy Type theory</a></li>
+            <li><a href="https://leanprover.github.io/tutorial/">Lean online tutorial</a></li> -->
+
+            <li><a href="https://math.iisc.ac.in/~library" target="_blank">Mathematics library</a></li>
+            <li><a href="http://math.iisc.ac.in/~ifcam/" target="_blank"> IFCAM </a></li>
+            <li><a href="http://math.iisc.ac.in/~nmi/" target="_blank"> NMI</a></li>
+            <li><a href="/conus.html">Contact Us</a></li>
+            <li><a href="/fileIndex.html">Department Foms</a></li>
+            <li><a href="/intro.html">About Us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+      <center>
+            <td valign="top" >
+              <p> List of Seminars. Latest seminars first.<br>
+              </p>
+              <table class="table">
+                <tr>
+                  <td width="10">&nbsp;</td>
+                  <td width="190" bgcolor="#F0F0F0"><b>Seminar Date</b></td>
+                  <td width="300" bgcolor="#F0F0F0"><b>Speaker</b></td>
+                 </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+                         <td width="190"><a href="seminars2011/dec23.html" target="_blank"> December23, 2011
+                         <td width="300"> Prof.  Angela Pasquale, Universite Paul Verlaine - Metz</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+                         <td width="190"><a href="seminars2011/dec19.html" target="_blank"> December19, 2011
+                         <td width="300"> Prof. Jay Gopalakrishnan, Portland State University.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+                         <td width="190"><a href="seminars2011/dec15.html" target="_blank"> December15, 2011
+                         <td width="300"> Prof. Anuradha Garge, Centre for Excellence in Basic Sciences, Mumbai.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+                         <td width="190"><a href="seminars2011/dec133.html" target="_blank"> December13, 2011
+                         <td width="300"> Prof. Kashyap Rajeevsarathy, IISER, Bhopal.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+                         <td width="190"><a href="seminars2011/dec7.html" target="_blank"> December7, 2011
+                         <td width="300"> Ms. SASWATI DANA, Department of Mathematics, IISc.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+                         <td width="190"><a href="seminars2011/nov23.html" target="_blank"> November 23 & 24, 2011
+                         <td width="300"> Prof. Jean-Pierre Demailly, Institut Fourier, Universite de Grenoble, France.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/nov21.html" target="_blank"> November 21, 2011
+		         <td width="300"> Sourav Pal, Department of Mathematics, IISc.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/oct20.html" target="_blank"> October 20, 2011
+		         <td width="300"> Prof. Anjishnu Banerjee, Duke University, USA.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/oct19.html" target="_blank"> October 19, 2011
+		         <td width="300"> Prof. Sivananthan Sampath, Radon Institute for Computational and Applied Mathematics Linz, Austria.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/oct18.html" target="_blank"> October 18, 2011
+		         <td width="300">  Prof. Arup Bose, ISI, Kolkata.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/sep23.html" target="_blank"> September 23, 2011
+		         <td width="300">  Prof. Amritanshu Prasad, IMSc, Chennai.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/sep16.html" target="_blank"> September 16, 2011
+		         <td width="300">  Prof. Imran Biswas, TIFR Centre for Applicable Mathematics.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/aug26.html" target="_blank"> August 26, 2011
+		         <td width="300">  Prof. Rajesh P. N. Rao, Department of Computer Science and Engineering & Neurobiology Program, University of Washington Seattle, USA.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/aug25.html" target="_blank"> August 25, 2011
+		         <td width="300"> Dr. Debashis Mondal, Department of Statistics, University of Chicago, Chicago.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/aug19.html" target="_blank"> August 19, 2011
+		         <td width="300"> Prof. Keith Burns, Northwestern University</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/aug17.html" target="_blank"> August 17, 2011
+		         <td width="300"> Prof. Siddhartha Gadgil, IISc.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/aug12.html" target="_blank"> August 12, 2011
+		         <td width="300"> Mr.  Abhinav  Verma, Int Ph.D. Research Scholar, IISc.,  Bangalore.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/aug8.html" target="_blank"> August 8, 2011
+		         <td width="300"> Prof. Siddhartha Gadgil, IISc, Bangalore.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/aug5.html" target="_blank"> August 5, 2011
+		         <td width="300"> Prof. Rajendra Bhatia, ISI, Delhi.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/july29.html" target="_blank"> July 29, 2011
+		         <td width="300"> Ms.  Amita Malik, Int  Ph  D  Research  Scholar, Department of Mathematics</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/july25.html" target="_blank"> July 25, 2011
+		         <td width="300"> Mr.  Gururaja,  H.  A. Ph. D.  Research  Scholar, Department of Mathematics.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/july22.html" target="_blank"> July 22, 2011
+		         <td width="300"> Mr. Jonathan  F  Fernandes, Int  Ph  D  Research  Scholar, Department of Mathematics</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/july20.html" target="_blank"> July 20, 2011
+		         <td width="300"> Dr.  Debashish  Bose, Institute of Mathematical  Sciences, Chennai.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/july13.html" target="_blank"> July 13, 2011
+		         <td width="300"> Prof. Subhroshekhar Ghosh, University of California, Berkeley.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/jul13.html" target="_blank"> July 13, 2011
+		         <td width="300">   Prof. D. Yogeshwaran, Ecole Normale Superieure - INRIA.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/june30.html" target="_blank"> June 30, 2011
+		         <td width="300">   Prof. Arvind Ayyer, University of California, Davis.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/june28.html" target="_blank"> June 28, 2011
+		         <td width="300">   Dr. Pooja Singla, Department of Mathematics, Ben Gurion University, Isreal.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/june22.html" target="_blank"> June 22, 2011
+		         <td width="300">  Prof. Koushik Pal, University of California, Berkeley.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/may20.html" target="_blank"> May 20, 2011
+		         <td width="300">   Prof. Sunil K. Chebolu, Illinois State University, U.S.A.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/apr29.html" target="_blank"> April 29, 2011
+		         <td width="300">   Mr. Koushik Saha, Bidhannagar Government College, Kolkata.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+                         <td width="190"><a href="seminars2011/apr18.html" target="_blank"> April 25, 2011
+                         <td width="300">   Prof. Michael Dritschel, Newcastle University, UK.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/apr20.html" target="_blank"> April 20, 2011
+		         <td width="300">   Ritabrata Munshi, TIFR Mumbai.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/apr1.html" target="_blank"> April 1, 2011
+		         <td width="300">   Prof. Kalyan B. Sinha, JNCASR and IISc.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/mar7.html" target="_blank"> March 7, 2011
+		         <td width="300">   Prof. Shrihari Sridharan, Chennai Mathematical Institute.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/mar1.html" target="_blank"> March 1, 2011
+		         <td width="300">  Prof. Michael Demuth, University of Clausthal, Germany</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/feb23.html" target="_blank"> February 23, 2011
+		         <td width="300">  Prof. Jean-Pierre Raymond, Universite Paul Sabatier, Toulouse, France.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/feb22.html" target="_blank"> February 22, 2011
+		         <td width="300">  Ms.  Suparna  Sen, Int. Ph. D.  Research Scholar, Department of Mathematics, IISc.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/feb11.html" target="_blank"> February 11, 2011
+		         <td width="300">  Prof. S. S. Sritharan, Naval Postgraduate School, Monterey, USA. </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/jan28.html" target="_blank"> January 28, 2011
+		         <td width="300">  Prof. B. Rajeev, ISI, Bangalore Centre</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/jan21.html" target="_blank"> January 21, 2011
+		         <td width="300">  Prof. Dilip Raghavan, University of Toronto.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/janu21.html" target="_blank"> January 21, 2011
+		         <td width="300">  Prof. Herve Gaussier, Institut Fourier, Grenoble, France</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/jan20.html" target="_blank"> January 20, 2011
+		         <td width="300">  Prof. Herve Gaussier, Institut Fourier, Grenoble, France</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/jan19.html" target="_blank"> January 19, 2011
+		         <td width="300">  Prof. Chandan Singh Dalawat, HRI, Allahabad</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="seminars2011/jan18.html" target="_blank"> January 18, 2011
+		         <td width="300">  Prof. Herve Gaussier, Institut Fourier, Grenoble, France</tr>
+
+
+
+            <!--             <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/dec14.htm" target="_blank"> December 14, 2010
+		         <td width="300">  Prof. Niranjan Balachandran, Caltech, U.S.A.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/dec13.htm" target="_blank"> December 13, 2010
+		         <td width="300"> Prof. Jean-Pierre Gazeau Universitéaris-7 Denis Diderot, France</tr>
+
+			 <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/nov24.htm" target="_blank"> November 24, 2010
+		         <td width="300"> Prof. Marius Tucsnak, Institute Elie Cartan Universite Nancy-1, France.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/nov18.htm" target="_blank"> November 18, 2010
+		         <td width="300"> Prof. Wolf Singer, Director, Max Planck Institute for Brain Research Frankfurt/Main Frankfurt Institute for Advanced Studies (FIAS)</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/nov16.htm" target="_blank"> November 16, 2010
+		         <td width="300"> Prof. Debraj Chakrabarti, Department of Mathermatics, IIT Bombay</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/nov9.htm" target="_blank"> November 9, 2010
+		         <td width="300"> Mr.  Sushil  Gorai, IISc, Bangalore.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/nov8.htm" target="_blank"> November 8, 2010
+		         <td width="300"> Mr.  Diganta Borah, IISc, Bangalore.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep29.htm" target="_blank"> September 29, 2010
+		         <td width="300"> Ms.  Suparna  Sen, IISc, Bangalore.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep24.htm" target="_blank"> September 24, 2010
+		         <td width="300"> Mr.  Hari Shanker Gupta, IISc, Bangalore.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep22.htm" target="_blank"> September 22, 2010
+		         <td width="300"> Prof. Siddhartha Gadgil, IISc, Bangalore.</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep17.htm" target="_blank"> September 17, 2010
+		         <td width="300"> Prof. Siddhartha Gadgil, IISc, Bangalore.</tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep13.htm" target="_blank"> September 13, 2010
+		         <td width="300"> Prof. Angela Pasquale, Universite Paul Verlaine--Metz, France</tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep8.htm" target="_blank"> September 8, 2010
+		         <td width="300"> Mr.  K.  R.  Arun (Research Student), IISc, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep7.htm" target="_blank"> September 7, 2010
+		         <td width="300"> Prof. H. Araki, Kyoto University.
+		         </tr>
+
+                        <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/sep6.htm" target="_blank"> September 6, 2010
+		         <td width="300"> Prof. H. Araki, Kyoto University.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/aug18.htm" target="_blank"> August 18, 2010
+		         <td width="300"> Prof. Dr. Gunter M. Ziegler, TU Berlin, Germany.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/augu17.htm" target="_blank"> August 17, 2010
+		         <td width="300"> Dr. Siddhartha Gadgil, IISc.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/augu18.htm" target="_blank"> August 17, 2010
+		         <td width="300"> Sashikumaar Ganesan, Germany.
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/july30.htm" target="_blank"> July 30, 2010
+		         <td width="300"> Ms.  Prachi, IISc, Bangalore
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/july16.htm" target="_blank"> July 16, 2010
+		         <td width="300"> Ms.  Purvi  Gupta, IISc, Bangalore
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/july14.htm" target="_blank"> July 14, 2010
+		         <td width="300"> Mr. Sushil Gorai, IISc.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/july9.htm" target="_blank"> July 9, 2010
+		         <td width="300"> Mr. Diganta Borah, IISc.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/july7.htm" target="_blank"> July 7, 2010
+		         <td width="300">Dr.  Ashwin  Pande.
+
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/july5.htm" target="_blank"> July 5, 2010
+		         <td width="300">Prof.  Sudesh Kaur Khanduja, Punjab University,  Chandigarh.
+
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/june25.htm" target="_blank"> June 25, 2010
+		         <td width="300">Dr.  Manoj  Kummini, Purdue  University,  U  S  A
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/june14.htm" target="_blank"> June 14, 2010
+		         <td width="300">Prof Swagato Ray, IIT, Kanpur
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/june4.htm" target="_blank"> June 4, 2010
+		         <td width="300">Ms. Purvi Gupta, IISc, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/mayy26.htm" target="_blank"> May 26, 2010
+		         <td width="300">Hari shanker Gupta (Research Student), IISc, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/may26.htm" target="_blank"> May 26, 2010
+		         <td width="300">Martin Deraux, Fourier Institute, Grenoble
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/may25.htm" target="_blank"> May 25, 2010
+		         <td width="300">Ms.  Rishika Rupam, Department of Mathematics, IISc.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/may24.htm" target="_blank"> May 24, 2010
+		         <td width="300">Martin Deraux, Fourier Institute, Grenoble
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/may13.htm" target="_blank"> May 13, 2010
+		         <td width="300">Dr.  Manish  Kumar, Michigon State University, U.S.A
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/may11.htm" target="_blank"> May 11, 2010
+		         <td width="300">K. R. Arun (Research Student), IISc, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/apri26.htm" target="_blank"> April 26, 2010
+		         <td width="300">Anup Biswas (TIFR, Bangalore)
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/apr26.htm" target="_blank"> April 26, 2010
+		         <td width="300">S. Ramasubramanian (ISI, Bangalore)
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/apr21.htm" target="_blank"> April 21, 2010
+		         <td width="300">Ms. Prachi, IISc.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/apr19.htm" target="_blank"> April 19, 2010
+		         <td width="300">Prof. James Pickering, Newcastle University, UK
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/apr16.htm" target="_blank"> April 16, 2010
+		         <td width="300">Dr. Simone Borghesi
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/apri13.htm" target="_blank"> April 13, 2010
+		         <td width="300"> Prof. Parameswaran Sankaran, IMSc, Chennai.
+		         </tr>
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/apr13.htm" target="_blank"> April 13, 2010
+		         <td width="300"> Dr. Suhas Pandit, IISER, Pune
+		         </tr>
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/marc22.htm" target="_blank"> March 22, 2010
+		         <td width="300"> Siva Athreya, ISI, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/mar22.htm" target="_blank"> March 22, 2010
+		         <td width="300">  B. Rajeev, ISI, Bangalore.
+		         </tr>
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/mar15.htm" target="_blank"> March 15, 2010
+		         <td width="300">  Prof. Shobha Madan, IIT Kanpur.
+		         </tr>
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/mar12.htm" target="_blank"> March 12, 2010
+		         <td width="300">   Rajendra Gurjar (TIFR - Mumbai)
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/mar11.htm" target="_blank"> March 11, 2010
+		         <td width="300">   Rajendra Gurjar (TIFR - Mumbai)
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/mar10.htm" target="_blank"> March 10, 2010
+		         <td width="300">   Rajendra Bhatia (ISI - Delhi)
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/mar9.htm" target="_blank"> March 9, 2010
+		         <td width="300">   Rajendra Bhatia (ISI - Delhi)
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/febr26.htm" target="_blank"> February 26, 2010
+		         <td width="300">   Prof.  M.  K.  Ghosh, IISc, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/feb26.htm" target="_blank"> February 26, 2010
+		         <td width="300">    Prof.  Siddhartha  Gadgil, IISC, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/feb25.htm" target="_blank"> February 25, 2010
+		         <td width="300">   Dr. Bappaditya Bhowmik, IISc, Bangalore.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/feb19.htm" target="_blank"> February 19, 2010
+		         <td width="300">    Antar Bandyopadhyay (Indian Statistical Institute, Delhi)
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/feb1.htm" target="_blank"> February 1, 2010
+		         <td width="300">    Professor. Adam Shwartz, TECHNION, ISRAEL.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/jan29.htm" target="_blank"> January 29, 2010
+		         <td width="300"> Dr. Kaneenika Sinha,  Univ. of Alberta, Canada.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/jan19.htm" target="_blank"> January 19, 2010
+		         <td width="300"> Prof.  Diganta Mukherjee, Usha Martin  Academy,  Kolkata.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/jan15.htm" target="_blank"> January 15, 2010
+		         <td width="300">  Dr. Tejaswi Navilarekallu, Vrija University, The Netherlands
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/jan13.htm" target="_blank"> January 13, 2010
+		         <td width="300"> Dr.  J.  Faruat, Universite Pierre  et  Marie Curie, Paris.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/jan12.htm" target="_blank"> January 12, 2010
+		         <td width="300">Dr.  Rituparna  Sen, Univ.  of  California at  Davis, U  S  A
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2010/jan11.htm" target="_blank"> January 11, 2010
+		         <td width="300">Dr. Siddhartha Gadgil, IISc.
+		         </tr>-->
+
+                      <!--<tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/dec1.htm" target="_blank"> December 1, 2009
+		         <td width="300">Prof. Michael Dritschel, Newcastle University, UK.
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/nov30.htm" target="_blank"> November 30, 2009
+		         <td width="300">Prof. Brian Jefferies, University of New South Wales, Sydney
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/oct21.htm" target="_blank"> October 21, 2009
+		         <td width="300">Prof. Arup Bose, ISI, Kolkata
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/oct19.htm" target="_blank"> October 19, 2009
+		         <td width="300">Dr. Hemangi Shah, IISc
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/sep02.htm" target="_blank"> September 2, 2009
+		         <td width="300">Dr. D. Yogeshwaran, Ecole Normale Superieure / INRIA, Paris
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/sep01.htm" target="_blank"> September 1, 2009
+		         <td width="300">Prof. S. D. Adhikari, HRI, Allahabad
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/aug28.htm" target="_blank"> August 28, 2009
+		         <td width="300">Prof. Rakesh, University of Delaware
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/aug21.htm" target="_blank"> August 21, 2009
+		         <td width="300">Dr. Tathagatha Basak, IPMU, Japan
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/aug14.htm" target="_blank"> August 14, 2009
+		         <td width="300">Prof. K. B. Athreya
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/aug4.htm" target="_blank"> August 4, 2009
+		         <td width="300">Dr.Soumik Pal, University of Washington, Seattle
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/july30.htm" target="_blank"> July 30, 2009
+		         <td width="300">Dr.  Arijit  Chakraborty, Cornell University,  U S A
+
+		         </tr>
+
+
+
+                          <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/jul24.htm" target="_blank"> July 24, 2009
+		         <td width="300">Dr. V. Sreekar
+
+		         </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/jul20.htm" target="_blank"> July 20, 2009
+		         <td width="300">Dr. Jayadev Athreya, Yale University
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/jul7.htm" target="_blank"> July 7, 2009
+		         <td width="300">Prof. Sunder Sethuraman, Iowa State Univ
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/july1.htm" target="_blank"> July 1, 2009
+		         <td width="300">Prof. S. S. Kannan, CMI
+		         </tr>
+
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+			 <td width="190"><a href="/seminars2009/may20.htm" target="_blank"> May 20, 2009
+		         <td width="300">Prof.  R.  L.  Karandikar, Executive Vice  President Craner Software International Limited, M G Road,  Bangalore
+		         </tr>
+
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+						 <td width="190"><a href="/seminars2009/feb25.htm" target="_blank"> February 25, 2009
+					     <td width="300">Professor Jean-Pierre Raymond
+					     </tr>
+
+
+                          <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+						 <td width="190"><a href="/seminars2009/feb12.htm" target="_blank"> February 12, 2009
+					     <td width="300">S.R.S. Varadhan, Courant Institute
+					     </tr>
+
+                          <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+						 <td width="190"><a href="/seminars2009/jan15.htm" target="_blank"> January 15, 2009
+					     <td width="300">Prof. A. Koranyi, Lehman College, CUNY
+					     </tr>
+
+                         <tr>
+                         <td Width="10" style="List-style-type:Disc:">&#149</td>
+						 <td width="190"><a href="/seminars2009/jan02.htm" target="_blank"> January 2, 2009
+					     <td width="300">Dr. Gautam Iyer, Stanford University
+					     </tr> -->
+
+
+
+
+
+
+			</table>
+            <p>&nbsp;</p>
+
+            <p>&nbsp;</p></td>
+          </tr>
+        </table>
+        <table width="778" border="0" cellspacing="0" cellpadding="4" align="center">
+          <tr bgcolor="#FFFFFF" align="center">
+            <td colspan="3">
+              <hr>
+            </td>
+          </tr>
+          <tr bgcolor="#FFFFFF" align="center" valign="top">
+            <td width="260"><a href="http://www.iisc.ernet.in/" target="_blank">Indian
+              Institute of Science</a></td>
+            <td width="260"><a href="mailto:vijayan@math.iisc.ernet.in">Contact
+              the Administrator</a></td>
+            <td><a href="disclaimer.html">Disclaimer</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</center>
+
+
+  </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src='/js/bootstrap.min.js'></script>
+
+</body>
+</html>
+
