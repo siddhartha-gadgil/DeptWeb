@@ -1,14 +1,14 @@
 - name: Arvind Ayyer
   user-id: arvind
   position: Assistant Professor
-  research-areas: Probability, Combinatorics, Statistical Mechanics,Mathematical Physics, Experimental Mathematics
+  research-areas: Probability, Combinatorics, Statistical Mechanics, Mathematical Physics, Experimental Mathematics
   phd: Rutgers
   phone-ext: 3215
 
 - name: Abhishek Banerjee
   user-id: abhishek
   position: Assistant Professor
-  research-areas: Algebraic geometry, Noncommutative geometry.
+  research-areas: Algebraic geometry, Noncommutative geometry
   phd: Johns Hopkins
   phone-ext: 3326
 
@@ -57,7 +57,7 @@
 - name: Thirupathi Gudi
   user-id: gudi
   position: Associate Professor
-  research-areas: Numerical Analysis and Partial Differential Equations.
+  research-areas: Numerical Analysis and Partial Differential Equations
   phd: IIT Bombay
   phone-ext: 3208
 
@@ -71,7 +71,7 @@
 - name: Srikanth K. Iyer
   user-id: skiyer
   position: Professor
-  research-areas: Theoritical and Applied Probability, Statistics; Branching Particle Systems, Random Geometric Graphs, Mathematical Finance, Credit Risk Modelling, Time Series Analysis, Monte Carlo Simulation.
+  research-areas: Theoritical and Applied Probability, Statistics; Branching Particle Systems, Random Geometric Graphs, Mathematical Finance, Credit Risk Modelling, Time Series Analysis, Monte Carlo Simulation
   phd: UC, Santa Barbara
   phone-ext: 3327
 
