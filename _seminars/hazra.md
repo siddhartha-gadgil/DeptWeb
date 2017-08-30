@@ -1,18 +1,18 @@
 ---
-speaker: SOMNATH HAZRA, IISc, Bangalore
+speaker: Somnath Hazra (IISc Mathematics)
 
-venue: Department of Mathematics, Lecture Hall I
+venue: LH-1, Mathematics Department
 
-time: 11:00 AM
+time: 11am
 
-date: June 19, 2017 (Monday)
-title: "HOMOGENEOUS OPERATORS"
+date: June 19, 2017
+title: "Homogeneous Operators"
 ---
 
 It is known that the characteristic function $\theta_T$ of a
 homogeneous contraction $T$ with an associated representation $\pi$ is of
 the form
-$\theta_T(a) = \sigma\_{L}(\phi_a)^{*\} \theta(0) \sigma\_{R}(\phi\_a),$
+$\theta_T(a) = \sigma\_{L}(\phi_a)^{*} \theta(0) \sigma\_{R}(\phi\_a),$
 where, $\sigma\_{L}$ and $\sigma\_{R}$ are projective representation of the
 M\"{o}bius group M\"{o}b with a common multiplier.  We give another proof
 of the ``product formula''.
@@ -29,7 +29,7 @@ automorphism group of the polydisc $\mathbb D^n.$
 
 A commuting tuple of bounded operators $\mathsf{T} = (T\_1, T\_2,\ldots
 ,T\_n)$ is said to be $G$-homogeneous if the joint spectrum of $\mathsf{T}$
-lies in $\overbar{\mathbb{D}}^n$ and $\varphi(\mathsf{T}),$ defined using
+lies in $\overline{\mathbb{D}}^n$ and $\varphi(\mathsf{T}),$ defined using
 the usual functional calculus, is unitarily equivalent with $\mathsf{T}$
 for all $\varphi \in G.$
 
@@ -53,4 +53,4 @@ of the form $(T\_1\otimes I\_{\widehat{H}},\ldots , T\_{n-1}\otimes
 I\_{\widehat{H}}, I\_H \otimes \hat{T}).$
 
 We also show that if $G$ is chosen to be the group as in (ii), then there
-are no irreducible $G$- homogeneous operators  of rank $2
+are no irreducible $G$- homogeneous operators  of rank $2$.
