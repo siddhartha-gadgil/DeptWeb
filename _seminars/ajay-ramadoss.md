@@ -5,6 +5,6 @@ venue: LH-1, Mathematics Department
 
 time: 4pm
 
-date: 2017-07-12
+date: 12 July, 2017
 title: "The representation homology of spaces"
 ---
