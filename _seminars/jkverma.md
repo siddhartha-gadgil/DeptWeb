@@ -3,7 +3,7 @@ title: Counting complex solutions of polynomial equations via Newton polytopes
 speaker: Prof. Jugal Verma (IIT, Bombay)
 date: 2017-09-05
 time: 2:30 - 3:45 and 4:00 - 5:00 pm
-venue: LH-1, Mathematics Department
+location: LH-1, Mathematics Department
 ---
 We shall discuss a theorem of Bernstein published in
 1975about the number of common solutions of n complex polynomials in n
