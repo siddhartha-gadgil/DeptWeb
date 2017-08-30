@@ -1,0 +1,491 @@
+HTTrack3.48-21 launched on Wed, 30 Aug 2017 15:42:08 at http://math.iisc.ac.in/seminars2017
+(httrack -D http://math.iisc.ac.in/seminars2017 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:42:36	Error: 	Exit requested by shell or user
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/ugc-cas/design/index.html
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-seminar.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/majres.htm
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-resproj.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/matholym-nat.htm
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-matholym.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~library
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/mathlib1.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/matlib.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/rellinks.htm
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-rellinks.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-nbhm.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/conus.htm
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-conus.gif
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/disclaimer.htm
+15:42:36	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/seminars2017/dec17_files/injection_graph_func.htm
+15:42:37	Error: 	"Not Found" (404) at link math.iisc.ac.in/image/lnk-events.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/index.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/fun-age.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/seminars.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/events.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-events1.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-events.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-publicc1.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-publi.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-pa1.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-pa.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-imi.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-nbhmpanoramaa1.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-nbhmpanoramaa.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/matholym.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/career.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-careeer1.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-career.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-indo-french1.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-indo-french.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-preprintss1.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-preprintss.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/nbhm.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/funding-dst.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/logougc.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-facpos.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/seminars2016.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-degprog.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/degprog-phd.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/degprog-intphd.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/style/chalukyas.css
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/downloads/outing-spots.pdf
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/Course_Schedule2017.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/phd_result17.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/intphd_result17.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-intro.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-fac.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-seminars.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-people.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-people-home.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people_emisci.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people_nmidis.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people_if.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-postdoc.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-stu.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-staff.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-trainee.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/styles/style.css
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/images/spacer.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/index.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/images/logo.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/images/banner.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/visitorsprogramme.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/listofassociatedfaculty.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/seminars.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/courses.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/Workshops.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/book_list.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/computingfacility.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/phd-programme.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/Alumni.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/fundingagency.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/contact.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-research.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-research-areas.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/pub1991-2007.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/style.css
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/images/ifcamimg.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/images/logo.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/index.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/committee.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/sponsors.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/project.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/events.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/download.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/visitors.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/contact.html
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/scripts/imi.css
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/scripts/screen.css
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/lib/jquery.js
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/lib/jquery.metadata.js
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/scripts/jquery.validate.js
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/lib/cmxforms.js
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-aboutimi1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-seminars1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-thematicprog2.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-thematicprog1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-phdprog1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-requestforpart1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-visitorinfo1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-fundingagencies1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-contact1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/index.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/icon-home.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/spacer.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/aboutimi-overview.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-aboutimi.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/atp.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-thematicprog.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/otherevents.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-otherevents1.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-otherevents.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/PhD Home.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-phdprog.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/atp-requestforparticipation.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-requestforpart.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/visitorinfo.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-visitorinfo.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/fundingagencies.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-fundingagencies.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/contact.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-contact.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/bannerimg-main.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-currentthematicprog.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-phdininterdisc.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/CTAC.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-bak-div-vert.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/Alumni.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-bot-grad.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/GTO.php
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-upcomingthematicprog.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-otherevents.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-bak-div-horz.jpg
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-courses.gif
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Multivariable_Calculus.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Algebra-I.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Linear_Algebra.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Analysis_I_Real_Analysis.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Topology.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Probability_Models.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Functional_Analysis.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Introduction_to_Algebraic_Topology.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2015/Partial_Differential_Equations.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Representation_Theory.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Commutative_Algebra.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Differentiable_Manifolds_and_Lie_Groups.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Probability_Theory.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Random_Matrix_Theory.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/coursesold.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2015JA.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2015AD.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2016JA.htm
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2016AD_17JA.htm
+15:42:37	Warning: 	Retry after error -4 (Receive Error) at link math.iisc.ac.in/ugc-cas/design/index.html (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-seminar.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-seminar.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/majres.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/majres.htm (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-resproj.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-resproj.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/matholym-nat.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/matholym-nat.htm (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-matholym.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-matholym.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~library
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~library (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/mathlib1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/mathlib1.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/matlib.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/matlib.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/rellinks.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/rellinks.htm (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-rellinks.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-rellinks.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-nbhm.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-nbhm.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/conus.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/conus.htm (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-conus.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-conus.gif (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/disclaimer.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/disclaimer.htm (from math.iisc.ac.in/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/seminars2017/dec17_files/injection_graph_func.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/seminars2017/dec17_files/injection_graph_func.htm (from math.iisc.ac.in/seminars2017/apr05.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/index.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/index.html (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/fun-age.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/fun-age.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses.htm (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/seminars.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/seminars.htm (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/events.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/events.htm (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-events1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-events1.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-events.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-events.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-publicc1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-publicc1.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-publi.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-publi.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-pa1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-pa1.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-pa.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-pa.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-imi.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-imi.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-nbhmpanoramaa1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-nbhmpanoramaa1.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-nbhmpanoramaa.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-nbhmpanoramaa.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/matholym.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/matholym.htm (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/career.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/career.htm (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-careeer1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-careeer1.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-career.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-career.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-indo-french1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-indo-french1.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-indo-french.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-indo-french.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-preprintss1.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-preprintss1.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/lnk-preprintss.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/lnk-preprintss.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/nbhm.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/nbhm.htm (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/funding-dst.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/funding-dst.jpg (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/logougc.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/logougc.gif (from math.iisc.ac.in/funding_agen.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-facpos.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-facpos.gif (from math.iisc.ac.in/fac-pos.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/seminars2016.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/seminars2016.htm (from math.iisc.ac.in/fac-pos.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-degprog.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-degprog.gif (from math.iisc.ac.in/degprog.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/degprog-phd.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/degprog-phd.htm (from math.iisc.ac.in/degprog.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/degprog-intphd.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/degprog-intphd.htm (from math.iisc.ac.in/degprog.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/style/chalukyas.css
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/style/chalukyas.css (from math.iisc.ac.in/scrollnews.html)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/downloads/outing-spots.pdf
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/downloads/outing-spots.pdf (from math.iisc.ac.in/scrollnews.html)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/Course_Schedule2017.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/Course_Schedule2017.html (from math.iisc.ac.in/scrollnews.html)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/phd_result17.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/phd_result17.htm (from math.iisc.ac.in/scrollnews.html)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/intphd_result17.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/intphd_result17.htm (from math.iisc.ac.in/scrollnews.html)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-intro.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-intro.gif (from math.iisc.ac.in/intro.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-fac.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people-fac.htm (from math.iisc.ac.in/intro.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-seminars.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-seminars.gif (from math.iisc.ac.in/newseminars.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-people.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-people.gif (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-people-home.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-people-home.gif (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people_emisci.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people_emisci.htm (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people_nmidis.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people_nmidis.htm (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people_if.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people_if.htm (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-postdoc.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people-postdoc.htm (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-stu.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people-stu.htm (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-staff.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people-staff.htm (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/people-trainee.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/people-trainee.htm (from math.iisc.ac.in/people.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/styles/style.css
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/styles/style.css (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/images/spacer.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/images/spacer.gif (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/index.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/index.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/images/logo.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/images/logo.jpg (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/images/banner.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/images/banner.jpg (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/visitorsprogramme.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/visitorsprogramme.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/listofassociatedfaculty.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/listofassociatedfaculty.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/seminars.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/seminars.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/courses.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/courses.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/Workshops.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/Workshops.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/book_list.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/book_list.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/computingfacility.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/computingfacility.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/phd-programme.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/phd-programme.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/Alumni.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/Alumni.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/fundingagency.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/fundingagency.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~mathbio/contact.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~mathbio/contact.php (from math.iisc.ac.in/~mathbio/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-research.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-research.gif (from math.iisc.ac.in/research.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-research-areas.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-research-areas.gif (from math.iisc.ac.in/research.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/pub1991-2007.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/pub1991-2007.html (from math.iisc.ac.in/research.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/style.css
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/style.css (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/images/ifcamimg.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/images/ifcamimg.gif (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/images/logo.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/images/logo.jpg (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/index.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/index.html (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/committee.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/committee.html (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/sponsors.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/sponsors.html (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/project.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/project.html (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/events.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/events.html (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/download.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/download.htm (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/visitors.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/visitors.html (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~ifcam/contact.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~ifcam/contact.html (from math.iisc.ac.in/~ifcam/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/scripts/imi.css
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/scripts/imi.css (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/scripts/screen.css
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/scripts/screen.css (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/lib/jquery.js
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/lib/jquery.js (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/lib/jquery.metadata.js
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/lib/jquery.metadata.js (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/scripts/jquery.validate.js
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/scripts/jquery.validate.js (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/lib/cmxforms.js
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/lib/cmxforms.js (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-aboutimi1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-aboutimi1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-seminars1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-seminars1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-thematicprog2.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-thematicprog2.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-thematicprog1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-thematicprog1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-phdprog1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-phdprog1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-requestforpart1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-requestforpart1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-visitorinfo1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-visitorinfo1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-fundingagencies1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-fundingagencies1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-contact1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-contact1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/index.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/index.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/icon-home.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/icon-home.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/spacer.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/spacer.gif (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/aboutimi-overview.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/aboutimi-overview.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-aboutimi.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-aboutimi.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/atp.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/atp.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-thematicprog.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-thematicprog.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/otherevents.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/otherevents.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-otherevents1.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-otherevents1.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-otherevents.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-otherevents.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/PhD Home.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/PhD Home.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-phdprog.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-phdprog.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/atp-requestforparticipation.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/atp-requestforparticipation.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-requestforpart.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-requestforpart.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/visitorinfo.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/visitorinfo.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-visitorinfo.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-visitorinfo.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/fundingagencies.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/fundingagencies.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-fundingagencies.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-fundingagencies.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/contact.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/contact.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/lnk-contact.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/lnk-contact.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/bannerimg-main.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/bannerimg-main.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-currentthematicprog.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/panel-head-currentthematicprog.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-phdininterdisc.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/panel-head-phdininterdisc.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/CTAC.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/CTAC.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-bak-div-vert.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/panel-bak-div-vert.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/Alumni.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/Alumni.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-bot-grad.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/panel-bot-grad.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/GTO.php
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/GTO.php (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-upcomingthematicprog.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/panel-head-upcomingthematicprog.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-head-otherevents.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/panel-head-otherevents.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/~nmi/images/panel-bak-div-horz.jpg
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/~nmi/images/panel-bak-div-horz.jpg (from math.iisc.ac.in/~nmi/)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/images/h-courses.gif
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/images/h-courses.gif (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Multivariable_Calculus.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Multivariable_Calculus.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Algebra-I.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Algebra-I.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Linear_Algebra.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Linear_Algebra.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Analysis_I_Real_Analysis.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Analysis_I_Real_Analysis.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Topology.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Topology.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Probability_Models.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Probability_Models.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Functional_Analysis.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Functional_Analysis.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Introduction_to_Algebraic_Topology.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Introduction_to_Algebraic_Topology.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2015/Partial_Differential_Equations.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2015/Partial_Differential_Equations.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Representation_Theory.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Representation_Theory.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Commutative_Algebra.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Commutative_Algebra.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Differentiable_Manifolds_and_Lie_Groups.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Differentiable_Manifolds_and_Lie_Groups.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Probability_Theory.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Probability_Theory.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses/aug-dec2017/Random_Matrix_Theory.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses/aug-dec2017/Random_Matrix_Theory.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/coursesold.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/coursesold.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2015JA.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses2015JA.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2015AD.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses2015AD.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2016JA.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses2016JA.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/courses2016AD_17JA.htm
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/courses2016AD_17JA.htm (from math.iisc.ac.in/newcourse.htm)
+15:42:37	Warning: 	File not added due to mirror cancel: math.iisc.ac.in/ugc-cas/design/index.html
+15:42:37	Error: 	"mirror stopped by user" (-1) at link math.iisc.ac.in/ugc-cas/design/index.html (from math.iisc.ac.in/)
+
+HTTrack Website Copier/3.48-21 mirror complete in 29 seconds : 251 links scanned, 89 files written (826715 bytes overall), 89 files updated [190423 bytes received at 6566 bytes/sec], 828535 bytes transferred using HTTP compression in 95 files, ratio 19%, 24.0 requests per connection
+(161 errors, 319 warnings, 0 messages)

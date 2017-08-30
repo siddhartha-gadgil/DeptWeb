@@ -1,0 +1,60 @@
+a:visited { font:12px Verdana, Arial, Helvetica, sans-serif; color: #996600; text-decoration: none}
+
+a:hover { font:normal 12px Verdana, Arial, Helvetica, sans-serif; color: #990000; text-decoration: underline}
+
+a:link { font:12px Verdana, Arial, Helvetica, sans-serif; color: #996600; text-decoration: none}
+
+b {font:bold 12px Verdana, Arial, Helvetica, sans-serif}
+
+p {font:12px Verdana, Arial, Helvetica, sans-serif}
+
+li {font:12px Verdana, Arial, Helvetica, sans-serif}
+
+.date {font:12px Verdana, Arial, Helvetica, sans-serif}
+
+td { font:12px Verdana, Arial, Helvetica, sans-serif}
+
+.clientcomment { font:12px Verdana, Arial, Helvetica, sans-serif}
+
+.toplnktable { border: thin solid; border-color: #CCCC99 #CCCC99 #CCCC99}
+
+select {
+	border-width: 1;
+	border-color: #999999;
+	background-color: #eeeeee;
+	font: arial, verdana, helvetica, sans-serif;
+	scrollbar-border-color: #999999;
+	scrollbar-darkshadow-color: #666666;
+	scrollbar-3dlight-color: #666666;
+	scrollbar-arrow-color: #666666;
+	scrollbar-base-color: #999999;
+	scrollbar-face-color: #999999;
+	scrollbar-highlight-color: #cccccc;
+	scrollbar-shadow-color: #333333;
+	scrollbar-track-color: #cccccc;
+}
+
+input.Text {
+	width: 100%;
+	border-width: 1;
+	border-color: #666666;
+	background-color: #eeeeee;
+	font: arial, verdana, helvetica, sans-serif;
+}
+
+input.Button {
+	background-color: #cccccc;
+	border-width: 1;
+	border-color: #999999;
+	font: 12px arial, verdana, helvetica, sans-serif;
+}
+
+input.ButtonHover {
+	background-color: #cf7600;
+	border-width: 1;
+	border-color: #cf7600;
+	color: #ffffff;
+	font: 12px arial, verdana, helvetica, sans-serif;
+}
+
+.smalltxt { font:11px Verdana, Arial, Helvetica, sans-serif; color: #666666}
