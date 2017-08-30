@@ -3,7 +3,7 @@ date : 2017-04-24
 
 time : 4pm
 
-location : LH-1
+location : LH-1, Mathematics Department
 
 speaker : Luz Roncal (BCAM -  Basque Center for Applied Mathematics)
 
@@ -36,5 +36,5 @@ Lacey is applied.
 We will overview as well the most recent advances, mainly associated with
 quantitative estimates for these rough singular integrals. In particular,
 Coifman--Fefferman type inequalities (which are new even in their
-qualitative version), weighted $A_p-A_{\infty}$ inequalities and a
+qualitative version), weighted $A_p$-$A_{\infty}$ inequalities and a
 quantitative version of weak $(1,1)$ estimates will be shown.
