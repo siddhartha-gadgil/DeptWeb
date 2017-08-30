@@ -35,24 +35,24 @@ Pick's approach and involving the study of rational inner functions.
 
 Cole, Lewis and Wermer lifted Sarason's approach to uniform algebras --
 leading to a characterization for the existence of an interpolant in terms
-of the positivity of a large, rather abstractly-defined family of (N\times
-N) matrices. McCullough later refined their result by identifying a
+of the positivity of a large, rather abstractly-defined family of $(N\times
+N)$ matrices. McCullough later refined their result by identifying a
 smaller family of matrices. The second result of this thesis is in the
 same vein, namely: it provides a characterization of those data that admit
-a D^n-to-D interpolant in terms of the positivity of a family of matrices
+a $D^n$-to-$D$ interpolant in terms of the positivity of a family of matrices
 parametrized by a class of polynomials.
 
 
 INTERPOLATION FORM THE UNIT DISC TO THE SPECTRAL UNIT BALL: This is the
 case $D_1 = D$ and $D_2$ is the set of all $(n\times n)$ matrices with spectral
-radius less than 1. The interest in this arises from problems in Control
+radius less than $1$. The interest in this arises from problems in Control
 Theory. Bercovici, Fois and Tannenbaum adapted Sarason's methods to give a
 (somewhat hard-to-check) characterization for the existence of an
 interpolant under a very mild restriction. Later, Agler--Young established
 a relation between the interpolation problem in the spectral unit ball and
 that in the symmetrized polydisc -- leading to a necessary condition for
 the existence of an interpolant. Bharali later provided a new inequivalent
-necessary condition for the existence of an interpolant for any n and N=2.
-We shall present a necessary condition for the existence of a 3-point
+necessary condition for the existence of an interpolant for any $n$ and $N=2$.
+We shall present a necessary condition for the existence of a $3$-point
 interpolant. This we shall achieve by modifying Pick's approach and
 applying the aforementioned result due to Bharali.
