@@ -5,7 +5,7 @@ date: March 2, 2017
 
 time: 4pm
 
-location: LH-1
+location: LH-1, Mathematics Department
 
 title: Diamond lemma for group graded quasi-algebras
 ---
