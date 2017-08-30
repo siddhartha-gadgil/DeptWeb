@@ -3,7 +3,7 @@ speaker: Attreyee Ghosh (Center for Earth Sciences, IISc)
 title: "Explaining the Earth’s surface observations: a Computational Geodynamics Approach"
 date: 2017-05-18
 time: 3 p.m.
-venue: LH-I
+venue: LH-1, Mathematics Department
 ---
 
 Abstract: The field of geodynamics deals with the large scale forces
