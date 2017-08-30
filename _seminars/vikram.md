@@ -1,5 +1,5 @@
 ---
-speaker: Vikamjit Singh Chandel
+speaker: Vikamjit Singh Chandel (IISc Mathematics)
 title: "The Pick--Nevanlinna interpolation problem: complex-analytic methods in special domains"
 date: July 17, 2017
 time: 3:00 p.m.
