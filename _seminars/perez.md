@@ -3,7 +3,7 @@ date: March 28, 2017
 
 time: 4pm
 
-location: LH-1
+location: LH-1, Mathematics Department
 
 speaker: Carlos Perez (University of Basque country)
 
