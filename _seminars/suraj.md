@@ -1,11 +1,11 @@
 ---
-speaker: Suraj Kumar, Paris Diderot University
+speaker: Suraj Kumar (Paris Diderot University)
 
 date: March 14, 2017
 
-time: 9:30 a.m.
+time: 9:30am
 
-location: LH-1, Department of Mathematics
+location: LH-1, Mathematics Department
 
 title: Detecting free splittings
 ---
