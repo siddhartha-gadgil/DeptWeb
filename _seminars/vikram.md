@@ -8,11 +8,11 @@ venue: LH-I
 The Pick--Nevanlinna interpolation problem in its fullest generality is as
 follows:
 
-Given domains D_1, D_2 in complex Euclidean spaces, and a set \{(z_i,w_i):
-1\leq i\leq N\}\subset D_1\times D_2, where z_i are distinct and N is a
-positive integer \geq 2, find necessary and sufficient conditions for the
-existence of a holomorphic map F from D_1 into D_2 such that F(z_i) = w_i,
-1\leq N.
+Given domains $D_1$, $D_2$ in complex Euclidean spaces, and a set $\{(z_i,w_i):
+1\leq i\leq N\}\subset D_1\times D_2$, where $z_i$ are distinct and $N$ is a
+positive integer $\geq 2$, find necessary and sufficient conditions for the
+existence of a holomorphic map $F$ from $D_1$ into $D_2$ such that $F(z_i) = w_i$,
+$1\leq N$.
 
 When such a map F exists, we say that F is an interpolant of the data. Of
 course, this problem is intractable at the above level of generality.
