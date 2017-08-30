@@ -7,7 +7,7 @@ location: LH-1, Mathematics Department
 
 speaker: Carlos Perez (University of Basque country)
 
-title: “On commutators of singular integral operators with BMO functions”
+title: On commutators of singular integral operators with BMO functions
 ---
 
 Abstract: Commutators of singular integral operators with BMO functions
