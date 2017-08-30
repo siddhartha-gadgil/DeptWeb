@@ -3,9 +3,9 @@ speaker: Mamta Balodi (IMSc)
 
 date: March 9, 2017
 
-location: LH-3
+location: LH-3, Mathematics Department
 
-time: 4 pm
+time: 4pm
 
 
 title: A result for boolean interval of finite groups
