@@ -1,6 +1,6 @@
 ---
 speaker: Apoorva Khare (IISc Mathematics)
-title: "From I.Schur to T.Tao: the history of matrix positivity preservers"
+title: "The history of matrix positivity preservers"
 date: 18 August, 2017
 time: 3 PM - 5:15 PM (with a 15 minute break)
 venue: LH-1, Mathematics Department
