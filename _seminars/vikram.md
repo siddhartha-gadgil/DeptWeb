@@ -3,7 +3,7 @@ speaker: Vikamjit Singh Chandel
 title: "The Pick--Nevanlinna interpolation problem: complex-analytic methods in special domains"
 date: July 17, 2017
 time: 3:00 p.m.
-venue: LH-I
+venue: LH-1, Mathematics Department
 ---
 The Pick--Nevanlinna interpolation problem in its fullest generality is as
 follows:
