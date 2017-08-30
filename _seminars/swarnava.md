@@ -3,7 +3,7 @@ date : 2017-04-21
 
 time : 10 AM (via Skype)
 
-location : LH-1
+location : LH-1, Mathematics Department
 
 speaker : Swarnava Mukhopadhyay (University of Maryland)
 
