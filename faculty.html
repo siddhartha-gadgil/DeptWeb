@@ -11,7 +11,7 @@ title: Faculty members
 <table class="table table-striped">
   {% for fac in site.data.faculty %}
   <tr>
-    <td class="col-md-7"><div><h4>{{ fac.name }}, Ph.D.({{ fac.phd }})</h4> </div>
+    <td class="col-md-7"><div><h4>{{ fac.name }}, (Ph.D., {{ fac.phd }})</h4> </div>
       <div class="">
         <strong>Research areas:</strong> {{ fac.research-areas}}
       </div>
@@ -20,7 +20,7 @@ title: Faculty members
           <strong>Phone:</strong> +91-80 2293 {{ fac.phone-ext}}
         </div>
         <div>
-          <strong>E-mail:</strong> <a href="mailto:{{fac.user-id}}@math.iisc.ernet.in">{{fac.user-id}}@math.iisc.ernet.in</a>
+          <strong>E-mail:</strong> <a href="mailto:{{fac.user-id}}@iisc.ac.in">{{fac.user-id}}@iisc.ac.in</a>
         </div>
         <div>
         <strong>Web page:</strong> <a href="http://math.iisc.ac.in/~{{fac.user-id}}/">http://math.iisc.ac.in/~{{fac.user-id}}/</a>
