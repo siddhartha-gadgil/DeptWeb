@@ -3,9 +3,9 @@ speaker: Dharmatti Sheetal (IISER TVM)
 
 date: Feb 16, 2017
 
-location: LH- 1
+location: LH-1, Mathematics Department
 
-time: 3:30 pm
+time: 3:30pm
 
 
 title: Control and analysis of Shell model of Turbulence
