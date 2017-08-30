@@ -5,7 +5,7 @@ date: 2017-04-5
 
 time: 4pm
 
-location: LH-1
+location: LH-1, Mathematics Department
 
 
 title: A quantitative form of Schoenberg's theorem in fixed dimension (Joint work with D. Guillot, A. Khare and M. Putinar)
