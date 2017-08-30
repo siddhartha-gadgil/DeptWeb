@@ -2,7 +2,7 @@
 speaker: Apoorva Khare (IISc Mathematics)
 title: "The history of matrix positivity preservers"
 date: 18 August, 2017
-time: 3 PM - 5:15 PM (with a 15 minute break)
+time: 3pm - 5:15pm (with a 15 minute break)
 venue: LH-1, Mathematics Department
 ---
 
