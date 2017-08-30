@@ -1,9 +1,9 @@
 ---
-speaker: Eshita Mazumdar (IIT, Mumbai)
+speaker: Eshita Mazumdar (IIT, Bombay)
 title: Davenport constant and an external problem related to it
 date: 2017-05-09
 time: 3 p.m.
-venue: LH-I
+venue: LH-1, Mathematics Department
 ---
 
 
