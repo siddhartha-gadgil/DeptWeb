@@ -8,7 +8,7 @@ title: NMI Distinguished Associates
   {% for stu in site.data.nmiDist %}
   <tr>
     <td class="col-md-7">
-      <div><h4>{{ stu.name }}</h4> </div>
+      <div><a href="{{ stu.webpage}}"><h4>{{ stu.name }}</h4> </a></div>
       <div class="">
         <strong>Research areas:</strong> {{ stu.research-areas}}
       </div>
@@ -18,9 +18,6 @@ title: NMI Distinguished Associates
         </div>
         {% endif %}
         {% if stu.webpage %}
-        <div>
-        <strong>Web page:</strong> <a href="{{ stu.webpage}}"> {{ stu.webpage }}</a>
-      </div>
       {% endif %}
       </div>
     </td>
