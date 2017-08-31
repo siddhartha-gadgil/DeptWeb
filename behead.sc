@@ -2,11 +2,11 @@ import ammonite.ops._
 
 import scala.util.Try
 
-def menuTail(sts: Vector[String]) = sts.dropWhile((s) => !s.contains("lnk-conus")).dropWhile((s) => !s.contains("/table")).tail
+def menuTail(sts: Vector[String]) = sts.dropWhile((s) => !s.contains("lnk-contact-us")).dropWhile((s) => !s.contains("/table")).tail
 
 def simpleTail(sts: Vector[String]) = sts.dropWhile((s) => !s.contains("<body")).tail
 
-def hasMenu(sts: Vector[String]) = sts.exists(_.contains("lnk-conus"))
+def hasMenu(sts: Vector[String]) = sts.exists(_.contains("lnk-contact-us"))
 
 def beheaded(sts: Vector[String]) =
   if (hasMenu(sts)) "<center>" +: menuTail(sts) else simpleTail(sts)
