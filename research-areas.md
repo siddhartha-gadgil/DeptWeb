@@ -45,7 +45,7 @@ Random matrix theory, zeroes of analytic functions, Stability and control of sto
 #### Representation theory ([Pooja Singla](http://math.iisc.ac.in/~pooja/), [R. Venkatesh](http://math.iisc.ac.in/~rvenkat/), [Apoorva Khare](http://math.iisc.ac.in/~khare/))
 
 
-#### Several Complex Variables ([Kaushal Verma](http://math.iisc.ac.in/~kverma/), [Gautam Bharali](http://math.iisc.ac.in/~bharali/), Vamsi Pritham Pingali)
+#### Several Complex Variables ([Kaushal Verma](http://math.iisc.ac.in/~kverma/), [Gautam Bharali](http://math.iisc.ac.in/~bharali/), [Vamsi Pritham Pingali](http://math.iisc.ac.in/~vamsipingali/))
 Holomorphic mappings, convexity and its applications to function theory, finite-type domains, pluripotential theory, holomorphic interpolation, Ohsawa-Takegoshi type extension theorems, and complex dynamical systems.
 
 #### Time Series Analysis ([Govindan Rangarajan](http://math.iisc.ac.in/~rangarajan/), [Srikanth K. Iyer](http://math.iisc.ac.in/~skiyer/))
