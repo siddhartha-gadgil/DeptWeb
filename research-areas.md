@@ -16,7 +16,7 @@ Homogenization of partial differential equations, controllability, viscosity sol
 #### Differential Geometry (Harish Seshadri, Vamsi Pritham Pingali, Subhojoy Gupta)
 Manifolds of positive curvature (Ricci, scalar and isotropic), Einstein manifolds, conformal geometry (Weyl curvature and the Yamabe invariant), Gromov hyperbolic spaces, Teichmuller theory, Kahler geometry, complex Monge-Ampere type equations, metrics on Vector bundles, applications of differential geometry in computer science.
 
-#### Discrete Mathematics and Linear Algebra (Arvind Ayyer, Apoorva Khare, Srikanth K. Iyer)
+#### Discrete Mathematics and Linear Algebra (<a href = "math.iisc.ac.in/~arvind>Arvind Ayyer</a>, Apoorva Khare, Srikanth K. Iyer)
 Combinatorics,  Random Geometric Graphs, Positivity and analysis. 
 
 #### Logic and foundations of mathematics (Siddhartha Gadgil)
