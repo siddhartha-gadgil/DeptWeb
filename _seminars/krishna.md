@@ -1,9 +1,9 @@
 ---
-speaker: Krishna M, Ashoka university
+speaker: Krishna M (Ashoka university)
 
-venue: Department of Mathematics, Lecture Hall I
+venue: LH-1, Mathematics Department
 
-time: 03.30 - 04.30 PM
+time: 3:30 - 4:30 pm
 
 date: August 09, 2017 (Wednesday)
 title: "Quantum Theory of Dark matter"
