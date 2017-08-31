@@ -55,7 +55,7 @@ webpage [Courses](./course-list.html) for more information.)
 
 ## Employment Opportunities after Ph.D.
 
-Visit the webpage [Career in Mathematics]({{site.baseurl}}/career.html).
+Visit the webpage [Careers in Mathematics]({{site.baseurl}}/career.html).
 
 ## Other relevant material
 
