@@ -17,30 +17,30 @@ interview (of those candidates who are short-listed) at IISc.
 Click here and follow the link that says Information Brochure for the syllabi
 for the relevant JAM examinations
 
-SEVERAL CHANGES HAVE OCCURRED in the admissions process to the Int. Ph.D.
+__SEVERAL CHANGES HAVE OCCURRED__ in the admissions process to the Int. Ph.D.
 programme in the Mathematical Sciences at IISc. Please read what follows
-CAREFULLY!/p>
+__CAREFULLY!__
 
 Eligibility
 
 
-* PLEASE NOTE: You will not see the Int. Ph.D. programme in the Mathematical
+* __PLEASE NOTE:__ You will not see the Int. Ph.D. programme in the Mathematical
   Sciences listed in any of the eligibility-criteria tables in any of the
   documents posted at the JAM 2016 website! Instead please read the following
   points.
 
 * Aspirants for the Int. Ph.D. in the Mathematical Sciences must write the JAM
-  2016 examination. However, an aspirant who has qualified in JAM 2016 will
+  2017 examination. However, an aspirant who has qualified in JAM 2017 will
   need to apply separately to IISc through our admissions portal (see below).
   Additionally, THE NEXT THREE POINTS SHALL BE THE ELIGIBILITY REQUIREMENTS for
   the Int. Ph.D. in the Mathematical Sciences.
 
 * First Class or equivalent grade in:
 
-  o B.Sc. or equivalent degree with Mathematics as one of the subjects (this
+  - B.Sc. or equivalent degree with Mathematics as one of the subjects (this
     includes the B.Stat. degree, and a B.A. degree with Mathematics as one of
     the subjects); OR
-  o B.E./B.Tech. or equivalent degree
+  - B.E./B.Tech. or equivalent degree
 
 * Please note that candidates with higher qualifications are not eligible.
 
@@ -60,18 +60,13 @@ eligible to apply.
 
 How to Apply
 
-Please refer to the following web page for further information on the JAM 2016
-application process: http://jam.iitm.ac.in/jam2016/
-As regards the separate application to IISc: The IISc online portal for 2016
-admissions is NOW OPEN. Visit this_page for information and instructions on how
-to access the online admission portal.
+Please refer to the following web page for further information on the JAM 2017
+application process, visit the [JAM website](http://jam.iitd.ac.in/)s
 
-Important Dates
+**As regards the separate application to IISc:** Please visit the [IISc admissions page](http://iisc.ac.in/admissions/) for
+information and instructions on how to access the online admission portal.
 
 
-Dates pertaining to JAM 2016               See http://jam.iitm.ac.in/jam2016/
-Deadline for submitting IISc application   March 21, 2016
-Interviews at IISc                         To be announced
 
 
 Courses
@@ -79,4 +74,4 @@ Courses
 Students admitted to the Integrated Ph.D. programme need to complete 57 credits
 of course work (typically, a course is worth 3 credits) and 7 credits of
 project work by the end of the fourth semester of their joining the programme.
-(View the webpage Courses for more information.)
+(View the webpage [Courses](./course-list.html) for more information.)

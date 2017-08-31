@@ -43,22 +43,38 @@ eligible to apply.
 
 How to Apply
 
-The IISc online portal for 2016 admissions is NOW OPEN. Visit this_page for
+Please visit the [IISc admissions page](http://iisc.ac.in/admissions/) for
 information and instructions on how to access the online admission portal.
-
-Important Dates
-
-
-Deadline for online submission of applications   March 21, 2016
-Interviews at IISc                               To be announced
 
 
 Courses
 
 Students admitted to the Ph.D. programme need to take a minimum of 12 credits
 to complete the course requirement. Each course carries 3 credits. (View the
-webpage Courses for more information.)
+webpage [Courses](./course-list.html) for more information.)
 
-Employment Opportunities after Ph.D.
+## Employment Opportunities after Ph.D.
 
-Visit the webpage Career_in_Mathematics.
+Visit the webpage [Career in Mathematics]({{site.baseurl}}/career.html).
+
+## Other relevant material
+
+### NBHM Ph.D. Screening Test: past question papers & answer keys
+
+1. __June 2005:__ [Question Paper](nbhm_papers/nbhmra05.pdf), [Answer Key](nbhm_papers/nbhmra05ans.pdf)
+
+1. __February 2006:__ [Question Paper](nbhm_papers/nbhmra06.pdf), [Answer Key](nbhm_papers/nbhmra06key.pdf)
+
+1. __January 2007:__ [Question Paper](nbhm_papers/nbhmra07.pdf), [Answer Key](nbhm_papers/nbhmra07key.pdf)
+
+1. __February 2008:__ [Question Paper](nbhm_papers/nbhmra08.pdf), [Answer Key](nbhm_papers/nbhmra08key.pdf)
+
+1. __January 2009:__ [Question Paper](nbhm_papers/nbhmra09.pdf), [Answer Key](nbhm_papers/nbhmra09key.pdf)
+
+1. __January 2010:__ [Question Paper](nbhm_papers/nbhmra10.pdf), [Answer Key](nbhm_papers/nbhmra10key.pdf)
+
+1. __January 2011:__ [Question Paper](nbhm_papers/nbhmra11.pdf)
+
+1. __January 2012:__ [Question Paper](nbhm_papers/nbhmra12.pdf)
+
+1. __January 2013:__ [Question Paper](nbhm_papers/nbhmra13.pdf), [Answer Key](nbhm_papers/nbhmra13key.pdf)
