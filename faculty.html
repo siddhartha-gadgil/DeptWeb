@@ -12,7 +12,9 @@ title: Faculty members
   {% for fac in site.data.faculty %}
   <tr>
     <td class="col-md-7"><div><h4>
-      <a href="http://math.iisc.ac.in/~{{fac.user-id}}/">{{ fac.name }} (Ph.D., {{ fac.phd }})</a></h4> </div>
+      <a href=
+      "{% if fac.website %}{{ fac.website }}{% else %}http://math.iisc.ac.in/~{{fac.user-id}}/{% endif %}">
+      {{ fac.name }} (Ph.D., {{ fac.phd }})</a></h4> </div>
       <div class="">
         <strong>Research areas:</strong> {{ fac.research-areas}}
       </div>
