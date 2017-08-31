@@ -2,7 +2,7 @@
 speaker: Apoorva Khare (IISc Mathematics)
 title: "Eigenfunctions Seminar: The history of matrix positivity preservers"
 date: 18 August, 2017
-time: 3pm - 5:15pm (with a 15 minute break)
+time: 3 - 4 and 4:15 - 5:15 pm
 venue: LH-1, Mathematics Department
 ---
 
