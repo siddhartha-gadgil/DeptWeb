@@ -14,7 +14,7 @@ Study of derivation modules of curves and hypersurfaces, connection with Zariski
 Homogenization of partial differential equations, controllability, viscosity solutions, numerical analysis.
 
 #### Differential Geometry (Harish Seshadri, Vamsi Pritham Pingali, Subhojoy Gupta)
-Manifolds of positive curvature (Ricci, scalar and isotropic), Einstein manifolds, conformal geometry (Weyl curvature and the Yamabe invariant), Gromov hyperbolic spaces, Teichmuller theory, Kahler geometry, Complex Monge-Ampere type equations, Metrics on Vector bundles.
+Manifolds of positive curvature (Ricci, scalar and isotropic), Einstein manifolds, conformal geometry (Weyl curvature and the Yamabe invariant), Gromov hyperbolic spaces, Teichmuller theory, Kahler geometry, complex Monge-Ampere type equations, metrics on Vector bundles, applications of differential geometry in computer science.
 
 #### Discrete Mathematics and Linear Algebra (Arvind Ayyer, Apoorva Khare, Srikanth K. Iyer)
 Combinatorics,  Random Geometric Graphs, Positivity and analysis. 
