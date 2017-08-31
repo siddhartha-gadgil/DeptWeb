@@ -148,31 +148,12 @@
 
 
 
-- name	:	Kartick Adhikari
-  user-id	:	kartickmath
-  year-of-joining: 2009
-  programme: Integrated PhD
-  webpage	:	math.iisc.ac.in/~kartickmath
-  image: true
-
-
-
-
-
-
-
 - name	:	Vikramjeet Singh Chandel
   user-id	:	abelvikram
   year-of-joining: 2009
   programme: Integrated PhD
   image: true
 
-- name	:	Arpan Kabiraj
-  user-id	:	arpan.into
-  year-of-joining: 2009
-  programme: Integrated PhD
-  webpage	:	math.iisc.ac.in/~arpan.into
-  image: true
 
 
 - name	:	Md. Ramiz Reza

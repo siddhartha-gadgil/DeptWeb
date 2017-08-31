@@ -8,7 +8,12 @@ title: Emeritus Scientists
   {% for stu in site.data.emiscient %}
   <tr>
     <td class="col-md-7">
-      <div><a href="{{ stu.webpage}}"><h4>{{ stu.name }}</h4></a> </div>
+      <div><h4>
+      {% if stu.webpage %}
+      <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+      {% else %}
+      {{ stu.name }}
+      {% endif %}</h4></div>
       <div>
         <strong>Postion:</strong> {{stu.position}}
       </div>

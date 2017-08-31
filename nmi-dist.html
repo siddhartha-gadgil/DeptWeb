@@ -8,7 +8,12 @@ title: NMI Distinguished Associates
   {% for stu in site.data.nmiDist %}
   <tr>
     <td class="col-md-7">
-      <div><a href="{{ stu.webpage}}"><h4>{{ stu.name }}</h4> </a></div>
+      <div><h4>
+      {% if stu.webpage %}
+      <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+      {% else %}
+      {{ stu.name }}
+      {% endif %}</h4></div>
       <div class="">
         <strong>Research areas:</strong> {{ stu.research-areas}}
       </div>

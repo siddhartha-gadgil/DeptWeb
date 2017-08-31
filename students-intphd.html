@@ -17,7 +17,14 @@ title: Integrated PhD students
 <table class="table table-striped">
   {% for stu in y.items %}
   <tr>
-    <td class="col-md-7"><div><a href="{{ stu.webpage}}"><h4>{{ stu.name }}</h4></a> </div>
+    <td class="col-md-7"><div>
+      <h4>
+        {% if stu.webpage %}
+        <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+        {% else %}
+        {{ stu.name }}
+        {% endif %}
+       </div>
       <div class="">
         <strong>Program:</strong> {{ stu.programme}}
       </div>
