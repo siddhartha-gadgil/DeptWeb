@@ -4,7 +4,7 @@ title: Research areas - Maths@IISc
 
 The Department aims to promote close collaboration between various mathematical disciplines and with other applied areas. The areas of current research are :
 
-#### Algebraic and Combinatorial Topology (Basudeb Datta)
+#### Algebraic and Combinatorial Topology ([Basudeb Datta](http://math.iisc.ac.in/~dattab/))
 Combinatorial manifolds, PL-manifolds, minimal triangulation of manifolds, triangulation of spheres and projective planes with few vertices, pseudomanifolds With small excess, equivelar polyhectral maps.
 
 #### Commutative Algebra and Algebraic Geometry (Abhishek Banerjee, Dilip Patil)
