@@ -58,14 +58,14 @@
   <ul class="dropdown-menu">
     <li><a href="{{ site.baseurl }}/course-list.html">Courses</a></li>
     <li><a href="{{ site.baseurl }}/course-schedule.html">Course-Schedule</a></li>
-    <li class="dropdown-header"> Degree programs</li>
+    <li class="dropdown-header"> <strong> Degree programs </strong> </li>
     <li><a href="{{ site.baseurl }}/degprog-phd.html">Ph.D. program</a></li>
     <li><a href="{{ site.baseurl }}/degprog-intphd.html">Integrated Ph.D. program</a></li>
     <li><a href="http://www.iisc.ernet.in/ug/" target="_blank">Undergraduate program</a></li>
   </ul>
 </li>
 
-<li><a href="{{ site.baseurl }}/pros-fac.html">Faculty Jobs</a></li>
+<li><a href="{{ site.baseurl }}/pros-fac.html">Recruitment</a></li>
 
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -78,21 +78,7 @@
       </ul>
 
       <div class="col-sm-3 col-md-3">
-        <form class="navbar-form" role="search" action="http://www.google.com/search">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="q">
-            <input type="hidden" class="form-control" name="sitesearch" value="math.iisc.ac.in"/>
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-            </div>
-        </div>
-        </form>
-    </div>
-      <ul class="nav navbar-nav navbar-right">
-        {% if page.showpubs %}
-        {% include publist.html %}
-        {% endif %}
-        <li class="dropdown">
+         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Resources <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -107,6 +93,21 @@
             <li><a href="{{site.baseurl}}/intro.html">About Us</a></li>
           </ul>
         </li>
+
+    </div>
+      <ul class="nav navbar-nav navbar-right">
+        {% if page.showpubs %}
+        {% include publist.html %}
+        {% endif %}
+        <form class="navbar-form" role="search" action="http://www.google.com/search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="q">
+            <input type="hidden" class="form-control" name="sitesearch" value="math.iisc.ac.in"/>
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        </form>       
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
