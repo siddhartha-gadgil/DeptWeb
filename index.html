@@ -29,13 +29,13 @@
 
 </div>
 
-  <div class="col-md-offset-1 col-md-3">
+  <div class="col-md-4">
     <h3> <a href="seminars-all.html">Seminars</a></h3>
     {% assign sorted = (site.seminars | sort: 'date') | reverse %}
 
 <ul>
 
-{% for sem in sorted limit: 3 %}
+{% for sem in sorted limit: 4 %}
 <li>
  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
