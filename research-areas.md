@@ -34,7 +34,7 @@ Topology of three-manifolds and smooth four-manifolds, Geometric group theory, H
 #### Mathematical Physics ([Arvind Ayyer](http://math.iisc.ac.in/~arvind/), [Vamsi Pritham Pingali](http://math.iisc.ac.in/~vamsipingali/))
 Statistical mechanics, exactly solvable models, PDE arising from String theory and General Relativity.
 
-#### Nonlinear Dynamics ([Govindan Rangarajan](http://math.iisc.ac.in/~rangarajan/))
+#### Nonlinear Dynamics ([Govindan Rangarajan](http://math.iisc.ac.in/~rangaraj/))
 Couded dynamical systems, Synchronization, Turing patterns, applications of Lie algebraic methods to nonlinear Hamiltonian systems, fractal dimensional analysis, generalized replicator dynamics.
 
 #### Number theory ([Soumya Das](http://math.iisc.ac.in/~somu/))
@@ -48,5 +48,5 @@ Random matrix theory, zeroes of analytic functions, Stability and control of sto
 #### Several Complex Variables ([Kaushal Verma](http://math.iisc.ac.in/~kverma/), [Gautam Bharali](http://math.iisc.ac.in/~bharali/), [Vamsi Pritham Pingali](http://math.iisc.ac.in/~vamsipingali/))
 Holomorphic mappings, convexity and its applications to function theory, finite-type domains, pluripotential theory, holomorphic interpolation, Ohsawa-Takegoshi type extension theorems, and complex dynamical systems.
 
-#### Time Series Analysis ([Govindan Rangarajan](http://math.iisc.ac.in/~rangarajan/), [Srikanth K. Iyer](http://math.iisc.ac.in/~skiyer/))
+#### Time Series Analysis ([Govindan Rangarajan](http://math.iisc.ac.in/~rangaraj/), [Srikanth K. Iyer](http://math.iisc.ac.in/~skiyer/))
 Application of time series analysis techniques to neuroscience esp. brain-machine interface, applications to geophysics, applications to mathematical finance.
