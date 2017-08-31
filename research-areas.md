@@ -7,7 +7,7 @@ The Department aims to promote close collaboration between various mathematical 
 #### Algebraic and Combinatorial Topology ([Basudeb Datta](http://math.iisc.ac.in/~dattab/))
 Combinatorial manifolds, PL-manifolds, minimal triangulation of manifolds, triangulation of spheres and projective planes with few vertices, pseudomanifolds With small excess, equivelar polyhectral maps.
 
-#### Commutative Algebra and Algebraic Geometry ([Abhishek Banerjee](http://math.iisc.ac.in/~abhishek/), [Dilip Patil]((http://math.iisc.ac.in/~patil/))
+#### Commutative Algebra and Algebraic Geometry ([Abhishek Banerjee](http://math.iisc.ac.in/~abhishek/), [Dilip Patil](http://math.iisc.ac.in/~patil/))
 Study of derivation modules of curves and hypersurfaces, connection with Zariski - Lipman conjecture, monomial curves, complete intersections and set theoretic complete intersections, intersection theory of algebraic varieties, minimal number of generators for ideals and modules. Study of certain algebraic surfaces.
 
 #### Differential Equations ([A.K. Nandakumaran](http://math.iisc.ac.in/~nands/), [Thirupati Gudi](http://math.iisc.ac.in/~gudi/))  
