@@ -1,5 +1,5 @@
 ---
-speaker: Krishna M (Ashoka university)
+speaker: Krishna M (Ashoka University)
 
 venue: LH-1, Mathematics Department
 
