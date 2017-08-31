@@ -7,7 +7,8 @@ title: Ph.D. programme
 See also: [The Integrated Ph.D.Degree_Programme]({{site.baseurl}}/degprog-intphd)
 
 The Department of Mathematics offers excellent opportunities for research in
-both pure and applied mathematics. Visit this_page to get a sense of the
+both pure and applied mathematics. Visit the [Research Areas](./research-areas) page
+to get a sense of the
 research interests of the faculty in the department.
 The written test conducted by IISc for entrance to the Ph.D. programme has been
 discontinued as of 2013. Students will be selected through the examinations

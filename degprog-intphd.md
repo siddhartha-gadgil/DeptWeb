@@ -26,7 +26,7 @@ Eligibility
 
 * __PLEASE NOTE:__ You will not see the Int. Ph.D. programme in the Mathematical
   Sciences listed in any of the eligibility-criteria tables in any of the
-  documents posted at the JAM 2016 website! Instead please read the following
+  documents posted at the [JAM 2017 website](http://jam.iitd.ac.in/)! Instead please read the following
   points.
 
 * Aspirants for the Int. Ph.D. in the Mathematical Sciences must write the JAM
@@ -48,20 +48,20 @@ Eligibility
   Statistics (MS) JAM paper.
 
 *  A short-list of candidates who have applied to the IISc, and determined by
-  the JAM 2016 score, will be drawn up. The short-listed candidates will be
+  the JAM 2017 score, will be drawn up. The short-listed candidates will be
   invited for an interview at IISc. The interview short-list and any subsequent
   offer of admission will be totally independent of the candidate's preferences
-  (for any other programmes) made via JAM 2016.
+  (for any other programmes) made via JAM 2017.
 
 Candidates who are yet to complete their examinations for the eligible degree
 and expect to complete all the requirements for their degree (including all
-examinations, project dissertations, viva voce, etc.) before July 31, 2016, are
+examinations, project dissertations, viva voce, etc.) before July 31, 2017, are
 eligible to apply.
 
 How to Apply
 
 Please refer to the following web page for further information on the JAM 2017
-application process, visit the [JAM website](http://jam.iitd.ac.in/)s
+application process, visit the [JAM 2017 website](http://jam.iitd.ac.in/).
 
 **As regards the separate application to IISc:** Please visit the [IISc admissions page](http://iisc.ac.in/admissions/) for
 information and instructions on how to access the online admission portal.
