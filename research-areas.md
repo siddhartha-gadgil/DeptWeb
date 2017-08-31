@@ -7,7 +7,7 @@ The Department aims to promote close collaboration between various mathematical 
 #### Algebraic and Combinatorial Topology ([Basudeb Datta](http://math.iisc.ac.in/~dattab/))
 Combinatorial manifolds, PL-manifolds, minimal triangulation of manifolds, triangulation of spheres and projective planes with few vertices, pseudomanifolds With small excess, equivelar polyhectral maps.
 
-#### Commutative Algebra and Algebraic Geometry ([Abhishek Banerjee](http://math.iisc.ac.in/~abhishek/), [Dilip Patil](http://math.iisc.ac.in/~patil/))
+#### Commutative Algebra and Algebraic Geometry ([Abhishek Banerjee](https://sites.google.com/site/abhishekb1313/), [Dilip Patil](http://math.iisc.ac.in/~patil/))
 Study of derivation modules of curves and hypersurfaces, connection with Zariski - Lipman conjecture, monomial curves, complete intersections and set theoretic complete intersections, intersection theory of algebraic varieties, minimal number of generators for ideals and modules. Study of certain algebraic surfaces.
 
 #### Differential Equations ([A.K. Nandakumaran](http://math.iisc.ac.in/~nands/), [Thirupati Gudi](http://math.iisc.ac.in/~gudi/))  
@@ -37,7 +37,7 @@ Statistical mechanics, exactly solvable models, PDE arising from String theory a
 #### Nonlinear Dynamics ([Govindan Rangarajan](http://math.iisc.ac.in/~rangaraj/))
 Couded dynamical systems, Synchronization, Turing patterns, applications of Lie algebraic methods to nonlinear Hamiltonian systems, fractal dimensional analysis, generalized replicator dynamics.
 
-#### Number theory ([Soumya Das](http://math.iisc.ac.in/~somu/))
+#### Number theory ([Soumya Das](https://sites.google.com/site/somuhomepage/))
 
 #### Probability and Stochastic Processes ([Manjunath Krishnapur](http://math.iisc.ac.in/~manju/), [Srikanth K. Iyer](http://math.iisc.ac.in/~skiyer/), [Mrinal K. Ghosh](http://math.iisc.ac.in/~mkg/))
 Random matrix theory, zeroes of analytic functions, Stability and control of stochastic systems, diffusion and related topics, stochastic dynamic games, applications to manufacturing systems, first passage time problems for anomalous diffusion, long memory processes, branching particle systems, stochastic differential equations, queuing theory.
