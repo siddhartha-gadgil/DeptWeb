@@ -23,6 +23,7 @@
             <li><a href="{{ site.baseurl }}/pubs.html">Publications</a></li>
           </ul>
         </li>
+        
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             People <span class="caret"></span></a>
@@ -33,40 +34,34 @@
             <li><a href="{{ site.baseurl }}/inspire.html">Inspire Fellows/DST Young Scientists</a></li>
             <li><a href="{{ site.baseurl }}/postdocs.html">Postdocs</a></li>
             <li role="separator" class="divider"></li>
-            <li class="dropdown-header"> <font color="#000000"><b>STUDENTS</b></font></li>
+            <li class="dropdown-header"> <font color="#000000"><strong>STUDENTS</strong></font></li>
             <li><a href="{{ site.baseurl }}/phds.html">Ph.D. Alumni</a></li>
-                <li><a href="{{ site.baseurl }}/students-phd.html">Ph.D.</a></li>
-                <li><a href="{{ site.baseurl }}/students-intphd.html">Int Ph.D.</a></li>
-                <li><a href="{{ site.baseurl }}/students-intdisphd.html">Interdisciplinary Ph.D.</a></li>
+            <li><a href="{{ site.baseurl }}/students-phd.html">Ph.D.</a></li>
+            <li><a href="{{ site.baseurl }}/students-intphd.html">Integrated Ph.D.</a></li>
+            <li><a href="{{ site.baseurl }}/students-intdisphd.html">Interdisciplinary Ph.D.</a></li>
             </li>
             <li role="separator" class="divider"></li>
-
-                <li><a href="{{ site.baseurl }}/people-staff.html">Staff</a></li>
-                <li><a href="{{ site.baseurl }}/trainees.html">Project Staff</a></li>
+            <li><a href="{{ site.baseurl }}/people-staff.html">Staff</a></li>
+            <li><a href="{{ site.baseurl }}/trainees.html">Project Staff</a></li>
             </li>
-
           </ul>
         </li>
 
-
-
-
-
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-    Teaching <span class="caret"></span></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.baseurl }}/course-list.html">Courses</a></li>
-    <li><a href="{{ site.baseurl }}/course-schedule.html">Course-Schedule</a></li>
-    <li class="dropdown-header"> <strong> Degree programs </strong> </li>
-    <li><a href="{{ site.baseurl }}/degprog-phd.html">Ph.D. program</a></li>
-    <li><a href="{{ site.baseurl }}/degprog-intphd.html">Integrated Ph.D. program</a></li>
-    <li><a href="http://www.iisc.ernet.in/ug/" target="_blank">Undergraduate program</a></li>
-  </ul>
-</li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Teaching <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl }}/course-list.html">Courses</a></li>
+            <li><a href="{{ site.baseurl }}/course-schedule.html">Course Schedule</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header"> <font color="#000000"><strong>DEGREE PROGRAMS</strong> </li>
+            <li><a href="{{ site.baseurl }}/degprog-phd.html">Ph.D. Program</a></li>
+            <li><a href="{{ site.baseurl }}/degprog-intphd.html">Integrated Ph.D. Program</a></li>
+            <li><a href="http://www.iisc.ernet.in/ug/" target="_blank">Undergraduate Program</a></li>
+          </ul>
+        </li>
 
 <li><a href="{{ site.baseurl }}/pros-fac.html">Recruitment</a></li>
-
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
     Events <span class="caret"></span></a>
@@ -76,24 +71,25 @@
   </ul>
 </li>
 
-
-
          <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Resources <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <!-- <li><a href="https://homotopytypetheory.org/">Homotopy Type theory</a></li>
             <li><a href="https://leanprover.github.io/tutorial/">Lean online tutorial</a></li> -->
-
-            <li><a href="https://math.iisc.ac.in/~library" target="_blank">Mathematics library</a></li>
+            <li><a href="https://math.iisc.ac.in/~library" target="_blank">Mathematics Library</a></li>
             <li><a href="http://math.iisc.ac.in/~ifcam/" target="_blank"> IFCAM </a></li>
             <li><a href="http://math.iisc.ac.in/~nmi/" target="_blank"> NMI</a></li>
-            <li><a href="{{site.baseurl}}/contact-us.html">Contact Us</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header"> <font color="#000000"><strong>UTILITIES</strong> </li>
             <li><a href="{{site.baseurl}}/fileIndex.html">Department Forms</a></li>
-            <li><a href="{{site.baseurl}}/intro.html">About Us</a></li>
+            <li><a href="https://outlook.office.com/owa/" target="_blank"> IISc Mail<a/></li> 
+            <!-- <li><a href="{{site.baseurl}}/contact-us.html">Contact Us</a></li> -->
+            <!-- <li><a href="{{site.baseurl}}/intro.html">About Us</a></li> -->
           </ul>
         </li>
       </ul>
+
           <ul class="nav navbar-nav navbar-right">
         {% if page.showpubs %}
         {% include publist.html %}
