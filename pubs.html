@@ -31,11 +31,20 @@ title: Publications - Dept of Mathematics, IISc
     <h2> Publications (by year) </h2>
 
 {% assign years = site.data.pubs | group_by: "year" | sort: 'name' | reverse %}
+
+<ul class="list-inline">
+  {% for y in years  limit: 15 %}
+  <li> <a href="#{{y.name}}"> {{y.name}} </a> </li>
+  {% endfor %}
+  <li><a href="#{{years[15].name}}">{{years[15].name}}  and earlier</a> </li>
+</ul>
+
 {% for y in years %}
 
-<h4 id ="{{y.name}}">{{y.name}}</h4>
 
+<h4 id ="{{y.name}}">Year: {{y.name}}</h4>
 
+<p><a href="#">Top</a></p>
 <ol>
 {% assign yearpubs = y.items | sort: 'author' %}
 {% for paper in yearpubs %}
