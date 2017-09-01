@@ -58,3 +58,7 @@ input.ButtonHover {
 }
 
 .smalltxt { font:11px Verdana, Arial, Helvetica, sans-serif; color: #666666}
+
+body{
+    background: #F8FFFF;
+}
