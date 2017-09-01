@@ -3,7 +3,7 @@ aug2017:
     - code: MA 200
       name: Multivariable Calculus
       instructor: Tirupathi Gudi
-    
+
     - code: MA 212
       name: Algebra I
       instructor: Abhishek Banerjee
@@ -33,13 +33,14 @@ aug2017:
     - code: MA 232
       name: Introduction to Algebraic Topology
       instructor: Subhojoy Gupta
+      webpage: http://math.iisc.ernet.in/~subhojoy/public_html/Ma232_August_2017.html
 
     - code: MA 242
       name: Partial Differential Equations
       instructor: S. Thangavelu
 
   electives:
-    - code: MA 213
+    - code: MA 220
       name: Representation Theory
       instructor: Pooja Singla
 

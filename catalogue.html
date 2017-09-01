@@ -1,0 +1,22 @@
+---
+title: Course Catalogue
+---
+
+<h2>Course Catalogue</h2>
+    {% assign sorted = site.all-courses | sort: 'code' %}
+
+{% for course in sorted  %}
+
+
+  {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
+  <h4>  <a href={{ lnk }}>{{ course.code }}: {{ course.title }} </a>
+  </h4>
+
+
+    {{ course.content }}
+
+
+
+
+  <p>&nbsp;</p>
+ {% endfor %}
