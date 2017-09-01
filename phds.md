@@ -12,7 +12,9 @@ title: Ph.D. degrees awarded
 {% for deg in y.items %}
 - __Name:__ {{ deg.name }}
 - __Title:__ {{ deg.title }}
-- __Supervisor:__ {{ deg.advisor }}
+- __Supervisor:__ {{ deg.advisor }}{% if deg.present %}
+- __Present Position:__  {{ deg.present}}
+{% endif %}
 {% endfor %}
 
 {% endfor %}
