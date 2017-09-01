@@ -12,6 +12,8 @@ title: Integrated PhD students
 
 {% for y in years %}
 
+  <div data-role="main" class="ui-content">
+    <div data-role="collapsible">
 <h3>Year of joining: {{y.name}}</h3>
 
 <table class="table table-striped">
@@ -41,4 +43,6 @@ title: Integrated PhD students
   {%  endfor %}
 </table>
 {% endfor %}
+    </div>
+  </div>      
 </div>
