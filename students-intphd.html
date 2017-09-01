@@ -12,9 +12,8 @@ title: Integrated PhD students
 
 {% for y in years %}
 
-<button class="accordion"><h3>Year of joining: {{y.name}}</h3>
-</button>
-<div class="panel">
+<h3>Year of joining: {{y.name}}
+
 
 <table class="table table-striped">
   {% for stu in y.items %}
@@ -44,4 +43,4 @@ title: Integrated PhD students
 </table>
 {% endfor %}    
   </div>
-</div>
+
