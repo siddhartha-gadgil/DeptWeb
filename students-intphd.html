@@ -12,7 +12,8 @@ title: Integrated PhD students
 
 {% for y in years %}
 
-<h3>Year of joining: {{y.name}}</h3>
+  <h3>Year of joining: {{y.name}}</h3>
+
 
 <table class="table table-striped">
   {% for stu in y.items %}
@@ -40,5 +41,6 @@ title: Integrated PhD students
   </tr>
   {%  endfor %}
 </table>
-{% endfor %}
-</div>
+{% endfor %}    
+  </div>
+

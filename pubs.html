@@ -9,7 +9,7 @@ title: Publications - Dept of Mathematics, IISc
 
 
 <div class="row">
-  <div class="col-md-1 bg-info">
+  <!-- <div class="col-md-1 bg-info">
     <div class="navbar navbar-fixed-bottom">
       <div class="container">
       <strong> By year</strong>
@@ -26,18 +26,28 @@ title: Publications - Dept of Mathematics, IISc
     </div>
     </div>
 
-  </div>
-  <div class="col-md-offset-1 col-md-9">
+  </div> -->
+  <div class="col-md-12">
     <h2> Publications (by year) </h2>
 
 {% assign years = site.data.pubs | group_by: "year" | sort: 'name' | reverse %}
+
+<ul class="list-inline">
+  {% for y in years  limit: 15 %}
+  <li> <a href="#{{y.name}}"> {{y.name}} </a> </li>
+  {% endfor %}
+  <li><a href="#{{years[15].name}}">{{years[15].name}}  and earlier</a> </li>
+</ul>
+
 {% for y in years %}
 
-<h4 id ="{{y.name}}">{{y.name}}</h4>
 
+<h4 id ="{{y.name}}">Year: {{y.name}}</h4>
 
+<p><a href="#">Top</a></p>
 <ol>
-{% for paper in y.items %}
+{% assign yearpubs = y.items | sort: 'author' %}
+{% for paper in yearpubs %}
   <li>
     {{ paper.author }}, <em>{{ paper.title }}</em>, {{paper.journal}}, <strong>{{paper.volume}} </strong> ({{paper.year}}), {{paper.pages}}.
   </li>

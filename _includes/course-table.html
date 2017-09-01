@@ -2,8 +2,8 @@
 <table class="table table-bordered">
   <tr>
     <strong>
-    <td>Course No</td> <td>Credits</td><td>Course title</td> <td>Instructor</td>
-  </strong>
+      <td><b>Course No.</b></td> <td><b>Credits</b></td><td><b>Course Title</b></td> <td><b>Instructor</b></td>
+    </strong>
   </tr>
   {% for course in list %}
   <td>{{ course.code }}</td>
@@ -13,8 +13,8 @@
     {% else %}
     3:0
     {% endif %}
-
   </td>
+  
   <td>
     {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
 
@@ -24,7 +24,8 @@
 
     <a href="{{ lnk }}"> {{ course.name }} </a> </td>
   <td> {{ course.instructor}}</td>
-</tr>
-{% endfor %}
+  </tr>
+  {% endfor %}
+ 
 
 </table>

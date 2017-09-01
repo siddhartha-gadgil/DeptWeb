@@ -9,7 +9,7 @@
   {% assign topbar = 'Department of Mathematics, IISc' %}
 
   {% if page.title %}
-  {% capture topbar %} {{page.title}} - Maths@IISc {% endcapture %}
+  {% capture topbar %} {{page.title}}: Mathematics@IISc {% endcapture %}
   {% endif %}
 
   <title> {{ topbar }}</title>
@@ -52,7 +52,7 @@ MathJax.Hub.Config({
 
 <body>
 <div class="container">
-  <div class="bg-primary" style="border-radius: 15px;" >
+  <div class="bg-primary">
     <div class="banner">
       <img src="{{ site.baseurl }}/IISc_logo_transparentI.png" class="pull-right" width="100" style="margin-top: 10px; margin-right: 10px;"></img>
       <h2 class="text-center"> Department of Mathematics  </h2>
