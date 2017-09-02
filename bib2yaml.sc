@@ -27,6 +27,10 @@ val out = mp.map((h) => h.map {
   }.mkString("- ", "\n  ", "\n")).mkString("\n")
 
 import ammonite.ops._
-def run = write.over(pwd / "_data" / "pubs.yaml", out)
+def run = {
+  write.over(pwd / "_data" / "pubs.yaml", out)
+  val extra = read(pwd / "_data" / "extrapubs.yaml")
+  write.append(pwd / "_data" / "pubs.yaml", "\n"+extra)
+}
 
 run
