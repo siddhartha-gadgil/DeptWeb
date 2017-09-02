@@ -26,11 +26,11 @@ Eligibility
 
 * __PLEASE NOTE:__ You will not see the Int. Ph.D. programme in the Mathematical
   Sciences listed in any of the eligibility-criteria tables in any of the
-  documents posted at the [JAM 2017 website](http://jam.iitd.ac.in/)! Instead please read the following
+  documents posted at the [JAM 2018 website](http://jam.iitb.ac.in/)! Instead please read the following
   points.
 
 * Aspirants for the Int. Ph.D. in the Mathematical Sciences must write the JAM
-  2017 examination. However, an aspirant who has qualified in JAM 2017 will
+  2018 examination. However, an aspirant who has qualified in JAM 2018 will
   need to apply separately to IISc through our admissions portal (see below).
   Additionally, THE NEXT THREE POINTS SHALL BE THE ELIGIBILITY REQUIREMENTS for
   the Int. Ph.D. in the Mathematical Sciences.
@@ -48,20 +48,20 @@ Eligibility
   Statistics (MS) JAM paper.
 
 *  A short-list of candidates who have applied to the IISc, and determined by
-  the JAM 2017 score, will be drawn up. The short-listed candidates will be
+  the JAM 2018 score, will be drawn up. The short-listed candidates will be
   invited for an interview at IISc. The interview short-list and any subsequent
   offer of admission will be totally independent of the candidate's preferences
-  (for any other programmes) made via JAM 2017.
+  (for any other programmes) made via JAM 2018.
 
 Candidates who are yet to complete their examinations for the eligible degree
 and expect to complete all the requirements for their degree (including all
-examinations, project dissertations, viva voce, etc.) before July 31, 2017, are
+examinations, project dissertations, viva voce, etc.) before July 31, 2018, are
 eligible to apply.
 
 How to Apply
 
-Please refer to the following web page for further information on the JAM 2017
-application process, visit the [JAM 2017 website](http://jam.iitd.ac.in/).
+Please refer to the following web page for further information on the JAM 2018
+application process, visit the [JAM 2018 website](http://jam.iitb.ac.in/).
 
 **As regards the separate application to IISc:** Please visit the [IISc admissions page](http://iisc.ac.in/admissions/) for
 information and instructions on how to access the online admission portal.

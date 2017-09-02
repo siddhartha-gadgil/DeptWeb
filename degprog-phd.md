@@ -26,20 +26,20 @@ Eligibility
 
 * The candidate should also have passed one of the following entrance tests:
   CSIR-UGC NET for JRF, or UGC-NET for JRF, or GATE (all of these to be valid
-  as of August 1, 2016), or the NBHM 2016 Screening Test; or must hold an
+  as of August 1, 2018), or the NBHM 2018 Screening Test; or must hold an
   INSPIRE Ph.D. fellowship.
 
 * Concerning candidates who have passed one of the above examinations: only
   eligible candidates who have been short-listed on the basis of their scores
   in one of the above examinations will be called for the interview.
-  Note: the short-list for NBHM 2016 will be based only on the NBHM 2016
+  Note: the short-list for NBHM 2018 will be based only on the NBHM 2018
   screening test.
   Selection to the Ph.D. programme will be based on performance in the
   interview.
 
 Candidates who are yet to complete their examinations for the eligible degree
 and expect to complete all the requirements for their degree (including all
-examinations, project dissertations, viva voce, etc.) before July 31, 2016, are
+examinations, project dissertations, viva voce, etc.) before July 31, 2018, are
 eligible to apply.
 
 How to Apply
