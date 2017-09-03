@@ -30,15 +30,12 @@ title: PhD students
       <!-- <div class="">
         <strong>Program:</strong> {{ stu.programme}}
       </div> -->
-      {% if stu.user-id %}
         <div>
-          <strong>E-mail:</strong> 
+          <strong>E-mail:</strong>
           {% if stu.user-id %}
-           <a href="mailto:{{stu.user-id}}@iisc.ac.in">{{stu.user-id}}@iisc.ac.in
+           <a href="mailto:{{stu.user-id}}@iisc.ac.in">{{stu.user-id}}@iisc.ac.in</a>
           {% endif %}
-          </a>
         </div>
-        {% endif %}
       </div>
     </td>
     <td>
