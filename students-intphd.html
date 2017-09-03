@@ -26,12 +26,18 @@ title: Integrated PhD students
         {{ stu.name }}
         {% endif %}
        </div>
-      <div class="">
+      <!-- <div class="">
         <strong>Program:</strong> {{ stu.programme}}
-      </div>
+      </div> -->
+
         <div>
-          <strong>E-mail:</strong> <a href="mailto:{{stu.user-id}}@iisc.ac.in">{{stu.user-id}}@iisc.ac.in</a>
+          <strong>E-mail:</strong>
+          {% if stu.user-id %}
+           <a href="mailto:{{stu.user-id}}@iisc.ac.in">{{stu.user-id}}@iisc.ac.in
+          {% endif %}
+          </a>
         </div>
+
       </div>
     </td>
     <td>
@@ -41,6 +47,5 @@ title: Integrated PhD students
   </tr>
   {%  endfor %}
 </table>
-{% endfor %}    
+{% endfor %}
   </div>
-
