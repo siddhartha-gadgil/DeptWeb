@@ -22,9 +22,9 @@ Pre-requisites : <br>
 
 
 {% if course.books %}
-Suggested books : <br>
+Suggested books : <br><br>
 {% for y in course.books %}
-{{ y.author }},  {{ y. title }}, {{ y.publ }}. <br>
+<li> {{ y.author }},  {{ y. title }}, {{ y.publ }}. <br>
 {% endfor %}
 {% endif %}
   <p>&nbsp;</p>
