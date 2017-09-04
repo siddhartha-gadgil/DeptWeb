@@ -1,20 +1,35 @@
 ---
 title: Ph.D. degrees awarded
 ---
-
-## Ph.D. Degrees awarded by the department
+<div class="col-md-12">
+<h2> Ph.D. Degrees awarded by the department (by Year) </h2>
 
 {% assign years = site.data.phds | group_by: "year" %}
 
 {% assign sorted = (years | sort: 'name') | reverse %}
+<ul>
 {% for y in sorted %}
-### {{ y.name }}
-{% for deg in y.items %}
-- __Name:__ {{ deg.name }}
-- __Title:__ {{ deg.title }}
-- __Supervisor:__ {{ deg.advisor }}{% if deg.present %}
-- __Present Position:__  {{ deg.present}}
-{% endif %}
-{% endfor %}
+<li>
+  <h4>
+<a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}">
+  {{y.name}}
+</a></h4>
 
+<div class="collapse" id="{{y.name}}">
+  {% for deg in y.items %}
+
+<ul>
+
+<li> Name:<b> {{ deg.name }} </b> </li>
+<li> <b>Title:</b> {{ deg.title }} </li>
+<li> <b>Supervisor:</b> {{ deg.advisor }}{% if deg.present %} </li>
+<li> <b>Present Position:</b>  {{ deg.present}} </li>
+{% endif %}
+</ul>
 {% endfor %}
+</div>
+
+</li>
+{% endfor %}
+</ul>
+</div>
