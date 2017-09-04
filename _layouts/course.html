@@ -3,14 +3,18 @@
 <h3>{{ page.code }}:  {{ page.title }}</h3>
 <p>&nbsp;</p>
 {% if page.prereqs %}
-Pre-requisites : <br> 
-{{ page.prereqs }} 
+Pre-requisites : <br>
+{{ page.prereqs }}
 {% endif %}
 <p>&nbsp;</p>
     {{ content }}
 <p>&nbsp;</p>
 {% if page.books %}
-Suggested books : <br>
-{{ page.books }}
+<h3> Suggested books : </h3>
+<ol>
+{% for book in page.books %}
+ <li>
+   {{ book.author}}, <em>{{ book.title }}</em>, {{ book. publ }}.</li>
+ {% endfor %}
 {% endif %}
 {% include footer.html %}
