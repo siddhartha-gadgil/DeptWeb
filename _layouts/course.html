@@ -2,7 +2,13 @@
 
 <h3>{{ page.code }}:  {{ page.title }}</h3>
 <p>&nbsp;</p>
+{% if page.preqs %}
+{{ page.prereqs }} 
+{% endif %}
+<p>&nbsp;</p>
     {{ content }}
 <p>&nbsp;</p>
-{{ page.books }} 
+{% if page.books %}
+{{ page.books }}
+{% endif %}
 {% include footer.html %}
