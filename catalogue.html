@@ -13,7 +13,11 @@ title: Course Catalogue
   </h4>
 {% if course.prereqs %}
 Pre-requisites : <br>
+<<<<<<< HEAD
 {{ course.prereqs }}
+=======
+{{ course.prereqs }} 
+>>>>>>> 06dd5c06de15d7a515ca1d026dbfd3329cacfa9f
 {% endif %}
 
 
@@ -21,6 +25,7 @@ Pre-requisites : <br>
 
 
 
+<<<<<<< HEAD
     {% if course.books %}
     <h4> Suggested books : </h4>
     <ol>
@@ -31,5 +36,13 @@ Pre-requisites : <br>
    </ol>
     {% endif %}
 
+=======
+{% if course.books %}
+Suggested books : <br>
+{% for y in course.books %}
+<li> {{ y.author }},  {{ y. title }}, {{ y.publ }}. <br>
+{% endfor %}
+{% endif %}
+>>>>>>> 06dd5c06de15d7a515ca1d026dbfd3329cacfa9f
   <p>&nbsp;</p>
  {% endfor %}
