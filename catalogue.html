@@ -12,7 +12,7 @@ title: Course Catalogue
   <h4>  <a href={{ lnk }}>{{ course.code }}: {{ course.title }} </a>
   </h4>
 {% if course.prereqs %}
-Pre-requisites : <br> 
+Pre-requisites : <br>
 {{ course.prereqs }} 
 {% endif %}
 
@@ -22,7 +22,7 @@ Pre-requisites : <br>
 
 
 {% if course.books %}
-Suggested books : <br><br>
+Suggested books : <br>
 {% for y in course.books %}
 <li> {{ y.author }},  {{ y. title }}, {{ y.publ }}. <br>
 {% endfor %}
