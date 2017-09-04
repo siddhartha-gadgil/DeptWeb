@@ -10,11 +10,20 @@ title: PhD students
 {% assign students = site.data.students | where: "programme", "PhD" %}
 {% assign years = students | group_by: "year-of-joining" %}
 
+<ul>
 {% for y in years %}
 
-<h3>Year of joining: {{y.name}}</h3>
 
-<table class="table table-striped">
+
+<li><h3>
+<a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}">
+  {{y.name}}
+  </a></h3>
+
+<div class="collapse" id="{{y.name}}">
+
+
+<table class="table table-striped" >
   {% for stu in y.items %}
   <tr>
     <td class="col-md-7">
@@ -36,7 +45,6 @@ title: PhD students
            <a href="mailto:{{stu.user-id}}@iisc.ac.in">{{stu.user-id}}@iisc.ac.in</a>
           {% endif %}
         </div>
-      </div>
     </td>
     <td>
       {% if stu.image %}
@@ -45,5 +53,8 @@ title: PhD students
   </tr>
   {%  endfor %}
 </table>
+</div>
+</li>
 {% endfor %}
+</ul>
 </div>
