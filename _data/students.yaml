@@ -99,18 +99,18 @@
   programme: PhD
 
 
-- name	:	Sanjay kumar jhawar
+- name	:	Sanjay Kumar Jhawar
   user-id	:	sanjay14
   year-of-joining: 2014
   programme: PhD
 
-- name	:	Sourav hait
+- name	:	Sourav Hait
   user-id	:	sourav14
   year-of-joining: 2014
   programme: PhD
 
 
-- name	:	Lakshmi Priya M.E
+- name	:	Lakshmi Priya M.E.
   user-id	:	lpriya15
   year-of-joining: 2015
   programme: PhD
@@ -377,14 +377,12 @@
 - name: Ramesh Mete
   year-of-joining: 2017
   programme: Integrated PhD
-  user-id:
-  email: ramesh19m97@gmail.com
+  user-id: rameshmete
 
 - name: Purba Banerjee
   year-of-joining: 2017
   programme: Integrated PhD
-  user-id:
-  email: purbabanerjee01@gmail.com
+  user-id: purbab
 
 - name: Abhay Jindal
   year-of-joining: 2017
@@ -395,8 +393,7 @@
 - name: Babhrubahan Bose
   year-of-joining: 2017
   programme: Integrated PhD
-  user-id:
-  email: babhrubahanbose@gmail.com
+  user-id: babhrubahanb
 
 - name : Aakanksha Jain
   user-id: aakankshaj
@@ -406,8 +403,7 @@
 - name: Arindam Mandal
   year-of-joining: 2017
   programme: Integrated PhD
-  user-id:
-  email: arindammandalkne97@gmail.com
+  user-id: arindamm
 
 - name: Neeladri Maitra
   user-id: neeladrim
@@ -415,19 +411,18 @@
   programme: Integrated PhD
 
 - name: Aparajita Karmakar
-  user-id:
+  user-id: aparajitak
   year-of-joining: 2017
   programme: PhD
 
 - name: Lakshmi Kanta Mahata
-  user-id:
+  user-id: lakshmim
   year-of-joining: 2017
   programme: PhD
 
 
 - name: Gobinda Sau
-  user-id:
-  email: gobindasauanalytica@gmail.com
+  user-id: gobindasau
   year-of-joining: 2017
   programme: PhD
 
