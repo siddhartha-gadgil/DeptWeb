@@ -130,20 +130,6 @@
   volume: "126"
   issn: "0253-4142"
 
-- number: "4"
-  author: "Kavitha, Telikepalli and Mehlhorn, Kurt and Michail, Dimitrios"
-  fjournal: "Algorithmica. An International Journal in Computer Science"
-  url: "httpdx.doi.org10.1007s00453-009-9313-4"
-  journal: "Algorithmica"
-  mrnumber: "2771107"
-  pages: "471-488"
-  year: 2011
-  title: "New approximation algorithms for minimum cycle bases of graphs"
-  doi: "10.1007s00453-009-9313-4"
-  mrclass: "05C85 (05C38 68W25)"
-  volume: "59"
-  issn: "0178-4617"
-
 - number: "2"
   author: "Sachdev, P. L. and Srinivasa Rao, Ch. and Joseph, K. T."
   fjournal: "Studies in Applied Mathematics"
@@ -1207,18 +1193,6 @@
   volume: "79"
   issn: "0001-6969"
 
-- number: "2"
-  author: "Ghoshal, S. K. and Rajaraman, V."
-  fjournal: "Journal of the Indian Institute of Science. A Multidisciplinary Reviews Journal"
-  journal: "J. Indian Inst. Sci."
-  mrnumber: "1114226"
-  pages: "171-194"
-  year: 1991
-  title: "An annotated bibliography of research in parallel computing at the Indian Institute of Science, 1985-1991"
-  mrclass: "68-00 (00A15)"
-  volume: "71"
-  issn: "0970-4140"
-
 - number: "7"
   author: "Prasad, Phoolan"
   fjournal: "Current Science"
@@ -1230,20 +1204,6 @@
   mrclass: "76N15 (76L05)"
   volume: "79"
   issn: "0011-3891"
-
-- number: "3"
-  author: "Oommen, B. J. and Thathachar, M. A. L."
-  fjournal: "Information Sciences. An International Journal"
-  url: "httpdx.doi.org10.10160020-0255(85)90049-0"
-  journal: "Inform. Sci."
-  mrnumber: "811106"
-  pages: "183-198"
-  year: 1985
-  title: "Multiaction learning automata possessing ergodicity of the mean"
-  doi: "10.10160020-0255(85)90049-0"
-  mrclass: "68T10"
-  volume: "35"
-  issn: "0020-0255"
 
 - author: "Narayanan, E. K. and Rawat, R. and Ray, S. K."
   fjournal: "The Journal of Analysis"
@@ -1582,20 +1542,6 @@
   volume: "55"
   issn: "0033-569X"
 
-- number: "4"
-  author: "Sathyaprakash, B. S. and Goswami, P. and Sinha, K. P."
-  fjournal: "Physical Review. D. Particles and Fields. Third Series"
-  url: "httpdx.doi.org10.1103PhysRevD.34.1236"
-  journal: "Phys. Rev. D (3)"
-  mrnumber: "852945"
-  pages: "1236"
-  year: 1986
-  title: "Erratum Singularity-free cosmology a simple model Phys.\\ Rev.\\ D (3) \\bf 33 (1986), no.\\ 8, 2196-2200"
-  doi: "10.1103PhysRevD.34.1236"
-  mrclass: "83F05 (83C75)"
-  volume: "34"
-  issn: "0556-2821"
-
 - number: "2"
   author: "Gadgil, Siddhartha and Kalelkar, Tejas"
   fjournal: "The Rocky Mountain Journal of Mathematics"
@@ -1792,18 +1738,6 @@
   mrclass: "57Q15 (52B70 57Q91)"
   volume: "46"
   issn: "0179-5376"
-
-- number: "2"
-  author: "Moona, Rajat and Rajaraman, V."
-  fjournal: "Journal of the Indian Institute of Science. A Multidisciplinary Reviews Journal"
-  journal: "J. Indian Inst. Sci."
-  mrnumber: "1114225"
-  pages: "105-116"
-  year: 1991
-  title: "Multidimensional multilink multicomputer a general-purpose parallel computer"
-  mrclass: "68Q10"
-  volume: "71"
-  issn: "0970-4140"
 
 - author: "Prasad, U. R. and Grimm, W. and Berger, E."
   series: "Lect. Notes Control Inf. Sci."
@@ -2084,18 +2018,6 @@
   mrclass: "13A18 (20M25)"
   volume: "6"
   issn: "1643-6555"
-
-- series: "Ramanujan Mathematical Society Lecture Notes Series"
-  mrnumber: "1500298"
-  pages: "vi279"
-  year: 2008
-  editor: "Balakrishnan, R. and Veni Madhavan, C. E."
-  publisher: "Ramanujan Mathematical Society, Mysore"
-  isbn: "978-81-902545-7-1"
-  booktitle: "Proceedings of the International Conference (ICDM 2006) held in Bangalore, December 15-18, 2006"
-  title: "Discrete mathematics"
-  mrclass: "05-06 (05-02 05C15)"
-  volume: "7"
 
 - number: "1"
   author: "Geller, S. and Maloo, Alok Kumar and Patil, D. P. and Roberts, L. G."
@@ -2452,18 +2374,6 @@
   volume: "20"
   issn: "0005-1098"
 
-- author: "Rangaswamy, S. V."
-  series: "IMS Rep."
-  mrnumber: "970329"
-  pages: "B.1, 13"
-  year: 1986
-  mrreviewer: "Konrad Engel"
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Algorithmic combinatorics"
-  mrclass: "05A10 (05A15)"
-  volume: "111"
-
 - number: "6"
   author: "Basu, Arnab and Ghosh, Mrinal K."
   fjournal: "Operations Research Letters"
@@ -2492,17 +2402,6 @@
   mrclass: "47A45 (47A13)"
   volume: "53"
   issn: "0378-620X"
-
-- author: "Jayannavar, A. M. and Kumar, N."
-  series: "Matscience Rep."
-  mrnumber: "734923"
-  pages: "53-60"
-  year: 1982
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Proceedings of the conference on stochastic processes and applications (Ootacamund, 1980)"
-  title: "Stochastic interpretation of van Leeuwen theorem on the absence of diamagnetism in classical electron gas"
-  mrclass: "82A31"
-  volume: "106"
 
 - number: "4"
   author: "Sarkar, Rudra P. and Thangavelu, Sundaram"
@@ -2625,33 +2524,6 @@
   volume: "16"
   issn: "1472-2747"
 
-- number: "8"
-  author: "Sathyaprakash, B. S. and Goswami, P. and Sinha, K. P."
-  fjournal: "Physical Review. D. Particles and Fields. Third Series"
-  url: "httpdx.doi.org10.1103PhysRevD.33.2196"
-  journal: "Phys. Rev. D (3)"
-  mrnumber: "835644"
-  pages: "2196-2200"
-  year: 1986
-  title: "Singularity-free cosmology a simple model"
-  doi: "10.1103PhysRevD.33.2196"
-  mrclass: "83F05 (83C75)"
-  volume: "33"
-  issn: "0556-2821"
-
-- author: "Huang, Chien-Chung and Kavitha, Telikepalli and Michail, Dimitrios and Nasre, Meghana"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.1007978-3-540-69903-3_13"
-  mrnumber: "2497004"
-  pages: "127-137"
-  year: 2008
-  publisher: "Springer, Berlin"
-  booktitle: "Algorithm theory--SWAT 2008"
-  title: "Bounded unpopularity matchings"
-  doi: "10.1007978-3-540-69903-3_13"
-  mrclass: "05C70 (68R05)"
-  volume: "5124"
-
 - number: "1"
   author: "Meher, Jaban and Deo Shankhadhar, Karam"
   fjournal: "Acta Arithmetica"
@@ -2724,16 +2596,6 @@
   mrclass: "92D20"
   volume: "42"
   issn: "0019-5588"
-
-- author: "Krishnamurthy, E. V."
-  mrnumber: "743102"
-  pages: "66-110"
-  year: 1983
-  mrreviewer: "Neal Koblitz"
-  publisher: "Tata Inst. Fund. Res., Bombay"
-  booktitle: "Foundations of software technology and theoretical computer science (Bangalore, 1983)"
-  title: "Hensels methods in linear algebraic computing"
-  mrclass: "11S80 (11Q25 68M99)"
 
 - number: "4"
   author: "Senthil Raani, K. S."
@@ -2885,21 +2747,6 @@
   title: "Model pseudoconvex domains and bumping"
   mrclass: "32T27"
   issn: "1073-7928"
-
-- number: "12-14"
-  author: "Kavitha, Telikepalli and Nasre, Meghana"
-  fjournal: "Theoretical Computer Science"
-  url: "httpdx.doi.org10.1016j.tcs.2010.12.067"
-  journal: "Theoret. Comput. Sci."
-  mrnumber: "2797763"
-  pages: "1263-1274"
-  year: 2011
-  mrreviewer: "Vernold Vivin. J"
-  title: "Popular matchings with variable item copies"
-  doi: "10.1016j.tcs.2010.12.067"
-  mrclass: "05C70 (05C85 68R10)"
-  volume: "412"
-  issn: "0304-3975"
 
 - number: "1"
   author: "Krishnan, Riki and Balaram, P."
@@ -3315,20 +3162,6 @@
   volume: "134"
   issn: "0002-9939"
 
-- number: "5"
-  author: "Agrawal, V. K. and Patnaik, L. M. and Goel, P. S."
-  fjournal: "International Journal of Computer and Information Sciences"
-  url: "httpdx.doi.org10.1007BF00987039"
-  journal: "Internat. J. Comput. Inform. Sci."
-  mrnumber: "849020"
-  pages: "277-306"
-  year: 1985
-  title: "Towards formal specification of a distributed computing system"
-  doi: "10.1007BF00987039"
-  mrclass: "68Q10"
-  volume: "14"
-  issn: "0091-7036"
-
 - number: "1-4"
   author: "Datta, Basudeb"
   fjournal: "The Journal of the Indian Mathematical Society. New Series"
@@ -3398,19 +3231,6 @@
   volume: "35"
   issn: "0001-7043"
 
-- number: "15"
-  author: "Pandey, R. B. and Kumar, N. and Stauffer, D."
-  fjournal: "Journal of Physics. A. Mathematical and General"
-  url: "httpstacks.iop.org0305-447017859"
-  journal: "J. Phys. A"
-  mrnumber: "771957"
-  pages: "L859-L861"
-  year: 1984
-  title: "Speculations on self-avoiding surfaces in fractals--a mean field treatment"
-  mrclass: "82A67 (82A42)"
-  volume: "17"
-  issn: "0305-4470"
-
 - number: "5-6"
   author: "Rangarajan, Govindan and Chen, Yonghong and Ding, Mingzhou"
   fjournal: "Physics Letters. A"
@@ -3465,19 +3285,6 @@
   mrclass: "76D07"
   volume: "45"
   issn: "0044-2275"
-
-- author: "Kavitha, Telikepalli and Krishna, Katakam Vamsi"
-  fjournal: "ACM Journal of Experimental Algorithmics"
-  url: "httpdx.doi.org10.11451412228.1498696"
-  journal: "ACM J. Exp. Algorithmics"
-  mrnumber: "2770007"
-  pages: "Article 1.14, 23"
-  year: 2008
-  title: "An improved heuristic for computing short integral cycle bases"
-  doi: "10.11451412228.1498696"
-  mrclass: "68W05"
-  volume: "13"
-  issn: "1084-6654"
 
 - number: "7"
   author: "David, E. A."
@@ -3547,17 +3354,6 @@
   mrclass: "34K07 (34K30 34K45 35R12 47D06 47N20)"
   volume: "34"
   issn: "1598-5865"
-
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970332"
-  pages: "B.6, 11"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Properties of permutations"
-  mrclass: "05A05"
-  volume: "111"
 
 - number: "5"
   author: "Lalithambigai, S. and Narayana, Darapaneni"
@@ -3701,19 +3497,6 @@
   mrclass: "35B25 (35K20)"
   volume: "63"
   issn: "0021-7824"
-
-- author: "Jaggi, Neeraj and Gopinath, K."
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.10073-540-45294-X_18"
-  mrnumber: "1904260"
-  pages: "207-218"
-  year: 2001
-  publisher: "Springer, Berlin"
-  booktitle: "FST TCS 2001 Foundations of software technology and theoretical computer science (Bangalore)"
-  title: "Verification of a leader election algorithm in timed asynchronous systems"
-  doi: "10.10073-540-45294-X_18"
-  mrclass: "68M14"
-  volume: "2245"
 
 - number: "1"
   author: "Bharali, Gautam and Janardhanan, Jaikrishnan"
@@ -4130,17 +3913,6 @@
   volume: "149"
   issn: "0025-2611"
 
-- author: "Sastry, Shanthi"
-  series: "IMS Rep."
-  mrnumber: "970350"
-  pages: "E.63-E.76"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Domination and its variants"
-  mrclass: "05C35 (68R05)"
-  volume: "111"
-
 - number: "3-4"
   author: "Vasantha, R. and Nath, G."
   fjournal: "Acta Mechanica"
@@ -4418,21 +4190,6 @@
   volume: "78"
   issn: "0044-2267"
 
-- number: "1"
-  author: "Pitteloud, Philippe"
-  fjournal: "Graphs and Combinatorics"
-  url: "httpdx.doi.org10.1007s00373-003-0544-x"
-  journal: "Graphs Combin."
-  mrnumber: "2048555"
-  pages: "131-144"
-  year: 2004
-  mrreviewer: "Timothy Y. Chow"
-  title: "Chromatic polynomials and the symmetric group"
-  doi: "10.1007s00373-003-0544-x"
-  mrclass: "05C15 (05A05 05A15)"
-  volume: "20"
-  issn: "0911-0119"
-
 - number: "6"
   author: "Datta, Basudeb and Upadhyay, Ashish Kumar"
   fjournal: "Forum Mathematicum"
@@ -4640,33 +4397,6 @@
   volume: "456"
   issn: "1364-5021"
 
-- number: "2"
-  author: "Thathachar, M. A. L. and Ramachandran, K. M."
-  fjournal: "Information Sciences. An International Journal"
-  url: "httpdx.doi.org10.10160020-0255(85)90043-X"
-  journal: "Inform. Sci."
-  mrnumber: "794762"
-  pages: "91-110"
-  year: 1985
-  title: "Asymptotic behavior of a hierarchical system of learning automata"
-  doi: "10.10160020-0255(85)90043-X"
-  mrclass: "68Q75 (68T10)"
-  volume: "35"
-  issn: "0020-0255"
-
-- author: "Krishnamurthy, E. V."
-  url: "httpdx.doi.org10.1007978-1-349-07138-8"
-  mrnumber: "773295"
-  pages: "xii211"
-  year: 1983
-  note: "With a foreword by L. S. Srinath"
-  mrreviewer: "Immo O. Kerner"
-  publisher: "Springer-Verlag, New York"
-  isbn: "0-387-91255-X"
-  title: "Introductory theory of computer science"
-  doi: "10.1007978-1-349-07138-8"
-  mrclass: "68-01"
-
 - number: "6"
   author: "de Figueiredo, Djairo G. and Srikanth, P. N. and Santra, Sanjiban"
   fjournal: "Communications in Contemporary Mathematics"
@@ -4762,20 +4492,6 @@
   volume: "28"
   issn: "0213-2230"
 
-- number: "6"
-  author: "Ajjanagadde, Venkatramana G. and Patnaik, L. M."
-  fjournal: "International Journal of Parallel Programming"
-  url: "httpdx.doi.org10.1007BF01407413"
-  journal: "Internat. J. Parallel Programming"
-  mrnumber: "919292"
-  pages: "551-565"
-  year: 1986
-  title: "Systolic architecture for $B$-spline surfaces"
-  doi: "10.1007BF01407413"
-  mrclass: "65D10 (65D07)"
-  volume: "15"
-  issn: "0885-7458"
-
 - number: "3"
   author: "Gnaneshwar, N."
   fjournal: "Advances in Computational Mathematics"
@@ -4790,19 +4506,6 @@
   mrclass: "65R20 (45C05 45P05 47G10)"
   volume: "27"
   issn: "1019-7168"
-
-- author: "Kavitha, Telikepalli and Mehlhorn, Kurt and Michail, Dimitrios"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.1007978-3-540-70918-3_44"
-  mrnumber: "2362489"
-  pages: "512-523"
-  year: 2007
-  publisher: "Springer, Berlin"
-  booktitle: "STACS 2007"
-  title: "New approximation algorithms for minimum cycle bases of graphs"
-  doi: "10.1007978-3-540-70918-3_44"
-  mrclass: "68W25 (05C38 05C85)"
-  volume: "4393"
 
 - number: "6"
   author: "Das, G. C. and Sarma, Jnanjyoti and Uberoi, C."
@@ -5196,19 +4899,6 @@
   volume: "42"
   issn: "0001-7043"
 
-- author: "Kavitha, Telikepalli"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.100711523468_23"
-  mrnumber: "2184638"
-  pages: "273-284"
-  year: 2005
-  publisher: "Springer, Berlin"
-  booktitle: "Automata, languages and programming"
-  title: "An $\\O(m^2n)$ randomized algorithm to compute a minimum cycle basis of a directed graph"
-  doi: "10.100711523468_23"
-  mrclass: "68W20 (05C38 68R10)"
-  volume: "3580"
-
 - author: "Venkatachala, B. J."
   series: "Texts and Readings in Mathematics"
   mrnumber: "2472961"
@@ -5456,20 +5146,6 @@
   volume: "154"
   issn: "0370-2693"
 
-- number: "4"
-  author: "Thathachar, M. A. L. and Ramachandran, K. M."
-  fjournal: "International Journal of Control"
-  url: "httpdx.doi.org10.108000207178408933209"
-  journal: "Internat. J. Control"
-  mrnumber: "738726"
-  pages: "827-838"
-  year: 1984
-  title: "Asymptotic behaviour of a learning algorithm"
-  doi: "10.108000207178408933209"
-  mrclass: "68Q75 (68T10)"
-  volume: "39"
-  issn: "0020-7179"
-
 - number: "2"
   author: "Gadgil, Siddhartha and Kulkarni, Dheeraj"
   fjournal: "Indian Academy of Sciences. Proceedings. Mathematical Sciences"
@@ -5570,18 +5246,6 @@
   volume: "28"
   issn: "0556-2821"
 
-- author: "Prasad, T. V. S. R. V."
-  series: "IMS Rep."
-  mrnumber: "970328"
-  pages: "A.6, 6"
-  year: 1986
-  mrreviewer: "Andreas Guthmann"
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Primality testing and its implications"
-  mrclass: "11Y11 (11Y16)"
-  volume: "111"
-
 - number: "2"
   author: "Seshadri, Harish"
   fjournal: "Indian Academy of Sciences. Proceedings. Mathematical Sciences"
@@ -5669,15 +5333,6 @@
   mrclass: "42A38 (42B99 43A90)"
   volume: "185"
   issn: "0039-3223"
-
-- author: "Cole, Richard and Hariharan, Ramesh"
-  mrnumber: "1642959"
-  pages: "463-472"
-  year: 1998
-  publisher: "ACM, New York"
-  booktitle: "Proceedings of the Ninth Annual ACM-SIAM Symposium on Discrete Algorithms (San Francisco, CA, 1998)"
-  title: "Approximate string matching a simpler faster algorithm"
-  mrclass: "68Q20"
 
 - number: "2"
   author: "Vittal Rao, R. and Sukavanam, N."
@@ -5778,21 +5433,6 @@
   mrclass: "93-02 (60J10 93E99)"
   volume: "240"
 
-- number: "9"
-  author: "Lord, Eric A. and Goswami, P."
-  fjournal: "Journal of Mathematical Physics"
-  url: "httpdx.doi.org10.10631.526980"
-  journal: "J. Math. Phys."
-  mrnumber: "854773"
-  pages: "2415-2422"
-  year: 1986
-  mrreviewer: "M. Carmeli"
-  title: "Gauge theory of a group of diffeomorphisms. I. General principles"
-  doi: "10.10631.526980"
-  mrclass: "81E13 (58D05)"
-  volume: "27"
-  issn: "0022-2488"
-
 - number: "1"
   author: "Patil, D. P."
   fjournal: "Pacific-Asian Journal of Mathematics"
@@ -5876,17 +5516,6 @@
   mrclass: "34K30 (34K07 35R10 47D06 47N20)"
   volume: "8"
   issn: "1562-8353"
-
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970343"
-  pages: "D.4, 6"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Finding maximum in a set"
-  mrclass: "68Q25"
-  volume: "111"
 
 - number: "4"
   author: "Biswal, Purna Chandra and Rao, Adabala Ramachandra"
@@ -6153,17 +5782,6 @@
   volume: "116"
   issn: "0253-4142"
 
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970333"
-  pages: "B.7, 4"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Counting configurations arising in the analysis of algorithms"
-  mrclass: "68R05 (05A15)"
-  volume: "111"
-
 - series: "Operator Theory Advances and Applications"
   url: "httpdx.doi.org10.1007978-3-319-18182-0"
   mrnumber: "3408711"
@@ -6403,21 +6021,6 @@
   issn: "0022-2526"
 
 - number: "3"
-  author: "Kavitha, Telikepalli and Mehlhorn, Kurt and Michail, Dimitrios and Paluch, Katarzyna E."
-  fjournal: "Algorithmica. An International Journal in Computer Science"
-  url: "httpdx.doi.org10.1007s00453-007-9064-z"
-  journal: "Algorithmica"
-  mrnumber: "2452919"
-  pages: "333-349"
-  year: 2008
-  mrreviewer: "Peter Damaschke"
-  title: "An $\\O(m^2n)$ algorithm for minimum cycle basis of graphs"
-  doi: "10.1007s00453-007-9064-z"
-  mrclass: "05C85 (05C38 05C50 68R10 68W25)"
-  volume: "52"
-  issn: "0178-4617"
-
-- number: "3"
   author: "Batty, Charles J. K. and Chill, Ralph and Srivastava, Sachi"
   fjournal: "Studia Mathematica"
   url: "httpdx.doi.org10.4064sm189-3-1"
@@ -6620,17 +6223,6 @@
   mrclass: "76B55 (35P99 35Q35)"
   volume: "56"
   issn: "0044-2275"
-
-- author: "Cole, Richard and Hariharan, Ramesh"
-  url: "httpdx.doi.org10.1145335305.335352"
-  mrnumber: "2115276"
-  pages: "407-415"
-  year: 2000
-  publisher: "ACM, New York"
-  booktitle: "Proceedings of the Thirty-Second Annual ACM Symposium on Theory of Computing"
-  title: "Faster suffix tree construction with missing suffix links"
-  doi: "10.1145335305.335352"
-  mrclass: "68P20 (68P05)"
 
 - number: "2"
   author: "Bhattacharyya, Tirthankar and Pal, Sourav"
@@ -7061,20 +6653,6 @@
   volume: "225"
   issn: "0096-3003"
 
-- number: "5"
-  author: "Cole, Richard and Farach-Colton, Martin and Hariharan, Ramesh and Przytycka, Teresa and Thorup, Mikkel"
-  fjournal: "SIAM Journal on Computing"
-  url: "httpdx.doi.org10.1137S0097539796313477"
-  journal: "SIAM J. Comput."
-  mrnumber: "1813955"
-  pages: "1385-1404"
-  year: 2000
-  title: "An $O(n\\log n)$ algorithm for the maximum agreement subtree problem for binary trees"
-  doi: "10.1137S0097539796313477"
-  mrclass: "68Q25 (68W40)"
-  volume: "30"
-  issn: "0097-5397"
-
 - number: "11"
   author: "Amrutiya, Sanjay and Dubey, Umesh"
   fjournal: "International Journal of Mathematics"
@@ -7132,20 +6710,6 @@
   mrclass: "41A65 (46B20)"
   volume: "321"
   issn: "0022-247X"
-
-- number: "1"
-  author: "Thathachar, M. A. L. and Sastry, P. S."
-  fjournal: "Institute of Electrical and Electronics Engineers. Transactions on Systems, Man, and Cybernetics"
-  url: "httpdx.doi.org10.1109TSMC.1985.6313407"
-  journal: "IEEE Trans. Systems Man Cybernet."
-  mrnumber: "789536"
-  pages: "168-175"
-  year: 1985
-  title: "A new approach to the design of reinforcement schemes for learning automata"
-  doi: "10.1109TSMC.1985.6313407"
-  mrclass: "68T10 (68Q99)"
-  volume: "15"
-  issn: "0018-9472"
 
 - number: "2"
   author: "Rogers, C. and Sachdev, P. L."
@@ -7231,31 +6795,6 @@
   mrclass: "49N70 (49L25 91A05 91A23)"
   volume: "16"
   issn: "1021-9722"
-
-- number: "7"
-  author: "Sangaranarayanan, M. V. and Rangarajan, S. K."
-  fjournal: "Physics Letters. A"
-  url: "httpdx.doi.org10.10160375-9601(83)90004-X"
-  journal: "Phys. Lett. A"
-  mrnumber: "714295"
-  pages: "339-343"
-  year: 1983
-  title: "Extrapolation and series acceleration procedures hard spheres and discs as illustrations"
-  doi: "10.10160375-9601(83)90004-X"
-  mrclass: "82-08 (41A99)"
-  volume: "96"
-  issn: "0375-9601"
-
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970330"
-  pages: "B.4, 6"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Elements of data structure and combinatorial algorithms"
-  mrclass: "68R05 (05A15)"
-  volume: "111"
 
 - number: "8"
   author: "Nambiar, K. K. and Tikekar, V. G."
@@ -7360,15 +6899,6 @@
   title: "Recent advances in differential equations"
   mrclass: "00B25 (34-06 35-06)"
   volume: "386"
-
-- author: "Cole, Richard and Hariharan, Ramesh and Lewenstein, Moshe and Porat, Ely"
-  mrnumber: "1958387"
-  pages: "17-25"
-  year: 2001
-  publisher: "SIAM, Philadelphia, PA"
-  booktitle: "Proceedings of the Twelfth Annual ACM-SIAM Symposium on Discrete Algorithms (Washington, DC, 2001)"
-  title: "A faster implementation of the Goemans-Williamson clustering algorithm"
-  mrclass: "68W25 (05C85 90C35)"
 
 - number: "11"
   author: "Patil, D. P. and Sengupta, I."
@@ -7852,20 +7382,6 @@
   issn: "0163-0563"
 
 - number: "3"
-  author: "Arya, Sunil and Ramesh, H."
-  fjournal: "Information Processing Letters"
-  url: "httpdx.doi.org10.1016S0020-0190(98)00010-6"
-  journal: "Inform. Process. Lett."
-  mrnumber: "1614538"
-  pages: "117-118"
-  year: 1998
-  title: "A $2.5$-factor approximation algorithm for the $k$-MST problem"
-  doi: "10.1016S0020-0190(98)00010-6"
-  mrclass: "68Q25"
-  volume: "65"
-  issn: "0020-0190"
-
-- number: "3"
   author: "Ayyer, Arvind and Schilling, Anne and Steinberg, Benjamin and Thi\\ery, Nicolas M."
   fjournal: "Communications in Mathematical Physics"
   url: "httpdx.doi.org10.1007s00220-015-2343-7"
@@ -8134,19 +7650,6 @@
   volume: "160"
   issn: "0022-3239"
 
-- author: "Kavitha, Telikepalli and Mestre, Juli\\an and Nasre, Meghana"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.1007978-3-642-02927-1_48"
-  mrnumber: "2544876"
-  pages: "574-584"
-  year: 2009
-  publisher: "Springer, Berlin"
-  booktitle: "Automata, languages and programming. Part I"
-  title: "Popular mixed matchings"
-  doi: "10.1007978-3-642-02927-1_48"
-  mrclass: "68Q25 (05C70 05C85)"
-  volume: "5555"
-
 - number: "1-2"
   author: "Chakrabarti, A. and Sahoo, T."
   fjournal: "Calcutta Mathematical Society. Review Bulletin"
@@ -8225,16 +7728,6 @@
   booktitle: "Proceedings of the 25th International Conference on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithms"
   title: "Multivariate juggling probabilities"
   mrclass: "60J10 (05A17)"
-
-- author: "Krishnamurthy, E. V. and Sen, S. K."
-  mrnumber: "848359"
-  pages: "xxiv629"
-  year: 1986
-  note: "Computations in science and engineering"
-  mrreviewer: "Ian Gladwell"
-  publisher: "Affiliated East-West Press Pvt. Ltd., New Delhi"
-  title: "Numerical algorithms"
-  mrclass: "65-01"
 
 - number: "2"
   author: "Arapostathis, Aristotle and Borkar, Vivek S. and Fern\\andez-Gaucherand, Emmanuel and Ghosh, Mrinal K. and Marcus, Steven I."
@@ -8345,17 +7838,6 @@
   title: "Invariant Hilbert spaces of holomorphic functions"
   mrclass: "46E20 (30H05 33C80 46A13)"
   issn: "0025-5742"
-
-- author: "Cole, Richard and Hariharan, Ramesh"
-  url: "httpdx.doi.org10.1145509907.509992"
-  mrnumber: "2121185"
-  pages: "592-601"
-  year: 2002
-  publisher: "ACM, New York"
-  booktitle: "Proceedings of the Thirty-Fourth Annual ACM Symposium on Theory of Computing"
-  title: "Verifying candidate matches in sparse and wildcard matching"
-  doi: "10.1145509907.509992"
-  mrclass: "68W05 (68W40)"
 
 - number: "2"
   author: "Bhattacharya, Angshuman and Bhattacharyya, Tirthankar"
@@ -8505,15 +7987,6 @@
   mrclass: "73K03 (70L05)"
   volume: "56"
   issn: "0021-8936"
-
-- author: "Drineas, P. and Frieze, Alan and Kannan, Ravi and Vempala, Santosh and Vinay, V."
-  mrnumber: "1739957"
-  pages: "291-299"
-  year: 1999
-  publisher: "ACM, New York"
-  booktitle: "Proceedings of the Tenth Annual ACM-SIAM Symposium on Discrete Algorithms (Baltimore, MD, 1999)"
-  title: "Clustering in large graphs and matrices"
-  mrclass: "68R05 (68Q25 68U05)"
 
 - number: "4"
   author: "Brenner, Susanne C. and Gu, Shiyuan and Gudi, Thirupathi and Sung, Li-yeng"
@@ -8780,21 +8253,6 @@
   volume: "93"
   issn: "0011-3891"
 
-- number: "2-3"
-  author: "Hegde, Malti and Sridharan, M. R. and "
-  fjournal: "Discrete Mathematics"
-  url: "httpdx.doi.org10.10160012-365X(83)90040-7"
-  journal: "Discrete Math."
-  mrnumber: "704240"
-  pages: "239-243"
-  year: 1983
-  mrreviewer: "D. A. Klarner"
-  title: "Enumeration of hypergraphs"
-  doi: "10.10160012-365X(83)90040-7"
-  mrclass: "05C65 (05C30)"
-  volume: "45"
-  issn: "0012-365X"
-
 - number: "1-2"
   author: "Chakrabarti, A. and Hamsapriye"
   fjournal: "Journal of Computational and Applied Mathematics"
@@ -8957,19 +8415,6 @@
   volume: "103"
   issn: "0253-4142"
 
-- author: "Haeupler, Bernhard and Kavitha, Telikepalli and Mathew, Rogers and Sen, Siddhartha and Tarjan, Robert E."
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.1007978-3-540-70575-8_35"
-  mrnumber: "2500290"
-  pages: "421-433"
-  year: 2008
-  publisher: "Springer, Berlin"
-  booktitle: "Automata, languages and programming. Part I"
-  title: "Faster algorithms for incremental topological ordering"
-  doi: "10.1007978-3-540-70575-8_35"
-  mrclass: "05C38 (68W25)"
-  volume: "5125"
-
 - author: "Arun, K. R. and Prasad, Phoolan"
   url: "httpdx.doi.org10.11429789814338820_0002"
   mrnumber: "2884551"
@@ -9011,19 +8456,6 @@
   volume: "46"
   issn: "0033-5614"
 
-- author: "Hansen, Kristoffer Arnsfelt and Miltersen, Peter Bro and Vinay, V."
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.1007978-3-540-45077-1_17"
-  mrnumber: "2071150"
-  pages: "171-182"
-  year: 2003
-  publisher: "Springer, Berlin"
-  booktitle: "Fundamentals of computation theory"
-  title: "Circuits on cylinders"
-  doi: "10.1007978-3-540-45077-1_17"
-  mrclass: "68Q15"
-  volume: "2751"
-
 - author: "Chandru, Vijay and Rao, M. R."
   mrnumber: "1797199"
   pages: "32-1-32-45"
@@ -9032,20 +8464,6 @@
   booktitle: "Algorithms and theory of computation handbook"
   title: "Integer programming"
   mrclass: "90C10"
-
-- number: "18"
-  author: "Shastry, B. Sriram"
-  fjournal: "Journal of Physics. A. Mathematical and General"
-  url: "httpdx.doi.org10.10880305-44703018005"
-  journal: "J. Phys. A"
-  mrnumber: "1483190"
-  pages: "L635-L641"
-  year: 1997
-  title: "Uncertainty principle enhanced pairing correlations in projected Fermi systems near half filling"
-  doi: "10.10880305-44703018005"
-  mrclass: "82B20"
-  volume: "30"
-  issn: "0305-4470"
 
 - number: "1"
   author: "Gudi, Thirupathi and Gupta, Hari Shanker and Nataraj, Neela"
@@ -9207,19 +8625,6 @@
   volume: "50"
   issn: "0033-569X"
 
-- author: "Gregory, R. T. and Krishnamurthy, E. V."
-  series: "Texts and Monographs in Computer Science"
-  url: "httpdx.doi.org10.1007978-1-4612-5242-9"
-  mrnumber: "754556"
-  pages: "xii194"
-  year: 1984
-  mrreviewer: "Reinhard Klette"
-  publisher: "Springer-Verlag, New York"
-  isbn: "0-387-90967-2"
-  title: "Methods and applications of error-free computation"
-  doi: "10.1007978-1-4612-5242-9"
-  mrclass: "68-02 (65G05 90-01)"
-
 - number: "1"
   author: "Das, Soumya"
   fjournal: "Indian Journal of Pure and Applied Mathematics"
@@ -9234,19 +8639,6 @@
   mrclass: "11F30"
   volume: "47"
   issn: "0019-5588"
-
-- author: "Kavitha, Telikepalli"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.1007978-3-540-77050-3_27"
-  mrnumber: "2480212"
-  pages: "328-339"
-  year: 2007
-  publisher: "Springer, Berlin"
-  booktitle: "FSTTCS 2007 Foundations of software technology and theoretical computer science"
-  title: "Faster algorithms for all-pairs small stretch distances in weighted graphs"
-  doi: "10.1007978-3-540-77050-3_27"
-  mrclass: "68Q25 (05C85)"
-  volume: "4855"
 
 - number: "6"
   author: "Brandolini, Luca and Gigante, Giacomo and Thangavelu, Sundaram and Travaglini, Giancarlo"
@@ -9448,21 +8840,6 @@
   mrclass: "76D99"
   volume: "3"
   issn: "2231-5306"
-
-- number: "2"
-  author: "Kavitha, Telikepalli and Mehlhorn, Kurt and Michail, Dimitrios and Paluch, Katarzyna E."
-  fjournal: "ACM Transactions on Algorithms"
-  url: "httpdx.doi.org10.11451240233.1240238"
-  journal: "ACM Trans. Algorithms"
-  mrnumber: "2335298"
-  pages: "Art. 15, 18"
-  year: 2007
-  mrreviewer: "Gerard Jennhwa Chang"
-  title: "Strongly stable matchings in time $O(nm)$ and extension to the hospitals-residents problem"
-  doi: "10.11451240233.1240238"
-  mrclass: "05C70 (05C85 68R10 68W05 68W40 91B68)"
-  volume: "3"
-  issn: "1549-6325"
 
 - number: "4"
   author: "Iyer, Srikanth K. and Manjunath, D. and Yogeshwaran, D."
@@ -9712,17 +9089,6 @@
   volume: "104"
   issn: "0066-2216"
 
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970344"
-  pages: "D.5, 5"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Bubble sort"
-  mrclass: "68P10"
-  volume: "111"
-
 - author: "Das, Soumya and Kohnen, Winfried"
   fjournal: "Advances in Mathematics"
   url: "httpdx.doi.org10.1016j.aim.2015.05.007"
@@ -9938,19 +9304,6 @@
   mrclass: "62F10 (62F12 65C60)"
   volume: "138"
   issn: "0378-3758"
-
-- author: "Chandran, L. Sunil and Ram, L. Shankar"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.10073-540-45841-7_18"
-  mrnumber: "2050840"
-  pages: "227-237"
-  year: 2002
-  publisher: "Springer, Berlin"
-  booktitle: "STACS 2002"
-  title: "Approximations for ATSP with parametrized triangle inequality"
-  doi: "10.10073-540-45841-7_18"
-  mrclass: "68W25 (05C20 05C85 90C35)"
-  volume: "2285"
 
 - number: "2"
   author: "Bhattacharya, Atreyee and Maity, Soma"
@@ -10349,20 +9702,6 @@
   issn: "1286-4889"
 
 - number: "1"
-  author: "Hansen, Kristoffer Arnsfelt and Miltersen, Peter Bro and Vinay, V."
-  fjournal: "Computational Complexity"
-  url: "httpdx.doi.org10.1007s00037-006-0207-4"
-  journal: "Comput. Complexity"
-  mrnumber: "2226070"
-  pages: "62-81"
-  year: 2006
-  title: "Circuits on cylinders"
-  doi: "10.1007s00037-006-0207-4"
-  mrclass: "68Q05 (68Q15)"
-  volume: "15"
-  issn: "1016-3328"
-
-- number: "1"
   author: "Haridas, Pranav and Verma, Kaushal"
   fjournal: "Computational Methods and Function Theory"
   url: "httpdx.doi.org10.1007s40315-014-0090-y"
@@ -10474,17 +9813,6 @@
   mrclass: "76E99 (76E25)"
   volume: "81"
   issn: "0096-3003"
-
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970331"
-  pages: "B.5, 8"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Algorithms for generation of combinatorial configurations"
-  mrclass: "05A15"
-  volume: "111"
 
 - number: "1"
   author: "Bharali, Gautam"
@@ -10728,17 +10056,6 @@
   volume: "274"
   issn: "0025-5874"
 
-- author: "Cole, Richard and Hariharan, Ramesh"
-  url: "httpdx.doi.org10.1145780542.780568"
-  mrnumber: "2121049"
-  pages: "167-176"
-  year: 2003
-  publisher: "ACM, New York"
-  booktitle: "Proceedings of the Thirty-Fifth Annual ACM Symposium on Theory of Computing"
-  title: "A fast algorithm for computing Steiner edge connectivity"
-  doi: "10.1145780542.780568"
-  mrclass: "05C40 (05C35 68R10)"
-
 - number: "10"
   author: "Narayanan, E. K. and Samanta, Amit"
   fjournal: "Journal of Functional Analysis"
@@ -10863,21 +10180,6 @@
   volume: "91"
   issn: "0012-7094"
 
-- number: "24"
-  author: "Kavitha, Telikepalli and Mestre, Juli\\an and Nasre, Meghana"
-  fjournal: "Theoretical Computer Science"
-  url: "httpdx.doi.org10.1016j.tcs.2010.03.028"
-  journal: "Theoret. Comput. Sci."
-  mrnumber: "2828343"
-  pages: "2679-2690"
-  year: 2011
-  mrreviewer: "Lenwood S. Heath"
-  title: "Popular mixed matchings"
-  doi: "10.1016j.tcs.2010.03.028"
-  mrclass: "05C70 (68Q25 91B68)"
-  volume: "412"
-  issn: "0304-3975"
-
 - number: "1"
   author: "Sachdev, P. L. and Kudenatti, Ramesh B. and Bujurke, N. M."
   fjournal: "Studies in Applied Mathematics"
@@ -10980,19 +10282,6 @@
   mrclass: "46E35 (42B25 46F12 47D06)"
   volume: "354"
   issn: "0022-247X"
-
-- author: "Naidu, K. V. M. and Ramesh, H."
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.10073-540-36206-1_27"
-  mrnumber: "2046013"
-  pages: "301-310"
-  year: 2002
-  publisher: "Springer, Berlin"
-  booktitle: "FST TCS 2002 Foundations of software technology and theoretical computer science (Kanpur)"
-  title: "Lower bounds for embedding graphs into graphs of smaller characteristic"
-  doi: "10.10073-540-36206-1_27"
-  mrclass: "68R10 (05C10 05C80)"
-  volume: "2556"
 
 - number: "3"
   author: "Mohanty, R. K. and Sachdev, P. L. and Jha, Navnit"
@@ -11107,20 +10396,6 @@
   mrclass: "35R35 (80A20)"
   volume: "45"
   issn: "0033-569X"
-
-- number: "8"
-  author: "Sathyaprakash, B. S. and Lord, Eric A. and Sinha, K. P."
-  fjournal: "Physics Letters. A"
-  url: "httpdx.doi.org10.10160375-9601(84)90717-5"
-  journal: "Phys. Lett. A"
-  mrnumber: "768145"
-  pages: "407-409"
-  year: 1984
-  title: "Phase transitions and gravity"
-  doi: "10.10160375-9601(84)90717-5"
-  mrclass: "83C99"
-  volume: "105"
-  issn: "0375-9601"
 
 - number: "5"
   author: "Bennett, Nathan and Iyer, Srikanth K. and Jammalamadaka, S. Rao"
@@ -11259,17 +10534,6 @@
   mrclass: "45E05"
   volume: "6"
   issn: "2008-1359"
-
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970345"
-  pages: "D.6, 12"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Average number of intermediate variables required in the evaluation of expressions"
-  mrclass: "68Q50 (68N15)"
-  volume: "111"
 
 - number: "1"
   author: "Iyer, Srikanth K. and Manjunath, D."
@@ -11670,19 +10934,6 @@
   title: "An invariant norm for nonlinear Hamiltonian systems"
   mrclass: "37J15 (22E99 37J40 70H09 70H33)"
 
-- author: "Kavitha, Telikepalli"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.1007978-3-540-69903-3_31"
-  mrnumber: "2497022"
-  pages: "343-354"
-  year: 2008
-  publisher: "Springer, Berlin"
-  booktitle: "Algorithm theory--SWAT 2008"
-  title: "On a special co-cycle basis of graphs"
-  doi: "10.1007978-3-540-69903-3_31"
-  mrclass: "05C38"
-  volume: "5124"
-
 - author: "Baskar, S. and Prasad, Phoolan"
   mrnumber: "2667249"
   pages: "287-294"
@@ -11749,15 +11000,6 @@
   mrclass: "14D20"
   volume: "133"
   issn: "0007-4497"
-
-- author: "Amir, Amihood and Cole, Richard and Hariharan, Ramesh and Lewenstein, Moshe and Porat, Ely"
-  mrnumber: "1958420"
-  pages: "279-288"
-  year: 2001
-  publisher: "SIAM, Philadelphia, PA"
-  booktitle: "Proceedings of the Twelfth Annual ACM-SIAM Symposium on Discrete Algorithms (Washington, DC, 2001)"
-  title: "Overlap matching"
-  mrclass: "68W05"
 
 - number: "11"
   author: "Srinivas Kumar, V. V. K. and Rathish Kumar, B. V. and Das, P. C."
@@ -11836,17 +11078,6 @@
   title: "Linear programming"
   mrclass: "90C05"
 
-- author: "Baswana, Surender and Hariharan, Ramesh and Sen, Sandeep"
-  url: "httpdx.doi.org10.1145509907.509928"
-  mrnumber: "2121134"
-  pages: "117-123"
-  year: 2002
-  publisher: "ACM, New York"
-  booktitle: "Proceedings of the Thirty-Fourth Annual ACM Symposium on Theory of Computing"
-  title: "Improved decremental algorithms for maintaining transitive closure and all-pairs shortest paths"
-  doi: "10.1145509907.509928"
-  mrclass: "68R10 (05C85 68Q25 68W20)"
-
 - author: "Seshadri, Harish"
   series: "S\\emin. Th\\eor. Spectr. G\\eom."
   url: "httpdx.doi.org10.5802tsg.264"
@@ -11860,20 +11091,6 @@
   doi: "10.5802tsg.264"
   mrclass: "53C21"
   volume: "26"
-
-- series: "Lecture Notes in Computer Science"
-  url: "httpdx.doi.org10.10073-540-53487-3"
-  mrnumber: "1085032"
-  pages: "x420"
-  year: 1990
-  editor: "Nori, K. V. and Veni Madhavan, C. E."
-  publisher: "Springer-Verlag, Berlin"
-  isbn: "3-540-53487-3"
-  booktitle: "Proceedings of the Tenth Conference held in Bangalore, December 17-19, 1990"
-  title: "Foundations of software technology and theoretical computer science"
-  doi: "10.10073-540-53487-3"
-  mrclass: "68-06"
-  volume: "472"
 
 - number: "4"
   author: "Sachdev, P. L. and Joseph, K. T. and Mayil Vaganan, B."
@@ -11992,7 +11209,7 @@
   pages: "1-17"
   year: 2014
   mrreviewer: "Vladimir L. Popov"
-  title: "On the unramified principal series of $\\roman{GL}(3)$ over non-Archimedean local fields"
+  title: "On the unramified principal series of $\\mathrm{GL}(3)$ over non-Archimedean local fields"
   doi: "10.1016j.jalgebra.2013.08.022"
   mrclass: "20G25 (20G05)"
   volume: "397"
@@ -12113,20 +11330,6 @@
   volume: "19"
   issn: "0218-1274"
 
-- number: "14"
-  author: "Kavitha, Telikepalli and Nasre, Meghana"
-  fjournal: "Discrete Applied Mathematics. The Journal of Combinatorial Algorithms, Informatics and Computational Sciences"
-  url: "httpdx.doi.org10.1016j.dam.2009.06.004"
-  journal: "Discrete Appl. Math."
-  mrnumber: "2553402"
-  pages: "3181-3186"
-  year: 2009
-  title: "Optimal popular matchings"
-  doi: "10.1016j.dam.2009.06.004"
-  mrclass: "05C70"
-  volume: "157"
-  issn: "0166-218X"
-
 - number: "4"
   author: "Sengadir, T. and Pai, D. V. and Pani, A. K."
   fjournal: "Nonlinear Analysis. Theory, Methods \\ Applications. An International Multidisciplinary Journal. Series A Theory and Methods"
@@ -12141,21 +11344,6 @@
   mrclass: "47H15 (34K10 34K40 47H09 47H10 47N20)"
   volume: "28"
   issn: "0362-546X"
-
-- number: "12"
-  author: "Lord, Eric A."
-  fjournal: "Journal of Mathematical Physics"
-  url: "httpdx.doi.org10.10631.527234"
-  journal: "J. Math. Phys."
-  mrnumber: "866609"
-  pages: "3051-3054"
-  year: 1986
-  mrreviewer: "M. Carmeli"
-  title: "Gauge theory of a group of diffeomorphisms. II. The conformal and de Sitter groups"
-  doi: "10.10631.527234"
-  mrclass: "81E13 (58D05)"
-  volume: "27"
-  issn: "0022-2488"
 
 - number: "1-2"
   author: "Krishnamurthy, E. V."
@@ -12394,17 +11582,6 @@
   volume: "9"
   issn: "1705-5105"
 
-- author: "Lakshmanan, V. S."
-  series: "IMS Rep."
-  mrnumber: "970348"
-  pages: "E.51-E.59"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "Lattices what can they do for relational databases"
-  mrclass: "68P15 (06B99)"
-  volume: "111"
-
 - number: "1"
   author: "Boggarapu, Pradeep and Thangavelu, S."
   fjournal: "Publicacions Matem\\atiques"
@@ -12617,19 +11794,6 @@
   volume: "30"
   issn: "0736-2994"
 
-- author: "Sunil Chandran, L."
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.10073-540-44679-6_42"
-  mrnumber: "1935395"
-  pages: "384-389"
-  year: 2001
-  publisher: "Springer, Berlin"
-  booktitle: "Computing and combinatorics (Guilin, 2001)"
-  title: "Edge connectivity vs vertex connectivity in chordal graphs"
-  doi: "10.10073-540-44679-6_42"
-  mrclass: "05C40 (68R10)"
-  volume: "2108"
-
 - number: "6"
   author: "Rangarajan, Govindan and Sridharan, Shrihari"
   fjournal: "Applied Mathematics and Computation"
@@ -12658,19 +11822,6 @@
   mrclass: "32H35 (30F10 32A19)"
   volume: "25"
   issn: "0129-167X"
-
-- author: "Kavitha, Telikepalli and Shah, Chintan D."
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.100711940128_17"
-  mrnumber: "2296098"
-  pages: "153-162"
-  year: 2006
-  publisher: "Springer, Berlin"
-  booktitle: "Algorithms and computation"
-  title: "Efficient algorithms for weighted rank-maximal matchings and related problems"
-  doi: "10.100711940128_17"
-  mrclass: "05C70 (05C85 68W20)"
-  volume: "4288"
 
 - number: "4"
   author: "Basu, Arnab and Ghosh, Mrinal K."
@@ -13079,17 +12230,6 @@
   volume: "84"
   issn: "0369-8203"
 
-- author: "Veni Madhavan, C. E."
-  series: "IMS Rep."
-  mrnumber: "970334"
-  pages: "B.8, 11"
-  year: 1986
-  publisher: "Inst. Math. Sci., Madras"
-  booktitle: "Workshop on Mathematics of Computer Algorithms (Madras, 1986)"
-  title: "P\\olya theory of counting"
-  mrclass: "05C30"
-  volume: "111"
-
 - number: "4"
   author: "B\\eg, O. Anwar and Takhar, H. S. and B\\eg, Tasveer A. and Chamkha, A. J. and Nath, G. and Majeed, Rui"
   fjournal: "International Journal of Fluid Mechanics Research"
@@ -13162,20 +12302,6 @@
   mrclass: "35Q53 (35B10 35B40)"
   volume: "114"
   issn: "0022-2526"
-
-- number: "5-6"
-  author: "Iyengar, R. N."
-  fjournal: "Journal of Statistical Physics"
-  url: "httpdx.doi.org10.1007BF01011913"
-  journal: "J. Statist. Phys."
-  mrnumber: "858261"
-  pages: "907-920"
-  year: 1986
-  title: "A nonlinear system under combined periodic and random excitation"
-  doi: "10.1007BF01011913"
-  mrclass: "82A31"
-  volume: "44"
-  issn: "0022-4715"
 
 - number: "2"
   author: "Chakrabarti, A. and Sahoo, T."
@@ -13318,18 +12444,5 @@
   mrclass: "53C21 (53C20)"
   volume: "12"
   issn: "1093-6106"
-
-- author: "Hariharan, Ramesh and Kavitha, Telikepalli and Mehlhorn, Kurt"
-  series: "Lecture Notes in Comput. Sci."
-  url: "httpdx.doi.org10.100711786986_23"
-  mrnumber: "2305531"
-  pages: "250-261"
-  year: 2006
-  publisher: "Springer, Berlin"
-  booktitle: "Automata, languages and programming. Part I"
-  title: "A faster deterministic algorithm for minimum cycle bases in directed graphs"
-  doi: "10.100711786986_23"
-  mrclass: "05C38 (68R10 68W20)"
-  volume: "4051"
 
 
