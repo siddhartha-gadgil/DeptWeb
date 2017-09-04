@@ -10,11 +10,12 @@ Pre-requisites : <br>
     {{ content }}
 <p>&nbsp;</p>
 {% if page.books %}
-<h3> Suggested books : </h3>
+<h4> Suggested books : </h4>
 <ol>
 {% for book in page.books %}
  <li>
    {{ book.author}}, <em>{{ book.title }}</em>, {{ book. publ }}.</li>
  {% endfor %}
+ </ol>
 {% endif %}
 {% include footer.html %}
