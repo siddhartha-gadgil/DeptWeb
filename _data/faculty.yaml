@@ -1,14 +1,14 @@
 - name: Arvind Ayyer
   user-id: arvind
   position: Assistant Professor
-  research-areas: Probability, Combinatorics, Statistical Mechanics, Mathematical Physics, Experimental Mathematics
+  research-areas: Probability, combinatorics, statistical mechanics, mathematical physics, experimental mathematics
   phd: Rutgers
   phone-ext: 3215
 
 - name: Abhishek Banerjee
   user-id: abhishek
   position: Assistant Professor
-  research-areas: Algebraic geometry, Noncommutative geometry
+  research-areas: Algebraic geometry, noncommutative geometry
   phd: Johns Hopkins
   phone-ext: 3326
   website: https://sites.google.com/site/abhishekb1313/
@@ -16,21 +16,21 @@
 - name: Gautam Bharali
   user-id: bharali
   position: Associate Professor
-  research-areas: Several Complex Variables
+  research-areas: Several complex variables, complex-analytic dynamics
   phd: Wisconsin
   phone-ext: 3328
 
 - name: Tirthankar Bhattacharya
   user-id: tirtha
   position: Professor
-  research-areas: Operator Theory
+  research-areas: Operator theory
   phd: ISI
   phone-ext: 2710
 
 - name: Soumya Das
   user-id: somu
   position: Assistant Professor
-  research-areas: Number Theory
+  research-areas: Number theory
   phd: HRI
   phone-ext: 3205
   website: https://sites.google.com/site/somuhomepage/
@@ -38,28 +38,28 @@
 - name: Basudeb Datta
   user-id: dattab
   position: Professor
-  research-areas: Algebraic and Combinatorial Topology
+  research-areas: Algebraic and combinatorial topology
   phd: ISI
   phone-ext: 3211
 
 - name: Siddhartha Gadgil
   user-id: gadgil
   position: Professor
-  research-areas: Geometric Topology
+  research-areas: Geometric topology
   phd: Caltech
   phone-ext: 3209
 
 - name: Mrinal K. Ghosh
   user-id: mkg
   position: Professor
-  research-areas: Stochastic Control, Markov Decision Process, Stochastic Dynamic Games, Stochastic Hybrid Systems, Applications of Stochastic Analysis to Manufacturing systems  Finance etc.
+  research-areas: Stochastic control, Markov decision processes, stochastic dynamic games, stochastic hybrid Systems; applications of stochastic analysis to manufacturing systems, finance, etc.
   phd: IISc-TIFR
   phone-ext: 3210
 
 - name: Thirupathi Gudi
   user-id: gudi
   position: Associate Professor
-  research-areas: Numerical Analysis and Partial Differential Equations
+  research-areas: Numerical analysis, partial differentiale equations
   phd: IIT Bombay
   phone-ext: 3208
 
@@ -73,7 +73,7 @@
 - name: Srikanth K. Iyer
   user-id: skiyer
   position: Professor
-  research-areas: Theoritical and Applied Probability, Statistics; Branching Particle Systems, Random Geometric Graphs, Mathematical Finance, Credit Risk Modelling, Time Series Analysis, Monte Carlo Simulation
+  research-areas: Theoretical and applied probability, statistics, branching particle systems, random geometric graphs, mathematical finance, credit-risk modelling, time-series analysis, Monte Carlo simulation
   phd: UC, Santa Barbara
   phone-ext: 3327
 
@@ -81,89 +81,89 @@
   user-id: khare
   position: Assistant Professor
   phd: Chicago
-  research-areas: Positivity and analysis; Representation theory of Lie algebras; Combinatorics and discrete mathematics (with connections to the two research areas above)
+  research-areas: Positivity and analysis; representation theory of Lie algebras; combinatorics and discrete mathematics (with connections to the two research areas above)
   phone-ext: 3214
 
 - name: Manjunath Krishnapur
   user-id: manju
   position: Associate Professor
-  research-areas: Probability Theory (random matrix theory, zeros of random analytic functions)
+  research-areas: Probability theory (random matrix theory, zeros of random analytic functions)
   phd: UC, Berkeley
   phone-ext: 3207
 
 - name: Gadadhar Misra
   user-id: gm
   position: Professor
-  research-areas: Functional Analysis
+  research-areas: Functional analysis
   phd: Stony Brook
   phone-ext: 2712
 
 - name: A. K. Nandakumaran
   user-id: nands
   position: Professor
-  research-areas: Partial Differential Equations Homogenization, Controllability, Optimal Control and Differential games, Viscosity Solutions
+  research-areas: Partial differential equations, homogenization, controllability, optimal control and differential games; viscosity solutions
   phd: IISc-TIFR
   phone-ext: 2835
 
 - name: E. K. Narayanan
   user-id: naru
   position: Associate Professor
-  research-areas: Harmonic Analysis
+  research-areas: Harmonic analysis
   phd: ISI
   phone-ext: 3270
 
 - name: Dilip P. Patil
   user-id: patil
   position: Professor
-  research-areas: Commutative Algebra and Algebraic Geometry
+  research-areas: Commutative algebra and algebraic geometry
   phd: Bombay
   phone-ext: 3212
 
 - name: Vamsi Pritham Pingali
   user-id: vamsipingali
   position: Assistant Professor
-  research-areas: Differential geometry, several complex variables, and mathematical physics
+  research-areas: Differential geometry, several complex variables, mathematical physics
   phd: Stony Brook
   phone-ext: 2754
 
 - name: Govindan Rangarajan
   user-id: rangaraj
   position: Professor
-  research-areas: Nonlinear Dynamics and Time Series Analysis
+  research-areas: Nonlinear dynamics, time-series analysis
   phd: Maryland
   phone-ext: 3213
 
 - name: Harish Seshadri
   user-id: harish
   position: Professor
-  research-areas: Differential Geometry
+  research-areas: Differential geometry
   phd: Stony Brook
   phone-ext: 2709
 
 - name: Pooja Singla
   user-id: pooja
-  position: Assistant Professor
-  research-areas: Representation Theory
+  position: Assistant professor
+  research-areas: Representation theory
   phd: IMSc
   phone-ext: 2571
 
 - name: S. Thangavelu
   user-id: veluma
   position: Professor
-  research-areas: Harmonic Analysis
+  research-areas: Harmonic analysis
   phd: Princeton
   phone-ext: 3206
 
 - name: R. Venkatesh
   user-id: rvenkat
-  position: Assistant Professor
-  research-areas: Representation Theory of Infinite Dimensional Lie algebras
+  position: Assistant professor
+  research-areas: Representation theory of infinite-dimensional Lie algebras
   phd: IMSc
   phone-ext: 3616
 
 - name:  Kaushal Verma
   user-id: kverma
   position: Professor
-  research-areas: Several Complex Variables
+  research-areas: Several complex variables
   phd: Indiana
   phone-ext: 3216
