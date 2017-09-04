@@ -11,12 +11,19 @@ title: Course Catalogue
   {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
   <h4>  <a href={{ lnk }}>{{ course.code }}: {{ course.title }} </a>
   </h4>
+{% if page.prereqs %}
+Pre-requisites : <br> 
+{{ page.prereqs }} 
+{% endif %}
 
 
     {{ course.content }}
 
 
 
-
+{% if page.books %}
+Suggested books : <br>
+{{ page.books }}
+{% endif %}
   <p>&nbsp;</p>
  {% endfor %}
