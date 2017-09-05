@@ -15,14 +15,17 @@ title: Faculty members
       "{% if fac.website %}{{ fac.website }}{% else %}http://math.iisc.ac.in/~{{fac.user-id}}/{% endif %}">
         {{ fac.name }}</a> (Ph.D., {{ fac.phd }})<h4> </div>
       <div class="">
-        <strong>Research areas:</strong> {{ fac.research-areas}}
+        <strong>Research areas :</strong> {{ fac.research-areas}}
       </div>
       <div class="">
         <div>
-          <strong>Phone:</strong> +91-80 2293 {{ fac.phone-ext}}
+          <strong>Phone :</strong> +91-80 2293 {{ fac.phone-ext}}
         </div>
         <div>
-          <strong>E-mail:</strong> <a href="mailto:{{fac.user-id}}@iisc.ac.in">{{fac.user-id}}@iisc.ac.in</a>
+          <strong>E-mail :</strong> <a href="mailto:{{fac.user-id}}@iisc.ac.in">{{fac.user-id}}@iisc.ac.in</a>
+        </div>
+        <div>
+          <strong>Designation :</strong> {{ fac.position }} 
         </div>
         <!-- <div>
         <strong>Web page:</strong> <a href="http://math.iisc.ac.in/~{{fac.user-id}}/">http://math.iisc.ac.in/~{{fac.user-id}}/</a>
