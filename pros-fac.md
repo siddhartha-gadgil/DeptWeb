@@ -1,8 +1,17 @@
 ---
 title: Faculty Positions
 ---
- 
- 
+To apply for a faculty postion, please e-mail an application to [chairman.math@iisc.ac.in](mailto:chairman.math@iisc.ac.in) containing
+
+* A curriculum vitae (BioData)
+* List of publications
+* References (at least three)
+* Selected publications
+
+You may also wish to contact a [faculty member](faculty.html) in a subject related to yours if you are considering applying for a position at our department.
+
+## Why you should join us
+
 The Indian Institute of Science is a premier Institute of higher learning and
 research in the country. It has more than 40 departments/centres/units and
 nearly 450 faculty members pursuing research in many areas of science and
