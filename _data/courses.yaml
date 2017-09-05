@@ -3,6 +3,7 @@ aug2017:
     - code: MA 200
       name: Multivariable Calculus
       instructor: Thirupathi Gudi
+      credits: "3:1"
 
     - code: MA 212
       name: Algebra I
@@ -11,6 +12,7 @@ aug2017:
     - code: MA 219
       name: Linear Algebra
       instructor: Soumya Das
+      credits: "3:1"
 
     - code: MA 221
       name: "Analysis I: Real Anaysis"
@@ -19,6 +21,7 @@ aug2017:
     - code: MA 231
       name: Topology
       instructor: Harish Seshadri
+      credits: "3:1"
 
     - code: MA 261
       name: Probability Models
@@ -44,7 +47,7 @@ aug2017:
       name: Representation Theory
       instructor: Pooja Singla
       webpage: https://sites.google.com/site/reptheory17/
- 
+
     - code: MA 312
       name: Commutative Algebra
       instructor: Dilip Patil
