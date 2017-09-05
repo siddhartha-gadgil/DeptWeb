@@ -16,3 +16,13 @@ li.dropdown:hover > .dropdown-menu {
   margin-top: 10px;
   border-radius: 25px;
 }
+
+
+body {
+    padding-top: 20px;
+  }
+  @media (max-width: 980px) {
+    body {
+      padding-top: 0;
+    }
+  }
