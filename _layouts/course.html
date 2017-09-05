@@ -2,10 +2,16 @@
 
 <h3>{{ page.code }}:  {{ page.title }}</h3>
 <p>&nbsp;</p>
+
 {% if page.prereqs %}
-Pre-requisites : <br>
-{{ page.prereqs }}
+<h4> Pre-requisites : </h4>
+    <ol>
+    {% for pre in page.prereqs %}
+     <li> {{ pre }} </li>
+    {% endfor %}
+   </ol>
 {% endif %}
+
 <p>&nbsp;</p>
     {{ content }}
 <p>&nbsp;</p>
