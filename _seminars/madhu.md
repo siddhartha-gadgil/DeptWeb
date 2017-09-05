@@ -3,9 +3,9 @@ date: 2017-04-20
 
 time: 4pm
 
-location: LH-1 (via Skype)
+location: LH-1, Mathematics Department (via Skype)
 
-speaker: Madhusudan Manjunath (Mathematisches Forschungsinstitut Oberwolfach)
+speaker: Madhusudan Manjunath (Mathematisches Forschungsinstitut Oberwolfach, Germany)
 
 
 title: Riemann-Roch, Alexander Duality and Free Resolutions.
