@@ -1,24 +1,23 @@
 
-<p>&nbsp;</p>
-<h4> Core courses for Integrated Ph.D. first year or U.G. third year </h4>
+<table class="table table-bordered">
 
+<tr><center> Core courses for Integrated Ph.D. first year or U.G. third year </center></tr>
 {% assign list = semester.core1 %}
 
 {% include course-table.html %}
-<p>&nbsp;</p>
+
 
 {% if semester.core2 %}
-<h4> Core courses for Integrated Ph.D. second year  </h4>
+<tr> <center>Core courses for Integrated Ph.D. second year </center> </tr>
 
 {% assign list = semester.core2 %}
 
 {% include course-table.html %}
-<p>&nbsp;</p>
 {% endif %}
 
-<h4> Elective courses </h4>
+<tr><center> Elective courses </center></tr>
 
 {% assign list = semester.electives %}
 
 {% include course-table.html %}
-<p>&nbsp;</p>
+</table>

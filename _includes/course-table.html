@@ -1,5 +1,5 @@
 
-<table class="table table-bordered">
+
   <tr>
     <strong>
       <td><b>Course No.</b></td> <td><b>Credits</b></td><td><b>Course Title</b></td> <td><b>Instructor</b></td>
@@ -14,7 +14,7 @@
     3:0
     {% endif %}
   </td>
-  
+
   <td>
     {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
 
@@ -27,5 +27,3 @@
   </tr>
   {% endfor %}
  
-
-</table>
