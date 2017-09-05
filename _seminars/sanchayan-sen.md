@@ -12,7 +12,7 @@ interconnected areas:
 **a) Random discrete structures:** One major conjecture in probabilistic
 combinatorics, formulated by statistical physicists using non-rigorous
 arguments and enormous simulations in the early 2000s, is as follows: for a
-wide array of random graph models on [image: n] vertices and degree
+wide array of random graph models on $n$ vertices and degree
 exponent $\tau>3$, typical distance both within maximal components
 in the critical regime as well as on the minimal spanning tree on the giant
 component in the supercritical regime scale like
