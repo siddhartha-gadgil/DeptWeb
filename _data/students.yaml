@@ -1,48 +1,17 @@
 - name:	Sandeep K Mody
-  user-id:	eskimo
+  user-id:	sandeepmody
   year-of-joining: 2009
   programme: PhD
   image: true
 
 
-- name	:	Sudipto Chowdhury
-  user-id	:	sudipto10
-  year-of-joining: 2010
-  programme: PhD
-
-- name	:	Rajeev Gupta
-  user-id	:	rajeev10
-  year-of-joining: 2010
-  programme: PhD
-  image: true
-
-- name	:	Pranav Haridas
-  user-id	:	pranav10
-  year-of-joining: 2010
-  programme: PhD
 
 - name	:	Jis Joseph
-  user-id	:	joseph10
+  user-id	:	jisjoseph
   year-of-joining: 2010
   programme: PhD
 
-- name	:	Ratna Pal
-  user-id	:	ratna10
-  year-of-joining: 2010
-  programme: PhD
 
-- name	:	A Tulasi Ram Reddy
-  user-id	:	tulasi10
-  year-of-joining: 2010
-  programme: PhD
-  webpage	:	http://math.iisc.ernet.in/~tulasi10
-
-
-- name	:	S. Nanda Kishore Reddy
-  user-id	:	kishore11
-  year-of-joining: 2011
-  programme: PhD
-  image: true
 
 
 
@@ -80,11 +49,6 @@
   programme: PhD
   webpage	:	http://www.math.iisc.ac.in/~rakesh13/index.html
 
-
-- name	:	Anirban Kundu
-  user-id	:	anirban14
-  year-of-joining: 2014
-  programme: PhD
 
 
 - name	:	Pramath A.V
@@ -158,19 +122,6 @@
   programme: Integrated PhD
   image: true
 
-
-- name	:	Haripada Sau
-  user-id	:	sau10
-  year-of-joining: 2010
-  programme: Integrated PhD
-  image: true
-
-
-- name	:	Bidhan Chandra Sardar
-  user-id	:	bidhan10
-  year-of-joining: 2010
-  programme: Integrated PhD
-  image: true
 
 
 - name	:	Soumitra Ghara
