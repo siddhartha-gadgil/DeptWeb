@@ -9,7 +9,7 @@ speaker : Luz Roncal (BCAM -  Basque Center for Applied Mathematics, Spain)
 
 title: Weighted norm inequalities for rough singular integral operators
 ---
-Abstract : The study of weighted inequalities in Classical Harmonic
+The study of weighted inequalities in Classical Harmonic
 Analysis started in 70's, when B. Muckenhoupt characterised in 1972 the
 weights $w$ for which the Hardy--Littlewood maximal function is bounded in
 $L^p(w)$. At that time the question about how the operator depended on the
