@@ -81,7 +81,7 @@ in mind.
    who was hired relatively recently to get a sense of the prevailing
    standards in hiring.
 
-2. Please take a look at [IISc Facult Hiring](http://iisc.ac.in/opportunities/#ffs-tabbed-14) to get a sense of the steps in the
+2. Please take a look at [IISc Faculty Hiring](http://iisc.ac.in/opportunities/#ffs-tabbed-14) to get a sense of the steps in the
    recruitment procedure at the Indian Institute of Science. While
    [faculty recruitment](https://sites.google.com/site/newfacultyiisc/recruitment) is not a webpage
    authorized by the Indian Institute of Science, the information on it is
