@@ -31,4 +31,3 @@ on the multiplier norm of quasi-homogeneous polynomials as an
 application. Along the way we also prove a refinement of a result of
 Arveson on the uniqueness of the minimal dilations of pure row
 contractions.
----
