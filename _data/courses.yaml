@@ -68,6 +68,36 @@ aug2017:
       instructor: Manjunath Krishnapur
       webpage: http://math.iisc.ernet.in/~manju/RMT17/RMT.html
 
+jan2018:
+  core1:
+    - code: MA 213
+      name: Algebra II
+      instructor: Abhishek Banerjee
+
+    - code: MA 222
+      name: Measure and Integration
+      instructor: Manjunath Krishnapur
+
+    - code: MA 224
+      name: Complex Analysis
+      instructor: Harish Seshadri
+
+    - code: MA 229
+      name: Calculus on Manifolds
+      instructor: Basudeb Datta
+
+    - code: MA 241
+      name: Ordinary Differential Equations
+      instructor: A. K. Nandakumaran
+  electives:
+    - code: MA 368
+      name: Topics in Probability
+      instructor: Srikanth Iyer
+
+    - code: MA 351
+      name: Advanced Functional Analysis
+      instructor: Tirthankar Bhattacharyya
+    
 jan2017:
   core1:
     - code: MA 213
