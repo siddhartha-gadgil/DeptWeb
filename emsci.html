@@ -3,8 +3,9 @@ title: Emeritus Scientists
 ---
 <div class="col-md-12">
 <h2>Emeritus scientists</h2>
-  
+
 <h4>Alphabetically by last name</h4>
+
 
 <table class="table table-striped">
   {% for stu in site.data.emiscient %}
@@ -24,7 +25,7 @@ title: Emeritus Scientists
       </div>
       {% if stu.email %}
         <div>
-          <strong>E-mail:</strong> <a href="mailto:{{stu.email}}">{{stu.email}}</a>
+          <strong>Email:</strong>{{stu.email}}
         </div>
         {% endif %}
         {% if stu.webpage %}
