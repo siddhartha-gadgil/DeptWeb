@@ -94,10 +94,10 @@ jan2018:
       name: Topics in Probability
       instructor: Srikanth Iyer
 
-    - code: MA 351
+    - code: MA 340
       name: Advanced Functional Analysis
       instructor: Tirthankar Bhattacharyya
-    
+
 jan2017:
   core1:
     - code: MA 213
