@@ -49,7 +49,8 @@ title: Publications - Dept of Mathematics, IISc
 {% assign yearpubs = y.items | sort: 'author' %}
 {% for paper in yearpubs %}
   <li>
-    {{ paper.author }}, <em>{{ paper.title }}</em>, {{ paper.journal }} {{ paper.booktitle }}, <strong>{{paper.volume}} </strong> ({{paper.year}}), {{paper.pages}}.
+    {% if paper.author %} {{ paper.author }}{% else %} {{paper.editor}} (Ed.){% endif %},
+    <em>{{ paper.title }}</em>, {{ paper.journal }} {{ paper.booktitle }}, <strong>{{paper.volume}} </strong> ({{paper.year}}), {{paper.pages}}.
   </li>
 {% endfor %}
 </ol>
