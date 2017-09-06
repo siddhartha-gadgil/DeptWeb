@@ -42,6 +42,14 @@
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
 <div>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </div>
 <div class="">
+  <strong>Venue:</strong>
+    {% if sem.venue %}
+      {{ sem.venue }}
+      {% else %}
+      {{ sem.location }}
+      {% endif %}
+</div>
+<div class="">
 &nbsp;
 </div>
 </li>
