@@ -1,12 +1,12 @@
 ---
-speaker: Attreyee Ghosh (Center for Earth Sciences, IISc)
+speaker: Attreyee Ghosh (IISc Center for Earth Sciences)
 title: "Explaining the Earth’s surface observations: a Computational Geodynamics Approach"
 date: 2017-05-18
 time: 3pm
 venue: LH-1, Mathematics Department
 ---
 
-Abstract: The field of geodynamics deals with the large scale forces
+The field of geodynamics deals with the large scale forces
 shaping the Earth. Computational geodynamics, which uses numerical
 modeling, is one of the most important tools to understand the mechanisms
 within the deep Earth. With the help of these numerical models we can

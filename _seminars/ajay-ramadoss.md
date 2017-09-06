@@ -1,5 +1,5 @@
 ---
-speaker: Prof. Ajay Ramadoss (Indiana University)
+speaker: Prof. Ajay Ramadoss (Indiana University, USA)
 
 venue: LH-1, Mathematics Department
 

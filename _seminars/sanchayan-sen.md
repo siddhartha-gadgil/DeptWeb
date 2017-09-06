@@ -6,18 +6,17 @@ time: 3pm
 venue: LH-1, Mathematics Department
 ---
 
-The aim of this talk is to give an overview of some recent
-results in two
+The aim of this talk is to give an overview of some recent results in two
 interconnected areas:
 
 **a) Random discrete structures:** One major conjecture in probabilistic
 combinatorics, formulated by statistical physicists using non-rigorous
 arguments and enormous simulations in the early 2000s, is as follows: for a
-wide array of random graph models on [image: n] vertices and degree
-exponent [image: \tau>3], typical distance both within maximal components
+wide array of random graph models on $n$ vertices and degree
+exponent $\tau>3$, typical distance both within maximal components
 in the critical regime as well as on the minimal spanning tree on the giant
-component in the supercritical regime scale like [image:
-n^{\frac{\tau\wedge 4 -3}{\tau\wedge 4 -1}}]. In other words, the degree
+component in the supercritical regime scale like
+$n^{\frac{\tau\wedge 4 -3}{\tau\wedge 4 -1}}$. In other words, the degree
 exponent determines the universality class the random graph belongs to. The
 mathematical machinery available at the time was insufficient for providing
 a rigorous justification of this conjecture.
@@ -27,8 +26,7 @@ that several objects, including
 (i) components under critical percolation,
 (ii) the vacant set left by a random walk, and
 (iii) the minimal spanning tree,
-constructed on a wide class of random discrete structures converge, when
-viewed
+constructed on a wide class of random discrete structures converge, when viewed
 as metric measure spaces, to some random fractals in the Gromov-Hausdorff
 sense, and these limiting objects are universal under some general
 assumptions. We will discuss recent developments in a larger program aimed

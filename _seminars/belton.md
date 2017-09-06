@@ -1,5 +1,5 @@
 ---
-speaker: Alex Belton (Lancaster University)
+speaker: Alex Belton (Lancaster University, UK)
 
 date: 2017-04-5
 
