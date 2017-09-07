@@ -18,11 +18,12 @@ title: Ph.D. Degrees Awarded
 
 <div class="collapse" id="{{y.name}}">
   {% for deg in y.items %}
-
-   <p style="margin-top: 15px; margin-bottom: -7px"> <b>Name:</b> <em>{{ deg.name }}</em> </p></li>
-   <p> <b>Title:</b> {{ deg.title }} </p>
-   <p> <b>Supervisor:</b> {{ deg.advisor }}{% if deg.present %} </p>
-   <p> <b>Present Position:</b>  {{ deg.present}} </p>
+  <ul style="list-style-type:none">
+   <li><p style="margin-top: 15px; margin-bottom: -7px"> <b>Name:</b> <em>{{ deg.name }}</em> </p></li>
+   <li> <b>Title:</b> {{ deg.title }} </li>
+   <li> <b>Supervisor:</b> {{ deg.advisor }}{% if deg.present %} </li>
+   <li> <b>Present Position:</b>  {{ deg.present}} </li>
+  </ul>
  {% endif %}
      
  {% endfor %}
