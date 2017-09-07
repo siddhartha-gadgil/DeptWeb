@@ -17,16 +17,16 @@ title: Ph.D. Degrees Awarded
      </h4>
 
 <div class="collapse" id="{{y.name}}">
-  {% for deg in y.items %}
   <ul style="list-style-type:none">
+  {% for deg in y.items %}
    <li><p style="margin-top: 15px; margin-bottom: -7px"> <b>Name:</b> <em>{{ deg.name }}</em> </p></li>
    <li> <b>Title:</b> {{ deg.title }} </li>
    <li> <b>Supervisor:</b> {{ deg.advisor }}{% if deg.present %} </li>
    <li> <b>Present Position:</b>  {{ deg.present}} </li>
-  </ul>
  {% endif %}
      
  {% endfor %}
+  </ul>
 </div>
 
 </li>
