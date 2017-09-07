@@ -1,0 +1,34 @@
+---
+title: Staff
+---
+<div class="col-md-12">
+<h2>Staff</h2>
+
+  <h4>Alphabetically by last name</h4>
+  <h4>To Email: UserID[at]iisc.ac.in</h4>
+
+<table class="table table-striped">
+  {% for stu in site.data.staff %}
+  <tr>
+    <td class="col-md-7"><div>
+      <h4>
+        {% if stu.webpage %}
+        <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+        {% else %}
+        {{ stu.name }}
+        {% endif %}
+      </div>
+        <div>
+          <strong>UserID:</strong> {{stu.user-id}}
+        </div>
+      </div>
+    </td>
+    {% if stu.image %}
+    <td>
+      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
+    {% endif %}
+  </tr>
+  {%  endfor %}
+</table>
+
+</div>
