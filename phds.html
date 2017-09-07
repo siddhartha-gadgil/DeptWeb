@@ -20,7 +20,7 @@ title: Ph.D. Degrees Awarded
   {% for deg in y.items %}
 
   <ul>
-   <li> <p style="margin-top : 15px">Name:<b> {{ deg.name }} </b> </p></li>
+   <li> <p style="margin-top: 15px; margin-bottom: 15px"> <b>Name:</b> <i>{{ deg.name }}</i> </p></li>
    <li> <b>Title:</b> {{ deg.title }} </li>
    <li> <b>Supervisor:</b> {{ deg.advisor }}{% if deg.present %} </li>
    <li> <b>Present Position:</b>  {{ deg.present}} </li>
