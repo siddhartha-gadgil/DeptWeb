@@ -1,8 +1,13 @@
 ---
-title: Project staff
+title: Project Staff
 ---
 <div class="col-md-12">
 <h2 class="text-center">Project Staff</h2>
+
+<h2>Alphabetically by last name</h2>
+  
+  <p><b>To send email: <font face="Courier New" size="3">UserID[at]iisc.ac.in</font></b></p>
+  
 
 <table class="table table-striped">
   {% for stu in site.data.trainee %}
@@ -11,7 +16,7 @@ title: Project staff
       <div><h4>{{ stu.name }}</h4> </div>
       {% if stu.email %}
         <div>
-          <strong>E-mail:</strong> <a href="mailto:{{stu.email}}">{{stu.email}}</a>
+          <strong>UserID:</strong> {{stu.email}}
         </div>
         {% endif %}
         {% if stu.webpage %}
