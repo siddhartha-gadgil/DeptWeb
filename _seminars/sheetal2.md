@@ -10,7 +10,6 @@ date: 2017-02-17
 
 title: Flow Invariance Preserving Feedback Controllers for Sabra Shell Model of Turbulence
 ---
-Abstract:
 
 In this talk, I would continue dealing with Sabra shell model of
 Turbulence and study one of the important questions for fluid flow
