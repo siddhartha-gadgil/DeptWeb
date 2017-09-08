@@ -1,9 +1,9 @@
 ---
-speaker: Vaibhav Vaish, ISI, Bangalore
+speaker: Vaibhav Vaish, (ISI Bangalore)
 
-venue: Department of Mathematics, Lecture Hall I
+venue: LH-1, Mathematics Department
 
-time: 02:15 - 03:15 PM
+time: 2:15 - 3:15 PM
  
 date  : February 17, 2017 (Friday)
 title : "Punctual gluing of t-structures in algebraic geometry"
