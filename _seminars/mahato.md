@@ -2,7 +2,7 @@
 title: >
   Upscaling of a System of Semilinear Diffusion Reaction Equations in a Heterogeneous Medium: MultiScale Modeling and
   Periodic Homogenization
-speaker: Harishankar Mahato (University of Georgia, USA)
+speaker: Hari Shankar Mahato (University of Georgia, USA)
 date: 2017-01-10
 time: 11am
 venue: LH-1, Mathematics Department
