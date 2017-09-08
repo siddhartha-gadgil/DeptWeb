@@ -6,9 +6,7 @@ time: 4pm
 venue: LH-1, Mathematics Department
 ---
 
-**Abstract:** 
-In algebraic geometry the concept of height pairing (a
-particular example
+In algebraic geometry the concept of height pairing (a particular example
 of linking numbers) of algebraic cycles lies at the confluence of arithmetic,
 Hodge theory and topology. In a series of two talks, I will explain the
 notion
