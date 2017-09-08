@@ -2,9 +2,10 @@
 title: On some fourth order equations associated to Physics.
 speaker: Sanjiban Santra (CIMAT, Mexico)
 date: 2017-01-05
+time: 4pm
+venue: LH-1, Mathematics Department
 ---
 
-**Abstract:**
 We consider a fourth order traveling wave equation associated to
 the Suspension Bridge Problem (SBP). This equations are modeled by the
 traveling wave behavior on the Narrows Tacoma and the Golden Gate bridge.
