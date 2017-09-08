@@ -1,7 +1,9 @@
 ---
 title : Linking numbers for algebraic cycles
-speaker: Souvik Goswami
+speaker: Souvik Goswami (ICMAT, Madrid, Spain)
 date: 2017-01-18
+time: 4pm
+venue: LH-1, Mathematics Department
 ---
 
 **Abstract:** 
