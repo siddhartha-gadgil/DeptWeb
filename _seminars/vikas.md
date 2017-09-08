@@ -1,9 +1,9 @@
 ---
-speaker: Vikas Krishnamurthy, Imperial College, London
+speaker: Vikas Krishnamurthy (Imperial College, London)
 
-venue: Department of Mathematics, Lecture Hall III
+venue: LH-3, Mathematics Department
 
-time: 04:00 - 05:00 PM
+time: 4 - 5 pm
 
 date: February 23, 2017 (Thursday)
 title: "Theoretical models for compressible vortex streets"

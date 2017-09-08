@@ -10,7 +10,7 @@ location: LH-1, Mathematics Department
 title: Diamond lemma for group graded quasi-algebras
 ---
 
-Abstract: Quasi-algebras were introduced as algebras in a monoidal
+Quasi-algebras were introduced as algebras in a monoidal
 category. Since the associativity constraints in these categories are
 allowed to be nontrivial, the class of quasi-algebras contains various
 important examples of non-associative algebras like the octonions and

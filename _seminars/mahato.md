@@ -1,12 +1,13 @@
 ---
 title: >
   Upscaling of a System of Semilinear Diffusion Reaction Equations in a Heterogeneous Medium: MultiScale Modeling and
-  Periodic Homogenization.
-speaker: Harishankar Mahato
+  Periodic Homogenization
+speaker: Hari Shankar Mahato (University of Georgia, USA)
 date: 2017-01-10
+time: 11am
+venue: LH-1, Mathematics Department
 ---
 
-**Abstract:**
 A porous medium (concrete, soil, rocks, water reservoir, e.g.)
 is a multiscale medium
 where the heterogeneities present in the medium are characterized by the

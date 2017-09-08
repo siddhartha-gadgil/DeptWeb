@@ -1,10 +1,11 @@
 ---
 title: Finite point configurations
-speaker: E Palsson (Virginia Tech, USA)
+speaker: Eyvindur A. Palsson (Virginia Tech, USA)
 date: 2017-01-09
+time: 4pm
+venue: LH-1, Mathematics Department
 ---
 
-**Abstract:**
 As big data sets have become more common, there has been significant
 interest in finding and understanding patterns in them. One example of a
 simple pattern is the distance between data points, which can be thought of

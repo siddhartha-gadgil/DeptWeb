@@ -8,11 +8,11 @@ location: LH-1, Mathematics Department (via Skype)
 speaker: Madhusudan Manjunath (Mathematisches Forschungsinstitut Oberwolfach, Germany)
 
 
-title: Riemann-Roch, Alexander Duality and Free Resolutions.
+title: Riemann-Roch, Alexander Duality and Free Resolutions
 ---
 
 
-Abstract: The Riemann-Roch theorem is fundamental to algebraic geometry.
+The Riemann-Roch theorem is fundamental to algebraic geometry.
 In 2006, Baker and Norine discovered an analogue of the Riemann-Roch
 theorem for graphs. In fact, this theorem is not a mere analogue but has
 concrete relations with its algebro-geometric counterpart. Since its

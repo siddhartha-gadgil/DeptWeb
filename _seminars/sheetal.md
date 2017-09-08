@@ -10,7 +10,6 @@ time: 3:30pm
 
 title: Control and analysis of Shell model of Turbulence
 ---
-Abstract:
 
 In this lecture I am going to present control problems associated with
 shell models of Turbulence. Shell models of turbulence are simplified

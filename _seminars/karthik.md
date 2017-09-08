@@ -1,9 +1,9 @@
 ---
-speaker: Kartick Adhikari, IISc, Bangalore
+speaker: Kartick Adhikari (IISc Mathematics)
 
-venue: Department of Mathematics, Lecture Hall I
+venue:  LH-1, Mathematics Department
 
-time: 11:00 a.m.
+time: 11am
 
 date  : January 31, 2017 (Tuesday)
 title: "Hole probabilities for determinantal point processes in the complex plane"

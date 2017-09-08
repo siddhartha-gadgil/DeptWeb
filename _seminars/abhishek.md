@@ -1,9 +1,9 @@
 ---
-speaker: Abhishek  Banerjee,	IISc, Bangalore
+speaker: Abhishek Banerjee (IISc Mathematics)
 
-venue: Department of Mathematics, Lecture Hall I
+venue: LH-1, Mathematics Department
 
-time: 03:30 - 04:30 PM
+time: 3:30 - 4:30 pm
 
 date  : February 03, 2017 (Friday)
 title : "What is finiteness?"

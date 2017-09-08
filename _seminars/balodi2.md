@@ -11,8 +11,6 @@ time: 4pm
 title: A result for boolean interval of finite groups
 ---
 
-Abstract:
-
 A group is cyclic iff its subgroup lattice is distributive. Ore's
 generalized one direction of this result. We will discuss a dual version
 of Ore's result, for any boolean interval of finite groups under the

@@ -1,16 +1,15 @@
 ---
 speaker: Dharmatti Sheetal (IISER TVM)
 
-location: LH-1
+location: LH-1, Mathematics Department
 
-time: 11 AM
+time: 11am
 
 date: 2017-02-17
 
 
 title: Flow Invariance Preserving Feedback Controllers for Sabra Shell Model of Turbulence
 ---
-Abstract:
 
 In this talk, I would continue dealing with Sabra shell model of
 Turbulence and study one of the important questions for fluid flow
