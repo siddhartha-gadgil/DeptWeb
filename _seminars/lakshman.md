@@ -1,6 +1,6 @@
 ---
-title: Approximate controllability of an impulsive sub-diffusion equation.
-speaker: Lakshman Mahato
+title: Approximate controllability of an impulsive sub-diffusion equation
+speaker: Lakshman Mahato (IIIT Dharwad)
 date: 2017-01-13
 ---
 
