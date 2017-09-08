@@ -1,10 +1,11 @@
 ---
 title: Siegel-Veech transforms are in L2
-speaker: Jayadev Athreya, University of Washington
+speaker: Jayadev Athreya (University of Washington, USA)
 date: 2017-01-06
+time: 11am
+venue: LH-1, Mathematics Department
 ---
 
-**Abstract:**
 Let H denote a connected component of a stratum of translation
 surfaces. We show that the Siegel-Veech transform of a bounded compactly
 supported function on R2 is in L2(H,&#956;), where &#956; is the
