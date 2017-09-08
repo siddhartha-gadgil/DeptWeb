@@ -6,10 +6,15 @@ title: Young Investigators
 
 The Institute has received endowments that will enable it to recognise high performing, early-career Assistant Professors as Young investigators, who will then receive additional financial support for a period of three years. The endowments that the Institute has received will enable support to Young Investigators in the areas listed below. Endowments are being sought in other areas as well.
 
-Nominations for being recognised as Young Investigators are invited on behalf of Assistant Professors who joined the Institute on or after August 1, 2014. Recognition as a Young Investigator will be based on academic achievement at the highest national and international level. Nominations will be evaluated by a committee comprising divisional chairs and chairs of selected departments,
-Infosys Foundation Young Investigators will be supported through an endowment from the Infosys Foundation. Eligibility: Assistant Professors from the departments and centres in the Division of Physical and Mathematical Sciences.
+Nominations for being recognised as Young Investigators are invited on behalf of Assistant Professors who joined the Institute on or after August 1, 2014. Recognition as a Young Investigator will be based on academic achievement at the highest national and international level. Nominations will be evaluated by a committee comprising divisional chairs and chairs of selected departments.
 
-Pratiksha Young Investigators will be supported through an endowment from the Pratiksha Trust founded by Mr. Kris Gopalakrishnan and Mrs. Sudha Gopalakrishnan. Eligibility: Assistant Professors working in the areas of electrical, electronics, and computer sciences with broad implications for brain research, learning, data science, and neuromorphic computing.
+Infosys Foundation Young Investigators will be supported through an endowment from the Infosys Foundation. 
+
+**Eligibility:** Assistant Professors from the departments and centres in the Division of Physical and Mathematical Sciences.
+
+Pratiksha Young Investigators will be supported through an endowment from the Pratiksha Trust founded by Mr. Kris Gopalakrishnan and Mrs. Sudha Gopalakrishnan.
+
+**Eligibility:** Assistant Professors working in the areas of electrical, electronics, and computer sciences with broad implications for brain research, learning, data science, and neuromorphic computing.
 
 **Eligibility:** Assistant Professors who have joined the Institute on or after August 1, 2014.
 
