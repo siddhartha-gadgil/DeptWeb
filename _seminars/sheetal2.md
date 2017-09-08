@@ -1,9 +1,9 @@
 ---
 speaker: Dharmatti Sheetal (IISER TVM)
 
-location: LH-1
+location: LH-1, Mathematics Department
 
-time: 11 AM
+time: 11am
 
 date: 2017-02-17
 
