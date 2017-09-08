@@ -1,7 +1,7 @@
 ---
 title: Faculty Positions
 ---
-To apply for a faculty postion, please e-mail an application to [chairman.math@iisc.ac.in](mailto:chairman.math@iisc.ac.in) containing
+To apply for a faculty postion, please e-mail an application to chairman.math[at]iisc.ac.in containing
 
 * A curriculum vitae (BioData)
 * List of publications
@@ -10,12 +10,13 @@ To apply for a faculty postion, please e-mail an application to [chairman.math@i
 
 You may also wish to contact a [faculty member](faculty.html) in a subject related to yours if you are considering applying for a position at our department.
 
-## Why you should join us
+## Why join us
 
 The Indian Institute of Science is a premier Institute of higher learning and
 research in the country. It has more than 40 departments/centres/units and
 nearly 450 faculty members pursuing research in many areas of science and
 engineering.
+
 The Department of Mathematics has established itself as an excellent centre for
 research in both pure and applied mathematics. It has a small but active
 research faculty, and seeks mathematicians who will add to the research profile
@@ -23,10 +24,12 @@ of the department. In addition to the regular (i.e. post-M.Sc./M.Tech.) Ph.D.
 programme, the Department has an Integrated Ph.D. programme that admits
 students with plans for research in mathematics right after their Bachelors
 degree.
+
 The Department of Mathematics welcomes applications in all fields of
 mathematics from researchers who are exceptionally motivated, and have an
 established record of independent, high-quality research, for Assistant
 Professorships in the Department of Mathematics.
+
 Prospective candidates must have a Ph.D. (in relevant area) and must have
 completed three years of post-doctoral research at the time of appointment
 (relaxable in exceptional cases) and, preferably, be below 35 years of age.
@@ -65,7 +68,7 @@ three referees, and any other relevant details to:
   e-mail: chairman[at]math.iisc.ernet.in
 
 General information about IISc is available on the [IISc website](http://www.iisc.ac.in).
-Information about the Department of Mathematics is available on the [Departement website](http://math.iisc.ac.in)
+Information about the Department of Mathematics is available on the [Department website](http://math.iisc.ac.in).
 
 
 ## Some useful tips:
