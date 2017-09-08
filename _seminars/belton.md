@@ -11,7 +11,7 @@ location: LH-1, Mathematics Department
 title: A quantitative form of Schoenberg's theorem in fixed dimension (Joint work with D. Guillot, A. Khare and M. Putinar)
 ---
 
-Abstract : The Hadamard product of two matrices is formed by multiplying
+The Hadamard product of two matrices is formed by multiplying
 corresponding entries, and the Schur product theorem states that
 this operation preserves positive semidefiniteness.
 
