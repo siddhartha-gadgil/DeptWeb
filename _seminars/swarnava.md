@@ -7,7 +7,7 @@ location : LH-1, Mathematics Department (via Skype)
 
 speaker : Swarnava Mukhopadhyay (University of Maryland, USA)
 
-title: Conformal blocks, strange duality and the moduli space of curves.
+title: Conformal blocks, strange duality and the moduli space of curves
 ---
 Conformal blocks are refined invariants of tensor product of
 representations of a Lie algebra that give a special class of vector
