@@ -1,5 +1,5 @@
 ---
-title: On some fourth order equations associated to Physics.
+title: On some fourth order equations associated to Physics
 speaker: Sanjiban Santra (CIMAT, Mexico)
 date: 2017-01-05
 time: 4pm
