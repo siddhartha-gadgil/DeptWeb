@@ -10,7 +10,7 @@ location: LH-1, Mathematics Department
 title: Detecting free splittings
 ---
 
-Abstract: The goal of this talk is to present an algorithm which takes a
+The goal of this talk is to present an algorithm which takes a
 compact square complex belonging to a special class as input and decides
 whether its fundamental group splits as a free product. The special class
 is built by attaching tubes to finite graphs in such a way that they
