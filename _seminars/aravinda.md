@@ -1,5 +1,5 @@
 ---
-title: Eigenfunctions Seminar: Geodesic conjugacies of surfaces
+title: "Eigenfunctions Seminar: Geodesic conjugacies of surfaces"
 speaker: Prof. C.S. Aravinda (TIFR-CAM)
 date: 2017-09-15
 time: 2:30 - 3:45 and 4:00 - 4:55 pm
