@@ -1,9 +1,9 @@
 ---
-speaker: Sourav Sarkar, UC Berkeley
+speaker: Sourav Sarkar (UC Berkeley, USA)
 
-venue: Department of Mathematics, Lecture Hall I
+venue: LH-1, Mathematics Department
 
-time: 03:00 - 04:00 p.m.
+time: 3 - 4 pm
 
 date  : January 11, 2017 (Wednesday)
 title : "Limiting measure for TASEP with a slow bond"
