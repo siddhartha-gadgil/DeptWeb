@@ -8,7 +8,7 @@ location: LH-1, Mathematics Department (via Skype)
 speaker: Madhusudan Manjunath (Mathematisches Forschungsinstitut Oberwolfach, Germany)
 
 
-title: Riemann-Roch, Alexander Duality and Free Resolutions.
+title: Riemann-Roch, Alexander Duality and Free Resolutions
 ---
 
 
