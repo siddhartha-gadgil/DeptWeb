@@ -8,7 +8,6 @@ time: 11am
 venue: LH-1, Mathematics Department
 ---
 
-**Abstract:**
 A porous medium (concrete, soil, rocks, water reservoir, e.g.)
 is a multiscale medium
 where the heterogeneities present in the medium are characterized by the
