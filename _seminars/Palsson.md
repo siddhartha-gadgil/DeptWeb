@@ -1,7 +1,9 @@
 ---
 title: Finite point configurations
-speaker: E Palsson (Virginia Tech, USA)
+speaker: Eyvindur A. Palsson (Virginia Tech, USA)
 date: 2017-01-09
+time: 4pm
+venue: LH-1, Mathematics Department
 ---
 
 **Abstract:**
