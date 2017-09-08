@@ -1,9 +1,9 @@
 ---
-speaker: Sayantan Maitra, IISc, Bangalore
+speaker: Sayantan Maitra (IISc Mathematics)
 
-venue: Department of Mathematics, Lecture Hall I
+venue:  LH-1, Mathematics Department
 
-time: 11:00 a.m.
+time: 11am
 
 date  : January 20, 2017 (Friday)
 title : "The Space of Metric Measure Spaces"
