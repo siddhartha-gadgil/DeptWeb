@@ -1,7 +1,7 @@
 ---
 title: Faculty Positions
 ---
-To apply for a faculty postion, please e-mail an application to chairman.math[at]iisc.ac.in containing
+To apply for a faculty postion, please e-mail an application to ``chairman.math[at]iisc.ac.in`` containing
 
 * A curriculum vitae
 * List of publications
@@ -49,16 +49,16 @@ for on-campus housing, or claim a House Rent Allowance of Rs. 11,400
 (i.e., 30% of Rs. 38,000).
 
 At the end of three years' service, an Assistant Professor's pay is raised to
-the pay grade Rs. 37,400+9000 per month. 
+the pay grade Rs. 37,400+9000 per month. At the current rates of exchange, 1 US
+dollar = Rs. 63.95 approximately; also 1 PPP-US dollar = Rs. 18.19
+(approximately) which is the _effective_ value of the US dollar against the rupee
+adjusted for Purchasing Power Parity (**source:** World Development Indicators:
+2016, World Bank).
 
-## Central government pay-scales and salaries are currently in a process of revision,
+
+**Central government pay-scales and salaries are currently in a process of revision,**
 owing to which the salaries for the pay grades are expected to rise very soon.
 
-At the current rates of exchange, 1 US
-dollar = Rs. 63.95 approximately; also 1 PPP-US dollar = Rs. 18.19
-(approximately) which is the effective value of the US dollar against the rupee
-adjusted for Purchasing Power Parity (source: World Development Indicators:
-2016, World Bank).
 
 Interested candidates may apply by sending a curriculum vitae, list of
 publications along with reprints of important publications, a description of
@@ -71,7 +71,7 @@ three referees, and any other relevant details to:
   Bangalore  560 012  
   INDIA  
 
-  e-mail: chairman[at]math.iisc.ernet.in
+  e-mail: ``chairman[at]math.iisc.ernet.in``
 
 General information about IISc is available on the [IISc website](http://www.iisc.ac.in).
 Information about the Department of Mathematics is available on the [Department website](http://math.iisc.ac.in).
