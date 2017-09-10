@@ -1,5 +1,5 @@
 ---
-speaker: Alex Belton (Lancaster University, UK)
+speaker: Alexander Belton (Lancaster University, UK)
 
 date: 2017-04-5
 
@@ -8,7 +8,7 @@ time: 4pm
 location: LH-1, Mathematics Department
 
 
-title: A quantitative form of Schoenberg's theorem in fixed dimension (Joint work with D. Guillot, A. Khare and M. Putinar)
+title: A quantitative form of Schoenberg's theorem in fixed dimension
 ---
 
 The Hadamard product of two matrices is formed by multiplying
@@ -26,3 +26,4 @@ For matrices of fixed order, the situation is more interesting. This talk
 will present recent work which shows the existence of polynomials with
 negative leading term which preserve positive semidefiniteness, and
 characterises precisely how large this term may be.
+(Joint work with D. Guillot, A. Khare and M. Putinar)
