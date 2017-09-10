@@ -26,4 +26,4 @@ For matrices of fixed order, the situation is more interesting. This talk
 will present recent work which shows the existence of polynomials with
 negative leading term which preserve positive semidefiniteness, and
 characterises precisely how large this term may be.
-(Joint work with D. Guillot, A. Khare and M. Putinar)
+(Joint work with D. Guillot, A. Khare and M. Putinar.)
