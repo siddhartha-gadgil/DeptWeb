@@ -90,8 +90,8 @@ jan2018:
       name: Ordinary Differential Equations
       instructor: A. K. Nandakumaran
   electives:
-    - code: MA 368
-      name: Topics in Probability
+    - code: MA 392
+      name: Random Graphs and interacting particle systems
       instructor: Srikanth Iyer
 
     - code: MA 340
