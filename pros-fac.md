@@ -1,15 +1,16 @@
 ---
 title: Faculty Positions
 ---
-To apply for a faculty postion, please e-mail an application to chairman.math[at]iisc.ac.in containing
+To apply for a faculty postion, please e-mail an application to ``chairman.math[at]iisc.ac.in`` containing
 
 * a curriculum vitae (CV).
 * list of publications, along with reprints of important publications.
 * a description of proposed research.
 * names and e-mail addresses of at lest 3 referees.
-* * any other relevant details.
+* any other relevant details.
 
-You may also wish to contact a [faculty member](faculty.html) in a subject related to yours if you are considering applying for a position at our department.
+You may also wish to contact a [faculty member](faculty.html) in a subject related to yours if you
+are considering applying for a position at our department.
 
 ## Why join us
 
@@ -21,7 +22,7 @@ engineering.
 The Department of Mathematics has established itself as an excellent centre for
 research in both pure and applied mathematics. It has a small but active
 research faculty, and seeks mathematicians who will add to the research profile
-of the department. In addition to the regular (i.e. post-M.Sc./M.Tech.) Ph.D.
+of the department. In addition to the regular (i.e., post-M.Sc./M.Tech.) Ph.D.
 programme, the Department has an Integrated Ph.D. programme that admits
 students with plans for research in mathematics right after their Bachelors
 degree.
@@ -39,23 +40,27 @@ The salary will be in the pay grade Rs. 30,000+8,000 per month (basic salary
 for this designation plus grade pay) plus allowances --- with raises each year.
 The total monthly pay includes:
 
-* Dearness Allowance (DA), which currently (as of November, 2013) stands at 90%
+* Dearness Allowance (DA), which currently (as of August, 2017) stands at 136%
   of one's basic plus grade pay (and which is usally revised every 6 months);
-* Transport Allowance, which currently stands at Rs. 3200 plus 90* selected publications
-% (this
+* Transport Allowance, which currently stands at Rs. 3200 plus 130% (this
   supplement is at the prevailing rate of the DA, and rises along with it).
 
-Thus, the total emoluments, at present, for this pay grade stand at Rs. 78,280
+Thus, the total emoluments, at present, for this pay grade stand at Rs. 97,230
 per month. Additionally, a newly-appointed Assistant Professor can either opt
-for virtually rent-free on-campus housing, or claim a House Rent Allowance of
-Rs. 11,400 (i.e. 30% of Rs. 38,000).
+for on-campus housing, or claim a House Rent Allowance of Rs. 11,400
+(i.e., 30% of Rs. 38,000).
 
 At the end of three years' service, an Assistant Professor's pay is raised to
 the pay grade Rs. 37,400+9000 per month. At the current rates of exchange, 1 US
-dollar = Rs. 61.50 approximately; also 1 PPP-US dollar = Rs. 23.65
-(approximately) which is the effective value of the US dollar against the rupee
-adjusted for Purchasing Power Parity (source: World Development Indicators:
-2013, World Bank).
+dollar = Rs. 63.95 approximately; also 1 PPP-US dollar = Rs. 18.19
+(approximately) which is the _effective_ value of the US dollar against the rupee
+adjusted for Purchasing Power Parity (**source:** World Development Indicators:
+2016, World Bank).
+
+
+**Central government pay-scales and salaries are currently in a process of revision,**
+owing to which the salaries for the pay grades are expected to rise very soon.
+
 
 Interested candidates may apply by sending a curriculum vitae, list of
 publications along with reprints of important publications, a description of
@@ -63,12 +68,13 @@ proposed research, names and addresses (with e-mail and fax number) of at least
 three referees, and any other relevant details to:
 
   The Chairman  
-  Department of Mathematics  
+  Department of Mathematics  * selected publications
+
   Indian Institute of Science  
   Bangalore  560 012  
   INDIA  
 
-  e-mail: chairman[at]math.iisc.ernet.in
+  e-mail: ``chairman[at]math.iisc.ernet.in``
 
 General information about IISc is available on the [IISc website](http://www.iisc.ac.in).
 Information about the Department of Mathematics is available on the [Department website](http://math.iisc.ac.in).
@@ -76,13 +82,15 @@ Information about the Department of Mathematics is available on the [Department 
 
 ## Some useful tips:
 
-In case you have decided to apply to the Department of Mathematics at the
+In case you have decided to apply to the Department of Mathematics at the* selected publications
+
 Indian Institute of Science, here are a few points that might be useful to bear
 in mind.
 
 1. The Department of Mathematics aims to recruit, over time, mathematicians
    with increasingly strong academic records. Thus, if you are interested in
-   applying and there are colleagues in the department who work in your area
+   applying and there are colleagues in the department who work in your area* selected publications
+
    of interest, then you might find it helpful to talk/write to a colleague
    who was hired relatively recently to get a sense of the prevailing
    standards in hiring.
@@ -106,4 +114,4 @@ in mind.
    informally about your application.
 
  
-                      Page last updated on March 26, 2014
+                      ``Page last updated on September 8, 2017``
