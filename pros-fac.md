@@ -3,10 +3,11 @@ title: Faculty Positions
 ---
 To apply for a faculty postion, please e-mail an application to chairman.math[at]iisc.ac.in containing
 
-* A curriculum vitae (BioData)
-* List of publications
-* References (at least three)
-* Selected publications
+* a curriculum vitae (CV).
+* list of publications, along with reprints of important publications.
+* a description of proposed research.
+* names and e-mail addresses of at lest 3 referees.
+* * any other relevant details.
 
 You may also wish to contact a [faculty member](faculty.html) in a subject related to yours if you are considering applying for a position at our department.
 
@@ -32,14 +33,16 @@ Professorships in the Department of Mathematics.
 
 Prospective candidates must have a Ph.D. (in relevant area) and must have
 completed three years of post-doctoral research at the time of appointment
-(relaxable in exceptional cases) and, preferably, be below 35 years of age.
+(relaxable in exceptional cases) and, preferably, be below 35 yea* selected publications
+rs of age.
 The salary will be in the pay grade Rs. 30,000+8,000 per month (basic salary
 for this designation plus grade pay) plus allowances --- with raises each year.
 The total monthly pay includes:
 
 * Dearness Allowance (DA), which currently (as of November, 2013) stands at 90%
   of one's basic plus grade pay (and which is usally revised every 6 months);
-* Transport Allowance, which currently stands at Rs. 3200 plus 90% (this
+* Transport Allowance, which currently stands at Rs. 3200 plus 90* selected publications
+% (this
   supplement is at the prevailing rate of the DA, and rises along with it).
 
 Thus, the total emoluments, at present, for this pay grade stand at Rs. 78,280
