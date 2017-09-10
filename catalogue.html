@@ -6,7 +6,7 @@ title: Course Catalogue
     {% assign sorted = (site.all-courses | sort: 'code')  %}
 
 {% for course in sorted  %}
-
+<div>
 
   {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
   <h4>  <a href={{ lnk }}>{{ course.code }}: {{ course.title }} </a>
@@ -33,7 +33,10 @@ title: Course Catalogue
      {% endfor %}
    </ol>
     {% endif %}
+</div>
 
+<div class="row">
 <hr />
+</div>
 
 {% endfor %}
