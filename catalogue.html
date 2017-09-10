@@ -29,7 +29,8 @@ title: Course Catalogue
     <h4> Suggested books : </h4>
     <ol>
     {% for book in course.books %}
-     <li> {{ book.author}}, <em>{{ book.title }}</em>, {{ book. publ }}.</li>
+     <li>
+       {% if book.author %}{{ book.author}}, {% endif %} <em>{{ book.title }}</em>{% if book.publ %}, {{ book. publ }}{% endif %}.</li>
      {% endfor %}
    </ol>
     {% endif %}
