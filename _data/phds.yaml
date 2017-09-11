@@ -936,8 +936,13 @@
 
 - name: Sudipto Chowdhury
   year: 2016
-  title: " Finite Element Analysis of Some Interior and Boundary Control  Problems"
+  title: "Finite Element Analysis of Some Interior and Boundary Control  Problems"
   advisor: A. K. Nanadkumaran, Tirupathi Gudi
+
+- name: Bidhan Chandra Sardar
+  year: 2016
+  title: "Study of Optimal Control Problems in a Domain with Rugose Boundary and Homogenization"
+  advisor: A. K. Nanadkumaran
 
 - name: Kartick Adhikari
   year: 2017
