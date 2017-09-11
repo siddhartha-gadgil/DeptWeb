@@ -1,7 +1,7 @@
 ---
 title: Faculty Positions
 ---
-To apply for a faculty postion, please e-mail an application to ``chairman.math[at]iisc.ac.in`` containing
+To apply for a faculty postion, please e-mail an application to ``chair.math[at]iisc.ac.in`` containing
 
 * a curriculum vitae (CV).
 * list of publications, along with reprints of important publications.
@@ -34,15 +34,14 @@ Professorships in the Department of Mathematics.
 
 Prospective candidates must have a Ph.D. (in relevant area) and must have
 completed three years of post-doctoral research at the time of appointment
-(relaxable in exceptional cases) and, preferably, be below 35 yea* selected publications
-rs of age.
+(relaxable in exceptional cases) and, preferably, be below 35 years in age.
 The salary will be in the pay grade Rs. 30,000+8,000 per month (basic salary
 for this designation plus grade pay) plus allowances --- with raises each year.
 The total monthly pay includes:
 
 * Dearness Allowance (DA), which currently (as of August, 2017) stands at 136%
   of one's basic plus grade pay (and which is usally revised every 6 months);
-* Transport Allowance, which currently stands at Rs. 3200 plus 130% (this
+* Transport Allowance, which currently stands at Rs. 3200 plus 136% (this
   supplement is at the prevailing rate of the DA, and rises along with it).
 
 Thus, the total emoluments, at present, for this pay grade stand at Rs. 97,230
@@ -58,7 +57,7 @@ adjusted for Purchasing Power Parity (**source:** World Development Indicators:
 2016, World Bank).
 
 
-**Central government pay-scales and salaries are currently in a process of revision,**
+**Central government pay-scales and salaries are currently in the process of revision,**
 owing to which the salaries for the pay grades are expected to rise very soon.
 
 
@@ -68,13 +67,12 @@ proposed research, names and addresses (with e-mail and fax number) of at least
 three referees, and any other relevant details to:
 
   The Chairman  
-  Department of Mathematics  * selected publications
-
+  Department of Mathematics
   Indian Institute of Science  
   Bangalore  560 012  
   INDIA  
 
-  e-mail: ``chairman[at]math.iisc.ernet.in``
+  e-mail: ``chair.math[at]iisc.ac.in``
 
 General information about IISc is available on the [IISc website](http://www.iisc.ac.in).
 Information about the Department of Mathematics is available on the [Department website](http://math.iisc.ac.in).
@@ -82,15 +80,13 @@ Information about the Department of Mathematics is available on the [Department 
 
 ## Some useful tips:
 
-In case you have decided to apply to the Department of Mathematics at the* selected publications
-
+In case you have decided to apply to the Department of Mathematics at the
 Indian Institute of Science, here are a few points that might be useful to bear
 in mind.
 
 1. The Department of Mathematics aims to recruit, over time, mathematicians
    with increasingly strong academic records. Thus, if you are interested in
-   applying and there are colleagues in the department who work in your area* selected publications
-
+   applying and there are colleagues in the department who work in your area
    of interest, then you might find it helpful to talk/write to a colleague
    who was hired relatively recently to get a sense of the prevailing
    standards in hiring.
