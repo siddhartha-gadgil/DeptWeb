@@ -37,11 +37,14 @@
 <br>
 <ul>
 
-{% for sem in sorted limit: 4 %}
+{% for sem in sorted limit: 3 %}
 <li>
  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
 <div>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </div>
+<div class=""> <strong>Time: </strong>
+  {{ sem.time }}
+</div>
 <div class="">
   <strong>Venue:</strong>
     {% if sem.venue %}
