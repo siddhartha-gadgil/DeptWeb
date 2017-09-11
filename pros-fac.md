@@ -66,13 +66,13 @@ publications along with reprints of important publications, a description of
 proposed research, names and addresses (with e-mail and fax number) of at least
 three referees, and any other relevant details to:
 
-  The Chairman  
-  Department of Mathematics
-  Indian Institute of Science  
-  Bangalore  560 012  
-  INDIA  
+The Chairman  
+Department of Mathematics  
+Indian Institute of Science  
+Bangalore  560 012  
+INDIA  
 
-  e-mail: ``chair.math[at]iisc.ac.in``
+e-mail: ``chair.math[at]iisc.ac.in``
 
 General information about IISc is available on the [IISc website](http://www.iisc.ac.in).
 Information about the Department of Mathematics is available on the [Department website](http://math.iisc.ac.in).
