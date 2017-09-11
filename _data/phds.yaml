@@ -906,7 +906,7 @@
 
 - name: Senthil Raani K. S.
   year: 2016
-  title: Lp asymptotics of Fourier transform of fractal measures
+  title: $L^p$ asymptotics of Fourier transform of fractal measures
   advisor: E. K. Narayanan
 
 - name: Tulasi Ram Reddy A.
@@ -923,3 +923,28 @@
   year: 2016
   title: The Green's function, the Bergman Kernel and quadrature domains in Cn
   advisor: K. Verma
+
+- name: Arpan Kabiraj
+  year: 2016
+  title: "Goldman bracket : Center, geometric intersection number and length equivalent curves"
+  advisor: Siddhartha Gadgil
+
+- name: Haripada Sau
+  year: 2016
+  title: "Operator theory on symmetrized  bidisc  and tetrablock - some explicit  Contructions"
+  advisor: Tirthankar Bhattacharyya
+
+- name: Sudipto Chowdhury
+  year: 2016
+  title: " Finite Element Analysis of Some Interior and Boundary Control  Problems"
+  advisor: A. K. Nanadkumaran, Tirupathi Gudi
+
+- name: Kartick Adhikari
+  year: 2017
+  title: "Hole probabilities for determinantal point processes in the complex plane"
+  advisor: Manjunath Krishnapur
+
+- name: S Nanda Kishore Reddy
+  year: 2017
+  title: "Eigenvalues of products of random matrices"
+  advisor: Manjunath Krishnapur
