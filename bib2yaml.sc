@@ -10,10 +10,34 @@ val reader= new java.io.FileReader("_data/publications.bib")
 
 val db = parser.parse(reader)
 
-val regex = "[^a-zA-Z0-9 \\-,.\\\\$\\{\\}\\(\\)_\\^]".r
+
+val regex = "[^a-zA-Z0-9 \\-,.\\\\$\\{\\}\\(\\)_\\``\'\"^]".r
 def fix(s: String) =
   {
-    val purged = regex.replaceAllIn(s, "").replace("\\", "\\\\").replace("--", "-")
+    val purged =
+      regex.
+        replaceAllIn(s, "").
+        replace("\\'e", "&eacute;").
+        replace("\\`e", "&egrave;").
+        replace("\\\"o", "&ouml;").
+        replace("\\`a", "&agrave;").
+        replace("\\'a", "&aacute;").
+        replace("\\`o", "&ograve;").
+        replace("\\'o", "&oacute;").
+        replace("\\`O", "&ograve;").
+        replace("\\'O", "&oacute;").
+        replace("\\\"u", "&uuml;").
+        replace("\\'E", "&Eacute;").
+        replace("\\`E", "&Egrave;").
+        replace("\\\"O", "&Ouml;").
+        replace("\\\"A", "&Auml;").
+        replace("\\\"a", "&auml;").
+        replace("\\`A", "&Agrave;").
+        replace("\\'A", "&Aacute;").
+        replace("\\\"U", "&Uuml;").
+        replace("\\", "\\\\").
+        replace("--", "-").
+        replace("\"", "\\\"")
     val debraceVec = purged.split('$').toVector.zipWithIndex.map {
       case (x, n) => if (n % 2 == 0) x.replace("{", "").replace("}", "") else x
     }

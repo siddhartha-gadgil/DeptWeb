@@ -57,7 +57,7 @@
   mrnumber: "1802381"
   pages: "151-154"
   year: 2000
-  mrreviewer: "Radan Ku\\Aera"
+  mrreviewer: "Radan Ku&Auml;era"
   publisher: "Bhaskaracharya Pratishthana, Pune"
   booktitle: "Cyclotomic fields and related topics (Pune, 1999)"
   title: "Stickelberger revisited"
@@ -68,7 +68,7 @@
   mrnumber: "2664573"
   pages: "51-57"
   year: 2010
-  publisher: "Birkh\\auser Verlag, Basel"
+  publisher: "Birkh&auml;user Verlag, Basel"
   booktitle: "Pseudo-differential operators complex analysis and partial differential equations"
   title: "Spectral invariance of SG pseudo-differential operators on $L^p(\\Bbb R^n)$"
   mrclass: "35S05 (47G30)"
@@ -146,7 +146,7 @@
   issn: "0022-2526"
 
 - author: "Biswas, Shibananda and Misra, Gadadhar and Putinar, Mihai"
-  fjournal: "Journal f\\ur die Reine und Angewandte Mathematik. Crelles Journal"
+  fjournal: "Journal f&uuml;r die Reine und Angewandte Mathematik. Crelle's Journal"
   url: "httpdx.doi.org10.1515CRELLE.2011.091"
   journal: "J. Reine Angew. Math."
   mrnumber: "2876263"
@@ -175,14 +175,14 @@
 
 - number: "6"
   author: "Seshadri, Harish and Verma, Kaushal"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2006.01.005"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "2209223"
   pages: "427-430"
   year: 2006
   mrreviewer: "Martin Deraux"
-  title: "A class of nonpositively curved K\\ahler manifolds biholomorphic to the unit ball in $\\Bbb C^n$"
+  title: "A class of nonpositively curved K&auml;hler manifolds biholomorphic to the unit ball in $\\Bbb C^n$"
   doi: "10.1016j.crma.2006.01.005"
   mrclass: "32Q05 (32Q15 32V15)"
   volume: "342"
@@ -211,7 +211,7 @@
   pages: "1506-1522"
   year: 1986
   mrreviewer: "Yusuke Kato"
-  title: "Generalized Burgers equations and Euler-Painlev\\e transcendents. I"
+  title: "Generalized Burgers equations and Euler-Painlev&eacute; transcendents. I"
   doi: "10.10631.527111"
   mrclass: "35Q20 (65M10)"
   volume: "27"
@@ -219,9 +219,9 @@
 
 - number: "1"
   author: "Adhikari, Kartick and Kishore Reddy, Nanda and Ram Reddy, Tulasi and Saha, Koushik"
-  fjournal: "Annales de lInstitut Henri Poincar\\e Probabilit\\es et Statistiques"
+  fjournal: "Annales de l'Institut Henri Poincar&eacute; Probabilit&eacute;s et Statistiques"
   url: "httpdx.doi.org10.121414-AIHP632"
-  journal: "Ann. Inst. Henri Poincar\\e Probab. Stat."
+  journal: "Ann. Inst. Henri Poincar&eacute; Probab. Stat."
   mrnumber: "3449292"
   pages: "16-46"
   year: 2016
@@ -310,7 +310,7 @@
   mrreviewer: "Hongyu L. He"
   publisher: "Amer. Math. Soc., Providence, RI"
   booktitle: "Harmonic analysis and partial differential equations"
-  title: "On the unreasonable effectiveness of Gutzmers formula"
+  title: "On the unreasonable effectiveness of Gutzmer's formula"
   doi: "10.1090conm50509924"
   mrclass: "43A85 (22E30 43A90 46E35)"
   volume: "505"
@@ -331,7 +331,7 @@
 
 - number: "5"
   author: "Banerjee, Abhishek"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2014.03.016"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "3194242"
@@ -424,7 +424,7 @@
   pages: "101-106"
   year: 2009
   mrreviewer: "Boris Petrovich Osilenker"
-  title: "Hermite-Sobolev spaces and the Feichtingers algebra"
+  title: "Hermite-Sobolev spaces and the Feichtinger's algebra"
   mrclass: "42C15 (33C45 42B35 46E35)"
   volume: "17"
   issn: "0971-3611"
@@ -453,7 +453,7 @@
   pages: "2135-2140"
   year: 2010
   mrreviewer: "Franz Luef"
-  title: "Benedicks theorem for the Heisenberg group"
+  title: "Benedicks' theorem for the Heisenberg group"
   doi: "10.1090S0002-9939-10-10272-X"
   mrclass: "42B10 (22E30 43A05)"
   volume: "138"
@@ -539,7 +539,7 @@
   volume: "59"
   issn: "1747-6933"
 
-- author: "Ayyer, Arvind and Bouttier, J\\er\\emie and Corteel, Sylvie and Nunzi, Fran\\ccois"
+- author: "Ayyer, Arvind and Bouttier, J&eacute;r&eacute;mie and Corteel, Sylvie and Nunzi, Fran\\ccois"
   fjournal: "Electronic Journal of Probability"
   url: "httpdx.doi.org10.1214EJP.v20-3495"
   journal: "Electron. J. Probab."
@@ -570,13 +570,13 @@
 
 - number: "6"
   author: "Ji, Kui and Jiang, Chunlan and Keshari, Dinesh Kumar and Misra, Gadadhar"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2014.04.001"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "3210134"
   pages: "511-514"
   year: 2014
-  mrreviewer: "Lajos Moln\\Ar"
+  mrreviewer: "Lajos Moln\\A`r"
   title: "Flag structure for operators in the Cowen-Douglas class"
   doi: "10.1016j.crma.2014.04.001"
   mrclass: "47B10 (46L08)"
@@ -585,8 +585,8 @@
 
 - number: "2"
   author: "Molinelli, S. and Patil, D. P. and Tamone, G."
-  fjournal: "Beitr\\age zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  journal: "Beitr\\age Algebra Geom."
+  fjournal: "Beitr&auml;ge zur Algebra und Geometrie. Contributions to Algebra and Geometry"
+  journal: "Beitr&auml;ge Algebra Geom."
   mrnumber: "1642712"
   pages: "433-446"
   year: 1998
@@ -654,7 +654,7 @@
   issn: "1050-5164"
 
 - number: "11"
-  author: "Hyv\\onen, N. and Nandakumaran, A. K. and Varma, H. M. and Vasu, R. M."
+  author: "Hyv&ouml;nen, N. and Nandakumaran, A. K. and Varma, H. M. and Vasu, R. M."
   fjournal: "Mathematical Methods in the Applied Sciences"
   url: "httpdx.doi.org10.1002mma.2697"
   journal: "Math. Methods Appl. Sci."
@@ -886,7 +886,7 @@
   issn: "0973-2721"
 
 - author: "Richard, Thomas"
-  fjournal: "Journal f\\ur die Reine und Angewandte Mathematik. Crelles Journal"
+  fjournal: "Journal f&uuml;r die Reine und Angewandte Mathematik. Crelle's Journal"
   url: "httpdx.doi.org10.1515crelle-2013-0042"
   journal: "J. Reine Angew. Math."
   mrnumber: "3353541"
@@ -921,7 +921,7 @@
   pages: "451-456"
   year: 2007
   mrreviewer: "Christine Guenther"
-  title: "On the proof of the Poincar\\e conjecture"
+  title: "On the proof of the Poincar&eacute; conjecture"
   mrclass: "53C44 (57M40)"
   volume: "87"
   issn: "0970-4140"
@@ -1004,7 +1004,7 @@
   mrnumber: "2225468"
   pages: "719-720"
   year: 2006
-  title: "Corrigendum to Schr\\odinger equation and the oscillatory semigroup for the Hermite operator J. Funct. Anal. \\bf 224 (2005), no. 2, 371-385 MR2146045"
+  title: "Corrigendum to ``Schr&ouml;dinger equation and the oscillatory semigroup for the Hermite operator'' J. Funct. Anal. \\bf 224 (2005), no. 2, 371-385 MR2146045"
   doi: "10.1016j.jfa.2005.12.004"
   mrclass: "33C45 (35J10 35Q40 47N50)"
   volume: "235"
@@ -1233,14 +1233,14 @@
   issn: "0971-3611"
 
 - number: "3"
-  author: "Ben Sa\\\\i d, Salem and Thangavelu, Sundaram and Dogga, Venku Naidu"
+  author: "Ben Sa\\\"\\i d, Salem and Thangavelu, Sundaram and Dogga, Venku Naidu"
   fjournal: "Journal of the Australian Mathematical Society"
   url: "httpdx.doi.org10.1017S1446788713000311"
   journal: "J. Aust. Math. Soc."
   mrnumber: "3164504"
   pages: "297-314"
   year: 2013
-  title: "Uniqueness of solutions to Schr\\odinger equations on $H$-type groups"
+  title: "Uniqueness of solutions to Schr&ouml;dinger equations on $H$-type groups"
   doi: "10.1017S1446788713000311"
   mrclass: "35R03 (35A02 35H20 35K08 35Q41 43A80)"
   volume: "95"
@@ -1403,7 +1403,7 @@
   issn: "0030-8730"
 
 - number: "1-2"
-  author: "Ayyer, Arvind and Schilling, Anne and Steinberg, Benjamin and Thi\\ery, Nicolas M."
+  author: "Ayyer, Arvind and Schilling, Anne and Steinberg, Benjamin and Thi&eacute;ry, Nicolas M."
   fjournal: "International Journal of Algebra and Computation"
   url: "httpdx.doi.org10.1142S0218196715400081"
   journal: "Internat. J. Algebra Comput."
@@ -1468,7 +1468,7 @@
   mrnumber: "3300744"
   pages: "569-570"
   year: 2015
-  title: "Corrigendum to Combinatorial triangulations of homology spheres Discrete Math. 305 (2005) 1-17 MR2186679"
+  title: "Corrigendum to ``Combinatorial triangulations of homology spheres'' Discrete Math. 305 (2005) 1-17 MR2186679"
   doi: "10.1016j.disc.2014.11.010"
   mrclass: "57Q15 (05E18)"
   volume: "338"
@@ -1497,7 +1497,7 @@
   pages: "689-695"
   year: 2014
   mrreviewer: "Zhi Jiang"
-  title: "On the K\\ahler structures over Quot schemes, II"
+  title: "On the K&auml;hler structures over Quot schemes, II"
   mrclass: "14H60 (14H81 32Q10)"
   volume: "58"
   issn: "0019-2082"
@@ -2036,13 +2036,13 @@
 
 - number: "1"
   author: "Geller, S. and Maloo, Alok Kumar and Patil, D. P. and Roberts, L. G."
-  fjournal: "Beitr\\age zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  journal: "Beitr\\age Algebra Geom."
+  fjournal: "Beitr&auml;ge zur Algebra und Geometrie. Contributions to Algebra and Geometry"
+  journal: "Beitr&auml;ge Algebra Geom."
   mrnumber: "1745580"
   pages: "67-84"
   year: 2000
   mrreviewer: "Reinhold H\\A${}^1\\\\_4$bl"
-  title: "K\\ahler differentials of affine monomial curves"
+  title: "K&auml;hler differentials of affine monomial curves"
   mrclass: "14F10 (13N05 14H99)"
   volume: "41"
   issn: "0138-4821"
@@ -2108,7 +2108,7 @@
 
 - number: "1"
   author: "Boggarapu, Pradeep and Thangavelu, Sundaram"
-  fjournal: "Annales Math\\ematiques Blaise Pascal"
+  fjournal: "Annales Math&eacute;matiques Blaise Pascal"
   url: "httpambp.cedram.orgitemidAMBP_2015__22_1_89_0"
   journal: "Ann. Math. Blaise Pascal"
   mrnumber: "3361565"
@@ -2240,8 +2240,8 @@
   mrnumber: "1449749"
   pages: "53-67"
   year: 1997
-  mrreviewer: "Zolt\\An F\\A${}^1\\\\_4$redi"
-  title: "Proof of a conjecture of Frankl and F\\uredi"
+  mrreviewer: "Zolt\\A`n F\\A${}^1\\\\_4$redi"
+  title: "Proof of a conjecture of Frankl and F&uuml;redi"
   doi: "10.1006jcta.1997.2774"
   mrclass: "05D05 (05A05 05C65)"
   volume: "79"
@@ -2262,7 +2262,7 @@
   issn: "0375-9601"
 
 - author: "Jotsaroop, K. and Sanjay, P. K. and Thangavelu, S."
-  fjournal: "Journal dAnalyse Math\\ematique"
+  fjournal: "Journal d'Analyse Math&eacute;matique"
   url: "httpdx.doi.org10.1007s11854-013-0008-z"
   journal: "J. Anal. Math."
   mrnumber: "3043153"
@@ -2335,7 +2335,7 @@
   issn: "0334-2700"
 
 - number: "2"
-  author: "Patil, D. P. and Storch, U. and St\\uckard, J."
+  author: "Patil, D. P. and Storch, U. and St&uuml;ckard, J."
   fjournal: "Indian Academy of Sciences. Proceedings. Mathematical Sciences"
   url: "httpdx.doi.org10.1007BF02829846"
   journal: "Proc. Indian Acad. Sci. Math. Sci."
@@ -2375,14 +2375,14 @@
   issn: "0019-5588"
 
 - number: "6"
-  author: "Kor\\anyi, Adam and Misra, Gadadhar"
+  author: "Kor&aacute;nyi, Adam and Misra, Gadadhar"
   fjournal: "Advances in Mathematics"
   url: "httpdx.doi.org10.1016j.aim.2011.01.012"
   journal: "Adv. Math."
   mrnumber: "2775904"
   pages: "5338-5360"
   year: 2011
-  mrreviewer: "Miroslav Engli\\AA "
+  mrreviewer: "Miroslav Engli\\AA `"
   title: "A classification of homogeneous operators in the Cowen-Douglas class"
   doi: "10.1016j.aim.2011.01.012"
   mrclass: "47B32 (46E22)"
@@ -2425,7 +2425,7 @@
   mrnumber: "2183594"
   pages: "23-32"
   year: 2005
-  mrreviewer: "L\\Aszl\\A${}^3$ K\\A\\copyrightrchy"
+  mrreviewer: "L\\A`szl\\A${}^3$ K\\A\\copyrightrchy"
   title: "Characteristic function of a pure commuting contractive tuple"
   doi: "10.1007s00020-004-1309-5"
   mrclass: "47A45 (47A13)"
@@ -2446,14 +2446,14 @@
   issn: "0970-4140"
 
 - number: "2"
-  author: "Adimurthi and Robert, Fr\\ed\\eric and Struwe, Michael"
+  author: "Adimurthi and Robert, Fr&eacute;d&eacute;ric and Struwe, Michael"
   fjournal: "Journal of the European Mathematical Society (JEMS)"
   journal: "J. Eur. Math. Soc. (JEMS)"
   mrnumber: "2239297"
   pages: "171-180"
   year: 2006
   mrreviewer: "Sergey G. Pyatkov"
-  title: "Concentration phenomena for Liouvilles equation in dimension four"
+  title: "Concentration phenomena for Liouville's equation in dimension four"
   mrclass: "35J60 (35J40)"
   volume: "8"
   issn: "1435-9855"
@@ -2484,7 +2484,7 @@
 
 - number: "3"
   author: "Boggarapu, Pradeep and Thangavelu, Sundaram"
-  fjournal: "Monatshefte f\\ur Mathematik"
+  fjournal: "Monatshefte f&uuml;r Mathematik"
   url: "httpdx.doi.org10.1007s00605-015-0790-z"
   journal: "Monatsh. Math."
   mrnumber: "3411248"
@@ -2547,7 +2547,7 @@
   pages: "148-176"
   year: 2015
   mrreviewer: "Jon Eivind Vatne"
-  title: "Sch\\emas sur les cat\\egories ab\\eliennes mono\\\\i dales sym\\etriques et faisceaux quasi-coh\\erents"
+  title: "Sch&eacute;mas sur les cat&eacute;gories ab&eacute;liennes mono\\\"\\i dales sym&eacute;triques et faisceaux quasi-coh&eacute;rents"
   doi: "10.1016j.jalgebra.2014.10.012"
   mrclass: "14F05 (18D10 18E30)"
   volume: "423"
@@ -2619,7 +2619,7 @@
   mrnumber: "1233999"
   pages: "1183-1204"
   year: 1993
-  mrreviewer: "V\\Ara L\\Ansk\\A"
+  mrreviewer: "V&Auml;ra L\\A`nsk\\A`"
   title: "Optimal control of switching diffusions with application to flexible manufacturing systems"
   doi: "10.11370331056"
   mrclass: "93E20 (49L20 60J60 60J75)"
@@ -2663,7 +2663,7 @@
   mrnumber: "1367045"
   pages: "251-252"
   year: 1996
-  title: "Errata corrige Stochastic differential games occupation measure based approach J. Optim.\\ Theory Appl.\\ \\bf 73 (1992), no.\\ 2, 359-385 MR1163266 (93g93082)"
+  title: "Errata corrige ``Stochastic differential games occupation measure based approach'' J. Optim.\\ Theory Appl.\\ \\bf 73 (1992), no.\\ 2, 359-385 MR1163266 (93g93082)"
   doi: "10.1007BF02192034"
   mrclass: "93E05 (90D15 90D25)"
   volume: "88"
@@ -2686,7 +2686,7 @@
 
 - number: "3"
   author: "Mishra, Manoranjan and Ramachandra Rao, Adabala"
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math\\ematiques et de Physique Appliqu\\ees"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math&eacute;matiques et de Physique Appliqu&eacute;es"
   url: "httpdx.doi.org10.1007s00033-003-1070-7"
   journal: "Z. Angew. Math. Phys."
   mrnumber: "2048670"
@@ -2721,7 +2721,7 @@
   pages: "106-158"
   year: 2016
   mrreviewer: "Fran\\A\\S oise Lust-Piquard"
-  title: "Hardys inequality for fractional powers of the sublaplacian on the Heisenberg group"
+  title: "Hardy's inequality for fractional powers of the sublaplacian on the Heisenberg group"
   doi: "10.1016j.aim.2016.07.010"
   mrclass: "43A80 (26D15 35A08 35H20 35R03 46E35)"
   volume: "302"
@@ -2841,7 +2841,7 @@
   mrnumber: "2324317"
   pages: "1028-1044"
   year: 2007
-  mrreviewer: "Manuel Gonz\\Alez-Burgos"
+  mrreviewer: "Manuel Gonz\\A`lez-Burgos"
   title: "Exact controllability of the nonlinear third-order dispersion equation"
   doi: "10.1016j.jmaa.2006.10.084"
   mrclass: "93B05 (35Q53 47N20 47N70)"
@@ -3019,7 +3019,7 @@
   issn: "0375-9601"
 
 - number: "7"
-  author: "M\\uller, Gerd and Patil, D. P."
+  author: "M&uuml;ller, Gerd and Patil, D. P."
   fjournal: "Communications in Algebra"
   url: "httpdx.doi.org10.108000927879908826621"
   journal: "Comm. Algebra"
@@ -3090,7 +3090,7 @@
   issn: "1433-5883"
 
 - number: "1-2"
-  author: "B\\ocherer, Siegfried and Das, Soumya"
+  author: "B&ouml;cherer, Siegfried and Das, Soumya"
   fjournal: "Mathematische Zeitschrift"
   url: "httpdx.doi.org10.1007s00209-015-1609-2"
   journal: "Math. Z."
@@ -3213,7 +3213,7 @@
   pages: "171-190"
   year: 1994
   mrreviewer: "Sorin Dragomir"
-  title: "$(1,2)$-symplectic structures, nearly K\\ahler structures and $S^6$"
+  title: "$(1,2)$-symplectic structures, nearly K&auml;hler structures and $S^6$"
   mrclass: "53C15"
   volume: "60"
   issn: "0019-5839"
@@ -3264,7 +3264,7 @@
 
 - number: "5"
   author: "Sekar, S. and Nath, G."
-  fjournal: "Acta Technica. \\v Ceskoslovensk\\a Akademie V\\v ed"
+  fjournal: "Acta Technica. \\v Ceskoslovensk&aacute; Akademie V\\v ed"
   journal: "Acta Tech. \\v CSAV"
   mrnumber: "1078470"
   pages: "620-641"
@@ -3290,8 +3290,8 @@
 
 - number: "4"
   author: "Gopalakrishna, A. V."
-  fjournal: "Annales de lInstitut Henri Poincar\\e. Section A. Physique Th\\eorique. Nouvelle S\\erie"
-  journal: "Ann. Inst. H. Poincar\\e Sect. A (N.S.)"
+  fjournal: "Annales de l'Institut Henri Poincar&eacute;. Section A. Physique Th&eacute;orique. Nouvelle S&eacute;rie"
+  journal: "Ann. Inst. H. Poincar&eacute; Sect. A (N.S.)"
   mrnumber: "714026"
   pages: "401-408"
   year: 1983
@@ -3317,7 +3317,7 @@
 
 - number: "5"
   author: "Palaniappan, D."
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math\\ematiques et de Physique Appliqu\\ees"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math&eacute;matiques et de Physique Appliqu&eacute;es"
   url: "httpdx.doi.org10.1007BF00942756"
   journal: "Z. Angew. Math. Phys."
   mrnumber: "1298185"
@@ -3356,7 +3356,7 @@
   issn: "0008-0659"
 
 - number: "1"
-  author: "Fern\\os, Talia and Singla, Pooja"
+  author: "Fern&oacute;s, Talia and Singla, Pooja"
   fjournal: "Glasgow Mathematical Journal"
   url: "httpdx.doi.org10.1017S001708951500018X"
   journal: "Glasg. Math. J."
@@ -3370,7 +3370,7 @@
   volume: "58"
   issn: "0017-0895"
 
-- author: "Arun, K. R. and Luk\\a\\v cov\\a-Medvi\\v dov\\a, M. and Prasad, Phoolan and Raghurama Rao, S. V."
+- author: "Arun, K. R. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, Phoolan and Raghurama Rao, S. V."
   series: "Notes Numer. Fluid Mech. Multidiscip. Des."
   url: "httpdx.doi.org10.1007978-3-642-33221-0_1"
   mrnumber: "3013100"
@@ -3405,7 +3405,7 @@
   mrnumber: "2253376"
   pages: "1245-1259"
   year: 2006
-  mrreviewer: "Lud\\Ak Zaj\\A-\\Aek"
+  mrreviewer: "Lud&Auml;k Zaj\\A-&Auml;ek"
   title: "Semicontinuity of metric projections in $c_0$-direct sums"
   mrclass: "41A65 (46B20)"
   volume: "10"
@@ -3544,7 +3544,7 @@
 
 - number: "3"
   author: "Vanninathan, M."
-  fjournal: "Journal de Math\\ematiques Pures et Appliqu\\ees. Neuvi\\eme S\\erie"
+  fjournal: "Journal de Math&eacute;matiques Pures et Appliqu&eacute;es. Neuvi&egrave;me S&eacute;rie"
   journal: "J. Math. Pures Appl. (9)"
   mrnumber: "794054"
   pages: "311-332"
@@ -3696,7 +3696,7 @@
 
 - number: "1"
   author: "Nandakumaran, A. K. and Prakash, Ravi and Raymond, J.-P."
-  fjournal: "Annali dellUniversit\\a di Ferrara. Sezione VII. Scienze Matematiche"
+  fjournal: "Annali dell'Universit&aacute; di Ferrara. Sezione VII. Scienze Matematiche"
   url: "httpdx.doi.org10.1007s11565-011-0135-3"
   journal: "Ann. Univ. Ferrara Sez. VII Sci. Mat."
   mrnumber: "2915344"
@@ -3759,7 +3759,7 @@
   pages: "217-237"
   year: 2007
   mrreviewer: "Jingzhi Tie"
-  title: "Gutzmers formula and Poisson integrals on the Heisenberg group"
+  title: "Gutzmer's formula and Poisson integrals on the Heisenberg group"
   doi: "10.2140pjm.2007.231.217"
   mrclass: "43A85 (22E25 22E30 43A90)"
   volume: "231"
@@ -3870,7 +3870,7 @@
   pages: "371-385"
   year: 2005
   mrreviewer: "Nicholay G. Tomin"
-  title: "Schr\\odinger equation and the oscillatory semigroup for the Hermite operator"
+  title: "Schr&ouml;dinger equation and the oscillatory semigroup for the Hermite operator"
   doi: "10.1016j.jfa.2004.12.011"
   mrclass: "33C45 (35G10 35J10 35Q40 47N50)"
   volume: "224"
@@ -3882,7 +3882,7 @@
   mrnumber: "2443208"
   pages: "No. 27, 12"
   year: 2008
-  mrreviewer: "Eva S\\Anchez"
+  mrreviewer: "Eva S\\A`nchez"
   title: "Existence of solutions to neutral differential equations with deviated argument"
   mrclass: "34G20 (34K30 34K40 47D06 47N20)"
   issn: "1417-3875"
@@ -4001,14 +4001,14 @@
 
 - number: "2"
   author: "Parui, S. and Ratnakumar, P. K. and Thangavelu, S."
-  fjournal: "Monatshefte f\\ur Mathematik"
+  fjournal: "Monatshefte f&uuml;r Mathematik"
   url: "httpdx.doi.org10.1007s00605-012-0424-7"
   journal: "Monatsh. Math."
   mrnumber: "2984153"
   pages: "279-303"
   year: 2012
   mrreviewer: "Erlend Grong"
-  title: "Analyticity of the Schr\\odinger propagator on the Heisenberg group"
+  title: "Analyticity of the Schr&ouml;dinger propagator on the Heisenberg group"
   doi: "10.1007s00605-012-0424-7"
   mrclass: "22E30 (35H20 35R03)"
   volume: "168"
@@ -4037,7 +4037,7 @@
   mrnumber: "2399570"
   pages: "84-101"
   year: 2008
-  mrreviewer: "Carlos Mariju\\An"
+  mrreviewer: "Carlos Mariju\\A`n"
   title: "Functions preserving nonnegativity of matrices"
   doi: "10.1137050645075"
   mrclass: "15A29 (15A42 15A48)"
@@ -4068,7 +4068,7 @@
 
 - number: "4"
   author: "Chakrabarti, A. and Mandal, B. N. and Basu, U. and Banerjea, S."
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Mechanik"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Mechanik"
   url: "httpdx.doi.org10.1002zamm.19970770424"
   journal: "Z. Angew. Math. Mech."
   mrnumber: "1449133"
@@ -4110,7 +4110,7 @@
   volume: "14"
   issn: "0218-1274"
 
-- author: "Kavitha, Telikepalli and Mestre, Juli\\an"
+- author: "Kavitha, Telikepalli and Mestre, Juli&aacute;n"
   series: "Lecture Notes in Comput. Sci."
   url: "httpdx.doi.org10.1007978-3-642-10631-6_11"
   mrnumber: "2792707"
@@ -4147,7 +4147,7 @@
   mrreviewer: "Stephen Bruce Sontz"
   publisher: "World Sci. Publ., Hackensack, NJ"
   booktitle: "Perspectives in mathematical sciences. II"
-  title: "Gutzmers formula and the Segal-Bargmann transform"
+  title: "Gutzmer's formula and the Segal-Bargmann transform"
   doi: "10.11429789814273657_0013"
   mrclass: "22E30 (22E25)"
   volume: "8"
@@ -4159,7 +4159,7 @@
   mrnumber: "1630092"
   pages: "17-34"
   year: 1996
-  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part II (Calcutta, 1994)"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Bose's Works, Part II (Calcutta, 1994)"
   title: "The effect of two translating disks in Sampson flow"
   mrclass: "76D99"
   volume: "4"
@@ -4235,7 +4235,7 @@
 
 - number: "4"
   author: "Bhattacharyya, S. and Pal, A. and Datta, N. and Nath, G."
-  fjournal: "ZAMM. Zeitschrift f\\ur Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
+  fjournal: "ZAMM. Zeitschrift f&uuml;r Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
   url: "httpdx.doi.org10.1002(SICI)1521-4001(199804)784243AID-ZAMM2433.0.CO2-6"
   journal: "ZAMM Z. Angew. Math. Mech."
   mrnumber: "1625658"
@@ -4263,7 +4263,7 @@
   issn: "0933-7741"
 
 - number: "9"
-  author: "Kor\\anyi, Adam and Misra, Gadadhar"
+  author: "Kor&aacute;nyi, Adam and Misra, Gadadhar"
   fjournal: "Journal of Functional Analysis"
   url: "httpdx.doi.org10.1016j.jfa.2007.12.014"
   journal: "J. Funct. Anal."
@@ -4352,7 +4352,7 @@
   mrnumber: "1692204"
   pages: "557-580"
   year: 1999
-  mrreviewer: "V. Kolmanovski\\A-"
+  mrreviewer: "V. Kolmanovski&Auml;-"
   title: "Optimal control of a stochastic hybrid system with discounted cost"
   doi: "10.1023A1021786019871"
   mrclass: "49J55 (93E20)"
@@ -4366,7 +4366,7 @@
   mrnumber: "2453951"
   pages: "119-130"
   year: 2007
-  mrreviewer: "Pedro A. Garc\\A-a-S\\Anchez"
+  mrreviewer: "Pedro A. Garc\\A-a-S\\A`nchez"
   title: "On the type sequences of some one dimensional rings"
   mrclass: "20M14 (13H10 20M25)"
   issn: "0083-4386"
@@ -4416,7 +4416,7 @@
 
 - number: "1"
   author: "Prasad, Dipendra and Yogananda, C. S."
-  fjournal: "Comptes Rendus Math\\ematiques de lAcad\\emie des Sciences. La Soci\\et\\e Royale du Canada. Mathematical Reports of the Academy of Science. The Royal Society of Canada"
+  fjournal: "Comptes Rendus Math&eacute;matiques de l'Acad&eacute;mie des Sciences. La Soci&eacute;t&eacute; Royale du Canada. Mathematical Reports of the Academy of Science. The Royal Society of Canada"
   journal: "C. R. Math. Acad. Sci. Soc. R. Can."
   mrnumber: "1816457"
   pages: "1-5"
@@ -4462,7 +4462,7 @@
   mrnumber: "2193493"
   pages: "849-866"
   year: 2005
-  mrreviewer: "Alexandru Krist\\Aly"
+  mrreviewer: "Alexandru Krist\\A`ly"
   title: "Non-radially symmetric solutions for a superlinear Ambrosetti-Prodi type problem in a ball"
   doi: "10.1142S0219199705001982"
   mrclass: "35J60 (35J20 35J25 47J30 58E05)"
@@ -4470,7 +4470,7 @@
   issn: "0219-1997"
 
 - number: "6"
-  author: "Krishnapur, Manjunath and Vir\\ag, B\\alint"
+  author: "Krishnapur, Manjunath and Vir&aacute;g, B&aacute;lint"
   fjournal: "International Mathematics Research Notices. IMRN"
   journal: "Int. Math. Res. Not. IMRN"
   mrnumber: "3180597"
@@ -4488,13 +4488,13 @@
   mrnumber: "1383044"
   pages: "577-585"
   year: 1995
-  title: "Solution of a class of mixed boundary-value problems for Laplaces equation arising in water-wave scattering"
+  title: "Solution of a class of mixed boundary-value problems for Laplace's equation arising in water-wave scattering"
   mrclass: "76B15"
   volume: "75"
   issn: "0970-4140"
 
 - author: "Banerjee, Abhishek"
-  fjournal: "Rendiconti del Seminario Matematico della Universit\\a di Padova"
+  fjournal: "Rendiconti del Seminario Matematico della Universit&agrave; di Padova"
   url: "httpdx.doi.org10.4171RSMUP131-8"
   journal: "Rend. Semin. Mat. Univ. Padova"
   mrnumber: "3217754"
@@ -4514,7 +4514,7 @@
   mrnumber: "3136892"
   pages: "135-143"
   year: 2012
-  title: "Differentiation, homogeneous operators and matrix valued co-cycles for the M\\obius group"
+  title: "Differentiation, homogeneous operators and matrix valued co-cycles for the M&ouml;bius group"
   mrclass: "47A16"
   volume: "81"
   issn: "0025-5742"
@@ -4528,7 +4528,7 @@
   pages: "1979-1995"
   year: 2011
   mrreviewer: "Nilima Nigam"
-  title: "$\\scr C^0$ penalty methods for the fully nonlinear Monge-Amp\\ere equation"
+  title: "$\\scr C^0$ penalty methods for the fully nonlinear Monge-Amp&egrave;re equation"
   doi: "10.1090S0025-5718-2011-02487-7"
   mrclass: "65N30 (35J96 65N12)"
   volume: "80"
@@ -4542,7 +4542,7 @@
   mrnumber: "2774240"
   pages: "259-281"
   year: 2011
-  mrreviewer: "Aleksandar Mijatovi\\A"
+  mrreviewer: "Aleksandar Mijatovi&Auml;"
   title: "Risk minimizing option pricing for a class of exotic options in a Markov-modulated market"
   doi: "10.108007362994.2011.548665"
   mrclass: "91G20 (60H30 60J27 91G60)"
@@ -4551,7 +4551,7 @@
 
 - number: "4"
   author: "Sanjay, P. K. and Thangavelu, Sundaram"
-  fjournal: "Revista Matem\\atica Iberoamericana"
+  fjournal: "Revista Matem&aacute;tica Iberoamericana"
   url: "httpdx.doi.org10.4171RMI704"
   journal: "Rev. Mat. Iberoam."
   mrnumber: "2990135"
@@ -4571,7 +4571,7 @@
   mrnumber: "2336002"
   pages: "339-354"
   year: 2007
-  mrreviewer: "Luisa DAmore"
+  mrreviewer: "Luisa D'Amore"
   title: "A degenerate kernel method for eigenvalue problems of compact integral operators"
   doi: "10.1007s10444-005-9005-9"
   mrclass: "65R20 (45C05 45P05 47G10)"
@@ -5017,7 +5017,7 @@
   pages: "605-614"
   year: 2007
   publisher: "ACM, New York"
-  booktitle: "STOC07--Proceedings of the 39th Annual ACM Symposium on Theory of Computing"
+  booktitle: "STOC'07--Proceedings of the 39th Annual ACM Symposium on Theory of Computing"
   title: "An $\\O(mn)$ Gomory-Hu tree construction algorithm for unweighted graphs"
   doi: "10.11451250790.1250879"
   mrclass: "90C27 (05C40 05C70 05C85)"
@@ -5049,7 +5049,7 @@
 
 - number: "2"
   author: "Chakrabarti, A. and Mandal, N."
-  fjournal: "ZAMM. Zeitschrift f\\ur Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
+  fjournal: "ZAMM. Zeitschrift f&uuml;r Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
   url: "httpdx.doi.org10.1002(SICI)1521-4001(199802)782141AID-ZAMM1413.0.CO2-Q"
   journal: "ZAMM Z. Angew. Math. Mech."
   mrnumber: "1609460"
@@ -5296,7 +5296,7 @@
   pages: "723-730"
   year: 1985
   mrreviewer: "J. L\\A$\\mu$hmus"
-  title: "Geometrical interpretation of In\\on\\u-Wigner contractions"
+  title: "Geometrical interpretation of In&ouml;n&uuml;-Wigner contractions"
   doi: "10.1007BF00670879"
   mrclass: "22E99 (22E70 81C40)"
   volume: "24"
@@ -5318,7 +5318,7 @@
   issn: "0362-546X"
 
 - number: "12"
-  author: "Aldinger, R. R. and B\\ohm, A. and Kielanowski, P. and Loewe, M. and Magnollay, P. and Mukunda, N. and Drechsler, W. and Komy, S. R."
+  author: "Aldinger, R. R. and B&ouml;hm, A. and Kielanowski, P. and Loewe, M. and Magnollay, P. and Mukunda, N. and Drechsler, W. and Komy, S. R."
   fjournal: "Physical Review. D. Particles and Fields. Third Series"
   url: "httpdx.doi.org10.1103PhysRevD.28.3020"
   journal: "Phys. Rev. D (3)"
@@ -5413,7 +5413,7 @@
   pages: "279-290"
   year: 2008
   mrreviewer: "Jingzhi Tie"
-  title: "An analogue of Gutzmers formula for Hermite expansions"
+  title: "An analogue of Gutzmer's formula for Hermite expansions"
   doi: "10.4064sm185-3-5"
   mrclass: "42A38 (42B99 43A90)"
   volume: "185"
@@ -5456,7 +5456,7 @@
   mrnumber: "2760743"
   pages: "719-740"
   year: 2010
-  mrreviewer: "Miroslav Engli\\AA "
+  mrreviewer: "Miroslav Engli\\AA `"
   title: "Segal-Bargmann transform and Paley-Wiener theorems on motion groups"
   doi: "10.2977PRIMS23"
   mrclass: "22E30 (22E45 43A32)"
@@ -5568,7 +5568,7 @@
   year: 2002
   note: "Special issue dedicated to Professor T. Ando"
   mrreviewer: "Christian Le Merdy"
-  title: "Some thoughts on Andos theorem and Parrotts example"
+  title: "Some thoughts on Ando's theorem and Parrott's example"
   doi: "10.1016S0024-3795(01)00454-2"
   mrclass: "47L55 (47A20 47A45)"
   volume: "341"
@@ -5576,7 +5576,7 @@
 
 - number: "23-24"
   author: "Gadgil, Siddhartha"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2011.11.005"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "2861998"
@@ -5610,7 +5610,7 @@
   mrnumber: "1695258"
   pages: "385-404"
   year: 1999
-  title: "The onset of steady B\\enard-Marangoni convection in a two-layer system of conducting fluid in the presence of a uniform magnetic field"
+  title: "The onset of steady B&eacute;nard-Marangoni convection in a two-layer system of conducting fluid in the presence of a uniform magnetic field"
   doi: "10.1023A1004439231890"
   mrclass: "76E15 (76E25 76W05)"
   volume: "35"
@@ -5656,7 +5656,7 @@
   issn: "0022-3239"
 
 - number: "4"
-  author: "Kor\\anyi, Adam and Misra, Gadadhar"
+  author: "Kor&aacute;nyi, Adam and Misra, Gadadhar"
   fjournal: "Integral Equations and Operator Theory"
   url: "httpdx.doi.org10.1007s00020-009-1673-2"
   journal: "Integral Equations Operator Theory"
@@ -5762,7 +5762,7 @@
   mrnumber: "2671000"
   pages: "254-261"
   year: 2010
-  title: "Open manifolds, Ozsv\\ath-Szab\\o invariants and exotic $\\Bbb R^4$s"
+  title: "Open manifolds, Ozsv&aacute;th-Szab&oacute; invariants and exotic $\\Bbb R^4$'s"
   doi: "10.1016j.exmath.2009.09.002"
   mrclass: "57M27 (57N10 57R58)"
   volume: "28"
@@ -5812,7 +5812,7 @@
 
 - number: "2"
   author: "Datta, Basudeb"
-  fjournal: "Sociedad Matem\\atica Mexicana. Bolet\\\\i n. Tercera Serie"
+  fjournal: "Sociedad Matem&aacute;tica Mexicana. Bolet\\'\\i n. Tercera Serie"
   journal: "Bol. Soc. Mat. Mexicana (3)"
   mrnumber: "1738414"
   pages: "419-426"
@@ -5838,8 +5838,8 @@
   issn: "0129-167X"
 
 - number: "2"
-  author: "Fern\\andez-Gaucherand, Emmanuel and Ghosh, Mrinal K. and Marcus, Steven I."
-  fjournal: "Zeitschrift f\\ur Operations Research. Mathematical Methods of Operations Research"
+  author: "Fern&aacute;ndez-Gaucherand, Emmanuel and Ghosh, Mrinal K. and Marcus, Steven I."
+  fjournal: "Zeitschrift f&uuml;r Operations Research. Mathematical Methods of Operations Research"
   url: "httpdx.doi.org10.1007BF01415579"
   journal: "Z. Oper. Res."
   mrnumber: "1277364"
@@ -5873,7 +5873,7 @@
   pages: "vi202"
   year: 2015
   editor: "Bhattacharyya, Tirthankar and Dritschel, Michael A."
-  publisher: "Birkh\\auserSpringer, Cham"
+  publisher: "Birkh&auml;userSpringer, Cham"
   isbn: "978-3-319-18181-3 978-3-319-18182-0"
   booktitle: "Proceedings of the 24th International Workshop in Operator Theory and its Applications (IWOTA) held at the Indian Institute of Science, Bangalore, December 16-20, 2013"
   title: "Operator algebras and mathematical physics"
@@ -5883,7 +5883,7 @@
 
 - number: "2"
   author: "Thangavelu, Sundaram"
-  fjournal: "Revista de la Uni\\on Matem\\atica Argentina"
+  fjournal: "Revista de la Uni&oacute;n Matem&aacute;tica Argentina"
   journal: "Rev. Un. Mat. Argentina"
   mrnumber: "2656527"
   pages: "75-93"
@@ -5903,7 +5903,7 @@
   pages: "2571-2576"
   year: 2011
   mrreviewer: "G. K. Sankaran"
-  title: "Almost quarter-pinched K\\ahler metrics and Chern numbers"
+  title: "Almost quarter-pinched K&auml;hler metrics and Chern numbers"
   doi: "10.1090S0002-9939-2010-10676-7"
   mrclass: "53C21 (53C20 53C55)"
   volume: "139"
@@ -5911,7 +5911,7 @@
 
 - number: "4"
   author: "Chakrabarti, A. and Hamsapriye"
-  fjournal: "ZAMM. Zeitschrift f\\ur Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
+  fjournal: "ZAMM. Zeitschrift f&uuml;r Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
   url: "httpdx.doi.org10.1002(SICI)1521-4001(199904)794233AID-ZAMM2333.3.CO2-Y"
   journal: "ZAMM Z. Angew. Math. Mech."
   mrnumber: "1680717"
@@ -5945,7 +5945,7 @@
   pages: "1019-1024"
   year: 2013
   mrreviewer: "Stefan Schreieder"
-  title: "On the K\\ahler structures over Quot schemes"
+  title: "On the K&auml;hler structures over Quot schemes"
   mrclass: "32Q05 (14C20 32Q10 53C55)"
   volume: "57"
   issn: "0019-2082"
@@ -6273,7 +6273,7 @@
   pages: "34-43"
   year: 2007
   mrreviewer: "Esther Cabezas Rivas"
-  title: "Ricci flow and the Poincar\\e conjecture"
+  title: "Ricci flow and the Poincar&eacute; conjecture"
   doi: "10.1007BF02986174"
   mrclass: "53C44 (57M40)"
   volume: "29"
@@ -6296,7 +6296,7 @@
 
 - number: "6"
   author: "Chakrabarti, A. and Daripa, P. and Hamsapriye"
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math\\ematiques et de Physique Appliqu\\ees"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math&eacute;matiques et de Physique Appliqu&eacute;es"
   url: "httpdx.doi.org10.1007s00033-005-5041-z"
   journal: "Z. Angew. Math. Phys."
   mrnumber: "2187007"
@@ -6374,9 +6374,9 @@
   pages: "301-314"
   year: 2000
   mrreviewer: "Ian Kiming"
-  publisher: "Birkh\\auser, Basel"
+  publisher: "Birkh&auml;user, Basel"
   booktitle: "Number theory"
-  title: "A report on Artins holomorphy conjecture"
+  title: "A report on Artin's holomorphy conjecture"
   mrclass: "11R42 (11F80 11R39)"
 
 - number: "1"
@@ -6532,7 +6532,7 @@
   pages: "5087-5095"
   year: 2008
   mrreviewer: "Frank H. Lutz"
-  title: "Uniqueness of Walkups 9-vertex 3-dimensional Klein bottle"
+  title: "Uniqueness of Walkup's 9-vertex 3-dimensional Klein bottle"
   doi: "10.1016j.disc.2007.09.030"
   mrclass: "57Q15 (52B70)"
   volume: "308"
@@ -6567,7 +6567,7 @@
 
 - number: "1"
   author: "Kumar, Ashisha and Ray, Swagato K."
-  fjournal: "Monatshefte f\\ur Mathematik"
+  fjournal: "Monatshefte f&uuml;r Mathematik"
   url: "httpdx.doi.org10.1007s00605-014-0620-8"
   journal: "Monatsh. Math."
   mrnumber: "3190770"
@@ -6615,7 +6615,7 @@
   mrnumber: "3232100"
   pages: "35-40"
   year: 2014
-  mrreviewer: "Bojan Ba\\AA i\\A"
+  mrreviewer: "Bojan Ba\\AA `i&Auml;"
   title: "On additive combinatorics of permutations of $\\Bbb {Z}_n$"
   mrclass: "11A05 (05A05 11A07 11A41)"
   volume: "16"
@@ -6666,8 +6666,8 @@
   mrnumber: "3471985"
   pages: "151-160"
   year: 2016
-  mrreviewer: "Jos\\e N. Alonso \\Alvarez"
-  title: "Une note sur les d\\erivations localement nilpotentes dans les cat\\egories mono\\\\i dales sym\\etriques"
+  mrreviewer: "Jos&eacute; N. Alonso &Aacute;lvarez"
+  title: "Une note sur les d&eacute;rivations localement nilpotentes dans les cat&eacute;gories mono\\\"\\i dales sym&eacute;triques"
   mrclass: "18D10 (13N15)"
   volume: "23"
   issn: "1370-1444"
@@ -6736,7 +6736,7 @@
   mrnumber: "1736015"
   pages: "325-327"
   year: 1999
-  mrreviewer: "Cem Y. Y\\A$\\pm$ld\\A$\\pm$r\\A$\\pm$m"
+  mrreviewer: "Cem Y. Y&Auml;$\\pm$ld&Auml;$\\pm$r&Auml;$\\pm$m"
   title: "A remark on product of Dirichlet $L$-functions"
   mrclass: "11M06"
   volume: "91"
@@ -6749,7 +6749,7 @@
   mrnumber: "2779375"
   pages: "83-97"
   year: 2010
-  mrreviewer: "Ingrid Alma Belti\\AA \\sterling\\A"
+  mrreviewer: "Ingrid Alma Belti\\AA \\sterling&Auml;"
   title: "The semigroup and the inverse of the Laplacian on the Heisenberg group"
   mrclass: "35R03 (35S30 47D06 47F05 47G30)"
   volume: "12"
@@ -6842,7 +6842,7 @@
 
 - number: "2"
   author: "Rogers, C. and Sachdev, P. L."
-  fjournal: "Societ\\a Italiana di Fisica. Il Nuovo Cimento. B. Serie 11"
+  fjournal: "Societ&agrave; Italiana di Fisica. Il Nuovo Cimento. B. Serie 11"
   url: "httpdx.doi.org10.1007BF02721585"
   journal: "Nuovo Cimento B (11)"
   mrnumber: "772826"
@@ -6905,7 +6905,7 @@
   pages: "393-417"
   year: 2006
   mrreviewer: "Natalia Gasitoi"
-  title: "On isometries of the Carath\\eodory and Kobayashi metrics on strongly pseudoconvex domains"
+  title: "On isometries of the Carath&eacute;odory and Kobayashi metrics on strongly pseudoconvex domains"
   mrclass: "32F45 (32Q45 32T15)"
   volume: "5"
   issn: "0391-173X"
@@ -7052,8 +7052,8 @@
   mrnumber: "3475099"
   pages: "33-42"
   year: 2016
-  mrreviewer: "Andr\\ea Solotar"
-  title: "Homologie de Hochschild et espaces alg\\ebriques"
+  mrreviewer: "Andr&eacute;a Solotar"
+  title: "Homologie de Hochschild et espaces alg&eacute;briques"
   doi: "10.7146math.scand.a-23294"
   mrclass: "14F43 (14A20 19D55)"
   volume: "118"
@@ -7246,7 +7246,7 @@
 
 - number: "1"
   author: "Nandakumaran, A. K. and George, R. K."
-  fjournal: "Revista Matem\\atica de la Universidad Complutense de Madrid"
+  fjournal: "Revista Matem&aacute;tica de la Universidad Complutense de Madrid"
   journal: "Rev. Mat. Univ. Complut. Madrid"
   mrnumber: "1356442"
   pages: "181-196"
@@ -7291,14 +7291,14 @@
   mrnumber: "2205815"
   pages: "652-677"
   year: 2004
-  mrreviewer: "Lubom\\A-r Kub\\A\\Aek"
+  mrreviewer: "Lubom\\A-r Kub\\A`&Auml;ek"
   title: "The LINEX risk of maximum likelihood estimators of parameters of normal populations having order restricted means"
   mrclass: "62F10"
   volume: "66"
   issn: "0972-7671"
 
 - number: "7"
-  author: "Arun, K. R. and Luk\\a\\v cov\\a-Medvi\\v dov\\a, M. and Prasad, Phoolan and Raghurama Rao, S. V."
+  author: "Arun, K. R. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, Phoolan and Raghurama Rao, S. V."
   fjournal: "SIAM Journal on Applied Mathematics"
   url: "httpdx.doi.org10.1137080732742"
   journal: "SIAM J. Appl. Math."
@@ -7338,8 +7338,8 @@
 
 - number: "2"
   author: "Brehm, Ulrich and Datta, Basudeb and Nilakantan, Nandini"
-  fjournal: "Beitr\\age zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  journal: "Beitr\\age Algebra Geom."
+  fjournal: "Beitr&auml;ge zur Algebra und Geometrie. Contributions to Algebra and Geometry"
+  journal: "Beitr&auml;ge Algebra Geom."
   mrnumber: "1957762"
   pages: "583-596"
   year: 2002
@@ -7403,7 +7403,7 @@
   issn: "0022-3239"
 
 - number: "2"
-  author: "Arun, K. R. and Kraft, M. and Luk\\a\\v cov\\a-Medvi\\v dov\\a, M. and Prasad, Phoolan"
+  author: "Arun, K. R. and Kraft, M. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, Phoolan"
   fjournal: "Journal of Computational Physics"
   url: "httpdx.doi.org10.1016j.jcp.2008.10.004"
   journal: "J. Comput. Phys."
@@ -7467,7 +7467,7 @@
   mrclass: "11F30 (11F46)"
   volume: "20"
 
-- author: "Kor\\anyi, Adam and Misra, Gadadhar"
+- author: "Kor&aacute;nyi, Adam and Misra, Gadadhar"
   series: "Stat. Sci. Interdiscip. Res."
   url: "httpdx.doi.org10.11429789814273657_0005"
   mrnumber: "2581752"
@@ -7526,7 +7526,7 @@
   issn: "0163-0563"
 
 - number: "3"
-  author: "Ayyer, Arvind and Schilling, Anne and Steinberg, Benjamin and Thi\\ery, Nicolas M."
+  author: "Ayyer, Arvind and Schilling, Anne and Steinberg, Benjamin and Thi&eacute;ry, Nicolas M."
   fjournal: "Communications in Mathematical Physics"
   url: "httpdx.doi.org10.1007s00220-015-2343-7"
   journal: "Comm. Math. Phys."
@@ -7573,7 +7573,7 @@
   title: "A combinatorial algorithm for the determinant"
   mrclass: "15A15 (65F40)"
 
-- author: "Arun, K. R. and Luk\\a\\v cov\\a-Medvi\\v dov\\a, M. and Prasad, P."
+- author: "Arun, K. R. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, P."
   series: "Springer Proc. Math."
   url: "httpdx.doi.org10.1007978-3-642-20671-9_6"
   mrnumber: "2815628"
@@ -7788,7 +7788,7 @@
   mrnumber: "1632471"
   pages: "31-42"
   year: 1995
-  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part I (Calcutta, 1994)"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Bose's Works, Part I (Calcutta, 1994)"
   title: "Reflection of waterwaves by a porous nearly vertical wall"
   mrclass: "76B15"
   volume: "3"
@@ -7801,7 +7801,7 @@
   mrnumber: "1630091"
   pages: "1-16"
   year: 1996
-  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part II (Calcutta, 1994)"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Bose's Works, Part II (Calcutta, 1994)"
   title: "Motion of obstacles on the two layered Earth surface"
   mrclass: "73F99 (73N20 86A04)"
   volume: "4"
@@ -7822,7 +7822,7 @@
 
 - number: "7"
   author: "Banerjee, Abhishek"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2016.05.005"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "3508561"
@@ -7851,7 +7851,7 @@
   issn: "0022-3239"
 
 - number: "3"
-  author: "Gudi, Thirupathi and Guzm\\an, Johnny"
+  author: "Gudi, Thirupathi and Guzm&aacute;n, Johnny"
   fjournal: "ESAIM. Mathematical Modelling and Numerical Analysis"
   url: "httpdx.doi.org10.1051m2an2013119"
   journal: "ESAIM Math. Model. Numer. Anal."
@@ -7865,7 +7865,7 @@
   volume: "48"
   issn: "0764-583X"
 
-- author: "Ayyer, Arvind and Bouttier, J\\er\\emie and Corteel, Sylvie and Nunzi, Fran\\ccois"
+- author: "Ayyer, Arvind and Bouttier, J&eacute;r&eacute;mie and Corteel, Sylvie and Nunzi, Fran\\ccois"
   series: "Discrete Math. Theor. Comput. Sci. Proc., BA"
   mrnumber: "3525959"
   pages: "1-12"
@@ -7876,7 +7876,7 @@
   mrclass: "60J10 (05A17)"
 
 - number: "2"
-  author: "Arapostathis, Aristotle and Borkar, Vivek S. and Fern\\andez-Gaucherand, Emmanuel and Ghosh, Mrinal K. and Marcus, Steven I."
+  author: "Arapostathis, Aristotle and Borkar, Vivek S. and Fern&aacute;ndez-Gaucherand, Emmanuel and Ghosh, Mrinal K. and Marcus, Steven I."
   fjournal: "SIAM Journal on Control and Optimization"
   url: "httpdx.doi.org10.11370331018"
   journal: "SIAM J. Control Optim."
@@ -7892,14 +7892,14 @@
 
 - number: "1"
   author: "Banerjee, Abhishek"
-  fjournal: "Annales Math\\ematiques Blaise Pascal"
+  fjournal: "Annales Math&eacute;matiques Blaise Pascal"
   url: "httpambp.cedram.orgitemidAMBP_2014__21_1_1_0"
   journal: "Ann. Math. Blaise Pascal"
   mrnumber: "3248219"
   pages: "1-23"
   year: 2014
   mrreviewer: "Annette Huber"
-  title: "Les motifs de Tate et les op\\erateurs de p\\eriodicit\\e de Connes"
+  title: "Les motifs de Tate et les op&eacute;rateurs de p&eacute;riodicit&eacute; de Connes"
   mrclass: "58B34 (14F42 18D10 19D55 46L80)"
   volume: "21"
   issn: "1259-1734"
@@ -7919,7 +7919,7 @@
 
 - number: "2"
   author: "Shafikov, Rasul and Verma, Kaushal"
-  fjournal: "Canadian Journal of Mathematics. Journal Canadien de Math\\ematiques"
+  fjournal: "Canadian Journal of Mathematics. Journal Canadien de Math&eacute;matiques"
   url: "httpdx.doi.org10.4153CJM-2011-056-3"
   journal: "Canad. J. Math."
   mrnumber: "2953207"
@@ -7940,7 +7940,7 @@
   mrnumber: "704459"
   pages: "277-278"
   year: 1983
-  title: "Comment on Path integration of a quadratic action with a generalized memory\\ Phys. Lett. A \\bf 93 (198283), no. 4, 167-172\\ MR 84f81029a\\ by D. C. Khandekar, S. V. Lawande and K. V. Bhagwat"
+  title: "Comment on ``Path integration of a quadratic action with a generalized memory''\\ Phys. Lett. A \\bf 93 (198283), no. 4, 167-172\\ MR 84f81029a\\ by D. C. Khandekar, S. V. Lawande and K. V. Bhagwat"
   doi: "10.10160375-9601(83)90017-8"
   mrclass: "81C35 (58D30)"
   volume: "95"
@@ -7948,8 +7948,8 @@
 
 - number: "2"
   author: "Molinelli, S. and Patil, D. P. and Tamone, G."
-  fjournal: "Beitr\\age zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  journal: "Beitr\\age Algebra Geom."
+  fjournal: "Beitr&auml;ge zur Algebra und Geometrie. Contributions to Algebra and Geometry"
+  journal: "Beitr&auml;ge Algebra Geom."
   mrnumber: "1720116"
   pages: "437-458"
   year: 1999
@@ -8105,7 +8105,7 @@
   mrclass: "30B10"
 
 - number: "1"
-  author: "Krishnapur, Manjunath and Rider, Brian and Vir\\ag, B\\alint"
+  author: "Krishnapur, Manjunath and Rider, Brian and Vir&aacute;g, B&aacute;lint"
   fjournal: "Communications on Pure and Applied Mathematics"
   url: "httpdx.doi.org10.1002cpa.21573"
   journal: "Comm. Pure Appl. Math."
@@ -8186,7 +8186,7 @@
   pages: "411-422"
   year: 1996
   note: "Differential equations--theory, methods and applications (Hyderabad, 1995)"
-  mrreviewer: "Marl\\A\\\\ ne Frigon"
+  mrreviewer: "Marl\\A\\\"\\ ne Frigon"
   title: "Weak solutions of integro-differential and functional-differential equations"
   mrclass: "34K10 (45J05 47H15 47N20)"
   volume: "4"
@@ -8208,7 +8208,7 @@
 
 - number: "3"
   author: "Ghosh, Mrinal K. and Kumar, K. Suresh"
-  fjournal: "Sociedade Brasiliera de Matem\\atica Applicada e Computacional. Matem\\atica Aplicada e Computacional. Computational and Applied Mathematics"
+  fjournal: "Sociedade Brasiliera de Matem&aacute;tica Applicada e Computacional. Matem&aacute;tica Aplicada e Computacional. Computational and Applied Mathematics"
   journal: "Mat. Apl. Comput."
   mrnumber: "1673014"
   pages: "237-246"
@@ -8220,7 +8220,7 @@
 
 - number: "5"
   author: "Sachdev, P. L. and Gupta, Neelam and Ahluwalia, D. S."
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math\\ematiques et de Physique Appliqu\\ees"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math&eacute;matiques et de Physique Appliqu&eacute;es"
   url: "httpdx.doi.org10.1007BF00913411"
   journal: "Z. Angew. Math. Phys."
   mrnumber: "1182785"
@@ -8234,14 +8234,14 @@
 
 - number: "1"
   author: "Garg, Rahul and Thangavelu, Sundaram"
-  fjournal: "Monatshefte f\\ur Mathematik"
+  fjournal: "Monatshefte f&uuml;r Mathematik"
   url: "httpdx.doi.org10.1007s00605-011-0286-4"
   journal: "Monatsh. Math."
   mrnumber: "2942964"
   pages: "61-80"
   year: 2012
   mrreviewer: "Linda Saal"
-  title: "On the structure of analytic vectors for the Schr\\odinger representation"
+  title: "On the structure of analytic vectors for the Schr&ouml;dinger representation"
   doi: "10.1007s00605-011-0286-4"
   mrclass: "22E50 (42C15)"
   volume: "167"
@@ -8353,7 +8353,7 @@
   pages: "99-109"
   year: 2012
   mrreviewer: "Hyeong Soo Chang"
-  publisher: "Birkh\\auserSpringer, New York"
+  publisher: "Birkh&auml;userSpringer, New York"
   booktitle: "Optimization, control, and applications of stochastic systems"
   title: "Continuous-time controlled jump Markov processes on the finite horizon"
   doi: "10.1007978-0-8176-8337-5_6"
@@ -8429,7 +8429,7 @@
 
 - number: "2"
   author: "Balakumar, G. P. and Mahajan, Prachi and Verma, Kaushal"
-  fjournal: "Annales de la Facult\\e des Sciences de Toulouse. Math\\ematiques. S\\erie 6"
+  fjournal: "Annales de la Facult&eacute; des Sciences de Toulouse. Math&eacute;matiques. S&eacute;rie 6"
   url: "httpdx.doi.org10.5802afst.1449"
   journal: "Ann. Fac. Sci. Toulouse Math. (6)"
   mrnumber: "3358614"
@@ -8464,7 +8464,7 @@
   pages: "269-282"
   year: 2010
   mrreviewer: "Adela N. Vraciu"
-  publisher: "Birkh\\auserSpringer Basel AG, Basel"
+  publisher: "Birkh&auml;userSpringer Basel AG, Basel"
   booktitle: "Advances in ring theory"
   title: "On the blowing-up rings, Arf rings and type sequences"
   doi: "10.1007978-3-0346-0286-0_18"
@@ -8506,7 +8506,7 @@
   mrnumber: "1438768"
   pages: "568-575"
   year: 1997
-  mrreviewer: "Kh\\A\\copyrightlifa Trim\\A\\\\ che"
+  mrreviewer: "Kh\\A\\copyrightlifa Trim\\A\\\"\\ che"
   title: "Diagonalizable generalized Abel integral operators"
   doi: "10.1137S0036139995279676"
   mrclass: "45E99 (45P05)"
@@ -8735,7 +8735,7 @@
   mrnumber: "2799464"
   pages: "x264"
   year: 2011
-  mrreviewer: "Serge\\A- Grudski\\A-"
+  mrreviewer: "Serge&Auml;- Grudski&Auml;-"
   publisher: "Published by Science Publishers, Enfield, NH Marketed and distributed by CRC Press, Boca Raton, FL"
   isbn: "978-1-57808-710-5"
   title: "Applied singular integral equations"
@@ -8831,7 +8831,7 @@
 
 - number: "5"
   author: "Biswas, Indranil and Gadgil, Siddhartha and Sankaran, Parameswaran"
-  fjournal: "Bulletin des Sciences Math\\ematiques"
+  fjournal: "Bulletin des Sciences Math&eacute;matiques"
   url: "httpdx.doi.org10.1016j.bulsci.2007.02.001"
   journal: "Bull. Sci. Math."
   mrnumber: "2337739"
@@ -8887,7 +8887,7 @@
   issn: "0921-7134"
 
 - number: "2"
-  author: "Badia, S. and Codina, R. and Gudi, T. and Guzm\\an, J."
+  author: "Badia, S. and Codina, R. and Gudi, T. and Guzm&aacute;n, J."
   fjournal: "IMA Journal of Numerical Analysis"
   url: "httpdx.doi.org10.1093imanumdrt022"
   journal: "IMA J. Numer. Anal."
@@ -8960,8 +8960,8 @@
   issn: "0361-0926"
 
 - number: "1"
-  author: "Kr\\otz, Bernhard and Thangavelu, Sundaram and Xu, Yuan"
-  fjournal: "Revista Matem\\atica Iberoamericana"
+  author: "Kr&ouml;tz, Bernhard and Thangavelu, Sundaram and Xu, Yuan"
+  fjournal: "Revista Matem&aacute;tica Iberoamericana"
   url: "httpdx.doi.org10.4171RMI535"
   journal: "Rev. Mat. Iberoam."
   mrnumber: "2435972"
@@ -8995,7 +8995,7 @@
   mrnumber: "1632472"
   pages: "43-60"
   year: 1995
-  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Boses Works, Part I (Calcutta, 1994)"
+  booktitle: "Proceedings of International Symposium on Mathematical Physics with Special Sessions on Bose's Works, Part I (Calcutta, 1994)"
   title: "Sampson flow through a nearly circular hole in a plane wall"
   mrclass: "76D99"
   volume: "3"
@@ -9040,7 +9040,7 @@
   pages: "491-560"
   year: 2012
   mrreviewer: "Gregor Herbort"
-  title: "Some aspects of the Kobayashi and Carath\\eodory metrics on pseudoconvex domains"
+  title: "Some aspects of the Kobayashi and Carath&eacute;odory metrics on pseudoconvex domains"
   doi: "10.1007s12220-010-9206-4"
   mrclass: "32F45 (32Q45)"
   volume: "22"
@@ -9085,8 +9085,8 @@
   issn: "1530-7638"
 
 - author: "Viswanath, Sankaran"
-  fjournal: "S\\eminaire Lotharingien de Combinatoire"
-  journal: "S\\em. Lothar. Combin."
+  fjournal: "S&eacute;minaire Lotharingien de Combinatoire"
+  journal: "S&eacute;m. Lothar. Combin."
   mrnumber: "2461998"
   pages: "Art. B58f, 20"
   year: 2007/08
@@ -9116,7 +9116,7 @@
   mrnumber: "2562458"
   pages: "167-174"
   year: 2009
-  mrreviewer: "Selma Alt\\A$\\pm$nok"
+  mrreviewer: "Selma Alt&Auml;$\\pm$nok"
   publisher: "Amer. Math. Soc., Providence, RI"
   booktitle: "Motives and algebraic cycles"
   title: "On codimension two subvarieties in hypersurfaces"
@@ -9243,7 +9243,7 @@
   pages: "121-151"
   year: 2012
   mrreviewer: "Weiping Yin"
-  title: "On isometries of the Kobayashi and Carath\\eodory metrics"
+  title: "On isometries of the Kobayashi and Carath&eacute;odory metrics"
   doi: "10.4064ap104-2-2"
   mrclass: "32F45 (32Q45)"
   volume: "104"
@@ -9344,7 +9344,7 @@
   mrnumber: "1696243"
   pages: "207-213"
   year: 1999
-  title: "A class of matching-equivalent bipartite graphs"
+  title: "A class of ``matching-equivalent'' bipartite graphs"
   doi: "10.1016S0012-365X(99)00006-0"
   mrclass: "05C70"
   volume: "203"
@@ -9488,7 +9488,7 @@
   mrnumber: "1255232"
   pages: "125-128"
   year: 1994
-  title: "A mixed boundary value problem for Laplaces equation involving a nearly circular disk"
+  title: "A mixed boundary value problem for Laplace's equation involving a nearly circular disk"
   doi: "10.1155S0161171294000177"
   mrclass: "31B20"
   volume: "17"
@@ -9509,7 +9509,7 @@
   issn: "0003-6994"
 
 - number: "1-2"
-  author: "Gaussier, Herv\\e and Seshadri, Harish"
+  author: "Gaussier, Herv&eacute; and Seshadri, Harish"
   fjournal: "Mathematische Zeitschrift"
   url: "httpdx.doi.org10.1007s00209-012-1063-3"
   journal: "Math. Z."
@@ -9560,7 +9560,7 @@
   pages: "989-995"
   year: 2011
   mrreviewer: "Ashish K. Upadhyay"
-  title: "On Walkups class $\\scr K(d)$ and a minimal triangulation of $(S3\\mathop{\\hbox{$\\times$}\\\\\\\\\\lower 3pt\\hbox{-}}\\ S1)^{\\3}$"
+  title: "On Walkup's class $\\scr K(d)$ and a minimal triangulation of $(S3\\mathop{\\hbox{$\\times$}\\\\\\\\\\lower 3pt\\hbox{-}}\\ S1)^{\\3}$"
   doi: "10.1016j.disc.2011.02.032"
   mrclass: "57Q15 (52B70 57R05)"
   volume: "311"
@@ -9589,7 +9589,7 @@
   pages: "1155-1173"
   year: 2015
   mrreviewer: "Benjamin Linowitz"
-  title: "Action de Hopf sur les op\\erateurs de Hecke modulaires tordus"
+  title: "Action de Hopf sur les op&eacute;rateurs de Hecke modulaires tordus"
   doi: "10.4171JNCG219"
   mrclass: "11F03 (16T05)"
   volume: "9"
@@ -9612,7 +9612,7 @@
 
 - number: "6"
   author: "Shafikov, Rasul and Verma, Kausha"
-  fjournal: "Universit\\e de Grenoble. Annales de lInstitut Fourier"
+  fjournal: "Universit&eacute; de Grenoble. Annales de l'Institut Fourier"
   url: "httpaif.cedram.orgitemidAIF_2007__57_6_2063_0"
   journal: "Ann. Inst. Fourier (Grenoble)"
   mrnumber: "2377897"
@@ -9630,7 +9630,7 @@
   mrnumber: "2187824"
   pages: "505-518"
   year: 2006
-  publisher: "Birkh\\auser, Basel"
+  publisher: "Birkh&auml;user, Basel"
   booktitle: "Contributions to nonlinear analysis"
   title: "A note on the superlinear Ambrosetti-Prodi type problem in a ball"
   doi: "10.10073-7643-7401-2_34"
@@ -9666,7 +9666,7 @@
 
 - number: "6"
   author: "Takhar, H. S. and Nath, G."
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math\\ematiques et de Physique Appliqu\\ees"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math&eacute;matiques et de Physique Appliqu&eacute;es"
   url: "httpdx.doi.org10.1007s000330050135"
   journal: "Z. Angew. Math. Phys."
   mrnumber: "1664727"
@@ -9774,14 +9774,14 @@
   pages: "299-316"
   year: 2014
   mrreviewer: "Lucas J\\A${}^3$dar"
-  title: "Babu\\v skas penalty method for inhomogeneous Dirichlet problem error estimates and multigrid algorithms"
+  title: "Babu\\v ska's penalty method for inhomogeneous Dirichlet problem error estimates and multigrid algorithms"
   mrclass: "65N30 (65N22 65N55)"
   volume: "5"
   issn: "1923-2942"
 
 - number: "1"
   author: "Lakshmi Lavanya, R. and Thangavelu, S."
-  fjournal: "Publicacions Matem\\atiques"
+  fjournal: "Publicacions Matem&agrave;tiques"
   url: "httpprojecteuclid.orgeuclid.pm1387570390"
   journal: "Publ. Mat."
   mrnumber: "3161508"
@@ -9807,7 +9807,7 @@
   issn: "0334-2700"
 
 - number: "4"
-  author: "Batt, J\\urgen and Ravindran, Renuka"
+  author: "Batt, J&uuml;rgen and Ravindran, Renuka"
   fjournal: "Quarterly of Applied Mathematics"
   url: "httpdx.doi.org10.1090S0033-569X-05-00976-6"
   journal: "Quart. Appl. Math."
@@ -9850,13 +9850,13 @@
   issn: "0731-5090"
 
 - author: "Ayyer, Arvind and Prasad, Amritanshu and Spallone, Steven"
-  fjournal: "S\\eminaire Lotharingien de Combinatoire"
-  journal: "S\\em. Lothar. Combin."
+  fjournal: "S&eacute;minaire Lotharingien de Combinatoire"
+  journal: "S&eacute;m. Lothar. Combin."
   mrnumber: "3510808"
   pages: "Art. B75g, 13"
   year: 2015
   mrreviewer: "Eric S. Egge"
-  title: "Odd partitions in Youngs lattice"
+  title: "Odd partitions in Young's lattice"
   mrclass: "05A17 (05A15 05E10)"
   volume: "75"
   issn: "1286-4889"
@@ -10117,7 +10117,7 @@
 
 - number: "9"
   author: "Chaudhuri, N. and Unterreiter, A."
-  fjournal: "ZAMM. Zeitschrift f\\ur Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
+  fjournal: "ZAMM. Zeitschrift f&uuml;r Angewandte Mathematik und Mechanik. Journal of Applied Mathematics and Mechanics"
   url: "httpdx.doi.org10.10021521-4001(200209)829587AID-ZAMM5873.0.CO2-Z"
   journal: "ZAMM Z. Angew. Math. Mech."
   mrnumber: "1922698"
@@ -10166,7 +10166,7 @@
   pages: "1031-1042"
   year: 2014
   mrreviewer: "Steven George Krantz"
-  title: "A simple Kontinuit\\atssatz"
+  title: "A simple Kontinuit&auml;tssatz"
   doi: "10.108017476933.2013.809572"
   mrclass: "32D10 (32D15)"
   volume: "59"
@@ -10181,7 +10181,7 @@
   pages: "1555-1571"
   year: 1999
   mrreviewer: "Maria A. Ragusa"
-  title: "Harnacks inequality for cooperative weakly coupled elliptic systems"
+  title: "Harnack's inequality for cooperative weakly coupled elliptic systems"
   doi: "10.108003605309908821475"
   mrclass: "35J45 (35B45 35B65 35R05)"
   volume: "24"
@@ -10196,7 +10196,7 @@
   pages: "471-481"
   year: 2013
   mrreviewer: "Hao Yin"
-  title: "On Wilkings criterion for the Ricci flow"
+  title: "On Wilking's criterion for the Ricci flow"
   doi: "10.1007s00209-012-1079-8"
   mrclass: "53C44 (53C21)"
   volume: "274"
@@ -10225,7 +10225,7 @@
   mrnumber: "2399738"
   pages: "313-324"
   year: 2008
-  mrreviewer: "Aleksandar Mijatovi\\A"
+  mrreviewer: "Aleksandar Mijatovi&Auml;"
   title: "Risk minimizing option pricing in a regime switching market"
   doi: "10.108007362990701857194"
   mrclass: "91B28 (60G44 91B70)"
@@ -10487,7 +10487,7 @@
   issn: "0020-7225"
 
 - number: "1"
-  author: "Ayyer, Arvind and Schilling, Anne and Thi\\ery, Nicolas M."
+  author: "Ayyer, Arvind and Schilling, Anne and Thi&eacute;ry, Nicolas M."
   fjournal: "Experimental Mathematics"
   url: "httpdx.doi.org10.108010586458.2015.1107868"
   journal: "Exp. Math."
@@ -10530,7 +10530,7 @@
 
 - number: "2"
   author: "Narayanan, E. K. and Sitaram, A."
-  fjournal: "Monatshefte f\\ur Mathematik"
+  fjournal: "Monatshefte f&uuml;r Mathematik"
   url: "httpdx.doi.org10.1007s00605-012-0429-2"
   journal: "Monatsh. Math."
   mrnumber: "3041739"
@@ -10589,7 +10589,7 @@
 
 - number: "2"
   author: "Narayanan, E. K. and Thangavelu, S."
-  fjournal: "Universit\\e de Grenoble. Annales de lInstitut Fourier"
+  fjournal: "Universit&eacute; de Grenoble. Annales de l'Institut Fourier"
   url: "httpaif.cedram.orgitemidAIF_2006__56_2_459_0"
   journal: "Ann. Inst. Fourier (Grenoble)"
   mrnumber: "2226023"
@@ -10914,15 +10914,15 @@
   pages: "1-13"
   year: 1994
   mrreviewer: "A. Marin"
-  title: "On K\\uhnels $9$-vertex complex projective plane"
+  title: "On K&uuml;hnel's $9$-vertex complex projective plane"
   doi: "10.1007BF01263646"
   mrclass: "52B70 (57Q15)"
   volume: "50"
   issn: "0046-5755"
 
 - number: "3"
-  author: "Kor\\anyi, Adam and Misra, Gadadhar"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  author: "Kor&aacute;nyi, Adam and Misra, Gadadhar"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2015.11.002"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "3463026"
@@ -10936,7 +10936,7 @@
   issn: "1631-073X"
 
 - number: "3"
-  author: "B\\eg, O. Anwar and Takhar, H. S. and Nath, G. and Chamkha, A. J."
+  author: "B&eacute;g, O. Anwar and Takhar, H. S. and Nath, G. and Chamkha, A. J."
   fjournal: "Lithuanian Association of Nonlinear Analysts (LANA). Nonlinear Analysis. Modelling and Control"
   journal: "Nonlinear Anal. Model. Control"
   mrnumber: "2266001"
@@ -11135,8 +11135,8 @@
 
 - number: "2"
   author: "Vanninathan, M. and Veerappa Gowda, G. D."
-  fjournal: "RAIRO Mod\\elisation Math\\ematique et Analyse Num\\erique"
-  journal: "RAIRO Mod\\el. Math. Anal. Num\\er."
+  fjournal: "RAIRO Mod&eacute;lisation Math&eacute;matique et Analyse Num&eacute;rique"
+  journal: "RAIRO Mod&eacute;l. Math. Anal. Num&eacute;r."
   mrnumber: "802598"
   pages: "327-340"
   year: 1985
@@ -11147,7 +11147,7 @@
   issn: "0764-583X"
 
 - number: "12"
-  author: "B\\ohm, A. and Loewe, M. and Biedenharn, L. C. and van Dam, H."
+  author: "B&ouml;hm, A. and Loewe, M. and Biedenharn, L. C. and van Dam, H."
   fjournal: "Physical Review. D. Particles and Fields. Third Series"
   url: "httpdx.doi.org10.1103PhysRevD.28.3032"
   journal: "Phys. Rev. D (3)"
@@ -11163,7 +11163,7 @@
 
 - number: "1"
   author: "Biswas, Indranil and Ravindra, G. V."
-  fjournal: "Bulletin des Sciences Math\\ematiques"
+  fjournal: "Bulletin des Sciences Math&eacute;matiques"
   url: "httpdx.doi.org10.1016j.bulsci.2008.08.004"
   journal: "Bull. Sci. Math."
   mrnumber: "2483522"
@@ -11254,14 +11254,14 @@
   mrclass: "90C05"
 
 - author: "Seshadri, Harish"
-  series: "S\\emin. Th\\eor. Spectr. G\\eom."
+  series: "S&eacute;min. Th&eacute;or. Spectr. G&eacute;om."
   url: "httpdx.doi.org10.5802tsg.264"
   mrnumber: "2654601"
   pages: "139-144"
   year: 2009
   mrreviewer: "David J. Wraith"
-  publisher: "Univ. Grenoble I, Saint-Martin-dH\\eres"
-  booktitle: "Actes du S\\eminaire de Th\\eorie Spectrale et G\\eom\\etrie. Vol. 26. Ann\\ee 2007-2008"
+  publisher: "Univ. Grenoble I, Saint-Martin-d'H&egrave;res"
+  booktitle: "Actes du S&eacute;minaire de Th&eacute;orie Spectrale et G&eacute;om&eacute;trie. Vol. 26. Ann&eacute;e 2007-2008"
   title: "Isotropic curvature a survey"
   doi: "10.5802tsg.264"
   mrclass: "53C21"
@@ -11281,7 +11281,7 @@
   volume: "97"
   issn: "0022-2526"
 
-- author: "B\\urger, Raimund and Karlsen, Kenneth H. and Mishra, Siddhartha and Towers, John D."
+- author: "B&uuml;rger, Raimund and Karlsen, Kenneth H. and Mishra, Siddhartha and Towers, John D."
   series: "Ber. Math."
   mrnumber: "2409573"
   pages: "75-84"
@@ -11314,7 +11314,7 @@
   mrnumber: "2495031"
   pages: "1164-1172"
   year: 2009
-  mrreviewer: "Zden\\Ak \\AA marda"
+  mrreviewer: "Zden&Auml;k \\AA marda"
   title: "Existence and approximation of solutions to fractional differential equations"
   doi: "10.1016j.mcm.2008.07.013"
   mrclass: "34A12 (26A33 34G10)"
@@ -11323,7 +11323,7 @@
 
 - number: "5"
   author: "Biswas, Indranil and Seshadri, Harish"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2017.03.012"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "3650386"
@@ -11370,7 +11370,7 @@
   mrnumber: "3175644"
   pages: "323-355"
   year: 2014
-  title: "Stokes system in a domain with oscillating boundary homogenization and error analysis of an interior optimal control problem"
+  title: "Stokes' system in a domain with oscillating boundary homogenization and error analysis of an interior optimal control problem"
   doi: "10.108001630563.2013.812657"
   mrclass: "35B27 (35Q35)"
   volume: "35"
@@ -11421,8 +11421,8 @@
 
 - number: "2"
   author: "Datta, Basudeb"
-  fjournal: "Beitr\\age zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  journal: "Beitr\\age Algebra Geom."
+  fjournal: "Beitr&auml;ge zur Algebra und Geometrie. Contributions to Algebra and Geometry"
+  journal: "Beitr&auml;ge Algebra Geom."
   mrnumber: "2196935"
   pages: "537-544"
   year: 2005
@@ -11477,7 +11477,7 @@
   issn: "1747-6933"
 
 - number: "2"
-  author: "Biedenharn, L. C. and B\\ohm, A. and Tarlini, M. and van Dam, H. and Mukunda, N."
+  author: "Biedenharn, L. C. and B&ouml;hm, A. and Tarlini, M. and van Dam, H. and Mukunda, N."
   fjournal: "Physical Review. D. Particles and Fields. Third Series"
   url: "httpdx.doi.org10.1103PhysRevD.30.409"
   journal: "Phys. Rev. D (3)"
@@ -11527,7 +11527,7 @@
   mrnumber: "730900"
   pages: "95-98"
   year: 1983
-  mrreviewer: "J. Segethov\\A"
+  mrreviewer: "J. Segethov\\A`"
   title: "Fast parallel exact computation of the Moore-Penrose inverse and rank of a matrix"
   mrclass: "65F20 (65W05)"
   volume: "19"
@@ -11564,7 +11564,7 @@
 
 - number: "7"
   author: "Seshadri, Harish"
-  fjournal: "Universit\\e de Grenoble. Annales de lInstitut Fourier"
+  fjournal: "Universit&eacute; de Grenoble. Annales de l'Institut Fourier"
   url: "httpaif.cedram.orgitemidAIF_2010__60_7_2493_0"
   journal: "Ann. Inst. Fourier (Grenoble)"
   mrnumber: "2866997"
@@ -11653,7 +11653,7 @@
   pages: "1-17"
   year: 2010
   mrreviewer: "Troels Roussau Johansen"
-  title: "Variants of Miyachis theorem for nilpotent Lie groups"
+  title: "Variants of Miyachi's theorem for nilpotent Lie groups"
   doi: "10.1017S144678870900038X"
   mrclass: "22E25 (43A80)"
   volume: "88"
@@ -11696,7 +11696,7 @@
   mrnumber: "1420168"
   pages: "261-270"
   year: 1996
-  mrreviewer: "Yuri I. Cherski\\A-"
+  mrreviewer: "Yuri I. Cherski&Auml;-"
   title: "Solution of singular integral equations with logarithmic and Cauchy kernels"
   doi: "10.1007BF02867434"
   mrclass: "45E10 (30C70 45E05 76B15)"
@@ -11732,7 +11732,7 @@
   volume: "29"
   issn: "0556-2821"
 
-- author: "Balachandran, A. P. and K\\urk\\cc\\uo\\u glu, S. and Vaidya, S."
+- author: "Balachandran, A. P. and K&uuml;rk\\cc&uuml;o\\u glu, S. and Vaidya, S."
   url: "httpdx.doi.org10.11429789812707468"
   mrnumber: "2304140"
   pages: "xiv181"
@@ -11746,7 +11746,7 @@
 
 - number: "1"
   author: "Boggarapu, Pradeep and Thangavelu, S."
-  fjournal: "Publicacions Matem\\atiques"
+  fjournal: "Publicacions Matem&agrave;tiques"
   url: "httpprojecteuclid.orgeuclid.pm1450818486"
   journal: "Publ. Mat."
   mrnumber: "3447737"
@@ -11780,7 +11780,7 @@
   pages: "193-216"
   year: 1994
   note: "Graphs and combinatorics (Qawra, 1990)"
-  mrreviewer: "L\\Aszl\\A${}^3$ Pyber"
+  mrreviewer: "L\\A`szl\\A${}^3$ Pyber"
   title: "Some results and approaches for reconstruction conjectures"
   doi: "10.10160012-365X(92)00061-U"
   mrclass: "05C60"
@@ -11822,7 +11822,7 @@
   mrnumber: "2648005"
   pages: "x209"
   year: 2010
-  mrreviewer: "Liam OCarroll"
+  mrreviewer: "Liam O'Carroll"
   publisher: "IISc Press, Bangalore World Scientific Publishing Co. Pte. Ltd., Hackensack, NJ"
   isbn: "978-981-4307-58-1 981-4307-58-0"
   title: "Introduction to algebraic geometry and commutative algebra"
@@ -12075,14 +12075,14 @@
   mrnumber: "1468240"
   pages: "77-84"
   year: 1997
-  mrreviewer: "Du\\AA an Repov\\AA "
+  mrreviewer: "Du\\AA `an Repov\\AA `"
   publisher: "de Gruyter, Berlin"
   booktitle: "Geometry from the Pacific Rim (Singapore, 1994)"
   title: "Minimal triangulation, complementarity and projective planes"
   mrclass: "57Q15 (57M20 57N05)"
 
 - author: "Thangavelu, Sundaram"
-  series: "S\\emin. Congr."
+  series: "S&eacute;min. Congr."
   mrnumber: "3186720"
   pages: "251-284"
   year: 2012
@@ -12100,21 +12100,21 @@
   mrnumber: "3135029"
   pages: "305-318"
   year: 2013
-  title: "Fermats and Huygens principles, and hyperbolic equations and their equivalence in wavefront construction"
+  title: "Fermat's and Huygens' principles, and hyperbolic equations and their equivalence in wavefront construction"
   mrclass: "35F20 (35A18 35L60)"
   volume: "21"
   issn: "1061-5369"
 
 - number: "23-24"
   author: "Gadgil, Siddhartha"
-  fjournal: "Comptes Rendus Math\\ematique. Acad\\emie des Sciences. Paris"
+  fjournal: "Comptes Rendus Math&eacute;matique. Acad&eacute;mie des Sciences. Paris"
   url: "httpdx.doi.org10.1016j.crma.2013.10.022"
   journal: "C. R. Math. Acad. Sci. Paris"
   mrnumber: "3133604"
   pages: "915-920"
   year: 2013
   mrreviewer: "Adela-Gabriela Mihai"
-  title: "The projective plane, $J$-holomorphic curves and Desargues theorem"
+  title: "The projective plane, $J$-holomorphic curves and Desargues' theorem"
   doi: "10.1016j.crma.2013.10.022"
   mrclass: "53D05 (32Q65 51A30)"
   volume: "351"
@@ -12306,7 +12306,7 @@
 
 - number: "8"
   author: "Surma Devi, C. D. and Nagaraj, M. and Ramesan, T. and Nath, G."
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Mechanik. Ingenieurwissenschaftliche Forschungsarbeiten"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Mechanik. Ingenieurwissenschaftliche Forschungsarbeiten"
   url: "httpdx.doi.org10.1002zamm.19850650817"
   journal: "Z. Angew. Math. Mech."
   mrnumber: "814297"
@@ -12321,7 +12321,7 @@
 
 - number: "5"
   author: "Lazarev, M. P. and Prasad, Phoolan and Sing, S. K."
-  fjournal: "Zeitschrift f\\ur Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math\\ematiques et de Physique Appliqu\\ees"
+  fjournal: "Zeitschrift f&uuml;r Angewandte Mathematik und Physik. ZAMP. Journal of Applied Mathematics and Physics. Journal de Math&eacute;matiques et de Physique Appliqu&eacute;es"
   url: "httpdx.doi.org10.1007BF00949078"
   journal: "Z. Angew. Math. Phys."
   mrnumber: "1355537"
@@ -12371,7 +12371,7 @@
   mrnumber: "3347956"
   pages: "125-139"
   year: 2015
-  mrreviewer: "Djordje Mili\\Aevi\\A"
+  mrreviewer: "Djordje Mili&Auml;evi&Auml;"
   title: "Theory of newforms of half-integral weight"
   doi: "10.2140pjm.2015.274.125"
   mrclass: "11F37 (11F11 11F32)"
@@ -12408,7 +12408,7 @@
   issn: "0092-7872"
 
 - number: "4"
-  author: "B\\eg, O. Anwar and Takhar, H. S. and B\\eg, Tasveer A. and Chamkha, A. J. and Nath, G. and Majeed, Rui"
+  author: "B&eacute;g, O. Anwar and Takhar, H. S. and B&eacute;g, Tasveer A. and Chamkha, A. J. and Nath, G. and Majeed, Rui"
   fjournal: "International Journal of Fluid Mechanics Research"
   url: "httpdx.doi.org10.1615InterJFluidMechRes.v32.i4.10"
   journal: "Int. J. Fluid Mech. Res."
@@ -12473,7 +12473,7 @@
   mrnumber: "2125917"
   pages: "307-323"
   year: 2005
-  mrreviewer: "M\\Arcia Scialom"
+  mrreviewer: "M\\A`rcia Scialom"
   title: "Large-time asymptotics for periodic solutions of the modified Burgers equation"
   doi: "10.1111j.0022-2526.2005.01551.x"
   mrclass: "35Q53 (35B10 35B40)"
@@ -12514,7 +12514,7 @@
   mrnumber: "3633161"
   pages: "914-918"
   year: 2017
-  mrreviewer: "Ji\\v r\\\\i  Lebl"
+  mrreviewer: "Ji\\v r\\'\\i  Lebl"
   title: "A criterion for a degree-one holomorphic map to be a biholomorphism"
   doi: "10.108017476933.2016.1252342"
   mrclass: "32H02 (32J18)"
@@ -12557,7 +12557,7 @@
   mrnumber: "2356419"
   pages: "438-462"
   year: 2007
-  mrreviewer: "Miroslav Engli\\AA "
+  mrreviewer: "Miroslav Engli\\AA `"
   title: "Holomorphic Sobolev spaces associated to compact symmetric spaces"
   doi: "10.1016j.jfa.2007.07.009"
   mrclass: "43A85 (22E30 46E35)"
