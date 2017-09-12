@@ -17,6 +17,34 @@ li.dropdown:hover > .dropdown-menu {
   border-radius: 25px;
 }
 
+.dropdown-menu > li > a {
+  color: #0f0f0f;
+}
+
+a {
+  color: #3498db;
+}
+
+a:hover,
+a:focus {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-brand:focus {
+  color: #3498db;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #3498db;
+}
 
 body {
     padding-top: 20px;
