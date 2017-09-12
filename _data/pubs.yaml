@@ -2120,6 +2120,20 @@
   volume: "22"
   issn: "1259-1734"
 
+- author: "Ayyer, Arvind and Klee, Steven and Schilling, Anne"
+  series: "Fields Inst. Commun."
+  url: "httpdx.doi.org10.1007978-1-4939-0938-4_13"
+  mrnumber: "3308326"
+  pages: "285-304"
+  year: 2014
+  mrreviewer: "Hiro-Fumi Yamada"
+  publisher: "Springer, New York"
+  booktitle: "Algebraic monoids, group embeddings, and algebraic combinatorics"
+  title: "Markov chains for promotion operators"
+  doi: "10.1007978-1-4939-0938-4_13"
+  mrclass: "06A07 (47D03 60J05)"
+  volume: "71"
+
 - number: "4"
   author: "Basak, Biplab"
   fjournal: "Indian Academy of Sciences. Proceedings. Mathematical Sciences"
@@ -3498,6 +3512,20 @@
   mrclass: "47B35 (45B05 47G10)"
   volume: "104"
   issn: "0253-4142"
+
+- author: "Ayyer, Arvind and Linusson, Svante"
+  fjournal: "Advances in Applied Mathematics"
+  url: "httpdx.doi.org10.1016j.aam.2014.02.001"
+  journal: "Adv. in Appl. Math."
+  mrnumber: "3206520"
+  pages: "21-43"
+  year: 2014
+  mrreviewer: "Halim Zeghdoudi"
+  title: "An inhomogeneous multispecies TASEP on a ring"
+  doi: "10.1016j.aam.2014.02.001"
+  mrclass: "60K35 (05A05)"
+  volume: "57"
+  issn: "0196-8858"
 
 - number: "2"
   author: "Datta, Basudeb"
@@ -10766,6 +10794,20 @@
   mrclass: "45Q05 (35L05 35R30 44A12)"
   volume: "26"
   issn: "0266-5611"
+
+- number: "4"
+  author: "Ayyer, Arvind and Klee, Steven and Schilling, Anne"
+  fjournal: "Journal of Algebraic Combinatorics. An International Journal"
+  url: "httpdx.doi.org10.1007s10801-013-0470-9"
+  journal: "J. Algebraic Combin."
+  mrnumber: "3199029"
+  pages: "853-881"
+  year: 2014
+  title: "Combinatorial Markov chains on linear extensions"
+  doi: "10.1007s10801-013-0470-9"
+  mrclass: "06A05"
+  volume: "39"
+  issn: "0925-9899"
 
 - number: "4"
   author: "Datta, Basudeb"
