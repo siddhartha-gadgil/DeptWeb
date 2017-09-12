@@ -539,7 +539,7 @@
   volume: "59"
   issn: "1747-6933"
 
-- author: "Ayyer, Arvind and Bouttier, J&eacute;r&eacute;mie and Corteel, Sylvie and Nunzi, Fran\\ccois"
+- author: "Ayyer, Arvind and Bouttier, J&eacute;r&eacute;mie and Corteel, Sylvie and Nunzi, Fran&ccedil;cois"
   fjournal: "Electronic Journal of Probability"
   url: "httpdx.doi.org10.1214EJP.v20-3495"
   journal: "Electron. J. Probab."
@@ -1233,7 +1233,7 @@
   issn: "0971-3611"
 
 - number: "3"
-  author: "Ben Sa\\\"\\i d, Salem and Thangavelu, Sundaram and Dogga, Venku Naidu"
+  author: "Ben Sa&iuml; d, Salem and Thangavelu, Sundaram and Dogga, Venku Naidu"
   fjournal: "Journal of the Australian Mathematical Society"
   url: "httpdx.doi.org10.1017S1446788713000311"
   journal: "J. Aust. Math. Soc."
@@ -1732,7 +1732,7 @@
   mrnumber: "3149618"
   pages: "71-87"
   year: 2014
-  mrreviewer: "Alain Pi\\A\\copyrighttrus"
+  mrreviewer: "Alain Pi\\A&ccedil;opyrighttrus"
   title: "A remark on the a posteriori error analysis of discontinuous Galerkin methods for the obstacle problem"
   doi: "10.1515cmam-2013-0015"
   mrclass: "65N30 (65K15 65N15)"
@@ -2425,7 +2425,7 @@
   mrnumber: "2183594"
   pages: "23-32"
   year: 2005
-  mrreviewer: "L\\A`szl\\A${}^3$ K\\A\\copyrightrchy"
+  mrreviewer: "L\\A`szl\\A${}^3$ K\\A&ccedil;opyrightrchy"
   title: "Characteristic function of a pure commuting contractive tuple"
   doi: "10.1007s00020-004-1309-5"
   mrclass: "47A45 (47A13)"
@@ -2547,7 +2547,7 @@
   pages: "148-176"
   year: 2015
   mrreviewer: "Jon Eivind Vatne"
-  title: "Sch&eacute;mas sur les cat&eacute;gories ab&eacute;liennes mono\\\"\\i dales sym&eacute;triques et faisceaux quasi-coh&eacute;rents"
+  title: "Sch&eacute;mas sur les cat&eacute;gories ab&eacute;liennes mono&iuml; dales sym&eacute;triques et faisceaux quasi-coh&eacute;rents"
   doi: "10.1016j.jalgebra.2014.10.012"
   mrclass: "14F05 (18D10 18E30)"
   volume: "423"
@@ -2648,7 +2648,7 @@
   mrnumber: "3232587"
   pages: "801-815"
   year: 2014
-  mrreviewer: "Luc Del\\A\\copyrightaval"
+  mrreviewer: "Luc Del\\A&ccedil;opyrightaval"
   title: "$L^p$-integrability, dimensions of supports of Fourier transforms and applications"
   doi: "10.1007s00041-014-9334-5"
   mrclass: "42B10 (28A78 37F35 40E05)"
@@ -6012,7 +6012,7 @@
   mrnumber: "2259892"
   pages: "36-83"
   year: 2006
-  mrreviewer: "Rodney Josu\\A\\copyright Biezuner"
+  mrreviewer: "Rodney Josu\\A&ccedil;opyright Biezuner"
   title: "Optimal Hardy-Rellich inequalities, maximum principle and related eigenvalue problem"
   doi: "10.1016j.jfa.2006.07.011"
   mrclass: "35B50 (35J20 35P15)"
@@ -6558,7 +6558,7 @@
   mrnumber: "2174963"
   pages: "1-14"
   year: 2005
-  mrreviewer: "Jos\\A\\copyright C. Sabina de Lis"
+  mrreviewer: "Jos\\A&ccedil;opyright C. Sabina de Lis"
   title: "Role of fundamental solutions for optimal Lipschitz extensions on hyperbolic space"
   doi: "10.1016j.jde.2005.07.004"
   mrclass: "35J60 (35A08 35B50 35J70 49K20 49L25)"
@@ -6667,7 +6667,7 @@
   pages: "151-160"
   year: 2016
   mrreviewer: "Jos&eacute; N. Alonso &Aacute;lvarez"
-  title: "Une note sur les d&eacute;rivations localement nilpotentes dans les cat&eacute;gories mono\\\"\\i dales sym&eacute;triques"
+  title: "Une note sur les d&eacute;rivations localement nilpotentes dans les cat&eacute;gories mono&iuml; dales sym&eacute;triques"
   mrclass: "18D10 (13N15)"
   volume: "23"
   issn: "1370-1444"
@@ -6918,7 +6918,7 @@
   mrnumber: "2497327"
   pages: "143-158"
   year: 2009
-  mrreviewer: "Steffen J\\A\\c rgensen"
+  mrreviewer: "Steffen J\\A&ccedil; rgensen"
   title: "Differential games of mixed type with control and stopping times"
   doi: "10.1007s00030-008-6007-6"
   mrclass: "49N70 (49L25 91A05 91A23)"
@@ -7170,7 +7170,7 @@
   mrnumber: "2392113"
   pages: "491-496"
   year: 2007
-  mrreviewer: "Jos\\A\\copyright Villa-Morales"
+  mrreviewer: "Jos\\A&ccedil;opyright Villa-Morales"
   title: "Branching particle systems and superprocess"
   mrclass: "60J60 (60J80)"
   volume: "87"
@@ -7184,7 +7184,7 @@
   mrnumber: "3451268"
   pages: "111-130"
   year: 2016
-  mrreviewer: "Jos\\A\\copyright Antonio Vilches"
+  mrreviewer: "Jos\\A&ccedil;opyright Antonio Vilches"
   title: "Simple crystallizations of 4-manifolds"
   doi: "10.1515advgeom-2015-0043"
   mrclass: "57Q15 (05C90 57N13 57Q05)"
@@ -7865,7 +7865,7 @@
   volume: "48"
   issn: "0764-583X"
 
-- author: "Ayyer, Arvind and Bouttier, J&eacute;r&eacute;mie and Corteel, Sylvie and Nunzi, Fran\\ccois"
+- author: "Ayyer, Arvind and Bouttier, J&eacute;r&eacute;mie and Corteel, Sylvie and Nunzi, Fran&ccedil;cois"
   series: "Discrete Math. Theor. Comput. Sci. Proc., BA"
   mrnumber: "3525959"
   pages: "1-12"
@@ -8157,7 +8157,7 @@
   pages: "2088-2110"
   year: 2012
   mrreviewer: "H. P. Dikshit"
-  title: "A quadratic $C^{\\circ}$ interior penalty method for linear fourth order boundary value problems with boundary conditions of the Cahn-Hilliard type"
+  title: "A quadratic $C^{&ccedil;irc}$ interior penalty method for linear fourth order boundary value problems with boundary conditions of the Cahn-Hilliard type"
   doi: "10.1137110847469"
   mrclass: "65N30 (65N15)"
   volume: "50"
@@ -8270,7 +8270,7 @@
   mrnumber: "1862130"
   pages: "489-505"
   year: 2002
-  mrreviewer: "Cristian E. Guti\\A\\copyrightrrez"
+  mrreviewer: "Cristian E. Guti\\A&ccedil;opyrightrrez"
   title: "An improved Hardy-Sobolev inequality and its application"
   doi: "10.1090S0002-9939-01-06132-9"
   mrclass: "35P15 (35J15 35J65)"
@@ -8506,7 +8506,7 @@
   mrnumber: "1438768"
   pages: "568-575"
   year: 1997
-  mrreviewer: "Kh\\A\\copyrightlifa Trim\\A\\\"\\ che"
+  mrreviewer: "Kh\\A&ccedil;opyrightlifa Trim\\A\\\"\\ che"
   title: "Diagonalizable generalized Abel integral operators"
   doi: "10.1137S0036139995279676"
   mrclass: "45E99 (45P05)"
@@ -11624,7 +11624,7 @@
   mrnumber: "1358811"
   pages: "345-380"
   year: 1995
-  mrreviewer: "Manuel N\\A${}^{\\underline{\\rm o}}$\\A$\\pm$ez Jim\\A\\copyrightnez"
+  mrreviewer: "Manuel N\\A${}^{\\underline{\\rm o}}$\\A$\\pm$ez Jim\\A&ccedil;opyrightnez"
   title: "Singularity structure and chaotic behavior of the homopolar disk dynamo"
   doi: "10.1002sapm1995954345"
   mrclass: "76W05 (34C25 58F13 58F40 85A30)"
@@ -11732,7 +11732,7 @@
   volume: "29"
   issn: "0556-2821"
 
-- author: "Balachandran, A. P. and K&uuml;rk\\cc&uuml;o\\u glu, S. and Vaidya, S."
+- author: "Balachandran, A. P. and K&uuml;rk&ccedil;c&uuml;o\\u glu, S. and Vaidya, S."
   url: "httpdx.doi.org10.11429789812707468"
   mrnumber: "2304140"
   pages: "xiv181"

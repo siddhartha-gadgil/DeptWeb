@@ -32,6 +32,8 @@ def fix(s: String) =
         replace("\\\"O", "&Ouml;").
         replace("\\\"A", "&Auml;").
         replace("\\\"a", "&auml;").
+        replace("\\\"\\i", "&iuml;").
+        replace("\\c", "&ccedil;").
         replace("\\`A", "&Agrave;").
         replace("\\'A", "&Aacute;").
         replace("\\\"U", "&Uuml;").
