@@ -6,9 +6,9 @@ title: Seminars
     {% assign sorted = (site.seminars | sort: 'date') | reverse %}
 
 {% for sem in sorted  %}
-<div class="row">
+<!-- <div class="row">
 
-  <div class="col-md-10">
+  <div class="col-md-11"> -->
   <h5><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
   <h5>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </h5>
@@ -18,20 +18,22 @@ title: Seminars
     {{ sem.venue }}
     {% else %}
     {{ sem.location }}
-    {% endif %} 
+    {% endif %}
   </h5>
 
 
     {{ sem.content }}
-  </div>
 
-</div>
+  <p><a href="#" class="pull-right">Top</a></p>
+  <!-- </div>
+
+</div> -->
 
   <p>&nbsp;</p>
  {% endfor %}
 
 
-<div class="row">
+<!-- <div class="row"> -->
   <h3>Previous years</h3>
   <ul>
     <li><a href="seminars2016.html">2016</a></li>
@@ -46,4 +48,4 @@ title: Seminars
     <li><a href="seminars2004.html">2004</a></li>
   </ul>
 
-</div>
+<!-- </div> -->
