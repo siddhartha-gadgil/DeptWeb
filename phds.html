@@ -6,17 +6,26 @@ title: Ph.D. Degrees Awarded
 
   {% assign years = site.data.phds | group_by: "year" %}
 
+
  {% assign sorted = (years | sort: 'name') | reverse %}
+
+ <ul class="list-inline">
+   {% for y in sorted %}
+   <li> <a href="#{{y.name}}"> {{y.name}} </a> </li>
+   {% endfor %}
+ </ul>
+
+
  <ul>
   {% for y in sorted %}
    <li>
      <h4>
-     <a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}">
+     <!-- <a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}"> -->
      {{y.name}}
-     </a>
+     <!-- </a> -->
      </h4>
 
-<div class="collapse" id="{{y.name}}">
+<div class="" id="{{y.name}}">
   <ul style="list-style-type:none">
   {% for deg in y.items %}
    <li><p style="margin-top: 15px; margin-bottom: -3px"> <b>Name:</b> <em>{{ deg.name }}</em> </p></li>
@@ -24,14 +33,16 @@ title: Ph.D. Degrees Awarded
    <li> <b>Supervisor:</b> {{ deg.advisor }}{% if deg.present %} </li>
    <li> <b>Present Position:</b>  {{ deg.present}} </li>
  {% endif %}
-    
- {% endfor %}  
+
+ {% endfor %}
  </ul>
- 
+
 </div>
 
 </li>
+<p><a href="#" class="pull-right">Top</a></p>
+<br>
 {% endfor %}
 </ul>
-  
+
 </div>
