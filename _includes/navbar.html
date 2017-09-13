@@ -1,5 +1,5 @@
-<nav class="navbar navbar-default" style="border-radius:0px;" role="navigation">
-  <div class="container-fluid bg-info">
+<nav class="navbar navbar-default" style="border-radius:0px;  height: 10px;" role="navigation">
+  <div class="container-fluid bg-info" style="padding: -10px;">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
@@ -13,7 +13,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navigationbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" style="margin: -10px;">
         <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -119,11 +119,11 @@
         {% include publist.html %}
         {% endif %}
         <form class="navbar-form" role="search" action="http://www.google.com/search"  target="_blank">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="q">
+        <div class="input-group" style="margin-top: 2px;">
+            <input type="text" class="form-control" placeholder="Search" name="q" style="height: 8px;">
             <input type="hidden" class="form-control" name="sitesearch" value="math.iisc.ac.in"/>
             <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                <button class="btn btn-default" type="submit" style="padding: 4px; padding-top: 0px; padding-bottom: 0px;"><i class="fa fa-search" style="font-size: 14px;"></i></button>
             </div>
         </div>
         </form>
