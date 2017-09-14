@@ -38,6 +38,9 @@ a:focus {
   text-decoration: underline;
 }
 
+.navbar-nav > li > a {padding-top:8px !important; padding-bottom:3px !important;}
+.navbar {min-height:32px !important}
+
 body {
     padding-top: 20px;
   }
