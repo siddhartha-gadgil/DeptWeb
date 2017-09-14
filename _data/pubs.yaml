@@ -2476,7 +2476,7 @@
   pages: "79-102"
   year: 2015
   mrreviewer: "Mehmetcik Pamuk"
-  title: "Strongly minimal triangulations of $(S^3\\times S^1)^{\\3}$ and $(S^3\\mathbin{\\times\\kern-.7em{{}_-} \\,}S^1)^{\\3}$"
+  title: "Strongly minimal triangulations of $(S^3\\times S^1)^{\\#3}$ and $(S^3\\mathbin{\\times\\kern-.7em{{}_-} \\,}S^1)^{\\#3}$"
   doi: "10.1007s12044-015-0217-8"
   mrclass: "57Q15 (57R05)"
   volume: "125"
@@ -9560,7 +9560,7 @@
   pages: "989-995"
   year: 2011
   mrreviewer: "Ashish K. Upadhyay"
-  title: "On Walkup's class $\\scr K(d)$ and a minimal triangulation of $(S3\\mathop{\\hbox{$\\times$}\\\\\\\\\\lower 3pt\\hbox{-}}\\ S1)^{\\3}$"
+  title: "On Walkup's class $\\scr K(d)$ and a minimal triangulation of $(S3\\mathop{\\hbox{$\\times$}\\\\\\\\\\lower 3pt\\hbox{-}}\\ S1)^{\\#3}$"
   doi: "10.1016j.disc.2011.02.032"
   mrclass: "57Q15 (52B70 57R05)"
   volume: "311"

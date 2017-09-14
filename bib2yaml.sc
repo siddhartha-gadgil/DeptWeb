@@ -11,7 +11,7 @@ val reader= new java.io.FileReader("_data/publications.bib")
 val db = parser.parse(reader)
 
 
-val regex = "[^a-zA-Z0-9 \\-,.\\\\$\\{\\}\\(\\)_\\``\'\"^]".r
+val regex = "[^a-zA-Z0-9 #\\-,.\\\\$\\{\\}\\(\\)_\\``\'\"^]".r
 def fix(s: String) =
   {
     val purged =
