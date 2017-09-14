@@ -19,7 +19,7 @@
   mrnumber: "1993872"
   pages: "355-368, 371-372"
   year: 1999
-  mrreviewer: "Sa\\A$\\overline$d Hamadene"
+  mrreviewer: "Sa\\A$&oslash;verline$d Hamadene"
   title: "Nonzero-sum stochastic differential games with reflecting diffusions"
   mrclass: "91A15 (60H15 91A23)"
   volume: "18"
@@ -87,7 +87,7 @@
   volume: "320"
 
 - number: "1"
-  author: "Bharali, Gautam and Stens\\o nes, Berit"
+  author: "Bharali, Gautam and Stens&oslash; nes, Berit"
   fjournal: "Mathematische Zeitschrift"
   url: "httpdx.doi.org10.1007s00209-008-0312-y"
   journal: "Math. Z."
@@ -2169,7 +2169,7 @@
   mrnumber: "2971623"
   pages: "437-449"
   year: 2012
-  mrreviewer: "Sa\\A$\\overline$d Hamadene"
+  mrreviewer: "Sa\\A$&oslash;verline$d Hamadene"
   title: "Zero-sum risk-sensitive stochastic differential games"
   doi: "10.1287moor.1120.0542"
   mrclass: "91A23 (49N70 60J70)"
@@ -2191,7 +2191,7 @@
   issn: "0929-5313"
 
 - number: "3"
-  author: "Bhattacharyya, Tirthankar and Ko\\v sir, Toma\\v z and Plestenjak, Bor"
+  author: "Bhattacharyya, Tirthankar and Ko&#353;ir, Toma\\v z and Plestenjak, Bor"
   fjournal: "Proceedings of the Edinburgh Mathematical Society. Series II"
   url: "httpdx.doi.org10.1017S0013091501000207"
   journal: "Proc. Edinb. Math. Soc. (2)"
@@ -3370,7 +3370,7 @@
   volume: "58"
   issn: "0017-0895"
 
-- author: "Arun, K. R. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, Phoolan and Raghurama Rao, S. V."
+- author: "Arun, K. R. and Luk&aacute;&#263;ov&aacute;-Medvi&#273;ov&aacute;, M. and Prasad, Phoolan and Raghurama Rao, S. V."
   series: "Notes Numer. Fluid Mech. Multidiscip. Des."
   url: "httpdx.doi.org10.1007978-3-642-33221-0_1"
   mrnumber: "3013100"
@@ -7298,7 +7298,7 @@
   issn: "0972-7671"
 
 - number: "7"
-  author: "Arun, K. R. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, Phoolan and Raghurama Rao, S. V."
+  author: "Arun, K. R. and Luk&aacute;&#263;ov&aacute;-Medvi&#273;ov&aacute;, M. and Prasad, Phoolan and Raghurama Rao, S. V."
   fjournal: "SIAM Journal on Applied Mathematics"
   url: "httpdx.doi.org10.1137080732742"
   journal: "SIAM J. Appl. Math."
@@ -7403,7 +7403,7 @@
   issn: "0022-3239"
 
 - number: "2"
-  author: "Arun, K. R. and Kraft, M. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, Phoolan"
+  author: "Arun, K. R. and Kraft, M. and Luk&aacute;&#263;ov&aacute;-Medvi&#273;ov&aacute;, M. and Prasad, Phoolan"
   fjournal: "Journal of Computational Physics"
   url: "httpdx.doi.org10.1016j.jcp.2008.10.004"
   journal: "J. Comput. Phys."
@@ -7573,7 +7573,7 @@
   title: "A combinatorial algorithm for the determinant"
   mrclass: "15A15 (65F40)"
 
-- author: "Arun, K. R. and Luk&aacute;\\v cov&aacute;-Medvi\\v dov&aacute;, M. and Prasad, P."
+- author: "Arun, K. R. and Luk&aacute;&#263;ov&aacute;-Medvi&#273;ov&aacute;, M. and Prasad, P."
   series: "Springer Proc. Math."
   url: "httpdx.doi.org10.1007978-3-642-20671-9_6"
   mrnumber: "2815628"
@@ -9774,7 +9774,7 @@
   pages: "299-316"
   year: 2014
   mrreviewer: "Lucas J\\A${}^3$dar"
-  title: "Babu\\v ska's penalty method for inhomogeneous Dirichlet problem error estimates and multigrid algorithms"
+  title: "Babu&#353;ka's penalty method for inhomogeneous Dirichlet problem error estimates and multigrid algorithms"
   mrclass: "65N30 (65N22 65N55)"
   volume: "5"
   issn: "1923-2942"
@@ -11993,7 +11993,7 @@
   mrnumber: "2335069"
   pages: "845-867"
   year: 2007
-  mrreviewer: "Sa\\A$\\overline$d Hamadene"
+  mrreviewer: "Sa\\A$&oslash;verline$d Hamadene"
   title: "Stochastic differential games with multiple modes and applications to portfolio optimization"
   doi: "10.108007362990701420126"
   mrclass: "91A23 (49N70 91A15 91B28 93E20)"
