@@ -2,23 +2,5 @@
 title: Seminars - 2017
 ---
 
-<h3> List of Seminars. Latest seminars first.
-</h3>
-<br>
-
-<table class="table table-bordered table-striped">
-<tr>
-  <strong><td style="width: 120px;">Date</td><td>Speaker</td><td>Title</td></strong>
-</tr>
-{% assign sorted = (site.seminars | sort: 'date') | reverse %}
-
-{% for sem in sorted  %}
-<tr>
-  <td>{{ sem.date | date: '%b %d, %Y' }}</td>
-  <td> {{ sem.speaker }} </td>
-  <td> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a></td>
-</tr>
-
-{% endfor %}
-
-</table>
+{% assign current="2017" %}
+{% include seminar-table.html %}
