@@ -1,8 +1,9 @@
 {% include header.html %}
 
 <h3>{{ page.code }}:  {{ page.title }}</h3>
-<p>&nbsp;</p>
-
+<h4> Credits: {% if course.credits %}{{ course.credits }}{% else %}3:0{% endif %}</h4>
+<!-- <p>&nbsp;</p> -->
+<br>
 {% if page.prereqs %}
 <h4> Pre-requisites : </h4>
     <ol>
@@ -10,11 +11,11 @@
      <li> {{ pre }} </li>
     {% endfor %}
    </ol>
+   <br>
 {% endif %}
 
-<p>&nbsp;</p>
     {{ content }}
-<p>&nbsp;</p>
+<br>
 {% if page.books %}
 <h4> Suggested books : </h4>
 <ol>
