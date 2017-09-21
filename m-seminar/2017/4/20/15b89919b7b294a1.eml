@@ -1,0 +1,102 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.115.101 with SMTP id jn5csp523251obb;
+        Wed, 19 Apr 2017 21:14:32 -0700 (PDT)
+X-Received: by 10.98.204.93 with SMTP id a90mr6194767pfg.6.1492661672787;
+        Wed, 19 Apr 2017 21:14:32 -0700 (PDT)
+Return-Path: <subhojoy@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id i8si5081835pll.24.2017.04.19.21.14.29;
+        Wed, 19 Apr 2017 21:14:32 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=subhojoy@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id B690DAEAAC6;
+	Thu, 20 Apr 2017 09:44:23 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v3K4jrsD009254
+	for <m_seminar@math.iisc.ernet.in>; Thu, 20 Apr 2017 10:15:53 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v3K4jrac009253;
+	Thu, 20 Apr 2017 10:15:53 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to subhojoy@localhost using -f
+Received: from 10.134.12.26
+        (SquirrelMail authenticated user subhojoy)
+        by math.iisc.ac.in with HTTP;
+        Thu, 20 Apr 2017 10:15:53 +0530
+Message-ID: <1926a3269f7c62b63ebe999754d5d0e1.squirrel@math.iisc.ac.in>
+Date: Thu, 20 Apr 2017 10:15:53 +0530
+From: subhojoy@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: B690DAEAAC6.A3A5E
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50)
+X-IISc-MailScanner-From: subhojoy@math.iisc.ernet.in
+Subject: [Reminder] Eigenfunctions seminar tomorrow
+MailScanner-NULL-Check: 1493266466.462@J0SLugcC636q6FBuUAcpiA
+X-Spam-Status: No
+
+Dear All,
+
+There will be two lectures in the "Eigenfunctions" seminar series tomorrow
+(Friday, 21st April).
+
+--------------------------------------------
+Lecture 1:
+
+Title: Understanding statistics of a network via sampling
+
+Speaker: Siva Athreya (ISI Bangalore)
+
+Time and date: 2:15-3:15 PM, 21st April
+
+Venue: LH-1, Department of Mathematics
+
+Abstract:  We shall consider sampling procedures to construct subgraphs to
+infer properties of a network. Specifically, we shall consider sampling
+procedures in the context of dense and sparse graph  limits.  We will
+explore open questions and interesting explorations at the undergraduate
+level. The talk will be accessible to a general audience.
+--------------------------------------------
+
+Lecture 2:
+
+Title: Very weakly negatively-curved domains having some potential theory
+
+Speaker: Gautam Bharali (IISc)
+
+Time and date: 3:30-4:30 PM, 21st April
+
+Venue: LH-1, Department of Mathematics
+
+Abstract: Given a metric space (X, d), there are several notions of it
+being negatively curved. In this talk, we single out certain consequences
+of negative curvature -- which are themselves weaker than (X, d) being
+negatively curved -- that turn out to be very useful in proving results
+about holomorphic maps. We shall illustrate what this means by giving a
+proof of the Wolff-Denjoy theorem. (This theorem says that given a
+holomorphic self-map f of the open unit disc, either f has a fixed point
+in the open unit disc or there exists a point p on the unit circle such
+that ALL orbits under the successive iterates of f approach p.) For most
+of this talk, we shall focus on metric spaces or on geometry in one
+complex variable. Towards the end, we shall briefly point out what can be
+proved in domains in higher dimensions that have the aforementioned
+negative-curvature-type properties. This part of the talk is joint work
+with Andrew Zimmer.
+
+————————————————————————
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

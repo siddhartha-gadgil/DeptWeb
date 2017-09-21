@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.140.203.6 with SMTP id a6cs23207rvg;
+        Mon, 10 May 2010 21:51:10 -0700 (PDT)
+Received: by 10.114.253.9 with SMTP id a9mr4002226wai.72.1273553470098;
+        Mon, 10 May 2010 21:51:10 -0700 (PDT)
+Return-Path: <lakshmi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id k23si14156523waf.79.2010.05.10.21.51.07;
+        Mon, 10 May 2010 21:51:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of lakshmi@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of lakshmi@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=lakshmi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o4B4m0rP003979;
+	Tue, 11 May 2010 10:18:00 +0530
+Received: from [10.134.13.31] (math_stupc5.math.iisc.ernet.in [10.134.13.31])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o4B5Ff2v012274
+	for <m_seminar@math.iisc.ernet.in>; Tue, 11 May 2010 10:45:41 +0530
+From: lakshmi@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Date: Tue, 11 May 2010 10:30:21 +0530
+MIME-Version: 1.0
+Subject: Reminder   Math  -  Thesis colloquium  on  11.5.2010
+Message-ID: <4BE931BD.19082.1351AD@lakshmi.math.iisc.ernet.in>
+Priority: normal
+X-mailer: Pegasus Mail for Windows (4.41)
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 6.5, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: lakshmi@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                     Department of Mathematics
+                        I.I.Sc.,  Bangalore - 12
+
+                           Thesis colloquium
+
+  Speaker :   K. R. Arun, 
+                    Research student, 
+                    Department of Mathematics, IISc
+
+  Day & Date:         Tuesday, 11 May, 2010.
+  Time  :                3:30 pm.
+  Venue:                LH 1, Department of Mathematics
+
+  Title : Kinematical conservation laws and propagation of 
+             nonlinear waves in  three dimensions
+
+Abstract: We derive the conservation form of equations of evolution of a
+front propagating in three dimensions. We obtain a system of six
+conservation laws, known as 3-D kinematical conservation laws (KCL) in a
+ray coordinate system. The conservative variables of 3-D KCL are also
+constrained by a stationary vector constraint, known as geometric
+solenoidal constraint, which consists of three divergence-free type
+conditions. The 3-D KCL is an under-determined system, and therefore,
+additional closure relations are required to get a complete set of
+equations. We consider two closure relations for 3-D KCL:
+(1) energy transport equation of a weakly nonlinear ray theory (WNLRT) to
+study the propagation of a nonlinear wavefront,
+(2) transport equations of a shock ray theory (SRT) to study the
+propagation of a curved weak shock front.
+In both the cases we obtain a weakly hyperbolic system of balance laws.
+For the numerical simulation we use a high-resolution semi-discrete
+central scheme. The second order accuracy of the scheme is based on MUSCL
+type   reconstructions and TVD Runge-Kutta time stepping procedures. A
+constrained transport technique is used to enforce the geometric
+solenoidal constraint and in all the test problems considered, the
+constraint is satisfied up to very high accuracy. We present the results
+of extensive numerical experiments, which confirm the efficiency and
+robustness of the method and also its ability to capture many physically
+realistic features of the fronts.
+
+                      All    are   Welcome
+
+                                                                              Chairman
+------- End of forwarded message -------
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

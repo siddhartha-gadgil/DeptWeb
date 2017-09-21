@@ -1,0 +1,90 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.112.106 with SMTP id ip10csp138817lbb;
+        Tue, 1 Jul 2014 22:39:05 -0700 (PDT)
+X-Received: by 10.70.33.207 with SMTP id t15mr538883pdi.12.1404279544859;
+        Tue, 01 Jul 2014 22:39:04 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id yt8si19115889pab.118.2014.07.01.22.39.03
+        for <multiple recipients>;
+        Tue, 01 Jul 2014 22:39:04 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s625cxc0013782;
+	Wed, 2 Jul 2014 11:08:59 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s625dhxO027254
+	for <m_seminar@math.iisc.ernet.in>; Wed, 2 Jul 2014 11:09:44 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s625dhJE027233;
+	Wed, 2 Jul 2014 11:09:43 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 2 Jul 2014 05:39:43 -0000
+Message-ID: <8a18cf458c68ae0e265052978623f4e6.squirrel@math.iisc.ernet.in>
+Date: Wed, 2 Jul 2014 05:39:43 -0000
+Subject: [Seminar] Math: July 15th, 2014: An introduction to preferential
+ attachment schemes
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Sunder Sethuraman
+          University of Arizona
+
+Title   : An introduction to preferential attachment schemes
+
+Date    : 15th July, 2014 (Thursday)
+
+Time    : (1) 10:00 - 11:00 am
+          (2) 2:00 - 3:00 pm
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract:
+Informally, a preferential attachment scheme is a dynamic (reinforcement)
+process where a network is grown by attaching new vertices to old ones
+selected with probability proportional to their weight, a function of
+their degrees.  In these two talks, we give an introduction to these
+schemes and discuss a couple of approaches to the study of the large scale
+degree structure of these graphs.  One fruitful approach is to view the
+scheme in terms of branching processes.  Another is to understand it in
+terms of Markov decompositions and fluid limits.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

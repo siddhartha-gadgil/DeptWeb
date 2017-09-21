@@ -1,0 +1,121 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.30.193 with SMTP id u1csp280769lbh;
+        Wed, 30 Jan 2013 02:13:24 -0800 (PST)
+X-Received: by 10.68.231.40 with SMTP id td8mr11178707pbc.48.1359540803325;
+        Wed, 30 Jan 2013 02:13:23 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id m9si1259807pav.106.2013.01.30.02.13.20
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 30 Jan 2013 02:13:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r0UADI6K007132;
+	Wed, 30 Jan 2013 15:43:18 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r0UADCgx016204
+	for <m_seminar@math.iisc.ernet.in>; Wed, 30 Jan 2013 15:43:12 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r0UADCg5016203;
+	Wed, 30 Jan 2013 15:43:12 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 30 Jan 2013 15:43:12 +0530 (IST)
+Message-ID: <9db7c35ecce0b1539a0ddc8951a1138b.squirrel@math.iisc.ernet.in>
+Date: Wed, 30 Jan 2013 15:43:12 +0530 (IST)
+Subject: [Colloquium] MATH : Feb 11th,
+      2013 : "Switching in biological networks"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r0UADI6K007132
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+  Kindly note the change in the date of the following lecture.
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                        COLLOQUIUM
+
+
+Speaker  :   Prof. Badal Joshi
+                           University of Minnesota
+
+Title    :   Switching in biological networks
+
+Date     :   February 11th, 2013 (Monday)
+
+Time     :   4:00 pm- 5:00pm
+
+Venue    :   Department of Mathematics, LH-I
+
+
+
+Abstract:
+(Bio)chemical reaction networks are used in systems biology to model
+gene regulatory, protein, metabolic, and other cellular networks. Since
+existence of multiple steady states (MSS) provides the underpinnings for
+switching in chemical reaction networks, it is a fundamental problem to
+determine which network structures permit MSS. There exist several
+criteria which, when satisfied, establish that a network does not permit
+MSS  regardless of the parameter values. On the other hand, results that
+establish that a network does permit MSS are rare. I will describe our
+recent work which provides a novel approach towards solving this
+problem. In the second part of the talk, I will describe stochastic
+switching which occurs in a network of neurons which is responsible for
+the distinct brain states of sleep and wake and for the transitions
+between the two states.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,88 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.138.34 with SMTP id m34csp652582iod;
+        Mon, 1 Sep 2014 22:29:22 -0700 (PDT)
+X-Received: by 10.66.102.68 with SMTP id fm4mr44679695pab.46.1409635761567;
+        Mon, 01 Sep 2014 22:29:21 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id ad5si3971942pad.149.2014.09.01.22.29.12
+        for <multiple recipients>;
+        Mon, 01 Sep 2014 22:29:13 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s825Sq7B022198;
+	Tue, 2 Sep 2014 10:58:52 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s825SXQL031180
+	for <m_seminar@math.iisc.ernet.in>; Tue, 2 Sep 2014 10:58:33 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s825SXYR031172;
+	Tue, 2 Sep 2014 10:58:33 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 2 Sep 2014 05:28:33 -0000
+Message-ID: <b566372bdc659d0e44d7d03a8da38e2c.squirrel@math.iisc.ernet.in>
+Date: Tue, 2 Sep 2014 05:28:33 -0000
+Subject: Reminder [Seminar] Math: TODAY: HARMONIC ANALYSIS ON EXPONENTIAL
+ HOMOGENEOUS SPACES AND DIFFERENTIAL OPERATORS
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Ali Baklouti
+          University of Sfax, Sfax, Tunisia
+
+Title   : HARMONIC ANALYSIS ON EXPONENTIAL HOMOGENEOUS SPACES AND
+DIFFERENTIAL OPERATORS
+
+Date    : 2nd September, 2014 (Tuesday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+See http://www.math.iisc.ernet.in/~arvind/Baklouti-Abst.Bangalore14.pdf
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

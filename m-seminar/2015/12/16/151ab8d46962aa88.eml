@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.27.234 with SMTP id w10csp2830877ieg;
+        Wed, 16 Dec 2015 08:09:01 -0800 (PST)
+X-Received: by 10.202.241.11 with SMTP id p11mr33489624oih.51.1450282141885;
+        Wed, 16 Dec 2015 08:09:01 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTP id n7si7340832oei.81.2015.12.16.08.09.00;
+        Wed, 16 Dec 2015 08:09:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id tBGFt43T001942;
+	Wed, 16 Dec 2015 21:25:04 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id tBGG3I42020297
+	for <m_seminar@math.iisc.ernet.in>; Wed, 16 Dec 2015 21:33:18 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id tBGG3IfO020296;
+	Wed, 16 Dec 2015 21:33:18 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.13 (proxying for 192.68.254.4)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 16 Dec 2015 16:03:18 -0000
+Message-ID: <6165841f27aab6acc7e571d24ee8a2c2.squirrel@math.iisc.ernet.in>
+Date: Wed, 16 Dec 2015 16:03:18 -0000
+Subject: Math Dept Seminar Dec 18 (Ravi Prakash)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.299, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Speaker: Ravi Prakash, University of Conception, Chilie
+
+Date: Dec 18, 2015
+
+Time: 2:30pm
+
+Location: LH-3
+
+Title: Homogenization of Periodic Optimal Control Problems in a Domain
+with highly oscillating boundary
+
+Abstract: Homogenization is a branch of science where we try to understand
+microscopic structures via a macroscopic medium. Hence, it has
+applications in various branches of science and engineering. This study is
+basically developed from material science in the creation of composite
+materials though the contemporary applications are much far and wide. It
+is a process of understanding the microscopic behavior of an
+in-homogeneous medium via a homogenized medium. Mathematically, it is a
+kind of asymptotic analysis. We plan to start with an illustrative example
+of limiting analysis in 1-D for a second order elliptic partial
+differential equation. We will also see some classical results in the case
+of periodic composite materials and oscillating boundary domain. The
+emphasis will be on the computational importance of homogenization in
+numerics by the introduction of correctors. In the second part of the
+talk, we will see a study on optimal control problems posed in a domain
+with highly oscillating boundary. We will consider periodic controls in
+the oscillating part of the domain with a model problem of Laplacian and
+try to understand their optimality and asymptotic behavior.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

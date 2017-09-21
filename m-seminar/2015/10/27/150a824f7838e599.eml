@@ -1,0 +1,78 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.60.10 with SMTP id j10csp1470097oia;
+        Tue, 27 Oct 2015 00:13:26 -0700 (PDT)
+X-Received: by 10.140.42.8 with SMTP id b8mr47150921qga.58.1445930006176;
+        Tue, 27 Oct 2015 00:13:26 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTP id 34si35939973qgb.89.2015.10.27.00.13.24;
+        Tue, 27 Oct 2015 00:13:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t9R7DJmV031426;
+	Tue, 27 Oct 2015 12:43:19 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t9R7MRDQ009741
+	for <m_seminar@math.iisc.ernet.in>; Tue, 27 Oct 2015 12:52:27 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t9R7MRI6009740;
+	Tue, 27 Oct 2015 12:52:27 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 27 Oct 2015 07:22:27 -0000
+Message-ID: <7d4ad1dbb91933f419494a2fe64dab06.squirrel@math.iisc.ernet.in>
+Date: Tue, 27 Oct 2015 07:22:27 -0000
+Subject: Math Dept Seminar Nov 17 (Manish Mishra)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Speaker: Manish Mishra (Universitat Heidelberg)
+
+Date : Nov 17, 2015
+
+Time: 4pm
+
+Location: LH-1
+
+Title: Hecke algebras and the Langlands program
+
+Abstract: Given an irreducible polynomial f(x) with integer coefficients
+and a prime number p, one wishes to determine whether f(x) is a product of
+distinct linear factors modulo p. When f(x) is a solvable polynomial, this
+question is satisfactorily answered by the Class Field Theory. Attempts to
+find a non-abelian Class Field Theory lead to the development of an area
+of mathematics called the Langlands program.
+The Langlands program, roughly speaking, predicts a natural correspondence
+between the finite dimensional complex representations of the Galois group
+of a local or a number field and the infinite dimensional representations
+of real, p-adic and adelic reductive groups. I will give an outline of the
+statement of the local Langlands correspondence. I will then briefly talk
+about two of the main approaches towards the Langlands program - the type
+theoretic approach relying on the theory of types developed by
+Bushnell-Kutzko and others; and the endoscopic approach relying on the
+trace formula and endoscopy. I will then state a couple of my results
+involving these two approaches.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

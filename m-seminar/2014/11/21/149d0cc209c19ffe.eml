@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.73.72 with SMTP id p8csp142160qcj;
+        Thu, 20 Nov 2014 21:21:19 -0800 (PST)
+X-Received: by 10.70.94.168 with SMTP id dd8mr3552789pdb.76.1416547279219;
+        Thu, 20 Nov 2014 21:21:19 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id yg1si6140732pbc.115.2014.11.20.21.21.17
+        for <multiple recipients>;
+        Thu, 20 Nov 2014 21:21:19 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id sAL5KvuY013455;
+	Fri, 21 Nov 2014 10:50:57 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sAL5UwAJ002496
+	for <m_seminar@math.iisc.ernet.in>; Fri, 21 Nov 2014 11:00:58 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sAL5Uw5Y002488;
+	Fri, 21 Nov 2014 11:00:58 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 21 Nov 2014 05:30:58 -0000
+Message-ID: <9cc77cd75137d987caa1d63937d1139d.squirrel@math.iisc.ernet.in>
+Date: Fri, 21 Nov 2014 05:30:58 -0000
+Subject: [Seminar] MATH : 24th Nov 2014 : "Bangalore Probability Seminar"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.398, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+       BANGALORE PROBABILITY SEMINAR
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+-----------------------------------------------
+
+Speaker: Divakar Viswanath (University of Michigan)
+
+Time: 2:00 pm
+
+Date: 24th November, 2014
+
+Venue: LH-1, Department of Mathematics, IISc
+
+Title:  Optimal differentiation on arbitrary grids
+
+Abstract:  Finite difference formulas approximate the derivatives of a
+function given its values at a discrete set of grid points. Much of the
+theory for choosing grid points is concerned with discretization errors
+and rounding errors are ignored completely. However, when the grids become
+fine the rounding errors dominate. Finding finite difference formulas
+which optimize the total error leads to a combinatorial optimization
+problem
+with a large search space. In this talk, we will describe a random walk
+based strategy for tackling the combinatorial optimization problem.
+
+--------------------------------------
+
+Speaker: Manjunath Krishnapur (IISc, Bangalore)
+
+Time: 3:15 pm
+
+Date: 24th November, 2014
+
+Venue: Department of Mathematics, IISc
+
+Title: An anti-concnetration inequality
+
+Abstract: We give a quick overview of some recent developments (mostly of
+others) in the study of zeros of random polynomials and a new 
+anti-concentration inequality that has been discovered in this context.
+The goal will be to give a full proof of this inequality.
+
+
+--------------------------------------------
+
+
+         All are cordially invited.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

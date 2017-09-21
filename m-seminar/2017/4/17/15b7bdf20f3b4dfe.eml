@@ -1,0 +1,88 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.115.101 with SMTP id jn5csp759802obb;
+        Mon, 17 Apr 2017 05:24:32 -0700 (PDT)
+X-Received: by 10.99.247.69 with SMTP id f5mr12186457pgk.63.1492431872617;
+        Mon, 17 Apr 2017 05:24:32 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id x2si11025142pfj.308.2017.04.17.05.24.30;
+        Mon, 17 Apr 2017 05:24:32 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 5F588AE95E0;
+	Mon, 17 Apr 2017 17:54:25 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v3HCtvsg006301;
+	Mon, 17 Apr 2017 18:25:57 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id v3HCtvhq006298;
+	Mon, 17 Apr 2017 18:25:57 +0530
+Date: Mon, 17 Apr 2017 18:25:57 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+cc: manju@math.iisc.ernet.in
+Subject: Von Neumann algebras (fwd)
+Message-ID: <alpine.LFD.2.03.1704171825250.29242@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-3359251-1492433757=:29242"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 5F588AE95E0.A68F3
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1493036666.98889@oEyJkdCD3rAwh1/zVs+maw
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-3359251-1492433757=:29242
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+Of possible interest:
+
+---------- Forwarded message ----------
+Date: Mon, 17 Apr 2017 14:26:34 +0530
+From: Parthanil Roy <parthanil.roy@gmail.com>
+Subject: Von Neumann algebras
+
+
+We are starting a reading group at ISI Bangalore on von Neumann Algebras with a view to learning group measure space construction.
+
+The introductory lectures (for this reading group) will held on 20th April (Thursday) in the Second Floor Auditorium of ISI Bangalore. 
+
+There will be two talks. The detailed schedule is given below:-
+
+2:15 - 3:15 pm: A short introduction to von Neumann algebras 
+
+Speaker: B. V. Rajarama Bhat, ISI Bangalore
+
+Abstract: I will introduce three basic topologies on the algebra of all bounded operators on a Hilbert space and will give a proof of von Neumann's double commutant
+theorem. I will also make noises as to why von Neumann algebra theory is considered as non-commutative measure theory.
+
+
+3:15 - 3:30 pm: Coffee Break
+
+
+3:30 - 4:30 pm: Quasi-invariant group actions, crossed product construction and stable random fields
+Speaker: Parthanil Roy, ISI Bangalore
+
+Abstract: The first part of this talk will explain the interplay between the ergodic theory of quasi-invariant group actions and stationary symmetric stable random
+fields. Since such group actions are closely connected to von Neumann algebras through the crossed product construction, it is expected that so will be stable random
+fields. The later part of the talk will focus on related conjectures and open problems. 
+
+
+4:30 pm: Snacks
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-3359251-1492433757=:29242--

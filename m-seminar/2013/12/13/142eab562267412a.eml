@@ -1,0 +1,130 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.194.28.100 with SMTP id a4csp13412wjh;
+        Thu, 12 Dec 2013 22:47:05 -0800 (PST)
+X-Received: by 10.66.145.40 with SMTP id sr8mr1347862pab.60.1386917225066;
+        Thu, 12 Dec 2013 22:47:05 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id g6si769349pbd.114.2013.12.12.22.47.03
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 12 Dec 2013 22:47:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id rBD6ktof022540;
+	Fri, 13 Dec 2013 12:16:55 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rBD6gAqW014698
+	for <m_seminar@math.iisc.ernet.in>; Fri, 13 Dec 2013 12:12:10 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rBD6g9pA014697;
+	Fri, 13 Dec 2013 12:12:09 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 13 Dec 2013 12:12:09 +0530 (IST)
+Message-ID: <8429fa40e190e6c6516bb12564d6d73f.squirrel@math.iisc.ernet.in>
+Date: Fri, 13 Dec 2013 12:12:09 +0530 (IST)
+Subject: [Colloquium] Math: Jan 29th,
+       2014: An algorithm for locating the nucleolus of assignment games
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: arvind@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: rBD6ktof022540
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof T.E.S. Raghavan
+          University of Illinois at Chicago
+
+Title   : An algorithm for locating the nucleolus of assignment games.
+
+Date    : 29th Jan, 2014 (Wednesday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: In cooperative game theory ,  Shapley value and the nucleolus
+are two fundamental solution concepts.  They associate a unique imputation
+for the players  whose coalitional worth s  are  given a priori.
+
+Assignment games are two sided matching games (say between sellers and
+buyers) where the coalitional worth between a buyer and seller  is 
+specified by an entry of a  nonnegative  matrix .   (Here , the  rows of
+the matrix represent sellers and the columns  of the matrix represent
+buyers).   ,  For a real estate agent eyeing on commissions from both
+sellers and buyers,  any optimal assignment will correspond to the best
+possible t deal. The agent  can always initiate an imputation from the
+core , via the  dual  optimal solutions.  The algorithm at the end of the
+first iteration reaches the unique corner that favors all sellers. 
+Nucleolus is invariably a relative interior point of the core and the 
+algorithm at each iteration  selects this most favorable  imputation for
+all sellers in  a shrinking  family of imputation polyhedra.. Here the
+shrinking process correspond to the faces of the polyhedra  moving inside
+at varying speeds.  We can associate  with each face of the current
+polyhedra  a coalition and the faces that are trying to jam inside with
+varying speed , correspond to the  so called unsettled  coalitions that 
+clamor for greater satisfaction for its members.   Improvements correspond
+to redistributions captured via  squeezing the certain faces of the sub
+polyhedra of the imputation set  by applying  different levels of pressure
+and reducing the dimension of the current subset of the imputation set.
+The algorithm terminates when this squeezing process terminates in a 
+single point.   One can associate a graph  with directed arcs
+corresponding to unhappy coalitions and the  determination of  applying
+such varied pressures is achieved through the length of the longest path
+ending at each vertex of an associated graph. The algorithm starts with
+just a set of vertices of a graph with no arcs to start with.   In each
+intermediate stage,  one introduces directed arcs corresponding to the
+equivalence class of unsettled and unhappy coalitions. . When more and
+more arcs are introduced,  we reach cycles and the vertices within a  
+cycle are identified as equivalent and are shrunk to just  one 
+representative vertex.  This way, at the end of each  iteration,  the
+number of vertices of the graph are reduced at least by one..  New
+directed arcs are introduced in the next iteration and this process
+continues till just one vertex survives.   The  algorithm terminates  at
+this stage and the associated imputation is the nucleolus.  The algorithm
+exploits the special lattice structure of the core for assignment games
+and all computations involve only dealing with the small class of buyer
+seller pairs.
+
+Many other subclasses of cooperative games like the connected games and
+some subclass of permutation games have similar algorithms for locating
+the nucleolus.   As locating  the for Shapley value, the problems are wide
+open.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.177.212 with SMTP id a203csp317380oif;
+        Thu, 19 Nov 2015 20:30:59 -0800 (PST)
+X-Received: by 10.68.217.102 with SMTP id ox6mr16014516pbc.27.1447993859164;
+        Thu, 19 Nov 2015 20:30:59 -0800 (PST)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTP id ll4si16252821pab.39.2015.11.19.20.30.56;
+        Thu, 19 Nov 2015 20:30:57 -0800 (PST)
+Received-SPF: pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id tAK4UONt008155;
+	Fri, 20 Nov 2015 10:00:24 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id tAK4cxxs005452;
+	Fri, 20 Nov 2015 10:08:59 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id tAK4cxwx005449;
+	Fri, 20 Nov 2015 10:08:59 +0530
+Date: Fri, 20 Nov 2015 10:08:59 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Reminder [Seminar] Math: Today : "Eigenfunctions seminar"
+Message-ID: <alpine.LFD.2.03.1511201007300.5219@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-1937561634-1447329299=:25157"
+Content-ID: <alpine.LFD.2.03.1511121725160.25157@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1937561634-1447329299=:25157
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1511121725161.25157@math.iisc.ernet.in>
+
+Dear all, there will be two lectures in the Eigenfunctions seminar today, 
+20th Nov, 2015.
+
+--------------------------------------------
+Lecture 1:
+
+Speaker: Rajarama Bhat (ISI, Bangalore)
+
+Title: Endomorphisms of the algebra of all bounded operators on a Hilbert space
+
+Time and date: 2:15-3:15 PM, 20th Nov
+
+Venue: LH-1, department of mathematics
+
+Abstract: We get useful insight about various algebraic structures by studying 
+their automorphisms and endomorphisms. Here we give a brief introduction to the 
+theory of semigroups of endomorphisms of the algebra of all bounded operators 
+on a Hilbert space.
+
+------------------------------
+Lecture 2:
+
+Speaker: Subhojoy Gupta (IISc, Bangalore)
+
+Title: Teichmüller space, harmonic maps and measured foliations
+
+Time and date: 3:30-4:30 PM, 20th Nov
+
+Venue: LH-1, department of mathematics
+
+Abstract:  This talk shall be an introduction to some aspects of
+Teichmüller theory, which is concerned with the parameter space of marked
+Riemann surfaces. I shall describe Wolf's parametrization of Teichmüller
+space using harmonic maps, and discuss how it extends to the Thurston
+compactification. If time permits, I will describe some recent joint work
+with Wolf.
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1937561634-1447329299=:25157--

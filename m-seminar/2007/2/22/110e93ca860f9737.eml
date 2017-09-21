@@ -1,0 +1,71 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.115.93.18 with SMTP id v18cs134435wal;
+        Thu, 22 Feb 2007 03:36:12 -0800 (PST)
+Received: by 10.70.30.5 with SMTP id d5mr1010424wxd.1172144171763;
+        Thu, 22 Feb 2007 03:36:11 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [144.16.74.129])
+        by mx.google.com with ESMTP id 18si53770080nzo.2007.02.22.03.36.03;
+        Thu, 22 Feb 2007 03:36:11 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of gadgil@math.iisc.ernet.in designates 144.16.74.129 as permitted sender)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id l1MGxo0f030855;
+	Thu, 22 Feb 2007 16:59:50 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id l1MGxo7m030852;
+	Thu, 22 Feb 2007 16:59:50 GMT
+Date: Thu, 22 Feb 2007 16:59:50 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in, anupamk18@gmail.com,
+        maneesh.thakur@gmail.com
+Subject: Maths : 27th February : Seminar - "Real vs. Strongly Real Elements
+ in Algebraic Groups"
+Message-ID: <Pine.LNX.4.61.0702221654410.29877@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              :  Dr. Anupam Kumar Singh,
+ 			     TIFR, Mumbai
+
+      Title                :  Real vs. Strongly Real Elements in Algebraic
+ 				Groups
+
+      Day & Date           :  Tuesday, February 27.
+
+      Time                 :  4.00  p.m.
+
+      Venue                :  Lecture  Hall -  II
+                              Dept. of  Mathematics
+
+      Abstract:
+          Let $k$ be a field of characteristic not 2 and $G$ be an 
+algebraic group defined over $k$. An element $t$ in $G(k)$ is called real 
+if there exists $g\in G(k)$ such that $gtg^{-1}=t^{-1}$. An element $t\in 
+G(k)$ is called strongly real if $t=\tau_1\tau_2$ where $\tau_i\in G(k)$ 
+and $\tau_i^2=1$. We discuss when a semisimple real element is strongly 
+real in $G(k)$. We investigate this question for classical groups and the 
+groups of type $G_2$ in detail.
+
+                      All  interested  are  Welcome
+
+                                                             CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

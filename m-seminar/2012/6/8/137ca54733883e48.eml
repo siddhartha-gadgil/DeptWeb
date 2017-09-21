@@ -1,0 +1,77 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.205.47.72 with SMTP id ur8csp231627bkb;
+        Thu, 7 Jun 2012 21:22:41 -0700 (PDT)
+Received: by 10.68.130.67 with SMTP id oc3mr15402787pbb.18.1339129361395;
+        Thu, 07 Jun 2012 21:22:41 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id op2si8702216pbc.346.2012.06.07.21.22.39
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 07 Jun 2012 21:22:41 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q584MZic017024;
+	Fri, 8 Jun 2012 09:52:35 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q584MSWi028194
+	for <m_seminar@math.iisc.ernet.in>; Fri, 8 Jun 2012 09:52:28 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q584MSUp028191
+	for <m_seminar@math.iisc.ernet.in>; Fri, 8 Jun 2012 09:52:28 +0530
+Date: Fri, 8 Jun 2012 09:52:28 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Face numbers of simplicial cell manifolds"
+Message-ID: <Pine.LNX.4.64.1206080951270.28087@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.7,
+	required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		           Department of Mathematics
+ 		    Indian Institute of Science, Bangalore
+
+
+ 				 SEMINAR
+
+
+Speaker	: Prof. Mikiya Masuda
+ 	  Osaka City University, Japan
+
+Title	: Face numbers of simplicial cell manifolds
+
+Date	: June 8, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+A simplicial cell complex is roughly speaking a CW complex whose cells
+are all simplices. This notion is equivalent to that of simplicial
+poset in combinatorics. A simplicial complex is a simplicial cell
+complex, but two simplices in a simplicial cell complex may be glued
+together along more than one simplex on their boundaries. In this
+talk, I will discuss the characterization of face numbers of simplicial
+cell decompositions of some manifolds.
+
+
+
+ 		    ALL ARE CORDIALLY INVITED.
+
+
+  					   Chairman,
+ 					   Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

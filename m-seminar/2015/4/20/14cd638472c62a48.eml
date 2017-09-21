@@ -1,0 +1,116 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.102.18 with SMTP id a18csp1183132oic;
+        Mon, 20 Apr 2015 02:45:55 -0700 (PDT)
+X-Received: by 10.70.118.101 with SMTP id kl5mr3899876pdb.129.1429523154952;
+        Mon, 20 Apr 2015 02:45:54 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id gz2si26275284pbb.155.2015.04.20.02.45.50;
+        Mon, 20 Apr 2015 02:45:54 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t3K9jl9X020712;
+	Mon, 20 Apr 2015 15:15:47 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t3K9wMSt000458
+	for <m_seminar@math.iisc.ernet.in>; Mon, 20 Apr 2015 15:28:22 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t3K9wMZW000457;
+	Mon, 20 Apr 2015 15:28:22 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 20 Apr 2015 09:58:22 -0000
+Message-ID: <f8d234e15799e83447fa7169674cbf85.squirrel@math.iisc.ernet.in>
+Date: Mon, 20 Apr 2015 09:58:22 -0000
+Subject: [Thesis Colloquium] Math: Apr 23th, 2015: $L^p$-Asymptotics of
+ Fourier transform of fractal measures
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                              Ph.D. THESIS COLLOQUIUM
+
+
+Speaker : K. S. Senthil Raani
+
+Title   : $L^p$-Asymptotics of Fourier transform of fractal measures
+
+Date    : 23th Apr, 2015 (Thursday)
+
+Time    : 3:00pm - 4:00pm
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+One of the basic questions in harmonic analysis is to study the
+decay properties of the Fourier transform of measures or
+distributions supported on thin sets in $\R^n$. When the support
+is a smooth enough manifold, an almost complete picture is
+available. One of the early results in this direction is the
+following: Let $f\in C_c^{\infty}(d\sigma)$, where
+$d\sigma$ is the surface measure on the sphere
+$S^{n-1}\subset\R^n$. Then
+
+$$|\widehat{fd\sigma}(\xi)|\leq\ C\ (1+|\xi|)^{-\frac{n-1}{2}}.$$
+
+It follows that $\widehat{fd\sigma}\in L^p(\R^n)$ for all
+$p>2n/(n-1)$. This result can be extended to compactly
+supported measure on $(n-1)$-dimensional manifolds with
+appropriate assumptions on the curvature. Similar results are
+known for measures supported in lower dimensional manifolds in
+$\R^n$ under appropriate curvature conditions. However, the
+picture for fractal measures is far from complete. This thesis is
+a contribution to the study of asymptotic properties of the
+Fourier transform of measures supported in sets of fractal
+dimension $0<\alpha<n$ for $p\leq 2n/\alpha$.\\
+
+In 2004, Agranovsky and Narayanan proved that if $\mu$ is a
+measure supported in a $C^1$-manifold of dimension $d<n$, then
+$\widehat{fd\mu}\notin L^p(\R^n)$ for $1\leq p\leq \frac{2n}{d}$. We
+prove that the Fourier transform of a measure $\mu_E$ supported in
+a set $E$ of fractal dimension $\alpha$ does not belong to
+$L^p(\R^n)$ for $p\leq 2n/\alpha$. We also study $L^p$-asymptotics
+of the Fourier transform of fractal measures $\mu_E$ under
+appropriate conditions on $E$ and give quantitative versions of
+the above statement by obtaining lower and upper bounds for the
+following:
+  $$\underset{L\rightarrow\infty}{\limsup} \frac{1}{L^k}
+    \int_{|\xi|\leq L}|\wh{fd\mu_E}(\xi)|^pd\xi,$$
+  $$\underset{L\rightarrow\infty}{\limsup} \frac{1}{L^k}
+     \int_{L\leq |\xi|\leq 2L}|\wh{fd\mu_E}(\xi)|^pd\xi.$$
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

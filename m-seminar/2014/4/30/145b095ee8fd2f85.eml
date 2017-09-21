@@ -1,0 +1,122 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp214369lbb;
+        Tue, 29 Apr 2014 20:03:08 -0700 (PDT)
+X-Received: by 10.66.164.201 with SMTP id ys9mr3489024pab.40.1398826987782;
+        Tue, 29 Apr 2014 20:03:07 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id tm7si15134836pab.439.2014.04.29.20.03.05
+        for <multiple recipients>;
+        Tue, 29 Apr 2014 20:03:07 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s3U32xgA007356;
+	Wed, 30 Apr 2014 08:32:59 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s3U34nEW016201
+	for <m_seminar@math.iisc.ernet.in>; Wed, 30 Apr 2014 08:34:49 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s3U34nFi016194;
+	Wed, 30 Apr 2014 08:34:49 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.11 (proxying for 117.192.92.30)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 30 Apr 2014 03:04:49 -0000
+Message-ID: <0aa2ded4e80edf399c9b49cc8a26d5fa.squirrel@math.iisc.ernet.in>
+Date: Wed, 30 Apr 2014 03:04:49 -0000
+Subject: Reminder: [Seminar] MATH : Today  : "Bangalore Probability
+ Seminar"]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s3U32xgA007356
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all, there will be two lectures today in the Bangalore probability
+seminar.
+
+    BANGALORE PROBABILITY SEMINAR
+
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+
+----------------------------------
+Speaker: B Rajeev
+        Indian Statistical Institute, Bangalore
+
+Time: 2:00pm
+
+Date: 30th April, 2014
+
+Venue: LH-1, Department of Mathematics, IISc
+
+Title:  Brownian excursions into an interval
+
+Abstract: The dynamics of excursions of Brownian motion into a set with
+more than one boundary point , which no longer have the structure
+of a Poisson process, requires an extension of Ito's excursion
+theory , due to B.Maisonneuve. In this talk we provide a `bare hands'
+calculation of the relevant objects - local time, excursion measure -
+in the simple case of Brownian excursions
+into an interval (a,b), without using the Maisonneuve theory.
+We apply these computations to calculate
+the asymptotic distribution of excursions into an interval, straddling
+a fixed time t, as t  goes to infinity.
+
+--------------------------------------
+
+Speaker: Navin Kashyap
+        IISc, Bangalore
+
+Time: 3:15pm
+
+Date: 30th April, 2014
+
+Venue: Department of Mathematics, IISc
+
+Title: Phase transitions in the pattern maximum likelihood problem and its
+Bethe variant
+
+Abstract: The pattern maximum likelihood (PML) estimate, introduced by
+Orlitsky et al. (2004), is an estimate of an unknown underlying
+probability distribution from n i.i.d. samples taken from the
+distribution. It is known to perform better than the empirical frequency
+estimate when the number of samples, n, is much smaller than the support
+size of the unknown underlying distribution. The PML estimate
+involves solving a difficult optimization problem over the set of all
+probability mass functions (pmfs) of finite support. While investigating
+the question of deciding when the PML estimate is a uniform
+distribution, we encountered an interesting phase transition phenomenon in
+the PML estimate: at a certain sharp threshold, the uniform distribution
+goes from being a local maximum to being a local minimum
+for the optimization problem in the estimate. The Bethe variant of the PML
+estimate, based on the Bethe approximation method from statistical
+physics, also exhibits an interesting phase transition behaviour.
+In this talk, we will describe the phase transitions seen in the PML
+estimate and its Bethe variant. All the necessary background and
+definitions will be provided in the talk.
+
+This is joint work with Winston Fernandes, Eric Chan and Manjunath
+Krishnapur.
+-----------------------------------------
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,115 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.129.226 with SMTP id nz2csp388600lbb;
+        Tue, 20 Nov 2012 20:48:55 -0800 (PST)
+Received: by 10.69.1.37 with SMTP id bd5mr55911667pbd.77.1353473334798;
+        Tue, 20 Nov 2012 20:48:54 -0800 (PST)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.70])
+        by mx.google.com with ESMTPS id xg10si21117929pbc.297.2012.11.20.20.48.53
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 20 Nov 2012 20:48:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) client-ip=14.139.128.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id qAL4iSMi019097;
+	Wed, 21 Nov 2012 10:14:28 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qAL4iKo9001596
+	for <m_seminar@math.iisc.ernet.in>; Wed, 21 Nov 2012 10:14:20 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id qAL4iDJB001581;
+	Wed, 21 Nov 2012 10:14:13 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 21 Nov 2012 10:14:20 +0530 (IST)
+Message-ID: <148b9cc88b844302b22be856d7c4a18d.squirrel@math.iisc.ernet.in>
+In-Reply-To: <3fcec982cc6a942800502fc0f85eba13.squirrel@math.iisc.ernet.in>
+References: <3fcec982cc6a942800502fc0f85eba13.squirrel@math.iisc.ernet.in>
+Date: Wed, 21 Nov 2012 10:14:20 +0530 (IST)
+Subject: [Thesis Colloquium]: MATH : Today : "Grothendieck inequality"
+From: "Pooja Singla" <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+This is to inform you that today Samya Kumar Ray's talk on "Grothendieck
+inequality" is actually
+his M.S. thesis colloquium and not thesis defence.
+
+Regards,
+Pooja.
+
+
+
+>
+> Dear all,
+>
+>                          Department of Mathematics
+>                     Indian Institute of Science, Bangalore
+>
+>
+>                          M.S. THESIS DEFENCE
+>
+>
+> Speaker  :   Mr. Samya Kumar Ray
+>
+> Title    :   GROTHENDIECK INEQUALITY
+>
+> Date     :   November 21, 2012 (Wednesday)
+>
+> Time     :   4:10 p.m.- 5:10 p.m.
+>
+> Venue    :   Department of Mathematics, LH-I
+>
+> Abstract:
+> Grothendieck published an extraordinary paper entitled ”Resume de la
+> theorie metrique des produits tensoriels topologiques” in 1953. The main
+> result of this paper is the inequality which is commonly known as
+> Grothendieck Inequality. Following Kirivine, in this article, we give the
+> proof of Grothendieck Inequality. We reformulate it in different forms. We
+> also investigate the famous Grothendieck constant KG. The Grothendieck
+> constant was achieved by taking supremum over a special class of matrices.
+> But our attempt will be to investigate it, considering a smaller class of
+> matrices, namely only the positive definite matrices in this class.
+>
+>             ALL ARE CORDIALLY INVITED.
+>
+> Faculty members and students of the Department are requested to attend.
+>
+>
+>
+>                                             Chairman,
+>                                             Department of Mathematics
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

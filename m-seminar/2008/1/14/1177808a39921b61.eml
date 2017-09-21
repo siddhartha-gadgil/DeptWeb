@@ -1,0 +1,93 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.119.4 with SMTP id r4cs215900buc;
+        Mon, 14 Jan 2008 03:21:49 -0800 (PST)
+Received: by 10.140.135.20 with SMTP id i20mr3689678rvd.263.1200309708068;
+        Mon, 14 Jan 2008 03:21:48 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id g6si9035891rvb.25.2008.01.14.03.21.36;
+        Mon, 14 Jan 2008 03:21:48 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m0EBFPL8029694;
+	Mon, 14 Jan 2008 16:45:25 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m0EGZFiK022286;
+	Mon, 14 Jan 2008 16:35:15 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m0EGZFID022283;
+	Mon, 14 Jan 2008 16:35:15 GMT
+Date: Mon, 14 Jan 2008 16:35:15 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 17th January 2008: Seminar - "Graph Spectra: A Tool for
+ Analyzing Networks"
+Message-ID: <Pine.LNX.4.61.0801141631360.21978@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Dr. D. Anirban Banerjee,
+ 				Max-Planck Institute, Leipzig
+
+      Title 		  : Graph Spectra: A Tool for Analyzing Networks
+
+      Day & Date           : Thursday, January 17, 2008.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  III
+                              Dept. of  Mathematics
+
+Abstract:
+ 	The existing graph invariants can retrieve certain structural 
+informations, but they are not sufficient to capture all qualitative 
+aspects of a graph. One of the aim of graph theory to identify on one hand 
+the unique and special feature for the network from a particular class and 
+on the other hand the universal qualities that are shared by other network 
+structures. It is a challenge to specify the domain of a given a network 
+structure, on the basis of certain unique qualitative features.
+ 	We develop theoretical scheme and apply the general method, based 
+on the spectral plot of the normalized graph Laplacian, that is easily 
+visually analyzed and can be considered as excellent diagnostic to 
+categorize the networks from different sources. Construction with 
+different graph operation related to evolution of a network produce 
+specific eigenvalue, describe certain processes of graph formation that 
+leave characteristic traces in the spectrum. We show how useful plausible 
+hypothesis about evolutionary process can be made by investigating the 
+spectra of a graph constructed from actual data. Based on this idea we 
+have reconstructed protein-protein interaction network which is 
+structurally more close to real protein-protein interaction networks than 
+the networks constructed by other models.
+ 	We also introduced a tentative classification scheme for empirical 
+networks based on global qualitative properties detected through the 
+spectrum of the Laplacian of the graph underlying the network.This method 
+identifies several distinct types of networks across different domains of 
+applications, which is rather difficult by other existing tool and 
+parameters. Thus we infer that spectral distribution is complete 
+qualitative characterization of a graph.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

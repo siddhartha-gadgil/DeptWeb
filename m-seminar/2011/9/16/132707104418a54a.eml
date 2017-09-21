@@ -1,0 +1,77 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.15.76 with SMTP id j12cs128909iba;
+        Thu, 15 Sep 2011 21:14:09 -0700 (PDT)
+Received: by 10.68.23.97 with SMTP id l1mr2162642pbf.232.1316146448447;
+        Thu, 15 Sep 2011 21:14:08 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id b3si623653pbg.191.2011.09.15.21.14.04
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 15 Sep 2011 21:14:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p8G4Elo2016826;
+	Fri, 16 Sep 2011 09:44:47 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p8G4G7qD030173
+	for <m_seminar@math.iisc.ernet.in>; Fri, 16 Sep 2011 09:46:07 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p8G4G74R030170
+	for <m_seminar@math.iisc.ernet.in>; Fri, 16 Sep 2011 09:46:07 +0530
+Date: Fri, 16 Sep 2011 09:46:07 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Regularization by 1/2-Laplacian and Vanishing
+ Viscosity Limit for HJB Equations"
+Message-ID: <Pine.LNX.4.64.1109160944530.29952@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p8G4Elo2016826
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+  		   	 Department of Mathematics
+  		   Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Imran Biswas
+ 	  TIFR Centre for Applicable Mathematics
+
+Title	: Regularization by 1/2-Laplacian and
+ 	  Vanishing Viscosity Limit for HJB Equations
+
+Date	: September 16, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+We investigate the regularizing effect of adding small fractional
+Laplacian, with critical fractional exponent 1/2 , to a general first
+order HJB equation. Our results include some regularity estimates for
+the viscosity solutions of such perturbations, making the solutions
+classically well-defined. Most importantly, we use these regularity
+estimates to study the vanishing viscosity approximation to first
+order HJB equations by 1/2-Laplacian and derive an explicit rate
+of convergence for the vanishing viscosity limit.
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					      Chairman,
+  					      Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,77 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp1047366obb;
+        Thu, 16 Feb 2017 19:28:41 -0800 (PST)
+X-Received: by 10.99.160.81 with SMTP id u17mr7376325pgn.92.1487302121547;
+        Thu, 16 Feb 2017 19:28:41 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id d21si8866523pgi.331.2017.02.16.19.28.39;
+        Thu, 16 Feb 2017 19:28:40 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 580A1AEC179;
+	Fri, 17 Feb 2017 08:58:35 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v1H41DDE017486
+	for <m_seminar@math.iisc.ernet.in>; Fri, 17 Feb 2017 09:31:13 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v1H41DoR017485;
+	Fri, 17 Feb 2017 09:31:13 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Fri, 17 Feb 2017 04:01:13 -0000
+Message-ID: <d1a3b85b186c3269e13db9a141576942.squirrel@math.iisc.ac.in>
+Date: Fri, 17 Feb 2017 04:01:13 -0000
+Subject: Math Dept Seminar Today (Dharmatti Sheetal)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 580A1AEC179.A75FA
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.401, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1487906916.96824@dFyssVjrqqeerNLK3bgVNQ
+X-Spam-Status: No
+
+Speaker : Dharmatti Sheetal (IISER TVM)
+
+Location: LH-1
+
+Time : 11 AM
+
+Date : Feb 17, 2017.
+
+
+Title: Flow Invariance Preserving Feedback Controllers for Sabra Shell
+Model of Turbulence
+
+Abstract:
+
+In this talk, I would continue dealing with Sabra shell model of
+Turbulence and study one of the important questions for fluid flow
+problems namely, finding controls which are capable of preserving the
+invariant quantities of the flow.   Controls are designed in the feedback
+form such that resultant controlled flow will preserve certain physical
+properties of the state such as enstrophy, helicity. We use the theory of
+nonlinear semigroups and represent the feedback control as a multi-valued
+feedback term which lies in the normal cone of the convex constraint space
+under consideration.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

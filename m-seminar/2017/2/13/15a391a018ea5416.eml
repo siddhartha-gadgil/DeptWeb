@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.40.2 with SMTP id t2csp963438obk;
+        Mon, 13 Feb 2017 12:11:30 -0800 (PST)
+X-Received: by 10.98.141.194 with SMTP id p63mr27895111pfk.185.1487016690619;
+        Mon, 13 Feb 2017 12:11:30 -0800 (PST)
+Return-Path: <subhojoy@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id v190si10941592pgb.58.2017.02.13.12.11.28;
+        Mon, 13 Feb 2017 12:11:29 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=subhojoy@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 4385EAEAFC2;
+	Tue, 14 Feb 2017 01:41:22 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v1DKi4Fe018304
+	for <m_seminar@math.iisc.ernet.in>; Tue, 14 Feb 2017 02:14:04 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v1DKi4l8018303;
+	Tue, 14 Feb 2017 02:14:04 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to subhojoy@localhost using -f
+Received: from 10.10.1.98 (proxying for 59.94.74.87)
+        (SquirrelMail authenticated user subhojoy)
+        by math.iisc.ac.in with HTTP;
+        Tue, 14 Feb 2017 02:14:04 +0530
+Message-ID: <ad70bd3a2565348f3f7fbcc2925d10c3.squirrel@math.iisc.ac.in>
+Date: Tue, 14 Feb 2017 02:14:04 +0530
+Subject: [Fwd: SAMOSe at NCBS 4pm Weds 15/2 on foliations and cancer cells]
+From: subhojoy@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 4385EAEAFC2.A93E5
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FWD_MSG -1.00, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50)
+X-IISc-MailScanner-From: subhojoy@math.iisc.ernet.in
+MailScanner-NULL-Check: 1487621486.11023@L2DTX/dV6CzDRzcHm+VA9w
+X-Spam-Status: No
+
+FYI
+
+
+On Feb 13, 2017 10:19 AM, "David Farris" <pseudoholomorphic@gmail.com>
+wrote:
+
+> Could you send out the following to the math mailing lists?  Thanks!
+>
+> Time and venue: Weds 15 Feb, 4pm, Simons Center ground floor, NCBS
+>
+> Speaker: Gaurav Mendiratta
+>
+> Title: Foliation in Dynamical Systems: Two models of competition
+>
+> Abstract:
+> Foliation in dynamical systems is a global property where the solution set
+> of trajectories span a subspace, parametrized by one or more parameters. We
+> start with the example of a specific model where tumor cells and normal
+> cells compete to survive. In the case of mathematical models of a disease
+> such as cancer, immunity is an important feature of the competitive
+> dynamics without which cancer almost always wins. The tumor growth model we
+> consider is a template model for a general system with two outcomes. Such a
+> dynamical system has two attractors and a saddle in between. We find the
+> separatrix that divides the basins of trajectories which limit to two
+> attractors. The separatrix acts as a prognosis function for tumor in the
+> space of tumor cells, cancer cells and food availability. We then extend to
+> four dimensions including immunity and show that the separatrix are
+> foliated as a function of immunity and therefore track the prognosis as the
+> patient improves or declines. Next we simplify to a larger class of models
+> where competitive dynamics are modeled by logistic equations. In this
+> system, we show that the presence of a continuous line of attractors
+> provides a foliated sub-space for the solutions. The foliation in this
+> system is particularly interesting as it entails a memory of initial
+> conditions.
+>
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

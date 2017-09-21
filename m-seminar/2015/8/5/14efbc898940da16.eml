@@ -1,0 +1,73 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.81.14 with SMTP id f14csp116569ywb;
+        Tue, 4 Aug 2015 19:55:07 -0700 (PDT)
+X-Received: by 10.140.152.208 with SMTP id 199mr13322018qhy.99.1438743307311;
+        Tue, 04 Aug 2015 19:55:07 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTP id 136si2863387qhc.102.2015.08.04.19.55.02;
+        Tue, 04 Aug 2015 19:55:04 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t752sqQa005986;
+	Wed, 5 Aug 2015 08:24:52 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t7535U3R021832
+	for <m_seminar@math.iisc.ernet.in>; Wed, 5 Aug 2015 08:35:30 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t7535UQU021831;
+	Wed, 5 Aug 2015 08:35:30 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 5 Aug 2015 03:05:30 -0000
+Message-ID: <e9c7052fb5d7801e8f217381cf9b0b67.squirrel@math.iisc.ernet.in>
+Date: Wed, 5 Aug 2015 03:05:30 -0000
+Subject: Today's lecture: Operads (Anita Naolekar) 11 AM LH 4
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t752sqQa005986
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dates: Aug 5 (today)
+
+Time: 11 AM
+
+Location: LH4
+
+Speaker : Anita Naolekar (ISI, Bengaluru)
+
+Title: Operads: An Introduction.
+
+Abstract:   An operad is an algebraic device which encodes a type of
+algebra. The
+classical types of algebras, ie. associative, commutative and Lie
+algebras give the first examples of algebraic operads. Operadic point
+of view has several advantages. Firstly, many results known for
+classical algebras, when written out in operadic language, can be
+applied to other types of algebras. Secondly, operadic language
+simplifies the statements and proofs. Thirdly, even for classical
+cases, operad theory has provided new results. We start with several
+equivalent definitions, together with examples, and  few basic
+properties.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

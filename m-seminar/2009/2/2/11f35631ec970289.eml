@@ -1,0 +1,137 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.100.132.8 with SMTP id f8cs78804and;
+        Sun, 1 Feb 2009 21:08:24 -0800 (PST)
+Received: by 10.110.47.9 with SMTP id u9mr5891427tiu.44.1233551302765;
+        Sun, 01 Feb 2009 21:08:22 -0800 (PST)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.66])
+        by mx.google.com with ESMTP id a4si173774tib.7.2009.02.01.21.08.05;
+        Sun, 01 Feb 2009 21:08:22 -0800 (PST)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) client-ip=220.227.207.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n12598Ke004846;
+	Mon, 2 Feb 2009 10:39:08 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id n129xjvt011610;
+	Mon, 2 Feb 2009 09:59:45 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id n129xjOl011609;
+	Mon, 2 Feb 2009 09:59:45 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.18
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 2 Feb 2009 09:59:45 -0000 (UTC)
+Message-ID: <2182.10.134.13.18.1233568785.squirrel@math.iisc.ernet.in>
+Date: Mon, 2 Feb 2009 09:59:45 -0000 (UTC)
+Subject: MATH:REMINDER:CHANGE IN VENUE:Compact course by Prof. Zbigniew 
+ Blocki on "Complex 
+ =?iso-8859-1?Q?Monge-Amp=E8re_Equation_in_K=E4hler_Geometry"_from_Feb_03_?=
+ - 13 =?iso-8859-1?Q?=2C_2009?=
+To: m_amall@math.iisc.ernet.in, m_seminar@math.iisc.ernet.in,
+        m_fac@math.iisc.ernet.in, m_isifac@math.iisc.ernet.in,
+        statmath@isibang.ac.in, m_tifrfac@math.iisc.ernet.in,
+        math@math.tifrbng.res.in, tsuall@jncasr.ac.in, emuall@jncasr.ac.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.915, required 9, BAYES_00 -2.60, J_CHICKENPOX_57 0.60,
+	J_CHICKENPOX_83 0.60, MIME_8BIT_HEADER 0.30, NO_REAL_NAME 0.96,
+	RM_KNOWN_WEBMAIL -1.50, SUBJECT_ENCODED_TWICE 1.72,
+	SUBJECT_MONTH -1.50, VOWEL_TOCC_5 0.50)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+
+Dear All,
+
+                          IISc Mathematics Initiative
+                           Department of Mathematics
+                          Indian Institute of Science
+                                  Bangalore
+                          ------------------------
+
+                                  announces
+
+                               compact course
+
+                                     on
+
+                "Complex Monge-Ampère Equation in Kähler Geometry"
+
+                                     by
+
+                           Prof. Zbigniew Blocki
+                          Institute of Mathematics
+                   Jagiellonian University Krakow, Poland
+
+                                     on
+
+                    February 03, 04, 06, 09, 11, 13, 2009
+
+                                     at
+
+                                4:00 - 5:00 PM
+                      L H – 3, Department of Mathematics
+                     Indian Institute of Science, Bangalore
+
+
+                                   Abstract
+We will concentrate on two cases when the complex Monge-Ampère equation is
+used in Kähler geometry: in Yau’s proof of the Calabi conjecture (where
+one solves an inhomogeneous version of this equation on a compact manifold
+without boundary)and in the Donaldson problem of existence of geodesics in
+the Mabuchi space of Kähler metrics (which is equivalent to solving the
+homogeneous equation with prescribed boundary values). In the beginning,
+we will review basic concepts of Kähler geometry as well as the continuity
+method which reduces solving nonlinear elliptic equations of second order
+to a priori estimates.
+
+                        *********************************
+                               ALL ARE INVITED
+                             Coffee/Tea: 03:45 PM
+
+                                                             G.Rangarajan
+                                                               Convener
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

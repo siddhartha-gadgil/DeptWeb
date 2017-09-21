@@ -1,0 +1,108 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.2.132 with SMTP id 126csp2586946ivc;
+        Sun, 9 Jul 2017 22:07:23 -0700 (PDT)
+X-Received: by 10.84.133.14 with SMTP id 14mr3663884plf.47.1499663243801;
+        Sun, 09 Jul 2017 22:07:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1499663243; cv=none;
+        d=google.com; s=arc-20160816;
+        b=PHwIlMScXeMjqXg+SEBMmodUV/raD+1Od+R3FvNH7S0sB1STZNPklkpECF5g4bivnn
+         BAn29TPhZNq4IPSXK8T3nKqSZMWMwSR8upRsR5Dgajp0sQcA29glrk5QhNPSoAyFhOAj
+         SHN48ZDkO5Y8ZBubthQ7SIDmeYH2Oz20XR/jqSycO6Hno1QsFRonlAByF3KloDWPkrKM
+         HIG2vpQoRSkeK0Q7fDLchznmdgDTzAnVRMDCIKhOPGsTgSayuouicPjc/zGmhJ/v3CoI
+         Y4G+5XUQimznIkkMdzmwQ3pQZUjElVjn7KtlWalCWXievSue50cIIIIKnpyQqzmOtnYU
+         y1zA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=4sGO/BddIcLUn00DTAAORT0oJyLxwGs34cOyvTIekik=;
+        b=Qd+AKIR7CJPfOi8xggijYHYN3bTZTvtI4YAZSfMDLe+TVlzbXHI4sSwkZ22zPneYjC
+         pCsd9rOz9a7YQstUHXgkFpT2YdpdleBSlyiO9//xG66ECPhFF/uspwSGFWCoQzKTPciY
+         GMQP92YxGA+pxQRVlrjVauCxCuiU7jRrYmWbbhFKX3zle9aKrM6VGCdnT/Qsh82jaDI4
+         JyI1qehwRvoG0+ygfRsLU2cA1Q/ygEYTWIwmGEToN2jB3XCGGrkT/jzSAmgzfz8tBdGg
+         ZUKcx/h+WqOAOCIjUTw4KxvZx0WNu6+XLhMGT6QD7IxA5fbRZNrr5CZkqP17BSCTfJm8
+         YZ+Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of gadgil@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=gadgil@math.iisc.ernet.in
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id a6si8138900plt.243.2017.07.09.22.07.22;
+        Sun, 09 Jul 2017 22:07:23 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of gadgil@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of gadgil@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 965F8AECBEB;
+	Mon, 10 Jul 2017 10:37:17 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v6A5bH4r008377;
+	Mon, 10 Jul 2017 11:07:17 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v6A5bH0I008376;
+	Mon, 10 Jul 2017 11:07:17 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.33
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Mon, 10 Jul 2017 05:37:17 -0000
+Message-ID: <9810df9a1b6568e5d2a1ce9b27f6b9b3.squirrel@www.math.iisc.ernet.in>
+Date: Mon, 10 Jul 2017 05:37:17 -0000
+Subject: Maths : July 12,   2017: Seminar : "The representation homology of
+ spaces"
+From: gadgil@math.iisc.ernet.in
+To: broadcast@iisc.ernet.in, m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 965F8AECBEB.A6CD8
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.901, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+MailScanner-NULL-Check: 1500268038.73624@BK/kY2lAprFsyeR0BbtaqA
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. Ajay Ramadoss,
+                           Indiana University
+
+    Title                : The representation homology of spaces.
+
+    Day & Date           : Wednesday, July 12, 2017
+
+    Time                 :  4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

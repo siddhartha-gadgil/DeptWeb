@@ -1,0 +1,71 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp7142218obd;
+        Mon, 2 Jan 2017 21:15:58 -0800 (PST)
+X-Received: by 10.98.159.67 with SMTP id g64mr55714215pfe.93.1483420558426;
+        Mon, 02 Jan 2017 21:15:58 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id n19si67808597pfk.284.2017.01.02.21.15.57;
+        Mon, 02 Jan 2017 21:15:58 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id D53C6AE7773;
+	Tue,  3 Jan 2017 10:45:54 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v035nPbT020198
+	for <m_seminar@math.iisc.ernet.in>; Tue, 3 Jan 2017 11:19:25 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v035nPXa020197;
+	Tue, 3 Jan 2017 11:19:25 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.25.135 (proxying for 210.212.192.132)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 3 Jan 2017 05:49:25 -0000
+Message-ID: <c7c5a009f37cc555dada59a013113920.squirrel@math.iisc.ernet.in>
+Date: Tue, 3 Jan 2017 05:49:25 -0000
+Subject: Math Dept Seminar Jan 6 (Jayadev Athreya)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: D53C6AE7773.A6920
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1484025355.05683@EaOWCzpbbDVjKOKhvxRh7w
+X-Spam-Status: No
+
+Speaker: Jayadev Athreya, University of Washington
+
+Date: Friday, January 6, 2017
+
+Time: 11:00 a.m.
+
+Venue: LH -1, Department of Mathematics, IISc
+
+Title: Siegel-Veech transforms are in L2
+
+Abstract: Let H denote a connected component of a stratum of translation
+surfaces. We show that the Siegel-Veech transform of a bounded compactly
+supported function on R2 is in L2(H,&#956;), where &#956; is the
+Masur-Veech measure on H, and give applications to bounding error terms
+for counting problems for saddle connections. We will review classical
+results in the Geometry of Numbers which anticipate this result. This is
+joint work with Yitwah Cheung and Howard Masur.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

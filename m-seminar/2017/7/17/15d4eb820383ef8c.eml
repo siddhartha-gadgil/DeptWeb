@@ -1,0 +1,154 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.12.199 with SMTP id 190csp2978459ivm;
+        Sun, 16 Jul 2017 21:04:36 -0700 (PDT)
+X-Received: by 10.99.125.11 with SMTP id y11mr3572901pgc.19.1500264276042;
+        Sun, 16 Jul 2017 21:04:36 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1500264276; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vk72bW8+KtU6wi/GvANhk/CbkiO2VTYZBcULqj8G8YHnuAHdcZV8gjcUv2R2vOU9Tr
+         b85KDA4dLYTW00m80FxlkuwDq5rOcx7OG0uxtveIcyauM2D9cnamvCMQFF28Lpz2JBYL
+         e3woIXJfxXydF/ZrqXBRH5C0yhMP00naO1HSotZvg5GZjwV5e4TeicmW4+TGvEXEeY5e
+         JZzgZxIL2M1Tkdtf8idOxmdrsfgv6i7xHbhjPsVbEGUCNXJZwl1fprhpkYjtMRitubxa
+         IcB7Qzeask2j6YrXGy+sZ19oQCiyCJwT1osOV72mI3aomAYcxuCfB3aZnVkHbd/s6tun
+         pZsA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=AmfDUedeXvwjw1sGFBA4sPdu9vUWma2DEaEJ+4AfCyo=;
+        b=UJZfqV0G+lC6LXtxgVLK8gaNNY1LQdUP9byKJ5w8HELX9aE5YxGTCrvAztKEAfQO+d
+         hj5eG5eambDgL3ycwkdDvVD5Gd1loGm6T72RC7U7Bk3gZ9TbrPII6mIOJdXgneaQ/1DA
+         u9Zn+mwd75n3KYio09Tn2YQ/rV9dq0C22sXbsglFjCp5ZV2peK+oXbr/O0c4DSyV/C7w
+         Q3aovUykNMZNe/1O4JEh231z6pcD0UXlwmnt38a+ZQiGERUcuBvGfOHoqOJhUetw2FGA
+         B6kiaUHWpz8kTMV3KriVmSgJE6xDp5zHy535dDEsadCsDBe8DJMKbJLvRiLt/EjPsIxU
+         1qLw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.68])
+        by mx.google.com with ESMTP id f15si11791347pfj.33.2017.07.16.21.04.34;
+        Sun, 16 Jul 2017 21:04:36 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) client-ip=14.139.128.68;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 9B2CBAED087;
+	Mon, 17 Jul 2017 09:34:27 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v6H4YHUf026942
+	for <m_seminar@math.iisc.ernet.in>; Mon, 17 Jul 2017 10:04:17 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v6H4YHW3026941;
+	Mon, 17 Jul 2017 10:04:17 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.34
+        (SquirrelMail authenticated user mathseminars)
+        by www.math.iisc.ernet.in with HTTP;
+        Mon, 17 Jul 2017 04:34:17 -0000
+Message-ID: <f8142d357257c4b72e5244563b48f7b5.squirrel@www.math.iisc.ernet.in>
+Date: Mon, 17 Jul 2017 04:34:17 -0000
+Subject: Reminder: [Thesis Colloquium] TODAY: "The Pick--Nevanlinna
+ interpolation problem: complex-analytic methods in special domains"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 9B2CBAED087.A7110
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1500869070.84459@XobeQBTDJLywcnZCzjFcVg
+X-Spam-Status: No
+
+DEPARTMENT OF MATHEMATICS
+INDIAN INSTITUTE OF SCIENCE
+BANGALORE - 560012
+
+
+PH.D THESIS COLLOQUIUM
+
+
+SPEAKER: Vikramjeet Singh Chandel
+
+TITLE: The Pick--Nevanlinna interpolation problem: complex-analytic
+methods in special domains
+
+DATE: July 17, 2017
+
+TIME: 3:00 p.m.
+
+VENUE: Lecture Hall 1, Department of Mathematics
+
+THESIS SUPERVISOR: Gautam Bharali
+
+ABSTRACT:
+The Pick--Nevanlinna interpolation problem in its fullest generality is as
+follows:
+
+Given domains D_1, D_2 in complex Euclidean spaces, and a set \{(z_i,w_i):
+1\leq i\leq N\}\subset D_1\times D_2, where z_i are distinct and N is a
+positive integer \geq 2, find necessary and sufficient conditions for the
+existence of a holomorphic map F from D_1 into D_2 such that F(z_i) = w_i,
+1\leq N.
+
+When such a map F exists, we say that F is an interpolant of the data. Of
+course, this problem is intractable at the above level of generality.
+However, two special cases of the problem -- which we shall study in this
+thesis -- have been of lasting interest:
+
+INTERPOLATION FROM THE POLYDISC TO THE UNIT DISC: This is the case D_1 =
+D^n and D_2 = D, where D denotes the open unit disc in the complex plane
+and n is a positive integer. The problem itself originates with Georg
+Pick's well-known theorem (independently discovered by Nevanlinna) for the
+case n=1. Much later, Sarason gave another proof of Pick's result using an
+operator-theoretic approach, which is very influential. Using this
+approach for n\geq 2, Agler--McCarthy provided a solution to the problem
+with the restriction that the interpolant is in the Schur--Agler class.
+This is notable because when n = 2 the latter result completely solves the
+problem for the case D_1 = D^2, D_2 = D. However, Pick's approach can also
+be effective for n\geq 2. In this thesis, we give an alternative
+characterization for the existence of a 3-point interpolant based on
+Pick's approach and involving the study of rational inner functions.
+
+Cole, Lewis and Wermer lifted Sarason's approach to uniform algebras --
+leading to a characterization for the existence of an interpolant in terms
+of the positivity of a large, rather abstractly-defined family of (N\times
+N) matrices. McCullough later refined their result by identifying a
+smaller family of matrices. The second result of this thesis is in the
+same vein, namely: it provides a characterization of those data that admit
+a D^n-to-D interpolant in terms of the positivity of a family of matrices
+parametrized by a class of polynomials.
+
+
+INTERPOLATION FORM THE UNIT DISC TO THE SPECTRAL UNIT BALL: This is the
+case D_1 = D and D_2 is the set of all (n\times n) matrices with spectral
+radius less than 1. The interest in this arises from problems in Control
+Theory. Bercovici, Fois and Tannenbaum adapted Sarason's methods to give a
+(somewhat hard-to-check) characterization for the existence of an
+interpolant under a very mild restriction. Later, Agler--Young established
+a relation between the interpolation problem in the spectral unit ball and
+that in the symmetrized polydisc -- leading to a necessary condition for
+the existence of an interpolant. Bharali later provided a new inequivalent
+necessary condition for the existence of an interpolant for any n and N=2.
+We shall present a necessary condition for the existence of a 3-point
+interpolant. This we shall achieve by modifying Pick's approach and
+applying the aforementioned result due to Bharali.
+
+
+ALL ARE WELCOME.
+
+THE CHAIRMAN
+Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

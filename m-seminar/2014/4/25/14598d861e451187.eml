@@ -1,0 +1,96 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp19131lbb;
+        Fri, 25 Apr 2014 05:24:51 -0700 (PDT)
+X-Received: by 10.68.216.101 with SMTP id op5mr11013391pbc.148.1398428689435;
+        Fri, 25 Apr 2014 05:24:49 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id bn5si4764900pbb.108.2014.04.25.05.24.47
+        for <multiple recipients>;
+        Fri, 25 Apr 2014 05:24:48 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s3PCOjjd009977;
+	Fri, 25 Apr 2014 17:54:45 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s3PCKuIw000781
+	for <m_seminar@math.iisc.ernet.in>; Fri, 25 Apr 2014 17:50:56 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s3PCKujm000778;
+	Fri, 25 Apr 2014 17:50:56 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 25 Apr 2014 12:20:56 -0000
+Message-ID: <a4182cf2f15fb273d280e1a89985b736.squirrel@math.iisc.ernet.in>
+Date: Fri, 25 Apr 2014 12:20:56 -0000
+Subject: [M. S.  Thesis  Colloquium] Math: April 28th, 2014: HOMOGENEOUS
+ OPERATORS AND SOME IRREDUCIBLE REPRESENTATIONS OF THE MOBIUS GROUP
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s3PCOjjd009977
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                           M. S. THESIS  COLLOQUIUM
+
+
+
+Speaker : Mr.  Chandramouli. K
+          IISc
+
+Title   : HOMOGENEOUS OPERATORS AND SOME IRREDUCIBLE REPRESENTATIONS OF
+THE MOBIUS GROUP
+
+Date    : 28th April, 2014 (Monday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+In this report, after recalling the definition of the M\"obius group, we
+define homogeneous operators, that is, operators $T$ with the property
+$\varphi(T)$ is unitarily equivalent to $T$ for all $\varphi$ in the
+M\"obius group and prove some properties of homogeneous operators.
+Following this,
+(i)  we describe isometric operators which are homogeneous.
+(ii) we describe the homogeneous operators in the Cowen-Douglas class of
+rank 1.
+Finally, Multiplier representations which occur in the study of
+homogeneous operators are discussed. Following the proof of Kobayashi, the
+multiplier representations are shown to be irreducible.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

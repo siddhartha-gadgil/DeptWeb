@@ -1,0 +1,98 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.95.72 with SMTP id di8csp132387qeb;
+        Sun, 14 Apr 2013 19:51:23 -0700 (PDT)
+X-Received: by 10.69.14.100 with SMTP id ff4mr27341402pbd.83.1365994283479;
+        Sun, 14 Apr 2013 19:51:23 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id oi4si17242468pbb.329.2013.04.14.19.51.21
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 14 Apr 2013 19:51:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r3F2pIsU021816;
+	Mon, 15 Apr 2013 08:21:18 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r3F2nPie007623;
+	Mon, 15 Apr 2013 08:19:25 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r3F2nPJw007622;
+	Mon, 15 Apr 2013 08:19:25 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from s2.serc.iisc.ernet.in ([10.16.40.12]) (proxying for 
+     59.92.129.230)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 15 Apr 2013 08:19:25 +0530 (IST)
+Message-ID: <12102eecebcddb19b624fc3f336ab795.squirrel@math.iisc.ernet.in>
+Date: Mon, 15 Apr 2013 08:19:25 +0530 (IST)
+Subject: MATH: April 16th,  2013: " Systolic inequalities"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r3F2pIsU021816
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=1.2,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 3.10)
+X-IISc-MailScanner-SpamScore: s
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+
+                    Department of Mathematics
+                       Indian Institute of Science
+                                 Bangalore
+                    ----------------------------
+
+
+Speaker: Dr. Thomas Richard,
+                     IISc, Bangalore
+
+Title: Systolic inequalities
+
+Date: Tuesday, April 16, 2013.
+
+Time: 11: 30 a.m.
+
+Venue: LH- II, Department of Mathematics
+
+
+Abstract:
+     The systole of a compact Riemannian manifold (M,g) is the length of
+the shortest non contractible loop of M, it is attained by a periodic
+geodesic. A systolic inequality is a lower on the volume of any
+Riemannian metric depending only on the systole. If one consider the
+systole as a kind of 'belt size' of (M,g), a systolic inequality just
+says 'the bigger the belt, the bigger the guy'. In this talk, we will
+discuss systolic inequalities for surfaces. We will prove optimal
+results for the torus and the projective plane (which go back to
+Loewner and Pu in the 50's) and non optimal results for higher genus
+surfaces (due to Hebda and Gromov in the 80's). This topic involve a
+nice mixture of metric geometry and elementary topology. If time
+permits, we will say a few words about higher dimensions.
+
+          All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

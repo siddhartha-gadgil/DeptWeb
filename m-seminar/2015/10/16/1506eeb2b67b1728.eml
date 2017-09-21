@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.60.10 with SMTP id j10csp891421oia;
+        Thu, 15 Oct 2015 21:31:57 -0700 (PDT)
+X-Received: by 10.140.133.71 with SMTP id 68mr17140723qhf.85.1444969917728;
+        Thu, 15 Oct 2015 21:31:57 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id k7si4085326qhc.118.2015.10.15.21.31.55;
+        Thu, 15 Oct 2015 21:31:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t9G4VgKv012757;
+	Fri, 16 Oct 2015 10:01:42 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t9G4f2A0014792;
+	Fri, 16 Oct 2015 10:11:02 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id t9G4f2Sm014789;
+	Fri, 16 Oct 2015 10:11:02 +0530
+Date: Fri, 16 Oct 2015 10:11:02 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Reminder[Seminar] Math : TODAY : "Eigenfunctions"
+Message-ID: <alpine.LFD.2.03.1510161009060.14617@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t9G4VgKv012757
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+
+There will be two lectures in the Eigenfunctions seminar today, 16th 
+Oct, 2015.
+
+--------------------------------------------
+Lectue 1:
+
+Speaker: K Sandeep (TIFR-CAM)
+
+Title : Nonlinear analysis and PDE
+
+Time and venue: 16 Oct, 2:15 PM, LH-1, Dept of mathematics
+
+Abstract : It is well known that finding an explicit solution for partial
+differential equations is almost impossible in most of the cases. In this
+talk we will give a brief introduction to the analysis of certain
+nonlinear PDEs using various tools from analysis. We will discuss some
+concrete examples and some open problems (depending on time).
+The talk should be accessible to senior undergraduate students.
+
+------------------------------
+
+Lecture 2:
+
+Speaker: Siddhartha Gadgil (IISc)
+
+Title: Homotopy type theory
+
+Time and venue: 16 Oct, 3:30 PM, LH-1, Dept of mathematics
+
+Abstract: The usual foundations of mathematics based on Set theory and 
+Predicate calculus (and extended by category theory), while successful in 
+many ways, are so far removed from everyday mathematics that the 
+possibility of translation of theorems to their formal counterparts is 
+generally purely a matter of faith. Homotopy type theory gives alternative 
+foundations for mathematics. These are based on an extension of type 
+theory (from logic and computer science) using an unexpectedly deep 
+connection of Types with Spaces discovered by Voevodsky and Awodey-Warren. 
+As a consequence of this relation we also obtain a synthetic view of 
+homotopy theory.
+    In this lecture, I will give a brief introduction to this young 
+subject.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.156.204 with SMTP id y12csp33549qcw;
+        Fri, 23 Jan 2015 01:43:43 -0800 (PST)
+X-Received: by 10.66.171.206 with SMTP id aw14mr9876870pac.40.1422006223176;
+        Fri, 23 Jan 2015 01:43:43 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id ua2si1202279pab.180.2015.01.23.01.43.40;
+        Fri, 23 Jan 2015 01:43:43 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t0N9hasq015104;
+	Fri, 23 Jan 2015 15:13:36 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t0N9r2YN022955
+	for <m_seminar@math.iisc.ernet.in>; Fri, 23 Jan 2015 15:23:02 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t0N9r1wx022954;
+	Fri, 23 Jan 2015 15:23:01 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 23 Jan 2015 09:53:01 -0000
+Message-ID: <18bb2ddf572588c7af4e7ee060441c9c.squirrel@math.iisc.ernet.in>
+Date: Fri, 23 Jan 2015 09:53:01 -0000
+Subject: [Thesis Colloquium] Math: Jan 30th, 2015: Weighted norm inequalities
+ for Weyl multipliers and Hermite pseudo-multipliers
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t0N9hasq015104
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                              Ph.D. THESIS COLLOQUIUM
+
+
+Speaker : Sayan Bagchi
+
+Title   : Weighted norm inequalities for Weyl multipliers and Hermite
+pseudo-multipliers
+
+Date    : 30th Jan, 2015 (Friday)
+
+Time    : 2:30pm - 3:30pm
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+In this talk we deal with two problems in harmonic analysis.
+In the first problem we discuss weighted norm inequalities for Weyl
+multipliers satisfying Mauceri's condition. As an application, we prove
+certain multiplier theorems on the Heisenberg group and also show in the
+context of a theorem of Weis on operator valued Fourier multipliers that
+the R-boundedness of the derivative of the multiplier is not necessary
+for the boundedness of the multiplier transform.
+In the second problem we deal with a variation of a theorem of Mauceri
+concerning the L^p boundedness of operators M which are known to be
+bounded on L^2: We obtain sufficient conditions on the kernel of the
+operator M so that it satisfies weighted L^p estimates. As an application
+we prove L^p boundedness of Hermite pseudo-multipliers.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

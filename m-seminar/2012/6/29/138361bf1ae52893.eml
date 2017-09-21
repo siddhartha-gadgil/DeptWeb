@@ -1,0 +1,113 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.114.229 with SMTP id jj5csp31307oab;
+        Thu, 28 Jun 2012 19:39:58 -0700 (PDT)
+Received: by 10.68.225.9 with SMTP id rg9mr1349959pbc.137.1340937597061;
+        Thu, 28 Jun 2012 19:39:57 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id tj6si6064831pbc.48.2012.06.28.19.39.55
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 28 Jun 2012 19:39:57 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q5T2dnvX002617;
+	Fri, 29 Jun 2012 08:09:49 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q5T2dkuf005816
+	for <m_seminar@math.iisc.ernet.in>; Fri, 29 Jun 2012 08:09:46 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id q5T2dZM3001117
+	for <m_seminar@math.iisc.ernet.in>; Fri, 29 Jun 2012 08:09:38 +0530
+Received: by obbta17 with SMTP id ta17so5548278obb.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 28 Jun 2012 19:39:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=ylFE6t/ZCNElIZ/AAUEHRpknhoZ8t0Pvjn7J3kXohSo=;
+        b=v/w3hWoVRKnUWBNEHpmnzYvUkH+8IyqTYzw+2mwtNcUIaRXw7hrn3yRvYcB1w0YIkV
+         XMWLfV3Xqlk8fNmmSMAvTqsrLUf0fCj+W+haYNvbg/eAw5Bm1Pp0nUcB10aXa8uoWtBh
+         B3dVvElonJ4JT4wMhk8lj24XpnhpLqQwdd11MzIxMkP9t7HyhnwttHC1Ti53oxX2yzrj
+         1Z2c95jqT3Skb3g7mqCasSWJ3UfjgZ2ODmmvz9xV93HoUaW6tox4C9B8+eCuwW48j8Gd
+         TCK9544EkgQe5xONerPMBzrCzlIJ2WRoeJohbtTGhKraa/xCoY2U27aEalbSAYJqdtLC
+         DXJw==
+MIME-Version: 1.0
+Received: by 10.182.16.3 with SMTP id b3mr5009145obd.72.1340937575273; Thu, 28
+ Jun 2012 19:39:35 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Thu, 28 Jun 2012 19:39:35 -0700 (PDT)
+In-Reply-To: <CAHEur2RXWVcPXkBjcP1LSQ7dC_zkyQ0vsOgW+LttXyURcvU3xg@mail.gmail.com>
+References: <CAHEur2RXWVcPXkBjcP1LSQ7dC_zkyQ0vsOgW+LttXyURcvU3xg@mail.gmail.com>
+Date: Fri, 29 Jun 2012 08:09:35 +0530
+X-Google-Sender-Auth: HOsnvKfOmzrEV7oAtjmpnsreShc
+Message-ID: <CAHEur2QOGPQg_9StTQ3y6v1MV=GWTVkDV=12K-eoZu0oWLsdzQ@mail.gmail.com>
+Subject: Fwd: [Seminar] Math: Today: "Properties of tempered stable distributions"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-MailScanner-ID: q5T2dZM3001117
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.59, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01), not spam, SpamAssassin (not cached, score=-3.6,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90, FWD_MSG -1.00,
+	RCVD_IN_DNSWL_LOW -0.70)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematics
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0BANGALORE PROBABILIT=
+Y SEMINAR
+
+
+Speaker : =A0 Prof. Michael Grabchak
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0UNC Charlotte
+
+Title : =A0 =A0 =A0 =A0 Properties of tempered stable distributions
+Date : =A0 =A0 =A0 June 29, 2012
+
+Time : =A0 =A0 =A0 3:15 - 4:15 p.m.
+
+Venue: =A0 =A0 Department of Mathematics, Lecture Hall 3
+
+
+Abstract: Tempered stable distributions were introduced in
+Rosinski 2007 as models that look like infinite variance stable
+distributions in some central region, but they have lighter
+(i.e. tempered) tails. We introduce a larger class of models that
+allow for more variety in the tails. While some cases no longer
+correspond to stable distributions they serve to make the class
+more flexible, and in certain subclasses they have been shown
+to provide a good fit to data. To characterize the possible tails
+we give detailed results about finiteness of various moments.
+We also give necessary and sufficient conditions for the tails
+to be regularly varying. This last part allows us to characterize
+the domain of attraction to which a particular tempered stable
+distribution belongs. We will also characterize the weak limits
+of sequences of tempered stable distributions. If time permits,
+we will motivate why distributions that are stable-like in some
+central region but with lighter tails may show up in applications.
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALL ARE CORDIALLY INVITED.
+
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

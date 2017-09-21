@@ -1,0 +1,98 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.98.164 with SMTP id ej4csp118042qeb;
+        Mon, 18 Feb 2013 21:33:29 -0800 (PST)
+X-Received: by 10.66.72.233 with SMTP id g9mr42550464pav.29.1361252008891;
+        Mon, 18 Feb 2013 21:33:28 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id iu9si15221807pbc.314.2013.02.18.21.33.26
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 18 Feb 2013 21:33:28 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r1J5XMvY016757;
+	Tue, 19 Feb 2013 11:03:22 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r1J5XGF8026215
+	for <m_seminar@math.iisc.ernet.in>; Tue, 19 Feb 2013 11:03:16 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r1J5XGcx026212;
+	Tue, 19 Feb 2013 11:03:16 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 19 Feb 2013 11:03:16 +0530 (IST)
+Message-ID: <3a4478c349938dbb49f45ff12b3badd1.squirrel@math.iisc.ernet.in>
+Date: Tue, 19 Feb 2013 11:03:16 +0530 (IST)
+Subject: Reminder [Seminar] MATH: Today: "On condition numbers of a basis"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+
+Dear all,
+
+
+                    Department of Mathematics
+                       Indian Institute of Science
+                                 Bangalore
+                    ------------------------
+
+
+Speaker: Professor B. V. Limaye (IIT Bombay)
+
+Date: Feb 19th, 2013 (Tuesday)
+
+Time: 11:30 am-12:30 pm
+
+Venue: LH-II, Department of Mathematics
+
+Title: On condition numbers of a basis
+
+Abstract. We define two condition numbers of a basis of a finite di-
+mensional normed space in terms of the norms of the basis elements
+and the distances of the basis elements from their complementary sub-
+spaces. If a condition number of a basis is small, then we would avoid
+overflow/underflow in computations as well as `near linear dependence'
+of the basis elements. Optimal scaling strategies for reducing the size
+of condition numbers of a basis are determined. Condition numbers of
+a basis of an inner product space can be calculated explicitly in terms
+of the diagonal entries of the corresponding Gram matrix and of its
+inverse. We give estimates for the change in condition numbers when
+a given basis is transformed by a nonsingular matrix to another basis.
+Our condition numbers arise naturally when we consider the problem of
+computing the dual basis.
+
+
+             All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

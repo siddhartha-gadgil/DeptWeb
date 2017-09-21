@@ -1,0 +1,114 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.102.18 with SMTP id a18csp997249oic;
+        Thu, 2 Apr 2015 02:41:37 -0700 (PDT)
+X-Received: by 10.70.55.65 with SMTP id q1mr86359615pdp.35.1427967696321;
+        Thu, 02 Apr 2015 02:41:36 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id aj1si6730966pbc.23.2015.04.02.02.41.34;
+        Thu, 02 Apr 2015 02:41:35 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t329fS5D027436;
+	Thu, 2 Apr 2015 15:11:28 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t329sKS6016636
+	for <m_seminar@math.iisc.ernet.in>; Thu, 2 Apr 2015 15:24:20 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t329sKVD016635;
+	Thu, 2 Apr 2015 15:24:20 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 2 Apr 2015 09:54:20 -0000
+Message-ID: <cf6d3e3cd128bd21d7199290dbd9c854.squirrel@math.iisc.ernet.in>
+Date: Thu, 2 Apr 2015 09:54:20 -0000
+Subject: [Seminar] MATH : 6th April 2015 : "Bangalore Probability Seminar"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50,
+	URIBL_BLACK 0.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+       BANGALORE PROBABILITY SEMINAR
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+-----------------------------------------------
+
+Speaker : Srikanth Iyer (IISc, Bangalore)
+
+Title   : Achieving positive information velocity in wireless networks
+
+Date    : 6th April, 2015 (Monday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: In wireless networks, where each node transmits independently of
+other nodes in the network (the ALOHA protocol), the expected delay
+experienced by a packet until it is successfully received at any other
+node is known to be infinite for signal-to-interference-plus-noise-ratio
+(SINR) model with node locations distributed according to a Poisson point
+process. Consequently, the information velocity, defined as the limit of
+the ratio of the distance to the destination and the time taken for a
+packet to successfully reach the destination over multiple hops, is zero,
+as the distance tends to infinity. A nearest neighbor distance based power
+control policy is proposed to show that the expected delay required for a
+packet to be successfully received at the nearest
+neighbor can be made finite. Moreover, the information velocity is also
+shown to be non-zero with the proposed power control policy. The condition
+under which these results hold does not depend on the intensity of the
+underlying Poisson point process.
+
+
+
+Speaker : Yogeshwaran D (ISI, Bangalore)
+
+Title   : Normal convergence of geometric functionals of clustering point
+processes
+
+Date    : 6th April, 2015 (Monday)
+
+Time    : 3:15 - 4:15 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: I shall describe a central limit theorem for geometric
+functionals on point processes satisfying a "clustering condition".
+Examples of geometric functionals of interest are subgraph and component
+counts in a random geometric graph, intrinsic volumes of a Boolean model.
+Non-trivial examples of point process that satisfy our requirements are
+zeros of Gaussian analytic functions and determinantal point
+processes. In some particular cases, I shall describe variance asymptotics
+which are also necessary for the central limit theorem. This is a joint
+work with Joseph Yukich and Bartek Blaszczyszyn.
+
+
+--------------------------------------------
+
+
+         All are cordially invited.
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

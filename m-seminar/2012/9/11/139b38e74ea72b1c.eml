@@ -1,0 +1,123 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.19.227 with SMTP id i3csp239939oae;
+        Mon, 10 Sep 2012 21:20:22 -0700 (PDT)
+Received: by 10.68.218.72 with SMTP id pe8mr9630001pbc.33.1347337221626;
+        Mon, 10 Sep 2012 21:20:21 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id np8si7406575pbc.161.2012.09.10.21.20.18
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 10 Sep 2012 21:20:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q8B4KEH3006475;
+	Tue, 11 Sep 2012 09:50:14 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q8B4K9ET001906
+	for <m_seminar@math.iisc.ernet.in>; Tue, 11 Sep 2012 09:50:09 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q8B4K9Lr001905;
+	Tue, 11 Sep 2012 09:50:09 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 11 Sep 2012 09:50:09 +0530 (IST)
+Message-ID: <3281f67441ac6cd54dfacf48818a9ff9.squirrel@math.iisc.ernet.in>
+Date: Tue, 11 Sep 2012 09:50:09 +0530 (IST)
+Subject: [Colloquium] MATH : 20th Sep,
+      2012 : "Dynamics of additional food provided predator-prey system 
+     with applications to biological control"
+From: "Pooja Singla" <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                        COLLOQUIUM
+
+
+Speaker  :   Prof B S R V Prasad
+                VIT University, Vellore
+
+Title    :   Dynamics of additional food provided predator-prey system with
+             applications to biological control
+
+Date     :   September 20, 2012 (Thursday)
+
+Time     :   4:00 p.m.- 5:00pm
+
+Venue    :   Department of Mathematics, LH-III
+
+
+Abstract :   Necessity to understand the role of additional food as a tool
+in biological control programs is being increasingly felt, particularly
+due to its Eco-friendly nature. In this present talk, we develop/analyse a
+variation of standard predator-prey model with Holling type II function
+response which presents predator-prey dynamics in presence of some
+additional food to predators.  The aim is to study the consequences of
+providing additional food on the system dynamics. A thorough mathematical
+analysis reveals that handling times for the available foods play a vital
+role in determining the eventual state of the system.  It is interesting
+to observe that by varying the quality (characterised by the handling times)
+and quantity of additional food we can not only control and limit the
+prey, but also limit and eradicate the predators. In the context of
+biological pest control, the results caution the manager on the choice of
+quality and quantity of the additional food used for this purpose.  We
+further study the controllability aspects of the predator-prey system by
+considering quality of the additional food as the control variable.
+Control strategies are offered to steer the system from a given initial
+state to a required terminal state in a minimum time by formulating Mayer
+problem of optimal control. It is observed that an optimal strategy is a
+combination of
+bang-bang controls and could involve multiple switches. Properties of
+optimal paths are derived using necessary conditions for Mayer problem. In
+the light of the results evolved in this work it is possible to eradicate
+the prey from the system in the minimum time by providing the predator
+with high quality additional food, which is relevant in the pest
+management. In the perspective of biological conservation this study
+highlights the possibilities to drive the state to an admissible interior
+equilibrium (irrespective of its stability nature) of the system in a
+minimum time.
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

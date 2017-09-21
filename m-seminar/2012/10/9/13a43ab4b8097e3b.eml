@@ -1,0 +1,126 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.216.196.29 with SMTP id q29csp273737wen;
+        Mon, 8 Oct 2012 20:57:11 -0700 (PDT)
+Received: by 10.66.78.136 with SMTP id b8mr48951593pax.26.1349755030368;
+        Mon, 08 Oct 2012 20:57:10 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id k9si15227123pay.265.2012.10.08.20.57.08
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 08 Oct 2012 20:57:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q993v3CM005546;
+	Tue, 9 Oct 2012 09:27:03 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q993v0kd028820
+	for <m_seminar@math.iisc.ernet.in>; Tue, 9 Oct 2012 09:27:00 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q993v0fo028819;
+	Tue, 9 Oct 2012 09:27:00 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 9 Oct 2012 09:27:00 +0530 (IST)
+Message-ID: <922e233f6533b43852fd72271afc7091.squirrel@math.iisc.ernet.in>
+Date: Tue, 9 Oct 2012 09:27:00 +0530 (IST)
+Subject: [Fwd: [Seminar] MATH : 9th Oct: "The String topology loop product  
+         through twisting cochains"]
+From: "Pooja Singla" <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q993v3CM005546
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+---------------------------- Original Message ----------------------------
+Subject: [Seminar] MATH : 9th Oct: "The String topology loop product     
+through twisting cochains"
+From:    "Pooja Singla" <pooja@localhost>
+Date:    Fri, October 5, 2012 9:27 am
+To:      broadcast@ece.iisc.ernet.in
+--------------------------------------------------------------------------
+
+
+To whom it may concern:
+
+Please broadcast the following message to all.
+
+Thanks and regards,
+Pooja Singla
+
+Assistant Professor
+Department of Mathematics
+
+___________________________________________________________
+
+
+
+                       Department of Mathematics
+               Indian Institute of Science, Bangalore
+
+
+                                   SEMINAR
+
+
+Speaker :   Dr. Micah Miller
+                    IISc, Bangalore
+
+Title      :   The String topology loop product through twisting cochains
+
+Date     :   October 9, 2012 (Tuesday)
+
+Time     :   3:30 pm- 4:30 pm
+
+Venue   :   Department of Mathematics, LH-III
+
+
+Abstract :  String topology is the study of the free loop space of a manifold
+LM.  The loop product, defined on the homology of LM, is described
+intuitively as a combination of the intersection product on M and
+loop concatenation in the based loop space of M.  However, since the
+intersection product is well-defined only on transversally intersecting
+chains, this description is incomplete. Brown's theory of twisting
+cochains provides a chain model of a bundle in terms of the chains on
+the base and chains on the fiber.  We extend this theory so that it can
+be applied to provide a model of the free loop space. We give a precise
+definition of the loop product defined at the chain level.
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

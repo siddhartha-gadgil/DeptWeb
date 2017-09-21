@@ -1,0 +1,78 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.20 with SMTP id s20cs627976buc;
+        Thu, 22 Nov 2007 20:01:54 -0800 (PST)
+Received: by 10.114.60.19 with SMTP id i19mr1035692waa.1195790512749;
+        Thu, 22 Nov 2007 20:01:52 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id k14si2121241waf.2007.11.22.20.01.36;
+        Thu, 22 Nov 2007 20:01:52 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id lAN3tZhb028724;
+	Fri, 23 Nov 2007 09:25:35 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id lAN9Ha4T000954;
+	Fri, 23 Nov 2007 09:17:36 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id lAN9Hag8000951;
+	Fri, 23 Nov 2007 09:17:36 GMT
+Date: Fri, 23 Nov 2007 09:17:36 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Reminder : Maths : Today : Seminar - "Galois action on L-values"
+Message-ID: <Pine.LNX.4.61.0711230916450.895@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Dr. N. Tejaswi, IISc
+
+      Title 		  : Galois action on L-values
+
+      Day & Date           : Friday, November 23.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	To an elliptic curve E, one can associate various twists
+L(E,\chi,s) of L-functions.  The values of these L-functions at integers
+are expected to behave well under the action of a Galois group.  In this
+talk, we will explain how a Galois group acts on some special L-values and
+indicate some approaches in studying the behaviour under such actions.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

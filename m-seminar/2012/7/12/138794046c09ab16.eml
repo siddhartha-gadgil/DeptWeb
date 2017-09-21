@@ -1,0 +1,165 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.162.196 with SMTP id yc4csp1152oab;
+        Wed, 11 Jul 2012 20:34:12 -0700 (PDT)
+Received: by 10.68.195.102 with SMTP id id6mr1553454pbc.120.1342064052099;
+        Wed, 11 Jul 2012 20:34:12 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id ip10si6927274pbc.96.2012.07.11.20.34.09
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 11 Jul 2012 20:34:11 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q6C3Y5CH019948;
+	Thu, 12 Jul 2012 09:04:05 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q6C3Y1g5013570
+	for <m_seminar@math.iisc.ernet.in>; Thu, 12 Jul 2012 09:04:01 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q6C3SesB023438
+	for <m_seminar@math.iisc.ernet.in>; Thu, 12 Jul 2012 08:58:43 +0530
+Received: by obbta17 with SMTP id ta17so3431485obb.22
+        for <m_seminar@math.iisc.ernet.in>; Wed, 11 Jul 2012 20:33:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=TfuIpwFb/ehXCK1OroMqUeFV0xm6lnRVHD8SpgO7mno=;
+        b=ckNPcm9GettCgL/C/5GjIMZFvTmLdeRRC2Hu7wV+/hIz1YPrx38d+K59XIjETFP6HE
+         cw17aUSscWmUxHBKS9SP5YcDk6iO2vMpkimumGOZ6QGXdoJMcabTMIOhuyvnC9yl+gbc
+         tAeG0lFVVSNaaPUescscH1on98/iciaVXCZt4cxGt1XV+XwzRIgXbsQ8u1S3cC505d3m
+         3gr29OonHu0gLcSPPc1A+gTCDIuGoLppbdCK40Ds2qHaw22ONdZ3Bg+hi7wdWd0P16GQ
+         f0frjoSNYowR/+zWPLibj7CEHsBBWysABVEFTmQCtHVOm6c6qYOKBif3gdKJwZIF0fGy
+         D8/A==
+MIME-Version: 1.0
+Received: by 10.182.75.100 with SMTP id b4mr18677621obw.12.1342064033626; Wed,
+ 11 Jul 2012 20:33:53 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Wed, 11 Jul 2012 20:33:53 -0700 (PDT)
+In-Reply-To: <CAHEur2R8YpzjfZQiY1pPJ1rwZMwbiEKK0UBomk8nzAe7PvAkmg@mail.gmail.com>
+References: <CAHEur2R8YpzjfZQiY1pPJ1rwZMwbiEKK0UBomk8nzAe7PvAkmg@mail.gmail.com>
+Date: Thu, 12 Jul 2012 09:03:53 +0530
+X-Google-Sender-Auth: Veo-8NwE_ykAiPSB2WC9sIaIDLE
+Message-ID: <CAHEur2R0hWWmNgJpxAbOHuFAObWs8KsqUqubL10SiqdZ9RCZGQ@mail.gmail.com>
+Subject: [Colloquium] Math: Today: "Complex projective structures and dynamics
+ in moduli space"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=14dae93996edfd788804c499a167
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.7,
+	required 6.5, autolearn=not spam, RCVD_IN_DNSWL_LOW -0.70), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q6C3Y5CH019948
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--14dae93996edfd788804c499a167
+Content-Type: text/plain; charset=ISO-8859-1
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  COLLOQUIUM
+
+
+Speaker :  Dr. Subojoy Gupta
+                  California Institute of Technology
+
+Title:     Complex projective structures and dynamics in moduli space
+
+Date :       July 12th, 2012
+
+Time :       11:00 am- 12:00 noon
+
+Venue:     Department of Mathematics, Lecture Hall 1
+
+Title: Complex projective structures and dynamics in moduli space
+
+Abstract: We shall discuss a new result that relates grafting, which are
+certain deformations of complex projective structures on a surface, to the
+Teichmuller geodesic flow in the moduli space of Riemann surfaces. A
+consequence is that for any fixed Fuchsian holonomy, such geometric
+structures are dense in moduli space.
+
+
+
+                   ALL ARE CORDIALLY INVITED.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--14dae93996edfd788804c499a167
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gma=
+il_quote"><div class=3D"gmail_quote">
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematic=
+s<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0=A0=A0=A0=A0 C=
+OLLOQUIUM <br>
+<br>
+<br>
+Speaker :=A0 Dr. Subojoy Gupta<br>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0 California Institute of Technology<br><br>Title:=A0=A0=A0=A0 C=
+omplex projective structures and dynamics in moduli space<br>
+<br>
+Date : =A0 =A0 =A0 July 12th, <a href=3D"tel:2012" value=3D"+9722012" targe=
+t=3D"_blank">2012</a><br>
+<br>
+Time : =A0 =A0 =A0 11:00 am- 12:00 noon<br>
+<br>
+Venue: =A0 =A0 Department of Mathematics, Lecture Hall 1<br>
+<br>
+Title: Complex projective structures and dynamics in moduli space<br>
+<br>
+Abstract: We shall discuss a new result that relates grafting, which are<br>
+certain deformations of complex projective structures on a surface, to the<=
+br>
+Teichmuller geodesic flow in the moduli space of Riemann surfaces. A<br>
+consequence is that for any fixed Fuchsian holonomy, such geometric<br>
+structures are dense in moduli space.<br><br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALL ARE CORDIALLY INVITED.<br>
+<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<span><font color=3D"#888888"><br>
+</font></span></div><span><font color=3D"#888888"><br><br clear=3D"all"><br=
+><br>
+</font></span></div><span><font color=3D"#888888"><br><br clear=3D"all"></f=
+ont></span><br>
+</div>
+</div><br><br clear=3D"all"><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--14dae93996edfd788804c499a167--

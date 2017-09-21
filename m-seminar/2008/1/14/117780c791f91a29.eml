@@ -1,0 +1,75 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.119.4 with SMTP id r4cs216121buc;
+        Mon, 14 Jan 2008 03:26:01 -0800 (PST)
+Received: by 10.140.208.14 with SMTP id f14mr3689198rvg.283.1200309960402;
+        Mon, 14 Jan 2008 03:26:00 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id k41si1156693rvb.24.2008.01.14.03.25.48;
+        Mon, 14 Jan 2008 03:26:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m0EBWP7q014981;
+	Mon, 14 Jan 2008 17:02:25 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m0EGdY25022475;
+	Mon, 14 Jan 2008 16:39:34 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m0EGdYnV022472;
+	Mon, 14 Jan 2008 16:39:34 GMT
+Date: Mon, 14 Jan 2008 16:39:34 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 18th January 2008: Seminar - "Mathematical Aspects of
+ 2-dimensional Yang-Mills Theory"
+Message-ID: <Pine.LNX.4.61.0801141635180.21978@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Prof. Ambar Sengupta
+ 				Louisiana State University.
+
+      Title 		  : Mathematical Aspects of 2-dimensional
+ 				Yang-Mills Theory
+
+      Day & Date           : Friday, January 18, 2008.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  III
+                              Dept. of  Mathematics
+
+Abstract:
+ 	Yang-Mills gauge theory, classical as well as quantum, in two 
+dimensions is both mathematically tractable and poses interesting 
+questions. The quantum theory for the field has a mathematically precise 
+formulation in terms of a Gaussian measure. Classical holonomies become 
+group-valued random variables in this setting.
+ 	This talk will present an overview of some mathematical problems, 
+solutions, and ideas arising from two-dimensional Yang-Mills theory
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

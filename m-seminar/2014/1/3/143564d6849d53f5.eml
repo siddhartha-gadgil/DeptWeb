@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.156.72 with SMTP id wc8csp449758lbb;
+        Thu, 2 Jan 2014 20:12:31 -0800 (PST)
+X-Received: by 10.68.204.161 with SMTP id kz1mr6438895pbc.156.1388722350358;
+        Thu, 02 Jan 2014 20:12:30 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id sa6si44507133pbb.83.2014.01.02.20.12.29
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 02 Jan 2014 20:12:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s034COFt031521;
+	Fri, 3 Jan 2014 09:42:24 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id s0347gRo014017
+	for <m_seminar@math.iisc.ernet.in>; Fri, 3 Jan 2014 09:37:42 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id s0347g53014016;
+	Fri, 3 Jan 2014 09:37:42 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 3 Jan 2014 09:37:42 +0530 (IST)
+Message-ID: <c998433e91acda0a9a66c32b4cb0c9df.squirrel@math.iisc.ernet.in>
+Date: Fri, 3 Jan 2014 09:37:42 +0530 (IST)
+Subject: Reminder [Seminar] Math: Jan 3rd,
+      2014: L-4 norms of cusp forms in the level aspect
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: arvind@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s034COFt031521
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof Rizwanur Khan
+          Texas A&M university at Qatar
+
+Title   : L-4 norms of cusp forms in the level aspect
+
+Date    : 3rd Jan, 2014 (Friday)
+
+Time    : 3:00 - 4:00 p.m.
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract: Modular forms, particularly cusp forms, are ubiquitous objects
+in mathematics. A natural way to understand a cusp form is to study its
+L-p norms, for in principle the distribution of a function can be
+recovered from the knowledge of its moments. In this talk I will describe
+a new bound for the L-4 norm of a cusp form of prime level q, as q tends
+to infinity. This work is joint with Jack Buttcane.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

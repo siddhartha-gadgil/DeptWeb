@@ -1,0 +1,100 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.168.133 with SMTP id u5csp544894qcy;
+        Thu, 19 Feb 2015 00:50:41 -0800 (PST)
+X-Received: by 10.70.131.68 with SMTP id ok4mr5634385pdb.109.1424335841391;
+        Thu, 19 Feb 2015 00:50:41 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id d3si1227852pdb.225.2015.02.19.00.50.36;
+        Thu, 19 Feb 2015 00:50:41 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t1J8oT7o003290;
+	Thu, 19 Feb 2015 14:20:29 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t1J94545011189
+	for <m_seminar@math.iisc.ernet.in>; Thu, 19 Feb 2015 14:34:05 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t1J945ww011188;
+	Thu, 19 Feb 2015 14:34:05 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 19 Feb 2015 09:04:05 -0000
+Message-ID: <d2d740b34f8dab333e04ffc1825d7703.squirrel@math.iisc.ernet.in>
+Date: Thu, 19 Feb 2015 09:04:05 -0000
+Subject: [Seminar] Math: Febrary 25th, 2015: Computational Aspects of Bunside
+ Algebras I
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t1J8oT7o003290
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof. Dr. Martin Kreuzer
+          University of Passau, Germany
+
+Title   : Computational Aspects of Bunside Algebras I
+
+Date    : 25th February, 2015 (Wednesday)
+
+Time    : 2:00 p.m. - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+In this two-part talk, we reconsider Burnside algebras,
+a classical tool in the theory of finite groups, from a computational
+perspective. Using modern computer algebra systems, many of the results
+about these rings that were proved in the second half of the last century
+can be transformed into effective algorithms.
+
+After recalling the definition and basic properties of the Bunside
+ring of a finite group, we show how to compute an explicit presentation on
+terms of generators and relations, how to determine the prime ideal
+spectrum and its connected components, and how to relate the Burnside ring
+to its normalization by computing its quasi-idempotents.
+
+In the latter parts of the lectures we introduce explicit methods
+for computing classical maps between the Burnside rings of related groups
+such as the restriction and inflation maps. All algorithms will be
+accompanied by actual computations of concrete examples.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

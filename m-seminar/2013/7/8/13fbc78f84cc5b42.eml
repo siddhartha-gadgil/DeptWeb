@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.41.180 with SMTP id g20csp219877qel;
+        Sun, 7 Jul 2013 21:10:12 -0700 (PDT)
+X-Received: by 10.68.232.225 with SMTP id tr1mr19155813pbc.143.1373256612192;
+        Sun, 07 Jul 2013 21:10:12 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id yw2si11992903pab.205.2013.07.07.21.10.10
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 07 Jul 2013 21:10:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r684A433006487;
+	Mon, 8 Jul 2013 09:40:04 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r6849xc2032381
+	for <m_seminar@math.iisc.ernet.in>; Mon, 8 Jul 2013 09:39:59 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r6849xF9032378
+	for <m_seminar@math.iisc.ernet.in>; Mon, 8 Jul 2013 09:39:59 +0530
+Date: Mon, 8 Jul 2013 09:39:59 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: Induction, equality, spaces, types, A_infinity:
+ An introduction to HoTT
+Message-ID: <Pine.LNX.4.64.1307080937230.32315@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046162175-978959322-1373004125=:20581"
+Content-ID: <Pine.LNX.4.64.1307080937231.32315@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r684A433006487
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-978959322-1373004125=:20581
+Content-Type: TEXT/PLAIN; CHARSET=ISO-8859-1; FORMAT=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <Pine.LNX.4.64.1307080937232.32315@math.iisc.ernet.in>
+
+
+ 			 Department of Mathematics
+ 		  Indian Institute of Science, Bangalore
+
+
+ 		   GEOMETRY/TOPOLOGY INFORMAL SEMINAR
+
+
+Speaker	: Prof. Siddhartha Gadgil
+ 	  IISc
+
+Title	: Induction, equality, spaces, types, A_infinity: An
+ 	  introduction to HoTT
+
+Date	: July 8, 2013
+
+Time	: 3:00 - 4:00 p.m.
+
+Venue	: Lecture Hall III, Department of Mathematics
+
+
+Abstract:
+Homotopy Type Theory (HoTT), developed recently in a large
+collaboration centered at IAS, Princeton, combines elements
+from type theory, logic and topology to give alternative foundations
+of mathematics which are much closer to mathematical practice (useful
+for Automated Reasoning). HoTT also gives new insights into topology.
+
+This lecture will introduce HoTT, especially focused on the interplay
+between induction principles and the equality type and concepts from
+topology such as $A_\infty$-structures. 
+
+Prerequisite: Some basic topology: definitions and basic properties
+of homotopy and fundamental groups.
+
+
+ 			ALL ARE CORDIALLY INVITED
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-978959322-1373004125=:20581--

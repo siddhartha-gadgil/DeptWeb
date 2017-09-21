@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp578096obd;
+        Sun, 8 Jan 2017 21:47:36 -0800 (PST)
+X-Received: by 10.98.63.15 with SMTP id m15mr2010819pfa.71.1483940856711;
+        Sun, 08 Jan 2017 21:47:36 -0800 (PST)
+Return-Path: <veluma@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id d9si87578460pgg.146.2017.01.08.21.47.36;
+        Sun, 08 Jan 2017 21:47:36 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=veluma@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 29BCBAE5386;
+	Mon,  9 Jan 2017 11:17:30 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v096KraP016793
+	for <m_seminar@math.iisc.ernet.in>; Mon, 9 Jan 2017 11:50:53 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v096Krlb016792;
+	Mon, 9 Jan 2017 11:50:53 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to veluma@localhost using -f
+Received: from 10.16.40.111 (proxying for 10.134.10.23)
+        (SquirrelMail authenticated user veluma)
+        by math.iisc.ac.in with HTTP;
+        Mon, 9 Jan 2017 06:20:53 -0000
+Message-ID: <64721a9af1a9c348d7ca73ade42b1a60.squirrel@math.iisc.ac.in>
+Date: Mon, 9 Jan 2017 06:20:53 -0000
+Subject: [Fwd: [Math Dept Seminar Jan 9 (E Palsson)]]
+From: veluma@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 29BCBAE5386.A7986
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.799, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FWD_MSG -1.00, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50, URIBL_BLOCKED 0.00,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: veluma@math.iisc.ernet.in
+MailScanner-NULL-Check: 1484545651.43292@p5Cr8IFseZCgBk+E1D1sIg
+X-Spam-Status: No
+
+---------------------------- Original Message ----------------------------
+Subject: [Math Dept Seminar Jan 9 (E Palsson)]
+From:    mathseminars@math.iisc.ernet.in
+Date:    Tue, January 3, 2017 5:48 am
+To:      m_seminar@math.iisc.ernet.in
+--------------------------------------------------------------------------
+
+
+
+Speaker: E Palsson (Virginia Tech, USA)
+
+Date: Jan 9, 2017
+
+Time : 4 pm
+
+Location : LH-1
+
+
+Title: Finite point configurations
+
+Abstract:
+As big data sets have become more common, there has been significant
+interest in finding and understanding patterns in them. One example of a
+simple pattern is the distance between data points, which can be thought of
+as a 2-point configuration. Two classic questions, the Erdos distinct
+distance problem, which asks about the least number of distinct distances
+determined by N points in the plane, and its continuous analog, the
+Falconer distance problem, explore that simple pattern. Questions similar
+to the Erdos distinct distance problem and the Falconer distance problem
+can also be posed for more complicated patterns such as triangles, which
+can be viewed as 3-point configurations. In this talk I will present recent
+Falconer type theorems, established by myself and my collaborators, for a
+wide class of finite point configurations in any dimension. The techniques
+we used come from analysis and geometric measure theory, and the key step
+was to obtain bounds on multilinear analogues of generalized Radon
+transforms.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,90 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.101.8 with SMTP id fc8csp137902lbb;
+        Mon, 26 May 2014 21:38:34 -0700 (PDT)
+X-Received: by 10.66.163.38 with SMTP id yf6mr2073502pab.46.1401165513622;
+        Mon, 26 May 2014 21:38:33 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id hx2si16987051pbb.205.2014.05.26.21.38.32
+        for <multiple recipients>;
+        Mon, 26 May 2014 21:38:33 -0700 (PDT)
+Received-SPF: none (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s4R4cUZQ032712;
+	Tue, 27 May 2014 10:08:30 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s4R4drkU004265
+	for <m_seminar@math.iisc.ernet.in>; Tue, 27 May 2014 10:09:53 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id s4R4dqJq004262
+	for <m_seminar@math.iisc.ernet.in>; Tue, 27 May 2014 10:09:52 +0530
+Date: Tue, 27 May 2014 10:09:52 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: June 2nd, 2014: A dynamic model of capital inflow
+ and financial crisis in a two country and multi-country framework over
+ infinite time horizon
+Message-ID: <alpine.LFD.2.03.1405271009370.4050@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-1410336716-1401165520=:4050"
+Content-ID: <alpine.LFD.2.03.1405271008440.4050@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s4R4cUZQ032712
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1410336716-1401165520=:4050
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; FORMAT=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1405271008441.4050@math.iisc.ernet.in>
+
+                          Department of Mathematics
+                   Indian Institute of Science, Bangalore
+
+
+                                   SEMINAR
+
+
+Speaker: Gopal Basak (ISI, Kolkata)
+
+Title: A dynamic model of capital inflow and financial crisis in
+a two country and multi-country framework over infinite time horizon
+
+Date: 2nd June, 2014 (Monday)
+
+Time: 2:00-3:00 PM
+
+Venue: LH-I, department of mathematics
+
+Abstract: We construct a model of capital inflow in a two and multi-country 
+framework. A capital-scarce country, typically a developing country with a high 
+return on capital borrows from a capital-rich country, typically a developed 
+country to finance domestic investment. In the process both the countries gain, 
+raising the world welfare. We formulate the problem in terms of utility 
+maximization with respect to both develop and developing countries' perspective 
+over infinite time horizon and numerically solve for optimal interest rate, 
+borrowing/lending amount, exchange rate using dynamic programming principle.
+
+
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1410336716-1401165520=:4050--

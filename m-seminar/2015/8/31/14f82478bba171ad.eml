@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.13.210.4 with SMTP id u4csp1114576ywd;
+        Sun, 30 Aug 2015 22:42:51 -0700 (PDT)
+X-Received: by 10.69.1.7 with SMTP id bc7mr34960143pbd.154.1440999770786;
+        Sun, 30 Aug 2015 22:42:50 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id s2si18823626pde.244.2015.08.30.22.42.49;
+        Sun, 30 Aug 2015 22:42:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t7V5ggvD000844;
+	Mon, 31 Aug 2015 11:12:42 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t7V5qskd011372
+	for <m_seminar@math.iisc.ernet.in>; Mon, 31 Aug 2015 11:22:54 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t7V5qskd011371;
+	Mon, 31 Aug 2015 11:22:54 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 31 Aug 2015 05:52:54 -0000
+Message-ID: <77532edbd5134bb314e51ea9741262c6.squirrel@math.iisc.ernet.in>
+Date: Mon, 31 Aug 2015 05:52:54 -0000
+Subject: [Reminder: Math Dept Seminar Aug 31 (Dheeraj Kulkarni)]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t7V5ggvD000844
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Speaker: Dheeraj Kulkarni, RKMVU, Kolkata
+
+Date: Monday, August 31, 2015
+
+Time: 3:30 p.m
+
+Venue: L-1, Department of Mathematics, IISc
+
+Title: Contact Structures and Contact Invariants in Heegaard Floer Homology.
+
+Abstract: There is a dichotomy of contact structures-- tight vs
+overtwisted. Classification of overtwisted contact structures up to
+isotopy, due to Eliashberg, is well understood. However, there have been
+few results towards classification of tight contact structures. In
+general, given a contact structure it is difficult to know whether it is
+tight or not.
+
+In this talk, we focus on the role of certain element, called as contact
+invariant, of Heegaard Floer homology groups associated with a given
+contact structure in understanding tightness. We discuss success and
+limitations of contact invariant in detecting tightness of contact
+structures. In this direction, I will also present a recent result from
+joint work with James Conway and Amey Kaloti.
+
+In the first half of the talk, we will start from basics. Next, we will
+survey important results from Contact Topology and Heegaard Floer Homology
+relevant for the purpose of this talk. So, the first half will be
+accessible to wide audience.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

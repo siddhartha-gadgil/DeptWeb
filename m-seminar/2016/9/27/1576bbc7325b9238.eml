@@ -1,0 +1,97 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp2119953ieb;
+        Tue, 27 Sep 2016 06:01:34 -0700 (PDT)
+X-Received: by 10.13.214.197 with SMTP id y188mr19962302ywd.244.1474981294940;
+        Tue, 27 Sep 2016 06:01:34 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id a186si685999ywe.350.2016.09.27.06.01.29;
+        Tue, 27 Sep 2016 06:01:34 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 2770BAE3805;
+	Tue, 27 Sep 2016 18:32:58 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u8RD4Moh027981
+	for <m_seminar@math.iisc.ernet.in>; Tue, 27 Sep 2016 18:34:22 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u8RD4MD4027978
+	for <m_seminar@math.iisc.ernet.in>; Tue, 27 Sep 2016 18:34:22 +0530
+Date: Tue, 27 Sep 2016 18:34:22 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: SAMOSe announcement (fwd)
+Message-ID: <alpine.LFD.2.03.1609271831490.22148@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 2770BAE3805.AAAB7
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, RP_MATCHES_RCVD -3.00, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1475586179.68519@3M/w1KgfQ4WpfpobpPxObw
+X-Spam-Status: No
+
+Previous time, many people came to ask me where the talk is and how to get 
+there: It is at NCBS, there are regular shuttles from and to IISc
+   https://www.ncbs.res.in/shuttle_trips
+
+Manjunath.
+
+  ---------- Forwarded message ---------- Date: Tue, 27 Sep 2016 17:19:57 +0530
+From: David Farris <pseudoholomorphic@gmail.com>
+To: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+Subject: SAMOSe announcement
+
+May I trouble you to again send around the announcement?
+
+Dear all,
+
+[Note for those coming from outside NCBS: there is a 3:15 shuttle
+departing from the parking lot in front of the IISc library that
+reaches just before the talk.  There are return shuttles at 6 and 630
+(and later)]
+
+The second talk in the Simons Assorted Mathematics Open SEminar will be
+this Friday, 30 September, at 4pm (tea 3:45) in the Simons Center ground
+floor.
+
+Arvind Ayyer, Assistant Professor of Mathematics at the Indian Institute
+of Science, will deliver the following talk:
+
+An exactly solvable stochastic model of motor transport
+
+Abstract:
+Various kinds of one-dimensional transport processes occur in the cell.
+One such class involves the transport of molecular cargo to and from the
+cell wall to the interior on filaments. Prominent examples include dynein
+and kinesin on microtubules and myosin on actin. We will consider a toy
+model that might prove useful in studying cellular transport.
+
+After a quick review of finite Markov processes, we will describe a
+one-dimensional lattice model of particle transport with reservoirs on
+both ends called the TASEP (totally asymmetric simple exclusion process).
+In the mid 90s, this model was solved exactly by Derrida et. al. using a
+novel technique known as the matrix ansatz. Using this approach, the phase
+diagram can be computed exactly.
+
+Time permitting, we will define a generalised model with two species of
+particles, which we will also solve using the matrix ansatz and calculate
+its phase diagram. This part is joint work with J. Lebowitz and E. R.
+Speer.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

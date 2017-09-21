@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.28.66 with SMTP id z2csp830668obg;
+        Sun, 10 Apr 2016 08:39:03 -0700 (PDT)
+X-Received: by 10.98.17.151 with SMTP id 23mr26302000pfr.37.1460302743161;
+        Sun, 10 Apr 2016 08:39:03 -0700 (PDT)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with SMTP id x8si13578725pfa.188.2016.04.10.08.38.49;
+        Sun, 10 Apr 2016 08:39:03 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of harish@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of harish@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 69FD7AE18D5;
+	Sun, 10 Apr 2016 21:08:45 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u3AFio4B027412
+	for <m_seminar@math.iisc.ernet.in>; Sun, 10 Apr 2016 21:14:50 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u3AFiovP027411;
+	Sun, 10 Apr 2016 21:14:50 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to harish@localhost using -f
+Received: from 10.16.40.13 (proxying for 117.192.108.246)
+        (SquirrelMail authenticated user harish)
+        by math.iisc.ernet.in with HTTP;
+        Sun, 10 Apr 2016 15:44:50 -0000
+Message-ID: <151d96b3f2953e24f73281f025a1645f.squirrel@math.iisc.ernet.in>
+Date: Sun, 10 Apr 2016 15:44:50 -0000
+Subject: Lecture by Herve Gaussier on 13th April
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 69FD7AE18D5.A7115
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.596, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -1.00, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+MailScanner-NULL-Check: 1460907526.76365@5OeK8SXuIJazVIDSIu7v2g
+X-Spam-Status: No
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+
+
+Title: Boundary behaviour of the Kobayashi distance and horosphere
+boundary in complete hyperbolic manifolds.
+
+Speaker: Herve Gaussier
+         Fourier Institute, Grenoble
+
+
+Date and Time: 13th April, 3.30-4.30 PM
+
+Vnue: LH 3, Math Dept, IISc
+
+Abstract. In this joint work with Filippo Bracci, we define the horospher=
+e
+boundary for complete hyperbolic manifolds, we present sharp estimates fo=
+r
+the Kobayashi distance implying that the horosphere boundary of a strongl=
+y
+pseudoconvex domain is homeomorphic to its euclidean boundary and we
+present some application of the construction of the horosphere boundary.
+
+
+Harish Seshadri
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

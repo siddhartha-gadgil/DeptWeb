@@ -1,0 +1,128 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.194.28.100 with SMTP id a4csp155461wjh;
+        Tue, 10 Dec 2013 00:34:50 -0800 (PST)
+X-Received: by 10.68.143.231 with SMTP id sh7mr1498513pbb.7.1386664489473;
+        Tue, 10 Dec 2013 00:34:49 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id qz9si9797396pab.75.2013.12.10.00.34.46
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 10 Dec 2013 00:34:47 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id rBA8WHTW008164;
+	Tue, 10 Dec 2013 14:02:17 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rBA8RWZB027770
+	for <m_seminar@math.iisc.ernet.in>; Tue, 10 Dec 2013 13:57:32 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rBA8RWHJ027769;
+	Tue, 10 Dec 2013 13:57:32 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.34
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 10 Dec 2013 13:57:32 +0530 (IST)
+Message-ID: <0a53008a641adf7029377690ab9ee210.squirrel@math.iisc.ernet.in>
+Date: Tue, 10 Dec 2013 13:57:32 +0530 (IST)
+Subject: Reminder! [Thesis Colloquium] Math: 11th Dec 2013: "On the 
+     structure of proper holomorphic mappings"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                          Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                             THESIS COLLOQUIUM
+
+
+Speaker : Mr. Jaikrishnan Janardhanan (IISc)
+
+Title   : On the structure of proper holomorphic mappings
+
+Date    : 11th Dec, 2013 (Wednesday)
+
+Time    : 11.00 a.m. - 12.00 noon
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+
+Abstract:
+The aim of this thesis is to give explicit descriptions of the set
+of proper holomorphic mappings between two complex manifolds
+with reasonable restrictions on the domain and target spaces.
+Without any restrictions, this problem is intractable even when
+posed for domains in C^n. We present results for special classes
+of manifolds. We study, broadly, two types of structure
+results:
+
+I. Descriptive:
+Our first result is a structure theorem for finite proper
+holomorphic mappings between products of connected, hyperbolic
+open subsets of compact Riemann surfaces. A special case of our
+result follows from the techniques used in a classical result
+of Remmert and Stein adapted to the above setting. However,
+the presence of factors that have no boundary, or boundaries
+that consist of a discrete set of points, necessitates the use
+of alternative techniques. Specifically: we make use of a
+finiteness theorem of Imayoshi.
+
+II. Rigidity:
+A famous theorem of H. Alexander proves the non-existence of
+non-injective proper holomorphic self-maps of the unit ball
+in C^n, n > 1. Several extensions of this result for various
+classes of domains have been established since the appearance
+of Alexander's result. Our first rigidity result establishes
+the non-existence of non-injective proper holomorphic self-maps
+of bounded, balanced pseudoconvex domains of finite type (in
+the sense of D'Angelo) in C^n, n > 1. This generalizes a result
+in C^2 due to Coupet, Pan and Sukhov to higher dimensions. In
+higher dimensions, several aspects of their argument do not work.
+Instead, we exploit the circular symmetry and a recent result in
+complex dynamics by Opshtein.
+
+Our next rigidity result is for bounded symmetric domains. We
+prove that a proper holomorphic map between two non-planar
+bounded symmetric domains of the same dimension, one of them
+being irreducible, is a biholomorphism. Our methods allow us
+to give a single, all-encompassing argument that unifies the
+various special cases in which this result is known. Furthermore,
+our proof of this result does not rely on the fine structure (in
+the sense of Wolf et al.) of bounded symmetric domains. Thus, we
+are able to apply some of our techniques to more general classes
+of domains. We illustrate this through a rigidity result for
+certain convex balanced domains whose automorphism groups are
+only assumed to be non-compact. For the bounded symmetric
+domains, our key tool is that of Jordan triple systems.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

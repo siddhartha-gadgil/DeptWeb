@@ -1,0 +1,114 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.30.225 with SMTP id v1csp14821qeh;
+        Tue, 5 Mar 2013 04:38:14 -0800 (PST)
+X-Received: by 10.68.129.73 with SMTP id nu9mr36751475pbb.57.1362487094081;
+        Tue, 05 Mar 2013 04:38:14 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id tv4si26954301pbc.155.2013.03.05.04.38.11
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 05 Mar 2013 04:38:12 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r25Cc0qw010661;
+	Tue, 5 Mar 2013 18:08:00 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r25CbtX6009287
+	for <m_seminar@math.iisc.ernet.in>; Tue, 5 Mar 2013 18:07:55 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r25CbtFO009283;
+	Tue, 5 Mar 2013 18:07:55 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 5 Mar 2013 18:07:55 +0530 (IST)
+Message-ID: <346ac04abc241b76fe55c7dafbe7986c.squirrel@math.iisc.ernet.in>
+Date: Tue, 5 Mar 2013 18:07:55 +0530 (IST)
+Subject: [Mini Course] MATH: 8th March,
+      2013: "An exposition of selected tools from additive combinatorics"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear all,
+
+
+
+    IMI COMPACT COURSE CONSISTING OF SIX LECTURES
+-------------------------------------------------------------
+
+Speaker: Mokshay Madiman (Yale university)
+
+Title: An exposition of selected tools from additive combinatorics
+
+Venue: LH-1, Department of mathematics.
+
+Date: March 8, 13, 15, 20, 22, 27 [Wed, Fri]
+
+Time: 2:00-3:30 PM
+
+Abstract: Tools from additive combinatorics are finding their way into
+numerous areas of mathematics and applied mathematics, and in
+particular have been central to recent developments in both random
+matrix theory and harmonic analysis. The goal of this short course is
+to understand some of these tools. (If time permits and the audience
+is willing to pitch in with some talks, we may also cover selected
+applications.)
+
+Specifically, we will focus on at least two out of the following three
+tools that have now become central in additive combinatorics: the
+Balog-Szemeredi-Gowers theorem, the Croot-Sisask theorem, and Freiman's
+theorem. A variety of subsidiary tools will be used to obtain these
+results--including ideas from probability, combinatorics, and harmonic
+analysis.
+
+Just to give some vague motivation, here is a brief description of
+Freiman's theorem in the setting of the additive group of the
+integers. The Cauchy-Davenport theorem asserts that the sum of two
+subsets of the integers (where by sum of A and B, we mean all sums of
+form a+b, with a, b elements of A and B respectively) is minimized
+given the cardinality of the two subsets when both are arithmetic
+progressions. Freiman's theorem describes in what sense a converse of
+this result is true-- that is, if we know the size of the "sumset" is
+not too large, can we deduce some kind of additive structure for the
+underlying sets? It is remarkable because relatively "soft"
+information on the cardinalities of the sets involved is used to
+deduce "hard" information on the structure of the sets, and
+consequently is useful in a number of contexts.
+
+No specialized knowledge will be assumed for these lectures beyond what a
+well-rounded mathematics graduate student might be expected to know.
+In cases where we might go beyond this, an attempt will be made to
+provide a telegraphic summary of necessary material.
+
+          All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

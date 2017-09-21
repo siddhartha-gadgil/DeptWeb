@@ -1,0 +1,78 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp1178730obd;
+        Sun, 18 Dec 2016 20:59:11 -0800 (PST)
+X-Received: by 10.99.208.21 with SMTP id z21mr25607404pgf.79.1482123551648;
+        Sun, 18 Dec 2016 20:59:11 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id z1si17006652pfi.275.2016.12.18.20.59.10;
+        Sun, 18 Dec 2016 20:59:11 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id F3E8BAE4FDB;
+	Mon, 19 Dec 2016 10:29:02 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id uBJ5WkHa001977
+	for <m_seminar@math.iisc.ernet.in>; Mon, 19 Dec 2016 11:02:46 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id uBJ5Wkhk001976;
+	Mon, 19 Dec 2016 11:02:46 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.111 (proxying for 10.134.12.127)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Mon, 19 Dec 2016 05:32:46 -0000
+Message-ID: <40494edd9ea981c53de07bfdac395b62.squirrel@math.iisc.ac.in>
+Date: Mon, 19 Dec 2016 05:32:46 -0000
+Subject: Math Dept Seminar today Dec 19 (Tathagata Banerjee)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: F3E8BAE4FDB.A9184
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-6.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -3.10,
+	SUBJECT_MONTH -1.50, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1482728347.49885@rZ0/eE7fw3t+n61jdL6aiA
+X-Spam-Status: No
+
+Speaker: Tathagata Banerjee
+
+Date: Dec 19, 2016
+
+Time : 3pm
+
+Location : LH-1
+
+Title : Coarse Geometry for Noncommutative Spaces
+
+Abstract: Abstract:
+Given a proper coarse structure on a locally compact Hausdorff space $X$,
+one can construct the Higson compactification for the coarse structure. In
+the opposite direction given a compactification of $X$, one can construct
+a coarse structure. We use unitizations of a non-unital C$^*$\nobreakdash-
+algebra $A$ to define a noncommutative coarse structure on $A$. We also
+set up a framework to abstract coarse maps to this noncommutative setting.
+The original motivation for this work comes from Physics where quantum
+phenomenon when probed at large scales give classical results. We show
+equivalence of the canonical coarse structure on the classical plane
+$\mathbb{R}^{2n}$ with a certain noncommutative coarse structure on the
+Moyal plane which models the hypothetical phase space of Quantum physics.
+If time permits we shall also discuss other examples of noncommutative
+coarse equivalences. This is a joint work with Prof. Ralf Meyer.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

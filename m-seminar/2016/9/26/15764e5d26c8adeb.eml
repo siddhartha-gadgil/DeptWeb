@@ -1,0 +1,77 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp1488061ieb;
+        Sun, 25 Sep 2016 22:09:26 -0700 (PDT)
+X-Received: by 10.98.6.5 with SMTP id 5mr35074915pfg.88.1474866566032;
+        Sun, 25 Sep 2016 22:09:26 -0700 (PDT)
+Return-Path: <veluma@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id er9si23219862pac.198.2016.09.25.22.09.21;
+        Sun, 25 Sep 2016 22:09:26 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=veluma@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 878FCAE54F7;
+	Mon, 26 Sep 2016 10:37:56 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u8Q5Ai4L017424
+	for <m_seminar@math.iisc.ernet.in>; Mon, 26 Sep 2016 10:40:44 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u8Q5AiDD017423;
+	Mon, 26 Sep 2016 10:40:44 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to veluma@localhost using -f
+Received: from 10.16.40.112 (proxying for 10.134.10.23)
+        (SquirrelMail authenticated user veluma)
+        by math.iisc.ac.in with HTTP;
+        Mon, 26 Sep 2016 05:10:44 -0000
+Message-ID: <6eb765f39a56c7a9084a65e9f09a77a9.squirrel@math.iisc.ac.in>
+Date: Mon, 26 Sep 2016 05:10:44 -0000
+Subject: 
+From: veluma@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 878FCAE54F7.AE169
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.3,
+	required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: veluma@math.iisc.ernet.in
+MailScanner-NULL-Check: 1475471337.1055@3HBnL7jPIAsy+1y9Vs0DbQ
+X-Spam-Status: No
+
+
+Analysis Seminar Announcement.
+
+
+Date : Sept 27
+
+Time : 4pm
+
+Location : LH-1
+
+Speaker:  Dr  Aprameyan Parthasarathy( Universitat Padernorn, Germany)
+
+
+Title: Domains of holomorphy for irreducible admissible Banach
+representations
+
+Abstract: In this talk, we'll report on progress towards a conjecture of
+B.Krötz about the holomorphic extensions of  non-zero K-finite vectors of
+irreducible admissible Banach representations of simple real Lie groups and
+the relation to a distinguished domain - the so-called crown domain. We'll
+explain some of the main ideas - the Casselman-Wallach smooth
+globalisation, vanishing of matrix coefficients at infinity etc. Indeed we
+prove the conjecture with some additional growth conditions on the Banach
+globalisations. This is joint work with Gang Liu, Uni. Metz.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,96 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.146.226 with SMTP id tf2csp90755lbb;
+        Sun, 19 Jan 2014 19:48:20 -0800 (PST)
+X-Received: by 10.66.230.233 with SMTP id tb9mr16223315pac.38.1390189699686;
+        Sun, 19 Jan 2014 19:48:19 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id g5si18315590pav.172.2014.01.19.19.48.17
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 19 Jan 2014 19:48:19 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s0K3kGU2009873;
+	Mon, 20 Jan 2014 09:16:16 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s0K3ktGH012440
+	for <m_seminar@math.iisc.ernet.in>; Mon, 20 Jan 2014 09:16:55 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s0K3kt37012433;
+	Mon, 20 Jan 2014 09:16:55 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 20 Jan 2014 03:46:55 -0000
+Message-ID: <175d2a868f98dd8a577265655921c2b3.squirrel@math.iisc.ernet.in>
+Date: Mon, 20 Jan 2014 03:46:55 -0000
+Subject: Reminder [Seminar] Math: Jan 20th, 2014: Constructions of Boolean
+ Functions that are Significant in Cryptography and Coding Theory
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof Sumanta Sarkar
+          ISI Kolkata
+
+Title   : Constructions of Boolean Functions that are Significant in
+Cryptography and Coding Theory
+
+Date    : 20th Jan, 2014 (Monday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: A Boolean function is a mapping from the set of all binary
+n-tuples to the set {0, 1}. Boolean functions are important building
+blocks in designing secure cryptosystems known as stream ciphers. Boolean
+functions also form an important class of linear codes, known as the
+Reed-Muller codes. Over the last few decades, a lot of research has been
+done on Boolean function for its applications in cryptography and coding
+theory.
+
+In this talk, I will demonstrate my contributions in the literature of
+Boolean functions which are significant in cryptography and coding theory.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

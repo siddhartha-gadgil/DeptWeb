@@ -1,0 +1,113 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.140.202.11 with SMTP id z11cs143863rvf;
+        Thu, 31 Jul 2008 04:14:39 -0700 (PDT)
+Received: by 10.114.56.1 with SMTP id e1mr9946824waa.69.1217502878903;
+        Thu, 31 Jul 2008 04:14:38 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id j38si4751856waf.56.2008.07.31.04.14.23;
+        Thu, 31 Jul 2008 04:14:38 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m6VBIdB4022769;
+	Thu, 31 Jul 2008 16:48:39 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m6VGGm1G012019;
+	Thu, 31 Jul 2008 16:16:48 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m6VGGmUY012018;
+	Thu, 31 Jul 2008 16:16:48 GMT
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@math.iisc.ernet.in using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 31 Jul 2008 16:16:48 -0000 (UTC)
+Message-ID: <1087.10.134.10.30.1217521008.squirrel@math.iisc.ernet.in>
+Date: Thu, 31 Jul 2008 16:16:48 -0000 (UTC)
+Subject: Maths : August  4,
+           2008: Seminar :  "Preferential Attachment Random graphs with 
+     general weight function and general input sequence."
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. K. B. Athreya
+                           Iowa State University
+
+    Title                : Preferential Attachment Random graphs with
+general weight function and general input sequence.
+
+
+    Day & Date           : Monday, August 4, 2008
+
+    Time                 : 4.00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+Abstract:
+         Consider a network of sites growing over time such that at step n
+a newcomer chooses a vertex from the existing vertices with
+probability proportional to a function of the degree of that
+vertex, i.e., the number of other vertices that this vertex is
+connected to. This is called a preferential attachment random
+graph. The objects of interest are the growth rates for the
+growth of the degree for each vertex with n and the behavior of
+the empirical distribution of the degrees. In this talk we will
+consider three cases: the weight function w(.) is superlinear,
+linear, and sublinear. Using recently obtained limit theorems for
+the growth rates of a pure birth continuous time Markov chains
+and an embedding of the discrete time graph sequence in a
+sequence of continuous time pure birth Markov chains, we
+establish a number of results for all the three cases. We show
+that the much discussed power law growth of the degrees and the
+power law decay of the limiting degree distribution hold only in
+the linear case, i.e., when w(.) is linear.We also discuss the
+case of arbitrary input sequence.
+
+                    All  interested  are  Welcome
+
+                                                   CHAIRMAN
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

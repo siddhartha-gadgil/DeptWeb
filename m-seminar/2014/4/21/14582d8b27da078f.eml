@@ -1,0 +1,107 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp158038lbb;
+        Sun, 20 Apr 2014 22:53:31 -0700 (PDT)
+X-Received: by 10.66.249.233 with SMTP id yx9mr36013365pac.3.1398059611108;
+        Sun, 20 Apr 2014 22:53:31 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id pg5si20200777pab.153.2014.04.20.22.53.29
+        for <multiple recipients>;
+        Sun, 20 Apr 2014 22:53:30 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s3L5rQ3P014088;
+	Mon, 21 Apr 2014 11:23:26 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s3L5tQwx004617
+	for <m_seminar@math.iisc.ernet.in>; Mon, 21 Apr 2014 11:25:26 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s3L5tPES004610;
+	Mon, 21 Apr 2014 11:25:25 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 21 Apr 2014 05:55:25 -0000
+Message-ID: <df45f2c7ddba16c1c2e24ce648974cda.squirrel@math.iisc.ernet.in>
+Date: Mon, 21 Apr 2014 05:55:25 -0000
+Subject: [Eigen-Function IV] : April 25th,  2014
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s3L5rQ3P014088
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+The fourth session of our Eigen-Function meetings will be on April 25. 
+The schedule is below.
+
+2:00-3:00pm:    M. Vanninathan, TIFR-CAM
+3:00-3:30pm:    High Tea
+3:30-4:30pm:    Harish Seshadri, IISc
+
+The titles and abstracts follow.
+
+
+Speaker : M. Vanninathan,
+          TIFR-CAM
+
+Title   : Optimal Design Problems
+
+Date    : 25th April, 2014 (Friday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Motivated by applications,we introduce a class of optimization problems
+with constraints.Difficulties in solving these problems are
+highlighted.Mathematical developments to overcome these difficulties are
+discussed.
+
+and
+
+Speaker : Harish Seshadri
+          IISc
+
+Title   : Gromov hyperbolicity and the Kobayashi metric
+
+Date    : 25th April, 2014 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+I will discuss the negative curvature properties of certain
+intrinsic metrics in complex analysis. The talk will be accessible to
+graduate students.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

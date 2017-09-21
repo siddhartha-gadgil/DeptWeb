@@ -1,0 +1,94 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.205.47.72 with SMTP id ur8csp88787bkb;
+        Sun, 27 May 2012 21:44:29 -0700 (PDT)
+Received: by 10.68.218.103 with SMTP id pf7mr17986259pbc.67.1338180269084;
+        Sun, 27 May 2012 21:44:29 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTPS id oy7si15066618pbc.105.2012.05.27.21.44.27
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 27 May 2012 21:44:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q4S4iFtq031264;
+	Mon, 28 May 2012 10:14:15 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q4S4iCYt006566
+	for <m_seminar@math.iisc.ernet.in>; Mon, 28 May 2012 10:14:12 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q4S4iCjV006563
+	for <m_seminar@math.iisc.ernet.in>; Mon, 28 May 2012 10:14:12 +0530
+Date: Mon, 28 May 2012 10:14:12 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] Math: 31st May, 2012: "Matchings between point
+ processes"
+Message-ID: <Pine.LNX.4.64.1205281013070.28532@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q4S4iFtq031264
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		            Department of Mathematics
+ 		      Indian Institute of Science, Bangalore
+
+
+ 			    M.S. THESIS COLLOQUIUM
+
+
+Speaker	: Mr. Indrajit Jana
+
+Title	: Matchings between point processes
+
+Date	: May 31, 2012
+
+Time	: 11:00 a.m. - 12:00 noon
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+We study several kinds of matching problems between two point processes.
+First we consider the set of integers $\mathbb{Z}$. We assign a color red
+or blue with probability 1/2 to each integer. We match each red integer to
+a blue integer using some algorithm and analyze the matched edge length of
+the integer zero. Next we go to $\mathbb{R}^{d}$. We consider matching
+between two different point processes and analyze a typical matched edge
+length $X$. There we see that the results vary significantly in different
+dimensions. In dimensions one and two (d=1,2), even $E[X^{d/2}]$ does not
+exist. On the other hand in dimensions more than two (d>2),
+$E[\exp(cX^{d})]$ exist, where $c$ is a constant depends on $d$ only.
+
+Next we discuss about matching problems in a finite setting, namely in a
+unit square.  Take $n$ red points and $n$ blue points chosen independently
+and uniformly in a unit square. There are $n!$ many possible matchings
+between these red and blue points. We investigate the optimal average
+matched edge length and the minimum of the maximum matched edge lengths,
+where the minimum is over all possible $n!$ matchings. There we see that
+the optimal average matched edge length is like $\sqrt{\frac{\log n}{n}}$
+and the min-max matched edge length is like
+$\frac{(\log n)^{3/4}}{\sqrt{n}}$.
+
+
+ 		    ALL ARE CORDIALLY INVITED.
+
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+  					     Chairman,
+ 					     Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

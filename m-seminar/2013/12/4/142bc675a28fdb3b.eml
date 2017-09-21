@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.194.28.100 with SMTP id a4csp283825wjh;
+        Tue, 3 Dec 2013 22:59:23 -0800 (PST)
+X-Received: by 10.68.232.37 with SMTP id tl5mr43882145pbc.86.1386140362397;
+        Tue, 03 Dec 2013 22:59:22 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id yf4si1653321pbc.341.2013.12.03.22.59.17
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 03 Dec 2013 22:59:19 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id rB46vBdd014926;
+	Wed, 4 Dec 2013 12:27:11 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rB46qOUd010831
+	for <m_seminar@math.iisc.ernet.in>; Wed, 4 Dec 2013 12:22:24 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rB46qOj3010830;
+	Wed, 4 Dec 2013 12:22:24 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 4 Dec 2013 12:22:24 +0530 (IST)
+Message-ID: <e71512f1f51c7e02175e36ba590be89b.squirrel@math.iisc.ernet.in>
+Date: Wed, 4 Dec 2013 12:22:24 +0530 (IST)
+Subject: Reminder! [Lecture series] Math:Today :"New directions in complex 
+     analysis on symmetric domain"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.299, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, J_CHICKENPOX_45 0.60)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+
+Please see the abstract for Professor Harald Upmeier's lecture series.
+
+
+Speaker:          Professor Harald Upmeier
+                          University of Marburg, Germany
+
+Title:             New directions in complex analysis on symmetric domain
+
+Date & time:      Dec 4, Dec 6, and Dec 9 at 3.30pm, Dec 11 at 2.00pm
+
+Venue:            LH-I, department of Mathematics.
+
+Abstract:
+The Lectures will focus on topics that go beyond the classical framework
+of   Hilbert spaces of holomorphic functions (Bergman spaces, Hardy
+spaces) on the unit ball or more general bounded symmetric domains. The
+main point is to include vector-valued functions and even cohomology
+classes for non-convex domains. The plan of the lectures is as follows:
+
+1. Irreducible Hilbert spaces of vector-valued holomorphic maps on
+symmetric domains, realization of holomorphic discrete series
+2. Reducible Hilbert spaces of vector-valued holomorphic maps on symmetric
+domains, intertwining operators
+3. Cohomology classes and Radon transform on non-convex cones and tube
+domains
+4. Cohomology classes on flag domains and decomposition of the Shilov
+boundary
+
+Concepts from Jordan algebras will be used to present these topics in a
+uniform geometric way.
+
+All are cordially invited.
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

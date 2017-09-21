@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp286733lbb;
+        Wed, 30 Apr 2014 22:19:57 -0700 (PDT)
+X-Received: by 10.66.148.230 with SMTP id tv6mr16649824pab.155.1398921596611;
+        Wed, 30 Apr 2014 22:19:56 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id yd10si19417970pab.2.2014.04.30.22.19.34
+        for <multiple recipients>;
+        Wed, 30 Apr 2014 22:19:55 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s415JVDA027706;
+	Thu, 1 May 2014 10:49:31 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s415LLE9007156
+	for <m_seminar@math.iisc.ernet.in>; Thu, 1 May 2014 10:51:21 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s415LLfv007155;
+	Thu, 1 May 2014 10:51:21 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.12 (proxying for 117.192.93.122)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 1 May 2014 05:21:21 -0000
+Message-ID: <8b6763d75f5201d30ea503d52057d25a.squirrel@math.iisc.ernet.in>
+Date: Thu, 1 May 2014 05:21:21 -0000
+Subject: Reminder: [Seminar] MATH : Today  : "Cryptanalysis of RSA Variants
+ and Implicit Factorization"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.599, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Santanu Sarkar
+          CMI
+
+Title   : Cryptanalysis of RSA Variants and Implicit Factorization
+
+Date    : 1st May, 2014 (Thursday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+The famous RSA public key cryptosystem is possibly the most studied topic
+in cryptology research. For efficiency and security purposes, some
+variants
+of the basic RSA has been proposed. In this talk, we will first discuss two
+such RSA variants: Prime Power RSA and Common Prime RSA.
+
+We also present new bounds on the parameter choices where these RSA
+variants are not secure.
+
+Then we study the Implicit Factorization. This was introduced by May and
+Ritzenhofen in PKC 2009 and studied under the assumption that some of
+Least Significant Bits (LSBs) of certain primes are the same. Our strategy
+can be applied to the implicit factorization problem in a general
+framework considering the equality of (i) Most Significant Bits (MSBs)
+(ii) Least Significant Bits (LSBs) and (iii) MSBs and LSBs together.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

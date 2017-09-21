@@ -1,0 +1,61 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.115.46.10 with SMTP id y10cs1468730waj;
+        Thu, 31 Dec 2009 22:16:32 -0800 (PST)
+Received: by 10.141.130.21 with SMTP id h21mr14265003rvn.181.1262326591710;
+        Thu, 31 Dec 2009 22:16:31 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id 16si35252047pzk.97.2009.12.31.22.16.29;
+        Thu, 31 Dec 2009 22:16:30 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o016GD5k006853;
+	Fri, 1 Jan 2010 11:46:13 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o016XNLU021011;
+	Fri, 1 Jan 2010 12:03:23 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o016XNNw021010;
+	Fri, 1 Jan 2010 12:03:23 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Fri, 1 Jan 2010 12:03:23 +0530 (IST)
+Message-ID: <4dcf03af3385348771c7503b4e744183.squirrel@www.math.iisc.ernet.in>
+Date: Fri, 1 Jan 2010 12:03:23 +0530 (IST)
+Subject: Maths : 4th January 2010 : "MA 332 - Algebraic Topology"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=1.389, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00,
+	FH_DATE_PAST_20XX 3.19)
+X-IISc-MailScanner-SpamScore: s
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+            MA 332 - Algebraic Topology
+
+      Lectures for this course will be on Monday and Wednesday
+11:00-12:30. The first lecture will be on January 4, 2010 in LH-I,
+Department of Mathematics, IISc.
+
+                                        Siddhartha Gadgil
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

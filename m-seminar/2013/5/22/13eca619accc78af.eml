@@ -1,0 +1,120 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.86.8 with SMTP id l8csp170487qez;
+        Tue, 21 May 2013 20:56:35 -0700 (PDT)
+X-Received: by 10.66.221.70 with SMTP id qc6mr6343851pac.10.1369194994756;
+        Tue, 21 May 2013 20:56:34 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id lm2si4452391pab.122.2013.05.21.20.56.32
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 21 May 2013 20:56:34 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r4M3uS3e027779;
+	Wed, 22 May 2013 09:26:28 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r4M3uKrh029314
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 May 2013 09:26:20 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r4M3uKw5029313;
+	Wed, 22 May 2013 09:26:20 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from s2.serc.iisc.ernet.in ([10.16.40.12]) (proxying for 
+     117.192.76.1)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 22 May 2013 09:26:20 +0530 (IST)
+Message-ID: <2d434e32c2554ef7506bbc7eb17d2197.squirrel@math.iisc.ernet.in>
+Date: Wed, 22 May 2013 09:26:20 +0530 (IST)
+Subject: Reminder! [Seminar] MATH : Today: "Preserving physical quantities 
+     of interest in finite elements with rational bubbles"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r4M3uS3e027779
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+
+
+
+                       Department of Mathematics
+                Indian Institute of Science, Bangalore
+
+
+                        SEMINAR
+
+
+Speaker: Prof. Johnny Guzman
+         Division of Applied Mathematics,
+         Borwn University, Providence.
+
+Title: Preserving physical quantities of interest in finite elements with
+rational bubbles
+
+Date: May 22nd, 2013 (Wednesday)
+
+Time: 4.00pm - 5.00pm
+
+Venue: Department of Mathematics, LH-1
+
+
+Abstract: Many commonly used mixed finite elements for the Stokes problem
+only conserve mass approximately. We show that if we supplement polynomial
+basis functions with divergence free rational functions in the finite
+element method we can conserve mass exactly. Similarly, we show how to
+supplement polynomial basis in the finite element space with rational
+functions in  when approximating linear elasticity problems in order to
+preserve angular momentum exactly. This is joint work with Michael Neilan
+(University of Pittsburgh).
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,108 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.112.6 with SMTP id im6csp88607oab;
+        Thu, 21 Jun 2012 20:35:30 -0700 (PDT)
+Received: by 10.68.204.129 with SMTP id ky1mr5840365pbc.32.1340336130364;
+        Thu, 21 Jun 2012 20:35:30 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id vv4si7683480pbc.312.2012.06.21.20.35.24
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 21 Jun 2012 20:35:30 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q5M3ZGCN000665;
+	Fri, 22 Jun 2012 09:05:16 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q5M3ZAQV008016
+	for <m_seminar@math.iisc.ernet.in>; Fri, 22 Jun 2012 09:05:10 +0530
+Received: from mail-bk0-f49.google.com (mail-bk0-f49.google.com [209.85.214.49])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q5M3S7Fr031843
+	for <m_seminar@math.iisc.ernet.in>; Fri, 22 Jun 2012 08:58:10 +0530
+Received: by bkwj4 with SMTP id j4so1535251bkw.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 21 Jun 2012 20:34:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=lJ7hY95B3udQ1OtlaPb3+lurbM2p2/rhTCdSRyUam9Y=;
+        b=RfWKwgSQWsI3WEJz/3BjaezIp/kM+1yyfvbzTnITBQaDY9SLMiaWgz8KZQDTvnARzP
+         CZXeZpHcw/5XVBT2RbGv0JNnLhDw0pfxqVHpKQihUpcs+nctDE8uCTaT1VV1ikHxBzf7
+         7FjxIl3cGwFYDQnIdCP6COqf9kzRGHRdPBHrSe5eCHVtmEW1oESH4Nvg2ISe3nFbMySO
+         t/Wkma7d9qbeK6HMApCi4ozkynxugTo75/jZKWsG9MI6U46V1To3um2PpDOa1ApHuLSd
+         1YtbiOcGxNnNX7bSYmpilkoexLspJ6by2F9ad47aJGPuKWnd4nXgcS4mjigwYhExuBAD
+         sZwQ==
+MIME-Version: 1.0
+Received: by 10.204.136.195 with SMTP id s3mr162006bkt.117.1340336095386; Thu,
+ 21 Jun 2012 20:34:55 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.204.116.144 with HTTP; Thu, 21 Jun 2012 20:34:55 -0700 (PDT)
+In-Reply-To: <CAHEur2Tm8vs4oAA8ofRtVgzLGYq7jX5dTvC8xBmpG7qQLSvB0Q@mail.gmail.com>
+References: <CAHEur2R7g7mwdedSCuyUf=MOg3LCOy09q06HOwCcSyo2oY2Uqw@mail.gmail.com>
+	<CAHEur2Tm8vs4oAA8ofRtVgzLGYq7jX5dTvC8xBmpG7qQLSvB0Q@mail.gmail.com>
+Date: Fri, 22 Jun 2012 09:04:55 +0530
+X-Google-Sender-Auth: iSUTA9zOPdx_73IqBjKpMiQ7Pb8
+Message-ID: <CAHEur2QfT92w3mLZgYLO6j8vDPARcCwpW=aNvLxhTuF=qS5g2Q@mail.gmail.com>
+Subject: [Thesis Colloquium] Math: Today: "Rigidity and Regularity of
+ Holomorphic Mappings"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.7,
+	required 6.5, autolearn=not spam, RCVD_IN_DNSWL_LOW -0.70), not spam, SpamAssassin (not cached, score=-2.6,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematics
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Ph.D. TH=
+ESIS COLLOQUIUM
+
+
+Speaker : =A0 Mr. G. P. Balakumar
+
+Title : =A0 =A0 =A0Rigidity and Regularity of Holomorphic Mappings.
+
+Date : =A0 =A0 =A0June 22, 2012
+
+Time : =A0 =A0 4:00 - 5:00 p.m.
+
+Venue: =A0 Department of Mathematics, Lecture Hall I
+
+
+Abstract: This talk will be on two themes that illustrate the rigidity and
+regularity of holomorphic mappings. The first part will deal with results
+concerning the smoothness of continuous CR (Cauchy -- Riemann) mappings;
+in particular, that of Lipschitz continuous CR mappings from
+h-extendible/semi-regular hypersurfaces into certain Levi co-rank one
+hypersurfaces, in C^n. The second part will deal with the classification
+of Kobayashi hyperbolic, finite type rigid polynomial domains in C^3.
+
+
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALL ARE CORDIALLY INVITED.
+
+
+Faculty members and students of the department are requested to attend.
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

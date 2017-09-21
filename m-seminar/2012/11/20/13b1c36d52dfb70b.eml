@@ -1,0 +1,114 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.129.226 with SMTP id nz2csp279739lbb;
+        Mon, 19 Nov 2012 21:07:34 -0800 (PST)
+Received: by 10.68.230.234 with SMTP id tb10mr45400759pbc.71.1353388053804;
+        Mon, 19 Nov 2012 21:07:33 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id s9si16325006pav.146.2012.11.19.21.07.31
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 19 Nov 2012 21:07:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id qAK57Pc2010651;
+	Tue, 20 Nov 2012 10:37:25 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qAK57I3c028164
+	for <m_seminar@math.iisc.ernet.in>; Tue, 20 Nov 2012 10:37:18 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id qAK57IdY028163;
+	Tue, 20 Nov 2012 10:37:18 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 20 Nov 2012 10:37:18 +0530 (IST)
+Message-ID: <b3b2d3ec6a6829fbaebeb6528344a8d9.squirrel@math.iisc.ernet.in>
+Date: Tue, 20 Nov 2012 10:37:18 +0530 (IST)
+Subject:  [Thesis Defence] MATH : 26th Nov 2012 : "Vector bundles over 
+     hypersurfaces of projective varieties"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: qAK57Pc2010651
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                         Ph.D. THESIS DEFENCE
+
+
+Speaker  :   Mr. Amit Tripathi
+
+Title    :   Vector bundles over hypersurfaces of projective varieties
+
+Date     :   November 26, 2012 (Monday)
+
+Time     :   11:00 a.m.- 12.00 noon.
+
+Venue    :   Department of Mathematics, LH-I
+
+Absract:
+In this thesis we study some questions related to vector bundles over hyper-
+surfaces. More precisely, for hypersurfaces of dimension  2, we study the
+extension problem of vector bundles. We find some cohomological conditions
+under which a vector bundle over an ample divisor of non-singular projec-
+tive variety, extends as a vector bundle to an open set containing that
+ample divisor.
+
+Our method is to follow the general Groethendieck-Lefschetz theory by
+showing that a vector bundle extension exists over various thickenings of
+the ample divisor.
+
+For vector bundles of rank > 1, we find two separate cohomological
+conditions on vector bundles which shows the extension to an open set
+containing the ample divisor. For the case of line bundles, our method
+unifies and
+recovers the generalized Noether-Lefschetz theorems by Joshi and
+Ravindra-Srinivas.
+In the last part of the thesis, we make a specific study of vector bundles
+over elliptic curve.
+
+
+            ALL ARE CORDIALLY INVITED.
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,129 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.135.209 with SMTP id r78csp82032ioi;
+        Thu, 6 Nov 2014 20:38:13 -0800 (PST)
+X-Received: by 10.66.155.2 with SMTP id vs2mr9179468pab.135.1415335092872;
+        Thu, 06 Nov 2014 20:38:12 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id fc5si7983470pdb.29.2014.11.06.20.38.02
+        for <multiple recipients>;
+        Thu, 06 Nov 2014 20:38:12 -0800 (PST)
+Received-SPF: none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id sA74bvsR031365;
+	Fri, 7 Nov 2014 10:07:57 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sA74mCuI029401;
+	Fri, 7 Nov 2014 10:18:12 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sA74mCrV029394;
+	Fri, 7 Nov 2014 10:18:12 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.14
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 7 Nov 2014 04:48:12 -0000
+Message-ID: <d60e2017612b34bf213f5cba451150fe.squirrel@math.iisc.ernet.in>
+Date: Fri, 7 Nov 2014 04:48:12 -0000
+Subject: Reminder: Maths: Seminars (Eigenfunctions series): TODAY : "Knots,
+ algorithms and linear programming: the quest to solve unknot recognition in
+ polynomial time;  The GAP package simpcomp - A toolbox for simplicial
+ complexes."
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in, m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+    We shall have the fourth pair of lectures for the semester in the
+eigenfunctions series.
+
+Date: Friday, November 7, 2014.
+
+Time: Lecture I: 2:15 - 3:15 p.m.
+      Coffee break: 3:15 p.m. - 3:30 p.m.
+      Lecture II: 3:30 - 4:30 p.m.
+      High Tea: 4:30 p.m.
+
+Venue: LH-I, Department of Mathematics, IISc.
+
+
+Lecture I:
+
+Title: Knots, algorithms and linear programming: the quest to solve unknot
+recognition in polynomial time
+
+Speaker: A/Prof. Benjamin A. Burton, School of Mathematics and Physics,
+The University of Queensland, Brisbane, Australia
+
+
+Abstract:
+
+In this talk we explore new approaches to the old and difficult
+computational problem of unknot recognition.  Although the best known
+algorithms for this problem run in exponential time, there is increasing
+evidence that a polynomial time solution might be possible.  We outline
+several promising approaches, in which computational geometry, linear
+programming and greedy algorithms all play starring roles.
+
+We finish with a new algorithm that combines techniques from topology and
+combinatorial optimisation, which is the first to exhibit "real world"
+polynomial time behaviour: although it is still exponential time in
+theory, exhaustive experimentation shows that this algorithm can solve
+unknot recognition for "practical" inputs by running just a linear number
+of linear programs.
+
+
+
+Lecture II:
+
+Title: The GAP package simpcomp - A toolbox for simplicial complexes.
+
+Speaker: Dr Jonathan Spreer, School of Mathematics and Physics,
+The University of Queensland, Brisbane, Australia
+
+
+Abstract: simpcomp is an official extension to the computer algebra system
+GAP, that is, simpcomp is part of every full GAP installation. The
+software allows the user to compute numerous properties of abstract
+simplicial complexes such as the f -, g- and h-vectors, the fundamental
+group, the automorphism group, (co-)homology, the intersection form, and
+many more. It provides functions to generate simplicial complexes from
+facet lists, orbit representatives, or permutation groups. In addition,
+functions related to slicings and polyhedral Morse theory as well as a
+combinatorial version of algebraic blowups and the possibility to resolve
+isolated singularities of 4-manifolds are implemented.
+
+In this talk, I will give an overview over the existing features of the
+software and also discuss some ongoing projects such as (i) support for
+Forman's discrete Morse theory for homology and fundamental group
+computations, and (ii) an extension of the features to analyse tightness
+of triangulated manifolds.
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

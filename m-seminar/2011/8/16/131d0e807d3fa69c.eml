@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.11.138 with SMTP id t10cs46720ibt;
+        Mon, 15 Aug 2011 21:44:54 -0700 (PDT)
+Received: from mr.google.com ([10.142.12.1])
+        by 10.142.12.1 with SMTP id 1mr1008590wfl.17.1313469893902 (num_hops = 1);
+        Mon, 15 Aug 2011 21:44:53 -0700 (PDT)
+Received: by 10.142.12.1 with SMTP id 1mr882671wfl.17.1313469893502;
+        Mon, 15 Aug 2011 21:44:53 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [14.139.128.65])
+        by mx.google.com with ESMTPS id r8si4716405pbj.27.2011.08.15.21.44.44
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 15 Aug 2011 21:44:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p7G4j4Wj003068;
+	Tue, 16 Aug 2011 10:15:04 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p7G4iqxN031028
+	for <m_seminar@math.iisc.ernet.in>; Tue, 16 Aug 2011 10:14:52 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p7G4iq8c031025
+	for <m_seminar@math.iisc.ernet.in>; Tue, 16 Aug 2011 10:14:52 +0530
+Date: Tue, 16 Aug 2011 10:14:52 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 19th August, 2011: Ergodicity of the geodesic flow
+ of the Weil-Petersson metric"
+Message-ID: <Pine.LNX.4.64.1108161013550.30274@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p7G4j4Wj003068
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+To whom it may concern:
+
+Please broadcast the following message to all.
+
+Thanks and regards,
+Gautam Bharali
+
+Assistant Professor
+Department of Mathematics
+
+____________________________________________________________________________
+
+  		       	 Department of Mathematics
+  		   Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Keith Burns
+ 	  Northwestern University
+
+Title	: Ergodicity of the geodesic flow of the Weil-Petersson metric
+
+Date	: August 19, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					        Chairman,
+  					        Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

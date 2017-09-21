@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.115.47.11 with SMTP id z11cs230845waj;
+        Tue, 20 Oct 2009 21:42:30 -0700 (PDT)
+Received: by 10.115.117.34 with SMTP id u34mr11104745wam.193.1256100149885;
+        Tue, 20 Oct 2009 21:42:29 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.65])
+        by mx.google.com with ESMTP id 37si16875391pzk.78.2009.10.20.21.42.27;
+        Tue, 20 Oct 2009 21:42:28 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n9L4nabm013964;
+	Wed, 21 Oct 2009 10:19:36 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n9L4t4gU023180;
+	Wed, 21 Oct 2009 10:25:04 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id n9L4t44p023179;
+	Wed, 21 Oct 2009 10:25:04 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.11 (proxying for 59.96.58.217)
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Wed, 21 Oct 2009 10:25:04 +0530 (IST)
+Message-ID: <32d584194639a8a6c107daccfbf8a258.squirrel@www.math.iisc.ernet.in>
+Date: Wed, 21 Oct 2009 10:25:04 +0530 (IST)
+Subject: Reminder : Maths : Today : Seminar : "Limiting Spectral 
+     Distribution of Large      Dimensional Random Matrices: Another Look 
+     at the Moment Method"]
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Please note the unusual time and change of venue.
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. Arup Bose, ISI, Kolkata
+
+    Title                : Limiting Spectral Distribution of Large
+Dimensional Random Matrices: Another Look at the Moment Method
+
+    Day & Date           : Wednesday, October 21, 2009.
+
+    Time                 : 2:00 p.m.
+
+    Venue                :  Lecture  Hall -  III
+                            Dept. of  Mathematics
+
+
+Abstract:
+       Methods to establish the limiting spectral distribution (LSD) of
+large dimensional random matrices include the moment method which
+invokes the trace formula. Its success has been demonstrated in
+several types of
+matrices such as the Wigner matrix and the sample variance covariance
+matrix. In a recent article Bryc, Dembo and Jiang (2006) establish the LSD
+for random Toeplitz and Hankel matrices using the moment method. They
+perform the necessary counting of terms in the trace by splitting the
+relevant sets into equivalence classes and relating the limits of the
+counts to certain volume calculations. We develop this method further and
+provide a general framework to deal with symmetric patterned matrices with
+entries coming from an independent sequence. This approach can be extended
+to cover matrices of the form Ap =XX'/n where X is a pxn matrix with p
+going infinity and n = n(p) going to infinity and p/n going to y between 0
+and infinity. The method can also be used to cover some situations where
+the "input" sequence is a suitable linear process. Several new classes of
+limit distributions arise and many interesting questions remain to be
+answered.
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

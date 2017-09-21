@@ -1,0 +1,110 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp250243obb;
+        Wed, 15 Mar 2017 04:57:15 -0700 (PDT)
+X-Received: by 10.98.3.3 with SMTP id 3mr3253596pfd.95.1489579035568;
+        Wed, 15 Mar 2017 04:57:15 -0700 (PDT)
+Return-Path: <subhojoy@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id m8si1924696plk.48.2017.03.15.04.57.14;
+        Wed, 15 Mar 2017 04:57:15 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=subhojoy@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 443E4AEB222;
+	Wed, 15 Mar 2017 17:27:09 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v2FCTLpk030734
+	for <m_seminar@math.iisc.ernet.in>; Wed, 15 Mar 2017 17:59:21 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v2FCTLRi030733;
+	Wed, 15 Mar 2017 17:59:21 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to subhojoy@localhost using -f
+Received: from 10.134.13.68
+        (SquirrelMail authenticated user subhojoy)
+        by math.iisc.ac.in with HTTP;
+        Wed, 15 Mar 2017 17:59:21 +0530
+Message-ID: <87f4a0bc8de65a1fa6d73e7a3bd6a08f.squirrel@math.iisc.ac.in>
+Date: Wed, 15 Mar 2017 17:59:21 +0530
+Subject: [Reminder] MATH : 17th March 2017 : "Eigenfunctions"
+From: subhojoy@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 443E4AEB222.A8A20
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: subhojoy@math.iisc.ernet.in
+MailScanner-NULL-Check: 1490183830.74529@p5LmAdgwpqA8id3pRKZtPw
+X-Spam-Status: No
+
+Dear All,
+
+There will be two lectures in the "Eigenfunctions" seminar series this
+Friday (17th March).
+
+--------------------------------------------
+Lecture 1:
+
+Title: The zoo of Lyapunov vectors and nonlinear filters
+
+Speaker : Amit Apte (ICTS)
+
+Time and date: 2:15-3:15 PM, 17th March
+
+Venue: LH-1, Department of Mathematics
+
+Abstract :  I will introduce the concepts of backward, forward, and
+covariant Lyapunov vectors (that are basically "eigenfunctions" of certain
+operators) for a dynamical system and discuss their relevance in studying
+various stability results, both for the system itself and for nonlinear
+filtering problem, which will also be introduced along the way. The
+"relevance" to nonlinear filters is in the form of open questions whose
+answers (as a set of conjectures) may be gleaned from numerical results
+and linear filtering theory.
+
+--------------------------------------------
+Lecture 2:
+
+Title: Topology of random points
+
+Speaker: Yogeshwaran. D. (ISI Bangalore)
+
+Time and date: 3:30-4:30 PM, 17th March
+
+Venue: LH-1, Department of Mathematics
+
+Abstract: Given n random points on a manifold embedded in a Euclidean
+space, we wish to understand what topological features of the manifold can
+be inferred from the geometry of these points. One procedure is to
+consider union of Euclidean balls of radius r around the points and study
+the topology of this random set (i.e., the union of balls). A more robust
+method (known as persistent homology) of inferring the topology of the
+underlying manifold is to study the evolution of topology of the random
+set as r varies. What topological information (For eg., Betti numbers and
+some generalizations) about the underlying manifold can we glean for
+different choices of r ?  This question along with some partial answers in
+the recent years will be the focus of the talk. I shall try to keep the
+talk mostly self-contained assuming only knowledge of basic probability
+and point-set topology.
+
+--------------------------------------------
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,109 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.12.133 with SMTP id 5csp323541iom;
+        Fri, 19 Sep 2014 00:59:02 -0700 (PDT)
+X-Received: by 10.68.217.7 with SMTP id ou7mr13542688pbc.4.1411113542484;
+        Fri, 19 Sep 2014 00:59:02 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id hr10si1746470pac.35.2014.09.19.00.59.00
+        for <multiple recipients>;
+        Fri, 19 Sep 2014 00:59:01 -0700 (PDT)
+Received-SPF: none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s8J7wvEE032135;
+	Fri, 19 Sep 2014 13:28:57 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s8J7wK3Y011219;
+	Fri, 19 Sep 2014 13:28:21 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s8J7wKI4011208;
+	Fri, 19 Sep 2014 13:28:20 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.14
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 19 Sep 2014 07:58:20 -0000
+Message-ID: <5940ea6f505ed7a2b45e7f6d925de968.squirrel@math.iisc.ernet.in>
+Date: Fri, 19 Sep 2014 07:58:20 -0000
+Subject: Reminder: TODAY: Maths: Seminars (Eigenfunctions series):  "Proper
+ holomorphic maps between bounded symmetric domains"
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in, m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+    We shall have the second pair of lectures for the semester in the
+eigenfunctions series.
+
+Speakers: Gautam Bharali and Jaikrishnan Janardhanan
+
+Title: Proper holomorphic maps between bounded symmetric domains
+
+Date: Friday, September 19, 2014.
+
+Time: Lecture I: 2:15 - 3:15 p.m.
+      Coffee break: 3:15 p.m. - 3:30 p.m.
+      Lecture II: 3:30 - 4:30 p.m.
+      High Tea: 4:30 p.m.
+
+Venue: LH-I, Department of Mathematics, IISc.
+
+Abstract:
+       The goal of these talks is to discuss the history, the
+circumstances, and (the main aspects of) the proof of
+a recent result of ours, which says: a proper holomorphic
+map between two nonplanar bounded symmetric domains of
+the same dimension, one of them being irreducible, is
+a biholomorphism.
+
+Results of this character are motivated by a remarkable
+theorem of H. Alexander about proper holomorphic
+self-maps of the Euclidean ball. The first part of the
+talk will focus on the meanings of the terms in the
+above theorem. We will give an elementary proof that
+the automorphism group of a bounded symmetric domain
+acts transitively on it. But the existence of an
+involutive symmetry at each point is restrictive in
+many other ways. For instance, it yields a complete
+classification of the bounded symmetric domains. This
+follows from the work of Elie Cartan.
+
+Earlier results in the literature that are special
+cases of our result focused on different classes of
+domains in the Cartan classification, and have mutually
+irreconcilable proofs. One aspect of our work is a
+unified proof: a set of techniques that works across
+the Cartan classification. One of those techniques is
+the use of an algebraic gadget: the machinery of Jordan
+triple systems.
+
+We will present definitions and examples related to
+this machinery in the first part of the talk. In the
+second part of the talk, we shall state a result on
+finite-dimensional Jordan triple systems that is
+essential to our work. After this, we shall discuss
+our proof in greater depth.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

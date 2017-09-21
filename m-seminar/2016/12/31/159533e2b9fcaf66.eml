@@ -1,0 +1,121 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp6167882obd;
+        Fri, 30 Dec 2016 20:58:20 -0800 (PST)
+X-Received: by 10.99.185.73 with SMTP id v9mr88210698pgo.98.1483160300331;
+        Fri, 30 Dec 2016 20:58:20 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id t27si58930982pfa.146.2016.12.30.20.58.18;
+        Fri, 30 Dec 2016 20:58:20 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 546E6AE65A7;
+	Sat, 31 Dec 2016 10:28:15 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id uBV5VgJH001040
+	for <m_seminar@math.iisc.ernet.in>; Sat, 31 Dec 2016 11:01:42 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id uBV5VgP2001039;
+	Sat, 31 Dec 2016 11:01:42 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.25.136 (proxying for 117.198.36.46)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Sat, 31 Dec 2016 05:31:42 -0000
+Message-ID: <75346220e2db3efeb6a3b5ff35eb59dd.squirrel@math.iisc.ernet.in>
+Date: Sat, 31 Dec 2016 05:31:42 -0000
+Subject: [ Math Dept Seminar Jan 10 (Time changed) (Hari Shankar Mahato)]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 546E6AE65A7.A062A
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.7,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	MONOTONE_WORDS_15_2 1.00, MR_NOT_ATTRIBUTED_IP 0.20,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1483765095.60123@lO2hH4ODrPSEkMEnE6uYuw
+X-Spam-Status: No
+
+Speaker : Hari Shankar Mahato (University of Georgia, USA)
+
+Title: Upscaling of a System of Semilinear Diffusion&#8208;Reaction
+Equations in a Heterogeneous Medium: Multi&#8208;Scale Modeling and
+Periodic Homogenization.
+
+Date : Jan 10
+
+Time : 11 AM
+
+Location:  LH-1
+
+
+Abstract: A porous medium (concrete, soil, rocks, water reservoir, e.g.)
+is a multi&#8208;scale medium
+
+where the heterogeneities present in the medium are characterized by the
+micro scale and the
+
+global behaviors of the medium are observed at the macro scale. The
+upscaling from the micro
+
+scale to the macro scale can be done via averaging methods.
+
+In this talk, diffusion and reaction of several mobile chemical species
+are considered in
+
+the pore space of a heterogeneous porous medium. The reactions amongst the
+species are
+
+modelled via mass action kinetics and the modelling leads to a system of
+multi&#8208;species diffusion&#8208;
+
+reaction equations (coupled semi&#8208;linear partial differential
+equations) at the micro scale where
+
+the highly nonlinear reaction rate terms are present at the right hand
+sides of the system of PDEs,
+
+cf. [2]. The existence of a unique positive global weak solution is shown
+with the help of a
+
+Lyapunov functional, Schaefer’s fixed point theorem and maximal
+Lp&#8208;regularity, cf. [2, 3]. Finally,
+
+with the help of periodic homogenization and two&#8208;scale convergence
+we upscale the model from
+
+the micro scale to the macro scale, e.g. [1, 3]. Some numerical
+simulations will also be shown in
+
+this talk, however for the purpose of illustration, we restrict ourselves
+to some relatively simple  dimensional situations.
+
+As an extension to the previous model, we consider the mixture of two
+fluids. For such
+
+models, a system of Stokes ;Cahn ;Hilliard equations will be
+considered at the micro scale in a
+
+perforated porous medium. We first explain the periodic setting of the
+model and the existence
+
+results. At the end homogenization of the model will be shown using some
+extension theorems
+
+on Sobolev spaces, two&#8208;scale convergence and periodic unfolding.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

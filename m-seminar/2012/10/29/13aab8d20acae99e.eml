@@ -1,0 +1,76 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.35.164 with SMTP id i4csp106865qej;
+        Mon, 29 Oct 2012 01:04:44 -0700 (PDT)
+Received: by 10.68.237.135 with SMTP id vc7mr1120860pbc.2.1351497884018;
+        Mon, 29 Oct 2012 01:04:44 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id np6si11965372pbc.299.2012.10.29.01.04.40
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 29 Oct 2012 01:04:43 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q9T84XUm031852;
+	Mon, 29 Oct 2012 13:34:33 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q9T84RSu025948
+	for <m_seminar@math.iisc.ernet.in>; Mon, 29 Oct 2012 13:34:27 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q9T84RVX025947;
+	Mon, 29 Oct 2012 13:34:27 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 29 Oct 2012 13:34:27 +0530 (IST)
+Message-ID: <d4598c45850286c337e5031e4f5bb4df.squirrel@math.iisc.ernet.in>
+Date: Mon, 29 Oct 2012 13:34:27 +0530 (IST)
+Subject: [Geometry Topology Informal  Seminar] Math: Oct 30,
+      2012: "On triangulating the Moduli space"
+From: "Pooja Singla" <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q9T84XUm031852
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                 GEOMETRY TOPOLOGY INFORMAL SEMINAR
+
+
+Speaker : Prof  Siddhartha Gadgil
+
+Title: On triangulating the  Moduli space
+
+Date: 30th October (Tuesday)
+
+Time: 2.00 pm
+
+Venue: Department of Mathematics, LH-III
+
+Abstract: I will discuss some constructions, results, questions and
+applications relating to the space of hyperbolic structures on a
+surface and its natural compactifications. I will assume that the
+audience understands what `hyperbolic structures on surfaces'
+means.
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

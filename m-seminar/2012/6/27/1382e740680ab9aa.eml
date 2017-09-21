@@ -1,0 +1,113 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.114.229 with SMTP id jj5csp131437oab;
+        Wed, 27 Jun 2012 07:59:12 -0700 (PDT)
+Received: by 10.68.227.197 with SMTP id sc5mr66282833pbc.58.1340809152467;
+        Wed, 27 Jun 2012 07:59:12 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id gk6si21043578pbc.284.2012.06.27.07.59.10
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 27 Jun 2012 07:59:12 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q5REx4x4015579;
+	Wed, 27 Jun 2012 20:29:04 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q5REx1bs022526
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jun 2012 20:29:01 +0530
+Received: from mail-qc0-f174.google.com (mail-qc0-f174.google.com [209.85.216.174])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q5REptY1004106
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jun 2012 20:21:58 +0530
+Received: by qcro28 with SMTP id o28so585533qcr.33
+        for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jun 2012 07:58:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=qCIYo3Zs6Rlr691mKxOg/9s737+hAxsibunZ0PhpnG0=;
+        b=0Csnb/BniqUePQBPXd2hRh7rwrowg1vcM9qyz6p2mu6uGUQErtG2HT9diNi8xgF7da
+         Mc4Pgys0XxNPItGpkMcJfpeDKOWrRjynPqLrBCb6WIerxxX1WqdVQiarHlbR994ED+yC
+         2vl40fiw7wiShUxRiedoTKuZrzsG0zqyQgFswHH4C1Ldj4gUX99OOYpfgOPFkCLK3akQ
+         ypKgmVwDcUxIjwgOX8Gh28QepGy6dufDU2AifRJ2b536xwHyfK/puegwPfAlwy0dJEG+
+         ShkO8qfaXl2ESwYvw3Lyj3Cir/hzHDDnaL/TAfZvTaZ4unAkMAHImHIYCmp0HbXGITID
+         KcpA==
+MIME-Version: 1.0
+Received: by 10.60.14.71 with SMTP id n7mr20995016oec.43.1340809133778; Wed,
+ 27 Jun 2012 07:58:53 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Wed, 27 Jun 2012 07:58:53 -0700 (PDT)
+In-Reply-To: <CAHEur2TAV-as=bkJvon9D14hAABA0O9gfBkjuJ6MU7n8v11egA@mail.gmail.com>
+References: <CAHEur2TAV-as=bkJvon9D14hAABA0O9gfBkjuJ6MU7n8v11egA@mail.gmail.com>
+Date: Wed, 27 Jun 2012 20:28:53 +0530
+X-Google-Sender-Auth: tczdjPdeA_CgOENO09cS-CsPruI
+Message-ID: <CAHEur2S=44AAa6aA88A6AHMXn5c2vcjcNOVqyO7favMke4Et9Q@mail.gmail.com>
+Subject: [Seminar] Math: June 29, 2012: "KPZ equation from certain microscopic interactions"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.2,
+	required 6.5, autolearn=not spam, RCVD_IN_DNSWL_LOW -0.70,
+	SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached, score=-4.1,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70, SUBJECT_MONTH -1.50)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+---------- Forwarded message ----------
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+Date: Wed, Jun 27, 2012 at 8:22 PM
+Subject: [Seminar] Math: June 29, 2012: "KPZ equation from certain
+microscopic interactions"
+To: broadcast@ece.iisc.ernet.in
+
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematics
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0PROBABIL=
+ITY SEMINAR
+
+
+Speaker : =A0 Prof. Sunder Sethuraman
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 University of Arizona
+
+Title : =A0 =A0 =A0 =A0 KPZ equation from certain microscopic interactions
+
+Date : =A0 =A0 =A0 June 29, 2012
+
+Time : =A0 =A0 =A0 2:00 - 3:00 p.m.
+
+Venue: =A0 =A0 Department of Mathematics, Lecture Hall III
+
+
+Abstract: We derive a form of the KPZ equation, which
+governs the fluctuations of a class of interface heights,
+in terms of a martingale problem, as the scaling limit of
+fluctuation fields with respect to some particle systems
+such as zero range processes. This is joint work in
+progress with P. Goncalves and M. Jara.
+
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALL ARE CORDIALLY INVITED.
+
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

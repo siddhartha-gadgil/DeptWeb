@@ -1,0 +1,85 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.113.3.139 with SMTP id bw11csp286419lbd;
+        Wed, 4 Jun 2014 22:31:13 -0700 (PDT)
+X-Received: by 10.68.237.133 with SMTP id vc5mr73208434pbc.92.1401946272763;
+        Wed, 04 Jun 2014 22:31:12 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id qq2si10605412pbb.105.2014.06.04.22.31.11
+        for <multiple recipients>;
+        Wed, 04 Jun 2014 22:31:12 -0700 (PDT)
+Received-SPF: none (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s555V8lq002383;
+	Thu, 5 Jun 2014 11:01:08 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s555WMoe032508
+	for <m_seminar@math.iisc.ernet.in>; Thu, 5 Jun 2014 11:02:22 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id s555WLMK032504
+	for <m_seminar@math.iisc.ernet.in>; Thu, 5 Jun 2014 11:02:21 +0530
+Date: Thu, 5 Jun 2014 11:02:21 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Reminder [Seminar] Math: TODAY : Constant Mean Curvature surfaces
+Message-ID: <alpine.LFD.2.03.1406051101480.32062@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-805048199-1400661127=:2566"
+Content-ID: <alpine.LFD.2.03.1405230940030.12702@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-805048199-1400661127=:2566
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1405230940031.12702@math.iisc.ernet.in>
+
+Dear all,
+
+                          Department of Mathematics
+                   Indian Institute of Science, Bangalore
+
+                                   SEMINAR
+
+
+Speaker : Prof. Rukmini Dey (HRI)
+
+Title: Constant Mean Curvature surfaces
+
+Date: 5th June, 2014 (Thursday)
+
+Time: 3:30 - 4:30 p.m.
+
+Venue: Lecture Hall I, Department of Mathematics
+
+Abstract: In this expository talk, I will focus on  CMC surfaces which
+are not minimal surfaces. I will talk about the link between CMC
+surfaces and integrable systems. I will then talk about how CMC
+surfaces fall out of a constrained optimization problem. I will give
+examples of rotational and helicoidal CMC surfaces and the isometry
+between them. If time permits I will talk about  the classification
+of CMC surfaces, namely its Weirstrass representation.
+
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-805048199-1400661127=:2566--

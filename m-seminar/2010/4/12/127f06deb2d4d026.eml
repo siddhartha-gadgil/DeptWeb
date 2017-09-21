@@ -1,0 +1,94 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.141.43.13 with SMTP id v13cs223425rvj;
+        Sun, 11 Apr 2010 22:11:27 -0700 (PDT)
+Received: by 10.142.3.26 with SMTP id 26mr1196303wfc.165.1271049087667;
+        Sun, 11 Apr 2010 22:11:27 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.70])
+        by mx.google.com with ESMTP id 3si7971209pzk.27.2010.04.11.22.11.26;
+        Sun, 11 Apr 2010 22:11:27 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.70 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.70 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o3C588qt017205;
+	Mon, 12 Apr 2010 10:38:08 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o3C5YKZU011939;
+	Mon, 12 Apr 2010 11:04:20 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o3C5YKc0011938;
+	Mon, 12 Apr 2010 11:04:20 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 12 Apr 2010 11:04:20 +0530 (IST)
+Message-ID: <441ea84e00df0e6d3c1781c71c46c850.squirrel@math.iisc.ernet.in>
+Date: Mon, 12 Apr 2010 11:04:20 +0530 (IST)
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 6.5, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+Subject: Maths : April 13,    2010: Seminar : "Intersection numbers,      embedded spheres and Geosphere laminations for free groups"
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Suhas Pandit, IISER, Pune
+
+    Title                : Intersection numbers, embedded spheres and
+Geosphere laminations for free groups
+
+    Day & Date           : Tuesday,  April 13, 2010.
+
+    Time                 :  2:00 p.m.
+
+    Venue                :  Lecture  Hall -  III, Dept. of  Mathematics
+
+Abstract:
+     Free  groups and the group of their outer
+automorphisms have been extensively studied in analogy with
+(fundamental groups of) surfaces and the mapping class groups of
+surfaces.
+     We study the analogue of intersection numbers of simple curves,
+namely the Scott-Swarup algebraic intersection number  of splittings
+of a free group and we also study embedded spheres in $3$- manifold
+of the form $ M =\sharp_n S^2 \times S^1 $. The fundamental group of
+$M$ is a free group of
+rank $n$. This $3$-manifold will be our model for free groups. We
+construct geosphere laminations in free group which are analogues of
+geodesic laminations on a surface.
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

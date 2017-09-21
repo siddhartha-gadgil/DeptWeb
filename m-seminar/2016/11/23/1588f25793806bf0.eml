@@ -1,0 +1,82 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.80.165 with SMTP id s5csp2198817obx;
+        Tue, 22 Nov 2016 19:05:48 -0800 (PST)
+X-Received: by 10.84.215.2 with SMTP id k2mr2050907pli.58.1479870348142;
+        Tue, 22 Nov 2016 19:05:48 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id y10si31362488pgc.243.2016.11.22.19.05.46;
+        Tue, 22 Nov 2016 19:05:47 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 37DEFAEA7DE;
+	Wed, 23 Nov 2016 08:35:37 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id uAN3dpc9013679
+	for <m_seminar@math.iisc.ernet.in>; Wed, 23 Nov 2016 09:09:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id uAN3dpOP013678;
+	Wed, 23 Nov 2016 09:09:51 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.112 (proxying for 10.134.12.127)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Wed, 23 Nov 2016 03:39:51 -0000
+Message-ID: <09b6d2be42bcf48e6467f1d00370cc10.squirrel@math.iisc.ac.in>
+Date: Wed, 23 Nov 2016 03:39:51 -0000
+Subject: Math Dept Seminar Dec 9 (Ratikant Behra)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 37DEFAEA7DE.A8717
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.8,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1480475141.65089@7dMdi5dK2KU9SIC4JVi+gA
+X-Spam-Status: No
+
+Speaker : Ratikant Behra (IISER-Kolkata)
+
+Date: Dec 9, 2016
+
+Time: 3 pm
+
+Location : LH-1
+
+
+Title of Talk:  Adaptive wavelet-based methods for solution of PDEs and
+signal analysis.
+
+Abstract of Talk:
+
+A dynamic adaptive numerical method for solving partial differential
+equations (PDEs) on the sphere is necessary to solve problems with
+localized structures or sharp transitions. The numerical solution of such
+problems on uniform grids is impractical, since high-resolution
+computations are required only in regions where sharp transitions occur. An
+adaptive wavelet collocation method provides a robust method for
+controlling spatial grid adaptation -- fine grid spacing in regions where a
+solution varies greatly (i.e., near steep gradients, or near-singularities)
+and a much coarser grid where the solution varies slowly, which I will
+discuss in this talk. Further, developing a truly adaptive method for
+signal analysis is important for the understanding of many natural
+phenomena. I will discuss the analysis of a variant of the second order
+synchrosqueezing transform to deal with modes containing strong frequency
+modulated signal.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

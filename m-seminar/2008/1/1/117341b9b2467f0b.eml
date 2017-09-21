@@ -1,0 +1,98 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.19 with SMTP id q19cs770964buc;
+        Mon, 31 Dec 2007 22:48:21 -0800 (PST)
+Received: by 10.140.185.19 with SMTP id i19mr6678817rvf.296.1199170100332;
+        Mon, 31 Dec 2007 22:48:20 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id b8si22062141rvf.31.2007.12.31.22.48.06;
+        Mon, 31 Dec 2007 22:48:20 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m016fuWC019092;
+	Tue, 1 Jan 2008 12:11:56 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m01C2NKu014479;
+	Tue, 1 Jan 2008 12:02:23 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m01C2Nlx014476;
+	Tue, 1 Jan 2008 12:02:23 GMT
+Date: Tue, 1 Jan 2008 12:02:23 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 4th January 2008: Seminar - "Directionally convex ordering
+ of random measures, shot-noise fields and some applications to wireless
+ networks."
+Message-ID: <Pine.LNX.4.61.0801011157300.14216@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Dr. D. Yogeshwaran,
+ 				Ecole Normale Superieure, Paris.
+
+      Title 		  : Directionally convex ordering of random
+ 			measures, shot-noise fields and some applications
+ 			to wireless networks.
+
+      Day & Date           : Friday, January 4 and Monday, January 7.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	In the standard stochastic geometric setting, wireless networks 
+can be modeled as point processes and their performances as certain mean 
+functionals of the point process. Obtaining closed form expressions of 
+such functionals is not easy for a general class of point processes. This 
+motivates a comparative study. We study comparison of one such class of 
+mean functionals - the additive and extremal shot-noise fields - which 
+arise naturally in modeling of wireless networks, as ingredients of the so 
+called Signal-to-Interference-Noise-Ratio.
+
+To analyze them more rigorously, we make a comparative study of similar 
+point processes (i.e, point processes with same number of points on a 
+average but differing variances). More generally, we formulate a notion of 
+comparison of random measures (measure-valued random variables) with point 
+processes being nothing but random counting measures. Extensively using 
+the theory of stochastic ordering, we show implications of this comparison 
+on attraction or repulsion of points, shot-noise fields etc. The 
+interesting examples are the ones that enable comparison of a clustered 
+point processes with a homogeneous point process. Such examples shall be 
+discussed.  This is an on-going joint work with Francois Baccelli and 
+Bartek Blaszczyszyn.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

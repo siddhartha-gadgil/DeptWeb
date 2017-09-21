@@ -1,0 +1,110 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.129.225 with SMTP id nz1csp905357ieb;
+        Sun, 28 Feb 2016 22:01:50 -0800 (PST)
+X-Received: by 10.98.70.211 with SMTP id o80mr19622737pfi.124.1456725710719;
+        Sun, 28 Feb 2016 22:01:50 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with SMTP id ok17si5454839pab.100.2016.02.28.22.01.34;
+        Sun, 28 Feb 2016 22:01:50 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 95747AE1FFC;
+	Mon, 29 Feb 2016 11:28:50 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u1T67ekd005251
+	for <m_seminar@math.iisc.ernet.in>; Mon, 29 Feb 2016 11:37:40 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u1T67exd005250;
+	Mon, 29 Feb 2016 11:37:40 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 29 Feb 2016 06:07:40 -0000
+Message-ID: <9e3b1edb8e348519c0666e241d7943e1.squirrel@math.iisc.ernet.in>
+Date: Mon, 29 Feb 2016 06:07:40 -0000
+Subject: Math Dept Seminar March 2 (Greg Conner)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 95747AE1FFC.AA58F
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.901, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1457330336.84217@LozyOVa2M5jjaTH875M4oA
+X-Spam-Status: No
+Content-Transfer-Encoding: quoted-printable
+
+Speaker: Greg Conner, Brigham Young University
+
+Title: Wild Topology, Group Theory and a conjecture in Number Theory
+
+Date and Time: Wednesday, March 2, 2016, 4:00 p.m.
+
+Venue: LH-1, Department of Mathematics
+
+Abstract: One of the most useful analogies in mathematics is the
+fundamental group functor (also known as the Galois Correspondence) which
+sends a topological space to its fundamental group while at the same time
+sending continuous maps between spaces to corresponding homomorphisms of
+groups in such a way that compositions of maps are preserved.
+
+A an obvious question one might ask is whether the fundamental group
+functor is "onto", that is: (1) is every group the fundamental group of a
+space and (2) every homomorphism the image of a continuous map between
+corresponding spaces?  The easy answer to (1) is "yes" and the nonobvious
+answer to (2) is "it depends on the spaces".
+
+We'll introduce the harmonic archipelago as the shining example of a spac=
+e
+with a strange fundamental group, define an archipelago of groups as a
+group theoretic
+product operation and finally describe how such products are (almost) all
+isomorphic to the fundamental group of the harmonic archipelago.
+
+We will study examples showing that there are group homomorphisms that
+cannot be induced by continuous maps on certain spaces and how the
+fundamental group of the harmonic archipelago factors through all such
+"discontinuous homomorphisms", how none of the examples is constructible
+(or even understandable in any reasonable way) and how one might detect
+spaces whose fundamental group allows them to be the codomain of such wei=
+rd
+homomorphisms (the conjecture is that they contain the rational numbers o=
+r
+torsion).
+
+We'll talk a bit about the notion of cotorsion groups from classical
+Abelian group theory and how that notion can be generalized to non-Abelia=
+n
+groups by requiring certain types of systems of equations have solutions
+and then mention how countable groups which have solutions to such system=
+s
+are always images of the fundamental group of an archipelago.
+
+In the end we're lead to an example of a countable group which we can pro=
+ve
+is either the rational numbers or gives a counterexample to a nearly 50
+year old conjecture in number theory:  the Kurepa conjecture.  So there i=
+s
+a little topology, a little homotopy theory, some group theory, a pinch o=
+f
+logic and a wisp of number theory in the talk.  This is a distillation of
+work I've published recently with Hojka and Meilstrup (Proc AMS) and work
+that is still being written up with Hojka and Herfort.
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,121 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp873167ieb;
+        Wed, 3 Aug 2016 21:19:36 -0700 (PDT)
+X-Received: by 10.98.157.154 with SMTP id a26mr121599779pfk.68.1470284376224;
+        Wed, 03 Aug 2016 21:19:36 -0700 (PDT)
+Return-Path: <naru@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id z185si12424803pfz.64.2016.08.03.21.19.31;
+        Wed, 03 Aug 2016 21:19:36 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of naru@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of naru@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mailfrom=naru@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id E4882AE23F2;
+	Thu,  4 Aug 2016 09:47:50 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u744Lq1m023927
+	for <m_seminar@math.iisc.ernet.in>; Thu, 4 Aug 2016 09:51:52 +0530
+Received: from localhost (naru@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u744Lp4P023923
+	for <m_seminar@math.iisc.ernet.in>; Thu, 4 Aug 2016 09:51:51 +0530
+Date: Thu, 4 Aug 2016 09:51:51 +0530 (IST)
+From: "E. K. Narayanan" <naru@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Message-ID: <alpine.LFD.2.03.1608040951040.23882@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: E4882AE23F2.A4932
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: naru@math.iisc.ernet.in
+Subject: Reminder[Colloquium] MATH : TODAY : "Resonances for the Laplacianon Riemannian symmetric spaces of the noncompact type: the rank two case"
+MailScanner-NULL-Check: 1470889113.60246@l2j3ytJt6+4NO8rUF2qxhg
+X-Spam-Status: No
+
+
+
+
+Dear All,
+
+
+Title: Resonances for the Laplacian on Riemannian symmetric spaces of the
+noncompact type: the rank two case
+
+Speaker: Angela Pasquale
+
+Date: Aug 4, 2016
+
+Time: 4 pm
+
+Location: LH-1
+
+
+Abstract:
+Let $\Delta$ be the Laplacian on a Riemannian symmetric space $X=G/K$ of
+the noncompact type and let
+$\sigma(\Delta)\subseteq \mathbb{C}$ denote its spectrum. The resolvent
+$(\Delta-z)^{-1}$ is a holomorphic function
+on $\mathbb{C} \setminus \sigma(\Delta)$, with values in the space of
+bounded operators on $L^2(X)$.
+If we view it as a function with values in $\Hom(C_c^\infty(X),
+C_c^\infty(X)^*)$, then it often
+admits a meromorphic continuation beyond $\mathbb{C} \setminus
+\sigma(\Delta)$.
+We study this meromorphic continuation as a map defined on a Riemann
+surface above
+$\mathbb{C} \setminus \sigma(\Delta)$. The poles of
+the meromorphically extended resolvent are called resonances. The image of
+the residue operator
+at a resonance is a $G$-module. The main problems are the existence and
+the localization of the
+resonances as well as the study of the (spherical) representations of $G$
+so obtained.
+In this talk, based on joint works with Joachim Hilgert and Tomasz Przebinda,
+we will describe a variety of different situations occurring in the rank
+two case.
+
+
+E. K. Narayanan
+Department of Mathetmatics
+Indian Institute of Science
+Bangalore 560012
+
+---------------------------------------------------------------------------
+Lost:
+Lost Red Colour cycle
+Lost ID card from D mess
+Lost IISc Student I-D Card
+Lost Umbrella
+Lost Green colour Wallet
+http://www.ece.iisc.ernet.in/~toall/lost.txt
+
+Jobs:
+Temporary positions at CCE for PROJECT TRAINEE & OFFICE ASSISTANT
+System Design Engineer and Administrator Position.
+Project Assistant Position in EE Dept., IISc
+ADVERTISEMENT FOR THE POSITION OF PROJECT ASSISTANTS
+Positions Available on a Wireless Sensor Networks/ Internet of Things Project
+http://www.ece.iisc.ernet.in/~toall/jobs.txt
+
+Found:
+Found a gent's wristwatch on Gulmohar Avenue near ECE
+http://www.ece.iisc.ernet.in/~toall/found.txt
+
+Blood:
+http://www.ece.iisc.ernet.in/~toall/blood.txt
+
+Campus Broadcast Policy:
+------------------------
+http://www.ece.iisc.ernet.in/~toall/index.html
+---------------------------------------------------------------------------
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

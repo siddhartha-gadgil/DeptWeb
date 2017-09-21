@@ -1,0 +1,94 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.151.221 with SMTP id y90csp148152ivg;
+        Mon, 12 Jun 2017 22:55:40 -0700 (PDT)
+X-Received: by 10.99.115.16 with SMTP id o16mr19348523pgc.31.1497333340071;
+        Mon, 12 Jun 2017 22:55:40 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1497333340; cv=none;
+        d=google.com; s=arc-20160816;
+        b=nLNTXYnjw9STVhmsBz6M6Ed7TSXuAXkqT0slTk/7nBhnwcg3Ajk/AqYABj4yF+owuB
+         Z14iEcNZRboEzRkV9clbcUqInhFAbit5iJw3bHXXS2W52r5ve1gClh9Lff9hADe5a56O
+         BcQGocwgDGZdnmZemfazoPAVTdX88xTsz511sQnmWoE6m5mSnieLLX7FU22K1iYrBwBr
+         hQCCA5w4OqNpRtl5kRMRTwOZZFeuEf6XvFMLcY0UcUF02AfBdXbbkN587FILK6B/a2yg
+         nyus65qW34wlOA20wcIU/zbkIDHtqMQX5YK7TJUTOQS1DB2F3cEHTTWX53MPbawEZyvJ
+         OrHw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:cc:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=pzMsMLmqWYsdT4xMNDcHg0aSCqES6w4Uz67/STKoZzg=;
+        b=FdQNGqo3gjwuvptB9IbDL54QdNo3E+h17fATaGA/+maQ5b5creAEllchIvMc/LO2f7
+         WM62ROxhqje+I1QSDOgf8Aj4MBOfbX0ohyRQk1DEDaKAd04lN5ODM9BHJkqj3hyqYS0/
+         xLtFrBWe8L29ANhYbObnQJY5lgPi9sF0/jwOlW/dbRJ73rvyuv98zBxYZFzMNiTS+/TP
+         MZm3jcVE9LG/VPDdT7dpvzkUGyesf3lx3ehOOjiVlh+Ezzf/lLc3JjT/NgKvmM9K5iM7
+         FIT1KIOgfzVH2u7VYO9clDQ7mOP8V2jm/ehhZgxCPxeBcInuea8xuk97rpD7cy5SP/Bz
+         SuXw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id t21si8466019pfa.99.2017.06.12.22.55.38;
+        Mon, 12 Jun 2017 22:55:39 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 4CF17AECADE;
+	Tue, 13 Jun 2017 11:25:35 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v5D6Q5Xu010020;
+	Tue, 13 Jun 2017 11:56:05 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v5D6Q5Nu010019;
+	Tue, 13 Jun 2017 11:56:05 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.240.12
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 13 Jun 2017 06:26:05 -0000
+Message-ID: <d274365127cffa8be2fbf5b32b4680a4.squirrel@math.iisc.ernet.in>
+Date: Tue, 13 Jun 2017 06:26:05 -0000
+Subject: Math Dept Seminar June 15 (Arindam Banerjee)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Cc: abhishekbanerjee1313@gmail.com
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 4CF17AECADE.A96C9
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.91, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	SUBJECT_MONTH -1.50, T_RP_MATCHES_RCVD -0.01)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1497938135.50179@Xgzbr5jvf+9ws5Hia3wnxg
+X-Spam-Status: No
+
+Speaker : Arindam Banerjee (Purdue University, USA)
+
+Date : June 15, 2017
+
+Time : 3pm
+
+Location LH-1
+
+
+Title: Homological Invariants and Combinatorics of Finite Simple Graphs
+
+Abstract: In this talk the interplay between the combinatorial structures
+of finite simple graphs and various homological invariants like
+regularity, depth etc. of related algebraic objects shall be discussed.
+Some open problems, recent developments and ongoing projects shall be
+discussed. In particular some new techniques developed in my thesis to
+study Castelnuovo-Mumford regularity of algebraic objects related to
+graphs shall be discussed in some details.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

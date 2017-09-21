@@ -1,0 +1,70 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.13.210.4 with SMTP id u4csp1462974ywd;
+        Fri, 4 Sep 2015 03:27:35 -0700 (PDT)
+X-Received: by 10.66.142.233 with SMTP id rz9mr6736698pab.23.1441362455529;
+        Fri, 04 Sep 2015 03:27:35 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id py4si3627315pac.15.2015.09.04.03.27.33;
+        Fri, 04 Sep 2015 03:27:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t84ARS4I023950;
+	Fri, 4 Sep 2015 15:57:28 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t84AbYTx013863
+	for <m_seminar@math.iisc.ernet.in>; Fri, 4 Sep 2015 16:07:34 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t84AbYcp013862;
+	Fri, 4 Sep 2015 16:07:34 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.12 (proxying for 117.192.118.152)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 4 Sep 2015 10:37:34 -0000
+Message-ID: <3d1b484cdf66fb79ae84cadd0995507c.squirrel@math.iisc.ernet.in>
+Date: Fri, 4 Sep 2015 10:37:34 -0000
+Subject: [Math Dept Seminar Nov 26, Vikas Singh]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t84ARS4I023950
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Speaker: Vikas Singh (Universite Paris-Sud)
+
+Date: Nov 26, 2015
+
+Time: 3:00 pm
+
+Location: LH1
+
+Title: " Existence of Nash equilibrium for
+chance-constrained games"
+
+Abstract:
+We consider an n-player strategic game with finite action sets. The payoffs
+of each player are random variables. We assume that each player uses a
+satisficing payoff criterion defined by a chance-constraint, i.e., players
+face a chance-constrained game. We consider the cases where payoffs follow
+normal and elliptically symmetric distributions. For both cases we show
+that there always exists a mixed strategy Nash equilibrium of corresponding
+chance-constrained game.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

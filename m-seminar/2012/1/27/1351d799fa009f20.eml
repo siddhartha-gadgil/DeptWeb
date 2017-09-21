@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.53.81 with SMTP id l17csp20118ibg;
+        Thu, 26 Jan 2012 20:43:25 -0800 (PST)
+Received: by 10.68.72.69 with SMTP id b5mr11177909pbv.120.1327639404903;
+        Thu, 26 Jan 2012 20:43:24 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id z7si8610880pbm.75.2012.01.26.20.43.22
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 26 Jan 2012 20:43:24 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q0R4h5Gv030533;
+	Fri, 27 Jan 2012 10:13:05 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q0R4iH8J016027
+	for <m_seminar@math.iisc.ernet.in>; Fri, 27 Jan 2012 10:14:17 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q0R4iHtc016024
+	for <m_seminar@math.iisc.ernet.in>; Fri, 27 Jan 2012 10:14:17 +0530
+Date: Fri, 27 Jan 2012 10:14:17 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Colloquium] Math: Today: "Commuting differential operators on Lie
+ groups and spectral multipliers"
+Message-ID: <Pine.LNX.4.64.1201271013310.15676@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q0R4h5Gv030533
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		             Department of Mathematics
+ 		      Indian Institute of Science, Bangalore
+
+
+  				COLLOQUIUM
+
+
+Speaker	: Prof. Alessio Martini
+ 	  Universitaet zu Kiel
+
+Title	: Commuting differential operators on Lie groups and
+ 	  spectral multipliers
+
+Date	: January 27, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+Let D_1,...D_n be a system of commuting, formally self-adjoint, left
+invariant operators on a Lie group G. Under suitable hypotheses, we show
+that D_1,...D_n are essentially self-adjoint on L^2(G) and admit a joint
+spectral resolution, and we characterize their joint L^2 spectrum as the
+set of eigenvalues corresponding to a class of generalized joint
+eigenfunctions. Moreover, in the case G is a homogeneous group and
+D_1,...D_n are homogeneous, we obtain L^p-boundedness results for
+operators of the form m(D_1,...D_n), analogous to the
+Mihlin-Hormander and Marcinkiewicz multiplier theorems.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					      Chairman,
+ 					      Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

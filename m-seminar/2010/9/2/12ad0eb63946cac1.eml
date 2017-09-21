@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.216.50.139 with SMTP id z11cs26530web;
+        Wed, 1 Sep 2010 22:29:15 -0700 (PDT)
+Received: by 10.224.2.134 with SMTP id 6mr5954080qaj.237.1283405341890;
+        Wed, 01 Sep 2010 22:29:01 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.65])
+        by mx.google.com with ESMTP id 11si7216643vcp.109.2010.09.01.22.29.00;
+        Wed, 01 Sep 2010 22:29:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 220.227.207.65 as permitted sender) client-ip=220.227.207.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 220.227.207.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id o825TMCi028688;
+	Thu, 2 Sep 2010 10:59:22 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o8260A5E012904
+	for <m_seminar@math.iisc.ernet.in>; Thu, 2 Sep 2010 11:30:10 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id o8260At9012901
+	for <m_seminar@math.iisc.ernet.in>; Thu, 2 Sep 2010 11:30:10 +0530
+Date: Thu, 2 Sep 2010 11:30:10 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Sep 6-7: Algebraic Theory of Quantum Fields
+Message-ID: <Pine.LNX.4.64.1009021128290.9109@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: o825TMCi028688
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		     	Department of Mathematics
+ 		 Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+Speaker	: Prof. H. Araki
+ 	   Kyoto University
+
+Title	: Algebraic Theory of Quantum Fields
+
+Dates & times :
+
+ 	 September 6, 2010, 4:00-5:00 p.m.
+ 	 September 7, 2010, 2:30-3:30 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+
+Abstract:
+In the traditional mathematical approach to quantum field theory,
+the basic ingredients are quantum fields as an (unbounded)
+operator-valued distribution satisfying standard axioms, which
+provides a unitary representation of the Poincare group (coming
+from the special theory of relativity) with particle spectrum,
+the commutativity of observables at space-like distance and the
+positivity of the energy operator (the generator of the time
+translation). The operator algebra approach is to replace concrete
+fields by an operator algebra ${\mathcal A}({\mathcal O})$ for each
+finite space-time region ${\mathcal O}$.
+
+In the first lecture, it will be explained how to develop the
+scattering theory without having a concrete field.
+
+In the second lecture, we will turn to a specific mathematical
+aspect found in the study of operator algebras associated with a
+(general) quantum field in a wedge shaped region of the Minkowski
+space-time. It is the connection of their modular operator and the
+modular conjugation operator with kinematical transformations. It
+shows how a deep mathematical structure is contained in quantum
+field theory if we watch it carefully.
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					 Chairman,
+ 					 Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

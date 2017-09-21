@@ -1,0 +1,68 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.220.72.203 with SMTP id n11cs105261vcj;
+        Sun, 21 Nov 2010 22:09:39 -0800 (PST)
+Received: by 10.142.194.1 with SMTP id r1mr4329991wff.84.1290406178117;
+        Sun, 21 Nov 2010 22:09:38 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id y5si12618204wfd.146.2010.11.21.22.09.36;
+        Sun, 21 Nov 2010 22:09:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id oAM6AZd4012647;
+	Mon, 22 Nov 2010 11:40:35 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id oAM6jEY5007744
+	for <m_seminar@math.iisc.ernet.in>; Mon, 22 Nov 2010 12:15:14 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id oAM6jEZk007741
+	for <m_seminar@math.iisc.ernet.in>; Mon, 22 Nov 2010 12:15:14 +0530
+Date: Mon, 22 Nov 2010 12:15:14 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 24th Nov, 2010 "An iterated observer method
+ forrecovering the initial state for a class of PDE's"
+Message-ID: <Pine.LNX.4.64.1011221213370.1632@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: oAM6AZd4012647
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		      	Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+Speaker	: Prof. Marius Tucsnak
+ 	  Institut Elie Cartan
+ 	  Universite Nancy-1
+ 	  France
+
+Title	: An iterated observer method for recovering the initial state
+ 	  for a class of PDE's
+
+Date	: November 24, 2010
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					       Chairman,
+ 					       Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

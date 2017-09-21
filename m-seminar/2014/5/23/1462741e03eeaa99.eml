@@ -1,0 +1,116 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.101.8 with SMTP id fc8csp230720lbb;
+        Thu, 22 May 2014 21:06:09 -0700 (PDT)
+X-Received: by 10.68.227.4 with SMTP id rw4mr2432679pbc.3.1400817967596;
+        Thu, 22 May 2014 21:06:07 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id gc6si2085948pac.152.2014.05.22.21.06.05
+        for <multiple recipients>;
+        Thu, 22 May 2014 21:06:07 -0700 (PDT)
+Received-SPF: none (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s4N461KF025915;
+	Fri, 23 May 2014 09:36:01 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s4N47SEr012906
+	for <m_seminar@math.iisc.ernet.in>; Fri, 23 May 2014 09:37:28 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id s4N47S5M012902
+	for <m_seminar@math.iisc.ernet.in>; Fri, 23 May 2014 09:37:28 +0530
+Date: Fri, 23 May 2014 09:37:28 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Reminder [Thesis Colloquium] Math : Today : "Compactness theorem
+ for the spaces of distance measure spaces and Riemann surface laminations"
+ (fwd)
+Message-ID: <alpine.LFD.2.03.1405230936090.12702@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1948567332-1400574707=:18901"
+Content-ID: <alpine.LFD.2.03.1405201401510.18901@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1948567332-1400574707=:18901
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; FORMAT=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1405201401511.18901@math.iisc.ernet.in>
+
+Dear all,
+
+
+                                   THESIS COLLOQUIUM
+
+
+Speaker : Mr. Divakaran D.
+
+Title   : Compactness theorem for the spaces of distance measure spaces and 
+Riemann surface laminations.
+
+Date    : 23rd May, 2014 (Friday)
+
+Time    : 11.00 a.m. - 12.00 noon
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Gromov’s compactness theorem for metric spaces, a compactness theorem for the 
+space of compact metric spaces equipped with the Gromov-Hausdorff distance, is 
+a landmark theorem with many applications. We give a generalisation of this 
+result - more precisely, we prove a compactness theorem for the space of 
+distance measure spaces equipped with the generalised 
+Gromov-Hausdorff-Levi-Prokhorov distance. A distance measure space is a triple 
+(X, d, μ), where (X, d) forms a distance space (a generalisation of a metric 
+space where, we allow the distance between two points to be infinity) and μ is 
+a finite Borel measure.
+
+Using this result, we prove that the Deligne-Mumford compactifiaction is the 
+completion of the moduli space of Riemann surfaces under generalised 
+Gromov-Hausdorff-Levi-Prokhorov distance. The Deligne-Mumford compactification, 
+a compactification of the moduli space of Riemann surfaces with explicit 
+description of the limit points, and the closely related Gromov's compactness 
+theorem for pseudo-holomorphic curves in symplectic manifolds (in particular 
+curves in an algebraic variety) are important results for many areas of 
+mathematics.
+
+While Gromov's compactness theorem for pseudo-holomorphic curves is an 
+important tool in symplectic topology, its applicability is limited due to the 
+non-existence of a general method to construct pseudo-holomorphic curves. 
+Considering a more general class of domains (in place of Riemann surfaces) is 
+likely to be useful. Riemann surface laminations are a natural generalisation 
+of Riemann surfaces. Theorems such as the uniformisation theorem for surface 
+laminations due to Alberto Candel (which is a partial generalisation of the 
+uniformisation theorem for surfaces), generalisations of the Gauss-Bonnet 
+theorem proved for some special cases, and the topological classification of 
+“almost all" leaves using harmonic measures reinforces the usefulness of this 
+line on enquiry. Also, the success of essential laminations,as generalised 
+incompressible surfaces, in the study of 3-manifolds suggests that a similar 
+approach may be useful in symplectic topology. With this motivation we prove a 
+compactness theorem analogous to the Deligne-Mumford compactification for the 
+space of Riemann surface laminations.
+
+
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1948567332-1400574707=:18901--

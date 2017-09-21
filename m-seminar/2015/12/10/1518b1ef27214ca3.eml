@@ -1,0 +1,67 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.27.234 with SMTP id w10csp306390ieg;
+        Thu, 10 Dec 2015 01:00:40 -0800 (PST)
+X-Received: by 10.202.72.143 with SMTP id v137mr7987027oia.120.1449738040459;
+        Thu, 10 Dec 2015 01:00:40 -0800 (PST)
+Return-Path: <Mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id u62si12399181oia.90.2015.12.10.01.00.38;
+        Thu, 10 Dec 2015 01:00:39 -0800 (PST)
+Received-SPF: pass (google.com: domain of Mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of Mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=Mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id tBA8vnY4009433;
+	Thu, 10 Dec 2015 14:27:49 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id tBA98n49025669
+	for <m_seminar@math.iisc.ernet.in>; Thu, 10 Dec 2015 14:38:49 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id tBA98nvW025668;
+	Thu, 10 Dec 2015 14:38:49 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to Mathseminars@localhost using -f
+Received: from 10.16.40.13 (proxying for 192.68.254.4)
+        (SquirrelMail authenticated user Mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 10 Dec 2015 09:08:49 -0000
+Message-ID: <c7d8b3efd227ff247bd52b1190d37150.squirrel@math.iisc.ernet.in>
+Date: Thu, 10 Dec 2015 09:08:49 -0000
+Subject: [Reminder: Math Dept Seminar Today (Ronnie Sebastian)]
+From: Mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: tBA8vnY4009433
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Date: Dec 10
+
+Location: LH-1
+
+Time: 4pm
+
+Speaker : Ronnie Sebastian (IISER Pune)
+
+Title: Voevodsky's smash nilpotence conjecture
+
+Abstract: Voevodsky's conjecture states that numerical and smash
+equivalence coincide for algebraic cycles. I shall explain the conjecture
+in more detail and talk about some of the examples for which this
+conjecture is known.
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

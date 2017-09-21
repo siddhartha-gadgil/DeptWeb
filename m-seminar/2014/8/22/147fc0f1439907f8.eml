@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.136.88 with SMTP id k85csp301426iod;
+        Thu, 21 Aug 2014 21:52:33 -0700 (PDT)
+X-Received: by 10.68.138.13 with SMTP id qm13mr538521pbb.46.1408683152972;
+        Thu, 21 Aug 2014 21:52:32 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id jb1si14547006pbc.245.2014.08.21.21.52.31
+        for <multiple recipients>;
+        Thu, 21 Aug 2014 21:52:32 -0700 (PDT)
+Received-SPF: none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s7M4qS5Q032474;
+	Fri, 22 Aug 2014 10:22:28 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s7M4qLDq013803;
+	Fri, 22 Aug 2014 10:22:21 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s7M4qLEl013796;
+	Fri, 22 Aug 2014 10:22:21 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.14
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 22 Aug 2014 04:52:21 -0000
+Message-ID: <ac0595f6f2e1132958d12082ed180ded.squirrel@math.iisc.ernet.in>
+Date: Fri, 22 Aug 2014 04:52:21 -0000
+Subject: Reminder: TODAY: Seminars (Eigenfunctions series): "The
+ Littlewood-Offord and related problems"]
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in, m_seminar@math.iisc.ernet.in
+Cc: ug_third_year@math.iisc.ernet.in, ug_fourth_year@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s7M4qS5Q032474
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+    We shall have a pair of lectures as part of the eigenfunctions series
+- a monthly series aimed at promoting research interactions.
+
+Speaker: Manjunath Krishnapur
+
+Title: The Littlewood-Offord and related problems
+
+Date: Friday, August 22, 2014.
+
+Time: Lecture I: 2:15-3:15 p.m.
+      Coffee break 3:15 p.m. -3:30 p.m.
+      Lecture II: 3:30-4:30 p.m.
+      High Tea: 4:30 p.m.
+
+Venue: LH-I, Department of Mathematics, IISc.
+
+Abstract:
+       Given n non-zero real numbers v_1,...,v_n, what is the maximum
+possible number of subsets {i_1,...,i_k} that can have the same
+subset sum v_{i_1}+...+v_{i_n}? Littlewood and Offord raised the
+question, showed that the answer is at most 2^nlog(n)/\sqrt{n} and
+conjectured that the log(n) can be removed. Erdos proved the
+conjecture and raised more questions that have continued to attract
+attention, primarily relating the arithmetic structure of
+v_1,...,v_n and the maximum number of subsets with a given
+subset-sum.
+
+In the first lecture, we shall review and prove several of these results
+(due to Littlewood-Offord, Erdos, Moser, Stanley, Halasz, Tao-Vu,
+Rudelson-Vershynin...) and show an application to random matrices.
+
+In the second part, we start with a question in random polynomials and see
+how it leads to a variant of the Littlewood-Offord problem that has not
+been considered before.
+
+Most of the material presented should be accessible to undergraduate
+students. Much of the lecture is an outcome of my joint study in summer
+with Sourav Sarkar (ISI, Kolkata).
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,93 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp593137ieb;
+        Wed, 27 Jul 2016 23:55:47 -0700 (PDT)
+X-Received: by 10.98.103.214 with SMTP id t83mr56791532pfj.158.1469688947549;
+        Wed, 27 Jul 2016 23:55:47 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.71])
+        by mx.google.com with ESMTP id hm6si10795092pac.254.2016.07.27.23.55.46;
+        Wed, 27 Jul 2016 23:55:47 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.71 as permitted sender) client-ip=203.200.35.71;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.71 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 6D8C2AE361A;
+	Thu, 28 Jul 2016 12:25:32 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u6S6xhrj007497
+	for <m_seminar@math.iisc.ernet.in>; Thu, 28 Jul 2016 12:29:43 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u6S6xhqY007494
+	for <m_seminar@math.iisc.ernet.in>; Thu, 28 Jul 2016 12:29:43 +0530
+Date: Thu, 28 Jul 2016 12:29:43 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Reminder[Seminar] MATH : TODAY : "Geometry of Geodesics in Random
+ Spatial Processes :  Exactly  Solvable  Models and Beyond"
+Message-ID: <alpine.LFD.2.03.1607281229120.7062@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-1047903566-1469689116=:7062"
+Content-ID: <alpine.LFD.2.03.1607281229121.7062@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 6D8C2AE361A.AA1DF
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1470293735.17198@xB6g1Dr2gsErvGHrefMvOw
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1047903566-1469689116=:7062
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1607281229122.7062@math.iisc.ernet.in>
+
+          DEPARTMENT  OF  MATHEMATICS
+  
+            IISc., BANGALORE  - 12
+
+----------------------------------------------------------------------------------------------
+
+                                SEMINAR
+---------------------------------------------------------------------------------------------
+
+
+Speaker :  Prof. Riddhipratim Basu (Stanford university)
+                  
+Title      : Geometry of Geodesics in Random Spatial Processes : Exactly 
+ Solvable  Models and Beyond
+
+Day &  Date  : 28 July 2016 (Thursday)
+
+Time   :  4.00  p.m.
+
+ Venue   :     Lecture Hall  I, Department of Mathematics
+
+ Abstract :  Kardar, Parisi and Zhang introduced a universality class (the 
+so-called KPZ universality class) in 1986 which is believed to explain the 
+universal behaviour in a large class of two dimensional random growth models 
+including first and last passage  percolation. A number of  breakthroughs has 
+led to  an explosion of mathematically  rigorous results in this field in 
+recent years.  However, these have mostly been restricted to the class of 
+"exactly solvable models", where exact formulae are available using powerful 
+tools of random matrices,  algebraic combinatorics and representation theory; 
+ beyond this class the  understanding remains rather limited. I shall talk 
+about a geometric  approach to these problems based on studying the geometry of 
+geodesics  (optimal paths), and describe some recent progress along these 
+lines.
+                                            
+
+ All   are    Welcome
+
+    CHAIRMAN
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1047903566-1469689116=:7062--

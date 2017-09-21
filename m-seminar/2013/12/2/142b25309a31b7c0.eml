@@ -1,0 +1,93 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.194.28.100 with SMTP id a4csp102476wjh;
+        Mon, 2 Dec 2013 00:00:56 -0800 (PST)
+X-Received: by 10.66.145.166 with SMTP id sv6mr65137295pab.31.1385971255390;
+        Mon, 02 Dec 2013 00:00:55 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id pj7si13971860pbc.39.2013.12.02.00.00.53
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 02 Dec 2013 00:00:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id rB27whUs020721;
+	Mon, 2 Dec 2013 13:28:43 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rB27rwYD027082
+	for <m_seminar@math.iisc.ernet.in>; Mon, 2 Dec 2013 13:23:58 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rB27rwRY027081;
+	Mon, 2 Dec 2013 13:23:58 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 2 Dec 2013 13:23:58 +0530 (IST)
+Message-ID: <9af8d1a7cbf1c566cc8847c6a185b320.squirrel@math.iisc.ernet.in>
+Date: Mon, 2 Dec 2013 13:23:58 +0530 (IST)
+Subject: [Lecture series] Math:Dec 4th,
+      2013:"New directions in complex analysis on symmetric domain"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: rB27whUs020721
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+---------------------------- Original Message ----------------------------
+Subject: [Lecture series] Math:Dec 4th,      2013:"New directions in
+complex analysis on symmetric domain"
+From:    "Math Seminar IISc" <mathseminars@localhost>
+Date:    Mon, December 2, 2013 1:22 pm
+To:      pooja@math.iisc.ernet.in
+--------------------------------------------------------------------------
+
+Dear all,
+
+Professor Harald Upmeier from University of Marburg, Germany
+will give four lectures on "New directions in complex analysis on
+symmetric domain". Details of his lectures are given below.
+
+
+
+Speaker:          Professor Harald Upmeier
+                          University of Marburg, Germany
+
+Title:             New directions in complex analysis on symmetric domain
+
+Date & time:      Dec 4, Dec 6, and Dec 9 at 3.30pm, Dec 11 at 2.00pm
+
+Venue:            LH-I, department of Mathematics.
+
+All are cordially invited.
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

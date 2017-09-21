@@ -1,0 +1,73 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.43.193 with SMTP id x1cs138405ibe;
+        Tue, 22 Nov 2011 20:37:07 -0800 (PST)
+Received: by 10.231.67.80 with SMTP id q16mr5916398ibi.86.1322023025366;
+        Tue, 22 Nov 2011 20:37:05 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id ui4si6428583icb.105.2011.11.22.20.37.01
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 22 Nov 2011 20:37:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id pAN4ZdV9003105;
+	Wed, 23 Nov 2011 10:05:40 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id pAN4fgHf003355
+	for <m_seminar@math.iisc.ernet.in>; Wed, 23 Nov 2011 10:11:42 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id pAN4fgV9003352
+	for <m_seminar@math.iisc.ernet.in>; Wed, 23 Nov 2011 10:11:42 +0530
+Date: Wed, 23 Nov 2011 10:11:42 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Holomorphic Morse inequalities and the
+ Green-Griffiths-Lang conjecture--Part I"
+Message-ID: <Pine.LNX.4.64.1111231010500.3102@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.128, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	RP_8BIT 1.27, _LOCAL_R_TO 0.50)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+  		     	  Department of Mathematics
+  		     Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Jean-Pierre Demailly
+ 	  Institut Fourier, Universite de Grenoble
+ 	  France
+
+Title	: Holomorphic Morse inequalities and the Green-Griffiths-Lang
+ 	  conjecture--Part I
+
+Dates	: November 23, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+
+**PLEASE NOTE THAT THERE ARE TWO PARTS TO PROF. DEMAILLY'S TALK. THE
+    SECOND PART IS SCHEDULED FOR THE SAME TIME TOMORROW.**
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					       Chairman,
+  					       Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

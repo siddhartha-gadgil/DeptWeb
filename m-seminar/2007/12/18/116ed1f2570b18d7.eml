@@ -1,0 +1,73 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.119.4 with SMTP id r4cs117710buc;
+        Tue, 18 Dec 2007 03:59:11 -0800 (PST)
+Received: by 10.114.125.2 with SMTP id x2mr4054702wac.119.1197979150318;
+        Tue, 18 Dec 2007 03:59:10 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id v39si20140833wah.2007.12.18.03.58.51;
+        Tue, 18 Dec 2007 03:59:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id lBIBr1Qf004146;
+	Tue, 18 Dec 2007 17:23:01 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id lBIHE6rK021199;
+	Tue, 18 Dec 2007 17:14:06 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id lBIHE6FK021196;
+	Tue, 18 Dec 2007 17:14:06 GMT
+Date: Tue, 18 Dec 2007 17:14:06 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 20th December 2007: Seminar - "Holomorphic extension of CR
+ functions from hypersurfaces with sigularities"
+Message-ID: <Pine.LNX.4.61.0712181709500.15982@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Please note the unusual time and venue.
+
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Dr. Debraj Chakrabarti,
+ 				University of Western Ontario
+
+      Title 		  : Holomorphic extension of CR functions from
+ 				hypersurfaces with singularities
+
+      Day & Date           : Thursday, December 20
+
+      Time                 : 11.30 a.m.
+
+      Venue                :  Lecture  Hall -  III
+                              Dept. of  Mathematics
+
+Abstract:
+ 	We show that Trepreau's theorem (minimality of a hypersurface at a 
+point implies one sided extension of all CR functions) does not hold if 
+the hypersurface is allowed to have singularities. We formulate a 
+geometric condition called two sided support which is the obstruction to 
+such extension.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

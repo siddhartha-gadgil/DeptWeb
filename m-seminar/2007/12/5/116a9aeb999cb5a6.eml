@@ -1,0 +1,63 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.20 with SMTP id s20cs58056buc;
+        Wed, 5 Dec 2007 01:41:50 -0800 (PST)
+Received: by 10.115.46.9 with SMTP id y9mr1962800waj.1196847708979;
+        Wed, 05 Dec 2007 01:41:48 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id j31si1630067waf.2007.12.05.01.41.13;
+        Wed, 05 Dec 2007 01:41:48 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id lB59ZNjQ009645;
+	Wed, 5 Dec 2007 15:05:23 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id lB5Ev8sZ010618;
+	Wed, 5 Dec 2007 14:57:08 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id lB5Ev85Y010615;
+	Wed, 5 Dec 2007 14:57:08 GMT
+Date: Wed, 5 Dec 2007 14:57:07 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 7th December 2007: Seminar - "Some queer diffusions"
+Message-ID: <Pine.LNX.4.61.0712051455090.10278@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 9, ALL_TRUSTED -1.80, BAYES_60 1.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Prof. Daniel Stroock,
+ 				MIT
+
+      Title 		  : Some queer diffusions
+
+      Day & Date           : Friday, December 7.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

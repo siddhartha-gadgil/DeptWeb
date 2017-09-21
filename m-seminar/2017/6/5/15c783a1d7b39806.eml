@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.151.221 with SMTP id y90csp1683553ivg;
+        Mon, 5 Jun 2017 05:28:13 -0700 (PDT)
+X-Received: by 10.84.131.1 with SMTP id 1mr14701973pld.232.1496665693580;
+        Mon, 05 Jun 2017 05:28:13 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1496665693; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vOaWWCTM+A0WnRJB1Wz5ZtVbFCgP3N2d5yNQSMuHfZaLSxf+i8SK3Nf1J+YQ2D9CRV
+         zPUDxi9jpW9sMF4qoeh9SET6lxLQTPmMVUH5/XnRzC+s2btYCKLW4B9rvGbrlh4cm15U
+         co7ouSziMB0TF5YNiPcdiQk9q7PYmICtKa9ZyTTgBD7eqULtYbK11gXSCHebQk7fFxIs
+         d4w4MKym7jG9z0OT3954enRx0qcT7VRXgXcNQWuo6E+fXflOsPGV+EPy9qYVEJ1XaF64
+         d6M+d+VEEBV7e4O45YpFgp3HuqeftrvoHAfdeXY09urml5gZmW4BZAZ8KBGtcExy3Vam
+         ge0Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:mime-version:user-agent:message-id:subject
+         :to:from:date:arc-authentication-results;
+        bh=uUZgMwDsRe32bO4v562qgaHHzP3jhxScVCsNtc1QYYc=;
+        b=iK8gLwW/MI3/ZQHXL3URZBQhnpZXjAqqg0f3hLboLyj768maAkJ7tek1IHHUMw2YVd
+         b5RCbJwCD3+uOON6PsIFR0DUJZCi4LsDLe1f6dtzcQuJolV+YGxfaPQvk4z/Deu1rnZE
+         UfFu73F6nevlZwAyAbElmR7U3eiVOBvHYQT0hAIf4V1yKmXWfnqyFGIAd6G6CleBJQAn
+         tMSo0CpBeyW4cEM+887YU+whiecO/Hca7OSAsFY9IJBeBe12gPl26V7YgJozkfuxU1Tw
+         IJ0+nHYc/rCvMuVkPG1LRpYdSnVfSePe3rCTU8fLJj40oTToAT29j7tv+piB7WAyQfsd
+         yEJw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id z61si7385380plb.173.2017.06.05.05.28.12;
+        Mon, 05 Jun 2017 05:28:13 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id E5B0FAED1D4;
+	Mon,  5 Jun 2017 17:58:05 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v55Cwhli016046
+	for <m_seminar@math.iisc.ernet.in>; Mon, 5 Jun 2017 18:28:43 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id v55CwhTp016043
+	for <m_seminar@math.iisc.ernet.in>; Mon, 5 Jun 2017 18:28:43 +0530
+Date: Mon, 5 Jun 2017 18:28:43 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: SAMOSe Lecture: Friday 9/4/17, Prathamesh Turaga, "To Be or Knot to
+ Be" (fwd)
+Message-ID: <alpine.LFD.2.03.1706051828230.2912@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-875464829-1496667523=:2912"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: E5B0FAED1D4.AB000
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1497270487.57249@38aTNxpi7SNJRFhzsH/OYw
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-875464829-1496667523=:2912
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+---------- Forwarded message ----------
+Date: Mon, 5 Jun 2017 15:41:01 +0530
+From: David Farris <pseudoholomorphic@gmail.com>
+Subject: SAMOSe Lecture: Friday 9/4/17, Prathamesh Turaga, "To Be or Knot to Be"
+
+Time and Place: 4pm Friday 9 June, Simons Centre Ground Floor, NCBS
+
+Speaker: Prathamesh Turaga (Institute of Mathematical Sciences, Chennai)
+Title: To Be or Knot to Be
+
+Abstract:
+
+Knot theory is a branch of mathematical research in which one studies the mathematical formulation of the intuitive notion of a knotted piece of rope.The modern day
+origins of this topic lie in the earliest models of atom by Lorn Kelvin. Over the years, it has transcended its origin to become an important area of topology, with
+applications which range from string theory and robotics to statistical mechanics and DNA structures.
+
+A fundamental problem of this area of research is to find algorithms to recognize if a given 2-dimensional picture of a entangled loop is actually 'knotted'. Very few
+such algorithms have been discovered. 
+
+In this talk, I intend to give a brief history of this area and the problem. I further intend to discuss a new implementable algorithm that was obtained in the course of
+an ongoing project with Meesum Syed, IMSc. The talk will have a strong popular math flavour, and should be accessible to everyone with a high school background in Math.
+
+--
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-875464829-1496667523=:2912--

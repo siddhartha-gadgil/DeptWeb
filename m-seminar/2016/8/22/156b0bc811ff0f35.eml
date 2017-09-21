@@ -1,0 +1,72 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp1261438ieb;
+        Sun, 21 Aug 2016 22:32:39 -0700 (PDT)
+X-Received: by 10.28.18.149 with SMTP id 143mr12890903wms.28.1471843959388;
+        Sun, 21 Aug 2016 22:32:39 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id tu15si16927695wjb.26.2016.08.21.22.32.32;
+        Sun, 21 Aug 2016 22:32:38 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 9920DAE37A7;
+	Mon, 22 Aug 2016 11:02:28 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u7M5a9Qf008228
+	for <m_seminar@math.iisc.ernet.in>; Mon, 22 Aug 2016 11:06:09 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u7M5a96W008227;
+	Mon, 22 Aug 2016 11:06:09 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.112 (proxying for 10.134.12.127)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Mon, 22 Aug 2016 05:36:09 -0000
+Message-ID: <f5c37d777267a9024bcf1f96acc939b3.squirrel@math.iisc.ac.in>
+Date: Mon, 22 Aug 2016 05:36:09 -0000
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 9920DAE37A7.AEF2E
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.022, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -0.22, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+Subject: Math Dept Seminar Aug 31 (Sudesh Kaur Khanduja)
+MailScanner-NULL-Check: 1472448748.90975@rvl6dhlzDOn3IvO4Ha2DUA
+X-Spam-Status: No
+
+Title: When is $R[\theta]$  integrally closed?
+
+Speaker: Prof Sudesh Kaur Khanduja
+
+Affiliation: IISER, Mohali
+
+Location : LH-1
+
+Time : 11 AM
+
+Abstract: Let $R$ be an integrally closed domain with quotient field $K$
+and $\theta$ be an element of an  integral domain containing $R$ with
+$\theta$  integral over $R$ and  $F(x)$ be the minimal polynomial of
+$\theta$ over $K$. We shall discuss some necessary and sufficient
+conditions to be  satisfied by $F(x)$ so that $R[\theta]$  is integrally
+closed. We shall also give applications of the results for algebraic
+number fields to have a power basis.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

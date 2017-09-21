@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.16 with SMTP id q16cs110654buc;
+        Wed, 27 Feb 2008 02:30:40 -0800 (PST)
+Received: by 10.114.80.4 with SMTP id d4mr7106878wab.44.1204108238713;
+        Wed, 27 Feb 2008 02:30:38 -0800 (PST)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id m24si14163807waf.57.2008.02.27.02.30.25;
+        Wed, 27 Feb 2008 02:30:38 -0800 (PST)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m1RAOHil009062;
+	Wed, 27 Feb 2008 15:54:17 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m1RFfabg010293
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Feb 2008 15:41:36 GMT
+Received: from localhost (harish@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m1RFfaaD010290
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Feb 2008 15:41:36 GMT
+Date: Wed, 27 Feb 2008 15:41:36 +0000 (UTC)
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Message-ID: <Pine.LNX.4.61.0802271537010.3354@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046162175-1508355989-1204126801=:3354"
+Content-ID: <Pine.LNX.4.61.0802271540110.3354@math.iisc.ernet.in>
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: harish@math.iisc.ernet.in
+Subject: Seminar at IISc: 28th Feb: MATHEMATICAL MODELLING IN HEMODYNAMICS II
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-1508355989-1204126801=:3354
+Content-Type: TEXT/PLAIN; CHARSET=X-UNKNOWN; FORMAT=flowed
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-ID: <Pine.LNX.4.61.0802271540111.3354@math.iisc.ernet.in>
+
+
+Dear All,
+
+Speaker:   Dr. Anna Zau=9Akov=E1
+Institute of Numerical Simulation,
+Hamburg University of Technology, Germany
+
+Title:    MATHEMATICAL MODELLING IN HEMODYNAMICS II
+
+
+Time: 4 to 5 PM, 28th (Thursday) Feb
+
+Venue: LH 3, Dept of Math, IISc
+
+
+
+
+On the existence and uniqueness of non-Newtonian shear dependent flow in
+compliant vessel
+
+Abstract 2
+We show the generalization of previous existence and uniqueness result for
+Navier-Stokes equation in time-dependent domain, based on energy method
+and global iterative approach for decoupling the flow and deformation
+problem. We consider here the power law viscosity model describing
+shear-dependent non-Newtonian fluids. We explain new techniques for
+additional non-linear viscous term, based on monotonous behaviour of
+corresponding viscous operator. After proving the existence of weak
+solution on a domain with known deformation &#951;=3D &#951;k, the
+convergence of iterative process with respect to the domain deformation
+can be shown for a special case of coefficients in the deformation
+equation.
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-1508355989-1204126801=:3354--

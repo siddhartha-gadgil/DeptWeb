@@ -1,0 +1,156 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp999926obd;
+        Sun, 4 Dec 2016 00:01:04 -0800 (PST)
+X-Received: by 10.84.215.138 with SMTP id l10mr113431316pli.166.1480838464645;
+        Sun, 04 Dec 2016 00:01:04 -0800 (PST)
+Return-Path: <vamsipritham@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id 7si10787032plk.268.2016.12.04.00.01.03;
+        Sun, 04 Dec 2016 00:01:04 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) smtp.mailfrom=vamsipritham@gmail.com
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id AB9B4AE3A9E;
+	Sun,  4 Dec 2016 13:31:00 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id uB48YuG5003598
+	for <m_seminar@math.iisc.ernet.in>; Sun, 4 Dec 2016 14:04:56 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vamsipritham@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="vamsipritham@gmail.com"; helo=mail-yw0-f174.google.com; client-ip=209.85.161.174
+Received: from mail-yw0-f174.google.com (mail-yw0-f174.google.com [209.85.161.174])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id C488CAE012F
+	for <m_seminar@math.iisc.ernet.in>; Sun,  4 Dec 2016 13:30:39 +0530 (IST)
+Received: by mail-yw0-f174.google.com with SMTP id i145so240027279ywg.2
+        for <m_seminar@math.iisc.ernet.in>; Sun, 04 Dec 2016 00:00:39 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=seWNSDy66X6doKZwCdECBIhtwycJ+AK7Y0Gth1Pxn0o=;
+        b=ZTRuj7QqLtv8yMMiSMMASGtYopd17zwqsF50KlTmHSPLG1oCDv8xneL3Gknu23xRqF
+         nBf8lM5bS0cwhLqWqHPx+MS+UpD+VB3zcya1LQn6369p3DP6A/zuTlJ36VuAING/ReJb
+         WrgV4YgjhX0GL/96GlZnLPxmEaWDIMUvJoV92r03JLNDjoyzt77DeuKywEjaCAZRJDA3
+         WorMkK+GgEaOC+cCo3IHJOmJVdXFo0mMtiftmHbF9sA5T49IeLroNh8ZtXSBysFI57Xb
+         K4o/ez6U9ep+ibiyOTKlOHWT7cHOTlqh0Qtrm+4nhnZy1PjItcWKXReJIh/P/6BkbdmY
+         sNLw==
+X-Gm-Message-State: AKaTC00AEFR61FJHrUGYMZWXasSpgrO6YJ4zcsAoq17WHbq2wJl3ME2wPrFH0uBGTCPZbw==
+X-Received: by 10.129.52.133 with SMTP id b127mr57627678ywa.332.1480838438068;
+        Sun, 04 Dec 2016 00:00:38 -0800 (PST)
+Received: from mail-yw0-f171.google.com (mail-yw0-f171.google.com. [209.85.161.171])
+        by smtp.gmail.com with ESMTPSA id c199sm4933499ywb.3.2016.12.04.00.00.37
+        for <m_seminar@math.iisc.ernet.in>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 04 Dec 2016 00:00:38 -0800 (PST)
+Received: by mail-yw0-f171.google.com with SMTP id r204so239519917ywb.0
+        for <m_seminar@math.iisc.ernet.in>; Sun, 04 Dec 2016 00:00:37 -0800 (PST)
+X-Received: by 10.129.154.9 with SMTP id r9mr56948802ywg.163.1480838437774;
+ Sun, 04 Dec 2016 00:00:37 -0800 (PST)
+MIME-Version: 1.0
+Reply-To: vamsipritham@gmail.com
+Received: by 10.37.45.2 with HTTP; Sat, 3 Dec 2016 23:59:57 -0800 (PST)
+From: Vamsi Pritham Pingali <vamsipingali@math.iisc.ernet.in>
+Date: Sun, 4 Dec 2016 13:29:57 +0530
+X-Gmail-Original-Message-ID: <CALSDV2ZYRFRiO21+xdaokrtaaUpbwJeuOzygYY0CYjvhoJg8Jw@mail.gmail.com>
+Message-ID: <CALSDV2ZYRFRiO21+xdaokrtaaUpbwJeuOzygYY0CYjvhoJg8Jw@mail.gmail.com>
+Subject: Nishanth Gudapati Seminar
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=94eb2c0b91500db19e0542d09120
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-Sophos-IBS: success
+X-CTCH-PVer:  0000001
+X-CTCH-Spam:  Unknown
+X-CTCH-VOD:  Unknown
+X-CTCH-Flags:  0
+X-CTCH-RefID:  str=0001.0A0B0207.5843CD29.0172,ss=1,re=0.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=0
+X-CTCH-Score:  0.000
+X-CTCH-ScoreCust:  0.000
+X-CTCH-Rules:  
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.818, required 6.5, BAYES_00 -1.90,
+	FREEMAIL_FORGED_FROMDOMAIN 0.00, FREEMAIL_FROM 0.00,
+	HEADER_FROM_DIFFERENT_DOMAINS 0.00, MR_NOT_ATTRIBUTED_IP 0.20,
+	RCVD_IN_DNSWL_NONE -0.00, RCVD_IN_MSPIKE_H3 -0.01,
+	RCVD_IN_MSPIKE_WL -0.01, RCVD_IN_SORBS 0.30, RCVD_IN_SORBS_SPAM 0.50,
+	SPF_PASS -0.00, _FROM_IISC 0.10), 
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: AB9B4AE3A9E.A092A
+X-IISc-MailScanner-From: vamsipritham@gmail.com
+MailScanner-NULL-Check: 1481443262.28665@dTE5P+qNnlKLZBImM40ZNw
+
+
+--94eb2c0b91500db19e0542d09120
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+  Nishanth Gudapati (a postdoc at Yale) will be talking on Dec 21
+(Wednesday) in LH-1 (hopefully) on the following :
+
+Title: On 3+1 Lorentzian Einstein manifolds with one rotational isometry
+
+Abstract:
+
+Differentiable manifolds whose Ricci curvature is proportional to the
+metric are  called Einstein manifolds. Such manifolds have been central
+objects of study  in differential geometry and Einstein's theory for
+general relativity, with some strong recent results.
+
+In this talk, we shall focus on positively curved 3+1 Lorentzian Einstein
+manifolds with one spacelike rotational isometry. After performing the
+dimensional reduction to a 2+1 dimensional Einstein's equations coupled to
+'shifted' wave maps, we shall
+prove two explicit positive mass theorems :
+i) for CMC slices in expanding region
+ii) for maximal slices in stationary region.
+
+Yours sincerely,
+Vamsi
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--94eb2c0b91500db19e0542d09120
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear All,<div>=C2=A0=C2=A0</div><div>=C2=A0 Nishanth Gudap=
+ati (a postdoc at Yale) will be talking on Dec 21 (Wednesday) in LH-1 (hope=
+fully) on the following :</div><div>=C2=A0=C2=A0</div><div><span style=3D"f=
+ont-size:19.2px">Title:=C2=A0</span><span style=3D"font-size:19.2px">On 3+1=
+ Lorentzian Einstein manifolds with one rotational isometry</span><br style=
+=3D"font-size:19.2px"><br style=3D"font-size:19.2px"><span style=3D"font-si=
+ze:19.2px">Abstract:</span><br style=3D"font-size:19.2px"><br style=3D"font=
+-size:19.2px"><span style=3D"font-size:19.2px">Differentiable manifolds who=
+se Ricci curvature is proportional to the metric are =C2=A0</span><span sty=
+le=3D"font-size:19.2px">called Einstein manifolds. Such manifolds have been=
+ central objects of study =C2=A0</span><span style=3D"font-size:19.2px">in =
+differential geometry and Einstein&#39;s theory for general relativity, wit=
+h some=C2=A0</span><span style=3D"font-size:19.2px">strong recent results.=
+=C2=A0</span><br style=3D"font-size:19.2px"><br style=3D"font-size:19.2px">=
+<span style=3D"font-size:19.2px">In this talk, we shall focus on positively=
+ curved 3+1 Lorentzian Einstein manifolds=C2=A0</span><span style=3D"font-s=
+ize:19.2px">with one spacelike rotational isometry. After performing the di=
+mensional reduction=C2=A0</span><span style=3D"font-size:19.2px">to a 2+1 d=
+imensional Einstein&#39;s equations coupled to &#39;shifted&#39; wave maps,=
+ we shall</span><br style=3D"font-size:19.2px"><span style=3D"font-size:19.=
+2px">prove two explicit positive mass theorems :=C2=A0</span></div><div><sp=
+an style=3D"font-size:19.2px">i) for CMC slices in expanding region</span><=
+br style=3D"font-size:19.2px"><span style=3D"font-size:19.2px">ii) for maxi=
+mal slices in stationary region.=C2=A0</span><br></div><div><span style=3D"=
+font-size:19.2px"><br></span></div><div><span style=3D"font-size:19.2px">Yo=
+urs sincerely,</span></div><div><span style=3D"font-size:19.2px">Vamsi</spa=
+n></div></div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--94eb2c0b91500db19e0542d09120--

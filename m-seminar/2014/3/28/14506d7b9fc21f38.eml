@@ -1,0 +1,116 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp108449lbb;
+        Thu, 27 Mar 2014 20:59:33 -0700 (PDT)
+X-Received: by 10.66.181.70 with SMTP id du6mr5947229pac.23.1395979172440;
+        Thu, 27 Mar 2014 20:59:32 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id gt10si2794292pbc.251.2014.03.27.20.59.29
+        for <multiple recipients>;
+        Thu, 27 Mar 2014 20:59:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s2S3xPhG029358;
+	Fri, 28 Mar 2014 09:29:25 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s2S41ppK017031
+	for <m_seminar@math.iisc.ernet.in>; Fri, 28 Mar 2014 09:31:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s2S41pYR017026;
+	Fri, 28 Mar 2014 09:31:51 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.12 (proxying for 117.192.121.193)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 28 Mar 2014 04:01:51 -0000
+Message-ID: <6248269cdd2ab88ae6726591b3d31fdc.squirrel@math.iisc.ernet.in>
+Date: Fri, 28 Mar 2014 04:01:51 -0000
+Subject: [Eigen-Function III] : March 28th,  2014
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s2S3xPhG029358
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+
+The third session of our Eigen-Function meetings is today, March 28.
+The schedule is below.
+
+2:00-3:00pm:    Satadal Ganguly, ISI Kolkata
+3:00-3:30pm:    High Tea
+3:30-4:30pm:    Kaushal Verma, IISc
+
+The titles and abstracts follow.
+
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINARS
+
+Speaker : Satadal Ganguly
+          ISI Kolkata
+
+Title   : Recent progress towards the twin prime conjecture
+
+Date    : 28th March, 2014 (Friday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+A great progress on the twin prime problem was made last year by
+Yitang Zhang and it made him famous in Mathematical circles almost
+overnight. He proved the existence of a positive real number M such that
+there are infinitely many pairs of primes that differ by at most M. The
+twin
+prime conjecture predicts that M can be taken to be two. I shall give an
+overview of the works leading up to Zhang's spectacular achievement.
+
+and
+
+Speaker : Kaushal Verma
+          IISc
+
+Title   : Quadrature domains - an introduction
+
+Date    : 28th March, 2014 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Quadrature domains are those on which holomorphic functions satisfy a
+generalized mean value equality. The purpose of this talk will be to
+reflect on the Schwarz reflection principle and to understand how it leads
+to examples of quadrature domains.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

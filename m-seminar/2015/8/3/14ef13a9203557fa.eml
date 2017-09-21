@@ -1,0 +1,76 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.81.14 with SMTP id f14csp1320565ywb;
+        Sun, 2 Aug 2015 18:43:45 -0700 (PDT)
+X-Received: by 10.55.26.94 with SMTP id a91mr21003926qka.20.1438566225018;
+        Sun, 02 Aug 2015 18:43:45 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.71])
+        by mx.google.com with ESMTP id 60si15399693qgy.115.2015.08.02.18.43.42;
+        Sun, 02 Aug 2015 18:43:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.71 as permitted sender) client-ip=203.200.35.71;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.71 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t731hYxf014686;
+	Mon, 3 Aug 2015 07:13:34 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t731sGBt019532
+	for <m_seminar@math.iisc.ernet.in>; Mon, 3 Aug 2015 07:24:16 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t731sGJE019531;
+	Mon, 3 Aug 2015 07:24:16 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 3 Aug 2015 01:54:16 -0000
+Message-ID: <e5d4697ef1d6a8d73a72dc7b4ec85a46.squirrel@math.iisc.ernet.in>
+Date: Mon, 3 Aug 2015 01:54:16 -0000
+Subject: Math Dept Seminar Aug 21 (Jotsaroop Kaur)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Date: Aug 21
+
+Location: LH 1
+
+Time: 4 pm
+
+Speaker: Jotsaroop Kaur (University of Milano, Italy)
+
+Title: Localisation theorems for Bochner-Riesz means.
+
+Abstract:- Define
+$S_R^{\alpha}f:=\int_{\R^d}(1-\frac{|\xi|^2}{R^2})_{+}^{\alpha}\hat{f}(\xi)\exp^{i2\pi
+x.\xi}d\xi,$ the Bochner Riesz means of order $\alpha\geq 0.$ Let $f\in
+L^2(\R^d)$ and $f\eq 0$ in an open, bounded set $B.$ Its known that
+$S_R^{\alpha}f goes to 0 a.e. in $B$ as $R\rightarrow\infty.$ We study the
+pointwise convergence of Bochner Riesz means $S_{R}^{\alpha}f, \alpha>0$ as
+$\R$\rightarrow \infty$
+on sets of positive Hausdorff measure in $\R^d$ by making use of the decay
+of the spherical means of Fourier Transform of fractal measures. We get an
+improvement in the range of the Hausdorff dimension of the sets on which it
+converges. When $0<\alpha<\frac{d-1}{4}$ we get the best possible result in
+$\R^2$ and in higher dimensions we improve the result by L.Colzani, G.
+Gigante and A. Vargas. Stein’s interpolation theorem also gives us  the
+corresponding
+result for $f\in L^p(\R^d), 1<p<2.$
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,67 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.41.2 with SMTP id p2csp56618ywp;
+        Tue, 11 Aug 2015 21:29:09 -0700 (PDT)
+X-Received: by 10.70.61.134 with SMTP id p6mr59715390pdr.82.1439353749465;
+        Tue, 11 Aug 2015 21:29:09 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id df1si7374404pbb.57.2015.08.11.21.28.52;
+        Tue, 11 Aug 2015 21:29:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t7C4SeOv011240;
+	Wed, 12 Aug 2015 09:58:40 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t7C4d8vR017539
+	for <m_seminar@math.iisc.ernet.in>; Wed, 12 Aug 2015 10:09:08 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t7C4d8Yn017538;
+	Wed, 12 Aug 2015 10:09:08 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 12 Aug 2015 04:39:08 -0000
+Message-ID: <835f77c40b4da6adc111240c0a6e5a36.squirrel@math.iisc.ernet.in>
+Date: Wed, 12 Aug 2015 04:39:08 -0000
+Subject: Today's lecture: Operads (Anita Naolekar) 11 AM LH 4
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dates: Aug 12 (today)
+
+Time: 11 AM
+
+Location: LH4
+
+Speaker : Anita Naolekar (ISI, Bengaluru)
+
+Title:  Koszul duality theory for algebras.
+
+Abstract:  Koszul duality theory is a homological method aiming at
+constructing
+an explicit quasi-free resolution for quadratic algebras. We introduce
+the concepts of bar (and cobar) construction for a quadratic algebra
+(and coalgebra) and provide a quasi-free resolution for quadratic
+algebras, under certain assumptions.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

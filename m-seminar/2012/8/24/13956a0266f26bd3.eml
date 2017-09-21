@@ -1,0 +1,173 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.19.227 with SMTP id i3csp903112oae;
+        Thu, 23 Aug 2012 20:15:00 -0700 (PDT)
+Received: by 10.68.129.164 with SMTP id nx4mr9393337pbb.28.1345778100140;
+        Thu, 23 Aug 2012 20:15:00 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id qd8si1530572pbc.127.2012.08.23.20.14.58
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 23 Aug 2012 20:14:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q7O3Esne022694;
+	Fri, 24 Aug 2012 08:44:54 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q7O3EpXY003873
+	for <m_seminar@math.iisc.ernet.in>; Fri, 24 Aug 2012 08:44:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q7O3Epip003872;
+	Fri, 24 Aug 2012 08:44:51 +0530
+From: pooja@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from s1.serc.iisc.ernet.in ([10.16.40.11]) (proxying for 
+     117.192.69.154)
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 24 Aug 2012 08:44:51 +0530 (IST)
+Message-ID: <d290fdd2dc17e80fae5b777fdff2ab66.squirrel@math.iisc.ernet.in>
+Date: Fri, 24 Aug 2012 08:44:51 +0530 (IST)
+Subject: [Colloquium] Math: Today: "Rational points on Elliptic curves and 
+     congruences between modular forms"
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: multipart/mixed;boundary="----=_20120824084451_27282"
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q7O3Esne022694
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=1.202, required 6.5, BAYES_00 -1.90, FSL_RCVD_USER 0.00,
+	HTML_MESSAGE 0.00, _LOCAL_RCVD_THRU_RPROXY 3.10)
+X-IISc-MailScanner-SpamScore: s
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+------=_20120824084451_27282
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  COLLOQUIUM
+
+
+Speaker    :    Dr. Chandrakant Aribam
+                 Mathematics Institute, Heidelberg University
+
+Title      :    Rational points on Elliptic curves and congruences between
+                modular forms
+
+Day & Date :    Friday, 24/8/2012
+
+Time       :    4:00 pm- 5:00 pm
+
+Venue      :    Department of Mathematics, Lecture Hall 1
+
+
+Abstract:
+Rational points on elliptic curves have found applications in cryptography
+and in the solution to some problems dating back to antiquity. However, we
+still do not know how to find an elliptic curve with as many points as
+possible. In this talk, we will see how the theory of modular forms (of
+Ramanujan) along with a recently developed theory enables one to understand
+this problem. Along the way, we will see how congruences between
+coefficients of modular forms shed light on this problem.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+------=_20120824084451_27282
+Content-Type: text/html; name="untitled-[2]"
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename="untitled-[2]"
+
+<br><div class="gmail_quote"><div class="gmail_quote"><div class="gmail_quote"><div class="gmail_quote">To whom it may concern:<br><div class="gmail_quote"><div class="gmail_quote"><div class="gmail_quote"><div class="gmail_quote">
+
+<br>
+Please broadcast the following message to all.<br>
+<br>
+Thanks and regards,<br>
+Pooja Singla<br>
+<br>
+Assistant Professor<br>
+Department of Mathematics<br>
+__________________________________________________________________________<br>
+<br>
+<br>
+                         Department of Mathematics<br>
+                    Indian Institute of Science, Bangalore<br>
+<br>
+<br>
+                                  COLLOQUIUM <br>
+<br>
+<br>
+Speaker :    Dr. Chandrakant Aribam<br>                    Mathematics Institute, Heidelberg University, Germany <br><br>Title :       Rational points on Elliptic curves and congruences between modular forms<br><br>
+Date :       August 24th, <a href="tel:2012" value="+9722012" target="_blank">2012</a><br>
+<br>
+Time :       4:00 pm- 5:00 pm<br>
+<br>
+Venue:     Department of Mathematics, Lecture Hall 1<br>
+<br>
+<br>
+Abstract:<br>
+
+Rational points on elliptic curves have found applications in cryptography<br>
+
+and in the solution to some problems dating back to antiquity. However, we<br>
+
+still do not know how to find an elliptic curve with as many points as<br>
+
+possible. In this talk, we will see how the theory of modular forms (of<br>
+
+Ramanujan) along with a recently developed theory enables one to understand<br>
+
+this problem. Along the way, we will see how congruences between<br>
+
+coefficients of modular forms shed light on this problem.<br>
+<br>
+<br>
+<br>            ALL ARE CORDIALLY INVITED,<br>
+<br>
+<br>
+<br>
+                                            Chairman,<br>
+                                            Department of Mathematics<span><font color="#888888"><br>
+</font></span></div><span><font color="#888888"><br><br clear="all"><br><br>
+</font></span></div><span><font color="#888888"><br><br clear="all"></font></span><br>
+</div>
+</div><br><br>
+</div><br>
+</div>
+</div><br>
+</div><br><br clear="all"><br>
+<br />-- 
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href="http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+------=_20120824084451_27282--
+

@@ -1,0 +1,63 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp2033832obb;
+        Tue, 7 Mar 2017 21:40:10 -0800 (PST)
+X-Received: by 10.84.232.6 with SMTP id h6mr5993376plk.137.1488951610070;
+        Tue, 07 Mar 2017 21:40:10 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id d23si2189548plj.83.2017.03.07.21.40.09;
+        Tue, 07 Mar 2017 21:40:10 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id C9E56AE9A86;
+	Wed,  8 Mar 2017 11:10:02 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v286CLkH013475
+	for <m_seminar@math.iisc.ernet.in>; Wed, 8 Mar 2017 11:42:21 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v286CLre013474;
+	Wed, 8 Mar 2017 11:42:21 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Wed, 8 Mar 2017 06:12:21 -0000
+Message-ID: <6463c71edce85289819074673ce51fc9.squirrel@math.iisc.ac.in>
+Date: Wed, 8 Mar 2017 06:12:21 -0000
+Subject: Math Dept Lecture Today (Sudesh Kaur Khanduja) (General lecture)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: C9E56AE9A86.AA9ED
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.401, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1489556404.86933@5u2czggjF57YW4LsVBldGA
+X-Spam-Status: No
+
+Speaker : Sudesh Khanduja (IISER Mohali)
+
+Title : Some generalizations of Eisenstein Schonnemann irreducibility
+criteria
+
+Location : LH-1
+
+Time : 4pm
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

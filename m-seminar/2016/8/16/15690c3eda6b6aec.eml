@@ -1,0 +1,101 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp1491410ieb;
+        Mon, 15 Aug 2016 17:32:54 -0700 (PDT)
+X-Received: by 10.66.255.42 with SMTP id an10mr60049580pad.57.1471307574412;
+        Mon, 15 Aug 2016 17:32:54 -0700 (PDT)
+Return-Path: <naru@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.77])
+        by mx.google.com with ESMTP id d2si29057978pfj.266.2016.08.15.17.32.47;
+        Mon, 15 Aug 2016 17:32:54 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of naru@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) client-ip=203.200.35.77;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of naru@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) smtp.mailfrom=naru@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 34861AE45FB;
+	Tue, 16 Aug 2016 06:02:42 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u7G0aTOK005868;
+	Tue, 16 Aug 2016 06:06:29 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u7G0aTvf005867;
+	Tue, 16 Aug 2016 06:06:29 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to naru@localhost using -f
+Received: from 10.16.40.13 (proxying for 117.192.109.167)
+        (SquirrelMail authenticated user naru)
+        by math.iisc.ac.in with HTTP;
+        Tue, 16 Aug 2016 00:36:29 -0000
+Message-ID: <dfa355c25870deae038ba7136c88c895.squirrel@math.iisc.ac.in>
+Date: Tue, 16 Aug 2016 00:36:29 -0000
+Subject: Reminder [TALK] Math: 16th Aug 2016: "On Residues of certain
+ intertwining operators"
+From: naru@math.iisc.ernet.in
+To: broadcast@iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 34861AE45FB.A67ED
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.6,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	SUBJECT_MONTH -1.50, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: naru@math.iisc.ernet.in
+MailScanner-NULL-Check: 1471912365.85349@YsGWG56mSpeKAGHsEGk3Vw
+X-Spam-Status: No
+
+Dear All,
+
+
+Title: On residues of certain intertwining operators
+
+Speaker:  Sandeep Varma (TIFR, Mumbai)
+
+Date: 16th Aug, Tuesday
+
+Venue: LH-I, Department of Mathematics
+
+Time: 4pm
+
+Abstract:
+
+Let $\G$ be a connected reductive group over a finite extension
+$F$ of $\mathbb{Q}_p$. Let $\P = \M \N$ be a Levi decomposition of
+a maximal parabolic subgroup of $\G$, and $\sigma$ an irreducible unitary
+supercuspidal representation of $\M(F)$. One can then consider the
+representation $\text{Ind}_{\P(F)}^{\G(F)} \sigma$ (normalized parabolic
+induction). This induced representation is known to be either irreducible
+or of length two. The question of when it is irreducible turns out to be
+(conjecturally) related to local $L$-functions, and also to poles of
+a family of so called intertwining operators.
+
+This calls for:
+(a)  computing residues of certain families of intertwining operators;
+
+and
+
+(b) interpreting these residues suitably.
+
+
+There is an approach pioneered by Freydoon Shahidi to implement such a
+programme, which was developed further by him as well as by David
+Goldberg, Steven Spallone, Wen-Wei Li and Xiaoxiang Yu,
+in several cases (i.e., for various choices of $\G$ and $\P$). We will
+discuss (b) above for some of the cases where only (a) was known
+previously, and also (a) for some new cases.
+
+E. K. Narayanan
+Department of Mathematics
+Indian Institute of Science
+Bangalore 560012
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

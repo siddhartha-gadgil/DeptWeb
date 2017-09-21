@@ -1,0 +1,112 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.1.65 with SMTP id 1csp1126041obk;
+        Sun, 29 Jan 2017 23:16:46 -0800 (PST)
+X-Received: by 10.84.178.131 with SMTP id z3mr30125396plb.176.1485760606278;
+        Sun, 29 Jan 2017 23:16:46 -0800 (PST)
+Return-Path: <subhojoy@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id t6si11834254pfi.59.2017.01.29.23.16.45;
+        Sun, 29 Jan 2017 23:16:46 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=subhojoy@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 9DBA9AEACF7;
+	Mon, 30 Jan 2017 12:46:42 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v0U7ncHD030026;
+	Mon, 30 Jan 2017 13:19:38 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v0U7nbb6030025;
+	Mon, 30 Jan 2017 13:19:37 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to subhojoy@localhost using -f
+Received: from 10.134.13.68
+        (SquirrelMail authenticated user subhojoy)
+        by math.iisc.ac.in with HTTP;
+        Mon, 30 Jan 2017 13:19:37 +0530
+Message-ID: <ae2eda89c8b5b990711c77da7349c00f.squirrel@math.iisc.ac.in>
+Date: Mon, 30 Jan 2017 13:19:37 +0530
+From: subhojoy@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 9DBA9AEACF7.A9BDB
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-8.099, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -3.20, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: subhojoy@math.iisc.ernet.in
+Subject: Eigenfunctions seminar this Friday (Feb 3)
+MailScanner-NULL-Check: 1486365402.96622@XRtOhDyMR1HPvHLuy4p4LA
+X-Spam-Status: No
+
+Dear All,
+
+There will be two lectures in the "Eigenfunctions" seminar series on 3rd
+Feb, 2017.
+
+
+--------------------------------------------
+Lecture 1:
+
+Title: Playing with the nonlinearity of the Navier-Stokes Equation
+
+Speaker: Samriddhi  Sankar  Ray (ICTS)
+
+Time and date: 2:15-3:15 PM,  3rd Feb. 2017, Friday
+
+Venue: LH-1, Department of Mathematics
+
+Abstract:  Understanding the origins of intermittency in turbulence
+remains one of the most
+fundamental challenges in applied mathematics. In recent years there has
+been a fresh
+attempt to understand this problem through the development of the method
+of Fourier
+decimation. In this talk, we will review these recent results and analyse
+the role of precise
+numerical simulations in understanding the mathematics of the
+Navier-Stokes and Euler
+equations.
+
+--------------------------------------------
+Lecture 2:
+
+Title: What is finiteness?
+
+Speaker: Abhishek  Banerjee (IISc)
+
+Time and date: 3:30-4:30 PM, 3rd Feb
+
+Venue: LH-1, Department of Mathematics
+
+Abstract: It is generally well known that there is an innate notion of
+things like isomorphisms
+or epimorphisms. This allows us to talk about isomorphisms or epimorphisms
+of various
+objects: groups, rings, algebras,etc. In other words, "isomorphism" is
+really a categorical
+notion.However, it is not so well known that finiteness itself is
+alsocategorical. In this talk, we
+will discuss how finiteness applies tovarious categories. This will allow
+usto see finite sets,
+finite dimensional vector spaces, finitely generated algebras and compact
+sets as
+manifestations of the same basic idea.
+
+
+
+                                            All are welcome
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

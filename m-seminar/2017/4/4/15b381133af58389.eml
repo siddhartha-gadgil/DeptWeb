@@ -1,0 +1,79 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.180.40 with SMTP id dl8csp98646obc;
+        Tue, 4 Apr 2017 01:25:03 -0700 (PDT)
+X-Received: by 10.98.37.69 with SMTP id l66mr21039253pfl.156.1491294302961;
+        Tue, 04 Apr 2017 01:25:02 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.70])
+        by mx.google.com with ESMTP id b4si16765816plb.157.2017.04.04.01.24.54;
+        Tue, 04 Apr 2017 01:25:02 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) client-ip=14.139.128.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id E9B18AEC7BB;
+	Tue,  4 Apr 2017 13:54:49 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v348uamL017572
+	for <m_seminar@math.iisc.ernet.in>; Tue, 4 Apr 2017 14:26:36 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id v348uall017569
+	for <m_seminar@math.iisc.ernet.in>; Tue, 4 Apr 2017 14:26:36 +0530
+Date: Tue, 4 Apr 2017 14:26:36 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: SAMOSe Friday 7 April: Siddhartha Gadgil on "Automating Mathematics?"
+ (fwd)
+Message-ID: <alpine.LFD.2.03.1704041426160.16678@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1075257310-1491296196=:16678"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: E9B18AEC7BB.A8F57
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1491899090.85391@+t6RHPhVMtFvPScbKi888Q
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1075257310-1491296196=:16678
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+---------- Forwarded message ----------
+Date: Tue, 4 Apr 2017 12:15:22 +0530
+From: David Farris <pseudoholomorphic@gmail.com>
+Subject: SAMOSe Friday 7 April: Siddhartha Gadgil on "Automating Mathematics?"
+
+Could you pass along to your mailing lists? Thanks!
+
+Dear all,
+
+The next lecture in the Simons Assorted Mathematics Open Seminar will be
+this Friday 7 April, 4pm in the Simons Center ground floor.  Please join
+us at 3:45 for tea and snacks (either outside the Simons door or on the
+lawn just outside the building).
+
+This week, the speaker is Professor Siddhartha Gadgil of the IISc
+Mathematics Department.  Siddhartha began his career as a low-dimensional
+topologist, but in recent years has turned his attention to automated
+theorem-proving.  
+Title: "Automating Mathematics"
+
+Abstract: I will discuss various stuff related to the goal of having computers play a central role in the discovery of mathematical proofs, including some of my own
+efforts.
+
+David F, Venky R and Amit V
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1075257310-1491296196=:16678--

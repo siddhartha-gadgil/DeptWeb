@@ -1,0 +1,86 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.129.226 with SMTP id nz2csp19486lbb;
+        Wed, 21 Nov 2012 22:45:06 -0800 (PST)
+Received: by 10.68.202.72 with SMTP id kg8mr1837405pbc.134.1353566705413;
+        Wed, 21 Nov 2012 22:45:05 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTPS id ic4si3767089pbc.289.2012.11.21.22.44.52
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 21 Nov 2012 22:45:00 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id qAM6ibA6016069;
+	Thu, 22 Nov 2012 12:14:37 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qAM6iV5H015554
+	for <m_seminar@math.iisc.ernet.in>; Thu, 22 Nov 2012 12:14:31 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id qAM6iUw5015553;
+	Thu, 22 Nov 2012 12:14:30 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 22 Nov 2012 12:14:30 +0530 (IST)
+Message-ID: <17792153b1190f1702c709f0b5918558.squirrel@math.iisc.ernet.in>
+Date: Thu, 22 Nov 2012 12:14:30 +0530 (IST)
+Subject: [ Seminar] MATH: Nov 27,
+      2012: "Construction of Jones Polynomial for Knots (via Braid Groups 
+     and Hecke Algebras)"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: qAM6ibA6016069
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+
+GEOMETRY TOPOLOGY INFORMAL SEMINAR
+
+
+Speaker : T. V. H. Prathamesh
+
+Title: Construction of Jones Polynomial for Knots (via Braid Groups and
+Hecke Algebras)
+
+Date: 27th November (Tuesday)
+
+Time: 3.30 pm
+
+Venue: Department of Mathematics, LH-III
+
+Abstract: Jones Polynomial is an invariant of an oriented knot or link
+which assigns to each oriented knot or link a Laurent polynomial in the
+variable t^{1/2} with integer coefficients. Though can be computed easily
+in terms of what are called skein relations, it originally arose from a
+studying a particular kind of a 'trace' of braid representations into an
+algebra derived as the quotient of a group ring of braid group. We shall
+discuss this construction of Jones Polynomial in the first talk. In the
+second part, we shall discuss the construction of Jones Polynomial from
+the tangle representation of Knots.
+
+Prerequisites: I would assume familiarity with the definition of a Knot
+and the definition of Ambient Isotopy
+
+          All are cordially invited.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

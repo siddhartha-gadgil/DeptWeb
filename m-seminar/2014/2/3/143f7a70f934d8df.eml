@@ -1,0 +1,119 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.146.226 with SMTP id tf2csp117824lbb;
+        Mon, 3 Feb 2014 04:09:19 -0800 (PST)
+X-Received: by 10.66.145.166 with SMTP id sv6mr37286449pab.31.1391429358630;
+        Mon, 03 Feb 2014 04:09:18 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id fu1si20375975pbc.44.2014.02.03.04.09.15
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 03 Feb 2014 04:09:17 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s13C9BSh026939;
+	Mon, 3 Feb 2014 17:39:12 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s13C7wEX029584
+	for <m_seminar@math.iisc.ernet.in>; Mon, 3 Feb 2014 17:37:58 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s13C7w7m029577;
+	Mon, 3 Feb 2014 17:37:58 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 3 Feb 2014 12:07:58 -0000
+Message-ID: <05720724107eda50891a24ddaa044813.squirrel@math.iisc.ernet.in>
+Date: Mon, 3 Feb 2014 12:07:58 -0000
+Subject: [Eigen-Function II] : Feb 14th,  2014
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s13C9BSh026939
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+
+Dear all,
+
+The second session of our Eigen-Function meetings will be on Feb 14. The
+schedule is below.
+
+2:00-3:00pm:    S. Thangavelu, IISc
+3:00-3:30pm:    High Tea
+3:30-4:30pm:    Bhaskar Bagchi, ISI Bangalore
+
+The titles and abstracts follow.
+
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINARS
+
+
+
+Speaker : Dr. S. Thangavelu
+          IISc
+
+Title   : How to integrate entire functions in polar coordinates?
+
+Date    : 14th Feb, 2014 (Friday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+In this talk we address the problem of integrating entire
+functions (of several complex variables) in 'polar coordinates'!
+
+and
+
+Speaker : Bhaskar Bagchi
+          ISI Bangalore
+
+Title   : Tight triangulated manifolds
+
+Date    : 14th Feb, 2014 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Wolfgang Kuhnel introduced the notion of tightness and conjectured that
+all tight triangulations of closed manifolds are strongly minimal. In a
+recent paper with B. Datta (European J. Comb. 36 (2014), 294--313), the
+speaker obtained a very general combinatorial criterion for tightness and
+found results in partial confirmation of this conjecture. We shall discuss
+these results.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

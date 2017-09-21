@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.46.193 with SMTP id x1csp1490415obm;
+        Mon, 21 Mar 2016 23:31:34 -0700 (PDT)
+X-Received: by 10.66.235.129 with SMTP id um1mr51009952pac.17.1458628294092;
+        Mon, 21 Mar 2016 23:31:34 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with SMTP id gc5si13589204pac.224.2016.03.21.23.31.22;
+        Mon, 21 Mar 2016 23:31:34 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 64DB8AE1F36;
+	Tue, 22 Mar 2016 12:01:30 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u2M6bh5X030601;
+	Tue, 22 Mar 2016 12:07:43 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u2M6bhMn030598;
+	Tue, 22 Mar 2016 12:07:43 +0530
+Date: Tue, 22 Mar 2016 12:07:43 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+Reply-To: manju@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Reminder [Seminar] MATH : TODAY :"Holomorphic Extensions and the
+ Bergman Projection"
+Message-ID: <alpine.LFD.2.03.1603221205550.25232@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 64DB8AE1F36.A8A82
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.91, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, T_RP_MATCHES_RCVD -0.01)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1459233090.89254@64vxb7iJ84rL6ZTKE7rUjQ
+X-Spam-Status: No
+
+Dear All,
+
+            SEMINAR
+
+   DEPARTMENT  OF  MATHEMATICS
+
+----------------------------------------------------------
+
+Speaker: R. Sivaguru (TIFR)
+
+Title: Holomorphic Extensions and the Bergman Projection
+
+Time: 4PM, 22/Mar/2016 (Tuesday)
+
+Venue: LH-1, Department of Mathematics
+
+Abstract: We will begin with a brief overview of when holomorphic functions of 
+more than one complex variable extend to a larger domain (Hartogs' Theorem and 
+Pseudoconvexity). We then proceed to discuss a recent result which shows that, 
+on a class of domains with circular symmetries, the Bergman projection of 
+conjugate holomorphic functions (also called the Friedrichs operator) extend 
+holomorphically to a larger domain. The Bergman projection, on a domain 
+$\Omega$, is the orthogonal projection from $L^2(\Omega)$ onto 
+$L^2(\Omega)\cap\{\text{holomorphic functions in } \Omega\}$. We will use 
+simple examples and geometric reasoning throughout the presentation. This is 
+joint work with Yunus Zeytuncu.
+
+
+
+       All are welcome
+         CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,107 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.17 with SMTP id s17cs71104buc;
+        Thu, 3 Apr 2008 23:12:38 -0700 (PDT)
+Received: by 10.114.36.1 with SMTP id j1mr1193355waj.119.1207289556369;
+        Thu, 03 Apr 2008 23:12:36 -0700 (PDT)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id y11si7288699pod.9.2008.04.03.23.12.21;
+        Thu, 03 Apr 2008 23:12:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m34659kt027341;
+	Fri, 4 Apr 2008 11:35:09 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m34BKdFk027886
+	for <m_seminar@math.iisc.ernet.in>; Fri, 4 Apr 2008 11:20:39 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m34BKdYK027885;
+	Fri, 4 Apr 2008 11:20:39 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 4 Apr 2008 11:20:39 -0000 (UTC)
+Message-ID: <1539.10.134.13.39.1207308039.squirrel@math.iisc.ernet.in>
+Date: Fri, 4 Apr 2008 11:20:39 -0000 (UTC)
+Subject: IMI: 
+ =?iso-8859-1?Q?=93Mathematical_approaches_to_turbulence=94;_Compact_Cours?=
+ e by Prof. Govind Menon; April 9th to 11th
+ =?iso-8859-1?Q?=2C_2008_at_4:00pm?=
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, timed out)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+
+                        IISc Mathematics Initiative
+                         Department of Mathematics
+                        Indian Institute of Science
+                                  Bangalore
+
+      ----------------------------------------------------------------
+
+                              compact course on
+
+                     Mathematical approaches to turbulence
+
+                                       by
+
+                               Prof. Govind Menon
+               Division of Applied Mathematics, Brown University
+
+                                4.00 pm – 5.00 pm
+
+           on all days from Wednesday to Friday during the period from
+                               April 09 - 11, 2008
+                           (starting on April 09, 2008)
+
+                                      at
+
+                         L H – 1, Department of Mathematics
+                       Indian Institute of Science, Bangalore
+
+
+                                    Abstract
+
+This short course will be an introduction to some mathematical results on
+turbulence. The emphasis will be on some `solvable' statistical theories
+(eg. Burgers, Onsager) that have surprisingly rich behavior. Our aim is to
+disseminate some highlights of rigorous mathematical results on these
+problems without presupposing much background.
+
+                       ----------------------------------
+                                ALL ARE INVITED
+                               Coffee/Tea : 3:45pm
+                                                          G.Rangarajan
+                                                            Convener
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

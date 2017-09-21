@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.116.107 with SMTP id jv11csp125913qeb;
+        Tue, 13 Aug 2013 21:04:28 -0700 (PDT)
+X-Received: by 10.66.192.132 with SMTP id hg4mr7837331pac.84.1376453067868;
+        Tue, 13 Aug 2013 21:04:27 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id yk3si27941009pac.331.2013.08.13.21.04.12
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 13 Aug 2013 21:04:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r7E4463s009512;
+	Wed, 14 Aug 2013 09:34:06 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r7E443vi027211
+	for <m_seminar@math.iisc.ernet.in>; Wed, 14 Aug 2013 09:34:03 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r7E442bu027210;
+	Wed, 14 Aug 2013 09:34:02 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 14 Aug 2013 09:34:02 +0530 (IST)
+Message-ID: <ed85794ae358d248b95c2ba4f45bdbc9.squirrel@math.iisc.ernet.in>
+Date: Wed, 14 Aug 2013 09:34:02 +0530 (IST)
+Subject: Reminder! [Colloquium] MATH: Today: "Needles, bushes,
+      hairbrushes and polynomials"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r7E4463s009512
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+
+
+                       Department of Mathematics
+                Indian Institute of Science, Bangalore
+
+
+                         COLLOQUIUM
+
+
+Speaker : Prof Malabika Pramanik
+                           UBC, Canada
+
+Title  : Needles, bushes, hairbrushes and polynomials
+
+Date  : August 14th, 2013(Wednesday)
+
+Time  : 4:00 - 5:00 p.m.
+
+Venue : Lecture Hall I, Department of Mathematics
+
+
+Abstract:  Points, lines and circles are among the most primitive and
+fundamental of mathematical concepts, yet few geometric objects have
+generated more beautiful and nontrivial mathematics. Deceptively simple in
+their formulation, many classical problems involving sets of lines or
+circles remain open to this day. I will begin with a sample that has
+spearheaded much of modern research, and explore connections with
+analysis, geometry, combinatorics - maybe also parallel parking.
+
+
+                      ALL ARE CORDIALLY INVITED
+
+
+                                                      Chairman,
+                                                Department of Mathematics
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

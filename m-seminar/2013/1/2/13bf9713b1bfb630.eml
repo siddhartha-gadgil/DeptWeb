@@ -1,0 +1,121 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.30.193 with SMTP id u1csp585259lbh;
+        Tue, 1 Jan 2013 20:07:26 -0800 (PST)
+X-Received: by 10.68.239.99 with SMTP id vr3mr140281967pbc.154.1357099646053;
+        Tue, 01 Jan 2013 20:07:26 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id j9si3484537pav.10.2013.01.01.20.07.23
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 01 Jan 2013 20:07:25 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r0242Qru007045;
+	Wed, 2 Jan 2013 09:32:26 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r0242HxJ008105
+	for <m_seminar@math.iisc.ernet.in>; Wed, 2 Jan 2013 09:32:17 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r0242Hq1008104;
+	Wed, 2 Jan 2013 09:32:17 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 2 Jan 2013 09:32:17 +0530 (IST)
+Message-ID: <7fd5c5893f4af2d0232092015d5c4ac8.squirrel@math.iisc.ernet.in>
+Date: Wed, 2 Jan 2013 09:32:17 +0530 (IST)
+Subject: Reminder! [Colloquium] MATH : Jan 2nd,
+      2013 : " Diophantine approximation, arithmetic groups,
+      and ergodic theory"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+  Kindly note the change in the venue of the following lecture.
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                        COLLOQUIUM
+
+Speaker   :   Prof Amos Nevo
+                    Technion, Israel
+
+Title    :   Diophantine approximation, arithmetic groups, and ergodic theory
+
+Date     :   January 2nd, 2013 (Wednesday)
+
+Time     :   4:00 pm- 5:00pm
+
+Venue    :   Department of Mathematics, LH-III
+
+Abstract: One of the main goals of classical metric Diophantine
+approximation is to quantify the denseness of the rational numbers in the
+real numbers, or more generally, of Q^d in R^d. An equally natural problem
+is to quantify the denseness of the rational points on the sphere, and more
+generally, rational points in other compact and non-compact algebraic
+sub-varieties in R^d. We will describe a solution to this problem for a large
+class of homogeneous varieties.
+
+The method we use is based on a general quantitative duality principle in
+homogeneous dynamics that we develop, and on spectral estimates of ergodic
+averages using the theory of automorphic forms.
+
+Based on joint work with Alex Gorodnik, and on joint work with Anish Ghosh
+and Alex Gorodnik.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

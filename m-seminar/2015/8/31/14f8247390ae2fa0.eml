@@ -1,0 +1,73 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.13.210.4 with SMTP id u4csp1114493ywd;
+        Sun, 30 Aug 2015 22:42:30 -0700 (PDT)
+X-Received: by 10.66.222.68 with SMTP id qk4mr34192827pac.96.1440999750250;
+        Sun, 30 Aug 2015 22:42:30 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id gt5si4864145pbc.67.2015.08.30.22.42.28;
+        Sun, 30 Aug 2015 22:42:29 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t7V5gJpY000734;
+	Mon, 31 Aug 2015 11:12:19 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t7V5qEqb011146
+	for <m_seminar@math.iisc.ernet.in>; Mon, 31 Aug 2015 11:22:14 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t7V5qEj3011145;
+	Mon, 31 Aug 2015 11:22:14 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 31 Aug 2015 05:52:14 -0000
+Message-ID: <06d698dcec5aed1a741f663d1cd0dce8.squirrel@math.iisc.ernet.in>
+Date: Mon, 31 Aug 2015 05:52:14 -0000
+Subject: [Reminder: Tomorrow Lecture series by Sujatha Ramdorai continues]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t7V5gJpY000734
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Speaker: Sujatha Ramdorai (University of British Columbia, Vancouver, Canada)
+
+Date: August 31 (future dates to be decided again at the second lecture)
+
+Time: 2 pm
+
+Location : LH 2
+
+Title: Iwasawa theory and the Birch and Swinnerton-Dyer conjecture:
+
+Abstract: The celebrated BSD conjecture predicts a deep and mysterious
+relationship between the algebraic rank of an elliptic curve
+defined over a number field and an arithmetic invariant arising
+front he L-function of the elliptic curve. More amazingly, it
+predicts an exact formula for the leading term of the L-function.
+Iwasawa theory has proven to be an effective tool in trying to
+explain the philosophy behind such a mysterious relationship and
+also in establishing the conjecture in certain cases. We shall
+outline this theory and discuss  its applications.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

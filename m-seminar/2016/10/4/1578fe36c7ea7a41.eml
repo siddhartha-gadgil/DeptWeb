@@ -1,0 +1,72 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.1 with SMTP id vs1csp1047112ieb;
+        Tue, 4 Oct 2016 06:30:29 -0700 (PDT)
+X-Received: by 10.157.49.92 with SMTP id v28mr2538062otd.38.1475587829187;
+        Tue, 04 Oct 2016 06:30:29 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id f33si3982511otd.30.2016.10.04.06.30.27;
+        Tue, 04 Oct 2016 06:30:29 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 19F0AAE3661;
+	Tue,  4 Oct 2016 19:02:30 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u94DXG4Z009818
+	for <m_seminar@math.iisc.ernet.in>; Tue, 4 Oct 2016 19:03:16 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u94DXGTL009817;
+	Tue, 4 Oct 2016 19:03:16 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.10.1.98 (proxying for 195.187.72.163)
+        (SquirrelMail authenticated user mathseminars)
+        by www.math.iisc.ac.in with HTTP;
+        Tue, 4 Oct 2016 13:33:16 -0000
+Message-ID: <bd1ddfa03d00d47a7918e07f8f4a240d.squirrel@www.math.iisc.ac.in>
+Date: Tue, 4 Oct 2016 13:33:16 -0000
+Subject: Math Dept Seminar Oct 7 (Uday Bhaskar)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 19F0AAE3661.A8E83
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1476192752.80051@wy1uzSgU0Qq2LGwnD6iicw
+X-Spam-Status: No
+
+Title: "Simultaneous Similarity Classes of tuples of Commuting matrices."
+
+Speaker: Uday Bhaskar (IMSc, Chennai)
+
+Date : Oct 7
+
+Time : 11 AM
+
+Location: LH-1
+
+
+Abstract: The enumeration of isomorphism classes of modules of a
+polynomial algebra in several variables over a finite field is the same as
+the classifi cation of commuting tuples of matrices over a finite field up
+to simultaneous similarity. Let C_{n,k}(q) denote the number of
+isomorphism classes of n-dimensional Fq[x1,...,xk]-modules. The generating
+function in k of the C_{n,k}(q) is a rational function. The computation of
+this was done explicitly for n <= 4. I shall give a summary of my recently
+published work on this study of the C_{n,k}(q)s for n <= 2.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

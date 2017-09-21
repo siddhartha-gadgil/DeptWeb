@@ -1,0 +1,93 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.112.106 with SMTP id ip10csp514506lbb;
+        Tue, 8 Jul 2014 02:14:39 -0700 (PDT)
+X-Received: by 10.68.130.38 with SMTP id ob6mr1315434pbb.141.1404810878792;
+        Tue, 08 Jul 2014 02:14:38 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id mr10si5839149pdb.465.2014.07.08.02.14.37
+        for <multiple recipients>;
+        Tue, 08 Jul 2014 02:14:38 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s689EY1Y019926;
+	Tue, 8 Jul 2014 14:44:34 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s689FCT2021181
+	for <m_seminar@math.iisc.ernet.in>; Tue, 8 Jul 2014 14:45:12 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s689FCdh021174;
+	Tue, 8 Jul 2014 14:45:12 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 8 Jul 2014 09:15:12 -0000
+Message-ID: <d2a6bbae17f4b03033f819baafe26cbc.squirrel@math.iisc.ernet.in>
+Date: Tue, 8 Jul 2014 09:15:12 -0000
+Subject: [Seminar] Math: July
+ 16th=?iso-8859-1?Q?=2C_2014:_Thurston-Teichm=FCller_theory_and_the_dynamics_o?=f
+ grafting
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.099, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, MIME_8BIT_HEADER 0.30,
+	NO_REAL_NAME 1.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Subhojoy Gupta
+          Caltech
+
+Title   : Thurston-Teichmüller theory and the dynamics of grafting
+
+Date    : 16th July, 2014 (Wednesday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract:
+Complex projective structures on a surface S arise in the
+"complex-analytic" description of Teichmüller space. The operation of
+grafting parametrizes the space P(S) of such structures, and yields paths
+in Teichmüller space called "grafting rays". I shall introduce these, and
+describe a result concerning their asymptotic behavior. This talk shall be
+mostly expository.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

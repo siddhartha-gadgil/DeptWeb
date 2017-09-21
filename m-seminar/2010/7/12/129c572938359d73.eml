@@ -1,0 +1,101 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.220.193.9 with SMTP id ds9cs27223vcb;
+        Sun, 11 Jul 2010 23:58:28 -0700 (PDT)
+Received: by 10.142.132.12 with SMTP id f12mr15913410wfd.222.1278917907373;
+        Sun, 11 Jul 2010 23:58:27 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id w1si8381262wfd.93.2010.07.11.23.58.26;
+        Sun, 11 Jul 2010 23:58:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o6C6sJPr004621;
+	Mon, 12 Jul 2010 12:24:19 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o6C7QcZq027651;
+	Mon, 12 Jul 2010 12:56:38 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o6C7Qcp0027650;
+	Mon, 12 Jul 2010 12:56:38 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 12 Jul 2010 12:56:38 +0530 (IST)
+Message-ID: <fb8276dea38e62b2bcb7ab9bf60a3701.squirrel@math.iisc.ernet.in>
+Date: Mon, 12 Jul 2010 12:56:38 +0530 (IST)
+Subject: Maths : July 14,
+       2010: Thesis Colloquium : " Exploring polynomial convexity of 
+     certain classes of sets"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                Thesis Colloquium
+
+
+    Speaker              : Mr. Sushil Gorai, IISc.
+
+    Title                : Exploring polynomial convexity of certain
+classes of sets
+
+    Day & Date           : Wednesday, July 14, 2010.
+
+    Time                 :  4:00 p.m.
+
+    Venue                :  Lecture  Hall -  III
+                            Dept. of  Mathematics
+
+Abstract:
+      It is very difficult in general to determine when a given compact
+in C^n, n>1, is polynomially convex. In this talk, we shall discuss
+polynomial convexity of some classes of sets. First, we shall
+consider two totally-real surfaces in C^2 that contain the origin
+and have distinct tangent planes there. We shall discuss how the
+local polynomial convexity of the union of the tangent planes at
+(0,0) influences local polynomial convexity of the union of the
+surfaces at (0,0). Secondly, we will present a condition for local
+polynomial convexity of unions of more than two totally-real planes
+in C^2 containing the origin. Next, we shall talk about pluri-
+subharmonicity. Using this notion we shall give a new proof of an
+approximation theorem of Axler and Shields and also generalize it.
+Polynomial convexity plays a very central role in our proof. Finally
+we shall discuss a characterization for (large) compact patches of
+smooth totally-real graphs in C^{2n} to be polynomially convex.
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

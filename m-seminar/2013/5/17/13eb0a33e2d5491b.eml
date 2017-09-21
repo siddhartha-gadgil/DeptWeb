@@ -1,0 +1,143 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.86.8 with SMTP id l8csp89897qez;
+        Thu, 16 May 2013 20:58:09 -0700 (PDT)
+X-Received: by 10.68.177.33 with SMTP id cn1mr46453668pbc.189.1368763088929;
+        Thu, 16 May 2013 20:58:08 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id jp9si6484103pbc.231.2013.05.16.20.58.06
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 16 May 2013 20:58:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r4H3w3O7004117;
+	Fri, 17 May 2013 09:28:03 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r4H3vuXc001449
+	for <m_seminar@math.iisc.ernet.in>; Fri, 17 May 2013 09:27:56 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r4H3vuWt001448;
+	Fri, 17 May 2013 09:27:56 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from s2.serc.iisc.ernet.in ([10.16.40.12]) (proxying for 
+     117.192.67.232)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 17 May 2013 09:27:56 +0530 (IST)
+Message-ID: <c6293c514c22e018ad70706e7c71360f.squirrel@math.iisc.ernet.in>
+Date: Fri, 17 May 2013 09:27:56 +0530 (IST)
+Subject: Reminder! [Seminar] MATH :Today: "Renormalization and reverse 
+     renormalization in the dynamics      of germs of holomorphic 
+     diffeomorphisms in C"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.589, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, MR_NOT_ATTRIBUTED_IP 0.20, NO_RDNS2 0.01,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+
+
+                       Department of Mathematics
+                Indian Institute of Science, Bangalore
+
+
+                        SEMINAR
+
+Speaker: Kingshook Biswas
+              Vivekananda University
+
+Title : Renormalization and reverse renormalization in the dynamics of
+germs of holomorphic diffeomorphisms in C.
+
+Date : 17th May  2013
+
+Time: 11-12 AM.
+
+Place:  LH 3  IISc Mathematics Department
+
+Abstract: We discuss the renormalization and reverse renormalization
+constructions used in studying the dynamics of germs of holomorphic
+diffeomorphisms fixing the origin in C with linear part a rotation. Such a
+germ is said to be linearizable if it is analytically conjugate to its
+linear part.
+
+Renormalization was first used in this setting by Yoccoz to give a
+geometric proof sufficiency of the Brjuno condition (an arithmetic
+condition ensuring that the rotation number does not admit very good
+rational approximations) for linearizability. It was later used by
+Perez-Marco to obtain a similar linearization result for germs without
+periodic orbits accumulating the fixed point.
+
+We explain how renormalization can be adapted to the setting of commuting
+germs in order to obtain a multi-variable Brjuno type arithmetic condition
+for linearizability of commuting germs.
+
+Reverse renormalization was also first used by Yoccoz to construct
+non-linearizable germs demonstrating the optimality of the Brjuno
+condition for linearizability. It was also used later by Perez-Marco to
+prove optimality of his arithmetic condition for linearizability without
+periodic orbits, and to construct examples of germs with uncountable
+centralizers. A key point in his method was the introduction of Riemann
+surfaces called tube-log Riemann surfaces in the construction. Cheritat
+added a new ingredient to this construction, namely the use of Runge's
+Theorem, which made the construction flexible enough to construct
+invariant continua with pathological topologies.
+
+We explain how this reverse renormalization can be used to construct
+hedgehogs such that the fixed point is inaccessible from the complement,
+answering a question of Perez-Marco's.
+
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

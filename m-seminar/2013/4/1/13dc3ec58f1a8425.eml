@@ -1,0 +1,96 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.30.225 with SMTP id v1csp60435qeh;
+        Sun, 31 Mar 2013 21:47:59 -0700 (PDT)
+X-Received: by 10.68.189.42 with SMTP id gf10mr16192893pbc.149.1364791679190;
+        Sun, 31 Mar 2013 21:47:59 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id as5si11838464pbd.236.2013.03.31.21.47.57
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 31 Mar 2013 21:47:59 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r314lmZb019002;
+	Mon, 1 Apr 2013 10:17:48 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r314liBY017401
+	for <m_seminar@math.iisc.ernet.in>; Mon, 1 Apr 2013 10:17:44 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r314liTN017400;
+	Mon, 1 Apr 2013 10:17:44 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 1 Apr 2013 10:17:44 +0530 (IST)
+Message-ID: <d6ba572761e4ed144ca2d7c4119ee958.squirrel@math.iisc.ernet.in>
+Date: Mon, 1 Apr 2013 10:17:44 +0530 (IST)
+Subject: [Seminar] MATH: April 2nd,
+      2013: "Metric Measure spaces and Random matrices"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r314lmZb019002
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear all,
+
+
+                    Department of Mathematics
+                       Indian Institute of Science
+                                 Bangalore
+                    ----------------------------
+
+
+Speaker: Prof. Siddhartha Gadgil,
+                     IISc, Bangalore
+
+Title: Metric Measure spaces and Random matrices
+
+Date: Tuesday, April 2, 2013.
+
+Time: 11: 30 a.m.
+
+Venue: LH- II, Department of Mathematics
+
+
+Abstract: The geometry of Metric spaces equipped with a probability measure
+is a very dynamic field. One motivation for the study of such spaces is
+that they are the natural limits of Riemannian manifolds in many contexts.
+           In this talk, I will introduce basic properties of metric
+measure spaces and the Gromov-Prohorov distance on them. I will also
+discuss joint work with Manjunath Krishnapur in which we show that
+independently sampling points according to the given measure gives an
+asymptotically bi-Lipschitz  correspondence between Metric measure spaces
+and Random matrices. Finally, I will briefly discuss work with Divakaran in
+which we study the compactification of the Moduli space of Riemann surfaces
+in terms of metric measure spaces.
+
+
+          All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

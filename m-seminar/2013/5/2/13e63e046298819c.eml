@@ -1,0 +1,162 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.95.72 with SMTP id di8csp158182qeb;
+        Wed, 1 May 2013 23:14:03 -0700 (PDT)
+X-Received: by 10.66.157.36 with SMTP id wj4mr8331633pab.88.1367475242944;
+        Wed, 01 May 2013 23:14:02 -0700 (PDT)
+Return-Path: <bharathi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id gx10si3762124pbc.337.2013.05.01.23.14.01
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 01 May 2013 23:14:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharathi@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bharathi@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharathi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r426Dpm6020368;
+	Thu, 2 May 2013 11:43:51 +0530
+Received: from [10.134.13.12] (Printer2.math.iisc.ernet.in [10.134.13.12])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r426DknQ004617
+	for <m_seminar@math.iisc.ernet.in>; Thu, 2 May 2013 11:43:46 +0530
+From: bharathi@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Date: Thu, 02 May 2013 11:43:48 +0530
+MIME-Version: 1.0
+Content-type: Multipart/Mixed; boundary=Message-Boundary-27937
+Subject:  Reminder! [Colloquium] MATH :May 2nd, 2013: "Differentia
+Message-ID: <51825174.28649.50F854@bharathi.math.iisc.ernet.in>
+Priority: normal
+X-mailer: Pegasus Mail for Windows (4.41)
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: bharathi@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+--Message-Boundary-27937
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+
+
+
+
+Dear All,
+
+
+
+                       Department of Mathematics
+                Indian Institute of Science, Bangalore
+
+
+                        COLLOQUIUM
+
+Speaker:   Prof. Debargha Benerjee
+                       Australian National University
+
+Title:   Differential Modular forms on Shimura curves
+                 over totally real fields
+
+Date:   May 2nd, 2013 (Thursday)
+
+Time:   4:00 pm- 5:00pm
+
+Venue:   Department of Mathematics, LH-III
+
+ Abstract:-
+ In this talk, we will introduce the theory of differential modular forms
+ for compact Shimura curves over totally real fields. These are the
+modular forms obtained by applying the arithmetic jet space functor
+(adjoint to the Witt vector functor) to the ring of modular forms
+(global sections of certain line bundle). We will show that these
+differential modular forms help us to detect the ordinary quaternionic
+abelian schemes and schemes with Frobenius lifts (local analogue
+of CM abelian schemes). These are also useful to understand the
+categorical quotient of Shimura curves modulo Hecke
+correspondences/isogeny. We also construct the Serre-Tate
+expansions of such differential modular forms  as a possible
+alternative to the Fourier expansion maps.
+
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------- End of forwarded message -------
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--Message-Boundary-27937
+Content-type: Application/Octet-stream; name="WPM$4010.PM$"; type=Plain text
+Content-description: Mail message body
+Content-disposition: attachment; filename="WPM$4010.PM$"
+Content-transfer-encoding: BASE64
+
+DQoNCg0KDQpEZWFyIEFsbCwNCg0KDQoNCiAgICAgICAgICAgICAgICAgICAg
+ICAgRGVwYXJ0bWVudCBvZiBNYXRoZW1hdGljcw0KICAgICAgICAgICAgICAg
+IEluZGlhbiBJbnN0aXR1dGUgb2YgU2NpZW5jZSwgQmFuZ2Fsb3JlDQoNCg0K
+ICAgICAgICAgICAgICAgICAgICAgICAgQ09MTE9RVUlVTQ0KDQpTcGVha2Vy
+OiAgIFByb2YuIERlYmFyZ2hhIEJlbmVyamVlDQogICAgICAgICAgICAgICAg
+ICAgICAgIEF1c3RyYWxpYW4gTmF0aW9uYWwgVW5pdmVyc2l0eQ0KDQpUaXRs
+ZTogICBEaWZmZXJlbnRpYWwgTW9kdWxhciBmb3JtcyBvbiBTaGltdXJhIGN1
+cnZlcw0KICAgICAgICAgICAgICAgICBvdmVyIHRvdGFsbHkgcmVhbCBmaWVs
+ZHMNCg0KRGF0ZTogICBNYXkgMm5kLCAyMDEzIChUaHVyc2RheSkNCg0KVGlt
+ZTogICA0OjAwIHBtLSA1OjAwcG0NCg0KVmVudWU6ICAgRGVwYXJ0bWVudCBv
+ZiBNYXRoZW1hdGljcywgTEgtSUlJDQoNCiBBYnN0cmFjdDotDQogSW4gdGhp
+cyB0YWxrLCB3ZSB3aWxsIGludHJvZHVjZSB0aGUgdGhlb3J5IG9mIGRpZmZl
+cmVudGlhbCBtb2R1bGFyIGZvcm1zDQogZm9yIGNvbXBhY3QgU2hpbXVyYSBj
+dXJ2ZXMgb3ZlciB0b3RhbGx5IHJlYWwgZmllbGRzLiBUaGVzZSBhcmUgdGhl
+DQptb2R1bGFyIGZvcm1zIG9idGFpbmVkIGJ5IGFwcGx5aW5nIHRoZSBhcml0
+aG1ldGljIGpldCBzcGFjZSBmdW5jdG9yDQooYWRqb2ludCB0byB0aGUgV2l0
+dCB2ZWN0b3IgZnVuY3RvcikgdG8gdGhlIHJpbmcgb2YgbW9kdWxhciBmb3Jt
+cw0KKGdsb2JhbCBzZWN0aW9ucyBvZiBjZXJ0YWluIGxpbmUgYnVuZGxlKS4g
+V2Ugd2lsbCBzaG93IHRoYXQgdGhlc2UNCmRpZmZlcmVudGlhbCBtb2R1bGFy
+IGZvcm1zIGhlbHAgdXMgdG8gZGV0ZWN0IHRoZSBvcmRpbmFyeSBxdWF0ZXJu
+aW9uaWMNCmFiZWxpYW4gc2NoZW1lcyBhbmQgc2NoZW1lcyB3aXRoIEZyb2Jl
+bml1cyBsaWZ0cyAobG9jYWwgYW5hbG9ndWUNCm9mIENNIGFiZWxpYW4gc2No
+ZW1lcykuIFRoZXNlIGFyZSBhbHNvIHVzZWZ1bCB0byB1bmRlcnN0YW5kIHRo
+ZQ0KY2F0ZWdvcmljYWwgcXVvdGllbnQgb2YgU2hpbXVyYSBjdXJ2ZXMgbW9k
+dWxvIEhlY2tlDQpjb3JyZXNwb25kZW5jZXMvaXNvZ2VueS4gV2UgYWxzbyBj
+b25zdHJ1Y3QgdGhlIFNlcnJlLVRhdGUNCmV4cGFuc2lvbnMgb2Ygc3VjaCBk
+aWZmZXJlbnRpYWwgbW9kdWxhciBmb3JtcyAgYXMgYSBwb3NzaWJsZQ0KYWx0
+ZXJuYXRpdmUgdG8gdGhlIEZvdXJpZXIgZXhwYW5zaW9uIG1hcHMuDQoNCg0K
+DQoNCiAgICAgICAgICAgIEFMTCBBUkUgQ09SRElBTExZIElOVklURUQsDQoN
+Cg0KDQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgQ2hhaXJtYW4sDQogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIERlcGFydG1lbnQgb2YgTWF0aGVtYXRpY3MNCg0K
+DQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQoNCg0KDQo=
+
+--Message-Boundary-27937--

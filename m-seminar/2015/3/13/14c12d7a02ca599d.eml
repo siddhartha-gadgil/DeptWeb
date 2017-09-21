@@ -1,0 +1,97 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.14.67 with SMTP id f3csp658232qca;
+        Fri, 13 Mar 2015 04:14:24 -0700 (PDT)
+X-Received: by 10.107.169.35 with SMTP id s35mr52922998ioe.46.1426245263845;
+        Fri, 13 Mar 2015 04:14:23 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id kx15si3378126pab.228.2015.03.13.04.14.21;
+        Fri, 13 Mar 2015 04:14:23 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t2DBEI3t026009;
+	Fri, 13 Mar 2015 16:44:18 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t2DBRVJa025029
+	for <m_seminar@math.iisc.ernet.in>; Fri, 13 Mar 2015 16:57:31 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t2DBRVBg025028;
+	Fri, 13 Mar 2015 16:57:31 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 13 Mar 2015 11:27:31 -0000
+Message-ID: <0b327d0a319119d6bc473774908791f7.squirrel@math.iisc.ernet.in>
+Date: Fri, 13 Mar 2015 11:27:31 -0000
+Subject: [Seminar] Math: March 18th, 2015: Arithmetic of Farey-Ford Packings
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Amita Malik
+          University of Illinois at Urbana-Champaign
+
+Title   : Arithmetic of Farey-Ford Packings
+
+Date    : 18th March, 2015 (Wednesday)
+
+Time    : 2:30 p.m. - 3:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Farey-Ford Packings are a special case of more general circle packings
+called Apollonian Circle Packings (ACP). These packings have some very
+interesting properties, for exmaple, if any four mutually tangent circles
+have integer curvatures, then so do all others in the packing. This has
+led to many important problems like prime number theorem in this setting.
+Kontorovich and Oh explore it from dynamics point of view whereas
+Bourgain, Fuchs and Sarnak look at them more number theoretically. In this
+talk, our focus will be on the specialized packings Farey-Ford Packings.
+We consider some basic statistics associated to these circles and answer
+some questions about their distributions and asymptotic behavior. One can
+ask similar questions in the general setting for ACP, and if time permits,
+we will discuss it in this talk. Some of this is joint work with Athreya,
+Chaubey and Zaharescu.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

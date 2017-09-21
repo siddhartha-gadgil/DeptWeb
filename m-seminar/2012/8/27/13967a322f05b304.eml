@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.19.227 with SMTP id i3csp153351oae;
+        Mon, 27 Aug 2012 03:31:50 -0700 (PDT)
+Received: by 10.66.78.194 with SMTP id d2mr19977924pax.42.1346063509434;
+        Mon, 27 Aug 2012 03:31:49 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id hf6si9936635pbc.73.2012.08.27.03.31.45
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 27 Aug 2012 03:31:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q7RAVfSm015538;
+	Mon, 27 Aug 2012 16:01:41 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q7RAVb7Q000778
+	for <m_seminar@math.iisc.ernet.in>; Mon, 27 Aug 2012 16:01:37 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q7RAVbZn000777;
+	Mon, 27 Aug 2012 16:01:37 +0530
+From: pooja@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 27 Aug 2012 16:01:37 +0530 (IST)
+Message-ID: <3140a5a1b42eb76f9056d314abfbb073.squirrel@math.iisc.ernet.in>
+Date: Mon, 27 Aug 2012 16:01:37 +0530 (IST)
+Subject: [Seminar] MATH : Thursday,
+      30th August 2012 : "Asymptotic behavior of Poisson kernels on NA 
+     groups"
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+
+                    Department of Mathematics
+               Indian Institute of Science, Bangalore
+
+
+                           SEMINAR
+
+
+Speaker    :  Prof Ewa Damek
+               University of Wroclaw, Wroclaw, Poland
+
+Title      :  Asymptotic behavior of Poisson kernels on NA groups
+
+Day & Date :  Thursday, 30/8/12
+
+Time       :  4:00 p.m.- 5:00 pm
+
+Venue      :  Department of Mathematics, LH-I
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

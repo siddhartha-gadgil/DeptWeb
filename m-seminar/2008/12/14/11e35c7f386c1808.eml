@@ -1,0 +1,118 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.101.71.15 with SMTP id y15cs91333ank;
+        Sun, 14 Dec 2008 05:55:44 -0800 (PST)
+Received: by 10.110.61.16 with SMTP id j16mr6984153tia.2.1229262942886;
+        Sun, 14 Dec 2008 05:55:42 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.65])
+        by mx.google.com with ESMTP id d1si7729634tid.24.2008.12.14.05.55.22;
+        Sun, 14 Dec 2008 05:55:42 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.65 as permitted sender) client-ip=220.227.207.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id mBEDuECG011562;
+	Sun, 14 Dec 2008 19:26:14 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id mBEIjwc7019424;
+	Sun, 14 Dec 2008 18:45:58 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id mBEIjwME019423;
+	Sun, 14 Dec 2008 18:45:58 GMT
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@math.iisc.ernet.in using -f
+Received: from 59.96.40.66
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Sun, 14 Dec 2008 18:45:58 -0000 (UTC)
+Message-ID: <49329.59.96.40.66.1229280358.squirrel@math.iisc.ernet.in>
+Date: Sun, 14 Dec 2008 18:45:58 -0000 (UTC)
+Subject: Maths : December 17,
+      2008: Seminar :   "Infinitesimal Hecke algebras"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+Please note the unusual time.
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Apporva Khare, U.C. Riverside
+
+    Title                : Infinitesimal Hecke algebras
+
+
+    Day & Date           : December 17, 2008
+
+    Time                 : 11.00 a.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+Abstract:
+     We study families of infinite-dimensional algebras that are similar to
+semisimple Lie algebras as well as symplectic reflection algebras.
+Infinitesimal Hecke algebras are deformations of semidirect product Lie
+algebras, and we study two families over sl(2) and gl(2). Both of them
+have a triangular decomposition and a nontrivial center, which allows us
+to define and study the BGG Category O over them - including a (central
+character) block decomposition, and an analog of Duflo's Theorem about
+primitive ideals. We then discuss certain related setups.
+
+ We conclude with the undeformed case of semidirect product Lie
+ algebras, and of graded modules over them; this is motivated by the
+study of Kirillov-Reshetikhin modules, using truncated current Lie
+algebras.
+
+
+
+                        All  interested  are  Welcome
+
+                                                   CHAIRMAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,86 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.59.9 with SMTP id j9csp11909ibh;
+        Thu, 16 Feb 2012 03:21:58 -0800 (PST)
+Received: by 10.68.75.135 with SMTP id c7mr12542323pbw.43.1329391318100;
+        Thu, 16 Feb 2012 03:21:58 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id z4si3184751pbm.310.2012.02.16.03.21.56
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 16 Feb 2012 03:21:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q1GBLrMt030520;
+	Thu, 16 Feb 2012 16:51:53 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q1GBOGQR027139
+	for <m_seminar@math.iisc.ernet.in>; Thu, 16 Feb 2012 16:54:16 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q1GBOG7I027136
+	for <m_seminar@math.iisc.ernet.in>; Thu, 16 Feb 2012 16:54:16 +0530
+Date: Thu, 16 Feb 2012 16:54:16 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Colloquium] Math: 27th Feb, 2012: "Lifting of model structures to
+ fibred categories"
+Message-ID: <Pine.LNX.4.64.1202161652160.15453@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q1GBLrMt030520
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		           Department of Mathematics
+ 		     Indian Institute of Science, Bangalore
+
+
+  			       COLLOQUIUM
+
+
+Speaker	: Prof. Abhishek Banerjee
+ 	  Ohio State University, U.S.A.
+
+Title	: Lifting of model structures to fibred categories
+
+Date	: February 27, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+**PLEASE NOTE THE NON-STANDARD DAY OF THIS COLLOQUIUM**
+
+Abstract:
+A fibred category consists of a functor $p:\mathbf N\longrightarrow
+\mathbf M$ between categories $\mathbf N$ and $\mathbf M$ such that
+objects of $\mathbf N$ may be "pulled back along any arrow of
+$\mathbf M$". Given a fibred category $p:\mathbf N\longrightarrow
+\mathbf M$ and a model structure on the "base category" $\mathbf M$, we
+show that there exists a lifting of the model structure on $\mathbf M$ to
+a model structure on $\mathbf N$. We will refer to such a system as a
+"fibred model category" and give several examples of such structures.
+We show that, under certain conditions, right homotopies of maps in the
+base category $\mathbf M$ may  be lifted to right homotopic maps in the
+fibred category. Further, we show that these lifted model structures are
+well behaved with respect to Quillen adjunctions and Quillen equivalences.
+Finally, we show that if $\mathbf N$ and $\mathbf M$ carry compatible
+closed monoidal structures and the functor $p$ commutes with colimits,
+then a Quillen pair on $\mathbf M$ lifts to a Quillen pair on $\mathbf N$.
+
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					    Chairman,
+ 					    Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

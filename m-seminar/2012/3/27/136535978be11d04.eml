@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.204.41.72 with SMTP id n8csp95837bke;
+        Tue, 27 Mar 2012 01:50:35 -0700 (PDT)
+Received: by 10.68.223.33 with SMTP id qr1mr60492926pbc.47.1332838234370;
+        Tue, 27 Mar 2012 01:50:34 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id j5si21316384pbl.332.2012.03.27.01.50.32
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 27 Mar 2012 01:50:34 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q2R8oTSY000361;
+	Tue, 27 Mar 2012 14:20:29 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q2R8t8vg028663
+	for <m_seminar@math.iisc.ernet.in>; Tue, 27 Mar 2012 14:25:08 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q2R8t8mA028658
+	for <m_seminar@math.iisc.ernet.in>; Tue, 27 Mar 2012 14:25:08 +0530
+Date: Tue, 27 Mar 2012 14:25:08 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Topological rigidity"
+Message-ID: <Pine.LNX.4.64.1203271422290.24164@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.7,
+	required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		       	  Department of Mathematics
+ 		     Indian Institute of Science, Bangalore
+
+
+  			         SEMINAR
+
+
+Speaker	: Prof. Thomas Farrell
+ 	  SUNY at Binghamton, U.S.A.
+
+Title	: Topological rigidity
+
+Date	: March 27, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall III
+
+**PLEASE NOTE THE UNUSUAL DAY OF THIS TALK.**
+
+Abstract:
+
+Title: Topological Rigidity
+
+Abstract:
+Mostow proved that n-dimensional closed (compact with empty boundary)
+Riemannian manifolds M and N with constant -1 sectional curvatures
+and isomorphic fundamental groups are isometric when n>2. In the more
+general setting where the sectional curvatures are negative but not
+necessarily constant, isometry is clearly too much to expect. But
+diffeomorphism or at least homeomorphism seemed plausible. I will discuss
+why homeomorphism is true when n>4. This is joint work with Lowell Jones.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					   Chairman,
+ 					   Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

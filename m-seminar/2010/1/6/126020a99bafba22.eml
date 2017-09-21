@@ -1,0 +1,91 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.115.46.10 with SMTP id y10cs34448waj;
+        Tue, 5 Jan 2010 21:10:34 -0800 (PST)
+Received: by 10.143.26.31 with SMTP id d31mr11257052wfj.269.1262754634762;
+        Tue, 05 Jan 2010 21:10:34 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id 6si23488386pzk.35.2010.01.05.21.10.32;
+        Tue, 05 Jan 2010 21:10:33 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o065AJan013201;
+	Wed, 6 Jan 2010 10:40:19 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o065Rmpp004110;
+	Wed, 6 Jan 2010 10:57:48 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o065RmXo004109;
+	Wed, 6 Jan 2010 10:57:48 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Wed, 6 Jan 2010 10:57:48 +0530 (IST)
+Message-ID: <fdf43f65f1c475b3f3cf1dee132cef4d.squirrel@www.math.iisc.ernet.in>
+Date: Wed, 6 Jan 2010 10:57:48 +0530 (IST)
+Subject: Maths : January 11,
+           2010: Seminar : "Can Computers do Mathematics? Ventures in  
+     Topology/Geometry"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=1.389, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00,
+	FH_DATE_PAST_20XX 3.19)
+X-IISc-MailScanner-SpamScore: s
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Siddhartha Gadgil, IISc.
+
+    Title                : Can Computers do Mathematics? Ventures in
+                           Topology/Geometry
+
+   Day & Date            : Monday,  December 21, 2009.
+
+    Time                 : 4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+Abstract:
+      We discuss applications of computers to prove mathematical
+theorems. In particular we discuss possible future applications in
+Topology/Geometry.
+      This will also be the introductory lecture to the new course `Computer
+Assisted Topology/Geometry'
+
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp23155lbb;
+        Fri, 18 Apr 2014 02:10:16 -0700 (PDT)
+X-Received: by 10.66.147.130 with SMTP id tk2mr20809205pab.125.1397812215714;
+        Fri, 18 Apr 2014 02:10:15 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id a8si16047169pbs.27.2014.04.18.02.10.13
+        for <multiple recipients>;
+        Fri, 18 Apr 2014 02:10:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s3I9A9BV025480;
+	Fri, 18 Apr 2014 14:40:09 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s3I9CCZl027725
+	for <m_seminar@math.iisc.ernet.in>; Fri, 18 Apr 2014 14:42:12 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s3I9CC9F027716;
+	Fri, 18 Apr 2014 14:42:12 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 18 Apr 2014 09:12:12 -0000
+Message-ID: <a4cf0f8973dba02b71410c56f36e9fec.squirrel@math.iisc.ernet.in>
+Date: Fri, 18 Apr 2014 09:12:12 -0000
+Subject: [Seminar] Math: May 6th, 2014: Roots of Units, or A sum worthy of
+ Gauss
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s3I9A9BV025480
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Chandan Singh Dalwat
+          HRI
+
+Title   : Roots of Units, or A sum worthy of Gauss
+
+Date    : 6th May, 2014 (Tuesday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+One looks at a certain sum G involving the p-th roots of unity (where p is
+a prime number), called the quadratic gaussian sum. It is easy to see that
+G^2=p, which means that G itself is either the positive or the negative
+square root of p.  Which one ? It took Gauss many years to find the answer
+and to prove the result.  Since then some other proofs of this result have
+been given, and it has become the central example of what is called the
+"root number" of an L-function.  So the result is very important.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

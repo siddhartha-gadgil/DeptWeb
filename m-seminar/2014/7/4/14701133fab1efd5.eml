@@ -1,0 +1,98 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.112.106 with SMTP id ip10csp294711lbb;
+        Fri, 4 Jul 2014 04:12:25 -0700 (PDT)
+X-Received: by 10.68.130.130 with SMTP id oe2mr10256494pbb.154.1404472344744;
+        Fri, 04 Jul 2014 04:12:24 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id d10si1852206pdp.284.2014.07.04.04.12.22
+        for <multiple recipients>;
+        Fri, 04 Jul 2014 04:12:24 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s64BCJiX001926;
+	Fri, 4 Jul 2014 16:42:19 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s64BD09T014539
+	for <m_seminar@math.iisc.ernet.in>; Fri, 4 Jul 2014 16:43:00 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s64BD0TI014518;
+	Fri, 4 Jul 2014 16:43:00 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 4 Jul 2014 11:13:00 -0000
+Message-ID: <103a079da48214005e0a30d3c8e1133f.squirrel@math.iisc.ernet.in>
+Date: Fri, 4 Jul 2014 11:13:00 -0000
+Subject: [Seminar] Math: July 28th, 2014: HOMOTOPY AND HOMOLOGY OF
+ NONCOMMUTATIVE SPACES
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.322, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50, TW_GD 0.08)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Snigdhayan Mahanta
+          University of Muenster
+
+Title   : HOMOTOPY AND HOMOLOGY OF NONCOMMUTATIVE SPACES
+
+Date    : 28th July, 2014 (Monday)
+
+Time    : 3:30 - 4:30pm
+
+Venue   : Lecture Hall V, Department of Mathematics
+
+Abstract:
+In noncommutative geometry (NCG) one typically treats unital C*-algebras
+as noncommutative compact spaces via Gelfand-Naimark duality. In various
+applications of NCG to problems in geometry or topology it is customary to
+first reformulate these problems in terms of certain (co)homology
+theories for noncommutative spaces. The celebrated Baum-Connes conjecture,
+that reduces the Novikov conjecture to an assertion in bivariant K-theory,
+is a prime example of this principle. However, the category of
+C*-algebras is well-known to be deficient from the viewpoint of homotopy
+theory or index theory. In this talk I am going to first survey certain
+(co)homology theories for noncommutative spaces, then present my proposed
+solution to the aforementioned problem, and finally (time permitting)
+discuss some applications. I will try to keep it non-technical and
+accessible to a wide range of audience.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

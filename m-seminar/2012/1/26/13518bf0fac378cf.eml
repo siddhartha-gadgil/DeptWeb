@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.53.81 with SMTP id l17cs3015ibg;
+        Wed, 25 Jan 2012 22:41:09 -0800 (PST)
+Received: by 10.68.115.195 with SMTP id jq3mr2598654pbb.34.1327560069229;
+        Wed, 25 Jan 2012 22:41:09 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id p7si4353706pbk.129.2012.01.25.22.41.07
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 25 Jan 2012 22:41:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q0Q6f1iD023768;
+	Thu, 26 Jan 2012 12:11:01 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q0Q6gB35027767
+	for <m_seminar@math.iisc.ernet.in>; Thu, 26 Jan 2012 12:12:11 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q0Q6gBn2027764
+	for <m_seminar@math.iisc.ernet.in>; Thu, 26 Jan 2012 12:12:11 +0530
+Date: Thu, 26 Jan 2012 12:12:11 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Lecture series] Math: 30th Jan, 2012: "Some representations of the
+ discrete Heisenberg group"
+Message-ID: <Pine.LNX.4.64.1201261211370.27655@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046162175-50388992-1326688083=:16464"
+Content-ID: <Pine.LNX.4.64.1201160958130.16464@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.2,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-50388992-1326688083=:16464
+Content-Type: TEXT/PLAIN; CHARSET=ISO-8859-1; FORMAT=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <Pine.LNX.4.64.1201160958131.16464@math.iisc.ernet.in>
+
+
+ 		       	    Department of Mathematics
+ 		       Indian Institute of Science, Bangalore
+
+
+  			      LECTURE SERIES
+
+
+Speaker	: Prof. Gerald B. Folland
+ 	    University of Washington
+
+Title	: Some representations of the discrete Heisenberg group
+
+Dates	: January 30, February 1, 3 and 6
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+The operators $f(t) \rightarrow f(t-a)$ and
+$f(t) \rightarrow e^{2\pi bt} f(t)$ on $L^2(\mathbb R)$ generate unitary
+representations of the discrete Heisenberg group $H$ with central
+character $e^{2\pi abz}$.  What are the irreducible representations
+of $H$ with this central character, and how can one synthesize the
+representation just described from them ? When $ab$ is rational, the
+answers are quite straightforward, but when $ab$ is irrational
+things are much more complicated. We shall describe results in both
+cases.
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					       Chairman,
+ 					       Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-50388992-1326688083=:16464--

@@ -1,0 +1,84 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.12.199 with SMTP id 190csp2855341ivm;
+        Sun, 30 Jul 2017 22:05:31 -0700 (PDT)
+X-Received: by 10.99.54.201 with SMTP id d192mr2010479pga.310.1501477531871;
+        Sun, 30 Jul 2017 22:05:31 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1501477531; cv=none;
+        d=google.com; s=arc-20160816;
+        b=zcGjZk/D80qVtoH5DEjFxHGFQc0z8MPfWqFdJCP2qlJtl911cyN0+ezmMwlEaUJmzP
+         6agPafeLPmbYbUYLYMej5el4LKQdSKtj3YbILFpLdkLOznmmCN6F3VsRFtiEqhTaGqXd
+         YxLhIMykkK5Af30kbSbqIMDwvHDhxRAqAZ+5TZARHvbZHU9K6pce8m0x8PrbgPSix8rM
+         g8DCDj9qOjZ5eLG1N0GIg+hjN9wY7lkcNcG0fjj9//YHBaH37Hid56SXvuImL9V/mrF0
+         JI59YTdEE/nxNSS9TMY2Ov3lUDo/jHKpA02g2a/JR8eRMs0OvP/CLBvaDAzU7g3OKoYM
+         JFsw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=Ks4ySSUNlM7/Ebb1VAwKwY1TKhLzLuX7P3HMIzyDe50=;
+        b=H3G21EOt1UCMzdmvQR0EPQ1XuR7yy8pJpg9jNwjRsuu1udwCFZMej8ONbfe1lMTObj
+         rK8dxlFoKmJUJSdCt+O+dJGIk488UdmOnoMI4dXT65tGlzem6bm5Ka8KnvS+EMl6kL67
+         2rfMbuBNcUVMB2kesD6huH1ZbBz+qS/Oh0TSLfTqRIuaCebDNvYc64uDDciPCGLq5n3T
+         tyUaJ6rVcb45f1rOt4tiYtq1ORUIO9zXGXkXcVlCkALokOj+MhtUH+lHrbiUJnCz6+6k
+         czDJUIozeEbQml6Te1IhW0fNQxq3j8QSVcgiUFq81taMLbV+cf98kwdCok7F2UsSre2g
+         cnvw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.68])
+        by mx.google.com with ESMTP id 66si15753528pgc.392.2017.07.30.22.05.30;
+        Sun, 30 Jul 2017 22:05:31 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) client-ip=14.139.128.68;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id DFF60AED530;
+	Mon, 31 Jul 2017 10:35:25 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v6V5Z2tx016442
+	for <m_seminar@math.iisc.ernet.in>; Mon, 31 Jul 2017 11:05:02 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v6V5Z286016441;
+	Mon, 31 Jul 2017 11:05:02 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Mon, 31 Jul 2017 05:35:02 -0000
+Message-ID: <f94655b9c4804932765538f2fbeb007d.squirrel@math.iisc.ac.in>
+Date: Mon, 31 Jul 2017 05:35:02 -0000
+Subject: Math Dept Seminar Aug 2 (Malabika Pramanik)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: DFF60AED530.AA79F
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.901, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1502082327.35783@cYdy8MJTeSZOOPjBCewG1A
+X-Spam-Status: No
+
+Speaker: Malabika Pramanik( UBC, Canada)
+
+Title: "For good measure ... and bad"
+
+Date : Aug 2, 2017
+
+Time : 3:30 pm
+
+Location : LH-1
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

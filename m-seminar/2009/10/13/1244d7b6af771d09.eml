@@ -1,0 +1,82 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.115.47.11 with SMTP id z11cs287904waj;
+        Tue, 13 Oct 2009 03:39:45 -0700 (PDT)
+Received: by 10.114.18.4 with SMTP id 4mr12197481war.137.1255430384680;
+        Tue, 13 Oct 2009 03:39:44 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.69])
+        by mx.google.com with ESMTP id 34si10678258pzk.81.2009.10.13.03.39.42;
+        Tue, 13 Oct 2009 03:39:44 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.69 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) client-ip=203.200.35.69;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.69 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n9DAkkbq020638;
+	Tue, 13 Oct 2009 16:16:46 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n9DAppRU017683;
+	Tue, 13 Oct 2009 16:21:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id n9DAppUh017681;
+	Tue, 13 Oct 2009 16:21:51 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Tue, 13 Oct 2009 16:21:51 +0530 (IST)
+Message-ID: <70f4f6299fc5a56e3abfa8d28cc01b5b.squirrel@www.math.iisc.ernet.in>
+Date: Tue, 13 Oct 2009 16:21:51 +0530 (IST)
+Subject: Maths : October 19,
+       2009: Seminar : "Buseman functions in a harmonic manifold"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Hemangi Shah, IISc.
+
+    Title                : Buseman functions in a harmonic manifold
+
+    Day & Date           : Monday, October 19, 2009.
+
+    Time                 : 4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+
+Abstract:
+       For a noncompact complete and simply connected harmonic manifold M,
+we prove the analyticity of Busemann functions on M. This is the
+main result of this paper. An application of it shows that the
+harmonic spaces having minimal horospheres have the bi-asymptotic
+property. Finally we prove that the total Busemann function is
+continuous in C^\infty topology. As a consequence of it we show
+that the uniform divergence of geodesics holds in these spaces.
+
+           All are Welcome.
+                                              Chairman
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,128 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.216.196.29 with SMTP id q29csp22608wen;
+        Thu, 18 Oct 2012 03:59:58 -0700 (PDT)
+Received: by 10.68.217.130 with SMTP id oy2mr64288103pbc.144.1350557996994;
+        Thu, 18 Oct 2012 03:59:56 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id ny6si20442013pbb.16.2012.10.18.03.59.45
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 18 Oct 2012 03:59:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q9IAxgiP028333;
+	Thu, 18 Oct 2012 16:29:42 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q9IAwX1F023960
+	for <m_seminar@math.iisc.ernet.in>; Thu, 18 Oct 2012 16:28:33 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q9IAwXFW023959;
+	Thu, 18 Oct 2012 16:28:33 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 18 Oct 2012 16:28:33 +0530 (IST)
+Message-ID: <0ac1f592cc23ab57ba2649882079af2f.squirrel@math.iisc.ernet.in>
+Date: Thu, 18 Oct 2012 16:28:33 +0530 (IST)
+Subject: [Seminar] MATH : 22nd Oct 2012 : "Bangalore Probability Seminar"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q9IAxgiP028333
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+
+       BANGALORE PROBABILITY SEMINAR
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+-----------------------------------------------
+
+Speaker :  Subhamay Saha (IISc, Mathematics)
+
+Date    :   22nd Oct, 2012
+
+Time    :  2:00pm
+
+Venue   :  LH-1, Department of Mathematics, IISc
+
+Title   :  Risk-senstive control of continuous time Markov chains.
+
+Abstract: We study risk-sensitive control of continuous time Markov
+chains
+taking values in discrete state space. We study both finite and infinite
+horizon problems. In the finite horizon problem we characterise the
+value
+function via HJB equation and obtain an optimal Markov control. We do
+the
+same for infinite horizon discounted cost case. In the infinite horizon
+average cost case we establish the existence of an optimal stationary
+control under certain Lyapunov condition. We also develop a policy
+iteration algorithm for finding an optimal control.
+
+
+-----------------------------------------------
+
+Speaker : Debarghya Ghoshdastidar (IISc, CSA)
+
+Date    : 22nd Oct, 2012
+
+Time    : 3:15pm
+
+Venue   : LH-1, Department of Mathematics, IISc
+
+Title   : On some Statistical Properties of Multivariate q-Gaussian
+Distribution and its application to Smoothed Functional Algorithms
+
+Abstract: The importance of the q-Gaussian distribution lies in its
+power-law
+nature, and its close association with Gaussian, Cauchy and uniform
+distributions. This distribution arises from maximization of a
+generalized information measure. In this work, we study some key
+properties related to higher order moments and q-moments of the
+multivariate q-Gaussian distribution. Further, we present an algorithm
+to generate multivariate q-Gaussian distribution.
+We use these results of the q-Gaussian distribution to improve upon
+the smoothing properties of Gaussian and Cauchy kernels. Based on
+this, we propose a Smoothed Functional (SF) scheme for gradient and
+Hessian estimation using q-Gaussian distribution. Our work extends the
+class of distributions that can be used in SF algorithms by including
+the q-Gaussian distributions for a range of q-values. We propose four
+two-timescale algorithms for optimization of a stochastic objective
+function using gradient descent and Newton based search methods. We
+prove that each of the proposed algorithms converge to a local
+optimum.
+
+--------------------------------------------
+
+
+         All are cordially invited.
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

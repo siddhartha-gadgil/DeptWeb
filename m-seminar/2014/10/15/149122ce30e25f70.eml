@@ -1,0 +1,103 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.167.1 with SMTP id q1csp553527ioe;
+        Tue, 14 Oct 2014 21:59:32 -0700 (PDT)
+X-Received: by 10.70.128.133 with SMTP id no5mr10044758pdb.122.1413349172276;
+        Tue, 14 Oct 2014 21:59:32 -0700 (PDT)
+Return-Path: <nmi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id pp3si14669114pdb.218.2014.10.14.21.59.29
+        for <multiple recipients>;
+        Tue, 14 Oct 2014 21:59:32 -0700 (PDT)
+Received-SPF: none (google.com: nmi@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: nmi@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=nmi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s9F4xQW8028828;
+	Wed, 15 Oct 2014 10:29:26 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s9F4wMYN012044
+	for <m_seminar@math.iisc.ernet.in>; Wed, 15 Oct 2014 10:28:22 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s9F4wMu1012037;
+	Wed, 15 Oct 2014 10:28:22 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to nmi@localhost using -f
+Received: from 10.134.13.19
+        (SquirrelMail authenticated user nmi)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 15 Oct 2014 10:28:22 +0530
+Message-ID: <4de2349e058d1e5aa76939455b3f8948.squirrel@math.iisc.ernet.in>
+Date: Wed, 15 Oct 2014 10:28:22 +0530
+Subject: [Seminar] :REMINDER: October 16, 2014 -  From Calculus to Number
+ Theory (via Cohomology)
+From: "National Mathematics Initiative" <nmi@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s9F4xQW8028828
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: nmi@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+                  National Mathematics Initiative
+                    Department of Mathematics
+                   Indian Institute of Science
+                          Bangalore - 12
+
+
+                          SEMINAR ON
+
+
+Title   :  From Calculus to Number Theory (via Cohomology)
+
+Speaker :  Professor A. Raghuram
+           Indian Institute of Science Education and Research (IISER)
+           Pune, Maharashtra, India
+
+Venue   :  Lecture Hall III, Ground Floor
+           Department of Mathematics, IISc, Bangalore
+
+Date    :  October 16, 2014 (Thursday)
+
+Time    :  4:00 PM to 5:00 PM
+
+----------------------------------------------------------------------------
+
+ABSTRACT
+
+Some of the early examples of series which we come across in Calculus
+happen to be prototypical examples governing a subject within number
+theory that goes by the appellation "special values of L-functions." In
+this talk, I will introduce this subject via such classical examples, and
+try to give some general idea of the theorems and conjectures that drive
+the area. Ultimately, my aim will be to explain why certain integrals in
+analytical
+number theory, when interpreted as maps in cohomology, lead to deep
+arithmetical theorems.
+
+----------------------------------------------------------------------------
+
+ALL ARE WELCOME
+
+Coffee/Tea will be served at 3:45 PM
+
+
+Convener
+National Mathematics Initiative (NMI)
+Department of Mathematics
+Indian Institute of Science
+Bangalore - 12
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

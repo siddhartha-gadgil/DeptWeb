@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.13.210.4 with SMTP id u4csp793836ywd;
+        Sun, 6 Sep 2015 21:46:25 -0700 (PDT)
+X-Received: by 10.141.28.6 with SMTP id f6mr25449802qhe.53.1441601185448;
+        Sun, 06 Sep 2015 21:46:25 -0700 (PDT)
+Return-Path: <gm@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id r19si12530294qki.85.2015.09.06.21.46.22;
+        Sun, 06 Sep 2015 21:46:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gm@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of gm@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mailfrom=gm@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t874kCEa000537;
+	Mon, 7 Sep 2015 10:16:12 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t874uAsB027266
+	for <m_seminar@math.iisc.ernet.in>; Mon, 7 Sep 2015 10:26:10 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t874uAUP027263;
+	Mon, 7 Sep 2015 10:26:10 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gm@math.iisc.ernet.in using -f
+Received: from 10.16.40.13 (proxying for 14.139.222.66)
+        (SquirrelMail authenticated user gm)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 7 Sep 2015 04:56:10 -0000
+Message-ID: <b0b28045b2b7b9fa76d1a6815501297b.squirrel@math.iisc.ernet.in>
+In-Reply-To: <2538e2b1b332df78cc51c7166392889d.squirrel@math.iisc.ernet.in>
+References: <2538e2b1b332df78cc51c7166392889d.squirrel@math.iisc.ernet.in>
+Date: Mon, 7 Sep 2015 04:56:10 -0000
+Subject: Re: Lecture series by Sujatha Ramdorai starting August 25
+From: "Gadadhar Misra" <gm@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: gm@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.298, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50,
+	URIBL_BLOCKED 0.00, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: gm@math.iisc.ernet.in
+X-Spam-Status: No
+
+The Lecture Series of Professor Sujatha Ramdorai, described below, will
+continue this week at 2 in the afternoon on Tuesday (Sep 8) and Friday
+(Sep 11) at the same Lecture Hall.
+
+
+
+On Thu, August 20, 2015 3:38 am, mathseminars@math.iisc.ernet.in wrote:
+> Speaker: Sujatha Ramdorai (University of British Columbia, Vancouver,
+> Canada)
+>
+> Date: August 25 (future dates to be decided at the first lecture on Aug
+> 25)
+>
+> Time: 2 pm
+>
+> Location : LH 2
+>
+> Title: Iwasawa theory and the Birch and Swinnerton-Dyer conjecture:
+>
+> Abstract: The celebrated BSD conjecture predicts a deep and mysterious
+> relationship between the algebraic rank of an elliptic curve
+> defined over a number field and an arithmetic invariant arising
+> front he L-function of the elliptic curve. More amazingly, it
+> predicts an exact formula for the leading term of the L-function.
+> Iwasawa theory has proven to be an effective tool in trying to
+> explain the philosophy behind such a mysterious relationship and
+> also in establishing the conjecture in certain cases. We shall
+> outline this theory and discuss  its applications.
+>
+
+
+-- 
+Department of Mathematics
+Indian Institute of Science
+Bangalore 560012
+
+http://www.math.iisc.ernet.in/~gm
+
+TeL: 91 80 2293 2712
+FaX: 91 80 2360 0146
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

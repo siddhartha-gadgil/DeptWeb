@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.12.10 with SMTP id v10cs52344ibv;
+        Sun, 24 Jul 2011 19:47:22 -0700 (PDT)
+Received: by 10.68.42.168 with SMTP id p8mr6920887pbl.423.1311562041284;
+        Sun, 24 Jul 2011 19:47:21 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [14.139.128.65])
+        by mx.google.com with ESMTPS id u4si15138964pbj.116.2011.07.24.19.47.16
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 24 Jul 2011 19:47:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p6P2nljg010047;
+	Mon, 25 Jul 2011 08:19:47 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p6P3aqSc013583
+	for <m_seminar@math.iisc.ernet.in>; Mon, 25 Jul 2011 09:06:52 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id p6P3aqWV013582;
+	Mon, 25 Jul 2011 09:06:52 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to bharali@math.iisc.ernet.in using -f
+Received: from 10.16.40.11 (proxying for 141.223.159.141)
+        (SquirrelMail authenticated user bharali)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 25 Jul 2011 09:06:52 +0530 (IST)
+Message-ID: <7e38a412e44a8d799dc0beab2ce8f192.squirrel@math.iisc.ernet.in>
+Date: Mon, 25 Jul 2011 09:06:52 +0530 (IST)
+Subject: [Seminar] Math: 5th Aug, 2011 "Loewner matrices"
+From: "Gautam Bharali" <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p6P2nljg010047
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		     	Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+
+Speaker	: Prof. Rajendra Bhatia
+ 	  ISI Delhi
+
+Title	: Loewner matrices
+
+Date	: August 5, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+Let f be a smooth function on the real line. The divided difference
+matrices of order n, whose, (i,j)-th entries are the divided differences
+of f at (\lambda_i,\lambda_j) -- where \lambda_1,...,\lambda_n are
+prescribed real numbers -- are called Loewner matrices. In a seminal
+paper published in 1934 Loewner used properties of these matrices to
+characterise operator monotone functions. In the same paper he established
+connections between this matrix problem, complex analytic functions, and
+harmonic analysis. These elegant connections sent Loewner matrices into
+the background. Some recent work has brought them back into focus. In
+particular, characterisation of operator convex functions in terms of
+Loewner matrices has been obtained. In this talk we describe some of
+this work.
+
+
+ 		    ALL ARE CORDIALLY INVITED
+
+ 					      Chairman,
+ 					      Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

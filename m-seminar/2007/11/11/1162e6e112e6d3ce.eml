@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.4 with SMTP id s4cs724602buc;
+        Sun, 11 Nov 2007 03:17:57 -0800 (PST)
+Received: by 10.115.46.9 with SMTP id y9mr1253855waj.1194779876088;
+        Sun, 11 Nov 2007 03:17:56 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id l23si8270543waf.2007.11.11.03.17.37;
+        Sun, 11 Nov 2007 03:17:56 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id lABBJhlW031239;
+	Sun, 11 Nov 2007 16:49:43 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id lABGYCYl021178;
+	Sun, 11 Nov 2007 16:34:12 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id lABGYCDt021175;
+	Sun, 11 Nov 2007 16:34:12 GMT
+Date: Sun, 11 Nov 2007 16:34:12 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 16th November 2007: Seminar - "Spectral Pick interpolation
+ from a complex-geometric viewpoint"
+Message-ID: <Pine.LNX.4.61.0711111632030.21150@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Dr. Gautam Bharali
+
+      Title 		  : Spectral Pick interpolation from a
+ 			complex-geometric viewpoint
+
+      Day & Date           : Friday, November 16.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	The spectral Pick-interpolation problem, i.e. to determine when 
+there exists a holomorphic map from the unit disc to the class of complex 
+matrices of spectral radius less than one that interpolates prescribed 
+data, has a complicated solution using operator-theory and control-theory 
+methods. The difficulty in implementing this solution motivated a new 
+approach pioneered by Agler and Young. Their methods led to a checkable 
+necessary condition for Pick interpolation. But, from a complex-geometric 
+viewpoint, it was unclear why the latter condition should be sufficient. 
+In this talk, we will demonstrate that this condition is not sufficient. 
+We will also present an inequality -- largely linear-algebraic in flavour 
+-- that provides a necessary condition for matricial data for which the 
+Agler-Young-type test provides no conclusions.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

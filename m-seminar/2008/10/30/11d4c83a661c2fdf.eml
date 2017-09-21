@@ -1,0 +1,189 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.100.143.15 with SMTP id q15cs92856and;
+        Wed, 29 Oct 2008 23:49:37 -0700 (PDT)
+Received: by 10.110.11.7 with SMTP id 7mr6791076tik.43.1225349375672;
+        Wed, 29 Oct 2008 23:49:35 -0700 (PDT)
+Return-Path: <tirthankar.bhattacharyya@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id b4si2379948tic.2.2008.10.29.23.48.43;
+        Wed, 29 Oct 2008 23:49:35 -0700 (PDT)
+Received-SPF: neutral (google.com: 144.16.79.123 is neither permitted nor denied by domain of tirthankar.bhattacharyya@gmail.com) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 144.16.79.123 is neither permitted nor denied by domain of tirthankar.bhattacharyya@gmail.com) smtp.mail=tirthankar.bhattacharyya@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m9U6pPQD022311;
+	Thu, 30 Oct 2008 12:21:26 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m9UBissR024539
+	for <m_seminar@math.iisc.ernet.in>; Thu, 30 Oct 2008 11:44:54 GMT
+Received: from rv-out-0708.google.com (rv-out-0708.google.com [209.85.198.249])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m9U6nPaW032274
+	for <m_seminar@math.iisc.ernet.in>; Thu, 30 Oct 2008 12:19:26 +0530
+Received: by rv-out-0708.google.com with SMTP id k29so494310rvb.0
+        for <m_seminar@math.iisc.ernet.in>; Wed, 29 Oct 2008 23:47:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from:reply-to
+         :sender:to:subject:in-reply-to:mime-version:content-type
+         :content-transfer-encoding:content-disposition:references
+         :x-google-sender-auth;
+        bh=i9art2MzLBVNqqS2N2faTdEPqQEeS3qRsptFEae0T3E=;
+        b=ps36clzw/JgV3rCfSGT4yN4Qwqh+I40GYrbidKONcBEeN9UBJdbIgMeRTFlgWRrKA2
+         t8pqj94UPmHWCY4SN44g0SIhiNZWkj4DkUJ5J/YRy2lteKKR8uOlBjJ6O26935CWlB5s
+         BVSEX4ryW2voPM279cLPonPEUnPBj2sXosp9A=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=message-id:date:from:reply-to:sender:to:subject:in-reply-to
+         :mime-version:content-type:content-transfer-encoding
+         :content-disposition:references:x-google-sender-auth;
+        b=edX6LWdhdt8YXiAkA4Wq/DGP3A+fRLUex1hnvJyHv0wzAO5vBpUuLxH7St5+tUWl2t
+         wBeXzhVhhDDYLpB829KQrN7mxaopMulEt5CcruJe7CsT8xRxeqEDU1pCd+Ya8IsTu91n
+         Zd5w4kpuKKg0SeFzdqCWeK1gNCP+gBZvpuuWs=
+Received: by 10.140.126.14 with SMTP id y14mr5439417rvc.96.1225349246486;
+        Wed, 29 Oct 2008 23:47:26 -0700 (PDT)
+Received: by 10.141.194.1 with HTTP; Wed, 29 Oct 2008 23:47:26 -0700 (PDT)
+Message-ID: <11cc63660810292347r52f5207ewa7238c6cbca53e31@mail.gmail.com>
+Date: Thu, 30 Oct 2008 12:17:26 +0530
+From: "Tirthankar Bhattacharyya" <tirtha@math.iisc.ernet.in>
+Reply-To: tirtha@math.iisc.ernet.in
+Sender: tirthankar.bhattacharyya@gmail.com
+To: m_seminar@math.iisc.ernet.in
+Subject: Fwd: Math: CHANGE IN TIME : compact course by Prof. Alan McIntosh: Nov 03-07, 2008. at 4 PM
+In-Reply-To: <4680.10.134.13.39.1225366142.squirrel@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=WINDOWS-1252
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+References: <4680.10.134.13.39.1225366142.squirrel@math.iisc.ernet.in>
+X-Google-Sender-Auth: 608bc45ecc1b75b1
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.5,
+	required 6.5, autolearn=not spam, FWD_MSG -1.00, RCVD_IN_BNBL 1.00,
+	SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached,
+	score=-3.604, required 9, autolearn=not spam, BAYES_00 -2.60,
+	FWD_MSG -1.00, ROUND_THE_WORLD 1.50, SUBJECT_MONTH -1.50)
+X-Spam-Status: No, No, No
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: tirthankar.bhattacharyya@gmail.com
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: tirthankar.bhattacharyya@gmail.com
+
+Please note the change in time.=0A=
+=0A=
+=0A=
+=0A=
+---------- Forwarded message ----------=0A=
+From:  <imi@math.iisc.ernet.in>=0A=
+Date: Thu, Oct 30, 2008 at 4:59 PM=0A=
+Subject: Math: CHANGE IN TIME : compact course by Prof. Alan McIntosh:=0A=
+Nov   03-07,      2008. at  4 PM=0A=
+To: m_amall@math.iisc.ernet.in=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+Dear All,=0A=
+=0A=
+=0A=
+                       IISc Mathematics Initiative=0A=
+                        Department of Mathematics=0A=
+                       Indian Institute of Science=0A=
+                              Bangalore=0A=
+                        ------------------------=0A=
+=0A=
+=0A=
+=0A=
+                            compact course on=0A=
+=0A=
+        The Square Root Problem of Kato for Elliptic Operators:Survey,=0A=
+                         Solution and Sequel=0A=
+=0A=
+=0A=
+                                  by=0A=
+=0A=
+                          Prof. Alan McIntosh=0A=
+                 Centre for Mathematics and its Applications=0A=
+                     Australian National University=0A=
+                          Canberra, Australia=0A=
+=0A=
+=0A=
+                         November 03 - 07, 2008=0A=
+                            Monday to Friday=0A=
+=0A=
+                                  at=0A=
+=0A=
+=0A=
+                   4.00PM, L H =96 1, Department of Mathematics=0A=
+                     Indian Institute of Science, Bangalore=0A=
+=0A=
+=0A=
+=0A=
+                                 Abstract=0A=
+                               ------------=0A=
+=0A=
+=0A=
+About 1960 Tosio Kato, during his investigation of the evolution of=0A=
+physical systems, was led to pose a key question about the square root of=
+=0A=
+non-symmetric elliptic partial differential operators in divergence form.=
+=0A=
+The one-dimensional problem was solved by Coifman, Meyer and myself in=0A=
+1982, while it was only in 2001 that the question was fully answered by=0A=
+Auscher, Hofmann, Lacey, Tchamitchian and myself. A more general viewpoint=
+=0A=
+was subsequently provided in joint work of mine with Axelsson and Keith.=0A=
+=0A=
+Recently, these ideas were employed to give conditions for the solvability=
+=0A=
+of non-symmetric elliptic partial differential equations with bounded=0A=
+measurable coefficients and square integrable boundary values. I shall=0A=
+survey these applications of harmonic analysis to the study of elliptic=0A=
+pde's, and present a new approach of Auscher, Axelsson and myself.=0A=
+=0A=
+=0A=
+=0A=
+                      *********************************=0A=
+                               ALL ARE INVITED=0A=
+                             Coffee/Tea: 03.45PM=0A=
+=0A=
+                                                      G.Rangarajan=0A=
+                                                        Convener=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+=0A=
+--=0A=
+This message has been scanned for viruses and=0A=
+dangerous content by MailScanner, and is=0A=
+believed to be clean.=0A=
+=0A=
+=0A=
+--=0A=
+This message has been scanned for viruses and=0A=
+dangerous content by MailScanner, and is=0A=
+believed to be clean.=0A=
+=0A=
+--=20=0A=
+This message has been scanned for viruses and=0A=
+dangerous content by MailScanner, and is=0A=
+believed to be clean.=0A=
+=0A=
+=0A=
+--=20=0A=
+This message has been scanned for viruses and=0A=
+dangerous content by MailScanner, and is=0A=
+believed to be clean.=0A=
+=0A=

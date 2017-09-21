@@ -1,0 +1,105 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.30.225 with SMTP id v1csp93412qeh;
+        Thu, 14 Mar 2013 22:29:07 -0700 (PDT)
+X-Received: by 10.68.180.193 with SMTP id dq1mr13222429pbc.67.1363325346175;
+        Thu, 14 Mar 2013 22:29:06 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id ol9si8335043pbb.227.2013.03.14.22.29.01
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 14 Mar 2013 22:29:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r2F5Sw1O003181;
+	Fri, 15 Mar 2013 10:58:58 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r2F5SrmF020713
+	for <m_seminar@math.iisc.ernet.in>; Fri, 15 Mar 2013 10:58:53 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r2F5SrF5020710;
+	Fri, 15 Mar 2013 10:58:53 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 15 Mar 2013 10:58:53 +0530 (IST)
+Message-ID: <311d98ec017a8e245483d030a451aa4d.squirrel@math.iisc.ernet.in>
+Date: Fri, 15 Mar 2013 10:58:53 +0530 (IST)
+Subject: [Seminar] MATH : March 18th, 2013 : "Bangalore Probability Seminar"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r2F5Sw1O003181
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+
+                   Bangalore Probability Seminar
+       http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+
+Speaker: Yogeshwaran Dhandapani (Technion, Israel)
+
+Time : 2:00pm, Mar 18
+
+Venue: LH-I, Department of Mathematics, IISc
+
+Title: Comparison of clustering properties of point processes and
+applications to random geometric models
+
+Abstract: I shall talk about some some examples, methods, and recent
+results involving comparison of clustering properties of point processes.
+The basic observation is that void probabilities and
+moment measures are two complementary tools for capturing clustering
+phenomena in point processes. Various global and local functionals of
+random geometric models driven by point processes admit more or less
+explicit bounds involving the void
+probabilities and moment measures, thus allowing to study the impact of
+clustering of the underlying point process. I shall provide examples of
+clustered point processes as well as sketch some recent results obtained
+using the afore-mentioned comparison tools. These results pertain to
+percolation and coverage properties of the Boolean model, the SINR model,
+subgraph counts in random geometric graphs, and more generally,
+U-statistics of point processes.
+
+
+Speaker: Madhushree Basu (IMSc, Chennai)
+
+Time: 3:15pm, Mar 18
+
+Venue: LH-I, Department of Mathematics, IISc
+
+Title: Continuous minimax theorems
+
+Abstract: A minimax theorem is a result that gives a characterization of
+eigenvalues of compact self adjoint operators on Hilbert spaces. In 1949
+Ky Fan characterized sum of first $k$ eigenvalues of an $n \times n$
+Hermitian operator on $C^n$. This gave an extremum property of the sum of
+the first $k$ eigenvalues for Hermitian transformations without referring
+to any eigenvector. Our work grew out of the search for an extension of Ky
+Fan's theorem to such a (finite) von-Neumann algebraic setting. We prove a
+version of Ky Fan's theorem for a self adjoint element having a non atomic
+distribution in a $II_1$ factor, and we also give an alternate proof for
+the finite dimensional version of Ky Fan's original theorem.
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

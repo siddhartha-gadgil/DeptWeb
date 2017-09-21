@@ -1,0 +1,128 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.86.8 with SMTP id l8csp69565qez;
+        Sun, 19 May 2013 19:27:56 -0700 (PDT)
+X-Received: by 10.68.111.228 with SMTP id il4mr4154365pbb.134.1369016876479;
+        Sun, 19 May 2013 19:27:56 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id xl4si9937902pab.167.2013.05.19.19.27.54
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 19 May 2013 19:27:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r4K2RrjN027537;
+	Mon, 20 May 2013 07:57:53 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r4K2Ric8013433
+	for <m_seminar@math.iisc.ernet.in>; Mon, 20 May 2013 07:57:44 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r4K2Ri9t013432;
+	Mon, 20 May 2013 07:57:44 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from s2.serc.iisc.ernet.in ([10.16.40.12]) (proxying for 
+     117.192.76.73)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 20 May 2013 07:57:44 +0530 (IST)
+Message-ID: <d13c0519b3504f06b093e996264dcf8a.squirrel@math.iisc.ernet.in>
+Date: Mon, 20 May 2013 07:57:44 +0530 (IST)
+Subject: [ Change in Seminar] MATH :Today: "Gradient bounds for p-harmonic 
+     systems with vanishing      Neumann data in a  convex domain"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r4K2RrjN027537
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear All,
+
+  Kindly note the change in venue of the following seminar.
+
+
+                       Department of Mathematics
+                Indian Institute of Science, Bangalore
+
+
+                        SEMINAR
+
+
+Speaker: Agnid Banerjee,
+                 Purdue University
+
+
+Title of the Talk: "Gradient bounds for p-harmonic systems with vanishing
+Neumann data in a  convex domain"
+
+Date:   May 20th, 2013.
+
+Time : 11am
+
+Venue: Department of Mathematics, LH-3
+
+Abstract: "Let u be a weak solution to a p-harmonic system with vanishing
+Neumann data on a portion of the boundary of a  domain  which is  convex.
+We show that  subsolution type  arguments for  some  uniformly elliptic
+PDE's can be used to deduce that  the modulus of the gradient is bounded
+depending on  the Lipschitz character  of the domain. In this context, I
+would like to mention that classical  results  on the boundedness of the
+gradient require the domain to be  C^{1, Dini}. However,  in our case,
+since the domain is convex, one can make use of the fundamental inequality
+of Grisvard  which can be thought of as an analogue of the use of the
+barriers for Dirichlet problems in convex domains. Our arguments  replaces
+an argument  based on level sets in recent important works of Mazya,
+Cianchi-Mazya and Geng-Shen involving similar problems. I also  intend to
+indicate some open problems in the regularity theory of degenerate elliptic
+and parabolic systems. This is  a joint work with Prof. John L. Lewis. "
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

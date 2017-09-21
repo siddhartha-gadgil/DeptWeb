@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.154.11 with SMTP id m11cs107178ibw;
+        Mon, 17 Jan 2011 21:24:38 -0800 (PST)
+Received: by 10.42.230.4 with SMTP id jk4mr5571398icb.387.1295328277989;
+        Mon, 17 Jan 2011 21:24:37 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.70])
+        by mx.google.com with ESMTPS id s6si4027378vch.142.2011.01.17.21.24.36
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Mon, 17 Jan 2011 21:24:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id p0I5Q30R015949
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Tue, 18 Jan 2011 10:56:03 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p0I63XwI030930
+	for <m_seminar@math.iisc.ernet.in>; Tue, 18 Jan 2011 11:33:33 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p0I63XFK030927
+	for <m_seminar@math.iisc.ernet.in>; Tue, 18 Jan 2011 11:33:33 +0530
+Date: Tue, 18 Jan 2011 11:33:33 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Colloquium] Math: 21st Jan, 2011: "Cofinal types of ultrafilters"
+Message-ID: <Pine.LNX.4.64.1101181131400.24817@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p0I5Q30R015949
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		         Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+ 				COLLOQUIUM
+
+Speaker	: Prof. Dilip Raghavan
+ 	  University of Toronto
+
+Title	: Cofinal types of ultrafilters
+
+Date	: January 21, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue 	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+I will describe some joint work with Todorcevic on the Tukey theory
+of ultrafilters on the natural numbers. The notion of Tukey
+equivalence tries to capture the idea that two directed posets
+"look cofinally the same", or have the same "cofinal type". As such,
+it provides a device for a rough classification of directed sets based
+upon their "cofinal type", as opposed to an exact classification based
+on their isomorphism type. This notion has recently received a lot of
+attention in various contexts in set theory. As background, I will
+illustrate the idea of rough classification with several examples,
+and  explain how rough classification based on Tukey equivalence fits
+in with other work in set theory. The talk will be based on the paper
+"Cofinal types of ultrafilters". A preprint of the paper is available
+on my website: http://www.math.toronto.edu/raghavan .
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					 Chairman,
+ 					 Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

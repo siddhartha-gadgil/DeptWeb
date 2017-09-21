@@ -1,0 +1,116 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.19.227 with SMTP id i3csp277055oae;
+        Tue, 4 Sep 2012 03:54:36 -0700 (PDT)
+Received: by 10.68.224.133 with SMTP id rc5mr44622799pbc.130.1346756076196;
+        Tue, 04 Sep 2012 03:54:36 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.70])
+        by mx.google.com with ESMTPS id iw4si26903443pbc.81.2012.09.04.03.54.34
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 04 Sep 2012 03:54:36 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) client-ip=14.139.128.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q84AsRmv012899;
+	Tue, 4 Sep 2012 16:24:27 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q84AsN58009419
+	for <m_seminar@math.iisc.ernet.in>; Tue, 4 Sep 2012 16:24:23 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q84AsN0P009418;
+	Tue, 4 Sep 2012 16:24:23 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 4 Sep 2012 16:24:23 +0530 (IST)
+Message-ID: <3f15b33fd87dee98631cc5494f967c31.squirrel@math.iisc.ernet.in>
+Date: Tue, 4 Sep 2012 16:24:23 +0530 (IST)
+Subject: [Seminar] MATH : 10th Sep 2012 : "Bangalore Probability Seminar"
+From: "Pooja Singla" <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+
+       BANGALORE PROBABILITY SEMINAR
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+-----------------------------------------------
+
+Speaker :  Srikanth Iyer (IISc)
+
+Date    :  10th Sep, 2012
+
+Time    :  2:00pm
+
+Venue   :  LH-II, Department of Mathematics, IISc
+
+Title   :  Pricing Credit Derivatives in a Markov Modulated Market.
+
+Abstract: Credit risk refers to the potential losses that can arise due to
+the changes in the credit quality of financial instruments. There are two
+approaches to pricing credit derivatives, namely the structural and the
+reduced form or intensity based models.  In the structural approach
+explicit assumptions are made about the dynamics of a firm's assets, its
+capital structure, debt and share holders. A firm defaults when its asset
+value reaches a certain lower threshold, defined endogenously within the
+model. In the intensity based approach the firm's asset values and its
+capital structure are not modelled at all. Instead the dynamics of default
+are exogenously given through a default rate or intensity.
+
+Some models have been studied in this regard which can
+capture the feedback in case of a major credit event. We extend the
+research in the same direction by proposing a new family of models having
+the feedback phenomena and capturing the effects of regime
+switching economy on the market. The regime switching economy is
+modeled by a continuous time Markov chain. We model the default
+intensity in a pool of firms using the Markov chain and a risk factor
+process. We price some single-name and multi-name credit derivatives in
+terms of certain transforms of the default process. We show that the
+pricing formulas in our model are computationally tractable. We show that
+our model can easily incorporate the effects of business cycle. We
+demonstrate the impact on spreads of the inclusion of rare states that
+attempt to capture a tight liquidity situation.
+
+
+-----------------------------------------------
+
+Speaker : S. Ramasubramanian (ISI, Bangalore)
+
+Date    : 10th Sep, 2012
+
+Time    : 3:15pm
+
+Venue   : LH-II, Department of Mathematics, IISc
+
+Title   : An asymptotic result on Skorokhod problem in an orthant.
+
+Abstract:
+
+--------------------------------------------
+
+
+         All are cordially invited.
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

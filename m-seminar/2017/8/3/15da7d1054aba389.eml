@@ -1,0 +1,110 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.12.199 with SMTP id 190csp665737ivm;
+        Thu, 3 Aug 2017 04:17:59 -0700 (PDT)
+X-Received: by 10.99.60.83 with SMTP id i19mr1232278pgn.51.1501759079691;
+        Thu, 03 Aug 2017 04:17:59 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1501759079; cv=none;
+        d=google.com; s=arc-20160816;
+        b=vXB3I5+nqEu2kxEbd5Za5YQHpCsPZyl3a3sosV0xEip53Msu8T68qVN91bSSxlqNIK
+         MfJ3nPt58gzGThyW7MO5i0kFMwZin9253dQEXCblAT4+Z0XQIPXaCuEB4rM8ERHaTTXh
+         ZidFZrmqF/xP4tQVXxTLgSZcsJbmcnlIC8JOTQSb9xCKpdEPqLEo9PrVLjXCKY5dOlTi
+         dWAo86N1OVdnbcl16tj/r2nbqHrY5258nXC0wXAbStezOtTytBnlMb1LnsFI2yhadI4X
+         lnxAuiIiENAWmUaLrKF+T2M9bF1s6ntG6nZegsGCcq1Umr7S2wAIvgKvq0M6FYeepJIO
+         M6PQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:mime-version:user-agent:to:from
+         :subject:date:message-id:arc-authentication-results;
+        bh=e9rz52xr9Y6KPwRGnR4nE+6u4hlMaI5k0qJHjyVGRcA=;
+        b=E9iMtmK7QxZA1Rffs4Hns+suGlgr+R/pXMTWXjqSI8DcVwM16M8tjcRYhvKhalSNzf
+         7r+sUglP7C2Xdm07NL8+5yaXKttFBAV+kgbU/22Q2BFDFl/Hr8VWFvlEwla+TkiEIEcl
+         GFYEIE9N3h/OGjZomzewG/LmBdYKCnrb8nn0pGboCfqn63zIcVps8oyOup088dkYdbYO
+         uEl6V2I5laPBLuzCulUaGTnmjUW4JEtaQ/VapeECFJ1THzqlkx1zxWqFRqWoeQlTPmLC
+         akCKQS1OLnIM45pSUzkqAToMMFDoXwtOYme+xeOgVqoQtFWPWnAeb0M0yY1p7Bnlvd9g
+         0zmg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.68])
+        by mx.google.com with ESMTP id 68si20999003pfa.227.2017.08.03.04.17.58;
+        Thu, 03 Aug 2017 04:17:59 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) client-ip=14.139.128.68;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id BED80AEE05A;
+	Thu,  3 Aug 2017 16:47:51 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v73BlMKl004787
+	for <m_seminar@math.iisc.ernet.in>; Thu, 3 Aug 2017 17:17:22 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v73BlMEp004786;
+	Thu, 3 Aug 2017 17:17:22 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to manju@localhost using -f
+Received: from 10.134.240.63
+        (SquirrelMail authenticated user manju)
+        by www.math.iisc.ernet.in with HTTP;
+        Thu, 3 Aug 2017 11:47:22 -0000
+Message-ID: <500df0837eb86e043c429d2f65c9918b.squirrel@www.math.iisc.ernet.in>
+Date: Thu, 3 Aug 2017 11:47:22 -0000
+Subject: [Seminar] MATH : 9th Aug 2017 : "Quantum Theory of Dark matter"
+From: manju@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: multipart/mixed;boundary="----=_20170803114722_62536"
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: BED80AEE05A.A5B69
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.889, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, HTML_MESSAGE 0.00, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50, T_HTML_ATTACH 0.01)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1502363874.32551@PuE6d2OzNorGQpBqkBjl6g
+X-Spam-Status: No
+
+
+------=_20170803114722_62536
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+        SEMINAR
+ DEPARTMENT OF MATHEMATICS
+
+
+Speaker: Krishna M (Ashoka university)
+
+Title :  Quantum Theory of Dark matter
+
+Date: Aug 9, 2017
+
+Time: 3.30-4:30
+
+Venue: LH-1, Department of mathematics
+
+Abstract: In this talk we discuss a formulation of Quantum Theory of Dark
+matter and discuss some operators on Hilbert spaces of singular measures.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+------=_20170803114722_62536
+Content-Type: text/html; name="untitled-[2].html"
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename="untitled-[2].html"
+
+<div dir="ltr">Hi Manju<div>Did you reserve accommodation for me?  If not I will take care of it myself elsewhere.  Also let me know if you arranged the talk, I forgot to write back to you early this week.  </div><div>If it is still possible: </div><div>Title :  Quantum Theory of Dark matter</div><div>Abstract:  In this talk we discuss a formulation of Quantum Theory of Dark matter and discuss some operators on Hilbert spaces of singular measures.</div><div><br></div><div>--krishna</div></div>
+<br />-- 
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href="http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+------=_20170803114722_62536--
+

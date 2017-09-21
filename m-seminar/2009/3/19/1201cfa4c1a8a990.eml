@@ -1,0 +1,184 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.173.14 with SMTP id v14cs224281wae;
+        Wed, 18 Mar 2009 21:25:49 -0700 (PDT)
+Received: by 10.110.16.15 with SMTP id 15mr1538229tip.26.1237436747458;
+        Wed, 18 Mar 2009 21:25:47 -0700 (PDT)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.66])
+        by mx.google.com with ESMTP id d1si1015876tid.34.2009.03.18.21.25.44;
+        Wed, 18 Mar 2009 21:25:47 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of imi@math.iisc.ernet.in) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of imi@math.iisc.ernet.in) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n2J4PWRJ022891;
+	Thu, 19 Mar 2009 09:55:32 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id n2J9EPYi003847;
+	Thu, 19 Mar 2009 09:14:25 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id n2J9EPxi003846;
+	Thu, 19 Mar 2009 09:14:25 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.18
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 19 Mar 2009 09:14:25 -0000 (UTC)
+Message-ID: <1365.10.134.13.18.1237454065.squirrel@math.iisc.ernet.in>
+Date: Thu, 19 Mar 2009 09:14:25 -0000 (UTC)
+Subject: MATH:Compact Course by Prof. Ralf Meyer on "Bornological Vector 
+     Spaces" from March 23-26, 2009 at 4:00 PM
+To: m_amall@math.iisc.ernet.in, m_seminar@math.iisc.ernet.in,
+        m_fac@math.iisc.ernet.in, m_isifac@math.iisc.ernet.in,
+        statmath@isibang.ac.in, m_tifrfac@math.iisc.ernet.in,
+        math@math.tifrbng.res.in, tsuall@jncasr.ac.in, emuall@jncasr.ac.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50,
+	VOWEL_TOCC_5 0.50)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+
+Dear All,
+
+                          IISc Mathematics Initiative
+                           Department of Mathematics
+                          Indian Institute of Science
+                                  Bangalore
+                          ------------------------
+
+                                   announces
+
+                                Compact Course
+
+                                      by
+
+                                Prof. Ralf Meyer
+                              Mathematisches Institut
+                      Georg-August-Universität Göttingen
+
+                                      on
+
+                              March 23 - 26, 2009
+                              (Monday - Thursday)
+
+                                 TITLE/ABSTRACT
+LECTURE-1: Bornological vector spaces
+
+The notions of topological and bornological vector space are two different
+ways to generalise the notion of a normed space to cover more
+examples.While topological vector spaces are more common, the bornological
+ones are often easier to work with and have, in general, better algebraic
+properties.  We briefly discuss the definition and some basic properties
+of and constructions with bornological vector spaces, among them
+completions and tensor products.  Then we introduce some basic homological
+algebra for modules over bornological algebras.
+
+
+LECTURE-2: The Schwartz space of R as a module over its multiplicative group
+
+Let S(G) for an Abelian group G denote the space of Schwartz functions on
+G.  The multiplicative group R* of the field R of real numbers acts on the
+Schwartz space S(R) by scaling.  We can restrict this action to a discrete
+subgroup exp(Za) of R* and ask about the coinvariant space, that is, the
+quotient space of S(R) by the relation that identifies f with gf for g in
+exp(Za).  Similar but slightly more complicated questions arise in an
+adelic construction of a spectral interpretation for zeros of L-functions.
+
+We compute the coinvariant space of S(R) in two ways, using extensions of
+modules.  The first approach splits S(R) into the subspace of Schwartz
+functions with vanishing Taylor series at 0 and the space of formal power
+series.  The other approach decomposes S(R) into variants of the Schwartz
+algebra S(R*) weighted by characters.  The latter approach is more
+complicated but also more useful in connection with L-functions because it
+mimicks the proof of meromorphic extension of L-functions using the
+Poisson summation formula.
+
+
+LECTURE-3: A spectral interpretation for zeros of the zeta function
+
+I describe the construction of a spectral interpretation of the zeros of
+the Riemann zeta function following Alain Connes and use this to establish
+the explicit formula as a trace formula.  This means that I construct an
+operator (on a nuclear Frechet space) whose spectrum consists of the zeros
+of the zeta function, each occurring with correct multiplicity.  This
+operator integrates to a representation of the group R, which in turns
+integrates to a representation of the convolution algebra of test
+functions on R.  The latter algebra is represented by nuclear operators,
+and its trace can be computed in two different ways. This establishes the
+explicit formula relating zeros of the zeta function to the distribution
+of prime numbers.
+
+To keep this lecture simple, I avoid the more general construction for
+L-functions of number fields, which uses adeles and ideles, and limit the
+construction to the zeta function, which is reasonably elementary. The
+main ingredient is the Schwartz space S(R) and certain convolution
+operators on it.
+
+
+LECTURE-4: Isocohomological subalgebras
+
+Given a dense subalgebra A in a bornological algebra B, it is desirable to
+know whether homological invariants for B-modules (extension and torsion
+spaces) change when we view them as A-modules.  We call A an
+isocohomological subalgebra of B if these homological invariants are the
+same on both sides in a sufficiently strong sense.  This situation occurs
+frequently but not always.  We first discuss some examples where A is the
+group algebra of Z and B are the weighted Schwartz algebras from the
+previous lecture.  This case was, in fact, already used in he previous
+lecture.  Then we move on to other completions of group algebras for
+discrete groups.  Here we use techniques from geometric group theory to
+establish that the ell¹-Schwartz algebra of a discrete group is
+isocohomological if the group is combable.  If time permits, I will also
+briefly discuss a similar result for Harish-Chandra-Schwartz algebras of
+reductive p-adic groups.
+
+TIME: 04:00 PM
+
+VENUE: L H – 1, Department of Mathematics
+Indian Institute of Science, Bangalore
+
+
+                             ALL ARE INVITED
+                          Coffee/tea : 3:45 PM
+
+                                                              G.Rangarajan
+                                                                 Convener
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

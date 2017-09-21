@@ -1,0 +1,68 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp297499ieb;
+        Mon, 5 Sep 2016 18:54:12 -0700 (PDT)
+X-Received: by 10.157.60.107 with SMTP id j40mr33250250ote.9.1473126852035;
+        Mon, 05 Sep 2016 18:54:12 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id q60si23820612ota.230.2016.09.05.18.54.05;
+        Mon, 05 Sep 2016 18:54:11 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 43C17AE49E1;
+	Tue,  6 Sep 2016 07:24:00 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u861vKLg031816
+	for <m_seminar@math.iisc.ernet.in>; Tue, 6 Sep 2016 07:27:20 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u861vKts031815;
+	Tue, 6 Sep 2016 07:27:20 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.10.1.98 (proxying for unknown)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Tue, 6 Sep 2016 01:57:20 -0000
+Message-ID: <2fb1c36da969955709f71a444adc3159.squirrel@math.iisc.ac.in>
+Date: Tue, 6 Sep 2016 01:57:20 -0000
+Subject: Math Dept Seminar Sept 20 (Sourav Ghosh)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 43C17AE49E1.A9148
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-6.553, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -1.65, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1473731645.35132@3sXojiHNkx+pewDQnqkaTw
+X-Spam-Status: No
+
+Speaker: Sourav Ghosh (Universitat Heidelberg, Germany)
+
+Date: Sept 20, 2016
+
+Time : 4 pm
+
+Location : LH-1
+
+Title: Margulis spacetimes and Anosov representations
+
+Abstract: In this talk I will describe the interrelationship between
+Margulis spacetimes and Anosov representations. Moreover, I will define
+the pressure metric on the moduli space of Margulis spacetimes and sketch
+some of it's properties.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

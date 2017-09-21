@@ -1,0 +1,195 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.205.47.72 with SMTP id ur8csp137546bkb;
+        Tue, 19 Jun 2012 01:20:55 -0700 (PDT)
+Received: by 10.68.218.101 with SMTP id pf5mr61249689pbc.152.1340094054336;
+        Tue, 19 Jun 2012 01:20:54 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id vr5si31662315pbc.73.2012.06.19.01.20.51
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 19 Jun 2012 01:20:54 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q5J8KiAI031181;
+	Tue, 19 Jun 2012 13:50:44 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q5J8Kevd017269;
+	Tue, 19 Jun 2012 13:50:40 +0530
+Received: from mail-bk0-f49.google.com (mail-bk0-f49.google.com [209.85.214.49])
+	by mail.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id q5J8KKX4009351;
+	Tue, 19 Jun 2012 13:50:24 +0530
+Received: by bkwj4 with SMTP id j4so6578360bkw.22
+        for <multiple recipients>; Tue, 19 Jun 2012 01:20:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:cc:content-type;
+        bh=WtPS6rBfKwCN3WGNwbwxFL5edRVO/dICmg2QUVHdOCs=;
+        b=itb7VDNpCu5EmZZe056vaW7Xhus/zJDVl/NqV25oSP9z8QVPMNLOjk3TzkiC+X0EVi
+         iPvNfoFWgHFi+7IaRj67bPfctFBFirdLymRJOFquwGFJfAQENFuPpFcpq+IEKg+Yn7Hk
+         JubkiklPGhXDYMEyrWu2U9A6CIz/AqgpwE3qCea9S7lF23s8s59z6/fLkRpXLEKiMxdO
+         0Ad8igL5cjX9buS2Y768IRnN82uiQ5U6yZQruPndgoKN2GCT0KUhoPQfJU4GAsAskq2f
+         J2QqQqUJq1A2139nYZwUn9L1AXbOdNvKmgjDQN+9nfb4fH7AUoUAa2/Wvlfbq2GcSegk
+         i74g==
+MIME-Version: 1.0
+Received: by 10.204.136.195 with SMTP id s3mr7419043bkt.117.1340094019662;
+ Tue, 19 Jun 2012 01:20:19 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.204.116.144 with HTTP; Tue, 19 Jun 2012 01:20:19 -0700 (PDT)
+In-Reply-To: <CAHEur2T+y7hMGRkLzECP2rM2er9zyFGJedd0vR4ZK7ZB=qNgLA@mail.gmail.com>
+References: <CAHEur2SeEDNyERX8wGVcOxjwPjkRccrAGaaUR_NmrHp86DoC_A@mail.gmail.com>
+	<CAHEur2TqRSKSHQVBhBvQpdESSzTortetOVsFmZ6V-WrgrgfY8w@mail.gmail.com>
+	<CAHEur2T+y7hMGRkLzECP2rM2er9zyFGJedd0vR4ZK7ZB=qNgLA@mail.gmail.com>
+Date: Tue, 19 Jun 2012 13:50:19 +0530
+X-Google-Sender-Auth: vTEHvyrIA6-xxVjjOvAijJaZzmY
+Message-ID: <CAHEur2RJbKVSuBsTjWhT22rrQ+Vngd1m5F7B6S+jptxz4Cp7mA@mail.gmail.com>
+Subject: [Ph.D. Thesis Colloquium] Math: 22nd June, 2012: "Rigidity and
+ Regularity of Holomorphic Mappings"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Cc: pooja@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=0015175cd2a801f3ac04c2cef4a5
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.59, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q5J8KiAI031181
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--0015175cd2a801f3ac04c2cef4a5
+Content-Type: text/plain; charset=ISO-8859-1
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                 Ph.D. THESIS COLLOQUIUM
+
+
+Speaker :   Mr. G. P. Balakumar
+
+Title :      Rigidity and Regularity of Holomorphic Mappings.
+
+Date :      June 22, 2012
+
+Time :     4:00 - 5:00 p.m.
+
+Venue:   Department of Mathematics, Lecture Hall I
+
+
+Abstract: This talk will be on two themes that illustrate the rigidity and
+regularity of holomorphic mappings. The first part will deal with results
+concerning the smoothness of continuous CR (Cauchy -- Riemann) mappings;
+in particular, that of Lipschitz continuous CR mappings from
+h-extendible/semi-regular hypersurfaces into certain Levi co-rank one
+hypersurfaces, in C^n. The second part will deal with the classification
+of Kobayashi hyperbolic, finite type rigid polynomial domains in C^3.
+
+
+
+
+               ALL ARE CORDIALLY INVITED.
+
+Faculty memmbers and students of the Department are requested to attend.
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--0015175cd2a801f3ac04c2cef4a5
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"gmail_quote"><div class=3D"gmail_quote"><div><div><div class=
+=3D"gmail_quote"><div class=3D"im"><div class=3D"gmail_quote"><br>
+<br>
+<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathemati=
+cs<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Banga=
+lore<br>
+<br>
+<br>=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Ph.D=
+. THESIS COLLOQUIUM=A0<br>
+<br>
+<br><span style=3D"border-collapse:collapse;color:rgb(34,34,34);font-family=
+:arial,sans-serif;font-size:13px">Speaker : =A0 Mr. G. P. Balakumar</span><=
+/div><div class=3D"gmail_quote"><br></div><div class=3D"gmail_quote">
+
+<span style=3D"border-collapse:collapse;color:rgb(34,34,34);font-family:ari=
+al,sans-serif;font-size:13px">Title : =A0 =A0 =A0Rigidity and Regularity of=
+ Holomorphic Mappings.</span><br><br>Date : =A0 =A0 =A0June 22, <a href=3D"=
+tel:2012" value=3D"+9722012" target=3D"_blank">2012</a><br>
+
+
+
+
+
+
+<br>
+Time : =A0 =A0 4:00 - 5:00 p.m.<br>
+<br>
+Venue: =A0 Department of Mathematics, Lecture Hall I<br>
+<br></div></div><div class=3D"gmail_quote"><div class=3D"im"><span style=3D=
+"border-collapse:collapse;color:rgb(34,34,34);font-family:arial,sans-serif;=
+font-size:13px"><br>Abstract: This talk will be on two themes that illustra=
+te the rigidity and<br>
+
+
+
+
+
+regularity of holomorphic mappings. The first part will deal with results<b=
+r>concerning the smoothness of continuous CR (Cauchy -- Riemann) mappings;<=
+br>in particular, that of Lipschitz continuous CR mappings from<br>h-extend=
+ible/semi-regular hypersurfaces into certain Levi co-rank one<br>
+
+
+
+
+
+hypersurfaces, in C^n. The second part will deal with the classification<br=
+>of Kobayashi hyperbolic, finite type rigid polynomial domains in C^3.<br><=
+/span><br>
+<br>
+<br>
+<br>=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALL ARE CORDIALLY INVITED.<br>
+<br></div><span style=3D"font-family:monospace;white-space:pre-wrap;font-si=
+ze:medium">Faculty memmbers and students of the Department are requested to=
+ attend.</span></div><div class=3D"gmail_quote">=A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0</div>
+
+<div class=3D"gmail_quote"><br></div><div class=3D"gmail_quote">=A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 Chairman,<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 Department of Mathematics<br>
+<span><font color=3D"#888888"><br>
+<br><br>
+<br>
+</font></span></div><br>
+</div><br><br clear=3D"all"><div><br></div><div dir=3D"ltr"><br>
+</div><br>
+</div></div></div><br>
+</div><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--0015175cd2a801f3ac04c2cef4a5--

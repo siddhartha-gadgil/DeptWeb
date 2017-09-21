@@ -1,0 +1,69 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.53.81 with SMTP id l17csp10368ibg;
+        Sun, 12 Feb 2012 20:20:16 -0800 (PST)
+Received: by 10.68.75.135 with SMTP id c7mr43099874pbw.43.1329106816075;
+        Sun, 12 Feb 2012 20:20:16 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id g9si20323201pbd.149.2012.02.12.20.20.12
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 12 Feb 2012 20:20:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q1D4K5VN027997;
+	Mon, 13 Feb 2012 09:50:05 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q1D4MF59027482
+	for <m_seminar@math.iisc.ernet.in>; Mon, 13 Feb 2012 09:52:15 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q1D4MFY3027479
+	for <m_seminar@math.iisc.ernet.in>; Mon, 13 Feb 2012 09:52:15 +0530
+Date: Mon, 13 Feb 2012 09:52:15 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 23rd Feb, 2012: "An invitation to large deviation
+ theory"
+Message-ID: <Pine.LNX.4.64.1202130950350.26827@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q1D4K5VN027997
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 			   Department of Mathematics
+ 		      Indian Institute of Science, Bangalore
+
+
+  				  SEMINAR
+
+
+Speaker	: Prof. S.S. Sritharan
+ 	  Center for Decision, Risk, Controls & Signals Intelligence
+ 	  Naval Postgraduate School
+ 	  Monterey, California, USA
+
+Title	: An invitation to large deviation theory
+
+Dates	: February 23, 2102
+
+Time	: 10:00 - 11:00 a.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					        Chairman,
+ 					        Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

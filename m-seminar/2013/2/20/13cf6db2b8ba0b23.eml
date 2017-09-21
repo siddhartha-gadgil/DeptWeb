@@ -1,0 +1,84 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.98.164 with SMTP id ej4csp175911qeb;
+        Wed, 20 Feb 2013 01:07:04 -0800 (PST)
+X-Received: by 10.68.138.170 with SMTP id qr10mr1351017pbb.190.1361351224130;
+        Wed, 20 Feb 2013 01:07:04 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id ak6si3713172pbd.14.2013.02.20.01.07.02
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 20 Feb 2013 01:07:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r1K96wXi032481;
+	Wed, 20 Feb 2013 14:36:58 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r1K96qeI003443
+	for <m_seminar@math.iisc.ernet.in>; Wed, 20 Feb 2013 14:36:52 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r1K96q21003442;
+	Wed, 20 Feb 2013 14:36:52 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 20 Feb 2013 14:36:52 +0530 (IST)
+Message-ID: <65e87a6e1308aef3c0a7537d9f0b69ab.squirrel@math.iisc.ernet.in>
+Date: Wed, 20 Feb 2013 14:36:52 +0530 (IST)
+Subject: Change in venue [Seminar] MATH: Today: "Languages and Generalized 
+     Code Chains"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r1K96wXi032481
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+   Kindly note the change in venue of the following lecture.
+
+
+                    Department of Mathematics
+                       Indian Institute of Science
+                                 Bangalore
+                    ----------------------------
+
+Speaker: Prof. R. D. Giri,
+                   Nagpur University.
+
+Title: Languages and Generalized Code Chains.
+
+Date: Feb 20th, 2013 (Wednesday)
+
+Time: 3:00 pm-4:00 pm
+
+Venue: LH-III, Department of Mathematics
+
+
+          All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

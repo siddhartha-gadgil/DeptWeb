@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp45215lbb;
+        Sat, 5 Apr 2014 22:33:57 -0700 (PDT)
+X-Received: by 10.67.14.98 with SMTP id ff2mr1269781pad.101.1396762436504;
+        Sat, 05 Apr 2014 22:33:56 -0700 (PDT)
+Return-Path: <balaji11@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id xs1si6609920pab.319.2014.04.05.22.33.54
+        for <multiple recipients>;
+        Sat, 05 Apr 2014 22:33:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of balaji11@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of balaji11@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=balaji11@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s365VUFA026052;
+	Sun, 6 Apr 2014 11:01:30 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s365We7j004122
+	for <m_seminar@math.iisc.ernet.in>; Sun, 6 Apr 2014 11:02:40 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s365WeJZ004115;
+	Sun, 6 Apr 2014 11:02:40 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to balaji11@localhost using -f
+Received: from 10.16.40.11
+        (SquirrelMail authenticated user balaji11)
+        by math.iisc.ernet.in with HTTP;
+        Sun, 6 Apr 2014 05:32:40 -0000
+Message-ID: <903d455ac81efb1a9c11f0f2b1b4b728.squirrel@math.iisc.ernet.in>
+Date: Sun, 6 Apr 2014 05:32:40 -0000
+Subject: [Thesis Colloquium] Math : 7th April 2014 : "A formal proof of
+ Feit-Higman theorem in Agda"
+From: balaji11@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s365VUFA026052
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: balaji11@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+
+                       DEPARTMENT OF MATHEMATICS
+                          IISc., BANGALORE  -  12
+
+
+                         M. S.  THESIS  COLLOQUIUM
+
+
+   Speaker                  :   Mr.  Balaji
+                                      Department of Mathematics.
+
+  Title                         : " A formal proof of Feit-Higman theorem
+in Agda"
+
+  Day  &  Date           :   Monday,  07.04.2014
+
+  Time                       :   10.00  a.m.
+
+  Venue                    :    Lecture Hall  I
+                                     Department of Mathematics
+
+ Abstract :
+
+Generalised polygons are incidence structures that generalise
+projective planes (generalised triangles) and are closely related to
+finite groups. The Feit-Higman theorem states that any generalised
+n-gon is either an ordinary polygon or n = 2, 3, 4, 6, 8 or 12.
+
+The initial part of the proof by Feit and Higman is combinatorial and
+the rest being analytical. We present a formal proof of the
+combinatorial part in Agda - a dependently typed functional
+programming language and proof assistant based on the intuitionistic
+type theory by Per Martin-Löf
+
+         All  faculty  and  students  are  requested to attend
+
+
+
+                                                                                 CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

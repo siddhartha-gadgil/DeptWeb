@@ -1,0 +1,127 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.101.71.15 with SMTP id y15cs410564ank;
+        Mon, 29 Dec 2008 02:14:46 -0800 (PST)
+Received: by 10.110.14.3 with SMTP id 3mr2374971tin.32.1230545685223;
+        Mon, 29 Dec 2008 02:14:45 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.66])
+        by mx.google.com with ESMTP id w12si15040085tib.33.2008.12.29.02.14.28;
+        Mon, 29 Dec 2008 02:14:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) client-ip=220.227.207.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id mBTAG2YF020967;
+	Mon, 29 Dec 2008 15:46:02 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id mBTF809S018077;
+	Mon, 29 Dec 2008 15:08:00 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id mBTF7x0K018076;
+	Mon, 29 Dec 2008 15:07:59 GMT
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@math.iisc.ernet.in using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 29 Dec 2008 15:07:59 -0000 (UTC)
+Message-ID: <2792.10.134.10.30.1230563279.squirrel@math.iisc.ernet.in>
+Date: Mon, 29 Dec 2008 15:07:59 -0000 (UTC)
+Subject: Maths : January 2,
+      2009: Seminar :   "Stochastic Lagrangian Particle systems for the 
+     Navier-Stokes and Burgers Equation"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+Please note the unusual time.
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Gautam Iyer, Stanford University
+
+    Title                :  Stochastic Lagrangian Particle systems for the
+Navier-Stokes and Burgers equations.
+
+
+    Day & Date           : Friday, January 2, 2009.
+
+    Time                 : 2:30 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+Abstract:
+      I will introduce an exact stochastic representation for certain
+   non-linear transport equations (e.g. 3D-Navier-Stokes, Burgers)
+   based on noisy Lagrangian paths, and use this to construct a
+   (stochastic) particle system for the Navier-Stokes equations. On any
+   fixed time interval, this particle system converges to the
+   Navier-Stokes equations as the number of particles goes to infinity.
+
+   Curiously, a similar system for the (viscous) Burgers equations
+   shocks almost surely in finite time. This happens because these
+   particle systems exhibit a curious energy dissipation on long time
+   intervals. I will describe a resetting procedure by which these
+   shocks can (surprisingly!) be avoided, and thus obtain convergence
+   to the viscous Burgers equations on long time intervals.
+
+                        All  interested  are  Welcome
+
+                                                   CHAIRMAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

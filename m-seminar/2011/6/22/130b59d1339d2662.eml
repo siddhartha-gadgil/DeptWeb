@@ -1,0 +1,76 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.20.13 with SMTP id d13cs94692ibb;
+        Tue, 21 Jun 2011 21:30:30 -0700 (PDT)
+Received: by 10.91.47.23 with SMTP id z23mr310953agj.181.1308717029185;
+        Tue, 21 Jun 2011 21:30:29 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [14.139.128.65])
+        by mx.google.com with ESMTPS id u5si1223367ics.85.2011.06.21.21.30.25
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 21 Jun 2011 21:30:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p5M4U6cU025994;
+	Wed, 22 Jun 2011 10:00:06 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p5M5I8ij010310
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 Jun 2011 10:48:08 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p5M5I8Il010307
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 Jun 2011 10:48:08 +0530
+Date: Wed, 22 Jun 2011 10:48:08 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Model Theory and a few Applications"
+Message-ID: <Pine.LNX.4.64.1106221046340.10057@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p5M4U6cU025994
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		            Department of Mathematics
+ 		     Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+Speaker	: Prof. Koushik Pal
+ 	  University of California, Berkeley
+
+Title	: Model Theory and a few Applications
+
+Date	: June 22, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue 	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+Model Theory, as a subject, has grown tremendously over the last few decades.
+Starting out as a branch of mathematical logic, it has now wide applications
+in most branches of mathematics, with algebra, algebraic geometry, number
+theory, combinatorics and even analysis, to name a few. In this talk, I
+will give a  brief introduction to model theory, talk about the
+compactness theorem (one of the main tools in model theory) and how it is
+used, and give one famous application of model theory to algebra, namely,
+the Ax-Kochen Theorem, the answer to Artin's Conjecture. Time permitting,
+I will talk about a few more recent results in this direction.
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					Chairman,
+ 					Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

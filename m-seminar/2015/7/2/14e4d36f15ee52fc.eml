@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.57.132 with SMTP id g126csp307339ywa;
+        Wed, 1 Jul 2015 22:22:04 -0700 (PDT)
+X-Received: by 10.182.128.234 with SMTP id nr10mr25898665obb.81.1435814523918;
+        Wed, 01 Jul 2015 22:22:03 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id r11si3448802oif.89.2015.07.01.22.22.01;
+        Wed, 01 Jul 2015 22:22:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t625LStf008478;
+	Thu, 2 Jul 2015 10:51:29 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t625Wjwh000689
+	for <m_seminar@math.iisc.ernet.in>; Thu, 2 Jul 2015 11:02:45 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t625WiUX000687;
+	Thu, 2 Jul 2015 11:02:44 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.12 (proxying for 193.55.36.59)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 2 Jul 2015 05:32:44 -0000
+Message-ID: <e929e672c3702fe365d956c36f3ec5a6.squirrel@math.iisc.ernet.in>
+Date: Thu, 2 Jul 2015 05:32:44 -0000
+Subject: Thesis Colloquium Tulasi Ram Reddy
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.722, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, TW_NX 0.08, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Speaker : Tulasi Ram Reddy A
+
+Title   : On critical points of random polynomials and spectrum of certain
+products of Ginibre matrices.
+
+Date    : 24th July, 2015 (Friday)
+
+Time    : 11:00 AM
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: In the first part we study critical points of random
+polynomials. We choose two deterministic sequences of complex numbers,
+whose empirical measures converge to the same probability measure in
+complex plane. We make a sequence of polynomials whose zeros are chosen
+from either of sequences at random. We show that the limiting empirical
+measure of zeros and critical points agree for these polynomials. As a
+consequence we show that when we randomly perturb the zeros of a
+deterministic sequence of polynomials, the limiting empirical measures of
+zeros and critical points agree. This result can be interpreted as an
+extension of earlier results where randomness is reduced. Pemantle and
+Rivin initiated the study of critical points of random polynomials.
+Kabluchko proved the result considering the zeros to be i.i.d. random
+variables.
+
+In the second part we deal with the spectrum of products of Ginibre
+matrices. Exact eigenvalue density is known for a very few matrix
+ensembles. For the known ones they often lead to determinantal point
+process. Let X_1,X_2,...,X_k be i.i.d matrices of size nxn whose entries
+are independent complex Gaussian random variables. We derive the
+eigenvalue density for matrices of the form Y_1.Y_2....Y_n, where each
+Y_i = X_i or (X_i)^{-1}. We show that the eigenvalues form a determinantal
+point process. The case where k=2, Y_1=X_1,Y_2=X_2^{-1} was derived
+earlier by Krishnapur. The case where Y_i =X_i for all i=1,2,...,n, was
+derived by Akemann and Burda. These two known cases can be obtained as
+special cases of our result.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

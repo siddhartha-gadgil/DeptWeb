@@ -1,0 +1,195 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.1 with SMTP id vs1csp292403ieb;
+        Fri, 14 Oct 2016 05:22:46 -0700 (PDT)
+X-Received: by 10.98.113.1 with SMTP id m1mr14004938pfc.2.1476447766761;
+        Fri, 14 Oct 2016 05:22:46 -0700 (PDT)
+Return-Path: <vamsipritham@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id r9si18367562pfj.221.2016.10.14.05.22.45;
+        Fri, 14 Oct 2016 05:22:46 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@gmail.com;
+       spf=softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) smtp.mailfrom=vamsipritham@gmail.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 3D0B0AE4539;
+	Fri, 14 Oct 2016 17:53:13 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.46])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u9ECPRks022536
+	for <m_seminar@math.iisc.ernet.in>; Fri, 14 Oct 2016 17:55:27 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vamsipritham@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="vamsipritham@gmail.com"; helo=mail-pf0-f173.google.com; client-ip=209.85.192.173
+Received: from mail-pf0-f173.google.com (mail-pf0-f173.google.com [209.85.192.173])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id 1E8DDAE0E35
+	for <m_seminar@math.iisc.ernet.in>; Fri, 14 Oct 2016 17:54:41 +0530 (IST)
+Received: by mail-pf0-f173.google.com with SMTP id r16so25919653pfg.1
+        for <m_seminar@math.iisc.ernet.in>; Fri, 14 Oct 2016 05:22:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-transfer-encoding:mime-version:date:subject:message-id
+         :references:in-reply-to:to;
+        bh=PBlqVswAFqX/O6eDldHs5Ry94mBpbldrk2Cqa9SBsW0=;
+        b=M+P5XXZeSIEIYGpJmhG/0BzSoHVPfwsF59iuA9IchA/vREa6mhYLQG/BUSnF9jKRJI
+         8fTCM9UKdIsfJ2aL6Gd6NhN7Ymf88AxvEl75izPCRUr9XoXy5jtbu80CpGMdE0veVLPo
+         T4PFyb/PXXARFkhVLypDNKFxZ0OwFVudVtD1wM0YbgKzBXKkE/RqSPtS6eYtReSE/Mfk
+         R8gnkEA4WmOCnuj6w0QAxu6sCMbC7p9DB3BYOhHH6/coH8qUoHAUyQLgFcVjbL4aPqss
+         3r+d7pu80zAk6N1EvU3BYhan0kzBGzePoEW/QUBFC+UtheHppvwpyBN8I0c81nHp5yFA
+         gfLg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:from:content-transfer-encoding:mime-version:date
+         :subject:message-id:references:in-reply-to:to;
+        bh=PBlqVswAFqX/O6eDldHs5Ry94mBpbldrk2Cqa9SBsW0=;
+        b=MlnaJBFNK8SywOoF4IzeWJfU2r0ddYSVsp7aK+CciMScrYSBxgkd39OCWhmxNUecxK
+         hd9xmbCsV+he7eRklVW4bR7kA6oiHTJed8oyvgcqAKEvteUiRzyYf/PU7pkhWqrczfJG
+         enGztO05x9AGJOQbvBZ2uinIvSJ6Ju3j6WyTeW2pbKuebM5rbdYYrNSTW5PD0TrNZLMg
+         7jESbh2o36u9MUit/sJTQBQ+7gnGdn20yPxAYnlYK0OHin21oPZN3dV9PeDEwWALSlhq
+         MobIPo/gHV5q6ghTTChevmyGJ/w79inx7g5rThCi2cTbCqxJP6inBUEN7spYKnLD1PMV
+         k09g==
+X-Gm-Message-State: AA6/9RnT1Bs+b6MJ0oc/m9KLQKqLmOXncbIHlMIjiegKnPcorw/IcWPf1l2CDpOVKalSKQ==
+X-Received: by 10.99.39.130 with SMTP id n124mr14524681pgn.85.1476447740199;
+        Fri, 14 Oct 2016 05:22:20 -0700 (PDT)
+Received: from [10.208.242.61] ([14.139.128.19])
+        by smtp.gmail.com with ESMTPSA id 128sm27279097pfy.4.2016.10.14.05.22.19
+        for <m_seminar@math.iisc.ernet.in>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Fri, 14 Oct 2016 05:22:19 -0700 (PDT)
+From: Vamsi <vamsipritham@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-B2922615-D885-4570-AFA5-C7A2B29B4D4D
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Date: Fri, 14 Oct 2016 17:52:17 +0530
+Subject: Re: Seminar by Shane D'Mello on Oct 24 (Tuesday)
+Message-Id: <14B4F316-D290-4FFB-8B89-A3EF35115DCA@gmail.com>
+References: <CALSDV2bWBXX1N08n26i97Wgz8XbHMXH16z1oKRpfXh8OL277sQ@mail.gmail.com>
+In-Reply-To: <CALSDV2bWBXX1N08n26i97Wgz8XbHMXH16z1oKRpfXh8OL277sQ@mail.gmail.com>
+To: m_seminar@math.iisc.ernet.in
+X-Mailer: iPhone Mail (14A456)
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-RBL-Sophos: clean
+X-RBL-Sophos: clean
+X-Sophos-IBS: success
+X-CTCH-PVer:  0000001
+X-CTCH-Spam:  Unknown
+X-CTCH-VOD:  Unknown
+X-CTCH-Flags:  0
+X-CTCH-RefID:  str=0001.0A160202.5800CDFF.00A4,ss=1,re=0.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=0
+X-CTCH-Score:  0.000
+X-CTCH-ScoreCust:  0.000
+X-CTCH-Rules:  
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=1.81,
+	required 6.5, BAYES_00 -1.90, DKIM_SIGNED 0.10, DKIM_VALID -0.10,
+	DKIM_VALID_AU -0.10, FREEMAIL_FROM 0.00, MIME_QP_LONG_LINE 0.00,
+	MR_NOT_ATTRIBUTED_IP 0.20, NO_RDNS2 0.01, RATWR8_MESSID 2.00,
+	RCVD_IN_CBL 1.50, RCVD_IN_DNSWL_NONE -0.00, RCVD_IN_MSPIKE_H2 -0.00,
+	RCVD_IN_SBL_XBL 1.50, SPF_PASS -0.00, SUBJECT_MONTH -1.50,
+	_FROM_NON_IISC 0.10), 
+X-IISc-MailScanner-SpamScore: s
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 3D0B0AE4539.A00A2
+X-IISc-MailScanner-From: vamsipritham@gmail.com
+MailScanner-NULL-Check: 1477052598.14198@5XqY5lqwY1wtmQWcPzsUFw
+
+
+--Apple-Mail-B2922615-D885-4570-AFA5-C7A2B29B4D4D
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+  Sorry I mean Oct 25 (Tuesday).=20
+Thanks,
+Vamsi
+
+> On 13-Oct-2016, at 6:48 PM, Vamsi Pritham Pingali <vamsipingali@math.iisc=
+.ernet.in> wrote:
+>=20
+>=20
+> Dear All,
+>=20
+>     Shane D' Mello who is currently a postdoc at IISER Pune will be givin=
+g a talk on Tuesday, Oct 24 from 4-5 pm in LH 1. Here are the title and the=
+ abstract :=20
+>=20
+>  Title: Some results on the topology of real algebraic curves
+>=20
+>  Abstract: The topology of real algebraic varieties is the study of the t=
+opology of objects that can be defined real algebraically and particularly =
+the restrictions that the real algebraic structure imposes on the topology.=
+ Hilbert's famous address motivated an interest in the so called Hilbert's =
+sixteenth problem of classifying, up to isotopy, real algebraic curves of a=
+ given degree. While successful only up to degree 7, it has motivated many =
+natural and interesting questions and generalizations.=20
+>                We will  look at some of these questions including a crite=
+rion for curves that have the maximum permissible number of components in t=
+erms of the Jacobian of the complexification of the curve, the reduction of=
+ the classification of real planar rational quartics to the simple combinat=
+orial classification of  "extended" chord diagrams, the classification of r=
+eal rational knots of low degrees, and an application of braid groups in co=
+nstructing real rational representatives of knots.
+>=20
+>     I hope you can attend. By the way, Shane D' Mello is open to shifting=
+ it to Monday from 4-5 if that is more convenient for most of you. I have a=
+ feeling that this talk might be of interest to Siddhartha and perhaps even=
+ Basudeb.
+>=20
+>     For multiple reasons I feel a teensy bit awkward saying this* : He is=
+ a potential faculty applicant.
+>=20
+> Thanking you,
+> Vamsi
+>=20
+> * : As a friend recently told me, one's ability to keep one's mouth shut =
+is limited.
+
+--Apple-Mail-B2922615-D885-4570-AFA5-C7A2B29B4D4D
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=
+=3Dutf-8"></head><body dir=3D"auto"><div></div><div>Dear All,</div><div>&nb=
+sp; Sorry I mean Oct 25 (Tuesday).&nbsp;</div><div>Thanks,</div><div>Vamsi<=
+/div><div><br>On 13-Oct-2016, at 6:48 PM, Vamsi Pritham Pingali &lt;<a href=
+=3D"mailto:vamsipingali@math.iisc.ernet.in">vamsipingali@math.iisc.ernet.in=
+</a>&gt; wrote:<br><br></div><blockquote type=3D"cite"><div><div dir=3D"ltr=
+"><div><br></div>Dear All,<div><br></div><div>&nbsp; &nbsp; Shane D' Mello =
+who is currently a postdoc at IISER Pune will be giving a talk on Tuesday, =
+Oct 24 from 4-5 pm in LH 1. Here are the title and the abstract :&nbsp;</di=
+v><div><br></div><div>&nbsp;<span style=3D"font-size:12.8px">Title: Some re=
+sults on the topology of real algebraic curves</span></div><div style=3D"fo=
+nt-size:12.8px"><br><div>&nbsp;Abstract: The topology of real algebraic var=
+ieties is the study of the topology of objects that can be defined real alg=
+ebraically and particularly the restrictions that the real algebraic struct=
+ure imposes on the topology. Hilbert's famous address motivated an interest=
+ in the so called Hilbert's sixteenth problem of classifying, up to isotopy=
+, real algebraic curves of a given degree. While successful only up to degr=
+ee 7, it has motivated&nbsp;<span style=3D"font-size:12.8px">many natural a=
+nd interesting questions and generalizations.&nbsp;</span></div><div><span =
+style=3D"font-size:12.8px">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp;We will &nbsp;look at some of these questions including a criterion =
+for curves that have the maximum permissible number of components in terms =
+of the Jacobian of the complexification of the curve, the reduction of the =
+classification of real planar rational quartics to the simple combinatorial=
+ classification of &nbsp;"extended" chord diagrams, the classification of r=
+eal rational knots of low degrees, and an application of braid groups in co=
+nstructing real rational representatives of knots.</span><br></div></div><d=
+iv><span style=3D"font-size:12.8px"><br></span></div><div><span style=3D"fo=
+nt-size:12.8px">&nbsp; &nbsp; I hope you can attend. By the way, Shane D' M=
+ello is open to shifting it to Monday from 4-5 if that is more convenient f=
+or most of you. I have a feeling that this talk might be of interest to Sid=
+dhartha and perhaps even Basudeb.<br><br></span></div><div><span style=3D"f=
+ont-size:12.8px">&nbsp; &nbsp; For multiple reasons I&nbsp;feel a teensy bi=
+t awkward saying this* : He is a potential faculty applicant.</span></div><=
+div><span style=3D"font-size:12.8px"><br></span></div><div><span style=3D"f=
+ont-size:12.8px">Thanking you,</span></div><div><span style=3D"font-size:12=
+.8px">Vamsi</span></div><div><span style=3D"font-size:12.8px"><br></span></=
+div><div><span style=3D"font-size:12.8px">* : As a friend recently told me,=
+ one's ability to keep one's mouth shut is limited.</span></div></div>
+</div></blockquote></body></html>=
+
+--Apple-Mail-B2922615-D885-4570-AFA5-C7A2B29B4D4D--

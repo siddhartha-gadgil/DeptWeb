@@ -1,0 +1,91 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.6.34 with SMTP id 34csp24224iog;
+        Wed, 6 Aug 2014 19:58:15 -0700 (PDT)
+X-Received: by 10.70.33.161 with SMTP id s1mr15045571pdi.10.1407380294487;
+        Wed, 06 Aug 2014 19:58:14 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id qe8si1169908pdb.84.2014.08.06.19.57.43
+        for <multiple recipients>;
+        Wed, 06 Aug 2014 19:58:14 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s772vf9a009479;
+	Thu, 7 Aug 2014 08:27:41 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s772vnHB024656;
+	Thu, 7 Aug 2014 08:27:50 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s772vnxs024649;
+	Thu, 7 Aug 2014 08:27:49 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.11 (proxying for 117.192.116.147)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 7 Aug 2014 02:57:49 -0000
+Message-ID: <ddfc00a564d48092abb8faa27a7a5ac7.squirrel@math.iisc.ernet.in>
+Date: Thu, 7 Aug 2014 02:57:49 -0000
+Subject: Reminder [Seminar] Math: TODAY: HARISH-CHANDRA ( 1923 - 1983 )
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Cc: ug_fourth_year@math.iisc.ernet.in, ug_third_year@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s772vf9a009479
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof. Alladi Sitaram
+          IISc
+
+Title   : HARISH-CHANDRA ( 1923 - 1983 )
+
+Date    : 7th August, 2014 (Thursday)
+
+Time    : (1) 2:00 - 2:45 p.m.
+          (2) 3:15 - 4:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Harish-Chandra is a mathematician whose name in the history of mathematics
+is permanently etched in stone. I will begin by giving a brief account of
+his life, and in the second half of the lecture, explain some of the
+technical terms used in the first half. This lecture is aimed mainly at
+Ph.D. students.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

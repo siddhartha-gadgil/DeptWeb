@@ -1,0 +1,84 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.141.43.13 with SMTP id v13cs136562rvj;
+        Thu, 15 Apr 2010 23:19:03 -0700 (PDT)
+Received: by 10.142.5.25 with SMTP id 25mr689240wfe.78.1271398743634;
+        Thu, 15 Apr 2010 23:19:03 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id 12si4589699pzk.66.2010.04.15.23.19.01;
+        Thu, 15 Apr 2010 23:19:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o3G6G4rN008261;
+	Fri, 16 Apr 2010 11:46:04 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o3G6gBpi015035;
+	Fri, 16 Apr 2010 12:12:11 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o3G6gBaF015034;
+	Fri, 16 Apr 2010 12:12:11 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 16 Apr 2010 12:12:11 +0530 (IST)
+Message-ID: <f8f3465b5786f2d7f21a4cbf2f18c62c.squirrel@math.iisc.ernet.in>
+Date: Fri, 16 Apr 2010 12:12:11 +0530 (IST)
+Subject: Maths : April 19,
+       2010: Seminar : "Test function realizations and Agler-Herglotz 
+     representations"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 6.5, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. James Pickering,
+                           Newcastle University, UK
+
+    Title                : Test function realizations and Agler-Herglotz
+representations
+
+    Day & Date           : Monday,  April 19, 2010.
+
+    Time                 :  4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

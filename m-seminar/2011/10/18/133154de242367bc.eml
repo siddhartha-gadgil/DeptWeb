@@ -1,0 +1,105 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.15.76 with SMTP id j12cs97954iba;
+        Mon, 17 Oct 2011 21:33:06 -0700 (PDT)
+Received: by 10.68.44.197 with SMTP id g5mr2203418pbm.25.1318912385909;
+        Mon, 17 Oct 2011 21:33:05 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id e9si960546pbd.274.2011.10.17.21.33.04
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 17 Oct 2011 21:33:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p9I4Y8tb003179;
+	Tue, 18 Oct 2011 10:04:08 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p9I4ZDAS010475
+	for <m_seminar@math.iisc.ernet.in>; Tue, 18 Oct 2011 10:05:13 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p9I4ZDJR010472
+	for <m_seminar@math.iisc.ernet.in>; Tue, 18 Oct 2011 10:05:13 +0530
+Date: Tue, 18 Oct 2011 10:05:13 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Limiting behaviour of sample autocovariance
+ matrix"
+Message-ID: <Pine.LNX.4.64.1110181004140.10037@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046162175-160759264-1318912446=:10037"
+Content-ID: <Pine.LNX.4.64.1110181004141.10037@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p9I4Y8tb003179
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-160759264-1318912446=:10037
+Content-Type: TEXT/PLAIN; CHARSET=ISO-8859-1; FORMAT=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <Pine.LNX.4.64.1110181004142.10037@math.iisc.ernet.in>
+
+
+  		      	  Department of Mathematics
+  		   Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Arup Bose
+ 	  ISI Kolkata
+
+Title	: Limiting behaviour of sample autocovariance matrix
+
+Date	: October 18, 2011
+
+Time	: 11:30 a.m.-12:30 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall III
+
+**PLEASE NOTE THE UNUSUAL TIME AND VENUE**
+
+Abstract:
+The empirical spectral distribution (ESD) of the sample variance
+covariance matrix of i.i.d. observations under suitable moment
+conditions converges almost surely as the dimension tends to
+infinity. The limiting spectral distribution (LSD)  is universal and
+is known in closed form with support  [0,4].
+
+We show that the ESD of the sample autocovariance matrix converges as
+the dimension increases, when the time series is a linear process
+with reasonable restriction on the coefficients. This limit does not
+depend on the distribution of the underlying driving i.i.d. sequence
+but in contrast to the sample variance covariance matrix, its support
+is unbounded. The limit moments are certain functions of the
+autocovariances. This limit is inconsistent in the sense that it does
+not coincide with the spectral distribution of the theoretical
+autocovariance matrix. However, if we consider a suitably tapered
+version of the autocovariance matrix, then its LSD also exists and is
+consistent. We also discuss the existence of the LSD for banded
+sample autocovariance matrices. For banded matrices, the limit has
+unbounded support as long as the number of nonzero diagonals in
+proportion to the dimension of the matrix is bounded away from zero.
+If this ratio tends to zero, then the limit has bounded support and
+is consistent. Finally we also study the LSD of a naturally modified
+version of the autocovariance matrix which is not nonnegative
+definite.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					   Chairman,
+  					   Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-160759264-1318912446=:10037--

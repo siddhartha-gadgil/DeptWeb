@@ -1,0 +1,135 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.6.34 with SMTP id 34csp323869iog;
+        Tue, 29 Jul 2014 22:31:37 -0700 (PDT)
+X-Received: by 10.70.123.163 with SMTP id mb3mr1844182pdb.37.1406698297072;
+        Tue, 29 Jul 2014 22:31:37 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id o15si567710pdl.182.2014.07.29.22.31.35
+        for <multiple recipients>;
+        Tue, 29 Jul 2014 22:31:36 -0700 (PDT)
+Received-SPF: none (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s6U5VWRC027835;
+	Wed, 30 Jul 2014 11:01:32 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s6U5Vnfg014983
+	for <m_seminar@math.iisc.ernet.in>; Wed, 30 Jul 2014 11:01:49 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id s6U5VnHw014979
+	for <m_seminar@math.iisc.ernet.in>; Wed, 30 Jul 2014 11:01:49 +0530
+Date: Wed, 30 Jul 2014 11:01:49 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Fwd: CSA : 31 Jul 2014 : Seminar : Towards Rigorous Factoring
+ (fwd)
+Message-ID: <alpine.LFD.2.03.1407301101170.14588@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1111411423-1406698309=:14588"
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s6U5VWRC027835
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	WEIRD_PORT 0.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1111411423-1406698309=:14588
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+
+---------- Forwarded message ----------
+Date: Wed, 30 Jul 2014 09:47:41 +0530
+From: Arnab Bhattacharyya <arnabb@csa.iisc.ernet.in>
+To: Manjunath Krishnapur <manju@math.iisc.ernet.in>,
+     Dilip Patil <patil@math.iisc.ernet.in>
+Subject: Fwd: CSA : 31 Jul 2014 : Seminar : Towards Rigorous Factoring
+
+Hi,
+This talk might be interesting to some of the math faculty also. Can you please circulate the announcement?
+
+Thanks,
+Arnab
+
+---------- Forwarded message ----------
+From: <www@csa.iisc.ernet.in>
+Date: Wed, Jul 30, 2014 at 9:26 AM
+Subject: CSA : 31 Jul 2014 : Seminar : Towards Rigorous Factoring
+To: broadcast@ece.iisc.ernet.in, office@csa.iisc.ernet.in, arnabb@csa.iisc.ernet.in, www@csa.iisc.ernet.in
+
+
+Dear All,
+
+                Department of Computer Science and Automation
+              Professor Priti Shankar Memorial Lecture Series
+
+
+
+Speaker             :  Dr. Ramarathnam Venkatesan
+                       Principal Researcher, Microsoft Research
+
+Title               :  Towards Rigorous Factoring
+
+Date                :  Thursday, July 31, 2014
+
+Time                :  4:00 PM
+
+Venue               :  CSA Seminar Hall (Room No. 254, First Floor)
+
+Live Video          :  MMCRs - ECE, CEDT, EE
+                       or
+                       URL -- http://mmcr.iisc.ernet.in:8008/live/csa.html
+
+Abstract
+
+For decades, the index calculus algorithms for factoring and discrete logarithm
+problems have served as the benchmarks for evaluating parameters of cryptographic
+systems. Yet, the best algorithms have steadfastly eluded a rigorous analysis.
+We present analysis of these and present bounds matching the heuristic estimates.
+To analyze the quadratic sieve we introduce new conjectures related to Fourier coefficients
+of indicator functions of semi-primes and ranks of matrices.
+
+Joint with Jonathan D Lee, Trinity College, Cambridge UK.
+
+Host Faculty        :  Dr. Arnab Bhattacharyya
+
+
+
+
+                               ALL ARE WELCOME
+
+--
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+
+
+--
+Arnab Bhattacharyya
+Assistant Professor
+Computer Science and Automation
+Indian Institute of Science
+
+http://drona.csa.iisc.ernet.in/~arnabb
+
+--
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1111411423-1406698309=:14588--

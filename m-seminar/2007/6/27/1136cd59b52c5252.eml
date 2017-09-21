@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.134.7 with SMTP id h7cs143128wad;
+        Wed, 27 Jun 2007 03:59:06 -0700 (PDT)
+Received: by 10.141.53.15 with SMTP id f15mr108913rvk.1182941946165;
+        Wed, 27 Jun 2007 03:59:06 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id f34si8396651rvb.2007.06.27.03.58.57;
+        Wed, 27 Jun 2007 03:59:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender)
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id l5RB3AKb018774;
+	Wed, 27 Jun 2007 16:33:10 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id l5RGOImD006549;
+	Wed, 27 Jun 2007 16:24:18 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id l5RGOIZR006546;
+	Wed, 27 Jun 2007 16:24:18 GMT
+Date: Wed, 27 Jun 2007 16:24:18 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 29th June 2007 : Seminar - "On a scaling limit for a tagged
+ particle in some zero-range interacting systems"
+Message-ID: <Pine.LNX.4.61.0706271621360.6384@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              :  Dr. Sunder Sethuraman,
+ 				Iowa State University
+
+
+      Title                :  On a scaling limit for a tagged particle in
+ 				some zero-range interacting systems
+
+      Day & Date           :  Friday, June 29.
+
+      Time                 :  4.00  p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	Informally, the ``zero-range'' particle system follows a 
+collection of dependent random walks on a lattice, each of which interacts 
+infinitesimally only with those particles already present at its location.
+ 	In this talk, we consider the asymptotics of a distinguished, or 
+tagged particle in this interacting particle system.  In particular, we 
+discuss a ``nonequilibrium'' invariance principle, in one dimension when 
+the transition rates are mean-zero, with respect to a diffusion whose 
+coefficients depend on the ``hydrodynamic'' density.
+
+
+                      All  interested  are  Welcome
+
+                                                             CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

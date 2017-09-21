@@ -1,0 +1,97 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.156.204 with SMTP id y12csp218601qcw;
+        Sun, 14 Dec 2014 20:16:14 -0800 (PST)
+X-Received: by 10.68.68.227 with SMTP id z3mr27897689pbt.3.1418616973808;
+        Sun, 14 Dec 2014 20:16:13 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id jv1si12003319pbc.205.2014.12.14.20.16.10
+        for <multiple recipients>;
+        Sun, 14 Dec 2014 20:16:12 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id sBF4G7FE030244;
+	Mon, 15 Dec 2014 09:46:07 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sBF4S0Mq019780;
+	Mon, 15 Dec 2014 09:58:00 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sBF4S0on019779;
+	Mon, 15 Dec 2014 09:58:00 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.14
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 15 Dec 2014 04:28:00 -0000
+Message-ID: <e6a12cb238c1c967d798bca26d73cb9b.squirrel@math.iisc.ernet.in>
+Date: Mon, 15 Dec 2014 04:28:00 -0000
+Subject: Reminder: Maths : Today : On splitting of primes and simple
+ extensions of integrally closed domains
+From: mathseminars@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in, m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Sudesh Khanduja
+          IISER Mohali
+
+Title   : On splitting of primes and simple extensions of integrally
+closed domains
+
+Date    : 15th December, 2014 (Monday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract
+We will discuss an extension of the classical Dedekind's theorem regarding
+splitting of rational primes in algebraic number fields as well as of its
+converse when the base field is a valued field of arbitrary rank. Let R be
+the valuation ring of a Krull valuation defined on a field K and S be the
+integral closure of R in a finite extension L of K: A set of conditions
+will be described which are necessary as well as sufficient for S to be a
+simple ring extension of R; i.e., S = R[] for some : The well known
+theorem of Dedekind characterizing those rational primes p which divide
+the index of an algebraic number field will be deduced. Some related open
+problems will also be mentioned.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

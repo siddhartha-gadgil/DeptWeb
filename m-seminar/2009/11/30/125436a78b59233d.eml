@@ -1,0 +1,101 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.115.23.8 with SMTP id a8cs406986waj;
+        Sun, 29 Nov 2009 20:47:49 -0800 (PST)
+Received: by 10.114.249.24 with SMTP id w24mr6397853wah.146.1259556469165;
+        Sun, 29 Nov 2009 20:47:49 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id 4si20292241pzk.66.2009.11.29.20.47.47;
+        Sun, 29 Nov 2009 20:47:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id nAU4shI4000338;
+	Mon, 30 Nov 2009 10:24:43 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id nAU52pSY013575;
+	Mon, 30 Nov 2009 10:32:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id nAU52pnB013574;
+	Mon, 30 Nov 2009 10:32:51 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Mon, 30 Nov 2009 10:32:51 +0530 (IST)
+Message-ID: <151d0e9c3e050daea118411746470299.squirrel@www.math.iisc.ernet.in>
+Date: Mon, 30 Nov 2009 10:32:51 +0530 (IST)
+Subject: [Fwd: Maths : December 1,
+            2009: Seminar : "Realization and interpolation in the Schur 
+     class      of the polydisk"]
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Please note the corrected abstract
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. Michael Dritschel,
+                           Newcastle University, UK.
+
+    Title                : Realization and interpolation in the Schur class
+                           of the polydisk
+
+    Day & Date           : Tuesday, December 1, 2009.
+
+    Time                 : 4:00 p.m.
+
+    Venue                :  CHEP Lecture  Hall
+
+
+
+Abstract:
+        The classical realization theorem gives various
+characterizations of functions in the unit ball of $H^\infty(\mathbb
+D)$, the bounded analytic functions on the unit disk $\mathbb D$, which
+happens to also correspond to the multipliers of Hardy space
+$H^2(\mathbb D)$.  This realization theorem yields an elegant way of
+solving the Nevanlinna-Pick interpolation problem.  In the mid 80s, Jim
+Agler discovered an analogue of the realization theorem over the
+polydisk.  While for $d=2$, it once again gives a characterization of
+the elements of the unit ball of $H^\infty(\mathbb D^d)$ (and so allows
+one to solve interpolation problems in $H^\infty(\mathbb D^2)$), for
+$d>2$, the class of functions which are realized is a proper subset of
+the unit ball of $H^\infty(\mathbb D^d)$ --- the so-called Schur-Agler
+class.
+
+In this talk, we show how to obtain a realization theorem for the full
+Schur class (ie, unit ball) of $H^\infty(\mathbb D^d)$ and hence give an
+analogue of the Pick condition for the existence of a solution to
+Nevanlinna-Pick interpolation problem in the Schur class.
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

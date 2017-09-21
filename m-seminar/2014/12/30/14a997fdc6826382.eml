@@ -1,0 +1,86 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.156.204 with SMTP id y12csp1304308qcw;
+        Mon, 29 Dec 2014 20:41:41 -0800 (PST)
+X-Received: by 10.70.41.177 with SMTP id g17mr52560130pdl.103.1419914501177;
+        Mon, 29 Dec 2014 20:41:41 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id ko2si37683049pdb.230.2014.12.29.20.41.38;
+        Mon, 29 Dec 2014 20:41:41 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id sBU4fZZO028647;
+	Tue, 30 Dec 2014 10:11:35 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sBU4rEQr030313
+	for <m_seminar@math.iisc.ernet.in>; Tue, 30 Dec 2014 10:23:14 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sBU4rEaO030312;
+	Tue, 30 Dec 2014 10:23:14 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 30 Dec 2014 04:53:14 -0000
+Message-ID: <711bff4884b56e81bc6869eec2627eae.squirrel@math.iisc.ernet.in>
+Date: Tue, 30 Dec 2014 04:53:14 -0000
+Subject: [Seminar] Math: January 16th, 2015: Some "qualitative" uncertainty
+ principles revisited
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+Please note that the date has been postponed by a week.
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Alladi Sitaram
+          IISc
+
+Title   : Some "qualitative" uncertainty principles revisited
+
+Date    : 16th January, 2015 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: TBA
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

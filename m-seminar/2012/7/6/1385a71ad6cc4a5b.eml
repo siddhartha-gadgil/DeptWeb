@@ -1,0 +1,184 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.162.196 with SMTP id yc4csp68467oab;
+        Thu, 5 Jul 2012 20:59:55 -0700 (PDT)
+Received: by 10.68.194.169 with SMTP id hx9mr33198033pbc.8.1341547195588;
+        Thu, 05 Jul 2012 20:59:55 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id hw8si41050244pbc.236.2012.07.05.20.59.53
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 05 Jul 2012 20:59:55 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.70 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q663xk9Q017556;
+	Fri, 6 Jul 2012 09:29:46 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q663xhgD005607
+	for <m_seminar@math.iisc.ernet.in>; Fri, 6 Jul 2012 09:29:43 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q663qLfD016894
+	for <m_seminar@math.iisc.ernet.in>; Fri, 6 Jul 2012 09:22:23 +0530
+Received: by obbta17 with SMTP id ta17so20551084obb.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 05 Jul 2012 20:59:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=XDyVRHqKj6/Eb0h4oYPdnSb8c6QD5QLmGx9CeC7WA7M=;
+        b=MXpYuRENFPxWw2s8qTnD/KBNnwqD7skNhG54oKlr3/YlCFY/2PeIqyOYRYrAmuQhNX
+         ASD0Gj9s9RmGtjaHZSALo2FwdUpOrt+ngWnVQ6nOQlCzHXjcO0+ADzJ+Kks7HdYHCEyl
+         W4bVnGV3REKz1dFbjJynGaf0E82TMx4squHAQ7nDXWfy6PH6rpsqV9VqTRx7pdlCkec3
+         pH/y66AdfcC+JCptuM/NZbK4BcMhuWiPlMMd+bL5Ir/K7QvlJE99oA00JHfwq9GGjMlT
+         ib71np4wchv0FhHfhCYZJS1ymrYY34jHLIg4xDWjgjuiSg95PX8pGVqEeZtz3hbHoG0b
+         7VkA==
+MIME-Version: 1.0
+Received: by 10.60.169.174 with SMTP id af14mr29134352oec.13.1341547175824;
+ Thu, 05 Jul 2012 20:59:35 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Thu, 5 Jul 2012 20:59:35 -0700 (PDT)
+In-Reply-To: <CAHEur2SEcVCf+zKMQhkgnzzT-LxmHm=RVKRibycSvOuN+eaBWA@mail.gmail.com>
+References: <CAHEur2SEcVCf+zKMQhkgnzzT-LxmHm=RVKRibycSvOuN+eaBWA@mail.gmail.com>
+Date: Fri, 6 Jul 2012 09:29:35 +0530
+X-Google-Sender-Auth: _iS9lItpCnFrPPiAREbPqdnMNKg
+Message-ID: <CAHEur2QJRX86nE+GUhzBpw9hMQJBhY1F5_HH=Ebn5QuhxkrjPw@mail.gmail.com>
+Subject: [Thesis Colloquium] Math: July 10, 2012: "Extension theorems for
+ vector bundles over hypersurfaces"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=bcaec54c5392dd4cb404c4214a4b
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.2,
+	required 6.5, autolearn=not spam, RCVD_IN_DNSWL_LOW -0.70,
+	SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached,
+	score=-4.099, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70, SUBJECT_MONTH -1.50)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--bcaec54c5392dd4cb404c4214a4b
+Content-Type: text/plain; charset=ISO-8859-1
+
+                        Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  Ph.D. Thesis Colloquium
+
+
+Speaker :  Mr. Amit Tripathi
+
+Title :    Extension theorems for vector bundles over hypersurfaces
+
+Date :       July 10, 2012
+
+Time :       3:30 - 4:30 p.m.
+
+Venue :     Department of Mathematics, Lecture Hall 3
+
+Abstract: In this thesis we study some Questions on vector bundles over
+hypersurfaces. More precisely, for hypersurfaces of dimension $\geq 2$, we
+study the extension problem of Vector bundles. We try to find some
+conditions under which a vector bundle over an ample divisor of
+non-singular projective variety, extends as a vector bundle to an open set
+containing that ample divisor.
+
+Our method is to follow the general Groethendieck-Lefschetz theory by
+trying to show that a vector bundle extension exists over the various
+thickenings of the ample divisor. For the case of line bundles, our method
+unifies and recovers the  Noether-Lefschetz theorems by Joshi and
+Ravindra-Srinivas.
+
+For rank $>$ 1, we find 2 separate cohomological conditions on bundle
+which shows the extension over an open set.  For Line bundles, we give a
+generalized version of Noether-Lefschetz theorem.
+
+In the last part of the thesis, we make a specific study of vector bundles
+over elliptic curves.
+
+
+           ALL ARE CORDIALLY INVITED.
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--bcaec54c5392dd4cb404c4214a4b
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0 Department of Mathematics=
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gma=
+il_quote">
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0=A0=A0=A0=A0 P=
+h.D. Thesis Colloquium <br>
+<br>
+<br>
+Speaker :=A0 Mr. Amit Tripathi<br><br>Title :=A0=A0=A0 Extension theorems f=
+or vector bundles over hypersurfaces<br><br>
+Date : =A0 =A0 =A0 July 10, <a href=3D"tel:2012" value=3D"+9722012" target=
+=3D"_blank">2012</a><br>
+<br>
+Time : =A0 =A0 =A0 3:30 - 4:30 p.m.<br>
+<br>
+Venue : =A0 =A0 Department of Mathematics, Lecture Hall 3<br>
+<br>
+Abstract: In this thesis we study some Questions on vector bundles over<br>
+hypersurfaces. More precisely, for hypersurfaces of dimension $\geq 2$, we<=
+br>
+study the extension problem of Vector bundles. We try to find some<br>
+conditions under which a vector bundle over an ample divisor of<br>
+non-singular projective variety, extends as a vector bundle to an open set<=
+br>
+containing that ample divisor.<br>
+<br>
+Our method is to follow the general Groethendieck-Lefschetz theory by<br>
+trying to show that a vector bundle extension exists over the various<br>
+thickenings of the ample divisor. For the case of line bundles, our method<=
+br>
+unifies and recovers the =A0Noether-Lefschetz theorems by Joshi and<br>
+Ravindra-Srinivas.<br>
+<br>
+For rank $&gt;$ 1, we find 2 separate cohomological conditions on bundle<br>
+which shows the extension over an open set. =A0For Line bundles, we give a<=
+br>
+generalized version of Noether-Lefschetz theorem.<br>
+<br>
+In the last part of the thesis, we make a specific study of vector bundles<=
+br>
+over elliptic curves.<br>
+<br><br>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 ALL ARE CORDIALLY INVITED.<br>
+<br>
+<pre style=3D"font-family:arial,helvetica,sans-serif">Faculty members and s=
+tudents of the Department are requested to attend. </pre><br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<br>
+</div><br><br clear=3D"all"><br><br>
+</div><br><br clear=3D"all"><br>
+</div><br><br><div><br></div><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--bcaec54c5392dd4cb404c4214a4b--

@@ -1,0 +1,90 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.12.133 with SMTP id 5csp322258iom;
+        Mon, 22 Sep 2014 22:37:57 -0700 (PDT)
+X-Received: by 10.68.68.172 with SMTP id x12mr9185289pbt.157.1411450677362;
+        Mon, 22 Sep 2014 22:37:57 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id k2si18703505pde.98.2014.09.22.22.37.55
+        for <multiple recipients>;
+        Mon, 22 Sep 2014 22:37:57 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s8N5bhU8022739;
+	Tue, 23 Sep 2014 11:07:43 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s8N5b1OK025506
+	for <m_seminar@math.iisc.ernet.in>; Tue, 23 Sep 2014 11:07:01 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s8N5b1oD025499;
+	Tue, 23 Sep 2014 11:07:01 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.11 (proxying for 61.3.29.53)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 23 Sep 2014 05:37:01 -0000
+Message-ID: <ae418420f5ac030e1114c563752ccb1c.squirrel@math.iisc.ernet.in>
+Date: Tue, 23 Sep 2014 05:37:01 -0000
+Subject: Reminder [Seminar] Math: TODAY: Riesz potentials and Sobolev
+ embedding theorems
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.799, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Dr Rahul Garg
+          Technion, Haifa, Israel
+
+Title   : Riesz potentials and Sobolev embedding theorems
+
+Date    : 23rd September, 2014 (Tuesday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+I shall begin with the mapping properties of classical Riesz
+potentials acting on $L^p$-spaces. After reviewing the literature, I shall
+present our new ''almost'' Lipschitz continuity estimates for these and
+related potentials (including, for instance, the logarithmic potential) in
+the so-called supercritical exponent. Finally, I shall show how one could
+apply these estimates to deduce Sobolev embedding theorems.
+This is joint work with Daniel Spector and is available on arXiv:1404.1563.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

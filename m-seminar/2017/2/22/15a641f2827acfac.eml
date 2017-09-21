@@ -1,0 +1,157 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp743865obb;
+        Tue, 21 Feb 2017 20:40:48 -0800 (PST)
+X-Received: by 10.99.185.74 with SMTP id v10mr39212378pgo.98.1487738447967;
+        Tue, 21 Feb 2017 20:40:47 -0800 (PST)
+Return-Path: <vamsipritham@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id v84si111017pfd.3.2017.02.21.20.40.46;
+        Tue, 21 Feb 2017 20:40:47 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) smtp.mailfrom=vamsipritham@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 42D37AE7EEA;
+	Wed, 22 Feb 2017 10:10:44 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.46])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v1M5DHc3002572
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 Feb 2017 10:43:17 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vamsipritham@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="vamsipritham@gmail.com"; helo=mail-yw0-f174.google.com; client-ip=209.85.161.174
+Received: from mail-yw0-f174.google.com (mail-yw0-f174.google.com [209.85.161.174])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id 1F6FBAE06E8
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 Feb 2017 10:10:21 +0530 (IST)
+Received: by mail-yw0-f174.google.com with SMTP id v200so97941ywc.3
+        for <m_seminar@math.iisc.ernet.in>; Tue, 21 Feb 2017 20:40:21 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=0f0zyYqvGMUx19Fqs9RJMFhq6l1h5+MtGHO9/mHgLi8=;
+        b=au66yovVetAc6u9rvP8MkiKsStw/ZWj1mUp9BLIvhWuG/2QOyW7DaPG9IeY8ldoWFt
+         m0on3lyZ9nCGq6xTObw0VPvLepatt04W+fb0+AscSScBC8alN8idVblWQQn6cz+WDjer
+         aKBSZN7V8eg4F48XTC/obBzTPFUeEhJaLeWqktyoinu4j+vrMfXFfEKUJ2E3OdNc090m
+         DBXGXm/J7Rk0EY3oS6F5/uagKXj15ZBY9RMjYUnAkUnjcx+nKxNuAQxYRMKSESJJCLSy
+         x99rTnpvaW24/FWMyUHlbQS/KYGRiBEufUy0rtWqZQmdosQ8R34Fa0Meu/oMcZXmoIwk
+         lJjQ==
+X-Gm-Message-State: AMke39lgTEQo6a+4dC8NwctpXn2Wtc9CgDd1pITdTk4CRaKTkzjr9arkK63aM1HezJbUig==
+X-Received: by 10.13.227.69 with SMTP id m66mr23082187ywe.272.1487738419713;
+        Tue, 21 Feb 2017 20:40:19 -0800 (PST)
+Received: from mail-yw0-f182.google.com (mail-yw0-f182.google.com. [209.85.161.182])
+        by smtp.gmail.com with ESMTPSA id t3sm43500ywe.4.2017.02.21.20.40.19
+        for <m_seminar@math.iisc.ernet.in>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 21 Feb 2017 20:40:19 -0800 (PST)
+Received: by mail-yw0-f182.google.com with SMTP id q127so144603ywg.0
+        for <m_seminar@math.iisc.ernet.in>; Tue, 21 Feb 2017 20:40:19 -0800 (PST)
+X-Received: by 10.13.246.131 with SMTP id g125mr22448686ywf.213.1487738419268;
+ Tue, 21 Feb 2017 20:40:19 -0800 (PST)
+MIME-Version: 1.0
+Reply-To: vamsipritham@gmail.com
+Received: by 10.37.178.17 with HTTP; Tue, 21 Feb 2017 20:39:38 -0800 (PST)
+From: Vamsi Pritham Pingali <vamsipingali@math.iisc.ernet.in>
+Date: Wed, 22 Feb 2017 10:09:38 +0530
+X-Gmail-Original-Message-ID: <CALSDV2Zg193_23kG6ACN09uqBW329cdr69Fa-Nv_FNV6HtMDuQ@mail.gmail.com>
+Message-ID: <CALSDV2Zg193_23kG6ACN09uqBW329cdr69Fa-Nv_FNV6HtMDuQ@mail.gmail.com>
+Subject: [Reminder] Fluid dynamics talk
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=94eb2c035750ffd6400549171754
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-Sophos-IBS: success
+X-CTCH-PVer:  0000001
+X-CTCH-Spam:  Unknown
+X-CTCH-VOD:  Unknown
+X-CTCH-Flags:  0
+X-CTCH-RefID:  str=0001.0A15020A.58AD1638.006E,ss=1,re=0.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=0
+X-CTCH-Score:  0.000
+X-CTCH-ScoreCust:  0.000
+X-CTCH-Rules:  
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.622, required 6.5, BAYES_00 -1.90,
+	FREEMAIL_FORGED_FROMDOMAIN 0.20, FREEMAIL_FROM 0.00,
+	HEADER_FROM_DIFFERENT_DOMAINS 0.00, MR_NOT_ATTRIBUTED_IP 0.20,
+	RCVD_IN_DNSWL_NONE -0.00, RCVD_IN_MSPIKE_H3 -0.01,
+	RCVD_IN_MSPIKE_WL -0.01, RCVD_IN_SORBS 0.30, RCVD_IN_SORBS_SPAM 0.50,
+	SPF_PASS -0.00, _FROM_IISC 0.10), 
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 42D37AE7EEA.A5373
+X-IISc-MailScanner-From: vamsipritham@gmail.com
+MailScanner-NULL-Check: 1488343245.77126@owPYMFgFiKiU7oXF2hzUsQ
+
+
+--94eb2c035750ffd6400549171754
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+   This is a reminder for Dr. Vikas Krishnamurthy's talk tomorrow :
+
+
+Title: "Theoretical models for compressible vortex streets"
+
+Venue : LH-3
+Time: Thursday (Feb 23) 4-5 pm
+
+Abstract: Vortex streets are a common feature of fluid flows at high
+Reynolds numbers and their study is now well developed for incompressible
+fluids. Much less is known, however, about compressible vortex streets. A
+fundamental reason appears to be the inapplicability of the point vortex
+model to compressible flows. In this talk, we discuss point vortices in the
+context of weakly compressible flows and elaborate on the problems
+involved. We then adopt the hollow vortex model where each vortex is
+modelled as a finite-area constant pressure region with non-zero
+circulation. For weakly compressible flows steady hollow vortex solutions
+are well known to be candidates for the leading order solution in a
+perturbative Rayleigh-Jansen expansion of a compressible flow. Here we give
+details of that expansion based on the vortex street solutions of Crowdy &
+Green (2012). Physical properties of the compressible vortex streets are
+described. Our approach uses the Imai-Lamla method coupled with analytic
+function theory and conformal mapping. (Joint work with Darren Crowdy)
+
+Regards,
+Vamsi
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--94eb2c035750ffd6400549171754
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear All,<div><br><div>=C2=A0 =C2=A0This is a reminder for=
+ Dr. Vikas Krishnamurthy&#39;s talk tomorrow :</div><div><br></div><div><br=
+ style=3D"font-size:12.8px"><span style=3D"font-size:12.8px">Title: &quot;T=
+heoretical models for compressible vortex streets&quot;</span><br style=3D"=
+font-size:12.8px"><br>Venue : LH-3</div><div>Time: Thursday (Feb 23) 4-5 pm=
+<br><br style=3D"font-size:12.8px"><span style=3D"font-size:12.8px">Abstrac=
+t: Vortex streets are a common feature of fluid flows at high Reynolds numb=
+ers and their study is now well developed for incompressible fluids. Much l=
+ess is known, however, about compressible vortex streets. A fundamental rea=
+son appears to be the inapplicability of the point vortex model to compress=
+ible flows. In this talk, we discuss point vortices in the context of weakl=
+y compressible flows and elaborate on the problems involved. We then adopt =
+the hollow vortex model where each vortex is modelled as a finite-area cons=
+tant pressure region with non-zero circulation. For weakly compressible flo=
+ws steady hollow vortex solutions are well known to be candidates for the l=
+eading order solution in a perturbative Rayleigh-Jansen expansion of a comp=
+ressible flow. Here we give details of that expansion based on the vortex s=
+treet solutions of Crowdy &amp; Green (2012). Physical properties of the co=
+mpressible vortex streets are described. Our approach uses the Imai-Lamla m=
+ethod coupled with analytic function theory and conformal mapping. (Joint w=
+ork with Darren Crowdy)</span><br style=3D"font-size:12.8px"></div><div><sp=
+an style=3D"font-size:12.8px"><br></span></div><div><span style=3D"font-siz=
+e:12.8px">Regards,</span></div><div><span style=3D"font-size:12.8px">Vamsi<=
+/span></div></div></div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--94eb2c035750ffd6400549171754--

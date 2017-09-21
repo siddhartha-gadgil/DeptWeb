@@ -1,0 +1,84 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.138.34 with SMTP id m34csp59526iod;
+        Mon, 8 Sep 2014 00:00:39 -0700 (PDT)
+X-Received: by 10.68.194.194 with SMTP id hy2mr2185361pbc.149.1410159639156;
+        Mon, 08 Sep 2014 00:00:39 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id iu9si15866772pbd.251.2014.09.08.00.00.37
+        for <multiple recipients>;
+        Mon, 08 Sep 2014 00:00:38 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s8870TCA030717;
+	Mon, 8 Sep 2014 12:30:29 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s88704uT026159
+	for <m_seminar@math.iisc.ernet.in>; Mon, 8 Sep 2014 12:30:04 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s88703K9026151;
+	Mon, 8 Sep 2014 12:30:03 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 8 Sep 2014 07:00:03 -0000
+Message-ID: <1f7d06258df59df14d65e5eebc2a2f47.squirrel@math.iisc.ernet.in>
+Date: Mon, 8 Sep 2014 07:00:03 -0000
+Subject: [NMI Workshop] Math: Sep 8-11, 2014: "STOCHASTIC SYSTEMS AND
+ APPLICATIONS"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s8870TCA030717
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+Event:            NMI Workshop on STOCHASTIC SYSTEMS AND APPLICATIONS
+
+Date & time:      Sep 8-11, 2014 all day
+
+Venue:            LH-I, Department of Mathematics.
+
+Schedule: http://math.iisc.ernet.in/~nmi/SSA_Schedule.pdf
+
+Abstract:
+
+All are cordially invited.
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

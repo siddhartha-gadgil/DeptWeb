@@ -1,0 +1,110 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.146.226 with SMTP id tf2csp160025lbb;
+        Mon, 27 Jan 2014 19:27:52 -0800 (PST)
+X-Received: by 10.66.26.236 with SMTP id o12mr34554327pag.15.1390879671271;
+        Mon, 27 Jan 2014 19:27:51 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id kn7si13667418pbc.96.2014.01.27.19.27.49
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 27 Jan 2014 19:27:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s0S3RgM7022527;
+	Tue, 28 Jan 2014 08:57:42 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s0S3QZA6003708
+	for <m_seminar@math.iisc.ernet.in>; Tue, 28 Jan 2014 08:56:35 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s0S3QZ60003701;
+	Tue, 28 Jan 2014 08:56:35 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 28 Jan 2014 03:26:35 -0000
+Message-ID: <4e91236b9a40bf6850b8fcb9178400dc.squirrel@math.iisc.ernet.in>
+Date: Tue, 28 Jan 2014 03:26:35 -0000
+Subject: Reminder [Seminar] Math: Jan 28th, 2014: Policy improvement
+ algorithm for zero sum two person      stochastic games of perfect
+ information in Cesaro payoffs
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s0S3RgM7022527
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof T.E.S. Raghavan
+          University of Illinois at Chicago
+
+Title   : Policy improvement algorithm for zero sum two person stochastic
+games of perfect information in Cesaro payoffs.
+
+Date    : 28th Jan, 2014 (Tuesday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: If the data defining a problem and at least one solution to the
+problem lie in the same Archimedean ordered  field induced by the  data, 
+we say that the problem has order field property.
+When this property holds one may hope to do  only finitely many
+arithmetic operations on the data to arrive at one such a solution.  For
+example if we start with rational data, the value and a pair of optimal
+strategies for the players in a zero sum two person game have rational
+entries.  This was first noticed by Herman Weyl , and it was a precursor
+to solving them via  the simplex method. For bimatrix games while  Nash
+exhibited an equilibrium in mixed strategies, it was Vorobev  and Kuhn who
+checked that  the order field property holds for bimatrix games. Later
+Lemke and Howson gave the so called linear complementarity  algorithm to
+locate an  equilibrium pair in the same data field. For three  person
+games,  Nash with Shapley constructed simple counter examples for lack of
+order field property.  In general  stochastic games fail to have order
+field property.
+
+In our search for finite arithmetic step algorithms for stochastic games ,
+perfect information stochastic games and more generally ARAT games stand
+out for their simplicity of optimal  strategies .  While we know that they
+have order field property,  the key issue is  how to adapt the  policy
+improvement algorithm of  Markov decision processes to stochastic games. 
+We  show how to extend this algorithm for zero sum two person stochastic
+games of perfect  information in discounted as well as Cesaro average
+payoffs and  show how one avoids cycling.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

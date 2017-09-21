@@ -1,0 +1,73 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.220.46.139 with SMTP id j11cs137757vcf;
+        Sun, 6 Mar 2011 20:08:20 -0800 (PST)
+Received: by 10.231.66.146 with SMTP id n18mr2708919ibi.14.1299470899821;
+        Sun, 06 Mar 2011 20:08:19 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.70])
+        by mx.google.com with ESMTPS id w10si6101704ibe.21.2011.03.06.20.08.17
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 06 Mar 2011 20:08:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id p27433Qt026119;
+	Mon, 7 Mar 2011 09:33:03 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p274nxca028295
+	for <m_seminar@math.iisc.ernet.in>; Mon, 7 Mar 2011 10:19:59 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p274nx94028292
+	for <m_seminar@math.iisc.ernet.in>; Mon, 7 Mar 2011 10:19:59 +0530
+Date: Mon, 7 Mar 2011 10:19:59 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "SRB-measure leaks"
+Message-ID: <Pine.LNX.4.64.1103071018380.28111@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		             Department of Mathematics
+ 		       Indian Institute of Science, Bangalore
+
+
+ 				   SEMINAR
+
+Speaker	: Prof. Shrihari Sridharan
+ 	  Chennai Mathematical Institute
+
+Title	: SRB-measure leaks
+
+Date	: March 7, 2011
+
+Time	: 4:00 p.m. - 5:00 p.m.
+
+Venue 	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+In this talk, we shall study about the leaking rate of the
+Sinai-Ruelle-Bowen (SRB) measure through holes of positive measure
+constructed in the Julia set of hyperbolic rational maps (open dynamics).
+The dependence of this rate on the size and position of the hole shall be
+explained. For an easier and better understanding, the simple quadratic
+map restricted on the unit circle will be analysed thoroughly. Time
+permitting, we will also compute the Hausdorff dimension of the survivor
+set.
+
+ 		       ALL ARE CORDIALLY INVITED
+
+ 					   Chairman,
+ 					   Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

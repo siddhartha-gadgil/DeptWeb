@@ -1,0 +1,94 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.194.233 with SMTP id dz41cs144627ibb;
+        Wed, 13 Apr 2011 02:39:20 -0700 (PDT)
+Received: by 10.101.16.20 with SMTP id t20mr4983373ani.131.1302687559515;
+        Wed, 13 Apr 2011 02:39:19 -0700 (PDT)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTPS id x33si852520ana.69.2011.04.13.02.39.16
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 13 Apr 2011 02:39:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p3D9d451007961;
+	Wed, 13 Apr 2011 15:09:04 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p3DAN6Xe005455
+	for <m_seminar@math.iisc.ernet.in>; Wed, 13 Apr 2011 15:53:06 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id p3DAN6bZ005454;
+	Wed, 13 Apr 2011 15:53:06 +0530
+From: harish@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to harish@localhost using -f
+Received: from 10.134.10.21
+        (SquirrelMail authenticated user harish)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 13 Apr 2011 15:53:06 +0530 (IST)
+Message-ID: <17a754a1f5a02ecfe3b5a700aaf1d847.squirrel@math.iisc.ernet.in>
+Date: Wed, 13 Apr 2011 15:53:06 +0530 (IST)
+Subject: Michael  Dritschel's  Lecture  Postponed
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p3D9d451007961
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear All,
+
+    The lecture below has been postponed to 25th April (Monday).
+The time and venue are unchanged.
+
+                                             Harish Seshadri
+
+
+
+
+   Speaker: Michael Dritschel
+
+   Affiliation: Newcastle University, UK
+
+   Title: Noncommutative analogues of the Fej\'er-Riesz Theorem
+
+   Venue: LH 1, Department of Mathematics, IISc
+
+   Date and Time:  25th April 2011 (Monday), 4-5 PM
+
+
+   Abstract: The classical Fej\'er-Riesz Theorem states that a nonnegative
+trigonometric polynomial can be factored as the absolute square of an
+analytic polynomial.  Indeed, the factorization can be done with an
+outer polynomial.  Various generalizations of this result have been
+considered.  For example, Rosenblum showed that the result remained true
+for operator valued trigonometric polynomials.  If one instead considers
+operator valued polynomials in several variables, one obtains
+factorization results for strictly positive polynomials, though
+outer factorizations become much more problematic.  In another
+direction, Scott McCullough proved a factorization result for so-called
+hereditary trigonometric polynomials in freely noncommuting variables
+(strict positivity not needed).  In this talk we consider an analogue of
+(hereditary) trigonometric polynomials over discrete groups, and give a
+result which includes a strict form of McCullough's theorem as well as
+the multivariable version of Rosenblum's theorem.
+
+
+
+                                                   Harish Seshadri
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

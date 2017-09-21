@@ -1,0 +1,83 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.101.8 with SMTP id fc8csp68784lbb;
+        Thu, 29 May 2014 21:34:47 -0700 (PDT)
+X-Received: by 10.68.136.226 with SMTP id qd2mr15029008pbb.72.1401424486571;
+        Thu, 29 May 2014 21:34:46 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id cw3si3718876pbc.117.2014.05.29.21.34.44
+        for <multiple recipients>;
+        Thu, 29 May 2014 21:34:46 -0700 (PDT)
+Received-SPF: none (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s4U4Yct2005263;
+	Fri, 30 May 2014 10:04:38 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s4U4ZwWl016507
+	for <m_seminar@math.iisc.ernet.in>; Fri, 30 May 2014 10:05:58 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id s4U4Zwbx016503
+	for <m_seminar@math.iisc.ernet.in>; Fri, 30 May 2014 10:05:58 +0530
+Date: Fri, 30 May 2014 10:05:58 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: TODAY : Geometric Quantization and Coherent States
+Message-ID: <alpine.LFD.2.03.1405301005310.16048@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-278604506-1400661076=:2566"
+Content-ID: <alpine.LFD.2.03.1405230939020.12702@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-278604506-1400661076=:2566
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1405230939021.12702@math.iisc.ernet.in>
+
+                          Department of Mathematics
+                   Indian Institute of Science, Bangalore
+
+
+                                   SEMINAR
+
+
+
+Speaker : Prof. Rukmini Dey (HRI)
+
+Title: Geometric Quantization and Coherent States
+
+Date: 30th May, 2014 (Friday)
+
+Time: 3:30 - 4:30 p.m.
+
+Venue: Lecture Hall I, Department of Mathematics
+
+Abstract: In this expository talk, I will first review prequantization
+of symplectic manifolds. I will then talk of polarizations and
+geometric quantization. I will then focus on geometric quantization of
+Kahler manifolds and the Rawnsley coherent states. If time permits I
+will talk of coadjoint orbits and coherent states.
+
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-278604506-1400661076=:2566--

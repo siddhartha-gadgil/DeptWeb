@@ -1,0 +1,202 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.162.196 with SMTP id yc4csp44231oab;
+        Thu, 12 Jul 2012 21:43:14 -0700 (PDT)
+Received: by 10.66.76.227 with SMTP id n3mr1900804paw.53.1342154593435;
+        Thu, 12 Jul 2012 21:43:13 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id ok4si4919817pbb.136.2012.07.12.21.43.11
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 12 Jul 2012 21:43:13 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q6D4h6RR031006;
+	Fri, 13 Jul 2012 10:13:06 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q6D4h4Mn011080
+	for <m_seminar@math.iisc.ernet.in>; Fri, 13 Jul 2012 10:13:04 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q6D4beMS003449
+	for <m_seminar@math.iisc.ernet.in>; Fri, 13 Jul 2012 10:07:43 +0530
+Received: by obbta17 with SMTP id ta17so5898681obb.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 12 Jul 2012 21:42:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=vySH2iTeeJEu/L+DtkB9v1caXOD2uHfvXvHOqD/0lSQ=;
+        b=sEQvU0ee3S469kHfCY6bZfKimUX7UfESe/figqyoZejeBh1pd20MVetN0iUZEN1svn
+         u+rsBTJmwA5uNIGHBqI5T/vO8lb5p2asGOs2swO9nNzUR3/HAReoMdgT2mK+ShALkoAn
+         m2QkPMEbNB8FqGr5Du2aw9eJT18RU8MX0pAxSPqcp7ibZ+tJqVAiv2DKLsJKFwNofNXj
+         rqIzqDC3H9gQP+n408i0EoqyoNlb+bS4/KVsl52AE2ccnbgPrFxY7e51bOvfKGFPJQnT
+         kq8SUiKKrjSsJzr51PZ4MNcfAhGvYbCI6SIuAAS4OcK/hMLaGBLYzwhDBZder6MroUXk
+         QGeQ==
+MIME-Version: 1.0
+Received: by 10.182.216.99 with SMTP id op3mr1153241obc.30.1342154576822; Thu,
+ 12 Jul 2012 21:42:56 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Thu, 12 Jul 2012 21:42:56 -0700 (PDT)
+In-Reply-To: <CAHEur2T2+wAd1AWdQ-rM3N2FeDRXL2cjW0wy_Tb3fkDWuseTGA@mail.gmail.com>
+References: <CAHEur2T2+wAd1AWdQ-rM3N2FeDRXL2cjW0wy_Tb3fkDWuseTGA@mail.gmail.com>
+Date: Fri, 13 Jul 2012 10:12:56 +0530
+X-Google-Sender-Auth: lOdZXqT8TnYbdkLQeHPu9UylUpw
+Message-ID: <CAHEur2SBPwFuSaBKd8=o3hi8OsYmpJhSYSXFMofbNnFx3C=+PQ@mail.gmail.com>
+Subject: [Thesis Defence] Math: July 17, 2012: "Analytic continuation in
+ several complex variables"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=f46d044786e7c9027104c4aeb6da
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.201, required 6.5, autolearn=not spam, BAYES_40 -0.00,
+	RCVD_IN_DNSWL_LOW -0.70, SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q6D4h6RR031006
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--f46d044786e7c9027104c4aeb6da
+Content-Type: text/plain; charset=ISO-8859-1
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                         M.S. THESIS DEFENCE
+
+Speaker        : Mr. Chandan Biswas
+
+Title        : Analytic continuation in several complex variables
+
+Date        : July 17, 2012
+
+Time        : 10:00 - 11:00 a.m.
+
+Venue        : Department of Mathematics, LH-1
+
+Abstract:
+
+We wish to study those domains in $\mathbb{C}^n$, for $n\geq 2$, the
+so-called domains of holomorphy, which are in some sense the maximal
+domains of existence of the holomorphic functions defined on them. We
+shall demonstrate that this study is radically different from that of
+domains in $\mathbb{C}$ by discussing some examples of special types of
+domains in $\mathbb{C}^n$, $n\geq 2$, such that every function holomorphic
+on them extends to a strictly larger domain. This leads to Thullen's
+construction of a domain (not necessarily in $\mathbb{C}^n$) spread over
+$\mathbb{C}^n$, the so-called envelope of holomorphy, which fulfills our
+criteria. With the help of this abstract approach we shall give a
+characterization of the domains of holomorphy in $\mathbb{C}^n$.The
+aforementioned characterization (holomorphic convexity) is very difficult
+to check. This calls for other (equivalent) criteria for a domain in
+$\mathbb{C}^n$, $n\geq 2$, to be a domain of holomorphy. We shall survey
+these criteria. We shall sketch those proofs of equivalence that rely on
+the first part of our survey: namely, on analytic continuation theorems.
+If a domain $\Omega\subset \mathbb{C}^n$, is not a domain of holomorphy,
+we would still like to explicitly describe a domain strictly larger than
+$\Omega$ to which all functions holomorphic on $\Omega$ continue
+analytically. One tool that is used most often in such constructions is
+called "Kontinuitaetssatz". It has been invoked, without any clear
+statement, in many works on analytic continuation. The basic (unstated)
+principle that seems to be in use in these works appears to be a folk
+theorem. We shall provide a precise statement of this folk
+Kontinuitaetssatz and give a proof of it.
+
+
+            ALL ARE CORDIALLY INVITED,
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--f46d044786e7c9027104c4aeb6da
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gma=
+il_quote"><div class=3D"gmail_quote">
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematic=
+s<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+</div><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"g=
+mail_quote"><div class=3D"gmail_quote">
+<br>
+<br><pre>                        <font style=3D"font-family:arial,helvetica=
+,sans-serif" size=3D"2"> </font><font style=3D"font-family:arial,helvetica,=
+sans-serif" size=3D"2">M.S. THESIS DEFENCE
+
+Speaker        : Mr. Chandan Biswas
+
+Title        : Analytic continuation in several complex variables
+
+Date        : July 17, <a href=3D"tel:2012" value=3D"+9722012" target=3D"_b=
+lank">2012</a>
+
+Time        : 10:00 - 11:00 a.m.
+
+Venue        : Department of Mathematics, LH-1
+
+Abstract:
+
+We wish to study those domains in $\mathbb{C}^n$, for $n\geq 2$, the
+so-called domains of holomorphy, which are in some sense the maximal
+domains of existence of the holomorphic functions defined on them. We
+shall demonstrate that this study is radically different from that of
+domains in $\mathbb{C}$ by discussing some examples of special types of
+domains in $\mathbb{C}^n$, $n\geq 2$, such that every function holomorphic
+on them extends to a strictly larger domain. This leads to Thullen&#39;s
+construction of a domain (not necessarily in $\mathbb{C}^n$) spread over
+$\mathbb{C}^n$, the so-called envelope of holomorphy, which fulfills our
+criteria. With the help of this abstract approach we shall give a
+characterization of the domains of holomorphy in $\mathbb{C}^n$.The
+aforementioned characterization (holomorphic convexity) is very difficult
+to check. This calls for other (equivalent) criteria for a domain in
+$\mathbb{C}^n$, $n\geq 2$, to be a domain of holomorphy. We shall survey
+these criteria. We shall sketch those proofs of equivalence that rely on
+the first part of our survey: namely, on analytic continuation theorems.
+If a domain $\Omega\subset \mathbb{C}^n$, is not a domain of holomorphy,
+we would still like to explicitly describe a domain strictly larger than
+$\Omega$ to which all functions holomorphic on $\Omega$ continue
+analytically. One tool that is used most often in such constructions is
+called &quot;Kontinuitaetssatz&quot;. It has been invoked, without any clear
+statement, in many works on analytic continuation. The basic (unstated)
+principle that seems to be in use in these works appears to be a folk
+theorem. We shall provide a precise statement of this folk
+Kontinuitaetssatz and give a proof of it.</font></pre>=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 <br>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0 ALL ARE CORDIALLY INVITED,<br>
+<br>
+<pre style=3D"font-family:arial,helvetica,sans-serif">Faculty members and s=
+tudents of the Department are requested to attend. </pre><br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<br>
+<br><br><br>
+</div></div></div></div></div></div>
+</div><br><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--f46d044786e7c9027104c4aeb6da--

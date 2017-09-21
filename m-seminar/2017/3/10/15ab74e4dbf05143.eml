@@ -1,0 +1,118 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp706152obb;
+        Fri, 10 Mar 2017 00:20:46 -0800 (PST)
+X-Received: by 10.98.87.27 with SMTP id l27mr19224126pfb.169.1489134046777;
+        Fri, 10 Mar 2017 00:20:46 -0800 (PST)
+Return-Path: <arvind@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id n128si2263063pgn.36.2017.03.10.00.20.45;
+        Fri, 10 Mar 2017 00:20:46 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of arvind@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of arvind@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=arvind@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 92628AEAA92;
+	Fri, 10 Mar 2017 13:50:39 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v2A8qt41001927
+	for <m_seminar@math.iisc.ernet.in>; Fri, 10 Mar 2017 14:22:55 +0530
+Received: from localhost (arvind@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id v2A8qsZf001923
+	for <m_seminar@math.iisc.ernet.in>; Fri, 10 Mar 2017 14:22:54 +0530
+Date: Fri, 10 Mar 2017 14:22:54 +0530 (IST)
+From: Arvind Ayyer <arvind@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Reminder [Seminar] Math: Today: At the crossroad of algebra,
+ combinatorics and physics: the 2-species PASEP
+Message-ID: <alpine.LFD.2.03.1703101422390.24112@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-1699922447-1488262595=:10567"
+Content-ID: <alpine.LFD.2.03.1702281146410.10567@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 92628AEAA92.A7411
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.401, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: arvind@math.iisc.ernet.in
+MailScanner-NULL-Check: 1489738842.42827@G/lsj3ixs/kB3NfItDaHBA
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1699922447-1488262595=:10567
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1702281146411.10567@math.iisc.ernet.in>
+
+Dear all,
+
+                            Department of Mathematics
+                     Indian Institute of Science, Bangalore
+
+
+                                     SEMINAR
+
+
+
+Speaker : Xavier Viennot
+ 	  CNRS Emeritus Research Director, LaBRI, Bordeaux University
+ 	  Adjunct Professor at IMSc, Chennai
+
+Title   : At the crossroad of algebra, combinatorics and physics: the 
+2-species PASEP
+
+Date    : 10th March, 2017 (Friday)
+
+Time    : 3:00 p.m. - 4:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+The PASEP  (partially asymmetric exclusion model) is a model of particles 
+hopping on a one-dimensional strip of N sites with open boundaries. It has 
+been intensively studied by physicists and appears as a
+toy model in the physics of dynamical systems. The distribution of stationary 
+probabilities has been computed using the so-called matrix ansatz (Derrida, 
+Evans, Hakim, Pasquier). The solution involves a
+certain quadratic algebra and a representation of this algebra with infinite 
+tridiagonal matrices related to the Askey-Wilson polynomials. These 
+polynomials are a famous family of orthogonal polynomials
+which sit at the top of the hierarchy of classical orthogonal polynomials.
+
+In recent years intensive works has been done by combinatorists in order to 
+give combinatorial interpretations of these stationary probabilities in terms 
+of some weighted tableaux:  permutations tableaux
+(Postnikkov, Steingrimsson, Williams, Corteel), alternative tableaux (X.V.), 
+tree-like tableaux (Aval, Boussicault, Nadeau), straircase tableaux (Corteel, 
+Williams). The combinatorics of permutations,
+Catalan numbers and orthogonal polynomials plays a crucial role.
+
+The PASEP model has been extended in physics with two types of particles. In 
+this talk we introduce rhombic alternative tableaux which give combinatorial 
+interpretation of the stationary probabilities. These
+tableaux defined from a tiling of some portions of the triangular lattice, are 
+enumerated by the Lah numbers which are counting certain assemblées of 
+permutations. Their weighted generating function give a
+combinatorial interpretation of the 2-species PASEP (with 3 parameters). We 
+describe a bijection between  rhombic alternative tableaux and assemblées of 
+permutations  and get a bijective proof of the formula
+giving the partition function of the model. The general 2-species model with 5 
+parameters is related to Koorwinder-Macdonald polynomials (Corteel, 
+Mandelshtam, Williams).
+(joint work with Olya Mandelshtam, Berkeley)
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1699922447-1488262595=:10567--

@@ -1,0 +1,97 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.194.28.100 with SMTP id a4csp229198wjh;
+        Tue, 10 Dec 2013 22:16:24 -0800 (PST)
+X-Received: by 10.68.143.231 with SMTP id sh7mr7770473pbb.7.1386742584157;
+        Tue, 10 Dec 2013 22:16:24 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id pt8si12519630pac.221.2013.12.10.22.14.37
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 10 Dec 2013 22:16:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id rBB6EUc1001685;
+	Wed, 11 Dec 2013 11:44:30 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rBB683oF026872
+	for <m_seminar@math.iisc.ernet.in>; Wed, 11 Dec 2013 11:38:03 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rBB66HAV026756;
+	Wed, 11 Dec 2013 11:36:17 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 11 Dec 2013 11:36:17 +0530 (IST)
+Message-ID: <0d4d7d39d14e3dd48a29d730c873e796.squirrel@math.iisc.ernet.in>
+Date: Wed, 11 Dec 2013 11:36:17 +0530 (IST)
+Subject: [Seminar] Math: Dec 12th, 2013: On Frankl's conjecture
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Cc: aniruddha.venkata@cbs.ac.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: rBB6EUc1001685
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Aniruddha Venkata
+          Centre for Excellence in Basic Sciences, Mumbai
+
+Title   : On Frankl's conjecture
+
+Date    : 12th Dec, 2013 (Thursday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:  A family of sets is said to be union-closed if the union of any
+two sets from the family remains in the family. Frankl's conjecture, aka
+the union-closed sets conjecture, is the remarkable statement that for any
+finite union-closed family of finite sets, there exists an element that
+belongs to at least half of the sets in the family. Originally stated in
+1979, it is still wide open.
+ This will be an informal discussion on progress towards the conjecture.
+
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

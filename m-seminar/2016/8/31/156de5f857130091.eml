@@ -1,0 +1,70 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp140401ieb;
+        Tue, 30 Aug 2016 19:13:37 -0700 (PDT)
+X-Received: by 10.157.12.167 with SMTP id b36mr2380771otb.107.1472609617127;
+        Tue, 30 Aug 2016 19:13:37 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id p131si1092286oib.38.2016.08.30.19.13.30;
+        Tue, 30 Aug 2016 19:13:37 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 912A3AE4057;
+	Wed, 31 Aug 2016 07:43:28 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u7V2GtMA007873
+	for <m_seminar@math.iisc.ernet.in>; Wed, 31 Aug 2016 07:46:55 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u7V2GtsO007872;
+	Wed, 31 Aug 2016 07:46:55 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.10.1.98 (proxying for unknown)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Wed, 31 Aug 2016 02:16:55 -0000
+Message-ID: <e4c242f180ead5a82ca28e828cf2c26d.squirrel@math.iisc.ac.in>
+Date: Wed, 31 Aug 2016 02:16:55 -0000
+Subject: Math Dept Seminar Sept 5 (Madhusudan Manjunath)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 912A3AE4057.A8BD9
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-6.426, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -1.53, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1473214409.276@wfLyQUYseui/iCjYgCf9xg
+X-Spam-Status: No
+
+Speaker : Madhusudan Manjunath (Queen Mary Univ of London, UK)
+
+Date : Sept 5, 2016
+
+Location : LH-1
+
+Time : 4 pm
+
+Title: Tropical Algebraic Geometry: an Introduction.
+
+
+Abstract:  We start with a gentle introduction to tropical algebraic
+geometry.  We then focus on the tropical lifting problem and discuss
+recent progress. Tropical analogues of graph curves play an important role
+in this study. This talk will be accessible to the general mathematical
+audience.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

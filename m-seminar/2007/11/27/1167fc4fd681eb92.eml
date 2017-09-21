@@ -1,0 +1,79 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.20 with SMTP id s20cs12044buc;
+        Mon, 26 Nov 2007 22:22:07 -0800 (PST)
+Received: by 10.115.77.1 with SMTP id e1mr269611wal.1196144525914;
+        Mon, 26 Nov 2007 22:22:05 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id m31si4272149wag.2007.11.26.22.21.49;
+        Mon, 26 Nov 2007 22:22:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id lAR6RYLC024457;
+	Tue, 27 Nov 2007 11:57:39 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id lARBcCM8014366;
+	Tue, 27 Nov 2007 11:38:12 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id lARBcC08014363;
+	Tue, 27 Nov 2007 11:38:12 GMT
+Date: Tue, 27 Nov 2007 11:38:12 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 30th November 2007: Seminar - "Domains with non-compact
+ automorphism group"
+Message-ID: <Pine.LNX.4.61.0711271136540.14301@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Dr. Kaushal Verma, IISc
+
+      Title 		  : Domains with non-compact automorphism group
+
+      Day & Date           : Friday, November 30.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	The purpose of the talk will be to discuss the problem about
+classifying domains in C^n that have a non-compact group of holomorphic
+automorphisms. Examples and a flavour of some of the techniques that have
+been successful so far will be provided.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

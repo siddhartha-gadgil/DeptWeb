@@ -1,0 +1,82 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.52.105 with SMTP id s9csp63941qeo;
+        Mon, 17 Jun 2013 01:45:28 -0700 (PDT)
+X-Received: by 10.68.106.196 with SMTP id gw4mr11973337pbb.126.1371458727713;
+        Mon, 17 Jun 2013 01:45:27 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id zl3si5881394pbc.160.2013.06.17.01.45.26
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 17 Jun 2013 01:45:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r5H8inCt019753;
+	Mon, 17 Jun 2013 14:14:49 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r5H8ijqX020939;
+	Mon, 17 Jun 2013 14:14:45 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r5H8ijs2020936;
+	Mon, 17 Jun 2013 14:14:45 +0530
+Date: Mon, 17 Jun 2013 14:14:45 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 20th June:  Generalized Radon transforms in image
+ reconstruction problems
+Message-ID: <Pine.LNX.4.64.1306171403510.20420@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+
+ 		  	Department of Mathematics
+ 		  Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+
+Speaker	: Prof. Gaik Ambartsoumian
+ 	  University of Texas at Arlington
+
+Title	: Generalized Radon transforms in image
+ 	  reconstruction problems
+
+Date	: June 20, 2013
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+
+Abstract:
+Integral geometry is a field of mathematics that studies
+inversions and various properties of transforms, which
+integrate functions along curves, surfaces and hypersurfaces.
+Such transforms arise naturally in numerous problems of
+medical imaging, remote sensing, and non-destructive testing.
+The most typical examples include the Radon transform and its
+generalizations. The talk will discuss some problems and
+recent results related to generalized Radon transforms, and
+their applications to various problems of tomography.
+
+
+ 		      ALL ARE CORDIALLY INVITED
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

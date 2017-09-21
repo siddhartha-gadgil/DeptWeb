@@ -1,0 +1,120 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.156.72 with SMTP id wc8csp103746lbb;
+        Mon, 13 Jan 2014 00:50:38 -0800 (PST)
+X-Received: by 10.68.34.37 with SMTP id w5mr1930308pbi.159.1389603037064;
+        Mon, 13 Jan 2014 00:50:37 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id bc9si15059121pbd.131.2014.01.13.00.50.35
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 13 Jan 2014 00:50:36 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s0D8oCna002189;
+	Mon, 13 Jan 2014 14:20:12 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id s0D8jVFW001993;
+	Mon, 13 Jan 2014 14:15:31 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id s0D8jVax001992;
+	Mon, 13 Jan 2014 14:15:31 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 13 Jan 2014 14:15:31 +0530 (IST)
+Message-ID: <5794c197a639ddfb690f140ae3326c39.squirrel@math.iisc.ernet.in>
+Date: Mon, 13 Jan 2014 14:15:31 +0530 (IST)
+Subject: [Eigen-Function I] : Jan 17th,  2014
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Cc: "Krishna B. Athreya" <kbathreya@gmail.com>, nisheeth.vishnoi@gmail.com
+Reply-To: arvind@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+We are planning to organize monthly mathematical meetings under the title of
+_Eigen-Functions_. We will have two talks by people working in mathematical
+fields. The idea is to improve interaction and communication in our
+department among faculty, postdocs and students. These will be held on the
+third Friday of every month during the semester periods.
+
+The first session will be on Jan 17th. Our schedule for the first
+Eigen-Function meeting is as follows.
+
+2:00-3:00pm:    Nisheeth Vishnoi, Microsoft Research
+3:00-3:30pm:    Tea break
+3:30-4:30pm:    Krishna Athreya, IISc and Iowa State
+
+
+The titles and abstracts follow.
+
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINARS
+
+
+
+Speaker : Dr. Nisheeth Vishnoi
+          Microsoft Research, Bangalore
+
+Title   : TBA
+
+Date    : 17th Jan, 2014 (Friday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+and
+
+Speaker : Krishna Athreya
+          IISc and Iowa State
+
+Title   : Statistical estimation of integrals over infinite measure spaces
+
+Date    : 17th Jan, 2014 (Friday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: Given a L1 function f over an infinite measure space S how
+does one estimate the integral of f using statistical tools? In this
+talk we propose using regenerative sequences with heavy tails to do
+this. We obtain a consistent estimator and show the rate of
+convergence is slower than 1/root n. When S is countable the SSRW
+works.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

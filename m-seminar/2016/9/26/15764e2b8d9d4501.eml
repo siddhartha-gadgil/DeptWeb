@@ -1,0 +1,56 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp1487207ieb;
+        Sun, 25 Sep 2016 22:06:02 -0700 (PDT)
+X-Received: by 10.98.134.201 with SMTP id x192mr35354375pfd.21.1474866362670;
+        Sun, 25 Sep 2016 22:06:02 -0700 (PDT)
+Return-Path: <veluma@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id n79si23192581pfb.225.2016.09.25.22.05.57;
+        Sun, 25 Sep 2016 22:06:02 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=veluma@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 0C184AE393B;
+	Mon, 26 Sep 2016 10:37:26 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u8Q58wE6016051
+	for <m_seminar@math.iisc.ernet.in>; Mon, 26 Sep 2016 10:38:58 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u8Q58v4C016050;
+	Mon, 26 Sep 2016 10:38:57 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to veluma@localhost using -f
+Received: from 10.16.40.112 (proxying for 10.134.10.23)
+        (SquirrelMail authenticated user veluma)
+        by math.iisc.ac.in with HTTP;
+        Mon, 26 Sep 2016 05:08:57 -0000
+Message-ID: <b72b4aeae245a2c009eb5c4f5c50682f.squirrel@math.iisc.ac.in>
+Date: Mon, 26 Sep 2016 05:08:57 -0000
+Subject: [Fwd: Math Dept Seminar Sept 27 (Aprameyan Parthasarathy)]
+From: veluma@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 0C184AE393B.A9846
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (score=-6.508,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	BODY_EMPTY 1.29, FWD_MSG -1.00, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -3.00, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: veluma@math.iisc.ernet.in
+MailScanner-NULL-Check: 1475471249.24283@0JbfP0f6L2CZu4zlZhqOyw
+X-Spam-Status: No
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

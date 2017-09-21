@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.32.193 with SMTP id l1csp576762iei;
+        Thu, 21 Jan 2016 21:24:31 -0800 (PST)
+X-Received: by 10.98.74.134 with SMTP id c6mr1743865pfj.25.1453440271431;
+        Thu, 21 Jan 2016 21:24:31 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id p28si7011515pfi.217.2016.01.21.21.24.30;
+        Thu, 21 Jan 2016 21:24:31 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id u0M5OBmA015419;
+	Fri, 22 Jan 2016 10:54:11 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u0M5VcQ8003072
+	for <m_seminar@math.iisc.ernet.in>; Fri, 22 Jan 2016 11:01:38 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u0M5VcEt003071;
+	Fri, 22 Jan 2016 11:01:38 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.12 (proxying for 192.68.254.4)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 22 Jan 2016 05:31:37 -0000
+Message-ID: <ef2eb64a3409c3800267eab240ed32a7.squirrel@math.iisc.ernet.in>
+Date: Fri, 22 Jan 2016 05:31:37 -0000
+Subject: [Reminder: Math Dept Seminar Today (Jean-Baptiste Gatsinzi)]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: u0M5OBmA015419
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Date: Jan 22, 2016
+
+Time: 3 pm
+
+Location: LH-1
+
+Speaker: Prof. Jean-Baptiste Gatsinzi, University of Namibia, Namibia.
+
+Title: The Batalin-Vilkovisky structure on a  model  of the loop space
+homology.
+
+Abstract:  Let X be a closed,  simply connected and  orientable manifold of
+dimension m and
+LX the space of free loops on X.  We use Rational Homotopy Theory to
+construct a
+model
+for the loop space homology. We further define a BV structure  which is
+equivalent,
+in some
+cases,  to the Chas-Sullivan  BV operator.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

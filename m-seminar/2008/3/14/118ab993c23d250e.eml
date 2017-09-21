@@ -1,0 +1,91 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.19 with SMTP id q19cs14756buc;
+        Thu, 13 Mar 2008 21:43:11 -0700 (PDT)
+Received: by 10.100.38.3 with SMTP id l3mr5360859anl.46.1205469790496;
+        Thu, 13 Mar 2008 21:43:10 -0700 (PDT)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id 32si21831409aga.20.2008.03.13.21.42.57;
+        Thu, 13 Mar 2008 21:43:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m2E4VHQ9023218;
+	Fri, 14 Mar 2008 10:01:18 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m2E9lo5C031332
+	for <m_seminar@math.iisc.ernet.in>; Fri, 14 Mar 2008 09:47:50 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m2E9loNj031331;
+	Fri, 14 Mar 2008 09:47:50 GMT
+From: harish@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to harish@math.iisc.ernet.in using -f
+Received: from 117.192.97.69
+        (SquirrelMail authenticated user harish)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 14 Mar 2008 09:47:50 -0000 (UTC)
+Message-ID: <3222.117.192.97.69.1205488070.squirrel@math.iisc.ernet.in>
+Date: Fri, 14 Mar 2008 09:47:50 -0000 (UTC)
+Subject: IISc Math. Colloquium :  S. Vishwanath "Embedding hyperbolic 
+     Dynkin diagrams into E_{10}
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=0.2,
+	required 9, ALL_TRUSTED -1.80, BAYES_80 2.00)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear All,
+
+    Title: Embedding hyperbolic Dynkin diagrams into E_{10}
+
+    Speaker: Dr. S. Vishwanath
+             Dept. of Math. IISc
+
+    Time and Date:  4 to 5 PM, 19th March
+
+            Venue:  LH 3 , IISc math dept
+
+---------------------------------------------------------------------
+
+Embedding hyperbolic Dynkin diagrams into E_{10}
+*************************************************
+
+Classical Dynkin diagrams are used in the classification of finite
+dimensional simple Lie algebras. I will describe other types of Dynkin
+diagrams -- the so called affine and hyperbolic types -- and show how the
+hyperbolic diagrams can all be realized as subdiagrams (in a certain 
+precise sense) of a special diagram denoted E_{10}. This implies
+corresponding statements about certain Lie algebras and reflection groups.
+
+---------------------------------------------------------------------
+
+  Harish Seshadri
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

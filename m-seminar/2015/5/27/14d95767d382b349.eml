@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.44.194 with SMTP id s185csp200881ois;
+        Wed, 27 May 2015 06:01:20 -0700 (PDT)
+X-Received: by 10.67.24.65 with SMTP id ig1mr57991738pad.61.1432731680259;
+        Wed, 27 May 2015 06:01:20 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id do5si25834422pbb.68.2015.05.27.06.01.18;
+        Wed, 27 May 2015 06:01:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t4RD1FQY002563;
+	Wed, 27 May 2015 18:31:15 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t4RDDAos028142
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 May 2015 18:43:10 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t4RDDAZa028141;
+	Wed, 27 May 2015 18:43:10 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.11 (proxying for 193.51.104.65)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 27 May 2015 13:13:10 -0000
+Message-ID: <43952e917e0d34577129203d75939f62.squirrel@math.iisc.ernet.in>
+Date: Wed, 27 May 2015 13:13:10 -0000
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+Subject: Seminar by Alan Edelman (MIT)
+X-Spam-Status: No
+
+Title: Random Matrices, Numerical Computation, and Applications
+
+Date: June 3
+
+Time: 4-5 pm
+
+Location: LH1
+
+Speaker: Alan Edelman (MIT)
+
+Abstract: This talk is about random matrix theory.  Linear Algebra and
+maybe a little probability are the only prerequisites.  Random matrix
+theory is now finding many applications.  Many more applications remain to
+be found. It is truly "matrix statistics," when traditional statistics has
+been primarily "scalar" and "vector" statistics.  The math is so much
+richer, and the applications to computational finance, HIV research, the
+Riemann Zeta Function, and crystal growth, to name a few, show how
+important this area is.  I will show some of these applications, and
+invite you to find some of your own.
+
+  For me, there has been an exciting lesson.  It has to do with the
+interplay between mathematics and computation.   The computer plays many
+roles in mathematics. It provides experimental data to suggest, confirm, or
+discard potential theorems.  It provides simulations to bring cold theorems
+to life.  It illustrates in detail the exact nature
+of particular solutions.
+
+Julia is emerging as a major computational language in many areas
+including random matrix theory. This talk will show why.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.167.199 with SMTP id zq7csp157756lbb;
+        Wed, 23 Jul 2014 21:08:02 -0700 (PDT)
+X-Received: by 10.66.137.11 with SMTP id qe11mr7138038pab.80.1406174881384;
+        Wed, 23 Jul 2014 21:08:01 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id e7si2280617pdf.331.2014.07.23.21.07.59
+        for <multiple recipients>;
+        Wed, 23 Jul 2014 21:08:01 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s6O47um6032644;
+	Thu, 24 Jul 2014 09:37:56 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s6O48J5C025167
+	for <m_seminar@math.iisc.ernet.in>; Thu, 24 Jul 2014 09:38:19 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s6O48JMD025159;
+	Thu, 24 Jul 2014 09:38:19 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 24 Jul 2014 04:08:19 -0000
+Message-ID: <a8d3515d98347c59ed47ac1a6bff6549.squirrel@math.iisc.ernet.in>
+Date: Thu, 24 Jul 2014 04:08:19 -0000
+Subject: Reminder [Seminar] Math: TODAY: Non-backtracking spectrum of random
+ graphs
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Charles Bordenave
+          Universite de Toulouse
+
+Title   : Non-backtracking spectrum of random graphs
+
+Date    : 24th July, 2014 (Thursday)
+
+Time    : 11:30a.m. - 12:30 p.m.
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract:
+The non-backtracking matrix of a graph is a non-symmetric matrix
+on the oriented edge of a graph which has interesting algebraic
+properties and appears notably in connection with the Ihara zeta
+function and in some generalizations of Ramanujan graphs. It has
+also be proposed recently in the context of community detection. In
+this talk, we will study the largest eigenvalues of this matrix for
+the Erdos-Renyi graph G(n,c/n) and other simple inhomogeneous random
+graphs. This is a joint work with Marc Lelarge and Laurent Maussoulié.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.14.104 with SMTP id o8csp256859obc;
+        Wed, 17 May 2017 09:09:09 -0700 (PDT)
+X-Received: by 10.98.48.131 with SMTP id w125mr4646645pfw.141.1495037348950;
+        Wed, 17 May 2017 09:09:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1495037348; cv=none;
+        d=google.com; s=arc-20160816;
+        b=nwULq1JwLV+nF0qgsk4D2uwaR9u5/hnqqLq9SkQrdUOCwFIaDQAKtS/MzsPhCMjTYW
+         T+fOic06NCuKr/L6dJjSERPBdihAlpaIRK55/PqY866YIMbEoo23K4Z2zwjfd/fVRWeY
+         WS0jnlUM6VoYRxumjz4VrUY0nU+TY3K+obNhwyU98ISCJvnaW9ZpLI/RPbpeOqCaqITM
+         GRPz2e/2P1UenYv1+FGKaxkYaIaREuELEokGNpaIzYgO0pHq+t+OR75Y2wGCVPuhm5FQ
+         NR4FyJLYamAomVPOMrLnfoOh/izDU3bQ+Z3vRRZXQgVhE13fPi5JfGMoBLM/j+DqDpid
+         cmXg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=6A3SZad+HFRZzVxWx5oLnWwPGk9R0aiNFIswrSmE+uw=;
+        b=iH0xd2pO3XWOU45XRR+SLoAJFQYjM/QfAL854eACmA3xLHmiU9STkjbf5CDC3fGEkN
+         zfoxz2aSv5tZUcrxMDl4luRVGMKM7XRugN58IEpTVk0KxxSgoqH/gBr+m4eMq4vK+FKK
+         YgjpkKkpsAw3xblYdXq0nW92Y2X1gq4YgvQpW8t5ZteJEjvzfTIEwK8ovlpMU6skF/8j
+         75u41nHzyJ/y5JfmZZ/sTmylnEsOJD8BmPLpIXTrsst/VZD8qN3PZym1SB95Q+20Z7OB
+         J+A9k/JA5oKGvJxBqMtcbjqzfkxvsxZn76sL1BGBHp+7X7Ls4r5BlKh29ZjL+lz861ya
+         aY2w==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id c19si2490064pfe.59.2017.05.17.09.09.05;
+        Wed, 17 May 2017 09:09:07 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 83979AECA93;
+	Wed, 17 May 2017 21:39:00 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v4HGe1Gp017251
+	for <m_seminar@math.iisc.ernet.in>; Wed, 17 May 2017 22:10:01 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v4HGe1TL017194;
+	Wed, 17 May 2017 22:10:01 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.25.135 (proxying for 61.3.31.11)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 17 May 2017 16:40:01 -0000
+Message-ID: <b243ce133d2050a37997995466007d27.squirrel@math.iisc.ernet.in>
+Date: Wed, 17 May 2017 16:40:01 -0000
+Subject: [Fwd: Math Dept Seminar May 18 (Attreyee Ghosh)]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 83979AECA93.AC998
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.901, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FWD_MSG -1.00, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1495642142.52448@lOvwQHPdP6Osm5UnfrbSXA
+X-Spam-Status: No
+
+The following is an interdisciplinary lecture, discussing computational
+techniques that are used by Earth scientists. All are cordially
+invited to attend.
+
+Speaker : Attreyee Ghosh (Center for Earth Sciences, IISc)
+
+Date: May 18
+
+Time : 3pm
+
+Location : LH-1
+
+Title : Explaining the Earth’s surface observations: a Computational
+Geodynamics Approach
+
+Abstract: The field of geodynamics deals with the large scale forces
+shaping the Earth. Computational geodynamics, which uses numerical
+modeling, is one of the most important tools to understand the mechanisms
+within the deep Earth. With the help of these numerical models we can
+address some of the outstanding questions regarding the processes
+operating within the Earth's interior and their control on shaping the
+surface of the planet. Much of Earth’s surface observations such as
+gravity anomalies, plate motions, dynamic topography, lithosphere stress
+field, owe their origin to convection within the Earth’s mantle. While we
+understand the basic nature of such flow in the mantle, a lot remains
+unexplained, including the complex rheology of the deep mantle and how
+this density driven convective flow couples with the shallow surface. In
+this talk I will discuss how my group is using numerical modeling to
+understand the influence of the deep mantle on surface observations.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

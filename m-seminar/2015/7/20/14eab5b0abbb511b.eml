@@ -1,0 +1,71 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.81.14 with SMTP id f14csp369548ywb;
+        Mon, 20 Jul 2015 05:05:47 -0700 (PDT)
+X-Received: by 10.140.29.55 with SMTP id a52mr44253489qga.25.1437393947703;
+        Mon, 20 Jul 2015 05:05:47 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTP id n23si12037642qkh.128.2015.07.20.05.05.38;
+        Mon, 20 Jul 2015 05:05:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t6KC5Th0020699;
+	Mon, 20 Jul 2015 17:35:30 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t6KCGR8e005478
+	for <m_seminar@math.iisc.ernet.in>; Mon, 20 Jul 2015 17:46:27 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t6KCGRiL005477;
+	Mon, 20 Jul 2015 17:46:27 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 20 Jul 2015 12:16:27 -0000
+Message-ID: <9adf074cd25c9e77227ce86f75a3239e.squirrel@math.iisc.ernet.in>
+Date: Mon, 20 Jul 2015 12:16:27 -0000
+Subject: Seminar: Lecture series by Malabika Pramanik
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t6KC5Th0020699
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dates: July 22, 23, 29, 31
+
+Speaker: Professor Malabika Pramanik
+         University of British Columbia, Vancouver
+
+Title: Finite configurations in sparse sets
+
+Location: LH-1
+
+Time: 11:30 AM
+
+Abstract: A problem of interest in geometric measure theory both in
+discrete and continuous settings is the identification of algebraic and
+geometric patterns in thin sets. The first two lectures will be a survey of
+the literature on pattern recognition in sparse sets, with a greater
+emphasis on continuum problems. The second two contain an exposition of
+recent work, joint in part with Vincent Chan, Kevin Henriot and Izabella
+Laba on the existence of linear and polynomial configurations in
+multi-dimensional Lebesgue-null sets satisfying appropriate Hausdorff and
+Fourier dimensionality conditions.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

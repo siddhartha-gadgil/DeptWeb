@@ -1,0 +1,94 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.159.233 with SMTP id xf9csp253322lbb;
+        Mon, 14 Oct 2013 21:55:14 -0700 (PDT)
+X-Received: by 10.66.123.5 with SMTP id lw5mr40520811pab.83.1381812477140;
+        Mon, 14 Oct 2013 21:47:57 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id dl5si51772760pbd.26.1969.12.31.16.00.00
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 14 Oct 2013 21:47:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r9F4leRW001160;
+	Tue, 15 Oct 2013 10:17:40 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r9F4gqX8030699
+	for <m_seminar@math.iisc.ernet.in>; Tue, 15 Oct 2013 10:12:52 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r9F4gqR2030698;
+	Tue, 15 Oct 2013 10:12:52 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 15 Oct 2013 10:12:52 +0530 (IST)
+Message-ID: <bb77bb276979e55788102a5f21531055.squirrel@math.iisc.ernet.in>
+Date: Tue, 15 Oct 2013 10:12:52 +0530 (IST)
+Subject: [Colloquium] MATH: Oct 23,
+      2013;"Homotopy type and volume of locally symmetric spaces"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    COLLOQUIUM
+
+
+Speaker:      Prof C S Aravinda
+                            TIFR Bangalore
+
+Title:          Homotopy type and volume of locally symmetric spaces
+
+
+Date :       23rd October, 2013 (Wednesday)
+
+Time :       3:30 - 4:30 p.m.
+
+Venue :     Lecture Hall I, Department of Mathematics
+
+
+Abstract:    A conjecture of Gelander states that there is an effective
+triangulation in a compact deformation retract of a given locally symmetric
+space, giving linear bounds on the full homotopy type. This talk will explain
+some of this construction.
+
+
+
+                 ALL ARE CORDIALLY INVITED
+
+
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

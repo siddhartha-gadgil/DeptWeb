@@ -1,0 +1,85 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.219.10 with SMTP id hs10cs78236ibb;
+        Tue, 13 Dec 2011 21:00:05 -0800 (PST)
+Received: by 10.68.73.105 with SMTP id k9mr1165675pbv.121.1323838803740;
+        Tue, 13 Dec 2011 21:00:03 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.70])
+        by mx.google.com with ESMTPS id j7si5170534pbd.87.2011.12.13.20.59.53
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 13 Dec 2011 20:59:54 -0800 (PST)
+Received-SPF: error (google.com: error in processing during lookup of bharali@math.iisc.ernet.in: DNS timeout) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=temperror (google.com: error in processing during lookup of bharali@math.iisc.ernet.in: DNS timeout) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id pBE4xi0B000581;
+	Wed, 14 Dec 2011 10:29:44 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id pBE578WR020760
+	for <m_seminar@math.iisc.ernet.in>; Wed, 14 Dec 2011 10:37:08 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id pBE577ca020755
+	for <m_seminar@math.iisc.ernet.in>; Wed, 14 Dec 2011 10:37:08 +0530
+Date: Wed, 14 Dec 2011 10:37:07 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 19th Dec., "An overview of discontinuous Petrov-Galerkin
+ stabilization techniques"
+Message-ID: <Pine.LNX.4.64.1112141031090.20219@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.559, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	RP_8BIT 1.64, SUBJECT_MONTH -1.50, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		      	  Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Jay Gopalakrishnan
+ 	  Portland State University
+
+Title	: An overview of discontinuous Petrov-Galerkin stabilization
+ 	  techniques
+
+Dates	: December 19, 2011
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+We introduce the concept of optimal test functions that guarantee
+stability of resulting numerical schemes. Petrov-Galerkin methods seek
+approximate solutions of boundary value problems in a "trial" space by
+weakly imposing all equations via a (possibly different) "test" space.
+A basic design principle is that while trial spaces must have good
+approximation properties, the test space must be chosen for stability. The
+optimal test functions are those that realize discrete stability constants
+equal to those in the wellposedness estimates for the undiscretized
+boundary value problem.  When such functions are used within an
+ultra-weak variational formulation, we obtain Discontinuous
+Petrov-Galerkin (DPG) methods that exhibit remarkable stability
+properties. We present the first complete theory for the DPG for Laplace's
+equation as well as numerical results for other more complex applications.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					       Chairman,
+  					       Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

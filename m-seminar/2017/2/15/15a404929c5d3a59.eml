@@ -1,0 +1,79 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp150871obb;
+        Tue, 14 Feb 2017 21:40:20 -0800 (PST)
+X-Received: by 10.84.254.66 with SMTP id a2mr34311577pln.57.1487137220631;
+        Tue, 14 Feb 2017 21:40:20 -0800 (PST)
+Return-Path: <subhojoy@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id a2si2682110pln.223.2017.02.14.21.40.13;
+        Tue, 14 Feb 2017 21:40:20 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=subhojoy@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id D2CF7AE9E14;
+	Wed, 15 Feb 2017 11:10:08 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v1F6CnIj008569
+	for <m_seminar@math.iisc.ernet.in>; Wed, 15 Feb 2017 11:42:49 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v1F6CnC1008568;
+	Wed, 15 Feb 2017 11:42:49 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to subhojoy@localhost using -f
+Received: from 10.134.13.68
+        (SquirrelMail authenticated user subhojoy)
+        by math.iisc.ac.in with HTTP;
+        Wed, 15 Feb 2017 11:42:49 +0530
+Message-ID: <f815f6d65a4adf4fbd11c5f71cd238ea.squirrel@math.iisc.ac.in>
+Date: Wed, 15 Feb 2017 11:42:49 +0530
+Subject: [Reminder] Informal seminar today at 3pm
+From: subhojoy@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: D2CF7AE9E14.A8FD5
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: subhojoy@math.iisc.ernet.in
+MailScanner-NULL-Check: 1487742009.22277@rRfD1voiwS6tGunS4dyo7Q
+X-Spam-Status: No
+
+Dear all,
+
+Our next meeting in the informal seminar on surface-group
+representations  will be on *Wednesday 15th Feb* at 3pm at LH-5.
+
+I shall talk about geometric structures on surfaces, and introduce the
+Teichmuller/Fricke space and its parametrization using harmonic maps.
+There should also be some coffee.
+
+As Vamsi mentioned, there is a seminar website at:
+http://math.iisc.ac.in/~vamsipingali/grouprepseminar.html
+
+Best,
+Subhojoy
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

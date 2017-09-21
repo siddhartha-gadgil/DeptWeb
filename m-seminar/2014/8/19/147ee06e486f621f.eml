@@ -1,0 +1,96 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.26.204 with SMTP id a195csp12960ioa;
+        Tue, 19 Aug 2014 04:28:55 -0700 (PDT)
+X-Received: by 10.66.124.168 with SMTP id mj8mr43304099pab.78.1408447735425;
+        Tue, 19 Aug 2014 04:28:55 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id kd9si25639819pad.184.2014.08.19.04.28.53
+        for <multiple recipients>;
+        Tue, 19 Aug 2014 04:28:55 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s7JBSlTY008007;
+	Tue, 19 Aug 2014 16:58:47 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s7JBSg2A018401
+	for <m_seminar@math.iisc.ernet.in>; Tue, 19 Aug 2014 16:58:42 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s7JBSgWg018394;
+	Tue, 19 Aug 2014 16:58:42 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 19 Aug 2014 11:28:42 -0000
+Message-ID: <308bf51b008304038bd522f370f0f56b.squirrel@math.iisc.ernet.in>
+Date: Tue, 19 Aug 2014 11:28:42 -0000
+Subject: [Seminar] Math: August 22nd, 2014: Dynamics via quasi-homomorphisms
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s7JBSlTY008007
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Siddhartha Gadgil
+          IISc
+
+Title   : Dynamics via quasi-homomorphisms
+
+Date    : 22nd August, 2014 (Friday)
+
+Time    : 11:00 a.m. - 12:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+       In dynamics, one studies properties of a map from a space to itself,
+up to change of coordinates in the space. Hence it is important to
+understand invariants of the map under change of coordinates. An important
+such invariant is Poincare's rotation number, associated to invertible maps
+from the circle to itself.
+       Ghys and others have abstracted the rotation number to give many
+other important invariants of dynamical systems by viewing it in terms of so
+called quasi-homomorphisms. Quasi-homomorphisms are like homomorphisms,
+except that a bounded error is allowed in the definition.
+       In this expository lecture I will introduce quasi-homomorphisms and
+show some interesting properties, constructions and application, including
+an alternative construction of the real numbers (due to Ross Street). I
+shall then show how these can be used to construct dynamical invariants, in
+particular the rotation number.
+      Only basic algebra and analysis are needed as background for this
+lecture.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

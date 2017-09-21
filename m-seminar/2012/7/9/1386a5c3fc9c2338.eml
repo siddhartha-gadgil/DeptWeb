@@ -1,0 +1,185 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.162.196 with SMTP id yc4csp150345oab;
+        Sun, 8 Jul 2012 23:10:27 -0700 (PDT)
+Received: by 10.68.216.2 with SMTP id om2mr57052540pbc.26.1341814226446;
+        Sun, 08 Jul 2012 23:10:26 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id pw9si54830572pbb.197.2012.07.08.23.10.24
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 08 Jul 2012 23:10:26 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q696AJob022005;
+	Mon, 9 Jul 2012 11:40:19 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q696AGjh022148
+	for <m_seminar@math.iisc.ernet.in>; Mon, 9 Jul 2012 11:40:16 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q6962gpQ007000
+	for <m_seminar@math.iisc.ernet.in>; Mon, 9 Jul 2012 11:32:44 +0530
+Received: by obbta17 with SMTP id ta17so27529441obb.22
+        for <m_seminar@math.iisc.ernet.in>; Sun, 08 Jul 2012 23:10:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=Yvy7ikJF8WRL6xovm9qDD0UgoEmn6ZH0Ql2105RpS6k=;
+        b=HcG88Ax6ORExaTZ8Bunn7NKzxOcuJ9+Uva9z9GgphycS3fuwG6zhlnz4Lj5uhRfldz
+         DyHAv4MqesSsEsjuaVJ4SGiZbZhAvz2fQhY9Hmdke6BcokIX2TSqEmj/MFTb2GIi6hIW
+         1EdyPocvq19g9OKBtTneP0p+W9PtPyWlJ0PfPjyk5kdQWdHea3VeXRLqhXwhornIZawz
+         gQnkQCkC4Tov17Y3NGXYtPAZkpWYjKo+qV5053d+zooPaGfp4s4agM6qJYIlRojrJ3VD
+         vtk/a66kK9LB4eOeghstCbKwgN4WuYullMROZSdcEjDJctFlbZyPIzjGSX4k7ti6npqM
+         NbGA==
+MIME-Version: 1.0
+Received: by 10.182.16.3 with SMTP id b3mr34880167obd.72.1341814203496; Sun,
+ 08 Jul 2012 23:10:03 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Sun, 8 Jul 2012 23:10:03 -0700 (PDT)
+In-Reply-To: <CAHEur2RzukVowcNKN7_-pHz4Yk-RZg1RdGi7CFZ0w7YN0crnRA@mail.gmail.com>
+References: <CAHEur2RzukVowcNKN7_-pHz4Yk-RZg1RdGi7CFZ0w7YN0crnRA@mail.gmail.com>
+Date: Mon, 9 Jul 2012 11:40:03 +0530
+X-Google-Sender-Auth: KzSb6yhpKi22oe8_an2zH4jYvi4
+Message-ID: <CAHEur2QA1To3h1Yi5Cd+PpRHnGHB2ZEd7pyXGx1ScT8mwPtC4A@mail.gmail.com>
+Subject: [Thesis Colloquium] Math: July 13, 2012: "Curvature inequalities for
+ operators in the Cowen- Douglas class"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=f46d04462f66f43aa304c45f76f8
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.2,
+	required 6.5, autolearn=not spam, RCVD_IN_DNSWL_LOW -0.70,
+	SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q696AJob022005
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--f46d04462f66f43aa304c45f76f8
+Content-Type: text/plain; charset=ISO-8859-1
+
+                      Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  Ph.D. Thesis Colloquium
+
+
+
+
+Speaker :  Mr. Dinesh Kumar Keshari
+
+
+Title :    Curvature inequalities for operators in the Cowen- Douglas
+              class
+
+Date :       July 13, 2012
+
+Time :       4:00 - 5:00 p.m.
+
+Venue :     Department of Mathematics, Lecture Hall 1
+
+Abstract: The curvature of a contraction T in the Cowen-Douglas
+class is bounded above by the curvature of the backward shift
+operator. However, in general, an operator satisfying the
+curvature inequality need not be contractive. In this talk we
+characterize a slightly smaller class of contractions using a
+stronger form of the curvature inequality.  Along the way, we find
+conditions on the metric of the holomorphic Hermitian vector
+bundle E corresponding to the operator T in the Cowen-Douglas
+class which ensures negative definiteness of the curvature
+function. We obtain a generalization for commuting tuples of
+operators in the Cowen-Douglas class.
+
+            ALL ARE CORDIALLY INVITED.
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--f46d04462f66f43aa304c45f76f8
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote">
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Department of Mathematics<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+</div><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"g=
+mail_quote"><div class=3D"gmail_quote">
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0=A0=A0=A0=A0 P=
+h.D. Thesis Colloquium <br>
+<br>
+<br><br>
+<br>
+Speaker :=A0 Mr. Dinesh Kumar Keshari<br><pre><br></pre>Title :=A0=A0=A0 Cu=
+rvature inequalities for operators in the Cowen- Douglas<br>=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0
+
+class<br><br>
+Date : =A0 =A0 =A0 July 13, <a href=3D"tel:2012" value=3D"+9722012" target=
+=3D"_blank">2012</a><br>
+<br>
+Time : =A0 =A0 =A0 4:00 - 5:00 p.m.<br>
+<br>
+Venue : =A0 =A0 Department of Mathematics, Lecture Hall 1<br>
+<br>Abstract: The curvature of a contraction T in the Cowen-Douglas<br>
+
+class is bounded above by the curvature of the backward shift<br>
+
+operator. However, in general, an operator satisfying the<br>
+
+curvature inequality need not be contractive. In this talk we<br>
+
+characterize a slightly smaller class of contractions using a<br>
+
+stronger form of the curvature inequality. =A0Along the way, we find<br>
+
+conditions on the metric of the holomorphic Hermitian vector<br>
+
+bundle E corresponding to the operator T in the Cowen-Douglas<br>
+
+class which ensures negative definiteness of the curvature<br>
+
+function. We obtain a generalization for commuting tuples of<br>
+
+operators in the Cowen-Douglas class.=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 <br><br=
+>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 ALL ARE CORDIALLY INVITED.<br>
+<br>
+<pre style=3D"font-family:arial,helvetica,sans-serif">Faculty members and s=
+tudents of the Department are requested to attend. </pre><br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<br>
+</div><br><br clear=3D"all"><br><br>
+</div><br><br clear=3D"all"><br>
+</div><br><br><div><br></div><br>
+<br><br></div><br>
+</div><br><br clear=3D"all"><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--f46d04462f66f43aa304c45f76f8--

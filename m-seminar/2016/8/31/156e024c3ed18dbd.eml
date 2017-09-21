@@ -1,0 +1,94 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp273645ieb;
+        Wed, 31 Aug 2016 03:28:40 -0700 (PDT)
+X-Received: by 10.202.102.208 with SMTP id m77mr8067587oik.24.1472639320878;
+        Wed, 31 Aug 2016 03:28:40 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id n62si16740735oig.13.2016.08.31.03.28.37;
+        Wed, 31 Aug 2016 03:28:40 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 339EBAE489F;
+	Wed, 31 Aug 2016 15:58:32 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u7VAW5Uh021529
+	for <m_seminar@math.iisc.ernet.in>; Wed, 31 Aug 2016 16:02:05 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u7VAW5IW021528;
+	Wed, 31 Aug 2016 16:02:05 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.10.1.98 (proxying for unknown)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Wed, 31 Aug 2016 10:32:05 -0000
+Message-ID: <f9d0e006a60f7a8eb2ae3c010bd83916.squirrel@math.iisc.ac.in>
+Date: Wed, 31 Aug 2016 10:32:05 -0000
+Subject: Math Dept Seminar Sept 2 (Benjamin Burton)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 339EBAE489F.AA75B
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-6.401, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1473244115.00964@JEtzaJYU23QCjoljhzjfdQ
+X-Spam-Status: No
+
+Speaker: Prof Benjamin Burton,
+(The University of Queensland, Australia)
+
+Date and Time: September 02, 2016 (Friday), 3:00 pm.
+
+Location: LH-1
+
+Title: Multiobjective optimisation and tropical geometry
+
+
+Abstract:
+Multiobjective optimisation involves optimising several quantities, such
+as time and money,
+simultaneously.  The result is a polyhedral frontier of "best possible"
+solutions, which cannot
+improve one quantity without a trade-off against another.  For linear
+programming, this
+frontier can be generated using Benson's outer approximation algorithm,
+which uses a
+sequence of scalarisations (single-objective optimisations), combined with
+classical
+algorithms from polytope theory.
+
+If we generalise to integer programming, then things become significantly
+more complex.
+The main problem is the loss of convexity - the frontier of best possible
+solutions no longer
+has a polyhedral description.  In this talk we show how to overcome this
+problem using
+tropical geometry, which replaces plus and times with the operations max
+and plus.  The
+optimal frontier can then be described in terms of tropical polyhedra, and
+can be generated
+using an analogous algorithm that combines integer scalarisations with
+tropical polyhedral
+algorithms.  As a corollary, we obtain a new upper bound on the number of
+scalarisations
+required to find all optimal solutions.
+
+This is joint work with Michael Joswig.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

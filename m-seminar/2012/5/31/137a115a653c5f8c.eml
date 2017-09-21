@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.205.47.72 with SMTP id ur8csp334416bkb;
+        Wed, 30 May 2012 21:09:40 -0700 (PDT)
+Received: by 10.68.224.199 with SMTP id re7mr2317966pbc.59.1338437380031;
+        Wed, 30 May 2012 21:09:40 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id pu10si3461837pbb.119.2012.05.30.21.09.38
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 30 May 2012 21:09:40 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q4V49ZoM006039;
+	Thu, 31 May 2012 09:39:35 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q4V49VCn006100
+	for <m_seminar@math.iisc.ernet.in>; Thu, 31 May 2012 09:39:31 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q4V49U9E006097
+	for <m_seminar@math.iisc.ernet.in>; Thu, 31 May 2012 09:39:30 +0530
+Date: Thu, 31 May 2012 09:39:30 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] Math: Today: "Matchings between point processes"
+Message-ID: <Pine.LNX.4.64.1205310938370.5573@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.7,
+	required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		           Department of Mathematics
+ 		     Indian Institute of Science, Bangalore
+
+
+ 			     M.S. THESIS COLLOQUIUM
+
+
+Speaker	: Mr. Indrajit Jana
+
+Title	: Matchings between point processes
+
+Date	: May 31, 2012
+
+Time	: 11:00 a.m. - 12:00 noon
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+We study several kinds of matching problems between two point processes.
+First we consider the set of integers $\mathbb{Z}$. We assign a color red
+or blue with probability 1/2 to each integer. We match each red integer to
+a blue integer using some algorithm and analyze the matched edge length of
+the integer zero. Next we go to $\mathbb{R}^{d}$. We consider matching
+between two different point processes and analyze a typical matched edge
+length $X$. There we see that the results vary significantly in different
+dimensions. In dimensions one and two (d=1,2), even $E[X^{d/2}]$ does not
+exist. On the other hand in dimensions more than two (d>2),
+$E[\exp(cX^{d})]$ exist, where $c$ is a constant depends on $d$ only.
+
+Next we discuss about matching problems in a finite setting, namely in a
+unit square.  Take $n$ red points and $n$ blue points chosen independently
+and uniformly in a unit square. There are $n!$ many possible matchings
+between these red and blue points. We investigate the optimal average
+matched edge length and the minimum of the maximum matched edge lengths,
+where the minimum is over all possible $n!$ matchings. There we see that
+the optimal average matched edge length is like $\sqrt{\frac{\log n}{n}}$
+and the min-max matched edge length is like
+$\frac{(\log n)^{3/4}}{\sqrt{n}}$.
+
+
+ 		    ALL ARE CORDIALLY INVITED.
+
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+  					     Chairman,
+ 					     Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

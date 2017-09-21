@@ -1,0 +1,164 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.135.72 with SMTP id pq8csp61900ieb;
+        Wed, 10 Feb 2016 22:43:34 -0800 (PST)
+X-Received: by 10.107.43.151 with SMTP id r145mr43363818ior.156.1455173014612;
+        Wed, 10 Feb 2016 22:43:34 -0800 (PST)
+Return-Path: <surender@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id l27si10891469iod.171.2016.02.10.22.43.33;
+        Wed, 10 Feb 2016 22:43:34 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of surender@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of surender@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=surender@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id u1B6hVnq024193;
+	Thu, 11 Feb 2016 12:13:31 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u1B6oifI004612
+	for <m_seminar@math.iisc.ernet.in>; Thu, 11 Feb 2016 12:20:44 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u1B6oidl004611;
+	Thu, 11 Feb 2016 12:20:44 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to surender@math.iisc.ernet.in using -f
+Received: from 10.134.1.12
+        (SquirrelMail authenticated user surender)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 11 Feb 2016 12:20:44 +0530
+Message-ID: <aab06a1bdad88b9e03ad27ff671e3963.squirrel@math.iisc.ernet.in>
+Date: Thu, 11 Feb 2016 12:20:44 +0530
+Subject: Reminder : [Colloquium] MATHS : 12th Feb 2016 : "Operator theory on
+ symmetrized bidisc and tetrablock - some explicit constructions"
+From: "Surenderan" <surender@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: surender@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+
+
+
+Dear All,
+
+
+                                                  DEPARTMENT  OF  MATHEMATICS
+                                                              I. I. Sc., 
+BANGALORE  -
+12
+
+----------------------------------------------------------------------------------------------
+
+                            Ph. D.  Thesis  Colloquium
+
+--------------------------------------------------------------------------------------------
+
+Speaker                        :  Mr. Haripada Sau
+                                          Ph. D. Research Scholar
+
+Title                            :   "Operator theory on symmetrized
+bidisc and tetrablock - some
+                                                      explicit constructions"
+
+Day & Date               :      Friday, 12.02.2016
+
+Time                          :     11.00 a.m.
+
+Venue                        :   Lecture Hall I
+                                        Dept  of Mathematics
+
+ABSTRACT: A pair of commuting bounded operators $(S,P)$ acting on a
+Hilbert space, is
+called a $\Gamma$-contraction, if it has the symmetrised bidisc $$\Gamma=\{
+(z_1+z_2,z_1z_2):|z_1| \leq 1,|z_2| \leq 1 \}\subseteq \mathbb{C}^2$$ as a
+spectral set. For
+every $\Gamma$-contraction $(S,P)$, the operator equation
+$$S-S^*P=D_PFD_P$$ has a
+unique solution $F$ with numerical radius, $w(F)$ no greater than one,
+where $D_P$ is the
+positive square root of $(I-P^*P)$. This unique operator is called the
+fundamental operator of
+$(S,P)$. This thesis constructs an explicit normal boundary dilation for a
+$\Gamma$-contraction. A triple of commuting bounded operators $(A,B,P)$
+acting on a
+Hilbert space with the closure of the tetrablock
+$E=\{(a_{11},a_{22},\text{det}A):
+A=\begin{pmatrix} a_{11} & a_{12} \\
+a_{21} & a_{22} \end{pmatrix}\text{ with }\lVert A \rVert
+<1\}\subseteq\mathbb{C}^3
+$$ as a spectral set, is called a tetrablock contraction. Every tetrablock
+contraction
+possesses two fundamental operators and these are the unique solutions of $$
+A-B^*P=D_PF_1D_P, \text{ and }  B-A^*P=D_PF_2D_P. $$ Moreover, $w(F_1)$ and
+$w(F_2)$ are no greater than one. This thesisalso constructs an explicit
+normal boundary
+dilation for a tetrablock contraction. In these constructions, the
+fundamental operators play a
+pivotal role. Both the dilations in the symmetrized bidisc and in the
+tetrablock are proved to
+be minimal. But unlike the one variable case, uniqueness of minimal
+dilations usually does
+not hold good in several variables, e.g., Ando's dilation is not unique.
+However, we show that
+the dilations are unique under a certain natural condition. In view of the
+abundance of
+operators and their complicated structure, a basic problem in operator
+theory is to find nice
+functional models and complete sets of unitary invariants. We develop a
+functional model
+theory for a special class of triples of commuting bounded operators
+associated with the
+tetrablock. We also find a set of complete sort of unitary invariants for
+this special class.
+Along the way, we find a Beurling-Lax-Halmos type of result for a triple
+of multiplication
+operators acting on vector-valuedHardy spaces. In both the model theory
+and unitary
+invariance,fundamental operators play a fundamental role. This thesis
+answers the question
+when two operators $F$ and $G$ with $w(F)$ and $w(G)$ no greater than one,
+are
+admissible as fundamental operators, in other words, when there exists a
+$\Gamma$-contraction $(S,P)$ such that $F$ is the fundamental operator of
+$(S,P)$ and
+$G$ is the fundamental operator of $(S^*,P^*)$. This thesis also answers a
+similar question
+in the tetrablock setting.
+
+                            All   are  Welcome
+
+                                                                                           CHAIRMAN
+
+---------------------------------------------------------------------------
+Lost:
+Lost Key Bunch
+Lost sling bag
+Misplace of Wallet.
+http://www.ece.iisc.ernet.in/~toall/lost.txt
+
+Jobs:
+Transcriptomics/Genomics Post-doctoral position.
+Positions Available on an energy consumption data analytics R&D project.
+http://www.ece.iisc.ernet.in/~toall/jobs.txt
+
+Found:
+Found Rs 400 cash near Gymkhana.
+http://www.ece.iisc.ernet.in/~toall/found.txt
+
+Blood:
+http://www.ece.iisc.ernet.in/~toall/blood.txt
+
+Campus Broadcast Policy:
+------------------------
+http://www.ece.iisc.ernet.in/~toall/index.html
+---------------------------------------------------------------------------
+
+
+-- 
+Regards,
+
+K. Surenderan,
+Department of Mathematics,
+Indian Institute of Science,
+Bangalore.

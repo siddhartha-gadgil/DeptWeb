@@ -1,0 +1,90 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp165847lbb;
+        Mon, 31 Mar 2014 23:22:08 -0700 (PDT)
+X-Received: by 10.68.200.133 with SMTP id js5mr8088224pbc.138.1396333327875;
+        Mon, 31 Mar 2014 23:22:07 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id my16si2007575pab.361.2014.03.31.23.22.05
+        for <multiple recipients>;
+        Mon, 31 Mar 2014 23:22:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s316M17B012472;
+	Tue, 1 Apr 2014 11:52:01 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s316OLHE028940
+	for <m_seminar@math.iisc.ernet.in>; Tue, 1 Apr 2014 11:54:21 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s316OLEO028932;
+	Tue, 1 Apr 2014 11:54:21 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 1 Apr 2014 06:24:21 -0000
+Message-ID: <5fa84776df8098560212b7f4539998c0.squirrel@math.iisc.ernet.in>
+Date: Tue, 1 Apr 2014 06:24:21 -0000
+Subject: [Seminar] Math: April 11th, 2014: A Characterisation of the Fourier
+ transform on the Heisenberg group
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Dr. Lakshmi
+          IISc
+
+Title   : A Characterisation of the Fourier transform on the Heisenberg group
+
+Date    : 11th April, 2014 (Friday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+A recent theorem of S. Alesker, S. Artstein-Avidan and V. Milman
+characterises the Fourier transform on R^n as essentially the only
+transform on the space of tempered distributions which interchanges
+convolutions and pointwise products. Analogously, we study the image
+of the Schwartz space on the Heisenberg group under the Fourier transform
+and obtain a similar characterisation for the Fourier transform on the
+Heisenberg group.
+This is a joint work with Prof. S. Thangavelu.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

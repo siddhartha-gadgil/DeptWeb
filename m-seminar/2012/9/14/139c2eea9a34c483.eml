@@ -1,0 +1,115 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.19.227 with SMTP id i3csp238640oae;
+        Thu, 13 Sep 2012 20:59:45 -0700 (PDT)
+Received: by 10.68.233.97 with SMTP id tv1mr3123331pbc.96.1347595184929;
+        Thu, 13 Sep 2012 20:59:44 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id ku3si931279pbc.223.2012.09.13.20.59.40
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 13 Sep 2012 20:59:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q8E3xaqE032203;
+	Fri, 14 Sep 2012 09:29:36 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q8E3xV3c005279
+	for <m_seminar@math.iisc.ernet.in>; Fri, 14 Sep 2012 09:29:31 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q8E3xUOs005278;
+	Fri, 14 Sep 2012 09:29:30 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 14 Sep 2012 09:29:30 +0530 (IST)
+Message-ID: <39b00e5e9994df6e9881a45d181b521e.squirrel@math.iisc.ernet.in>
+Date: Fri, 14 Sep 2012 09:29:30 +0530 (IST)
+Subject: [Colloquium] MATH : Today : "From Poisson kernels to stationary 
+     measures for random recursions"
+From: "Pooja Singla" <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.299, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, J_CHICKENPOX_71 0.60)
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                COLLOQUIUM
+
+
+
+
+Speaker  : Prof Ewa Damek
+              Wroclaw University
+
+Title    : From Poisson kernels to stationary measures for random recursions
+
+Date     : September 14, 2012 (Friday)
+
+Time     : 4:00 p.m.- 5:00 pm
+
+Venue    : Department of Mathematics, LH-I
+
+
+
+Abstract
+
+ Let S be a group which is a semi-direct product of R^n
+and R^d, R^d acting of R^n in a appropriate way (that will be
+specified during the talk). Given a left-invariant second order
+elliptic operator L on S (under suitable assumptions) there is
+smooth, positive integrable function on R^n called a Poisson
+kernel that reproduces bounded L harmonic functions on S. It turns
+out that P dx is the stationary measure for a random recursion
+X_{n+1}=f_{n+1}(X_n) where f_1, f_2,... are independent equally
+distributed random transformations of R^n, and X_n are defined
+recursively, X_0 being a constant vector. The law of f_1 is
+closely related to the heat kernel for L. P dx is the law of the
+limit of X_n. The situation can be generalized to transformations
+f having the law with no relation to a differential operator
+giving rise to a family of affine stochastic recursions who's
+stationary measures are of interest. Among them are the classical
+ones considered by Kesten, Vervaat, Grincevicius, Goldie and more
+recent ones considered by Alsmeyer - Mentemeier, Guivarc'h - Le
+Page, Guivarc'h - Buraczewski and myself. Asymptotics at infinity
+of stationary measures will be described.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

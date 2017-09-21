@@ -1,0 +1,77 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.148.195 with SMTP id tu3csp972595ieb;
+        Mon, 2 May 2016 08:00:13 -0700 (PDT)
+X-Received: by 10.202.242.2 with SMTP id q2mr13449759oih.137.1462201213910;
+        Mon, 02 May 2016 08:00:13 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.77])
+        by mx.google.com with SMTP id e99si11758287ote.195.2016.05.02.08.00.02;
+        Mon, 02 May 2016 08:00:13 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) client-ip=203.200.35.77;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 7AC80AE267D;
+	Mon,  2 May 2016 20:29:57 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u42F5fqG000532;
+	Mon, 2 May 2016 20:35:41 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u42F5fKK000531;
+	Mon, 2 May 2016 20:35:41 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.13 (proxying for 103.193.159.81)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 2 May 2016 15:05:41 -0000
+Message-ID: <8a79d6083a9a42c18ab3673e410830ab.squirrel@math.iisc.ernet.in>
+Date: Mon, 2 May 2016 15:05:41 -0000
+Subject: Math Dept Seminar May 5 (Pratyusha Chattopadhyay)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Cc: abhishekbanerjee1313@gmail.com
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 7AC80AE267D.A96B8
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.596, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -1.00, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1462805998.78484@yDRWJltLA0CM7EA0nLYrSQ
+X-Spam-Status: No
+Content-Transfer-Encoding: quoted-printable
+
+Date: May 5, 2016
+
+Time: 3:30 pm
+
+Location: LH-1
+
+Speaker: Pratyusha Chattopadhyay (ISI Bengaluru)
+
+
+Title: Relation between orbit spaces of unimodular elements and improved
+stability bound
+
+Abstract: This is a topic in classical algebraic K-Theory. I will recall
+definitions of elementary linear group, elementary symplectic group,
+linear transvection group, and symplectic transvection group. These group=
+s
+have natural action on the set of unimodular elements. I will briefly
+discuss how bijections between orbit spaces of unimodular elements under
+different group actions are established. Finally, I will talk about an
+application of these results, namely improving injective stability bound
+for the K1 group.
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

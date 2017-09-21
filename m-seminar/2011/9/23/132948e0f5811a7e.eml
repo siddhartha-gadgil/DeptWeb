@@ -1,0 +1,75 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.15.76 with SMTP id j12cs314542iba;
+        Thu, 22 Sep 2011 21:32:11 -0700 (PDT)
+Received: by 10.68.22.105 with SMTP id c9mr7650016pbf.88.1316752331048;
+        Thu, 22 Sep 2011 21:32:11 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id q8si11058770pbg.167.2011.09.22.21.32.09
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 22 Sep 2011 21:32:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p8N4X0Fk022703;
+	Fri, 23 Sep 2011 10:03:00 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p8N4XhE8031804
+	for <m_seminar@math.iisc.ernet.in>; Fri, 23 Sep 2011 10:03:43 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p8N4Xhre031801
+	for <m_seminar@math.iisc.ernet.in>; Fri, 23 Sep 2011 10:03:43 +0530
+Date: Fri, 23 Sep 2011 10:03:43 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Representations of Symmetric Groups via the
+ RSK Correspondence"
+Message-ID: <Pine.LNX.4.64.1109231002380.31296@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p8N4X0Fk022703
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+  		     	    Department of Mathematics
+  		     Indian Institute of Science, Bangalore
+
+
+  				   SEMINAR
+
+
+Speaker	: Prof. Amritanshu Prasad
+ 	  IMSc, Chennai
+
+Title	: Representations of Symmetric Groups via the RSK Correspondence
+
+Date	: September 23, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+
+Abstract:
+I will explain how the purely combinatorial Robinson-Schensted-Knuth
+correspondence can be used to give a simple proof of the classification
+of irreducible representations of symmetric groups in the semisimple
+case. It turns out that all the standard results in the representation
+theory of symmetric groups can be recovered using this approach.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					      Chairman,
+  					      Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

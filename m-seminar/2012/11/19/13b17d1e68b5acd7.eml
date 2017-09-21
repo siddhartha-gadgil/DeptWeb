@@ -1,0 +1,230 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.129.226 with SMTP id nz2csp173860lbb;
+        Mon, 19 Nov 2012 00:38:51 -0800 (PST)
+Received: by 10.66.76.98 with SMTP id j2mr33695934paw.65.1353314330506;
+        Mon, 19 Nov 2012 00:38:50 -0800 (PST)
+Return-Path: <pradipbalaji@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id wu8si12931184pbc.123.2012.11.19.00.38.48
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 19 Nov 2012 00:38:50 -0800 (PST)
+Received-SPF: neutral (google.com: 203.200.35.66 is neither permitted nor denied by domain of pradipbalaji@gmail.com) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.66 is neither permitted nor denied by domain of pradipbalaji@gmail.com) smtp.mail=pradipbalaji@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id qAJ7mE2B026067;
+	Mon, 19 Nov 2012 13:18:15 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qAJ7m9aO028634;
+	Mon, 19 Nov 2012 13:18:09 +0530
+Received: from mail-qc0-f177.google.com (mail-qc0-f177.google.com [209.85.216.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id qAJ7e2v9030964;
+	Mon, 19 Nov 2012 13:10:05 +0530
+Received: by mail-qc0-f177.google.com with SMTP id u28so3915329qcs.22
+        for <multiple recipients>; Sun, 18 Nov 2012 23:48:04 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:cc:content-type;
+        bh=vvyiWg5Wmk1gh2Fc3SdVSBLBt0hBiNxtJgjm6B5odCc=;
+        b=jqU8VMulWY3BSb5MRJHvROZTNkcpF0KLtN+FLNHIdmkeQSsGKu3VVdDcz+gtYB/Gzb
+         SITCkWmtXV9+VIwMBTZY/YJDXf601RP9Z2DYU9n9rcksN9oMz+yrMR8Va2SrOPM9tRt6
+         sqtcoTMjjpReCrdFk8gIBR1ZzQFnUGoR6iht0l1xu/BQyiif1ct7HCCa0fe/8nMBNUzt
+         yQAd+PvhJt+2YAVh9lMi21Jrk5czXjfbVazF53GT6slqlykeWMrLyAekJI6IFEHAEjxq
+         sPPJkzVmD4pMr842e4XPpFxfnTnYjJO8UgviQGEzGDasw9J/c+9vMHYgKFUAdTljZIbb
+         5HSQ==
+MIME-Version: 1.0
+Received: by 10.49.72.199 with SMTP id f7mr12382702qev.43.1353311284131; Sun,
+ 18 Nov 2012 23:48:04 -0800 (PST)
+Sender: pradipbalaji@gmail.com
+Received: by 10.229.157.135 with HTTP; Sun, 18 Nov 2012 23:48:04 -0800 (PST)
+In-Reply-To: <0f8cfb75aaa6852d0ed4bf6540cce797.squirrel@math.iisc.ernet.in>
+References: <0f8cfb75aaa6852d0ed4bf6540cce797.squirrel@math.iisc.ernet.in>
+Date: Mon, 19 Nov 2012 13:18:04 +0530
+X-Google-Sender-Auth: Jr18DQtX-ot124XoH9Oms3B9YXU
+Message-ID: <CAGQ=1SQ5g+1QXG-_UA5uy=rVN5pGiNqqMSnmffkTc8p1Tmd_Kg@mail.gmail.com>
+Subject: Re: [Thesis Defence] MATH : 21st Nov 2012 : "Grothendieck inequality"
+From: "Preedip Balaji B." <balaji@isibang.ac.in>
+To: pooja@math.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=047d7b676b3e5c788604ced4565e
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.1,
+	required 6.5, autolearn=not spam, RCVD_IN_DNSWL_LOW -0.70,
+	SUBJECT_MONTH -1.50, _FROM_NON_IISC 0.10), not spam, SpamAssassin (not cached,
+	score=-3.999, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70, SUBJECT_MONTH -1.50,
+	_FROM_NON_IISC 0.10)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: pradipbalaji@gmail.com
+
+
+--047d7b676b3e5c788604ced4565e
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Pooja,
+
+I do not belong to SMU, ISI. Kindly remove my email ID, please.
+
+Thanks.
+
+On 19 November 2012 11:57, Math Seminar IISc <
+mathseminars@math.iisc.ernet.in> wrote:
+
+> Dear all,
+>
+>                          Department of Mathematics
+>                     Indian Institute of Science, Bangalore
+>
+>
+>                          M.S. THESIS DEFENCE
+>
+>
+> Speaker  :   Mr. Samya Kumar Ray
+>
+> Title    :   GROTHENDIECK INEQUALITY
+>
+> Date     :   November 21, 2012 (Wednesday)
+>
+> Time     :   4:10 p.m.- 5:10 p.m.
+>
+> Venue    :   Department of Mathematics, LH-I
+>
+> Abstract:
+> Grothendieck published an extraordinary paper entitled =E2=80=9DResume de=
+ la
+> theorie metrique des produits tensoriels topologiques=E2=80=9D in 1953. T=
+he main
+> result of this paper is the inequality which is commonly known as
+> Grothendieck Inequality. Following Kirivine, in this article, we give the
+> proof of Grothendieck Inequality. We reformulate it in different forms. We
+> also investigate the famous Grothendieck constant KG. The Grothendieck
+> constant was achieved by taking supremum over a special class of matrices.
+> But our attempt will be to investigate it, considering a smaller class of
+> matrices, namely only the positive definite matrices in this class.
+>
+>             ALL ARE CORDIALLY INVITED.
+>
+> Faculty members and students of the Department are requested to attend.
+>
+>
+>
+>                                             Chairman,
+>                                             Department of Mathematics
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> --
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+>
+Regards,
+Preedip Balaji
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--047d7b676b3e5c788604ced4565e
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Pooja,<div><br></div><div>I do not belong to=C2=A0<span style=3D"color=
+:rgb(34,34,34);font-family:arial,sans-serif;font-size:13px;background-color=
+:rgb(255,255,255)">SMU, ISI. Kindly remove my email ID, please.=C2=A0</span=
+></div><div>
+<font color=3D"#222222" face=3D"arial, sans-serif"><br></font></div><div><f=
+ont color=3D"#222222" face=3D"arial, sans-serif">Thanks.=C2=A0<br></font><b=
+r><div class=3D"gmail_quote">On 19 November 2012 11:57, Math Seminar IISc <=
+span dir=3D"ltr">&lt;<a href=3D"mailto:mathseminars@math.iisc.ernet.in" tar=
+get=3D"_blank">mathseminars@math.iisc.ernet.in</a>&gt;</span> wrote:<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">Dear all,<br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0Department of Mathematics<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 India=
+n Institute of Science, Bangalore<br>
+<br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0M.S. THESIS DEFENCE<br>
+<br>
+<br>
+Speaker =C2=A0: =C2=A0 Mr. Samya Kumar Ray<br>
+<br>
+Title =C2=A0 =C2=A0: =C2=A0 GROTHENDIECK INEQUALITY<br>
+<br>
+Date =C2=A0 =C2=A0 : =C2=A0 November 21, 2012 (Wednesday)<br>
+<br>
+Time =C2=A0 =C2=A0 : =C2=A0 4:10 p.m.- 5:10 p.m.<br>
+<br>
+Venue =C2=A0 =C2=A0: =C2=A0 Department of Mathematics, LH-I<br>
+<br>
+Abstract:<br>
+Grothendieck published an extraordinary paper entitled =E2=80=9DResume de l=
+a<br>
+theorie metrique des produits tensoriels topologiques=E2=80=9D in 1953. The=
+ main<br>
+result of this paper is the inequality which is commonly known as<br>
+Grothendieck Inequality. Following Kirivine, in this article, we give the<b=
+r>
+proof of Grothendieck Inequality. We reformulate it in different forms. We<=
+br>
+also investigate the famous Grothendieck constant KG. The Grothendieck<br>
+constant was achieved by taking supremum over a special class of matrices.<=
+br>
+But our attempt will be to investigate it, considering a smaller class of<b=
+r>
+matrices, namely only the positive definite matrices in this class.<br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 ALL ARE CORDIALLY INVITED.<br>
+<br>
+Faculty members and students of the Department are requested to attend.<br>
+<br>
+<br>
+<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 Chairman,<br>
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 Department of Mathematics<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+--<br>
+This message has been scanned for viruses and<br>
+dangerous content by MailScanner, and is<br>
+believed to be clean.<br>
+</font></span></blockquote></div>Regards,</div><div>Preedip Balaji</div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--047d7b676b3e5c788604ced4565e--

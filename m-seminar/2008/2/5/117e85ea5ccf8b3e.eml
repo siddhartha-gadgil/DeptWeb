@@ -1,0 +1,116 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.19 with SMTP id q19cs192703buc;
+        Mon, 4 Feb 2008 22:53:16 -0800 (PST)
+Received: by 10.141.20.7 with SMTP id x7mr5395966rvi.61.1202194395567;
+        Mon, 04 Feb 2008 22:53:15 -0800 (PST)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id b39si3373572rvf.8.2008.02.04.22.52.58;
+        Mon, 04 Feb 2008 22:53:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m156xGGo007718;
+	Tue, 5 Feb 2008 12:29:16 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m15C5H0O018428
+	for <m_seminar@math.iisc.ernet.in>; Tue, 5 Feb 2008 12:05:17 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m15C5HRn018427;
+	Tue, 5 Feb 2008 12:05:17 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 5 Feb 2008 12:05:17 -0000 (UTC)
+Message-ID: <1854.10.134.13.39.1202213117.squirrel@math.iisc.ernet.in>
+Date: Tue, 5 Feb 2008 12:05:17 -0000 (UTC)
+Subject: IMI : Seminar : "Edge detection and local approximation using  
+     spectral data" by Prof. H. N. Mhaskar :11th Feb 2008.
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+
+
+Dear All,
+
+
+                        IISc Mathematics Initiative
+                         Department of Mathematics
+                        Indian Institute of Science
+                                Bangalore
+
+      ----------------------------------------------------------------
+
+                                SEMINAR
+
+
+          Edge detection and local approximation using spectral data
+
+
+                                  by
+
+                          Prof. H. N. Mhaskar
+            Department of Mathematics, California State University
+                          Los Angeles, U.S.A
+
+               on Monday, February 11, 2008 at 04:00 pm
+               in the Lecture Hall - 1 , IISc, Bangalore
+
+
+                               Abstract:
+
+
+We discuss the question of identifying local features of a function, such
+as the discontinuities in its derivatives, membership in local smoothness
+classes, etc., given global information about the function in the form of
+its Fourier coefficients with respect to an orthonormal system. We present
+a unifying theme for some of the recent work on trigonometric and
+algebraic polynomial frames on the circle, the unit interval, the
+Euclidean sphere, and a smooth manifold in general. Applications include
+direction finding in phased array antennas, estimation of the velocity of
+the gulf stream, and semi-supervised learning of hand written digits.
+
+
+               ******************************************
+                             ALL ARE INVITED
+                          Coffee/Tea: 03:45 pm
+
+	                                                G.Rangarajan
+
+
+Convener
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

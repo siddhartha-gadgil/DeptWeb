@@ -1,0 +1,85 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.219.10 with SMTP id hs10cs29998ibb;
+        Tue, 20 Dec 2011 09:30:12 -0800 (PST)
+Received: by 10.68.73.1 with SMTP id h1mr4510629pbv.106.1324402210735;
+        Tue, 20 Dec 2011 09:30:10 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id o4si2645008pbg.259.2011.12.20.09.30.08
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 20 Dec 2011 09:30:10 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id pBKHU4Qj005627;
+	Tue, 20 Dec 2011 23:00:04 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id pBKHbq2s020593
+	for <m_seminar@math.iisc.ernet.in>; Tue, 20 Dec 2011 23:07:52 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id pBKHbqYn020590
+	for <m_seminar@math.iisc.ernet.in>; Tue, 20 Dec 2011 23:07:52 +0530
+Date: Tue, 20 Dec 2011 23:07:52 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 23rd Dec 2011: "The $Cos^\lambda$ transform as
+ intertwining operator between generalized principal series representations
+ of SL(n+1,K)
+Message-ID: <Pine.LNX.4.64.1112202306570.20286@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: pBKHU4Qj005627
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.759, required 6.5, BAYES_00 -1.90, RP_8BIT 0.14)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		     	  Department of Mathematics
+ 		     Indian Institute of Science, Bangalore
+
+
+  				 SEMINAR
+
+
+Speaker	: Prof.  Angela Pasquale
+ 	  Universite Paul Verlaine - Metz
+
+
+Title	: The $Cos^\lambda$ transform as intertwining operator between
+ 	   generalized principal series representations of SL(n+1,K)
+
+Dates	: December 23, 2011
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+The $Cos^\lambda$ transform on real Grassmann manifolds was first
+studied in convex geometry. The definition of this integral transform
+has been later extended to Grassmann manifolds over $\mathbb K$,
+where $\mathbb K$ denotes the reals, the complex numbers or the
+quaternions.
+
+In this talk we show that the $Cos^\lambda$ transform can be obtained
+by means of standard intertwining operators between certain
+generalized principal series representations of $SL(n+1,\mathbb K)$.
+Representation theoretical methods can therefore be employed in its
+study. Some of the results are outlined.
+
+This is joint work with Gestur Olafsson.
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					       Chairman,
+  					       Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

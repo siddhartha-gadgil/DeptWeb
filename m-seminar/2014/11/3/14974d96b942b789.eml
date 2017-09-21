@@ -1,0 +1,97 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.135.209 with SMTP id r78csp68068ioi;
+        Mon, 3 Nov 2014 00:50:47 -0800 (PST)
+X-Received: by 10.66.224.202 with SMTP id re10mr40799178pac.6.1415004646513;
+        Mon, 03 Nov 2014 00:50:46 -0800 (PST)
+Return-Path: <prathamesh@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id kp4si14797950pdb.195.2014.11.03.00.50.44
+        for <multiple recipients>;
+        Mon, 03 Nov 2014 00:50:46 -0800 (PST)
+Received-SPF: none (google.com: prathamesh@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: prathamesh@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=prathamesh@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id sA38oTng013357;
+	Mon, 3 Nov 2014 14:20:29 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sA390mSk004208
+	for <m_seminar@math.iisc.ernet.in>; Mon, 3 Nov 2014 14:30:48 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sA390ms8004199;
+	Mon, 3 Nov 2014 14:30:48 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to prathamesh@localhost using -f
+Received: from 10.134.12.156
+        (SquirrelMail authenticated user prathamesh)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 3 Nov 2014 09:00:48 -0000
+Message-ID: <a57de8ea4641d514c4cb3f01503a93d5.squirrel@math.iisc.ernet.in>
+Date: Mon, 3 Nov 2014 09:00:48 -0000
+Subject: [Lecture] Braid Groups
+From: prathamesh@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00)
+X-IISc-MailScanner-From: prathamesh@math.iisc.ernet.in
+X-Spam-Status: No
+
+                         Department of Mathematics
+                     Indian Institute of Science, Bangalore
+
+
+                  A series of lectures
+                         on
+                     Braid Groups
+
+
+Speaker : T. V. H. Prathamesh
+
+Title   : Braid Groups
+
+Schedule    : Week 1
+              11 AM to 12 PM, Wednesday and Friday (5th and 7th November
+2014)
+            Week 2 onwards
+             11 AM to 12 PM, Tuesday and Thursday
+
+Venue   : Week 1
+          Lecture Hall III, Department of Mathematics
+          Week 2 onwards
+          Lecture Hall I, Department of Mathematics
+
+Duration : Four weeks
+
+Abstract:
+ I will be giving a series of 8 talks on Braid Groups. Braids groups are a
+family of groups that have an intuitive geometric representation in terms
+of permutations of strands. They have a wide range of applications within
+mathematics especially in Knot Theory, Cryptography and Quantum
+Computing.
+ The broad list of topics that would be covered during the course includes
+braid groups and geometric braids, isomorphism between a braid group and a
+ mapping class group of a disc with punctures, braids and knots, Markov's
+theorem and its proof, braids and knot invariants, Dehornoy order on
+braids.
+ Prerequisite for the course includes basic groups theory and basic
+algebraic topology.
+
+
+Everyone is invited
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

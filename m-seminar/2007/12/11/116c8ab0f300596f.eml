@@ -1,0 +1,127 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.20 with SMTP id s20cs434324buc;
+        Tue, 11 Dec 2007 02:06:06 -0800 (PST)
+Received: by 10.115.89.1 with SMTP id r1mr743223wal.1197367564063;
+        Tue, 11 Dec 2007 02:06:04 -0800 (PST)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id j7si69900wah.2007.12.11.02.03.00;
+        Tue, 11 Dec 2007 02:06:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id lBB9v4iq027462;
+	Tue, 11 Dec 2007 15:27:04 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id lBBFIgkT023986
+	for <m_seminar@math.iisc.ernet.in>; Tue, 11 Dec 2007 15:18:42 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id lBBFIgPk023985;
+	Tue, 11 Dec 2007 15:18:42 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 11 Dec 2007 15:18:42 -0000 (UTC)
+Message-ID: <4942.10.134.13.39.1197386322.squirrel@math.iisc.ernet.in>
+Date: Tue, 11 Dec 2007 15:18:42 -0000 (UTC)
+Subject: IMI: Spiking Neurons to Behavior; Compact Course;
+       Prof. Philip Holmes; Dec 17 to 20 at 4:00 pm
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+
+
+                        IISC MATHEMATICS INITIAITVE
+                        DEPARTMENT OF MATHEMATICS
+                       INDIAN INSITUTE OF SCIENCE
+                              BANGALORE
+                      -----------------------------
+
+                              announces
+
+                           compact course on
+
+                     SPIKING NEURONS TO BEHAVIOR:
+Dynamical Systems, the neuromechanics of animal locomotion and models of
+decision making
+
+                                by
+
+                           Prof. Philip Holmes
+Program in Applied and Computational Mathematics and Department of 
+Mechanical and Aerospace Engineering, Princeton University
+
+                          4.00 pm – 5.15 pm
+
+        on all days from Monday to Thursday during the period from
+                       December 17 - 20, 2007
+                   (starting on December 17, 2007)
+
+                                at
+
+                 L H – 3, Department of Mathematics
+                 Indian Institute of Science, Bangalore
+
+                             Abstract
+                           ------------
+I will describe how ideas and methods from the theories of deterministic
+and stochastic dynamical systems can be used to model and analyze the
+behaviors of running and thinking animals (including humans). I will show
+that simple energy-conserving mechanical models possess stable gaits
+similar to those seen in rapid running from insects to humans, and those
+realistic models of neural pattern generators and muscles can be added to
+such models, allowing the study of neural feedback. I will also show that
+one dimensional drift-diffusion processes can describe the accumulation of
+evidence in cortical areas during decision making. This permits explicit
+analyses of optimal decision strategies, to which human and animal
+behaviors can be compared. Throughout, I will emphasise how simple models
+can help reveal the dynamics of complex phenomena, and even provide
+partial explanations of them.
+
+Background can be found in two extensive review articles:
+
+P. Holmes, R.J. Full, D. Koditschek and J. Guckenheimer. The dynamics of
+legged locomotion: Models,  analyses, and challenges. SIAM Review 48(2):
+207-304, 2006.}
+R. Bogacz, E. Shea-Brown, J. Moehlis, P. Holmes and J.D. Cohen. The
+physics of optimal decision making: A formal analysis of models of
+performance in two-alternative forced choice tasks. Psychological.
+Reveview 113(4): 700-765, 2006.
+
+                  ----------------------------------
+                           ALL ARE INVITED
+                          Coffee/Tea: 3.45pm
+
+                                                The Chairman
+                                              Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

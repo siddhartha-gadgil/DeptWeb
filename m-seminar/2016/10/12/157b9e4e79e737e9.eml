@@ -1,0 +1,86 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.1 with SMTP id vs1csp586647ieb;
+        Wed, 12 Oct 2016 10:16:09 -0700 (PDT)
+X-Received: by 10.66.49.197 with SMTP id w5mr2228040pan.73.1476292569325;
+        Wed, 12 Oct 2016 10:16:09 -0700 (PDT)
+Return-Path: <subhojoy@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id xn2si8543241pab.68.2016.10.12.10.16.07;
+        Wed, 12 Oct 2016 10:16:08 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=subhojoy@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id CFE09AE1E07;
+	Wed, 12 Oct 2016 22:48:43 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u9CHIpZ0004738
+	for <m_seminar@math.iisc.ernet.in>; Wed, 12 Oct 2016 22:48:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u9CHIp6i004737;
+	Wed, 12 Oct 2016 22:48:51 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to subhojoy@localhost using -f
+Received: from 10.10.1.98 (proxying for 117.192.98.179)
+        (SquirrelMail authenticated user subhojoy)
+        by math.iisc.ac.in with HTTP;
+        Wed, 12 Oct 2016 22:48:51 +0530
+Message-ID: <c7ebca428ce86e9a35b1e13f33e4f9db.squirrel@math.iisc.ac.in>
+Date: Wed, 12 Oct 2016 22:48:51 +0530
+Subject: Fwd: SAMOSe 14/10--Manjunath Krishnapur on Probability
+From: subhojoy@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: CFE09AE1E07.A867C
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-5.7,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FWD_MSG -1.00, MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: subhojoy@math.iisc.ernet.in
+MailScanner-NULL-Check: 1476897524.07867@Tr0Oq7EUFJCpmdiKmVYh8w
+X-Spam-Status: No
+
+
+---------- Forwarded message ----------
+From:  <farris@ncbs.res.in>
+Date: Wed, Oct 12, 2016 at 6:48 PM
+Subject: [Academic] SAMOSe 14/10--Manjunath Krishnapur on Probability
+To: academic@lists.ncbs.res.in
+
+
+Dear all,
+
+This week in the Simons Assorted Math Open Seminar there will be a talk at
+4 in the Simons Center ground floor by Manjunath Krishnapur, Associate
+Professor of Mathematics, IISc. As always, tea and snacks before.
+
+Speaker: Manjunath Krishnapur, IISc math
+
+Title: Some themes in basic probability
+
+Abstract: We believe that some insights of probability theory are of
+general interest. Examples are the principle of large deviations, uses of
+martingales, concentration of measure, Markovian dependence, etc. An
+attempt will be made to explain what some of these concepts mean. We
+attempt to keep the mathematics as simple as possible. Warning: There will
+not be much new for people who have studied probability at the level of a
+graduate course.
+
+
+_______________________________________________
+Academic mailing list
+Academic@lists.ncbs.res.in
+http://lists.ncbs.res.in/mailman/listinfo/academic
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

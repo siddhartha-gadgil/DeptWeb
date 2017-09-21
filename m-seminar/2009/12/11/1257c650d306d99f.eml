@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.200.5 with SMTP id x5cs61320waf;
+        Thu, 10 Dec 2009 22:20:16 -0800 (PST)
+Received: by 10.115.99.11 with SMTP id b11mr601361wam.17.1260512415538;
+        Thu, 10 Dec 2009 22:20:15 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id 32si3831866pzk.76.2009.12.10.22.20.13;
+        Thu, 10 Dec 2009 22:20:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id nBB6R75u015254;
+	Fri, 11 Dec 2009 11:57:07 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id nBB6Zw7o029921;
+	Fri, 11 Dec 2009 12:05:58 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id nBB6ZwUO029920;
+	Fri, 11 Dec 2009 12:05:58 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Fri, 11 Dec 2009 12:05:58 +0530 (IST)
+Message-ID: <75258ee368afaa54ae2dbe5b8668bdac.squirrel@www.math.iisc.ernet.in>
+Date: Fri, 11 Dec 2009 12:05:58 +0530 (IST)
+Subject: Maths : Reminder : Today : Seminar : "Hyperbolicity of cycle 
+     spaces and Automorphism           groups of flag domains"]]
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+    Please note the change of time and venue.
+
+                         DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. Alan Huckleberry,
+                           Ruhr University, Bochum, Germany
+
+    Title                : Hyperbolicity of cycle spaces and Automorphism
+                           groups of flag domains
+
+    Day & Date           : Friday, December 11, 2009.
+
+    Time                 : 2:30 p.m.
+
+    Venue                :  Lecture  Hall -  II
+                            Dept. of  Mathematics
+
+
+Abstract:
+       The appropriate context for algebraic-geometric realizations of
+holomorphic representations of a complex semisimple group is that
+of a compact homogeneous projective flag manifold Z = G/Q. One
+topic of more current interest is the study of the possibility of
+realizing (infinite-dimensional) unitary representations of a real
+form G0 of G on function- and/or cohomology-spaces of open
+G_0-orbits D in Z (flag domains) and their cycle spaces. After an
+introduction for nonspecialists, we will indicate a proof by
+Schubert incidence geometry of the Kobayashi hyperbolicity of the
+relevant cycle spaces. This will then be applied to give an exact
+description of the group Aut_O(D) of holomorphic automorphisms.
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

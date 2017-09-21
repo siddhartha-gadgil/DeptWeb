@@ -1,0 +1,246 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.159.233 with SMTP id xf9csp59657lbb;
+        Wed, 11 Sep 2013 00:41:00 -0700 (PDT)
+X-Received: by 10.68.164.131 with SMTP id yq3mr199176pbb.55.1378885259957;
+        Wed, 11 Sep 2013 00:40:59 -0700 (PDT)
+Return-Path: <hcs19712000@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id jx3si1278596pbc.204.1969.12.31.16.00.00
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 11 Sep 2013 00:40:59 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning hcs19712000@gmail.com does not designate 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning hcs19712000@gmail.com does not designate 203.200.35.66 as permitted sender) smtp.mail=hcs19712000@gmail.com;
+       dkim=neutral (bad format) header.i=@gmail.com;
+       dmarc=fail (p=NONE dis=NONE) d=gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r8B7ed0b019449;
+	Wed, 11 Sep 2013 13:10:39 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r8B7eeIG017710
+	for <m_seminar@math.iisc.ernet.in>; Wed, 11 Sep 2013 13:10:40 +0530
+Received: from mail-wg0-f49.google.com (mail-wg0-f49.google.com [74.125.82.49])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r8B7MWXB017954
+	for <m_seminar@math.iisc.ernet.in>; Wed, 11 Sep 2013 12:52:34 +0530
+Received: by mail-wg0-f49.google.com with SMTP id l18so7396420wgh.28
+        for <m_seminar@math.iisc.ernet.in>; Wed, 11 Sep 2013 00:40:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=GfggdhNmLkssWPd2zvlwpqpCz8T+UVmCzvrDt8s3S8o=;
+        b=yYX0PGSKM06uZLKJNOKqh6urPB1RxlPntIlwixT7KKLMVSqaz36doaiFcffSOA6CeU
+         U31iJcduIhHtAC0boPa8uARGaLy38Jyl36ii5UdOhx9zgF1P5dzhwCqi60gDrtqWAa29
+         tq604+2G84ly8S/7Oqv/IuM8QzCx4cES55IBIPtviuw06KOioNoj4X85rYZj3DOYVx9D
+         P8wuC43UFV7GqabQqghcqc+7b2JrixJfvVQgpDS2NJxl4h3wlJD6JYhjYxXN228izhxg
+         UoNAv4M5zgldHmdhOkv4jGbo5fbc0JegS0EJhQsoPqM3sTjSFP0C7fZLE0HlhqY/JzVg
+         TMyA==
+MIME-Version: 1.0
+X-Received: by 10.194.240.101 with SMTP id vz5mr131520wjc.69.1378885221165;
+ Wed, 11 Sep 2013 00:40:21 -0700 (PDT)
+Received: by 10.180.160.240 with HTTP; Wed, 11 Sep 2013 00:40:21 -0700 (PDT)
+Date: Wed, 11 Sep 2013 13:10:21 +0530
+Message-ID: <CAOPG_W1vKrE4Ew70in9uQ8mH8BaxSkda25P_gT=mmwwiiRGpYg@mail.gmail.com>
+Subject: Reminder :Today : "Introduction to the mean curvature flow"
+From: Harish Seshadri <hcs19712000@gmail.com>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=001a11c28a40cb2fe104e616bb1c
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=2.002, required 6.5, BAYES_20 1.50, FREEMAIL_FROM 0.00,
+	J_CHICKENPOX_55 0.60, MR_NOT_ATTRIBUTED_IP 0.20,
+	RCVD_IN_DNSWL_LOW -0.70, RCVD_IN_SORBS 0.30, URIBL_BLOCKED 0.00,
+	_FROM_NON_IISC 0.10), not spam, SpamAssassin (not cached,
+	score=-0.487, required 6.5, BAYES_00 -1.90,
+	DKIM_ADSP_CUSTOM_MED 0.00, DKIM_SIGNED 0.10, FREEMAIL_FROM 1.00,
+	HTML_MESSAGE 0.00, NML_ADSP_CUSTOM_MED 0.90, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01, URIBL_BLOCKED 0.00, _FROM_NON_IISC 0.10)
+X-IISc-MailScanner-SpamScore: ss
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r8B7ed0b019449
+X-IISc-MailScanner-From: hcs19712000@gmail.com
+
+
+--001a11c28a40cb2fe104e616bb1c
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+
+                     DEPARTMENT OF MATHEMATICS
+                           IISc., BANGALORE - 12
+
+
+    Speaker                     :  Dr. Franck Djiideme
+                                          University of Benin
+
+   Title                           :   " Introduction  to  the  mean
+ curvature  flow "
+
+   Date                          :  11.09.2013
+
+   Day                           :  Wednesday
+
+   Time                         : 3.30 p.m.
+
+   Venue                      :  Lecture Hall   III
+                                      Department of Mathematics
+
+   Abstract :   The mean curvature flow  is  a  process  under which a
+submanifold is
+deformed in its mean curvature vector's direction.  This process received
+more attention
+since it is an efficient  way  to  construct  submanifold which minimizes
+ the volume  :  it
+is  the  negative gradient flow of volume  functional.   In  this firs
+talk.    I  will discuss
+about  basic tools  in  the  study  of mean  curvature and describe  some
+ examples .
+
+
+                        All    are  Welcome
+
+
+            CHAIRMAN
+------------------------------**------------------------------**
+---------------
+Lost:
+Lost Bike keys (Ghost Rider keychain)
+Lost Cash Bunch (5x600)
+Lost Single Key (Godrej Key)
+Lost Key bunch (near Ashwini hostel)
+http://www.ece.iisc.ernet.in/~**toall/lost.txt<http://www.ece.iisc.ernet.in/~toall/lost.txt>
+
+Jobs:
+SID : Project Assistant post at SATF, SID
+MATHS : Research Asscoiate position in Mathematics
+SERC: position for Information Security engineer
+http://www.ece.iisc.ernet.in/~**toall/jobs.txt<http://www.ece.iisc.ernet.in/~toall/jobs.txt>
+
+Found:
+Found Key Bunch Found(green bird)
+Found Key Bunch Found
+http://www.ece.iisc.ernet.in/~**toall/found.txt<http://www.ece.iisc.ernet.in/~toall/found.txt>
+
+Blood:
+------
+http://www.ece.iisc.ernet.in/~**toall/blood.txt<http://www.ece.iisc.ernet.in/~toall/blood.txt>
+
+Campus Broadcast Policy:
+------------------------
+http://www.ece.iisc.ernet.in/~**toall/index.html<http://www.ece.iisc.ernet.in/~toall/index.html>
+------------------------------**------------------------------**
+---------------
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--001a11c28a40cb2fe104e616bb1c
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><div dir=3D"ltr"><div c=
+lass=3D"gmail_quote"><br>
+Dear All,<br>
+<br>=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0DEPARTMENT OF MATHEMATICS<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0IISc., BANGALORE - 1=
+2<br>
+<br>
+<br>
+=A0 =A0 Speaker =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 : =A0Dr. Franck Dji=
+ideme<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 University of Benin<br>
+<br>
+=A0 =A0Title =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 : =A0 &quo=
+t; Introduction =A0to =A0the =A0mean =A0curvature =A0flow &quot;<br>
+<br>
+=A0 =A0Date =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0: =A011.09.2=
+013<br>
+<br>
+=A0 =A0Day =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 : =A0Wednesd=
+ay<br>
+<br>
+=A0 =A0Time =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 : 3.30 p.m.<br>
+<br>
+=A0 =A0Venue =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0: =A0Lecture Hall =
+=A0 III<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ Department of Mathematics<br>
+<br>
+=A0 =A0Abstract : =A0 The mean curvature flow =A0is =A0a =A0process =A0unde=
+r which a submanifold is<br>
+deformed in its mean curvature vector&#39;s direction. =A0This process rece=
+ived more attention<br>
+since it is an efficient =A0way =A0to =A0construct =A0submanifold which min=
+imizes =A0the volume =A0: =A0it<br>
+is =A0the =A0negative gradient flow of volume =A0functional. =A0 In =A0this=
+ firs talk. =A0 =A0I =A0will discuss<br>
+about =A0basic tools =A0in =A0the =A0study =A0of mean =A0curvature and desc=
+ribe =A0some =A0examples .<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 All =A0 =A0are =A0Welcome<b=
+r>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 CHAIRMAN<br>
+------------------------------<u></u>------------------------------<u></u>-=
+--------------<br>
+Lost:<br>
+Lost Bike keys (Ghost Rider keychain)<br>
+Lost Cash Bunch (5x600)<br>
+Lost Single Key (Godrej Key)<br>
+Lost Key bunch (near Ashwini hostel)<br>
+<a href=3D"http://www.ece.iisc.ernet.in/~toall/lost.txt" target=3D"_blank">=
+</u>http://www.ece.iisc.ernet.in/~<u>toall/lost.txt</a><br>
+<br>
+Jobs:<br>
+SID : Project Assistant post at SATF, SID<br>
+MATHS : Research Asscoiate position in Mathematics<br>
+SERC: position for Information Security engineer<br>
+<a href=3D"http://www.ece.iisc.ernet.in/~toall/jobs.txt" target=3D"_blank">=
+</u>http://www.ece.iisc.ernet.in/~<u>toall/jobs.txt</a><br>
+<br>
+Found:<br>
+Found Key Bunch Found(green bird)<br>
+Found Key Bunch Found<br>
+<a href=3D"http://www.ece.iisc.ernet.in/~toall/found.txt" target=3D"_blank"=
+></u>http://www.ece.iisc.ernet.in/~<u>toall/found.txt</a><br>
+<br>
+Blood:<br>
+------<br>
+<a href=3D"http://www.ece.iisc.ernet.in/~toall/blood.txt" target=3D"_blank"=
+></u>http://www.ece.iisc.ernet.in/~<u>toall/blood.txt</a><br>
+<br>
+Campus Broadcast Policy:<br>
+------------------------<br>
+<a href=3D"http://www.ece.iisc.ernet.in/~toall/index.html" target=3D"_blank=
+"></u>http://www.ece.iisc.ernet.in/~<u>toall/index.html</a><br>
+------------------------------<u></u>------------------------------<u></u>-=
+--------------<span class=3D"HOEnZb"><font color=3D"#888888"><span><font co=
+lor=3D"#888888"><br>
+<br>
+-- <br>
+This message has been scanned for viruses and<br>
+dangerous content by MailScanner, and is<br>
+believed to be clean.<br>
+<br>
+</font></span></font></span></div><br></div>
+</div><br></div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--001a11c28a40cb2fe104e616bb1c--

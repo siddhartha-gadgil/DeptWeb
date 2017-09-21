@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.146.226 with SMTP id tf2csp12813lbb;
+        Thu, 6 Mar 2014 22:45:28 -0800 (PST)
+X-Received: by 10.69.26.103 with SMTP id ix7mr19723644pbd.41.1394174727466;
+        Thu, 06 Mar 2014 22:45:27 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id yn4si7228658pab.197.2014.03.06.22.45.26
+        for <multiple recipients>;
+        Thu, 06 Mar 2014 22:45:27 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s276jKxG030885;
+	Fri, 7 Mar 2014 12:15:20 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s276hbP6016404
+	for <m_seminar@math.iisc.ernet.in>; Fri, 7 Mar 2014 12:13:37 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s276hamI016397;
+	Fri, 7 Mar 2014 12:13:37 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 7 Mar 2014 06:43:36 -0000
+Message-ID: <53f53473ff598ce3adb38fa7d45370d7.squirrel@math.iisc.ernet.in>
+Date: Fri, 7 Mar 2014 06:43:36 -0000
+Subject: [Colloquium] Math: March 21st, 2014: On the global character of the
+ solutions of some nonlinear difference equations 
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s276jKxG030885
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                 COLLOQUIUM
+
+
+
+Speaker : Esha Chatterjee Ghosh
+
+
+Title   : On the global character of the solutions of some nonlinear
+difference equations
+
+Date    : 21st March, 2014 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract:
+Non linear difference equations of order more than one is a relatively new
+and dynamic area of research in applied mathematics. In particular, the
+theory of Rational difference equations emerged in the last two decades
+and is an ongoing challenging field of study. In this talk we will present
+a brief introduction to nonlinear difference equations with some
+applications to various fields. Some techniques used in the qualitative
+analysis of the global character of solutions will be outlined. We will
+also discuss the results of a recent paper in which the speaker has
+addressed and generalized, an open problem posed by E. Camouzis and G.
+Ladas.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

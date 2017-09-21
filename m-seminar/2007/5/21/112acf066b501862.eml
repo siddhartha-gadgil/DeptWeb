@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.135.17 with SMTP id i17cs468289wad;
+        Sun, 20 May 2007 21:41:15 -0700 (PDT)
+Received: by 10.35.66.1 with SMTP id t1mr8036984pyk.1179722475646;
+        Sun, 20 May 2007 21:41:15 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [144.16.74.129])
+        by mx.google.com with ESMTP id x72si11480803pyg.2007.05.20.21.41.08;
+        Sun, 20 May 2007 21:41:15 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of gadgil@math.iisc.ernet.in designates 144.16.74.129 as permitted sender)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id l4LA89H2017827;
+	Mon, 21 May 2007 10:08:09 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id l4LA88s2017820;
+	Mon, 21 May 2007 10:08:08 GMT
+Date: Mon, 21 May 2007 10:08:08 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Message-ID: <Pine.LNX.4.61.0705211007030.17467@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+Subject: Reminder: Maths : Today : Seminar - "Adaptive Numerical Solution of Intracellular Calcium Dynamics"
+X-Spam-Status: No
+
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              :  Prof. Gerald Warnecke,
+ 				Magdeburg,  Germany
+
+
+      Title                : Adaptive Numerical Solution of Intracellular
+ 				Calcium Dynamics
+
+      Day & Date           :  Monday, May 21.
+
+      Time                 :  4.00  p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	Calcium waves are an important means of intrcellular signaling. 
+Intracellular calcium release at the endoplasmatic reticulum is a prime example 
+of the role of stochastic effects in cellular systems. Realistic models consist 
+of deterministic systems of reaction-diffusion equations in three dimensional 
+space coupled to stochastic transitions of calcium channels at the domain 
+boundary. The resulting dynamics has multiple time and space scales, which 
+complicates computer simulations. In this talk we focus on the PDE aspect of 
+the numerical computations.  We use adaptive linear finite elements to 
+efficiently resolve the extreme spatial gradients of concentration variables 
+close to a channel. Further, parallel computing is needed for realistic 
+simulations. We describe the algorithmic approach and we demonstrate its 
+efficiency by computational examples. Our single channel model matches 
+experimental data by Mak et al. (PNAS 95, 1998) and results in intriguing 
+dynamics if calcium is used as a carrier. Random openings of the channel 
+accumulate in bursts of calcium blips that may prove central for the 
+understanding of cellular calcium dynamics. We plan to extend our computations 
+to more realistic domain geometries and to use local time stepping methods.
+
+                      All  interested  are  Welcome
+
+                                                             CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

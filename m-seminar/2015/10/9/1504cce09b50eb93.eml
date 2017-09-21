@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.38.135 with SMTP id m129csp32911ywm;
+        Fri, 9 Oct 2015 06:33:02 -0700 (PDT)
+X-Received: by 10.140.19.175 with SMTP id 44mr14949452qgh.50.1444397582665;
+        Fri, 09 Oct 2015 06:33:02 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTP id f90si1467331qgf.32.2015.10.09.06.33.00;
+        Fri, 09 Oct 2015 06:33:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t99DWtwq031491;
+	Fri, 9 Oct 2015 19:02:55 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t99DgMKC013061;
+	Fri, 9 Oct 2015 19:12:22 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id t99DgLpn013057;
+	Fri, 9 Oct 2015 19:12:21 +0530
+Date: Fri, 9 Oct 2015 19:12:21 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+cc: "K. Sandeep" <sandeep@math.tifrbng.res.in>
+Subject: [Seminar] Eigenfunctions": Math: 16 Oct (fwd)
+Message-ID: <alpine.LFD.2.03.1510091911270.12961@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1499106102-1444398082=:12961"
+Content-ID: <alpine.LFD.2.03.1510091911271.12961@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1499106102-1444398082=:12961
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=ISO-8859-15
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1510091911272.12961@math.iisc.ernet.in>
+
+Dear All,
+
+  there will be two lectures in the Eigenfunctions seminar on 16th Oct, 2015.
+
+--------------------------------------------
+Lectue 1:
+
+Speaker: K Sandeep (TIFR-CAM)
+
+Title : Nonlinear analysis and PDE
+
+Time and venue: 16 Oct, 2:15 PM, LH-1, Dept of mathematics
+
+Abstract : It is well known that finding an explicit solution for partial
+differential equations is almost impossible in most of the cases. In this
+talk we will give a brief introduction to the analysis of certain
+nonlinear PDEs using various tools from analysis. We will discuss some
+concrete examples and some open problems (depending on time).
+The talk should be accessible to senior undergraduate students.
+
+------------------------------
+
+Lecture 2:
+
+Speaker: Siddhartha Gadgil (IISc)
+
+Title: Homotopy type theory
+
+Time and venue: 16 Oct, 3:30 PM, LH-1, Dept of mathematics
+
+Abstract: The usual foundations of mathematics based on Set theory and 
+Predicate calculus (and extended by category theory), while successful in many 
+ways, are so far removed from everyday mathematics that the possibility of 
+translation of theorems to their formal counterparts is generally purely a 
+matter of faith. Homotopy type theory gives alternative foundations for 
+mathematics. These are based on an extension of type theory (from logic and 
+computer science) using an unexpectedly deep connection of Types with Spaces 
+discovered by Voevodsky and Awodey-Warren. As a consequence of this relation we 
+also obtain a synthetic view of homotopy theory.
+     In this lecture, I will give a brief introduction to this young subject.
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1499106102-1444398082=:12961--

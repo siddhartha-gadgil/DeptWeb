@@ -1,0 +1,115 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.204.56.19 with SMTP id w19csp476580bkg;
+        Sat, 28 Apr 2012 06:28:19 -0700 (PDT)
+Received: by 10.68.213.200 with SMTP id nu8mr19843935pbc.59.1335619698374;
+        Sat, 28 Apr 2012 06:28:18 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id tg2si486777pbc.92.2012.04.28.06.28.16
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 28 Apr 2012 06:28:17 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q3SDSCaR007652;
+	Sat, 28 Apr 2012 18:58:12 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q3SDQLbt011924
+	for <m_seminar@math.iisc.ernet.in>; Sat, 28 Apr 2012 18:56:21 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q3SDQLrW011921
+	for <m_seminar@math.iisc.ernet.in>; Sat, 28 Apr 2012 18:56:21 +0530
+Date: Sat, 28 Apr 2012 18:56:21 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] Math: 30th April, 2012: "Curvature calculations
+ of the operators in the Cowen-Douglas class"
+Message-ID: <Pine.LNX.4.64.1204281853580.4256@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.2,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		            Department of Mathematics
+ 		      Indian Institute of Science, Bangalore
+
+
+     			     M.S. THESIS COLLOQUIUM
+
+
+Speaker	: Mr. Prahllad Deb
+
+Title	: Curvature calculations of the operators in the
+ 	  Cowen-Douglas class
+
+Date	: April 30, 2012
+
+Time	: 4:00 - 5:00
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+In a foundational paper "Operators Possessing an Open Set of Eigenvalues"
+written several decades ago, Cowen and Douglas showed that an operator T
+on a Hilbert space H possessing an open set W (in complex plane) of
+eigenvalues determines a holomorphic Hermitian vector bundle ET . One of
+the basic theorems they prove states that the unitary equivalence class of
+the operator T and the equivalence class of the holomorphic Hermitian
+vector bundle ET are in one to one correspondence. This correspondence
+appears somewhat mysterious until one detects the invariants for the
+vector bundle ET in the operator T and vice-versa. Fortunately, this is
+possible in some cases. Thus they point out that if the operator T
+possesses the additional property that dimension of the eigenspace at each
+point w in W is 1, then the map f on W, sending w to ker(T-w), admits a
+non-zero holomorphic section, say S, and therefore defines a line bundle
+LT on W.It is well known that the curvature KL of a line bundle LT is a
+complete invariant for the line bundle LT . On the other hand, define
+
+ 	NT(w) = (T-w)|_{ker(T-w)^2} for each w in W,
+
+and note that NT(w)^2 = 0. It follows that, for two operators T_1 and T_2,
+if T_1 is unitarily equivalent to T_2, then the corresponding operators
+NT_1(w) and NT_2(w) are unitarily equivalent for all w in W. However,
+Cowen and Douglas prove the non-trivial converse, namely that if
+NT_1(w) and N_T2(w) are unitarily equivalent for all w in W then T_1
+and T_2 are unitarily equivalent. What does this have to do with the line
+bundles LT_1 and LT_2? To answer this question, we must ask what is a
+complete invariant for the unitary equivalence class of the operator NT(w).
+To find such a complete invariant we represent NT(w) with respect to the
+orthonormal basis obtained from the two linearly independent vectors S(w),
+S'(w) by Gram-Schmidt orthonormalization process. Then an easy computation
+shows that KL(w) is a complete invariant for NT (w), for w in W. This
+explains the relationship between the line bundle LT and the operator T
+in an explicit manner.
+
+Subsequently, in the paper "Operators Possessing an Open Set of
+Eigenvalues", Cowen and Douglas define a class of commuting operators
+possessing an open set of eigenvalues and attempt to provide similar
+computations as above. However, they give the details only for a pair of
+commuting operators. While the results of that paper remain true in the
+case of an arbitrary n-tuple of commuting operators, it requires
+additional effort, which we explain in this thesis.
+
+
+
+ 		    ALL ARE CORDIALLY INVITED.
+
+
+Faculty memmbers and students of the Department are requested to attend.
+
+
+
+  					   Chairman,
+ 					   Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

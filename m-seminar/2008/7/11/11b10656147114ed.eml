@@ -1,0 +1,78 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.140.202.11 with SMTP id z11cs62880rvf;
+        Thu, 10 Jul 2008 21:33:46 -0700 (PDT)
+Received: by 10.115.18.2 with SMTP id v2mr13115430wai.1.1215750826640;
+        Thu, 10 Jul 2008 21:33:46 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id l30si207857waf.25.2008.07.10.21.33.31;
+        Thu, 10 Jul 2008 21:33:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m6B4UKh9022596;
+	Fri, 11 Jul 2008 10:00:20 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m6B9bCj9017683;
+	Fri, 11 Jul 2008 09:37:12 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m6B9bCft017682;
+	Fri, 11 Jul 2008 09:37:12 GMT
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@math.iisc.ernet.in using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 11 Jul 2008 09:37:12 -0000 (UTC)
+Message-ID: <4205.10.134.10.30.1215769032.squirrel@math.iisc.ernet.in>
+Date: Fri, 11 Jul 2008 09:37:12 -0000 (UTC)
+Subject: Maths : Seminar Postponed to 16 July 2008-  "Lattice Point 
+     Asymptotics and Volume Growth     on Teichmuller space]
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+
+Dear All,
+     The following seminar has been postponed. PLEASE NOTE THE UNUSUAL TIME.
+
+
+                     DEPARTMENT  OF  MATHEMATICS
+                              I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Jayadev Athreya
+                           Department of Mathematics,
+                           Yale University
+
+    Title                : Lattice Point Asymptotics and Volume Growth
+                     on Teichmuller space
+
+    Day & Date           : Wednesday, July 16 2008
+
+    Time                 : 11.30 a.m.
+
+    Venue                :  Lecture  Hall -  III
+                            Dept. of  Mathematics
+
+Abstract:
+     We apply some of the ideas of the Ph.D. Thesis of G. A. Margulis to
+Teichmuller space. Let x be a point in Teichmuller space, and let
+B_R(x) be the ball of radius R centered at x (with distances measured in
+the Teichmuller metric). We obtain asymptotic formulas as R tends to
+infinity for the volume of B_R(x), and also for for the
+cardinality of the intersection of B_R(x) with an orbit of the
+mapping class group.
+
+                    All  interested  are  Welcome
+
+                                                   CHAIRMAN
+
+

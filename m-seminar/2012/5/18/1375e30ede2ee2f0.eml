@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.204.56.19 with SMTP id w19csp9117bkg;
+        Thu, 17 May 2012 21:24:54 -0700 (PDT)
+Received: by 10.68.227.227 with SMTP id sd3mr34097467pbc.53.1337315094130;
+        Thu, 17 May 2012 21:24:54 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id ts8si233004pbc.2.2012.05.17.21.24.52
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 17 May 2012 21:24:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q4I4OlW3025133;
+	Fri, 18 May 2012 09:54:47 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q4I4Og3U014291
+	for <m_seminar@math.iisc.ernet.in>; Fri, 18 May 2012 09:54:42 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q4I4OgL3014288
+	for <m_seminar@math.iisc.ernet.in>; Fri, 18 May 2012 09:54:42 +0530
+Date: Fri, 18 May 2012 09:54:42 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] Math: 23rd May, 2012: "The role of potential
+ theory in complex dynamics"
+Message-ID: <Pine.LNX.4.64.1205180953390.13210@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.2,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		          Department of Mathematics
+ 		    Indian Institute of Science, Bangalore
+
+
+ 			   M.S. THESIS COLLOQUIUM
+
+
+Speaker	: Ms. Choiti Bandyopadhyay
+
+Title	: The role of potential theory in complex dynamics
+
+Date	: May 23, 2012
+
+Time	: 4:00 p.m. - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+Potential theory is the name given to the broad field of analysis
+encompassing such topics as harmonic and subharmonic functions,
+the Dirichlet problem, Green's functions, potentials and capacity.
+We wish to gain a deeper understanding of complex dynamics using the
+tools and techniques of potential theory, and we will restrict
+ourselves to the iteration of holomorphic polynomials.
+
+We will be able to provide an explicit formula for computing the
+capacity of a Julia set, which in some sense, gives us a finer
+measurement of the set. In turn, this provides us with a sharp
+estimate for the diameter of the Julia set. Further if we pick any
+point $w$ from the Julia set, then the inverse images $q^{-n}(w)$
+span the whole Julia set. In fact, the point-mass measures with
+support at the discrete set consisting of the roots of the
+polynomial $q^n - w$, will eventually converge to the equilibrium
+measure of the Julia set, in the weak*-sense. This provides us with
+a very effective insight into the analytic structure of the set.
+
+Hausdorff dimension is one of the most effective notions of fractal
+dimension in use. With the help of potential theory and some ergodic
+theory, we can show that for a holomorphic family of polynomials
+varying over a simply connected domain $D$, one can gain control over
+how the Hausdorff dimensions of the respective Julia sets change with
+the parameter.
+
+
+
+          		ALL ARE CORDIALLY INVITED.
+
+
+Faculty members and students of the Department are requested to attend.
+
+
+  					 Chairman,
+ 					 Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

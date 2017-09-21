@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp174480obd;
+        Fri, 2 Dec 2016 00:54:24 -0800 (PST)
+X-Received: by 10.99.188.2 with SMTP id q2mr77099075pge.34.1480668864373;
+        Fri, 02 Dec 2016 00:54:24 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id o1si4266102pgc.285.2016.12.02.00.54.23;
+        Fri, 02 Dec 2016 00:54:24 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 7D938AE6266;
+	Fri,  2 Dec 2016 14:24:19 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id uB29SOoU010549
+	for <m_seminar@math.iisc.ernet.in>; Fri, 2 Dec 2016 14:58:24 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id uB29SOlD010548;
+	Fri, 2 Dec 2016 14:58:24 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.112 (proxying for 10.134.12.127)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Fri, 2 Dec 2016 09:28:24 -0000
+Message-ID: <ac5f927d6e3b945d6081cbec471b16cf.squirrel@math.iisc.ac.in>
+Date: Fri, 2 Dec 2016 09:28:24 -0000
+Subject: Math Dept. Seminar Dec 8 (Apoorva Khare)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 7D938AE6266.A941A
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.8,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1481273660.97859@tprSJ+T03d7B3HD6OcPogQ
+X-Spam-Status: No
+
+Speaker : Apoorva Khare (Stanford U)
+
+Date : Dec 8, 2016
+
+Time : 11 AM
+
+Location : LH-1 (via Skype)
+
+Title - Entrywise functions preserving positivity:
+Connections between analysis, algebra, and combinatorics
+
+
+Abstract -
+What functions preserve positive semidefiniteness (psd) when applied
+entrywise to psd matrices? This question has a long history beginning with
+Schur, Schoenberg, and Rudin, and has also recently received renewed
+attention due to its applications in high-dimensional statistics. However,
+effective characterizations of entrywise functions preserving positivity
+in a fixed dimension remain elusive to date.
+
+I will present recent progress on this question, obtained by: (a) imposing
+rank and sparsity constraints, (b) restricting to structured matrices, and
+(c) restricting the class of functions to special families such as
+polynomials or power functions. These constraints arise in theory as well
+as applications, and provide natural ways to relax the elusive original
+problem. Moreover, novel connections to symmetric function theory, matrix
+analysis, and combinatorics emerge out of these refinements.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

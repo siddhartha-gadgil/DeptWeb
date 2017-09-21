@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.216.50.139 with SMTP id z11cs94276web;
+        Thu, 19 Aug 2010 04:01:47 -0700 (PDT)
+Received: by 10.100.82.9 with SMTP id f9mr11058840anb.172.1282215705710;
+        Thu, 19 Aug 2010 04:01:45 -0700 (PDT)
+Return-Path: <kbs_jaya@yahoo.co.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id c26si1667352ana.129.2010.08.19.04.01.43;
+        Thu, 19 Aug 2010 04:01:45 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of kbs_jaya@yahoo.co.in) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of kbs_jaya@yahoo.co.in) smtp.mail=kbs_jaya@yahoo.co.in; dkim=neutral (body hash did not verify) header.i=@yahoo.co.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id o7JB1rOc014001;
+	Thu, 19 Aug 2010 16:31:54 +0530
+Received: from mail.iisc.ernet.in (iisc.ernet.in [10.16.25.16] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o7JBW3Vi006950
+	for <m_seminar@math.iisc.ernet.in>; Thu, 19 Aug 2010 17:02:03 +0530
+Received: from web94805.mail.in2.yahoo.com (web94805.mail.in2.yahoo.com [203.104.17.151])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with SMTP id o7JAu25A011270
+	for <m_seminar@math.iisc.ernet.in>; Thu, 19 Aug 2010 16:26:04 +0530
+Received: (qmail 66487 invoked by uid 60001); 19 Aug 2010 11:01:26 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.co.in; s=s1024; t=1282215686; bh=pTOIjlra1wWGZikXpI1L1SfMoZ8BmoBF9RXQyxhAork=; h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type:Content-Transfer-Encoding; b=qXiuo51y8cMmYZ6NZ2BIs+FOfCzglEMdXg5V2Uz15K4Uf/JOcXR3mWCDY7vVTAp1TVYmv+1NcKTwEpVD+MoY+pHNU6PiHTwRrsuh1gseHrQe6ClVd9+F5faOmpLfZHo6qOZfYeHm7fidf3/GaHXu0JbMNRVQIkqnw2qbKoSaKCA=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.co.in;
+  h=Message-ID:X-YMail-OSG:Received:X-Mailer:Date:From:Subject:To:MIME-Version:Content-Type:Content-Transfer-Encoding;
+  b=QnnOmpYIPdbevARBrmlCLgQT32T/O9DOisZYExG1WtM81bCnGv0B8BH5hlpepLvDTpzU/rW+uiL/zqaLVC2iITUBCfzAioIH3RiY3dDpfCmX0K4kwgmkR+dVB1jM7b42A23t0M3xqkewRjRmo5p02l8J+HhudJcNJ7aFuWKVSbI=;
+Message-ID: <346036.64786.qm@web94805.mail.in2.yahoo.com>
+X-YMail-OSG: hWyP5yUVM1lbk0OPJ2eU.fDWgMps8bFiGv8Ka3.S4P9mhtQ
+ bisxEqJGm.HfxBrNciCpjEJYd.xFenE0tTOMuEwTlHEELStiiJEKjGvS683u
+ EzVtfa9Pc0x8qvkh1fxZwLLkuxPvdgdxCP52RFnwpiTQ9l17lPa1EkccRM4R
+ byTYs7FyfiUO8u4ndM_DG1V2Ag_0I0DgLOXlwucww2b6MzfwcZ9on3feAtpd
+ _9csX0E97BE1RHdh_Dh2NlBP.Jt0-
+Received: from [218.248.45.66] by web94805.mail.in2.yahoo.com via HTTP; Thu, 19 Aug 2010 16:31:26 IST
+X-Mailer: YahooMailRC/470 YahooMailWebService/0.8.105.279950
+Date: Thu, 19 Aug 2010 16:31:26 +0530 (IST)
+From: Kalyan Sinha <kbs_jaya@yahoo.co.in>
+Subject: Prof.H.Araki's talks
+To: gadgil@math.iisc.ernet.in, m_seminar@math.iisc.ernet.in,
+        tirtha@math.iisc.ernet.in
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=1.511, required 6.5, BAYES_20 1.50, FREEMAIL_FROM 0.00,
+	RCVD_IN_DNSWL_NONE -0.00, T_TO_NO_BRKTS_FREEMAIL 0.01), not spam, SpamAssassin (not cached,
+	score=-0.878, required 6.5, BAYES_00 -1.90,
+	DKIM_ADSP_CUSTOM_MED 0.00, DKIM_SIGNED 0.10, FREEMAIL_FROM 0.00,
+	NML_ADSP_CUSTOM_MED 0.90, RCVD_IN_DNSWL_NONE -0.00,
+	T_DKIM_INVALID 0.01, T_TO_NO_BRKTS_FREEMAIL 0.01)
+X-IISc-MailScanner-SpamScore: s
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: o7JB1rOc014001
+X-IISc-MailScanner-From: kbs_jaya@yahoo.co.in
+
+Dear Siddhartha,
+=A0=A0=A0=A0=A0=A0=A0 Please note a slight change of the schedule of the ta=
+lks , brought about=20
+due to sudden scheduling of a visit by Shri Kapil Sibal, the MHRD minister .
+=A0 It is now as follows :
+=A0(i)=A0=A0 THe TWO talks in the Maths Deptt are=A0=A0 September=A0=A06=A0=
+ and=A07 =A0, 2010=A0 on=A0=20
+ALGEBRAIC THEORY OF QUANTUM FIELDS .
+
+=A0(ii) THe Public lecture by Prof Araki=A0=A0 on=A0 September 8 , 2010 in =
+the=A0=A0 FACULTY=20
+HALL of IISc.=A0 at 400 pm on " Some Contact Points between=A0 Physics and=
+=20
+Mathematics "=A0=20
+
+
+=A0=A0=A0 Professor=A0=A0 H.=A0 ARAKI=A0=A0 from KYOTO UNIVERSITY , Japan=
+=A0=A0=A0 is a=A0 RAMAN=20
+VISITING PROFESSOR of=A0 The Indian Academy of Sciences .
+
+=A0=A0 I shall send the abstracts soon . Could you please=A0 put up these=
+=20
+announcements=A0 ASAP=A0 and block the Seminar Hall at the appropriate time=
+ ?
+=A0=A0=A0 Thanks ,=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 K.B. Sinha
+
+
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

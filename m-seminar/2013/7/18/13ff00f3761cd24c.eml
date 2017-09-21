@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.59.193 with SMTP id b1csp198142lbr;
+        Wed, 17 Jul 2013 21:34:57 -0700 (PDT)
+X-Received: by 10.68.195.35 with SMTP id ib3mr10028940pbc.53.1374122096450;
+        Wed, 17 Jul 2013 21:34:56 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id p6si6631397paa.76.2013.07.17.21.34.54
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 17 Jul 2013 21:34:56 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r6I4Yi77010102;
+	Thu, 18 Jul 2013 10:04:44 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r6I4YeOT002597
+	for <m_seminar@math.iisc.ernet.in>; Thu, 18 Jul 2013 10:04:40 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r6I4Ye75002593
+	for <m_seminar@math.iisc.ernet.in>; Thu, 18 Jul 2013 10:04:40 +0530
+Date: Thu, 18 Jul 2013 10:04:40 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: The Hopf map, higher linking and friends
+Message-ID: <Pine.LNX.4.64.1307181003040.2502@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046162175-1890376489-1373948165=:18381"
+Content-ID: <Pine.LNX.4.64.1307160950401.18381@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r6I4Yi77010102
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-1890376489-1373948165=:18381
+Content-Type: TEXT/PLAIN; CHARSET=ISO-8859-1; FORMAT=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <Pine.LNX.4.64.1307160950402.18381@math.iisc.ernet.in>
+
+
+                             Department of Mathematics
+                      Indian Institute of Science, Bangalore
+
+
+                       GEOMETRY/TOPOLOGY INFORMAL SEMINAR
+
+
+Speaker : Prof. Siddhartha Gadgil
+           IISc
+
+Title   : The Hopf map, higher linking and friends
+
+Date    : July 18, 2013
+
+Time    : 3:00 - 4:00 p.m.
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+
+Abstract:
+Basic Algebraic Topology is built on considering objects (such
+as differential forms) up to boundary (e.g., exterior derivative).
+However, there is more structure in chains and boundaries that can be
+extracted by not immediately passing to quotients. We will discuss
+elementary examples of this, such as the Hopf invariant and Milnor's
+higher linking. 
+     
+Prerequisites: Basics of differential forms (closed and exact forms,
+wedge product) and Algebraic Topology (up to homology groups of
+spheres)
+
+                       ALL ARE CORDIALLY INVITED
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-1890376489-1373948165=:18381--

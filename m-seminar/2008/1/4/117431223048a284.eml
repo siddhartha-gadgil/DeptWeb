@@ -1,0 +1,97 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.119.4 with SMTP id r4cs188090buc;
+        Thu, 3 Jan 2008 20:32:19 -0800 (PST)
+Received: by 10.141.20.7 with SMTP id x7mr8548787rvi.255.1199421138496;
+        Thu, 03 Jan 2008 20:32:18 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id b8si5052900rvf.31.2008.01.03.20.32.05;
+        Thu, 03 Jan 2008 20:32:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m044crWS018497;
+	Fri, 4 Jan 2008 10:08:53 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m049kUvW009605;
+	Fri, 4 Jan 2008 09:46:30 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m049kUDZ009602;
+	Fri, 4 Jan 2008 09:46:30 GMT
+Date: Fri, 4 Jan 2008 09:46:30 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broacast@math.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 4th January 2008: Seminar - " Hochschild homology of rings
+ of differential operators and integration over complex manifolds"
+Message-ID: <Pine.LNX.4.61.0801040942100.9330@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Dr. D. Ajay Ramadoss,
+ 				University of Oklahoma.
+
+      Title 		  : Hochschild homology of rings of differential
+ 			operators and integration over complex manifolds.
+
+      Day & Date           : Tuesday, January 8, 2008.
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	Let X be a compact complex manifold and let E be a holomorphic 
+vector bundle on X. Any global holomorphic differential operator D on E 
+induces an endomorphism of $\text{H}^{\bullet}(X,E)$. The super-trace of 
+this endomorphism is the super-trace of D. This is a linear functional on 
+the 0-th Hochschild homology of Diff(E), the algebra of global holomorphic 
+differential operators on E.
+ 	While the Hochschild homology in the usual sense of Diff(E) is 
+"too big" for explicit computation, there is a notion of completed 
+Hochschild homology of Diff(E) with a very nice property: If HH_i(Diff(E)) 
+denotes the i-th completed Hochschild homology, then HH_i(Diff(E)) is 
+isomorphic to \text{H}^{2n-i}(X), the 2n-i th cohomology of X with complex 
+coefficients. We shall attempt to outline how the supertrace mentioned 
+above extends to a linear functional on the 0-th completed Hochschild 
+homology of Diff(E), and thus, on H^{2n}(X). A priori, this linear 
+functional depends on E. It however, can be shown that it is precisely the 
+integral over X. This fact also helps one connect the "local Riemann-Roch 
+theorems" of Nest-Tsygan to the Hirzebruch Riemann-Roch theorem. Analogous 
+results about similar constructions using cyclic homology instead of 
+Hochschild homology are also available.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

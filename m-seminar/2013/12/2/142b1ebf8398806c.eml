@@ -1,0 +1,101 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.194.28.100 with SMTP id a4csp94609wjh;
+        Sun, 1 Dec 2013 22:08:22 -0800 (PST)
+X-Received: by 10.68.178.229 with SMTP id db5mr29176227pbc.97.1385964501551;
+        Sun, 01 Dec 2013 22:08:21 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id yd9si46972925pab.234.2013.12.01.22.08.19
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 01 Dec 2013 22:08:21 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id rB266WRB001896;
+	Mon, 2 Dec 2013 11:36:32 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rB261kCA020699
+	for <m_seminar@math.iisc.ernet.in>; Mon, 2 Dec 2013 11:31:46 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rB261kXj020698;
+	Mon, 2 Dec 2013 11:31:46 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 2 Dec 2013 11:31:45 +0530 (IST)
+Message-ID: <def3748bca0241a47e0d4cb079239509.squirrel@math.iisc.ernet.in>
+Date: Mon, 2 Dec 2013 11:31:45 +0530 (IST)
+Subject: [Seminar] Math:Dec 12th, 2013:"Microlocal Analysis and Tomography"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.199, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, J_CHICKENPOX_43 0.60,
+	J_CHICKENPOX_53 0.60, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+
+Please note the change in venue of the following lecture.
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+Speaker : Prof Todd Quinto
+                      Tufts University
+
+Title   : Microlocal Analysis and Tomography
+
+Date    : 12th Dec, 2013 (Thursday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall V, Second floor(new wing)
+                Department of Mathematics
+
+
+Abstract:
+We consider the reconstruction problem for limited angle
+tomography using filtered backprojection (FBP).  We introduce
+microlocal analysis and use it to explain why the well-known streak
+artifacts are present at the end of the limited angular range.  We
+explain how to mitigate the streaks and prove that our modified FBP
+operator is a standard pseudodifferential operator, and so it does not
+add artifacts.  We provide reconstructions to illustrate our
+mathematical results.  This is joint work with Juergen Frikel,
+Helmholtz Zentrum, Muenchen.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

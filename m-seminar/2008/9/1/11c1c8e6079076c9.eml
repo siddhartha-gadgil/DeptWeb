@@ -1,0 +1,53 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.70.90.19 with SMTP id n19cs154670wxb;
+        Sun, 31 Aug 2008 23:16:47 -0700 (PDT)
+Received: by 10.110.109.12 with SMTP id h12mr7239198tic.34.1220249806223;
+        Sun, 31 Aug 2008 23:16:46 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id 22si228043tim.10.2008.08.31.23.16.30;
+        Sun, 31 Aug 2008 23:16:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m816L5uN017229;
+	Mon, 1 Sep 2008 11:51:05 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m81BHBRM013183
+	for <m_seminar@math.iisc.ernet.in>; Mon, 1 Sep 2008 11:17:11 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m81BHAGk013182;
+	Mon, 1 Sep 2008 11:17:10 GMT
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@math.iisc.ernet.in using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 1 Sep 2008 11:17:10 -0000 (UTC)
+Message-ID: <3364.10.134.10.30.1220267830.squirrel@math.iisc.ernet.in>
+Date: Mon, 1 Sep 2008 11:17:10 -0000 (UTC)
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+Subject: Reminder: Today : Geometry/Topology expository seminar
+X-Spam-Status: No
+
+Dear All,
+       We will have the second meeting today at 2:00 p.m. in LH-III.
+                                       Siddhartha
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

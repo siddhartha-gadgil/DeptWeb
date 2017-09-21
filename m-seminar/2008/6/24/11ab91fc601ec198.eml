@@ -1,0 +1,82 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.20 with SMTP id s20cs5231buc;
+        Mon, 23 Jun 2008 22:50:47 -0700 (PDT)
+Received: by 10.142.52.9 with SMTP id z9mr4931716wfz.258.1214286645587;
+        Mon, 23 Jun 2008 22:50:45 -0700 (PDT)
+Return-Path: <ravindra@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id 22si11856088wfg.13.2008.06.23.22.50.32;
+        Mon, 23 Jun 2008 22:50:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ravindra@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of ravindra@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=ravindra@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m5O5kvw9013973;
+	Tue, 24 Jun 2008 11:16:57 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m5OAsYfH005660;
+	Tue, 24 Jun 2008 10:54:34 GMT
+Received: from localhost (ravindra@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m5OAsY31005657;
+	Tue, 24 Jun 2008 10:54:34 GMT
+Date: Tue, 24 Jun 2008 10:54:34 +0000 (IST)
+From: "G.V.Ravindra" <ravindra@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+cc: broadcast@iisc.ernet.in
+Subject: Colloquium announcement
+Message-ID: <Pine.LNX.4.61.0806241052460.5628@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: ravindra@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: ravindra@math.iisc.ernet.in
+
+
+Dear Colleagues,
+
+Here's a reminder of today's colloquium:
+---
+
+Speaker: Ananth Hariharan
+
+Affiliation: University of Kansas, Lawrence
+
+Datee: Tuesday, 24 June 2008
+
+Time: 4:00 P.M.
+
+Venue: LH 1, Mathematics Department
+
+Title: The Gorenstein Colength of an Artinian Local Ring
+
+Abstract:
+
+The question we are interested in is the following: Given an Artinian local 
+ring, how 'close' can we get to it by an Artinian Gorenstein local ring. In 
+this talk I will make the notion of being 'close' precise numerically. We will 
+exhibit some natural bounds on this number and discuss some (old and new) 
+results. In particular, if R is a quotient of a power series ring over a field 
+of characteristic zero by a power of the maximal ideal, we will see how one can 
+compute this number.
+
+---
+
+Best Regards
+Ravindra
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

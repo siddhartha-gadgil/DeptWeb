@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.159.233 with SMTP id xf9csp12477lbb;
+        Thu, 7 Nov 2013 02:08:29 -0800 (PST)
+X-Received: by 10.67.30.70 with SMTP id kc6mr8821031pad.32.1383818909039;
+        Thu, 07 Nov 2013 02:08:29 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id w8si2087086pbi.257.2013.11.07.02.08.27
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 07 Nov 2013 02:08:28 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id rA7AAUY0018202;
+	Thu, 7 Nov 2013 15:40:30 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rA7A3NKJ015552
+	for <m_seminar@math.iisc.ernet.in>; Thu, 7 Nov 2013 15:33:23 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rA7A3NMM015551;
+	Thu, 7 Nov 2013 15:33:23 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 7 Nov 2013 15:33:23 +0530 (IST)
+Message-ID: <ac35379a9ab70ed0171487e25ada84bc.squirrel@math.iisc.ernet.in>
+Date: Thu, 7 Nov 2013 15:33:23 +0530 (IST)
+Subject: [Seminar] MATH : 11th Nov, 2013 : "Bangalore Probability Seminar"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+    BANGALORE PROBABILITY SEMINAR
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+-----------------------------------------------
+
+Speaker :  D. Manjunath (IIT, Bombay)
+
+Date    :  11th Nov, 2013
+
+Time    :  2:00pm
+
+Venue   :  LH-II, Department of Mathematics, IISc
+
+Title   :  Admission Prices and Welfare in Queues
+
+Abstract:  A multiqueue system serves a multiclass population. Classes
+differ in
+their valuation of time. Oblivious routing  in which routing is not
+informed by current queue status or past decisions is assumed. First, we
+explore the structure of the routing fractions that maximise social
+welfare. We then analyse the case customer are strategic and the queues
+have an admission price. We then argue that admission prices can be set to
+achieve optimal routing.
+
+A second system will also be briefly described. Here there are two queues:
+a FIFO queue and a bidding queue in which customers bid for priority.
+Priorities are increasing in the order of the bids.  The equilibrium
+behaviour of this system is also presented.
+
+Joint work with Tejas Bodas, A Ganesh and Murtuza Ali Abidin.
+
+
+-----------------------------------------------------
+
+Speaker : Mrinal Ghosh (IISc)
+
+Date    : 11th Nov, 2013
+
+Time    : 3:15pm
+
+Venue   : LH-I, Department of Mathematics, IISc
+
+Title   : Optimal Control of Markov Processes with Age Dependent Transition
+
+
+------------------------------------------------------
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

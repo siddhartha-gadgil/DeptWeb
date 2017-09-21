@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.41.2 with SMTP id p2csp1688707ywp;
+        Sun, 23 Aug 2015 21:26:15 -0700 (PDT)
+X-Received: by 10.66.139.6 with SMTP id qu6mr28033039pab.77.1440390375233;
+        Sun, 23 Aug 2015 21:26:15 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id w7si25343875pbs.255.2015.08.23.21.26.13;
+        Sun, 23 Aug 2015 21:26:15 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t7O4Q8VN012741;
+	Mon, 24 Aug 2015 09:56:09 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t7O4aQeL023221
+	for <m_seminar@math.iisc.ernet.in>; Mon, 24 Aug 2015 10:06:26 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t7O4aQ1B023220;
+	Mon, 24 Aug 2015 10:06:26 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 24 Aug 2015 04:36:26 -0000
+Message-ID: <5ca72dc9ac69f679269238a39133bb32.squirrel@math.iisc.ernet.in>
+Date: Mon, 24 Aug 2015 04:36:26 -0000
+Subject: Math Dept Seminar Nov 6 (Sutanu Roy)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t7O4Q8VN012741
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Date: Nov 6
+
+Time: 4 pm
+
+Location : LH-1
+
+
+Speaker: Sutanu Roy (University of Ottawa, Canada)
+
+Title: Title: Landstad-Vaes theory for locally compact quantum groups
+
+Abstract: In the seventies of last century, Magnus Landstad characterised
+the coefficient C*-algebra
+inside the multiplier algebra of a given crossed product C*-algebra
+subject to an action of an Abelian locally compact group G. In 2005,
+Stefaan Vaes extended the Landstad theory for "regular locally compact
+quantum groups". He gave strong indications that this is not possible for
+non-regular groups. In this talk I shall explain how Landstad-Vaes theory
+extends for non-regular groups. To this end we have to consider not
+necessary continuous, but measurable, actions of locally compact quantum
+groups. For regular locally compact quantum groups any measurable action
+is continuous, so our theory contains that of Landstad-Vaes. This is a
+joint work with Stanislaw Lech Woronowicz.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

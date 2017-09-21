@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.135.7 with SMTP id i7cs450684wad;
+        Thu, 2 Aug 2007 23:47:22 -0700 (PDT)
+Received: by 10.140.250.14 with SMTP id x14mr960858rvh.1186123642656;
+        Thu, 02 Aug 2007 23:47:22 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id b2si4758959rvf.2007.08.02.23.47.08;
+        Thu, 02 Aug 2007 23:47:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.123 as permitted sender)
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id l736ouwU030997;
+	Fri, 3 Aug 2007 12:20:56 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id l73CADcg019255;
+	Fri, 3 Aug 2007 12:10:13 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id l73CADiV019252;
+	Fri, 3 Aug 2007 12:10:13 GMT
+Date: Fri, 3 Aug 2007 12:10:13 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Message-ID: <Pine.LNX.4.61.0708031206050.19133@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+Subject: Maths :  10th August 2007 : Seminar - "On the numerical approximation of nonconservative hyperbolic balance laws"
+X-Spam-Status: No
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              :  Dr. Marcus Kraft
+ 			     Hamburg University of Technology,
+ 			     Germany
+
+      Title                :  On the numerical approximation of
+ 				nonconservative hyperbolic balance laws
+
+      Day & Date           :  Friday, August 10.
+
+      Time                 :  4.00  p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+Abstract:
+ 	Hyperbolic balance laws with source terms allow non-unique entropy 
+solutions.  By taking the source term as a variable and stating its time 
+derivative to be zero, a balance law can be rewritten in a quasi-linear 
+form. This then reveals the loss of strict hyperbolicity at critical 
+states, the so called resonance phenomenon. Numerical schemes are 
+sensitive to this phenomenon and it is uncertain, which entropy solution 
+(if it is non-unique) will be created by an appropriate numerical scheme.
+
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

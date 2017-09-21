@@ -1,0 +1,68 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.15.76 with SMTP id j12cs91172iba;
+        Mon, 10 Oct 2011 21:51:41 -0700 (PDT)
+Received: by 10.68.0.169 with SMTP id 9mr12901039pbf.23.1318308701003;
+        Mon, 10 Oct 2011 21:51:41 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id s3si7216269pbe.19.2011.10.10.21.51.38
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 10 Oct 2011 21:51:40 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p9B4qTOx014001;
+	Tue, 11 Oct 2011 10:22:29 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p9B4t6PV016790
+	for <m_seminar@math.iisc.ernet.in>; Tue, 11 Oct 2011 10:25:06 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p9B4t6K3016787
+	for <m_seminar@math.iisc.ernet.in>; Tue, 11 Oct 2011 10:25:06 +0530
+Date: Tue, 11 Oct 2011 10:25:06 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 18th Oct: "Limiting behaviour of sample autocovariance
+ matrix"
+Message-ID: <Pine.LNX.4.64.1110111023480.16149@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p9B4qTOx014001
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+  		     	   Department of Mathematics
+  		     Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Arup Bose
+ 	  ISI Kolkata
+
+Title	: Limiting behaviour of sample autocovariance matrix
+
+Date	: October 18, 2011
+
+Time	: 11:30 a.m.-12:30 p.m.
+
+Venue	: To be announced
+
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					   Chairman,
+  					   Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

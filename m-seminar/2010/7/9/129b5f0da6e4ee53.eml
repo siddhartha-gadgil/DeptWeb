@@ -1,0 +1,102 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.220.193.9 with SMTP id ds9cs206483vcb;
+        Thu, 8 Jul 2010 23:42:29 -0700 (PDT)
+Received: by 10.114.131.15 with SMTP id e15mr10782605wad.178.1278657748594;
+        Thu, 08 Jul 2010 23:42:28 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.70])
+        by mx.google.com with ESMTP id q35si1321817wam.107.2010.07.08.23.42.25;
+        Thu, 08 Jul 2010 23:42:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o696c0WB021916;
+	Fri, 9 Jul 2010 12:08:00 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o697AQrF030629;
+	Fri, 9 Jul 2010 12:40:26 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o697AQSe030628;
+	Fri, 9 Jul 2010 12:40:26 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 9 Jul 2010 12:40:26 +0530 (IST)
+Message-ID: <930e544d232aef03d121bf928228119f.squirrel@math.iisc.ernet.in>
+Date: Fri, 9 Jul 2010 12:40:26 +0530 (IST)
+Subject: Reminder : Maths : Today : Thesis Colloquium : "A study of the 
+     metric induced by the      Robin function"]
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.4,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                Thesis Colloquium
+
+
+    Speaker              : Mr. Diganta Borah, IISc.
+
+    Title                : A study of the metric induced by the Robin
+function
+
+    Day & Date           : Friday, July 9, 2010.
+
+    Time                 :  4:00 p.m.
+
+    Venue                :  Lecture  Hall -  III
+                            Dept. of  Mathematics
+
+Abstract:
+      Let D be a smoothly bounded pseudoconvex domain in C^n, n > 1. Using
+G(z, p), the Green function for D with pole at p in D, associated
+with
+the standard sum-of-squares Laplacian, N. Levenberg and H. Yamaguchi had
+constructed a Kahler metric (the so-called Lambda--metric) using the Robin
+function arising from G(z, p). The purpose of this thesis is to study this
+metric by deriving its boundary asymptotics and using them to calculate
+the holomorphic sectional curvature along normal directions. It is also
+shown that the Lambda--metric is comparable to the Kobayashi (and hence to
+the Bergman and Caratheodory metrics) when D is strongly pseudoconvex. The
+unit ball in C^n is also characterized among all smoothly bounded strongly
+convex domains on which the Lambda--metric has constant negative
+holomorphic sectional curvature. This may be regarded as a version of
+Lu-Qi Keng's theorem for the Bergman metric.
+
+
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

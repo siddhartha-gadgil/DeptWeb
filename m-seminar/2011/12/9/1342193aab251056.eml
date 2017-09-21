@@ -1,0 +1,83 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.43.193 with SMTP id x1cs123466ibe;
+        Thu, 8 Dec 2011 22:47:35 -0800 (PST)
+Received: by 10.68.213.41 with SMTP id np9mr3163557pbc.70.1323413253590;
+        Thu, 08 Dec 2011 22:47:33 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id s8si10825583pbe.157.2011.12.08.22.47.31
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 08 Dec 2011 22:47:32 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id pB96lgb5003745;
+	Fri, 9 Dec 2011 12:17:42 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id pB96sYm0008383
+	for <m_seminar@math.iisc.ernet.in>; Fri, 9 Dec 2011 12:24:34 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id pB96sYeb008380
+	for <m_seminar@math.iisc.ernet.in>; Fri, 9 Dec 2011 12:24:34 +0530
+Date: Fri, 9 Dec 2011 12:24:34 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 13th Dec, "Roots of Dehn twists"
+Message-ID: <Pine.LNX.4.64.1112091223450.3508@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: pB96lgb5003745
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.628, required 6.5, BAYES_00 -1.90, RP_8BIT 1.27)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		    	 Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Kashyap Rajeevsarathy
+ 	  IISER Bhopal
+
+Title	: Roots of Dehn twists
+
+Dates	: December 13, 2011
+
+Time	: 11:00 a.m. - 12:00 noon
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+Let $F$ be a closed orientable surface of genus $g \geq 2$ and $C$ be
+a simple closed curve in $F$. Let $t_C$ denote a left-handed Dehn twist
+about $C$. When $C$ is a nonseparating curve, D. Margalit and
+S. Schleimer showed the existence of such roots by finding elegant
+examples of roots of $t_C$ whose degree is $2g + 1$ on a surface of
+genus $g + 1$. This motivated an earlier collaborative work with D.
+McCullough in which we derived conditions for the existence of a root
+of degree $n$. We also showed that Margalit-Schleimer roots achieve the
+maximum value of $n$ among all the roots for a given genus. Suppose that
+$C$ is a separating curve in $F$. First, we derive algebraic conditions
+for the existence of roots in Mod$(F)$ of the Dehn twist $t_C$ about $C$.
+Finally, we show that if $n$ is the degree of a root, then
+$n \leq 4g^2 +  2g$, and for $g \geq 10$, $n \leq \frac{16}{5}g^2+ 12g +
+\frac{45}{4}$.
+
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					       Chairman,
+  					       Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.19.227 with SMTP id i3csp595742oae;
+        Mon, 20 Aug 2012 23:17:43 -0700 (PDT)
+Received: by 10.68.226.102 with SMTP id rr6mr30482150pbc.120.1345529862943;
+        Mon, 20 Aug 2012 23:17:42 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTPS id gt5si1584991pbc.43.2012.08.20.23.17.40
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 20 Aug 2012 23:17:42 -0700 (PDT)
+Received-SPF: neutral (google.com: 14.139.128.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 14.139.128.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q7L6HYMw030130;
+	Tue, 21 Aug 2012 11:47:35 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q7L6HW2e030805
+	for <m_seminar@math.iisc.ernet.in>; Tue, 21 Aug 2012 11:47:32 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id q7L6HLRY032020
+	for <m_seminar@math.iisc.ernet.in>; Tue, 21 Aug 2012 11:47:23 +0530
+Received: by obbta17 with SMTP id ta17so14759000obb.22
+        for <m_seminar@math.iisc.ernet.in>; Mon, 20 Aug 2012 23:17:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type;
+        bh=cFKNira3VJ3GEeqwjvB5Umg/Z6sW0s3cvOIooklVJwM=;
+        b=KimWmBKY769qBOjSBflHTKgcvr5axQnIjDQzPgwyps6uJCQBjExNSIfEPQfnp4I6tN
+         K6ztrcNQSPost9scSJSBwFTFVjOPMxBQyP5kffYDGtq4VoA0Y50yBE8xvS2Vqu4YgATB
+         pDLigHiyLtpCRVIw+larf8wzdcLCkMCjP/B0jA657F0AkTxaNCIaPU0HeT9pA/2+TbvY
+         kGYqtSYsuOhQpcITH6QtbEMRFSq5s6qL34vS00Zrn0jyslndWaQLcYS970WBrSjXjENe
+         5YHDj3zq0bXAJRgpqsnnU8nalZJwGemWdYKhPqFNtM8glJm1cBKJ2y4pN1cAb3jaXwMb
+         PX5g==
+MIME-Version: 1.0
+Received: by 10.182.174.68 with SMTP id bq4mr12265184obc.53.1345529840934;
+ Mon, 20 Aug 2012 23:17:20 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.169.196 with HTTP; Mon, 20 Aug 2012 23:17:20 -0700 (PDT)
+Date: Tue, 21 Aug 2012 11:47:20 +0530
+X-Google-Sender-Auth: msKkeBkU2TrrdnZDyKgzCTkZnq4
+Message-ID: <CAHEur2SYAr-6fh-TLYn3=dXNYDZEupm0+1GH83dNCQDeYz8B8Q@mail.gmail.com>
+Subject: [SEMINAR] Math: Today: "Introduction to Harmonic analysis on NA groups"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in, kumar.pratyoosh@gmail.com
+Content-Type: multipart/alternative; boundary=e89a8f50311a341f8904c7c094c6
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.59, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q7L6HYMw030130
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--e89a8f50311a341f8904c7c094c6
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear all,
+
+This is to remind you that Dr. Pratyoosh Kumar will be giving his sixth
+lecture on "Introduction to Harmonic Anlaysis on NA groups"
+today (August 21st, 2012) at *4.10 pm* in LH-1, Department of Mathematics.
+
+
+Pooja.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--e89a8f50311a341f8904c7c094c6
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote">Dear all,<br><div class=3D"gmail_quote"><div=
+ class=3D"gmail_quote"><div class=3D"gmail_quote"><br>This=20
+is to remind you that Dr. Pratyoosh Kumar will be giving his sixth=20
+lecture on &quot;Introduction to Harmonic Anlaysis on NA groups&quot; <br>t=
+oday (August 21st, <a href=3D"tel:2012" value=3D"+9722012" target=3D"_blank=
+">2012</a>) at <b>4.10 pm</b> in LH-1, Department of Mathematics.=A0 <br><b=
+r><span><font color=3D"#888888"><span><font color=3D"#888888"><br>
+Pooja. <br>
+</font></span></font></span></div><br><br><br></div></div><br>
+</div><br><br clear=3D"all"><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--e89a8f50311a341f8904c7c094c6--

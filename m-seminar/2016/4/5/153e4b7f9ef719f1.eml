@@ -1,0 +1,226 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.28.66 with SMTP id z2csp204579obg;
+        Mon, 4 Apr 2016 21:39:35 -0700 (PDT)
+X-Received: by 10.98.68.91 with SMTP id r88mr26484351pfa.12.1459831175685;
+        Mon, 04 Apr 2016 21:39:35 -0700 (PDT)
+Return-Path: <lakshmi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.77])
+        by mx.google.com with SMTP id dt12si5039826pac.0.2016.04.04.21.39.24;
+        Mon, 04 Apr 2016 21:39:35 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of lakshmi@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) client-ip=203.200.35.77;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of lakshmi@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) smtp.mailfrom=lakshmi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 4CFF7AE1BFD;
+	Tue,  5 Apr 2016 10:07:39 +0530 (IST)
+Received: from [10.134.13.14] (mathpc2.math.iisc.ernet.in [10.134.13.14])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u354jOE4026060;
+	Tue, 5 Apr 2016 10:15:25 +0530
+From: lakshmi@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+Date: Tue, 05 Apr 2016 10:07:19 +0530
+MIME-Version: 1.0
+Subject: REMINDER - MATH - Ph. D. Thesis  Colloquium on 6.4.2016...
+CC: m_seminar@math.iisc.ernet.in, m_stu@math.iisc.ernet.in
+Message-ID: <570340FF.8835.1D0E52@lakshmi.math.iisc.ernet.in>
+X-Confirm-Reading-To: lakshmi@math.iisc.ernet.in
+X-pmrqc: 1
+Priority: normal
+X-mailer: Pegasus Mail for Windows (4.63)
+Content-type: Multipart/Alternative; boundary="Alt-Boundary-16605.1904210"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 4CFF7AE1BFD.A8C0F
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.895, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, HTML_MESSAGE 0.00, NO_REAL_NAME 1.00,
+	RP_MATCHES_RCVD -1.00)
+X-IISc-MailScanner-From: lakshmi@math.iisc.ernet.in
+MailScanner-NULL-Check: 1460435862.50837@02DP4f4E2vba7ZfgoiR8RQ
+X-Spam-Status: No
+
+
+--Alt-Boundary-16605.1904210
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+
+
+
+
+Dear All,
+
+
+DEPARTMENT OF MATHEMATICS
+I. I. Sc., BANGALORE - 12
+----------------------------------------------------------------------------------------------
+Ph. D. Thesis Colloquium
+--------------------------------------------------------------------------------------------
+
+Speaker : Mr. Bidhan Chandra Sardar
+Ph. D. Research Student
+
+Title :  ": Optimal Control Problems and Homogenization"
+
+Day & Date : Wednesday, 06.04.2016
+
+Time : 11.00 a.m.
+
+Venue : Lecture Hall I
+Dept of Mathematics 
+
+ABSTRACT :  We study asymptotic analysis (homogenization) of second-order partial
+differential equations(PDEs) posed on an oscillating domain. In general, the motivation for 
+studying problems defined on oscillating domains, come from the need to understand flow in 
+channels with rough boundary, heat transmission in winglets, jet engins and so on. There are 
+various methods developed to study homogenization problems namely; multi-scale 
+expansion, oscillating test function method, compensated compactness, two-scale 
+convergence, block-wave method, method of unfolding etc.
+
+In this thesis, we consider a two dimensional oscillating domain (comb shape 
+type)$\Omega_{\epsilon}$ consists of a fixed bottom region $\Omega^-$ and an oscillatory 
+(rugose) upper region $\Omega_{\epsilon}^{+}$. We introduce an optimal control problems in
+$\Omega_{\epsilon}$ for the Laplacian operator. There are mainly two types of optimal 
+control problems; namely distributed control andboundary control. For distributed control 
+problems in the oscillatingdomain, one can put control on the oscillating part or on the fixed 
+part and similarly for boundary control problem (control on the oscillatingboundary or on the 
+fixed part the boundary). Considering controls on theoscillating part is more interesting and 
+challenging than putting control on fixed part of the domain. Our main aim is to characterize 
+the controlsand study the limiting analysis (as $\epsilon \to 0$) of the optimalsolution.
+
+In the thesis, we consider all the four cases, namely distributed and boundary controls both 
+on the oscilalting part and away from the oscillating part. Since, controls on the oscillating 
+part is more exciting, in this talk, we present the details of two sections. First we consider 
+distributed optimal control problem, where the control is supported on the oscillating part 
+Omega_{\epsilon}^{+}$ with periodic controls and with Neumann condition on the oscillating 
+boundary $\gamma_{\epsilon}$. Secondly, we introduce boundary optimal control
+problem, control applied through Neumann boundary condition on the oscillating boundary 
+$\gamma_{\epsilon}$ with suitable scaling parameters. We characterize the optimal control 
+using unfolding and boundary unfolding operators and study limiting analysis. In the limit, we 
+obtain two limit problems according to the scaling parameters and we observe that limit 
+optimal control problem has three control namely; a distributed control, a boundary control 
+and an interface control.
+
+
+ALL ARE WELCOME
+
+
+CHAIRMAN
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--Alt-Boundary-16605.1904210
+Content-type: text/html; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Dear All,</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:11pt"><b>DEPARTMENT OF MATHEMATICS</b></span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt"><b>I. I. Sc., BANGALORE - 12</b></span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt"><b>----------------------------------------------------------------------------------------------</b></span></font></div>
+<div align="left"><font face="Arial"><span style=" font-size:12pt"><b>Ph. D. Thesis Colloquium</b></span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">--------------------------------------------------------------------------------------------</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">Speaker : Mr. Bidhan Chandra Sardar</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">Ph. D. Research Student</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">Title :&#160;</span></font><font face="Times New Roman" size="2">
+<span style=" font-size:10pt"> </span></font><font face="Times New Roman"><span style=" font-size:11pt">&quot;: Optimal Control Problems and Homogenization</span></font>
+<font face="Arial" size="2"><span style=" font-size:10pt">&quot;</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">Day &amp; Date : Wednesday, 06.04.2016</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">Time : 11.00 a.m.</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">Venue : Lecture Hall I</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt">Dept of Mathematics </span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><b>ABSTRACT :&#160;</b></span><span style=" font-size:10pt"> We study asymptotic analysis (homogenization) of second-order partial</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">differential equations(PDEs) posed on an oscillating domain. In general, the motivation for 
+studying problems defined on oscillating domains, come from the need to understand flow in 
+channels with rough boundary, heat transmission in winglets, jet engins and so on. There are 
+various methods developed to study homogenization problems namely; multi-scale 
+expansion, oscillating test function method, compensated compactness, two-scale 
+convergence, block-wave method, method of unfolding etc.</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">In this thesis, we consider a two dimensional oscillating domain (comb shape 
+type)$\Omega_{\epsilon}$ consists of a fixed bottom region $\Omega^-$ and an oscillatory 
+(rugose) upper region $\Omega_{\epsilon}^{+}$. We introduce an optimal control problems in</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">$\Omega_{\epsilon}$ for the Laplacian operator. There are mainly two types of optimal 
+control problems; namely distributed control andboundary control. For distributed control 
+problems in the oscillatingdomain, one can put control on the oscillating part or on the fixed 
+part and similarly for boundary control problem (control on the oscillatingboundary or on the 
+fixed part the boundary). Considering controls on theoscillating part is more interesting and 
+challenging than putting control on fixed part of the domain. Our main aim is to characterize 
+the controlsand study the limiting analysis (as $\epsilon \to 0$) of the optimalsolution.</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">In the thesis, we consider all the four cases, namely distributed and boundary controls both 
+on the oscilalting part and away from the oscillating part. Since, controls on the oscillating 
+part is more exciting, in this talk, we present the details of two sections. First we consider 
+distributed optimal control problem, where the control is supported on the oscillating part 
+Omega_{\epsilon}^{+}$ with periodic controls and with Neumann condition on the oscillating 
+boundary $\gamma_{\epsilon}$. Secondly, we introduce boundary optimal control</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">problem, control applied through Neumann boundary condition on the oscillating boundary 
+$\gamma_{\epsilon}$ with suitable scaling parameters. We characterize the optimal control 
+using unfolding and boundary unfolding operators and study limiting analysis. In the limit, we 
+obtain two limit problems according to the scaling parameters and we observe that limit 
+optimal control problem has three control namely; a distributed control, a boundary control 
+and an interface control.</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">ALL ARE WELCOME</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">CHAIRMAN</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left">&nbsp;&nbsp;</div>
+<br />-- 
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href="http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+</body>
+</html>
+
+--Alt-Boundary-16605.1904210--
+

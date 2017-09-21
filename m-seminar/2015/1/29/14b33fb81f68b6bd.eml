@@ -1,0 +1,96 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.156.204 with SMTP id y12csp219989qcw;
+        Wed, 28 Jan 2015 20:38:16 -0800 (PST)
+X-Received: by 10.224.112.137 with SMTP id w9mr21400609qap.8.1422506296005;
+        Wed, 28 Jan 2015 20:38:16 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id b7si8267044qce.33.2015.01.28.20.38.13;
+        Wed, 28 Jan 2015 20:38:15 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t0T4cAaa014866;
+	Thu, 29 Jan 2015 10:08:10 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t0T4opf7024251
+	for <m_seminar@math.iisc.ernet.in>; Thu, 29 Jan 2015 10:20:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t0T4opnX024250;
+	Thu, 29 Jan 2015 10:20:51 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 29 Jan 2015 04:50:51 -0000
+Message-ID: <13051d18cf119d79086382761036f506.squirrel@math.iisc.ernet.in>
+Date: Thu, 29 Jan 2015 04:50:51 -0000
+Subject: Reminder [Seminar] Math: TODAY: On applying the Deligne-Kazhdan
+ philosophy to classical groups
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Sandeep Varma
+          TIFR, Mumbai
+
+Title   : On applying the Deligne-Kazhdan philosophy to classical groups
+
+Date    : 29th January, 2015 (Thursday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+I will report on work in progress with Radhika Ganapathy. One wishes to
+study irreducible `smooth' complex representations of symplectic and
+(split) orthogonal groups over local function fields, i.e., fields of the
+form F_q((t)). The theory of `close local fields' proposes to do this by
+studying the representation theory of these groups over (varying) finite
+extensions of Q_p. We will discuss an approach to using this philosophy to
+study the local Langlands correspondence for these groups.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

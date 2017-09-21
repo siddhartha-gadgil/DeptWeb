@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.154.11 with SMTP id m11cs188136ibw;
+        Mon, 24 Jan 2011 20:24:13 -0800 (PST)
+Received: by 10.142.223.18 with SMTP id v18mr4686160wfg.178.1295929452542;
+        Mon, 24 Jan 2011 20:24:12 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTPS id n32si31415189wfa.19.2011.01.24.20.24.07
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Mon, 24 Jan 2011 20:24:12 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p0P4PL37018916;
+	Tue, 25 Jan 2011 09:55:21 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p0P538mK017086
+	for <m_seminar@math.iisc.ernet.in>; Tue, 25 Jan 2011 10:33:08 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p0P538fl017083
+	for <m_seminar@math.iisc.ernet.in>; Tue, 25 Jan 2011 10:33:08 +0530
+Date: Tue, 25 Jan 2011 10:33:08 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 28th Jan, 2011: "On the connections betweenStochastic
+ PDE and PDE"
+Message-ID: <Pine.LNX.4.64.1101251031110.16636@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p0P4PL37018916
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.89, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	T_FRT_STOCK2 0.01)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		         Department of Mathematics
+ 		    Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+Speaker	: Prof. B. Rajeev
+ 	  ISI, Bangalore Centre
+
+Title	: On the connections between Stochastic PDE and PDE
+
+Date	: January 28, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue 	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+Stochastic partial differential equations (SPDE) are partial differential
+equations (PDE) with a `noise term'. One can think of these  as a
+semi-martingale in a function space or a space of distributions with
+a drift (a bounded variation process involving a second order elliptic
+partial differential operator ) and a noise term which is a martingale.
+When the martingale term is suitably structured, the solutions of these
+SPDE's are closely related to certain finite dimensional diffusion
+processes and may be viewed as generalized solutions of the classical
+stochastic differential equations of Ito, Stroock-Varadhan and others.
+In this talk [based on Rajeev and Thangavelu (2008) and Rajeev (2010)],
+we describe how the expected values of the solutions give rise to
+solutions of PDE's associated with the diffusion.
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					Chairman,
+ 					Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

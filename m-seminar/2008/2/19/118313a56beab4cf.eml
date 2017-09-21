@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.16 with SMTP id q16cs201149buc;
+        Tue, 19 Feb 2008 02:25:52 -0800 (PST)
+Received: by 10.114.148.1 with SMTP id v1mr2550925wad.21.1203416750903;
+        Tue, 19 Feb 2008 02:25:50 -0800 (PST)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id j7si8824629wah.23.2008.02.19.02.25.29;
+        Tue, 19 Feb 2008 02:25:50 -0800 (PST)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m1JAJOEI001068;
+	Tue, 19 Feb 2008 15:49:24 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m1JFaVgI017091
+	for <m_seminar@math.iisc.ernet.in>; Tue, 19 Feb 2008 15:36:31 GMT
+Received: from localhost (harish@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m1JFaV7D017088
+	for <m_seminar@math.iisc.ernet.in>; Tue, 19 Feb 2008 15:36:31 GMT
+Date: Tue, 19 Feb 2008 15:36:31 +0000 (UTC)
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: MATH: Seminar on 22nd Feb:  3-D Kinematical Conservation Laws:
+ equations of evolution of a surface (fwd)
+Message-ID: <Pine.LNX.4.61.0802191533090.9406@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: harish@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+
+
+
+
+Dear All,
+
+Department of Mathematics,
+Indian Institute of Science Bangalore-560 012
+
+SEMINAR
+
+Speaker:         Prof. Phoolan Prasad
+
+Title:               3-D Kinematical Conservation Laws: equations of
+evolution of a surface
+
+Day, Date & Time :       Friday, 22nd February, 2008 at 4:00 PM
+
+Venue:         Lecture Hall 3, Department of Mathematics
+
+Abstract
+We discuss various proprties of the KCL of Giles, Prasad
+and Ravindran (GPR) (1995) in 3-space dimensions. These equations
+of evolution of a {\bf propagating} surface $\Omega_t$, are
+derived assuming the motion of the surface to be isotropic. These
+are the most general equations in conservation form, governing the
+evolution of $\Omega_t$ with singularities which we call {\bf
+kinks} and which are curves across which the normal $\mathbf{n}$
+to $\Omega_t$ and amplitude $w$ on $\Omega_t$ are discontinuous.
+We derive a simpler system of six differential equations from KCL
+and show that the KCL system is equivalent to the ray equations
+for $\Omega_t$. The six independent equations and an energy
+transport equation involving $w$ (which is related to the normal
+velocity $m$ of $\Omega_t$) form a completely determined system
+of seven equations. We have determined eigenvalues of the system
+by a very novel method and find that the system has two distinct
+nonzero eigenvalues and five zero eigenvalues and the dimension
+of the eigenspace associated with the multiple eigenvalue $0$ is
+only $4$. For an appropriately defined $m$, the two nonzero
+eigenvalues are real when $m>1$ and pure imaginary when $m<1$.
+Finally we have shown how to use the theory to concrete examples.
+
+
+Harish Seshadri
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,83 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.141.43.13 with SMTP id v13cs223052rvj;
+        Sun, 11 Apr 2010 22:05:58 -0700 (PDT)
+Received: by 10.141.101.17 with SMTP id d17mr2612212rvm.30.1271048758029;
+        Sun, 11 Apr 2010 22:05:58 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.70])
+        by mx.google.com with ESMTP id 8si33238995pzk.116.2010.04.11.22.05.55;
+        Sun, 11 Apr 2010 22:05:57 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.70 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.70 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o3C52aTA015536;
+	Mon, 12 Apr 2010 10:32:36 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o3C5SmGc011470;
+	Mon, 12 Apr 2010 10:58:48 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o3C5Smnq011469;
+	Mon, 12 Apr 2010 10:58:48 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 12 Apr 2010 10:58:48 +0530 (IST)
+Message-ID: <3f231340d49378a6795539c22ace3f7a.squirrel@math.iisc.ernet.in>
+Date: Mon, 12 Apr 2010 10:58:48 +0530 (IST)
+Subject: Maths : April 13,
+       2010: Seminar : "Generalized Calabi-Eckmann manifolds"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 6.5, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50,
+	UPPERCASE_25_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. Parameswaran Sankaran, IMSc, Chennai.
+
+    Title                : Generalized Calabi-Eckmann manifolds
+
+    Day & Date           : Tuesday,  April 13, 2010.
+
+    Time                 :  4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

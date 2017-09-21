@@ -1,0 +1,102 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.140.202.11 with SMTP id z11cs70535rvf;
+        Mon, 28 Jul 2008 23:13:33 -0700 (PDT)
+Received: by 10.100.57.6 with SMTP id f6mr6996575ana.115.1217312012954;
+        Mon, 28 Jul 2008 23:13:32 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id 61si11765924wry.13.2008.07.28.23.13.18;
+        Mon, 28 Jul 2008 23:13:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m6T650CP013412;
+	Tue, 29 Jul 2008 11:35:00 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m6TBAnZZ012961;
+	Tue, 29 Jul 2008 11:10:49 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m6TBAnu7012960;
+	Tue, 29 Jul 2008 11:10:49 GMT
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@math.iisc.ernet.in using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 29 Jul 2008 11:10:49 -0000 (UTC)
+Message-ID: <1134.10.134.10.30.1217329849.squirrel@math.iisc.ernet.in>
+Date: Tue, 29 Jul 2008 11:10:49 -0000 (UTC)
+Subject: Reminder : Maths : Today : Seminar :  "Conformal invariance in 
+     probability and  statistical physics"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Manjunath Krishnapur
+                           University of Toronto
+
+    Title                : Conformal invariance in probability and
+statistical physics
+
+
+    Day & Date           : Tuesday, July 29 2008
+
+    Time                 : 4.00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+Abstract:
+         This is an expository talk whose aim will be to give an
+introduction to SLE (Schramm-Loewner evolution), discovered by Oded
+Schramm in 2000 to describe many critical statistical mechanical systems.
+
+We start by recalling classical facts concerning convergence of random
+walk on Z^2 to Brownian motion, and the conformal invariance property of
+planar Brownian motion. Then we introduce another model of random paths in
+Z^2, known as the self-avoiding random walk and ask the question (open for
+fifty years!) of existence of a continuous scaling limit. We use this
+discrete model to motivate what is called 'conformal markov property'.
+Then we show how Schramm magically used  Loewner's differential equation
+(1923) for conformal maps of slit domains to classify all possible scaling
+limits satisfying the conformal markov property into a one-parameter
+family of random continuous paths! If time permits we shall see some more
+discrete models whose limits are SLE.
+
+The talk is meant to be understandable to a general mathematical audience
+(a knowledge of Riemann mapping theorem and the idea of Brownian motion is
+helpful).
+
+
+                    All  interested  are  Welcome
+
+                                                   CHAIRMAN
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

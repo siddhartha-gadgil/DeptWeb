@@ -1,0 +1,98 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.30.193 with SMTP id u1csp109146lbh;
+        Sun, 27 Jan 2013 19:48:00 -0800 (PST)
+X-Received: by 10.68.130.225 with SMTP id oh1mr33781258pbb.147.1359344879528;
+        Sun, 27 Jan 2013 19:47:59 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id bs8si8288780pab.147.2013.01.27.19.47.56
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 27 Jan 2013 19:47:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r0S3lraU014214;
+	Mon, 28 Jan 2013 09:17:53 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r0S3lhT9020400
+	for <m_seminar@math.iisc.ernet.in>; Mon, 28 Jan 2013 09:17:43 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r0S3lhrF020399;
+	Mon, 28 Jan 2013 09:17:43 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 28 Jan 2013 09:17:43 +0530 (IST)
+Message-ID: <e0eb0d2b856fcf4c47402126ecbac248.squirrel@math.iisc.ernet.in>
+Date: Mon, 28 Jan 2013 09:17:43 +0530 (IST)
+Subject: [Seminar] MATH: Today: "Real analytic maps and stable Hamiltonian 
+     structures"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear all,
+
+
+                    Department of Mathematics
+                       Indian Institute of Science
+                                 Bangalore
+                    ------------------------
+
+
+Speaker: Prof Ferit Öztürk (Bogaziçi University, Turkey)
+
+Date: Jan 28th, 2013 (Monday)
+
+Time: 3:30-4:30 pm
+
+Venue: LH-I, Department of Mathematics
+
+Title: Real analytic maps and stable Hamiltonian structures
+
+Abstract: We consider a real analytic map f from R^4 to R^2 with a
+singularity at 0. One method to investigate the singularity is to work
+on its link L. If 0 is an isolated singularity then it is well known
+that L is a fibered link in the 3-sphere S^3. This describes
+immediately a contact structure on S^3. In this talk we suggest that
+even if 0 is not an isolated singularity, we can associate to the
+singularity a well-defined stable Hamiltonian structure on S^3,
+provided that f describes a Seifert fibration on S^3, L being a
+multi-link in this fibration. This condition is satisfied, for
+example, when f is complex analytic or f is given as g\bar{h} with g
+and h being complex analytic. If the link is already fibered, the
+stable Hamiltonian structure is nothing but the contact structure
+mentioned above. Our construction is in fact far more general: given a
+Seifert multi-link (not necessarily associated to a map from R^4 to
+R^2) in a Seifert fibered 3-manifold, we build a well-defined stable
+Hamiltonian structure on the 3-manifold.
+
+             All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,103 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.50.87.3 with SMTP id t3csp105593igz;
+        Tue, 5 Feb 2013 02:50:23 -0800 (PST)
+X-Received: by 10.50.161.169 with SMTP id xt9mr12182271igb.62.1360061423075;
+        Tue, 05 Feb 2013 02:50:23 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id bf6si22456708pab.141.2013.02.05.02.50.20
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 05 Feb 2013 02:50:22 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r15AoF50019368;
+	Tue, 5 Feb 2013 16:20:15 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r15Ao9oH008411;
+	Tue, 5 Feb 2013 16:20:09 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r15Ao9qd008408;
+	Tue, 5 Feb 2013 16:20:09 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from avg.math.iisc.ernet.in ([10.134.10.30])
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 5 Feb 2013 16:20:09 +0530 (IST)
+Message-ID: <4ef1e9ec92e174e94141b655ea1b6f8e.squirrel@math.iisc.ernet.in>
+Date: Tue, 5 Feb 2013 16:20:09 +0530 (IST)
+Subject: MATH: Feb 7, 2013: "Derived Geometry and Topological String Theory"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.389, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_RDNS2 0.01,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+
+                    Department of Mathematics
+                       Indian Institute of Science
+                                 Bangalore
+                    ------------------------
+
+
+Speaker: Dr. Pranav Pandit, University of Vienna
+
+Date: Feb 7th, 2013 (Thursday)
+
+Time: 3:30 p.m.
+
+Venue: LH-III, Department of Mathematics
+
+Title: Derived Geometry and Topological String Theory
+
+Abstract.
+
+The premise that "isomorphism" is a better behaved notion than
+"equality" leads naturally to the notion of a higher category, and to
+a paradigm where homotopy types replace sets as the basic building
+blocks of mathematical structures. Derived geometry is geometry in
+this homotopical context. This talk will be an introduction to
+higher category theory and derived geometry, with an emphasis on their
+essential role in the formulation of physical laws.
+
+
+Topological string theory serves as an illustration of these ideas.
+Boundary conditions (branes) in topological string theory are
+naturally organized into higher categories. We will see how derived
+algebraic geometry provides a natural framework in which to construct
+moduli spaces of branes. These moduli spaces are a common
+generalization and enhancement of various classical moduli spaces,
+such as the moduli of holomorphic vector bundles on a Kahler manifold,
+the moduli of representations of a quiver, and the moduli of
+Lagrangian submanifolds in a symplectic manifold.
+
+
+             All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

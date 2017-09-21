@@ -1,0 +1,75 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.219.10 with SMTP id hs10cs306201ibb;
+        Tue, 3 Jan 2012 20:28:25 -0800 (PST)
+Received: by 10.68.201.136 with SMTP id ka8mr136955953pbc.1.1325651303728;
+        Tue, 03 Jan 2012 20:28:23 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id g8si3110316pbe.242.2012.01.03.20.28.21
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 03 Jan 2012 20:28:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q044SDIa010240;
+	Wed, 4 Jan 2012 09:58:14 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q044an1g019901
+	for <m_seminar@math.iisc.ernet.in>; Wed, 4 Jan 2012 10:06:49 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q044anl0019898
+	for <m_seminar@math.iisc.ernet.in>; Wed, 4 Jan 2012 10:06:49 +0530
+Date: Wed, 4 Jan 2012 10:06:49 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "The chiral boson and function theory on the
+ unit disc"
+Message-ID: <Pine.LNX.4.64.1201041005430.19516@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.7,
+	required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		       	    Department of Mathematics
+ 		     Indian Institute of Science, Bangalore
+
+
+  				 SEMINAR
+
+
+Speaker	: Prof. T.R. Ramadas
+ 	  ICTP, Trieste
+
+Title	: The chiral boson and function theory on the unit disc
+
+Dates	: January 4, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+Conformal field theories (CFTs) are related (in Mathematics) to algebraic
+geometry, infinite-dimensional Lie algebras and probability, and (in
+Physics) to critical phenomena and string theory. From a mathematical
+point of view, much of the formalisation has been from the point
+of view of algebra -- in fact using formal power series. I will give a
+denition of the simplest "chiral" or "holomorphic" CFT using elementary
+function theory. If time permits, I will also explain operator product
+expansions.
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					       Chairman,
+  					       Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

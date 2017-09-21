@@ -1,0 +1,88 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.205.47.72 with SMTP id ur8csp88618bkb;
+        Sun, 27 May 2012 21:39:12 -0700 (PDT)
+Received: by 10.68.228.39 with SMTP id sf7mr23326837pbc.45.1338179952303;
+        Sun, 27 May 2012 21:39:12 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id ql5si10758099pbc.306.2012.05.27.21.39.10
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 27 May 2012 21:39:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q4S4d2Gt029466;
+	Mon, 28 May 2012 10:09:02 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q4S4cxXX005986
+	for <m_seminar@math.iisc.ernet.in>; Mon, 28 May 2012 10:08:59 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q4S4cx3X005983
+	for <m_seminar@math.iisc.ernet.in>; Mon, 28 May 2012 10:08:59 +0530
+Date: Mon, 28 May 2012 10:08:59 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] Math: 31st May, 2012: "Grushin multipliers and
+ Toeplitz operators"
+Message-ID: <Pine.LNX.4.64.1205281008250.28532@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q4S4d2Gt029466
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		            Department of Mathematics
+ 		      Indian Institute of Science, Bangalore
+
+
+ 			    Ph.D. THESIS COLLOQUIUM
+
+
+Speaker	: Ms. Jotsaroop
+
+Title	: Grushin multipliers and Toeplitz operators
+
+Date	: May 31, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+The Grushin operator is defined as $G:=-\triangle-|x|^2\partial_t^2$
+on R^{n+1}. We study the boundedness of the multipliers $m(G)$ of $G$ on
+$L^p(R^{n+1})$. We prove the analogue of the Hormander-Mihlin theorem for
+$m(G)$. We  also study the boundedness of the solution of the wave
+equation corresponding to $G$ on $L^p(R^{n+1})$. The main tool in studying
+the above is the operator-valued Fourier multiplier
+theorem by Lutz Weis.
+
+Next we look at Toeplitz operators on some Segal-Bargmann spaces. Let
+$T_g$ be the Toeplitz operator corresponding to g. We study the
+boundedness of $T_g$ by transferring them to the underlying $L^2$ spaces. We 
+make use of the above transference to get some sufficient
+conditions on $g$ for the boundedness of $T_g$.
+
+
+
+ 		    ALL ARE CORDIALLY INVITED.
+
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+  					     Chairman,
+ 					     Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

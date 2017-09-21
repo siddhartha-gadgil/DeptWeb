@@ -1,0 +1,83 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.151.150.20 with SMTP id c20cs133504ybo;
+        Wed, 26 Aug 2009 22:19:30 -0700 (PDT)
+Received: by 10.114.9.3 with SMTP id 3mr12302607wai.1.1251350370102;
+        Wed, 26 Aug 2009 22:19:30 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.65])
+        by mx.google.com with ESMTP id 15si24958785pzk.92.2009.08.26.22.19.28;
+        Wed, 26 Aug 2009 22:19:29 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n7R5PNEr002050;
+	Thu, 27 Aug 2009 10:55:23 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n7R5SuR9001801;
+	Thu, 27 Aug 2009 10:58:56 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id n7R5SuRL001800;
+	Thu, 27 Aug 2009 10:58:56 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.11 (proxying for 59.92.135.36)
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Thu, 27 Aug 2009 10:58:56 +0530 (IST)
+Message-ID: <68229e1bac34b23a2b05f82360abe9d8.squirrel@www.math.iisc.ernet.in>
+Date: Thu, 27 Aug 2009 10:58:56 +0530 (IST)
+Subject: Maths : August  28,
+      2009: Seminar : "The d-th polarization constant of R^d"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. Rakesh, University of Delaware
+
+    Title                : The d-th polarization constant of Rd
+
+
+    Day & Date           : Friday, August 28, 2009.
+
+    Time                 : 4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+
+Abstract:
+       The polarization conjecture for R^d is that
+
+max_{x \in R^d, ||x||=1} |<x, u_1> · · · <x, u_i>| \geq (1/\sqrt{d})^d
+
+for any set of d unit vectors u_1, · · · , u_d in R^d with equality
+occurring iff u1, · · · , ud are orthonormal. We describe results directed
+towards proving this conjecture and also the connections between this
+conjecture and other problems in the geometry of R^d. The talk is based on
+work done in collaboration with YJ Leung and W Li.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

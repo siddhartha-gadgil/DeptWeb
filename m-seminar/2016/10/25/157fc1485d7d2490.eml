@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.122.1 with SMTP id lo1csp99001ieb;
+        Tue, 25 Oct 2016 06:43:06 -0700 (PDT)
+X-Received: by 10.99.67.7 with SMTP id q7mr32546444pga.74.1477402986167;
+        Tue, 25 Oct 2016 06:43:06 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id f13si1084059pfe.156.2016.10.25.06.43.03;
+        Tue, 25 Oct 2016 06:43:05 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 66A69AE44F2;
+	Tue, 25 Oct 2016 18:43:44 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u9PDmRaG021074
+	for <m_seminar@math.iisc.ernet.in>; Tue, 25 Oct 2016 19:18:27 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u9PDmRsY021071
+	for <m_seminar@math.iisc.ernet.in>; Tue, 25 Oct 2016 19:18:27 +0530
+Date: Tue, 25 Oct 2016 19:18:27 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Samose with Sandeep Krishna, this Friday (fwd)
+Message-ID: <alpine.LFD.2.03.1610251917450.20736@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 66A69AE44F2.A724E
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.273, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, RP_MATCHES_RCVD -1.37)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1478007710.15037@OyxjLm8bJRb5YCsEPFrzmA
+X-Spam-Status: No
+
+---------- Forwarded message ----------
+Date: Tue, 25 Oct 2016 18:13:00 +0530
+From: David Farris <pseudoholomorphic@gmail.com>
+Subject: Samose with Sandeep Krishna, this Friday
+
+---------- Forwarded message ----------
+From: "Venkatakrishnan Ramaswamy" <vramaswamy@ncbs.res.in>
+Date: Oct 25, 2016 3:16 PM
+Subject: [Academic] Samose with Sandeep Krishna, this Friday
+To: <academic@lists.ncbs.res.in>
+
+
+       Dear All,
+
+       Please join us for SAMOSe (Simons Assorted Math Open Seminar) on Friday.
+       Details below:
+
+       Date & Time: Friday, October 28 at 4pm (Tea/Coffee at 3:45pm)
+
+       Venue: Simons Centre, Ground Floor.
+
+       Speaker: Sandeep Krishna, NCBS.
+
+       Title: The Perron-Frobenius theorem and its application to a class of
+       dynamical
+       systems
+
+       Abstract:
+       The Perron-Frobenius theorem is a powerful and useful result about the
+       eigenvalues and eigenvectors of a non-negative matrix. I will not be
+       proving the theorem but will instead focus on its applications. In
+       particular, I will discuss how it can be used to understand the behaviour
+       of a certain class of dynamical systems, namely certain systems of
+       first-order ordinary differential equations where the couplings between
+       variables are specified by a graph. Some familiarity with graph theory will
+       be useful, but I will try to recapitulate all the basic concepts needed for
+       this talk.
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

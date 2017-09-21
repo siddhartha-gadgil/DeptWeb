@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.41.180 with SMTP id g20csp63493qel;
+        Tue, 2 Jul 2013 21:40:32 -0700 (PDT)
+X-Received: by 10.68.25.102 with SMTP id b6mr31664541pbg.105.1372826431591;
+        Tue, 02 Jul 2013 21:40:31 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.70])
+        by mx.google.com with ESMTPS id vv9si15337245pbc.325.2013.07.02.21.40.29
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 02 Jul 2013 21:40:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) client-ip=14.139.128.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r634eNuX015842;
+	Wed, 3 Jul 2013 10:10:23 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r634eJa2003822
+	for <m_seminar@math.iisc.ernet.in>; Wed, 3 Jul 2013 10:10:19 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r634eJJ7003819
+	for <m_seminar@math.iisc.ernet.in>; Wed, 3 Jul 2013 10:10:19 +0530
+Date: Wed, 3 Jul 2013 10:10:19 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 4th July, 2013: A-infinity algebras and the homotopy
+ transfer theorem
+Message-ID: <Pine.LNX.4.64.1307031003450.3262@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		      	 Department of Mathematics
+ 		  Indian Institute of Science, Bangalore
+
+
+ 		   GEOMETRY/TOPOLOGY INFORMAL SEMINAR
+
+
+Speaker	: Dr. Micah Miller
+ 	  IISc
+
+Title	: A-infinity algebras and the homotopy transfer theorem
+
+Date	: July 4, 2013
+
+Time	: 3:00 - 4:00 p.m.
+
+Venue	: Lecture Hall III, Department of Mathematics
+
+
+Abstract:
+We will introduce the notion of a differential graded algebra
+that is not strictly associative, but associative up to chain
+homotopy. Such objects are called A-infinity algebras or strong
+homotopy associative algebras.  The goal is to state and prove
+the Homotopy Transfer Theorem, which states that any chain
+complex that is chain homotopic to an A-infinity algebra has
+an A-infinity structure and the maps in the chain homotopy
+can be lifted to a map of A-infinity algebras.
+
+Prerequisites: Basic knowledge of topology -- mainly definition
+of chain complexes, chain maps, and chain homotopy.
+
+
+ 		     ALL ARE CORDIALLY INVITED
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

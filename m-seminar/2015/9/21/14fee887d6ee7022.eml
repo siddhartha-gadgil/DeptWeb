@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.38.135 with SMTP id m129csp1287242ywm;
+        Sun, 20 Sep 2015 23:12:46 -0700 (PDT)
+X-Received: by 10.140.235.9 with SMTP id g9mr21720355qhc.14.1442815966862;
+        Sun, 20 Sep 2015 23:12:46 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id x6si20262786qgx.9.2015.09.20.23.12.45;
+        Sun, 20 Sep 2015 23:12:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t8L6CcdK008236;
+	Mon, 21 Sep 2015 11:42:38 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t8L6MSVO001687;
+	Mon, 21 Sep 2015 11:52:28 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id t8L6MSvG001683;
+	Mon, 21 Sep 2015 11:52:28 +0530
+Date: Mon, 21 Sep 2015 11:52:28 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Reminder [Seminar] MATH : TODAY : "Bangalore Probability Seminar"
+Message-ID: <alpine.LFD.2.03.1509211148000.432@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-2067229113-1442816548=:432"
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t8L6CcdK008236
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.899, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-2067229113-1442816548=:432
+Content-Type: TEXT/PLAIN; format=flowed; charset=ISO-8859-15
+Content-Transfer-Encoding: 8BIT
+
+Dear all,
+
+Speaker: Chandan Pal (IISc)
+
+Time and date: 2:00 pm, 21st September, 2015
+
+Venue: LH-1, Dept. of Mathematics, IISc.
+
+Title: Risk-Sensitive Ergodic Control of Continuous Time Markov Processes
+With Denumerable State Space
+
+Abstract:  We study risk-sensitive control problem with controlled
+continuous time Markov chain state dynamics. Using multiplicative dynamic
+programming principle, we prove the existence and a characterization of
+optimal risk-sensitive control under geometric ergodicity of the state
+dynamics along with a smallness condition on the running cost.
+
+----------------------------------------------
+
+Speaker: Siva Athreya (ISI, Bengaluru)
+
+Time and date: 3:15 pm, 21st September, 2015
+
+Venue: LH-1, Dept. of Mathematics, IISc.
+
+Title : Harnack inequality for non-local Schrödinger operators
+
+Abstract :  We show a Harnack inequality for bounded positive solutions of
+a non-local Schrodinger operator. This is joint work with Koushik
+Ramachandran. http://arxiv.org/abs/1507.07289
+--------------------------------------------
+
+
+Manjunath Krishnapur
+Department of Mathematics
+Indian Institute of Science
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-2067229113-1442816548=:432--

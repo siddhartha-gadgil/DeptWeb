@@ -1,0 +1,106 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.6.34 with SMTP id 34csp374246iog;
+        Tue, 12 Aug 2014 02:40:32 -0700 (PDT)
+X-Received: by 10.68.196.226 with SMTP id ip2mr3280819pbc.120.1407836432449;
+        Tue, 12 Aug 2014 02:40:32 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id xk4si14018842pab.222.2014.08.12.02.40.29
+        for <multiple recipients>;
+        Tue, 12 Aug 2014 02:40:31 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s7C9eR61013469;
+	Tue, 12 Aug 2014 15:10:27 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s7C9eUxc001132
+	for <m_seminar@math.iisc.ernet.in>; Tue, 12 Aug 2014 15:10:30 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s7C9eUgw001121;
+	Tue, 12 Aug 2014 15:10:30 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 12 Aug 2014 09:40:30 -0000
+Message-ID: <8b2586b7b7e5cc1c9b76eced22dcafc2.squirrel@math.iisc.ernet.in>
+Date: Tue, 12 Aug 2014 09:40:30 -0000
+Subject: [Seminar] MATH : 18th August,  2014 : "Bangalore Probability
+ Seminar"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s7C9eR61013469
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all, there will be two lectures on Wednesday in the Bangalore
+probability seminar.
+
+    BANGALORE PROBABILITY SEMINAR
+
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+
+----------------------------------
+Speaker : Koushik Ramachandran (ISI, Bangalore)
+
+Title   : Asymptotic behavior of positive harmonic functions in some
+unbounded domains
+
+Date    : 18th August, 2014 (Monday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: This talk will concern asymptotic estimates at infinity for
+positive harmonic functions in a large class of non-smooth unbounded
+domains. These are domains whose sections, after rescaling, resemble a
+Lipschitz cylinder or a Lipschitz cone, e.g., various paraboloids and
+horns. We will also mention a few related results in probability, e.g
+harmonic measure (distribution of exit position of Brownian motion)
+estimates.
+
+
+
+Speaker : Subhroshekhar Ghosh (Princeton)
+
+Title   : Large deviations for random polynomials: exponential coefficients
+
+Date    : 18th August, 2014 (Monday)
+
+Time    : 3:15 - 4:15 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: We obtain a large deviations principle (in the space of
+probability measures on $\C$) for the empirical measure of zeroes of
+random polynomials with i.i.d. exponential coefficients. One of the key
+challenges here is the fact that the coefficients are a.s. all positive,
+which enforces a growing number of non-linear constraints on the locations
+of the zeroes. En route, we will discuss a recent characterization theorem
+of Bergweiler, Eremenko and Sokal, and its application in the proof of our
+main theorem.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

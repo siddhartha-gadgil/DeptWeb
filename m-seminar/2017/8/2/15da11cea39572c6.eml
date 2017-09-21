@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.12.199 with SMTP id 190csp5033079ivm;
+        Tue, 1 Aug 2017 21:03:33 -0700 (PDT)
+X-Received: by 10.98.70.27 with SMTP id t27mr21168922pfa.103.1501646613218;
+        Tue, 01 Aug 2017 21:03:33 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1501646613; cv=none;
+        d=google.com; s=arc-20160816;
+        b=fPRqObpUatmkCC1Htq9sb6Edzz3MpgCu13h5MK9alVM1rgN16E015oHFfpXr06tPcU
+         rHv0LwuGUPfvjpn78pMYazYC89eFCFxcDqUETDnGuMdKAiVkgx3ZM+3jc8KpblwRa/5Y
+         Sk7VmNGqdwxNrmksMRs+GM25+4it4mUbK0dKjmAWTOBh40epyU/XD6kqF/CFPfesce1o
+         cvsMCxZcvN1MwoCsOpOpg9coE/FjMR0VfENwb/u5tAIaxKlwXTIJCUwSPFsmCMvnug5s
+         5V6tqMkt1Y03BW7SFBaVgW5bFfADRp5MVtIlCuKdPe/4wv+Ygi30Q1I265awclDIwcKO
+         AcAw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=oKhpU3VH51LxI/5AHJ7b6VO/MJ74p14zNcVAbre8rSM=;
+        b=yKgzrXX72uBz77KdYy9YXA3gpTxbbxuoIW8xlGIrJHYGoH0ianddaKKGCwsr8Jj77x
+         dGaCBatqdFlEfYT84TOYzu/ARDWJ34b+WyyKMK0+5Ni4TTQ9nVOFnxm8mXUYqrS5yEnO
+         Y68n3fshJyszkiKk5fK83rnabesu9/NM+Je9PyzG/NI7FsKAzPIDr5h7swhwHVo0032n
+         2467xuzrixR/NCe13omDbMbassCewdAPIMttuuwH6aHUlmphkTtaJ5zvzjV/0wYrodR3
+         M6bWYaPQ4JODQXNRI/0EwRPlZwdqp6wz+m//0AF8hDZFDUMYq0yOJoG682lwwD4u/kf6
+         iuTQ==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=veluma@math.iisc.ernet.in
+Return-Path: <veluma@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.68])
+        by mx.google.com with ESMTP id k68si18881024pfg.535.2017.08.01.21.03.31;
+        Tue, 01 Aug 2017 21:03:33 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) client-ip=14.139.128.68;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of veluma@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=veluma@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id B960CAED9EB;
+	Wed,  2 Aug 2017 09:33:26 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v724X0Ai009316
+	for <m_seminar@math.iisc.ernet.in>; Wed, 2 Aug 2017 10:03:00 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v724X0Jk009315;
+	Wed, 2 Aug 2017 10:03:00 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to veluma@localhost using -f
+Received: from 10.134.10.23
+        (SquirrelMail authenticated user veluma)
+        by www.math.iisc.ernet.in with HTTP;
+        Wed, 2 Aug 2017 04:33:00 -0000
+Message-ID: <58422a3edbfcf90b0f0993ce61bd0911.squirrel@www.math.iisc.ernet.in>
+Date: Wed, 2 Aug 2017 04:33:00 -0000
+Subject: [Fwd: Math Dept Seminar Aug 2 (Malabika Pramanik)]
+From: veluma@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: B960CAED9EB.A7153
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FWD_MSG -1.00, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: veluma@math.iisc.ernet.in
+MailScanner-NULL-Check: 1502251407.99413@R/973Q53LQH7Q1M5BGa1iQ
+X-Spam-Status: No
+
+---------------------------- Original Message ----------------------------
+Subject: Math Dept Seminar Aug 2 (Malabika Pramanik)
+From:    mathseminars@math.iisc.ernet.in
+Date:    Mon, July 31, 2017 5:35 am
+To:      m_seminar@math.iisc.ernet.in
+--------------------------------------------------------------------------
+
+Speaker: Malabika Pramanik( UBC, Canada)
+
+Title: "For good measure ... and bad"
+
+Date : Aug 2, 2017
+
+Time : 3:30 pm
+
+Location : LH-1
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

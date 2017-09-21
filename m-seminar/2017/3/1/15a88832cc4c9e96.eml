@@ -1,0 +1,110 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp1543063obb;
+        Tue, 28 Feb 2017 22:16:22 -0800 (PST)
+X-Received: by 10.98.74.84 with SMTP id x81mr6814391pfa.172.1488348982929;
+        Tue, 28 Feb 2017 22:16:22 -0800 (PST)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id b128si3739011pfa.161.2017.02.28.22.16.19;
+        Tue, 28 Feb 2017 22:16:22 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 6C8A4AE9450;
+	Wed,  1 Mar 2017 11:46:07 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v216mXPd020486;
+	Wed, 1 Mar 2017 12:18:33 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id v216mXS7020483;
+	Wed, 1 Mar 2017 12:18:33 +0530
+Date: Wed, 1 Mar 2017 12:18:33 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+cc: manju@math.iisc.ernet.in
+Subject: Fwd: [Livingmachines] Dynamics Fridays, 03 Mar 3:00pm at ICTS, by
+ Anjali Jaiman (fwd)
+Message-ID: <alpine.LFD.2.03.1703011217430.20079@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1168693021-1488350913=:20079"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 6C8A4AE9450.AA7C8
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FWD_MSG -1.00, SUBJECT_MONTH -1.50,
+	URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1488953773.71824@uJTPeBiIqrWGG0gzek29bw
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1168693021-1488350913=:20079
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+---------- Forwarded message ----------
+From: "Sandeep Krishna" <sandeep@ncbs.res.in>
+Date: Feb 28, 2017 2:14 PM
+Subject: [Livingmachines] Dynamics Fridays, 03 Mar 3:00pm at ICTS, by Anjali Jaiman
+To: <livingmachines@lists.ncbs.res.in>
+Cc:
+
+       Hi Everyone,
+
+       The next Dynamics Fridays talk will be by Anjali Jaiman, NCBS, on
+       "Algorithmic Biosynthesis: Problems and Ideas for Assembling Branched Structures." Abstract is appended at the end of this email.
+
+       Venue: ICTS, Emmy Noether Room
+       Date: Friday 03 Mar, 2017,
+       Time: 3:00pm
+
+       All are welcome!
+       Best,
+       Amit Apte, Shashi Thutupalli, Sandeep Krishna
+
+       ---------------------------------------------------------------------------
+       p.s. about the series:
+
+       **dynamics fridays** -- a seminar series about complex systems, dynamical systems, and computer science approaches to various problems, particularly in
+       biology and physics.
+
+       the format: informal, (preferably) chalk board talks with the aim of stimulating discussion. new results and ideas rather than completed projects / polished
+       presentations are particularly encouraged. talks are about an hour long.
+
+       when is it: fridays at 15:00 (once every 4 weeks)
+
+       where is it: alternating between ncbs (ground floor of simons centre) and icts (usually emmy noether room).
+
+       for calendar see: https://theory.ncbs.res.in/dynamics-fridays
+       ----------------------------------------------------------------------------
+       Title and abstract for the talk on Friday 3rd, 3:00pm, by Anjali Jaiman, NCBS.
+
+Title: Algorithmic Biosynthesis: Problems and Ideas for Assembling Branched Structures
+
+Abstract: I will give an overview of what I know about glycosylation, the post-translational addition of branched oligosaccharides to a secreted or transmembrane
+protein. Many glycans seem to be  encode information about a cell-type and cell state, and so reproducible synthesis of individual glycans or sets of glycans
+appears to be important, with many disease (genetic, infectious and cancerous) symptoms caused by misexpressed glycans. Cells and organisms do not produce a single
+structure, but a stereotyped subset of structures. I will discuss why this is an interesting assembly problem, and what the difficulties are in generating such
+structure assemblies. Then I will discuss some ways to think about designing algorithms to general these kinds of assemblies.
+
+
+
+_______________________________________________
+Livingmachines mailing list
+Livingmachines@lists.ncbs.res.in
+http://lists.ncbs.res.in/mailman/listinfo/livingmachines
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1168693021-1488350913=:20079--

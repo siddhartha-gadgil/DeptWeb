@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.32.193 with SMTP id l1csp2194603iei;
+        Fri, 1 Jan 2016 00:11:03 -0800 (PST)
+X-Received: by 10.66.232.202 with SMTP id tq10mr102526772pac.156.1451635863864;
+        Fri, 01 Jan 2016 00:11:03 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id jh7si27084470pac.115.2016.01.01.00.11.02;
+        Fri, 01 Jan 2016 00:11:03 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id u018ArKm028734;
+	Fri, 1 Jan 2016 13:40:53 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u018IosR005324
+	for <m_seminar@math.iisc.ernet.in>; Fri, 1 Jan 2016 13:48:50 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u018IoKU005323;
+	Fri, 1 Jan 2016 13:48:50 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.12 (proxying for 192.68.254.4)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 1 Jan 2016 08:18:50 -0000
+Message-ID: <0af552a71c20401576c80eb3a4acc6b6.squirrel@math.iisc.ernet.in>
+Date: Fri, 1 Jan 2016 08:18:50 -0000
+Subject: [Reminder: Math Dept Seminar Today (Bruno Kahn)]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: u018ArKm028734
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Title: A motivic formula for the $L$-function of an abelian variety over a
+function field
+
+Speaker: Bruno Kahn, University of Paris VI
+
+Date: Jan 1, 2016
+
+Time: 4 pm
+
+Location: LH-1
+
+If $A$ is an abelian variety over a global field $K$, its $L$-function
+$L(A,s)$ is the object of the famous Birch and Swinnerton-Dyer conjecture.
+It is known that the case where $K$ has positive characteristic is easier
+than the one where $K$ is a number field: for example, it is known in the
+positive characteristic case that the rank of $A$ is bounded above by the
+analytic rank. I will revisit this result by giving a formula for $L(A,s)$
+in terms of zeta functions of motives associated to $A$, defined over the
+field of constants of $K$ (a finite field). Further applications will be
+given if time permits.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

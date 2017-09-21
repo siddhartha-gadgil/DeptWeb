@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.135.7 with SMTP id i7cs251070wad;
+        Tue, 31 Jul 2007 05:11:40 -0700 (PDT)
+Received: by 10.67.29.7 with SMTP id g7mr538258ugj.1185883899906;
+        Tue, 31 Jul 2007 05:11:39 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id b30si8297506ika.2007.07.31.05.02.51;
+        Tue, 31 Jul 2007 05:11:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 144.16.79.122 as permitted sender)
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id l6VBopjU022481;
+	Tue, 31 Jul 2007 17:20:51 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id l6VHJjMo031530;
+	Tue, 31 Jul 2007 17:19:45 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id l6VHJjtm031527;
+	Tue, 31 Jul 2007 17:19:45 GMT
+Date: Tue, 31 Jul 2007 17:19:45 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Message-ID: <Pine.LNX.4.61.0707311718330.31369@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+Subject: Maths : Change of Date: 1st August 2007 : Seminar - "The arithmetic of elliptic surfaces"
+X-Spam-Status: No
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              :  Dr. Ritabrata Munshi,
+ 				Rutgers University, USA
+
+      Title                :  The arithmetic of elliptic
+           			surfaces
+
+      Day & Date           :  Wedensday, August 1.
+
+      Time                 :  2.00  p.m.
+
+      Venue                :  Lecture  Hall -  I
+                              Dept. of  Mathematics
+
+    Abstract:
+ 	A family of elliptic curves (or an elliptic surface) is given by a 
+Weierstrass equation
+
+ 	E_t : y^2= x^3+ A(t)x + B(t),
+
+where A(t) and B(t) are polynomials. Little is known about the rational points 
+on such families. However there are interesting predictions. For example, a 
+conjecture of Mazur states that if one fiber E_t has infinite number of 
+rational points, then there is a dense set of fibers with infinite number of 
+rational points. In the special case when deg A<= 4 and deg B<= 6, there is a 
+more precise conjecture of Manin about the number of rational points of a fixed 
+height. In this talk I will describe recent results towards these conjectures. 
+I will also discuss other open problems regarding distribution of Mordell-Weil 
+ranks.
+
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

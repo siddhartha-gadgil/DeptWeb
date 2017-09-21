@@ -1,0 +1,117 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.114.229 with SMTP id jj5csp131815oab;
+        Wed, 27 Jun 2012 08:04:24 -0700 (PDT)
+Received: by 10.68.224.233 with SMTP id rf9mr65201145pbc.141.1340809463688;
+        Wed, 27 Jun 2012 08:04:23 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id qg1si21076214pbc.240.2012.06.27.08.04.22
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 27 Jun 2012 08:04:23 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q5RF4GYX025104;
+	Wed, 27 Jun 2012 20:34:16 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q5RF4Cn2022887
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jun 2012 20:34:12 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q5REv08m006192
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jun 2012 20:27:03 +0530
+Received: by obbta17 with SMTP id ta17so2320908obb.22
+        for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jun 2012 08:03:59 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=WtS3ot2xeTtf3pZg1MlrdVYKVilOzeP8jneMFGg7kpk=;
+        b=nvK49kQfEZF2CILdpz5rsszlZU6rHYhQlbApgN9KswId/EJRbOiQmbjigAGWO1rY5u
+         khk34wY1sK4WWKbIPgkzTxFP9UXDFrLmq+Yy+W9CV4+kqA563vyUpNHB48U7faOISR86
+         F1rRX/SlzAkQ5v3alTY3/4FcqJ5Z5EI3YJmtUHd0AhdoIWw2tcdqo1Hdaos3kwSz0zWj
+         FpLZTinz7TnwB9hSGr9NaDOmxK+eZpvUo8CLDM2svbFPF1xnPwiu5rD7DUDqbswHNuDq
+         W45yHHHz7ILkuUj0SSYm4QHF4QVQGllpSz7ak5wjzsYNUQnDdBKxlRLMtggJqRKB1Sux
+         6+9Q==
+MIME-Version: 1.0
+Received: by 10.182.52.42 with SMTP id q10mr20981120obo.46.1340809439681; Wed,
+ 27 Jun 2012 08:03:59 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Wed, 27 Jun 2012 08:03:59 -0700 (PDT)
+In-Reply-To: <CAHEur2STDiLAQXYVjztNQA4KTUqn7Y-v5__qq0F56y6aBEeGVw@mail.gmail.com>
+References: <CAHEur2STDiLAQXYVjztNQA4KTUqn7Y-v5__qq0F56y6aBEeGVw@mail.gmail.com>
+Date: Wed, 27 Jun 2012 20:33:59 +0530
+X-Google-Sender-Auth: G-y38I1nxvHJ-jxYud58y7pXylQ
+Message-ID: <CAHEur2Rvz6LAfv3pKp1Dv0gNjjKz1MYJ5m+8Cqq+Szv6q8g=fA@mail.gmail.com>
+Subject: [Colloquium] Math: Today: "Masas and Bimodule Decompositions of
+ $\rm{II}_{1}$ factors"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.7,
+	required 6.5, BAYES_20 1.50, RCVD_IN_DNSWL_LOW -0.70,
+	SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached,
+	score=-2.49, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q5RF4GYX025104
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematics
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 COLLOQUIUM
+
+
+
+
+Speaker : Dr.=A0Kunal Mukherjee
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0IMSc, Chennai.
+
+Title =A0 :=A0Masas and Bimodule Decompositions of $\rm{II}_{1}$ factors
+
+Date =A0 =A0: June 28,=A02012
+
+Time =A0 =A0: 4:00 - 5:00 p.m.
+
+Venue =A0 : Department of Mathematics, Lecture Hall I
+
+Abstract:
+von Neumann algebras are non commutative analogue of measure spaces. The
+study of maximal abelian subalgebras (masas) in finite von Neumann
+algebras is classical to the subject from its birth and is closely tied up
+with Ergodic theory. Dixmier introduced two types of masas, namely,
+regular (Cartan) and singular. The philosophies of these two kinds of
+masas until recently were regarded as being different from each other.
+After an introduction on the subject, we justify that the existing
+theories can be unified. Using techniques from Free Probability and
+playing with suitable amenable groups we exhibit: For each subset S of
+$\mathbb{N}$ (could be empty), there exist uncountably many pairwise non
+conjugate (by automorphism) singular masas in the free group factors for
+each of which $S\cup {\infty\}$ arises as its Pukanzsky invariant
+(multiplicity function). If time permits, some other issues related to
+mixing, coarse bimodules, and Banach's problem on simple Lebesgue spectrum
+will be addressed.
+
+
+
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALL ARE CORDIALLY INVITED.
+
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

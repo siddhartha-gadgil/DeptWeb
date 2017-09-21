@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.129.225 with SMTP id nz1csp933092ieb;
+        Thu, 18 Feb 2016 22:56:41 -0800 (PST)
+X-Received: by 10.202.185.214 with SMTP id j205mr10100650oif.68.1455865001092;
+        Thu, 18 Feb 2016 22:56:41 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with SMTP id di4si4325156oeb.17.2016.02.18.22.56.28;
+        Thu, 18 Feb 2016 22:56:40 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 51C99AE029B;
+	Fri, 19 Feb 2016 12:25:17 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u1J73ASj012903
+	for <m_seminar@math.iisc.ernet.in>; Fri, 19 Feb 2016 12:33:10 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id u1J73AKO012902;
+	Fri, 19 Feb 2016 12:33:10 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.25.135 (proxying for 93.232.212.4)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 19 Feb 2016 07:03:10 -0000
+Message-ID: <016fc5345571bfb3fda71e0ada493a62.squirrel@math.iisc.ernet.in>
+Date: Fri, 19 Feb 2016 07:03:10 -0000
+Subject: [Reminder: Math Dept Seminar Today (Sofia Castillo)]
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 51C99AE029B.AB4C8
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.206, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -0.01)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1456469719.37842@dqW8/ZsuykC/zrNSdX4U1A
+X-Spam-Status: No
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Speaker: Sofia Ortega Castillo
+
+Affiliation: CIMAT Mexico
+
+Title/Abstract:  Strong pseudoconvexity in Banach spaces and applications
+
+Date: 19th Feb.
+
+Time/Venue: 3 - 4pm
+
+Location: LH 3
+
+Abstract: Having been unclear how to widely define strong (or strict)
+pseudoconvexity in the infinite-dimensional context, we compared the
+concept in the smooth-boundary case with strict convexity. As a result, w=
+e
+accomplished establishing definitions of local uniform pseudoconvexity,
+uniform pseudoconvexity and strict pseudoconvexity for open and bounded
+subsets of a Banach space. We will see examples of Banach spaces with
+uniformly pseudoconvex unit ball, as well as examples of Banach spaces
+whose unit ball is not even strictly pseudoconvex. As an application of
+the techniques developed, we show that in finite dimension the concept of
+strict plurisubharmonicity coincides with strict plurisubharmonicity
+in distribution.
+
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

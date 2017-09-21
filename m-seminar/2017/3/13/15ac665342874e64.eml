@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp925712obb;
+        Sun, 12 Mar 2017 23:40:05 -0700 (PDT)
+X-Received: by 10.99.185.74 with SMTP id v10mr35192465pgo.98.1489387205904;
+        Sun, 12 Mar 2017 23:40:05 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id e39si17302005plg.309.2017.03.12.23.40.04;
+        Sun, 12 Mar 2017 23:40:05 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 81B4CAE9958;
+	Mon, 13 Mar 2017 12:09:54 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v2D7C824028900;
+	Mon, 13 Mar 2017 12:42:08 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id v2D7C3CL028896;
+	Mon, 13 Mar 2017 12:42:03 +0530
+Date: Mon, 13 Mar 2017 12:42:03 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Reminder [Seminar] MATH : TODAY : "Bangalore Probability Seminar"
+Message-ID: <alpine.LFD.2.03.1703131241070.26017@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-587932067-1488897636=:20377"
+Content-ID: <alpine.LFD.2.03.1703131241071.26017@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 81B4CAE9958.A8AC5
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1489991998.81728@VNHD+dOhaZAELnxGRiFFEg
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-587932067-1488897636=:20377
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1703131241072.26017@math.iisc.ernet.in>
+
+Dear All,
+
+      BANGALORE PROBABILITY SEMINAR
+
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+
+
+Speaker: Rishideep Roy (IIM Bangalore)
+
+Title: Extremes of log-correlated Gaussian fields
+
+Date and time: 13th March (Monday), 2:15pm – 3:15pm
+
+Venue: LH-1, Dept. of Mathematics, IISc
+
+Abstract: Extreme values and entropic repulsion for two-dimensional discrete 
+Gaussian free fields are of significant interest and have been a subject of 
+many recent works. Our work is on a general class of Gaussian fields with 
+logarithmic correlations, of which the discrete Gaussian free field in 2 
+dimension is a particular example. We will first conclude tightness for this 
+field from the correlation structure. It also involves defining a general class 
+of models with some assumptions on the covariance structure at microscopic and 
+macroscopic levels which are good enough to ensure convergence of distribution 
+of the maximum, after appropriate centering.
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-587932067-1488897636=:20377--

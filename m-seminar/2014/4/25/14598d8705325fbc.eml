@@ -1,0 +1,93 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp19135lbb;
+        Fri, 25 Apr 2014 05:24:53 -0700 (PDT)
+X-Received: by 10.66.122.101 with SMTP id lr5mr7519100pab.130.1398428692807;
+        Fri, 25 Apr 2014 05:24:52 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id oz6si4750283pac.133.2014.04.25.05.24.49
+        for <multiple recipients>;
+        Fri, 25 Apr 2014 05:24:52 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s3PCOhUd032681;
+	Fri, 25 Apr 2014 17:54:43 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s3PCMUUK001476
+	for <m_seminar@math.iisc.ernet.in>; Fri, 25 Apr 2014 17:52:30 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s3PCMUGD001471;
+	Fri, 25 Apr 2014 17:52:30 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 25 Apr 2014 12:22:30 -0000
+Message-ID: <76433376555b1f6e79cff69e7b5f1ceb.squirrel@math.iisc.ernet.in>
+Date: Fri, 25 Apr 2014 12:22:30 -0000
+Subject: [M. S.  Thesis  Colloquium] Math: April 29th, 2014: An Introduction
+ to Minimal Surfaces
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                           M. S. THESIS  COLLOQUIUM
+
+
+
+Speaker : Mr.  Devang S Ram Mohan
+          IISc
+
+Title   : An Introduction to Minimal Surfaces
+
+Date    : 29th April, 2014 (Tuesday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+In this presentation we briefly recall some results on harmonic maps.
+Subsequently, we introduce the concept of minimal surfaces. After
+exploring a few examples, we mathematically formulate Plateau's problem
+regarding the existence of a soap film spanning each closed, simple wire
+frame and discuss a solution. In conclusion, certain partial results
+regarding the uniqueness of such a soap film are discussed.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

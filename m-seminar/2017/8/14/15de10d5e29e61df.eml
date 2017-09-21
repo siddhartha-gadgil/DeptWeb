@@ -1,0 +1,123 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.12.199 with SMTP id 190csp3274731ivm;
+        Mon, 14 Aug 2017 07:02:16 -0700 (PDT)
+X-Received: by 10.98.80.208 with SMTP id g77mr25748818pfj.139.1502719336757;
+        Mon, 14 Aug 2017 07:02:16 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1502719336; cv=none;
+        d=google.com; s=arc-20160816;
+        b=yJqNEDJ+d6ceFqfIStJ8KlNv3wPj2QPpL6hEf/E316j/+bOLFTxAZFBg7FT3hhrGZZ
+         isr5VckES7cRzC6TaKgQ50OeAQB85OwTMimxvZ5o4seg1iTeawS6EBeh5CFz9WS84sda
+         yLCPTyn4W6QlYaWvRw7KRRaAKaYClZBn1HphxN9eO3fqVIT5yh0VOh3gIYOsQFKMNc7+
+         j6f9+Uc0P5VijEvuARWphtvcuQ8l93vcZRaWPpI8ldh/HrtxizzFZjprYvG8DsN6O6fZ
+         kMBZbg2vkk0bkYJXCz5cZhdHNELvLkvvwW8M9yg8g/l5B/p/BTvXy5cTu9CBWMTQ7dET
+         CvxA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:reply-to:cc:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=+iJBrA3isa7F0GJDm4qEKpeUHAcKdfa+4lg0FLI+/N4=;
+        b=xEQPIpS/4xv89ANCrLM/1rzf7whVw+TCc0VhvAtCsaX5i5Gbtnqx/jscjd3hIDMP0M
+         VuYUOAAFJ5h9eEebJ5ux4ZP6aBZUU589P8z/N51I8hVg6I94tAm6U1SwgnWeU+CHrY1/
+         Hzc+W1fUXqqOu8EKFfii/A1TaMmFv2SMk3qPfubF036CMhE0J62xrBPmyaOSe84hOVrc
+         drKZTCEQ8itYLNG8pYNi6/cZvdXLO6/d6Lt7dkbfViTGAlIcDtQKorXwsCawSUygKBOA
+         bKAUpXZIP4jH9G2enC6D9EgH96vy7mUhRXHv9e5F1LVoQvruf1ncvM7p6lRb3jTfi81r
+         uhjw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of vamsipingali@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=vamsipingali@math.iisc.ernet.in
+Return-Path: <vamsipingali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.68])
+        by mx.google.com with ESMTP id d9si4126327pga.133.2017.08.14.07.02.14;
+        Mon, 14 Aug 2017 07:02:15 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of vamsipingali@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) client-ip=14.139.128.68;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of vamsipingali@math.iisc.ernet.in designates 14.139.128.68 as permitted sender) smtp.mailfrom=vamsipingali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 6A65FAED682;
+	Mon, 14 Aug 2017 19:32:04 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v7EElOnx018425;
+	Mon, 14 Aug 2017 20:17:24 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v7EElOiH018424;
+	Mon, 14 Aug 2017 20:17:24 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to vamsipingali@math.iisc.ernet.in using -f
+Received: from 10.16.25.136 (proxying for 124.123.52.34)
+        (SquirrelMail authenticated user vamsipingali)
+        by www.math.iisc.ernet.in with HTTP;
+        Mon, 14 Aug 2017 20:17:24 +0530
+Message-ID: <dfdfcab595b5a76d3da19e00c55dc50a.squirrel@www.math.iisc.ernet.in>
+Date: Mon, 14 Aug 2017 20:17:24 +0530
+Subject: [Seminar] Eigenfunctions 18th August
+From: "Vamsi Pritham Pingali" <vamsipingali@math.iisc.ernet.in>
+To: broadcast@iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+Reply-To: vamsipingali@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 6A65FAED682.A7D30
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.699, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, MR_NOT_ATTRIBUTED_IP 0.20, RM_KNOWN_WEBMAIL -1.50,
+	SUBJECT_MONTH -1.50, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: vamsipingali@math.iisc.ernet.in
+MailScanner-NULL-Check: 1503324129.29942@ws07LZlvYSDKDCEDJLpEwg
+X-Spam-Status: No
+
+Dear All,
+
+ -----------------------------------------------------
+DEPARTMENT OF MATHEMATICS
+INDIAN INSTITUTE OF SCIENCE
+
+
+EIGENFUNCTIONS SEMINAR
+
+
+Title               : "From I.Schur to T.Tao: the history of matrix
+positivity preservers"
+
+Speaker             : Dr. Apoorva Khare (IISc Mathematics)
+
+Date                : Friday, 18 August, 2017
+
+Time                : 3 PM - 5:15 PM (with a 15 minute break)
+
+Venue               : Lecture Hall LH-1, Mathematics Department
+
+
+Abstract:
+
+I will give a gentle historical (and ongoing) account of matrix positivity
+and of operations that preserve it. This is a classical question studied
+for much of the past century, including by Schur, Polya-Szego, Schoenberg,
+Kahane, Loewner, and Rudin. It continues to be pursued actively, for both
+theoretical reasons as well as applications to high-dimensional covariance
+estimation. I will end with some recent joint work with Terence Tao
+(UCLA).
+
+The entire talk should be accessible given a basic understanding of linear
+algebra/matrices and one-variable calculus. That said, I will occasionally
+insert technical details for the more advanced audience. For example: this
+journey connects many seemingly distant mathematical topics, from Schur
+(products and complements), to spheres and Gram matrices, to Toeplitz and
+Hankel matrices, to rank one updates and Rayleigh quotients, to
+Cauchy-Binet and Jacobi-Trudi identities, back full circle to Schur
+(polynomials).
+
+URL: http://math.iisc.ac.in/seminars2017/aug18.htm
+-----------------------------------------------------
+
+Yours faithfully,
+Vamsi Pritham Pingali
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

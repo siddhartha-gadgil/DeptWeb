@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.135.209 with SMTP id r78csp21936ioi;
+        Fri, 14 Nov 2014 01:25:14 -0800 (PST)
+X-Received: by 10.68.189.67 with SMTP id gg3mr1485808pbc.158.1415957113535;
+        Fri, 14 Nov 2014 01:25:13 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id ij5si19663974pac.202.2014.11.14.01.25.11
+        for <multiple recipients>;
+        Fri, 14 Nov 2014 01:25:13 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id sAE9P8SX026979;
+	Fri, 14 Nov 2014 14:55:08 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sAE9ZGJp029710
+	for <m_seminar@math.iisc.ernet.in>; Fri, 14 Nov 2014 15:05:16 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sAE9ZG2N029703;
+	Fri, 14 Nov 2014 15:05:16 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 14 Nov 2014 09:35:16 -0000
+Message-ID: <0185001335b8755d957d4f2d378e7010.squirrel@math.iisc.ernet.in>
+Date: Fri, 14 Nov 2014 09:35:16 -0000
+Subject: [Seminar] Math: November 19th, 2014: Statistics in the Anderson
+ Model
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: sAE9P8SX026979
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof. Krishna Maddaly
+          IMSc
+
+Title   : Statistics in the Anderson Model
+
+Date    : 19th November, 2014 (Wednesday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract
+It was shown by Minami that the local statistics of eigenvalues in the
+Anderson model is Poisson.  In this work with Peter Hislop we show that
+for the Anderson model with higher rank perturbations, which includes the
+dimer model, the statistics is Compound Poisson in general.  This result
+is also valid for the random Schrodinger operator with i.i.d potentials.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

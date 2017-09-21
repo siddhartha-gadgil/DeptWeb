@@ -1,0 +1,235 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp354063ieb;
+        Mon, 8 Aug 2016 23:34:26 -0700 (PDT)
+X-Received: by 10.67.16.65 with SMTP id fu1mr19462947pad.145.1470724466197;
+        Mon, 08 Aug 2016 23:34:26 -0700 (PDT)
+Return-Path: <ek.narayanan@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.71])
+        by mx.google.com with ESMTP id p6si41107826pfi.102.2016.08.08.23.34.25;
+        Mon, 08 Aug 2016 23:34:26 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning ek.narayanan@gmail.com does not designate 203.200.35.71 as permitted sender) client-ip=203.200.35.71;
+Authentication-Results: mx.google.com;
+       dkim=neutral (body hash did not verify) header.i=@gmail.com;
+       spf=softfail (google.com: domain of transitioning ek.narayanan@gmail.com does not designate 203.200.35.71 as permitted sender) smtp.mailfrom=ek.narayanan@gmail.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 4B0F8AE3380;
+	Tue,  9 Aug 2016 12:04:24 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u796cEjH001495
+	for <m_seminar@math.iisc.ernet.in>; Tue, 9 Aug 2016 12:08:14 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'ek.narayanan@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="ek.narayanan@gmail.com"; helo=mail-wm0-f50.google.com; client-ip=74.125.82.50
+Received: from mail-wm0-f50.google.com (mail-wm0-f50.google.com [74.125.82.50])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id 3A955AE02AC
+	for <m_seminar@math.iisc.ernet.in>; Tue,  9 Aug 2016 12:04:08 +0530 (IST)
+Received: by mail-wm0-f50.google.com with SMTP id f65so13729588wmi.0
+        for <m_seminar@math.iisc.ernet.in>; Mon, 08 Aug 2016 23:33:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=XdcmQJKNsB83f9942Qv7jqIceAX9G+wpUpmyHW4UF6s=;
+        b=otcCD88J5gRXDKW/IbiSXnZ549wtUKbdzx4K82w0FJ5qauGBGzUU31TIvKb3i3fhSx
+         aow0hJ3sSsidcQFCFOJfJ7FT0PdaGgkAUFiXddTITveXx6wsbOyM837JVq8RMWh/UIUl
+         lwKMDd77EwOFNRqOxeqZCsNXCpQpDQ74ZAYoyrkFCcuE0DjxAmSYgebWVJx7A/0tZO7u
+         iaB7G03NZUIHHqoNiLG/FJUr0Vn/jHmc+vk/C21wJJY2tg1G2n0336K1Asl53etd1ULI
+         QRBpmXFfApokoQ+69a39XjR78NwIeqAJ0HtMh5OarchkKyGJ/BI8ULGNm30o084a6IwH
+         prCA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=XdcmQJKNsB83f9942Qv7jqIceAX9G+wpUpmyHW4UF6s=;
+        b=QEl2VBwoWaubkVt0aKoQ/vZBT+8KF4n4/gwQYfRLGzaG2Y73bebz4F8scxIQGg/j+4
+         nFmIPb/wm1udimMx59ZIgxH5PM9OVm1GBHlUMWPVbMrDT9+Jd6DbX8us7ez888AF0HnU
+         9aufbvLAgq7zDBW8tLBV6hzWP3Fs8yFospEPYQbjzbM/g7UAK9u9qfB2pZxlMPyf4Vcz
+         9dxi7Dy8n1dHgpZKBy2bk6vUD8r6CW61fcdAFYW/TH1H8YmHKJS5QzjFBfAgGDjrwnhE
+         5NLwHYhpSygo098kHevrTrHvzOdYbNQkcvwJWIv9vBeWVAG/qECVdDZ1t59RYKFxQUy3
+         LuYg==
+X-Gm-Message-State: AEkooutfAMWfw5kB2s/enXOUsL8mIeFtNd6Jx65058pSe4ftMu/zsdP4zX+/rUyaa7ZcCd8YggcRc/1RxVVceg==
+X-Received: by 10.194.118.70 with SMTP id kk6mr27281879wjb.180.1470724425622;
+ Mon, 08 Aug 2016 23:33:45 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.28.131.212 with HTTP; Mon, 8 Aug 2016 23:33:45 -0700 (PDT)
+In-Reply-To: <784cedc1a94776a3375f75feb6d0c58a.squirrel@math.iisc.ac.in>
+References: <784cedc1a94776a3375f75feb6d0c58a.squirrel@math.iisc.ac.in>
+From: "E.K. Narayanan" <ek.narayanan@gmail.com>
+Date: Tue, 9 Aug 2016 12:03:45 +0530
+Message-ID: <CAO+GV45z9jBqjmD=zVmTBnAkGAcT1WB7e4nKau=RtDwSvbDHmg@mail.gmail.com>
+Subject: Fwd: [TALK] Math: 16th Aug: On residues of certain intertwining operators
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=001a1130d250f3bd4505399db641
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.619, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, DKIM_VALID -0.10, DKIM_VALID_AU -0.10,
+	FREEMAIL_FROM 0.00, FWD_MSG -1.00, MR_NOT_ATTRIBUTED_IP 0.20,
+	RCVD_IN_DNSWL_LOW -0.70, RCVD_IN_MSPIKE_H3 -0.01,
+	RCVD_IN_MSPIKE_WL -0.01, RCVD_IN_SORBS 0.30, SPF_PASS -0.00,
+	SUBJECT_MONTH -1.50, URIBL_BLOCKED 0.00, _FROM_NON_IISC 0.10), 
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 4B0F8AE3380.A5107
+X-IISc-MailScanner-From: ek.narayanan@gmail.com
+MailScanner-NULL-Check: 1471329269.12332@+y7SOtv97dn6pw6y0I+tSA
+
+
+--001a1130d250f3bd4505399db641
+Content-Type: text/plain; charset=UTF-8
+
+The talk is at 4pm!
+
+
+
+
+---------- Forwarded message ----------
+From: <naru@math.iisc.ernet.in>
+Date: Tue, Aug 9, 2016 at 10:00 AM
+Subject: [TALK] Math: 16th Aug: On residues of certain intertwining
+operators
+To: broadcast@iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+
+
+Dear all,
+
+
+Title: On residues of certain intertwining operators
+
+Speaker:  Sandeep Varma (TIFR, Mumbai)
+
+Date: 16th Aug, Tuesday
+
+Venue: LH-I, Department of Mathematics
+
+Abstract:
+
+Let $\G$ be a connected reductive group over a finite extension
+$F$ of $\mathbb{Q}_p$. Let $\P = \M \N$ be a Levi decomposition of
+a maximal parabolic subgroup of $\G$, and $\sigma$ an irreducible unitary
+supercuspidal representation of $\M(F)$. One can then consider the
+representation $\text{Ind}_{\P(F)}^{\G(F)} \sigma$ (normalized parabolic
+induction). This induced representation is known to be either irreducible
+or of length two. The question of when it is irreducible turns out to be
+(conjecturally) related to local $L$-functions, and also to poles of
+a family of so called intertwining operators.
+
+This calls for:
+(a)  computing residues of certain families of intertwining operators;
+
+and
+
+(b) interpreting these residues suitably.
+
+
+There is an approach pioneered by Freydoon Shahidi to implement such a
+programme, which was developed further by him as well as by David
+Goldberg, Steven Spallone, Wen-Wei Li and Xiaoxiang Yu,
+in several cases (i.e., for various choices of $\G$ and $\P$). We will
+discuss (b) above for some of the cases where only (a) was known
+previously, and also (a) for some new cases.
+
+
+E. K. Narayanan
+Department of Mathematics
+Indian Institute of Science
+Bangalore 560012
+
+
+--
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+
+
+-- 
+
+E. K. Narayanan
+Associate Professor
+Department of Mathematics
+Indian Institute of Science
+Bangalore - 560012
+Ph:91-80-2293 3270
+
+http://www.math.iisc.ernet.in/~naru
+***************************************************
+
+--001a1130d250f3bd4505399db641
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small"><br=
+></div><div class=3D"gmail_default" style=3D"font-size:small">The talk is a=
+t 4pm!<br><br><br></div><div class=3D"gmail_default" style=3D"font-size:sma=
+ll"><br><br></div><div class=3D"gmail_quote">---------- Forwarded message -=
+---------<br>From: <b class=3D"gmail_sendername"></b> <span dir=3D"ltr">&lt=
+;<a href=3D"mailto:naru@math.iisc.ernet.in">naru@math.iisc.ernet.in</a>&gt;=
+</span><br>Date: Tue, Aug 9, 2016 at 10:00 AM<br>Subject: [TALK] Math: 16th=
+ Aug: On residues of certain intertwining operators<br>To: <a href=3D"mailt=
+o:broadcast@iisc.ernet.in">broadcast@iisc.ernet.in</a><br>Cc: <a href=3D"ma=
+ilto:m_seminar@math.iisc.ernet.in">m_seminar@math.iisc.ernet.in</a><br><br>=
+<br>Dear all,<br>
+<br>
+<br>
+Title: On residues of certain intertwining operators<br>
+<br>
+Speaker:=C2=A0 Sandeep Varma (TIFR, Mumbai)<br>
+<br>
+Date: 16th Aug, Tuesday<br>
+<br>
+Venue: LH-I, Department of Mathematics<br>
+<br>
+Abstract:<br>
+<br>
+Let $\G$ be a connected reductive group over a finite extension<br>
+$F$ of $\mathbb{Q}_p$. Let $\P =3D \M \N$ be a Levi decomposition of<br>
+a maximal parabolic subgroup of $\G$, and $\sigma$ an irreducible unitary<b=
+r>
+supercuspidal representation of $\M(F)$. One can then consider the<br>
+representation $\text{Ind}_{\P(F)}^{\G(F)} \sigma$ (normalized parabolic<br>
+induction). This induced representation is known to be either irreducible<b=
+r>
+or of length two. The question of when it is irreducible turns out to be<br>
+(conjecturally) related to local $L$-functions, and also to poles of<br>
+a family of so called intertwining operators.<br>
+<br>
+This calls for:<br>
+(a)=C2=A0 computing residues of certain families of intertwining operators;=
+<br>
+<br>
+and<br>
+<br>
+(b) interpreting these residues suitably.<br>
+<br>
+<br>
+There is an approach pioneered by Freydoon Shahidi to implement such a<br>
+programme, which was developed further by him as well as by David<br>
+Goldberg, Steven Spallone, Wen-Wei Li and Xiaoxiang Yu,<br>
+in several cases (i.e., for various choices of $\G$ and $\P$). We will<br>
+discuss (b) above for some of the cases where only (a) was known<br>
+previously, and also (a) for some new cases.<br>
+<br>
+<br>
+E. K. Narayanan<br>
+Department of Mathematics<br>
+Indian Institute of Science<br>
+Bangalore 560012<br>
+<span class=3D"HOEnZb"><font color=3D"#888888"><br>
+<br>
+--<br>
+This message has been scanned for viruses and<br>
+dangerous content by MailScanner, and is<br>
+believed to be clean.<br>
+<br>
+</font></span></div><br><br clear=3D"all"><br>-- <br><div class=3D"gmail_si=
+gnature" data-smartmail=3D"gmail_signature"><br>E. K. Narayanan<br>Associat=
+e Professor<br>Department of Mathematics<br>Indian Institute of Science<br>=
+Bangalore - 560012<br>Ph:91-80-2293 3270<br><br><a href=3D"http://www.math.=
+iisc.ernet.in/~naru" target=3D"_blank">http://www.math.iisc.ernet.in/~naru<=
+/a><br>***************************************************<br></div>
+</div>
+
+--001a1130d250f3bd4505399db641--

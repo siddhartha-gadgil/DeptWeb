@@ -1,0 +1,79 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.151.150.19 with SMTP id c19cs170818ybo;
+        Tue, 11 Aug 2009 01:07:20 -0700 (PDT)
+Received: by 10.114.12.14 with SMTP id 14mr1029682wal.209.1249978039731;
+        Tue, 11 Aug 2009 01:07:19 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.66])
+        by mx.google.com with ESMTP id 9si16828823pzk.78.2009.08.11.01.07.17;
+        Tue, 11 Aug 2009 01:07:19 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n7B8LitC001234;
+	Tue, 11 Aug 2009 13:51:44 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n7B8FhtB018627;
+	Tue, 11 Aug 2009 13:45:43 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id n7B8FhPg018626;
+	Tue, 11 Aug 2009 13:45:43 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Tue, 11 Aug 2009 13:45:43 +0530 (IST)
+Message-ID: <9fc99500a4e21321f0b074b7f4b1d6a8.squirrel@www.math.iisc.ernet.in>
+Date: Tue, 11 Aug 2009 13:45:43 +0530 (IST)
+Subject: Maths : August  14, 2009: Seminar : " Gibbs measure asymptotics"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in, kbathreya@gmail.com
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Prof. K. B. Athreya
+
+    Title                : Gibbs measure asymptotics
+
+
+    Day & Date           : Friday, August 14, 2009.
+
+    Time                 : 4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+
+Abstract:
+      Let H :R --> R. with multiple minima on R.For T> 0 consider the
+probability measure on R with pdf proportional to exp(--H/T). In
+this talk we  discuss the problem of weak limits of this measure as
+T goes to infinity. It depends on the behaviour of H near its minima
+locations. Both Gaussian and stable limit laws arise as weak limits.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

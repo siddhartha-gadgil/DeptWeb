@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.14.104 with SMTP id o8csp1205690obc;
+        Mon, 8 May 2017 01:36:10 -0700 (PDT)
+X-Received: by 10.98.41.7 with SMTP id p7mr29836228pfp.155.1494232570558;
+        Mon, 08 May 2017 01:36:10 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id l13si10495376pli.148.2017.05.08.01.36.09;
+        Mon, 08 May 2017 01:36:10 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 909CBAEAF3F;
+	Mon,  8 May 2017 14:06:01 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v4897DkQ017624
+	for <m_seminar@math.iisc.ernet.in>; Mon, 8 May 2017 14:37:13 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v4897DEZ017623;
+	Mon, 8 May 2017 14:37:13 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.25.136 (proxying for 117.192.120.174)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 8 May 2017 09:07:13 -0000
+Message-ID: <04eceeb7068f64ad47f01ab51beac494.squirrel@math.iisc.ernet.in>
+Date: Mon, 8 May 2017 09:07:13 -0000
+Subject: Math Dept Seminar May 9  (Eshita Mazumdar)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 909CBAEAF3F.A8C43
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.701, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1494837365.77784@si+ZP3QF4f1+ztYEHo8fuA
+X-Spam-Status: No
+
+Speaker : Eshita Mazumdar (IIT, Mumbai)
+
+Date : May 9, 2017
+
+Location : LH-1
+
+Time : 3pm
+
+Title : Davenport constant and an external problem related to it
+
+Abstract : For a finite abelian group G with |G| = n, the Davenport
+Constant DA(G) is defined to be the least integer k such that any sequence
+S with length k of elements in G has a non-empty A weighted zero-sum
+subsequence. For certain sets A, we already know the precise value of
+constant corresponding to the cyclic group Zn. But for different group G
+and A, the precise value of it is still an open question. We try to find
+out bounds for these combinatorial invariant for random set A. We got few
+results in this connection. In this talk I would like to present those
+results and discuss about an extremal problem related to this
+combinatorial invariant.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

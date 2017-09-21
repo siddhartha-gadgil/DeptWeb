@@ -1,0 +1,131 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.240.2 with SMTP id n2cs100946wah;
+        Wed, 25 Mar 2009 23:53:12 -0700 (PDT)
+Received: by 10.110.57.5 with SMTP id f5mr775211tia.46.1238050389620;
+        Wed, 25 Mar 2009 23:53:09 -0700 (PDT)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.66])
+        by mx.google.com with ESMTP id d1si109998tid.34.2009.03.25.23.53.05;
+        Wed, 25 Mar 2009 23:53:07 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of imi@math.iisc.ernet.in) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of imi@math.iisc.ernet.in) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n2Q6r9wc009622;
+	Thu, 26 Mar 2009 12:23:09 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n2Q6qu5P032270;
+	Thu, 26 Mar 2009 12:22:56 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id n2Q6qumF032269;
+	Thu, 26 Mar 2009 12:22:56 +0530
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@localhost using -f
+Received: from 10.134.13.18
+        (SquirrelMail authenticated user imi)
+        by www.math.iisc.ernet.in with HTTP;
+        Thu, 26 Mar 2009 12:22:56 +0530 (IST)
+Message-ID: <f36677535c878692413e47c23399be5b.squirrel@www.math.iisc.ernet.in>
+Date: Thu, 26 Mar 2009 12:22:56 +0530 (IST)
+Subject: MATH:SEMINAR by Prof. Victor Vinnikov on "Overdetermined 
+     multidimensional systems and dilation theory for pairs of commuting 
+     contractions" on March 30, 2009 and April 01,2009 at 4:00 PM
+To: m_amall@math.iisc.ernet.in, m_fac@math.iisc.ernet.in,
+        m_tifrfac@math.iisc.ernet.in, m_isifac@math.iisc.ernet.in,
+        m_seminar@math.iisc.ernet.in, tsuall@jncasr.ac.in, emuall@jncasr.ac.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+                          IISc Mathematics Initiative
+                           Department of Mathematics
+                          Indian Institute of Science
+                                  Bangalore
+                          ------------------------
+
+                                   announces
+
+                                    Seminar
+
+                                      by
+
+                             Prof. Victor Vinnikov
+                           Department of  Mathematics
+                          Ben Gurion University, Israel
+
+                                      on
+
+                                 March 30,2009
+                                    (Monday)
+
+                                      and
+
+                                 April 1, 2009
+                                  (Wednesday)
+
+                                       at
+
+                    4:00 PM, LH -1, Department of Mathematics
+                      Indian Institute of Science, Bangalore
+
+
+TITLE: Overdetermined multidimensional systems and dilation theory for
+pairs of commuting contractions
+
+ABSTRACT: I will give an overview of a long ongoing work with Joe Ball on
+spectral analysis and dilation theory for pairs of commuting contractions.
+It is well known that the usual model theory for a single contraction can
+be understood by embedding the contraction into a conservative
+input/state/output system and studying the space of finite-enegy
+trajectories (the associated scattering system in the sense of
+Lax--Phillips and Adamyan--Arov). The characteristic function of the
+contractio! n is the transfer function of the input/state/output system
+(or the scattering function of the scattering system). It turns out that a
+similar approach can be carried out in the multivariable situation,
+leading to overdetermined conservative input/state/output systems,
+multievolution scattering systems, and characteristic/transfer/scattering
+functions which are mappings of vector bundles on a compact real Riemann
+surface.
+
+
+                             ALL ARE INVITED
+                          Coffee/tea : 3:45 PM
+
+                                                              G.Rangarajan
+                                                                 Convener
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

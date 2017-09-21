@@ -1,0 +1,88 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.229.196 with SMTP id jj4csp22343qcb;
+        Thu, 19 Feb 2015 20:26:21 -0800 (PST)
+X-Received: by 10.68.137.71 with SMTP id qg7mr13418696pbb.115.1424406381047;
+        Thu, 19 Feb 2015 20:26:21 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id qi4si8901656pac.85.2015.02.19.20.26.19;
+        Thu, 19 Feb 2015 20:26:21 -0800 (PST)
+Received-SPF: none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t1K4QC2A025556;
+	Fri, 20 Feb 2015 09:56:12 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t1K4dm1H000635;
+	Fri, 20 Feb 2015 10:09:48 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t1K4dmPL000634;
+	Fri, 20 Feb 2015 10:09:48 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.12 (proxying for 117.192.109.139)
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 20 Feb 2015 04:39:48 -0000
+Message-ID: <cca8e139ec228654d57c1106935c6ade.squirrel@math.iisc.ernet.in>
+Date: Fri, 20 Feb 2015 04:39:48 -0000
+Subject: Reminder: Maths: TODAY: Seminars (Eigenfunctions series): "The dimer
+ model and generalisations"
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in, m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t1K4QC2A025556
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+    We shall have the first pair of lectures for the semester in the
+eigenfunctions series.
+
+Speaker: Arvind Ayyer
+
+Title: The dimer model and generalisations
+
+Date: Friday, February 20, 2015.
+
+Time: Lecture I: 2:15 - 3:15 p.m.
+      Coffee break: 3:15 p.m. - 3:30 p.m.
+      Lecture II: 3:30 - 4:30 p.m.
+      High Tea: 4:30 p.m.
+
+Venue: LH-I, Department of Mathematics, IISc.
+
+Abstract:
+        In the first half of the talk, I will define the dimer model on
+planar graphs and prove Kasteleyn's groundbreaking result
+expressing the
+partition function (i.e. the generating function) of the model as a
+Pfaffian. I will then survey various results arising as a consequence,
+culminating in the beautiful limit shape theorems of Kenyon, Okounkov and
+coworkers.
+
+In the second half, I will define a variant of the monomer-dimer model on
+planar graphs and prove that the partition function of this model can be
+expressed as a determinant. I will use this result to calculate various
+quantities of interest to statistical physicists and end with some open
+questions.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

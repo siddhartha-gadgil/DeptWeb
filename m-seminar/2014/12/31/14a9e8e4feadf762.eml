@@ -1,0 +1,80 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.156.204 with SMTP id y12csp1445092qcw;
+        Tue, 30 Dec 2014 20:15:34 -0800 (PST)
+X-Received: by 10.70.47.129 with SMTP id d1mr103558918pdn.46.1419999334477;
+        Tue, 30 Dec 2014 20:15:34 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id y9si40607385par.131.2014.12.30.20.15.32;
+        Tue, 30 Dec 2014 20:15:34 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id sBV4FOce030832;
+	Wed, 31 Dec 2014 09:45:24 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sBV4R3wN011686
+	for <m_seminar@math.iisc.ernet.in>; Wed, 31 Dec 2014 09:57:03 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sBV4R39a011679;
+	Wed, 31 Dec 2014 09:57:03 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 31 Dec 2014 04:27:03 -0000
+Message-ID: <d22b0d0bc18f42a990f81c4266717729.squirrel@math.iisc.ernet.in>
+Date: Wed, 31 Dec 2014 04:27:03 -0000
+Subject: [Seminar] Math: January 9th, 2015: Geometry of algebraic surfaces
+ and holomorphic convexity
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: sBV4FOce030832
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : B. P. Purnaprajna
+          University of Kansas
+
+Title   : Geometry of algebraic surfaces and holomorphic convexity
+
+Date    : 9th January, 2015 (Friday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract: TBA
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

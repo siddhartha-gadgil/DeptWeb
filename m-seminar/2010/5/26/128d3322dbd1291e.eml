@@ -1,0 +1,213 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.140.203.6 with SMTP id a6cs377156rvg;
+        Tue, 25 May 2010 23:00:01 -0700 (PDT)
+Received: by 10.141.91.4 with SMTP id t4mr6207236rvl.78.1274853600569;
+        Tue, 25 May 2010 23:00:00 -0700 (PDT)
+Return-Path: <hcs19712000@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id t1si10143526rvl.102.2010.05.25.22.59.58;
+        Tue, 25 May 2010 23:00:00 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of hcs19712000@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of hcs19712000@gmail.com) smtp.mail=hcs19712000@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o4Q5up7m010181;
+	Wed, 26 May 2010 11:26:51 +0530
+Received: from mail.iisc.ernet.in (iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o4Q6PTdx005827
+	for <m_seminar@math.iisc.ernet.in>; Wed, 26 May 2010 11:55:29 +0530
+Received: from mail-gw0-f49.google.com (mail-gw0-f49.google.com [74.125.83.49])
+	by mail.iisc.ernet.in (8.13.1/8.13.8) with ESMTP id o4Q5vIa2029594
+	for <m_seminar@math.iisc.ernet.in>; Wed, 26 May 2010 11:27:20 +0530
+Received: by gwj19 with SMTP id 19so1857161gwj.22
+        for <m_seminar@math.iisc.ernet.in>; Tue, 25 May 2010 22:59:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:mime-version:received:received:date:message-id
+         :subject:from:to:cc:content-type;
+        bh=1rLd4ZHB9KRP2Zbsz/mGOz1H+Zp210/nase3sVi2klE=;
+        b=pmFf5pXFH+PO+qXo3O+mJ9gmckX/gWtDzDx0/Kwir7n9BNWEytRwbECI2D/gu1P9Iq
+         FaDYJk9rVJVo4ptl7HQ6RtvM26yi4kcu78lhPvgLo3lN3Hbt31/GRETn8WYV0TLF/kYj
+         82Hv1tA5FRhB2HoyWHbIQC9hrew1WOrTDqoGM=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:cc:content-type;
+        b=pIr+tiIThFPmmzlOcnu1JSn/QvkOkRQSOxMHWKuhFT3M83y0KgXWSybkwVTUrsKnuP
+         j2WGt7QTviz0yhkem3kHbE5sbhwKJWtsV+8VzeuRDwmka/NSmidva8o6BNvTdxkRP82k
+         JIocxH0Sxotoj1b1Y2rQ2q2OcAgD6c6kqDbb4=
+MIME-Version: 1.0
+Received: by 10.231.195.16 with SMTP id ea16mr6651455ibb.64.1274851696650; 
+	Tue, 25 May 2010 22:28:16 -0700 (PDT)
+Received: by 10.231.36.194 with HTTP; Tue, 25 May 2010 22:28:16 -0700 (PDT)
+Date: Wed, 26 May 2010 10:58:16 +0530
+Message-ID: <AANLkTikdYhZqsx0kYADv7TfskTVSFfoSB_Yl_gj_voDH@mail.gmail.com>
+Subject: Maths: Today:Seminar - "Arithmeticity of complex hyperbolic lattices"
+From: harish seshadri <hcs19712000@gmail.com>
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=001636b14d02852a410487788a4d
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.199, required 6.5, BAYES_00 -2.60, J_CHICKENPOX_21 0.60,
+	J_CHICKENPOX_57 0.60, MR_NOT_ATTRIBUTED_IP 0.20), not spam, SpamAssassin (not cached,
+	score=-2.598, required 6.5, autolearn=not spam, BAYES_00 -2.60,
+	HTML_MESSAGE 0.00, ROUND_THE_WORLD 0.00)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: hcs19712000@gmail.com
+
+
+--001636b14d02852a410487788a4d
+Content-Type: text/plain; charset=ISO-8859-1
+
+Dear All,
+>
+>
+>                         DEPARTMENT  OF  MATHEMATICS
+>                           I.I.Sc.,  BANGALORE - 12
+>
+>
+>                               SEMINAR  ANNOUNCEMENT
+>
+>       Speaker         :      Martin Deraux
+>                                   Fourier Institute, Grenoble
+>
+>       Title               :      Arithmeticity of complex hyperbolic
+> lattices.
+>
+>       Dates            :       May 24 (Monday) and May 26 (Wednesday) 2010
+>
+>       Time             :       Monday at 2:00 p.m.
+>                                Wednesday at 4:00 p.m.
+>
+>        Venue          :       LH-1   IISc Mathematics Department
+>
+>
+>               Abstract
+>               --------
+> Since the discovery of non-arithmetic lattices in PU(2,1) by Mostow around
+> 1980, very few examples have been constructed. By interpreting the Mostow
+> lattices in terms of monodromy groups of hypergeometric functions, Deligne
+> and Mostow were able to construct a few more non-arithmetic lattices in
+> PU(2,1) as well as a single example in PU(3,1), but no other examples have
+> been found since then. The goal of these lectures is to present a new
+> class of examples in PU(2,1), obtained in joint work with J. Parker and J.
+> Paupert.
+>
+> In the first lecture, I will recall some general facts about the notion of
+> arithmeticity of lattices in semisimple Lie groups, its relation to
+> superrigidity and the known examples of non-arithmetic lattices in
+> SO(n,1), coming from Coxeter groups or from the Gromov/Piatetski-Shapiro
+> construction.
+>
+> In the second lecture, I will briefly describe the geometry of complex
+> hyperbolic space, and explain the difficulties encountered when trying to
+> generalize the real hyperbolic constructions to the complex setting.
+> Finally, I will describe the new class of examples mentioned above, which
+> was obtained in part by a massive computer search.
+>
+>
+>          All are Welcome.
+>                                             Chairman
+>
+> --
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+>
+>
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--001636b14d02852a410487788a4d
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br><br><div class=3D"gmail_quote"><br><blockquote class=
+=3D"gmail_quote" style=3D"margin: 0pt 0pt 0pt 0.8ex; border-left: 1px solid=
+ rgb(204, 204, 204); padding-left: 1ex;">
+Dear All,<br>
+ =A0 =A0 =A0=A0 <br>
+<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 DEPARTMENT =A0OF =A0MATHEM=
+ATICS<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 <a href=3D"http://I.I.=
+Sc" target=3D"_blank">I.I.Sc</a>., =A0BANGALORE - 12<br>
+<br>
+<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 SEMINAR =A0ANN=
+OUNCEMENT<br>
+<br>
+ =A0 =A0 =A0 Speaker =A0 =A0 =A0 =A0 : =A0 =A0 =A0Martin Deraux<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Fourie=
+r Institute, Grenoble<br>
+<br>
+ =A0 =A0 =A0 Title =A0 =A0 =A0 =A0 =A0 =A0 =A0 : =A0 =A0 =A0Arithmeticity o=
+f complex hyperbolic<br>
+lattices.<br>
+<br>
+ =A0 =A0 =A0 Dates =A0 =A0 =A0 =A0 =A0 =A0: =A0 =A0 =A0 May 24 (Monday) and=
+ May 26 (Wednesday) 2010<br>
+<br>
+ =A0 =A0 =A0 Time =A0 =A0 =A0 =A0 =A0 =A0 : =A0 =A0 =A0 Monday at 2:00 p.m.=
+<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Wednesday a=
+t 4:00 p.m.<br>
+<br>
+ =A0 =A0 =A0 =A0Venue =A0 =A0 =A0 =A0 =A0: =A0 =A0 =A0 LH-1 =A0 IISc Mathem=
+atics Department<br>
+<br>
+<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 Abstract<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 --------<br>
+Since the discovery of non-arithmetic lattices in PU(2,1) by Mostow around<=
+br>
+1980, very few examples have been constructed. By interpreting the Mostow<b=
+r>
+lattices in terms of monodromy groups of hypergeometric functions, Deligne<=
+br>
+and Mostow were able to construct a few more non-arithmetic lattices in<br>
+PU(2,1) as well as a single example in PU(3,1), but no other examples have<=
+br>
+been found since then. The goal of these lectures is to present a new<br>
+class of examples in PU(2,1), obtained in joint work with J. Parker and J.<=
+br>
+Paupert.<br>
+<br>
+In the first lecture, I will recall some general facts about the notion of<=
+br>
+arithmeticity of lattices in semisimple Lie groups, its relation to<br>
+superrigidity and the known examples of non-arithmetic lattices in<br>
+SO(n,1), coming from Coxeter groups or from the Gromov/Piatetski-Shapiro<br>
+construction.<br>
+<br>
+In the second lecture, I will briefly describe the geometry of complex<br>
+hyperbolic space, and explain the difficulties encountered when trying to<b=
+r>
+generalize the real hyperbolic constructions to the complex setting.<br>
+Finally, I will describe the new class of examples mentioned above, which<b=
+r>
+was obtained in part by a massive computer search.<br>
+<br>
+<br>
+ =A0 =A0 =A0 =A0 =A0All are Welcome.<br>
+ =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =
+=A0 =A0 =A0 =A0 Chairman<br>
+<font color=3D"#888888"><br>
+--<br>
+This message has been scanned for viruses and<br>
+dangerous content by MailScanner, and is<br>
+believed to be clean.<br>
+<br>
+</font></blockquote><br></div><br></div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--001636b14d02852a410487788a4d--

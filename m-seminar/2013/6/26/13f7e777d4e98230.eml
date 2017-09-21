@@ -1,0 +1,89 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.41.180 with SMTP id g20csp136467qel;
+        Tue, 25 Jun 2013 20:12:08 -0700 (PDT)
+X-Received: by 10.66.27.172 with SMTP id u12mr2516743pag.209.1372216328010;
+        Tue, 25 Jun 2013 20:12:08 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id ib1si12899214pbc.70.2013.06.25.20.12.05
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 25 Jun 2013 20:12:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r5Q3Br1e013082;
+	Wed, 26 Jun 2013 08:41:53 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r5Q3BloQ022815
+	for <m_seminar@math.iisc.ernet.in>; Wed, 26 Jun 2013 08:41:47 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r5Q3Bl3V022812
+	for <m_seminar@math.iisc.ernet.in>; Wed, 26 Jun 2013 08:41:47 +0530
+Date: Wed, 26 Jun 2013 08:41:47 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: Glimpses of HOTT; Logic and Topology make
+ elegant and useful Foundations
+Message-ID: <Pine.LNX.4.64.1306260839200.22749@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r5Q3Br1e013082
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+  		    	  Department of Mathematics
+  		    Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Siddhartha Gadgil
+ 	  Indian Institute of Science
+
+
+Title	: Glimpses of HOTT; Logic and Topology make elegant
+ 	  and useful Foundations
+
+Date	: June 26, 2013
+
+Time	: 3:30 - 4:30 p.m.
+
+Venue	: Lecture Hall III, Department of Mathematics
+
+
+**PLEASE NOTE THE CHANGE IN THE DATE OF THIS TALK**
+
+
+Abstract:
+
+HOTT (homotopy type theory) is logic built on type theory
+(mostly from Computer Science) and ideas from topology to give
+foundations of mathematics that are very elegant and much closer
+to mathematical practice. This makes HOTT very useful for computer
+proof systems, and also gives a very nice new synthetic treatment
+of homotopy theory.
+
+HOTT was recently developed in a collaborative effort led by
+Voevodsky and others and launched into the world in the form of
+the (freely available) HOTT book. In this talk I will give a first
+exposition of HOTT. I will assume some basic topology, essentially
+definitions of homotopy and fundamental groups.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

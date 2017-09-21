@@ -1,0 +1,83 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.16 with SMTP id q16cs369182buc;
+        Wed, 13 Feb 2008 22:08:09 -0800 (PST)
+Received: by 10.140.132.8 with SMTP id f8mr647285rvd.206.1202969288251;
+        Wed, 13 Feb 2008 22:08:08 -0800 (PST)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id l27si6220990rvb.11.2008.02.13.22.07.57;
+        Wed, 13 Feb 2008 22:08:08 -0800 (PST)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m1E6E4ac001338;
+	Thu, 14 Feb 2008 11:44:04 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m1EBK3VM007371
+	for <m_seminar@math.iisc.ernet.in>; Thu, 14 Feb 2008 11:20:03 GMT
+Received: from localhost (harish@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m1EBK3xM007368
+	for <m_seminar@math.iisc.ernet.in>; Thu, 14 Feb 2008 11:20:03 GMT
+Date: Thu, 14 Feb 2008 11:20:03 +0000 (UTC)
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Message-ID: <Pine.LNX.4.61.0802141119240.7274@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046162175-1492576886-1202835511=:12755"
+Content-ID: <Pine.LNX.4.61.0802141119241.7274@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+Subject: IISc : Seminar on 15Th Feb " MATHEMATICAL MODELLING IN HEMODYNAMICS I"
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-1492576886-1202835511=:12755
+Content-Type: TEXT/PLAIN; CHARSET=iso-8859-1; FORMAT=flowed
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-ID: <Pine.LNX.4.61.0802141119242.7274@math.iisc.ernet.in>
+
+
+
+Dear All,
+
+
+Speaker: Dr. Anna Zau=9Akov=E1
+          Institute of Numerical Simulation,
+          Hamburg University of Technology, Germany
+
+Title:   MATHEMATICAL MODELLING IN HEMODYNAMICS I
+
+Date and Time: Friday, 15 February 2008,  4 to 5 pm
+
+Venue: LH-1 , Math Dept
+
+Abstract:
+
+2D Mathematical model an numerical simulations of non-Newtonian shear depen=
+dent=20
+flow with fluid-structure interaction
+
+We present a mathematical model for blood flow, which consists of the
+interaction between vessel wall movement and the flow in a 2D channel with
+constricted area of stenosis. The Newtonian, as well as two non-Newtonian
+fluids are considered and compared in numerical experiments. For the
+vessel wall deformation the generalized string equation for radial
+symmetric tube is used and extended to a stenosed vessel. The global
+iterative approach to approximate the fluid structure interaction is used.
+Numerical methods implemented in UG software toolbox are described. Some
+computational simulations and comparisons of special hemodynamical control
+quantities, measuring the risk zones in blood vessel are shown and
+discussed at the end.
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-1492576886-1202835511=:12755--

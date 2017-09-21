@@ -1,0 +1,162 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.162.196 with SMTP id yc4csp68307oab;
+        Thu, 5 Jul 2012 20:48:04 -0700 (PDT)
+Received: by 10.68.209.197 with SMTP id mo5mr33199712pbc.72.1341546483822;
+        Thu, 05 Jul 2012 20:48:03 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id rd4si17092291pbc.10.2012.07.05.20.48.01
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 05 Jul 2012 20:48:03 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q663luv1007193;
+	Fri, 6 Jul 2012 09:17:56 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q663lpi4005171
+	for <m_seminar@math.iisc.ernet.in>; Fri, 6 Jul 2012 09:17:51 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id q663lcRS013170
+	for <m_seminar@math.iisc.ernet.in>; Fri, 6 Jul 2012 09:17:41 +0530
+Received: by obbta17 with SMTP id ta17so20527572obb.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 05 Jul 2012 20:47:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=m6djY2fOd5lJhXEIAuaRSoGbxwfkZf+vuMW1NEvKT38=;
+        b=b9VL3KQAo714JzBzjgmxUkSSm41GqrOr02TpXh5h8+Omxj+9whgWqz/ldVhXtzuvWs
+         nGqXNF80r/vCxe21ACtGlEx7Ex8gKnvIix0Nh/2poySrNYtVXqtjQvc4JICfCJRszM55
+         XH7EpW0rpxmjNAJmjz2cKD51fNrIrS8TBqedJn8g+rlspv8n2ZWrDqQc7ciiz+v5MQkT
+         g1h3JEBOLspfckkK4YClpuJcaOeRbRDUjXwA6mAUo41IqxQgpv7KGbmKNVL/Uuk6aWYi
+         xtB7USXvZTqzwIqy6lNoabkNdctefF4ODnQByvn1r3LoKvOClHs+m6iRP1FjM5AbWHcw
+         BGsg==
+MIME-Version: 1.0
+Received: by 10.60.169.174 with SMTP id af14mr29109713oec.13.1341546458102;
+ Thu, 05 Jul 2012 20:47:38 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Thu, 5 Jul 2012 20:47:38 -0700 (PDT)
+In-Reply-To: <CAHEur2QPuZXQkMdyWkw+YZmgnBUEpiACs=Ux7uSN5OHtmb4ddg@mail.gmail.com>
+References: <CAHEur2QPuZXQkMdyWkw+YZmgnBUEpiACs=Ux7uSN5OHtmb4ddg@mail.gmail.com>
+Date: Fri, 6 Jul 2012 09:17:38 +0530
+X-Google-Sender-Auth: 5TeaYLNcj86P9ubFLloGiRK8wBE
+Message-ID: <CAHEur2SLti4Edh_7Kqs8S087FnJMT35bW2y7-A7MbuXeNyb9xA@mail.gmail.com>
+Subject: [Seminar] Math: July 10th, 2012: "Extension theorems for subvarieties
+ and vector bundles"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=bcaec54c539215bd6a04c4212021
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.59, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q663luv1007193
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--bcaec54c539215bd6a04c4212021
+Content-Type: text/plain; charset=ISO-8859-1
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  SEMINAR
+
+
+Speaker :  Prof. G.V. Ravindra
+                   University of Missouri, St. Louis
+
+Title:     Extension theorems for subvarieties  and vector bundles.
+
+Date :       July 10th, 2012
+
+Time :       2:00 - 3:00 p.m.
+
+Venue:     Department of Mathematics, Lecture Hall 3
+
+
+Abstract: Let Y be a complex, projective manifold and  X  a smooth
+hyperplane section in  Y.  Given a submanifold Z in X, under what
+conditions is it cut out by a submanifold Z' in Y. An analogous quesion
+can be asked for vector bundles on X: namely when is a bundle on X, the
+restriction of a bundle on Y.
+
+
+
+
+                   ALL ARE CORDIALLY INVITED.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--bcaec54c539215bd6a04c4212021
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote">
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematic=
+s<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0=A0=A0=A0=A0 S=
+EMINAR<br>
+<br>
+<br>
+Speaker :=A0 Prof. G.V. Ravindra<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 University of Missouri, St. Louis <b=
+r><br>Title:=A0=A0=A0=A0 Extension theorems for subvarieties =A0and vector =
+bundles.<br>
+<br>
+Date : =A0 =A0 =A0 July 10th, <a href=3D"tel:2012" value=3D"+9722012" targe=
+t=3D"_blank">2012</a><br>
+<br>
+Time : =A0 =A0 =A0 2:00 - 3:00 p.m.<br>
+<br>
+Venue: =A0 =A0 Department of Mathematics, Lecture Hall 3<br>
+<br>
+<br>Abstract: Let Y be a complex, projective manifold and =A0X =A0a smooth<=
+br>
+hyperplane section in =A0Y. =A0Given a submanifold Z in X, under what<br>
+conditions is it cut out by a submanifold Z&#39; in Y. An analogous quesion=
+<br>
+can be asked for vector bundles on X: namely when is a bundle on X, the<br>
+restriction of a bundle on Y.<br><br>
+<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0ALL ARE CORDIALLY INVITED.<br>
+<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<br>
+</div><br><br clear=3D"all"><br><br>
+</div><br><br clear=3D"all"><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--bcaec54c539215bd6a04c4212021--

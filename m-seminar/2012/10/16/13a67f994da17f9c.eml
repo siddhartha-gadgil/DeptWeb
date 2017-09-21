@@ -1,0 +1,105 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.216.196.29 with SMTP id q29csp534059wen;
+        Mon, 15 Oct 2012 22:09:03 -0700 (PDT)
+Received: by 10.68.222.138 with SMTP id qm10mr43234067pbc.129.1350364141499;
+        Mon, 15 Oct 2012 22:09:01 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id o10si24820400paw.93.2012.10.15.22.08.59
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Mon, 15 Oct 2012 22:09:01 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q9G58t9u032034;
+	Tue, 16 Oct 2012 10:38:55 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q9G58n1j005117
+	for <m_seminar@math.iisc.ernet.in>; Tue, 16 Oct 2012 10:38:49 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q9G58nnD005116;
+	Tue, 16 Oct 2012 10:38:49 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 16 Oct 2012 10:38:49 +0530 (IST)
+Message-ID: <0ee3bee3cbd7ad343378819b0d48444a.squirrel@math.iisc.ernet.in>
+Date: Tue, 16 Oct 2012 10:38:49 +0530 (IST)
+Subject: [Informal Lecture] MATH : Today : "Stable allocations"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+                                 INFORMAL LECTURE
+
+
+Speaker:   Prof. Manjunath Krishnapur
+                      IISc, Bangalore
+
+Title:        Stable allocations
+
+Date:        October 16th, 2012
+
+Time:       4.00 pm
+
+Venue:     Department of Mathematics, LH-1
+
+
+Abstract: This is an informal lecture to celebrate the unprecedented
+event that I understand some piece of the work of some economists.
+
+Roth and Shapley have won the "The Sveriges Riksbank Prize in Economic
+Sciences" (aka nobel prize in Economics) for their work on 'stable
+allocations and market design'. It is also a thriving subject in
+mathematics. I will start with the original Gale-Shapley problem:
+
+  10 men and 10 women are to be married to each other so that there are no
+divorces. Is it possible?
+
+Then we proceed to the question of 'how to allocate patients to
+hospitals' or 'children to schools'. In the end I shall talk about
+another allocation problem motivated by the above. The entire talk will be
+very elementary and understandable to undergraduates.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

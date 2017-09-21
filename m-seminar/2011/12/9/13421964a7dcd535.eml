@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.43.193 with SMTP id x1cs123498ibe;
+        Thu, 8 Dec 2011 22:50:41 -0800 (PST)
+Received: by 10.68.213.232 with SMTP id nv8mr3372347pbc.21.1323413425542;
+        Thu, 08 Dec 2011 22:50:25 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id d9si10824213pbw.174.2011.12.08.22.50.23
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 08 Dec 2011 22:50:24 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id pB96oUlA004780;
+	Fri, 9 Dec 2011 12:20:30 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id pB96vMIL008608
+	for <m_seminar@math.iisc.ernet.in>; Fri, 9 Dec 2011 12:27:22 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id pB96vMmd008605
+	for <m_seminar@math.iisc.ernet.in>; Fri, 9 Dec 2011 12:27:22 +0530
+Date: Fri, 9 Dec 2011 12:27:22 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 15th Dec, "A nice group structure on certain orbit
+ spaces of unimodular rows"
+Message-ID: <Pine.LNX.4.64.1112091224420.3508@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: pB96oUlA004780
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.628, required 6.5, BAYES_00 -1.90, RP_8BIT 1.27)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		     	 Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+  				SEMINAR
+
+
+Speaker	: Prof. Anuradha Garge
+ 	  Centre for Excellence in Basic Sciences
+ 	  Mumbai
+
+Title	: A nice group structure on certain orbit spaces of
+ 	  unimodular rows
+
+Dates	: December 15, 2011
+
+Time	: 11:00 a.m. - 12:00 noon
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+In this talk, we will begin with the definition of a unimodular row and
+its relation to Serre's problem on projective modules. We will then see
+under what conditions group structures exist on orbit spaces of
+unimodular rows under elementary action.
+
+Though the group structure is quite complicated in general, there is a
+nice formula for the group structure in certain special cases like affine
+algebras or polynomial rings. As a consequence of the nice group
+structure, one can complete certain unimodular rows elementarily too.
+The talk will be accessible to students.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					        Chairman,
+  					        Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

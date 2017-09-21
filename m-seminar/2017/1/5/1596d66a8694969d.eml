@@ -1,0 +1,141 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp7989973obd;
+        Wed, 4 Jan 2017 22:52:41 -0800 (PST)
+X-Received: by 10.84.211.7 with SMTP id b7mr152561696pli.83.1483599161841;
+        Wed, 04 Jan 2017 22:52:41 -0800 (PST)
+Return-Path: <vamsipritham@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id s28si43290228pfk.23.2017.01.04.22.52.40;
+        Wed, 04 Jan 2017 22:52:41 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) smtp.mailfrom=vamsipritham@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 4AF1CAE5084;
+	Thu,  5 Jan 2017 12:22:36 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.46])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v057Q4Us032757
+	for <m_seminar@math.iisc.ernet.in>; Thu, 5 Jan 2017 12:56:04 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vamsipritham@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="vamsipritham@gmail.com"; helo=mail-yw0-f179.google.com; client-ip=209.85.161.179
+Received: from mail-yw0-f179.google.com (mail-yw0-f179.google.com [209.85.161.179])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id 50E90AE066B
+	for <m_seminar@math.iisc.ernet.in>; Thu,  5 Jan 2017 12:22:20 +0530 (IST)
+Received: by mail-yw0-f179.google.com with SMTP id a10so335206865ywa.3
+        for <m_seminar@math.iisc.ernet.in>; Wed, 04 Jan 2017 22:52:20 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=YvQHi4ZgbZrIoPVdpiVuqjntxEiV3rUtSxK8esdm7M8=;
+        b=N5tghTwaLGep7MfwZz1Rfa3WCIvxDEsdX45iJ8ZLNtb1KK1amcQLNRNEVOsB/eat1N
+         UfshxZc1ceaCuVN7obGjbnem91ILrTVZIKjFOx6RczehPOVNAC9GqTryQWSEWCOwGha+
+         f+zYCr/uBnjHU7wEp3rGKvKrl6jA2ZHrjvka41VYg5SANiycaUi3RPNTxF8ZFeKkZ9mQ
+         Id4sZ2CdJSRsHouXs6pEJu02r7JM27L8CAMjOt85wnzmzko+5t960Deqi9ACRr90gTR3
+         ebUzrXykt7zOuuQxqIwp4ZZq6P+P3R3+WXmYJ9bcZ8xONRDFxXNzGBQzsKRiKgT1+nB/
+         4Aag==
+X-Gm-Message-State: AIkVDXLuLwpTT/U0Gkjun0lnK3Z4lAsP5DyJ1osPzfCByeIGnYtYt8fF7Jf8W5G22n6Rvg==
+X-Received: by 10.129.118.81 with SMTP id j17mr67593233ywk.30.1483599139195;
+        Wed, 04 Jan 2017 22:52:19 -0800 (PST)
+Received: from mail-yw0-f178.google.com (mail-yw0-f178.google.com. [209.85.161.178])
+        by smtp.gmail.com with ESMTPSA id k14sm31563570ywi.11.2017.01.04.22.52.19
+        for <m_seminar@math.iisc.ernet.in>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 04 Jan 2017 22:52:19 -0800 (PST)
+Received: by mail-yw0-f178.google.com with SMTP id t125so334808842ywc.1
+        for <m_seminar@math.iisc.ernet.in>; Wed, 04 Jan 2017 22:52:19 -0800 (PST)
+X-Received: by 10.129.52.87 with SMTP id b84mr49488345ywa.163.1483599138774;
+ Wed, 04 Jan 2017 22:52:18 -0800 (PST)
+MIME-Version: 1.0
+Reply-To: vamsipritham@gmail.com
+Received: by 10.37.37.5 with HTTP; Wed, 4 Jan 2017 22:51:38 -0800 (PST)
+From: Vamsi Pritham Pingali <vamsipingali@math.iisc.ernet.in>
+Date: Thu, 5 Jan 2017 12:21:38 +0530
+X-Gmail-Original-Message-ID: <CALSDV2b17-fc7PdOPvWtNMzdwPxX7adBFXLFwLQXVPk9kMOr0A@mail.gmail.com>
+Message-ID: <CALSDV2b17-fc7PdOPvWtNMzdwPxX7adBFXLFwLQXVPk9kMOr0A@mail.gmail.com>
+Subject: Seminar by Leon Takhtajan
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=001a11413fc2a7eaf20545535727
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-Sophos-IBS: success
+X-CTCH-PVer:  0000001
+X-CTCH-Spam:  Unknown
+X-CTCH-VOD:  Unknown
+X-CTCH-Flags:  0
+X-CTCH-RefID:  str=0001.0A0B0206.586DED25.0344,ss=1,re=0.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=0
+X-CTCH-Score:  0.000
+X-CTCH-ScoreCust:  0.000
+X-CTCH-Rules:  
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.318, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	FREEMAIL_FORGED_FROMDOMAIN 0.00, FREEMAIL_FROM 0.00,
+	HEADER_FROM_DIFFERENT_DOMAINS 0.00, MR_NOT_ATTRIBUTED_IP 0.20,
+	RCVD_IN_DNSWL_NONE -0.00, RCVD_IN_MSPIKE_H3 -0.01,
+	RCVD_IN_MSPIKE_WL -0.01, RCVD_IN_SORBS 0.30, RCVD_IN_SORBS_SPAM 0.50,
+	SPF_PASS -0.00, SUBJECT_MONTH -1.50, _FROM_IISC 0.10), 
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 4AF1CAE5084.ABA40
+X-IISc-MailScanner-From: vamsipritham@gmail.com
+MailScanner-NULL-Check: 1484203958.99326@n1VXbZRVALF7QGYv9KKtsQ
+
+
+--001a11413fc2a7eaf20545535727
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+
+    Leon Armen Takhtajan (Professor at Stony Brook University) will be
+giving a talk on Monday, 9th January from 3-4 in LH-1 (Hopefully the room
+is empty then).
+
+Title : =E2=80=9CLocal index theorems for  Cauchy-Riemann operators on Riem=
+ann
+surfaces=E2=80=9D
+
+Abstract : We review local index theorems in Quillen=E2=80=99s form for fam=
+ilies of
+Cauchy-Riemann operators on Riemann surfaces: compact, with punctures and
+general orbifolds =E2=80=94 factors of the Lobachevsky plane by the action =
+of cofi
+nite finitely generated Fuchsian groups.
+
+Thanking you,
+Vamsi
+
+P. S : Fun fact of the day - Leon Armen is my PhD adviser.
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--001a11413fc2a7eaf20545535727
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear All,<div>=C2=A0=C2=A0</div><div>=C2=A0 =C2=A0 Leon Ar=
+men Takhtajan (Professor at Stony Brook University) will be giving a talk o=
+n Monday, 9th January from 3-4 in LH-1 (Hopefully the room is empty then).=
+=C2=A0</div><div><br></div><div><span style=3D"font-size:12.8px">Title : =
+=E2=80=9CLocal index theorems for=C2=A0 Cauchy-Riemann operators on Riemann=
+ surfaces=E2=80=9D</span><br style=3D"font-size:12.8px"><br style=3D"font-s=
+ize:12.8px"><span style=3D"font-size:12.8px">Abstract :=C2=A0</span><span s=
+tyle=3D"font-size:12.8px">We review local index theorems in Quillen=E2=80=
+=99s form for families of Cauchy-Riemann operators on Riemann surfaces: com=
+pact, with punctures and general orbifolds =E2=80=94 factors of the Lobache=
+vsky plane by the action of cofi=0Cnite finitely generated Fuchsian groups.=
+</span><br style=3D"font-size:12.8px"></div><div><br></div><div>Thanking yo=
+u,</div><div>Vamsi</div><div><br></div><div>P. S : Fun fact of the day - Le=
+on Armen is my PhD adviser.</div></div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--001a11413fc2a7eaf20545535727--

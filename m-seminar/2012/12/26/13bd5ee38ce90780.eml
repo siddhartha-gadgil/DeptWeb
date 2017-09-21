@@ -1,0 +1,117 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.30.193 with SMTP id u1csp303093lbh;
+        Tue, 25 Dec 2012 22:37:38 -0800 (PST)
+X-Received: by 10.66.83.136 with SMTP id q8mr77920111pay.83.1356503857161;
+        Tue, 25 Dec 2012 22:37:37 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id p7si25515470pav.282.2012.12.25.22.37.32
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 25 Dec 2012 22:37:37 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id qBQ6bRa0002381;
+	Wed, 26 Dec 2012 12:07:27 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qBQ6bKSZ026083
+	for <m_seminar@math.iisc.ernet.in>; Wed, 26 Dec 2012 12:07:20 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id qBQ6bKXq026082;
+	Wed, 26 Dec 2012 12:07:20 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 26 Dec 2012 12:07:20 +0530 (IST)
+Message-ID: <02d9911829ca78ed7c774154c2906eb2.squirrel@math.iisc.ernet.in>
+Date: Wed, 26 Dec 2012 12:07:20 +0530 (IST)
+Subject: [Colloquium] MATH : Jan 2nd, 2013 : " Diophantine approximation,
+      arithmetic groups, and ergodic theory"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: qBQ6bRa0002381
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                        COLLOQUIUM
+
+Speaker   :   Prof Amos Nevo
+                    Technion, Israel
+
+Title    :   Diophantine approximation, arithmetic groups, and ergodic theory
+
+Date     :   January 2nd, 2013 (Wednesday)
+
+Time     :   4:00 pm- 5:00pm
+
+Venue    :   Department of Mathematics, LH-II
+
+Abstract: One of the main goals of classical metric Diophantine
+approximation is to quantify the denseness of the rational numbers in the
+real numbers, or more generally, of Q^d in R^d. An equally natural problem
+is to quantify the denseness of the rational points on the sphere, and more
+generally, rational points in other compact and non-compact algebraic
+sub-varieties in R^d. We will describe a solution to this problem for a large
+class of homogeneous varieties.
+
+The method we use is based on a general quantitative duality principle in
+homogeneous dynamics that we develop, and on spectral estimates of ergodic
+averages using the theory of automorphic forms.
+
+Based on joint work with Alex Gorodnik, and on joint work with Anish Ghosh
+and Alex Gorodnik.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,149 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.167.233 with SMTP id zr9csp87981oab;
+        Sun, 5 Aug 2012 23:39:10 -0700 (PDT)
+Received: by 10.66.74.3 with SMTP id p3mr15933365pav.49.1344235149746;
+        Sun, 05 Aug 2012 23:39:09 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id ky6si18946058pbc.348.2012.08.05.23.39.07
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 05 Aug 2012 23:39:09 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q766cu2K002963;
+	Mon, 6 Aug 2012 12:08:56 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q766crVx006984
+	for <m_seminar@math.iisc.ernet.in>; Mon, 6 Aug 2012 12:08:53 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id q766cit5007396
+	for <m_seminar@math.iisc.ernet.in>; Mon, 6 Aug 2012 12:08:46 +0530
+Received: by obbta17 with SMTP id ta17so7988281obb.22
+        for <m_seminar@math.iisc.ernet.in>; Sun, 05 Aug 2012 23:38:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:date:x-google-sender-auth:message-id:subject
+         :from:to:content-type;
+        bh=4fO/vO1hd9/nEjiK3aWe3WJmsW+GJ+4NB2+JLvuHzJ0=;
+        b=FubGrHmErrhi1ohg/+cbZJeLFjmwZOfifIl9/UMewNWWvXB42huKGr9UPCh+R6L/sJ
+         vzESaoIvDsnPtzTWGxxPQDYzUMysyJcmtkWfLADR2pGgxIf9K/775QPbIorWxH1Ius3X
+         UTB4OuJel6xnp8SKCwXi0e/tDAAdNUmL9Cv03Rv0GcLQiSsQ9S/wmmyL3LmJiQYjGe8H
+         l2xZGW+KyLeAVeYuyM68yg1a9oTCiGmsCpvW8Q9lJWWgkUzCVt8Oia6LF8BZm03LoOac
+         hiIM83T1JST5cT0TNbLYCf91vne2utDAV6w+78XIckNcYDwGLIDMrPF8/HW8R6RNsnKZ
+         zPIQ==
+MIME-Version: 1.0
+Received: by 10.182.216.99 with SMTP id op3mr17837201obc.30.1344235123308;
+ Sun, 05 Aug 2012 23:38:43 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.5.69 with HTTP; Sun, 5 Aug 2012 23:38:43 -0700 (PDT)
+Date: Mon, 6 Aug 2012 12:08:43 +0530
+X-Google-Sender-Auth: HKPAXR_ESZAfU-8Cixhe5XeXkJ8
+Message-ID: <CAHEur2SBwPY5x_z3rpJLgQrTvRJyK8jSuq6r3Mj6tkwC1=sZfQ@mail.gmail.com>
+Subject: [SEMINAR] Math: August 8th, 2012: "Introduction to NA groups"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=f46d044786e704fa5f04c69321b1
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.59, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q766cu2K002963
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--f46d044786e704fa5f04c69321b1
+Content-Type: text/plain; charset=ISO-8859-1
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                 SEMINAR
+
+
+Speaker :    Dr. Pratyoosh Kumar
+
+Title :       Introduction to NA groups
+
+Date :       August 8th, 2012
+
+Time :       4:00 pm- 5:00 pm
+
+Venue:     Department of Mathematics, Lecture Hall 1
+
+Subsequent meetings will be fixed during this talk.
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--f46d044786e704fa5f04c69321b1
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gma=
+il_quote"><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=
+=3D"gmail_quote"><div class=3D"gmail_quote">
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematic=
+s<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0=A0=A0=A0 SEMI=
+NAR<br>
+<br>
+<br>
+Speaker :=A0=A0=A0 Dr. Pratyoosh Kumar <br>
+<br>Title :=A0=A0=A0=A0=A0=A0 Introduction to NA groups<br>
+<br>
+Date : =A0 =A0 =A0 August 8th, <a href=3D"tel:2012" value=3D"+9722012" targ=
+et=3D"_blank">2012</a><br>
+<br>
+Time : =A0 =A0 =A0 4:00 pm- 5:00 pm<br>
+<br>
+Venue: =A0 =A0 Department of Mathematics, Lecture Hall 1<br>
+<br>
+Subsequent meetings will be fixed during this talk. <br>=A0 =A0=A0 <br><br>=
+=A0=A0 =A0 =A0 =A0 =A0=A0 ALL ARE CORDIALLY INVITED,<br>
+<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<span><font color=3D"#888888"><br>
+</font></span></div><span><font color=3D"#888888"><br><br clear=3D"all"><br=
+><br>
+</font></span></div><span><font color=3D"#888888"><br><br clear=3D"all"></f=
+ont></span><br>
+</div>
+</div><br><br>
+</div><br><br clear=3D"all"><br>
+</div><br><br clear=3D"all"><br><br>
+<br></div><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--f46d044786e704fa5f04c69321b1--

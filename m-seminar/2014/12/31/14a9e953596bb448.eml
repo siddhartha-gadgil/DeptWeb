@@ -1,0 +1,110 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.156.204 with SMTP id y12csp1445614qcw;
+        Tue, 30 Dec 2014 20:23:06 -0800 (PST)
+X-Received: by 10.70.135.137 with SMTP id ps9mr104908270pdb.135.1419999786513;
+        Tue, 30 Dec 2014 20:23:06 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id oz9si17137100pdb.15.2014.12.30.20.23.04;
+        Tue, 30 Dec 2014 20:23:06 -0800 (PST)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id sBV4Mt1K022681;
+	Wed, 31 Dec 2014 09:52:55 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id sBV4YUO4018154
+	for <m_seminar@math.iisc.ernet.in>; Wed, 31 Dec 2014 10:04:30 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id sBV4YUSe018143;
+	Wed, 31 Dec 2014 10:04:30 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 31 Dec 2014 04:34:30 -0000
+Message-ID: <b07b9c9770b9828f7d82d48be463e5d9.squirrel@math.iisc.ernet.in>
+Date: Wed, 31 Dec 2014 04:34:30 -0000
+Subject: [Seminar] MATH : 24th Nov 2014 : "Bangalore Probability Seminar"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50, URIBL_BLACK 0.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+       BANGALORE PROBABILITY SEMINAR
+http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+-----------------------------------------------
+
+Speaker: Nayantara Bhatnagar (University of Delaware)
+
+Time: 2:00 pm
+
+Date: 5th January, 2015
+
+Venue: LH-1, Department of Mathematics, IISc
+
+Title:  Lengths of Monotone Subsequences in a Mallows Permutation
+
+Abstract:
+The longest increasing subsequence (LIS) of a uniformly random permutation
+is a well studied problem. Vershik-Kerov and Logan-Shepp first showed that
+asymptotically the typical length of the LIS is 2sqrt(n). This line of
+research culminated in the work of Baik-Deift-Johansson who related this
+length to the Tracy-Widom distribution. 
+
+We study the length of the LIS and LDS of random permutations drawn from the
+Mallows measure, introduced by Mallows in connection with ranking problems
+in statistics. Under this measure, the probability of a permutation p in S_n
+is proportional to q^Inv(p) where q is a real parameter and Inv(p) is the
+number of inversions in p. We determine the typical order of magnitude of
+the LIS and LDS, large deviation bounds for these lengths and a law of large
+numbers for the LIS for various regimes of the parameter q.
+
+This is joint work with Ron Peled.
+
+--------------------------------------
+
+Speaker: Elchanan Mossel (University of Pennsylvania)
+
+Time: 3:15 pm
+
+Date: 5th January, 2015
+
+Venue: Department of Mathematics, IISc
+
+Title: From Trees to Seeds - on the inference of the seed from large random
+trees.
+
+
+Abstract:
+We study the influence of the seed in random trees grown according
+to the uniform and preferential attachment  models. The basic question is :
+do different seeds lead to the same distributional limit? The talk will be
+based on joint work with Bubeck and Racz, joint work with Bubeck, Eldan and
+Racz and work by Curien, Duquesne, Kortchemski, and Manolescu.
+
+--------------------------------------------
+
+
+         All are cordially invited.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

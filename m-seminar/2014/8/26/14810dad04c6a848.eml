@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.138.34 with SMTP id m34csp177972iod;
+        Mon, 25 Aug 2014 22:47:28 -0700 (PDT)
+X-Received: by 10.68.191.134 with SMTP id gy6mr34091422pbc.2.1409032048743;
+        Mon, 25 Aug 2014 22:47:28 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id j4si2818056pdb.62.2014.08.25.22.47.27
+        for <multiple recipients>;
+        Mon, 25 Aug 2014 22:47:28 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s7Q5lKmY016009;
+	Tue, 26 Aug 2014 11:17:20 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s7Q5l6DO027998
+	for <m_seminar@math.iisc.ernet.in>; Tue, 26 Aug 2014 11:17:06 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s7Q5l6Ea027991;
+	Tue, 26 Aug 2014 11:17:06 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 26 Aug 2014 05:47:06 -0000
+Message-ID: <83a8348f56ba19ab05f5f6a5bff74c69.squirrel@math.iisc.ernet.in>
+Date: Tue, 26 Aug 2014 05:47:06 -0000
+Subject: Reminder [Seminar] Math: TODAY: On a theorem of Titchmarsh
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s7Q5lKmY016009
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Radouan Daher
+          University of Hassan II, Casablanca, Morocco.
+
+Title   : On a theorem of Titchmarsh
+
+Date    : 26th August, 2014 (Tuesday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+In this talk we discuss about the Fourier transforms of
+functions satisfying Lipschitz conditions of certain order. We cover
+Fourier transforms on Euclidean spaces, non compact symmetric spaces and
+also certain hyper groups.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

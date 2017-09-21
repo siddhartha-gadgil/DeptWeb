@@ -1,0 +1,73 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.38.135 with SMTP id m129csp858122ywm;
+        Mon, 14 Sep 2015 03:12:36 -0700 (PDT)
+X-Received: by 10.140.202.204 with SMTP id x195mr20724196qha.7.1442225556260;
+        Mon, 14 Sep 2015 03:12:36 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id c108si11346936qge.80.2015.09.14.03.12.34;
+        Mon, 14 Sep 2015 03:12:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t8EACSCc026182;
+	Mon, 14 Sep 2015 15:42:28 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t8EAMN6A018095
+	for <m_seminar@math.iisc.ernet.in>; Mon, 14 Sep 2015 15:52:23 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t8EAMN3F018094;
+	Mon, 14 Sep 2015 15:52:23 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 14 Sep 2015 10:22:23 -0000
+Message-ID: <26194928c30816059663259cd1682f56.squirrel@math.iisc.ernet.in>
+Date: Mon, 14 Sep 2015 10:22:23 -0000
+Subject: Math Dept Seminar Sept 30 (Aprameyan Parthasarathy)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t8EACSCc026182
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Title: The restriction of discrete series representations to minimal
+parabolic subgroups - the case of Spin(4,1)
+
+Speaker Aprameyan Parthasarthy, Universitat Paderborn, Germany
+
+Date: Sept 30, 2015
+
+Time: 4pm
+
+Location: LH1
+
+Abstract:  In this talk we'll discuss  some ideas concerning the
+restriction problem discrete series representations of a real
+reductive  group G  to a  (minimal)  parabolic subgroup  P.  As  a first
+example in  the non-Hermitian  case, we study  Spin(4,1) -  an example
+that is interesting  in itself, and also serves as  a test case for
+our general  strategy.  Motivated by geometric  considerations we show
+that  only finitely  many discrete  series of  P appear  with non-zero
+multiplicity in  the restriction, in  contrast to the  Hermitian case.
+Our  work  is  related  to  certain conjectures  of  Duflo  about  the
+geometric nature  of the Plancherel  theorem. This is joint  work with
+Gang Liu (Uni. Metz, France).
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

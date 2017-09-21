@@ -1,0 +1,70 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.154.11 with SMTP id m11cs147959ibw;
+        Thu, 20 Jan 2011 20:22:07 -0800 (PST)
+Received: by 10.224.60.136 with SMTP id p8mr169194qah.239.1295583722643;
+        Thu, 20 Jan 2011 20:22:02 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTPS id nb15si18710909qcb.63.2011.01.20.20.21.56
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Thu, 20 Jan 2011 20:22:02 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p0L4NTdw002217;
+	Fri, 21 Jan 2011 09:53:29 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p0L515PW022602
+	for <m_seminar@math.iisc.ernet.in>; Fri, 21 Jan 2011 10:31:05 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p0L515KE022599
+	for <m_seminar@math.iisc.ernet.in>; Fri, 21 Jan 2011 10:31:05 +0530
+Date: Fri, 21 Jan 2011 10:31:05 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Colloquium] Math: Today: "Pseudoholomorphic curves and applications"
+Message-ID: <Pine.LNX.4.64.1101211030120.22285@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p0L4NTdw002217
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		            Department of Mathematics
+ 		     Indian Institute of Science, Bangalore
+
+
+ 				COLLOQUIUM
+
+Speaker	: Prof. Herve Gaussier
+ 	  Institut Fourier
+ 	  Grenoble, France
+
+Title	: Pseudoholomorphic curves and applications
+
+Date	: January 21, 2011
+
+Time	: 2:00-3:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+
+ 		***PLEASE NOTE THE CHANGE IN TIME***
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					Chairman,
+ 					Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

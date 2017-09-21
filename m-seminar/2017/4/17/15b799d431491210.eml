@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.115.101 with SMTP id jn5csp610060obb;
+        Sun, 16 Apr 2017 18:53:22 -0700 (PDT)
+X-Received: by 10.84.241.3 with SMTP id a3mr11379223pll.117.1492394001944;
+        Sun, 16 Apr 2017 18:53:21 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id 63si9471014pgi.231.2017.04.16.18.53.20;
+        Sun, 16 Apr 2017 18:53:21 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 1DE21AEB503;
+	Mon, 17 Apr 2017 07:23:15 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v3H2Ok8U017636
+	for <m_seminar@math.iisc.ernet.in>; Mon, 17 Apr 2017 07:54:46 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v3H2OkcA017635;
+	Mon, 17 Apr 2017 07:54:46 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.25.135 (proxying for 103.194.12.185)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 17 Apr 2017 02:24:46 -0000
+Message-ID: <a8f93d9bb0e78432086a288fd5b3f607.squirrel@math.iisc.ernet.in>
+Date: Mon, 17 Apr 2017 02:24:46 -0000
+Subject: Math Dept Seminar Apr 21 (Swarnava Mukhopadhyay)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 1DE21AEB503.A81F7
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.7,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1492998797.97627@xAda7A4+WaiMCkMMD6ekqA
+X-Spam-Status: No
+
+Date : Apr 21
+
+Time : 10 AM (via Skype)
+
+Location : LH-1
+
+Speaker : Swarnava Mukhopadhyay (University of Maryland)
+
+
+ Title: Conformal blocks, strange duality and the moduli space of curves.
+>
+> Abstract: Conformal blocks are refined invariants of tensor product of
+> representations of a Lie algebra that give a special class of vector
+> bundles on the moduli space of curves. In this talk, I will introduce
+> conformal blocks and explore connections to questions in algebraic
+> geometry
+> and representation theory. I will also focus on some ``strange" dualities
+> in representation theory and how they give equalities of divisor classes
+> on
+> the moduli space of curves.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

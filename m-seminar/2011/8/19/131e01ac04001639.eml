@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.37.134 with SMTP id x6cs39520ibd;
+        Thu, 18 Aug 2011 20:34:35 -0700 (PDT)
+Received: by 10.142.132.13 with SMTP id f13mr117056wfd.440.1313724875201;
+        Thu, 18 Aug 2011 20:34:35 -0700 (PDT)
+Return-Path: <hcs19712000@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [14.139.128.65])
+        by mx.google.com with ESMTPS id r2si6105171pbp.108.2011.08.18.20.34.32
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 18 Aug 2011 20:34:35 -0700 (PDT)
+Received-SPF: neutral (google.com: 14.139.128.65 is neither permitted nor denied by domain of hcs19712000@gmail.com) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 14.139.128.65 is neither permitted nor denied by domain of hcs19712000@gmail.com) smtp.mail=hcs19712000@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p7J3YsU7004897;
+	Fri, 19 Aug 2011 09:04:55 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p7J3Yppf032444
+	for <m_seminar@math.iisc.ernet.in>; Fri, 19 Aug 2011 09:04:51 +0530
+Received: from mail-gy0-f177.google.com (mail-gy0-f177.google.com [209.85.160.177])
+	by mail.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id p7J3Yf8d030100
+	for <m_seminar@math.iisc.ernet.in>; Fri, 19 Aug 2011 09:04:43 +0530
+Received: by gyh20 with SMTP id 20so2652984gyh.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 18 Aug 2011 20:34:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=mime-version:date:message-id:subject:from:to:content-type
+         :content-transfer-encoding;
+        bh=OIHRqAjVrfGtyYg801avJzKAMG5MKyKiJwfjr8yuuoU=;
+        b=kFBZvnhtE0+uTgWWNFTr9hu2obxhfN6ecwV7UA2pT8sxDkXyhwcLExgLCtSqXU73bu
+         0bK89+mo0STTFRgroloP3XU8vWKvkhrbu+ej6X+ZvlpCMvUYZWgoFfFiyAXVWPYglCw9
+         LL80hLBwAQQTb3Eu9QASm3V9acs8Ll61bMluM=
+MIME-Version: 1.0
+Received: by 10.236.161.73 with SMTP id v49mr3229493yhk.86.1313724840988; Thu,
+ 18 Aug 2011 20:34:00 -0700 (PDT)
+Received: by 10.236.110.164 with HTTP; Thu, 18 Aug 2011 20:34:00 -0700 (PDT)
+Date: Fri, 19 Aug 2011 09:04:00 +0530
+Message-ID: <CAOPG_W20wCTv6KC7wh0qXnA+kM7f9Ex44Ao=qZYgziT6sJZ5gw@mail.gmail.com>
+Subject: Seminar today: "Ergodicity of the geodesic flow of the Weil-Petersson metric"
+From: harish seshadri <hcs19712000@gmail.com>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.579, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	FREEMAIL_FROM 0.00, RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01,
+	T_TO_NO_BRKTS_FREEMAIL 0.01), not spam, SpamAssassin (not cached,
+	score=-0.579, required 6.5, BAYES_00 -1.90,
+	DKIM_ADSP_CUSTOM_MED 0.00, DKIM_SIGNED 0.10, FREEMAIL_FROM 1.00,
+	NML_ADSP_CUSTOM_MED 0.90, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01, T_TO_NO_BRKTS_FREEMAIL 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p7J3YsU7004897
+X-IISc-MailScanner-From: hcs19712000@gmail.com
+
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0SEMINAR
+
+Speaker : Prof. Keith Burns
+=A0 =A0 =A0 =A0 =A0Northwestern University
+
+Title =A0 : Ergodicity of the geodesic flow of the Weil-Petersson metric
+
+Date =A0 =A0: August 19, 2011
+
+Time =A0 =A0: 4:00-5:00 p.m.
+
+Venue =A0 : Lecture Hall I, Department of Mathematics
+
+Abstract:  The Weil-Petersson metric is a Riemannian metric on the
+moduli space of a
+surface. It has negative curvature, but is incomplete. Analogy with the
+results of Hopf and Anosov for complete metrics of negative curvature
+suggested that the geodesic flow for the Weil-Petersson metric should be
+ergodic, but the incompleteness of the metric and insufficient knowledge
+of its geometry delayed a proof. We now know a great deal about the
+geometry of the Weil-Petersson metric, in large part due to the work of
+Scott Wolpert, and ergodicity of the geodesic flow has been proved by
+Burns, Masur and Wilkinson. The proof uses the results of Wolpert and the
+theory of nonuniformly hyperbolic  dynamical systems, in the particular
+the work of Katok and Strelcyn.
+
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

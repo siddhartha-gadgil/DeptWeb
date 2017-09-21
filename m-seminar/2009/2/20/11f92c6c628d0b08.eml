@@ -1,0 +1,75 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.142.222.5 with SMTP id u5cs69454wfg;
+        Fri, 20 Feb 2009 00:21:56 -0800 (PST)
+Received: by 10.110.11.7 with SMTP id 7mr731421tik.38.1235118115966;
+        Fri, 20 Feb 2009 00:21:55 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.66])
+        by mx.google.com with ESMTP id w12si102183tib.0.2009.02.20.00.21.41;
+        Fri, 20 Feb 2009 00:21:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) client-ip=220.227.207.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n1K8MCpt008922;
+	Fri, 20 Feb 2009 13:52:12 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id n1KDC1Ds002643;
+	Fri, 20 Feb 2009 13:12:01 GMT
+Received: from localhost (gadgil@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id n1KDC05Q002634;
+	Fri, 20 Feb 2009 13:12:01 GMT
+Date: Fri, 20 Feb 2009 13:12:00 +0000 (UTC)
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Maths : 25th February 2009: Seminar - "Null controllability of a
+ fluid-structure model"
+Message-ID: <Pine.LNX.4.61.0902201307470.2278@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                              DEPARTMENT  OF  MATHEMATICS
+                                I.I.Sc.,  BANGALORE - 12
+
+
+                                  SEMINAR  ANNOUNCEMENT
+
+
+      Speaker              : Professor Jean-Pierre Raymond
+
+      Title 		  : Null controllability of a fluid-structure 
+model
+
+      Day & Date           : Wednesday, February 25, 2008
+
+      Time                 : 4.00 p.m.
+
+      Venue                :  Lecture  Hall -  III
+                              Dept. of  Mathematics
+
+Abstract:
+ 	We consider a system coupling the Stokes system with an elastic
+structure modelled by a finite dimensional system. We prove that this 
+system can be driven to zero by a control action only in the
+fluid equation. The proof is based on a global Carleman inequality. 
+Because of the coupling between the fluid equation and the
+structure new boundary terms appear in the Carleman inequality, and 
+estimating these terms requires new techniques.
+
+                      All  interested  are  Welcome
+
+                                                     CHAIRMAN
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

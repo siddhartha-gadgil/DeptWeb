@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.141.43.13 with SMTP id v13cs340602rvj;
+        Tue, 13 Apr 2010 03:08:07 -0700 (PDT)
+Received: by 10.141.124.2 with SMTP id b2mr1055991rvn.23.1271153287032;
+        Tue, 13 Apr 2010 03:08:07 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.66])
+        by mx.google.com with ESMTP id 14si5102075pzk.0.2010.04.13.03.08.05;
+        Tue, 13 Apr 2010 03:08:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o3DA57nG001970;
+	Tue, 13 Apr 2010 15:35:07 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o3DAV48T027141;
+	Tue, 13 Apr 2010 16:01:04 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o3DAV43Y027140;
+	Tue, 13 Apr 2010 16:01:04 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 13 Apr 2010 16:01:04 +0530 (IST)
+Message-ID: <3ad8bdaf807e69440172e3127f2efe00.squirrel@math.iisc.ernet.in>
+Date: Tue, 13 Apr 2010 16:01:04 +0530 (IST)
+Subject: Maths : April 16,
+        2010: Seminar : "Brody hyperbolicity and homotopy theory"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 6.5, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Simone Borghesi
+
+    Title                : Brody hyperbolicity and homotopy theory
+
+    Day & Date           : Friday,  April 16, 2010.
+
+    Time                 :  4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+Abstract:
+     The most immediate way to use classical homotopy theory to
+study topological spaces endowed with extra structures, such as
+complex spaces, is to forget these structures and study the underlying
+topological space. Usually this procedure is inadequate since what we
+are forgetting is not homotopy invariant nor topological invariant.
+There are more sophisticated approaches to use homotopy theory to try
+to detect different complex structures on the same topological space
+which prove to be effective, for instance if the topological space is
+a complex variety and the complex structures endow the tangent bundle
+of different Chern classes/numbers.
+A much more thorough approach can be achieved by using model category
+theory to provide the category of complex spaces with holomorphic maps
+of an homotopy theory which realizes to the ordinary topological one,
+it is biholomorphic but not topological invariant. These techniques
+have been previously implemented by Morel and Voevodsky to create the
+so called "A^1 homotopy theory of algebraic varieties" few years ago.
+
+Within such an abstract nonsense, a surprising relation with the
+concept of Brody hyperbolicity of complex spaces arises. We will
+discuss this link and how certain groups (which we called "holotopy
+groups" in analogy with the classical homotopy groups) might be used
+to prove non hyperbolicity of complex spaces.
+
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

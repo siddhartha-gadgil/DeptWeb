@@ -1,0 +1,86 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.151.150.20 with SMTP id c20cs76089ybo;
+        Tue, 1 Sep 2009 01:49:55 -0700 (PDT)
+Received: by 10.115.117.30 with SMTP id u30mr4096146wam.197.1251794994548;
+        Tue, 01 Sep 2009 01:49:54 -0700 (PDT)
+Return-Path: <skiyer@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.66])
+        by mx.google.com with ESMTP id 9si16228536pzk.10.2009.09.01.01.49.51;
+        Tue, 01 Sep 2009 01:49:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of skiyer@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of skiyer@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=skiyer@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n8198SKv015200;
+	Tue, 1 Sep 2009 14:38:28 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n818xXfa006732;
+	Tue, 1 Sep 2009 14:29:33 +0530
+Received: from localhost (skiyer@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id n818xXgH006729;
+	Tue, 1 Sep 2009 14:29:33 +0530
+Date: Tue, 1 Sep 2009 14:29:33 +0530 (IST)
+From: skiyer@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: Change of Venue and Time: Maths : September 2, 2009: Seminar :
+ "Mean-field Limits of Interacting Particle Systems"
+Message-ID: <Pine.LNX.4.64.0909011424440.878@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: skiyer@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                           DEPARTMENT  OF  MATHEMATICS
+                             I.I.Sc.,  BANGALORE - 12
+
+
+                                 SEMINAR  ANNOUNCEMENT
+
+
+     Speaker              : Dr. D. Yogeshwaran, Ecole Normale Superieure /
+INRIA, Paris.
+
+     Title                : Mean-field Limits of Interacting Particle Systems
+
+     Day & Date           : Wednesday, September 2, 2009.
+
+     Time                 :  11.30 - 12.45
+
+     Venue                :  ECE 1.07
+
+
+
+Abstract:
+
+Consider a system of N interacting particles evolving over time with 
+Markovian dynamics. The interaction occurs only due to a shared resource. 
+I shall briefly sketch the classical tightness-existence-uniqueness 
+approach used to prove weak convergence of the system to a limiting system 
+as N tends to infinity. I shall illustrate another approach in more detail 
+with the example of a nonlinear Markov chain. In the case of exchangeable 
+particles, weak convergence of the system implies propogation of chaos 
+i.e, in the limiting system particles evolve independently due to a 
+deterministically shared resource.
+
+
+****************************************************************
+Dr. Srikanth K. Iyer
+email: skiyer@math.iisc.ernet.in; home: math.iisc.ernet.in\~skiyer
+Department of Mathematics, Indian Institute of Science
+Bangalore 560 012 INDIA
+Tel:+91-80-22933327; Fax:+91-80-2360 0146
+*****************************************************************
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,102 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.116.69 with SMTP id ju5csp150948qeb;
+        Tue, 20 Aug 2013 06:03:50 -0700 (PDT)
+X-Received: by 10.68.230.106 with SMTP id sx10mr1686561pbc.170.1377003829990;
+        Tue, 20 Aug 2013 06:03:49 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id xx2si2743414pac.111.1969.12.31.16.00.00
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 20 Aug 2013 06:03:49 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r7KD3XnB023461;
+	Tue, 20 Aug 2013 18:33:33 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r7KD3X6N019895
+	for <m_seminar@math.iisc.ernet.in>; Tue, 20 Aug 2013 18:33:33 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r7KD3XLD019894;
+	Tue, 20 Aug 2013 18:33:33 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 20 Aug 2013 18:33:33 +0530 (IST)
+Message-ID: <1cd8863b487a1487bb40524a2f0aabe0.squirrel@math.iisc.ernet.in>
+Date: Tue, 20 Aug 2013 18:33:33 +0530 (IST)
+Subject: [Change in Seminar]MATH: Aug 26,
+      2013: "Descent and Cohomological Descent"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+
+    Please note the change in dates of the
+following announcement.
+
+
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  Series of two talks
+
+
+Speaker     : Prof Nitin Nitsure,
+                        TIFR, Mumbai
+
+Title          : Descent and Cohomological Descent
+
+Dates         : 26 Aug, 2013 (Monday) and 27 Aug, 2013 (Tuesday)
+
+Time         : 3:00 - 4:00 p.m.
+
+Venue       : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Around 1960, Grothendieck developed the theory of descent. The aim of
+this theory is to construct geometric objects on a base space -- in
+particular bundles, sheaves and their sections -- in terms a generalized
+covering space which is visualized to lie `upstairs' over the base space.
+The objects over the base space are obtained by `descending' similar
+objects from the covering space.
+    In late 1960s-early 1970s, Deligne addressed the problem of how to
+understand cohomology of the base space via cohomology of a covering, by
+this time descending cohomology classes (instead of just descending global
+sections of sheaves, which is the case of 0th cohomology). The theory
+developed by Deligne, known as `Cohomological Descent' has found important
+applications to Hodge theory and to cohomology of algebraic stacks.
+    In these two expository lectures, I will begin with a quick look at
+Grothendieck's theory of descent, and then go on to give a brief
+introduction to Deligne's theory of Cohomological Descent."
+
+
+                      ALL ARE CORDIALLY INVITED
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

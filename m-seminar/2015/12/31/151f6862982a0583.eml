@@ -1,0 +1,77 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.32.193 with SMTP id l1csp1653810iei;
+        Wed, 30 Dec 2015 21:32:46 -0800 (PST)
+X-Received: by 10.140.216.20 with SMTP id m20mr73204716qhb.90.1451539966019;
+        Wed, 30 Dec 2015 21:32:46 -0800 (PST)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id y77si27546779qhy.61.2015.12.30.21.32.44;
+        Wed, 30 Dec 2015 21:32:45 -0800 (PST)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id tBV5Wen1005485;
+	Thu, 31 Dec 2015 11:02:40 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id tBV5eb1B032020
+	for <m_seminar@math.iisc.ernet.in>; Thu, 31 Dec 2015 11:10:37 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id tBV5ebds032019;
+	Thu, 31 Dec 2015 11:10:37 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to harish@localhost using -f
+Received: from 10.16.40.13 (proxying for 117.202.68.186)
+        (SquirrelMail authenticated user harish)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 31 Dec 2015 05:40:37 -0000
+Message-ID: <8a34544dd9258ef31f90544427582eb0.squirrel@math.iisc.ernet.in>
+Date: Thu, 31 Dec 2015 05:40:37 -0000
+Subject: Lectures by J.-P. Demailly on 5th and 7th January
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: tBV5Wen1005485
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+   Title: Compact Kähler manifolds with semipositive Ricci curvature and
+rational connectedness (joint work with F. Campana and Th. Peternell)
+
+   Speaker: J.-P. Demailly
+
+   Time, Date and Venue:  3.30 -5.00 Tuesday (5th Jan) and Thursday (7th)
+    LH 3
+
+   Abstract: The goal of the talks is to describe a structure theorem for
+compact Kähler manifolds with semipositive anticanonical bundle.
+Up to finite étale cover, one shows that such manifolds split
+holomorphically and isometrically as a product of Ricci flat varieties
+and of rationally connected manifolds.
+
+The proof is based on a characterization of rational connectedness
+through the non-existence of certain global twisted contravariant
+tensors of the tangent bundle, along with a generalized holonomy
+principle for pseudoeffective line bundles - i.e. bundles that have
+semipositive curvature in the sense of currents. A crucial ingredient
+for this is the characterization of uniruledness by the property that
+the anticanonical bundle is not pseudoeffective.
+
+Best Regards
+Harish Seshadri
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

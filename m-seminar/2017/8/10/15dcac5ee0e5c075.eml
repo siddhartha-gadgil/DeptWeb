@@ -1,0 +1,140 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.12.199 with SMTP id 190csp1597010ivm;
+        Wed, 9 Aug 2017 23:12:35 -0700 (PDT)
+X-Received: by 10.84.234.15 with SMTP id m15mr12034788plk.247.1502345555914;
+        Wed, 09 Aug 2017 23:12:35 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1502345555; cv=none;
+        d=google.com; s=arc-20160816;
+        b=0X7hZPWGg+YP35cLppyHXF+G5A01Dz7t0T4UhHa3TPqNQVhfgAkvpeL5c5D+nqFfqD
+         iY2FxUrWkTogwSWbCXlCf6BethiI+z1tnr5nGbCcFN5OBncVG9yxcVIU1fUok4e1gF6B
+         Lg1ETTfOEAkV9FxhBTdzoMCvgyVIpQiLP03jkHmm1ToKjnZtk5yUIH+RuDoh/AUWJGRs
+         6i9FFMbViozaHBdPYcvTg9Pv73QZlkZ9npAtlyDWAnUsTKyIUMZQfV8PN9se4Uqxehl0
+         L/xtADDgTAnLQaIeTtTuMuxmqlprWLqEf35c4ffxQlF7GZFB2rRx+aJfjAOyAjC5TWat
+         yUXA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:mime-version:user-agent:message-id:subject
+         :to:from:date:arc-authentication-results;
+        bh=04Dt79ToHCI196dh2dFkPS3iB7XEZQq2WWDhHEw8EY4=;
+        b=X+YhQLtKMPFu1FbDYxjiDXpquXo5isbkErCBWHI9ihYRw0LplZi9YbIUoUUmxiTf46
+         BxMOvtRpFt7e/UOIAkYJppfX8kpCDkKjfxXYOLJsjrLhUYWn3C9MgertQYVNU+ApBO5c
+         PXr38DEP5imJ4w8zyhmYLIbfJnd5un28IBKecBEsyskLqyW4zfROLK4tIXeGud8j4KkJ
+         TF7/4tCnuWjVKdn45V9xzdkmB7738x8W6QO2PoHHI8c2V2XjMjDMe6m10Wg3M06btdxb
+         IyJ1PnchR6SOa6Uh5sDNR/x4lSA8QyuQevj4dhzWvvBbOUxRycnuNF2ST7r69gmkSmO1
+         i1Bw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id o12si3920550plg.134.2017.08.09.23.12.34;
+        Wed, 09 Aug 2017 23:12:35 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 815EBAECE2F;
+	Thu, 10 Aug 2017 11:42:29 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v7A6froE031468
+	for <m_seminar@math.iisc.ernet.in>; Thu, 10 Aug 2017 12:11:53 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id v7A6frnf031465
+	for <m_seminar@math.iisc.ernet.in>; Thu, 10 Aug 2017 12:11:53 +0530
+Date: Thu, 10 Aug 2017 12:11:53 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Fwd: [Academic] Samose with Kaleem Siddiqi, this Friday (fwd)
+Message-ID: <alpine.LFD.2.03.1708101211260.31436@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1977863827-1502347313=:31436"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 815EBAECE2F.A5B18
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FWD_MSG -1.00, RP_MATCHES_RCVD -0.00, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1502950351.39751@pohAn/68jdoJLpES0XEjrw
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1977863827-1502347313=:31436
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+
+---------- Forwarded message ----------
+From: "Venkatakrishnan Ramaswamy" <vramaswamy@ncbs.res.in>
+Date: Aug 9, 2017 1:50 AM
+Subject: [Academic] Samose with Kaleem Siddiqi, this Friday
+To: <academic@lists.ncbs.res.in>
+Cc:
+
+       Dear All,
+
+       We are excited to have Kaleem Siddiqi for SAMOSe (Simons Assorted Math
+       Open Seminar), this Friday. Details below:
+
+       Date & Time: Friday, August 11 at 4pm (Tea/Coffee at 3:45pm)
+
+       Venue: Simons Centre, Ground Floor.
+
+       Speaker: Kaleem Siddiqi
+       School of Computer Science & Centre for Intelligent Machines
+       McGill University
+
+       Title: From Mechanics to Electrical Conduction: Why are Heart Wall
+       Myofibers Helicoidal?
+
+       Abstract:
+       The mammalian heart must function as an efficient pump while simultaneously
+       conducting electrical signals to drive the contraction process. In the
+       ventricles,
+       electrical activation begins at the insertion points of the Purkinje
+       network in the
+       sub-endocardium. Classically this contraction signal has been modeled as a
+       reaction-diffusion equation with a spatially varying diffusion tensor. How
+       does the
+       diffusion component of this signal propagate from the endocardium in a
+       healthy heart
+       wall without creating potentially deadly arrhythmias? Using the duality
+       between
+       diffusion and Brownian motion together and a cardiac manifold described by a
+       generalized helicoid, we show that this helicoidal arrangement of myocytes
+       minimizes
+       the directional biases that could lead to aberrant propagation. Thus we
+       take a step
+       towards closing the gap between mechanical and electrical requirements: the
+       heart’s pumping architecture appears to also be an ideal conductive medium.
+
+
+       Best,
+       Venkat
+
+       *********************************************************
+       Venkatakrishnan Ramaswamy, Ph.D.
+       Simons Fellow,
+       Simons Centre for the Study of Living Machines,
+       National Centre for Biological Sciences,
+       Tata Institute of Fundamental Research,
+       Bangalore 560065, India.
+
+       Email: vramaswamy@ncbs.res.in
+       Web: http://theory.ncbs.res.in/vramaswamy/
+       *********************************************************
+
+       _______________________________________________
+       Academic mailing list
+       Academic@lists.ncbs.res.in
+       http://lists.ncbs.res.in/mailman/listinfo/academic
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1977863827-1502347313=:31436--

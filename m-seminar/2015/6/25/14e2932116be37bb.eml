@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.57.132 with SMTP id g126csp272133ywa;
+        Wed, 24 Jun 2015 22:30:24 -0700 (PDT)
+X-Received: by 10.55.22.130 with SMTP id 2mr95466022qkw.45.1435210223944;
+        Wed, 24 Jun 2015 22:30:23 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id 194si28302339qhw.1.2015.06.24.22.30.22;
+        Wed, 24 Jun 2015 22:30:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t5P5Tbx9031046;
+	Thu, 25 Jun 2015 10:59:37 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t5P5f2gQ008622
+	for <m_seminar@math.iisc.ernet.in>; Thu, 25 Jun 2015 11:11:02 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t5P5f2wd008621;
+	Thu, 25 Jun 2015 11:11:02 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.34
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 25 Jun 2015 05:41:02 -0000
+Message-ID: <bb9d0174d359200924d57fd57aaccb4a.squirrel@math.iisc.ernet.in>
+Date: Thu, 25 Jun 2015 05:41:02 -0000
+Subject: [Seminar] Math : Today : "Dynamics of Distal Group Actions"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+
+DEPARTMENT OF MATHEMATICS
+IISc., BANGALORE - 12
+
+
+Speaker : Dr. Ridhdi Shah
+
+Title   : Dynamics of Distal Group Actions
+
+Date    : June 25, 2014
+
+Time    : 3:00-4:00 p.m.
+
+Venue   : Lecture Hall 1, Department of Mathematics
+
+Abstract:
+An automorphism T of a locally compact group is said to be distal if the
+closure of the T-orbit of any nontrivial element stays away from the
+identity. We discuss some properties of distal actions on groups. We will
+also relate distal groups with behaviour of powers of probability measures
+on it.
+
+
+                       All are welcome!
+
+
+CHAIRMAN
+Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

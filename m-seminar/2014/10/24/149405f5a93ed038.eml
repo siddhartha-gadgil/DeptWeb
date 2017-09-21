@@ -1,0 +1,78 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.167.1 with SMTP id q1csp328332ioe;
+        Thu, 23 Oct 2014 21:17:12 -0700 (PDT)
+X-Received: by 10.70.135.226 with SMTP id pv2mr2023029pdb.11.1414124231479;
+        Thu, 23 Oct 2014 21:17:11 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id c8si3211566pdk.128.2014.10.23.21.17.09
+        for <multiple recipients>;
+        Thu, 23 Oct 2014 21:17:11 -0700 (PDT)
+Received-SPF: none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s9O4H7Cm029510;
+	Fri, 24 Oct 2014 09:47:07 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s9O4Fsb2011892;
+	Fri, 24 Oct 2014 09:45:54 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s9O4FsQk011879;
+	Fri, 24 Oct 2014 09:45:54 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.11 (proxying for 61.3.24.236)
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 24 Oct 2014 04:15:54 -0000
+Message-ID: <6ef18a3b8eebcf052296095e63009250.squirrel@math.iisc.ernet.in>
+Date: Fri, 24 Oct 2014 04:15:54 -0000
+Subject: Reminder: Maths: Seminars (Eigenfunctions series): TODAY: "Shining a
+ Hilbertian lamp on the polydisc"]
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in, m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.499, required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	FSL_RCVD_USER 0.00, LONGWORD 0.30, NO_REAL_NAME 1.00,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+    We shall have the third pair of lectures for the semester in the
+eigenfunctions series.
+
+Speakers: Tirthankar Bhattacharya and E. K. Narayanan
+
+Title: Shining a Hilbertian lamp on the polydisc
+
+Date: Friday, October 24, 2014.
+
+Time: Lecture I: 2:15 - 3:15 p.m.
+      Coffee break: 3:15 p.m. - 3:30 p.m.
+      Lecture II: 3:30 - 4:30 p.m.
+      High Tea: 4:30 p.m.
+
+Venue: LH-I, Department of Mathematics, IISc.
+
+Abstract:
+       See
+https://drive.google.com/file/d/0Bx6ccM3uL81GNHZqQUtic3g5TndEMmF3Y0JKSDl3LTBTeFU4/view?usp=sharing
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

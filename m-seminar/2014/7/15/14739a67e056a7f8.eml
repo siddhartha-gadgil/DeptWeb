@@ -1,0 +1,108 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.112.106 with SMTP id ip10csp161704lbb;
+        Tue, 15 Jul 2014 03:51:59 -0700 (PDT)
+X-Received: by 10.66.102.39 with SMTP id fl7mr22415172pab.28.1405421518410;
+        Tue, 15 Jul 2014 03:51:58 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id dv3si5740238pdb.238.2014.07.15.03.51.56
+        for <multiple recipients>;
+        Tue, 15 Jul 2014 03:51:58 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s6FAproQ020110;
+	Tue, 15 Jul 2014 16:21:53 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s6FAqDFd012380
+	for <m_seminar@math.iisc.ernet.in>; Tue, 15 Jul 2014 16:22:18 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s6FAqCF6012337;
+	Tue, 15 Jul 2014 16:22:12 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 15 Jul 2014 10:52:12 -0000
+Message-ID: <77ac016407a8d979fb2d8d166dbd864f.squirrel@math.iisc.ernet.in>
+Date: Tue, 15 Jul 2014 10:52:12 -0000
+Subject: [Thesis Colloquium] Math: July 22nd, 2014: Mechanisation of Knot
+ Theory
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                              Ph.D. THESIS COLLOQUIUM
+
+
+Speaker : T. V. H. Prathamesh
+          IISc
+
+Title   : Mechanisation of Knot Theory
+
+Date    : 22nd July, 2014 (Tuesday)
+
+Time    : 11:00am - 12:00pm
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract:
+      Mechanisation of Mathematics refers to use of computers to generate
+or check
+proofs in Mathematics. It involves translation of relevant mathematical
+theories from one
+system of logic to another, to render these theories implementable in a
+computer. This process is termed formalisation of mathematics. Two among
+the many way of mechanising are: 
+(1) generating results using Automated Theorem Provers, 
+(2) Interactive theorem proving in a Proof Assistant which involves a
+combination of user intervention and automation.
+
+In the first part of this thesis, we reformulate the question of
+equivalence of two Links in First Order Logic using Braid Groups. This is
+achieved by developing a set of Axioms whose canonical model is the
+Infinite Braid Group. This renders the problem of distinguishing Knots and
+Links, amenable to implementation in First Order Logic based Automated
+Theorem provers. We further state and prove results pertaining to Models of
+Braid Axioms.
+
+The second part of the thesis deals with formalising Knot Theory in Higher
+Order Logic using the Isabelle Proof Assistant. We formulate equivalence of
+Links in Higher Order Logic. We obtain a construction of Kauffman Bracket
+in the Isabelle Proof Assistant. We further obtain a machine checked proof
+of invariance of Kauffman Bracket.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

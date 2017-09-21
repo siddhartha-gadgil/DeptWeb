@@ -1,0 +1,126 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.14.104 with SMTP id o8csp793602obc;
+        Thu, 1 Jun 2017 08:41:15 -0700 (PDT)
+X-Received: by 10.98.12.142 with SMTP id 14mr1603725pfm.66.1496331675073;
+        Thu, 01 Jun 2017 08:41:15 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1496331675; cv=none;
+        d=google.com; s=arc-20160816;
+        b=YVPWTPad92VatzswyR1khPuk72c2cCO6Y4yaZmhaUTsAM3TCyRSpAVw5u0MUr01XQd
+         nhunXTUsM2RbW2PVMWzelSHThTTnBNaTwPrOLkyDkAqqCA/6Lfhe5fh2LIbbSqgDaIWV
+         Gs8ymm1EzttbgM53hU1P+PMir5l7mECqnZD2U8m5L57Hli3Stw7Nbs+7p0ToGL+6fd7O
+         2nUp7sakY0axt5TvjeRZ3yfKEsVmXNMYCvm1i1skNrcGtnJxErKYfMsJweUZl2TGyS/s
+         iqrrknTtgtaV22167xY2yh39qalW2QETgEfE86sCEGKVRHU7N89yxjYxF+hnk2dEnktp
+         akfA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=aqvM7wxPewO5fBW3d8Bv81qTfiYuElihTgGr6+xZoTQ=;
+        b=ODhrXxOuqyx0U4TEqdylH+M5c51WhIrOo/HOAEwGPp8Q2XNSNMFwIXrr8+xHPfJi2Z
+         vlWIvbtIADtJbgayY6uQjCsuBUGmkWpkDVALVJrtEoqRc+DdIpDOfv6Tb3Ut7PCkplgD
+         tBAoRQXIpIHpjdwH7Xv43JHCA4/OLxxEn/RNkOokDnCa2RcHfi44xanhXQoMJTLhCqpf
+         ZQcVTo4/c8fw7AktfcvdmGlJB7l466L02EhLzfdip8TaOy6LYFgj6cIKJTFNXAjzGgQR
+         rmzO61W4iGNq8mdam+me8I9LmumydANqdZx+xS29JDxWn8jI6aB8bGcuJ3bpFEVTFuu2
+         VI4g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id r10si6086438pgs.53.2017.06.01.08.41.13;
+        Thu, 01 Jun 2017 08:41:14 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 75290AECC6B;
+	Thu,  1 Jun 2017 21:11:08 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v51GBqlg015313
+	for <m_seminar@math.iisc.ernet.in>; Thu, 1 Jun 2017 21:41:52 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v51GBqCn015312;
+	Thu, 1 Jun 2017 21:41:52 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Thu, 1 Jun 2017 16:11:52 -0000
+Message-ID: <8639315438b5615c5f3a9f1ae8e2f872.squirrel@math.iisc.ac.in>
+Date: Thu, 1 Jun 2017 16:11:52 -0000
+Subject: [Fwd: Math Dept. Seminar June 8 (Sanachayan Sen)] *Date Change*
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 75290AECC6B.A9D5A
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.901, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FWD_MSG -1.00, NO_REAL_NAME 1.00,
+	RM_KNOWN_WEBMAIL -1.50, RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1496936470.1423@7xdFXAmW9BCZKq6tnTNjIA
+X-Spam-Status: No
+
+
+
+Speaker : Sanachayan Sen (McGill University, Canada)
+
+Date : June 8, 2017 (NEW DATE)
+
+Time : 3 pm
+
+Location : LH-1
+
+
+Title : Random structures: Phase transitions, scaling limits, and
+universality
+
+Abstract : The aim of this talk is to give an overview of some recent
+results in two
+interconnected areas:
+
+*a) **Random discrete structures: *One major conjecture in probabilistic
+combinatorics, formulated by statistical physicists using non-rigorous
+arguments and enormous simulations in the early 2000s, is as follows: for a
+wide array of random graph models on [image: n] vertices and degree
+exponent [image: \tau>3], typical distance both within maximal components
+in the critical regime as well as on the minimal spanning tree on the giant
+component in the supercritical regime scale like [image:
+n^{\frac{\tau\wedge 4 -3}{\tau\wedge 4 -1}}]. In other words, the degree
+exponent determines the universality class the random graph belongs to. The
+mathematical machinery available at the time was insufficient for providing
+a rigorous justification of this conjecture.
+
+More generally, recent research has provided strong evidence to believe
+that several objects, including
+(i) components under critical percolation,
+(ii) the vacant set left by a random walk, and
+(iii) the minimal spanning tree,
+constructed on a wide class of random discrete structures converge, when
+viewed
+as metric measure spaces, to some random fractals in the Gromov-Hausdorff
+sense, and these limiting objects are universal under some general
+assumptions. We will discuss recent developments in a larger program aimed
+at a complete resolution of these conjectures.
+
+*b) Stochastic geometry:*  In contrast, less precise results are known in the
+case of spatial systems. We discuss a recent result concerning the length
+of spatial minimal spanning trees that answers a question raised by Kesten
+and Lee in the 90's, the proof of which relies on a variation of Stein's
+method and a quantification of a classical argument in percolation theory.
+
+Based on joint work with Louigi Addario-Berry, Shankar Bhamidi, Nicolas
+Broutin, Sourav Chatterjee, Remco van der Hofstad, and Xuan Wang.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

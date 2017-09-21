@@ -1,0 +1,98 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.98.164 with SMTP id ej4csp71572qeb;
+        Sun, 17 Feb 2013 22:22:00 -0800 (PST)
+X-Received: by 10.66.86.201 with SMTP id r9mr33242560paz.14.1361168519528;
+        Sun, 17 Feb 2013 22:21:59 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id py10si11765486pbb.298.2013.02.17.22.21.57
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 17 Feb 2013 22:21:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r1I6Lfxa010705;
+	Mon, 18 Feb 2013 11:51:41 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r1I6LaWa025610
+	for <m_seminar@math.iisc.ernet.in>; Mon, 18 Feb 2013 11:51:36 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r1I6Laxh025609;
+	Mon, 18 Feb 2013 11:51:36 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 18 Feb 2013 11:51:36 +0530 (IST)
+Message-ID: <735638347e453313470636a3973252a5.squirrel@math.iisc.ernet.in>
+Date: Mon, 18 Feb 2013 11:51:36 +0530 (IST)
+Subject: Reschedule [Seminar] MATH: Feb 19,
+      2013: "On condition numbers of a basis"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear all,
+
+  Kindly note the revised schedule of the following lecture.
+
+                    Department of Mathematics
+                       Indian Institute of Science
+                                 Bangalore
+                    ------------------------
+
+
+Speaker: Professor B. V. Limaye (IIT Bombay)
+
+Date: Feb 19th, 2013 (Tuesday)
+
+Time: 11:30 am-12:30 pm
+
+Venue: LH-II, Department of Mathematics
+
+Title: On condition numbers of a basis
+
+Abstract. We define two condition numbers of a basis of a finite di-
+mensional normed space in terms of the norms of the basis elements
+and the distances of the basis elements from their complementary sub-
+spaces. If a condition number of a basis is small, then we would avoid
+overflow/underflow in computations as well as `near linear dependence'
+of the basis elements. Optimal scaling strategies for reducing the size
+of condition numbers of a basis are determined. Condition numbers of
+a basis of an inner product space can be calculated explicitly in terms
+of the diagonal entries of the corresponding Gram matrix and of its
+inverse. We give estimates for the change in condition numbers when
+a given basis is transformed by a nonsingular matrix to another basis.
+Our condition numbers arise naturally when we consider the problem of
+computing the dual basis.
+
+
+             All are cordially invited,
+
+
+                                                      Chairman,
+                                             Department of Mathematics.
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

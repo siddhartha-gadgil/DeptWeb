@@ -1,0 +1,127 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.95.72 with SMTP id di8csp75867qeb;
+        Mon, 29 Apr 2013 22:42:54 -0700 (PDT)
+X-Received: by 10.66.26.47 with SMTP id i15mr38838867pag.98.1367300574290;
+        Mon, 29 Apr 2013 22:42:54 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id tu1si19637074pac.215.2013.04.29.22.42.39
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 29 Apr 2013 22:42:54 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r3U5gam3016397;
+	Tue, 30 Apr 2013 11:12:36 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r3U5gVwt030651
+	for <m_seminar@math.iisc.ernet.in>; Tue, 30 Apr 2013 11:12:31 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r3U5gVL9030650;
+	Tue, 30 Apr 2013 11:12:31 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 30 Apr 2013 11:12:31 +0530 (IST)
+Message-ID: <2dab8ec8f4e5401eeaac4a0e72b17b2f.squirrel@math.iisc.ernet.in>
+Date: Tue, 30 Apr 2013 11:12:31 +0530 (IST)
+Subject: Reminder! [Colloquium] MATH :May 2nd,
+      2013: "Differential Modular forms on Shimura curves over totally 
+     real fields"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+
+
+Dear All,
+
+
+
+                       Department of Mathematics
+                Indian Institute of Science, Bangalore
+
+
+                        COLLOQUIUM
+
+Speaker:   Prof. Debargha Benerjee
+                       Australian National University
+
+Title:   Differential Modular forms on Shimura curves
+                 over totally real fields
+
+Date:   May 2nd, 2013 (Thursday)
+
+Time:   4:00 pm- 5:00pm
+
+Venue:   Department of Mathematics, LH-III
+
+ Abstract:-
+ In this talk, we will introduce the theory of differential modular forms
+ for compact Shimura curves over totally real fields. These are the
+modular forms obtained by applying the arithmetic jet space functor
+(adjoint to the Witt vector functor) to the ring of modular forms
+(global sections of certain line bundle). We will show that these
+differential modular forms help us to detect the ordinary quaternionic
+abelian schemes and schemes with Frobenius lifts (local analogue
+of CM abelian schemes). These are also useful to understand the
+categorical quotient of Shimura curves modulo Hecke
+correspondences/isogeny. We also construct the Serre-Tate
+expansions of such differential modular forms  as a possible
+alternative to the Fourier expansion maps.
+
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

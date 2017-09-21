@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.57.132 with SMTP id g126csp323603ywa;
+        Thu, 25 Jun 2015 00:49:23 -0700 (PDT)
+X-Received: by 10.140.27.211 with SMTP id 77mr57066884qgx.64.1435218563787;
+        Thu, 25 Jun 2015 00:49:23 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id m2si28530878qhb.129.2015.06.25.00.49.20;
+        Thu, 25 Jun 2015 00:49:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t5P7nDXr007289;
+	Thu, 25 Jun 2015 13:19:13 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t5P80bJ5014733
+	for <m_seminar@math.iisc.ernet.in>; Thu, 25 Jun 2015 13:30:37 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t5P80bSC014732;
+	Thu, 25 Jun 2015 13:30:37 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.11 (proxying for 193.51.104.65)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 25 Jun 2015 08:00:37 -0000
+Message-ID: <8379d9124fdc53e45eaf6c25c3b848aa.squirrel@math.iisc.ernet.in>
+Date: Thu, 25 Jun 2015 08:00:37 -0000
+Subject: Seminar July 2nd : Vamsi Pingali
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.299, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Speaker:  Vamsi Pingali
+          (Johns Hopkins University)
+
+Date:  July 2nd (Thursday)
+
+Time:  4-5 PM
+
+Venue: LH1
+
+Title: Some computational and analytic aspects of Chern-Weil forms
+
+Abstract: This talk will focus on two aspects of vector bundles. One is
+the calculation and application of certain characteristic and secondary
+characteristic forms (i.e. Chern, Chern-Simons, and Bott-Chern forms).
+This part is joint work with Leon Takhtajan and Indranil Biswas. The
+second is to study certain fully nonlinear PDE akin to the Monge-Amp\'ere
+equation arising from these differential geometric objects. An existence
+result or two will be presented along with the difficulties involved in
+the PDE. Moreover, other areas of geometry and physics from which the same
+PDE arise will be pointed out.
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

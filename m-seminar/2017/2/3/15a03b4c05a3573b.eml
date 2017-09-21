@@ -1,0 +1,205 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.40.2 with SMTP id t2csp474448obk;
+        Fri, 3 Feb 2017 03:21:02 -0800 (PST)
+X-Received: by 10.99.95.216 with SMTP id t207mr17292757pgb.0.1486120861952;
+        Fri, 03 Feb 2017 03:21:01 -0800 (PST)
+Return-Path: <vamsipritham@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id u64si20450316pgc.340.2017.02.03.03.21.01;
+        Fri, 03 Feb 2017 03:21:01 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.67 as permitted sender) smtp.mailfrom=vamsipritham@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id F09F7AE78FA;
+	Fri,  3 Feb 2017 16:50:58 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v13BrrqT008164
+	for <m_seminar@math.iisc.ernet.in>; Fri, 3 Feb 2017 17:23:53 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vamsipritham@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="vamsipritham@gmail.com"; helo=mail-yb0-f170.google.com; client-ip=209.85.213.170
+Received: from mail-yb0-f170.google.com (mail-yb0-f170.google.com [209.85.213.170])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id C4B1BAE0A4F
+	for <m_seminar@math.iisc.ernet.in>; Fri,  3 Feb 2017 16:50:44 +0530 (IST)
+Received: by mail-yb0-f170.google.com with SMTP id j82so4941840ybg.1;
+        Fri, 03 Feb 2017 03:20:42 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:in-reply-to:references
+         :from:date:message-id:subject:to:cc;
+        bh=X1GTZEt8hZG30aonznx2d8W3atb5n2bGxboRWvRAhjE=;
+        b=n+fvMRGRZVQy0nQOeH8p8/rHukXf6mrdams9MyKB6Et/XBKK3m9jVAz6upXU8eNLoi
+         tutnNGTngI/Xap12GwMO00QaNT5MlHa2oJ0tpRcg5NbRRr242An++WTOICNVLrZeuTU6
+         gBsRqWLCJvV7123tBr57GC7/Z6ZHAFNCmHt8TT4ElvmZLshrOumE9YuXUB+Ue0yvXF3l
+         SiFleGCzAF/n2p6g71ZPe/7NAQVqkNBomirag5greHPstIA6X5XkYRE1aSZm18/ARtSX
+         lagf18AKMEW3FmnltV0zmxRbA4OTqniQhOGnCJ2CHNuNcmgaQK5aOCpLulnv4oLtkivd
+         rmGA==
+X-Gm-Message-State: AIkVDXK1Ae6tHjIZgr6ACM6yk5a/4qrldY5DxkudGFL8YefG1R9dF0zPMeGGgYWBiwMbmw==
+X-Received: by 10.37.177.15 with SMTP id g15mr5905609ybj.120.1486120840766;
+        Fri, 03 Feb 2017 03:20:40 -0800 (PST)
+Received: from mail-yw0-f176.google.com (mail-yw0-f176.google.com. [209.85.161.176])
+        by smtp.gmail.com with ESMTPSA id k132sm7599327ywe.18.2017.02.03.03.20.39
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Fri, 03 Feb 2017 03:20:40 -0800 (PST)
+Received: by mail-yw0-f176.google.com with SMTP id l19so9224328ywc.2;
+        Fri, 03 Feb 2017 03:20:39 -0800 (PST)
+X-Received: by 10.129.175.5 with SMTP id n5mr10225229ywh.209.1486120839764;
+ Fri, 03 Feb 2017 03:20:39 -0800 (PST)
+MIME-Version: 1.0
+Reply-To: vamsipritham@gmail.com
+Received: by 10.37.2.132 with HTTP; Fri, 3 Feb 2017 03:19:59 -0800 (PST)
+In-Reply-To: <8577f74f517579e00376f404c5227610.squirrel@math.iisc.ac.in>
+References: <8577f74f517579e00376f404c5227610.squirrel@math.iisc.ac.in>
+From: Vamsi Pritham Pingali <vamsipingali@math.iisc.ernet.in>
+Date: Fri, 3 Feb 2017 16:49:59 +0530
+X-Gmail-Original-Message-ID: <CALSDV2YBL9NvvEB+pMEsHk2orH2fdoJXHg_BtOzE4f6oGnVmQA@mail.gmail.com>
+Message-ID: <CALSDV2YBL9NvvEB+pMEsHk2orH2fdoJXHg_BtOzE4f6oGnVmQA@mail.gmail.com>
+Subject: Re: Informal seminar on surface-group representations
+To: subhojoy@math.iisc.ernet.in, Rukmini Dey <rukmini.dey@gmail.com>
+Cc: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=f403045eaed0bf6afa05479e7821
+X-Sophos-IBS: success
+X-CTCH-PVer:  0000001
+X-CTCH-Spam:  Unknown
+X-CTCH-VOD:  Unknown
+X-CTCH-Flags:  0
+X-CTCH-RefID:  str=0001.0A150209.5894678C.02D4,ss=1,re=0.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=0
+X-CTCH-Score:  0.000
+X-CTCH-ScoreCust:  0.000
+X-CTCH-Rules:  
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (cached, score=-0.817,
+	required 6.5, BAYES_00 -1.90, FREEMAIL_FORGED_FROMDOMAIN 0.00,
+	FREEMAIL_FROM 0.00, HEADER_FROM_DIFFERENT_DOMAINS 0.00,
+	MR_NOT_ATTRIBUTED_IP 0.20, RCVD_IN_DNSWL_NONE -0.00,
+	RCVD_IN_MSPIKE_H3 -0.01, RCVD_IN_MSPIKE_WL -0.01, RCVD_IN_SORBS 0.30,
+	RCVD_IN_SORBS_SPAM 0.50, SPF_PASS -0.00, URIBL_BLOCKED 0.00,
+	_FROM_IISC 0.10), 
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: F09F7AE78FA.A1043
+X-IISc-MailScanner-From: vamsipritham@gmail.com
+MailScanner-NULL-Check: 1486725660.16073@Q8rwDRwRwjwDEUyl8JsY9g
+
+
+--f403045eaed0bf6afa05479e7821
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+
+     Here is a small addendum to Subhojoy's email -
+
+1) I shall be giving a talk on Monday's meeting (Feb 6) on the proof of the
+uniformisation theorem for compact Riemann surfaces. (A PDE proof if you
+will.)
+
+2) We shall try to keep the seminar as accessible as possible. Of course, a
+first course on differential geometry and complex analysis is necessary. It
+is meant to cater to students, postdocs, and interested faculty. So we
+shall be a little condescending whilst giving talks (at least that is the
+plan). As we go along, we shall need some analysis. But the hope is to make
+everything self-contained, i.e., nothing beyond complex analysis, and basic
+Riemannian geometry shall be assumed.
+
+3) If you have friends (or even better, enemies) in ICTS, ISI, or TIFR-CAM,
+please let them know. The more victims, the happier the serial killer.
+
+4) As Subhojoy mentioned, feel free to volunteer to give talks.
+
+Best,
+Vamsi
+
+
+On 2 February 2017 at 22:48, <subhojoy@math.iisc.ernet.in> wrote:
+
+> Dear all,
+>
+> Vamsi and I plan to run an (approximately weekly) seminar on topics
+> related to
+> surface-group representations.
+>
+> These topics shall include: the Uniformization theorem, Teichm=C3=BCller =
+spaces,
+> Donaldson=E2=80=99s proof of the Narasimhan-Seshadri Theorem, and convex =
+projective
+> structures on surfaces (following work of Goldman, Labourie and Loftin).
+> The focus will be on the analytic tools used in these subjects, and their
+> relation
+> to geometry.
+>
+> We currently plan to meet on Wednesday afternoons (say 3pm). However our
+> first
+> meeting is on *Monday, February 6th* at 2:30pm in LH5.
+>
+> Anyone interested can attend talks, or volunteer to give one.
+>
+> Best,
+> Subhojoy
+>
+>
+> --
+> This message has been scanned for viruses and
+> dangerous content by MailScanner, and is
+> believed to be clean.
+>
+>
+
+--f403045eaed0bf6afa05479e7821
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear All,<div><br></div><div>=C2=A0 =C2=A0 =C2=A0Here is a=
+ small addendum to Subhojoy&#39;s email -</div><div><br></div><div>1) I sha=
+ll be giving a talk on Monday&#39;s meeting (Feb 6) on the proof of the uni=
+formisation theorem for compact Riemann surfaces. (A PDE proof if you will.=
+)</div><div><br></div><div>2) We shall try to keep the seminar as accessibl=
+e as possible. Of course, a first course on differential geometry and compl=
+ex analysis is necessary. It is meant to cater to students, postdocs, and i=
+nterested faculty. So we shall be a little condescending whilst giving talk=
+s (at least that is the plan). As we go along, we shall need some analysis.=
+ But the hope is to make everything self-contained, i.e., nothing beyond co=
+mplex analysis, and basic Riemannian geometry shall be assumed.</div><div><=
+br></div><div>3) If you have friends (or even better, enemies) in ICTS, ISI=
+, or TIFR-CAM, please let them know. The more victims, the happier the seri=
+al killer.</div><div><br></div><div>4) As Subhojoy mentioned, feel free to =
+volunteer to give talks.=C2=A0</div><div><br></div><div>Best,</div><div>Vam=
+si</div><div><br></div><div class=3D"gmail_extra"><br><div class=3D"gmail_q=
+uote">On 2 February 2017 at 22:48,  <span dir=3D"ltr">&lt;<a href=3D"mailto=
+:subhojoy@math.iisc.ernet.in" target=3D"_blank">subhojoy@math.iisc.ernet.in=
+</a>&gt;</span> wrote:<br><blockquote class=3D"gmail_quote" style=3D"margin=
+:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">Dear all,<br>
+<br>
+Vamsi and I plan to run an (approximately weekly) seminar on topics<br>
+related to<br>
+surface-group representations.<br>
+<br>
+These topics shall include: the Uniformization theorem, Teichm=C3=BCller sp=
+aces,<br>
+Donaldson=E2=80=99s proof of the Narasimhan-Seshadri Theorem, and convex pr=
+ojective<br>
+structures on surfaces (following work of Goldman, Labourie and Loftin).<br>
+The focus will be on the analytic tools used in these subjects, and their<b=
+r>
+relation<br>
+to geometry.<br>
+<br>
+We currently plan to meet on Wednesday afternoons (say 3pm). However our<br>
+first<br>
+meeting is on *Monday, February 6th* at 2:30pm in LH5.<br>
+<br>
+Anyone interested can attend talks, or volunteer to give one.<br>
+<br>
+Best,<br>
+Subhojoy<br>
+<span class=3D"m_577357331871117026HOEnZb"><font color=3D"#888888"><br>
+<br>
+--<br>
+This message has been scanned for viruses and<br>
+dangerous content by MailScanner, and is<br>
+believed to be clean.<br>
+<br>
+</font></span></blockquote></div><br></div></div>
+
+--f403045eaed0bf6afa05479e7821--

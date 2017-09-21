@@ -1,0 +1,112 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.19.227 with SMTP id i3csp902502oae;
+        Thu, 23 Aug 2012 20:02:06 -0700 (PDT)
+Received: by 10.66.82.97 with SMTP id h1mr7516150pay.45.1345777325915;
+        Thu, 23 Aug 2012 20:02:05 -0700 (PDT)
+Return-Path: <pooja@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id qt3si15955816pbc.173.2012.08.23.20.01.59
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 23 Aug 2012 20:02:05 -0700 (PDT)
+Received-SPF: pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of pooja@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=pooja@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q7O31tUN020768;
+	Fri, 24 Aug 2012 08:31:55 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q7O31m4V003385
+	for <m_seminar@math.iisc.ernet.in>; Fri, 24 Aug 2012 08:31:48 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q7O31mkC003384;
+	Fri, 24 Aug 2012 08:31:48 +0530
+From: pooja@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to pooja@localhost using -f
+Received: from s1.serc.iisc.ernet.in ([10.16.40.11]) (proxying for 
+     117.192.69.154)
+        (SquirrelMail authenticated user pooja)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 24 Aug 2012 08:31:48 +0530 (IST)
+Message-ID: <3200297f26508f6369dec15bb9f78e77.squirrel@math.iisc.ernet.in>
+Date: Fri, 24 Aug 2012 08:31:48 +0530 (IST)
+Subject: [Seminar] MATH : Today : "Matchings between point processes"
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q7O31tUN020768
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=1.201, required 6.5, BAYES_00 -1.90, FSL_RCVD_USER 0.00,
+	_LOCAL_RCVD_THRU_RPROXY 3.10)
+X-IISc-MailScanner-SpamScore: s
+X-IISc-MailScanner-From: pooja@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                         M.S. THESIS DEFENCE
+
+
+Speaker  :   Mr. Indrajit Jana
+
+Title    :   Matchings between point processes
+
+Date     :   August 24, 2012 (Friday)
+
+Time     :   11:00 a.m.- 12:00 noon
+
+Venue    :   Department of Mathematics, LH-III
+
+Abstract:
+We study several kinds of matching problems between two point processes.
+First we consider the set of integers $\mathbb{Z}$. We assign a color red
+or blue with probability 1/2 to each integer. We match each red integer to
+a blue integer using some algorithm and analyze the matched edge length of
+the integer zero. Next we go to $\mathbb{R}^{d}$. We consider matching
+between two different point processes and analyze a typical matched edge
+length $X$. There we see that the results vary significantly in different
+dimensions. In dimensions one and two (d=1,2), even $E[X^{d/2}]$ does not
+exist. On the other hand in dimensions more than two (d>2),
+$E[\exp(cX^{d})]$ exist, where $c$ is a constant depends on $d$ only.
+
+Next we discuss about matching problems in a finite setting, namely in a
+unit square.  Take $n$ red points and $n$ blue points chosen independently
+and uniformly in a unit square. There are $n!$ many possible matchings
+between these red and blue points. We investigate the optimal average
+matched edge length and the minimum of the maximum matched edge lengths,
+where the minimum is over all possible $n!$ matchings. There we see that
+the optimal average matched edge length is like $\sqrt{\frac{\log n}{n}}$
+and the min-max matched edge length is like $\frac{(\log
+n)^{3/4}}{\sqrt{n}}$.
+
+
+            ALL ARE CORDIALLY INVITED,
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

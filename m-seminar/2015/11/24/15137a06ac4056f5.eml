@@ -1,0 +1,84 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.177.212 with SMTP id a203csp1739096oif;
+        Mon, 23 Nov 2015 19:54:00 -0800 (PST)
+X-Received: by 10.140.254.69 with SMTP id z66mr32664454qhc.5.1448337240423;
+        Mon, 23 Nov 2015 19:54:00 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id y193si14150867qka.92.2015.11.23.19.53.57;
+        Mon, 23 Nov 2015 19:53:58 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id tAO3rmSe006540;
+	Tue, 24 Nov 2015 09:23:48 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id tAO42F1E000754
+	for <m_seminar@math.iisc.ernet.in>; Tue, 24 Nov 2015 09:32:15 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id tAO42F6Q000753;
+	Tue, 24 Nov 2015 09:32:15 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 24 Nov 2015 04:02:15 -0000
+Message-ID: <3f6b6f59e68413fe0174298c49550895.squirrel@math.iisc.ernet.in>
+Date: Tue, 24 Nov 2015 04:02:15 -0000
+Subject: Math Dept Seminar Dec 1 (Ritwik Mukherjee)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: tAO3rmSe006540
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Date: Dec 1
+
+Time: 4 pm
+
+Location: LH-1
+
+Speaker: Ritwik Mukherjee (TIFR)
+
+Title: Enumerative Geometry of rational cuspidal curves on del-Pezzo
+surfaces.
+
+Abstract: Enumerative geometry is a branch of mathematics that deals
+with the following question: "How many geometric objects are there that
+satisfy certain constraints?" The simplest example of such a question is
+"How many lines pass through two points?". A more interesting question
+is "How many lines are there in three dimensional space that intersect
+four generic lines?". An extremely important class of enumerative question
+is to ask "How many rational (genus 0) degree d curves are there in
+CP^2 that pass through 3d-1 generic points?" Although this question
+was investigated in the nineteenth century, a complete solution to this
+problem was unknown until the early 90's, when Kontsevich-Manin
+and Ruan-Tian announced a formula. In this talk we will discuss some
+natural generalizations of the above question; in particular we will be
+looking
+at rational curves on del-Pezzo surfaces that have a cuspidal singularity.
+We
+will describe a topological method to approach such questions. If time
+permits, we will also explain the idea of how to enumerate genus one
+curves with a fixed complex structure by comparing it with the Symplectic
+Invariant of a manifold (which are essentially the number of curves that
+are
+solutions to the perturbed d-bar equation).
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

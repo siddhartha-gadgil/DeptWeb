@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.112.106 with SMTP id ip10csp6826lbb;
+        Wed, 9 Jul 2014 21:53:35 -0700 (PDT)
+X-Received: by 10.70.41.110 with SMTP id e14mr14806665pdl.15.1404968014750;
+        Wed, 09 Jul 2014 21:53:34 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id bg4si47640436pbb.67.2014.07.09.21.53.33
+        for <multiple recipients>;
+        Wed, 09 Jul 2014 21:53:34 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s6A4rUjY003815;
+	Thu, 10 Jul 2014 10:23:30 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s6A4s84d028016
+	for <m_seminar@math.iisc.ernet.in>; Thu, 10 Jul 2014 10:24:08 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s6A4s8XL028009;
+	Thu, 10 Jul 2014 10:24:08 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 10 Jul 2014 04:54:08 -0000
+Message-ID: <a344a52d77087bb494deb3d6b10b761b.squirrel@math.iisc.ernet.in>
+Date: Thu, 10 Jul 2014 04:54:08 -0000
+Subject: [Thesis Colloquium] Math: July 17th, 2014: Shortest length geodesics
+ on closed hyperbolic surfaces
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s6A4rUjY003815
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    THESIS COLLOQUIUM
+
+
+Speaker : Bidyut Sanki
+          IISc
+
+Title   : Shortest length geodesics on closed hyperbolic surfaces
+
+Date    : 17th July, 2014 (Thursday)
+
+Time    : 10:00am - :11:00am
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract:
+          Given a hyperbolic surface, the set of all closed geodesics whose
+length is minimal form a graph on the surface, in fact a so called fat
+graph, which we call the systolic graph. The central question that we study
+in this thesis is: which fat graphs are systolic graphs for some surface -
+we call such graphs admissible. This is motivated in part by the observation
+that we can naturally decompose the moduli space of hyperbolic surfaces
+based on the associated systolic graphs.
+         A systolic graph has a metric on it, so that all cycles on the
+graph that correspond to geodesics are of the same length and all other
+cycles have length greater than these. This can be formulated as a simple
+condition in terms of equations and inequations for sums of lengths of
+edges. We call this combinatorial admissibility.
+         Our first main result is that admissibility is equivalent to
+combinatorial admissibility. This is proved using properties of negative
+curvature, specifically that polygonal curves with long enough sides, in
+terms of a lower bound on the angles, are close to geodesics.
+        Using the above result, it is easy to see that a subgraph of an
+admissible graph is admissible. Hence it suffices to characterize minimal
+non-admissible fat graphs. Another major result of this thesis is that there
+are infinitely many minimal non-admissible fat graphs (in contrast, for
+instance, to the classical result that there are only two minimal non-planar
+graphs).
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

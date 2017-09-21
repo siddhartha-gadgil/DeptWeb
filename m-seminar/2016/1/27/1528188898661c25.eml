@@ -1,0 +1,141 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.32.193 with SMTP id l1csp2141213iei;
+        Tue, 26 Jan 2016 21:22:35 -0800 (PST)
+X-Received: by 10.140.18.172 with SMTP id 41mr32666645qgf.7.1453872155149;
+        Tue, 26 Jan 2016 21:22:35 -0800 (PST)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with SMTP id z4si4464005qhc.92.2016.01.26.21.22.22;
+        Tue, 26 Jan 2016 21:22:34 -0800 (PST)
+Received-SPF: pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 1CB3DAE0BD4;
+	Wed, 27 Jan 2016 10:52:00 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u0R5SsIk029276
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jan 2016 10:58:54 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u0R5SssJ029271
+	for <m_seminar@math.iisc.ernet.in>; Wed, 27 Jan 2016 10:58:54 +0530
+Date: Wed, 27 Jan 2016 10:58:54 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Venue change: [Thesis Defence] MATH : 27th Jan 2016 : "On critical
+ points of random polynomials and spectrum of certain products of random
+ matrices" (fwd)
+Message-ID: <alpine.LFD.2.03.1601271058010.29188@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 1CB3DAE0BD4.A5DE2
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	RP_MATCHES_RCVD -0.00, SUBJECT_MONTH -1.50, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1454476926.16141@6lcpgtyP4WuFAS6lCq0Whg
+X-Spam-Status: No
+
+Dear all, the venue of the thesis defence of Tulasi Ram Reddy will be LH-1 
+instead of LH-3.
+
+Regards
+  Manjunath
+
+---------- Forwarded message ----------
+Date: Sat, 23 Jan 2016 13:21:56 +0530 (IST)
+From: Broadcast-IISc <broadcast@iisc.ernet.in>
+Reply-To: lakshmi@math.iisc.ernet.in
+To: Broadcast-IISc <broadcast@iisc.ernet.in>
+Subject: [Thesis Defence] MATH : 27th Jan 2016 :
+     "On critical points of random polynomials and spectrum of certain products o
+     f random matrices"
+
+Dear All,
+
+                      Department of Mathematics
+                      Indian Institute of Science
+
+----------------------------------------------------------------------------------------------
+                     Ph. D.  Thesis  Open Defence
+----------------------------------------------------------------------------------------------
+
+Speaker : Tulasi Ram Reddy  A
+
+Title   : On critical points of random polynomials and spectrum of certain
+                products of random matrices
+
+Date    : 27th January, 2016 (Wednesday)
+
+Time    : 11:00 AM
+
+Venue   : Lecture Hall 3,  Department of Mathematics
+
+Abstract: In the first part we study critical points of random
+polynomials. We choose two deterministic sequences of complex
+numbers,whose empirical measures converge to the same probability measure
+in complex plane. We make a sequence of polynomials whose zeros are chosen
+from either of sequences at random. We show that the limiting empirical
+measure of zeros and critical points agree for these polynomials. As a
+consequence we show that when we randomly perturb the zeros of a
+deterministic sequence of polynomials, the limiting empirical measures of
+zeros and critical points agree. This result can be interpreted as an
+extension of earlier results where randomness is reduced. Pemantle and
+Rivin initiated the study of critical points of random polynomials.
+Kabluchko proved the result considering the zeros to be i.i.d. random
+variables.
+
+In the second part we deal with the spectrum of products of Ginibre
+matrices. Exact eigenvalue density is known for a very few matrix
+ensembles. For the known ones they often lead to determinantal point
+process. Let X_1,X_2,...,X_k be i.i.d matrices of size nxn whose
+entries are independent complex Gaussian random variables. We derive the
+eigenvalue density for matrices of the form Y_1.Y_2....Y_n, where each Y_i
+= X_i or (X_i)^{-1}. We show that the eigenvalues form a determinantal
+point process. The case where k=2, Y_1=X_1,Y_2=X_2^{-1} was derived
+earlier by Krishnapur. The case where Y_i  =X_i for all i=1,2,...,n, was
+derived by Akemann and Burda. These two known cases can be obtained as
+special cases of our result.
+
+                          ALL ARE WELCOME
+
+
+                                                                             CHAIRMAN
+
+
+
+---------------------------------------------------------------------------
+Lost:
+Lost sling bag
+Misplace of Wallet.
+Lost phone.
+Missing Hard Disk.
+http://www.ece.iisc.ernet.in/~toall/lost.txt
+
+Jobs:
+Transcriptomics/Genomics Post-doctoral position.
+Positions Available on an energy consumption data analytics R&D project.
+Project staff in the area of colloids and interfaces.
+INVITES APPLICATIONS FOR A RESEARCH ASSOCIATE IN A CSIR SPONSORED PROJECT.
+Computer system administration job at CES Dept,IISc.
+http://www.ece.iisc.ernet.in/~toall/jobs.txt
+
+Found:
+http://www.ece.iisc.ernet.in/~toall/found.txt
+
+Blood:
+http://www.ece.iisc.ernet.in/~toall/blood.txt
+
+Campus Broadcast Policy:
+------------------------
+http://www.ece.iisc.ernet.in/~toall/index.html
+---------------------------------------------------------------------------
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,73 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.53.81 with SMTP id l17cs3181ibg;
+        Wed, 25 Jan 2012 22:58:45 -0800 (PST)
+Received: by 10.68.199.170 with SMTP id jl10mr2763137pbc.21.1327561124919;
+        Wed, 25 Jan 2012 22:58:44 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id e8si4433205pbw.36.2012.01.25.22.58.43
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 25 Jan 2012 22:58:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q0Q6wdC3014460;
+	Thu, 26 Jan 2012 12:28:39 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q0Q6xpaL028308
+	for <m_seminar@math.iisc.ernet.in>; Thu, 26 Jan 2012 12:29:51 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q0Q6xpHL028305
+	for <m_seminar@math.iisc.ernet.in>; Thu, 26 Jan 2012 12:29:51 +0530
+Date: Thu, 26 Jan 2012 12:29:51 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Colloquium] Math: 30th Jan, 2012: "Liouvillian Extensions and the
+ Galois Theory of Linear Differential Equations"
+Message-ID: <Pine.LNX.4.64.1201261224260.27655@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII; FORMAT=flowed
+Content-ID: <Pine.LNX.4.64.1201160958131.16464@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q0Q6wdC3014460
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 			     Department of Mathematics
+ 		      Indian Institute of Science, Bangalore
+
+
+  			        COLLOQUIUM
+
+
+Speaker	: Prof. Varadharaj Ravi Srinivasan
+ 	  Catholic University of America
+ 	  Washington, D.C.
+
+Title	:  Liouvillian Extensions and the Galois Theory of Linear
+ 	   Differential Equations.
+
+Date	: January 30, 2012
+
+Time	: 3:00 - 4:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+
+**PLEASE NOTE THE UNUSUAL DAY AND TIME OF THIS TALK.**
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					    Chairman,
+ 					    Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

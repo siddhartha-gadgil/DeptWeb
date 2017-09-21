@@ -1,0 +1,93 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.146.226 with SMTP id tf2csp169304lbb;
+        Tue, 4 Mar 2014 19:37:49 -0800 (PST)
+X-Received: by 10.69.31.75 with SMTP id kk11mr3764866pbd.101.1393990668929;
+        Tue, 04 Mar 2014 19:37:48 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id wh10si893959pab.75.2014.03.04.19.37.47
+        for <multiple recipients>;
+        Tue, 04 Mar 2014 19:37:48 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s253ba3C008032;
+	Wed, 5 Mar 2014 09:07:36 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s253Ztpt001297
+	for <m_seminar@math.iisc.ernet.in>; Wed, 5 Mar 2014 09:05:55 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s253Zt8J001294;
+	Wed, 5 Mar 2014 09:05:55 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 5 Mar 2014 03:35:55 -0000
+Message-ID: <ba63f3346f2fa93c3edc6fff23875681.squirrel@math.iisc.ernet.in>
+Date: Wed, 5 Mar 2014 03:35:55 -0000
+Subject: [Colloquium] Math: March 14th, 2014: Critical Growth Elliptic
+ Problem with Singular Discontinuous Nonlinearity in R^2
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s253ba3C008032
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                 COLLOQUIUM
+
+
+
+Speaker : Dr. Dhanya
+          IISc
+
+Title   : Critical Growth Elliptic Problem with Singular Discontinuous
+Nonlinearity in R^2
+
+Date    : 14th March, 2014 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Elliptic problems with discontinuous nonlinearity has its own
+difficulties due to the non-differentiability of the associated
+functional. Hence, a generalized gradient approach developed by Chang has
+been used to solve such problems if the associated functional is known to
+be Lipchitz continuous. In this talk, we will consider critical elliptic
+problem in a bounded domain in $\mathbb{R}^2$ with the simultaneous
+presence of a Heaviside type discontinuity and a power-law type
+singularity and investigate the existence of multiple positive solutions.
+Here discontinuity coupled with singularity does not fit into any of the
+known framework and we will discuss our approach employed to obtain
+positive solutions.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

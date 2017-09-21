@@ -1,0 +1,101 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.140.203.6 with SMTP id a6cs158084rvg;
+        Sun, 23 May 2010 22:27:24 -0700 (PDT)
+Received: by 10.140.179.39 with SMTP id b39mr3623874rvf.298.1274678843955;
+        Sun, 23 May 2010 22:27:23 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id b13si5463849rvn.153.2010.05.23.22.27.22;
+        Sun, 23 May 2010 22:27:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id o4O5ODeL011513;
+	Mon, 24 May 2010 10:54:13 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o4O5qh6n026178;
+	Mon, 24 May 2010 11:22:43 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o4O5qgA4026175;
+	Mon, 24 May 2010 11:22:42 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 24 May 2010 11:22:42 +0530 (IST)
+Message-ID: <2553984795d39d036e0da1bcd40badf3.squirrel@math.iisc.ernet.in>
+Date: Mon, 24 May 2010 11:22:42 +0530 (IST)
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.80,
+	BAYES_00 -2.60)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+Subject: Maths: Today: Change of time: Seminar - "Arithmeticity of complex      hyperbolic lattices"
+X-Spam-Status: No
+
+
+Dear All,
+        Please note the change of time.
+
+                         DEPARTMENT  OF  MATHEMATICS
+                           I.I.Sc.,  BANGALORE - 12
+
+
+                               SEMINAR  ANNOUNCEMENT
+
+       Speaker         :      Martin Deraux
+                                   Fourier Institute, Grenoble
+
+       Title               :      Arithmeticity of complex hyperbolic
+lattices.
+
+       Dates            :       May 24 (Monday) and May 26 (Wednesday) 2010
+
+       Time             :       Monday at 2:00 p.m.
+                                Wednesday at 4:00 p.m.
+
+        Venue          :       LH-1   IISc Mathematics Department
+
+
+               Abstract
+               --------
+Since the discovery of non-arithmetic lattices in PU(2,1) by Mostow around
+1980, very few examples have been constructed. By interpreting the Mostow
+lattices in terms of monodromy groups of hypergeometric functions, Deligne
+and Mostow were able to construct a few more non-arithmetic lattices in
+PU(2,1) as well as a single example in PU(3,1), but no other examples have
+been found since then. The goal of these lectures is to present a new
+class of examples in PU(2,1), obtained in joint work with J. Parker and J.
+Paupert.
+
+In the first lecture, I will recall some general facts about the notion of
+arithmeticity of lattices in semisimple Lie groups, its relation to
+superrigidity and the known examples of non-arithmetic lattices in
+SO(n,1), coming from Coxeter groups or from the Gromov/Piatetski-Shapiro
+construction.
+
+In the second lecture, I will briefly describe the geometry of complex
+hyperbolic space, and explain the difficulties encountered when trying to
+generalize the real hyperbolic constructions to the complex setting.
+Finally, I will describe the new class of examples mentioned above, which
+was obtained in part by a massive computer search.
+
+
+          All are Welcome.
+                                             Chairman
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

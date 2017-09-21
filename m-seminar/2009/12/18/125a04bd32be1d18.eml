@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.115.46.10 with SMTP id y10cs368233waj;
+        Thu, 17 Dec 2009 21:39:03 -0800 (PST)
+Received: by 10.114.186.32 with SMTP id j32mr2323046waf.165.1261114742742;
+        Thu, 17 Dec 2009 21:39:02 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.70])
+        by mx.google.com with ESMTP id 29si5673839pzk.85.2009.12.17.21.39.00;
+        Thu, 17 Dec 2009 21:39:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id nBI5vaOo030392;
+	Fri, 18 Dec 2009 11:27:36 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id nBI5t96l009893;
+	Fri, 18 Dec 2009 11:25:09 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id nBI5t9id009892;
+	Fri, 18 Dec 2009 11:25:09 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Fri, 18 Dec 2009 11:25:09 +0530 (IST)
+Message-ID: <31f32b388c8f04f81548ff976776b57b.squirrel@www.math.iisc.ernet.in>
+Date: Fri, 18 Dec 2009 11:25:09 +0530 (IST)
+Subject: Maths : December 21,
+      2009: Seminar : "Algebraic structures related to the intersection 
+     of curves on surfaces"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Moria Chas, Stony Brook.
+
+    Title                : Algebraic structures related to the intersection
+                           of curves on surfaces
+
+   Day & Date            : Monday,  December 21, 2009 (part I),
+                           Tuesday, December 22, 2009 (part II).
+
+    Time                 : 2:30 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+
+Abstract:
+       Given a surface, one can consider the set of free homotopy classes of
+oriented closed curves  (this is the set of equivalence classes of
+maps from the circle into the surface, where two such maps are
+equivalent if the corresponding curves can be deformed one into the
+other.)
+Given a free homotopy class  one can ask what is the minimum number of
+times (counted with multiplicity) in which a curve in that class
+intersects itself. This is the minimal self-intersection number of
+the free homotopy class.
+Analogously, given two classes, one can ask what is the minimum number
+of times representatives of  these classes intersect. This is the
+minimal intersection number of these two classes.
+
+In these talks, several problems (and some solutions) related to
+minimal intersection and self-intersection will be discussed. Also,
+some  algebraic structures closely related to the intersection and and
+self-intersection will be introduced.
+
+           All are Welcome.
+                                              Chairman
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

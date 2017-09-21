@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.26.38 with SMTP id i6csp126163lbg;
+        Mon, 10 Mar 2014 23:30:20 -0700 (PDT)
+X-Received: by 10.68.101.101 with SMTP id ff5mr12653434pbb.116.1394519419719;
+        Mon, 10 Mar 2014 23:30:19 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id tm9si19095150pab.163.2014.03.10.23.30.17
+        for <multiple recipients>;
+        Mon, 10 Mar 2014 23:30:19 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s2B6UEBY009895;
+	Tue, 11 Mar 2014 12:00:14 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s2B6SAOP031378
+	for <m_seminar@math.iisc.ernet.in>; Tue, 11 Mar 2014 11:58:10 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s2B6SAjs031377;
+	Tue, 11 Mar 2014 11:58:10 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 11 Mar 2014 06:28:10 -0000
+Message-ID: <c9f5dee36c16dc5c1a242e72042c89d0.squirrel@math.iisc.ernet.in>
+Date: Tue, 11 Mar 2014 06:28:10 -0000
+Subject: Reminder [Seminar] Math: March 11th, 2014: Discontinuous Galerkin
+ Methods for Diffusion-Dominated Radiative Transfer Problems
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s2B6UEBY009895
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Prof. Dr. Guido Kanschat
+          University of Heidelberg
+
+Title   : Discontinuous Galerkin Methods for Diffusion-Dominated Radiative
+Transfer Problems
+
+Date    : 11th March, 2014 (Tuesday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+While discontinuous Galerkin (DG) methods had been developed
+and analyzed in the 1970s and 80s with applications in radiative
+transfer and neutron transport in mind, it was pointed out later in the
+nuclear engineering community, that the upwind DG discretization by Reed
+and Hill may fail to produce physically relevant
+approximations, if the scattering mean free path length is smaller than
+the mesh size. Mathematical analysis reveals, that in this case,
+convergence is only achieved in a continuous subspace of the finite
+element space. Furthermore, if boundary conditions are not chosen
+isotropically, convergence can only be expected in relatively weak
+topology. While the latter result is a property of the transport
+model, asymptotic analysis reveals, that the forcing into a continuous
+subspace can be avoided. By choosing a weighted upwinding, the
+conditions on the diffusion limit can be weakened. It has been known for
+long time, that the so called diffusion limit of radiative
+transfer is the solution to a diffusion equation; it turns out, that by
+choosing the stabilization carefully, the DG method can yield
+either the LDG method or the method by Ern and Guermond in its
+diffusion limit. Finally, we will discuss an efficient and robust
+multigrid method for the resulting discrete problems.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

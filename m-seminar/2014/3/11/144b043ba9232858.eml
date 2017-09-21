@@ -1,0 +1,115 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.26.38 with SMTP id i6csp130511lbg;
+        Tue, 11 Mar 2014 01:30:36 -0700 (PDT)
+X-Received: by 10.68.221.42 with SMTP id qb10mr45488953pbc.65.1394526635467;
+        Tue, 11 Mar 2014 01:30:35 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id i7si19428832pav.246.2014.03.11.01.30.31
+        for <multiple recipients>;
+        Tue, 11 Mar 2014 01:30:32 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s2B8UOQO003320;
+	Tue, 11 Mar 2014 14:00:24 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s2B8SaQ6008780
+	for <m_seminar@math.iisc.ernet.in>; Tue, 11 Mar 2014 13:58:36 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s2B8Sav8008773;
+	Tue, 11 Mar 2014 13:58:36 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 11 Mar 2014 08:28:36 -0000
+Message-ID: <59c3755d44ef9048f0a77973d37b1b4e.squirrel@math.iisc.ernet.in>
+Date: Tue, 11 Mar 2014 08:28:36 -0000
+Subject: [Eigen-Function III] : March 28th,  2014
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s2B8UOQO003320
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+The third session of our Eigen-Function meetings will be on March 28.  The
+schedule is below.
+
+2:00-3:00pm:    Kaushal Verma, IISc
+3:00-3:30pm:    High Tea
+3:30-4:30pm:    Satadal Ganguly, ISI Kolkata
+
+The titles and abstracts follow.
+
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINARS
+
+
+
+Speaker : Kaushal Verma
+          IISc
+
+Title   : Quadrature domains - an introduction
+
+Date    : 28th March, 2014 (Friday)
+
+Time    : 2:00 - 3:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Quadrature domains are those on which holomorphic functions satisfy a
+generalized mean value equality. The purpose of this talk will be to
+reflect on the Schwarz reflection principle and to understand how it leads
+to examples of quadrature domains.
+
+and
+
+Speaker : Satadal Ganguly
+          ISI Kolkata
+
+Title   : Recent progress towards the twin prime conjecture
+
+Date    : 28th March, 2014 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+A great progress on the twin prime problem was made last year by
+Yitang Zhang and it made him famous in Mathematical circles almost
+overnight. He proved the existence of a positive real number M such that
+there are infinitely many pairs of primes that differ by at most M. The
+twin
+prime conjecture predicts that M can be taken to be two. I shall give an
+overview of the works leading up to Zhang's spectacular achievement.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

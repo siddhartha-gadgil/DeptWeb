@@ -1,0 +1,117 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.101.71.15 with SMTP id y15cs91424ank;
+        Sun, 14 Dec 2008 06:01:06 -0800 (PST)
+Received: by 10.110.7.5 with SMTP id 5mr8573527tig.13.1229263264714;
+        Sun, 14 Dec 2008 06:01:04 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.66])
+        by mx.google.com with ESMTP id d4si7761919tib.31.2008.12.14.06.00.50;
+        Sun, 14 Dec 2008 06:01:04 -0800 (PST)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) client-ip=220.227.207.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id mBEE2jRj005418;
+	Sun, 14 Dec 2008 19:32:45 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id mBEIsiaZ019745;
+	Sun, 14 Dec 2008 18:54:44 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id mBEIsilV019744;
+	Sun, 14 Dec 2008 18:54:44 GMT
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@math.iisc.ernet.in using -f
+Received: from 59.96.40.66
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Sun, 14 Dec 2008 18:54:44 -0000 (UTC)
+Message-ID: <49359.59.96.40.66.1229280884.squirrel@math.iisc.ernet.in>
+Date: Sun, 14 Dec 2008 18:54:44 -0000 (UTC)
+Subject:  Maths : December 16,
+      2008: Seminar :   "Dirichlet Processes and Reflected Diffusions"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+
+
+
+
+                          DEPARTMENT  OF  MATHEMATICS
+                            I.I.Sc.,  BANGALORE - 12
+
+
+                                SEMINAR  ANNOUNCEMENT
+
+
+    Speaker              : Dr. Kavita Ramanan, Carnegie Mellon University
+
+    Title                :  Dirichlet Processes and Reflected Diffusions
+
+
+    Day & Date           : December 16, 2008
+
+    Time                 : 4:00 p.m.
+
+    Venue                :  Lecture  Hall -  I
+                            Dept. of  Mathematics
+
+Abstract:
+     Reflected diffusions arise in many contexts.
+We identify a rather general condition under which these diffusions
+belong to the class of so-called "Dirichlet processes", which
+are a generalization of continuous semimartingales that admit
+many nice properties, including an Ito formula.  We also provide
+an example arising from applications, in which the reflected diffusion
+fails to be a semimartingale, but belongs to the class of
+Dirichlet processes.  This is partly based on joint work with
+Weining Kang.
+
+                        All  interested  are  Welcome
+
+                                                   CHAIRMAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

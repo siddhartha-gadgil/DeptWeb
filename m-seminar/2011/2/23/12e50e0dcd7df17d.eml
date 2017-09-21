@@ -1,0 +1,78 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.162.5 with SMTP id t5cs153992ibx;
+        Tue, 22 Feb 2011 21:00:57 -0800 (PST)
+Received: by 10.236.105.231 with SMTP id k67mr6505973yhg.5.1298437039862;
+        Tue, 22 Feb 2011 20:57:19 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTPS id 25si685905yhj.17.2011.02.22.20.57.15
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 22 Feb 2011 20:57:17 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p1N4wn0S030210;
+	Wed, 23 Feb 2011 10:28:49 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p1N5cEfr002362
+	for <m_seminar@math.iisc.ernet.in>; Wed, 23 Feb 2011 11:08:14 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p1N5cEri002359
+	for <m_seminar@math.iisc.ernet.in>; Wed, 23 Feb 2011 11:08:14 +0530
+Date: Wed, 23 Feb 2011 11:08:14 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: "Feedback controls of minimal norms"
+Message-ID: <Pine.LNX.4.64.1102231106270.433@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p1N4wn0S030210
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		       	   Department of Mathematics
+ 		       Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+Speaker	: Prof. Jean-Pierre Raymond
+ 	  Universite Paul Sabatier, Toulouse
+ 	  France
+
+Title	: Feedback controls of minimal norms
+
+Date	: February 23, 2011
+
+Time	: 4:00 p.m. - 5:00 p.m.
+
+Venue 	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+In finite-dimensional control theory, feedback control using
+controllability Gramian goes back to results by Kleinman and Lukes in
+1968 and 1970. Some years before, R. Bass characterized controls of
+minimal norms also using controllability Gramians. The extension of
+these results to infinite-dimensional systems has a long history.
+Surprisingly, only reversible infinite-dimensional systems have been
+considered in those results. We shall present existing results in the
+literature and we shall characterize stabilizing controls of minimal
+norms for parabolic systems. This is a joint work with S. Kesavan.
+Application to the stabilization of the Navier-Stokes equations will
+be given.
+
+ 		       ALL ARE CORDIALLY INVITED
+
+ 					  Chairman,
+ 					  Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

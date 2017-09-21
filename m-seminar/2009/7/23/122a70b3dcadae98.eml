@@ -1,0 +1,83 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.150.204.4 with SMTP id b4cs454831ybg;
+        Thu, 23 Jul 2009 02:57:28 -0700 (PDT)
+Received: by 10.140.255.19 with SMTP id c19mr1320884rvi.285.1248343047908;
+        Thu, 23 Jul 2009 02:57:27 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.66])
+        by mx.google.com with ESMTP id 3si2682681pzk.65.2009.07.23.02.57.26;
+        Thu, 23 Jul 2009 02:57:27 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.66 is neither permitted nor denied by best guess record for domain of gadgil@math.iisc.ernet.in) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n6NACBJq014143;
+	Thu, 23 Jul 2009 15:42:11 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n6NA4bMU013717
+	for <m_seminar@math.iisc.ernet.in>; Thu, 23 Jul 2009 15:34:37 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id n6NA4bIB013716;
+	Thu, 23 Jul 2009 15:34:37 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by www.math.iisc.ernet.in with HTTP;
+        Thu, 23 Jul 2009 15:34:37 +0530 (IST)
+Message-ID: <dec872a0a9f06a18f8c4250cc959d9bb.squirrel@www.math.iisc.ernet.in>
+Date: Thu, 23 Jul 2009 15:34:37 +0530 (IST)
+Subject: Maths : 24th Jul 2009 : "Gaussian Minkowski functionals: an 
+     overview.....Wiener space"
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+    Please note the change in venue.
+
+Title: Gaussian Minkowski functionals: an overview of infinite dimensional
+geometry in Wiener space
+
+Speaker: Dr. V. Sreekar
+
+Venue: LH-III, Department of Mathematics
+
+Date: July 24, 2009
+
+Time: 4 - 5 pm.
+
+Abstract:
+
+Gaussian Minkowski functionals (GMFs) for reasonably smooth subsets of
+Euclidean spaces, are defined as coefficients appearing in the the
+Gaussian-tube-formula in finite dimensional Euclidean spaces. The fact
+that the measure in consideration here is Gaussian, itself makes the whole
+analysis an infinite dimensional one. Therefore, one might want to
+generalize the definition of Gaussian Minkowski functionals to the subsets
+of Wiener space which arise from reasonably smooth (in Malliavin sense)
+Wiener functionals. As in the finite dimensional case, we shall identify
+the GMFs in the infinite dimensional case, as the coefficients appearing
+in the tube formula in Wiener space. Finally, we shall try to apply this
+infinite dimensional generalization to get results about the geometry of
+excursion sets of a reasonably large class of random fields defined on a
+"smooth" manifold.
+
+               ALL             ARE             WELCOME
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

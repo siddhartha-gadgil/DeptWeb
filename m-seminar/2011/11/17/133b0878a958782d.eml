@@ -1,0 +1,78 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.43.193 with SMTP id x1cs117295ibe;
+        Wed, 16 Nov 2011 23:57:15 -0800 (PST)
+Received: by 10.182.92.97 with SMTP id cl1mr7975730obb.21.1321516633183;
+        Wed, 16 Nov 2011 23:57:13 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id d4si1579164pbq.233.2011.11.16.23.57.11
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 16 Nov 2011 23:57:12 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id pAH7v1N4011308;
+	Thu, 17 Nov 2011 13:27:06 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id pAH82SNF017592
+	for <m_seminar@math.iisc.ernet.in>; Thu, 17 Nov 2011 13:32:28 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id pAH82SBb017589
+	for <m_seminar@math.iisc.ernet.in>; Thu, 17 Nov 2011 13:32:28 +0530
+Date: Thu, 17 Nov 2011 13:32:28 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] Math: 21st Nov 2011, "Dilations, functional
+ model and a complete unitary invariant of a $\Gamma$-contraction"
+Message-ID: <Pine.LNX.4.64.1111171331150.14342@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: pAH7v1N4011308
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.628, required 6.5, BAYES_00 -1.90, RP_8BIT 1.27)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+  		     	  Department of Mathematics
+  		     Indian Institute of Science, Bangalore
+
+
+  			      THESIS COLLOQUIUM
+
+
+Speaker	: Sourav Pal
+ 	  Department of Mathematics, IISc
+
+Title	: Dilations, functional model and a complete
+ 	  unitary invariant of a $\Gamma$-contraction
+
+Dates	: November 21, 2011
+
+Time	: 3:30-4:30 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+In this talk, we shall define $\Gamma$-contractions, which were
+introduced by Jim Agler and Nicholas Young. We shall construct an
+explicit $\Gamma$-isometric dilation of a $\Gamma$-contraction and
+produce a genuine functional model. A crucial operator equation has
+to be solved for constructing such a dilation. We shall show how the
+existence of such a solution characterizes a $\Gamma$-contraction.
+This solution, which is unique, also provides a complete unitary
+invariant.
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					       Chairman,
+  					       Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

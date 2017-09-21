@@ -1,0 +1,83 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp2687430obd;
+        Thu, 22 Dec 2016 01:23:07 -0800 (PST)
+X-Received: by 10.84.168.129 with SMTP id f1mr17769466plb.42.1482398586966;
+        Thu, 22 Dec 2016 01:23:06 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id a96si30139153pli.220.2016.12.22.01.23.06;
+        Thu, 22 Dec 2016 01:23:06 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 8D089AE4DD3;
+	Thu, 22 Dec 2016 14:52:57 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id uBM9uf1d030813
+	for <m_seminar@math.iisc.ernet.in>; Thu, 22 Dec 2016 15:26:41 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id uBM9ufTO030812;
+	Thu, 22 Dec 2016 15:26:41 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.25.135 (proxying for 117.198.47.154)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 22 Dec 2016 09:56:41 -0000
+Message-ID: <5c149b808e0cc771cc91568f89481541.squirrel@math.iisc.ernet.in>
+Date: Thu, 22 Dec 2016 09:56:41 -0000
+Subject: Math Dept Seminar Jan 18 (Souvik Goswami)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 8D089AE4DD3.A169B
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.7,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1483003379.30549@kZrvNeScRrgD9zPUMPLWXg
+X-Spam-Status: No
+
+Speaker : Souvik Goswami (ICMAT, Madrid, Spain)
+
+Title : Linking numbers for algebraic cycles
+
+Date : Jan 18
+
+Time : 4pm
+
+Location : LH-1
+
+Abstract: In algebraic geometry the concept of height pairing (a
+particular example
+
+of linking numbers) of algebraic cycles lies at the confluence of arithmetic,
+
+Hodge theory and topology. In a series of two talks, I will explain the
+notion
+
+of Beilinson’s height pairing for cycles homologous to zero. This will bring
+
+into picture the notion of Arakelov/arithmetic intersection theory. I will
+give
+
+sufficient background of this theory and provide examples. Finally, I will
+talk
+
+about my recent work with Dr. Jose Ignacio Burgos, about a generalization
+
+of Beilinson’s height pairing for higher algebraic cycles.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

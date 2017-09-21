@@ -1,0 +1,120 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp155645lbb;
+        Mon, 28 Apr 2014 23:48:38 -0700 (PDT)
+X-Received: by 10.66.231.105 with SMTP id tf9mr30747472pac.84.1398754117234;
+        Mon, 28 Apr 2014 23:48:37 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id tv5si11983542pbc.416.2014.04.28.23.48.35
+        for <multiple recipients>;
+        Mon, 28 Apr 2014 23:48:37 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s3T6mYJj012623;
+	Tue, 29 Apr 2014 12:18:34 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s3T6oP3Z010954
+	for <m_seminar@math.iisc.ernet.in>; Tue, 29 Apr 2014 12:20:25 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s3T6oPYn010947;
+	Tue, 29 Apr 2014 12:20:25 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 29 Apr 2014 06:50:25 -0000
+Message-ID: <90e873988272cf5f7fad9a98748e69e8.squirrel@math.iisc.ernet.in>
+Date: Tue, 29 Apr 2014 06:50:25 -0000
+Subject: [Thesis Colloquium] Math: May 2nd, 2014: Contractivity and Complete
+ contractivity
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s3T6mYJj012623
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+Please note the new time.
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    THESIS COLLOQUIUM
+
+
+Speaker : Mr. Avijit Pal (IISc)
+
+Title   : Contractivity and Complete contractivity
+
+Date    : 2nd May, 2014 (Friday)
+
+Time    : 2:00 - 3:00pm
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+
+Abstract:
+We study homomorphisms $\rho_{V}$($\rho_{V}(f)=\left (
+\begin{smallmatrix}
+f(w)I_n& \sum_{i=1}^{m} \partial_if(w)V_{i} \\
+0  & f(w)I_n
+\end{smallmatrix}\right ), f \in \mathcal O(\Omega_\mathbf A)$) defined on
+$\mathcal
+O(\Omega_\mathbf A)$, where  $\Omega_\mathbf A$ is a bounded
+domain of the form:
+\begin{eqnarray*}
+\Omega_\mathbf A & := &\{(z_1 ,z_2, \ldots, z_m) :\|z_1 A_1
++\cdots + z_mA_m \|_{\rm op} < 1\}
+\end{eqnarray*}
+for some choice of a linearly independent set of $n\times n$
+matrices $\{A_1, \ldots, A_m\}.$
+
+From the work of V. Paulsen and E. Ricard, it follows that if
+$n\geq 3$ and $\mathbb B$ is any ball in $\mathbb C^m$, then there exists
+a contractive linear map which is not complete
+contractivity. It is known that contractive homomorphisms of the
+disc and the bi-disc algebra  are completely contractive, thanks
+to the dilation theorem of B. Sz.-Nagy and Ando.  However, an
+example of a contractive homomorphism of the (Euclidean) ball
+algebra which is not completely contractive was given by G. Misra. The
+characterization of those balls in $\mathbb C^2$ for which
+contractive linear maps which are always comletely contractive
+remained open. We answer this question.
+
+The class of homomorphism of the form $\rho_V$ arise from
+localization of  operators in the Cowen-Douglas class of $\Omega.$ The
+(complete) contractivity of a homomorphism in this class
+naturally produces inequalities for the curvature of the
+corresponding Cowen-Douglas bundle. This connection and some of
+its very interesting consequences are discussed.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics.
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

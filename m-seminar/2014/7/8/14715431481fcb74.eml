@@ -1,0 +1,86 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.112.106 with SMTP id ip10csp514614lbb;
+        Tue, 8 Jul 2014 02:17:04 -0700 (PDT)
+X-Received: by 10.70.43.132 with SMTP id w4mr4156236pdl.42.1404811023826;
+        Tue, 08 Jul 2014 02:17:03 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id p1si5841690pdi.394.2014.07.08.02.17.01
+        for <multiple recipients>;
+        Tue, 08 Jul 2014 02:17:03 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s689GxI2020504;
+	Tue, 8 Jul 2014 14:46:59 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s689HdQo021989
+	for <m_seminar@math.iisc.ernet.in>; Tue, 8 Jul 2014 14:47:39 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s689HdFH021982;
+	Tue, 8 Jul 2014 14:47:39 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 8 Jul 2014 09:17:39 -0000
+Message-ID: <752caf17a89b65b10c1ad7a06753467c.squirrel@math.iisc.ernet.in>
+Date: Tue, 8 Jul 2014 09:17:39 -0000
+Subject: [Seminar] Math: July 17th, 2014: Holonomy fibers of complex
+ projective structures
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Subhojoy Gupta
+          Caltech
+
+Title   : Holonomy fibers of complex projective structures
+
+Date    : 17th July, 2014 (Thursday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall III, Department of Mathematics
+
+Abstract:
+As a sequel to the talk on July 16th, I shall talk about a recent result
+(joint work with Shinpei Baba) concerning fibers of the holonomy map from
+P(S) to the PSL(2,C) character variety. The proof involves some
+three-dimensional hyperbolic geometry, and train-tracks.
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

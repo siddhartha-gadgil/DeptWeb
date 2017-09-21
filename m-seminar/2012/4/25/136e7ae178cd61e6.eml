@@ -1,0 +1,117 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.205.26.74 with SMTP id rl10csp210068bkb;
+        Tue, 24 Apr 2012 21:06:48 -0700 (PDT)
+Received: by 10.68.130.130 with SMTP id oe2mr3802335pbb.160.1335326808133;
+        Tue, 24 Apr 2012 21:06:48 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id j10si22417382pbd.54.2012.04.24.21.06.45
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 24 Apr 2012 21:06:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q3P46bbs018265;
+	Wed, 25 Apr 2012 09:36:37 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q3P46WFY029446
+	for <m_seminar@math.iisc.ernet.in>; Wed, 25 Apr 2012 09:36:32 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q3P46WVO029443
+	for <m_seminar@math.iisc.ernet.in>; Wed, 25 Apr 2012 09:36:32 +0530
+Date: Wed, 25 Apr 2012 09:36:32 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] Math: Today: "Analyzing credit risk models in
+ a regime-switching market"
+Message-ID: <Pine.LNX.4.64.1204250935160.29282@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q3P46bbs018265
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		         Department of Mathematics
+ 		    Indian Institute of Science, Bangalore
+
+
+ 			     THESIS COLLOQUIUM
+
+
+Speaker	: Mr. Tamal Banerjee
+
+Title	: Analyzing credit risk models in a regime-switching market
+
+Date	: April 25, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics, Lecture Hall I
+
+Abstract:
+Recently, the financial world witnessed a series of major defaults by
+several institutions and banks. Therefore, it is not at all surprising
+that credit risk analysis has turned out to be one of the most important
+aspects of study in the finance community. As credit derivatives are long
+term instruments, they are affected by the changes in the market
+conditions. Thus, it is appropriate to take into consideration the
+cyclical effects of the market. This thesis addresses some of the
+important issues in credit risk analysis for a regime-switching market.
+
+The main contributions in this thesis are:
+
+    i) 	We determine the price of defaultable bonds in a
+ 	 regime-switching market for structural models with European
+ 	 type payoff. We use the method of quadratic hedging and
+ 	 minimal martingale measure to determine the defaultable bond
+ 	 prices. We also obtain hedging strategies and the
+ 	 corresponding residual risk for these models. The defaultable
+ 	 bond prices are obtained as solution to a system of PDEs
+ 	 (partial differential equations) with appropriate terminal
+ 	 and boundary conditions. We show the existence and
+ 	 uniqueness of the system of PDEs on an appropriate domain.
+
+    ii)	We carry out a similar analysis for the reduced-form models
+ 	 in a regime-switching market. We extend some of the existing
+ 	 models in the literature for correlated default timings. We
+ 	 price single-name and multi-name credit derivatives using
+ 	 our regime switching models. The prices are obtained as
+ 	 solution to a system of ODEs (ordinary differential
+ 	 equations) with appropriate terminal conditions.
+
+    iii)	The price of the credit derivatives in our
+ 	 regime-switching models are obtained as solutions
+ 	 to a system of ODEs/PDEs subject to appropriate
+ 	 terminal and boundary conditions. We solve these
+ 	 ODEs/PDEs numerically and compare the relative behavior
+ 	 of the credit derivative prices with and without regime
+ 	 switching. We observe higher spread in our regime-switching
+ 	 models. This resolves the low spread discrepancy that were
+ 	 prevalent in the classical structural models. We show
+ 	 further applications of our model by capturing important
+ 	 phenomena that arise frequently in the financial market.
+ 	 For instance, we illustrate the effects of business cycle,
+ 	 tight liquidity situations and firm restructuring.
+
+
+
+ 		    ALL ARE CORDIALLY INVITED.
+
+
+Faculty memmbers and students of the Department are requested to attend.
+
+
+
+  					  Chairman,
+ 					  Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

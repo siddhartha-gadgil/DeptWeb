@@ -1,0 +1,55 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.28.66 with SMTP id z2csp163503obg;
+        Sat, 23 Apr 2016 06:34:25 -0700 (PDT)
+X-Received: by 10.98.93.142 with SMTP id n14mr35241476pfj.37.1461418465082;
+        Sat, 23 Apr 2016 06:34:25 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.77])
+        by mx.google.com with SMTP id 133si13327466pfb.209.2016.04.23.06.34.11;
+        Sat, 23 Apr 2016 06:34:24 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) client-ip=203.200.35.77;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.77 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 55F9EAE25EC;
+	Sat, 23 Apr 2016 19:04:06 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u3NDdxYJ029630;
+	Sat, 23 Apr 2016 19:09:59 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u3NDdxIl029627;
+	Sat, 23 Apr 2016 19:09:59 +0530
+Date: Sat, 23 Apr 2016 19:09:59 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+cc: manju@math.iisc.ernet.in
+Subject: A seminar by Krishna M
+Message-ID: <alpine.LFD.2.03.1604231907370.29578@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII; FORMAT=flowed
+Content-ID: <alpine.LFD.2.03.1604181219361.19292@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 55F9EAE25EC.A8D50
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.896, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, RP_MATCHES_RCVD -1.00)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1462023247.27989@bcyHC6GSNj+TGPQvXFPRYA
+X-Spam-Status: No
+
+Krishna Maddaly is giving a lecture to some of us on 'Random (Schrodinger) 
+operators' on Monday (25th Apr) at 11AM in LH-3.
+
+Interested people are welcome to attend.
+
+Regards
+  Manjunath.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

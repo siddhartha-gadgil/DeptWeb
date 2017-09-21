@@ -1,0 +1,67 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.57.132 with SMTP id g126csp1726106ywa;
+        Sun, 21 Jun 2015 22:29:35 -0700 (PDT)
+X-Received: by 10.140.235.145 with SMTP id g139mr37485335qhc.81.1434950975061;
+        Sun, 21 Jun 2015 22:29:35 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id k85si18128964qhc.46.2015.06.21.22.29.33;
+        Sun, 21 Jun 2015 22:29:35 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t5M5TPje010973;
+	Mon, 22 Jun 2015 10:59:25 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t5M5esXP006779
+	for <m_seminar@math.iisc.ernet.in>; Mon, 22 Jun 2015 11:10:54 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t5M5esYu006778;
+	Mon, 22 Jun 2015 11:10:54 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.16.40.12 (proxying for 193.51.104.65)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 22 Jun 2015 05:40:54 -0000
+Message-ID: <7adb72c4ca1e4182d983d02156b8e8bb.squirrel@math.iisc.ernet.in>
+Date: Mon, 22 Jun 2015 05:40:54 -0000
+Subject: Math Dept Seminar June 24 : Koushik Ramachandran
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.299, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50,
+	_LOCAL_RCVD_THRU_RPROXY 1.10)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Title: Electrostatic skeletons
+
+Speaker: Koushik Ramachandran (ISI, Bangalore)
+
+Date: June 24
+
+Time and venue: 3-4 PM, LH-1, department of mathematics
+
+Abstract: Let P be the equilibrium potential of a compact set K in R^n. An
+electrostatic skeleton of K is a positive measure µ such that the closed
+support S of µ has connected complement and empty interior, and the
+Newtonian (or logarithmic, when n = 2) potential of µ is equal to P
+near infinity. We prove the existence and uniqueness of an electrostatic
+skeleton for any simplex.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,100 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.100.143.15 with SMTP id q15cs80923and;
+        Tue, 21 Oct 2008 22:28:20 -0700 (PDT)
+Received: by 10.142.215.5 with SMTP id n5mr4149699wfg.61.1224653300043;
+        Tue, 21 Oct 2008 22:28:20 -0700 (PDT)
+Return-Path: <hcs19712000@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id 27si19299968wfa.2.2008.10.21.22.28.07;
+        Tue, 21 Oct 2008 22:28:20 -0700 (PDT)
+Received-SPF: neutral (google.com: 144.16.79.123 is neither permitted nor denied by domain of hcs19712000@gmail.com) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 144.16.79.123 is neither permitted nor denied by domain of hcs19712000@gmail.com) smtp.mail=hcs19712000@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m9M5UwHe021832;
+	Wed, 22 Oct 2008 11:00:58 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.17])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m9MAPiol005635
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 Oct 2008 10:25:44 GMT
+MailScanner-NULL-Check: 1225258296.94337@GYkyZApryx/3SUFYh1RMtw
+Received: from fg-out-1718.google.com (fg-out-1718.google.com [72.14.220.155])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m9M5VYJt005632
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 Oct 2008 11:01:35 +0530
+Received: by fg-out-1718.google.com with SMTP id l27so198317fgb.34
+        for <m_seminar@math.iisc.ernet.in>; Tue, 21 Oct 2008 22:27:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:received:message-id:date:from:to
+         :subject:mime-version:content-type:content-transfer-encoding
+         :content-disposition;
+        bh=pnQQGBwArWGMe2KFKjWCjSD9f8eMd4uIPfACaClJUA4=;
+        b=oK+3/7fl4azrudfbMt8k/U0VxW+m4VQnmxQ83B92NtoY58sc4q51JWdhWJP1vkt7HM
+         3yE8iJw0r2By5pIJE0VCynTn5zL0/unuO6p2R2CXZMMb5Emz7KwfUnwhDaa9uZUpJ7Xg
+         vls5ZK9fCYQiRLtRfCd0wOLt+c63GGp6HSDms=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=message-id:date:from:to:subject:mime-version:content-type
+         :content-transfer-encoding:content-disposition;
+        b=E848Uci9puLu4UMWp+KNw8/+MKCaKNEQxKeFnnWccWNDaM8MGptRB6hXQieVyZFI1m
+         c66G66lJk0HdXVlaMum3YtRUzmmUbIRffrfqxgIEhVNsBZi+nCC5ZP8bA4hW/Xl1f86e
+         TL1hc3t/jrd3t1+JChKn2FeNntLfzcHa1PYSk=
+Received: by 10.181.61.9 with SMTP id o9mr3168205bkk.86.1224652884409;
+        Tue, 21 Oct 2008 22:21:24 -0700 (PDT)
+Received: by 10.181.27.19 with HTTP; Tue, 21 Oct 2008 22:21:24 -0700 (PDT)
+Message-ID: <3fa211890810212221i3ca355b9wa5f125764e1448f6@mail.gmail.com>
+Date: Wed, 22 Oct 2008 10:51:24 +0530
+From: "harish seshadri" <hcs19712000@gmail.com>
+To: m_seminar@math.iisc.ernet.in
+Subject: Lectures on conformal geometry
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+Content-Disposition: inline
+X-MailScanner-ID: m9M5VYJt005632
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.599, required 6.5, BAYES_00 -2.60, RCVD_IN_BNBL 1.00), not spam, SpamAssassin (not cached,
+	score=-1.104, required 9, BAYES_00 -2.60, ROUND_THE_WORLD 1.50)
+X-Spam-Status: No, No, No
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: hcs19712000@gmail.com
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: hcs19712000@gmail.com
+
+Dear All,
+
+  There will be a series of three lectures next week , the details are
+as follows:
+
+
+   Speaker: Prof. Zindine Djadli
+
+   Title:  Some recent progress in conformal geometry
+
+   Venue: LH 1 , IISc Maths Dept
+
+   Time: 4-5 PM  on 28th, 29th and 30th (Tue, Wed and Thur)
+
+Abstract : In my lectures I will describe some recent works in
+conformal geometry. Starting with the basic example of surfaces, we
+will see how we can generalize some of the results for surfaces to
+higher dimensional manifolds. We will emphasize the importance of
+geometric partial differential operators and their associated
+invariants in order to do so.
+
+
+Best Regards
+
+Harish Seshadri
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

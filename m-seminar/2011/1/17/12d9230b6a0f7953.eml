@@ -1,0 +1,84 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.154.11 with SMTP id m11cs41504ibw;
+        Sun, 16 Jan 2011 20:17:02 -0800 (PST)
+Received: by 10.42.219.131 with SMTP id hu3mr3856290icb.459.1295237822245;
+        Sun, 16 Jan 2011 20:17:02 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.70])
+        by mx.google.com with ESMTPS id ed2si10137339icb.42.2011.01.16.20.17.00
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Sun, 16 Jan 2011 20:17:01 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id p0H4IPtL008720
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NOT);
+	Mon, 17 Jan 2011 09:48:27 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p0H4tqAk011693
+	for <m_seminar@math.iisc.ernet.in>; Mon, 17 Jan 2011 10:25:52 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p0H4tqQ1011690
+	for <m_seminar@math.iisc.ernet.in>; Mon, 17 Jan 2011 10:25:52 +0530
+Date: Mon, 17 Jan 2011 10:25:52 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Jan 19: "Serre's mass formula in prime degree"
+Message-ID: <Pine.LNX.4.64.1101171024440.10839@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046162175-576138401-1295240014=:10839"
+Content-ID: <Pine.LNX.4.64.1101171023450.10839@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p0H4IPtL008720
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-576138401-1295240014=:10839
+Content-Type: TEXT/PLAIN; CHARSET=ISO-8859-1; FORMAT=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <Pine.LNX.4.64.1101171023451.10839@math.iisc.ernet.in>
+
+
+ 		       	 Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+Speaker	: Prof. Chandan Singh Dalawat
+ 	  HRI, Allahabad
+
+Title	: Serre's mass formula in prime degree
+
+Date	: January 18, 2011
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+Serre's mass formula counts the number of totally ramified degree-$n$
+extensions $E$ of a local field $F$, each extension being assigned
+some weight depending upon how ramified it is.  We will present an
+elementary proof of this formula when the degree $n$ is prime. The
+background material will be covered, so that the talk should be
+accessible to a broad mathematical audience.
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					   Chairman,
+ 					   Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-576138401-1295240014=:10839--

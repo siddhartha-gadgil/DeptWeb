@@ -1,0 +1,91 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.151.221 with SMTP id y90csp157301ivg;
+        Mon, 12 Jun 2017 23:24:03 -0700 (PDT)
+X-Received: by 10.99.119.6 with SMTP id s6mr49772276pgc.215.1497335043143;
+        Mon, 12 Jun 2017 23:24:03 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1497335043; cv=none;
+        d=google.com; s=arc-20160816;
+        b=tYt9q9053PUjzTxl7LBJM1fa32PyXT2Hxwp+Tb+RupmzAB5XvLtwOJcHUZssXVbSwi
+         ebIxj1H8r12Kx5Fdn5scg8OhE/nf6U0Io9KCeiVk5blnEg0dwuhI1H9AGdhMdWHb52wf
+         2st40kiO2n+FfRDVXIbf3yek7J5KwQ6WtnFjOOCjl/oIseZ/dTJTCKFM4OZN8hT3zLrm
+         ZjjejhwKk4Zco/ZZGyYPvOwFhHipaKQgTdtgnBW5sSVGGXPLkdEAw72VXoL3ck9Fwuak
+         7fxSElbzaISeqvbKHqWW0IwHkSYa3+FWQjJSZq8skVSiltUoO69qC8Xe38Med+/K4nda
+         b11A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=YhQc7A3vXuHaUoQByWs0lXHAeGEaeYkSFT5RK8HpWZU=;
+        b=uU6bldCh+7hVLntJLLdOm+1kK7GO/PATpaqt54YmaGmKUybob20GlPROmqesU17Eef
+         +4SvLjeQUMqOrM5WiBL40bgeuzOJvTDDItTwSLe28ZScNicCixHQQCMw/oG+5yZXW4Vt
+         QzR1QYSiXujCYm+6Nvl7jDDecdCRevKThWeO6WQMrBP6wELogyAOkxgW6gOAa3RsVXmm
+         2p1ORr5OeYX3+ctK2Bq0b+nWy4ZRpIOtP8ukYVYegUiQJ0yZQU7uXu2REiOsMTuA/LZS
+         8xUacwwVi5MCECOzQqtKZKMZz6qFPVcwmgxwE18XU/Cyy1Y4ow7Z4+4CMmXOjAiw8wYZ
+         1oBA==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id y125si8529689pfy.16.2017.06.12.23.24.02;
+        Mon, 12 Jun 2017 23:24:03 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 6A155AED592;
+	Tue, 13 Jun 2017 11:53:54 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v5D6sPXx011229
+	for <m_seminar@math.iisc.ernet.in>; Tue, 13 Jun 2017 12:24:25 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v5D6sPlF011228;
+	Tue, 13 Jun 2017 12:24:25 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Tue, 13 Jun 2017 06:54:25 -0000
+Message-ID: <34c1e1ee92b19cc953c71ea28d9bc6e3.squirrel@math.iisc.ac.in>
+Date: Tue, 13 Jun 2017 06:54:25 -0000
+Subject: Math Dept Seminar June 14 (Aprameyan Parthasarathy)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 6A155AED592.A5507
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1497939834.64104@tvLsZKjV14NdHHR3BblI+w
+X-Spam-Status: No
+
+Speaker : Aprameyan Parthasarathy (University of Paderborn, Germany)
+
+Title: Boundary values, resonances and scattering poles on symmetric
+spaces of rank one
+
+Date and time: 4pm, June 14 (Wednesday)
+
+Location : LH-1
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

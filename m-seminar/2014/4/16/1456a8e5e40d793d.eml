@@ -1,0 +1,124 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.147.101 with SMTP id tj5csp249478lbb;
+        Wed, 16 Apr 2014 05:41:28 -0700 (PDT)
+X-Received: by 10.66.65.204 with SMTP id z12mr8296169pas.60.1397652086946;
+        Wed, 16 Apr 2014 05:41:26 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id m8si12663896pbd.245.2014.04.16.05.41.25
+        for <multiple recipients>;
+        Wed, 16 Apr 2014 05:41:26 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s3GCfLwM019114;
+	Wed, 16 Apr 2014 18:11:21 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s3GChPf2001362
+	for <m_seminar@math.iisc.ernet.in>; Wed, 16 Apr 2014 18:13:25 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s3GChPqi001355;
+	Wed, 16 Apr 2014 18:13:25 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 16 Apr 2014 12:43:25 -0000
+Message-ID: <90f7519e7ba47a6e3f356b82207d0e7c.squirrel@math.iisc.ernet.in>
+Date: Wed, 16 Apr 2014 12:43:25 -0000
+Subject: [Thesis Defence] MATH : April 28, 2014 : "On Walkup's class of
+ manifolds and tight triangulations"
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s3GCfLwM019114
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+
+                         IISC MATHEMATICS INITIATIVE
+                          DEPARTMENT OF MATHEMATICS
+                         INDIAN INSTITUTE OF SCIENCE
+
+                              PH.D. THESIS DEFENCE
+
+
+Topic         : On Walkup's class of manifolds and tight triangulations
+
+Speaker       :  Mr. NITIN SINGH
+
+Supervisors   :  Prof. Basudeb Datta
+                 Prof. Vijay Natrajan
+
+Date and Time :  April 28, 2014(Monday)
+                 11:00 AM
+
+Venue         :  Lecture Hall - I
+                 Department of Mathematics
+                 IISc
+
+Coffee/Tea    :  10:45 AM
+
+ABSTRACT:
+
+By a triangulation of a topological space $X$, we mean a simplicial
+complex $K$ whose geometric carrier is homeomorphic to $X$. The
+topological properties of the space can be expressed in terms of the
+combinatorics of
+its triangulation. Simplicial complexes have gained in prominence after the
+advent of powerful computers as they are especially suitable for computer
+processing. In this regard, it is desirable for a triangulation to be as
+efficient as possible. In this thesis we study different notions of
+efficiency of triangulations, namely, minimal triangulations, tight
+triangulations and tight neighborly triangulations.
+
+a) Minimal Triangulations: A triangulation of a space is called minimal if
+it contains minimum number of vertices among all triangulations of the
+space. In general, it is hard to construct a minimal triangulation, or to
+decide if a given triangulation is minimal. In this work, we present
+examples of minimal triangulations of connected sums of sphere bundles
+over the circle.
+b) Tight Triangulations: A simplicial complex (triangulation) is called
+tight w.r.t field $\mathbb{F}$ if for any induced subcomplex, the induced
+homology maps from the subcomplex to the whole complex are all injective.
+We normally take the field to be $\mathbb{Z}_2$. Tight triangulations have
+several desirable properties. In particular any simplex-wise linear
+embedding of a tight triangulation (of a PL manifold) is "as convex" as
+possible. Conjecturally, tight triangulations of manifolds are minimal,
+and it is known to be the case for most tight triangulations of manifolds.
+Examples of tight triangulations are extremely rare, and in this thesis we
+present a construction of an infinite family of tight triangulations,
+which is only the second of its kind known in literature.
+
+
+c) Tight Neighborly Triangulations: For dimensions three or more, Novik
+and Swartz obtained a lower bound on the number of vertices in a
+triangulation***********************ALL ARE CORDIALLY
+INVITED****************************
+
+of a manifold, in terms of its first Betti number. Triangulations that meet
+this bound are called tight neighborly. The examples of tight
+triangulations constructed in the thesis are also tight neighborly. In
+addition, it is proved that there is no tight neighborly triangulation of
+a manifold with first Betti number equal to two.
+
+***********************ALL ARE CORDIALLY INVITED****************************
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

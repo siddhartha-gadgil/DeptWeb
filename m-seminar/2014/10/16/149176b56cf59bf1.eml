@@ -1,0 +1,102 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.167.1 with SMTP id q1csp766259ioe;
+        Wed, 15 Oct 2014 22:25:51 -0700 (PDT)
+X-Received: by 10.66.66.136 with SMTP id f8mr17202316pat.55.1413437151244;
+        Wed, 15 Oct 2014 22:25:51 -0700 (PDT)
+Return-Path: <nmi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id gh7si17756247pbd.204.2014.10.15.22.25.49
+        for <multiple recipients>;
+        Wed, 15 Oct 2014 22:25:51 -0700 (PDT)
+Received-SPF: none (google.com: nmi@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: nmi@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=nmi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id s9G5Pj14028823;
+	Thu, 16 Oct 2014 10:55:45 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s9G5OeLP004808
+	for <m_seminar@math.iisc.ernet.in>; Thu, 16 Oct 2014 10:54:40 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s9G5Od7d004800;
+	Thu, 16 Oct 2014 10:54:39 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to nmi@localhost using -f
+Received: from 10.134.13.19
+        (SquirrelMail authenticated user nmi)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 16 Oct 2014 10:54:39 +0530
+Message-ID: <7ae27706c8bffc8c6df6281b04a6df1d.squirrel@math.iisc.ernet.in>
+Date: Thu, 16 Oct 2014 10:54:39 +0530
+Subject: [Seminar] :TODAY: From Calculus to Number Theory (via Cohomology)
+From: "National Mathematics Initiative" <nmi@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: s9G5Pj14028823
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: nmi@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+                  National Mathematics Initiative
+                    Department of Mathematics
+                   Indian Institute of Science
+                          Bangalore - 12
+
+
+                          SEMINAR ON
+
+
+Title   :  From Calculus to Number Theory (via Cohomology)
+
+Speaker :  Professor A. Raghuram
+           Indian Institute of Science Education and Research (IISER)
+           Pune, Maharashtra, India
+
+Venue   :  Lecture Hall III, Ground Floor
+           Department of Mathematics, IISc, Bangalore
+
+Date    :  October 16, 2014 (Thursday)
+
+Time    :  4:00 PM to 5:00 PM
+
+----------------------------------------------------------------------------
+
+ABSTRACT
+
+Some of the early examples of series which we come across in Calculus
+happen to be prototypical examples governing a subject within number
+theory that goes by the appellation "special values of L-functions." In
+this talk, I will introduce this subject via such classical examples, and
+try to give some general idea of the theorems and conjectures that drive
+the area. Ultimately, my aim will be to explain why certain integrals in
+analytical
+number theory, when interpreted as maps in cohomology, lead to deep
+arithmetical theorems.
+
+----------------------------------------------------------------------------
+
+ALL ARE WELCOME
+
+Coffee/Tea at 3:45 PM
+
+
+Convener
+National Mathematics Initiative (NMI)
+Department of Mathematics
+Indian Institute of Science
+Bangalore - 12
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

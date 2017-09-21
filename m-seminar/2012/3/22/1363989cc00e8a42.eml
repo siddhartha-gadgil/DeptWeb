@@ -1,0 +1,69 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.204.38.201 with SMTP id c9csp2652bke;
+        Thu, 22 Mar 2012 01:33:15 -0700 (PDT)
+Received: by 10.68.228.234 with SMTP id sl10mr5856274pbc.5.1332405194342;
+        Thu, 22 Mar 2012 01:33:14 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id b5si4934975pbj.23.2012.03.22.01.33.12
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 22 Mar 2012 01:33:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q2M8X82O004914;
+	Thu, 22 Mar 2012 14:03:08 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q2M8bVac028473
+	for <m_seminar@math.iisc.ernet.in>; Thu, 22 Mar 2012 14:07:31 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id q2M8bVK3028470
+	for <m_seminar@math.iisc.ernet.in>; Thu, 22 Mar 2012 14:07:31 +0530
+Date: Thu, 22 Mar 2012 14:07:31 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 27th March, 2012: "Topological rigidity"
+Message-ID: <Pine.LNX.4.64.1203221406340.20287@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.2,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50, _LOCAL_R_TO 0.20)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		      	  Department of Mathematics
+ 		    Indian Institute of Science, Bangalore
+
+
+  			         SEMINAR
+
+
+Speaker	: Prof. Thomas Farrell
+ 	  SUNY at Binghamton, U.S.A.
+
+Title	: Topological rigidity
+
+Date	: March 27, 2012
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Department of Mathematics. Room to be announced.
+
+
+**PLEASE NOTE THE UNUSUAL DAY OF THIS TALK.**
+
+
+  		    ALL ARE CORDIALLY INVITED
+
+  					  Chairman,
+ 					  Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

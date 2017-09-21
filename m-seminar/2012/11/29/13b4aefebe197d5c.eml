@@ -1,0 +1,117 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.30.193 with SMTP id u1csp421626lbh;
+        Wed, 28 Nov 2012 22:52:16 -0800 (PST)
+Received: by 10.68.230.234 with SMTP id tb10mr65331246pbc.71.1354171935535;
+        Wed, 28 Nov 2012 22:52:15 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.70])
+        by mx.google.com with ESMTPS id u8si1117599pav.323.2012.11.28.22.52.13
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 28 Nov 2012 22:52:15 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) client-ip=14.139.128.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 14.139.128.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id qAT6kF6K014937;
+	Thu, 29 Nov 2012 12:16:15 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qAT6k9Bt007626
+	for <m_seminar@math.iisc.ernet.in>; Thu, 29 Nov 2012 12:16:09 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id qAT6jqbR007613;
+	Thu, 29 Nov 2012 12:15:52 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from avg.math.iisc.ernet.in ([10.134.10.30])
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 29 Nov 2012 12:15:52 +0530 (IST)
+Message-ID: <da75bfe36697c5c15eeedb617d556d7c.squirrel@math.iisc.ernet.in>
+Date: Thu, 29 Nov 2012 12:15:52 +0530 (IST)
+Subject: MATH : 3rd Dec 2012 : "Curvature inequalities for operators in the 
+     Cowen-Douglas class"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+Cc: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.368, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, MISSING_HEADERS 1.02,
+	NO_RDNS2 0.01, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                         Ph.D. THESIS DEFENCE
+
+
+Speaker  :   Mr. Dinesh Kumar Kesari
+
+Title    :   Curvature inequalities for operators in the Cowen-Douglas class
+
+Date     :   December  3, 2012 (Monday)
+
+Time     :   11:00 a.m.
+
+Venue    :   Department of Mathematics, LH-III
+
+Abstract:
+    The curvature of a contraction T in the Cowen-Douglas
+class is bounded above by the curvature of the backward shift
+operator. However, in general, an operator satisfying the
+curvature inequality need not be contractive. In this talk we
+characterize a slightly smaller class of contractions using a
+stronger form of the curvature inequality.  Along the way, we find
+conditions on the metric of the holomorphic Hermitian vector
+bundle E corresponding to the operator T in the Cowen-Douglas
+class which ensures negative definiteness of the curvature
+function. We obtain a generalization for commuting tuples of
+operators in the Cowen-Douglas class.
+
+In the second part we will discuss the construction of a Hermitian
+holomorphic jet bundle $J_k(E)$ starting with a Hermitian holomorphic
+vector bundle $E$ over an open subset $\Omega$ of $\mathbb{C}$. In the
+special
+case, when the the Hermitian holomorphic vector bundle $E$ is the
+pull-back of the tutological bundle on the Grassmannian of some Hilbert
+space $\mathcal{H}$, we will derive a compact formula for the curvature
+of the vector bundle. Several properties of the curvature of the Hermitian
+holomorphic jet bundle $J_k(E)$ is then derived using the curvature
+formula for the vector bundle $E$.
+
+
+            ALL ARE CORDIALLY INVITED.
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

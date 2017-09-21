@@ -1,0 +1,134 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.86.8 with SMTP id l8csp48325qez;
+        Wed, 15 May 2013 22:31:54 -0700 (PDT)
+X-Received: by 10.66.159.130 with SMTP id xc2mr15746027pab.61.1368682313545;
+        Wed, 15 May 2013 22:31:53 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id kx5si3594234pbc.260.2013.05.15.22.31.51
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 15 May 2013 22:31:53 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r4G5VmsZ009386;
+	Thu, 16 May 2013 11:01:48 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r4G5Vfuh001525
+	for <m_seminar@math.iisc.ernet.in>; Thu, 16 May 2013 11:01:41 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r4G5VfO2001524;
+	Thu, 16 May 2013 11:01:41 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from s1.serc.iisc.ernet.in ([10.16.40.11]) (proxying for 
+     117.192.66.210)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 16 May 2013 11:01:41 +0530 (IST)
+Message-ID: <b6c0a753ab8885d8313ca37d245517fb.squirrel@math.iisc.ernet.in>
+Date: Thu, 16 May 2013 11:01:41 +0530 (IST)
+Subject: Reminder! [Seminar] MATH :Today: "Moebius and conformal maps 
+     between boundaries of CAT(-1)      spaces"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r4G5VmsZ009386
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=1.2,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 3.10)
+X-IISc-MailScanner-SpamScore: s
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+
+Dear All,
+
+
+
+                       Department of Mathematics
+                Indian Institute of Science, Bangalore
+
+
+                        SEMINAR
+
+
+Speaker: Kingshook Biswas
+              Vivekananda University
+
+Date : 16th May  2013
+
+Time: 11-12 AM.
+
+Place: Department of Mathematics, LH-3
+
+Title: Moebius and conformal maps between boundaries of CAT(-1) spaces.
+
+Abstract: Motivated by rigidity problems for negatively curved manifolds,
+we study Moebius and conformal maps $f : \partial X \to \partial Y$
+between boundaries of CAT(-1) spaces $X, Y$ equipped with visual metrics.
+
+We show that if $X,Y$ are proper, geodesically complete CAT(-1) spaces
+then any Moebius homeomorphism $f$ extends to a $(1, \log
+2)$-quasi-isometry with image $1/2\log 2$-dense in $Y$. We prove that if
+$X,Y$ are in addition metric trees then $f$ extends to a surjective
+isometry. The proofs involve a study of a space $\mathcal{M}(\partial X)$
+of metrics on $\partial X$ Moebius equivalent to a visual metric and a
+natural isometric embedding of $X$ into $\mathcal{M}(\partial X)$.
+Studying the derivative of this embedding we show that the image of the
+embedding is $(1/2)\log 2$-dense.
+
+We also obtain a dynamical classification of Moebius self-maps $f :
+\partial X \to \partial X$ into three types, elliptic, parabolic and
+hyperbolic.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Department of Mathematics,
+Indian Institute of Science,
+Bangalore
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

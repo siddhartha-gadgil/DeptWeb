@@ -1,0 +1,116 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.180.40 with SMTP id dl8csp69247obc;
+        Mon, 3 Apr 2017 05:20:48 -0700 (PDT)
+X-Received: by 10.84.160.6 with SMTP id n6mr21266504pla.178.1491222048797;
+        Mon, 03 Apr 2017 05:20:48 -0700 (PDT)
+Return-Path: <vamsipritham@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id 1si14162896plh.210.2017.04.03.05.20.45;
+        Mon, 03 Apr 2017 05:20:48 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.66 as permitted sender) smtp.mailfrom=vamsipritham@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id C6A96AEC967;
+	Mon,  3 Apr 2017 17:50:38 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.46])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v33CqSRA020207
+	for <m_seminar@math.iisc.ernet.in>; Mon, 3 Apr 2017 18:22:28 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vamsipritham@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="vamsipritham@gmail.com"; helo=mail-yb0-f179.google.com; client-ip=209.85.213.179
+Received: from mail-yb0-f179.google.com (mail-yb0-f179.google.com [209.85.213.179])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id 037FAAE0555
+	for <m_seminar@math.iisc.ernet.in>; Mon,  3 Apr 2017 17:50:19 +0530 (IST)
+Received: by mail-yb0-f179.google.com with SMTP id l201so22030425ybf.0
+        for <m_seminar@math.iisc.ernet.in>; Mon, 03 Apr 2017 05:20:18 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=iXZ1ASGbPMG0fhX8HzvPUPuyAOQLTepqCXJVhxq9H+E=;
+        b=CQhYpcNeoRyJLIa2CcFiURppqJixSMdU33cNXYlzIILiBUVV9OPx23b2icWccK41Um
+         zH+Lk+sVApESt5Y91/UAtq6cfEWCbea2cGAItISnkkwzxwBu6jsVUpMmXORgklunqc5/
+         kQtknbQtoxueQXWb5hwvt6kDM9ENO9TTzOn0cZV/DT302ncQyJ2tJPBHDH6WSisDeiq1
+         G8fNvdf2l540dslETVZ1CZFtxEAofOY9KaA3winwEEB7uZ88kLepOCXMh7lnCfTY3660
+         3wR0vRBlXmjOjCogJ3iiEV71Ybw7oVZpYR3YXWNlH1tXiOBJhur5Rk3urVt2+0MK/uhV
+         xU2w==
+X-Gm-Message-State: AFeK/H37AwAmQx4mVhTQ7Lox8cpqfyG5prgTc0osSNotWxU/QgqhMJtW/sY/yjFer7XX+Q==
+X-Received: by 10.37.18.135 with SMTP id 129mr12040405ybs.104.1491222017019;
+        Mon, 03 Apr 2017 05:20:17 -0700 (PDT)
+Received: from mail-yb0-f177.google.com (mail-yb0-f177.google.com. [209.85.213.177])
+        by smtp.gmail.com with ESMTPSA id u6sm6551933ywi.2.2017.04.03.05.20.16
+        for <m_seminar@math.iisc.ernet.in>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 03 Apr 2017 05:20:16 -0700 (PDT)
+Received: by mail-yb0-f177.google.com with SMTP id l201so22030062ybf.0
+        for <m_seminar@math.iisc.ernet.in>; Mon, 03 Apr 2017 05:20:16 -0700 (PDT)
+X-Received: by 10.37.172.74 with SMTP id r10mr4855445ybd.44.1491222016192;
+ Mon, 03 Apr 2017 05:20:16 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: vamsipritham@gmail.com
+Received: by 10.37.178.134 with HTTP; Mon, 3 Apr 2017 05:19:35 -0700 (PDT)
+From: Vamsi Pritham Pingali <vamsipingali@math.iisc.ernet.in>
+Date: Mon, 3 Apr 2017 17:49:35 +0530
+X-Gmail-Original-Message-ID: <CALSDV2ad+snGB66i3EvUMrKo=8gBM3W_SK_GJfVuNnixoPs5_g@mail.gmail.com>
+Message-ID: <CALSDV2ad+snGB66i3EvUMrKo=8gBM3W_SK_GJfVuNnixoPs5_g@mail.gmail.com>
+Subject: [Informal seminar on geometric structures]
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=f403045ea9248e953a054c422e45
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-Sophos-IBS: success
+X-CTCH-PVer:  0000001
+X-CTCH-Spam:  Unknown
+X-CTCH-VOD:  Unknown
+X-CTCH-Flags:  0
+X-CTCH-RefID:  str=0001.0A0B0203.58E23E06.0160:SCFMA41842384,ss=1,re=-4.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=0
+X-CTCH-Score:  -4.000
+X-CTCH-ScoreCust:  0.000
+X-CTCH-Rules:  
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.62, required 6.5, BAYES_00 -1.90,
+	FREEMAIL_FORGED_FROMDOMAIN 0.20, FREEMAIL_FROM 0.00,
+	HEADER_FROM_DIFFERENT_DOMAINS 0.00, MR_NOT_ATTRIBUTED_IP 0.20,
+	RCVD_IN_DNSWL_NONE -0.00, RCVD_IN_MSPIKE_H3 -0.01,
+	RCVD_IN_MSPIKE_WL -0.01, RCVD_IN_SORBS 0.30, RCVD_IN_SORBS_SPAM 0.50,
+	SPF_PASS -0.00, _FROM_IISC 0.10), 
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: C6A96AEC967.A756B
+X-IISc-MailScanner-From: vamsipritham@gmail.com
+MailScanner-NULL-Check: 1491826844.36689@P/1mt4PDkL8I6+EGcZUmjw
+
+
+--f403045ea9248e953a054c422e45
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+   The seminar will be held  this week on Wednesday, April 5th at 3:00 pm
+in LH5 as usual. I shall be speaking (my condolences to the attendees) on
+Donaldson's proof of Narasimhan and Seshadri's theorem.
+Regards,
+Vamsi
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--f403045ea9248e953a054c422e45
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Dear All,<div>=C2=A0 =C2=A0The seminar will be held =C2=A0=
+this week on Wednesday, April 5th at 3:00 pm in LH5 as usual. I shall be sp=
+eaking (my condolences to the attendees) on Donaldson&#39;s proof of Narasi=
+mhan and Seshadri&#39;s theorem.</div><div>Regards,</div><div>Vamsi</div></=
+div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--f403045ea9248e953a054c422e45--

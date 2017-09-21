@@ -1,0 +1,107 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.79.151.221 with SMTP id y90csp2678662ivg;
+        Tue, 6 Jun 2017 21:57:51 -0700 (PDT)
+X-Received: by 10.98.63.218 with SMTP id z87mr20351060pfj.144.1496811471126;
+        Tue, 06 Jun 2017 21:57:51 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1496811471; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ZrLi0Luj6SB2+Xjy7nQOER0l4+9wNUquYOIoEN6FIA2I9xHfFxNBQMhIMVWc4JNG0l
+         HsR2KwKFX4IRl/uG6Ek/stPc7OsqB+lxwQTSyBQvKaPGFiMEoDerTp6ZsN4AUOyec3WA
+         EAMm0u9wcC49tTTQ89XMmEkQs6Sq2JCft1XrBHi4rMV6yh6q/CJf+efrPiDCaHd3ag+9
+         d1LB2HSW5qYvqUb/Ir+RVHNIqCcKWXA3JD7a7XNjC7FSEG4u0+KaXivtFLKflg6UBTrD
+         NiluPk8U6srFxOPRUmsiIzTFmRJqGGNKGhiDvzJfEdN5pWfL1lj1zGbR1On/8xYTrhVi
+         grjg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mailscanner-null-check:importance:content-transfer-encoding
+         :mime-version:user-agent:to:from:subject:date:message-id
+         :arc-authentication-results;
+        bh=moaHJJZeEFn0GbT3V8pyTLe9TuI16VdWkDApzhQ/Njg=;
+        b=1FHlQGcsj5K02/Eo6dtdbNkwDV19ESMWhOt5reGYsqx9FLrI5J8GSRh8Ji7JuSIJ1z
+         A8YUGb0BzQXPX466LhFyqU5NHETF3X4Le4Q6xA8CE6aU7f70zvXnUX0BfToi7GoqHwC6
+         fdcEBNb73kmrHO15SO4gDoYU0Y5VPFX2+/cCcQIcd+zn6foKvNLDe2UXwfwHlI2MQ8sT
+         /+sLsoLedNtOinUZpkpUJAXM9kZOIr1H+rvfv964K+B+XuZPVoHCU6+82YZTOLyGHID+
+         X+uVg+DOov11fBGHJ07yM4PkLlib8sJALi5RKO95thVhNbW6tqqzFAHzlQHSnCmRQ1vM
+         uX3g==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id s6si671289plj.176.2017.06.06.21.57.49;
+        Tue, 06 Jun 2017 21:57:50 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id B2EFBAEC640;
+	Wed,  7 Jun 2017 10:27:45 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v575SJdd006907
+	for <m_seminar@math.iisc.ernet.in>; Wed, 7 Jun 2017 10:58:19 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v575SJEI006906;
+	Wed, 7 Jun 2017 10:58:19 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.240.18
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Wed, 7 Jun 2017 05:28:19 -0000
+Message-ID: <7dd8607902ef7f947cc8a7f98ccf9058.squirrel@math.iisc.ac.in>
+Date: Wed, 7 Jun 2017 05:28:19 -0000
+Subject: Math Dept Seminar June 9 (Rishi Vyas)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: B2EFBAEC640.AA158
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.91, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	SUBJECT_MONTH -1.50, T_RP_MATCHES_RCVD -0.01)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1497416266.91073@7IOubbZsvoyDr6icig5EPA
+X-Spam-Status: No
+
+Speaker : Rishi Vyas (Ben Gurion University, Israel)
+
+Date : June 9, 2017
+
+Location : LH-1
+
+Time : 3 pm
+
+Title: A noncommutative Matlis-Greenlees-May equivalence
+
+Abstract:
+
+The notion of a weakly proregular sequence in a commutative ring was first
+formally introduced by Alonso-Jeremias-Lipman (though the property that it
+formalizes was already known to Grothendieck), and further studied by
+Schenzel and Porta-Shaul-Yekutieli: a precise definition of this notion
+will be given during the talk. An ideal in a commutative ring is called
+weakly proregular if it has a weakly proregular generating set.  Every
+ideal in a commutative noetherian ring is weakly proregular.
+It turns out that weak proregularity is the appropriate context for the
+Matlis-Greenlees-May (MGM) equivalence: given a weakly proregular ideal I
+in a commutative ring A, there is an equivalence of triangulated
+categories (given in one direction by derived local cohomology and in the
+other by derived completion at I) between cohomologically I-torsion (i.e.
+complexes with I-torsion cohomology) and cohomologically I-complete
+complexes in the derived category of A.
+
+In this talk, we will give a categorical characterization of weak
+proregularity: this characterization then serves as the foundation for a
+noncommutative generalisation of this notion. As a consequence, we will
+arrive at a noncommutative variant of the MGM equivalence. This work is
+joint with Amnon Yekutieli.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

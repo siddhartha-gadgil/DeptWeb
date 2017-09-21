@@ -1,0 +1,65 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.109.65 with SMTP id hq1csp712517obb;
+        Fri, 10 Mar 2017 00:47:57 -0800 (PST)
+X-Received: by 10.98.59.8 with SMTP id i8mr19726778pfa.132.1489135677587;
+        Fri, 10 Mar 2017 00:47:57 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.67])
+        by mx.google.com with ESMTP id l1si9016770pld.15.2017.03.10.00.47.56;
+        Fri, 10 Mar 2017 00:47:57 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) client-ip=14.139.128.67;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.67 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 03CD4AE6625;
+	Fri, 10 Mar 2017 14:17:52 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v2A9K92c002992
+	for <m_seminar@math.iisc.ernet.in>; Fri, 10 Mar 2017 14:50:09 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v2A9K83e002991;
+	Fri, 10 Mar 2017 14:50:08 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Fri, 10 Mar 2017 09:20:08 -0000
+Message-ID: <a82223feaaefd1e9a16f6349c57d9591.squirrel@math.iisc.ac.in>
+Date: Fri, 10 Mar 2017 09:20:08 -0000
+Subject: Reminder : Math Dept Seminar Today (Sudesh Kaur Khanduja)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 03CD4AE6625.A96F2
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.401, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	RP_MATCHES_RCVD -0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1489740473.82717@vC43IJ5M1A6pxARLKxjjGw
+X-Spam-Status: No
+
+Speaker : Sudesh K Khanduja (IISER Mohali)
+
+Date : March 10
+
+Time : 4pm
+
+Location : LH-1
+
+Title: When is R[\theta] integrally closed?
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

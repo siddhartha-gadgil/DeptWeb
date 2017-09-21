@@ -1,0 +1,95 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.102.18 with SMTP id a18csp905070oic;
+        Wed, 22 Apr 2015 01:09:20 -0700 (PDT)
+X-Received: by 10.68.191.101 with SMTP id gx5mr45240690pbc.148.1429690159261;
+        Wed, 22 Apr 2015 01:09:19 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id j2si6626268pdr.77.2015.04.22.01.09.15;
+        Wed, 22 Apr 2015 01:09:17 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t3M89Bb8009946;
+	Wed, 22 Apr 2015 13:39:11 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t3M8LdYf024946
+	for <m_seminar@math.iisc.ernet.in>; Wed, 22 Apr 2015 13:51:39 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t3M8LdKl024945;
+	Wed, 22 Apr 2015 13:51:39 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 22 Apr 2015 08:21:39 -0000
+Message-ID: <c443c92d1430c539707582703714c5b1.squirrel@math.iisc.ernet.in>
+Date: Wed, 22 Apr 2015 08:21:39 -0000
+Subject: [Seminar] Math: April 28th, 2015: Equivariant Cobordism Classes of
+ Milnor Manifolds
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Swagata Sarkar
+          ISI Kolkata
+
+Title   : Equivariant Cobordism Classes of Milnor Manifolds
+
+Date    : 28th April, 2015 (Tuesday)
+
+Time    : 3:30 p.m. - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Let G be a 2-group, and let Z(G) denote the equivariant cobordism
+algebra of G-manifolds with finite stationary point sets.A cobordism class
+in Z(G) is said to be indecomposable if it cannot be expressed as the sum
+of products of lower dimensional cobordism classes.Indecomposable classes
+generate the cobordism algebra Z(G). We discuss a sufficient criteria for
+indecomposability of cobordism classes.
+Using the above mentioned criterion, we show that the classes of Milnor
+manifolds (i.e., degree 1 hypersurfaces of the product of two real
+projective spaces) give non-trivial, indecomposable elements in Z(G) in
+degrees up to 2^n - 5.
+This talk is based on joint work with Samik Basu and Goutam Mukherjee.
+
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,118 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.40.2 with SMTP id t2csp414701obk;
+        Fri, 10 Feb 2017 02:30:26 -0800 (PST)
+X-Received: by 10.84.231.2 with SMTP id f2mr10524884plk.117.1486722626516;
+        Fri, 10 Feb 2017 02:30:26 -0800 (PST)
+Return-Path: <subhojoy@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id d36si1271040pld.187.2017.02.10.02.30.25;
+        Fri, 10 Feb 2017 02:30:26 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of subhojoy@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=subhojoy@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id EA6EFAE91DD;
+	Fri, 10 Feb 2017 16:00:19 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v1AB35Zk027867;
+	Fri, 10 Feb 2017 16:33:05 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v1AB350o027866;
+	Fri, 10 Feb 2017 16:33:05 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to subhojoy@localhost using -f
+Received: from 10.10.1.98 (proxying for 117.194.225.24)
+        (SquirrelMail authenticated user subhojoy)
+        by math.iisc.ac.in with HTTP;
+        Fri, 10 Feb 2017 16:33:05 +0530
+Message-ID: <5c94ba0e496cd2a9f03b3846b0db5f83.squirrel@math.iisc.ac.in>
+Date: Fri, 10 Feb 2017 16:33:05 +0530
+Subject: Eigenfunctions seminar next Friday (17th Feb)
+From: subhojoy@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: EA6EFAE91DD.A550E
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.7,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	MR_NOT_ATTRIBUTED_IP 0.20, NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: subhojoy@math.iisc.ernet.in
+MailScanner-NULL-Check: 1487327421.61438@lsx78JvoNoK6OM7mqTAxFw
+X-Spam-Status: No
+
+Dear All,
+
+There will be two lectures in the "Eigenfunctions" seminar series on 17th
+Feb, 2017.
+
+--------------------------------------------
+Lecture 1:
+
+Title: Punctual gluing of t-structures in algebraic geometry
+
+Speaker: Vaibhav Vaish (ISI Bangalore)
+
+Time and date: 2:15-3:15 PM, 17th Feb
+
+Venue: LH-1, Department of Mathematics
+
+Abstract:  The formalism of an "abelian category'' is meant to axiomatize
+the operations of linear algebra. From there, the notion of "derived
+category'' as the category of complexes "upto quasi-isomorphisms'' is
+natural, motivated in part by topology. The formalism of t-structures
+allows one to construct new abelian categories which are quite useful in
+practice (giving rise to new cohomology theories like intersection
+cohomology, for example). In this talk we want to discuss a notion of
+punctual (="point-wise'') gluing of t-structures which is possible in the
+context of algebraic geometry. The essence of the construction is
+classical and well known, but the new language leads to useful
+constructions in the motivic world.
+
+--------------------------------------------
+Lecture 2:
+
+Title: Graph Partitioning using its Spectra
+
+Speaker: Anand Louis (IISc)
+
+Time and date: 3:30-4:30 PM, 17th Feb
+
+Venue: LH-1, Department of Mathematics
+
+Abstract: Graph-partitioning problems are a central topic of research in
+the study of algorithms and complexity theory. They are of interest to
+theoreticians with connections to error correcting codes, sampling
+algorithms, metric embeddings, among others, and to practitioners, as
+algorithms for graph partitioning can be used as fundamental building
+blocks in many applications. One of the central problems studied in this
+field is the sparsest cut problem, where we want to compute the cut which
+has the least ratio of number of edges cut to size of smaller side of the
+cut. This ratio is known as the expansion of the cut.
+In this talk, I will talk about higher order variants of expansion (i.e.
+notions of expansion corresponding to partitioning the graph into more
+than two pieces, etc.), and how they relate to the graph's eigenvalues.
+The proofs will also show how to use the graph's eigenvectors to compute
+partitions satisfying these bounds. Based on joint works with Prasad
+Raghavendra, Prasad Tetali and Santosh Vempala.
+
+————————————————————————
+
+
+
+
+                                            All are welcome
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

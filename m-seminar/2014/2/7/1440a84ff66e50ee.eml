@@ -1,0 +1,98 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.146.226 with SMTP id tf2cs94336lbb;
+        Thu, 6 Feb 2014 20:04:53 -0800 (PST)
+X-Received: by 10.50.73.136 with SMTP id l8mr3263401igv.7.1391745892264;
+        Thu, 06 Feb 2014 20:04:52 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id kd4si288925igb.45.2014.02.06.20.04.50
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Thu, 06 Feb 2014 20:04:51 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s1743jwp029932;
+	Fri, 7 Feb 2014 09:33:45 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s1742Sep002915;
+	Fri, 7 Feb 2014 09:32:28 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s1742Sxr002914;
+	Fri, 7 Feb 2014 09:32:28 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 7 Feb 2014 04:02:28 -0000
+Message-ID: <2c87bf6d86d017d5bff7741ad65565a3.squirrel@math.iisc.ernet.in>
+Date: Fri, 7 Feb 2014 04:02:28 -0000
+Subject: [Seminar] Math: Feb 21st, 2014: Support data and Balmer spectrum
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Cc: "Shanta Laishram" <shantalaishram@gmail.com>
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Dr. Umesh Dubey
+          IISc
+
+Title   : Support data and Balmer spectrum
+
+Date    : 21st Feb, 2014 (Friday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+Grothendieck and Verdier introduced the notion of triangulated
+category to extract homological informations. This structure appear in
+many branches of Mathematics. Balmer introduced the notion of spectrum of
+tensor triangulated category as classifying support data. This opens a way
+for geometric study of theses abstract categorical data. Balmer also
+defined the structure sheaf on this spectrum and as an application
+reconstructed large class of schemes from the category of perfect
+complexes associated with them. In this talk we'll recall Balmer's
+construction of spectrum and its application to reconstruction problem.
+We'll also discuss computation of Balmer spectrum for some other tensor
+triangulated categories obtained in a joint work with Vivek Mallick.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

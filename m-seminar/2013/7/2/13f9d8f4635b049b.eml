@@ -1,0 +1,81 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.41.180 with SMTP id g20csp353933qel;
+        Mon, 1 Jul 2013 21:06:20 -0700 (PDT)
+X-Received: by 10.66.163.73 with SMTP id yg9mr26993548pab.77.1372737980195;
+        Mon, 01 Jul 2013 21:06:20 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id qn3si4965505pbc.182.2013.07.01.21.06.18
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Mon, 01 Jul 2013 21:06:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r6246DZQ028158;
+	Tue, 2 Jul 2013 09:36:13 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r6245vsk028583
+	for <m_seminar@math.iisc.ernet.in>; Tue, 2 Jul 2013 09:35:57 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r6245vx4028580
+	for <m_seminar@math.iisc.ernet.in>; Tue, 2 Jul 2013 09:35:57 +0530
+Date: Tue, 2 Jul 2013 09:35:57 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: Today: The Euler characteristic, projective modules
+ and the Gersten-Witt complex
+Message-ID: <Pine.LNX.4.64.1307020934080.28519@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90, NO_REAL_NAME 1.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		     	 Department of Mathematics
+ 		  Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+
+Speaker	: Prof. Sarang Sane
+ 	  University of Kansas
+
+Title	: The Euler characteristic, projective modules and
+ 	  the Gersten-Witt complex
+
+Date	: July 2, 2013
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Lecture Hall III, Department of Mathematics
+
+
+**PLEASE NOTE THE CHANGE IN THE VENUE FOR THIS TALK**
+
+
+Abstract:
+Starting with the Euler characteristic in graph theory/combinatorics,
+we trace a brief history, first viewing it as an Euler class in
+topology, then as an obstruction to splitting of vector bundles
+and finally get to the more recent notion of the Euler class in
+algebra/geometry and its use as an obstruction to the splitting
+of projective modules. This recent notion has two approaches,
+Euler class groups and Chow-Witt groups, the second of which uses
+the Gersten-Witt complex as mentioned in the title. Time permitting,
+we hope to state results about both approaches.
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

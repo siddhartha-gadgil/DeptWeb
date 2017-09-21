@@ -1,0 +1,102 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.30.225 with SMTP id v1csp113200qeh;
+        Tue, 26 Mar 2013 23:27:06 -0700 (PDT)
+X-Received: by 10.68.14.233 with SMTP id s9mr27262170pbc.154.1364365626311;
+        Tue, 26 Mar 2013 23:27:06 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id hg5si21040452pac.207.2013.03.26.23.26.49
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Tue, 26 Mar 2013 23:27:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r2R6QYrD026371;
+	Wed, 27 Mar 2013 11:56:34 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r2R6QUjn003589;
+	Wed, 27 Mar 2013 11:56:30 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r2R6QUSv003585;
+	Wed, 27 Mar 2013 11:56:30 +0530
+Date: Wed, 27 Mar 2013 11:56:30 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: [Thesis Colloquium] MATH : Apr 1st,  2013 : "Single and Multi-player
+ Stochastic Dynamic Optimization."
+Message-ID: <Pine.LNX.4.64.1303271155030.3498@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r2R6QYrD026371
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+                           Department of Mathematics
+                      Indian Institute of Science, Bangalore
+
+                                    Phd THESIS COLLOQUIUM
+
+Speaker        : Subhamay Saha, IISc, Bangalore
+
+Title          : Single and Multi-player Stochastic Dynamic Optimization.
+
+Date           : April 1, 2013 (Monday)
+
+Time           : 4:00 pm
+
+Venue          : Department of Mathematics, LH-1
+
+
+Abstract:   In this thesis we investigate single and multi-player 
+stochastic
+dynamic optimization problems in both discrete and continuous time. In the
+multi-player setup we investigate zero-sum games with both complete and
+partial information. We study partially observable stochastic games with
+average cost criterion and the state process being discrete time
+controlled Markov chain. We establish the existence of the value of the
+game and also obtain optimal strategies for both players. We also study a
+continuous time zero-sum stochastic game with complete observation. In
+this case the state is a pure jump Markov process. We investigate the
+finite horizon total cost criterion. We characterise the value function
+via appropriate Isaacs equations. This also yields optimal Markov
+strategies for both players.
+
+In the single player setup we investigate risk-sensitive control of
+continuous time Markov chains. We consider both finite and infinite
+horizon problems. For the finite horizon total cost problem and the
+infinite horizon discounted cost problem we characterise the value
+function as the unique solution of appropriate Hamilton Jacobi Bellman
+equations. We also derive optimal Markov controls in both the cases. For
+the infinite horizon average cost case we shown the existence of an
+optimal stationary control.
+
+Further we introduce a new class of stochastic processes which we call
+stochastic processes with ``age-dependent transition rates''. We compute
+the limiting probabilities for the process. We then study the controlled
+version of the above process. In this case we take the risk-neutral cost
+criterion. We solve the infinite horizon discounted cost problem and the
+average cost problem. The finite horizon total cost problem is also
+investigated.
+
+       ALL ARE CORDIALLY INVITED,
+
+Faculty members and students of the department are requested to attend.
+
+                                              Chairman,
+                                              Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

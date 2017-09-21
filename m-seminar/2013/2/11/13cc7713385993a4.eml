@@ -1,0 +1,123 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.98.164 with SMTP id ej4csp61057qeb;
+        Sun, 10 Feb 2013 20:09:10 -0800 (PST)
+X-Received: by 10.66.52.79 with SMTP id r15mr38438804pao.46.1360555750019;
+        Sun, 10 Feb 2013 20:09:10 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id to2si5444864pbc.50.2013.02.10.20.09.07
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 10 Feb 2013 20:09:09 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id r1B493WV032382;
+	Mon, 11 Feb 2013 09:39:04 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r1B48xlG018454
+	for <m_seminar@math.iisc.ernet.in>; Mon, 11 Feb 2013 09:38:59 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id r1B48wnK018453;
+	Mon, 11 Feb 2013 09:38:58 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 11 Feb 2013 09:38:58 +0530 (IST)
+Message-ID: <533ca1afd72c7c6cf22920495cccdf22.squirrel@math.iisc.ernet.in>
+Date: Mon, 11 Feb 2013 09:38:58 +0530 (IST)
+Subject: [Bangalore Probability Seminar] MATH : Today : "Pricing 
+     Defaultable Bonds in a Markov Modulated Market"]
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.397, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, RISK_FREE 0.00,
+	SUBJECT_MONTH -1.50, URIBL_BLOCKED 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+
+Dear All,
+
+
+                    Bangalore Probability Seminar
+         http://math.iisc.ernet.in/~manju/Seminar/seminar.html
+                            Date: February 11th, 2013
+
+Speaker: Mrinal Ghosh
+             Indian Institute of Science, Bangalore
+
+Time : 2:00pm, Feb 11
+
+Venue: LH-2, Department of Mathematics, IISc
+
+Title: Pricing Defaultable Bonds in a Markov Modulated Market.
+
+Abstract:
+  We address the problem of pricing defaultable bonds in a Markov modulated
+market. Using Merton's structural approach we show that various types of
+defaultable bonds are combination of European type contingent claims.
+Thus pricing a defaultable bond is tantamount to pricing a contingent
+claim in a Markov modulated market. Since the market is incomplete we use
+the method of quadratic hedging and minimal martingale measure to derive
+locally risk minimizing derivative prices, hedging strategies and the
+corresponding residual risks. The price of defaultable bonds are obtained
+as solutions to a system of PDEs with weak coupling subject to
+appropriate terminal and boundary conditions. We solve the system of PDEs
+numerically and carry out a numerical investigation for the defaultable
+bond prices. We compare their credit spreads with some of the existing
+models. We observe higher spreads in the Markov modulated market. We show
+how business cycles can be easily incorporated in the proposed framework.
+We demonstrate the impact on spreads of the inclusion of rare states that
+attempt to capture a tight liquidity situation. These states are
+characterized by low risk free interest rate, high payout rate and high
+volatility.
+
+
+Speaker: Sreekar Vadlamani
+            TIFR-CAM, Bangalore
+
+Time: 3:00pm, Feb 11
+
+Venue: LH-2, Department of Mathematics, IISc
+
+Title: Random fields on sphere: an application to cosmology
+
+Abstract:
+  We shall begin with a brief introduction of the cosmic microwave
+background (CMB) radiation. Then we shall discuss various analytical
+tools (assumptions) entailing the analysis of the CMB data, which
+primarily relates to representation of the CMB data as a random field on
+a sphere. In order to further perform statistical analysis of such a
+random fields, we use the standard harmonic analysis on sphere, and
+obtain some distributional identities which can be labeled as "high
+frequency CLTs", which in turn can be used for statistical hypothesis
+testing of CMB Data.
+
+
+             ALL ARE CORDIALLY INVITED,
+
+
+                                             Chairman,
+                                             Department of Mathematics
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

@@ -1,0 +1,211 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.216.145.212 with SMTP id p62csp106464wej;
+        Thu, 9 Aug 2012 23:58:39 -0700 (PDT)
+Received: by 10.68.200.101 with SMTP id jr5mr10421173pbc.9.1344581918837;
+        Thu, 09 Aug 2012 23:58:38 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id go9si6932792pbc.37.2012.08.09.23.58.24
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 09 Aug 2012 23:58:38 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.66 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.66 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q7A6wIpM013787;
+	Fri, 10 Aug 2012 12:28:18 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q7A6wEqw002004
+	for <m_seminar@math.iisc.ernet.in>; Fri, 10 Aug 2012 12:28:14 +0530
+Received: from mail-we0-f177.google.com (mail-we0-f177.google.com [74.125.82.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q7A6rPoc029301
+	for <m_seminar@math.iisc.ernet.in>; Fri, 10 Aug 2012 12:23:28 +0530
+Received: by weyr3 with SMTP id r3so1020631wey.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 09 Aug 2012 23:58:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=E1nYjFA8aGurRW1Gh6O70WdR1u7VVGLLkn/wY9+EQR4=;
+        b=kG8XUl0DMS3JP7wc0EhGhOPXRxvvzem/zE9qnOgVpReM4IG7LE3x27je5LFM1qgsTt
+         wkPnz1+QW6wosHDK1Q71YG9NtRjRJ7NzuUSpjrR2JeJron4316x+RcQzeAVyMcR1rn6x
+         iEZJWRYevtaCeMPeLU5PMvme6unxOmCLb9neonAMkbXQHqzAcXU8W8+s5hI1Bh+WvSuH
+         FXD5kV+s0Oxq4dwZuaE+mifldOMh17G3doPPl+qDAoKf/Mbn5x4TiBr4IZIJW1kgcg+P
+         Ri3jlOJS2q333Bl+0k5g6ySFVhIOuB5mKSiTlIG3m0MyshGOFSZ5oTh6w3ZCDKfrCZF9
+         l/ug==
+MIME-Version: 1.0
+Received: by 10.216.243.10 with SMTP id j10mr1068397wer.211.1344581886035;
+ Thu, 09 Aug 2012 23:58:06 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.227.9.77 with HTTP; Thu, 9 Aug 2012 23:58:05 -0700 (PDT)
+In-Reply-To: <CAHEur2SY6VFVdUM2sQaNcX32T5H5wu--oKkWjmjWVWOKN=eN2g@mail.gmail.com>
+References: <CAHEur2SY6VFVdUM2sQaNcX32T5H5wu--oKkWjmjWVWOKN=eN2g@mail.gmail.com>
+Date: Fri, 10 Aug 2012 12:28:05 +0530
+X-Google-Sender-Auth: aoUAE4-_g9ZFCsPTk7797ld-_yw
+Message-ID: <CAHEur2TT9+HyHZ036SjuOAPYr4_eZ8axJLe21xdsCnM_v_ng5A@mail.gmail.com>
+Subject: [Colloquium] Math: August 24th, 2012: "Rational points on Elliptic
+ curves and congruences between modular forms"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=e0cb4e38520ab0481a04c6e3ddf2
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-3.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	MR_NOT_ATTRIBUTED_IP 0.20, RCVD_IN_DNSWL_LOW -0.70,
+	SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q7A6wIpM013787
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--e0cb4e38520ab0481a04c6e3ddf2
+Content-Type: text/plain; charset=ISO-8859-1
+
+To whom it may concern:
+
+Please broadcast the following message to all.
+
+Thanks and regards,
+Pooja Singla
+
+Assistant Professor
+Department of Mathematics
+__________________________________________________________________________
+
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  COLLOQUIUM
+
+
+Speaker :    Dr. Chandrakant Aribam
+                    Mathematics Institute, Heidelberg University, Germany
+
+Title :       Rational points on Elliptic curves and congruences between
+modular forms
+
+Date :       August 24th, 2012
+
+Time :       4:00 pm- 5:00 pm
+
+Venue:     Department of Mathematics, Lecture Hall 1
+
+
+Abstract:
+Rational points on elliptic curves have found applications in cryptography
+and in the solution to some problems dating back to antiquity. However, we
+still do not know how to find an elliptic curve with as many points as
+possible. In this talk, we will see how the theory of modular forms (of
+Ramanujan) along with a recently developed theory enables one to understand
+this problem. Along the way, we will see how congruences between
+coefficients of modular forms shed light on this problem.
+
+
+
+            ALL ARE CORDIALLY INVITED,
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--e0cb4e38520ab0481a04c6e3ddf2
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gma=
+il_quote"><div class=3D"gmail_quote">To whom it may concern:<br><div class=
+=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div=
+ class=3D"gmail_quote">
+
+<br>
+Please broadcast the following message to all.<br>
+<br>
+Thanks and regards,<br>
+Pooja Singla<br>
+<br>
+Assistant Professor<br>
+Department of Mathematics<br>
+__________________________________________________________________________<=
+br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematic=
+s<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0=A0=A0=A0=A0 C=
+OLLOQUIUM <br>
+<br>
+<br>
+Speaker :=A0=A0=A0 Dr. Chandrakant Aribam<br>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0 Mathematics Institute, Heidelberg University, G=
+ermany <br><br>Title :=A0=A0=A0=A0=A0=A0 Rational points on Elliptic curves=
+ and congruences between modular forms<br><br>
+Date : =A0 =A0 =A0 August 24th, <a href=3D"tel:2012" value=3D"+9722012" tar=
+get=3D"_blank">2012</a><br>
+<br>
+Time : =A0 =A0 =A0 4:00 pm- 5:00 pm<br>
+<br>
+Venue: =A0 =A0 Department of Mathematics, Lecture Hall 1<br>
+<br>
+<br>
+Abstract:<br>
+
+Rational points on elliptic curves have found applications in cryptography<=
+br>
+
+and in the solution to some problems dating back to antiquity. However, we<=
+br>
+
+still do not know how to find an elliptic curve with as many points as<br>
+
+possible. In this talk, we will see how the theory of modular forms (of<br>
+
+Ramanujan) along with a recently developed theory enables one to understand=
+<br>
+
+this problem. Along the way, we will see how congruences between<br>
+
+coefficients of modular forms shed light on this problem.<br>
+<br>
+<br>
+<br>=A0=A0 =A0 =A0 =A0 =A0=A0 ALL ARE CORDIALLY INVITED,<br>
+<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<span><font color=3D"#888888"><br>
+</font></span></div><span><font color=3D"#888888"><br><br clear=3D"all"><br=
+><br>
+</font></span></div><span><font color=3D"#888888"><br><br clear=3D"all"></f=
+ont></span><br>
+</div>
+</div><br><br>
+</div><br>
+</div>
+</div><br>
+</div><br><br clear=3D"all"><br>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--e0cb4e38520ab0481a04c6e3ddf2--

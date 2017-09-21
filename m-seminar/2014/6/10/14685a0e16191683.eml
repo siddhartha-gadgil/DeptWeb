@@ -1,0 +1,102 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.113.3.139 with SMTP id bw11csp192423lbd;
+        Tue, 10 Jun 2014 04:54:13 -0700 (PDT)
+X-Received: by 10.66.119.136 with SMTP id ku8mr4828277pab.121.1402401251857;
+        Tue, 10 Jun 2014 04:54:11 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id wl6si2652024pab.29.2014.06.10.04.54.09
+        for <multiple recipients>;
+        Tue, 10 Jun 2014 04:54:11 -0700 (PDT)
+Received-SPF: none (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: manju@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s5ABs7fx016254;
+	Tue, 10 Jun 2014 17:24:08 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s5ABtFst001794;
+	Tue, 10 Jun 2014 17:25:15 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id s5ABtFBi001790;
+	Tue, 10 Jun 2014 17:25:15 +0530
+Date: Tue, 10 Jun 2014 17:25:15 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+cc: manju@math.iisc.ernet.in
+Subject: CANCELLED [Seminar] Math: 12 Jun 2014 : Analysis based fast algorithms
+ for applied mathematics
+Message-ID: <alpine.LFD.2.03.1406101724420.1504@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/Mixed; BOUNDARY="-2046139380-805048199-1400661127=:2566"
+Content-ID: <alpine.LFD.2.03.1405230940030.12702@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-805048199-1400661127=:2566
+Content-Type: TEXT/PLAIN; FORMAT=flowed; CHARSET=UTF-8
+Content-Transfer-Encoding: 8BIT
+Content-ID: <alpine.LFD.2.03.1405230940031.12702@math.iisc.ernet.in>
+
+Dear all,
+
+
+This seminar has been cancelled
+
+----------------------------------------------
+                   Indian Institute of Science, Bangalore
+
+                                   SEMINAR
+
+
+Speaker : Prof. Sivaram Ambikasaran (Courant Institute of Mathematical 
+Sciences, NYU)
+
+Title: Analysis based fast algorithms for applied mathematics
+
+Date: 12th June, 2014 (Thursday)
+
+Time: 3:30 - 4:30 p.m.
+
+Venue: Lecture Hall I, Department of Mathematics
+
+Abstract: The dominant problem in applied mathematics is the application
+of linear operators and solving linear equations. Dense linear systems
+arise in numerous applications: Boundary integral equations for elliptic
+partial differential equations, covariance matrices in statistics,
+Bayesian inversion, Kalman filtering, inverse problems, radial basis
+function interpolation, density functional theory, multi-frontal
+solvers for sparse linear systems, etc. As the problem size increases,
+large memory requirements scaling as $O(N^2)$ and extensive
+computational time to perform matrix algebra scaling as $O(N^2)$ or
+$O(N^3)$ make computations impractical, where $N$ is the underlying
+number of degrees of freedom. This talk will discuss new fast algorithms
+that scale as $O(N)$ for a class of problems, given a prescribed
+tolerance. Applications in the context of Gaussian processes, Integral
+equations for electromagnetic scattering, Symmetric factorization for Brownian 
+dynamics, Bayesian inversion, Kalman filtering, multi-frontal solvers will also 
+be presented.
+
+
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-805048199-1400661127=:2566--

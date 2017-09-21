@@ -1,0 +1,103 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.202.102.207 with SMTP id m76csp909598oik;
+        Sun, 24 May 2015 06:41:38 -0700 (PDT)
+X-Received: by 10.68.161.99 with SMTP id xr3mr31405290pbb.47.1432474898444;
+        Sun, 24 May 2015 06:41:38 -0700 (PDT)
+Return-Path: <tirthankar.bhattacharyya@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id sg6si11922506pbc.146.2015.05.24.06.41.36;
+        Sun, 24 May 2015 06:41:38 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning tirthankar.bhattacharyya@gmail.com does not designate 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning tirthankar.bhattacharyya@gmail.com does not designate 203.200.35.66 as permitted sender) smtp.mail=tirthankar.bhattacharyya@gmail.com;
+       dkim=neutral (body hash did not verify) header.i=@
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t4ODfOl8007436;
+	Sun, 24 May 2015 19:11:24 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.47])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t4ODrMi2016716
+	for <m_seminar@math.iisc.ernet.in>; Sun, 24 May 2015 19:23:22 +0530
+Received: from mail-ie0-f173.google.com (mail-ie0-f173.google.com [209.85.223.173])
+	by mail.iisc.ernet.in (8.14.3/8.14.3/Debian-5+lenny1) with ESMTP id t4ODf7D9003516
+	for <m_seminar@math.iisc.ernet.in>; Sun, 24 May 2015 19:11:09 +0530
+Received: by iesa3 with SMTP id a3so58586321ies.2
+        for <m_seminar@math.iisc.ernet.in>; Sun, 24 May 2015 06:41:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:reply-to:sender:in-reply-to:references:from:date
+         :message-id:subject:to:content-type;
+        bh=tWuilpLO9lLdqmyw9i3Lau+/LTSbrYUuH4FfC/dAUIU=;
+        b=jYZc5erSG1ocnC3MMCF1ABSiHIbyeow4qxwJG253sV/HK7p/5tjMBM3+ovlD8c+xiP
+         P4U5V2BeJ3cKOJDkzop6/WxqXDvY/k2HOl87LePG1F6jGsbH/BsC35SaP1szyAhZ+SvU
+         tPHMDy0zmfLAJHwQwmjylDJAj+2MBz7qWJs+DqFvCC47zgg7xtjkhp5sEuO92BcT9nQH
+         F3aRXhBP9s65j1XXcPf6JbFrF1E0q+F+8T/vpIWKbNJ7RCb0svwz71Q5Bu2y/evHaU8U
+         VlFEH660T8FK0jIYQCDWVDFwokHYOjpmQlrfuU7QmAJ3n3SEbp7cx1UTdlc6YVrPDYi3
+         MaaQ==
+X-Received: by 10.50.110.104 with SMTP id hz8mr11753015igb.38.1432474862114;
+ Sun, 24 May 2015 06:41:02 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: tirtha@math.iisc.ernet.in
+Sender: tirthankar.bhattacharyya@gmail.com
+Received: by 10.50.197.133 with HTTP; Sun, 24 May 2015 06:40:41 -0700 (PDT)
+In-Reply-To: <CABi4EQ0-YPJV8kMmf+5+qZ7CnTsKXsCBhKs3wikjSpbCg_N+EQ@mail.gmail.com>
+References: <CABi4EQ0-YPJV8kMmf+5+qZ7CnTsKXsCBhKs3wikjSpbCg_N+EQ@mail.gmail.com>
+From: Tirthankar Bhattacharyya <tirtha@math.iisc.ernet.in>
+Date: Sun, 24 May 2015 19:10:41 +0530
+X-Google-Sender-Auth: cMUPYEKLj-oUhUiQ7wHgo1Vzh98
+Message-ID: <CABi4EQ1yXEciJkSpGZookqsD1nwfpu=wNaevaJqzY9HTXu0HXQ@mail.gmail.com>
+Subject: Re: Jordan canonical form
+To: m_seminar@math.iisc.ernet.in, pranavnuti@ug.iisc.in,
+        Aravindhan S <saravindhan14@iisertvm.ac.in>,
+        Anuj kumar <anuj25kumar@gmail.com>,
+        Jitan Ram Manjhi <iyers@ug.iisc.in>,
+        HIMANSHU YADAV <yadav94himanshu@gmail.com>
+Content-Type: text/plain; charset=UTF-8
+X-MailScanner-ID: t4ODf7D9003516
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (cached, score=-2.489,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70, T_DKIM_INVALID 0.01, URIBL_BLOCKED 0.00,
+	_FROM_IISC 0.10), not spam, SpamAssassin (not cached, score=-2.6,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	RCVD_IN_DNSWL_LOW -0.70)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner-From: tirthankar.bhattacharyya@gmail.com
+
+ Hi,
+
+
+To accommodate timing constraints of all of us, this has been shifted
+by half an hour. That is we start at 9:30.
+
+Thanks and regards,
+Tirthankar Bhattacharyya
+
+
+Home page:
+http://math.iisc.ernet.in/~tirtha
+
+
+On Thu, May 21, 2015 at 11:08 AM, Tirthankar Bhattacharyya
+<tirtha@math.iisc.ernet.in> wrote:
+> Hi,
+>
+> I have many summer students. One of the ways to use their and my time
+> seems to teach them something that perhaps is ordinarily somewhat less
+> taught, viz., Jordan canonical form. I shall do this on Tuesdays and
+> Thursdays at 9 AM beginning on 26th. May at LH I. Anyone who has
+> nothing better to do in summer than to wonder why an arbitrary square
+> matrix is similar to a certain canonical form is welcome.
+>
+> Regards,
+> Tirtha
+>
+>
+> Home page:
+> http://math.iisc.ernet.in/~tirtha
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

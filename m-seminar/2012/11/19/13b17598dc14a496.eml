@@ -1,0 +1,101 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.129.226 with SMTP id nz2csp165479lbb;
+        Sun, 18 Nov 2012 22:27:23 -0800 (PST)
+Received: by 10.68.209.230 with SMTP id mp6mr36195710pbc.8.1353306443222;
+        Sun, 18 Nov 2012 22:27:23 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id f5si12184212pav.111.2012.11.18.22.27.21
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sun, 18 Nov 2012 22:27:23 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id qAJ6RFBA023466;
+	Mon, 19 Nov 2012 11:57:15 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qAJ6R8ri024852
+	for <m_seminar@math.iisc.ernet.in>; Mon, 19 Nov 2012 11:57:08 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id qAJ6R8Sj024851;
+	Mon, 19 Nov 2012 11:57:08 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 19 Nov 2012 11:57:08 +0530 (IST)
+Message-ID: <0f8cfb75aaa6852d0ed4bf6540cce797.squirrel@math.iisc.ernet.in>
+Date: Mon, 19 Nov 2012 11:57:08 +0530 (IST)
+Subject: [Thesis Defence] MATH : 21st Nov 2012 : "Grothendieck inequality"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: qAJ6RFBA023466
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                         M.S. THESIS DEFENCE
+
+
+Speaker  :   Mr. Samya Kumar Ray
+
+Title    :   GROTHENDIECK INEQUALITY
+
+Date     :   November 21, 2012 (Wednesday)
+
+Time     :   4:10 p.m.- 5:10 p.m.
+
+Venue    :   Department of Mathematics, LH-I
+
+Abstract:
+Grothendieck published an extraordinary paper entitled ”Resume de la
+theorie metrique des produits tensoriels topologiques” in 1953. The main
+result of this paper is the inequality which is commonly known as
+Grothendieck Inequality. Following Kirivine, in this article, we give the
+proof of Grothendieck Inequality. We reformulate it in different forms. We
+also investigate the famous Grothendieck constant KG. The Grothendieck
+constant was achieved by taking supremum over a special class of matrices.
+But our attempt will be to investigate it, considering a smaller class of
+matrices, namely only the positive definite matrices in this class.
+
+            ALL ARE CORDIALLY INVITED.
+
+Faculty members and students of the Department are requested to attend.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

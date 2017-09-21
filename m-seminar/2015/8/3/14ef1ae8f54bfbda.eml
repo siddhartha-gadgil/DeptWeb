@@ -1,0 +1,101 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.81.14 with SMTP id f14csp1352188ywb;
+        Sun, 2 Aug 2015 20:50:27 -0700 (PDT)
+X-Received: by 10.141.23.138 with SMTP id z132mr23112631qhd.27.1438573827051;
+        Sun, 02 Aug 2015 20:50:27 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.71])
+        by mx.google.com with ESMTP id 42si15618670qkx.120.2015.08.02.20.50.23;
+        Sun, 02 Aug 2015 20:50:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.71 as permitted sender) client-ip=203.200.35.71;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.71 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t733oG0b008852;
+	Mon, 3 Aug 2015 09:20:16 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t7340xJs021561
+	for <m_seminar@math.iisc.ernet.in>; Mon, 3 Aug 2015 09:30:59 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t7340xY5021560;
+	Mon, 3 Aug 2015 09:30:59 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.145
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Mon, 3 Aug 2015 04:00:59 -0000
+Message-ID: <8b6832f17eb3f040b48ebe62a5d15a36.squirrel@math.iisc.ernet.in>
+Date: Mon, 3 Aug 2015 04:00:59 -0000
+Subject: Math Dept Seminar Aug 10 (Angela Pasquale)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Date: Aug 10
+
+Time: 4pm
+
+Location: LH-1
+
+Speaker: Angela Pasquale (Universite de Lorraine)
+
+Title: Dual pairs and intertwining distributions
+
+Abstract: A reductive dual pair in the group Sp(W) of isometries of a
+symplectic space W, over a local
+
+field of characteristic not 2, is a pair of subgroups G, G0 of Sp(W) which
+act reductively on
+
+W and are centralizers of each others. In the 70ies, Roger Howe made (and
+later proved over
+
+the reals; for p-adics with p odd it was done by Jean-Loup Walsburger and
+for p = 2 by Wee
+
+Teck Gan this year) the conjecture that for any reductive dual pair G, G0
+
+a one-to-one correspondence of irreducible admissible representations of
+the lifts of G and G0
+
+inside a certain two-fold covering group of Sp(W), the metaplectic group.
+The main problem,
+
+still open, is to understand this correspondence. Many different
+approaches have been used
+
+to describe Howe’s correspondence by means of objects associated with
+representations, such
+
+as Langlands parameters, orbits, characters or infinitesimal characters.
+
+The so-called intertwining distributions are special tempered
+distributions on the symplectic
+
+space W which are naturally linked to pairs of representations occurring
+in Howe’s corre-
+spondence over the reals. They are a tool to understand this
+correspondence at the level of
+
+characters. We shall explain this in the case where the group G is
+compact. This is a joint
+
+work with Mark McKee and Tomasz Przebinda.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

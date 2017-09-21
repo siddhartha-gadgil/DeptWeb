@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.181.35 with SMTP id bw35cs8732ibb;
+        Thu, 9 Dec 2010 21:59:00 -0800 (PST)
+Received: by 10.90.26.11 with SMTP id 11mr594512agz.174.1291960740228;
+        Thu, 09 Dec 2010 21:59:00 -0800 (PST)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTPS id u6si6446527anj.56.2010.12.09.21.58.57
+        (version=TLSv1/SSLv3 cipher=RC4-MD5);
+        Thu, 09 Dec 2010 21:58:59 -0800 (PST)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id oBA5xrGY014077;
+	Fri, 10 Dec 2010 11:29:53 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id oBA6ZP1v031080
+	for <m_seminar@math.iisc.ernet.in>; Fri, 10 Dec 2010 12:05:25 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id oBA6ZPTe031077
+	for <m_seminar@math.iisc.ernet.in>; Fri, 10 Dec 2010 12:05:25 +0530
+Date: Fri, 10 Dec 2010 12:05:25 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 13th December, 2010, "Hilbert spaces based on complex
+ Hermite polynomials, and related quantizations
+Message-ID: <Pine.LNX.4.64.1012101155020.28615@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046162175-460030173-1291962416=:28615"
+Content-ID: <Pine.LNX.4.64.1012101157100.28615@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: oBA5xrGY014077
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046162175-460030173-1291962416=:28615
+Content-Type: TEXT/PLAIN; CHARSET=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8BIT
+Content-ID: <Pine.LNX.4.64.1012101157101.28615@math.iisc.ernet.in>
+
+
+ 		        Department of Mathematics
+ 		    Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+Speaker	: Prof. Jean-Pierre Gazeau
+ 	  Université Paris-7 Denis Diderot
+ 	  France
+
+Title	: Hilbert spaces based on complex Hermite polynomials, and
+ 	  related quantizations
+
+Date	: December 13, 2010
+
+Time	: 4:00-5:00 p.m.
+
+Venue	: Lecture Hall I, Department of Mathematics
+
+Abstract:
+I will report on  the existence and properties of  Hilbert spaces
+based on different families of complex, holomorphic or not,
+functions, like Hermite polynomials. The resulting coherent state
+quantizations of the complex plane will be presented. Some
+interesting issues will be examined, like the  existence of the
+usual harmonic oscillator spectrum despite the absence of canonical
+commutation rules.
+
+
+ 			ALL ARE CORDIALLY INVITED
+
+ 					Chairman,
+ 					Department of Mathematics
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046162175-460030173-1291962416=:28615--

@@ -1,0 +1,92 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.115.101 with SMTP id jn5csp526650obb;
+        Wed, 19 Apr 2017 21:30:30 -0700 (PDT)
+X-Received: by 10.84.248.8 with SMTP id p8mr991848pll.32.1492662630824;
+        Wed, 19 Apr 2017 21:30:30 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.66])
+        by mx.google.com with ESMTP id s3si5082984plb.315.2017.04.19.21.30.29;
+        Wed, 19 Apr 2017 21:30:30 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) client-ip=14.139.128.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of mathseminars@math.iisc.ernet.in designates 14.139.128.66 as permitted sender) smtp.mailfrom=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id C5CBAAECE8B;
+	Thu, 20 Apr 2017 10:00:19 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id v3K51pFv010138
+	for <m_seminar@math.iisc.ernet.in>; Thu, 20 Apr 2017 10:31:51 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id v3K51pPi010137;
+	Thu, 20 Apr 2017 10:31:51 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.127
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ac.in with HTTP;
+        Thu, 20 Apr 2017 05:01:51 -0000
+Message-ID: <574c866364b4fa624a8e2b0acd8ccdc5.squirrel@math.iisc.ac.in>
+Date: Thu, 20 Apr 2017 05:01:51 -0000
+Subject: Math Dept Seminar Apr 24 (Luz Roncal)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: C5CBAAECE8B.A78E1
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	NO_REAL_NAME 1.00, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+MailScanner-NULL-Check: 1493267423.91483@AzV9oY6LBb6gkARNNJhEfA
+X-Spam-Status: No
+
+Date : April 24
+
+Time : 4pm
+
+Location : LH-1
+
+Speaker : Luz Roncal (BCAM -  Basque Center for Applied Mathematics)
+
+Title :Weighted norm inequalities for rough singular integral operators
+
+Abstract : The study of weighted inequalities in Classical Harmonic
+Analysis started in 70's, when B. Muckenhoupt characterised in 1972 the
+weights $w$ for which the Hardy--Littlewood maximal function is bounded in
+$L^p(w)$. At that time the question about how the operator depended on the
+constant associated with $w$, which we denote by $[w]_{A_p}$, was not
+considered (i.e., \textit{quantitative estimates}) were not investigated.
+
+From the beginning of 2000's, a great activity has been carried out in
+order to obtain the sharp dependence for singular integral operators,
+reaching the solution of the so-called $A_2$ conjecture by T. P.
+H\"ytonen.
+
+In this talk we consider operators with homogeneous singular kernels, on
+which we assume smoothness conditions that are weaker than the standard
+ones (this is why they are called rough). The first qualitative weighted
+estimates are due to J. Duoandikoetxea and J. L. Rubio de Francia. For the
+norm of these operators in the space $L^2(w)$ we obtain a quantitative
+estimate which is quadratic in the constant $[w]_{A_2}$.
+
+The results are based on a classical decomposition of the rough operators
+as a sum of other operators with a smoother kernel, for which a
+quantitative reelaboration of a dyadic decomposition proposed by M. T.
+Lacey is applied.
+
+We will overview as well the most recent advances, mainly associated with
+quantitative estimates for these rough singular integrals. In particular,
+Coifman--Fefferman type inequalities (which are new even in their
+qualitative version), weighted $A_p-A_{\infty}$ inequalities and a
+quantitative version of weak $(1,1)$ estimates will be shown.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

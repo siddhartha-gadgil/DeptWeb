@@ -1,0 +1,149 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.19 with SMTP id q19cs130102buc;
+        Wed, 12 Mar 2008 00:38:08 -0700 (PDT)
+Received: by 10.114.132.5 with SMTP id f5mr6349930wad.138.1205307487293;
+        Wed, 12 Mar 2008 00:38:07 -0700 (PDT)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id m40si3415438waf.16.2008.03.12.00.37.30;
+        Wed, 12 Mar 2008 00:38:07 -0700 (PDT)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m2C7UZSS026029;
+	Wed, 12 Mar 2008 13:00:35 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m2CCl5Nf013047
+	for <m_seminar@math.iisc.ernet.in>; Wed, 12 Mar 2008 12:47:05 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m2CCl5j8013046;
+	Wed, 12 Mar 2008 12:47:05 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 12 Mar 2008 12:47:05 -0000 (UTC)
+Message-ID: <1665.10.134.13.39.1205326025.squirrel@math.iisc.ernet.in>
+Date: Wed, 12 Mar 2008 12:47:05 -0000 (UTC)
+Subject: IMI : "Dynamics of transition and turbulence in shear flows";
+       Compact Course by Prof. Divakar Viswanath; March18th to 20th,
+       2008 at 4:00pm
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.799, required 9, ALL_TRUSTED -1.80, BAYES_50 0.00)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+
+
+Dear All,
+
+
+                        IISc Mathematics Initiative
+                         Department of Mathematics
+                        Indian Institute of Science
+                                Bangalore
+
+      ----------------------------------------------------------------
+
+
+                           compact course on
+
+            Dynamics of transition and turbulence in shear flows
+
+                                  by
+
+                         Prof. Divakar Viswanath
+               Mathematics Department, University of Michigan
+
+                            4.00 pm – 5.00 pm
+
+           on all days from Tuesday to Thursday during the period from
+                            March 18 - 20, 2008
+                       (starting on March 18, 2008)
+
+                                  at
+                     L H – 1, Department of Mathematics
+                   Indian Institute of Science, Bangalore
+
+                               Abstract
+
+The statistical study of turbulence is primarily interested in space and
+time averages formed in many different ways. A dynamical study would be
+interested not just in averages but also in the way in which the whole
+velocity field thought of as a point in phase space, evolves over time.
+The dynamical point of view is natural in some instances as evidenced by
+certain striking coherent structures in the near-wall region of turbulent
+shear flows that were first detected in the 1960s. Although understanding
+the dynamics of transition and turbulence appear to be very difficult
+problems, it appears as if a little light on that problem may have been
+shed by some computations and experiments carried out in the last ten
+years or so.
+
+These lectures will provide an introduction to the dynamical study of
+transition and turbulence. We will show how to reformulate the
+Navier-Stokes equation for channels and pipes to get rid of pressure so
+that the equation becomes a dynamical system. From that reformulation, we
+will derive numerical methods for computing periodic solutions, relative
+periodic solutions, steady solutions, and traveling waves. Some of the
+periodic solutions reproduce the breakup and re-formation of streaks
+observed in the near-wall region. Both recent experiments and computations
+suggest that lower-branch traveling waves could be important to transition
+to turbulence. That connection, along with other related developments,
+will be clarified and explained.
+
+                   ----------------------------------
+                           ALL ARE INVITED
+                         Coffee/Tea: 3.45 pm
+
+
+                                                  G.Rangarajan
+                                                    Convener
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

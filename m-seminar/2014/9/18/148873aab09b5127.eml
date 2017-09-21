@@ -1,0 +1,91 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.107.12.133 with SMTP id 5csp151879iom;
+        Wed, 17 Sep 2014 22:27:23 -0700 (PDT)
+X-Received: by 10.70.90.101 with SMTP id bv5mr2738264pdb.0.1411018042705;
+        Wed, 17 Sep 2014 22:27:22 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id d8si37868396pdj.131.2014.09.17.22.27.20
+        for <multiple recipients>;
+        Wed, 17 Sep 2014 22:27:22 -0700 (PDT)
+Received-SPF: none (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: mathseminars@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id s8I5RG0U007602;
+	Thu, 18 Sep 2014 10:57:16 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id s8I5QbMO009727
+	for <m_seminar@math.iisc.ernet.in>; Thu, 18 Sep 2014 10:56:37 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id s8I5QbFe009726;
+	Thu, 18 Sep 2014 10:56:37 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.10.47
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 18 Sep 2014 05:26:37 -0000
+Message-ID: <79056b3b740becd4b7b786c1d8a7c6a6.squirrel@math.iisc.ernet.in>
+Date: Thu, 18 Sep 2014 05:26:37 -0000
+Subject: [Seminar] Math: September 22nd, 2014: An interesting result about
+ finite dimensional complex semi-simple algebras
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.399, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_REAL_NAME 1.00,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+
+Speaker : Srikanth Tupurani
+          IMSc
+
+Title   : An interesting result about finite dimensional complex
+semi-simple algebras
+
+Date    : 22nd September, 2014 (Monday)
+
+Time    : 4:00 - 5:00 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+Abstract:
+I will prove the following interesting result about finite dimensional
+complex semi-simple algebra. Let A be a finite-dimensional complex
+semi-simple algebra without an M_{2}(C)  summand and let S be an
+involutive unital C-algebra anti-automorphism of A. Then there exists an
+element a in A such that a and S(a) generate A as an algebra. In the proof
+I will use some basic results in linear algebra
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

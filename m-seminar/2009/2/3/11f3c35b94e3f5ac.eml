@@ -1,0 +1,52 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.100.132.8 with SMTP id f8cs123165and;
+        Tue, 3 Feb 2009 04:56:09 -0800 (PST)
+Received: by 10.110.14.3 with SMTP id 3mr1537282tin.23.1233665768151;
+        Tue, 03 Feb 2009 04:56:08 -0800 (PST)
+Return-Path: <veluma@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.66])
+        by mx.google.com with ESMTP id 22si518984tim.35.2009.02.03.04.55.52;
+        Tue, 03 Feb 2009 04:56:07 -0800 (PST)
+Received-SPF: pass (google.com: domain of veluma@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) client-ip=220.227.207.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of veluma@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) smtp.mail=veluma@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n13CusTx011687;
+	Tue, 3 Feb 2009 18:26:54 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id n13HlXix023567;
+	Tue, 3 Feb 2009 17:47:33 GMT
+Received: from localhost (veluma@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id n13HlXQX023564;
+	Tue, 3 Feb 2009 17:47:33 GMT
+Date: Tue, 3 Feb 2009 17:47:33 +0000 (UTC)
+From: veluma@math.iisc.ernet.in
+To: imi@math.iisc.ernet.in
+cc: m_amall@math.iisc.ernet.in, m_fac@math.iisc.ernet.in,
+        m_tifrfac@math.iisc.ernet.in, m_isifac@math.iisc.ernet.in,
+        m_seminar@math.iisc.ernet.in, tsuall@jncasr.ac.in, emuall@jncasr.ac.in
+In-Reply-To: <2279.10.134.13.39.1233673299.squirrel@math.iisc.ernet.in>
+Message-ID: <Pine.LNX.4.61.0902031745540.23388@math.iisc.ernet.in>
+References: <2279.10.134.13.39.1233673299.squirrel@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.668, required 9, BAYES_00 -2.60, J_CHICKENPOX_83 0.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50, SUBJ_HAS_SPACES 0.87)
+X-IISc-MailScanner-From: veluma@math.iisc.ernet.in
+Subject: Re: Math:REMINDER:Change in TIME: Seminar by Prof. S. Gindikin:      "Introduction in Matrix   Geometrical Analysis"Feb 02 - 20,       2009 (Every  Monday, Wednesday, Friday) at 11:30 AM
+X-Spam-Status: No
+
+
+Kindly note that from tomorrow (4th Feb) onwards Prof Gindikin lectures 
+from 11:30 am to 12:30 pm.
+
+Sincerely,
+veluma
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

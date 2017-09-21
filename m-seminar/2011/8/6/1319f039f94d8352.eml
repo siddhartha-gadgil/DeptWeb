@@ -1,0 +1,86 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.37.201 with SMTP id y9cs52120ibd;
+        Sat, 6 Aug 2011 05:14:02 -0700 (PDT)
+Received: from mr.google.com ([10.143.68.4])
+        by 10.143.68.4 with SMTP id v4mr1189503wfk.292.1312632841944 (num_hops = 1);
+        Sat, 06 Aug 2011 05:14:01 -0700 (PDT)
+Received: by 10.143.68.4 with SMTP id v4mr1041830wfk.292.1312632841520;
+        Sat, 06 Aug 2011 05:14:01 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [14.139.128.65])
+        by mx.google.com with ESMTPS id a2si10566200pbo.103.2011.08.06.05.13.58
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Sat, 06 Aug 2011 05:14:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p76CECxY032426;
+	Sat, 6 Aug 2011 17:44:12 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p76CDW8i020455
+	for <m_seminar@math.iisc.ernet.in>; Sat, 6 Aug 2011 17:43:32 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id p76CDWtG020454;
+	Sat, 6 Aug 2011 17:43:32 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to bharali@math.iisc.ernet.in using -f
+Received: from aaa.serc.iisc.ernet.in ([10.16.40.14])
+        (SquirrelMail authenticated user bharali)
+        by math.iisc.ernet.in with HTTP;
+        Sat, 6 Aug 2011 17:43:32 +0530 (IST)
+Message-ID: <e4ec9eb151f1b3dbdd99ab048768dfc1.squirrel@math.iisc.ernet.in>
+Date: Sat, 6 Aug 2011 17:43:32 +0530 (IST)
+Subject: [Seminar] Math: 8th Aug,
+      2011 "The Goldman Bracket and Intersection Numbers"
+From: "Gautam Bharali" <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p76CECxY032426
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		     	Department of Mathematics
+ 		   Indian Institute of Science, Bangalore
+
+
+ 				SEMINAR
+
+
+Speaker	: Prof. Siddhartha Gadgil
+           IISc
+
+Title	: The Goldman Bracket and Intersection Numbers
+
+Date	: August 8, 2011
+
+Time	: 2:00 p.m.
+
+Venue	: To be announced
+
+Abstract:
+The Goldman bracket associates a Lie Algebra to closed curves
+on a surface. I shall describe the bracket and its basic properties. I
+shall also sketch some joint work with Moira Chas, where we show that
+the Goldman bracket together with the operation of taking powers
+determines geometric intersection and self-intersection numbers.
+
+
+ 		    ALL ARE CORDIALLY INVITED
+
+ 					      Chairman,
+ 					      Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

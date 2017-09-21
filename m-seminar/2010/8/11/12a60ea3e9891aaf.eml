@@ -1,0 +1,91 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.216.50.139 with SMTP id z11cs121338web;
+        Wed, 11 Aug 2010 04:30:19 -0700 (PDT)
+Received: by 10.220.125.88 with SMTP id x24mr11308248vcr.205.1281526219015;
+        Wed, 11 Aug 2010 04:30:19 -0700 (PDT)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [203.200.35.65])
+        by mx.google.com with ESMTP id n20si9937vba.4.2010.08.11.04.30.17;
+        Wed, 11 Aug 2010 04:30:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of gadgil@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id o7BBURBj021497;
+	Wed, 11 Aug 2010 17:00:27 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id o7BC0DrX019636;
+	Wed, 11 Aug 2010 17:30:13 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id o7BC0Deo019635;
+	Wed, 11 Aug 2010 17:30:13 +0530
+From: gadgil@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.134.10.30
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 11 Aug 2010 17:30:13 +0530 (IST)
+Message-ID: <b36b07234b4cca0e0a634261b9661fa0.squirrel@math.iisc.ernet.in>
+Date: Wed, 11 Aug 2010 17:30:13 +0530 (IST)
+Subject: Maths : August 13,
+       2010: Public Lecture : "The mysterious geometry of soap bubbles"
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: o7BBURBj021497
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+MailScanner-NULL-Check: 1282131028.46193@l/tCZ49gQMCedEpCZWi3gw
+X-Spam-Status: No
+
+
+                        ICM Satellite Conference on
+                 Geometric Topology and Riemannian Geometry
+
+                                Public Lecture
+
+
+    Speaker              : Prof. Michael Hutchings, U.C.Berkeley.
+
+    Title                : The mysterious geometry of soap bubbles
+
+    Day & Date           : Friday, August 13, 2010.
+
+    Time                 :  4:00 p.m.
+
+    Venue                :  Faculty Hall, IISc.
+
+Abstract:
+   Why are soap bubbles spherical?  Why do double soap bubbles have the
+shape that they do (three spherical caps meeting along a circle at 120
+degree angles)?  The single bubble problem was solved in the 19th
+century, and the double bubble problem was solved a few years ago.  The
+analogous problem for triple soap bubbles remains a mystery.  We will
+give an introduction to these problems and their solutions (when
+known).
+
+           All are Welcome.
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

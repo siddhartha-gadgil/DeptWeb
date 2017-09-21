@@ -1,0 +1,132 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.16.137 with SMTP id g9csp770076obd;
+        Thu, 1 Dec 2016 05:18:13 -0800 (PST)
+X-Received: by 10.98.98.66 with SMTP id w63mr39054961pfb.84.1480598293863;
+        Thu, 01 Dec 2016 05:18:13 -0800 (PST)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id p26si161765pfk.183.2016.12.01.05.18.11;
+        Thu, 01 Dec 2016 05:18:12 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 9CE5BAE63E0;
+	Thu,  1 Dec 2016 18:48:04 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id uB1Dq73n002053;
+	Thu, 1 Dec 2016 19:22:07 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id uB1Dq7iH002050;
+	Thu, 1 Dec 2016 19:22:07 +0530
+Date: Thu, 1 Dec 2016 19:22:06 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+cc: manju@math.iisc.ernet.in
+Subject: Fwd: [Academic] Dynamics fridays - Dec 2nd at 15:00 at ncbs - bring
+ your dice (fwd)
+Message-ID: <alpine.LFD.2.03.1612011921180.1929@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-410833504-1480600327=:1929"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 9CE5BAE63E0.A530E
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-7.996, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FWD_MSG -1.00, LONGWORD 0.30, RP_MATCHES_RCVD -2.90,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1481203087.12006@swryPbbMsVF0w1EFvQwVdQ
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-410833504-1480600327=:1929
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+Of possible interest
+
+---------- Forwarded message ----------
+Date: Thu, 1 Dec 2016 18:30:28 +0530
+From: David Farris <pseudoholomorphic@gmail.com>
+To: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+Subject: Fwd: [Academic] Dynamics fridays - Dec 2nd at 15:00 at ncbs - bring
+     your dice
+
+
+       Dear all,
+
+       Amit apte (icts), Sandeep Krishna (ncbs) and Shashi thutupalli (ncbs+icts) 
+       are very happy to announce the last talk of 2016 in the **dynamics 
+       fridays** seminar series.
+
+       Title: Molecular Dice
+
+       Speaker: Santosh Ansumali, jncasr
+
+       Abstract: good quality pseudo-random numbers are at the heart of many computer simulation methodologies in science and engineering. Most algorithms for
+       generating random numbers use techniques from number theory to produce uniformly distributed integers which are, in turn, transformed using expensive
+       algebraic operations to obtain numbers corresponding to other distributions. We present a new technique which utilizes the apparent stochasticity inherent in
+       dynamical systems and directly generates random numbers following a variety of distributions characterizing the physics of many-body systems. This new
+       methodology provides a physical alternate to number theory based random number generators. As an illustration, we demonstrate that our algorithm 
+       generates Gaussian distributed random numbers more than order-of-magnitude faster than currently known algorithms.
+
+       Where: simons center ground floor, ncbs
+
+       When: 15:00 on Fri 02 dec 2016
+
+       hope to see you all this friday at ncbs. (playing dice is optional!) 
+       please announce this to other people who you think might be interested.
+
+       -amit, sandeep, shashi
+
+       p.s. about the series:
+
+       **dynamics fridays** -- a seminar series about complex systems, dynamical 
+       systems, and computer science approaches to various problems, particularly 
+       in biology and physics.
+
+       the format: informal, (preferably) chalk board talks with the aim of 
+       stimulating discussion. new results and ideas rather than completed 
+       projects / polished presentations are particularly encouraged. talks are 
+       about an hour long.
+
+       when is it: fridays at 15:00 (once every 4 weeks)
+
+       where is it: alternating between ncbs (ground floor of simons centre) and 
+       icts (usually emmy noether room).
+
+https://theory.ncbs.res.in/dynamics-fridays
+
+Thanks and Best Regards
+
+---
+
+​Academic Office
+International Centre for Theoretical Sciences
+Tata Institute of Fundamental Research
+Survey No. 151, Shivakote Village, Hesaraghatta Hobli, Bengaluru (North) - 560089
+Ph: 080 4653 6000; Email: academicoffice@icts.res.in; Website: www.icts.res.in
+[uc?export=download&id=0B33OePjgTxMXODZmV2dYbkNPUUE&revid=0B33OePjgTxMXL2UxcTVOQ1B6eUJrNWh4TE9XY3hTam9rY1BRPQ] : ICTS Office  
+[uc?export=download&id=0B33OePjgTxMXeDBpVmt2M0l6QTQ&revid=0B33OePjgTxMXQUNxQlFBMmtOa3E3c0hrZkR5NHQ2eWZZYXlRPQ] : Facebook  
+[uc?export=download&id=0B33OePjgTxMXRFNtRVpjUGR6cjQ&revid=0B33OePjgTxMXWlc2dUtNc2NTYURoMU8xUUVXejVDbzVnbUo4PQ] : Twitter​ 
+​[3sMmt0DETuUb4diif-_4Np9lfOSoOwe2WDz7Ci7OmZdhA-6itFpDZa1RbX_TrEUVd-D_6OTIoWGw7fwrsMcVUVMYig2Rhe-4dQDaLLPvjtKt9tJsigubjj_MJtbk7Q14N1K2wiQD] : Youtube
+
+
+
+_______________________________________________
+Academic mailing list
+Academic@lists.ncbs.res.in
+http://lists.ncbs.res.in/mailman/listinfo/academic
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-410833504-1480600327=:1929--

@@ -1,0 +1,108 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.194.28.100 with SMTP id a4csp319188wjh;
+        Wed, 27 Nov 2013 20:01:37 -0800 (PST)
+X-Received: by 10.66.188.203 with SMTP id gc11mr43956337pac.63.1385611296632;
+        Wed, 27 Nov 2013 20:01:36 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id ku6si35647060pbc.96.2013.11.27.20.01.35
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Wed, 27 Nov 2013 20:01:36 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id rAS40Flp024789;
+	Thu, 28 Nov 2013 09:30:15 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id rAS3rjrX025752
+	for <m_seminar@math.iisc.ernet.in>; Thu, 28 Nov 2013 09:23:45 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id rAS3rjtA025751;
+	Thu, 28 Nov 2013 09:23:45 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from 10.134.12.59
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 28 Nov 2013 09:23:45 +0530 (IST)
+Message-ID: <c1c72970fc6ef4a4064ea5531e58e7f6.squirrel@math.iisc.ernet.in>
+Date: Thu, 28 Nov 2013 09:23:45 +0530 (IST)
+Subject: Reminder! [Seminar] Math:Today: Preserving positivity for 
+     rank-constrained matrices
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.899, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+                           Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                    SEMINAR
+
+
+Speaker : Prof Apoorva Khare
+                      Stanford university
+
+Title   : Preserving positivity for rank-constrained matrices
+
+Date    : 28th Nov, 2013 (Thursday)
+
+Time    : 3:30 - 4:30 p.m.
+
+Venue   : Lecture Hall I, Department of Mathematics
+
+
+Abstract:
+We study the problem of characterizing functions, which when applied
+entrywise, preserve Loewner positivity on distinguished submanifolds of
+the cone of positive semidefinite matrices. Following the work of
+Schoenberg and Rudin (and several others), it is well-known that entrywise
+functions preserving positivity in all dimensions are necessarily
+absolutely monotonic. However, there are strong theoretical and practical
+motivations to study functions preserving positivity in a fixed dimension
+$n$. Such characterizations are known only in the $n=2$ case.
+
+In joint work with D. Guillot and B. Rajaratnam (Stanford), we study a
+further refinement of the problem via rank constraints. Specifically, we
+characterize the functions which send positive semidefinite $n \times n$
+matrices of rank at most $l$ to matrices of rank at most $k$, for various
+$1 \leq k,l \leq n$ and under mild differentiability assumptions. As a
+special case, we provide an elementary proof of the above classical result
+by Rudin et al.
+
+This talk will be accessible to a general mathematics audience and graduate
+students should be able to follow much of it.
+
+
+All are cordially invited!
+
+Chairman,
+Department of Mathematics
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

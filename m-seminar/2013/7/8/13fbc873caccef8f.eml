@@ -1,0 +1,75 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.49.41.180 with SMTP id g20csp220327qel;
+        Sun, 7 Jul 2013 21:25:47 -0700 (PDT)
+X-Received: by 10.68.17.70 with SMTP id m6mr19132553pbd.142.1373257547075;
+        Sun, 07 Jul 2013 21:25:47 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id yo6si2092846pac.4.2013.07.07.21.25.45
+        for <multiple recipients>
+        (version=TLSv1 cipher=RC4-SHA bits=128/128);
+        Sun, 07 Jul 2013 21:25:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id r684PhYp009599;
+	Mon, 8 Jul 2013 09:55:43 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id r684Peap000582
+	for <m_seminar@math.iisc.ernet.in>; Mon, 8 Jul 2013 09:55:40 +0530
+Received: from localhost (mathseminars@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id r684PeWd000579
+	for <m_seminar@math.iisc.ernet.in>; Mon, 8 Jul 2013 09:55:40 +0530
+Date: Mon, 8 Jul 2013 09:55:40 +0530 (IST)
+From: mathseminars@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] Math: 12th July, 2013: Potential theory on infinite graphs
+Message-ID: <Pine.LNX.4.64.1307080948280.32315@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII; FORMAT=flowed
+Content-ID: <Pine.LNX.4.64.1307080937232.32315@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: r684PhYp009599
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+ 		   	 Department of Mathematics
+ 		  Indian Institute of Science, Bangalore
+
+
+ 		   GEOMETRY/TOPOLOGY INFORMAL SEMINAR
+
+
+Speaker	: Prof. Victor Anandam
+ 	  IMSc, Chennai
+
+Title	: Potential theory on infinite graphs
+
+Date	: July 12, 2013
+
+Time	: 4:00 - 5:00 p.m.
+
+Venue	: Lecture Hall III, Department of Mathematics
+
+
+Abstract:
+The classical (as well as axiomatic) potential theory has been
+developed in the context of the study of analytic functions on
+Riemann surfaces, Newton potentials and Markov processes. This
+talk aims to develop a discrete version of potential theory on
+infinite graphs, based on the examples of electrical networks
+and infinite graphs.
+
+ 			ALL ARE CORDIALLY INVITED
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

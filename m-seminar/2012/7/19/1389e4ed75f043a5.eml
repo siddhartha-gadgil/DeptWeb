@@ -1,0 +1,184 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.76.162.196 with SMTP id yc4csp177072oab;
+        Thu, 19 Jul 2012 01:16:03 -0700 (PDT)
+Received: by 10.50.87.227 with SMTP id bb3mr536537igb.57.1342685763429;
+        Thu, 19 Jul 2012 01:16:03 -0700 (PDT)
+Return-Path: <poojasingla7@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTPS id hy10si542026icc.56.2012.07.19.01.16.01
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Thu, 19 Jul 2012 01:16:03 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by domain of poojasingla7@gmail.com) smtp.mail=poojasingla7@gmail.com; dkim=neutral (body hash did not verify) header.i=@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q6J8Fa4s012692;
+	Thu, 19 Jul 2012 13:45:36 +0530
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q6J8FXHb002313
+	for <m_seminar@math.iisc.ernet.in>; Thu, 19 Jul 2012 13:45:33 +0530
+Received: from mail-ob0-f177.google.com (mail-ob0-f177.google.com [209.85.214.177])
+	by mail.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id q6J8AMgm001284
+	for <m_seminar@math.iisc.ernet.in>; Thu, 19 Jul 2012 13:40:24 +0530
+Received: by obbta17 with SMTP id ta17so5087625obb.22
+        for <m_seminar@math.iisc.ernet.in>; Thu, 19 Jul 2012 01:15:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:sender:in-reply-to:references:date
+         :x-google-sender-auth:message-id:subject:from:to:content-type;
+        bh=DsNXzGKhDVLxZIqiLH9VymYZce+XQGbOQyeQHMRjD3Y=;
+        b=egnYzI2rVEb81Ap6iPg2ZjVG3EYcDGl+9bA9GyiYqnmOCoGm0S4Mu2OWCjy1b9ojl3
+         U7hWPmjiHA5FujazIriaXIyU282UjBq89/hLysrffaFFtmF3muXtTIqQKyuCGpZ/dIdf
+         11Ee5HhjgiAHcCYP3/9rNCjtRnuQYla5meQks3Eb+t0QOvzxgUTIL7EIJHLXYJx4gETW
+         xuQUL5xCyRQ2j9PL698bkFkGs+fZ3gmpgVdyIJ81m0wwB4niCnfAVCymgxV6eP4m5Iu4
+         mxAJAXpA9T4LJiJnsWH4RropyUpR6F5G85f5QB0y9uQZF4er47SzHrbzg5Qir4GF5re1
+         KkJQ==
+MIME-Version: 1.0
+Received: by 10.182.75.100 with SMTP id b4mr1286705obw.12.1342685725663; Thu,
+ 19 Jul 2012 01:15:25 -0700 (PDT)
+Sender: poojasingla7@gmail.com
+Received: by 10.76.77.39 with HTTP; Thu, 19 Jul 2012 01:15:25 -0700 (PDT)
+In-Reply-To: <CAHEur2SLAm-MwGRcqbviYKe6UBjy_QO_iSnKOm+7escOc6R5+A@mail.gmail.com>
+References: <CAHEur2SLAm-MwGRcqbviYKe6UBjy_QO_iSnKOm+7escOc6R5+A@mail.gmail.com>
+Date: Thu, 19 Jul 2012 13:45:25 +0530
+X-Google-Sender-Auth: hD-IZzPnqHUx6g1inzO3xmCsKkU
+Message-ID: <CAHEur2TCjiVdR=JDfQeBmA=YBP8BQxY5ibhenJzCU19Wr050Jg@mail.gmail.com>
+Subject: [Seminar] Math: July 30, 2012: "Some Elementary Mathematics of
+ Integral Value Transformations (IVTs) and Its Associated Dynamical Systems"
+From: Pooja Singla <pooja@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=14dae93996edb9213704c52a6130
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-2.201, required 6.5, autolearn=not spam, BAYES_40 -0.00,
+	RCVD_IN_DNSWL_LOW -0.70, SUBJECT_MONTH -1.50), not spam, SpamAssassin (not cached,
+	score=-2.489, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	DKIM_SIGNED 0.10, HTML_MESSAGE 0.00, RCVD_IN_DNSWL_LOW -0.70,
+	T_DKIM_INVALID 0.01)
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q6J8Fa4s012692
+X-IISc-MailScanner-From: poojasingla7@gmail.com
+
+
+--14dae93996edb9213704c52a6130
+Content-Type: text/plain; charset=ISO-8859-1
+
+                         Department of Mathematics
+                    Indian Institute of Science, Bangalore
+
+
+                                  SEMINAR
+
+
+Speaker:           Dr. Sarif Hassan,
+                    Institute of Mathematics and Applications,
+                      Bhubaneswar
+
+Title:         Some Elementary Mathematics of Integral Value
+               Transformations (IVTs) and Its Associated Dynamical
+                Systems.
+
+
+Date :       July 30th, 2012
+
+Time :       2:00 pm- 3.00 pm
+
+Venue:     Department of Mathematics, Lecture Hall 1
+
+
+Abstract: Some basic algebraic structures on the set of 1-dimensional
+IVTs are introduced. Then discrete dynamical systems are defined
+through IVT maps and a report on convergence of the dynamical
+systems has been made. Finally, some problems which are unsolved
+yet in the domain are discussed.
+
+
+
+
+                   ALL ARE CORDIALLY INVITED.
+
+
+
+                                            Chairman,
+                                            Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--14dae93996edb9213704c52a6130
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<br><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gma=
+il_quote"><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div class=
+=3D"gmail_quote"><div><div><div class=3D"gmail_quote"><div><div><div class=
+=3D"gmail_quote">
+<div class=3D"gmail_quote"><div><div><div class=3D"gmail_quote"><div class=
+=3D"gmail_quote"><div class=3D"gmail_quote"><div class=3D"gmail_quote"><div=
+ class=3D"gmail_quote"><div class=3D"gmail_quote"><div><div><div>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0Department of Mathematic=
+s<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 Indian Institute of Science, Bangal=
+ore<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0=A0=A0=A0=A0=A0 S=
+EMINAR<br><br><br>
+Speaker:=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 Dr. Sarif Hassan, <br>=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 Institute of Mathematics and =
+Applications,<br>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0
+
+Bhubaneswar<br><br>Title:=A0=A0=A0=A0=A0=A0=A0=A0 Some Elementary Mathemati=
+cs of Integral Value<br>=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0=A0 Transfor=
+mations (IVTs) and Its Associated Dynamical <br>=A0=A0=A0=A0=A0=A0=A0=A0=A0=
+=A0=A0=A0=A0=A0=A0 Systems.<br>
+</div></div><div><br><br>Date : =A0 =A0 =A0 July 30th, <a href=3D"tel:2012"=
+ value=3D"+9722012" target=3D"_blank">2012</a><br><div>
+<br>
+Time : =A0 =A0 =A0 2:00 pm- 3.00 pm<br>
+<br>
+Venue: =A0 =A0 Department of Mathematics, Lecture Hall 1<br>
+<br><br>
+
+Abstract: Some basic algebraic structures on the set of 1-dimensional <br>I=
+VTs are introduced. Then discrete dynamical systems are defined <br>through=
+ IVT maps and a report on convergence of the dynamical <br>systems has been=
+ made. Finally, some problems which are unsolved <br>
+
+yet in the domain are discussed.<br><br><br>
+<br><br></div>=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=A0 ALL ARE CORDIALLY INVI=
+TED.<br><div>
+<br>
+<br>
+<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Chairman,<br>
+=A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0 =A0=
+ =A0 =A0 =A0 Department of Mathematics<span><font color=3D"#888888"><br>
+</font></span></div></div></div></div><span><font color=3D"#888888"><br><br=
+ clear=3D"all"><br><br>
+</font></span></div><span><font color=3D"#888888"><br><br clear=3D"all"></f=
+ont></span><br>
+</div>
+</div><br>
+</div></div></div></div></div></div>
+</div></div></div><br><br>
+</div></div></div><br><br clear=3D"all"><br>
+</div><br><br clear=3D"all"><br>
+</div><br><br>
+</div><br><br clear=3D"all"><br><br>
+</div><br><br>
+</div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--14dae93996edb9213704c52a6130--
