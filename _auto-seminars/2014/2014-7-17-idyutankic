@@ -1,0 +1,32 @@
+
+---
+date: 2014-7-17
+speaker: "Bidyut Sanki IISc"
+title: "Shortest length geodesics on closed hyperbolic surfaces"
+venue: "Lecture Hall III, Department of Mathematics"
+---
+Given a hyperbolic surface, the set of all closed geodesics whose
+length is minimal form a graph on the surface, in fact a so called fat
+graph, which we call the systolic graph. The central question that we study
+in this thesis is: which fat graphs are systolic graphs for some surface -
+we call such graphs admissible. This is motivated in part by the observation
+that we can naturally decompose the moduli space of hyperbolic surfaces
+based on the associated systolic graphs.
+
+        A systolic graph has a metric on it, so that all cycles on the
+graph that correspond to geodesics are of the same length and all other
+cycles have length greater than these. This can be formulated as a simple
+condition in terms of equations and inequations for sums of lengths of
+edges. We call this combinatorial admissibility.
+
+        Our first main result is that admissibility is equivalent to
+combinatorial admissibility. This is proved using properties of negative
+curvature, specifically that polygonal curves with long enough sides, in
+terms of a lower bound on the angles, are close to geodesics.
+
+       Using the above result, it is easy to see that a subgraph of an
+admissible graph is admissible. Hence it suffices to characterize minimal
+non-admissible fat graphs. Another major result of this thesis is that there
+are infinitely many minimal non-admissible fat graphs (in contrast, for
+instance, to the classical result that there are only two minimal non-planar
+graphs).

@@ -135,7 +135,7 @@ ${abs.trim}
 """
 
   val filename=
-    s"${year}-${date._2}-${date._1}-${speaker.split(",").head.replace(" ", "-").replace(".", "").toLowerCase}"
+    s"${year}-${date._2}-${date._1}-${safe(speaker.split(",").head)}"
 
   def save(d: Path) = write.over(d / year.toString / filename, out)
 }
@@ -143,6 +143,8 @@ ${abs.trim}
 def trim(s: String) = "[\\s]+".r.replaceAllIn(s, " ")
 
 def mline(s: String) = trim(s.replace("\n", ","))
+
+def safe(s: String) = "[^a-z\\-]".r.replaceAllIn(s, "")
 
 def getSem(s: String, y: Int) =
     for {
