@@ -2,6 +2,7 @@
 date: 2007-6-11
 speaker: "Ms. Geetanjali Kachari, IISc"
 title: "Higher linking of Knots: Stallings theorem"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 A central result used in studying higher linking of knots is a 

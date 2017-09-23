@@ -2,6 +2,7 @@
 date: 2008-1-17
 speaker: "Dr. D. Anirban Banerjee, Max-Planck Institute, Leipzig"
 title: "Graph Spectra: A Tool for Analyzing Networks"
+time: "4.15 p.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 The existing graph invariants can retrieve certain structural

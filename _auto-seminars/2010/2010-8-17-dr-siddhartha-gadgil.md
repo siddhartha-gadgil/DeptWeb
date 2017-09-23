@@ -2,6 +2,7 @@
 date: 2010-8-17
 speaker: "Dr. Siddhartha Gadgil, IISc."
 title: "Triangulating the Deligne-Mumford Compactification of Riemann Surfaces"
+time: "2:00 p.m."
 venue: "LH-1, Department of Mathematics"
 ---
 The space of all complex structures on a surface, and the

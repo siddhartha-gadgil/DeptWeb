@@ -2,6 +2,7 @@
 date: 2008-8-12
 speaker: "Dr. Moulinath Banerjee University of Michigan"
 title: "Estimation of function thresholds using multistage adaptive procedures"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 In this talk, I will discuss threshold estimation for a regression

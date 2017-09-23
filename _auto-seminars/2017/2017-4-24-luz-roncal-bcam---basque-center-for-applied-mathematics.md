@@ -2,6 +2,7 @@
 date: 2017-4-24
 speaker: "Luz Roncal (BCAM - Basque Center for Applied Mathematics)"
 title: "Weighted norm inequalities for rough singular integral operators"
+time: "4pm"
 venue: ""
 ---
 The study of weighted inequalities in Classical Harmonic

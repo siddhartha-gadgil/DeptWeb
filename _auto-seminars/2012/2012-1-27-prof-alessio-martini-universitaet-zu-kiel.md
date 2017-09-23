@@ -2,6 +2,7 @@
 date: 2012-1-27
 speaker: "Prof. Alessio Martini Universitaet zu Kiel"
 title: "Commuting differential operators on Lie groups and spectral multipliers"
+time: "4:00 - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 Let D_1,...D_n be a system of commuting, formally self-adjoint, left

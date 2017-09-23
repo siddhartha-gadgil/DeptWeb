@@ -2,6 +2,7 @@
 date: 2012-5-22
 speaker: "Ms. Soma Maity"
 title: "On the stability of certain Riemannian functionals"
+time: "4:00 - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 Let $M$ be a closed smooth manifold. Consider the space of Riemannian

@@ -12,12 +12,14 @@ title: Seminars
   <h5><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
   <h5>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </h5>
+  {% if sem.time %}
   <h5>  <strong>Time: </strong>{{ sem.time }} </h5>
-  <h5>  <strong>Venue: </strong>
+  {% endif %}
+  <h5>
     {% if sem.venue %}
-    {{ sem.venue }}
-    {% else %}
-    {{ sem.location }}
+       <strong>Venue: </strong> {{ sem.venue }}
+    {% elsif sem.location %}
+     <strong>Venue: </strong> {{ sem.location }}
     {% endif %}
   </h5>
 

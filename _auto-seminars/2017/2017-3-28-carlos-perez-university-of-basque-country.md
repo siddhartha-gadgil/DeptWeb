@@ -2,6 +2,7 @@
 date: 2017-3-28
 speaker: "Carlos Perez (University of Basque country)"
 title: "On commutators of singular integral operators with BMO functions"
+time: "4pm"
 venue: ""
 ---
 Commutators of singular integral operators with BMO functions

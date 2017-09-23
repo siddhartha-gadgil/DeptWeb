@@ -2,6 +2,7 @@
 date: 2011-3-1
 speaker: "Prof. Michael Demuth University of Clausthal Germany"
 title: "On the distribution of the eigenvalues of non-selfadjoint operators"
+time: "4:00 p.m. - 5:00 p.m."
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 Let A be a selfadjoint operator. We are interested in the discrete

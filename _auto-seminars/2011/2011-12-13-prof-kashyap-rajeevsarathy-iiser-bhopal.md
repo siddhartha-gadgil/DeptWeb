@@ -2,6 +2,7 @@
 date: 2011-12-13
 speaker: "Prof. Kashyap Rajeevsarathy IISER Bhopal"
 title: "Roots of Dehn twists"
+time: "11:00 a.m. - 12:00 noon"
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 Let $F$ be a closed orientable surface of genus $g \\geq 2$ and $C$ be

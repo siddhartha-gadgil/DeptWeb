@@ -2,6 +2,7 @@
 date: 2011-8-5
 speaker: "Prof. Rajendra Bhatia ISI Delhi"
 title: "Loewner matrices"
+time: "4:00-5:00 p.m."
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 Let f be a smooth function on the real line. The divided difference

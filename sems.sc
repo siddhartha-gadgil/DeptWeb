@@ -118,20 +118,23 @@ case class Seminar(
   speaker: String,
   title: String,
   venueOpt: Option[String],
+  timeOpt: Option[String],
   absOpt: Option[String]
 ){
   val abs = absOpt.getOrElse("").replace("\n ", "\n\n").replace("\n\t", "\n\n")
   val venue = venueOpt.getOrElse("")
+  val time = trim(timeOpt.getOrElse(""))
   val year = date._3
   val out =
 s"""---
 date: ${year}-${date._2}-${date._1}
 speaker: "$speaker"
 title: "$title"
+time: "$time"
 venue: "$venue"
 ---
 ${abs.trim.replace("\\", "\\\\")}
-""" 
+"""
 
   val filename=
     s"${year}-${date._2}-${date._1}-${safe(speaker.split(",").head)}.md"
@@ -151,7 +154,7 @@ def getSem(s: String, y: Int) =
       d <- getDate(dt, y)
       sp <- kvc("Speaker", s)
       t <- kvc("Title", s)
-    } yield Seminar(d, trim(sp), trim(t), kvc("Venue", s).map(mline), kvc("Abstract", s))
+    } yield Seminar(d, trim(sp), trim(t), kvc("Venue", s).map(mline), kvc("Time", s), kvc("Abstract", s))
 
 lazy val finl = dat.map(getSem(_, 2017))
 

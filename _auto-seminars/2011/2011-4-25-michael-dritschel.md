@@ -2,6 +2,7 @@
 date: 2011-4-25
 speaker: "Michael Dritschel"
 title: "Noncommutative analogues of the Fej\'er-Riesz Theorem"
+time: ""
 venue: "LH 1, Department of Mathematics, IISc"
 ---
 The classical Fej\\'er-Riesz Theorem states that a nonnegative

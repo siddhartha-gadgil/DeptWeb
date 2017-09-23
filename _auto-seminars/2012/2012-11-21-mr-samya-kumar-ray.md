@@ -2,6 +2,7 @@
 date: 2012-11-21
 speaker: "Mr. Samya Kumar Ray"
 title: "GROTHENDIECK INEQUALITY"
+time: "4:10 p.m.- 5:10 p.m."
 venue: "Department of Mathematics, LH-I"
 ---
 Grothendieck published an extraordinary paper entitled Resume de la

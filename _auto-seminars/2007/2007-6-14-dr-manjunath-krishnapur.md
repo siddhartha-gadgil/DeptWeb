@@ -2,6 +2,7 @@
 date: 2007-6-14
 speaker: "Dr. Manjunath Krishnapur, University of Toronto"
 title: "An overview of random matrices"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 We consider the simplest models of Hermitian and non Hermitian

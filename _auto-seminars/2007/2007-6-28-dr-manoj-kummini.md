@@ -2,6 +2,7 @@
 date: 2007-6-28
 speaker: "Dr. Manoj Kummini, University of Kansas"
 title: "Multiplicity Conjecures"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 We discuss a conjecture for the Hilbert-Samuel multiplicity 

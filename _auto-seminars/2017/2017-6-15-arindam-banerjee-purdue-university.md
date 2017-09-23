@@ -2,6 +2,7 @@
 date: 2017-6-15
 speaker: "Arindam Banerjee (Purdue University, USA)"
 title: "Homological Invariants and Combinatorics of Finite Simple Graphs"
+time: "3pm"
 venue: ""
 ---
 In this talk the interplay between the combinatorial structures

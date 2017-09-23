@@ -2,6 +2,7 @@
 date: 2012-5-23
 speaker: "Ms. Eliza Philip"
 title: "Function Theory on non-compact Riemann surfaces"
+time: "11:00 a.m. - 12:00 noon"
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 Given a domain D in the complex plane and a compact subset K, Runge's

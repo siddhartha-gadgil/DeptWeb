@@ -2,6 +2,7 @@
 date: 2017-3-10
 speaker: "Xavier Viennot CNRS Emeritus Research Director, LaBRI, Bordeaux University Adjunct Professor at IMSc, Chennai"
 title: "At the crossroad of algebra, combinatorics and physics: the 2-species PASEP"
+time: "3:00 p.m. - 4:00 p.m."
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 The PASEP  (partially asymmetric exclusion model) is a model of particles 

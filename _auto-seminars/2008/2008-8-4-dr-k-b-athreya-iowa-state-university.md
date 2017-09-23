@@ -2,6 +2,7 @@
 date: 2008-8-4
 speaker: "Dr. K. B. Athreya Iowa State University"
 title: "Preferential Attachment Random graphs with general weight function and general input sequence."
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Consider a network of sites growing over time such that at step n

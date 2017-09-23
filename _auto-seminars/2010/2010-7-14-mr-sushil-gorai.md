@@ -2,6 +2,7 @@
 date: 2010-7-14
 speaker: "Mr. Sushil Gorai, IISc."
 title: "Exploring polynomial convexity of certain classes of sets"
+time: "4:00 p.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 It is very difficult in general to determine when a given compact

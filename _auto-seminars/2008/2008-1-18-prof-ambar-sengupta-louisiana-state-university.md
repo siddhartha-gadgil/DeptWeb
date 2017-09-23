@@ -2,6 +2,7 @@
 date: 2008-1-18
 speaker: "Prof. Ambar Sengupta Louisiana State University."
 title: "Mathematical Aspects of 2-dimensional Yang-Mills Theory"
+time: "4.00 p.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 Yang-Mills gauge theory, classical as well as quantum, in two

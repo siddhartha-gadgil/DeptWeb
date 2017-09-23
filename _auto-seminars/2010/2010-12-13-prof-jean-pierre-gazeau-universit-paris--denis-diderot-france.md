@@ -2,6 +2,7 @@
 date: 2010-12-13
 speaker: "Prof. Jean-Pierre Gazeau Universit Paris-7 Denis Diderot France"
 title: "Hilbert spaces based on complex Hermite polynomials, and related quantizations"
+time: "4:00-5:00 p.m."
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 I will report on  the existence and properties of  Hilbert spaces

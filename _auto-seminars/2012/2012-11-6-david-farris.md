@@ -2,6 +2,7 @@
 date: 2012-11-6
 speaker: "David Farris"
 title: "The Whitney-Grauert theorem via contact geometry"
+time: "2.00 pm"
 venue: "Department of Mathematics, LH-III"
 ---
 The Whitney-Grauert theorem states that regular curves in R^2

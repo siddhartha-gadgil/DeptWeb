@@ -2,6 +2,7 @@
 date: 2012-1-4
 speaker: "Prof. T.R. Ramadas ICTP, Trieste"
 title: "The chiral boson and function theory on the unit disc"
+time: "4:00 - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 Conformal field theories (CFTs) are related (in Mathematics) to algebraic

@@ -2,6 +2,7 @@
 date: 2010-4-13
 speaker: "Dr. Suhas Pandit, IISER, Pune"
 title: "Intersection numbers, embedded spheres and Geosphere laminations for free groups"
+time: "2:00 p.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 Free  groups and the group of their outer

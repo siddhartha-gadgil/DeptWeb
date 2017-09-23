@@ -2,6 +2,7 @@
 date: 2007-5-14
 speaker: "Prof. Gerald Warnecke, Magdeburg, Germany"
 title: "Numerical approximation of population balance equations in process engineering"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Population balance equations are widely used in many chemical and 

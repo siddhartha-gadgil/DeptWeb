@@ -2,6 +2,7 @@
 date: 2009-8-14
 speaker: "Prof. K. B. Athreya"
 title: "Gibbs measure asymptotics"
+time: "4:00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Let H :R --> R. with multiple minima on R.For T> 0 consider the

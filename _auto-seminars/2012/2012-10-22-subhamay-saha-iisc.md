@@ -2,6 +2,7 @@
 date: 2012-10-22
 speaker: "Subhamay Saha (IISc, Mathematics)"
 title: "Risk-senstive control of continuous time Markov chains."
+time: "2:00pm"
 venue: "LH-1, Department of Mathematics, IISc"
 ---
 We study risk-sensitive control of continuous time Markov

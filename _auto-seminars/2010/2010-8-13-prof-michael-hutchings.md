@@ -2,6 +2,7 @@
 date: 2010-8-13
 speaker: "Prof. Michael Hutchings, U.C.Berkeley."
 title: "The mysterious geometry of soap bubbles"
+time: "4:00 p.m."
 venue: "Faculty Hall, IISc."
 ---
 Why are soap bubbles spherical?  Why do double soap bubbles have the

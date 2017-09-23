@@ -2,6 +2,7 @@
 date: 2010-2-25
 speaker: "Dr. Bappaditya Bhowmik"
 title: "On concave univalent functions"
+time: "11:00 a.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 One of the most important subclasses of the class of normalized

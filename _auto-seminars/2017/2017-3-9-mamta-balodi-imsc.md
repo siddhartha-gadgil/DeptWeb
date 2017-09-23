@@ -2,6 +2,7 @@
 date: 2017-3-9
 speaker: "Mamta Balodi (IMSc)"
 title: "A result for boolean interval of finite groups"
+time: "4 pm"
 venue: ""
 ---
 

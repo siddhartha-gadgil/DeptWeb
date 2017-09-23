@@ -2,6 +2,7 @@
 date: 2011-1-28
 speaker: "Prof. B. Rajeev ISI, Bangalore Centre"
 title: "On the connections between Stochastic PDE and PDE"
+time: "4:00-5:00 p.m."
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 Stochastic partial differential equations (SPDE) are partial differential

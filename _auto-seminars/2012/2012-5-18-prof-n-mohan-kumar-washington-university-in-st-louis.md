@@ -2,6 +2,7 @@
 date: 2012-5-18
 speaker: "Prof. N. Mohan Kumar Washington University in St. Louis, USA"
 title: "Projective modules and complete intersection--a brief survey"
+time: "4:00 - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 I will discuss some of the results on projective modules and complete

@@ -2,6 +2,7 @@
 date: 2017-5-9
 speaker: "Eshita Mazumdar (IIT, Mumbai)"
 title: "Davenport constant and an external problem related to it"
+time: "3pm"
 venue: ""
 ---
 For a finite abelian group G with |G| = n, the Davenport

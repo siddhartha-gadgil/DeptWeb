@@ -2,6 +2,7 @@
 date: 2009-12-1
 speaker: "Prof. Michael Dritschel, Newcastle University, UK."
 title: "Realization and interpolation in the Schur class of the polydisk"
+time: "4:00 p.m."
 venue: "CHEP Lecture Hall"
 ---
 The classical realization theorem gives various

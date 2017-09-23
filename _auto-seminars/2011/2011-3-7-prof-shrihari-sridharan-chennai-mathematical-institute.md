@@ -2,6 +2,7 @@
 date: 2011-3-7
 speaker: "Prof. Shrihari Sridharan Chennai Mathematical Institute"
 title: "SRB-measure leaks"
+time: "4:00 p.m. - 5:00 p.m."
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 In this talk, we shall study about the leaking rate of the

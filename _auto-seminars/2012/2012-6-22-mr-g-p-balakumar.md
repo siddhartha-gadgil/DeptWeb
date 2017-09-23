@@ -2,6 +2,7 @@
 date: 2012-6-22
 speaker: "Mr. G. P. Balakumar"
 title: "Rigidity and Regularity of Holomorphic Mappings."
+time: "4:00 - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 This talk will be on two themes that illustrate the rigidity and

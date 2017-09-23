@@ -2,6 +2,7 @@
 date: 2008-8-13
 speaker: "Dr. Moulinath Banerjee University of Michigan"
 title: "Inconsistency of the Bootstrap in Problems Exhibiting Cube Root Asymptotics"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 We investigate the (in)-consistency of different bootstrap methods for

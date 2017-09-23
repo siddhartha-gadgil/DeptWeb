@@ -2,6 +2,7 @@
 date: 2012-7-10
 speaker: "Mr. Amit Tripathi"
 title: "Extension theorems for vector bundles over hypersurfaces"
+time: "3:30 - 4:30 p.m."
 venue: "Department of Mathematics, Lecture Hall 3"
 ---
 In this thesis we study some Questions on vector bundles over

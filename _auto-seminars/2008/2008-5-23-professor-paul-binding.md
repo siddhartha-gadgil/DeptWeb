@@ -2,6 +2,7 @@
 date: 2008-5-23
 speaker: "Professor Paul Binding, Department of Mathematics, University of Calgary, Canada"
 title: "Eigencurve methods for some generalised eigenvalue problems"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Many applied problems give rise to generalised eigenvalue problems of

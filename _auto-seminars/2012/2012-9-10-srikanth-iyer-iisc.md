@@ -2,6 +2,7 @@
 date: 2012-9-10
 speaker: "Srikanth Iyer (IISc)"
 title: "Pricing Credit Derivatives in a Markov Modulated Market."
+time: "2:00pm"
 venue: "LH-II, Department of Mathematics, IISc"
 ---
 Credit risk refers to the potential losses that can arise due to

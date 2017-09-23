@@ -2,6 +2,7 @@
 date: 2008-8-25
 speaker: "Dr. Pranav Pandit University of Pennsylvania"
 title: "Noncommutative geometry and mirror symmetry"
+time: "4.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 I will outline an approach to noncommutative geometry, due largely to

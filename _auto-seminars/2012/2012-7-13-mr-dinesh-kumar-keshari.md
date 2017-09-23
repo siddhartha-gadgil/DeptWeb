@@ -2,6 +2,7 @@
 date: 2012-7-13
 speaker: "Mr. Dinesh Kumar Keshari"
 title: "Curvature inequalities for operators in the Cowen- Douglas class"
+time: "4:00 - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall 1"
 ---
 The curvature of a contraction T in the Cowen-Douglas

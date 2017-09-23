@@ -2,6 +2,7 @@
 date: 2008-7-23
 speaker: "Dr. Aftab Pande Cornell University"
 title: "Modular Forms, Elliptic Curves and Galois Representations."
+time: "4.00 p.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 I will give a brief overview of Wiles' proof of Fermat's Last

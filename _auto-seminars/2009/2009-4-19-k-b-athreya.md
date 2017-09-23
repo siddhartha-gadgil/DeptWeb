@@ -2,6 +2,7 @@
 date: 2009-4-19
 speaker: "K. B. Athreya, Iowa State university"
 title: "Size biasing with applications to Markov chains and branching processes."
+time: "4:00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 If X is a positive random variable with a finite mean then the

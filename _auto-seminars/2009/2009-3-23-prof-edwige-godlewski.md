@@ -2,6 +2,7 @@
 date: 2009-3-23
 speaker: "Prof. Edwige Godlewski, Laboratoire Jacques-Louis Lions, Universit Pierre et Marie Curie Paris 6"
 title: "Godunov-type schemes for hyperbolic systems with parameter dependent source; the case of Euler system with friction."
+time: "4:00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 We are interested in deriving schemes having some 'well-balanced'

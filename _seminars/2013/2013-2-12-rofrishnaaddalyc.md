@@ -1,0 +1,7 @@
+---
+date: 2013-2-12
+speaker: "Prof Krishna Maddaly IMSc, Chennai"
+title: "About the density of states in Random Operators"
+venue: "Department of Mathematics, LH-III"
+---
+

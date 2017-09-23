@@ -1,0 +1,7 @@
+---
+date: 2013-7-1
+speaker: "Prof. Siddhartha Gadgil Indian Institute of Science"
+title: "Glimpses of HOTT; Logic and Topology make elegant and useful Foundations"
+venue: "Lecture Hall III, Department of Mathematics"
+---
+

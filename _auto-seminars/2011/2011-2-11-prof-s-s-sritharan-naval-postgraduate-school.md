@@ -2,6 +2,7 @@
 date: 2011-2-11
 speaker: "Prof. S. S. Sritharan Naval Postgraduate School, Monterey, USA"
 title: "Stochastic Navier-Stokes Equation with Levy noise - where Harmonic Analysis and Stochastic Analysis Meet"
+time: "11:15 a.m. - 12:15 p.m."
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 Certain classes of non-local pseudo-differential operators can be

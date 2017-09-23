@@ -2,6 +2,7 @@
 date: 2012-4-30
 speaker: "Mr. Prahllad Deb"
 title: "Curvature calculations of the operators in the Cowen-Douglas class"
+time: "4:00 - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 In a foundational paper "Operators Possessing an Open Set of Eigenvalues"

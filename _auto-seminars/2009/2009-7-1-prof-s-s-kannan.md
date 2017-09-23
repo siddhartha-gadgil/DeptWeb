@@ -2,6 +2,7 @@
 date: 2009-7-1
 speaker: "Prof. S. S. Kannan, CMI"
 title: "Quotient Varieties modulo Finite Groups"
+time: "4:00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Let $V$ be finite dimensional vector space

@@ -2,6 +2,7 @@
 date: 2012-5-23
 speaker: "Ms. Choiti Bandyopadhyay"
 title: "The role of potential theory in complex dynamics"
+time: "4:00 p.m. - 5:00 p.m."
 venue: "Department of Mathematics, Lecture Hall I"
 ---
 Potential theory is the name given to the broad field of analysis

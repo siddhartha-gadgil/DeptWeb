@@ -2,6 +2,7 @@
 date: 2010-6-4
 speaker: "Ms. Purvi Gupta"
 title: "Some generalizations of Hartogs' lemma on analytic continuation"
+time: "3:30 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 It is well known that there exist domains in C^n, n > 1, such that

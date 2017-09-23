@@ -2,6 +2,7 @@
 date: 2007-9-24
 speaker: "Professor Dr. Katrin Wendland Univ. Augsburg, Germany"
 title: "Quantum field theory as an aid to geometers Finite Element Methods"
+time: "10.00 a.m."
 venue: "Lecture Hall - II, Dept. of Mathematics"
 ---
 String theorists believe that elementary particles can be

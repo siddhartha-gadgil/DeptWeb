@@ -2,6 +2,7 @@
 date: 2009-10-21
 speaker: "Prof. Arup Bose, ISI, Kolkata"
 title: "Limiting Spectral Distribution of Large Dimensional Random Matrices: Another Look at the Moment Method"
+time: "2:00 p.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 Methods to establish the limiting spectral distribution (LSD) of

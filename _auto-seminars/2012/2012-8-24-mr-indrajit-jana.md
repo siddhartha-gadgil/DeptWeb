@@ -2,6 +2,7 @@
 date: 2012-8-24
 speaker: "Mr. Indrajit Jana"
 title: "Matchings between point processes"
+time: "11:00 a.m.- 12:00 noon"
 venue: "Department of Mathematics, LH-III"
 ---
 We study several kinds of matching problems between two point processes.

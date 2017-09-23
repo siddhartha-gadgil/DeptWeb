@@ -2,6 +2,7 @@
 date: 2010-7-9
 speaker: "Mr. Diganta Borah, IISc."
 title: "A study of the metric induced by the Robin function"
+time: "4:00 p.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 Let D be a smoothly bounded pseudoconvex domain in C^n, n > 1. Using

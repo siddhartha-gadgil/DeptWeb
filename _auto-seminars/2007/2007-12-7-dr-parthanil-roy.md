@@ -2,6 +2,7 @@
 date: 2007-12-7
 speaker: "Dr. Parthanil Roy, ETH Zurich and Michigan State University"
 title: "Ergodic theory, abelian groups, and point processes associated with stable random fields"
+time: "2.00 p.m."
 venue: "Lecture Hall - I, Dept. of Mathematics"
 ---
 We consider a point process sequence induced by a stationary symmetric 

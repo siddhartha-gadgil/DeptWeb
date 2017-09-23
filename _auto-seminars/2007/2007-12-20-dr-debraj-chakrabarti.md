@@ -2,6 +2,7 @@
 date: 2007-12-20
 speaker: "Dr. Debraj Chakrabarti, University of Western Ontario"
 title: "Holomorphic extension of CR functions from hypersurfaces with singularities"
+time: "11.30 a.m."
 venue: "Lecture Hall - III, Dept. of Mathematics"
 ---
 We show that Trepreau's theorem (minimality of a hypersurface at a 
