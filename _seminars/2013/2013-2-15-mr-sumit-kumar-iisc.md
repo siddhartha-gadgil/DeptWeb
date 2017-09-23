@@ -2,12 +2,12 @@
 date: 2013-2-15
 speaker: "Mr. Sumit Kumar IISc, Bangalore"
 title: "Normal spectrum of a subnormal operator"
-time: "3:00 pm- 4:00 pm" 
+time: "3:00 pm- 4:00 pm"
 time: "Department of Mathematics, Lecture Hall II"
 ---
 Let H be a separable Hilbert space over the complex field. The
-class $$ {{\\bold{S}}} := \\lbrace N|_{M} : N \\mbox{ is normal on H and M is
-an invariant subspace for $N$} \\rbrace$$ of operators was introduced by
+class $$ \mathbf{S} := \lbrace N|_{M} : N \mbox{ is normal on H and M is
+an invariant subspace for $N$} \rbrace$$ of operators was introduced by
 Halmos and consists of subnormal operators. Each subnormal operator
 possesses a unique minimal normal extension $\\hat{N}$  as shown by Halmos.
 Halmos proved that $\\sigma(\\hat{N}) \\subseteq \\sigma( {S})$ and then Bram
