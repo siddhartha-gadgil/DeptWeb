@@ -1,0 +1,7 @@
+---
+date: 2012-9-14
+speaker: "Prof Ewa Damek Wroclaw University"
+title: "From Poisson kernels to stationary measures for random recursions"
+venue: "Department of Mathematics, LH-I"
+---
+

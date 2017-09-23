@@ -1,0 +1,7 @@
+---
+date: 2012-7-17
+speaker: "Mr. Chandan Biswas"
+title: "Analytic continuation in several complex variables"
+venue: "Department of Mathematics, LH-1"
+---
+

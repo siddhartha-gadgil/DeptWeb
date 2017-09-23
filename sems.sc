@@ -124,27 +124,26 @@ case class Seminar(
   val venue = venueOpt.getOrElse("")
   val year = date._3
   val out =
-s"""
----
+s"""---
 date: ${year}-${date._2}-${date._1}
 speaker: "$speaker"
 title: "$title"
 venue: "$venue"
 ---
-${abs.trim}
-"""
+${abs.trim.replace("\\", "\\\\")}
+""" 
 
   val filename=
-    s"${year}-${date._2}-${date._1}-${safe(speaker.split(",").head)}"
+    s"${year}-${date._2}-${date._1}-${safe(speaker.split(",").head)}.md"
 
   def save(d: Path) = write.over(d / year.toString / filename, out)
 }
 
-def trim(s: String) = "[\\s]+".r.replaceAllIn(s, " ")
+def trim(s: String) = "[\\s]+".r.replaceAllIn(s.replace("\"", ""), " ")
 
 def mline(s: String) = trim(s.replace("\n", ","))
 
-def safe(s: String) = "[^a-z\\-]".r.replaceAllIn(s, "")
+def safe(s: String) = "[^a-z\\-]".r.replaceAllIn(s.toLowerCase.replace(" ","-"), "")
 
 def getSem(s: String, y: Int) =
     for {
@@ -163,3 +162,5 @@ val years = ls(pwd /"m-seminar").filter(_.isDir).map(_.last.toInt)
 lazy val allSems = byYear.map{case (y, sems) => sems.map(getSem(_, y)).collect{case Some(x) => x}}.flatten
 
 def saveAll(d: Path = pwd / "_auto-seminars") = allSems.foreach(_.save(d))
+
+saveAll()

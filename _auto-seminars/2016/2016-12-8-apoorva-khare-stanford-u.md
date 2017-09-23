@@ -1,0 +1,7 @@
+---
+date: 2016-12-8
+speaker: "Apoorva Khare (Stanford U)"
+title: "Entrywise functions preserving positivity: Connections between analysis, algebra, and combinatorics"
+venue: ""
+---
+

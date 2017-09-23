@@ -1,0 +1,7 @@
+---
+date: 2017-7-12
+speaker: "Prof. Ajay Ramadoss, Indiana University"
+title: "The representation homology of spaces."
+venue: "Lecture Hall - I, Dept. of Mathematics"
+---
+

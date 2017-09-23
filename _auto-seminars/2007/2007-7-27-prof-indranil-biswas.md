@@ -1,0 +1,7 @@
+---
+date: 2007-7-27
+speaker: "Prof. Indranil Biswas, TIFR, Mumbai"
+title: "On holomorphic Hermitian Bundles"
+venue: "Lecture Hall - III, Dept. of Mathematics"
+---
+

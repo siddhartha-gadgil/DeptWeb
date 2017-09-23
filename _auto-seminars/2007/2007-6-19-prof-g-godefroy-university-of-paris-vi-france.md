@@ -1,0 +1,7 @@
+---
+date: 2007-6-19
+speaker: "Prof. G. Godefroy University of Paris VI France"
+title: "Lipschitz isomorphisms between Banach spaces"
+venue: "Lecture Hall -I, Dept. of Mathematics"
+---
+

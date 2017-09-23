@@ -1,0 +1,7 @@
+---
+date: 2014-11-19
+speaker: "Prof. Krishna Maddaly IMSc"
+title: "Statistics in the Anderson Model"
+venue: "Lecture Hall I, Department of Mathematics"
+---
+

@@ -1,0 +1,7 @@
+---
+date: 2015-3-13
+speaker: "Ronald G. Douglas Texas A&M University"
+title: "Index theory and the Arveson Conjecture"
+venue: "Lecture Hall I, Department of Mathematics"
+---
+TBA
