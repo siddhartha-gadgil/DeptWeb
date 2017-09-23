@@ -2,8 +2,8 @@
 date: 2016-3-2
 speaker: "Greg Conner, Brigham Young University"
 title: "Wild Topology, Group Theory and a conjecture in Number Theory"
-time: ""
-venue: "LH-1, Department of Mathematics"
+
+time: "LH-1, Department of Mathematics"
 ---
 One of the most useful analogies in mathematics is the
 

@@ -2,8 +2,8 @@
 date: 2014-8-22
 speaker: "Manjunath Krishnapur"
 title: "The Littlewood-Offord and related problems"
-time: "Lecture I: 2:15-3:15 p.m. Coffee break 3:15 p.m. -3:30 p.m. Lecture II: 3:30-4:30 p.m. High Tea: 4:30 p.m."
-venue: "LH-I, Department of Mathematics, IISc."
+time: "Lecture I: 2:15-3:15 p.m. Coffee break 3:15 p.m. -3:30 p.m. Lecture II: 3:30-4:30 p.m. High Tea: 4:30 p.m." 
+time: "LH-I, Department of Mathematics, IISc."
 ---
 Given n non-zero real numbers v_1,...,v_n, what is the maximum
 possible number of subsets {i_1,...,i_k} that can have the same

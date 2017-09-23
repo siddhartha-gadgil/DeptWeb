@@ -2,8 +2,8 @@
 date: 2013-8-16
 speaker: "Dr. Vijay Kumar Sohani IISc, Bangalore"
 title: "Nonlinear Schrodinger equation and the twisted Laplacian"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In this lecture we will study the well posedness problem for the nonlinear
 Schr\\"{o}dinger equation for the magnetic Laplacian on $\\R^{2n}$,

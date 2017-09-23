@@ -2,8 +2,8 @@
 date: 2016-1-22
 speaker: "Prof. Jean-Baptiste Gatsinzi, University of Namibia, Namibia."
 title: "The Batalin-Vilkovisky structure on a model of the loop space homology."
-time: "3 pm"
-venue: ""
+time: "3 pm" 
+
 ---
 Let X be a closed,  simply connected and  orientable manifold of
 dimension m and

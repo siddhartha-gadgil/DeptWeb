@@ -2,8 +2,8 @@
 date: 2012-10-5
 speaker: "Siddhartha Gadgil"
 title: "A Google Course-builder course - Hyperbolic Spaces and Groups"
-time: "3:00 p.m."
-venue: "LH-III, Department of Mathematics"
+time: "3:00 p.m." 
+time: "LH-III, Department of Mathematics"
 ---
 Google has recently released open source software  called
 `course-builder' (at https://code.google.com/p/course-builder/) to

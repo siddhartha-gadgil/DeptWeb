@@ -2,8 +2,8 @@
 date: 2012-5-15
 speaker: "Prof. S. Sundar Indian Stastical Institute, Delhi"
 title: "Inverse semigroups and the Cuntz-Li algebras"
-time: "4:00 - 5:00 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "4:00 - 5:00 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 Let R be an integral domain such that every non-zero quotient R/mR is
 finite. Consider the unitaries and isometries on \\ell^{2}(R) induced

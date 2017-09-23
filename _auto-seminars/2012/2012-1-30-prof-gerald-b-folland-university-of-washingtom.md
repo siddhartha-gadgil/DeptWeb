@@ -2,8 +2,8 @@
 date: 2012-1-30
 speaker: "Prof. Gerald B. Folland University of Washingtom"
 title: "Some representations of the discrete Heisenberg group"
-time: "4:00 - 5:00 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "4:00 - 5:00 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 The operators $f(t) \\rightarrow f(t-a)$ and
 $f(t) \\rightarrow e^{2\\pi bt} f(t)$ on $L^2(\\mathbb R)$ generate unitary

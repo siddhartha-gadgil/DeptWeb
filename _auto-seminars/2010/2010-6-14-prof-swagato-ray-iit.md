@@ -2,8 +2,8 @@
 date: 2010-6-14
 speaker: "Prof Swagato Ray IIT, Kanpur"
 title: "Certain convolution inequalities on rank one symmetric spaces of noncompact type"
-time: "4:00 PM"
-venue: "LH-I, Department of Mathematics"
+time: "4:00 PM" 
+time: "LH-I, Department of Mathematics"
 ---
 Kunze Stein inequality can be thought of as a semisimple 
 version of Young's inequality. A remarkable observation of M.G.Cowling and 

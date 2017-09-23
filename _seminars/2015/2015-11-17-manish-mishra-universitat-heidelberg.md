@@ -2,8 +2,8 @@
 date: 2015-11-17
 speaker: "Manish Mishra (Universitat Heidelberg)"
 title: "Hecke algebras and the Langlands program"
-time: "4pm"
-venue: ""
+time: "4pm" 
+
 ---
 Given an irreducible polynomial f(x) with integer coefficients
 and a prime number p, one wishes to determine whether f(x) is a product of

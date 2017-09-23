@@ -2,8 +2,8 @@
 date: 2015-12-1
 speaker: "Ritwik Mukherjee (TIFR)"
 title: "Enumerative Geometry of rational cuspidal curves on del-Pezzo surfaces."
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 Enumerative geometry is a branch of mathematics that deals
 with the following question: "How many geometric objects are there that

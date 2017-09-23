@@ -2,8 +2,8 @@
 date: 2017-3-28
 speaker: "Carlos Perez (University of Basque country)"
 title: "On commutators of singular integral operators with BMO functions"
-time: "4pm"
-venue: ""
+time: "4pm" 
+
 ---
 Commutators of singular integral operators with BMO functions
 were introduced in the seventies by Coifman-Rochberg and Weiss. These

@@ -2,8 +2,8 @@
 date: 2013-5-20
 speaker: "Agnid Banerjee, Purdue University"
 title: "Gradient bounds for p-harmonic systems with vanishing Neumann data in a convex domain"
-time: "11am"
-venue: "Department of Mathematics, LH-3"
+time: "11am" 
+time: "Department of Mathematics, LH-3"
 ---
 "Let u be a weak solution to a p-harmonic system with vanishing
 Neumann data on a portion of the boundary of a  domain  which is  convex.

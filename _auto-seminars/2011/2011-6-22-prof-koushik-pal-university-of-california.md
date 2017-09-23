@@ -2,8 +2,8 @@
 date: 2011-6-22
 speaker: "Prof. Koushik Pal University of California, Berkeley"
 title: "Model Theory and a few Applications"
-time: "4:00-5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00-5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Model Theory, as a subject, has grown tremendously over the last few decades.
 Starting out as a branch of mathematical logic, it has now wide applications

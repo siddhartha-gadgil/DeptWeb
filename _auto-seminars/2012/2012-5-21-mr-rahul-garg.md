@@ -2,8 +2,8 @@
 date: 2012-5-21
 speaker: "Mr. Rahul Garg"
 title: "On the role of the Bargmann transform in uncertainty principles"
-time: "11:00 a.m. - 12:00 noon"
-venue: "Department of Mathematics, Lecture Hall I"
+time: "11:00 a.m. - 12:00 noon" 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 We consider functions $f$ on $\\mathbb{R}^n$ for which both $f$ and their
 Fourier transforms $\\hat{f}$ are bounded by the Gaussian

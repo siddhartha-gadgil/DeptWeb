@@ -2,8 +2,8 @@
 date: 2016-12-28
 speaker: "Dan-Virgil Voiculescu (University of California, Berkeley, USA)"
 title: "A glimpse at bi-free probability."
-time: "3.30pm"
-venue: ""
+time: "3.30pm" 
+
 ---
 I will provide a glimpse at the recent extension of free
 probability to systems with left and right variables based on a notion of

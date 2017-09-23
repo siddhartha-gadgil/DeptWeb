@@ -2,8 +2,8 @@
 date: 2008-1-8
 speaker: "Dr. D. Ajay Ramadoss, University of Oklahoma."
 title: "Hochschild homology of rings of differential operators and integration over complex manifolds."
-time: "4.00 p.m."
-venue: "Lecture Hall - III, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - III, Dept. of Mathematics"
 ---
 Let X be a compact complex manifold and let E be a holomorphic vector 
 bundle on X. Any global holomorphic differential operator D on E induces an 

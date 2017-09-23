@@ -2,8 +2,8 @@
 date: 2008-7-11
 speaker: "Dr. Jayadev Athreya Department of Mathematics, Yale University"
 title: "Lattice Point Asymptotics and Volume Growth on Teichmuller space"
-time: "4.00 p.m."
-venue: "Lecture Hall - III, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - III, Dept. of Mathematics"
 ---
 We apply some of the ideas of the Ph.D. Thesis of G. A. Margulis to
 Teichmuller space. Let x be a point in Teichmuller space, and let

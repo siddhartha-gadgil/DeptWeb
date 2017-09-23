@@ -2,8 +2,8 @@
 date: 2014-2-21
 speaker: "Dr. Umesh Dubey IISc"
 title: "Support data and Balmer spectrum"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Grothendieck and Verdier introduced the notion of triangulated
 category to extract homological informations. This structure appear in

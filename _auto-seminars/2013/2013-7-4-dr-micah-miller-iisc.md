@@ -2,8 +2,8 @@
 date: 2013-7-4
 speaker: "Dr. Micah Miller IISc"
 title: "A-infinity algebras and the homotopy transfer theorem"
-time: "3:00 - 4:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "3:00 - 4:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 We will introduce the notion of a differential graded algebra
 that is not strictly associative, but associative up to chain

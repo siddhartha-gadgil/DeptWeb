@@ -2,8 +2,8 @@
 date: 2010-4-16
 speaker: "Dr. Simone Borghesi"
 title: "Brody hyperbolicity and homotopy theory"
-time: "4:00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4:00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 The most immediate way to use classical homotopy theory to
 study topological spaces endowed with extra structures, such as

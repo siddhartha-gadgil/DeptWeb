@@ -2,8 +2,8 @@
 date: 2015-8-31
 speaker: "Dheeraj Kulkarni, RKMVU, Kolkata"
 title: "Contact Structures and Contact Invariants in Heegaard Floer Homology."
-time: "3:30 p.m"
-venue: "L-1, Department of Mathematics, IISc"
+time: "3:30 p.m" 
+time: "L-1, Department of Mathematics, IISc"
 ---
 There is a dichotomy of contact structures-- tight vs
 overtwisted. Classification of overtwisted contact structures up to

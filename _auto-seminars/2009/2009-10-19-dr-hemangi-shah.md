@@ -2,8 +2,8 @@
 date: 2009-10-19
 speaker: "Dr. Hemangi Shah, IISc."
 title: "Buseman functions in a harmonic manifold"
-time: "4:00 p.m."
-venue: "Lecture Hall - III, Dept. of Mathematics"
+time: "4:00 p.m." 
+time: "Lecture Hall - III, Dept. of Mathematics"
 ---
 For a noncompact complete and simply connected harmonic manifold M,
 we prove the analyticity of Busemann functions on M. This is the

@@ -2,8 +2,8 @@
 date: 2014-1-17
 speaker: "Dr. Nisheeth Vishnoi Microsoft Research, Bangalore"
 title: "Approximation Theory and the Design of Fast Algorithms"
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 I will talk about techniques to approximate real functions such as $x^s,$
 $x^{-1}$ and $e^{-x}$ by "simpler" functions and how these

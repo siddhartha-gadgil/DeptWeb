@@ -2,8 +2,8 @@
 date: 2013-6-20
 speaker: "Prof. Gaik Ambartsoumian University of Texas at Arlington"
 title: "Generalized Radon transforms in image reconstruction problems"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Integral geometry is a field of mathematics that studies
 inversions and various properties of transforms, which

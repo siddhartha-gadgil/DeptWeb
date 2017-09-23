@@ -2,8 +2,8 @@
 date: 2014-3-14
 speaker: "Dr. Dhanya IISc"
 title: "Critical Growth Elliptic Problem with Singular Discontinuous Nonlinearity in R^2"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Elliptic problems with discontinuous nonlinearity has its own
 difficulties due to the non-differentiability of the associated

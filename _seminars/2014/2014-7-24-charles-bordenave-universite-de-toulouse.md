@@ -2,8 +2,8 @@
 date: 2014-7-24
 speaker: "Charles Bordenave Universite de Toulouse"
 title: "Non-backtracking spectrum of random graphs"
-time: "11:30a.m. - 12:30 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "11:30a.m. - 12:30 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 The non-backtracking matrix of a graph is a non-symmetric matrix
 on the oriented edge of a graph which has interesting algebraic

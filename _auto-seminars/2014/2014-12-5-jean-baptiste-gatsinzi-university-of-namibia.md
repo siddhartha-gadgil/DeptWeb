@@ -2,8 +2,8 @@
 date: 2014-12-5
 speaker: "Jean-Baptiste Gatsinzi University of Namibia"
 title: "Rational loop space homology of homogeneous spaces"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 We  recall some facts about Rational Homotopy Theory, from both Sullivan
 and Quillen points of view. We show how to find a Sullivan model of a

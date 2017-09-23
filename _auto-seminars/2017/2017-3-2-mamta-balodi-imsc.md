@@ -2,8 +2,8 @@
 date: 2017-3-2
 speaker: "Mamta Balodi (IMSc)"
 title: "Diamond lemma for group graded quasi-algebras"
-time: "4pm"
-venue: ""
+time: "4pm" 
+
 ---
 Quasi-algebras were introduced as algebras in a monoidal
 category. Since the associativity constraints in these categories are

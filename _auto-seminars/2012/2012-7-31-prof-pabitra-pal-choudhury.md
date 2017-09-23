@@ -2,8 +2,8 @@
 date: 2012-7-31
 speaker: "Prof. Pabitra Pal Choudhury, ISI, Kolkata"
 title: "Birth of Integral Value Transformation (IVT) and some observations in Mathematics and in Genomics"
-time: "4:00 pm- 5.00 pm"
-venue: "Department of Mathematics, Lecture Hall 1"
+time: "4:00 pm- 5.00 pm" 
+time: "Department of Mathematics, Lecture Hall 1"
 ---
 Firstly, regarding Carry Value Transformation (CVT) some
 mathematical observations will be discussed. In using mathematical

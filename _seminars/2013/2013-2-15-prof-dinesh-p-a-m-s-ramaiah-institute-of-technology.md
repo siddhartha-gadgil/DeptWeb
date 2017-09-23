@@ -2,8 +2,8 @@
 date: 2013-2-15
 speaker: "Prof. Dinesh P. A. M. S. Ramaiah Institute of Technology"
 title: "Solutions for differential equations in fluid mechanics by different techniques"
-time: "4:00 pm- 5:00pm"
-venue: "Department of Mathematics, LH-I"
+time: "4:00 pm- 5:00pm" 
+time: "Department of Mathematics, LH-I"
 ---
 Any real physical problem arising in fluid mechanics, when it is
 translated to mathematical approach generally govern a differential

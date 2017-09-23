@@ -2,8 +2,8 @@
 date: 2012-5-24
 speaker: "Dr. Shyam Sundar Ghoshal TIFR Centre for Applicable Mathematics, Bangalore"
 title: "Structure of the entropy solution of a scalar conservation law with strict convex flux"
-time: "2:30 - 3:30 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "2:30 - 3:30 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 We prove the Structure Theorem of the entropy solution. Furthermore we
 obtain the shock regions each of which represents a single shock at

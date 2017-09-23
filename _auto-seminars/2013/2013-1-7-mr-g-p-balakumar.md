@@ -2,8 +2,8 @@
 date: 2013-1-7
 speaker: "Mr. G. P. Balakumar"
 title: "Rigidity and Regularity of Holomorphic Mappings"
-time: "4 - 5pm"
-venue: "Department of Mathematics, LH III"
+time: "4 - 5pm" 
+time: "Department of Mathematics, LH III"
 ---
 This talk will be on two themes that illustrate the rigidity and
 regularity of holomorphic mappings. The first part will deal with

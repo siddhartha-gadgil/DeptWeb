@@ -2,8 +2,8 @@
 date: 2016-12-27
 speaker: "Arindam Banerjee (Purdue University, USA)"
 title: "Homological Algebra of Ideals Related to Finite Simple Graphs."
-time: "3 pm"
-venue: ""
+time: "3 pm" 
+
 ---
 Given any finite simple graph G one can naturally associate two
 ideals,

@@ -2,8 +2,8 @@
 date: 2009-8-21
 speaker: "Dr. Tathagatha Basak, IPMU, Japan"
 title: "A complex hyperbolic reflection group and the bimonster"
-time: "11:00 a.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "11:00 a.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Let R be the reflection group of the complex leech lattice plus a
 hyperbolic cell. Let D be the incidence graph of the projective plane

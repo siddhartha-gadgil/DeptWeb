@@ -2,8 +2,8 @@
 date: 2012-4-26
 speaker: "Mr. Chandan Biswas"
 title: "Analytic continuation in several complex variables"
-time: "11:00 a.m. - 12:00 noon"
-venue: "Department of Mathematics, Lecture Hall I"
+time: "11:00 a.m. - 12:00 noon" 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 We wish to study those domains in $\\mathbb{C}^n$, for $n\\geq
 2$, the so-called domains of holomorphy, which are in some sense the

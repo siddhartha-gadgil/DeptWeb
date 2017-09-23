@@ -2,8 +2,8 @@
 date: 2014-6-5
 speaker: "Prof. Rukmini Dey (HRI)"
 title: "Constant Mean Curvature surfaces"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In this expository talk, I will focus on  CMC surfaces which
 are not minimal surfaces. I will talk about the link between CMC

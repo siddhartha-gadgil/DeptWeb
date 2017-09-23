@@ -2,8 +2,8 @@
 date: 2014-3-7
 speaker: "Gerard Besson Fourier Institut, Grenoble"
 title: "On open three-manifolds"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 We will describe quite carefully two classes of open three-manifolds. For
 one of them almost nothing is known about its Riemannian geometry and we

@@ -2,8 +2,8 @@
 date: 2013-12-12
 speaker: "Prof Todd Quinto Tufts University"
 title: "Microlocal Analysis and Tomography"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall V, Second floor(new wing), Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall V, Second floor(new wing), Department of Mathematics"
 ---
 We consider the reconstruction problem for limited angle
 tomography using filtered backprojection (FBP).  We introduce

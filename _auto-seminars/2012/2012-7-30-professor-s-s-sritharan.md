@@ -2,8 +2,8 @@
 date: 2012-7-30
 speaker: "Professor S. S. Sritharan, Director, Center for Decision, Risk, Controls and Signals Intelligence (DRCSI), Monterey, CA"
 title: "On the Mathematical Legacy of S. Chandrasekar"
-time: "4:00 pm- 5.00 pm"
-venue: "Department of Mathematics, Lecture Hall 1"
+time: "4:00 pm- 5.00 pm" 
+time: "Department of Mathematics, Lecture Hall 1"
 ---
 In this talk we will discuss some of the impact of Subramanian
 Chandrasekhar's work on modern applied mathematics.

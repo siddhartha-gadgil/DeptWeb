@@ -2,8 +2,8 @@
 date: 2012-2-27
 speaker: "Prof. Abhishek Banerjee Ohio State University, U.S.A."
 title: "Lifting of model structures to fibred categories"
-time: "4:00 - 5:00 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "4:00 - 5:00 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 A fibred category consists of a functor $p:\\mathbf N\\longrightarrow
 \\mathbf M$ between categories $\\mathbf N$ and $\\mathbf M$ such that

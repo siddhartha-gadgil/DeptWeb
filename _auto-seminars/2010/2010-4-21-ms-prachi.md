@@ -2,8 +2,8 @@
 date: 2010-4-21
 speaker: "Ms. Prachi, IISc."
 title: "Some aspects of the Kobayashi and Caratheodary metrics on pseudoconvex domains."
-time: "4:00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4:00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 This thesis considers two themes, both of
 which emanate from and involve the Kobayashi and the

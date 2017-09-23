@@ -2,7 +2,7 @@
 date: 2015-8-14
 speaker: "JONATHAN FERNANDES"
 title: "AN INTRODUCTION TO ATLAS: BASIC BACKGROUND AND APPLICATIONS"
-time: "4pm"
-venue: ""
+time: "4pm" 
+
 ---
 

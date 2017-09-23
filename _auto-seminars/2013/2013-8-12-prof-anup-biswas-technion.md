@@ -2,8 +2,8 @@
 date: 2013-8-12
 speaker: "Prof. Anup Biswas Technion, Israel"
 title: "Control of a queuing system under the moderate deviation scaling"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In recent times, exponential type cost structure has become popular
 in control theory. In this talk we formulate and discuss a risk-

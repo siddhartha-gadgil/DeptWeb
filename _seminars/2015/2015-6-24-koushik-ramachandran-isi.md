@@ -2,8 +2,8 @@
 date: 2015-6-24
 speaker: "Koushik Ramachandran (ISI, Bangalore)"
 title: "Electrostatic skeletons"
-time: ""
-venue: ""
+
+
 ---
 Let P be the equilibrium potential of a compact set K in R^n. An
 electrostatic skeleton of K is a positive measure  such that the closed

@@ -2,8 +2,8 @@
 date: 2015-6-3
 speaker: "Alan Edelman (MIT)"
 title: "Random Matrices, Numerical Computation, and Applications"
-time: "4-5 pm"
-venue: ""
+time: "4-5 pm" 
+
 ---
 This talk is about random matrix theory.  Linear Algebra and
 maybe a little probability are the only prerequisites.  Random matrix

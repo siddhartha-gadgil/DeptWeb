@@ -2,8 +2,8 @@
 date: 2015-12-18
 speaker: "Ravi Prakash, University of Conception, Chilie"
 title: "Homogenization of Periodic Optimal Control Problems in a Domain with highly oscillating boundary"
-time: "2:30pm"
-venue: ""
+time: "2:30pm" 
+
 ---
 Homogenization is a branch of science where we try to understand
 microscopic structures via a macroscopic medium. Hence, it has

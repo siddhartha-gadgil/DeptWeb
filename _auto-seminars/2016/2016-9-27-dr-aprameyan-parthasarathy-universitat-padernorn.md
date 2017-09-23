@@ -2,8 +2,8 @@
 date: 2016-9-27
 speaker: "Dr Aprameyan Parthasarathy( Universitat Padernorn, Germany)"
 title: "Domains of holomorphy for irreducible admissible Banach representations"
-time: "4pm"
-venue: ""
+time: "4pm" 
+
 ---
 In this talk, we'll report on progress towards a conjecture of
 B.Krtz about the holomorphic extensions of  non-zero K-finite vectors of

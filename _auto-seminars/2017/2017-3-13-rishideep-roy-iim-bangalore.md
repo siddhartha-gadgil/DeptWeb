@@ -2,8 +2,8 @@
 date: 2017-3-13
 speaker: "Rishideep Roy (IIM Bangalore)"
 title: "Extremes of log-correlated Gaussian fields"
-time: ""
-venue: "LH-1, Dept. of Mathematics, IISc"
+
+time: "LH-1, Dept. of Mathematics, IISc"
 ---
 Extreme values and entropic repulsion for two-dimensional discrete 
 Gaussian free fields are of significant interest and have been a subject of 

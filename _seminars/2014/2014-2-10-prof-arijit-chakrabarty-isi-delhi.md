@@ -2,8 +2,8 @@
 date: 2014-2-10
 speaker: "Prof Arijit Chakrabarty ISI Delhi"
 title: "From random matrices to long range dependence"
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Random matrices whose entries come from a stationary Gaussian process are
 studied. The limiting behavior of the eigenvalues as the size of the

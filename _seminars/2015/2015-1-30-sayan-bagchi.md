@@ -2,8 +2,8 @@
 date: 2015-1-30
 speaker: "Sayan Bagchi"
 title: "Weighted norm inequalities for Weyl multipliers and Hermite pseudo-multipliers"
-time: "2:30pm - 3:30pm"
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:30pm - 3:30pm" 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In this talk we deal with two problems in harmonic analysis.
 In the first problem we discuss weighted norm inequalities for Weyl

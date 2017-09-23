@@ -2,8 +2,8 @@
 date: 2015-11-26
 speaker: "Vikas Singh (Universite Paris-Sud)"
 title: " Existence of Nash equilibrium for chance-constrained games"
-time: "3:00 pm"
-venue: ""
+time: "3:00 pm" 
+
 ---
 We consider an n-player strategic game with finite action sets. The payoffs
 of each player are random variables. We assume that each player uses a

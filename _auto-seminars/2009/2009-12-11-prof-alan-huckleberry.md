@@ -2,8 +2,8 @@
 date: 2009-12-11
 speaker: "Prof. Alan Huckleberry, Ruhr University, Bochum, Germany"
 title: "Hyperbolicity of cycle spaces and Automorphism groups of flag domains"
-time: "2:30 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "2:30 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 The appropriate context for algebraic-geometric realizations of
 holomorphic representations of a complex semisimple group is that

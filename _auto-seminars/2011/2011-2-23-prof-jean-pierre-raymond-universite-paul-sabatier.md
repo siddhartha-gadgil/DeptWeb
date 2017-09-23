@@ -2,8 +2,8 @@
 date: 2011-2-23
 speaker: "Prof. Jean-Pierre Raymond Universite Paul Sabatier, Toulouse France"
 title: "Feedback controls of minimal norms"
-time: "4:00 p.m. - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 p.m. - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In finite-dimensional control theory, feedback control using
 controllability Gramian goes back to results by Kleinman and Lukes in

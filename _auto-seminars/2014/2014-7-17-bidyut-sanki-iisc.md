@@ -2,8 +2,8 @@
 date: 2014-7-17
 speaker: "Bidyut Sanki IISc"
 title: "Shortest length geodesics on closed hyperbolic surfaces"
-time: "10:00am - :11:00am"
-venue: "Lecture Hall III, Department of Mathematics"
+time: "10:00am - :11:00am" 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Given a hyperbolic surface, the set of all closed geodesics whose
 length is minimal form a graph on the surface, in fact a so called fat

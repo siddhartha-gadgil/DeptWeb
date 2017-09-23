@@ -2,8 +2,8 @@
 date: 2013-12-11
 speaker: "Mr. Jaikrishnan Janardhanan IISc"
 title: "On the structure of proper holomorphic mappings"
-time: "11.00 am - 12.00 noon"
-venue: "Lecture Hall I, Department of Mathematics"
+time: "11.00 am - 12.00 noon" 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 The aim of this thesis is to give explicit descriptions of the
 set of proper holomorphic mappings between two complex manifolds

@@ -2,8 +2,8 @@
 date: 2016-12-2
 speaker: "M S Raghunathan (National Center for Mathematics, IIT Mumbai)"
 title: "The Narasimhan Seshadri Theorem revisited"
-time: "3 pm"
-venue: ""
+time: "3 pm" 
+
 ---
 We give a relatively simple proof of the famous theorem of
 Narasimhan and Seshadri on vector bundles on a compact Riemann surface.

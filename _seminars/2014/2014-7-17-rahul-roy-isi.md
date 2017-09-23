@@ -2,8 +2,8 @@
 date: 2014-7-17
 speaker: "Rahul Roy ISI, Delhi"
 title: "On the rank of symmetric random matrices"
-time: "11:30 - 12:30 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "11:30 - 12:30 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 We discuss the question of rank of symmetric and non-symmetric
 matrices when the entries are i.i.d. non-degenerate random variables. In

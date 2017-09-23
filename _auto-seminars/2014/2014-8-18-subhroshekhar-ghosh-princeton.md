@@ -2,8 +2,8 @@
 date: 2014-8-18
 speaker: "Subhroshekhar Ghosh (Princeton)"
 title: "Asymptotic behavior of positive harmonic functions in some unbounded domains"
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 This talk will concern asymptotic estimates at infinity for
 positive harmonic functions in a large class of non-smooth unbounded

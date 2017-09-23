@@ -2,8 +2,8 @@
 date: 2014-7-11
 speaker: "Chaitanya Senapathi TIFR"
 title: "Morse theory on the space of paths on Homogenous spaces"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 1961 Frankel in a novel approach used the curvature of Complex Projective
 space to show complex submanifolds of complimentary dimension intersect.

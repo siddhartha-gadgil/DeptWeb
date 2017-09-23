@@ -2,8 +2,8 @@
 date: 2013-7-18
 speaker: "Prof. Siddhartha Gadgil IISc"
 title: "The Hopf map, higher linking and friends"
-time: "3:00 - 4:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "3:00 - 4:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Basic Algebraic Topology is built on considering objects (such
 as differential forms) up to boundary (e.g., exterior derivative).

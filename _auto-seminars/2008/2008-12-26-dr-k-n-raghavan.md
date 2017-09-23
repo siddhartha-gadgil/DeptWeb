@@ -2,8 +2,8 @@
 date: 2008-12-26
 speaker: "Dr. K. N. Raghavan, I.M.Sc."
 title: "KRS bases for rings of invariants"
-time: "2:30 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "2:30 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 The talk will be a report on an ongoing research
 project (joint with Preena Samuel and K.V.Subrahmanyam).

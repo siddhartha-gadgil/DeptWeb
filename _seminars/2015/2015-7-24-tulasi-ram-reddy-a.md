@@ -2,8 +2,8 @@
 date: 2015-7-24
 speaker: "Tulasi Ram Reddy A"
 title: "On critical points of random polynomials and spectrum of certain products of Ginibre matrices."
-time: "11:00 AM"
-venue: "Lecture Hall I, Department of Mathematics"
+time: "11:00 AM" 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In the first part we study critical points of random
 polynomials. We choose two deterministic sequences of complex numbers,

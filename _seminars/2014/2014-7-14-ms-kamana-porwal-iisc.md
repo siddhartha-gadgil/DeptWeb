@@ -2,8 +2,8 @@
 date: 2014-7-14
 speaker: "Ms. Kamana Porwal IISc"
 title: "A Posteriori Error Analysis of Discontinuous Galerkin Methods for Elliptic Variational Inequalities"
-time: "11:00 a.m. - 12:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "11:00 a.m. - 12:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Unlike the partial differential equations, the solutions of variational
 inequalities exhibit singularities even when the data is smooth due to the

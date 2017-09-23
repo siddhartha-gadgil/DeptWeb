@@ -2,8 +2,8 @@
 date: 2013-4-16
 speaker: "Dr. Thomas Richard, IISc, Bangalore"
 title: "Systolic inequalities"
-time: "11: 30 a.m."
-venue: "LH- II, Department of Mathematics"
+time: "11: 30 a.m." 
+time: "LH- II, Department of Mathematics"
 ---
 The systole of a compact Riemannian manifold (M,g) is the length of
 the shortest non contractible loop of M, it is attained by a periodic

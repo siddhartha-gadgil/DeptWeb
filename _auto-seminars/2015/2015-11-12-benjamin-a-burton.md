@@ -2,8 +2,8 @@
 date: 2015-11-12
 speaker: "Benjamin A. Burton, The University of Queensland, Australia"
 title: "Exploring parameterised complexity in computational topology"
-time: "4:00 pm"
-venue: ""
+time: "4:00 pm" 
+
 ---
 Exact computation with knots and 3-manifolds is challenging -
 many fundamental

@@ -2,8 +2,8 @@
 date: 2011-10-18
 speaker: "Prof. Arup Bose ISI Kolkata"
 title: "Limiting behaviour of sample autocovariance matrix"
-time: "11:30 a.m.-12:30 p.m."
-venue: "Department of Mathematics, Lecture Hall III"
+time: "11:30 a.m.-12:30 p.m." 
+time: "Department of Mathematics, Lecture Hall III"
 ---
 The empirical spectral distribution (ESD) of the sample variance
 covariance matrix of i.i.d. observations under suitable moment

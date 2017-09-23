@@ -2,8 +2,8 @@
 date: 2007-4-13
 speaker: "Dr. Gautam Bharali, IISc"
 title: "Local polynomial convexity of real surfaces in C^n near complex tangencies"
-time: "4.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 More than 30 years after the Harvey-Wells paper on complex
 approximation theory, we still do not know the answers to most of

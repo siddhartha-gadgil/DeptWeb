@@ -2,7 +2,7 @@
 date: 2014-7-31
 speaker: "Dr. Ramarathnam Venkatesan Principal Researcher, Microsoft Research"
 title: "Towards Rigorous Factoring"
-time: "4:00 PM"
-venue: "CSA Seminar Hall (Room No. 254, First Floor)"
+time: "4:00 PM" 
+time: "CSA Seminar Hall (Room No. 254, First Floor)"
 ---
 

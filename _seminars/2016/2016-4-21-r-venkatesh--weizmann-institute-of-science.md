@@ -2,8 +2,8 @@
 date: 2016-4-21
 speaker: "R. Venkatesh ( Weizmann Institute of Science, Israel)"
 title: "Unique factorization of tensor products for finite-dimensional simple Lie algebras"
-time: "2 pm"
-venue: ""
+time: "2 pm" 
+
 ---
 Suppose V is a finite dimensional representation of a complex
 finite dimensional simple Lie algebra that can be written as a tensor

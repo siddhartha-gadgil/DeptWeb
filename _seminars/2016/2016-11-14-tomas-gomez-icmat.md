@@ -2,8 +2,8 @@
 date: 2016-11-14
 speaker: "Tomas Gomez (ICMAT, Spain)"
 title: "Torelli theorem for the parabolic Deligne-Hitchin moduli space"
-time: "3pm"
-venue: ""
+time: "3pm" 
+
 ---
 The Deligne-Hitchin moduli space is a partial compactification
 

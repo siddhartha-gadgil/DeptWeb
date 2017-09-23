@@ -2,8 +2,8 @@
 date: 2012-11-27
 speaker: "T. V. H. Prathamesh"
 title: "Construction of Jones Polynomial for Knots (via Braid Groups and Hecke Algebras)"
-time: "3.30 pm"
-venue: "Department of Mathematics, LH-III"
+time: "3.30 pm" 
+time: "Department of Mathematics, LH-III"
 ---
 Jones Polynomial is an invariant of an oriented knot or link
 which assigns to each oriented knot or link a Laurent polynomial in the

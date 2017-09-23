@@ -2,8 +2,8 @@
 date: 2014-8-22
 speaker: "Siddhartha Gadgil IISc"
 title: "Dynamics via quasi-homomorphisms"
-time: "11:00 a.m. - 12:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "11:00 a.m. - 12:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In dynamics, one studies properties of a map from a space to itself,
 up to change of coordinates in the space. Hence it is important to

@@ -2,8 +2,8 @@
 date: 2016-9-6
 speaker: "Madhusudan Manjunath (Queen Mary Univ of London, UK)"
 title: "Tropical Algebraic Geometry: an Introduction."
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 We start with a gentle introduction to tropical algebraic
 geometry.  We then focus on the tropical lifting problem and discuss

@@ -2,8 +2,8 @@
 date: 2011-10-19
 speaker: "Prof. Sivananthan Sampath Radon Institute for Computational and Applied Mathematics Linz, Austria"
 title: "Sampling and meta-learning for function reconstruction -- Case study: blood glucose prediction"
-time: "4:00-5:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "4:00-5:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 In this talk, we discuss two problems: the sampling problem for a given
 class of functions on $\\mathbb{R}$ (direct problem) and the reconstruction

@@ -2,8 +2,8 @@
 date: 2015-7-2
 speaker: "Vamsi Pingali (Johns Hopkins University)"
 title: "Some computational and analytic aspects of Chern-Weil forms"
-time: "4-5 PM"
-venue: "LH1"
+time: "4-5 PM" 
+time: "LH1"
 ---
 This talk will focus on two aspects of vector bundles. One is
 the calculation and application of certain characteristic and secondary

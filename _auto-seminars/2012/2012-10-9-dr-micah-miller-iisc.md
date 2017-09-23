@@ -2,8 +2,8 @@
 date: 2012-10-9
 speaker: "Dr. Micah Miller IISc, Bangalore"
 title: "The String topology loop product through twisting cochains"
-time: "3:30 pm- 4:30 pm"
-venue: "Department of Mathematics, LH-III"
+time: "3:30 pm- 4:30 pm" 
+time: "Department of Mathematics, LH-III"
 ---
 String topology is the study of the free loop space of a manifold
 LM.  The loop product, defined on the homology of LM, is described

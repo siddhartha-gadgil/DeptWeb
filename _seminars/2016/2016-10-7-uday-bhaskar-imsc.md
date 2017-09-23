@@ -2,8 +2,8 @@
 date: 2016-10-7
 speaker: "Uday Bhaskar (IMSc, Chennai)"
 title: "Simultaneous Similarity Classes of tuples of Commuting matrices."
-time: "2 pm"
-venue: ""
+time: "2 pm" 
+
 ---
 The enumeration of isomorphism classes of modules of a
 polynomial algebra in several variables over a finite field is the same as

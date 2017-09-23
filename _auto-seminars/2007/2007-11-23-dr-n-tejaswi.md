@@ -2,8 +2,8 @@
 date: 2007-11-23
 speaker: "Dr. N. Tejaswi, IISc"
 title: "Galois action on L-values"
-time: "4.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 To an elliptic curve E, one can associate various twists
 L(E,\\chi,s) of L-functions.  The values of these L-functions at integers

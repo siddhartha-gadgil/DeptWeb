@@ -2,8 +2,8 @@
 date: 2014-3-11
 speaker: "Prof. Dr. Guido Kanschat University of Heidelberg"
 title: "Discontinuous Galerkin Methods for Diffusion-Dominated Radiative Transfer Problems"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 While discontinuous Galerkin (DG) methods had been developed
 and analyzed in the 1970s and 80s with applications in radiative

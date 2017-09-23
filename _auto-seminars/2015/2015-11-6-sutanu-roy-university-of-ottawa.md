@@ -2,8 +2,8 @@
 date: 2015-11-6
 speaker: "Sutanu Roy (University of Ottawa, Canada)"
 title: "Title: Landstad-Vaes theory for locally compact quantum groups"
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 In the seventies of last century, Magnus Landstad characterised
 the coefficient C*-algebra

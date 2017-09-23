@@ -2,8 +2,8 @@
 date: 2015-6-24
 speaker: "Sivaram Ambikasaran (NYU)"
 title: "Fast algorithms for data analysis and elliptic partial differential equations"
-time: "11-12"
-venue: ""
+time: "11-12" 
+
 ---
 Large-dense matrices arise in numerous applications: boundary
 integral formulation for elliptic partial differential equations,

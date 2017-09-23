@@ -2,8 +2,8 @@
 date: 2014-5-30
 speaker: "Prof. Rukmini Dey (HRI)"
 title: "Geometric Quantization and Coherent States"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In this expository talk, I will first review prequantization
 of symplectic manifolds. I will then talk of polarizations and

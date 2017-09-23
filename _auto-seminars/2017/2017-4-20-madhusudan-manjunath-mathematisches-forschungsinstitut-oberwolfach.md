@@ -2,8 +2,8 @@
 date: 2017-4-20
 speaker: "Madhusudan Manjunath (Mathematisches Forschungsinstitut Oberwolfach)"
 title: "Riemann-Roch, Alexander Duality and Free Resolutions."
-time: "4pm"
-venue: ""
+time: "4pm" 
+
 ---
 The Riemann-Roch theorem is fundamental to algebraic geometry.
 

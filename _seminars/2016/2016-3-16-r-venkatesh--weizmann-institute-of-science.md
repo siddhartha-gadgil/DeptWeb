@@ -2,8 +2,8 @@
 date: 2016-3-16
 speaker: "R. Venkatesh ( Weizmann Institute of Science, Israel)"
 title: "Chromatic polynomials of graphs from Kac-Moody algebras."
-time: "2 pm"
-venue: ""
+time: "2 pm" 
+
 ---
 Given a simple graph G, the Kac-Moody Lie algebra of G is the
 Kac-Moody algebra whose simply laced Dynkin diagram is G. We give a new

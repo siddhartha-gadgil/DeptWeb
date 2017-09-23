@@ -2,8 +2,8 @@
 date: 2013-12-4
 speaker: "Professor Harald Upmeier University of Marburg, Germany"
 title: "New directions in complex analysis on symmetric domain"
-time: ""
-venue: "LH-I, department of Mathematics."
+
+time: "LH-I, department of Mathematics."
 ---
 The Lectures will focus on topics that go beyond the classical framework
 of   Hilbert spaces of holomorphic functions (Bergman spaces, Hardy

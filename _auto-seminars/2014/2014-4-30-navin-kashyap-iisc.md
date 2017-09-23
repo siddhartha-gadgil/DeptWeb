@@ -2,8 +2,8 @@
 date: 2014-4-30
 speaker: "Navin Kashyap IISc, Bangalore"
 title: "Brownian excursions into an interval"
-time: "2:00pm"
-venue: "LH-1, Department of Mathematics, IISc"
+time: "2:00pm" 
+time: "LH-1, Department of Mathematics, IISc"
 ---
 The dynamics of excursions of Brownian motion into a set with
 more than one boundary point , which no longer have the structure

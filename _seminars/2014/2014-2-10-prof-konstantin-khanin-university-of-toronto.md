@@ -2,8 +2,8 @@
 date: 2014-2-10
 speaker: "Prof Konstantin Khanin University of Toronto"
 title: "On weak universality for directed polymers"
-time: "3:15 - 4:15 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:15 - 4:15 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 The talk is based on a joint paper with T.Alberts and J.Quastel.
 We consider directed polymers in a random environment.

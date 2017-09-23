@@ -2,8 +2,8 @@
 date: 2014-5-2
 speaker: "Mr. Avijit Pal (IISc)"
 title: "Contractivity and Complete contractivity"
-time: "2:00 - 3:00pm"
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00pm" 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 We study homomorphisms $\\rho_{V}$($\\rho_{V}(f)=\\left (
 \\begin{smallmatrix}

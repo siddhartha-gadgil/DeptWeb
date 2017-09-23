@@ -2,8 +2,8 @@
 date: 2015-4-23
 speaker: "K. S. Senthil Raani"
 title: "$L^p$-Asymptotics of Fourier transform of fractal measures"
-time: "3:00pm - 4:00pm"
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:00pm - 4:00pm" 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 One of the basic questions in harmonic analysis is to study the
 decay properties of the Fourier transform of measures or

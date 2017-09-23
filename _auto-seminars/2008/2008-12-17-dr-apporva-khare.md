@@ -2,8 +2,8 @@
 date: 2008-12-17
 speaker: "Dr. Apporva Khare, U.C. Riverside"
 title: "Infinitesimal Hecke algebras"
-time: "11.00 a.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "11.00 a.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 We study families of infinite-dimensional algebras that are similar to
 semisimple Lie algebras as well as symplectic reflection algebras.

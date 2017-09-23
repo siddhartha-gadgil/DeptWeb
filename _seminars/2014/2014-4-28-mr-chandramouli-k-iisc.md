@@ -2,8 +2,8 @@
 date: 2014-4-28
 speaker: "Mr. Chandramouli. K IISc"
 title: "HOMOGENEOUS OPERATORS AND SOME IRREDUCIBLE REPRESENTATIONS OF THE MOBIUS GROUP"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In this report, after recalling the definition of the M\\"obius group, we
 define homogeneous operators, that is, operators $T$ with the property

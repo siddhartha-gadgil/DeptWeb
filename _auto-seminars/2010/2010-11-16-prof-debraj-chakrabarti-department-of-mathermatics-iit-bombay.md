@@ -2,8 +2,8 @@
 date: 2010-11-16
 speaker: "Prof. Debraj Chakrabarti Department of Mathermatics IIT Bombay"
 title: "The Cauchy-Riemann equations in a product domain"
-time: "4:00-5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00-5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 An important question in complex analysis is to solve the inhomogenous
 Cauchy-Riemann equations (also called the d-bar equation) in a domain

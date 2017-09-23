@@ -2,8 +2,8 @@
 date: 2014-1-28
 speaker: "Prof T.E.S. Raghavan University of Illinois at Chicago"
 title: "Policy improvement algorithm for zero sum two person stochastic games of perfect information in Cesaro payoffs."
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 If the data defining a problem and at least one solution to the
 problem lie in the same Archimedean ordered  field induced by the  data, 

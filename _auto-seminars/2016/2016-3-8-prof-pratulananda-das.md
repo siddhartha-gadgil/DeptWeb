@@ -2,8 +2,8 @@
 date: 2016-3-8
 speaker: "Prof. Pratulananda Das, Jadavpur University, Kolkata."
 title: "On ideals and associated notions of convergence"
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 In this talk we discuss how the notion of usual convergence is
 extended using the notion of

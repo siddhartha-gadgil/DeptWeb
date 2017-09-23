@@ -2,8 +2,8 @@
 date: 2017-5-18
 speaker: "Attreyee Ghosh (Center for Earth Sciences, IISc)"
 title: "Explaining the Earths surface observations: a Computational Geodynamics Approach"
-time: "3pm"
-venue: ""
+time: "3pm" 
+
 ---
 The field of geodynamics deals with the large scale forces
 shaping the Earth. Computational geodynamics, which uses numerical

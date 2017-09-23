@@ -2,8 +2,8 @@
 date: 2014-5-6
 speaker: "Chandan Singh Dalwat HRI"
 title: "Roots of Units, or A sum worthy of Gauss"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 One looks at a certain sum G involving the p-th roots of unity (where p is
 a prime number), called the quadratic gaussian sum. It is easy to see that

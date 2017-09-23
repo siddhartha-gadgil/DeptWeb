@@ -2,8 +2,8 @@
 date: 2012-7-17
 speaker: "Dr. Anish Ghosh University of East Anglia <http://www.uea.ac.uk/>"
 title: "Homogeneous dynamics and number theory"
-time: "4:00 pm- 5:00 pm"
-venue: "Department of Mathematics, Lecture Hall 1"
+time: "4:00 pm- 5:00 pm" 
+time: "Department of Mathematics, Lecture Hall 1"
 ---
 I will discuss some instances of the interplay between dynamics
 on homogeneous spaces of algebraic groups and Diophantine approximation,

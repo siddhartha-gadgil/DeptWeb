@@ -2,8 +2,8 @@
 date: 2013-7-12
 speaker: "Prof. Victor Anandam IMSc, Chennai"
 title: "Potential theory on infinite graphs"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 The classical (as well as axiomatic) potential theory has been
 developed in the context of the study of analytic functions on

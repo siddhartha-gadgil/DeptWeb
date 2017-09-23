@@ -2,8 +2,8 @@
 date: 2007-8-31
 speaker: "Dr. B. Baskar, Brandeis University,"
 title: "Overconvergent modular symbols"
-time: "4.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 The notion of modular symbols was first introduced by Manin.
 We state some basic results which relate modular symbols to special values

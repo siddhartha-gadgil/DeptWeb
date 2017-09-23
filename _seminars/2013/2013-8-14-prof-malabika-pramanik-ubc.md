@@ -2,8 +2,8 @@
 date: 2013-8-14
 speaker: "Prof Malabika Pramanik UBC, Canada"
 title: "Needles, bushes, hairbrushes and polynomials"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Points, lines and circles are among the most primitive and
 fundamental of mathematical concepts, yet few geometric objects have

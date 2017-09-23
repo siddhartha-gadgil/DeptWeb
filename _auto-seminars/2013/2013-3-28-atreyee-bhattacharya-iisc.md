@@ -2,8 +2,8 @@
 date: 2013-3-28
 speaker: "Atreyee Bhattacharya IISc, Bangalore"
 title: "On an ODE related to the Ricci flow"
-time: "4:00 pm- 5:00 pm"
-venue: "Department of Mathematics, LH-III"
+time: "4:00 pm- 5:00 pm" 
+time: "Department of Mathematics, LH-III"
 ---
 We discuss two topics in this talk. First we study compact
 Ricci-flat 4- manifolds without boundary and obtain pointwise restrictions

@@ -2,8 +2,8 @@
 date: 2015-4-6
 speaker: "Srikanth Iyer (IISc, Bangalore)"
 title: "Achieving positive information velocity in wireless networks"
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In wireless networks, where each node transmits independently of
 other nodes in the network (the ALOHA protocol), the expected delay

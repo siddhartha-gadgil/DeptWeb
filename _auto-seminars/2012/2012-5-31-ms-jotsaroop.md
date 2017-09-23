@@ -2,8 +2,8 @@
 date: 2012-5-31
 speaker: "Ms. Jotsaroop"
 title: "Grushin multipliers and Toeplitz operators"
-time: "4:00 - 5:00 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "4:00 - 5:00 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 The Grushin operator is defined as $G:=-\\triangle-|x|^2\\partial_t^2$
 on R^{n+1}. We study the boundedness of the multipliers $m(G)$ of $G$ on

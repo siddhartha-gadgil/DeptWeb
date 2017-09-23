@@ -2,8 +2,8 @@
 date: 2015-8-25
 speaker: "Sujatha Ramdorai (University of British Columbia, Vancouver, Canada)"
 title: "Iwasawa theory and the Birch and Swinnerton-Dyer conjecture:"
-time: "2 pm"
-venue: ""
+time: "2 pm" 
+
 ---
 The celebrated BSD conjecture predicts a deep and mysterious
 relationship between the algebraic rank of an elliptic curve

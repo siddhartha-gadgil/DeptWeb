@@ -2,8 +2,8 @@
 date: 2011-7-13
 speaker: "Prof. D. Yogeshwaran Ecole Normale Superieure - INRIA"
 title: "Clustering, Percolation and directionally convex ordering of point processes"
-time: "2:30-3:30 p.m."
-venue: "Department of Mathematics, Indian Institute of Science, Lecture Hall I"
+time: "2:30-3:30 p.m." 
+time: "Department of Mathematics, Indian Institute of Science, Lecture Hall I"
 ---
 Heuristics indicate that point processes exhibiting clustering of points
 have larger critical radii for the percolation of their continuum

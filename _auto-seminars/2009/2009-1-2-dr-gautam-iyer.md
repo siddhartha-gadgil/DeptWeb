@@ -2,8 +2,8 @@
 date: 2009-1-2
 speaker: "Dr. Gautam Iyer, Stanford University"
 title: "Stochastic Lagrangian Particle systems for the Navier-Stokes and Burgers equations."
-time: "2:30 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "2:30 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 I will introduce an exact stochastic representation for certain
 

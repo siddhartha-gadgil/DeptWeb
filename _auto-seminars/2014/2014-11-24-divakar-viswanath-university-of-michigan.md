@@ -2,8 +2,8 @@
 date: 2014-11-24
 speaker: "Divakar Viswanath (University of Michigan)"
 title: "Optimal differentiation on arbitrary grids"
-time: "2:00 pm"
-venue: "LH-1, Department of Mathematics, IISc"
+time: "2:00 pm" 
+time: "LH-1, Department of Mathematics, IISc"
 ---
 Finite difference formulas approximate the derivatives of a
 function given its values at a discrete set of grid points. Much of the

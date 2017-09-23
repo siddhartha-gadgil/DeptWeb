@@ -2,8 +2,8 @@
 date: 2012-5-31
 speaker: "Mr. Indrajit Jana"
 title: "Matchings between point processes"
-time: "11:00 a.m. - 12:00 noon"
-venue: "Department of Mathematics, Lecture Hall I"
+time: "11:00 a.m. - 12:00 noon" 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 We study several kinds of matching problems between two point processes.
 First we consider the set of integers $\\mathbb{Z}$. We assign a color red

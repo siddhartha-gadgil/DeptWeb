@@ -2,8 +2,8 @@
 date: 2013-11-28
 speaker: "Prof Apoorva Khare Stanford university"
 title: "Preserving positivity for rank-constrained matrices"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 We study the problem of characterizing functions, which when applied
 entrywise, preserve Loewner positivity on distinguished submanifolds of

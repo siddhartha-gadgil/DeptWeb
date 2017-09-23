@@ -2,8 +2,8 @@
 date: 2016-9-2
 speaker: "Prof Benjamin Burton, (The University of Queensland, Australia)"
 title: "Multiobjective optimisation and tropical geometry"
-time: ""
-venue: ""
+
+
 ---
 Multiobjective optimisation involves optimising several quantities, such
 as time and money,

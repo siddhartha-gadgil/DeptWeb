@@ -2,8 +2,8 @@
 date: 2016-12-21
 speaker: "Dr. Nishanth Gudapati Affiliation: Yale University, USA"
 title: "On 3+1 Lorentzian Einstein manifolds with one rotational isometry."
-time: "11:00 am."
-venue: "LH-1, Department of Mathematics, IISc."
+time: "11:00 am." 
+time: "LH-1, Department of Mathematics, IISc."
 ---
 Differentiable manifolds whose Ricci curvature is proportional
 to the metric are called Einstein manifolds. Such manifolds have been

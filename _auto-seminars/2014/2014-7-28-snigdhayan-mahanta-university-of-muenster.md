@@ -2,8 +2,8 @@
 date: 2014-7-28
 speaker: "Snigdhayan Mahanta University of Muenster"
 title: "HOMOTOPY AND HOMOLOGY OF NONCOMMUTATIVE SPACES"
-time: "3:30 - 4:30pm"
-venue: "Lecture Hall V, Department of Mathematics"
+time: "3:30 - 4:30pm" 
+time: "Lecture Hall V, Department of Mathematics"
 ---
 In noncommutative geometry (NCG) one typically treats unital C*-algebras
 as noncommutative compact spaces via Gelfand-Naimark duality. In various

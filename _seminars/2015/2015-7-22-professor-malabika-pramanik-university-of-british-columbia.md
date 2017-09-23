@@ -2,8 +2,8 @@
 date: 2015-7-22
 speaker: "Professor Malabika Pramanik University of British Columbia, Vancouver"
 title: "Finite configurations in sparse sets"
-time: "11:30 AM"
-venue: ""
+time: "11:30 AM" 
+
 ---
 A problem of interest in geometric measure theory both in
 discrete and continuous settings is the identification of algebraic and

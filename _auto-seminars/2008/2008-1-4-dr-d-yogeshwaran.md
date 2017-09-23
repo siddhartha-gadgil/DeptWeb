@@ -2,8 +2,8 @@
 date: 2008-1-4
 speaker: "Dr. D. Yogeshwaran, Ecole Normale Superieure, Paris."
 title: "Directionally convex ordering of random measures, shot-noise fields and some applications to wireless networks."
-time: "4.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 In the standard stochastic geometric setting, wireless networks can be 
 modeled as point processes and their performances as certain mean functionals 

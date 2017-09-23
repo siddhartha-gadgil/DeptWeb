@@ -2,8 +2,8 @@
 date: 2013-2-6
 speaker: "Prof. Badal Joshi University of Minnesota"
 title: "Switching in biological networks"
-time: "4:00 pm- 5:00pm"
-venue: "Department of Mathematics, LH-I"
+time: "4:00 pm- 5:00pm" 
+time: "Department of Mathematics, LH-I"
 ---
 (Bio)chemical reaction networks are used in systems biology to model
 gene regulatory, protein, metabolic, and other cellular networks. Since

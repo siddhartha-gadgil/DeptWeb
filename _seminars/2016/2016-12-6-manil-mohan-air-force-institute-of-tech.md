@@ -2,8 +2,8 @@
 date: 2016-12-6
 speaker: "Manil Mohan (Air Force Institute of Tech, Ohio)"
 title: "Some Recent Progress in Quasilinear Hyperbolic Systems: New Local Solvability Methods and Stochastic Analysis."
-time: "11 AM"
-venue: ""
+time: "11 AM" 
+
 ---
 Quasilinear symmetric and symmetrizable hyperbolic system has a
 wide range

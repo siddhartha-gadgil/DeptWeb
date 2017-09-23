@@ -2,8 +2,8 @@
 date: 2016-10-28
 speaker: "Sandeep Krishna, NCBS."
 title: "The Perron-Frobenius theorem and its application to a class of dynamical systems"
-time: ""
-venue: "Simons Centre, Ground Floor."
+
+time: "Simons Centre, Ground Floor."
 ---
 The Perron-Frobenius theorem is a powerful and useful result about the
 

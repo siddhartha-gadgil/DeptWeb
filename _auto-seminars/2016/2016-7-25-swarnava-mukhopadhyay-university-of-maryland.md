@@ -2,8 +2,8 @@
 date: 2016-7-25
 speaker: "Swarnava Mukhopadhyay University of Maryland"
 title: "Rank-level duality of Conformal Blocks"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Classical invariants for representations of one Lie group can often be
 related to invariants of some other Lie group. Physics suggests that the

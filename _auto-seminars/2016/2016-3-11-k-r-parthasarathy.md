@@ -2,8 +2,8 @@
 date: 2016-3-11
 speaker: "K R Parthasarathy"
 title: "Exchangeable and stationary chains of quantum Gaussian states and an integral formula for their entropy rates."
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 We shall introduce the definition of a k-mode Gaussian state
 and a chain of such states which determine a C* probability space. We

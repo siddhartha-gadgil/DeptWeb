@@ -2,8 +2,8 @@
 date: 2016-5-5
 speaker: "Pratyusha Chattopadhyay (ISI Bengaluru)"
 title: "Relation between orbit spaces of unimodular elements and improved stability bound"
-time: "3:30 pm"
-venue: ""
+time: "3:30 pm" 
+
 ---
 This is a topic in classical algebraic K-Theory. I will recall
 definitions of elementary linear group, elementary symplectic group,

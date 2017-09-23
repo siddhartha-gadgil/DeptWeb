@@ -2,8 +2,8 @@
 date: 2017-8-11
 speaker: "Kaleem Siddiqi School of Computer Science & Centre for Intelligent Machines McGill University"
 title: "From Mechanics to Electrical Conduction: Why are Heart Wall Myofibers Helicoidal?"
-time: ""
-venue: "Simons Centre, Ground Floor."
+
+time: "Simons Centre, Ground Floor."
 ---
 The mammalian heart must function as an efficient pump while simultaneously
 

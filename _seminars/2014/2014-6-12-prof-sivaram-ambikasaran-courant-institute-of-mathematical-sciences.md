@@ -2,8 +2,8 @@
 date: 2014-6-12
 speaker: "Prof. Sivaram Ambikasaran (Courant Institute of Mathematical Sciences, NYU)"
 title: "Analysis based fast algorithms for applied mathematics"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 The dominant problem in applied mathematics is the application
 of linear operators and solving linear equations. Dense linear systems

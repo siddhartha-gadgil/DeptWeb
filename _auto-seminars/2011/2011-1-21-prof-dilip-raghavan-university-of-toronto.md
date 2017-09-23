@@ -2,8 +2,8 @@
 date: 2011-1-21
 speaker: "Prof. Dilip Raghavan University of Toronto"
 title: "Cofinal types of ultrafilters"
-time: "4:00-5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00-5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 I will describe some joint work with Todorcevic on the Tukey theory
 of ultrafilters on the natural numbers. The notion of Tukey

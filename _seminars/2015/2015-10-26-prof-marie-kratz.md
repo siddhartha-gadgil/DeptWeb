@@ -2,8 +2,8 @@
 date: 2015-10-26
 speaker: "Prof. Marie Kratz, ESSEC Business School, CREAR (risk research center)"
 title: "On Risk Concentration"
-time: "2:15 - 3:15 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:15 - 3:15 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 We study the local behavior of (extreme) quantiles of the sum of 
 heavy-tailed random variables, to infer on risk concentration. Looking at the 

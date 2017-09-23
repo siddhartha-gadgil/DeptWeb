@@ -2,8 +2,8 @@
 date: 2015-11-13
 speaker: "Jonathan Spreer, The University of Queensland, Australia"
 title: "Algorithms and complexity for Turaev-Viro invariants"
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 The Turaev-Viro invariants are a powerful family of topological
 invariants

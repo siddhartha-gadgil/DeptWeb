@@ -2,8 +2,8 @@
 date: 2013-8-26
 speaker: "Prof Nitin Nitsure, TIFR, Mumbai"
 title: "Descent and Cohomological Descent"
-time: "3:00 - 4:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:00 - 4:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Around 1960, Grothendieck developed the theory of descent. The aim of
 this theory is to construct geometric objects on a base space -- in

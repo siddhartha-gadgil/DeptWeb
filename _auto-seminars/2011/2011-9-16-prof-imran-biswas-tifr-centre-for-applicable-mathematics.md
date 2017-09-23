@@ -2,8 +2,8 @@
 date: 2011-9-16
 speaker: "Prof. Imran Biswas TIFR Centre for Applicable Mathematics"
 title: "Regularization by 1/2-Laplacian and Vanishing Viscosity Limit for HJB Equations"
-time: "4:00-5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00-5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 We investigate the regularizing effect of adding small fractional
 Laplacian, with critical fractional exponent 1/2 , to a general first

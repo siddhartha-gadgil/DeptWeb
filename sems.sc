@@ -122,16 +122,16 @@ case class Seminar(
   absOpt: Option[String]
 ){
   val abs = absOpt.getOrElse("").replace("\n ", "\n\n").replace("\n\t", "\n\n")
-  val venue = venueOpt.getOrElse("")
-  val time = trim(timeOpt.getOrElse(""))
+  val venueSt = venueOpt.map((v) => s"""time: "${trim(v)}"""").getOrElse("")
+  val timeSt = timeOpt.map((t) => s"""time: "${trim(t)}" """).getOrElse("")
   val year = date._3
   val out =
 s"""---
 date: ${year}-${date._2}-${date._1}
 speaker: "$speaker"
 title: "$title"
-time: "$time"
-venue: "$venue"
+$timeSt
+$venueSt
 ---
 ${abs.trim.replace("\\", "\\\\")}
 """

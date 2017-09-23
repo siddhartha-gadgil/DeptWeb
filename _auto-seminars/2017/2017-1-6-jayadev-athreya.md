@@ -2,8 +2,8 @@
 date: 2017-1-6
 speaker: "Jayadev Athreya, University of Washington"
 title: "Siegel-Veech transforms are in L2"
-time: "11:00 a.m."
-venue: "LH -1, Department of Mathematics, IISc"
+time: "11:00 a.m." 
+time: "LH -1, Department of Mathematics, IISc"
 ---
 Let H denote a connected component of a stratum of translation
 surfaces. We show that the Siegel-Veech transform of a bounded compactly

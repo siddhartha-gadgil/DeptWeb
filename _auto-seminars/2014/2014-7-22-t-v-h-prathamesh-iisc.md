@@ -2,8 +2,8 @@
 date: 2014-7-22
 speaker: "T. V. H. Prathamesh IISc"
 title: "Mechanisation of Knot Theory"
-time: "11:00am - 12:00pm"
-venue: "Lecture Hall III, Department of Mathematics"
+time: "11:00am - 12:00pm" 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Mechanisation of Mathematics refers to use of computers to generate
 or check

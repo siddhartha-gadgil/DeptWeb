@@ -2,8 +2,8 @@
 date: 2009-3-20
 speaker: "Prof. Maneesh Thakur, ISI, Delhi"
 title: "On a conjecture of Tits and Weiss"
-time: "10:00 a.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "10:00 a.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Tits and Weiss in their book "Moufang Polygons" have conjectured
 that the groups of rational points of certain forms of E_6 are

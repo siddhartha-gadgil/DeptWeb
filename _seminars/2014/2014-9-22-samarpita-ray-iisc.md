@@ -2,8 +2,8 @@
 date: 2014-9-22
 speaker: "Samarpita Ray IISc"
 title: "Derived Category of N-complexes"
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 The notion of N-complexes goes back to a 1996 preprint of Kapranov, in
 which he considered chains of composable morphisms satisfying  d^N = 0 (as

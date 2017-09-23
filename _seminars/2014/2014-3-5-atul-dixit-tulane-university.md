@@ -2,8 +2,8 @@
 date: 2014-3-5
 speaker: "Atul Dixit Tulane University"
 title: "A series identity, possibly connected with a divisor problem, in Ramanujan's Lost Notebook"
-time: "5:00 - 6:00 p.m."
-venue: "Lecture Hall II, Department of Mathematics"
+time: "5:00 - 6:00 p.m." 
+time: "Lecture Hall II, Department of Mathematics"
 ---
 On page 336 in his lost notebook, S. Ramanujan proposes an identity that
 may have been devised to attack a divisor problem. Unfortunately, the

@@ -2,8 +2,8 @@
 date: 2017-5-9
 speaker: "Eshita Mazumdar (IIT, Mumbai)"
 title: "Davenport constant and an external problem related to it"
-time: "3pm"
-venue: ""
+time: "3pm" 
+
 ---
 For a finite abelian group G with |G| = n, the Davenport
 Constant DA(G) is defined to be the least integer k such that any sequence

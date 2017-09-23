@@ -2,8 +2,8 @@
 date: 2015-2-25
 speaker: "Prof. Dr. Martin Kreuzer University of Passau, Germany"
 title: "Computational Aspects of Burnside Algebras I"
-time: "2:00 p.m. - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 p.m. - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In this two-part talk, we reconsider Burnside algebras,
 a classical tool in the theory of finite groups, from a computational

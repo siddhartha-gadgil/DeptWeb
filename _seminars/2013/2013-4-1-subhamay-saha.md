@@ -2,8 +2,8 @@
 date: 2013-4-1
 speaker: "Subhamay Saha, IISc, Bangalore"
 title: "Single and Multi-player Stochastic Dynamic Optimization."
-time: "4:00 pm"
-venue: "Department of Mathematics, LH-1"
+time: "4:00 pm" 
+time: "Department of Mathematics, LH-1"
 ---
 In this thesis we investigate single and multi-player stochastic
 dynamic optimization problems in both discrete and continuous time. In the

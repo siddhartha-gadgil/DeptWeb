@@ -2,8 +2,8 @@
 date: 2013-8-5
 speaker: "Prof. Jayadev Athreya University of Illiniois, Urbana-Champaign"
 title: "Gap Distributions and Homogeneous Dynamics"
-time: "3:30- 4:30pm"
-venue: "Department of Mathematics, LH-I"
+time: "3:30- 4:30pm" 
+time: "Department of Mathematics, LH-I"
 ---
 We discuss the notion of gap distributions of various
 lists of numbers in [0, 1], in particular focusing on those which

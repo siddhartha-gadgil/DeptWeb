@@ -2,8 +2,8 @@
 date: 2014-2-7
 speaker: "Prof. Dr. Martin Kreuzer University of Passau, Germany"
 title: "Linear Algebra 1.5"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Most algebraist believe they know Linear Algebra.
 The purpose of this talk is to indicate that this is not necessarily true.

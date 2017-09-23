@@ -2,8 +2,8 @@
 date: 2008-5-21
 speaker: "Dr. Ayan Mahalanobis, Stevens institute, New Jersey"
 title: "The MOR cryptoystem and special linear groups over finite fields"
-time: "4.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 The ElGamal cryptosystem is in the heart of public key 
 cryptography. It is known that the MOR cryptosysetm generalizes it from 

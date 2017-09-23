@@ -2,8 +2,8 @@
 date: 2014-3-21
 speaker: "Esha Chatterjee Ghosh"
 title: "On the global character of the solutions of some nonlinear difference equations"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Non linear difference equations of order more than one is a relatively new
 and dynamic area of research in applied mathematics. In particular, the

@@ -2,8 +2,8 @@
 date: 2014-7-15
 speaker: "Sunder Sethuraman University of Arizona"
 title: "An introduction to preferential attachment schemes"
-time: "(1) 10:00 - 11:00 am (2) 2:00 - 3:00 pm"
-venue: "Lecture Hall III, Department of Mathematics"
+time: "(1) 10:00 - 11:00 am (2) 2:00 - 3:00 pm" 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Informally, a preferential attachment scheme is a dynamic (reinforcement)
 process where a network is grown by attaching new vertices to old ones

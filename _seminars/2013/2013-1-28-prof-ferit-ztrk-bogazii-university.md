@@ -2,8 +2,8 @@
 date: 2013-1-28
 speaker: "Prof Ferit ztrk (Bogazii University, Turkey)"
 title: "Real analytic maps and stable Hamiltonian structures"
-time: "3:30-4:30 pm"
-venue: "LH-I, Department of Mathematics"
+time: "3:30-4:30 pm" 
+time: "LH-I, Department of Mathematics"
 ---
 We consider a real analytic map f from R^4 to R^2 with a
 singularity at 0. One method to investigate the singularity is to work

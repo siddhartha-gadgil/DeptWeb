@@ -2,8 +2,8 @@
 date: 2013-12-12
 speaker: "Aniruddha Venkata Centre for Excellence in Basic Sciences, Mumbai"
 title: "On Frankl's conjecture"
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 A family of sets is said to be union-closed if the union of any
 two sets from the family remains in the family. Frankl's conjecture, aka

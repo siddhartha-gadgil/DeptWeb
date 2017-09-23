@@ -2,8 +2,8 @@
 date: 2011-5-20
 speaker: "Prof. Sunil K. Chebolu Illinois State University, U.S.A."
 title: "On a small quotient of a huge absolute Galois group"
-time: "4:00-5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00-5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Let G be the absolute Galois group of a field that contains a primitive
 p-th root of unity. This is a profinite group which is a central object of

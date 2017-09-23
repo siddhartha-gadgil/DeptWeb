@@ -2,8 +2,8 @@
 date: 2013-4-2
 speaker: "Prof. Siddhartha Gadgil, IISc, Bangalore"
 title: "Metric Measure spaces and Random matrices"
-time: "11: 30 a.m."
-venue: "LH- II, Department of Mathematics"
+time: "11: 30 a.m." 
+time: "LH- II, Department of Mathematics"
 ---
 The geometry of Metric spaces equipped with a probability measure
 is a very dynamic field. One motivation for the study of such spaces is

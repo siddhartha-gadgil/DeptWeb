@@ -2,8 +2,8 @@
 date: 2009-12-1
 speaker: "Prof. Michael Dritschel, Newcastle University, UK."
 title: "Realization and interpolation in the Schur class of the polydisk"
-time: "4:00 p.m."
-venue: "CHEP Lecture Hall"
+time: "4:00 p.m." 
+time: "CHEP Lecture Hall"
 ---
 The classical realization theorem gives various
 characterizations of functions in the unit ball of $H^\\infty(\\mathbb

@@ -2,8 +2,8 @@
 date: 2014-2-12
 speaker: "Prof Shanta Laishram Indian Statistical Institute Delhi"
 title: "Powers in products of terms of Pell's and Pell-Lucas Sequences"
-time: "3:00 - 4:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:00 - 4:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 It is known that there are only finitely many perfect powers in non
 degenerate binary recurrence sequences. However explicitly finding them is

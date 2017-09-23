@@ -2,8 +2,8 @@
 date: 2015-8-7
 speaker: "Youssef Oukine (Universite Cadi Ayyad, Maroc)"
 title: "Reflected Backward SDEs with General Jumps"
-time: "3-4 pm"
-venue: ""
+time: "3-4 pm" 
+
 ---
 In the first part of this paper we give a solution for the
 one-dimensional reflected backward

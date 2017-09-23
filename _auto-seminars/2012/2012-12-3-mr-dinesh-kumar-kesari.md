@@ -2,8 +2,8 @@
 date: 2012-12-3
 speaker: "Mr. Dinesh Kumar Kesari"
 title: "Curvature inequalities for operators in the Cowen-Douglas class"
-time: "11:00 a.m."
-venue: "Department of Mathematics, LH-III"
+time: "11:00 a.m." 
+time: "Department of Mathematics, LH-III"
 ---
 The curvature of a contraction T in the Cowen-Douglas
 class is bounded above by the curvature of the backward shift

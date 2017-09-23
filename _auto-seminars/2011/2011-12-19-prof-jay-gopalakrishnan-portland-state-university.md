@@ -2,8 +2,8 @@
 date: 2011-12-19
 speaker: "Prof. Jay Gopalakrishnan Portland State University"
 title: "An overview of discontinuous Petrov-Galerkin stabilization techniques"
-time: "4:00 - 5:00 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "4:00 - 5:00 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 We introduce the concept of optimal test functions that guarantee
 stability of resulting numerical schemes. Petrov-Galerkin methods seek

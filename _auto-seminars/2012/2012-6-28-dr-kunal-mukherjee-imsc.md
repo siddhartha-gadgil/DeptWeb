@@ -2,8 +2,8 @@
 date: 2012-6-28
 speaker: "Dr. Kunal Mukherjee IMSc, Chennai."
 title: "Masas and Bimodule Decompositions of $\rm{II}_{1}$ factors"
-time: "4:00 - 5:00 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "4:00 - 5:00 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 von Neumann algebras are non commutative analogue of measure spaces. The
 study of maximal abelian subalgebras (masas) in finite von Neumann

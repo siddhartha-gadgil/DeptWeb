@@ -2,8 +2,8 @@
 date: 2009-8-4
 speaker: "Dr.Soumik Pal, University of Washington, Seattle"
 title: "Interacting diffusion models and the effect of size"
-time: "4:00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4:00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Consider a multidimensional diffusion model where the drift and the
 diffusion coefficients for individual coordinates are functions of

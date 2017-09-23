@@ -2,8 +2,8 @@
 date: 2007-11-16
 speaker: "Dr. Gautam Bharali"
 title: "Spectral Pick interpolation from a complex-geometric viewpoint"
-time: "4.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 The spectral Pick-interpolation problem, i.e. to determine when 
 there exists a holomorphic map from the unit disc to the class of complex 

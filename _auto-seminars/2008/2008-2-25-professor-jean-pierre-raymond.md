@@ -2,8 +2,8 @@
 date: 2008-2-25
 speaker: "Professor Jean-Pierre Raymond"
 title: "Null controllability of a fluid-structure model"
-time: "4.00 p.m."
-venue: "Lecture Hall - III, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - III, Dept. of Mathematics"
 ---
 We consider a system coupling the Stokes system with an elastic
 structure modelled by a finite dimensional system. We prove that this 

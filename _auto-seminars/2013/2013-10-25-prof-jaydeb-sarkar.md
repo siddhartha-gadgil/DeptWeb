@@ -2,8 +2,8 @@
 date: 2013-10-25
 speaker: "Prof Jaydeb Sarkar, ISI Bangalore"
 title: "Beurling-Lax-Halmos Theorem and Operator Theory"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 This talk will be an elementary introduction to (Hilbert) module
 approach to operator theory. We explore the relationship of the classical

@@ -2,8 +2,8 @@
 date: 2007-6-29
 speaker: "Dr. Sunder Sethuraman, Iowa State University"
 title: "On a scaling limit for a tagged particle in some zero-range interacting systems"
-time: "3.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "3.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Informally, the ``zero-range'' particle system follows a collection of 
 dependent random walks on a lattice, each of which interacts infinitesimally 

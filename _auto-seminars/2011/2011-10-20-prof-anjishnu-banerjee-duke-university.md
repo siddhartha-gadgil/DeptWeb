@@ -2,8 +2,8 @@
 date: 2011-10-20
 speaker: "Prof. Anjishnu Banerjee Duke University, USA"
 title: "Challenges in high dimensional Bayesian nonparametrics and some possible solutions"
-time: "11:30 a.m.-12:30 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "11:30 a.m.-12:30 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Large dimensional data presents many challenges for
 statistical modeling via Bayesian nonparametrics, both with respect

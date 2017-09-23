@@ -2,8 +2,8 @@
 date: 2012-7-12
 speaker: "Dr. Subojoy Gupta California Institute of Technology"
 title: "Complex projective structures and dynamics in moduli space"
-time: "11:00 am- 12:00 noon"
-venue: "Department of Mathematics, Lecture Hall 1"
+time: "11:00 am- 12:00 noon" 
+time: "Department of Mathematics, Lecture Hall 1"
 ---
 We shall discuss a new result that relates grafting, which are
 certain deformations of complex projective structures on a surface, to the

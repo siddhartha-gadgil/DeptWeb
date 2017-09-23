@@ -2,8 +2,8 @@
 date: 2016-2-19
 speaker: "Sofia Ortega Castillo"
 title: "Strong pseudoconvexity in Banach spaces and applications"
-time: ""
-venue: ""
+
+
 ---
 Having been unclear how to widely define strong (or strict)
 pseudoconvexity in the infinite-dimensional context, we compared the

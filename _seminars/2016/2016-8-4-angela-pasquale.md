@@ -2,8 +2,8 @@
 date: 2016-8-4
 speaker: "Angela Pasquale"
 title: "Resonances for the Laplacian on Riemannian symmetric spaces of the noncompact type: the rank two case"
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 Let $\\Delta$ be the Laplacian on a Riemannian symmetric space $X=G/K$ of
 the noncompact type and let

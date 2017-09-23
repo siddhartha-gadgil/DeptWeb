@@ -2,8 +2,8 @@
 date: 2012-11-15
 speaker: "Dr. Thomas Richard IISc, Bangalore"
 title: "Ricci flow of non-smooth spaces"
-time: "4:00 pm- 5:00 pm"
-venue: "Department of Mathematics, LH-III"
+time: "4:00 pm- 5:00 pm" 
+time: "Department of Mathematics, LH-III"
 ---
 Ricci flow is a PDE that deform the metric of a Riemannian manifold in the
 direction of its Ricci curvature. For compact smooth manifolds, there is a

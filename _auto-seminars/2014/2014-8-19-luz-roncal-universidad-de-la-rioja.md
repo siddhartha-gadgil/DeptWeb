@@ -2,8 +2,8 @@
 date: 2014-8-19
 speaker: "Luz Roncal Universidad de La Rioja, Logrono, Spain"
 title: "Semigroups and Harmonic Analysis"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 By using the language of diffusion semigroups, it is possible to define
 and study classical operators in harmonic analysis. We introduce and

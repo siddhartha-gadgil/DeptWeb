@@ -2,8 +2,8 @@
 date: 2017-1-9
 speaker: "E Palsson (Virginia Tech, USA)"
 title: "Finite point configurations"
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 As big data sets have become more common, there has been significant
 interest in finding and understanding patterns in them. One example of a

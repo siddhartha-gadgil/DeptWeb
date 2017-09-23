@@ -2,8 +2,8 @@
 date: 2015-3-18
 speaker: "Amita Malik University of Illinois at Urbana-Champaign"
 title: "Arithmetic of Farey-Ford Packings"
-time: "3:30 p.m. - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 p.m. - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Farey-Ford Packings are a special case of more general circle packings
 called Apollonian Circle Packings (ACP). These packings have some very

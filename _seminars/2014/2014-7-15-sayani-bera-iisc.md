@@ -2,8 +2,8 @@
 date: 2014-7-15
 speaker: "Sayani Bera IISc"
 title: "On shift-like automorphisms of C^k"
-time: "4:00 - 5:00pm"
-venue: "Lecture Hall III, Department of Mathematics"
+time: "4:00 - 5:00pm" 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 We will use transcendental shift-like automorphisms of C^k ,k>2
 to construct two examples of non-degenerate entire mappings with

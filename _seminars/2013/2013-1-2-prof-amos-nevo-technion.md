@@ -2,8 +2,8 @@
 date: 2013-1-2
 speaker: "Prof Amos Nevo Technion, Israel"
 title: "Diophantine approximation, arithmetic groups, and ergodic theory"
-time: "4:00 pm- 5:00pm"
-venue: "Department of Mathematics, LH-III"
+time: "4:00 pm- 5:00pm" 
+time: "Department of Mathematics, LH-III"
 ---
 One of the main goals of classical metric Diophantine
 approximation is to quantify the denseness of the rational numbers in the

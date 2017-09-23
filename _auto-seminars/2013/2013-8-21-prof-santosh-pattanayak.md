@@ -2,8 +2,8 @@
 date: 2013-8-21
 speaker: "Prof Santosh Pattanayak, Weizmann Inst. of Science, Israel"
 title: "Projective Normality of G.I.T. quotient varieties modulo finite solvable groups and Weyl groups"
-time: "3:00 - 4:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:00 - 4:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 We prove that for any finite dimensional vector space $V$ over an
 algebraically closed field $K$, and for any finite subgroup $G$ of $GL(V)$

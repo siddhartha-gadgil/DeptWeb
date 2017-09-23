@@ -2,8 +2,8 @@
 date: 2016-12-19
 speaker: "Tathagata Banerjee"
 title: "Coarse Geometry for Noncommutative Spaces"
-time: "3pm"
-venue: ""
+time: "3pm" 
+
 ---
 Abstract:
 Given a proper coarse structure on a locally compact Hausdorff space $X$,

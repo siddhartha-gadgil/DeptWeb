@@ -2,8 +2,8 @@
 date: 2014-7-30
 speaker: "Emmanuel Kwame Essel University of Cape Coast, Ghana"
 title: "Homogenization of quasilinear parabolic problems by the method of Rothe and two scale convergence"
-time: "11:30a.m. - 12:30 p.m."
-venue: "Lecture Hall V, Department of Mathematics"
+time: "11:30a.m. - 12:30 p.m." 
+time: "Lecture Hall V, Department of Mathematics"
 ---
 In this talk we consider a linear parabolic problem with time dependent
 coefficients oscillating rapidly in the space variable. The existence and

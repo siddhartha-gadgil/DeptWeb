@@ -2,8 +2,8 @@
 date: 2013-11-22
 speaker: "Prof N.S. Narasimha Sastry ISI Bangalore"
 title: "Incidence geometries and Algebraic Codes"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Tits theory of spherical buildings gives a uniform geometric
 context to study all finite simple groups (except the alternating groups

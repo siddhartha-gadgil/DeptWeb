@@ -2,8 +2,8 @@
 date: 2015-4-28
 speaker: "Swagata Sarkar ISI Kolkata"
 title: "Equivariant Cobordism Classes of Milnor Manifolds"
-time: "11:00 a.m. - 12:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "11:00 a.m. - 12:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Let G be a 2-group, and let Z(G) denote the equivariant cobordism
 algebra of G-manifolds with finite stationary point sets.A cobordism class

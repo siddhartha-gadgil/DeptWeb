@@ -2,8 +2,8 @@
 date: 2008-12-16
 speaker: "Dr. Kavita Ramanan, Carnegie Mellon University"
 title: "Dirichlet Processes and Reflected Diffusions"
-time: "4:00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4:00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Reflected diffusions arise in many contexts.
 We identify a rather general condition under which these diffusions

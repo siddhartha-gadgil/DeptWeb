@@ -2,8 +2,8 @@
 date: 2015-3-20
 speaker: "Soumya Bhattacharya CIRM Trento, Italy"
 title: "Factorization of holomorphic eta quotients"
-time: "2:00 p.m. - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 p.m. - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Unlike integer factorization, a reducible holomorphic eta quotient may not
 factorize uniquely as a product of irreducible holomorphic eta quotients.

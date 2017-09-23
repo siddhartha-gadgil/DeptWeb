@@ -2,8 +2,8 @@
 date: 2013-7-2
 speaker: "Prof. Sarang Sane University of Kansas"
 title: "The Euler characteristic, projective modules and the Gersten-Witt complex"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 Starting with the Euler characteristic in graph theory/combinatorics,
 we trace a brief history, first viewing it as an Euler class in

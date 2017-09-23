@@ -2,8 +2,8 @@
 date: 2013-3-8
 speaker: "Mokshay Madiman (Yale university)"
 title: "An exposition of selected tools from additive combinatorics"
-time: "2:00-3:30 PM"
-venue: "LH-1, Department of mathematics."
+time: "2:00-3:30 PM" 
+time: "LH-1, Department of mathematics."
 ---
 Tools from additive combinatorics are finding their way into
 numerous areas of mathematics and applied mathematics, and in

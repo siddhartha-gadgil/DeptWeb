@@ -2,8 +2,8 @@
 date: 2009-11-30
 speaker: "Prof. Brian Jefferies, University of New South Wales, Sydney"
 title: "The connection between Clifford analysis and operator theory"
-time: "4:00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4:00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Clifford analysis is a higher dimensional analogue of single
 variable complex analysis. Although functions take values in a

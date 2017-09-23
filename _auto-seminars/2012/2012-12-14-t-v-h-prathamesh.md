@@ -2,8 +2,8 @@
 date: 2012-12-14
 speaker: "T. V. H. Prathamesh"
 title: "Construction of Jones Polynomial for Knots (via Tangles)"
-time: "2.30 pm"
-venue: "LH-I, Department of Mathematics"
+time: "2.30 pm" 
+time: "LH-I, Department of Mathematics"
 ---
 Jones Polynomial is an invariant of an oriented knot or link
 which assigns to each oriented knot or link a Laurent polynomial in the

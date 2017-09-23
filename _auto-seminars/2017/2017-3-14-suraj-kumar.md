@@ -2,8 +2,8 @@
 date: 2017-3-14
 speaker: "Suraj Kumar, Paris Diderot University"
 title: "Detecting free splittings"
-time: "9: 30 a.m."
-venue: "LH-1, Department of Mathematics"
+time: "9: 30 a.m." 
+time: "LH-1, Department of Mathematics"
 ---
 The goal of this talk is to present an algorithm which takes a
 compact square complex belonging to a special class as input and decides

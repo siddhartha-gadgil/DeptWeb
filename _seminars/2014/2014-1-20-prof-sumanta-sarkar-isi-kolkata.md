@@ -2,8 +2,8 @@
 date: 2014-1-20
 speaker: "Prof Sumanta Sarkar ISI Kolkata"
 title: "Constructions of Boolean Functions that are Significant in Cryptography and Coding Theory"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 A Boolean function is a mapping from the set of all binary
 n-tuples to the set {0, 1}. Boolean functions are important building

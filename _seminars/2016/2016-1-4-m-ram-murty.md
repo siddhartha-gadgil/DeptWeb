@@ -2,8 +2,8 @@
 date: 2016-1-4
 speaker: "M. Ram Murty, Queen's University, Kingston, Canada"
 title: "Twin Primes"
-time: "4pm"
-venue: ""
+time: "4pm" 
+
 ---
 There is a folklore conjecture that there are infinitely
 many primes p such that p+2 is also prime.

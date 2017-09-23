@@ -2,8 +2,8 @@
 date: 2012-6-7
 speaker: "Prof. Mikiya Masuda Osaka City University, Japan"
 title: "An introduction to GKM graphs"
-time: "4:00 - 5:00 p.m."
-venue: "Department of Mathematics, Lecture Hall I"
+time: "4:00 - 5:00 p.m." 
+time: "Department of Mathematics, Lecture Hall I"
 ---
 The notion of a GKM graph was introduced by Guillemin-Zara [1],
 motivated by a result of Goresky-Kottwitz-MacPherson [2]. A GKM

@@ -2,8 +2,8 @@
 date: 2017-4-21
 speaker: "Swarnava Mukhopadhyay (University of Maryland)"
 title: "Conformal blocks, strange duality and the moduli space of curves."
-time: "10 AM (via Skype)"
-venue: ""
+time: "10 AM (via Skype)" 
+
 ---
 Conformal blocks are refined invariants of tensor product of
 

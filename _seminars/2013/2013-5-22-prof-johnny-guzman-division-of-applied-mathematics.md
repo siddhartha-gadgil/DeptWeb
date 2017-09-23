@@ -2,8 +2,8 @@
 date: 2013-5-22
 speaker: "Prof. Johnny Guzman Division of Applied Mathematics, Borwn University, Providence."
 title: "Preserving physical quantities of interest in finite elements with rational bubbles"
-time: "4.00pm - 5.00pm"
-venue: "Department of Mathematics, LH-1"
+time: "4.00pm - 5.00pm" 
+time: "Department of Mathematics, LH-1"
 ---
 Many commonly used mixed finite elements for the Stokes problem
 only conserve mass approximately. We show that if we supplement polynomial

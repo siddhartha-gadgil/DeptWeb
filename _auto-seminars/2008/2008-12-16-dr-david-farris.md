@@ -2,8 +2,8 @@
 date: 2008-12-16
 speaker: "Dr. David Farris, U.C. Berkeley"
 title: "The Embedded Contact Homology of Circle Bundles over Riemann Surfaces"
-time: "11.30 a.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "11.30 a.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Embedded contact homology (ECH) is an invariant of
 three-manifolds due to Hutchings, Sullivan, and Taubes.  It uses a contact

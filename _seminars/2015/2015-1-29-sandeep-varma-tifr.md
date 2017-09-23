@@ -2,8 +2,8 @@
 date: 2015-1-29
 speaker: "Sandeep Varma TIFR, Mumbai"
 title: "On applying the Deligne-Kazhdan philosophy to classical groups"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 I will report on work in progress with Radhika Ganapathy. One wishes to
 study irreducible `smooth' complex representations of symplectic and

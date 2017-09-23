@@ -2,8 +2,8 @@
 date: 2014-4-11
 speaker: "Dr. Lakshmi Lavanya IISc"
 title: "A Characterisation of the Fourier transform on the Heisenberg group"
-time: "4:00 - 5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00 - 5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 A recent theorem of S. Alesker, S. Artstein-Avidan and V. Milman
 characterises the Fourier transform on R^n as essentially the only

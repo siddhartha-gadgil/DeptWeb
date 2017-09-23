@@ -2,8 +2,8 @@
 date: 2007-5-21
 speaker: "Prof. Gerald Warnecke, Magdeburg, Germany"
 title: "Adaptive Numerical Solution of Intracellular Calcium Dynamics"
-time: "4.00 p.m."
-venue: "Lecture Hall - I, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - I, Dept. of Mathematics"
 ---
 Calcium waves are an important means of intrcellular signaling. 
 Intracellular calcium release at the endoplasmatic reticulum is a prime example 

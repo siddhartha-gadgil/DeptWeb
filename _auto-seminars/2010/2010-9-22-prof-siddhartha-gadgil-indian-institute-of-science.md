@@ -2,8 +2,8 @@
 date: 2010-9-22
 speaker: "Prof. Siddhartha Gadgil Indian Institute of Science"
 title: "Projective Geometry and Holomorphic curves"
-time: "4:00 p.m."
-venue: "Lecture Hall III, Department of Mathematics"
+time: "4:00 p.m." 
+time: "Lecture Hall III, Department of Mathematics"
 ---
 A geometry is a collection of lines and points satisfying the usual
 incidence axioms. By a theorem of Gromov, given an almost complex

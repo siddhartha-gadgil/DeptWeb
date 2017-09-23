@@ -2,8 +2,8 @@
 date: 2007-2-27
 speaker: "Dr. Anupam Kumar Singh, TIFR, Mumbai"
 title: "Real vs. Strongly Real Elements in Algebraic Groups"
-time: "4.00 p.m."
-venue: "Lecture Hall - II, Dept. of Mathematics"
+time: "4.00 p.m." 
+time: "Lecture Hall - II, Dept. of Mathematics"
 ---
 Let $k$ be a field of characteristic not 2 and $G$ be an algebraic 
 group defined over $k$. An element $t$ in $G(k)$ is called real if there exists 

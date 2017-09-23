@@ -2,8 +2,8 @@
 date: 2013-11-11
 speaker: "D. Manjunath (IIT, Bombay)"
 title: "Admission Prices and Welfare in Queues"
-time: "2:00pm"
-venue: "LH-II, Department of Mathematics, IISc"
+time: "2:00pm" 
+time: "LH-II, Department of Mathematics, IISc"
 ---
 A multiqueue system serves a multiclass population. Classes
 differ in

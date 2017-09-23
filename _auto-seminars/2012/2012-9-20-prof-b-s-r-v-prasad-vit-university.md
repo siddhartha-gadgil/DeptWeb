@@ -2,8 +2,8 @@
 date: 2012-9-20
 speaker: "Prof B S R V Prasad VIT University, Vellore"
 title: "Dynamics of additional food provided predator-prey system with applications to biological control"
-time: "4:00 p.m.- 5:00 p.m."
-venue: "Department of Mathematics, LH-III"
+time: "4:00 p.m.- 5:00 p.m." 
+time: "Department of Mathematics, LH-III"
 ---
 Necessity to understand the role of additional food as a tool
 in biological control programs is being increasingly felt, particularly

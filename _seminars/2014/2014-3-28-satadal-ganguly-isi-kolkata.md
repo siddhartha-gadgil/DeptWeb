@@ -2,8 +2,8 @@
 date: 2014-3-28
 speaker: "Satadal Ganguly ISI Kolkata"
 title: "Recent progress towards the twin prime conjecture"
-time: "2:00 - 3:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2:00 - 3:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 A great progress on the twin prime problem was made last year by
 Yitang Zhang and it made him famous in Mathematical circles almost

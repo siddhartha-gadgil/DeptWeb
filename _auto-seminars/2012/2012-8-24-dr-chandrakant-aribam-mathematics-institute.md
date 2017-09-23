@@ -2,8 +2,8 @@
 date: 2012-8-24
 speaker: "Dr. Chandrakant Aribam Mathematics Institute, Heidelberg University"
 title: "Rational points on Elliptic curves and congruences between modular forms"
-time: "4:00 pm- 5:00 pm"
-venue: "Department of Mathematics, Lecture Hall 1"
+time: "4:00 pm- 5:00 pm" 
+time: "Department of Mathematics, Lecture Hall 1"
 ---
 Rational points on elliptic curves have found applications in cryptography
 and in the solution to some problems dating back to antiquity. However, we

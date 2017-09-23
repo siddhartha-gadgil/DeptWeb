@@ -2,8 +2,8 @@
 date: 2011-8-5
 speaker: "Prof. Rajendra Bhatia ISI Delhi"
 title: "Loewner matrices"
-time: "4:00-5:00 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "4:00-5:00 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 Let f be a smooth function on the real line. The divided difference
 matrices of order n, whose, (i,j)-th entries are the divided differences

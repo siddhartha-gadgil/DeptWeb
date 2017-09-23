@@ -2,8 +2,8 @@
 date: 2015-8-21
 speaker: "Jotsaroop Kaur (University of Milano, Italy)"
 title: "Localisation theorems for Bochner-Riesz means."
-time: "4 pm"
-venue: ""
+time: "4 pm" 
+
 ---
 - Define
 $S_R^{\\alpha}f:=\\int_{\\R^d}(1-\\frac{|\\xi|^2}{R^2})_{+}^{\\alpha}\\hat{f}(\\xi)\\exp^{i2\\pi

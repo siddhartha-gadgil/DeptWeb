@@ -2,8 +2,8 @@
 date: 2014-4-29
 speaker: "Mr. Devang S Ram Mohan IISc"
 title: "An Introduction to Minimal Surfaces"
-time: "3:30 - 4:30 p.m."
-venue: "Lecture Hall I, Department of Mathematics"
+time: "3:30 - 4:30 p.m." 
+time: "Lecture Hall I, Department of Mathematics"
 ---
 In this presentation we briefly recall some results on harmonic maps.
 Subsequently, we introduce the concept of minimal surfaces. After

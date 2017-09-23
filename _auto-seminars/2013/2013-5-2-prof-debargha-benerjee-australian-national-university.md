@@ -2,8 +2,8 @@
 date: 2013-5-2
 speaker: "Prof. Debargha Benerjee Australian National University"
 title: "Differential Modular forms on Shimura curves over totally real fields"
-time: "4:00 pm- 5:00pm"
-venue: "Department of Mathematics, LH-III"
+time: "4:00 pm- 5:00pm" 
+time: "Department of Mathematics, LH-III"
 ---
 -
 
