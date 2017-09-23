@@ -2,7 +2,7 @@
 date: 2013-3-8
 speaker: "Mokshay Madiman (Yale university)"
 title: "An exposition of selected tools from additive combinatorics"
-time: "2:00-3:30 PM" 
+time: "2:00-3:30 pm" 
 time: "LH-1, Department of mathematics."
 ---
 Tools from additive combinatorics are finding their way into

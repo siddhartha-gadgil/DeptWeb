@@ -2,7 +2,7 @@
 date: 2013-5-17
 speaker: "Kingshook Biswas Vivekananda University"
 title: "Renormalization and reverse renormalization in the dynamics of germs of holomorphic diffeomorphisms in C."
-time: "11-12 AM." 
+time: "11-12 am." 
 
 ---
 We discuss the renormalization and reverse renormalization

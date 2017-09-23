@@ -2,7 +2,7 @@
 date: 2015-8-12
 speaker: "Anita Naolekar (ISI, Bengaluru)"
 title: "Koszul duality theory for algebras."
-time: "11 AM" 
+time: "11 am" 
 
 ---
 Koszul duality theory is a homological method aiming at

@@ -2,7 +2,7 @@
 date: 2015-8-5
 speaker: "Anita Naolekar (ISI, Bengaluru)"
 title: "Operads: An Introduction."
-time: "11 AM" 
+time: "11 am" 
 
 ---
 An operad is an algebraic device which encodes a type of

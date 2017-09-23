@@ -2,7 +2,7 @@
 date: 2015-8-20
 speaker: "Aparajita Dasgupta (EPFL, Lausanne)"
 title: "Gohberg Lemma, Compactness and Essential Spectrum of Operators on Compact Lie Groups"
-time: "11 AM" 
+time: "11 am" 
 
 ---
 In this talk we prove a version of the Gohberg lemma on compact

@@ -2,7 +2,7 @@
 date: 2015-7-22
 speaker: "Professor Malabika Pramanik University of British Columbia, Vancouver"
 title: "Finite configurations in sparse sets"
-time: "11:30 AM" 
+time: "11:30 am" 
 
 ---
 A problem of interest in geometric measure theory both in

@@ -2,7 +2,7 @@
 date: 2014-6-2
 speaker: "Gopal Basak (ISI, Kolkata)"
 title: "A dynamic model of capital inflow and financial crisis in a two country and multi-country framework over infinite time horizon"
-time: "2:00-3:00 PM" 
+time: "2:00-3:00 pm" 
 time: "LH-I, department of mathematics"
 ---
 We construct a model of capital inflow in a two and multi-country 

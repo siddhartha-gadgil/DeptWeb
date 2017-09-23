@@ -2,7 +2,7 @@
 date: 2016-1-27
 speaker: "Tulasi Ram Reddy A"
 title: "On critical points of random polynomials and spectrum of certain products of random matrices"
-time: "11:00 AM" 
+time: "11:00 am" 
 time: "Lecture Hall 3, Department of Mathematics"
 ---
 In the first part we study critical points of random

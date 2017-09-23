@@ -123,7 +123,7 @@ case class Seminar(
 ){
   val abs = absOpt.getOrElse("").replace("\n ", "\n\n").replace("\n\t", "\n\n")
   val venueSt = venueOpt.map((v) => s"""time: "${trim(v)}"""").getOrElse("")
-  val timeSt = timeOpt.map((t) => s"""time: "${trim(t)}" """).getOrElse("")
+  val timeSt = timeOpt.map((t) => s"""time: "${trim(t).toLowerCase}" """).getOrElse("")
   val year = date._3
   val out =
 s"""---
@@ -142,7 +142,7 @@ ${abs.trim.replace("\\", "\\\\")}
   def save(d: Path) = write.over(d / year.toString / filename, out)
 }
 
-def trim(s: String) = "[\\s]+".r.replaceAllIn(s.replace("\"", ""), " ")
+def trim(s: String) = "[\\s]+".r.replaceAllIn(s.replace("\"", "").replace("\\", "\\\\"), " ")
 
 def mline(s: String) = trim(s.replace("\n", ","))
 
