@@ -166,4 +166,5 @@ lazy val allSems = byYear.map{case (y, sems) => sems.map(getSem(_, y)).collect{c
 
 def saveAll(d: Path = pwd / "_auto-seminars") = allSems.foreach(_.save(d))
 
-saveAll()
+def findDate(ss: Vector[String]) = ss.map(getDate(_, 2017)).foldLeft[Option[(Int, Int, Int)]](None){case (x, y) => x.orElse (y)}
+// saveAll()
