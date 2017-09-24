@@ -3,7 +3,7 @@ date: 2012-7-13
 speaker: "Mr. Dheeraj Kulkarni"
 title: "Relative Symplectic Caps, 4-Genus and Fibered Knots."
 time: "11.00 am- 12.00 noon" 
-time: "Department of Mathematics, Lecture Hall 1"
+venue: "Department of Mathematics, Lecture Hall 1"
 ---
 The $4$-genus of a knot is an important measure of complexity, related to
 the unknotting number. A fundamental result used to study the $4$-genus

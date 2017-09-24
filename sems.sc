@@ -96,10 +96,10 @@ def kv(k: String, s: String) : Option[String] =
 def kvc(k: String, s: String) =
     bl.split(s).map(kv(k, _)).fold[Option[String]](None){case (x, y) => x.orElse(y)}
 
-def getAbs(s: String) : Option[String] = {
+def getAbs(s: String) = {
   val ch = bl.split(s)
   val abs = kvc("Abstract", s).map(trim(_))
-  if (abs == Some("")) ch.zip(ch.tail).find(_._1.contains("Abstract")).map(_._2)
+  if (abs == Some("")) ch.zip(ch.tail).find((x) => x._1.contains("Abstract") || x._1.contains("ABSTRACT")).map(_._2)
   else abs
 }
 
@@ -131,7 +131,7 @@ case class Seminar(
   absOpt: Option[String]
 ){
   val abs = absOpt.getOrElse("").replace("\n ", "\n\n").replace("\n\t", "\n\n")
-  val venueSt = venueOpt.map((v) => s"""time: "${trim(v)}"""").getOrElse("")
+  val venueSt = venueOpt.map((v) => s"""venue: "${trim(v)}"""").getOrElse("")
   val timeSt = timeOpt.map((t) => s"""time: "${trim(t).toLowerCase}" """).getOrElse("")
   val year = date._3
   val out =
@@ -158,14 +158,14 @@ def mline(s: String) = trim(s.replace("\n", ","))
 def safe(s: String) = "[^a-z\\-]".r.replaceAllIn(s.toLowerCase.replace(" ","-"), "")
 
 def getSem(s: String, y: Int) =
-    for {
+    (for {
       dt <- date(s)
       d <- getDate(dt, y)
       sp <- kvc("Speaker", s).orElse(kvc("SPEAKER", s))
       t <- kvc("Title", s).orElse(kvc("Topic", s)).orElse(kvc("TITLE", s))
     } yield Seminar(
       d, trim(sp), trim(t), kvc("Venue", s).orElse(kvc("Location", s)).map(mline),
-      kvc("Time", s), getAbs(s))
+      kvc("Time", s), getAbs(s))).orElse(imiSem(s))
 
 lazy val finl = dat.map(getSem(_, 2017))
 
@@ -191,3 +191,26 @@ def writeFailed =
 
 def purgeParsed(f: Path) = if (!getSem(contents(f), 2017).isEmpty) rm(f)
 // saveAll()
+
+def prepLines(s: String) = {
+   val ch = chunk(s).map(trim(_))
+   ch.map((s) => trim(s).replace(" ", "")) .zip(ch.tail).filter((p) => Set("by", "at", "on").contains(p._1))
+}
+
+val imiYp = (wspc ~ word ~ punc ~ day   ~ punc ~ year | wspc ~ wrd ~ punc ~ word ~ punc ~ day ~ punc ~ year)
+
+def imiYear(s: String) = imiYp.parse(s).fold((_, _, _) => None, (x, _) => Some(x)).map{case (m, d, y) => (month(m), d.toInt, y.toInt)}
+
+
+def imiSem(s: String) : Option[Seminar] = {
+     val pl = prepLines(s)
+     val sp = pl.find(_._1 == "by").map(_._2)
+     val dt = pl.filter(_._1 == "on").map((p) => imiYear(p._2)).collect{case Some(x) => x}.headOption
+     val tit = pl.filter(_._1 == "on").filter((p) => imiYear(p._2).isEmpty).headOption
+     val ch = chunk(s)
+     val absOpt = ch.zip(ch.tail).find(_._1.toLowerCase.contains("abstract")).map(_._2)
+     val atOpt = pl.find(_._1 == "at").map((s) => s._2.trim)
+     val timeOpt = atOpt.map(_.split("[, ]").head)
+     val venueOpt = atOpt.map(_.split(",").tail.mkString(","))
+     for {d <- dt; s <- sp ; t <- tit} yield Seminar(d, trim(s), trim(t._2), timeOpt, venueOpt, absOpt)
+  }

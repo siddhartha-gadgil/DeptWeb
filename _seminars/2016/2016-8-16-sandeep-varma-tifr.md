@@ -3,7 +3,7 @@ date: 2016-8-16
 speaker: "Sandeep Varma (TIFR, Mumbai)"
 title: "On residues of certain intertwining operators"
 
-time: "LH-I, Department of Mathematics"
+venue: "LH-I, Department of Mathematics"
 ---
 Let $\\G$ be a connected reductive group over a finite extension
 $F$ of $\\mathbb{Q}_p$. Let $\\P = \\M \\N$ be a Levi decomposition of

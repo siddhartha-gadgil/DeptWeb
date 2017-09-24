@@ -3,7 +3,7 @@ date: 2017-3-9
 speaker: "Mamta Balodi (IMSc)"
 title: "A result for boolean interval of finite groups"
 time: "4 pm" 
-time: "LH-3"
+venue: "LH-3"
 ---
 A group is cyclic iff its subgroup lattice is distributive. Ore's
 generalized one direction of this result. We will discuss a dual version

@@ -3,7 +3,7 @@ date: 2009-7-24
 speaker: "Dr. V. Sreekar"
 title: "Gaussian Minkowski functionals: an overview of infinite dimensional geometry in Wiener space"
 time: "4 - 5 pm." 
-time: "LH-III, Department of Mathematics"
+venue: "LH-III, Department of Mathematics"
 ---
 Gaussian Minkowski functionals (GMFs) for reasonably smooth subsets of
 Euclidean spaces, are defined as coefficients appearing in the the

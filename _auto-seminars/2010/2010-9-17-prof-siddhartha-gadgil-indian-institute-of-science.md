@@ -3,6 +3,6 @@ date: 2010-9-17
 speaker: "Prof. Siddhartha Gadgil Indian Institute of Science"
 title: "Distinguishing knots"
 time: "2:00 p.m." 
-time: "Lecture Hall III, Department of Mathematics"
+venue: "Lecture Hall III, Department of Mathematics"
 ---
 

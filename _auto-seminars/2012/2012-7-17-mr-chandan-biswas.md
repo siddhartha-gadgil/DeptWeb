@@ -3,7 +3,7 @@ date: 2012-7-17
 speaker: "Mr. Chandan Biswas"
 title: "Analytic continuation in several complex variables"
 time: "10:00 - 11:00 a.m." 
-time: "Department of Mathematics, LH-1"
+venue: "Department of Mathematics, LH-1"
 ---
 We wish to study those domains in $\\mathbb{C}^n$, for $n\\geq 2$, the
 so-called domains of holomorphy, which are in some sense the maximal

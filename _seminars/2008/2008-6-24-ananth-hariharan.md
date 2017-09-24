@@ -3,7 +3,7 @@ date: 2008-6-24
 speaker: "Ananth Hariharan"
 title: "The Gorenstein Colength of an Artinian Local Ring"
 time: "4:00 p.m." 
-time: "LH 1, Mathematics Department"
+venue: "LH 1, Mathematics Department"
 ---
 The question we are interested in is the following: Given an Artinian local 
 ring, how 'close' can we get to it by an Artinian Gorenstein local ring. In 

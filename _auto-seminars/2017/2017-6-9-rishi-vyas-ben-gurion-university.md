@@ -3,7 +3,7 @@ date: 2017-6-9
 speaker: "Rishi Vyas (Ben Gurion University, Israel)"
 title: "A noncommutative Matlis-Greenlees-May equivalence"
 time: "3 pm" 
-time: "LH-1"
+venue: "LH-1"
 ---
 The notion of a weakly proregular sequence in a commutative ring was first
 formally introduced by Alonso-Jeremias-Lipman (though the property that it
