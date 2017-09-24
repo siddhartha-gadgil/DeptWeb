@@ -1,7 +1,0 @@
----
-date: 2013-2-19
-speaker: "Professor B. V. Limaye (IIT Bombay)"
-title: "On condition numbers of a basis"
-venue: "LH-II, Department of Mathematics"
----
-

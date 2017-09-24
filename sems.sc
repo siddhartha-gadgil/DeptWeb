@@ -199,7 +199,7 @@ def prepLines(s: String) = {
 
 val imiYp = (wspc ~ word ~ punc ~ day   ~ punc ~ year | wspc ~ wrd ~ punc ~ word ~ punc ~ day ~ punc ~ year)
 
-def imiYear(s: String) = imiYp.parse(s).fold((_, _, _) => None, (x, _) => Some(x)).map{case (m, d, y) => (month(m), d.toInt, y.toInt)}
+def imiYear(s: String) = imiYp.parse(s).fold((_, _, _) => None, (x, _) => Some(x)).map{case (m, d, y) => (d.toInt, month(m), y.toInt)}
 
 
 def imiSem(s: String) : Option[Seminar] = {
