@@ -70,7 +70,7 @@ val wmd = nc.rep ~ ":" ~  punc ~ wrd ~ punc   ~ word ~ punc ~ day
 val wdm = nc.rep ~ ":" ~  punc ~ wrd ~ punc ~ day ~ punc ~ word
 val wdmy = nc.rep ~ ":" ~  punc ~ wrd ~ punc ~ day ~ punc ~ word ~ punc ~ year
 
-val sl = day ~ ("/"| "-" | ".") ~ day ~ ("/"| "-" | ".") ~ year
+val sl = day ~ ("/"| "-" | ".") ~ day ~ ("/"| "-" | ".") ~ (year | day.map("20" + _))
 val wsl = nc.rep ~ ":" ~  punc ~ wrd ~ punc ~sl
 val ssl = nc.rep ~ ":" ~  punc ~sl
 
