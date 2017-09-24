@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.129.41.2 with SMTP id p2csp2445341ywp;
+        Tue, 25 Aug 2015 05:44:23 -0700 (PDT)
+X-Received: by 10.107.38.10 with SMTP id m10mr28530214iom.98.1440506663030;
+        Tue, 25 Aug 2015 05:44:23 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTP id m3si32865881pdk.211.2015.08.25.05.44.19;
+        Tue, 25 Aug 2015 05:44:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id t7PCiAQ8032642;
+	Tue, 25 Aug 2015 18:14:11 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t7PCsQkc013380;
+	Tue, 25 Aug 2015 18:24:26 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id t7PCsPls013373;
+	Tue, 25 Aug 2015 18:24:25 +0530
+Date: Tue, 25 Aug 2015 18:24:25 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in, manju@math.iisc.ernet.in
+Subject: [Seminar] eigenfunctions": Math: 04 Sep
+Message-ID: <alpine.LFD.2.03.1508251818570.13210@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1325299538-1440507265=:13210"
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-4.4,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1325299538-1440507265=:13210
+Content-Type: TEXT/PLAIN; format=flowed; charset=UTF-8
+Content-Transfer-Encoding: 8BIT
+
+Dear all, there will be two lectures in the Eigenfunctions seminar on 4th 
+Sep, 2015.
+
+
+--------------------------------------------
+Lectue 1:
+
+Speaker: Siegfried Böcherer (Universität Mannheim)
+
+Title: Maximal and extremal lattices
+
+Time and venue: 04 Sep, 2:15 PM, LH-1, Dept of mathematics
+
+Abstract: We consider integral lattices L in an euclidian space V = R^m, 
+i.e. Z-submodules of full rank in V such that all vectors in L have 
+integral length. It is impossible to classify such lattices up to 
+isometry, there are just too many of them in general, even if we ﬁx 
+additional invariants such as the discriminant. Therefore one looks for 
+interesting subclasses of lattices, in particular “extremal lattices”, 
+characterized by the property that the smallest length of a non-zero 
+vector in L is "as large as possible". There are several ways to
+make this more precise, we will focus on analytic extremality, where modu-
+lar forms come in. In particular, we will consider extremality for maximal
+lattices.
+
+------------------------------
+
+Lecture 2:
+
+Speaker: Navin Goyal (Microsoft research, Bangalore)
+
+Title: Algorithms for independent component analysis
+
+Time and venue: 04 Sep, 3:30 PM, LH-1, Dept of mathematics
+
+Abstract: Independent component analysis (ICA) is a basic problem that 
+arises in several areas including signal processing, statistics, and 
+machine learning. In this problem, we are given linear superpositions of 
+signals. E.g., we could be receiving signals from several sensors but the 
+receivers only get the weighted sums of these signals. The problem is to 
+recover the original signals from the superposed data. In some situations 
+this turns out to be possible: the main assumption being that the signals 
+at different sensors are independent random variables. While independent 
+component analysis is a well-studied problem, one version of it was not 
+well-understood, namely when the original signals are allowed to be 
+heavy-tailed, such as those with a Pareto distribution. Such signals do 
+arise in some applications. In this talk, I will first discuss the 
+previously known algorithms for ICA and then a new algorithm that applies 
+also to for the heavy-tailed case. The techniques used are basic linear 
+algebra and probability.
+
+-----------------------------------------
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1325299538-1440507265=:13210--

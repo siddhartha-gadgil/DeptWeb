@@ -1,0 +1,124 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.100.132.8 with SMTP id f8cs42421and;
+        Mon, 26 Jan 2009 20:08:56 -0800 (PST)
+Received: by 10.142.44.11 with SMTP id r11mr1679831wfr.249.1233029335400;
+        Mon, 26 Jan 2009 20:08:55 -0800 (PST)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.65])
+        by mx.google.com with ESMTP id 32si17815286wfa.0.2009.01.26.20.08.43;
+        Mon, 26 Jan 2009 20:08:54 -0800 (PST)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 220.227.207.65 as permitted sender) client-ip=220.227.207.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 220.227.207.65 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n0R4Cbxk018713;
+	Tue, 27 Jan 2009 09:42:37 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id n0R90pe0003136;
+	Tue, 27 Jan 2009 09:00:51 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id n0R90p4n003135;
+	Tue, 27 Jan 2009 09:00:51 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 27 Jan 2009 09:00:51 -0000 (UTC)
+Message-ID: <1369.10.134.13.39.1233046851.squirrel@math.iisc.ernet.in>
+Date: Tue, 27 Jan 2009 09:00:51 -0000 (UTC)
+Subject: Math:  Remainder: Seminar by Prof. S. Gindikin: "Introduction in 
+     Matrix      Geometrical Analysis"Jan 27 ,29, 2009 and Feb 02 - 20,
+          2009 at 11:15 AM  and 04.00 PM]
+To: m_amall@math.iisc.ernet.in, m_fac@math.iisc.ernet.in,
+        m_tifrfac@math.iisc.ernet.in, m_isifac@math.iisc.ernet.in,
+        m_seminar@math.iisc.ernet.in, tsuall@jncasr.ac.in, emuall@jncasr.ac.in,
+        broadcast@iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All,
+
+                          IISc Mathematics Initiative
+                           Department of Mathematics
+                          Indian Institute of Science
+                                  Bangalore
+                          ------------------------
+
+                                  announces
+
+                                compact course
+
+                                      on
+
+
+                   "Introduction in Matrix Geometrical Analysis"
+
+
+                                      by
+
+                              Prof. S. Gindikin
+                   Rutgers University, New Brunswick, USA
+
+                                      on
+
+                        January 27, 29, 2009 at 11:15 AM
+                              (Tuesday , Thursday)
+
+                                      and
+
+                        February 02 - 20, 2009 at 4:00 PM
+                        (Every Monday, Wednesday, Friday)
+
+                                       at
+
+                       L H  1, Department of Mathematics
+                       Indian Institute of Science, Bangalore
+
+
+
+                                     Abstract
+
+(Geometry and Analysis in Siegels Universe)
+What is a multi-dimensional analysis? There is a straight forward way to
+apply one-dimensional analysis to each of several variables, but it is
+much more interesting to explore irreducible possibilities. One of most
+successful realizations goes back to Siegel, who considered the matrix
+line of symmetric matrices. We build step-by-step geometry of matrices 
+analogues of half-lines, segments, projective geometry, quadrics,
+complexifications, discs, half-planes, Cayley transform, conformal
+geometry etc. Simultaneously, we develop matrix analogues of analytic
+objects  Euler integrals, derivatives and antiderivatives,
+Riemann-Liouville integrals (fractional derivatives), Cauchy integral
+formulas, residues, etc. We will discuss also some generalizations in a
+context of analysis on symmetric spaces.
+
+
+
+                          ***********************
+                              ALL ARE INVITED
+                       Coffee/Tea: 11:00 AM and 03:45 PM
+
+                                                             G.Rangarajan
+                                                               Convener
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

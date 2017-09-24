@@ -1,0 +1,76 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.17 with SMTP id s17cs294682buc;
+        Sun, 30 Mar 2008 22:44:05 -0700 (PDT)
+Received: by 10.114.88.1 with SMTP id l1mr9275810wab.79.1206942243699;
+        Sun, 30 Mar 2008 22:44:03 -0700 (PDT)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id m40si4922892wag.0.2008.03.30.22.43.46;
+        Sun, 30 Mar 2008 22:44:03 -0700 (PDT)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m2V5qQJU000405;
+	Mon, 31 Mar 2008 11:22:26 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m2VApT7n013373
+	for <m_seminar@math.iisc.ernet.in>; Mon, 31 Mar 2008 10:51:29 GMT
+Received: from localhost (harish@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m2VApRwq013370
+	for <m_seminar@math.iisc.ernet.in>; Mon, 31 Mar 2008 10:51:29 GMT
+Date: Mon, 31 Mar 2008 10:51:27 +0000 (UTC)
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Message-ID: <Pine.LNX.4.61.0803311045590.13008@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII; format=flowed
+Content-ID: <Pine.LNX.4.61.0803311045592.13008@math.iisc.ernet.in>
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: harish@math.iisc.ernet.in
+Subject: IISc Mathematics Seminar on 3rd April:  The Behavior of the Mordell-Weil Groups for an Elliptic Curve
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+
+
+Dear All,
+
+
+     Title: The Behavior of the Mordell-Weil Groups for an Elliptic Curve.
+
+     Speaker:  Prof. Ralph Greenberg
+               University of Washington
+
+     Time and Date:  4 to 5 PM , 3rd April (Thursday)
+
+          Venue: LH 1 Department of Mathematics IISc
+
+
+Abstract:  The set of points on an elliptic curve with coordinates in a
+given field K can be naturally made into an abelian group.  The structure
+of this group varies considerably as the field K is allowed to vary.
+Nevertheless there is some degree of regularity to this behavior,
+partly proven, but mostly conjectural. We will describe what we know about
+this topic.
+
+
+
+
+harish
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

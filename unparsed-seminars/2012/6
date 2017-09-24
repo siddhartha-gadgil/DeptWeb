@@ -1,0 +1,87 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.30.193 with SMTP id u1csp202074lbh;
+        Tue, 27 Nov 2012 02:28:19 -0800 (PST)
+Received: by 10.68.224.8 with SMTP id qy8mr46292516pbc.88.1354012098836;
+        Tue, 27 Nov 2012 02:28:18 -0800 (PST)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.66])
+        by mx.google.com with ESMTPS id zz3si23696098pbc.301.2012.11.27.02.28.16
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 27 Nov 2012 02:28:18 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) client-ip=203.200.35.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.66 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id qARAHBMf015335;
+	Tue, 27 Nov 2012 15:47:11 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id qARAH30I012924;
+	Tue, 27 Nov 2012 15:47:03 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id qARAH2vD012923;
+	Tue, 27 Nov 2012 15:47:02 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from avg.math.iisc.ernet.in ([10.134.10.30])
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 27 Nov 2012 15:47:02 +0530 (IST)
+Message-ID: <31230554e54cf3e8d1e9138cacaedc2b.squirrel@math.iisc.ernet.in>
+Date: Tue, 27 Nov 2012 15:47:02 +0530 (IST)
+Subject: Reminder: MATH: Nov 27th,
+           2012: "Eigenvalues of sparse regular random graphs"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+Cc: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.389, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, FSL_RCVD_USER 0.00, NO_RDNS2 0.01,
+	SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear all,
+
+      IISc Mathematics Initiative(IMI)
+         Department of Mathematics
+        Indian Institute of Science
+               Bangalore
+         ------------------------
+
+
+Speaker: Prof. Soumik Pal (University of Washington, Seattle)
+
+Date: 27/Nov/2012
+
+Time: 4:00-5:00
+
+Venue: LH-I, Department of Mathematics
+
+Title: Eigenvalues of sparse regular random graphs
+
+Abstract: Adjacency matrices of sparse random regular graphs are long
+conjectured to lie within the universality class of random matrices. However,
+there are few rigorously known results. We focus on fluctuations of linear
+eigenvalue statistics of a stochastic process of such adjacency matrices
+growing in dimension. The idea is to compare with eigenvalues of minors of
+Wigner matrices whose fluctuation converges to the Gaussian Free Field. We
+show that linear eigenvalue statistics can be described by a family of Yule
+processes with immigration. Certain key features of the Free Field emerge as
+the degree tends to infinity. Based on joint work with Tobias Johnson.
+
+        All are cordially invited.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

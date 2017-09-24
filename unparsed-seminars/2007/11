@@ -1,0 +1,67 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.141.37.12 with SMTP id p12cs5187rvj;
+        Thu, 27 Sep 2007 02:00:02 -0700 (PDT)
+Received: by 10.114.120.1 with SMTP id s1mr2183514wac.1190883602084;
+        Thu, 27 Sep 2007 02:00:02 -0700 (PDT)
+Return-Path: <ravindra@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id k37si2167252waf.2007.09.27.01.59.14;
+        Thu, 27 Sep 2007 02:00:02 -0700 (PDT)
+Received-SPF: pass (google.com: domain of ravindra@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of ravindra@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=ravindra@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id l8R92BlU032701;
+	Thu, 27 Sep 2007 14:32:11 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id l8REIuSM004693;
+	Thu, 27 Sep 2007 14:18:56 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id l8REIjL2004687;
+	Thu, 27 Sep 2007 14:18:45 GMT
+From: ravindra@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to ravindra@math.iisc.ernet.in using -f
+Received: from 59.91.233.170
+        (SquirrelMail authenticated user ravindra)
+        by math.iisc.ernet.in with HTTP;
+        Thu, 27 Sep 2007 14:18:45 -0000 (UTC)
+Message-ID: <10221.59.91.233.170.1190902725.squirrel@math.iisc.ernet.in>
+Date: Thu, 27 Sep 2007 14:18:45 -0000 (UTC)
+Subject: Geometry seminar tomorrow at TIFR centre
+To: m_seminar@math.iisc.ernet.in
+Cc: ramesh@math.tifr.res.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50)
+X-IISc-MailScanner-From: ravindra@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+Dear All
+
+This Friday's Geometry Seminar will be by Murali Vemuri from CMI, Chennai.
+
+Title: Some Schatten class estimates
+
+Abstract: An $L^p$ estimate for the windowed Fourier transform
+of the harmonic oscillator is given.  This, together with Schatten
+class interpolation is used to show that a point is a Calderon
+set (set of spectral synthesis) for the windowed Fourier transform.
+
+As usual it will be at 2 pm in the TIFR Centre, IISC. Campus.
+
+Best
+Ravindra
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

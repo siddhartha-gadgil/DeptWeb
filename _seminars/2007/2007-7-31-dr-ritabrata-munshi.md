@@ -5,5 +5,4 @@ title: "The arithmetic of elliptic surfaces"
 time: "11.30 a.m." 
 time: "Lecture Hall - I, Dept. of Mathematics"
 ---
-A family of elliptic curves (or an elliptic surface) is given by a 
-Weierstrass equation
+A family of elliptic curves (or an elliptic surface) is given by a Weierstrass equation

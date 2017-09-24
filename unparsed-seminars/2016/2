@@ -1,0 +1,176 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.1 with SMTP id vs1csp339498ieb;
+        Thu, 13 Oct 2016 06:19:33 -0700 (PDT)
+X-Received: by 10.66.88.40 with SMTP id bd8mr8495104pab.6.1476364773097;
+        Thu, 13 Oct 2016 06:19:33 -0700 (PDT)
+Return-Path: <vamsipritham@gmail.com>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id e5si11017726pga.8.2016.10.13.06.19.32;
+        Thu, 13 Oct 2016 06:19:32 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning vamsipritham@gmail.com does not designate 14.139.128.65 as permitted sender) smtp.mailfrom=vamsipritham@gmail.com
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 59574AE238C;
+	Thu, 13 Oct 2016 18:52:13 +0530 (IST)
+Received: from mail.iisc.ernet.in (mail.iisc.ernet.in [10.16.25.16])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u9DDMHLQ029106
+	for <m_seminar@math.iisc.ernet.in>; Thu, 13 Oct 2016 18:52:17 +0530
+Received-SPF: pass (gmail.com ... _spf.google.com: Sender is authorized to use 'vamsipritham@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched)) receiver=mail.iisc.ernet.in; identity=mailfrom; envelope-from="vamsipritham@gmail.com"; helo=mail-yb0-f176.google.com; client-ip=209.85.213.176
+Received: from mail-yb0-f176.google.com (mail-yb0-f176.google.com [209.85.213.176])
+	by mail.iisc.ernet.in (Postfix) with ESMTP id 46310AE02C1
+	for <m_seminar@math.iisc.ernet.in>; Thu, 13 Oct 2016 18:49:22 +0530 (IST)
+Received: by mail-yb0-f176.google.com with SMTP id o189so5099209yba.1
+        for <m_seminar@math.iisc.ernet.in>; Thu, 13 Oct 2016 06:19:05 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=ALQdOGuTXKmMTtz5PoBEtl6WMu03zeuw3DWW/P+OH0Y=;
+        b=UOTQV+gn0I0Y2DuFcHK7vt3XkRO3iP0Art86RlI2t1Mfol69a3p87FF8lZGyOMVEut
+         9ULeVHBPIakciX2DUi9KEzRhfL9sijsT/a9Ms0uHdhTa7GstAmyogeXMznerwPNMxkW4
+         YWzSTi4XosuI3WYLGvK+0mvEwLgar4r6Ve5/5enfI/XnYhhl4CJ4+Mg+QZ/yuAsFlOIZ
+         JONNcFEarQDb4f2RopDguBWArr62JPj5LWQatfixESfgSLskwirT91ZKtUoWQaudaQ92
+         RuYnkKXgeyJ6Upt5SVZgtG97kcPozIC6+ikq+I1NmMV91Jgxov8RAlJhNPH7kUrnMMMu
+         fyeQ==
+X-Gm-Message-State: AA6/9Rkor5vALm3B29DdmBIv0RGDRQl6RsJ9aLXRaPnTFNrrR7YS4pT09+R7up0cfwyeiQ==
+X-Received: by 10.37.221.194 with SMTP id u185mr5676149ybg.135.1476364743987;
+        Thu, 13 Oct 2016 06:19:03 -0700 (PDT)
+Received: from mail-yw0-f182.google.com (mail-yw0-f182.google.com. [209.85.161.182])
+        by smtp.gmail.com with ESMTPSA id l9sm4568785ywb.1.2016.10.13.06.19.03
+        for <m_seminar@math.iisc.ernet.in>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 13 Oct 2016 06:19:03 -0700 (PDT)
+Received: by mail-yw0-f182.google.com with SMTP id u124so52724981ywg.3
+        for <m_seminar@math.iisc.ernet.in>; Thu, 13 Oct 2016 06:19:03 -0700 (PDT)
+X-Received: by 10.13.238.197 with SMTP id x188mr5265423ywe.98.1476364743319;
+ Thu, 13 Oct 2016 06:19:03 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: vamsipritham@gmail.com
+Received: by 10.37.61.66 with HTTP; Thu, 13 Oct 2016 06:18:22 -0700 (PDT)
+From: Vamsi Pritham Pingali <vamsipingali@math.iisc.ernet.in>
+Date: Thu, 13 Oct 2016 18:48:22 +0530
+X-Gmail-Original-Message-ID: <CALSDV2bWBXX1N08n26i97Wgz8XbHMXH16z1oKRpfXh8OL277sQ@mail.gmail.com>
+Message-ID: <CALSDV2bWBXX1N08n26i97Wgz8XbHMXH16z1oKRpfXh8OL277sQ@mail.gmail.com>
+Subject: Seminar by Shane D'Mello on Oct 24 (Tuesday)
+To: m_seminar@math.iisc.ernet.in
+Content-Type: multipart/alternative; boundary=94eb2c033fe015cea2053ebef470
+X-Sophos-smtpxy-version: 1.0.6.3
+X-Sophos-AV-Policy: default-smtp-av
+X-RBL-Sophos: clean
+X-RBL-Sophos: clean
+X-Sophos-IBS: success
+X-CTCH-PVer:  0000001
+X-CTCH-Spam:  Unknown
+X-CTCH-VOD:  Unknown
+X-CTCH-Flags:  0
+X-CTCH-RefID:  str=0001.0A160206.57FF89CD.0040,ss=1,re=0.000,recu=0.000,reip=0.000,cl=1,cld=1,fgs=0
+X-CTCH-Score:  0.000
+X-CTCH-ScoreCust:  0.000
+X-CTCH-Rules:  
+X-IISc-MailScanner: Found to be clean, Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.099, required 6.5, autolearn=not spam, BAYES_00 -1.90,
+	FREEMAIL_FORGED_FROMDOMAIN 0.00, FREEMAIL_FROM 0.00,
+	HEADER_FROM_DIFFERENT_DOMAINS 0.00, MR_NOT_ATTRIBUTED_IP 0.20,
+	RCVD_IN_MSPIKE_H2 -0.00, SPF_PASS -0.00, SUBJECT_MONTH -1.50,
+	_FROM_IISC 0.10), 
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 59574AE238C.A2622
+X-IISc-MailScanner-From: vamsipritham@gmail.com
+MailScanner-NULL-Check: 1476969735.05154@i+1oye9aneWmIV8pHbZHtw
+
+
+--94eb2c033fe015cea2053ebef470
+Content-Type: text/plain; charset=UTF-8
+
+Dear All,
+
+    Shane D' Mello who is currently a postdoc at IISER Pune will be giving
+a talk on Tuesday, Oct 24 from 4-5 pm in LH 1. Here are the title and the
+abstract :
+
+ Title: Some results on the topology of real algebraic curves
+
+ Abstract: The topology of real algebraic varieties is the study of the
+topology of objects that can be defined real algebraically and particularly
+the restrictions that the real algebraic structure imposes on the topology.
+Hilbert's famous address motivated an interest in the so called Hilbert's
+sixteenth problem of classifying, up to isotopy, real algebraic curves of a
+given degree. While successful only up to degree 7, it has motivated many
+natural and interesting questions and generalizations.
+               We will  look at some of these questions including a
+criterion for curves that have the maximum permissible number of components
+in terms of the Jacobian of the complexification of the curve, the
+reduction of the classification of real planar rational quartics to the
+simple combinatorial classification of  "extended" chord diagrams, the
+classification of real rational knots of low degrees, and an application of
+braid groups in constructing real rational representatives of knots.
+
+    I hope you can attend. By the way, Shane D' Mello is open to shifting
+it to Monday from 4-5 if that is more convenient for most of you. I have a
+feeling that this talk might be of interest to Siddhartha and perhaps even
+Basudeb.
+
+    For multiple reasons I feel a teensy bit awkward saying this* : He is a
+potential faculty applicant.
+
+Thanking you,
+Vamsi
+
+* : As a friend recently told me, one's ability to keep one's mouth shut is
+limited.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--94eb2c033fe015cea2053ebef470
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div></div>Dear All,<div></div><div>=C2 =C2 =
+Shane D&#39; Mello who is currently a postdoc at IISER Pune will be giving =
+a talk on Tuesday, Oct 24 from 4-5 pm in LH 1. Here are the title and the a=
+bstract :=C2</div><div></div><div>=C2<span style=3D"font-size:12.=
+8px">Title: Some results on the topology of real algebraic curves</span></d=
+iv><div style=3D"font-size:12.8px"><div>=C2Abstract: The topology of=
+ real algebraic varieties is the study of the topology of objects that can =
+be defined real algebraically and particularly the restrictions that the re=
+al algebraic structure imposes on the topology. Hilbert&#39;s famous addres=
+s motivated an interest in the so called Hilbert&#39;s sixteenth problem of=
+ classifying, up to isotopy, real algebraic curves of a given degree. While=
+ successful only up to degree 7, it has motivated=C2<span style=3D"font-=
+size:12.8px">many natural and interesting questions and generalizations.=C2=
+</span></div><div><span style=3D"font-size:12.8px">=C2 =C2 =C2 =
+=C2 =C2 =C2 =C2 =C2We will =C2look at some of these quest=
+ions including a criterion for curves that have the maximum permissible num=
+ber of components in terms of the Jacobian of the complexification of the c=
+urve, the reduction of the classification of real planar rational quartics =
+to the simple combinatorial classification of =C2&quot;extended&quot; ch=
+ord diagrams, the classification of real rational knots of low degrees, and=
+ an application of braid groups in constructing real rational representativ=
+es of knots.</span></div></div><div><span style=3D"font-size:12.8px"><b=
+r></span></div><div><span style=3D"font-size:12.8px">=C2 =C2 I hope y=
+ou can attend. By the way, Shane D&#39; Mello is open to shifting it to Mon=
+day from 4-5 if that is more convenient for most of you. I have a feeling t=
+hat this talk might be of interest to Siddhartha and perhaps even Basudeb.<=
+br></span></div><div><span style=3D"font-size:12.8px">=C2 =C2 For=
+ multiple reasons I=C2feel a teensy bit awkward saying this* : He is a p=
+otential faculty applicant.</span></div><div><span style=3D"font-size:12.8p=
+x"></span></div><div><span style=3D"font-size:12.8px">Thanking you,</sp=
+an></div><div><span style=3D"font-size:12.8px">Vamsi</span></div><div><span=
+ style=3D"font-size:12.8px"></span></div><div><span style=3D"font-size:=
+12.8px">* : As a friend recently told me, one&#39;s ability to keep one&#39=
+;s mouth shut is limited.</span></div></div>
+<br />--=20
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href=3D"http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+
+
+--94eb2c033fe015cea2053ebef470--

@@ -1,0 +1,107 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.114.240.2 with SMTP id n2cs49795wah;
+        Wed, 1 Apr 2009 02:26:31 -0700 (PDT)
+Received: by 10.110.10.16 with SMTP id 16mr11053623tij.27.1238577990345;
+        Wed, 01 Apr 2009 02:26:30 -0700 (PDT)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in ([203.200.35.65])
+        by mx.google.com with ESMTP id 25si1594tif.12.2009.04.01.02.26.27;
+        Wed, 01 Apr 2009 02:26:29 -0700 (PDT)
+Received-SPF: neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of imi@math.iisc.ernet.in) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com; spf=neutral (google.com: 203.200.35.65 is neither permitted nor denied by best guess record for domain of imi@math.iisc.ernet.in) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id n319U4UL003066;
+	Wed, 1 Apr 2009 15:00:04 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id n319QTdq032084;
+	Wed, 1 Apr 2009 14:56:29 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id n319QTh7032083;
+	Wed, 1 Apr 2009 14:56:29 +0530
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@localhost using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by www.math.iisc.ernet.in with HTTP;
+        Wed, 1 Apr 2009 14:56:29 +0530 (IST)
+Message-ID: <20fef68c3bacf3a27db78d3d090c5ac3.squirrel@www.math.iisc.ernet.in>
+Date: Wed, 1 Apr 2009 14:56:29 +0530 (IST)
+Subject: MATH:SEMINAR by Prof. Michael Dritschel on "Completely bounded   
+     kernels" on  April 09,2009 at 4:00 PM
+To: m_amall@math.iisc.ernet.in, m_fac@math.iisc.ernet.in,
+        m_tifrfac@math.iisc.ernet.in, m_isifac@math.iisc.ernet.in,
+        m_seminar@math.iisc.ernet.in, tsuall@jncasr.ac.in, emuall@jncasr.ac.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+
+
+Dear All,
+
+                          IISc Mathematics Initiative
+                           Department of Mathematics
+                          Indian Institute of Science
+                                  Bangalore
+                          ------------------------
+
+                                   announces
+
+                                    Seminar
+
+                                      by
+
+                           Prof. Michael Dritschel
+                           Newcastle University, UK
+
+                                       on
+
+                                 April 09,2009
+                                    Thursday
+
+                                       at
+
+                    4:00 PM, LH -1, Department of Mathematics
+                      Indian Institute of Science, Bangalore
+
+
+
+
+Title : Completely bounded kernels
+
+Abstract: Given a set $X$ and two $C^*$-algebras $A$ and $B$, a kernel $k$
+is defined as a function from $X\times X$ to $L(A, B)$, the bounded linear
+maps from $A$ to $B$. The kernel $k$ is positive if for all finite sets $F
+= \{(x_j , a_j)\} \subset X \times A$, the matrix \begin{equation*}
+(k(x_i, x_j)[a_ia^*_j ])_{F\times F} \qquad\qquad(*)
+\end{equation*}
+is nonnegative. If the same is true whenever we replace $X\times A$ by
+$X\times M_n(A)$ and $k$ by $k\otimes 1_n$ for any $n\in \mathbb N$, then
+$k$ is said to be completely positive (the two concepts coincide when $A =
+B = \mathbb C$).  Completely positive kernels have several equivalent
+characterisations, including the existence of a so-called Kolmogorov
+decomposition.  Constantinescu and Gheondea, generalising results of
+Laurent Schwartz, considered kernels $k$ where the matrix in ($*$) is
+merely selfadjoint with $L(A, B) = B(H)$, $H$ a Hilbert space, and found
+necessary and sufficient conditions for the decomposability of such
+kernels as the difference of (completely) positive kernels.  A result of
+Haagerup implies that when $A$ and $B$ are von Neumann algebras such
+decompositions in terms of completely positive kernels will fail if $B$ is
+not injective.  In this talk we discuss decomposability of self adjoint
+kernels as differences of
+completely positive kernels when $A$ and $B$ are $C^*$-algebras,
+characterising decomposable kernels.  We also discuss the case when
+the matrix in ($*$) is a only a completely bounded map, giving an
+analogue of the Wittstock decomposition for such kernels.
+
+This is joint work with Tirtha Bhattacharyya and Chris Todd.
+
+                            ALL ARE INVITED
+                          Coffee/tea : 3:45 PM
+
+                                                              G.Rangarajan
+                                                                 Convener
+
+

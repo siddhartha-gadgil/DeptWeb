@@ -1,0 +1,118 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.119.4 with SMTP id r4cs189035buc;
+        Thu, 3 Jan 2008 21:01:36 -0800 (PST)
+Received: by 10.141.20.7 with SMTP id x7mr8546214rvi.207.1199422894238;
+        Thu, 03 Jan 2008 21:01:34 -0800 (PST)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.122])
+        by mx.google.com with ESMTP id f21si1554690rvb.15.2008.01.03.21.01.21;
+        Thu, 03 Jan 2008 21:01:34 -0800 (PST)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) client-ip=144.16.79.122;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 144.16.79.122 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m044tPOZ028960;
+	Fri, 4 Jan 2008 10:25:26 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m04AEbqU011387
+	for <m_seminar@math.iisc.ernet.in>; Fri, 4 Jan 2008 10:14:37 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id m04AEbQR011386;
+	Fri, 4 Jan 2008 10:14:37 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 4 Jan 2008 10:14:37 -0000 (UTC)
+Message-ID: <1341.10.134.13.39.1199441677.squirrel@math.iisc.ernet.in>
+Date: Fri, 4 Jan 2008 10:14:37 -0000 (UTC)
+Subject: Today: IMI: Seminar: Introduction to Nonstandard Finite Difference 
+     Models of Differential Equations,
+      With Applications to Wave Propagation,
+      and Biology: James.B.Cole: Jan 4th: 11 am
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-0.8,
+	required 9, ALL_TRUSTED -1.80, BAYES_60 1.00)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+
+
+                         IISc Mathematics Initiative
+                          Department of Mathematics
+                              IISc, Bangalore
+
+   ---------------------------------------------------------------------
+
+                                  SEMINAR
+
+
+          Introduction to Nonstandard Finite Difference Models of
+                        Differential Equations,With
+                Applications to Wave Propagation, and Biology
+
+
+                                     by
+
+                               James B. Cole
+                       University of Tsukuba, Japan
+
+
+                   on Friday, January 4, 2008 at 11:00 am
+                  in the Lecture Hall - 1 , IISc, Bangalore
+
+
+
+                                  Abstract:
+
+
+         Using what are called nonstandard finite models of differential
+equations it is possible to greatly enhance the accuracy of finite
+difference algorithms on a coarse grid without resorting to higher order
+finite difference approximations. We show how to construct models, and use
+them to solve some example problems in wave Propagation and scattering
+
+
+                   ******************************************
+                               ALL ARE INVITED
+                            Coffee/Tea: 10:45 am
+
+
+
+							Mrinal K. Ghosh
+                                                            Chairman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

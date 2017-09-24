@@ -1,0 +1,67 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.19 with SMTP id q19cs535645buc;
+        Thu, 31 Jan 2008 21:48:48 -0800 (PST)
+Received: by 10.141.211.13 with SMTP id n13mr2193990rvq.184.1201844927141;
+        Thu, 31 Jan 2008 21:48:47 -0800 (PST)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id i40si2123389wxd.25.2008.01.31.21.48.29;
+        Thu, 31 Jan 2008 21:48:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m115sifm023137;
+	Fri, 1 Feb 2008 11:24:44 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m11B1BG7002547
+	for <m_seminar@math.iisc.ernet.in>; Fri, 1 Feb 2008 11:01:11 GMT
+Received: from localhost (harish@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m11B1BVT002544
+	for <m_seminar@math.iisc.ernet.in>; Fri, 1 Feb 2008 11:01:11 GMT
+Date: Fri, 1 Feb 2008 11:01:11 +0000 (UTC)
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: Reminder: Lecture today 4 PM IISc " The spherical mean value operator
+ for functions supported in a ball"
+Message-ID: <Pine.LNX.4.61.0802011059330.1899@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: harish@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.638, required 9, BAYES_00 -2.60, NO_REAL_NAME 0.96)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+
+
+
+
+
+Title:   The spherical mean value
+operator for functions supported in a ball.
+
+
+Speaker: Prof. Rakesh
+          University of Delaware
+
+
+Time and Date: 4 to 5 PM , Friday  1st Feb
+
+Venue: Lecture Hall 1, Dept of Math, IISc
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

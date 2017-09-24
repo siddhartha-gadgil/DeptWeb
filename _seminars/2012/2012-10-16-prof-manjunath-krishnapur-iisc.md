@@ -5,5 +5,4 @@ title: "Stable allocations"
 time: "4.00 pm" 
 time: "Department of Mathematics, LH-1"
 ---
-This is an informal lecture to celebrate the unprecedented
-event that I understand some piece of the work of some economists.
+This is an informal lecture to celebrate the unprecedented event that I understand some piece of the work of some economists.

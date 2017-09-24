@@ -1,0 +1,120 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.101.71.15 with SMTP id y15cs464977ank;
+        Tue, 30 Dec 2008 23:05:07 -0800 (PST)
+Received: by 10.110.43.16 with SMTP id q16mr7498112tiq.42.1230707105976;
+        Tue, 30 Dec 2008 23:05:05 -0800 (PST)
+Return-Path: <imi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [220.227.207.66])
+        by mx.google.com with ESMTP id w12si6046999tib.13.2008.12.30.23.04.50;
+        Tue, 30 Dec 2008 23:05:05 -0800 (PST)
+Received-SPF: pass (google.com: domain of imi@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) client-ip=220.227.207.66;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of imi@math.iisc.ernet.in designates 220.227.207.66 as permitted sender) smtp.mail=imi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id mBV75ioc005512;
+	Wed, 31 Dec 2008 12:36:25 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id mBVBvgMP003864;
+	Wed, 31 Dec 2008 11:57:42 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id mBVBvgAG003863;
+	Wed, 31 Dec 2008 11:57:42 GMT
+From: imi@math.iisc.ernet.in
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to imi@math.iisc.ernet.in using -f
+Received: from 10.134.13.39
+        (SquirrelMail authenticated user imi)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 31 Dec 2008 11:57:42 -0000 (UTC)
+Message-ID: <1422.10.134.13.39.1230724662.squirrel@math.iisc.ernet.in>
+Date: Wed, 31 Dec 2008 11:57:42 -0000 (UTC)
+Subject:  Math:Seminar by Prof. Hans Mittlemann on "Support Vector Machines 
+     in Machine Learning" on Jan 06, 2009 at 02:30 PM
+To: m_amall@math.iisc.ernet.in, m_fac@math.iisc.ernet.in,
+        m_tifrfac@math.iisc.ernet.in, m_isifac@math.iisc.ernet.in,
+        m_seminar@math.iisc.ernet.in, tsuall@jncasr.ac.in, emuall@jncasr.ac.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: imi@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-4.638, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, RM_KNOWN_WEBMAIL -1.50, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: imi@math.iisc.ernet.in
+
+Dear All,
+
+
+                          IISc Mathematics Initiative
+                           Department of Mathematics
+                          Indian Institute of Science
+                                  Bangalore
+                          ------------------------
+
+                                  announces
+
+                                   Seminar
+
+                                     on
+
+                              January 06, 2009
+                                  (Tuesday)
+
+                                      on
+
+               Support Vector Machines in Machine Learning
+
+                                      by
+
+                             Hans D. Mittelmann
+            (Department of Math & Stats, Arizona State University)
+
+                                      at
+
+                             02:30  03:30 PM
+                    L H  1, Department of Mathematics
+                  Indian Institute of Science, Bangalore
+
+                                   Abstract
+
+Very large datasets occur in the area of machine learning (ML). The tasks
+are having a computer "learn" to read handwriting, to understand speech,
+to recognize faces, to filter spam e-mail etc. Mathematically, these
+problems lead to huge optimization problems, of an, however not
+unfavorable type, namely convex quadratic programs (QP).
+
+The talk starts with an introduction to the Support Vector Machine methods
+for ML and their mathematical characteristics. Three specific such
+algorithms are described, the SVM light algorithm, the SVM-QP method, and
+the Core-SVM approximation method. A comparison on several large datasets
+is given. Future work will concentrate on the SVM-QP method in
+collaboration with its author Katya Scheinberg, IBM Watson Research
+Center.
+
+                    *********************************
+                             ALL ARE INVITED
+                           Coffee/Tea: 03:30PM
+
+                                                             G.Rangarajan
+                                                               Convener
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

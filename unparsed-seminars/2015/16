@@ -1,0 +1,115 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.229.14.67 with SMTP id f3csp867644qca;
+        Thu, 5 Mar 2015 20:45:50 -0800 (PST)
+X-Received: by 10.68.249.162 with SMTP id yv2mr22203739pbc.69.1425617149254;
+        Thu, 05 Mar 2015 20:45:49 -0800 (PST)
+Return-Path: <gadgil@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id dc4si12743470pbb.39.2015.03.05.20.45.46;
+        Thu, 05 Mar 2015 20:45:48 -0800 (PST)
+Received-SPF: none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=none (google.com: gadgil@math.iisc.ernet.in does not designate permitted sender hosts) smtp.mail=gadgil@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id t264jcJm000816;
+	Fri, 6 Mar 2015 10:15:38 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id t264wxiq020651;
+	Fri, 6 Mar 2015 10:28:59 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) id t264wxUU020650;
+	Fri, 6 Mar 2015 10:28:59 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to gadgil@localhost using -f
+Received: from 10.16.40.14
+        (SquirrelMail authenticated user gadgil)
+        by math.iisc.ernet.in with HTTP;
+        Fri, 6 Mar 2015 04:58:59 -0000
+Message-ID: <6b32e8b80a883889c57761105e0109b3.squirrel@math.iisc.ernet.in>
+Date: Fri, 6 Mar 2015 04:58:59 -0000
+Subject: Reminder: TODAY: Maths: Seminars (Eigenfunctions series):
+ "Representation theory and Probability"
+From: gadgil@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in, m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.22-7.fc17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: t264jcJm000816
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: gadgil@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+    We shall have the third set of lectures for the semester in the
+eigenfunctions series. There will be three lectures.
+
+Date: Friday, March 6, 2015.
+
+Time: Lecture I: 2:00 pm. - 2:50 p.m.
+      Lecture II: 3:00 p.m. - 3:50 p.m.
+      Lecture III: 4:00 - 4:50 p.m
+
+Venue: LH-I, Department of Mathematics, IISc.
+
+Lecture Details:
+
+Lecture 1:
+Speaker: Amritanshu Prasad (IMSc, Chennai)
+Time: 2.00-2.50 pm
+
+Title: Kronecker Coefficients, Integer Arrays and the RSK Correspondence
+
+Abstract: A Kronecker coefficient counts the number of times a
+representation of a symmetric group occurs in the tensor product of two
+others. Finding a fast algorithm to determine when a Kronecker coefficient
+is positive is an open problem. There has been an increased interest in
+this problem over the last few years as it comes up in the geometric
+approach to the complexity conjecture P = NP due to Mulmuley and Sohoni. I
+will explain how a higher dimensional analogue of the
+Robinson-Schensted-Knuth correspondence relates Kronecker coefficients to
+the problem of counting the number of integer arrays with specified slice
+sums.
+
+
+Lecture 2
+Speaker: Pooja Singla
+Time: 3.00-3.50 pm
+
+Title: Generating a random permutation with random transpositions.
+
+Abstract: Consider the problem of n cards labelled 1 through n. Suppose
+two integers i and j are chosen independently and uniformly between 1 and
+n. The cards labelled i and j are switched. If many such transpositions
+are made the row of cards will tend to appear in random arrangement. Then
+question is how many steps are required until the deck is well mixed up
+(i.e. the permutation is close to random)? Diaconis and Shahshahani used
+tools of representation theory of symmetric groups to prove that at least
+1/2(n log n) steps are required before the deck will be well mixed up for
+large n. I will explain ideas of their proof and few related problems.
+
+
+Lecture 3
+Speaker: Steven Spallone(IISER Pune)
+Time: 4.00-4.50 pm
+
+Title: Weyl's Integration Formula for Unitary Groups
+
+Abstract: Weyl discovered a decomposition of the invariant probability
+measure on a connected compact Lie group, according to elements of a
+maximal torus and their conjugacy classes. In the case of the unitary
+group, it allowed Diaconis and Shahshahani to access the distribution of
+the eigenvalues of a random unitary matrix. We explore these ideas in the
+lecture.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

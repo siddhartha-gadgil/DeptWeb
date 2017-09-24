@@ -3,7 +3,6 @@ date: 2015-8-10
 speaker: "Angela Pasquale (Universite de Lorraine)"
 title: "Dual pairs and intertwining distributions"
 time: "4pm" 
-
+time: "LH-1"
 ---
-A reductive dual pair in the group Sp(W) of isometries of a
-symplectic space W, over a local
+A reductive dual pair in the group Sp(W) of isometries of a symplectic space W, over a local

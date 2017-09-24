@@ -5,7 +5,4 @@ title: "Optimal Design Problems"
 time: "2:00 - 3:00 p.m." 
 time: "Lecture Hall I, Department of Mathematics"
 ---
-Motivated by applications,we introduce a class of optimization problems
-with constraints.Difficulties in solving these problems are
-highlighted.Mathematical developments to overcome these difficulties are
-discussed.
+Motivated by applications,we introduce a class of optimization problems with constraints.Difficulties in solving these problems are highlighted.Mathematical developments to overcome these difficulties are discussed.

@@ -1,0 +1,68 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.120.20 with SMTP id s20cs456276buc;
+        Tue, 1 Jul 2008 22:29:02 -0700 (PDT)
+Received: by 10.115.91.2 with SMTP id t2mr6659125wal.62.1214976540643;
+        Tue, 01 Jul 2008 22:29:00 -0700 (PDT)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id m10si11849380waf.59.2008.07.01.22.28.35;
+        Tue, 01 Jul 2008 22:29:00 -0700 (PDT)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m625bnCS005478;
+	Wed, 2 Jul 2008 11:07:49 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m62AWUuA004143
+	for <m_seminar@math.iisc.ernet.in>; Wed, 2 Jul 2008 10:32:30 GMT
+Received: from localhost (harish@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m62AWTKa004140
+	for <m_seminar@math.iisc.ernet.in>; Wed, 2 Jul 2008 10:32:29 GMT
+Date: Wed, 2 Jul 2008 10:32:29 +0000 (UTC)
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: IISc : Lecture on "L-functions"
+Message-ID: <Pine.LNX.4.61.0807021029210.4040@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: harish@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-1.638, required 9, BAYES_00 -2.60, NO_REAL_NAME 0.96)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+
+
+Dear All,
+
+   Speaker: Dr. Ameya Pitale,
+            University of Oklahoma
+
+   Title : L-functions
+
+   Time and Date: 4 to 5 PM , 8th July (Tuesday)
+
+   Venue: LH-3, Maths Dept, IISc
+
+
+Abstract : I will try to give a gentle introduction to the theory of 
+L-functions starting with the Riemann zeta function. I will explain the
+fascinating arithmetic and analytic significance of these L-functions. If 
+time permits, I will speak of my current work with Ralf Schmidt on 
+L-functions for GSp(4)xGL(2).
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

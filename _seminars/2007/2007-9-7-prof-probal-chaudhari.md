@@ -5,7 +5,4 @@ title: "Multivariate Distributions, Quantiles and their Monotonicity Properties.
 time: "4.00 p.m." 
 time: "Lecture Hall - I, Dept. of Mathematics"
 ---
-Some notions of multivariate distribution transform and related 
-quantile transform will be introduced and discussed. Some application of these 
-statistical concepts and tools in social and natural sciences will be 
-described.
+Some notions of multivariate distribution transform and related quantile transform will be introduced and discussed. Some application of these statistical concepts and tools in social and natural sciences will be described.

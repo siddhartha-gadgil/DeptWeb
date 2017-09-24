@@ -5,8 +5,4 @@ title: "The $Cos^\\lambda$ transform as intertwining operator between generalize
 time: "4:00 - 5:00 p.m." 
 time: "Department of Mathematics, Lecture Hall I"
 ---
-The $Cos^\\lambda$ transform on real Grassmann manifolds was first
-studied in convex geometry. The definition of this integral transform
-has been later extended to Grassmann manifolds over $\\mathbb K$,
-where $\\mathbb K$ denotes the reals, the complex numbers or the
-quaternions.
+The $Cos^\\\\lambda$ transform on real Grassmann manifolds was first studied in convex geometry. The definition of this integral transform has been later extended to Grassmann manifolds over $\\\\mathbb K$, where $\\\\mathbb K$ denotes the reals, the complex numbers or the quaternions.

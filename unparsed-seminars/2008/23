@@ -1,0 +1,64 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.82.118.19 with SMTP id q19cs191152buc;
+        Mon, 4 Feb 2008 22:19:49 -0800 (PST)
+Received: by 10.82.150.20 with SMTP id x20mr14677990bud.37.1202192389519;
+        Mon, 04 Feb 2008 22:19:49 -0800 (PST)
+Return-Path: <harish@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id b36si3638951ika.2.2008.02.04.22.19.25;
+        Mon, 04 Feb 2008 22:19:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of harish@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=harish@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m156PT4f002579;
+	Tue, 5 Feb 2008 11:55:29 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m15BVkja016798
+	for <m_seminar@math.iisc.ernet.in>; Tue, 5 Feb 2008 11:31:46 GMT
+Received: from localhost (harish@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m15BVknr016795
+	for <m_seminar@math.iisc.ernet.in>; Tue, 5 Feb 2008 11:31:46 GMT
+Date: Tue, 5 Feb 2008 11:31:46 +0000 (UTC)
+From: harish@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Subject: Friday 8th IISc Seminar: " A Spanning Tree Model for Khovanov
+ Homology".
+Message-ID: <Pine.LNX.4.61.0802051128370.14171@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: harish@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-3.138, required 9, autolearn=not spam, BAYES_00 -2.60,
+	NO_REAL_NAME 0.96, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: harish@math.iisc.ernet.in
+
+
+Dear All,
+
+  Title: " A Spanning Tree Model for Khovanov Homology".
+
+  Speaker: Professor Rama Mishra
+           IISER, Pune
+
+  Time: 4-5 PM , 8/2/08
+
+  Venue: LH-3, Math Dept IISc
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

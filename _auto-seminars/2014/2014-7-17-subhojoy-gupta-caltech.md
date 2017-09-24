@@ -5,7 +5,4 @@ title: "Holonomy fibers of complex projective structures"
 time: "3:30 - 4:30 p.m." 
 time: "Lecture Hall III, Department of Mathematics"
 ---
-As a sequel to the talk on July 16th, I shall talk about a recent result
-(joint work with Shinpei Baba) concerning fibers of the holonomy map from
-P(S) to the PSL(2,C) character variety. The proof involves some
-three-dimensional hyperbolic geometry, and train-tracks.
+As a sequel to the talk on July 16th, I shall talk about a recent result (joint work with Shinpei Baba) concerning fibers of the holonomy map from P(S) to the PSL(2,C) character variety. The proof involves some three-dimensional hyperbolic geometry, and train-tracks.

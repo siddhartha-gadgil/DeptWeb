@@ -1,0 +1,104 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.28.66 with SMTP id z2csp1063091obg;
+        Sun, 17 Apr 2016 23:47:21 -0700 (PDT)
+X-Received: by 10.66.166.78 with SMTP id ze14mr47344295pab.149.1460962041747;
+        Sun, 17 Apr 2016 23:47:21 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with SMTP id e187si3525759pfe.32.2016.04.17.23.47.09;
+        Sun, 17 Apr 2016 23:47:21 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 4875FAE16E5;
+	Mon, 18 Apr 2016 12:17:10 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u3I6quNZ019441;
+	Mon, 18 Apr 2016 12:22:56 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u3I6qt8Y019438;
+	Mon, 18 Apr 2016 12:22:56 +0530
+Date: Mon, 18 Apr 2016 12:22:55 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+Reply-To: manju@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] MATH : 22nd Apr 2016 : "Eigenfunctions"
+Message-ID: <alpine.LFD.2.03.1604151239380.26568@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-447846754-1460704186=:26568"
+Content-ID: <alpine.LFD.2.03.1604181219360.19292@math.iisc.ernet.in>
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 4875FAE16E5.A539D
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.396, required 6.5, autolearn=not spam, ALL_TRUSTED -1.00,
+	BAYES_00 -1.90, RP_MATCHES_RCVD -1.00, SUBJECT_MONTH -1.50)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1461566831.19526@AUWoo/RhjvEG572CnRkLcw
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-447846754-1460704186=:26568
+Content-Type: TEXT/PLAIN; CHARSET=ISO-8859-15; format=flowed
+Content-ID: <alpine.LFD.2.03.1604181219361.19292@math.iisc.ernet.in>
+Content-Transfer-Encoding: quoted-printable
+
+Dear All,
+
+There will be two lectures in the "Eigenfunctions" seminar series on=20
+friday, 22nd April 2016.
+
+--------------------------------------------
+Lecture 1:
+
+Speaker: Sreekar Vadlamani (TIFR-CAM, Bangalore)
+
+Title: Some aspects of integral geometry
+
+Time and date: 2:15-3:15 PM, 22nd Apr.
+
+Venue: LH-1, department of mathematics
+
+Abstract: One of the earliest instance of integral geometric discussion=20
+can be traced back to Buffon through the "needle problem". The solution,=20
+as we know now, is based on a platform of theory of measures on=20
+geometrical spaces which are invariant under some group operations.
+In this talk, we shall walk through this subject by following a specific=20
+line of problems/results called "kinematic fundamental formulae" by=20
+studying some specific examples.
+
+------------------------------
+Lecture 2:
+
+Speaker: Krishna Maddaly (IMSc, Chennai)
+
+Title: Inverse spectral theory
+
+Time and date: 3:30-4:30 PM, 22nd Apr.
+
+Venue: LH-1, department of mathematics
+
+Abstract: Inverse spectral theory in one dimension is to recover a=20
+self-adjoint operator given its spectrum and some spectral measure. In=
+=20
+general there are lots of self-adjoint operators (of a given form) this=20
+collection is called an iso-spectral set. We will give a brief=20
+introduction to the questions in this area and also some connections to=20
+other areas of mathematics.
+
+
+
+All are welcome
+    CHAIRMAN
+--=20
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-447846754-1460704186=:26568--

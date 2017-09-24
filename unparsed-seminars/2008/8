@@ -1,0 +1,164 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.100.213.11 with SMTP id l11cs3388ang;
+        Mon, 24 Nov 2008 21:11:43 -0800 (PST)
+Received: by 10.110.40.8 with SMTP id n8mr5976967tin.49.1227589901396;
+        Mon, 24 Nov 2008 21:11:41 -0800 (PST)
+Return-Path: <mathbio@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id i9si32965tid.9.2008.11.24.21.11.13;
+        Mon, 24 Nov 2008 21:11:39 -0800 (PST)
+Received-SPF: pass (google.com: domain of mathbio@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathbio@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=mathbio@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id mAP5DNu0030036;
+	Tue, 25 Nov 2008 10:43:23 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id mAPA6TwV009326
+	for <m_seminar@math.iisc.ernet.in>; Tue, 25 Nov 2008 10:06:29 GMT
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) id mAPA6TYx009325;
+	Tue, 25 Nov 2008 10:06:29 GMT
+From: Mathbio <mathbio@math.iisc.ernet.in>
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathbio@math.iisc.ernet.in using -f
+Received: from 10.134.13.18
+        (SquirrelMail authenticated user mathbio)
+        by math.iisc.ernet.in with HTTP;
+        Tue, 25 Nov 2008 10:06:29 -0000 (UTC)
+Message-ID: <1958.10.134.13.18.1227607589.squirrel@math.iisc.ernet.in>
+Date: Tue, 25 Nov 2008 10:06:29 -0000 (UTC)
+Subject: Math: Bio SEMINAR : "  Neuroeconomic Correlates of regret and      
+            rejoice functions:   A functiona MRI Investigation "  by :Dr. 
+     Chandrasekhar  Pammi : Nov 26, 2008 at 4pm
+To: m_seminar@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.2-3
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-5.229, required 9, autolearn=not spam, BAYES_00 -2.60,
+	RM_KNOWN_WEBMAIL -1.50, SMILEY -0.50, SUBJECT_MONTH -1.50,
+	SUBJ_HAS_SPACES 0.87)
+X-IISc-MailScanner-From: mathbio@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+
+Dear All,
+
+
+                     DST Centre for Mathematical Biology
+                         Department of Mathematics
+                        Indian Institute of Science
+                               Bangalore
+                         ------------------------
+
+
+                             MATH-BIO SEMINAR
+
+                                    on
+
+            Neuroeconomic Correlates of regret and rejoice functions:
+                         A functiona MRI Investigation
+
+
+                                    by
+
+                          Dr. Chandrasekhar Pammi
+     Max-Planck Institute for Biological Cybernetics, Tuebingen, Germany
+
+
+                                    On
+
+                            November 26, 2008
+                                Wednesday
+
+                                    at
+
+
+                   4.00pm, L H  3, Department of Mathematics
+                     Indian Institute of Science, Bangalore
+
+
+                                  Abstract
+                                 ------------
+
+
+An individual feels regret when he makes a choice that results in an
+outcome worse than would have occurred had he made an alternative choice.
+A feeling of rejoice occurs when the option chosen yields a more favorable
+outcome than an alternative decision. Although the feelings of regret and
+rejoice are part of the human experience, their roles in shaping decisions
+have been widely debated. Do agents hedge their decisions prospectively,
+anticipating regret and rejoice and taking these potential emotions into
+account? In regret theory, regret and rejoice have been hypothesized to be
+components that enter the evaluation of the utility of a lottery (Bell
+1982, 1983; Loomes and Sugden 1982, 1987; Gilovich et al, 1998). Regret
+theory has been invoked to explain seemingly suboptimal decision making in
+many domains, such as healthcare, insurance purchases, and financial
+investments.
+
+To explore the neurobiology of regret and rejoice, we used fMRI to
+investigate the neural bases of regret and rejoice with a non-monetary
+medium. Incentives were created using painful outcomes in the form of mild
+electrical shocks to the foot and the possibility of avoiding them. A key
+component of regret theory is that the level of regret or rejoice an
+individual experiences depends on the prior relative likelihood of the
+eventual outcome. For example, winning from betting on a long-shot, even
+if the outcome is the same, evokes more rejoice than winning a relatively
+sure thing. Thus, we hypothesized that the neural response to a painful
+outcome would also reflect the degree of regret as measured by theprior
+probability of the outcome. Similarly, when an individual avoids a
+potential shock, he would experience a degree of rejoice that correlates
+with the probability he had of receiving the shock. We used data from
+participants self-reported ratings, as well as data on their skin
+conductance, to further support our finding that differing degrees of
+regret and rejoice are distinguishable and reflected in physical response
+measures.
+
+Our fMRI results (Chandrasekhar et al. 2008) suggest that activation of a
+cortical network, consisting of the medial orbitofrontal cortex, left
+superior frontal cortex, right angular gyrus, and left thalamus,
+correlates with the degree of regret. A different network, including the
+rostral anterior cingulate, left hippocampus,   left   ventral   striatum,
+  and   brainstem/midbrain   were   active   during   rejoice.   The
+rightinferior orbitofrontal cortex, pre-supplementary motor area, anterior
+cingulate, and posterior cingulate showed similar patterns of activation
+with both regret and rejoice, suggesting that these regions may register
+surprise from the realization of relatively unlikely events. Taken
+together, these results show the   neurobiological   effect   of   ex-ante
+probability  on   the   experience   of   regret   and   rejoice   and  
+that distinct, but overlapping networks are involved in the two
+experiences.
+
+
+
+                       *********************************
+                                ALL ARE INVITED
+                              Coffee/Tea: 3:45PM
+
+                                                          G. Rangarajan
+                                                     PRINCIPAL INVESTIGATOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

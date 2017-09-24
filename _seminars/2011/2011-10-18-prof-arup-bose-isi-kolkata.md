@@ -5,8 +5,4 @@ title: "Limiting behaviour of sample autocovariance matrix"
 time: "11:30 a.m.-12:30 p.m." 
 time: "Department of Mathematics, Lecture Hall III"
 ---
-The empirical spectral distribution (ESD) of the sample variance
-covariance matrix of i.i.d. observations under suitable moment
-conditions converges almost surely as the dimension tends to
-infinity. The limiting spectral distribution (LSD) is universal and
-is known in closed form with support [0,4].
+The empirical spectral distribution (ESD) of the sample variance covariance matrix of i.i.d. observations under suitable moment conditions converges almost surely as the dimension tends to infinity. The limiting spectral distribution (LSD) is universal and is known in closed form with support [0,4].

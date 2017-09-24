@@ -1,0 +1,74 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.231.20.13 with SMTP id d13cs65574ibb;
+        Tue, 21 Jun 2011 01:41:27 -0700 (PDT)
+Received: by 10.236.168.4 with SMTP id j4mr9079416yhl.167.1308645686532;
+        Tue, 21 Jun 2011 01:41:26 -0700 (PDT)
+Return-Path: <bharali@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [14.139.128.65])
+        by mx.google.com with ESMTPS id g63si28674788yhn.15.2011.06.21.01.41.23
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Tue, 21 Jun 2011 01:41:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of bharali@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mail=bharali@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id p5L8f1VG014739;
+	Tue, 21 Jun 2011 14:11:01 +0530
+Received: from math.iisc.ernet.in (localhost [127.0.0.1] (may be forged))
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id p5L9T2Ts014099;
+	Tue, 21 Jun 2011 14:59:02 +0530
+Received: from localhost (bharali@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) with ESMTP id p5L9T2Ka014096;
+	Tue, 21 Jun 2011 14:59:02 +0530
+Date: Tue, 21 Jun 2011 14:59:02 +0530 (IST)
+From: Gautam Bharali <bharali@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in, kbathreya@gmail.com
+Subject: [Mini course] Math: 22nd June, 2011: "Introduction to Measure Theory"
+Message-ID: <Pine.LNX.4.64.1106211456380.13582@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: p5L8f1VG014739
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: bharali@math.iisc.ernet.in
+X-Spam-Status: No
+
+
+ 		            Department of Mathematics
+ 		      Indian Institute of Science, Bangalore
+
+ 				MINI COURSE
+
+Speaker	: Prof. K.B. Athreya
+ 	  Iowa State University and
+ 	  Visiting Professor, Dept. of Mathematics, IISc
+
+Title	: Introduction to Measure Theory
+
+Dates and Times	:
+
+22.6.2011 Wednesday
+24.6.2011 Friday
+27.6.2011 Monday
+29.6.2011 Wednesday
+01.7.2011 Friday
+
+All talks are scheduled 10:00-11:00 a.m.
+
+Venue 	: Lecture Hall I, Department of Mathematics
+
+These talks are an introduction to measure theory and the L^p spaces.
+All students, regardless of affiliation, are welcome.
+
+
+ 		       ALL ARE CORDIALLY INVITED
+
+ 					 Chairman,
+ 					 Department of Mathematics
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

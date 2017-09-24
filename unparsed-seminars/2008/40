@@ -1,0 +1,54 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.70.50.14 with SMTP id x14cs144043wxx;
+        Fri, 8 Aug 2008 01:49:33 -0700 (PDT)
+Received: by 10.110.3.15 with SMTP id 15mr5404747tic.48.1218185371578;
+        Fri, 08 Aug 2008 01:49:31 -0700 (PDT)
+Return-Path: <veluma@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in [144.16.79.123])
+        by mx.google.com with ESMTP id b4si2326944tic.14.2008.08.08.01.49.17;
+        Fri, 08 Aug 2008 01:49:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of veluma@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) client-ip=144.16.79.123;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of veluma@math.iisc.ernet.in designates 144.16.79.123 as permitted sender) smtp.mail=veluma@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.13.1/8.13.1) with ESMTP id m788rV6x002947;
+	Fri, 8 Aug 2008 14:23:31 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.12.11/8.12.11) with ESMTP id m78Dp8rH011957
+	for <m_seminar@math.iisc.ernet.in>; Fri, 8 Aug 2008 13:51:08 GMT
+Received: from localhost (veluma@localhost)
+	by math.iisc.ernet.in (8.12.11/8.12.11/Submit) with ESMTP id m78Dp73L011954
+	for <m_seminar@math.iisc.ernet.in>; Fri, 8 Aug 2008 13:51:08 GMT
+Date: Fri, 8 Aug 2008 13:51:07 +0000 (UTC)
+From: veluma@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Message-ID: <Pine.LNX.4.61.0808081349170.10239@math.iisc.ernet.in>
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Math-MailScanner-Information: Please contact the ISP for more information
+X-Math-MailScanner: Found to be clean
+X-Math-MailScanner-From: veluma@math.iisc.ernet.in
+X-Spam-Status: No, No
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=-0.412, required 9, BAYES_00 -2.60, MISSING_SUBJECT 1.23,
+	NO_REAL_NAME 0.96)
+X-IISc-MailScanner-From: veluma@math.iisc.ernet.in
+
+Dr Malabika Pramanik (U of BC, VC,CA) will give a talk ( title to be 
+announced) on Monday, 11th Aug. at 4 pm in LH I.
+All are welcome.
+Sincerely,
+Veluma
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

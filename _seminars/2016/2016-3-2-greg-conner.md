@@ -5,12 +5,4 @@ title: "Wild Topology, Group Theory and a conjecture in Number Theory"
 
 time: "LH-1, Department of Mathematics"
 ---
-One of the most useful analogies in mathematics is the
-
-fundamental group functor (also known as the Galois Correspondence) which
-
-sends a topological space to its fundamental group while at the same time
-
-sending continuous maps between spaces to corresponding homomorphisms of
-
-groups in such a way that compositions of maps are preserved.
+One of the most useful analogies in mathematics is the fundamental group functor (also known as the Galois Correspondence) which sends a topological space to its fundamental group while at the same time sending continuous maps between spaces to corresponding homomorphisms of groups in such a way that compositions of maps are preserved.

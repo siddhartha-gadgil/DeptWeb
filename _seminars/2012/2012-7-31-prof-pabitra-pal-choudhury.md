@@ -5,8 +5,4 @@ title: "Birth of Integral Value Transformation (IVT) and some observations in Ma
 time: "4:00 pm- 5.00 pm" 
 time: "Department of Mathematics, Lecture Hall 1"
 ---
-Firstly, regarding Carry Value Transformation (CVT) some
-mathematical observations will be discussed. In using mathematical
-tools in Genomics we adopted two-way path. One is model based,
-another is issue based. Both these approaches will be discussed on
-using Human Olfactory receptors.
+Firstly, regarding Carry Value Transformation (CVT) some mathematical observations will be discussed. In using mathematical tools in Genomics we adopted two-way path. One is model based, another is issue based. Both these approaches will be discussed on using Human Olfactory receptors.

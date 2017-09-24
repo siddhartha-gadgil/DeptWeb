@@ -5,5 +5,4 @@ title: "How to integrate entire functions in polar coordinates?"
 time: "2:00 - 3:00 p.m." 
 time: "Lecture Hall I, Department of Mathematics"
 ---
-In this talk we address the problem of integrating entire
-functions (of several complex variables) in 'polar coordinates'!
+In this talk we address the problem of integrating entire functions (of several complex variables) in 'polar coordinates'!

@@ -7,13 +7,15 @@ def contents(f: Path) = read(f).replace("\r", "").replace("\n>", "\n").replace("
 lazy val byYear = years.map((y) => (y, files(pwd / "m-seminar" / y.toString).map((f) => contents(f))))
 
 lazy val dat = semlist.map((f) => read(f).replace("\r", "").replace("\n>", "\n").replace("<br>", "").replace("\u00a0", " ").replace("\ufffd", "")).toVector
-lazy val chunks = dat.map (_.split("\n\n").toVector)
+
+val bl = "\\n[ \\t]*\\n".r
+lazy val chunks = dat.map (bl.split(_).toVector)
 def t(s: String) = !(s.contains("Message-I")) && !(s.contains("Forwarded")) && !(s.contains("<div")) && (s.contains("Title"))
 def d(s: String) =
   !(s.contains("Message-I")) &&
   !(s.contains("Forwarded")) &&
   !(s.contains("From:")) &&
-  (s.contains("Date"))
+  (s.contains("Date") || s.contains("DATE"))
 def tt(s: String) = !(s.contains("Message-I")) && !(s.contains("Forwarded")) && !(s.contains("<div")) && !(s.contains("=A0")) && !(("(Title|TITLE)[\\s]*:").r.findFirstIn(s).isEmpty)
 def sp(s: String) = !(s.contains("Message-I")) && !(s.contains("Forwarded")) && !(s.contains("<div")) && !(s.contains("=A0")) && !(("Speaker[\\s]*:").r.findFirstIn(s).isEmpty)
 
@@ -22,7 +24,7 @@ def data(f: Path) =
   replace("\r", "").
   replace("\n>", "\n").
   replace("<br>", "").replace("\u00a0", " ").replace("\ufffd", "")
-def chunk(s: String) = s.split("\n\n").toVector
+def chunk(s: String) = bl.split(s).toVector
 def title(s: String) = chunk(s).dropWhile(!tt(_)).headOption
 def date(s: String) = chunk(s).dropWhile(!d(_)).headOption
 
@@ -57,7 +59,7 @@ val nc = CharPred(_ != ':')
 val word = CharIn(('a' to 'z') ++ ('A' to 'Z')).rep(1).!
 val wrd = CharIn(('a' to 'z') ++ ('A' to 'Z')).rep(1)
 
-val day = ((digit ~ digit | digit).!)~(("st" | "th" | "nd").?)
+val day = ((digit ~ digit | digit).!)~(("st" | "th" | "nd" | "rd").?)
 val year = (P("20")~digit~digit).!
 val mdy = nc.rep ~ ":" ~  punc ~ word ~ punc ~ day ~ punc ~ year
 val dmy = nc.rep ~ ":" ~  punc ~ day ~ punc ~ word ~ punc ~ year
@@ -68,7 +70,7 @@ val wmd = nc.rep ~ ":" ~  punc ~ wrd ~ punc   ~ word ~ punc ~ day
 val wdm = nc.rep ~ ":" ~  punc ~ wrd ~ punc ~ day ~ punc ~ word
 val wdmy = nc.rep ~ ":" ~  punc ~ wrd ~ punc ~ day ~ punc ~ word ~ punc ~ year
 
-val sl = day ~ ("/"| "-") ~ day ~ ("/"| "-") ~ year
+val sl = day ~ ("/"| "-" | ".") ~ day ~ ("/"| "-" | ".") ~ year
 val wsl = nc.rep ~ ":" ~  punc ~ wrd ~ punc ~sl
 val ssl = nc.rep ~ ":" ~  punc ~sl
 
@@ -92,7 +94,14 @@ def kv(k: String, s: String) : Option[String] =
   kvParse(k).parse(s).fold((_, _,_) => None, (a, _) => Some(a))
 
 def kvc(k: String, s: String) =
-    s.split("\n\n").map(kv(k, _)).fold[Option[String]](None){case (x, y) => x.orElse(y)}
+    bl.split(s).map(kv(k, _)).fold[Option[String]](None){case (x, y) => x.orElse(y)}
+
+def getAbs(s: String) : Option[String] = {
+  val ch = bl.split(s)
+  val abs = kvc("Abstract", s).map(trim(_))
+  if (abs == Some("")) ch.zip(ch.tail).find(_._1.contains("Abstract")).map(_._2)
+  else abs
+}
 
 val monthMap = Vector("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec").zipWithIndex.toMap
 
@@ -106,7 +115,7 @@ val mdParse = (wmd | md).map {case (m, d) => (d.toInt, month(m))}
 val dmParse = (wdm | dm).map {case (d, m) => (d.toInt, month(m))}
 
 val withYear = mdyParse | dmyParse | ssParse
-def useYear(y: Int) = (mdParse | dmParse).map{case (d, m) => (d, m, y)}
+def useYear(y: Int) = (dmParse | mdParse).map{case (d, m) => (d, m, y)}
 
 
 import scala.util.Try
@@ -152,9 +161,11 @@ def getSem(s: String, y: Int) =
     for {
       dt <- date(s)
       d <- getDate(dt, y)
-      sp <- kvc("Speaker", s)
-      t <- kvc("Title", s)
-    } yield Seminar(d, trim(sp), trim(t), kvc("Venue", s).map(mline), kvc("Time", s), kvc("Abstract", s))
+      sp <- kvc("Speaker", s).orElse(kvc("SPEAKER", s))
+      t <- kvc("Title", s).orElse(kvc("Topic", s)).orElse(kvc("TITLE", s))
+    } yield Seminar(
+      d, trim(sp), trim(t), kvc("Venue", s).orElse(kvc("Location", s)).map(mline),
+      kvc("Time", s), getAbs(s))
 
 lazy val finl = dat.map(getSem(_, 2017))
 
@@ -164,7 +175,19 @@ val years = ls(pwd /"m-seminar").filter(_.isDir).map(_.last.toInt)
 
 lazy val allSems = byYear.map{case (y, sems) => sems.map(getSem(_, y)).collect{case Some(x) => x}}.flatten
 
+lazy val failedSems = byYear.map{case (y, sems) => (y, sems.filter(getSem(_, y) == None))}
+
 def saveAll(d: Path = pwd / "_auto-seminars") = allSems.foreach(_.save(d))
 
 def findDate(ss: Vector[String]) = ss.map(getDate(_, 2017)).foldLeft[Option[(Int, Int, Int)]](None){case (x, y) => x.orElse (y)}
+
+def writeFailed =
+  for {
+  (y, ss) <- failedSems
+  ssz = ss.zipWithIndex
+  (c, n) <- ssz
+  file = pwd / "unparsed-seminars" / y.toString / n.toString
+} write.over(file, c)
+
+def purgeParsed(f: Path) = if (!getSem(contents(f), 2017).isEmpty) rm(f)
 // saveAll()

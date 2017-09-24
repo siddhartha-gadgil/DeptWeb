@@ -5,4 +5,6 @@ title: "MATHEMATICAL MODELLING IN HEMODYNAMICS I"
 
 time: "LH-1 , Math Dept"
 ---
-
+2D Mathematical model an numerical simulations of non-Newtonian shear depen=
+dent=20
+flow with fluid-structure interaction

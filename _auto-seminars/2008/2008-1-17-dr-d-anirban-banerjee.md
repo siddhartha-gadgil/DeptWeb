@@ -5,31 +5,4 @@ title: "Graph Spectra: A Tool for Analyzing Networks"
 time: "4.15 p.m." 
 time: "Lecture Hall - III, Dept. of Mathematics"
 ---
-The existing graph invariants can retrieve certain structural
-informations, but they are not sufficient to capture all qualitative
-aspects of a graph. One of the aim of graph theory to identify on one hand
-the unique and special feature for the network from a particular class and
-on the other hand the universal qualities that are shared by other network
-structures. It is a challenge to specify the domain of a given a network
-structure, on the basis of certain unique qualitative features.
-
-      We develop theoretical scheme and apply the general method, based
-on the spectral plot of the normalized graph Laplacian, that is easily
-visually analyzed and can be considered as excellent diagnostic to
-categorize the networks from different sources. Construction with
-different graph operation related to evolution of a network produce
-specific eigenvalue, describe certain processes of graph formation that
-leave characteristic traces in the spectrum. We show how useful plausible
-hypothesis about evolutionary process can be made by investigating the
-spectra of a graph constructed from actual data. Based on this idea we
-have reconstructed protein-protein interaction network which is
-structurally more close to real protein-protein interaction networks than
-the networks constructed by other models.
-
-      We also introduced a tentative classification scheme for empirical
-networks based on global qualitative properties detected through the
-spectrum of the Laplacian of the graph underlying the network.This method
-identifies several distinct types of networks across different domains of
-applications, which is rather difficult by other existing tool and
-parameters. Thus we infer that spectral distribution is complete
-qualitative characterization of a graph.
+The existing graph invariants can retrieve certain structural informations, but they are not sufficient to capture all qualitative aspects of a graph. One of the aim of graph theory to identify on one hand the unique and special feature for the network from a particular class and on the other hand the universal qualities that are shared by other network structures. It is a challenge to specify the domain of a given a network structure, on the basis of certain unique qualitative features. We develop theoretical scheme and apply the general method, based on the spectral plot of the normalized graph Laplacian, that is easily visually analyzed and can be considered as excellent diagnostic to categorize the networks from different sources. Construction with different graph operation related to evolution of a network produce specific eigenvalue, describe certain processes of graph formation that leave characteristic traces in the spectrum. We show how useful plausible hypothesis about evolutionary process can be made by investigating the spectra of a graph constructed from actual data. Based on this idea we have reconstructed protein-protein interaction network which is structurally more close to real protein-protein interaction networks than the networks constructed by other models. We also introduced a tentative classification scheme for empirical networks based on global qualitative properties detected through the spectrum of the Laplacian of the graph underlying the network.This method identifies several distinct types of networks across different domains of applications, which is rather difficult by other existing tool and parameters. Thus we infer that spectral distribution is complete qualitative characterization of a graph.

@@ -1,0 +1,185 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.182.46.193 with SMTP id x1csp2145444obm;
+        Mon, 14 Mar 2016 03:13:20 -0700 (PDT)
+X-Received: by 10.66.55.70 with SMTP id q6mr32261380pap.126.1457950400555;
+        Mon, 14 Mar 2016 03:13:20 -0700 (PDT)
+Return-Path: <lakshmi@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with SMTP id ua2si13374048pac.51.2016.03.14.03.13.07;
+        Mon, 14 Mar 2016 03:13:20 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of lakshmi@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of lakshmi@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=lakshmi@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 1837CAE0A69;
+	Mon, 14 Mar 2016 15:42:50 +0530 (IST)
+Received: from [10.134.13.14] (mathpc2.math.iisc.ernet.in [10.134.13.14])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u2EAJQrD008066;
+	Mon, 14 Mar 2016 15:49:27 +0530
+From: lakshmi@math.iisc.ernet.in
+To: m_seminar@math.iisc.ernet.in
+Date: Mon, 14 Mar 2016 15:41:01 +0530
+MIME-Version: 1.0
+Subject: Math - Seminar on 18.3.2016 at 4.00 p.m........
+CC: mathseminars@math.iisc.ernet.in
+Message-ID: <56E68E35.2385.151EA45@lakshmi.math.iisc.ernet.in>
+X-Confirm-Reading-To: lakshmi@math.iisc.ernet.in
+X-pmrqc: 1
+Priority: normal
+X-mailer: Pegasus Mail for Windows (4.63)
+Content-type: Multipart/Alternative; boundary="Alt-Boundary-14174.22145605"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 1837CAE0A69.A9E78
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, ALL_TRUSTED -1.00, BAYES_00 -1.90, HTML_MESSAGE 0.00,
+	NO_REAL_NAME 1.00, RP_MATCHES_RCVD -0.00)
+X-IISc-MailScanner-From: lakshmi@math.iisc.ernet.in
+MailScanner-NULL-Check: 1458555173.5749@k478R8BHk+wbYjmiV6fjaA
+X-Spam-Status: No
+
+
+--Alt-Boundary-14174.22145605
+Content-type: text/plain; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+Dear All,
+
+
+DEPARTMEN T OF MATHEMATICS
+I. I. Sc., BANGALORE
+---------------------------------------------------------------------
+
+SEMINAR
+---------------------------------------------------------------------------
+
+
+Speaker : Prof.   : Kyoung-Seog Lee
+Korea Institute for Advanced Study, Seoul 
+Title : "On the embedding problem of derived categories of algebraic
+varieties into derived categories of Fano varieties"
+
+
+Day & Date : Friday, 18.03. 2016
+.
+
+Time : 4.00 p.m.
+
+
+Venue : Lecture Hall I
+Department of Mathematics
+
+Abstract: Derived category of coherent sheaves on an algebraic variety is one of
+the most important and interesting algebraic invariants of the variety. When the
+derived category of a variety is embedded into the derived category of other variety,
+there are many interesting interactions between these two varieties. Especially there
+are many  results about subcategories of derived categories of Fano varieties and
+their interactions. Bondal asked whether derived category of every smooth projective
+variety  can be embedded into derived categories of Fano varieties. We will discuss    
+examples and recent progress of this question.
+
+
+
+
+
+All are Welcome 
+CHAIRMAN 
+
+
+
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+--Alt-Boundary-14174.22145605
+Content-type: text/html; charset=US-ASCII
+Content-transfer-encoding: 7BIT
+Content-description: Mail message body
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<title></title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+</head>
+<body>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Dear All,</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:11pt"><b>DEPARTMEN</b></span></font><font face="Times New Roman" size="2">
+<span style=" font-size:10pt"> </span></font><font face="Times New Roman"><span style=" font-size:11pt"><b>T OF MATHEMATICS</b></span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt"><b>I.</b></span></font><font face="Times New Roman" size="2">
+<span style=" font-size:10pt"> </span></font><font face="Times New Roman"><span style=" font-size:12pt"><b>I. Sc., BANGALORE</b></span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:12pt"><b>---------------------------------------------------------------------</b></span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial"><span style=" font-size:11pt"><b>SEMINAR</b></span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:11pt"><b>---------------------------------------------------------------------------</b></span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Speaker : Prof.&#160;</span></font><font face="Arial Unicode MS" size="2">
+<span style=" font-size:10pt">&#160;</span></font><font face="Arial" size="2"><span style=" font-size:10pt"> : Kyoung-Seog Lee</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Korea Institute for Advanced Study, Seoul </span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Title : &quot;On the embedding problem of derived categories of algebraic</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">varieties into derived categories of Fano varieties&quot;</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Day &amp; Date : Friday, 18.03. 2016</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><b>.</b></span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Time : 4.00 p.m.</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Venue : Lecture Hall I</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">Department of Mathematics</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><b>Abstract</b></span><span style=" font-size:10pt">: Derived category of coherent sheaves on an algebraic variety is one of</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">the most important and interesting algebraic invariants of the variety. When the</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">derived category of a variety is embedded into the derived category of other variety,</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">there are many interesting interactions between these two varieties. Especially there</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">are many&#160; results about subcategories of derived categories of Fano varieties and</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">their interactions. Bondal asked whether derived category of every smooth projective</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt">variety&#160; can be embedded into derived categories of Fano varieties. We will discuss&#160;&#160;&#160; 
+examples and recent progress of this question.</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="justify"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:11pt"><b>All are Welcome </b></span></font></div>
+<div align="left"><font face="Times New Roman"><span style=" font-size:11pt"><b>CHAIRMAN </b></span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left"><font face="Arial" size="2"><span style=" font-size:10pt"><br />
+</span></font></div>
+<div align="left">&nbsp;&nbsp;</div>
+<br />-- 
+<br />This message has been scanned for viruses and
+<br />dangerous content by
+<a href="http://www.mailscanner.info/"><b>MailScanner</b></a>, and is
+<br />believed to be clean.
+</body>
+</html>
+
+--Alt-Boundary-14174.22145605--
+

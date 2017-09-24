@@ -1,0 +1,94 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.155.109 with SMTP id vv13csp357434ieb;
+        Mon, 5 Sep 2016 23:07:03 -0700 (PDT)
+X-Received: by 10.66.5.5 with SMTP id o5mr13306528pao.38.1473142023192;
+        Mon, 05 Sep 2016 23:07:03 -0700 (PDT)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [14.139.128.65])
+        by mx.google.com with ESMTP id yd1si9627156pab.148.2016.09.05.23.07.00;
+        Mon, 05 Sep 2016 23:07:02 -0700 (PDT)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) client-ip=14.139.128.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 14.139.128.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ac.in [10.134.1.11])
+	by relay.iisc.ernet.in (Postfix) with ESMTP id 6D39BAE3ACE;
+	Tue,  6 Sep 2016 11:37:08 +0530 (IST)
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u866AK7V007222;
+	Tue, 6 Sep 2016 11:40:20 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u866AK5C007218;
+	Tue, 6 Sep 2016 11:40:20 +0530
+Date: Tue, 6 Sep 2016 11:40:20 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Subject: Talk at MSR today
+Message-ID: <alpine.LFD.2.03.1609061138240.6359@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-1689059864-1473142220=:6359"
+X-IISc-MailScanner-Information: Please contact nethelp@serc.iisc.in for more information
+X-IISc-MailScanner-ID: 6D39BAE3ACE.A8B98
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-2.9,
+	required 6.5, autolearn=not spam, ALL_TRUSTED -1.00, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+MailScanner-NULL-Check: 1473746829.7687@eqRNZisu+lUdNrMWlhsjyA
+X-Spam-Status: No
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-1689059864-1473142220=:6359
+Content-Type: TEXT/PLAIN; CHARSET=UTF-8; format=flowed
+Content-Transfer-Encoding: 8BIT
+
+
+---------- Forwarded message ----------
+Date: Mon, 5 Sep 2016 12:42:33 +0530
+From: Amit Deshpande <ayummytea@googlemail.com>
+To: manju@math.iisc.ernet.in
+Cc: Mohan Ravichandran <mohan.ravichandran@gmail.com>
+Subject: meeting this week
+
+=========================================
+Prof. Mohan Ravichandran (MSGSU, Turkey) is visiting for two weeks and will be giving the following talk on September 6 (Tuesday), 2-3 pm in Bhabha.
+
+Title: Mixed Determinants, Restricted Invertibility and Kadison-Singer
+
+Abstract: The solution of the Kadison-Singer problem by Marcus,
+Spielman and Srivastava proceeded by first proving Weaver's KS_r
+conjecture, which was known to imply Anderson's paving conjecture,
+which in turn implies Kadison-Singer. In this talk, I'll explain how
+the two celebrated innovations of MSS, the method of interlacing
+polynomials and the multivariate barrier method can be used to prove
+the paving conjecture directly without using Weaver's KS_r. The
+relevant expected characteristic polynomials are then succinctly given
+by expressions related to the so called Mixed determinant, in the same
+way as the Mixed characteristic polynomial of MSS is related to the
+mixed discriminant.
+
+This slight change in perspective allows us to make some modest
+improvements in the estimates in Kadison-Singer and restricted
+invertibility. For instance, one can show that projections with
+diagonal 1/2 can be 4 paved (it is expected that they can be 3 paved,
+but this method breaks down in a curious fashion at the last step).
+This new approach also yields some remarkable combinatorial results,
+including a natural, hitherto undiscovered one parameter deformation
+of the characteristic polynomial of a matrix and a new convolution on
+polynomials, (distinct from the three convolutions introduced by MSS
+
+in 2015) that preserves real rootedness. 
+============================================
+
+--
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
+
+---2046139380-1689059864-1473142220=:6359--

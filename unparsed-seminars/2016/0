@@ -1,0 +1,99 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.32.193 with SMTP id l1csp221466iei;
+        Fri, 22 Jan 2016 22:18:49 -0800 (PST)
+X-Received: by 10.98.42.88 with SMTP id q85mr9981090pfq.1.1453529929516;
+        Fri, 22 Jan 2016 22:18:49 -0800 (PST)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id vx1si14938074pac.159.2016.01.22.22.18.47;
+        Fri, 22 Jan 2016 22:18:49 -0800 (PST)
+Received-SPF: pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id u0N6Ie8S012559;
+	Sat, 23 Jan 2016 11:48:40 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u0N6QEUe002912;
+	Sat, 23 Jan 2016 11:56:14 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u0N6QDZS002908;
+	Sat, 23 Jan 2016 11:56:13 +0530
+Date: Sat, 23 Jan 2016 11:56:13 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in, manju@math.iisc.ernet.in
+Subject: Seminars [Math] : 29th Jan 2016 : "Eigenfunctions"
+Message-ID: <alpine.LFD.2.03.1601231148330.2659@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: u0N6Ie8S012559
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=-1.9,
+	required 6.5, autolearn=not spam, BAYES_00 -1.90)
+X-IISc-MailScanner-From: manju@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear All,
+
+There will be two lectures in the "Eigenfunctions" seminar series on 29th 
+Jan, 2015.
+
+--------------------------------------------
+Lecture 1:
+
+Speaker: Kalyan B Sinha (JNCSAR, Bangalore and IMI Distinguished 
+Associate)
+
+Title: Eigenvalues, Eigenvectors, Eigenfunctions,  Everywhere!
+
+Time and date: 2:15-3:15 PM, 29th jan
+
+Venue: LH-1, department of mathematics
+
+Abstract: Eigenvalues and eigenvectors  appear in many physical and 
+engineering problems , beginning with the  noted  study by Euler in 1751 
+of the kinematics of rigid bodies . From a mathematical point of view, 
+for an operator  of a suitable class, acting in a vector space, its point 
+spectrum and associated subspaces refer to its  "eigenvalues and 
+eigenvectors", while the subspaces associated with the continuous 
+spectrum of the operator is said to consist of "eigenfunctions".  The 
+basic ideas will be discussed mostly thru examples, in some of which  a 
+natural connection  with the representation of appropriate groups lurk 
+behind.
+
+------------------------------
+Lecture 2:
+
+Speaker: Svante Linusson (KTH, Stockholm)
+
+Title: Electoral methods and the probability of the Alabama paradox
+
+Time and date: 3:30-4:30 PM, 29th Jan
+
+Venue: LH-1, department of mathematics
+
+Abstract:  There exists various possible methods to distribute seats 
+proportionally between states (or parties) in a parliament. In the first 
+half of the talk I will describe some often used methods and discuss their 
+pros and cons (it's all in the rounding).
+
+One easy method is called Hamilton's method (also known as the method of 
+largest reminder or Hare's method). It suffers from a drawback called the 
+Alabama paradox, which e.g made USA abandon it for the distribution of 
+seats in the house of representatives between states. It is still in use 
+in many other countries including Sweden.
+
+In the second half of the talk I will describe a joint work with Svante 
+Janson (Uppsala Univ.) where we study the probability that the Alabama 
+paradox will happen. We give, under certain assumptions, a closed formula 
+for the probability that the Alabama paradox occurs given the vector 
+$p_1,\dots,p_m$ of relative sizes of the states.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+

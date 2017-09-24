@@ -5,14 +5,4 @@ title: "Stochastic Lagrangian Particle systems for the Navier-Stokes and Burgers
 time: "2:30 p.m." 
 time: "Lecture Hall - I, Dept. of Mathematics"
 ---
-I will introduce an exact stochastic representation for certain
-
-  non-linear transport equations (e.g. 3D-Navier-Stokes, Burgers)
-
-  based on noisy Lagrangian paths, and use this to construct a
-
-  (stochastic) particle system for the Navier-Stokes equations. On any
-
-  fixed time interval, this particle system converges to the
-
-  Navier-Stokes equations as the number of particles goes to infinity.
+I will introduce an exact stochastic representation for certain non-linear transport equations (e.g. 3D-Navier-Stokes, Burgers) based on noisy Lagrangian paths, and use this to construct a (stochastic) particle system for the Navier-Stokes equations. On any fixed time interval, this particle system converges to the Navier-Stokes equations as the number of particles goes to infinity.

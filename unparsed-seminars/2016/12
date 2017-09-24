@@ -1,0 +1,91 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.64.129.225 with SMTP id nz1csp553583ieb;
+        Tue, 16 Feb 2016 00:32:33 -0800 (PST)
+X-Received: by 10.202.95.68 with SMTP id t65mr14437467oib.7.1455611553299;
+        Tue, 16 Feb 2016 00:32:33 -0800 (PST)
+Return-Path: <manju@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.65])
+        by mx.google.com with ESMTP id p6si13486971obl.12.2016.02.16.00.32.31;
+        Tue, 16 Feb 2016 00:32:33 -0800 (PST)
+Received-SPF: pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) client-ip=203.200.35.65;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: best guess record for domain of manju@math.iisc.ernet.in designates 203.200.35.65 as permitted sender) smtp.mailfrom=manju@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id u1G8WOVk012309;
+	Tue, 16 Feb 2016 14:02:24 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.14.5/8.14.5) with ESMTP id u1G8dPrh029172;
+	Tue, 16 Feb 2016 14:09:25 +0530
+Received: from localhost (manju@localhost)
+	by math.iisc.ernet.in (8.14.5/8.14.5/Submit) with ESMTP id u1G8dP4U029168;
+	Tue, 16 Feb 2016 14:09:25 +0530
+Date: Tue, 16 Feb 2016 14:09:25 +0530 (IST)
+From: Manjunath Krishnapur <manju@math.iisc.ernet.in>
+Reply-To: manju@math.iisc.ernet.in
+To: broadcast@ece.iisc.ernet.in
+cc: m_seminar@math.iisc.ernet.in
+Subject: [Seminar] MATH : 26th Feb 2016 : "Eigenfunctions"
+Message-ID: <alpine.LFD.2.03.1602161403220.28645@math.iisc.ernet.in>
+User-Agent: Alpine 2.03 (LFD 1266 2009-07-14)
+MIME-Version: 1.0
+Content-Type: MULTIPART/MIXED; BOUNDARY="-2046139380-928926417-1455611965=:28645"
+
+  This message is in MIME format.  The first part should be readable text,
+  while the remaining parts are likely unreadable without MIME-aware tools.
+
+---2046139380-928926417-1455611965=:28645
+Content-Type: TEXT/PLAIN; format=flowed; charset=ISO-8859-7
+Content-Transfer-Encoding: 8BIT
+
+Dear All,
+
+There will be two lectures in the "Eigenfunctions" seminar series on 26th 
+Feb, 2015.
+
+--------------------------------------------
+Lecture 1:
+
+Speaker: Rukmini Dey (ICTS, Bangalore)
+
+Title: Some Aspects of Minimal Surfaces
+
+Time and date: 2:15-3:15 PM, 26th Feb
+
+Venue: LH-1, department of mathematics
+
+Abstract: I will introduceminimalsurfacesand explain the 
+Weierstrass-Enneper representation of aminimalsurfaceusing hodographic 
+coordinates. I will mention an interesting link between minimal surfaces
+and Born-Infeldsolitons. If time permits, I will explain my work (with P 
+Kumar and R K Singh)on interpolationof two real analytic curves by a 
+minimal surface of the Bj\"{o}rling-Schwartz type.
+
+------------------------------
+Lecture 2:
+
+Speaker: Deeparnab Chakrabarty (Microsoft research, Bangalore)
+
+Title: Understanding Wolfes Heuristic: Submodular Function Minimization 
+and Projection onto Polytopes
+
+Time and date: 3:30-4:30 PM, 26th Feb
+
+Venue: LH-1, department of mathematics
+
+Abstract: Owing to several applications in large scale learning and 
+vision problems, fast submodular function minimization (SFM) has become a 
+very important problem. Theoretically, unconstrained SFM is polynomial 
+time solvable, however, these algorithms are not practical. In 1976, Wolfe 
+proposed a heuristic for projection onto a polytope, and in 1980, 
+Fujishige showed how Wolfe's heuristic can be used for SFM. For general 
+submodular functions, this Fujishige-Wolfe heuristic seems to have the 
+best empirical performance. Despite its good practical performance, very 
+little is known about Wolfe's projection algorithm theoretically.
+
+In this talk, I will describe the first analysis which proves that the 
+heuristic is polynomial time for bounded submodular functions. Our work 
+involves the first convergence analysis of Wolfes projection heuristic, 
+and proving a robust version of Fujishiges reduction theorem.
+
+---------------------------------------------------------------------------
+---2046139380-928926417-1455611965=:28645--

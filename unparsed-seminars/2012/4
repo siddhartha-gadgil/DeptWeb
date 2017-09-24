@@ -1,0 +1,79 @@
+Delivered-To: siddhartha.gadgil@gmail.com
+Received: by 10.112.128.199 with SMTP id nq7csp262479lbb;
+        Wed, 31 Oct 2012 01:07:41 -0700 (PDT)
+Received: by 10.68.254.8 with SMTP id ae8mr4413528pbd.46.1351670860869;
+        Wed, 31 Oct 2012 01:07:40 -0700 (PDT)
+Return-Path: <mathseminars@math.iisc.ernet.in>
+Received: from relay.iisc.ernet.in (relay.iisc.ernet.in. [203.200.35.70])
+        by mx.google.com with ESMTPS id bo5si4029542pab.15.2012.10.31.01.07.38
+        (version=TLSv1/SSLv3 cipher=OTHER);
+        Wed, 31 Oct 2012 01:07:40 -0700 (PDT)
+Received-SPF: pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) client-ip=203.200.35.70;
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of mathseminars@math.iisc.ernet.in designates 203.200.35.70 as permitted sender) smtp.mail=mathseminars@math.iisc.ernet.in
+Received: from math.iisc.ernet.in (www.math.iisc.ernet.in [10.134.1.11])
+	by relay.iisc.ernet.in (8.14.4/8.14.4) with ESMTP id q9V87Zm8004944;
+	Wed, 31 Oct 2012 13:37:35 +0530
+Received: from math.iisc.ernet.in (localhost.localdomain [127.0.0.1])
+	by math.iisc.ernet.in (8.13.8/8.13.8) with ESMTP id q9V87TxZ029072
+	for <m_seminar@math.iisc.ernet.in>; Wed, 31 Oct 2012 13:37:29 +0530
+Received: (from apache@localhost)
+	by math.iisc.ernet.in (8.13.8/8.13.8/Submit) id q9V87TSd029071;
+	Wed, 31 Oct 2012 13:37:29 +0530
+X-Authentication-Warning: math.iisc.ernet.in: apache set sender to mathseminars@localhost using -f
+Received: from s2.serc.iisc.ernet.in ([10.16.40.12]) (proxying for 
+     117.192.66.187)
+        (SquirrelMail authenticated user mathseminars)
+        by math.iisc.ernet.in with HTTP;
+        Wed, 31 Oct 2012 13:37:29 +0530 (IST)
+Message-ID: <96e059b8c7565cbd3a7bb99f41c80241.squirrel@math.iisc.ernet.in>
+Date: Wed, 31 Oct 2012 13:37:29 +0530 (IST)
+Subject: [Geometry Topology Informal  Seminar] Math: Nov 1,
+      2012: "An introduction to spectral sequences"
+From: "Math Seminar IISc" <mathseminars@math.iisc.ernet.in>
+To: m_seminar@math.iisc.ernet.in
+Reply-To: pooja@math.iisc.ernet.in
+User-Agent: SquirrelMail/1.4.17
+MIME-Version: 1.0
+Content-Type: text/plain;charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Priority: 3 (Normal)
+Importance: Normal
+X-IISc-MailScanner-Information: Please contact the ISP for more information
+X-MailScanner-ID: q9V87Zm8004944
+X-IISc-MailScanner: Found to be clean
+X-IISc-MailScanner-SpamCheck: not spam, SpamAssassin (not cached, score=1.2,
+	required 6.5, BAYES_00 -1.90, _LOCAL_RCVD_THRU_RPROXY 3.10)
+X-IISc-MailScanner-SpamScore: s
+X-IISc-MailScanner-From: mathseminars@math.iisc.ernet.in
+X-Spam-Status: No
+
+Dear all,
+
+In the Geometry Topology informal seminars, Dr. Micah Miller will give his
+third talk on the following topic on Thursday (1 November) at 2.30 pm
+in LH I.
+
+Title: An introduction to spectral sequences
+
+Abstract:  Over the course of two or three talks, we introduce the concept
+of spectral sequence and describe some applications.  In the first talk,
+we will construct a spectral sequence associated to a filtered chain
+complex. The Leray-Serre spectral sequence and Zeeman spectral sequence
+arise in this way.
+
+The rest of the talks will discuss applications of these two spectral
+sequences.  We will use the Serre spectral sequence to do a few
+computations and show how to derive the Gysin exact sequence.  We will use
+the Zeeman spectral sequence to study the failure of a space to satisfy
+Poincare duality.
+
+The only prerequisite needed is the definition of a chain complex and its
+homology.
+
+                 All are cordially invited.
+
+-- 
+This message has been scanned for viruses and
+dangerous content by MailScanner, and is
+believed to be clean.
+
