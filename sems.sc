@@ -214,3 +214,10 @@ def imiSem(s: String) : Option[Seminar] = {
      val venueOpt = atOpt.map(_.split(",").tail.mkString(","))
      for {d <- dt; s <- sp ; t <- tit} yield Seminar(d, trim(s), trim(t._2), timeOpt, venueOpt, absOpt)
   }
+
+
+val ymr = (year ~ "-"~ (digit.!) ~ "-"~ (AnyChar.rep.!)).map{case (y, m, rest) => s"$y-0$m-$rest"}
+
+def newName(f: Path) = ymr.parse(f.last).fold((_, _, _) => None, (x, _) => Some(x))
+
+def newPath(f: Path) = newName(f).map(f.up / _)
