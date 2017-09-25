@@ -6,7 +6,8 @@ time: "2:00 - 3:00pm"
 venue: "Lecture Hall I, Department of Mathematics"
 ---
 We study homomorphisms $\rho\_{V}$ given by
-$\displaystyle \rho\_{V}(f)= \begin{pmatrix} f(w)I_n & \sum\_{i=1}^{m} \partial_i f(w) V\_{i} \\\\ 0 & f(w) I_n \end{pmatrix}$, $f \in \mathcal{O} (\Omega\_{\mathbf{A}})$
-defined on $\mathcal{O} (\Omega\_{\mathbf{A}})$, where $\Omega\_{\mathbf{A}}$ is a bounded domain of the form:
-$\Omega\_\mathbf A & := & \{ (z\_1 ,z\_2, \ldots, z\_m) : \ \| z\_1 A\_1 + \cdots + z\_m A\_m \|\_{\rm op} < 1\}$
+$\rho\_{V}(f)= \begin{pmatrix} f(w)I_n & \sum\_{i=1}^{m} \partial_i f(w) V\_{i} \\\\ 0 & f(w) I_n \end{pmatrix}$,
+$f \in \mathcal{O} (\Omega\_{\mathbf{A}})$
+defined on $\mathcal{O} (\Omega\_{\mathbf{A}})$, where $\Omega\_{\mathbf{A}}$ is a bounded domain of the form
+$\Omega\_\mathbf A := \{ (z\_1 ,z\_2, \ldots, z\_m) : \ \| z\_1 A\_1 + \cdots + z\_m A\_m \|\_{\rm op} < 1\}$
 for some choice of a linearly independent set of $n\times n$ matrices $\{A_1, \ldots, A_m\}.$
