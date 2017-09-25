@@ -223,3 +223,8 @@ def newName(f: Path) = ymr.parse(f.last).fold((_, _, _) => None, (x, _) => Some(
 def newPath(f: Path) = newName(f).map(f.up / _)
 
 def addMonthZero(f: Path) = newPath(f).foreach((g) => mv(f, g))
+
+val ymdr = (year ~ "-"~ day ~"-" ~ (digit.!) ~ "-"~ (AnyChar.rep.!)).map{case (y, m, d, rest) => s"$y-$m-0$d-$rest"}
+def newNameDay(f: Path) = ymdr.parse(f.last).fold((_, _, _) => None, (x, _) => Some(x))
+def newDayPath(f: Path) = newNameDay(f).map(f/up / _)
+def addDayZero(f: Path) = newDayPath(f).foreach((g) => mv(f, g))
