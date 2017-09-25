@@ -6,7 +6,7 @@ title: "On residues of certain intertwining operators"
 venue: "LH-I, Department of Mathematics"
 ---
 Let $G$ be a connected reductive group over a finite extension
-$F$ of $\mathbb{Q}_p$. Let $P = MN$ be a Levi decomposition of
+$F$ of $\mathbb{Q}\_p$. Let $P = MN$ be a Levi decomposition of
 a maximal parabolic subgroup of $G$, and $\sigma$ an irreducible unitary
 supercuspidal representation of $M(F)$. One can then consider the
 representation Ind$_{P(F)}^{G(F)}\sigma$ (normalized parabolic
