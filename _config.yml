@@ -33,7 +33,7 @@ future: true
 collections:
   seminars:
       output: true
-      permalink: /seminars/:title
+      permalink: /seminars/:year/:year-:month-:day-:title
 
   all-courses:
     output: true
