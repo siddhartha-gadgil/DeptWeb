@@ -221,3 +221,5 @@ val ymr = (year ~ "-"~ (digit.!) ~ "-"~ (AnyChar.rep.!)).map{case (y, m, rest) =
 def newName(f: Path) = ymr.parse(f.last).fold((_, _, _) => None, (x, _) => Some(x))
 
 def newPath(f: Path) = newName(f).map(f.up / _)
+
+def addMonthZero(f: Path) = newPath(f).foreach((g) => mv(f, g))
