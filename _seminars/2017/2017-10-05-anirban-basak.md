@@ -22,7 +22,7 @@ for sparse random matrices have been unknown and requires completely
 new ideas due to the presence of a large number of zeros. We consider
 a sparse random matrix with entries of the form $\xi\_{i,j} \delta\_{i,j},
 \, i,j=1,\ldots,n$, such that $\xi\_{i,j}$ are i.i.d.~with zero mean and 
-unit variance and $\delta\_{i,j}$ are i.i.d.~Ber$(p_n)$, where $p_n
+unit variance and $\delta\_{i,j}$ are i.i.d. Ber$(p_n)$, where $p_n
 \downarrow 0$ as $n \to \infty$. For $p_n < \frac{\log n}{n}$, this
 matrix becomes non-invertible, and hence its condition number equals
 infinity, with probability tending to one. In this talk, I will describe
