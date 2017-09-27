@@ -1,6 +1,6 @@
 ---
-speaker: Neeraj Kayal (Microsoft research)
-title: "The quest for a polynomial that is hard to compute."
+speaker: Neeraj Kayal (Microsoft Research)
+title: "The quest for a polynomial that is hard to compute"
 date: 6 October, 2017
 time: 3-4:55 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
