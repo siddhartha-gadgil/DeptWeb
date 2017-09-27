@@ -2,7 +2,7 @@
 speaker: Anirban Basak (Weizmann Institute of Science, Israel)
 title: "Invertibility and condition number of sparse random matrices"
 date: October 5, 2017
-time: 4-5pm
+time: 4pm
 venue: LH-1, Mathematics Department
 ---
 I will describe our work that establishes (akin to) von Neumann's
