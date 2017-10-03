@@ -34,10 +34,14 @@
   <div class="col-md-4">
     <h3 style="text-align:center"> <a href="seminars-all.html">Seminars</a></h3>
     {% assign sorted = (site.seminars | sort: 'date') | reverse %}
+    {% assign chron = (site.seminars | sort: 'date') %}
 <br>
 <ul>
 
-{% for sem in sorted limit: 4 %}
+{% assign curDate = site.time | date: '%s' %}
+{% for sem in chron %}
+{% assign semDate = sem.date | date: '%s' %}
+{% if semDate >= curDate %}
 <li>
  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
@@ -56,9 +60,9 @@
 <div class="">
 &nbsp;
 </div>
-</li>
+</li>{% endif %}
  {% endfor %}
- <a href="seminars-all.html"><h4>More...</h4></a>
+ <a href="seminars-all.html"><h4>All Seminars</h4></a>
 </ul>
 
   </div>
