@@ -2,7 +2,7 @@
 speaker: Eshita Mazumdar (IIT, Bombay)
 title: Davenport constant and an external problem related to it
 date: 2017-05-09
-time: 3pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 ---
 
