@@ -4,7 +4,7 @@ speaker: Monojit Bhattacharjee (IISc Mathematics)
 
 venue: LH-1, Mathematics Department
 
-time: 3pm
+time: 3 pm
 
 date: July 03, 2017
 
