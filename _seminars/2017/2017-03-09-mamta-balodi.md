@@ -5,7 +5,7 @@ date: March 9, 2017
 
 location: LH-3, Mathematics Department
 
-time: 4pm
+time: 4 pm
 
 
 title: A result for boolean interval of finite groups
