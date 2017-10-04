@@ -3,7 +3,7 @@ speaker: Suraj Kumar (Paris Diderot University, France)
 
 date: March 14, 2017
 
-time: 9:30am
+time: 9:30 am
 
 location: LH-1, Mathematics Department
 
