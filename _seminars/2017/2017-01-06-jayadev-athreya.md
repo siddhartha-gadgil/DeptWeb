@@ -2,7 +2,7 @@
 title: Siegel-Veech transforms are in L2
 speaker: Jayadev Athreya (University of Washington, USA)
 date: 2017-01-06
-time: 11am
+time: 11 am
 venue: LH-1, Mathematics Department
 ---
 
