@@ -3,7 +3,7 @@ speaker: Mamta Balodi (IMSc)
 
 date: March 2, 2017
 
-time: 4pm
+time: 4 pm
 
 location: LH-1, Mathematics Department
 
