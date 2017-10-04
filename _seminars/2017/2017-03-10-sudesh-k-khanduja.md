@@ -3,7 +3,7 @@ speaker: Sudesh K Khanduja (IISER Mohali)
 
 date: March 10
 
-time: 4pm
+time: 4 pm
 
 location: LH-1, Mathematics Department
 
