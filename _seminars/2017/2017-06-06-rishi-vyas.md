@@ -2,7 +2,7 @@
 speaker: Rishi Vyas (Ben Gurion University, Israel)
 title: Dualizing Complexes in the Noncommutative Arithmetic Context
 date: 2017-06-06
-time: 3pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 ---
 Dualizing complexes were first introduced in commutative
