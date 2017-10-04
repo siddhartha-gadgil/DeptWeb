@@ -3,7 +3,7 @@ speaker: Somnath Hazra (IISc Mathematics)
 
 venue: LH-1, Mathematics Department
 
-time: 11am
+time: 11 am
 
 date: June 19, 2017
 title: "Homogeneous Operators"
@@ -12,10 +12,10 @@ title: "Homogeneous Operators"
 It is known that the characteristic function $\theta_T$ of a
 homogeneous contraction $T$ with an associated representation $\pi$ is of
 the form
-$\theta_T(a) = \sigma\_{L}(\phi_a)^{*} \theta(0) \sigma\_{R}(\phi\_a),$
+$\theta_T(a) = \sigma\_{L}(\phi_a)^{\*} \theta(0) \sigma\_{R}(\phi\_a),$
 where, $\sigma\_{L}$ and $\sigma\_{R}$ are projective representation of the
 M\"{o}bius group M\"{o}b with a common multiplier.  We give another proof
-of the ``product formula''.
+of the "product formula''.
 
 Also, we prove that the projective representations $\sigma\_L$ and
 $\sigma\_R$ for a class of multiplication  operators, the two
