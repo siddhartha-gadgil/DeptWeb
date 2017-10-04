@@ -3,7 +3,7 @@ speaker: Alexander Belton (Lancaster University, UK)
 
 date: 2017-04-5
 
-time: 4pm
+time: 4 pm
 
 location: LH-1, Mathematics Department
 
