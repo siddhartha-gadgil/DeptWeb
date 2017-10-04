@@ -19,7 +19,7 @@ considered (i.e., *quantitative estimates*) were not investigated.
 From the beginning of 2000's, a great activity has been carried out in
 order to obtain the sharp dependence for singular integral operators,
 reaching the solution of the so-called $A\_2$ conjecture by T. P.
-H\"ytonen.
+H\\"ytonen.
 
 In this talk we consider operators with homogeneous singular kernels, on
 which we assume smoothness conditions that are weaker than the standard
