@@ -5,7 +5,7 @@ date: Feb 16, 2017
 
 location: LH-1, Mathematics Department
 
-time: 3:30pm
+time: 3:30 pm
 
 
 title: Control and analysis of Shell model of Turbulence
