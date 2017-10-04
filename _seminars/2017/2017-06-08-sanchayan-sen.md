@@ -2,7 +2,7 @@
 speaker: Sanchayan Sen (McGill University, Canada)
 title: "Random structures: Phase transitions, scaling limits, and universality"
 date: June 8, 2017
-time: 3pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 ---
 
