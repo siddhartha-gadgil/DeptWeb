@@ -3,7 +3,7 @@ speaker: Dharmatti Sheetal (IISER TVM)
 
 location: LH-1, Mathematics Department
 
-time: 11am
+time: 11 am
 
 date: 2017-02-17
 
