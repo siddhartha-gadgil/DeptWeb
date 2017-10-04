@@ -1,6 +1,6 @@
 ---
 title: Counting complex solutions of polynomial equations via Newton polytopes
-speaker: Prof. Jugal Verma (IIT, Bombay)
+speaker: Jugal Verma (IIT, Bombay)
 date: 2017-09-05
 time: 2:30 - 3:45 and 4:00 - 5:00 pm
 location: LH-1, Mathematics Department
