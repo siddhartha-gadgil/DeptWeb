@@ -4,7 +4,7 @@ title: >
   Periodic Homogenization
 speaker: Hari Shankar Mahato (University of Georgia, USA)
 date: 2017-01-10
-time: 11am
+time: 11 am
 venue: LH-1, Mathematics Department
 ---
 
