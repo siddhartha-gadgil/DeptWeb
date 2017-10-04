@@ -3,7 +3,7 @@ speaker: Samriddhi Sankar Ray (ICTS)
 
 venue: LH-1, Mathematics Department
 
-time: 2:15 - 3:15 pm
+time: 2:15 pm
 
 date  : February 03, 2017 (Friday)
 title: "Playing with the nonlinearity of the Navier-Stokes Equation"
