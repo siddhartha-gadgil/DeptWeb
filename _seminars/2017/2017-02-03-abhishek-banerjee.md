@@ -3,7 +3,7 @@ speaker: Abhishek Banerjee (IISc Mathematics)
 
 venue: LH-1, Mathematics Department
 
-time: 3:30 - 4:30 pm
+time: 3:30 pm
 
 date  : February 03, 2017 (Friday)
 title : "What is finiteness?"
