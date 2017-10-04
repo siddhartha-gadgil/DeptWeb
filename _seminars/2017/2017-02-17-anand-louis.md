@@ -3,7 +3,7 @@ speaker: Anand Louis (IISc Computer Science and Automation)
 
 venue: LH-1, Mathematics Department
 
-time: 3:30 - 4:30 pm
+time: 3:30 pm
 
 date  : February 17, 2017 (Friday)
 title : "Graph Partitioning using its Spectra"
