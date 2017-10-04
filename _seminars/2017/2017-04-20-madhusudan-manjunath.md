@@ -1,7 +1,7 @@
 ---
 date: 2017-04-20
 
-time: 4pm
+time: 4 pm
 
 location: LH-1, Mathematics Department (via Skype)
 
