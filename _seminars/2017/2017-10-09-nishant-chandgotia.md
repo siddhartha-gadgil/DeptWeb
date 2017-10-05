@@ -1,6 +1,6 @@
 ---
 title: Irrational rotations, random affine transformations and the central limit theorem
-speaker: Nishant Chandgotia (Tel Aviv university, Israel)
+speaker: Nishant Chandgotia (Tel Aviv University, Israel)
 date: 2017-10-09
 time: 3 pm
 venue: LH-1, Mathematics Department
