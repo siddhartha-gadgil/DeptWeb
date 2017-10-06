@@ -39,7 +39,6 @@
 <ul>
 
 {% assign curDate = (site.time | date: '%s') | minus: 86400 %}
-{{ curDate }}
 {% for sem in chron %}
 {% assign semDate = (sem.date | date: '%s') | plus: 0 %}
 {% if semDate >= curDate %}
