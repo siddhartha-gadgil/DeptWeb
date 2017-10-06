@@ -39,9 +39,12 @@
 <ul>
 
 {% assign curDate = (site.time | date: '%s') | minus: 86400 %}
+{% assign counter = 0 %}
+
 {% for sem in chron %}
 {% assign semDate = (sem.date | date: '%s') | plus: 0 %}
 {% if semDate >= curDate %}
+{% assign counter=counter | plus: 1 %}
 <li>
  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
@@ -62,6 +65,30 @@
 </div>
 </li>{% endif %}
  {% endfor %}
+ {% assign pastnum = 3 | minus: counter %}
+
+ {% for sem in sorted limit: pastnum %}
+ <li>
+  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+ <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
+ <div>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </div>
+ <div class=""> <strong>Time: </strong>
+   {{ sem.time }}
+ </div>
+ <div class="">
+   <strong>Venue:</strong>
+     {% if sem.venue %}
+       {{ sem.venue }}
+       {% else %}
+       {{ sem.location }}
+       {% endif %}
+ </div>
+ <div class="">
+ &nbsp;
+ </div>
+ </li>
+  {% endfor %}
+
  <a href="seminars-all.html"><h4>All Seminars</h4></a>
 </ul>
 
