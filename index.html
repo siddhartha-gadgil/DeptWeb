@@ -38,9 +38,10 @@
 <br>
 <ul>
 
-{% assign curDate = site.time | date: '%s' %}
+{% assign curDate = (site.time | date: '%s') | minus: 86400 %}
+{{ curDate }}
 {% for sem in chron %}
-{% assign semDate = sem.date | date: '%s' %}
+{% assign semDate = (sem.date | date: '%s') | plus: 0 %}
 {% if semDate >= curDate %}
 <li>
  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
