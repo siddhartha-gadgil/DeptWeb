@@ -67,7 +67,13 @@
  {% endfor %}
  {% assign pastnum = 3 | minus: counter %}
 
- {% for sem in sorted limit: pastnum %}
+ {% if pastnum > 0 %}
+ <h4 class="text-center">Past Seminars</h4>
+ {% endif %}
+
+ {% for sem in sorted limit: 3 %}
+ {% assign semDate = (sem.date | date: '%s') | plus: 0 %}
+ {% unless semDate >= curDate %}
  <li>
   <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
  <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
@@ -87,6 +93,7 @@
  &nbsp;
  </div>
  </li>
+  {% endunless %}
   {% endfor %}
 
  <a href="seminars-all.html"><h4>All Seminars</h4></a>
