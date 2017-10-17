@@ -14,9 +14,9 @@ The following information is written for Windows PCs/Laptops. Instructions for M
 
 1. Login to the IISc network using the Anyconnect VPN client (as described above).
 
-2. Choose the "SFTP" protocol. The "host name" is 10.134.1.11 (the IP address of the mathematics server). The port number is 22. Click login.
+2. Choose the "SFTP" protocol. The "host name" is 10.134.1.11 (the IP address of the mathematics server). The port number is 22. Click on the login button.
 
-3. Enter your username (for instance, if your iisc email is einstein@iisc.ac.in, then  your username is einstein) and your password. Now you can start transferring files.
+3. Enter your username (for instance, if your IISc email is einstein@iisc.ac.in, then  your username is einstein) and your password. Now you can start transferring files.
 
 #### The IISc network IP addresses : 
 
