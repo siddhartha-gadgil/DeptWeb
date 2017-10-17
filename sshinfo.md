@@ -21,8 +21,12 @@ The following information is written for Windows PCs/Laptops. Instructions for M
 ### The IISc network information  : 
 
 DNS servers : 10.16.25.15, 10.16.25.13
+
 Gateway: 10.134.13.1
+
 Netmask: 255.255.255.0 
+
 Math: 10.134.1.11
+
 Sparrow: 10.134.13.102
 
