@@ -10,7 +10,7 @@ The following information is written for Windows PCs/Laptops. Instructions for M
 
 ### To access the mathematics network from outside  :
 
-0. Download and install an FTP client from [here] (https://winscp.net/eng/index.php)
+0. Download and install an FTP client from [here](https://winscp.net/eng/index.php)
 
 1. Login to the IISc network using the Anyconnect VPN client (as described above).
 
