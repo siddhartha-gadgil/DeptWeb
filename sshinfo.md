@@ -18,7 +18,7 @@ The following information is written for Windows PCs/Laptops. Instructions for M
 
 3. Enter your username (for instance, if your iisc email is einstein@iisc.ac.in, then  your username is einstein) and your password. Now you can start transferring files.
 
-### The IISc network information  : 
+### The IISc network IP addresses : 
 
 DNS servers : 10.16.25.15, 10.16.25.13
 
