@@ -24,4 +24,4 @@ Pratiksha Young Investigators will be supported through an endowment from the Pr
 * The (enclosed) nomination form filled in all respects PDF versions of the nominee's best three papers.
 * Complete CV (with pages numbered).
 
-**Terms and conditions:** On selection, an Assistant Professor will be a Young investigator for a period of 2 years. A monthly top-up salary of Rs. 25,000 and an unrestricted research grant of Rs. 3 lakhs per year will be provided to the faculty member during the period that he/she is a Young Investigator, A Young Investigator should submit a brief annual report to the Director on the research activities conducted with the financial support received,
+**Terms and conditions:** On selection, an Assistant Professor will be a Young investigator for a period of 2 years. A monthly top-up salary of Rs. 25,000 and an unrestricted research grant of Rs. 3 lakhs per year will be provided to the faculty member during the period that he/she is a Young Investigator. A Young Investigator should submit a brief annual report to the Director on the research activities conducted with the financial support received.
