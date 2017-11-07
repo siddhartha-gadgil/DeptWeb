@@ -3,7 +3,7 @@
 
 ###  Forwarding your iisc.ac.in mail from microsoft office 365 to another account (say your gmail account for the sake of argument)
  
-1. Go to [the microsoft office webpage](http://www.login.microsoftonline.com) and login to your iisc account.
+1. Go to [the microsoft office webpage](https://www.office.com/) and sign in to your iisc account.
 
 2. Click the "mail" tile and then click the wheel (settings) icon next to the question mark on the right-hand top corner.
 
