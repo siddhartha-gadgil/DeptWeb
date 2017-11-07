@@ -17,6 +17,6 @@
 
 2. In "send mail as", click on "add another email address". Now write your email address (username@iisc.ac.in). Click next. 
 
-3. In the SMTP server information, write outlook-apacnorth.office365.com. Select port 587. In  your username, write your full email address (xyz@iisc.ac.in) and enter the password you use to login to microsoft office 365. 
+3. In the SMTP server information, write outlook-apacnorth.office365.com. Select port 587. In  your username, write your full email address (username@iisc.ac.in) and enter the password you use to login to microsoft office 365. 
 
 4. Click next and verify.
