@@ -90,13 +90,21 @@ jan2018:
       name: Ordinary Differential Equations
       instructor: A. K. Nandakumaran
   electives:
-    - code: MA 392
-      name: Random Graphs and interacting particle systems
-      instructor: Srikanth Iyer
+    - code: MA 315
+      name: Lie Algebras and their Representations
+      instructor: R. Venkatesh
 
     - code: MA 340
       name: Advanced Functional Analysis
       instructor: Tirthankar Bhattacharyya
+
+    - code: MA 392
+      name: Random Graphs and interacting particle systems
+      instructor: Srikanth Iyer
+
+    - code: MA xxx
+      name: Coxeter Groups
+      instructor: Arvind Ayyer
 
 jan2017:
   core1:
