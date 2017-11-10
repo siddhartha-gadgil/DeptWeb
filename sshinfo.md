@@ -1,5 +1,5 @@
 ---
-title: SSH info
+title: VPN info
 ---
 ### To access the IISc network from outside :
 
