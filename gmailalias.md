@@ -1,4 +1,5 @@
 ---
+title: Mail forwarding
 ---
 
 ###  Forwarding your iisc.ac.in mail from microsoft office 365 to another account (say your gmail account for the sake of argument)

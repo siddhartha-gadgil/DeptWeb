@@ -1,4 +1,5 @@
 ---
+title: Make your web page
 ---
 ### Creating a webpage hosted on the maths server
 

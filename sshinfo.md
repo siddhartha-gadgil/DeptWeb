@@ -1,4 +1,5 @@
 ---
+title: SSH info
 ---
 ### To access the IISc network from outside :
 
