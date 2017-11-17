@@ -1,8 +1,8 @@
 ---
 speaker: Krishanu Roy (IMSc, Chennai)
-title: "Closed subroot systems of finite and affine root systems."
+title: "Closed subroot systems of finite and affine root systems"
 date: 24 November, 2017
-time: 10:30 AM  
+time: 10:30 am
 venue: LH-1, Mathematics Department
 ---
 
