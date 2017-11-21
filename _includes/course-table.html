@@ -2,7 +2,8 @@
 
   <tr>
     <strong>
-      <td><b>Course No.</b></td> <td><b>Credits</b></td><td><b>Course Title</b></td> <td><b>Instructor</b></td><td><b>Days</b></td><td><b>Time</b></td>
+      <td><b>Course No.</b></td> <td><b>Credits</b></td><td><b>Course Title</b></td>
+      <td><b>Instructor</b></td><td  class="text-center"><b>Timing</b></td>
     </strong>
   </tr>
   {% for course in list %}
@@ -24,7 +25,6 @@
 
     <a href="{{ lnk }}"> {{ course.name }} </a> </td>
   <td> {{ course.instructor}}</td>
-  <td> {{ course.days }}dummy-long</td>
-  <td>{{ course.time }}dummy-long</td>
+  <td> {{ course.timing }}Mon, Wed, Fri: 11:00am-12:00</td>
   </tr>
   {% endfor %}
