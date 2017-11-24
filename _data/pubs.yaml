@@ -1156,19 +1156,6 @@
   volume: "112"
   issn: "0253-4142"
 
-- number: "9"
-  author: "Jiang, Chunlan and Ji, Kui and Misra, Gadadhar"
-  fjournal: "Journal of Functional Analysis"
-  url: "httpsdoi.org10.1016j.jfa.2017.06.015"
-  journal: "J. Funct. Anal."
-  mrnumber: "3692324"
-  pages: "2870-2915"
-  year: 2017
-  title: "Classification of quasi-homogeneous holomorphic curves and operators in the Cowen-Douglas class"
-  mrclass: "47C15 (47B37 47B48 47L40)"
-  volume: "273"
-  issn: "0022-1236"
-
 - number: "1"
   author: "Bhattacharyya, T. and Narayanan, E. K. and Sarkar, Jaydeb"
   fjournal: "Operators and Matrices"
@@ -1950,19 +1937,6 @@
   volume: "23"
   issn: "0020-7462"
 
-- number: "4"
-  author: "Mandal, S. and Sahoo, T. and Chakrabarti, A."
-  fjournal: "Geophysical and Astrophysical Fluid Dynamics"
-  url: "httpsdoi.org10.108003091929.2017.1318129"
-  journal: "Geophys. Astrophys. Fluid Dyn."
-  mrnumber: "3669813"
-  pages: "249-281"
-  year: 2017
-  title: "Characteristics of eigen-system for flexural gravity wave problems"
-  mrclass: "76B15 (74F10)"
-  volume: "111"
-  issn: "0309-1929"
-
 - number: "1-2"
   author: "Balakumar, G. P. and Verma, Kaushal"
   fjournal: "Mathematische Zeitschrift"
@@ -2145,19 +2119,6 @@
   mrclass: "42C10 (26A33 33C52 47G40)"
   volume: "22"
   issn: "1259-1734"
-
-- number: "4"
-  author: "Basak, Biplab and Casali, Maria Rita"
-  fjournal: "Forum Mathematicum"
-  url: "httpsdoi.org10.1515forum-2015-0080"
-  journal: "Forum Math."
-  mrnumber: "3669002"
-  pages: "761-773"
-  year: 2017
-  title: "Lower bounds for regular genus and gem-complexity of PL 4-manifolds"
-  mrclass: "57Q15 (05C10 57N13 57Q05)"
-  volume: "29"
-  issn: "0933-7741"
 
 - author: "Ayyer, Arvind and Klee, Steven and Schilling, Anne"
   series: "Fields Inst. Commun."
@@ -3086,19 +3047,6 @@
   volume: "26"
   issn: "0723-0869"
 
-- number: "3"
-  author: "Kreuzer, Martin and Patil, Dilip P."
-  fjournal: "Beitr&auml;ge zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  url: "httpsdoi.org10.1007s13366-016-0324-4"
-  journal: "Beitr. Algebra Geom."
-  mrnumber: "3683021"
-  pages: "427-452"
-  year: 2017
-  title: "Computational aspects of Burnside rings, part I the ring structure"
-  mrclass: "19A22 (20C40)"
-  volume: "58"
-  issn: "0138-4821"
-
 - number: "1"
   author: "Guruprasad, K. and Nilakantan, Nandini"
   fjournal: "Journal of the Ramanujan Mathematical Society"
@@ -3395,19 +3343,6 @@
   volume: "23"
   issn: "0020-7225"
 
-- number: "3"
-  author: "Senthil Raani, K. S."
-  fjournal: "Monatshefte f&uuml;r Mathematik"
-  url: "httpsdoi.org10.1007s00605-017-1081-7"
-  journal: "Monatsh. Math."
-  mrnumber: "3709307"
-  pages: "459-487"
-  year: 2017
-  title: "$L^p$-Fourier asymptotics, Hardy-type inequality and fractal measures"
-  mrclass: "42B10 (28A78 40E05)"
-  volume: "184"
-  issn: "0026-9255"
-
 - number: "6"
   author: "Chakrabarti, A. and Mohapatra, S."
   fjournal: "Bulletin of the Calcutta Mathematical Society"
@@ -3675,19 +3610,6 @@
   title: "The classical Stefan problem"
   mrclass: "35R35 (35C15 35R30 80A22)"
   volume: "45"
-
-- number: "3"
-  author: "Datta, Basudeb and Maity, Dipendu"
-  fjournal: "Beitr&auml;ge zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  url: "httpsdoi.org10.1007s13366-017-0332-z"
-  journal: "Beitr. Algebra Geom."
-  mrnumber: "3683032"
-  pages: "617-634"
-  year: 2017
-  title: "Semi-equivelar and vertex-transitive maps on the torus"
-  mrclass: "57M60 (52B70 52C20)"
-  volume: "58"
-  issn: "0138-4821"
 
 - number: "1"
   author: "Banerjee, Tamal and Iyer, Srikanth K."
@@ -4107,17 +4029,6 @@
   volume: "125"
   issn: "0167-2789"
 
-- author: "Banerjee, Abhishek"
-  fjournal: "Theory and Applications of Categories"
-  journal: "Theory Appl. Categ."
-  mrnumber: "3670809"
-  pages: "Paper No. 20, 719-735"
-  year: 2017
-  title: "Closure operators in abelian categories and spectral spaces"
-  mrclass: "54B30 (13B22 14A05 18E15)"
-  volume: "32"
-  issn: "1201-561X"
-
 - number: "1"
   author: "Bharali, Gautam and Holtz, Olga"
   fjournal: "SIAM Journal on Matrix Analysis and Applications"
@@ -4198,18 +4109,6 @@
   mrclass: "34C23 (34C25 37G15 37N25 92C20)"
   volume: "14"
   issn: "0218-1274"
-
-- author: "Manchanda, Kaustubh and Bose, Amitabha and Ramaswamy, Ramakrishna"
-  fjournal: "Physica A. Statistical Mechanics and its Applications"
-  url: "httpsdoi.org10.1016j.physa.2017.06.021"
-  journal: "Phys. A"
-  mrnumber: "3679123"
-  pages: "111-124"
-  year: 2017
-  title: "Collective dynamics in heterogeneous networks of neuronal cellular automata"
-  mrclass: "92B20 (37B15)"
-  volume: "487"
-  issn: "0378-4371"
 
 - author: "Kavitha, Telikepalli and Mestre, Juli&aacute;n"
   series: "Lecture Notes in Comput. Sci."
@@ -4748,19 +4647,6 @@
   volume: "29"
   issn: "0893-4983"
 
-- number: "1"
-  author: "Sain, Debmalya"
-  fjournal: "Journal of Mathematical Analysis and Applications"
-  url: "httpsdoi.org10.1016j.jmaa.2017.07.070"
-  journal: "J. Math. Anal. Appl."
-  mrnumber: "3702695"
-  pages: "67-76"
-  year: 2018
-  title: "On the norm attainment set of a bounded linear operator"
-  mrclass: "46B20 (47A05)"
-  volume: "457"
-  issn: "0022-247X"
-
 - number: "4"
   author: "Ghosh, Mrinal K. and Rao, K. S. Mallikarjuna"
   fjournal: "Indian Academy of Sciences. Proceedings. Mathematical Sciences"
@@ -4896,18 +4782,6 @@
   mrclass: "92C20"
   volume: "87"
   issn: "0970-4140"
-
-- author: "Dhillon, Gurbir and Khare, Apoorva"
-  fjournal: "Advances in Mathematics"
-  url: "httpsdoi.org10.1016j.aim.2017.08.005"
-  journal: "Adv. Math."
-  mrnumber: "3695870"
-  pages: "111-152"
-  year: 2017
-  title: "Faces of highest weight modules and the universal Weyl polyhedron"
-  mrclass: "17B10 (17B37 17B67 20G42 22E47 52B20)"
-  volume: "319"
-  issn: "0001-8708"
 
 - number: "5"
   author: "Arun, K. R. and Prasad, Phoolan"
@@ -6478,19 +6352,6 @@
   mrclass: "43A85 (46E30)"
   volume: "161"
   issn: "0021-2172"
-
-- number: "1-2"
-  author: "Gupta, Rajeev"
-  fjournal: "Acta Universitatis Szegediensis. Acta Scientiarum Mathematicarum"
-  url: "httpsdoi.org10.14232actasm-015-088-4"
-  journal: "Acta Sci. Math. (Szeged)"
-  mrnumber: "3701044"
-  pages: "263-269"
-  year: 2017
-  title: "An improvement on the bound for $C_2(n)$"
-  mrclass: "47A13"
-  volume: "83"
-  issn: "0001-6969"
 
 - number: "12"
   author: "Banerjee, Abhishek"
@@ -11643,19 +11504,6 @@
   mrclass: "37D45 (34C15)"
   volume: "19"
   issn: "0218-1274"
-
-- number: "10"
-  author: "Boggarapu, Pradeep and Roncal, Luz and Thangavelu, Sundaram"
-  fjournal: "Transactions of the American Mathematical Society"
-  url: "httpsdoi.org10.1090tran6861"
-  journal: "Trans. Amer. Math. Soc."
-  mrnumber: "3683101"
-  pages: "7021-7047"
-  year: 2017
-  title: "Mixed norm estimates for the Ces&agrave;ro means associated with Dunkl-Hermite expansions"
-  mrclass: "42C10 (33C45 35J10 42B08 42B35 43A90)"
-  volume: "369"
-  issn: "0002-9947"
 
 - number: "4"
   author: "Sengadir, T. and Pai, D. V. and Pani, A. K."
