@@ -30,16 +30,16 @@
   </div>
 
   <div class="col-md-12">
-    <h2 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a>  </h2>
+    <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a>  </h3>
     <ul class="post-list">
       {% for post in site.posts limit: 1 %}
         <li>
           <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
 
 
-          <h3>
+          <h4>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-          </h3>
+          </h4>
           <p> {{ post.content | truncatewords: 100 }}</p>
         </li>
       {% endfor %}
