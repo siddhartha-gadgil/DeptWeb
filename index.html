@@ -29,6 +29,23 @@
       </ul>
   </div>
 
+  <div class="col-md-12">
+    <h2 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a>  </h2>
+    <ul class="post-list">
+      {% for post in site.posts limit: 1 %}
+        <li>
+          <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+
+          <h3>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h3>
+          <p> {{ post.content | truncatewords: 100 }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
 </div>
 
   <div class="col-md-4">
@@ -65,13 +82,13 @@
 </div>
 </li>{% endif %}
  {% endfor %}
- {% assign pastnum = 3 | minus: counter %}
+ {% assign pastnum = 4 | minus: counter %}
 
  {% if pastnum > 0 %}
  <h4 class="text-center">Past Seminars</h4>
  {% endif %}
 
- {% for sem in sorted limit: 3 %}
+ {% for sem in sorted limit: 4 %}
  {% assign semDate = (sem.date | date: '%s') | plus: 0 %}
  {% unless semDate >= curDate %}
  <li>
