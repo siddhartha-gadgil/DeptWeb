@@ -96,6 +96,11 @@ jan2018:
       timing: "Tue, Thu: 9:30-11:00"
 
   electives:
+    - code: MA 278
+      name: Introduction to Dynamical Systems Theory
+      instructor: Janaki Balakrishnan
+      timing: "Mon, Wed: 2:00-3:30"
+    
     - code: MA 315
       name: Lie Algebras and their Representations
       instructor: R. Venkatesh
