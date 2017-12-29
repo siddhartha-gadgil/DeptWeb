@@ -16,6 +16,9 @@ title: Faculty Members
       <a href=
       "{% if fac.website %}{{ fac.website }}{% else %}http://math.iisc.ac.in/~{{fac.user-id}}/{% endif %}">
         {{ fac.name }}</a> (Ph.D., {{ fac.phd }})<h4> </div>
+	<div class="">
+	 {{fac.chair}}
+	</div>
       <div class="">
         <strong>Research areas :</strong> {{ fac.research-areas}}
       </div>
