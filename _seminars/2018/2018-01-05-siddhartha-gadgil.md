@@ -1,5 +1,5 @@
 ---
-speaker: Siddhartha Gadgil (I.I.Sc.)
+speaker: Siddhartha Gadgil (IISc Mathematics)
 title: "Homogeneous length functions on Groups: A polymath adventure"
 date: 05 January, 2018
 time: 4 pm
