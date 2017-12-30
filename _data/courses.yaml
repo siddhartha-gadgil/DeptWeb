@@ -58,7 +58,6 @@ aug2017:
       instructor: Vamsi Pingali
       webpage: http://math.iisc.ac.in/~vamsipingali/338_2017.html
 
-
     - code: MA 361
       name: Probability Theory
       instructor: Srikanth K. Iyer
@@ -96,6 +95,10 @@ jan2018:
       timing: "Tue, Thu: 9:30-11:00"
 
   electives:
+    - code: MA 305
+      name: Analysis on Lie Groups
+      instructor: S. Thangavelu
+
     - code: MA 315
       name: Lie Algebras and their Representations
       instructor: R. Venkatesh
@@ -110,6 +113,10 @@ jan2018:
       name: Advanced Functional Analysis
       instructor: Tirthankar Bhattacharyya
       timing: "Mon, Wed, Fri: 10:00-11:00"
+
+    - code: MA 341
+      name: Matrix Analysis and positivity
+      instructor: Apoorva Khare
 
     - code: MA 386
       name: Coxeter Groups
