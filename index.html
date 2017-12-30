@@ -65,7 +65,7 @@
 <li>
  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
-<div>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </div>
+<div>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
 <div class=""> <strong>Time: </strong>
   {{ sem.time }}
 </div>
@@ -94,7 +94,7 @@
  <li>
   <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
  <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
- <div>  <strong>Date: </strong>{{ sem.date | date_to_long_string }} </div>
+ <div>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
  <div class=""> <strong>Time: </strong>
    {{ sem.time }}
  </div>
