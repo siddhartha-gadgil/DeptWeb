@@ -73,16 +73,19 @@ jan2018:
       name: Algebra II
       instructor: Abhishek Banerjee
       timing: "Tue, Thu: 3:30-5:00"
+      credits: "3:1"
 
     - code: MA 222
       name: Measure and Integration
       instructor: Manjunath Krishnapur
       timing: "Tue, Thu: 2:00-3:30"
+      credits: "3:1"
 
     - code: MA 224
       name: Complex Analysis
       instructor: Harish Seshadri
       timing: "Tue, Thu: 11:00-12:30"
+      credits: "3:1"
 
     - code: MA 229
       name: Calculus on Manifolds
@@ -93,6 +96,7 @@ jan2018:
       name: Ordinary Differential Equations
       instructor: A. K. Nandakumaran
       timing: "Tue, Thu: 9:30-11:00"
+      credits: "3:1"
 
   electives:
     - code: MA 305
