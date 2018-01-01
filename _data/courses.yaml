@@ -98,11 +98,17 @@ jan2018:
     - code: MA 305
       name: Analysis on Lie Groups
       instructor: S. Thangavelu
+      timing: "Mon, Wed, Fri: 11:00-12:00"
 
     - code: MA 315
       name: Lie Algebras and their Representations
       instructor: R. Venkatesh
       timing: "Tue, Thu: 11:00-12:30"
+
+    - code: MA 326
+      name: Fourier Analysis
+      instructor: S. Thangavelu
+      timing: "Mon, Wed, Fri: 9:00-10:00"
 
     - code: MA 339
       name: Geometric Analysis
@@ -117,6 +123,7 @@ jan2018:
     - code: MA 341
       name: Matrix Analysis and positivity
       instructor: Apoorva Khare
+      timing: "Mon, Wed, Fri: 11:00-12:00"
 
     - code: MA 386
       name: Coxeter Groups
@@ -128,6 +135,10 @@ jan2018:
       name: Random Graphs and interacting particle systems
       instructor: Srikanth Iyer
       timing: "Tue, Thu: 11:00-12:30"
+
+    - code: MA 393
+      name: Topics in Theoretical Statistics
+      instructor: Manjunath Krishnapur
 
 
 jan2017:
