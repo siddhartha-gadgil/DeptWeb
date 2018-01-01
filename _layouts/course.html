@@ -1,7 +1,7 @@
 {% include header.html %}
 
 <h3>{{ page.code }}:  {{ page.title }}</h3>
-<h4> Credits: {% if course.credits %}{{ course.credits }}{% else %}3:0{% endif %}</h4>
+<h4> Credits: {% if page.credits %}{{ page.credits }}{% else %}3:0{% endif %}</h4>
 <!-- <p>&nbsp;</p> -->
 <br>
 {% if page.prereqs %}
