@@ -1,8 +1,8 @@
 ---
-speaker: Moumanti Podder (School of Mathematics, Georgia Tech, U.S.A.)
+speaker: Moumanti Podder (Georgia Institute of Technology, USA)
 title: "First order logic on Galton-Watson trees"
 date: 09 January, 2018
-time: 11:45 a.m. to 12:45 p.m.
+time: 11:45 am
 venue: TO BE ANNOUNCED
 ---
 
