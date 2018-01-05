@@ -6,4 +6,4 @@ time: 11.30 am to 12.30 pm
 venue: LH-3, Mathematics Department
 ---
 
-<a href="math.iisc.ac.in/Visintin-Homog 2018(abstract).pdf">Click here for Abstract.</a>
+<a href="Visintin-Homog 2018(abstract).pdf">Click here for Abstract.</a>
