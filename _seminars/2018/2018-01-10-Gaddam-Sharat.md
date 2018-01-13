@@ -1,8 +1,8 @@
 ---
-speaker: Gaddam Sharat (IISc, Bangalore)
-title: "NUMERICAL METHODS FOR ELLIPTIC VARIATIONAL INEQUALITIES  IN HIGHER DIMENSIONS."
+speaker: Gaddam Sharat (IISc Mathematics)
+title: "Numerical methods for elliptic variational inequalities in higher dimensions"
 date: 10 January, 2018
-time: 10.00 a.m. – 11.00 p.m.
+time: 10 am
 venue: LH-3, Mathematics Department
 ---
 
