@@ -1,8 +1,8 @@
 ---
 speaker: K. B. Athreya (Professor Emeritus, Iowa State University, Ames, USA)
-title: "Basic law of large numbers and applications; Estimation of integrals with respect to infinite measures via RSMC."
+title: "Basic law of large numbers and applications; Estimation of integrals with respect to infinite measures via RSMC"
 date: 19 January, 2018
-time: 3-5 pm
+time: 3 - 5 pm
 venue: LH-1, Mathematics Department
 ---
 
