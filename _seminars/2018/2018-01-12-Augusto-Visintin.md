@@ -1,8 +1,8 @@
 ---
-speaker: Augusto Visintin (Universita' degli Studi di Trento)
+speaker: Augusto Visintin (Universita' degli Studi di Trento, Italy)
 title: "Mathematical models of hysteresis"
 date: 12 January, 2018
-time: 10.00 am to 11.00 am
+time: 10 am
 venue: LH-3, Mathematics Department
 ---
 <!--
