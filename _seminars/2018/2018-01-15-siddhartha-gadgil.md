@@ -1,5 +1,5 @@
 ---
-speaker: Siddhartha Gadgil (IISc Mathematics)
+speaker: Siddhartha Gadgil and Apoorva Khare (IISc Mathematics)
 title: "Eigenfunctions Seminar: Homogeneous length functions on Groups: A polymath adventure"
 date: 15 January, 2018
 time: 4 pm
