@@ -6,6 +6,6 @@ time: 4 pm
 venue: LH-1, Mathematics Department
 ---
 
-Terence Tao posted on his blog a question of Apoorva Khare, asking whether the free group on two generators has a length function $l: F_2 \\to\\mathbb{R}$ (i.e., satisfying the triangle inequality) which is _homogeneous_, i.e., such that $l(g^n) = nl(g)$. A week later, the problem was solved by an active collaboration of several mathematicians (with a little help from a computer) through Tao's blog. In fact a more general result was obtained, namely that any homogeneous length function on a group $G$ factors through its abelianization $G/[G, G]$.
+Terence Tao posted on his blog a question of Apoorva Khare, asking whether the free group on two generators has a length function $l: F\_2 \\to\\mathbb{R}$ (i.e., satisfying the triangle inequality) which is _homogeneous_, i.e., such that $l(g^n) = nl(g)$. A week later, the problem was solved by an active collaboration of several mathematicians (with a little help from a computer) through Tao's blog. In fact a more general result was obtained, namely that any homogeneous length function on a group $G$ factors through its abelianization $G/[G, G]$.
 
 I will discuss the proof of this result and also the  process of discovery (in which I had a minor role).
