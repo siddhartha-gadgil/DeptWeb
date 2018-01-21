@@ -28,6 +28,8 @@ github_username:  jekyll
 markdown: kramdown
 theme: minima
 
+highlighter: rouge
+
 future: true
 
 collections:
