@@ -24,7 +24,9 @@ For each course file, the information is automatically included in the catalogue
 
 {% gist c96879285dd6ffc398f2ecfba5932a9e %}
 
+<p>
 The separate pages for the courses are based on the <a href="https://github.com/siddhartha-gadgil/DeptWeb/blob/841aef95fdd0a790fde35afb9e2e052492f30bf8/_layouts/course.html" target="_blank">course layout</a>. This is as below.
+</p>
 
 {%gist 6325b7e316c091361a533e24964951c8 %}
 
@@ -39,6 +41,9 @@ The separate pages for the courses are based on the <a href="https://github.com/
   <li>This is grouped by semester.</li>
   <li>Within each semester, courses are further grouped as <em>core1</em>, <em>core2</em> and <em>electives</em>.</li>
   <li>If there is a webpage for that specific semester, this should be given as the website. Otherwise the course description page is linked.</li>
+  <li>If credits are not specified, they are taken as "3:0".</li>
 </ul>
 
-This data is rendered according to the <a href="https://github.com/siddhartha-gadgil/DeptWeb/blob/841aef95fdd0a790fde35afb9e2e052492f30bf8/course-list.html" target="_blank">course-list</a> source file as <em>current and upcoming</em> courses.
+<p>
+This data is rendered according to the <a href="https://github.com/siddhartha-gadgil/DeptWeb/blob/841aef95fdd0a790fde35afb9e2e052492f30bf8/course-list.html" target="_blank">course-list</a> source file as <a href="{{ site.baseurl }}/course-list.html" target="_blank"> current and upcoming</a> courses.
+</p>
