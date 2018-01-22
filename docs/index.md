@@ -33,4 +33,3 @@ Details of how these are combined to give the various kinds of pages are documen
 * [Publications](publications.html)
 * [Navigation, Header and Footer](nav.html)
 * [Home](home.html)
-* [Other web pages](webpage.html)
