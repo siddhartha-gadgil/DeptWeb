@@ -2,30 +2,12 @@
 title: "Docs: People"
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl}}/highlight/styles/default.css">
-<script src="{{ site.baseurl}}/highlight/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
 
 <p>
 The data of various groups of people - faculty, students, staff, etc. are in _data files_ in a format called <a href="https://en.wikipedia.org/wiki/YAML" target="_blank"> YAML </a>. For example, below is the beginning of the file <a href="https://github.com/siddhartha-gadgil/DeptWeb/blob/master/_data/faculty.yaml" target="_blank"> faculty.html</a>. This is the file that you must edit to update or correct data etc.
 </p>
 
-<pre><code class="yaml">
-- name: Arvind Ayyer
-  user-id: arvind
-  research-areas: Probability, combinatorics, statistical mechanics, mathematical physics, experimental mathematics
-  phd: Rutgers
-  phone-ext: 3215
-  office: X15
-
-- name: Abhishek Banerjee
-  user-id: abhishek
-  research-areas: Algebraic geometry, noncommutative geometry
-  phd: Johns Hopkins
-  phone-ext: 3326
-  office: X05
-  website: https://sites.google.com/site/abhishekb1313/
-</code></pre>
+{% gist bacc0cfb16787181788a5ab4a5cf964c %}
 
 <p>
 The meaning of this is largely obvious. Note however that if a <em>website</em> is not specified for a faculty member, then it is assumed to be the standard website with url <em>http://math.iisc.ac.in/~"user-id"</em>.
