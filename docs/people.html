@@ -2,7 +2,7 @@
 title: "Docs: People"
 ---
 
-
+<h3>Data</h3>
 <p>
 The data of various groups of people - faculty, students, staff, etc. are in _data files_ in a format called <a href="https://en.wikipedia.org/wiki/YAML" target="_blank"> YAML </a>. For example, below is the beginning of the file <a href="https://github.com/siddhartha-gadgil/DeptWeb/blob/master/_data/faculty.yaml" target="_blank"> faculty.html</a>. This is the file that you must edit to update or correct data etc.
 </p>
@@ -10,20 +10,21 @@ The data of various groups of people - faculty, students, staff, etc. are in _da
 {% gist bacc0cfb16787181788a5ab4a5cf964c %}
 
 <p>
-The meaning of this is largely obvious. Note however that if a <em>website</em> is not specified for a faculty member, then it is assumed to be the standard website with url <em>http://math.iisc.ac.in/~"user-id"</em>.
+The meaning of this is largely obvious. Note however that if a <em>website</em> is not specified for a faculty member, then it is assumed to be the standard website with url <code>http://math.iisc.ac.in/~"user-id"</code>.
 </p>
 
 <p>
-The other groups of people have similar pages, with the data in a <em>YAML</em> file in the <a href="https://github.com/siddhartha-gadgil/DeptWeb/tree/master/_data">data folder</a> and the page itself using this data. Usually only the data file is updated, with the html file using this edited only for global changes. However, note that the defaults are different for different groups of people: for example, if a student's entry does not mention a website, it is assumed that the student does not have a website, so even the standard website if present should be given.
+The other groups of people have similar pages, with the data in a <em>YAML</em> file in the <a href="https://github.com/siddhartha-gadgil/DeptWeb/tree/master/_data" target="_blank">data folder</a> and the page itself using this data. Usually only the data file is updated, with the html file using this edited only for global changes. However, note that the defaults are different for different groups of people: for example, if a student's entry does not mention a website, it is assumed that the student does not have a website, so even the standard website if present should be given.
 </p>
 
-
+<h3>Layout</h3>
 <p>
 The actual <a href="https://github.com/siddhartha-gadgil/DeptWeb/blob/master/faculty.html" target="_blank">Faculty web page</a> is an <em>html</em> page with some templating (using Jekyll's _liquid_ templating language). Edit this if you want a change affecting all faculty members or the layout of the page. The source code is as below:
 </p>
 
 {% gist 10df36e52a84528dbf14e858a9a32036 %}
 
+<h3>Common content</h3>
 <p>
 The header, footer and navigation bar are included as the page uses the <a href="https://github.com/siddhartha-gadgil/DeptWeb/blob/master/_layouts/default.html" target="_blank">default layout</a>.
 </p>
