@@ -1,0 +1,27 @@
+---
+title: "Docs: Seminars"
+---
+
+<h3>Seminar data</h3>
+
+<p>
+  Seminars form a <strong>collection</strong>, with each seminar a separate file in the <a href="https://github.com/siddhartha-gadgil/DeptWeb/tree/master/_seminars">_seminars</a> folder. We follow some conventions for the name and location of a seminar file.
+</p>
+<ul>
+  <li>There is a folder for each year. Please put the file in the folder corresponding to the year of the seminar (create the folder if it does not exist).</li>
+  <li>The filename is of the form <code>yyyy-mm-dd-speakers-name.md</code> with <code>yyyy-mm-dd</code> the date of the seminar. In case this cannot be followed (e.g. two talks by a speaker on the same day), please give a reasonable name close to this. To avoid mangling the alphabetical order, you should begin with the date in the above format. </li>
+</ul>
+
+<p>
+A seminar file is a markdown file similar to the below sample (which you may wish to view in <strong>raw</strong> form).
+</p>
+
+{% gist 5f54c38985fcd3fa942b9ccc0b0907a3 %}
+
+<ul>
+  <li>The <strong>top-matter</strong> (i.e., the part between lines with just three hyphens) should contain the date, time,  title, speaker, venue. Fields other than the sate can be omitted if unknown.</li>
+  <li><strong>Warning:</strong> The colon has a special meaning, so if an entry has a colon, enclose it in quotation marks.</li>
+  <li> As seminars are sorted by date, you must have a valid date. It is best to specify this as <strong>yyyy-mm-dd</strong>, but most common formats (like that in the above example) work too. </li>
+  <li> The body (i.e., after the topmatter) of the page should have the abstract and any other details. You should generally not include the title here as it is picked up from the topmatter. Also avoid adding the word "Abstract".</li>
+  <li> You may use latex formulas. However due to processing by markdown (which also uses slash as a special character), use a double-slash in place of slash for <strong>inline</strong> latex, as in the above example. For displayed latex (i.e., enclosed by double dollars), <strong>do not</strong> use double slashes in place of single ones, just use normal latex.</li>
+</ul>
