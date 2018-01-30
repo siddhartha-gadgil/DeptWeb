@@ -3,7 +3,7 @@ speaker: Apoorva Khare (IISc Mathematics)
 title: "The ongoing history of PolyMath"
 date: 2 February, 2018
 time: 3 pm
-venue: TBA, Mathematics Department
+venue: LH-1, Mathematics Department
 ---
 
 Given the recent successfully concluded Polymath project -- and
