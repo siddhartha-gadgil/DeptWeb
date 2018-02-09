@@ -1,3 +1,5 @@
+#!/bin/bash
+set -e
 git pull
 target=${2:-~/public}
 bundle exec jekyll build --config _config.yml,_config-root.yml --destination ./_root-site
