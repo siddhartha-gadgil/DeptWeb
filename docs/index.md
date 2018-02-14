@@ -31,5 +31,6 @@ Details of how these are combined to give the various kinds of pages are documen
 * [Seminars](seminars.html)
 * [Courses](courses.html)
 * [Publications](publications.html)
+* [News and Events](news.html)
 * [Navigation, Header and Footer](nav.html)
 * [Home](home.html)

@@ -3403,6 +3403,7 @@
   mrnumber: "3709307"
   pages: "459-487"
   year: 2017
+  mrreviewer: "Hyun Soo Chung"
   title: "$L^p$-Fourier asymptotics, Hardy-type inequality and fractal measures"
   mrclass: "42B10 (28A78 40E05)"
   volume: "184"
@@ -5243,6 +5244,19 @@
   volume: "61"
   issn: "1747-6933"
 
+- number: "4"
+  author: "Gaussier, Herv&eacute; and Seshadri, Harish"
+  fjournal: "European Journal of Mathematics"
+  url: "httpsdoi.org10.1007s40879-017-0177-x"
+  journal: "Eur. J. Math."
+  mrnumber: "3736796"
+  pages: "1030-1044"
+  year: 2017
+  title: "Metric geometry of the Kobayashi metric"
+  mrclass: "32F45 (32A30 53C23)"
+  volume: "3"
+  issn: "2199-675X"
+
 - number: "2"
   author: "Bhattacharyya, Tirthankar and Sau, Haripada"
   fjournal: "Publications of the Research Institute for Mathematical Sciences"
@@ -6811,6 +6825,19 @@
   volume: "23"
   issn: "1370-1444"
 
+- number: "10"
+  author: "Balodi, Mamta and Huang, Hua-Lin and Kumar, Shiv Datt"
+  fjournal: "Reviews in Mathematical Physics. A Journal for Both Review and Original Research Papers in the Field of Mathematical Physics"
+  url: "httpsdoi.org10.1142S0129055X17300035"
+  journal: "Rev. Math. Phys."
+  mrnumber: "3720509"
+  pages: "1730003, 20"
+  year: 2017
+  title: "On the classification of finite quasi-quantum groups"
+  mrclass: "16T15 (16G20 57T05)"
+  volume: "29"
+  issn: "0129-055X"
+
 - number: "4"
   author: "Borkar, Vivek S. and Ghosh, Mrinal K."
   fjournal: "Stochastics and Stochastics Reports"
@@ -7064,6 +7091,19 @@
   volume: "16"
   issn: "1021-9722"
 
+- number: "2"
+  author: "Bhattacharyya, Tirthankar and Sau, Haripada"
+  fjournal: "Journal of Functional Analysis"
+  url: "httpsdoi.org10.1016j.jfa.2017.09.013"
+  journal: "J. Funct. Anal."
+  mrnumber: "3724147"
+  pages: "504-524"
+  year: 2018
+  title: "Holomorphic functions on the symmetrized bidisk--realization, interpolation and extension"
+  mrclass: "32A10 (32A70 46E22 47A13 47A20 47A25)"
+  volume: "274"
+  issn: "0022-1236"
+
 - number: "8"
   author: "Nambiar, K. K. and Tikekar, V. G."
   fjournal: "Indian Institute of Science. Journal"
@@ -7168,6 +7208,15 @@
   mrclass: "00B25 (34-06 35-06)"
   volume: "386"
 
+- author: "Bhosle, Usha N."
+  mrnumber: "3728124"
+  pages: "29-48"
+  year: 2017
+  publisher: "Hindustan Book Agency, New Delhi"
+  booktitle: "Analytic and algebraic geometry"
+  title: "On a conjecture of Butler"
+  mrclass: "14H60"
+
 - number: "11"
   author: "Patil, D. P. and Sengupta, I."
   fjournal: "Communications in Algebra"
@@ -7256,6 +7305,19 @@
   mrclass: "30F30 (30F60 53C43 58E20)"
   volume: "91"
   issn: "0010-2571"
+
+- number: "6A"
+  author: "Khare, Apoorva and Rajaratnam, Bala"
+  fjournal: "The Annals of Probability"
+  url: "httpsdoi.org10.121416-AOP1160"
+  journal: "Ann. Probab."
+  mrnumber: "3729624"
+  pages: "4101-4111"
+  year: 2017
+  title: "The Hoffmann-J&oslash; rgensen inequality in metric semigroups"
+  mrclass: "60E15 (60B15)"
+  volume: "45"
+  issn: "0091-1798"
 
 - number: "4"
   author: "Prasad, Phoolan"
@@ -7663,6 +7725,18 @@
   mrclass: "65N30 (49M25 65N15)"
   volume: "36"
   issn: "0163-0563"
+
+- number: "4"
+  author: "Ghosh, Puja and Sain, Debmalya and Paul, Kallol"
+  fjournal: "Advances in Operator Theory"
+  journal: "Adv. Oper. Theory"
+  mrnumber: "3730038"
+  pages: "428-434"
+  year: 2017
+  title: "On symmetry of Birkhoff-James orthogonality of linear operators"
+  mrclass: "46B20 (47A30)"
+  volume: "2"
+  issn: "2538-225X"
 
 - number: "3"
   author: "Ayyer, Arvind and Schilling, Anne and Steinberg, Benjamin and Thi&eacute;ry, Nicolas M."
@@ -9460,6 +9534,18 @@
   volume: "48"
   issn: "0363-0129"
 
+- author: "Paul, Kallol and Sain, Debmalya and Mal, Arpita"
+  fjournal: "Linear Algebra and its Applications"
+  url: "httpsdoi.org10.1016j.laa.2017.10.008"
+  journal: "Linear Algebra Appl."
+  mrnumber: "3716249"
+  pages: "348-357"
+  year: 2018
+  title: "Approximate Birkhoff-James orthogonality in the space of bounded linear operators"
+  mrclass: "46B28 (47L05 47L25)"
+  volume: "537"
+  issn: "0024-3795"
+
 - number: "1"
   author: "Basak, Gopal K. and Borkar, Vivek S. and Ghosh, Mrinal K."
   fjournal: "Stochastic Analysis and Applications"
@@ -10625,6 +10711,18 @@
   volume: "41"
   issn: "0020-7225"
 
+- number: "4"
+  author: "Datta, Basudeb and Murai, Satoshi"
+  fjournal: "Electronic Journal of Combinatorics"
+  journal: "Electron. J. Combin."
+  mrnumber: "3711045"
+  pages: "Paper 4.12, 14"
+  year: 2017
+  title: "On stacked triangulated manifolds"
+  mrclass: "57Q15 (05C40 57R20)"
+  volume: "24"
+  issn: "1077-8926"
+
 - number: "1"
   author: "Ayyer, Arvind and Schilling, Anne and Thi&eacute;ry, Nicolas M."
   fjournal: "Experimental Mathematics"
@@ -10751,6 +10849,16 @@
   mrclass: "78A45"
   volume: "16"
   issn: "0019-5588"
+
+- author: "Gupta, S. C."
+  mrnumber: "3726880"
+  pages: "xxiii726"
+  year: 2018
+  note: "Basic concepts, modelling and analysis with quasi-analytical solutions and methods, New edition of  MR2032973"
+  publisher: "Elsevier, Amsterdam"
+  isbn: "978-0-444-63581-5"
+  title: "The classical Stefan problem"
+  mrclass: "80A22 (35C15 35R30 35R35)"
 
 - author: "Thathachar, M. A. L. and Ramakrishnan, K. R."
   series: "IFAC Proc. Ser."
@@ -12108,6 +12216,18 @@
   volume: "30"
   issn: "0736-2994"
 
+- author: "Gupta, Subhojoy and Wolf, Michael"
+  series: "Contemp. Math."
+  url: "httpsdoi.org10.1090conm69614021"
+  mrnumber: "3715446"
+  pages: "153-181"
+  year: 2017
+  publisher: "Amer. Math. Soc., Providence, RI"
+  booktitle: "In the tradition of Ahlfors-Bers. VII"
+  title: "Meromorphic quadratic differentials with complex residues and spiralling foliations"
+  mrclass: "30F30 (30F60)"
+  volume: "696"
+
 - number: "6"
   author: "Rangarajan, Govindan and Sridharan, Shrihari"
   fjournal: "Applied Mathematics and Computation"
@@ -12744,6 +12864,18 @@
   volume: "3"
   issn: "2008-8752"
 
+- number: "21"
+  author: "Adhikari, Kartick and Reddy, Nanda Kishore"
+  fjournal: "International Mathematics Research Notices. IMRN"
+  url: "httpsdoi.org10.1093imrnrnw207"
+  journal: "Int. Math. Res. Not. IMRN"
+  mrnumber: "3719476"
+  pages: "6694-6730"
+  year: 2017
+  title: "Hole probabilities for finite and infinite Ginibre ensembles"
+  mrclass: "60G55 (60B20)"
+  issn: "1073-7928"
+
 - number: "2"
   author: "Rajeev, B. and Thangavelu, S."
   fjournal: "Potential Analysis. An International Journal Devoted to the Interactions between Potential Theory, Probability Theory, Geometry and Functional Analysis"
@@ -12773,13 +12905,6 @@
   mrclass: "53C21 (53C20)"
   volume: "12"
   issn: "1093-6106"
-
-- author: "Gupta, Subhojoy and Wolf, Michael"
-  title: "Meromorphic quadratic differentials with complex residues and spiralling foliations"
-  booktitle: "In the Tradition of Ahlfors--Bers, VII, Contemporary  Mathematics"
-  year: 2017
-  volume: 696
-  pages: 153-181
 
 - author: "Rangarajan, G."
   title: "Symplectic integration of nonlinear Hamiltonian systems"
