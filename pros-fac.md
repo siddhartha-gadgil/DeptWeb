@@ -74,31 +74,31 @@ INDIA
 
 e-mail: ``chair.math[at]iisc.ac.in``
 
-General information about IISc is available on the [IISc website](http://www.iisc.ac.in).
+General information about the Indian Institute of Science (IISc) is available on the [IISc website](http://www.iisc.ac.in).
 Information about the Department of Mathematics is available on the [Department website](http://math.iisc.ac.in).
 
 
 ## Some useful tips:
 
-In case you have decided to apply to the Department of Mathematics at the
-Indian Institute of Science, here are a few points that might be useful to bear
+In case you have decided to apply to the Department of Mathematics at IISc,
+here are a few points that might be useful to bear
 in mind.
 
 1. The Department of Mathematics aims to recruit, over time, mathematicians
    with increasingly strong academic records. Thus, if you are interested in
    applying and there are colleagues in the department who work in your area
    of interest, then you might find it helpful to talk/write to a colleague
-   who was hired relatively recently to get a sense of the prevailing
-   standards in hiring.
+   who was hired **relatively recently** to get a sense of the prevailing
+   standards in hiring. You might also find it useful to know that, since September 2015, IISc has
+   adopted a new tenure system, details of which are given [here](http://www.iisc.ac.in/tenure-track-assessment/).
 
-2. Please take a look at [IISc Faculty Hiring](http://iisc.ac.in/opportunities/#ffs-tabbed-14) to get a sense of the steps in the
-   recruitment procedure at the Indian Institute of Science. While
-   [faculty recruitment](https://sites.google.com/site/newfacultyiisc/recruitment) is not a webpage
-   authorized by the Indian Institute of Science, the information on it is
-   fairly representative of applications to the Department of Mathematics.
+2. Please take a look at [this website](https://sites.google.com/site/newfacultyiisc/home) for a sense
+   of how things are at IISc and to get a sense of the recruitment process here (click on "Recruitment"
+   in the navigation bar). While the page "[Recruitment](https://sites.google.com/site/newfacultyiisc/recruitment)" 
+   is not a webpage authorized by IISc, the information on it is fairly representative of applications to the Department of Mathematics.
 
 3. One of consequences of a rolling process of recruitment is that, as
-   alluded to in (2), a decision on your application could take as little as
+   alluded to by the links in (2), a decision on your application could take as little as
    3 months or as long as 8–9 months. In case your mailing address changes in
    the interim, please be sure to communicate any changes in your address.
 
@@ -110,4 +110,4 @@ in mind.
    informally about your application.
 
  
-                      ``Page last updated on September 8, 2017``
+                      ``Page last updated on February 27, 2018``
