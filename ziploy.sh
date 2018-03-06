@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /tmp
 set -e
 target=${1:-~/var/www/html}
 curl -O http://10.134.13.102:6060/dept.tgz
