@@ -42,6 +42,8 @@ collections:
     output: true
     permalink: /all-courses/:title
 
+exclude: ["sources/", "purged/"]
+
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
