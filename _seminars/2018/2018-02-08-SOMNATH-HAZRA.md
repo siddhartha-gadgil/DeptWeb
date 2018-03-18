@@ -1,5 +1,5 @@
 ---
-speaker: Somanth Hazra (IISc Mathematics)
+speaker: Somnath Hazra (IISc Mathematics)
 title: "Homogeneous operators"
 date: 08 February, 2018
 time: 2 pm
