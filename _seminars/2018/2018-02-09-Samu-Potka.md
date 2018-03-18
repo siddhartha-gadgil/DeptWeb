@@ -1,5 +1,5 @@
 ---
-speaker: Samu Potka (KTH, Stockholm)
+speaker: Samu Potka (KTH, Stockholm, Sweden)
 title: "The Edelman-Greene bijection and 132-avoiding sorting networks"
 date: 09 February, 2018
 time: 3 pm
