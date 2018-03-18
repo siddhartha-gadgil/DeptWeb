@@ -1,5 +1,5 @@
 ---
-speaker: Pranav Pandit (IHES, Paris)
+speaker: Pranav Pandit (IHES, France)
 title: "Categorical Kähler Geometry: from derived categories to dynamical systems"
 date: 31 January, 2018
 time: 4 pm
