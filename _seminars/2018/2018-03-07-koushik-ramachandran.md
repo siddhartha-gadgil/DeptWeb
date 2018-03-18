@@ -3,7 +3,7 @@ speaker: Koushik Ramachandran (Oklahoma State University, USA)
 title: "Positive harmonic functions and Potential theory: Analytic and Geometric aspects"
 date: 7th March
 time: 4 pm
-venue: LH-1, Department of mathematics
+venue: LH-1, Mathematics Department
 ---
 
 Let $\\Omega\\subset\\mathbb{R}^d$
