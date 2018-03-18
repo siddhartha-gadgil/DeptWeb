@@ -1,5 +1,5 @@
 ---
-speaker: Koushik Ramachandran, Oklahoma State
+speaker: Koushik Ramachandran (Oklahoma State University, USA)
 title: "Positive harmonic functions and Potential theory: Analytic and Geometric aspects"
 date: 7th March
 time: 4 pm
