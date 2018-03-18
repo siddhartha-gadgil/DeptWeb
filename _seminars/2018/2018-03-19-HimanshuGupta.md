@@ -3,7 +3,7 @@ speaker: Himanshu Gupta (IISc Mathematics)
 title: "Correlation Functions in the Finite Toom Model"
 date: 19th March
 time: 10 am
-venue: LH-1, Department of mathematics
+venue: LH-1, Mathematics Department
 ---
 
 We consider a finite version of the one-dimensional Toom model with
