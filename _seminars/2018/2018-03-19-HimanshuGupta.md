@@ -1,13 +1,12 @@
 ---
-speaker: Himanshu Gupta, IISc, Bangalore 
-title: "Correlation Functions in the Finite Toom  Model"
+speaker: Himanshu Gupta (IISc Mathematics) 
+title: "Correlation Functions in the Finite Toom Model"
 date: 19th March
-time: 10.00 to 11.00 am
+time: 10 am
 venue: LH-1, Department of mathematics
 ---
 
-We consider a finite version of the one-dimensional Toom model
-with
+We consider a finite version of the one-dimensional Toom model with
 closed boundaries. Each site is occupied either by a particle of type 0
 or of type 1, where the total number of particles of type 0 and type 1
 are fixed to be n_0 and n_1 respectively. We call this an (n_0,
