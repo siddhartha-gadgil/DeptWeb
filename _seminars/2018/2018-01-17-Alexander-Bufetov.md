@@ -1,5 +1,5 @@
 ---
-speaker: Alexander Bufetov (CNRS, Steklov Mathematical Institute, IITP RAS, NRU Higher School of Economics, Russia)
+speaker: Alexander Bufetov (CNRS, Marseilles, France; and Steklov Mathematical Institute, IITP RAS, NRU Higher School of Economics, Russia)
 title: "Dynamics Of Determinantal Point Processes"
 date: 17 January, 2018
 time: 2:30 pm
@@ -16,4 +16,4 @@ https://arxiv.org/abs/1707.03463, (joint with R. Romanov),
 https://arxiv.org/abs/1701.00111 (joint with A. Dymov),
 and the papers 
  
-Alexander I. Bufetov, Yanqi Qiu, “Conditional measures of generalized Ginibre point processes”, J. Funct. Anal., 272:11 (2017), 4671–4708 
+Alexander I. Bufetov, Yanqi Qiu, “Conditional measures of generalized Ginibre point processes”, J. Funct. Anal., 272:11 (2017), 4671–4708.
