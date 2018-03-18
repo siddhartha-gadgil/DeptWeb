@@ -1,6 +1,6 @@
 ---
 speaker: Monojit Bhattacharjee (IISc Mathematics)
-title: "Analytic models, dilations, waandering subspaces and inner functions"
+title: "Analytic models, dilations, wandering subspaces and inner functions"
 date: 08 February, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
