@@ -1,5 +1,5 @@
 ---
-speaker: Vikas Krishnamurthy (Schrodinger Institute, Vienna)
+speaker: Vikas Krishnamurthy (Schrodinger Institute, Vienna, Austria)
 title: "Theory and applications of analytic functions on multiply connected domains"
 date: 06 March, 2018
 time: 4 - 5 pm
