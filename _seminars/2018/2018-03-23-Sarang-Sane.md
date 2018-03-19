@@ -2,7 +2,7 @@
 speaker: Sarang Sane (IIT, Chennai) 
 title: "Specialization closed subsets, thick subcategories and Cohen-Macaulay rings"
 date: 23 March
-time: 4 pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 ---
 
