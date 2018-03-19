@@ -1,6 +1,6 @@
 ---
-speaker: Sriram Ramaswamy (IISc Physics department)
-title: "Order and fluctuations in self-driven matter"
+speaker: Sriram Ramaswamy (IISc Physics)
+title: "Eigenfunctions Seminar: Order and fluctuations in self-driven matter"
 date: 19 February, 2018
 time: 3 - 5 pm
 venue: LH-1, Mathematics Department

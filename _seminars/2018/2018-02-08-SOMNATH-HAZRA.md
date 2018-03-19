@@ -1,6 +1,6 @@
 ---
-speaker: Somanth Hazra (IISc, Bangalore)
-title: "HOMOGENEOUS OPERATORS"
+speaker: Somnath Hazra (IISc Mathematics)
+title: "Homogeneous operators"
 date: 08 February, 2018
 time: 2 pm
 venue: LH-1, Mathematics Department

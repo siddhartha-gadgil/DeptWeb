@@ -1,5 +1,5 @@
 ---
-speaker: Patrice Philippon (CNRS, Paris)
+speaker: Patrice Philippon (CNRS, Paris, France)
 title: "Arithmetic geometry of toric varieties"
 date: 22 November, 2017
 time: 4 pm 
