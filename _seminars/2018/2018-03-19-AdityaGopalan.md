@@ -1,10 +1,10 @@
 ---
-speaker: Aditya Gopalan, IISc, Bangalore 
+speaker: Aditya Gopalan, (IISc ECE) 
 title: "Self-normalized concentration in infinite dimension and
 application to online learning problems"
 date: 19th March
-time: 3.15 pm
-venue: LH-1, Department of mathematics
+time: 3:15 pm
+venue: LH-1, Mathematics Department
 ---
 
 We will begin by providing a brief introduction to
