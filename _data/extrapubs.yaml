@@ -343,3 +343,10 @@
   year: 2017
   volume: 07
   pages: 8921
+
+- author: "Ayyer, A. and Finn, C. and Roy, D."
+  title: "Matrix product solution of a left-permeable two-species asymmetric exclusion process"
+  journal: "Physical Review E"
+  year: 2018
+  volume: 97
+  pages: 012151
