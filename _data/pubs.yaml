@@ -900,6 +900,20 @@
   issn: "0075-4102"
 
 - number: "4"
+  author: "Khare, Apoorva"
+  fjournal: "Transactions of the American Mathematical Society"
+  url: "httpsdoi.org10.1090tran7304"
+  journal: "Trans. Amer. Math. Soc."
+  mrnumber: "3748591"
+  pages: "2971-2999"
+  year: 2018
+  title: "Generalized nil-Coxeter algebras over discrete complex reflection groups"
+  doi: "10.1090tran7304"
+  mrclass: "20F55 (20C08 20F05)"
+  volume: "370"
+  issn: "0002-9947"
+
+- number: "4"
   author: "Cho, D. Chinhyung and Johnson, Ellis L. and Padberg, Manfred and Rao, M. R."
   fjournal: "Mathematics of Operations Research"
   url: "httpdx.doi.org10.1287moor.8.4.579"
@@ -7527,6 +7541,20 @@
   volume: "16"
   issn: "0161-1712"
 
+- number: "1"
+  author: "Burton, Benjamin A. and Datta, Basudeb and Singh, Nitin and Spreer, Jonathan"
+  fjournal: "Experimental Mathematics"
+  url: "httpsdoi.org10.108010586458.2016.1212747"
+  journal: "Exp. Math."
+  mrnumber: "3750925"
+  pages: "22-36"
+  year: 2018
+  title: "A construction principle for tight and minimal triangulations of manifolds"
+  doi: "10.108010586458.2016.1212747"
+  mrclass: "57Q15 (57R05)"
+  volume: "27"
+  issn: "1058-6458"
+
 - author: "Banerjea, Sudeshna and Dutta, Barnali and Chakrabarti, A."
   fjournal: "ISRN Applied Mathematics"
   journal: "ISRN Appl. Math."
@@ -8211,6 +8239,20 @@
   title: "Invariant Hilbert spaces of holomorphic functions"
   mrclass: "46E20 (30H05 33C80 46A13)"
   issn: "0025-5742"
+
+- number: "2"
+  author: "Iyer, Srikanth K."
+  fjournal: "Random Structures \\ Algorithms"
+  url: "httpsdoi.org10.1002rsa.20741"
+  journal: "Random Structures Algorithms"
+  mrnumber: "3758960"
+  pages: "283-300"
+  year: 2018
+  title: "The random connection model connectivity, edge lengths, and degree distributions"
+  doi: "10.1002rsa.20741"
+  mrclass: "05C80 (05C62 60G55)"
+  volume: "52"
+  issn: "1042-9832"
 
 - number: "2"
   author: "Bhattacharya, Angshuman and Bhattacharyya, Tirthankar"
@@ -10171,6 +10213,19 @@
   title: "Some analytical and numerical aspects of KdV-type equations"
   mrclass: "35Q20 (65M99)"
 
+- author: "Krakovski, Roi and Onn, Uri and Singla, Pooja"
+  fjournal: "Journal of Algebra"
+  url: "httpsdoi.org10.1016j.jalgebra.2017.10.018"
+  journal: "J. Algebra"
+  mrnumber: "3737836"
+  pages: "116-137"
+  year: 2018
+  title: "Regular characters of groups of type $\\rm A_n$ over discrete valuation rings"
+  doi: "10.1016j.jalgebra.2017.10.018"
+  mrclass: "20C15 (15B33 15B57 20F69 20G05 20G25 20H05)"
+  volume: "496"
+  issn: "0021-8693"
+
 - number: "1"
   author: "Parhi, S. and Nath, G."
   fjournal: "Applied Mathematics and Computation"
@@ -11041,6 +11096,20 @@
   mrclass: "45Q05 (35L05 35R30 44A12)"
   volume: "26"
   issn: "0266-5611"
+
+- number: "1"
+  author: "Ghosh, Mrinal K. and Pradhan, Somnath"
+  fjournal: "Stochastic Analysis and Applications"
+  url: "httpsdoi.org10.108007362994.2017.1356732"
+  journal: "Stoch. Anal. Appl."
+  mrnumber: "3750667"
+  pages: "1-27"
+  year: 2018
+  title: "Risk-sensitive stochastic differential games with reflecting diffusions"
+  doi: "10.108007362994.2017.1356732"
+  mrclass: "91A15 (60J70 91A23)"
+  volume: "36"
+  issn: "0736-2994"
 
 - number: "4"
   author: "Ayyer, Arvind and Klee, Steven and Schilling, Anne"
@@ -13251,3 +13320,10 @@
   year: 2017
   volume: 07
   pages: 8921
+
+- author: "Ayyer, A. and Finn, C. and Roy, D."
+  title: "Matrix product solution of a left-permeable two-species asymmetric exclusion process"
+  journal: "Physical Review E"
+  year: 2018
+  volume: 97
+  pages: 012151
