@@ -1,5 +1,5 @@
 ---
-speaker: Bidyut Sanki, Institute of Mathematical Sciences, Chennai
+speaker: Bidyut Sanki (IMSc, Chennai)
 title: Embedding of metric graphs on hyperbolic surfaces
 date: 2018-04-27
 time: 3 pm
