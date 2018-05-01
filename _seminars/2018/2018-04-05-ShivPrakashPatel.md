@@ -1,5 +1,5 @@
 ---
-speaker: Shiv Prakash Patel (IISc, Bangalore)
+speaker: Shiv Prakash Patel (IISc Mathematics)
 title: "Branching laws for certain covering groups of p-adic groups"
 date: 05 April, 2018
 time: 4 pm
