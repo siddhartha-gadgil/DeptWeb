@@ -1,8 +1,8 @@
 ---
-speaker: SANDEEP K. MODI, IISc, Bangalore
-title: COMPUTATION OF SPARSE REPRESENTATION OF HIGH DIMENSIONAL TIME SERIES DATE AND EXPERIMENTAL APPLICATIONS
+speaker: Sandeep K. Modi (IISc Mathematics)
+title: Computation of sparse representation of high dimensional time series date and experimental applications
 date: 2018-04-26
-time: 2.30 pm
+time: 2:30 pm
 venue: LH-2, Mathematics Department
 ---
 
@@ -33,7 +33,7 @@ We apply the above methods to the following real experimental data:
      gene interaction. This demonstrates that our methods can be applied to any time series data for which VAR modelling is valid.
 
      In addition to the above methods, we apply non-parametric Granger Causality analysis (originally developed by A. Nedungadi, G. Rangarajan et al) to mixed point-process and real time-series data.
-     Extending the computations to Conditional GC and by increasing the efficiency of the original computer code, we cancompute the Conditional GC spectrum in systems consisting of hundreds of variables in a
+     Extending the computations to Conditional GC and by increasing the efficiency of the original computer code, we can compute the Conditional GC spectrum in systems consisting of hundreds of variables in a
      relatively short period. Further, combining this with VAR modelling provides an alternate faster route to compute the significance level of each element of the GC and CGC matrices. We use these
      techniques to analyse mixed Spike Train and LFP data from monkey electrocorticography (ECoG) recordings during a behavioural task. Interpretation of the results of the analysis is an ongoing
      collaboration.
