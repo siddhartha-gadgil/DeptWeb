@@ -1,5 +1,5 @@
 ---
-speaker: Satyajit Guin, IISER Mohali
+speaker: Satyajit Guin (IISER, Mohali)
 title: On the Yang-Mills functional in Noncommutative Geometry
 date: 2018-04-25
 time: 3 pm
