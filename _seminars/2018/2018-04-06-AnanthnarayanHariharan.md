@@ -1,5 +1,5 @@
 ---
-speaker: Ananthnarayan Hariharan (IIT Bombay)
+speaker: Ananthnarayan Hariharan (IIT, Bombay)
 title: "On Resolutions, Boij-Soderberg Conjectures, and their resolution"
 date: 06 April, 2018
 time: 11 am
