@@ -1,6 +1,6 @@
 ---
 title: "Partition of integers :- a treasure trove of open problems : order matching and unimodality"
-speaker: N. Narayanan (IIT, Madras)
+speaker: N. Narayanan (IIT, Chennai)
 date: 2017-10-06
 time: 10:30 am
 venue: LH-1, Mathematics Department
