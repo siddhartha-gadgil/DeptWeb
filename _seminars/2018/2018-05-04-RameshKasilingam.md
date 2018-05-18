@@ -2,7 +2,7 @@
 speaker: Ramesh Kasilingam (ISI, Bangalore)
 title: "Exotic smooth structures on complex projective spaces and complex hyperbolic manifolds"
 date: 04 May, 2018
-time:  3.00 pm
+time:  3 pm
 venue: LH-1, Mathematics Department
 ---
 
@@ -11,4 +11,4 @@ We give examples of two inequivalent smooth structures on the complex projective
 does not. Following this example and the work of Thomas Farrell and Lowell Jones, we
 also construct examples of closed negatively curved Riemannian 18-manifolds, which
 are homeomorphic but not diffeomorphic to complex hyperbolic manifolds.
-(Joint work with Samik Basu).
+(Joint work with Samik Basu.)
