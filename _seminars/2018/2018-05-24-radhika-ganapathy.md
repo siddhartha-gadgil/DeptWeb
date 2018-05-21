@@ -1,5 +1,5 @@
 ---
-title: Extensions of the Deligne--Kazhdan philosophy and applications
+title: Extensions of the Deligne-Kazhdan philosophy and applications
 speaker: Radhika Ganapathy (TIFR, Bombay)
 date: 2018-05-24
 time: 5 pm
