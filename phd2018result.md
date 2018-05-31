@@ -26,5 +26,5 @@ The following students are on the waiting list
 
 | SI No   || Application No || Student Name            |
 | ------- || -------------- || ----------------------- |
-| 1.      || 18107359       || Sivaram P               |
-| 2.      || 18110005       || Renjith. T              |
+| 1.      || 18100793       || Mansi Anil Suryawansi   |
+| 2.      || 18107212       || Sathish Kumar V         |
