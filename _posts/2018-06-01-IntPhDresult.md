@@ -4,4 +4,4 @@ title: Integrated Ph.D Program 2018.
 date: 2018-06-01
 ---
 
-[CLICK HERE for list of candidates recommended for the Integrated PhD programme 2018.](intphd2018result.html)
+[CLICK HERE for list of candidates recommended for the Integrated PhD programme 2018.](http://math.iisc.ac.in/intphd2018result.html)
