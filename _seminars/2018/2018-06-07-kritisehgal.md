@@ -1,8 +1,8 @@
 ---
 title: Duality for spaces of holomorphic functions into a locally convex topological vector space
-speaker: Kriti Sehgal (IISc, Bangalore)
+speaker: Kriti Sehgal (IISc Mathematics)
 date: 2018-06-07
-time: 2.30 pm
+time: 2:30 pm
 location: LH-1, Mathematics Department
 ---
 

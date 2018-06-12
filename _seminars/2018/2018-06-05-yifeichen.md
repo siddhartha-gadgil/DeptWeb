@@ -1,6 +1,6 @@
 ---
 title: An introduction to birational geometry in positive characteristic fields
-speaker: Yifei Chen (Chinese Academy of Sciences, Beijing)
+speaker: Yifei Chen (Chinese Academy of Sciences, Beijing, China)
 date: 2018-06-05
 time: 3 pm
 location: LH-1, Mathematics Department
