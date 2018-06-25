@@ -2,7 +2,7 @@
 speaker: Aprameyan Parthasarathy (University of Paderborn, Germany)
 title: "Resonances and scattering poles on symmetric spaces"
 date: 09 April, 2018
-time:  3.30 to 4.30pm
+time:  3:30pm
 venue: LH-1, Mathematics Department
 ---
 
