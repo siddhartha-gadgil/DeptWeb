@@ -3,7 +3,7 @@ title: Course Catalogue
 ---
 
 <h2>Course Catalogue</h2>
-    {% assign sorted = (site.all-courses | sort: 'code')  %}
+    {% assign sorted = site.all-courses | sort: 'code'  %}
 
 {% for course in sorted  %}
 <div>

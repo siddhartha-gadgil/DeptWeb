@@ -3,7 +3,7 @@ title: Seminars
 ---
 
 <h3>Seminars</h3>
-    {% assign sorted = (site.seminars | sort: 'date') | reverse %}
+    {% assign sorted = site.seminars | sort: 'date' | reverse %}
 
 <h4><a href="#tables">By Year</a></h4>
 {% for sem in sorted  %}

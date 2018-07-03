@@ -50,16 +50,16 @@
 
   <div class="col-md-4">
     <h3 style="text-align:center"> <a href="seminars-all.html">Seminars</a></h3>
-    {% assign sorted = (site.seminars | sort: 'date') | reverse %}
-    {% assign chron = (site.seminars | sort: 'date') %}
+    {% assign sorted = site.seminars | sort: 'date' | reverse %}
+    {% assign chron = site.seminars | sort: 'date' %}
 <br>
 <ul>
 
-{% assign curDate = (site.time | date: '%s') | minus: 86400 %}
+{% assign curDate = site.time | date: '%s' | minus: 86400 %}
 {% assign counter = 0 %}
 
 {% for sem in chron %}
-{% assign semDate = (sem.date | date: '%s') | plus: 0 %}
+{% assign semDate = sem.date | date: '%s' | plus: 0 %}
 {% if semDate >= curDate %}
 {% assign counter=counter | plus: 1 %}
 <li>
@@ -89,7 +89,7 @@
  {% endif %}
 
  {% for sem in sorted limit: 4 %}
- {% assign semDate = (sem.date | date: '%s') | plus: 0 %}
+ {% assign semDate = sem.date | date: '%s' | plus: 0 %}
  {% unless semDate >= curDate %}
  <li>
   <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>

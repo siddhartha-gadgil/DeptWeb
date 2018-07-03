@@ -9,10 +9,14 @@ import akka.http.scaladsl.server.Directives._
 import akka.stream.ActorMaterializer
 import scala.io.StdIn
 import ammonite.ops._
+import akka.stream.scaladsl.FileIO
+import akka.http.scaladsl.model.headers._
 
 import scala.concurrent._
 import akka.util.ByteString
 import akka.http.scaladsl.model.{HttpResponse, MediaTypes,HttpEntity}
+
+import java.nio._
 
 implicit val system = ActorSystem("my-system")
 implicit val materializer = ActorMaterializer()
@@ -20,29 +24,20 @@ implicit val materializer = ActorMaterializer()
 implicit val executionContext = system.dispatcher
 
 val route = path("dept.tgz") {
-        implicit val wd = pwd
+  withRequestTimeout{
+  val file = "tarball/dept.tgz"
+  val f = Paths.get(file)
+  println(f.length)
+  val responseEntity = HttpEntity.Chunked(
+    MediaTypes.`application/octet-stream`,
+    FileIO.fromPath(f,1 * 1024* 1024)
+  )
 
-        val futResponse =
-            for {
-              mk <- Future{%%(wd / "mktar.sh")}
-              _ = println(mk)
-              text = read(pwd / "dept.tgz")
+  complete(HttpResponse(200, entity = responseEntity)
+    .withHeaders(RawHeader("Content-Disposition", s"attachment; filename=$file")))
+    }
+  }
 
-              byteArray : Array[Byte] = text.getBytes
-
-              body = ByteString(byteArray)
-
-              entity = HttpEntity.Strict(MediaTypes.`application/octet-stream`, body)
-
-        } yield HttpResponse(entity = entity)
-
-        // println("building tarball")
-        // val mk = %%(wd / "mktar.sh")
-        // println(mk)
-        // println("serving")
-
-        complete(futResponse)
-      }
 
 val bindingFuture = Http().bindAndHandle(route, "localhost", 6060)
 

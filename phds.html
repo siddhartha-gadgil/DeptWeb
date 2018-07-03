@@ -7,7 +7,7 @@ title: Ph.D. Degrees Awarded
   {% assign years = site.data.phds | group_by: "year" %}
 
 
- {% assign sorted = (years | sort: 'name') | reverse %}
+ {% assign sorted = years | sort: 'name' | reverse %}
 
  <ul class="list-inline">
    {% for y in sorted %}
