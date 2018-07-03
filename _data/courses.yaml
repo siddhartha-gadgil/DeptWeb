@@ -1,3 +1,127 @@
+jan2019:
+  core1:
+    - code: MA 213
+      name: Algebra II
+      instructor: Soumya Das
+      credits: "3:1"
+
+    - code: MA 222
+      name: Measure and Integration
+      instructor: E. K. Narayanan
+      credits: "3:1"
+
+    - code: MA 224
+      name: Complex Analysis
+      instructor: S. Thangavelu
+      credits: "3:1"
+
+    - code: MA 229
+      name: Calculus on Manifolds
+      instructor: Subhojoy Gupta
+
+    - code: MA 241
+      name: Ordinary Differential Equations
+      instructor: A. K. Nandakumaran
+      credits: "3:1"
+
+  electives:
+    - code: MA 210
+      name: Logic, Types and Spaces
+      instructor: Siddhartha Gadgil
+
+    - code: MA 311
+      name: Algebraic Geometry 2
+      instructor: Abhishek Banerjee
+
+    - code: MA 319
+      name: Algebraic Combinatorics
+      instructor: Arvind Ayyer
+
+
+    - code: MA 340
+      name: Advanced Functional Analysis
+      instructor: Tirthankar Bhattacharyya
+
+    - code: MA 384
+      name: Mathematical Physics
+      instructor: Kaushal Verma
+
+    - code: MA 385
+      name: Classical Groups
+      instructor: Pooja Singla
+
+
+    - code: MA 3xx
+      name: Mathematical Finance 2
+      instructor: Mrinal K. Ghosh
+
+
+
+aug2018:
+  core1:
+    - code: MA 200
+      name: Multivariable Calculus
+      instructor: Kaushal Verma
+      credits: "3:1"
+
+    - code: MA 212
+      name: Algebra I
+      instructor: Pooja Singla
+
+    - code: MA 219
+      name: Linear Algebra
+      instructor: R. Venkatesh
+      credits: "3:1"
+
+    - code: MA 221
+      name: "Analysis I: Real Anaysis"
+      instructor: Gautam Bharali
+
+    - code: MA 231
+      name: Topology
+      instructor: Harish Seshadri
+      credits: "3:1"
+
+    - code: MA 261
+      name: Probability Models
+      instructor: Siddhartha Gadgil
+      webpage: http://math.iisc.ac.in/~gadgil/MA261/
+
+  core2:
+    - code: MA 223
+      name: Functional Analysis
+      instructor: Tirthankar Bhattacharyya
+
+    - code: MA 232
+      name: Introduction to Algebraic Topology
+      instructor: Basudeb Datta
+
+    - code: MA 242
+      name: Partial Differential Equations
+      instructor: A. K. Nandakumaran
+
+  electives:
+    - code: MA 26x
+      name: Mathematical Finance 1
+      instructor: Mrinal K. Ghosh
+
+    - code: MA 310
+      name: Algebraic Geometry 1
+      instructor: Abhishek Banerjee
+
+    - code: MA 335
+      name: Introduction to Hyperbolic Manifolds
+      instructor: Subhojoy Gupta
+
+    - code: MA 361
+      name: Probability Theory
+      instructor: Srikanth K. Iyer
+
+    - code: MA 394
+      name: Techniques in discrete probability
+      instructor: Riddhipratim Basu
+
+
 jan2018:
   core1:
     - code: MA 213
