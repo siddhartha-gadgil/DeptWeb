@@ -153,6 +153,12 @@
   phone-ext: 3213
   office: X17
 
+- name: Sanchayan Sen
+  user-id: sanchayan
+  position: Assistant Professor
+  research-areas: Probability Theory
+  phd: Courant Institute
+
 - name: Harish Seshadri
   user-id: harish
   position: Professor
