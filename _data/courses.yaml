@@ -66,63 +66,82 @@ aug2018:
       name: Multivariable Calculus
       instructor: Kaushal Verma
       credits: "3:1"
+      timing: "Mon, Wed, Fri: 3:00-4:00"
 
     - code: MA 212
       name: Algebra I
       instructor: Pooja Singla
+      timing: "Mon, Wed, Fri: 12:00-1:00"
 
     - code: MA 219
       name: Linear Algebra
       instructor: R. Venkatesh
       credits: "3:1"
+      timing: "Tue, Thu: 9:30-11:00"
 
     - code: MA 221
       name: "Analysis I: Real Anaysis"
       instructor: Gautam Bharali
+      timing: "Mon, Wed, Fri: 11:00-12:00"
 
     - code: MA 231
       name: Topology
       instructor: Harish Seshadri
       credits: "3:1"
+      timing: "Tue, Thu: 11:00-12:30"
 
     - code: MA 261
       name: Probability Models
       instructor: Siddhartha Gadgil
       webpage: http://math.iisc.ac.in/~gadgil/MA261/
+      timing: "Mon, Wed, Fri: 9:00-10:00"
 
   core2:
     - code: MA 223
       name: Functional Analysis
       instructor: Tirthankar Bhattacharyya
+      timing: "Mon, Wed, Fri: 10:00-11:00"
 
     - code: MA 232
       name: Introduction to Algebraic Topology
       instructor: Basudeb Datta
+      timing: "Mon, Wed, Fri: 11:00-12:00"
 
     - code: MA 242
       name: Partial Differential Equations
       instructor: A. K. Nandakumaran
-
+      timing: "Mon, Wed, Fri: 2:00-3:00"
+     
   electives:
     - code: MA 266
       name: Mathematical Finance I
       instructor: Mrinal K. Ghosh
+      timing: "Tue, Thu: 3:30-5:00"
 
     - code: MA 310
       name: Algebraic Geometry I
       instructor: Abhishek Banerjee
-
+      timing: "Tue, Thu: 3:30-5:00"
+      
     - code: MA 335
       name: Introduction to Hyperbolic Manifolds
       instructor: Subhojoy Gupta
+      timing: "Tue, Thu: 2:00-3:30"
 
     - code: MA 361
       name: Probability Theory
       instructor: Srikanth K. Iyer
+      timing: "Tue, Thu: 11:00-12:30"
+      
+    - code: MA 370
+      name: Hermetian Analysis
+      instructor: Gadadhar Misra
+      timing: "Mon, Wed, Fri: 2:00-3:00"
 
     - code: MA 394
       name: Techniques in discrete probability
       instructor: Riddhipratim Basu
+      timing: "Tue, Thu: 2:00-3:30"
 
 
 jan2018:
