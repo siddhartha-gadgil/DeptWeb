@@ -3,7 +3,12 @@
   <tr>
     <strong>
       <td><b>Course No.</b></td> <td><b>Credits</b></td><td><b>Course Title</b></td>
-      <td><b>Instructor</b></td><td  class="text-center"><b>Timing</b></td>
+      <td><b>Instructor</b></td>
+      <td><b>Pre-requisites</b></td>
+      <td style="white-space: pre;"><b>Additional
+Prerequisites for
+Undegraduates</b></td>
+      <td  class="text-center"><b>Timing</b></td>
     </strong>
   </tr>
   {% for course in list %}
@@ -25,6 +30,8 @@
 
     <a href="{{ lnk }}"> {{ course.name }} </a> </td>
   <td> {{ course.instructor}}</td>
+  <td> {{ course.prereq-courses }}</td>
+  <td> {{ course.ug-prereq-courses }}
   <td> {{ course.timing }}</td>
   </tr>
   {% endfor %}

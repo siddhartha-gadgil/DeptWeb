@@ -1,0 +1,209 @@
+Code	Title	Prerequisites for all	Additional Prerequisites  for UGs	Comments/Questions
+				
+UM 101	Analysis and Linear Algebra I			
+				
+UM 102	Analysis and Linear Algebra II		UM 101	
+				
+UM 201	Probability and Statistics		UM101	
+				
+UM 203	Elementary Algebra and Number Theory		UM 102	
+				
+UM 204	Introduction to Basic Analysis		UM 102	
+				
+MA 200	Multivariable Calculus		UM 204	
+				
+MA 212	Algebra I		UM 203	
+				
+MA 213	Algebra II	MA 212		
+				
+MA 219	Linear Algebra		UM 203	
+				
+MA 221	Analysis I - Real Analysis		UM 204	
+				
+MA 222	Analysis II - Measure and Integration	MA 221		
+				
+MA 223	Functional Analysis	MA 221 and MA 224		
+				
+MA 224	Complex Analysis	MA 221		
+				
+MA 229	Calculus on Manifolds	MA 221		
+				
+MA 231	Topology		UM 204	
+				
+MA 232	Introduction to algebraic topology	MA 231 and MA 212		
+				
+MA 241	Ordinary Differential Equations	MA 221		
+				
+MA 242	Partial Differential Equations	MA 241		
+				
+MA 261	Probability Models		UM101	For UG
+				
+MA 361	Probability Theory	MA 222		
+				
+MA 399	Seminar on Topics in Mathematics			
+				
+MA 210	Logic, Types and Spaces			
+				
+MA 211	Matrix theory			
+				
+MA 214	Topics in Commutative Algebra			
+				
+MA 215	Introduction to Modular Forms			
+				
+MA 217	Discrete Mathematics			
+				
+MA 218	Number Theory			
+				
+MA 220	Representation theory of Finite groups	MA 212 and MA 219		
+				
+MA 226	Complex Analysis II			
+				
+MA 233	Differential Geometry			
+				
+MA 234	Metric Geometry of Spaces and Groups	MA 231		
+				
+MA 266	Mathematical Finance 1			
+				
+MA 277	Nonlinear Dynamical Systems and Chaos			
+				
+MA 278	Introduction to Dynamical Systems Theory			
+				
+MA 301	Real Analysis			
+				
+MA 302	Advanced Calculus			
+				
+MA 303	Topics in Operator Theory			
+				
+MA 305	Anaysis on Lie Groups			
+				
+MA 310	Algebraic Geometry 1			
+				
+MA 311	Algebraic Geometry 2			
+				
+MA 312	Commutative Algebra			
+				
+MA 313	Algebraic Number Theory			
+				
+MA 314	Introduction to Algebraic Geometry			
+				
+MA 315	Lie Algebras and their Representations			
+				
+MA 316	Introduction to Homological Algebra			
+				
+MA 317	Introduction to Analytic Number Theory			
+				
+MA 318	Combinatorics			
+				
+MA 319	Algebraic Combinatorics			
+				
+MA 320	Representation theory of compact Lie groups	MA 223		
+				
+MA 321	Analysis III			
+				
+MA 322	Harmonic Analysis			
+				
+MA 323	Operator Theory			
+				
+MA 324	Topics in Complex Analysis			
+				
+MA 325	Operator Theory II			
+				
+MA 326	Fourier Analysis	MA 223		
+				
+MA 327	Topics in Analysis			
+				
+MA 328	Introduction  to  Several  Complex  Variables			
+				
+MA 329	Topics in Several Complex Variables			
+				
+MA 330	Topology - II	MA 231		
+				
+MA 331	Topology and Geometry	MA 231		
+				
+MA 332	Algebraic Topology	MA 232		
+				
+MA 333	Riemannian Geometry			
+				
+MA 334	Introduction to Homotopy Type Theory	MA 232		
+				
+MA 335	Introduction to Hyperbolic Manifolds	MA 231		
+				
+MA 336	Topics in Riemannian Geometry			
+				
+MA 337	Computer Assisted Topology and Geometry	MA 232		
+				
+MA 338	Differentiable manifolds and Lie groups			
+				
+MA 339	Geometric Analysis			
+				
+MA 340	Advanced Functional Analysis	MA 223		
+				
+MA 341	Matrix Analysis and Positivity	MA 219		
+				
+MA 342	Partial Differential Equations II			
+				
+MA 344	Homogenization of Partial Differential Equations			
+				
+MA 345	Nonlinear Functional Analysis and Applications to Differential Equations			
+				
+MA 346	Integral Equations with Applications			
+				
+MA 347	Advanced Partial Differential Equations and Finite Element Method			
+				
+MA 350	Topics in Analytic Number Theory			
+				
+MA 351	Topics in Modular Forms			
+				
+MA 352	Introduction to Analytic Number Theory			
+				
+MA 360	Random Matrix Theory			
+				
+MA 362	Stochastic Processes	MA361		
+				
+MA 363	Stochastic Finance I			
+				
+MA 364	Linear and Non-linear Time Series Analysis			
+				
+MA 365	Topics in Gaussian Processes			
+				
+MA 366	Mathematical Finance II			
+				
+MA 367	Brownian Motion			
+				
+MA 368	Topics in Probability and Stochastic Processes	MA361		
+				
+MA 369	Quantum Mechanics			
+				
+MA 370	Hermetian Analysis			
+				
+MA 371	Control and Homogenization			
+				
+MA 372	Abstract Harmonic Analysis	MA 223		
+				
+MA 373	Optimal Control of Distributed Systems			
+				
+MA 374	Semigroup Theory and Evolution Equations			
+				
+MA 380	Introduction to Complex Dynamics			
+				
+MA 381	Topics in Several Complex Variables - II			
+				
+MA 382	Special Topics in Operator Theory			
+				
+MA 383	Introduction to Minimal Surfaces			
+				
+MA 384	Mathematical Physics			
+				
+MA 385	Classical Groups	MA 212 and MA 219		
+				
+MA 386	Coxeter Groups			
+				
+MA 390	Percolation and Random Graphs	MA361		
+				
+MA 391	Spectral Algorithms			
+				
+MA 392	Random Graphs and interacting particle systems	MA361		
+				
+MA 393	Topics in Theoretical Statistics			
+				
+MA 394	Techniques in discrete probability			

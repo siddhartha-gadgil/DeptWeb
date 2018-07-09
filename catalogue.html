@@ -12,6 +12,13 @@ title: Course Catalogue
   <h4>  <a href={{ lnk }}>{{ course.code }}: {{ course.title }} </a>
     ({% if course.credits %}{{ course.credits }}{% else %}3:0{% endif %})
   </h4>
+{% if course.prereq-courses %}
+<h4>Prerequisite courses: {{ course.prereq-courses }} </h4>
+{% endif %}
+{% if course.ug-prereq-courses %}
+<h4>{% if course.prereq-courses %}(Additional ){% endif %}Prerequisite courses for Undegraduates: {{ course.ug-prereq-courses }} </h4>
+{% endif %}
+
 {% if course.prereqs %}
 <h4> Pre-requisites : </h4>
     <ol>
