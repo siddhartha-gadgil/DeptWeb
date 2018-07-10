@@ -4,6 +4,12 @@
 <h4> Credits: {% if page.credits %}{{ page.credits }}{% else %}3:0{% endif %}</h4>
 <!-- <p>&nbsp;</p> -->
 <br>
+{% if page.prereq-courses %}
+<h4>Prerequisite courses: {{ page.prereq-courses }} </h4>
+{% endif %}
+{% if page.ug-prereq-courses %}
+<h4>{% if page.prereq-courses %}(Additional ){% endif %}Prerequisite courses for Undegraduates: {{ page.ug-prereq-courses }} </h4>
+{% endif %}
 {% if page.prereqs %}
 <h4> Pre-requisites : </h4>
     <ol>
@@ -26,6 +32,7 @@
  {% endfor %}
  </ol>
 {% endif %}
+
 
 <br>
 <h4><a href="{{ site.baseurl}}/catalogue.html">All Courses</a></h4>
