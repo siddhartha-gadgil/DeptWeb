@@ -5,7 +5,7 @@ jan2017:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
-  - name: Measure and Integration
+  - name: Measure & Integration
     instructor: Gautam Bharali
     code: MA 222
     prereq-courses: MA 221
@@ -52,7 +52,7 @@ jan2017:
     code: MA 350
     prereq-courses: ''
     ug-prereq-courses: ''
-  - name: Control and Homogenization
+  - name: Control & Homogenization
     instructor: A. K. Nandakumaran
     code: MA 371
     prereq-courses: ''
@@ -62,7 +62,7 @@ jan2017:
     code: MA 383
     prereq-courses: ''
     ug-prereq-courses: ''
-  - name: Percolation and Random Graphs
+  - name: Percolation & Random Graphs
     instructor: Srikanth Iyer
     code: MA 390
     prereq-courses: MA361
@@ -88,7 +88,7 @@ aug2018:
     timing: 'Tue, Thu: 9:30-11:00'
     code: MA 219
     prereq-courses: ''
-    ug-prereq-courses: UM 203
+    ug-prereq-courses: UM 102
   - name: 'Analysis I: Real Anaysis'
     instructor: Gautam Bharali
     timing: 'Mon, Wed, Fri: 11:00-12:00'
@@ -108,7 +108,7 @@ aug2018:
     code: MA 261
     webpage: http://math.iisc.ac.in/~gadgil/MA261/
     prereq-courses: ''
-    ug-prereq-courses: UM101
+    ug-prereq-courses: ''
   electives:
   - name: Mathematical Finance I
     instructor: Mrinal K. Ghosh
@@ -151,13 +151,13 @@ aug2018:
     instructor: Tirthankar Bhattacharyya
     timing: 'Mon, Wed, Fri: 10:00-11:00'
     code: MA 223
-    prereq-courses: MA 221 and MA 224
+    prereq-courses: MA 222, MA 224 & MA 219
     ug-prereq-courses: ''
   - name: Introduction to Algebraic Topology
     instructor: Basudeb Datta
     timing: 'Mon, Wed, Fri: 11:00-12:00'
     code: MA 232
-    prereq-courses: MA 231 and MA 212
+    prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
   - name: Partial Differential Equations
     instructor: A. K. Nandakumaran
@@ -174,7 +174,7 @@ jan2018:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
-  - name: Measure and Integration
+  - name: Measure & Integration
     credits: '3:1'
     instructor: Manjunath Krishnapur
     timing: 'Tue, Thu: 2:00-3:30'
@@ -208,7 +208,7 @@ jan2018:
     code: MA 305
     prereq-courses: ''
     ug-prereq-courses: ''
-  - name: Lie Algebras and their Representations
+  - name: Lie Algebras & their Representations
     instructor: R. Venkatesh
     timing: 'Tue, Thu: 11:00-12:30'
     code: MA 315
@@ -232,7 +232,7 @@ jan2018:
     code: MA 340
     prereq-courses: MA 223
     ug-prereq-courses: ''
-  - name: Matrix Analysis and positivity
+  - name: Matrix Analysis & positivity
     instructor: Apoorva Khare
     timing: 'Wed, Fri: 11:00-12:30'
     code: MA 341
@@ -245,7 +245,7 @@ jan2018:
     code: MA 386
     prereq-courses: ''
     ug-prereq-courses: ''
-  - name: Random Graphs and interacting particle systems
+  - name: Random Graphs & interacting particle systems
     instructor: Srikanth Iyer
     timing: 'Tue, Thu: 11:00-12:30'
     code: MA 392
@@ -267,7 +267,7 @@ aug2016:
     instructor: Pooja Singla
     code: MA 219
     prereq-courses: ''
-    ug-prereq-courses: UM 203
+    ug-prereq-courses: UM 102
   - name: 'Analysis I: Real Anaysis'
     instructor: E. K. Narayanan
     code: MA 221
@@ -282,7 +282,7 @@ aug2016:
     instructor: M. K. Ghosh
     code: MA 261
     prereq-courses: ''
-    ug-prereq-courses: UM101
+    ug-prereq-courses: ''
   electives:
   - name: Introduction to Dynamical Systems Theory
     instructor: Govindan Rangarajan & Janaki Balakrishnan
@@ -318,13 +318,13 @@ aug2016:
   - name: Functional Analysis
     instructor: S. Thangavelu
     code: MA 223
-    prereq-courses: MA 221 and MA 224
+    prereq-courses: MA 222, MA 224 & MA 219
     ug-prereq-courses: ''
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
     code: MA 232
     webpage: http://math.iisc.ac.in/~gadgil/AlgebraicTopology/home/
-    prereq-courses: MA 231 and MA 212
+    prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
   - name: Partial Differential Equations
     instructor: Thirupathi Gudi
@@ -339,7 +339,7 @@ jan2019:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
-  - name: Measure and Integration
+  - name: Measure & Integration
     credits: '3:1'
     instructor: E. K. Narayanan
     code: MA 222
@@ -363,7 +363,7 @@ jan2019:
     prereq-courses: MA 221
     ug-prereq-courses: ''
   electives:
-  - name: Logic, Types and Spaces
+  - name: Logic, Types & Spaces
     instructor: Siddhartha Gadgil
     code: MA 210
     prereq-courses: ''
@@ -396,7 +396,7 @@ jan2019:
   - name: Classical Groups
     instructor: Pooja Singla
     code: MA 385
-    prereq-courses: MA 212 and MA 219
+    prereq-courses: MA 212 & MA 219
     ug-prereq-courses: ''
   - name: Mathematical Finance II
     instructor: Mrinal K. Ghosh
@@ -421,7 +421,7 @@ aug2017:
     instructor: Soumya Das
     code: MA 219
     prereq-courses: ''
-    ug-prereq-courses: UM 203
+    ug-prereq-courses: UM 102
   - name: 'Analysis I: Real Anaysis'
     instructor: Apoorva Khare
     code: MA 221
@@ -438,13 +438,13 @@ aug2017:
     code: MA 261
     webpage: http://math.iisc.ernet.in/~manju/PM17/PM17.html
     prereq-courses: ''
-    ug-prereq-courses: UM101
+    ug-prereq-courses: ''
   electives:
   - name: Representation Theory
     instructor: Pooja Singla
     code: MA 220
     webpage: https://sites.google.com/site/reptheory17/
-    prereq-courses: MA 212 and MA 219
+    prereq-courses: MA 212 & MA 219
     ug-prereq-courses: ''
   - name: Commutative Algebra
     instructor: Dilip Patil
@@ -452,7 +452,7 @@ aug2017:
     webpage: http://www.math.iisc.ernet.in/~patil/current_courses/MA312-CA2017/MA312-CA2017.html
     prereq-courses: ''
     ug-prereq-courses: ''
-  - name: Differentiable Manifolds and Lie Groups
+  - name: Differentiable Manifolds & Lie Groups
     instructor: Vamsi Pingali
     code: MA 338
     webpage: http://math.iisc.ac.in/~vamsipingali/338_2017.html
@@ -473,13 +473,13 @@ aug2017:
   - name: Functional Analysis
     instructor: Tirthankar Bhattacharyya
     code: MA 223
-    prereq-courses: MA 221 and MA 224
+    prereq-courses: MA 222, MA 224 & MA 219
     ug-prereq-courses: ''
   - name: Introduction to Algebraic Topology
     instructor: Subhojoy Gupta
     code: MA 232
     webpage: http://math.iisc.ernet.in/~subhojoy/public_html/Ma232_August_2017.html
-    prereq-courses: MA 231 and MA 212
+    prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
   - name: Partial Differential Equations
     instructor: S. Thangavelu

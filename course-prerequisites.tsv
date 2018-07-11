@@ -4,7 +4,7 @@ UM 101	Analysis and Linear Algebra I
 				
 UM 102	Analysis and Linear Algebra II		UM 101	
 				
-UM 201	Probability and Statistics		UM101	
+UM 201	Probability and Statistics			
 				
 UM 203	Elementary Algebra and Number Theory		UM 102	
 				
@@ -16,17 +16,17 @@ MA 212	Algebra I		UM 203
 				
 MA 213	Algebra II	MA 212		
 				
-MA 219	Linear Algebra		UM 203	
+MA 219	Linear Algebra		UM 102	Preferably UM 203
 				
-MA 221	Analysis I - Real Analysis		UM 204	
+MA 221	Analysis I - Real Analysis		UM 204	Not for mathematics majors
 				
-MA 222	Analysis II - Measure and Integration	MA 221		
+MA 222	Analysis II - Measure and Integration	MA 221		Preferably MA 231
 				
-MA 223	Functional Analysis	MA 221 and MA 224		
+MA 223	Functional Analysis	MA 222, MA 224 and MA 219		Preferably MA 231
 				
 MA 224	Complex Analysis	MA 221		
 				
-MA 229	Calculus on Manifolds	MA 221		
+MA 229	Calculus on Manifolds	MA 221		MA 231?
 				
 MA 231	Topology		UM 204	
 				
@@ -36,7 +36,7 @@ MA 241	Ordinary Differential Equations	MA 221
 				
 MA 242	Partial Differential Equations	MA 241		
 				
-MA 261	Probability Models		UM101	For UG
+MA 261	Probability Models			For UG
 				
 MA 361	Probability Theory	MA 222		
 				
@@ -164,11 +164,11 @@ MA 363	Stochastic Finance I
 				
 MA 364	Linear and Non-linear Time Series Analysis			
 				
-MA 365	Topics in Gaussian Processes			
+MA 365	Topics in Gaussian Processes	MA 361		
 				
 MA 366	Mathematical Finance II			
 				
-MA 367	Brownian Motion			
+MA 367	Brownian Motion	MA 361		
 				
 MA 368	Topics in Probability and Stochastic Processes	MA361		
 				

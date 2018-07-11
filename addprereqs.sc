@@ -9,8 +9,8 @@ val txt = read(pwd / "_data" / "courses.yaml").replace("\t", " ")
 val yamlAst = txt.parseYaml
 val data = yamlAst.convertTo[Map[String, Map[String, List[Map[String, String]]]]]
 
-def preug(v: Vector[String]) = if (v.size > 3) v(3) else ""
-def precors(v: Vector[String]) = if (v.size > 2) v(2) else ""
+def preug(v: Vector[String]) = if (v.size > 3) v(3).replace("and", "&") else ""
+def precors(v: Vector[String]) = if (v.size > 2) v(2).replace("and", "&") else ""
 def addPrereqs(m: Map[String, String]) = {
   val row = prereqs.find(_.head == m("code")).get
   m + ("prereq-courses" -> precors(row)) + ("ug-prereq-courses" -> preug(row))
@@ -31,7 +31,7 @@ def addHead(name: Path) = {
     val pieces = read(name).split("---").toVector
     val row = prereqs.find(_.head == code).get
     val oldHead =
-      pieces(1).split("\n").filterNot((x) => x.startsWith("prereq-courses") || x.startsWith("ug-prereq-courses")).mkString("\n")
+      pieces(1).split("\n").filterNot((x) => x.startsWith("prereq-courses") || x.startsWith("ug-prereq-courses")).mkString("","\n","\n")
     val newHead = oldHead + s"prereq-courses: ${precors(row)}\n" + s"ug-prereq-courses: ${preug(row)}"
     "---\n"+newHead+"\n---\n"+pieces(2)
   }
