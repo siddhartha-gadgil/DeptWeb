@@ -1,5 +1,5 @@
 ---
-speaker: Soumyashant Nayak (University of Pennsylvania )
+speaker: Soumyashant Nayak (University of Pennsylvania, Philadelphia, USA)
 title: "Rank Identities and Finite von Neumann Algebras"
 date: 27 June, 2018
 time: 2 pm
