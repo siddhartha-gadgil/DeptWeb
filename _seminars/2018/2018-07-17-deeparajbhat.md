@@ -1,8 +1,8 @@
 ---
-speaker: Deeparaj Bhat (undergraduate summer student from CMI)
+speaker: Deeparaj Bhat (undergraduate summer student, from CMI)
 title: "Shear Coordinates of Teichmüller space and the Nielsen Realisation problem"
 date: 17 July, 2018
-time: 4.00 pm
+time: 4 pm
 venue: LH-1, Mathematics Department
 ---
 
