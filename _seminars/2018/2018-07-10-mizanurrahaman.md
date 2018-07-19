@@ -1,5 +1,5 @@
 ---
-speaker: Mizanur Rahaman (University of Waterloo, Canada )
+speaker: Mizanur Rahaman (University of Waterloo, Waterloo, Canada)
 title: "Eventually Entanglement breaking maps"
 date: 10 July, 2018
 time: 3 pm
@@ -19,7 +19,7 @@ breaking maps forms a rich class within the set of all unital completely
 positive maps. I will relate these maps with irreducible positive linear
 maps which have been studied a lot in the non-commutative Perron-Frobenius theory.
 Various spectral properties of a ucp map on finite dimensional C*-algebras will be discussed.
-The motivation of this work is the ``PPT-squared conjecture"
+The motivation of this work is the "PPT-squared conjecture"
 made by M. Christandl that says that every PPT channel, when
 composed with itself, becomes entanglement breaking. In this work, it
 is proved that every unital PPT-channel becomes entanglement breaking
