@@ -1,5 +1,5 @@
 ---
-speaker: Anand Deopurkar (Australian National University, Australia )
+speaker: Anand Deopurkar (Australian National University, Canberra, Australia)
 title: "What is a ribbon and what can it tell us about Riemann surfaces?"
 date: 02 July, 2018
 time: 4 pm
