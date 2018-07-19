@@ -1,5 +1,5 @@
 ---
-speaker:  Asilata Bapat (Australian National University, Australia )
+speaker:  Asilata Bapat (Australian National University, Canberra, Australia)
 title: "Perverse sheaves on hyperplane arrangements and gluing"
 date: 03 July, 2018
 time: 3:30 pm
