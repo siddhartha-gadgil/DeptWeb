@@ -1,8 +1,8 @@
 ---
-speaker: Neha Prabhu (Queen's University, Canada)
+speaker: Neha Prabhu (Queen's University, Kingston, Canada)
 title: "Extremal primes for non-CM elliptic curves"
 date: 23 July, 2018
-time: 3.00 pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 ---
 
