@@ -1,6 +1,6 @@
 ---
-speaker: SOUMITRA GHARA (IISc, Bangalore)
-title: "DECOMPOSITION OF THE TENSOR PRODUCT OF HILBERT MODULES VIA THE JET CONSTRUCTION"
+speaker: Soumitra Ghara (IISc Mathematics)
+title: "Decomposition of the tensor product of Hilbert modules via the jet construction"
 date: 29 June, 2018
 time: 11 am
 venue: LH-1, Mathematics Department
@@ -9,7 +9,7 @@ venue: LH-1, Mathematics Department
 Let K be a bounded domain and K:\Omega \times \Omega \to C be a sesqui-analytic function. We show that if \alpha,\beta>0 be such that the functions K^{\alpha} and K^{\beta}, defined on \Omega\times\Omega, are non-negative definite kernels, then the M_m(C) valued function
  
 K^{(\alpha,\beta)}:
-=K^{\alpha+\beta}(\partial_i\bar{\partial}_j\log K)_{i,j=1}^ m
+=K^{\alpha+\beta}(\partial_i\bar{\partial}\_j\log K)\_{i,j=1}^ m
 is also a non-negative definite kernel on \Omega\times\Omega.
 Then we find a realization of the Hilbert space
 (H,K^{(\alpha,\beta)})determined by the kernel K^{(\alpha, \beta)} in terms of the tensor product
