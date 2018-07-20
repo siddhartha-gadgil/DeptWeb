@@ -3,7 +3,7 @@ speaker: Kunal Dutta (INRIA Sophia-Antipolis, France)
 title: "Four Flavours of Combinatorics (Enumerative, Probabilistic,
 Extremal, and Geometric)"
 date: 24 July, 2018
-time: 3 pm
+time: 4 pm
 venue: LH-1, Mathematics Department
 ---
 
