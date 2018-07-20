@@ -4,7 +4,7 @@ title: "Four Flavours of Combinatorics (Enumerative, Probabilistic,
 Extremal, and Geometric)"
 date: 24 July, 2018
 time: 4 pm
-venue: LH-1, Mathematics Department
+venue: LH-3, Mathematics Department
 ---
 
 In this talk we shall see three very different areas of

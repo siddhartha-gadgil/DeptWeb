@@ -1,9 +1,9 @@
 ---
 speaker: Sumana Hatui (HRI, Allahabad)
 title: "The Schur multiplier of central product of groups"
-date: 24 July, 2018
+date: 23 July, 2018
 time: 3:30 pm
-venue: LH-1, Mathematics Department
+venue: LH-4, Mathematics Department
 ---
 
 Let G be a central product of two groups H and K. In this talk,
