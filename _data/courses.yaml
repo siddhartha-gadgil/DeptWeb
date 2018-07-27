@@ -89,7 +89,7 @@ aug2018:
   - code: UM 101
     instructor: Arvind Ayyer
     name: Anaysis and Linear Algebra - I
-    ug-prereq-courses: UM 101
+    ug-prereq-courses:
   - code: UM 201
     instructor: Manjunath Krishnapur
     name: Probability and Statistics
@@ -119,7 +119,7 @@ aug2018:
     timing: 'Mon, Wed, Fri: 11:00-12:00'
     code: MA 221
     prereq-courses: ''
-    ug-prereq-courses: UM 204
+    ug-prereq-courses:
   - name: Topology
     credits: '3:1'
     instructor: Harish Seshadri
@@ -368,7 +368,7 @@ aug2016:
     instructor: E. K. Narayanan
     code: MA 221
     prereq-courses: ''
-    ug-prereq-courses: UM 204
+    ug-prereq-courses:
   - name: Topology
     instructor: Subhojoy Gupta
     code: MA 231
@@ -451,7 +451,7 @@ aug2017:
     instructor: Apoorva Khare
     code: MA 221
     prereq-courses: ''
-    ug-prereq-courses: UM 204
+    ug-prereq-courses:
   - name: Topology
     credits: '3:1'
     instructor: Harish Seshadri
