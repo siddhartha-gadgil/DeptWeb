@@ -190,7 +190,7 @@ aug2018:
     ug-prereq-courses: ''
   - name: Partial Differential Equations
     instructor: A. K. Nandakumaran
-    timing: 'Mon, Wed, Fri: 2:00-3:00'
+    timing: 'Tue, Thu: 9:30-11:00'
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
