@@ -78,7 +78,7 @@ jan2019:
     code: MA 385
     prereq-courses: MA 212 & MA 219
     ug-prereq-courses: ''
-  - name: Mathematical Finance II
+  - name: Stochastic Finance II
     instructor: Mrinal K. Ghosh
     code: MA 366
     prereq-courses: ''
@@ -138,8 +138,8 @@ aug2018:
   - name: Representation Theory
     instructor: R. Venkatesh and Apoorva Khare
     code: MA 220
-    prereq-courses: MA 212 and MA 219  
-  - name: Mathematical Finance I
+    prereq-courses: MA 212 and MA 219
+  - name: Stochastic Finance I
     instructor: Mrinal K. Ghosh
     timing: 'Tue, Thu: 3:30-5:00'
     code: MA 266
