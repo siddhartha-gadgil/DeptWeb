@@ -1,7 +1,7 @@
 ---
 speaker: Stephan Baier (RKMVU, Belur)
 title: "Moments of the error term in the Sato-Tate law for elliptic curves."
-date: 10 August, 2018
+date: 27 August, 2018
 time: 3 pm
 venue: LH-1, Mathematics Department
 ---
