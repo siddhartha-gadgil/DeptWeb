@@ -1,8 +1,8 @@
 ---
 speaker: Ravi Raghunathan (IIT, Bombay)
-title: "A tale of two Fields Medallists : Weyl's Law for eigenfunctions of the hyperbolic Laplacian on noncompact quotients."
+title: "Eigenfunctions Seminar: A tale of two Fields Medallists: Weyl's Law for eigenfunctions of the hyperbolic Laplacian on noncompact quotients"
 date: 03 August, 2018
-time:  3:00 – 5:00 pm with a 15 minute break in between at 3:55.
+time:  3 – 5 pm with a 15 minute break in between at 3:55
 venue: LH-4, Mathematics Department
 ---
 
