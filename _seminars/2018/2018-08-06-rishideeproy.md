@@ -1,8 +1,8 @@
 ---
 speaker: Rishideep Roy (IIM, Bangalore)
-title: "Location of near maxima of log-correlated fields "
+title: "Location of near maxima of log-correlated fields"
 date: 06 August, 2018
-time: 3.30 pm
+time: 3:30 pm
 venue: LH-1, Mathematics Department
 ---
 
