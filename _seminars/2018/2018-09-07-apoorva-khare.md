@@ -1,6 +1,6 @@
 ---
 speaker: Apoorva Khare (IISc Mathematics)
-title: [Algebra & Combinatorics Seminar](http://www.math.iisc.ac.in/~khare/algcomb18-19.html#20180907): The Diamond Lemma in ring theory
+title: "[Algebra & Combinatorics Seminar](http://www.math.iisc.ac.in/~khare/algcomb18-19.html#20180907): The Diamond Lemma in ring theory"
 date: 7 September, 2018
 time: 2:30 pm
 venue: LH-1, Mathematics Department
