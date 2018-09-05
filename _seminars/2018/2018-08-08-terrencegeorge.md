@@ -1,5 +1,5 @@
 ---
-speaker: Terrence George (Brown university)
+speaker: Terrence George (Brown University, USA)
 title: "Limit shapes for groves"
 date: 08 August, 2018
 time: 4 pm
