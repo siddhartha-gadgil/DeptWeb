@@ -1,8 +1,8 @@
 ---
-speaker: Shubham Sinha (Graduate Student at UC, San Diego)
+speaker: Shubham Sinha (Graduate Student at UC San Diego, USA)
 title: "Introduction to Elliptic Curves"
 date: 27 July, 2018
-time:  2:00 – 3:00pm
+time:  2 pm
 venue: LH-2, Mathematics Department
 ---
 
