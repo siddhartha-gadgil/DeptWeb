@@ -1,8 +1,10 @@
 ---
 date: 2014-4-25
-speaker: "M. Vanninathan, TIFR-CAM"
+speaker: "M. Vanninathan (TIFR-CAM, Bangalore)"
 title: "Optimal Design Problems"
-time: "2:00 - 3:00 p.m." 
-venue: "Lecture Hall I, Department of Mathematics"
+time: "2-3 p.m." 
+venue: "LH-1, Mathematics Department"
+series: "Eigenfunctions Seminar"
+website: eigenfunctions-all.html
 ---
-Motivated by applications,we introduce a class of optimization problems with constraints.Difficulties in solving these problems are highlighted.Mathematical developments to overcome these difficulties are discussed.
+Motivated by applications, we introduce a class of optimization problems with constraints. Difficulties in solving these problems are highlighted. Mathematical developments to overcome these difficulties are discussed.
