@@ -63,7 +63,9 @@
 {% if semDate >= curDate %}
 {% assign counter=counter | plus: 1 %}
 <li>
- <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+ <div><strong> Title: </strong> <a
+   href="{% if sem.website %}{{ sem.website }}{% else %}{{ site.baseurl}}{{ sem.url }}.html{% endif %}"
+   >{{ sem.title }}</a> </div>
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
 <div>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
 <div class=""> <strong>Time: </strong>
@@ -92,7 +94,9 @@
  {% assign semDate = sem.date | date: '%s' | plus: 0 %}
  {% unless semDate >= curDate %}
  <li>
-  <div><strong> Title: </strong> <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+  <div><strong> Title: </strong> <a
+    href="{% if sem.website %}{{ sem.website }}{% else %}{{ site.baseurl}}{{ sem.url }}.html{% endif %}"
+    >{{ sem.title }}</a> </div>
  <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
  <div>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
  <div class=""> <strong>Time: </strong>
