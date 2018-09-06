@@ -2,7 +2,7 @@
 date: 2014-3-28
 speaker: "Satadal Ganguly (ISI, Kolkata)"
 title: "Recent progress towards the twin prime conjecture"
-time: "2- 3 p.m." 
+time: "2- 3 pm" 
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
 website: eigenfunctions-all.html
