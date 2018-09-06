@@ -3,7 +3,7 @@ date: 2014-2-14
 speaker: "S. Thangavelu (IISc Mathematics)"
 title: "How to integrate entire functions in polar coordinates?"
 time: "2 - 3 p.m." 
-venue: "Lecture Hall I, Department of Mathematics"
+venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
 website: eigenfunctions-all.html
 ---
