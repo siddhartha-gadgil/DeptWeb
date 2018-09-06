@@ -1,8 +1,10 @@
 ---
 date: 2014-2-14
-speaker: "Dr. S. Thangavelu IISc"
+speaker: "S. Thangavelu (IISc Mathematics)"
 title: "How to integrate entire functions in polar coordinates?"
-time: "2:00 - 3:00 p.m." 
+time: "2 - 3 p.m." 
 venue: "Lecture Hall I, Department of Mathematics"
+series: "Eigenfunctions Seminar"
+website: eigenfunctions-all.html
 ---
 In this talk we address the problem of integrating entire functions (of several complex variables) in 'polar coordinates'!
