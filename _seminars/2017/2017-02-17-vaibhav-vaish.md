@@ -1,5 +1,5 @@
 ---
-speaker: Vaibhav Vaish (ISI Bangalore)
+speaker: Vaibhav Vaish (ISI, Bangalore)
 venue: LH-1, Mathematics Department
 time: 2:15 - 3:15 pm
 date  : February 17, 2017 (Friday)
