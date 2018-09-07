@@ -1,12 +1,10 @@
 ---
 speaker: Abhishek Banerjee (IISc Mathematics)
-
 venue: LH-1, Mathematics Department
-
-time: 3:30 pm
-
-date  : February 03, 2017 (Friday)
-title : "What is finiteness?"
+time: 3:30 - 4:30 pm
+date: February 03, 2017 (Friday)
+title: "What is finiteness?"
+series: "Eigenfunctions Seminar"
 ---
 It is generally well known that there is an innate notion of
 things like isomorphisms
