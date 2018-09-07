@@ -31,6 +31,23 @@ a:focus {
   text-decoration: underline;
 }
 
+.algebra-combinatorics-seminar {
+  color: #3c763d;
+}
+
+a.algebra-combinatorics-seminar:hover,
+a.algebra-combinatorics-seminar:focus {
+  color: #3c763d;
+  text-decoration: underline;
+}
+
+.eigenfunctions-seminar {
+  color: #8a6d3b;
+}
+a.eigenfunctions-seminar:hover,
+a.eigenfunctions-seminar:focus {
+  color: #66512c;
+}
 
 .navbar-default .navbar-nav > li > a:hover {
   color: #ffffff;

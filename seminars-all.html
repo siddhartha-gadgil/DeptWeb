@@ -12,7 +12,7 @@ title: Seminars
   <div class="col-md-11"> -->
   <h5><strong> Title: </strong>
     {% if sem.series %}<a
-    href="{{sem.website}}" class="text-success"
+    href="{{sem.website}}" class="{{ sem.series | slugify }}"
     >{{sem.series}}: </a>{% endif %}
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
