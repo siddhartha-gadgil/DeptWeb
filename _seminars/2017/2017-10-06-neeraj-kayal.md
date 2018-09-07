@@ -5,7 +5,7 @@ date: 6 October, 2017
 time: 3 - 4:55 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
-website: eigenfunctions-all.html
+
 ---
 
 We consider the computation of n-variate polynomials over a field F via a sequence of arithmetic operations such as additions, subtractions, multiplications, divisions, etc.

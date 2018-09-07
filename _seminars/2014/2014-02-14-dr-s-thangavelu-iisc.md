@@ -5,6 +5,6 @@ title: "How to integrate entire functions in polar coordinates?"
 time: "2 - 3 pm" 
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
-website: eigenfunctions-all.html
+
 ---
 In this talk we address the problem of integrating entire functions (of several complex variables) in 'polar coordinates'!

@@ -5,6 +5,6 @@ title: "Optimal Design Problems"
 time: "2-3 pm" 
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
-website: eigenfunctions-all.html
+
 ---
 Motivated by applications, we introduce a class of optimization problems with constraints. Difficulties in solving these problems are highlighted. Mathematical developments to overcome these difficulties are discussed.

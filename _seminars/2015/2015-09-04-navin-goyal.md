@@ -5,7 +5,7 @@ date: 04 September, 2015
 time:  3:30 - 4:30 pm
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
-website: eigenfunctions-all.html
+
 ---
 
 Independent component analysis (ICA) is a basic problem that 

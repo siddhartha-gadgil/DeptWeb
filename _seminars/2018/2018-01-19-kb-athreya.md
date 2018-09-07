@@ -5,7 +5,7 @@ date: 19 January, 2018
 time: 3 - 5 pm
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
-website: eigenfunctions-all.html
+
 ---
 
 Let X1 , X2 , X3,...Xn be iid random variables. Laws of large numbers roughly state that the average of these variables converges to the expectation value of each of them when n is large. Various forms of these laws have many applications. The strong and weak laws along with the following three applications will be discussed:
