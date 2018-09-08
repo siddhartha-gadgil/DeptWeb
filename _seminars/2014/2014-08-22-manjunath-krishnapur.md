@@ -4,6 +4,7 @@ speaker: "Manjunath Krishnapur (IISc Mathematics)"
 title: "The Littlewood–Offord and related problems"
 time: "2:15 – 4:30 pm (with a 15 minute break at 3:15)" 
 venue: "LH-1, Mathematics Department"
+series: "Eigenfunctions Seminar"
 
 ---
 
