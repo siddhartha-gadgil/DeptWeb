@@ -3,7 +3,7 @@ date: 2014-11-07
 speaker: "Benjamin A. Burton (University of Queensland, Brisbane, Australia)"
 title: "Knots, algorithms and linear programming: the quest to solve unknot recognition in polynomial time"
 time: "2:15 - 3:15 pm" 
-venue: "LH-1, Mzthematics Department"
+venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
 ---
 
