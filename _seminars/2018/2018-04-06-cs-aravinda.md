@@ -2,7 +2,7 @@
 speaker: C. S. Aravinda (TIFR-CAM, Bangalore)
 title: "Geodesic conjugacies of surfaces"
 date: 06 April, 2018
-time: 3 - 5 pm
+time: 3 – 5 pm
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 
