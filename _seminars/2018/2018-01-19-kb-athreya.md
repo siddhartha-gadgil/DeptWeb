@@ -2,7 +2,7 @@
 speaker: Krishna B. Athreya (Professor Emeritus, Iowa State University, Ames, USA)
 title: "Basic law of large numbers and applications; Estimation of integrals with respect to infinite measures via RSMC"
 date: 19 January, 2018
-time: 3 – 5 pm with a 15 minute break
+time: 3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 
