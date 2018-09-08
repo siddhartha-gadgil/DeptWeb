@@ -2,7 +2,7 @@
 speaker: Vamsi Pritham Pingali (IISc Mathematics)
 title: "Computing the ''best'' map between polygons"
 date: 23 September, 2016
-time:  2:15 – 4 pm with a 15 minute break in between at 3
+time:  2:15 – 4 pm (with a 15 minute break at 3)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 
