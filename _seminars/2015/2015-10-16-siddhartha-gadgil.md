@@ -2,7 +2,7 @@
 speaker: Siddhartha Gadgil (IISc Mathematics)
 title: "Homotopy type theory"
 date: 16 October, 2015
-time:  3:30 - 4:30 pm
+time:  3:30 – 4:30 pm
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 
