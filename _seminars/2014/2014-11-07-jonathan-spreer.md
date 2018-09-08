@@ -2,7 +2,7 @@
 date: 2014-11-07
 speaker: "Jonathan Spreer (University of Queensland, Brisbane, Australia)"
 title: "The GAP package simpcomp - A toolbox for simplicial complexes"
-time: "3:30 -- 4:30 pm" 
+time: "3:30 - 4:30 pm" 
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
 ---
