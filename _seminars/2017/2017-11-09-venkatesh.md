@@ -2,7 +2,7 @@
 speaker: R. Venkatesh (IISc Mathematics)
 title: "Unique factorization property of Schur functions"
 date: 11 November, 2017
-time: 3 - 4:55 pm (with a 15 minute break in between)
+time: 3 – 4:55 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 
