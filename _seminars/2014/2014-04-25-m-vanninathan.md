@@ -2,7 +2,7 @@
 date: 2014-4-25
 speaker: "M. Vanninathan (TIFR-CAM, Bangalore)"
 title: "Optimal Design Problems"
-time: "2-3 pm" 
+time: "2 – 3 pm" 
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
 
