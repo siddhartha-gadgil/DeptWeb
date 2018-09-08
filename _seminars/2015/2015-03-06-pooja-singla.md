@@ -1,7 +1,7 @@
 ---
 date: 2015-03-06
 speaker: "Pooja Singla (IISc Mathematics)"
-title: " Generating a random transposition with Random permutations"
+title: "Generating a random transposition with Random permutations"
 time: "3:00 – 3:50 pm"
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
