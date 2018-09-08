@@ -2,7 +2,7 @@
 date: 2014-3-28
 speaker: "Kaushal Verma (IISc Mathematics)"
 title: "Quadrature domains - an introduction"
-time: "3 - 4 pm" 
+time: "3 – 4 pm" 
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
 
