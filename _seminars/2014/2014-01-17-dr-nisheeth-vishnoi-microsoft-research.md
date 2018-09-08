@@ -2,7 +2,7 @@
 date: 2014-1-17
 speaker: "Nisheeth Vishnoi (Microsoft Research, Bangalore)"
 title: "Approximation Theory and the Design of Fast Algorithms"
-time: "2 - 3 pm" 
+time: "2 – 3 pm" 
 venue: "LH-1, Mathematics Department"
 series: "Eigenfunctions Seminar"
 
