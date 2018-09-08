@@ -1,10 +1,11 @@
 ---
 speaker: Vaibhav Vaish (ISI, Bangalore)
 venue: LH-1, Mathematics Department
-time: 2:15 - 3:15 pm
+time: 2:15 – 3:15 pm
 date  : February 17, 2017 (Friday)
 title : "Punctual gluing of t-structures in algebraic geometry"
 series: "Eigenfunctions Seminar"
+
 ---
 
 The formalism of an "abelian category" is meant to axiomatize
