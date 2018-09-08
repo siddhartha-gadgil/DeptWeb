@@ -19,7 +19,7 @@ subset-sum.
 
 In the first lecture, we shall review and prove several of these results
 (due to Littlewood–Offord, Erdos, Moser, Stanley, Halasz, Tao–Vu,
-Rudelson-Vershynin...) and show an application to random matrices.
+Rudelson–Vershynin...) and show an application to random matrices.
 
 In the second part, we start with a question in random polynomials and see
 how it leads to a variant of the Littlewood–Offord problem that has not
