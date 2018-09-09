@@ -47,6 +47,17 @@ a.algebra-combinatorics-seminar:focus {
 a.eigenfunctions-seminar:hover,
 a.eigenfunctions-seminar:focus {
   color: #66512c;
+  text-decoration: underline;
+}
+
+.bangalore-probability-seminar {
+  color: lightgreen;
+}
+
+a.bangalore-probability-seminar:hover,
+a.bangalore-probability-seminar:focus {
+  color: lightgreen;
+  text-decoration: underline;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
