@@ -51,12 +51,12 @@ a.eigenfunctions-seminar:focus {
 }
 
 .bangalore-probability-seminar {
-  color: lightgreen;
+  color: blueviolet;
 }
 
 a.bangalore-probability-seminar:hover,
 a.bangalore-probability-seminar:focus {
-  color: lightgreen;
+  color: blueviolet;
   text-decoration: underline;
 }
 
