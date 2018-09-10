@@ -9,7 +9,7 @@ title: Eigenfunctions Seminars
 <!-- <div class="row">
   <div class="col-md-11"> -->
   {% if sem.series == "Eigenfunctions Seminar" %}
-  <h5><strong> Title: </strong>
+  <h5 id="{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}"><strong> Title: </strong>
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
   <h5>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </h5>
