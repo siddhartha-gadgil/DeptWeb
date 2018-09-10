@@ -5,7 +5,7 @@ date: 7 September, 2018
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html#20180907
+website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 I will give a gentle introduction to the Diamond Lemma. This is a useful technique

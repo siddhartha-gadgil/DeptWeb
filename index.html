@@ -65,7 +65,7 @@
 <li>
  <div><strong> Title: </strong>
    {% if sem.series %}<a
-    href="{% if sem.website %}{{ sem.website }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
+    href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
     >{{sem.series}}: </a>{% endif %}
    <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
 <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
@@ -98,7 +98,7 @@
  <li>
   <div><strong> Title: </strong>
     {% if sem.series %}<a
-    href="{% if sem.website %}{{ sem.website }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
+    href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
     >{{sem.series}}: </a>{% endif %}
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
  <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>

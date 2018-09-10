@@ -5,7 +5,7 @@ date: 14 September, 2018
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html#20180914
+website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 Let $G$ be a finite simple graph. The Lie algebra $\\mathfrak{g}$ of $G$
