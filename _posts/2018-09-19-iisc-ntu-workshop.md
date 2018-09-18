@@ -4,7 +4,9 @@ title: IISc-NTU Mathematics Workshop
 date: 2018-09-19
 ---
 
-An IISc NTU workshop will be held on the occasion of the visit of the NTU, Singapore, delegation to IISc on September 19, 2018. The schedule of the lectures is as below.
+An IISc NTU workshop will be held on the occasion of the visit of the NTU, Singapore, delegation to IISc on September 19, 2018. 
+
+The schedule of the lectures is as below.
 
 1.  __Speaker:__ Navin Kashyap, IISc
 
