@@ -4,30 +4,11 @@ title: IISc-NTU Mathematics Workshop
 date: 2018-09-19
 ---
 
-An IISc NTU workshop will be held on the occasion of the visit of the NTU, Singapore, delegation to IISc on September 19, 2018. 
+An IISc NTU workshop will be held on the occasion of the visit of the NTU, Singapore, delegation to IISc on September 19, 2018. The schedule of the lectures is as below.
 
-The schedule of the lectures is as below.
-
-1.  __Speaker:__ Navin Kashyap, IISc
+1. __Speaker:__ Arvind Ayyer, Department of Mathematics, IISc
 
     __Time:__ 10.00 to 10.20 am
-
-    __Title:__ Overview of research activities in coding theory at IISc
-
-    __Abstract:__
-    We will give a brief and not-so-comprehensive overview of the research activities that are taking place at IISc, chiefly within the ECE Dept., in the broad area of coding theory.
-    
-2.  __Speaker:__ Frederique Oggier
-
-    __Time:__ 10.20 to 10.40 am
-
-    __Title:__ Facets of Algebraic Coding Theory
-
-    __Abstract:__ I will briefly explain what algebraic coding theory is about, and exhibit connections to different areas of algebra/number theory such as finite fields (as is classically the case), group theory (finite groups), lattice theory (and modular forms), and central simple algebras (over number fields).
-
-3.  __Speaker:__ Arvind Ayyer, Department of Mathematics, IISc
-
-    __Time:__ 10.40 to 11.00 am
 
     __Title:__ The combinatorics of odd and chiral partitions
 
@@ -37,6 +18,23 @@ The schedule of the lectures is as below.
     We say that a partition is chiral if the associated irreducible representation composed with the determinant map gives the sign character. Denote the number of chiral partitions of n by b(n). L. Solomon first considered the problem of enumeration of b(n) and Stanley posed it as an open problem in his book. We solve this problem by giving an explicit formula for b(n). We also show that the enumerations of a(n) and b(n) are closely related. The primary tool in our solution is J. Olsson's theory of core towers.
 
     This is joint work with A. Prasad and S. Spallone.
+    
+2.  __Speaker:__ Frederique Oggier
+
+    __Time:__ 10.20 to 10.40 am
+
+    __Title:__ Facets of Algebraic Coding Theory
+
+    __Abstract:__ I will briefly explain what algebraic coding theory is about, and exhibit connections to different areas of algebra/number theory such as finite fields (as is classically the case), group theory (finite groups), lattice theory (and modular forms), and central simple algebras (over number fields).
+
+3.  __Speaker:__ Navin Kashyap, IISc
+
+    __Time:__ 10.40 to 11.00 am
+
+    __Title:__ Overview of research activities in coding theory at IISc
+
+    __Abstract:__
+    We will give a brief and not-so-comprehensive overview of the research activities that are taking place at IISc, chiefly within the ECE Dept., in the broad area of coding theory.
 
 4.  __Speaker:__ Nicolas Privault
 
