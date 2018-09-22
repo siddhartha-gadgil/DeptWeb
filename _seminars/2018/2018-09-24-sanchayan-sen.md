@@ -1,7 +1,7 @@
 ---
 speaker: Sanchayan Sen (IISc Mathematics)
-date: 14 September, 2018
-time: 2:30 pm
+date: 24 September, 2018
+time: 2:15 pm
 venue: LH-1, Mathematics Department
 title: "A probabilistic approach to the leader problem in random graphs"
 series: "Bangalore Probability Seminar"
