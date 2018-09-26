@@ -3,7 +3,7 @@ speaker: Amritanshu Prasad (IMSc, Chennai)
 title: "The words that describe symmetric polynomials"
 date: 28 September, 2018
 time:  3 – 5 pm (with a 15 minute break at 3:45)
-venue: LH-4, Mathematics Department
+venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 
 ---
