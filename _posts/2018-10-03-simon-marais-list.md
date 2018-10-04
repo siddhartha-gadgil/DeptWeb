@@ -1,7 +1,9 @@
 Here is the list of students selected for participating in the
 Simon Marais competition 2018.
 
-Singles category
+
+
+**Singles category**
 
 1.	Simran Jaykumar Gade
 2.	Anish	Bhattacharya
@@ -35,7 +37,7 @@ Singles category
 30.	Bharat Vivan Thapa
 31.	S. R. Apuroopa 
 
-Pairs Category
+**Pairs Category**
 
 1. Sutanay Bhattacharya, Pulkit Sinha
 2. Ninad Hemant Huilgol, Chinmaya Kaushik
