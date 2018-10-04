@@ -40,7 +40,7 @@
           <h4>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
           </h4>
-          <p> {{ post.content | truncatewords: 30 }}</p>
+          <p> {{ post.content | truncatewords: 15 }}</p>
         </li>
       {% endfor %}
     </ul>
