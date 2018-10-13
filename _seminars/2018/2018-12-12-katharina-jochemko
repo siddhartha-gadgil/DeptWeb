@@ -1,8 +1,8 @@
 ---
-speaker:  Katharina Jochemko (KTH, Stockholm)
+speaker:  Katharina Jochemko (KTH, Stockholm, Sweden)
 title: "Combinatorial positive valuations"
 date: 12 December, 2018
-time: 3 - 4 p.m
+time: 3 pm
 venue: LH-1, Mathematics Department
 ---
 
