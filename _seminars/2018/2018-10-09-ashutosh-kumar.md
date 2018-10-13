@@ -2,7 +2,7 @@
 speaker: Ashutosh Kumar (National University of Singapore)
 title: "Two applications of forcing"
 date: 9 October, 2018
-time: 3.30 to 4.30 pm
+time: 3:30 pm
 venue: LH-1, Mathematics Department
 ---
 
