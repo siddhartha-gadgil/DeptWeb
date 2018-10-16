@@ -40,6 +40,15 @@
   office: X03
   website: https://sites.google.com/site/somuhomepage/
 
+- name: Ved Datar
+  user-id: vvdatar
+  position: Assistant Professor
+  research-areas: Differential geometry
+  phd: Rutgers
+  phone-ext: xxxx
+  office: L14
+  website: https://math.berkeley.edu/~vvdatar/
+
 - name: Basudeb Datta
   user-id: dattab
   position: Professor
