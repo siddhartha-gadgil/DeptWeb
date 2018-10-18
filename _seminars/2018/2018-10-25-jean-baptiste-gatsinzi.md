@@ -1,7 +1,7 @@
 ---
 speaker: Jean Baptiste Gatsinzi (Botswana University of Science and Technology, Botswana)
 title: "On the formality of some contact manifolds"
-date: 22 November, 2018
+date: 25 October, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
 ---
