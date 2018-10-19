@@ -2,5 +2,5 @@
 layout: blank
 ---
 {% assign sorted = site.all-courses | sort: 'code'  %}
-{% for course in sorted  %}{{ course.code }}, {{ course.title }}, ""
+{% for course in sorted  %}{{ course.code }}, "{{ course.title }}"
 {% endfor %}
