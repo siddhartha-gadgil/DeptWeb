@@ -3,7 +3,7 @@ speaker: Jean Baptiste Gatsinzi (Botswana University of Science and Technology, 
 title: "On the formality of some contact manifolds"
 date: 25 October, 2018
 time: 4 pm
-venue: LH-1, Mathematics Department
+venue: LH-3, Mathematics Department
 ---
 
 Formality is a topological property, defined in terms of Sullivan's model for a space. In the simply-connected setting, a space is formal if its rational homotopy type is determined by the rational cohomology ring.
