@@ -1,0 +1,5 @@
+---
+layout: blank
+---
+{% for fac in site.data.faculty %}{{ fac.user-id }}, "{{ fac.name }}"
+{% endfor %}

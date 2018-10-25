@@ -53,21 +53,36 @@ jan2019:
     code: MA 311
     prereq-courses: ''
     ug-prereq-courses: ''
+  - name: Introduction to Homological Algebra
+    code: MA 316
+    instructor: Safdar Quddus
+    prereq-courses: ''
   - name: Algebraic Combinatorics
     instructor: Arvind Ayyer
     code: MA 319
     prereq-courses: ''
     ug-prereq-courses: ''
+  - name: Topics in Analysis
+    code: MA 327
+    instructor: Manjunath Krishnapur
   - name: Fourier Anaysis
     instructor: E.K. Narayanan
     code: MA 326
     prereq-courses: MA 223
     ug-prereq-courses: ''
-  - name: Advanced Functional Analysis
+  - name: Algebraic Topology
+    instructor: Arun Maiti
+    code: MA 332
+    prereq-courses: MA 232
+    ug-prereq-courses: ''
+  - name: Complex analytic techniques in Operator Theory
     instructor: Tirthankar Bhattacharyya
-    code: MA 340
+    code: MA 343
     prereq-courses: MA 223
     ug-prereq-courses: ''
+  - name: Stochastic Processes
+    code: MA 362
+    instructor: Srikanth Iyer
   - name: Mathematical Physics
     instructor: Kaushal Verma
     code: MA 384
@@ -83,6 +98,9 @@ jan2019:
     code: MA 366
     prereq-courses: ''
     ug-prereq-courses: ''
+  - name: Topics in random discrete structures
+    instructor: Sanchayan Sen
+    code: MA 393
 
 aug2018:
   ug:
