@@ -75,6 +75,11 @@ jan2019:
     code: MA 332
     prereq-courses: MA 232
     ug-prereq-courses: ''
+  - name: Differentiable Manifolds & Lie Groups
+    instructor: Harish Seshadri
+    code: MA 338
+    prereq-courses: ''
+    ug-prereq-courses: ''
   - name: Complex analytic techniques in Operator Theory
     instructor: Tirthankar Bhattacharyya
     code: MA 343
