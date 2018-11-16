@@ -5,11 +5,12 @@
       <td><b>Course No.</b></td> <td><b>Credits</b></td>
       <td  class="text-center"><b>Course Title</b></td>
       <td  class="text-center"><b>Instructor</b></td>
-      <td  class="text-center"><b>Pre-requisites</b></td>
+      <td  class="text-center"><b>Prerequisites</b></td>
       <td style="white-space: pre;"><b>Additional
 Prerequisites for
 Undegraduates</b></td>
       <td  class="text-center"><b>Timing</b></td>
+      <td  class="text-center"><b>Venue</b></td>
     </strong>
   </tr>
   {% for course in list %}
@@ -34,5 +35,6 @@ Undegraduates</b></td>
   <td> {{ course.prereq-courses }}</td>
   <td> {{ course.ug-prereq-courses }}
   <td> {{ course.timing }}</td>
+  <td> {{ course.venue }}</td>
   </tr>
   {% endfor %}

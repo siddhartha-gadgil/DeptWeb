@@ -19,93 +19,131 @@ jan2019:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 11:30-1:00'
+    venue: "LH-3"
   - name: Measure & Integration
     credits: '3:1'
     instructor: E. K. Narayanan
     code: MA 222
     prereq-courses: MA 221
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 9:00-10:00'
+    venue: "LH-3"
   - name: Complex Analysis
     credits: '3:1'
     instructor: S. Thangavelu
     code: MA 224
     prereq-courses: MA 221
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 10:00-11:00'
+    venue: "LH-3"
   - name: Calculus on Manifolds
     instructor: Subhojoy Gupta
     code: MA 229
     prereq-courses: MA 221
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 11:00-12:00'
+    venue: "LH-3"
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: Thirupathi Gudi
     code: MA 241
     prereq-courses: MA 221
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 10:00-11:30'
+    venue: "LH-3"
   electives:
   - name: Logic, Types & Spaces
     instructor: Siddhartha Gadgil
     code: MA 210
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 8:30-10:00'
+    venue: "LH-5"
   - name: Algebraic Geometry II
     instructor: Abhishek Banerjee
     code: MA 311
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 2:00-3:30'
+    venue: "LH-5"
   - name: Introduction to Homological Algebra
     code: MA 316
     instructor: Safdar Quddus
     prereq-courses: ''
+    timing: 'Tue, Thu: 10:00-11:30'
+    venue: "LH-5"
   - name: Algebraic Combinatorics
     instructor: Arvind Ayyer
     code: MA 319
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 3:30-5:00'
+    venue: "LH-5"
   - name: Topics in Analysis
     code: MA 327
     instructor: Manjunath Krishnapur
+    timing: 'Tue, Thu: 3:30-5:00'
+    venue: "LH-4"
   - name: Fourier Anaysis
     instructor: E.K. Narayanan
     code: MA 326
     prereq-courses: MA 223
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 8:30-10:00'
+    venue: "LH-4"
   - name: Algebraic Topology
     instructor: Arun Maiti
     code: MA 332
     prereq-courses: MA 232
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 10:00-11:00'
+    venue: "LH-3"
   - name: Differentiable Manifolds & Lie Groups
     instructor: Harish Seshadri
     code: MA 338
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 2:00-3:30'
+    venue: "LH-3"
   - name: Complex analytic techniques in Operator Theory
     instructor: Tirthankar Bhattacharyya
     code: MA 343
     prereq-courses: MA 223
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 10:00-11:00'
+    venue: "LH-5"
   - name: Stochastic Processes
     code: MA 362
     instructor: Srikanth Iyer
+    timing: 'Tue, Thu: 11:30-1:00'
+    venue: "LH-5"
   - name: Mathematical Physics
     instructor: Kaushal Verma
     code: MA 384
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 3:00-4:00'
+    venue: "LH-5"
   - name: Classical Groups
     instructor: Pooja Singla
     code: MA 385
     prereq-courses: MA 212 & MA 219
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 11:30-1:00'
+    venue: "LH-3"
   - name: Stochastic Finance II
     instructor: Mrinal K. Ghosh
     code: MA 366
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 3:30-5:00'
+    venue: "LH-3"
   - name: Topics in random discrete structures
     instructor: Sanchayan Sen
     code: MA 393
+    timing: 'Tue, Thu: 2:00-3:30'
+    venue: "LH-4"
 
 aug2018:
   ug:
