@@ -20,7 +20,7 @@ jan2019:
     prereq-courses: MA 212
     ug-prereq-courses: ''
     timing: 'Tue, Thu: 11:30-1:00'
-    venue: "LH-3"
+    venue: "LH-4"
   - name: Measure & Integration
     credits: '3:1'
     instructor: E. K. Narayanan
@@ -28,7 +28,7 @@ jan2019:
     prereq-courses: MA 221
     ug-prereq-courses: ''
     timing: 'Mon, Wed, Fri: 9:00-10:00'
-    venue: "LH-3"
+    venue: "LH-4"
   - name: Complex Analysis
     credits: '3:1'
     instructor: S. Thangavelu
@@ -36,14 +36,14 @@ jan2019:
     prereq-courses: MA 221
     ug-prereq-courses: ''
     timing: 'Mon, Wed, Fri: 10:00-11:00'
-    venue: "LH-3"
+    venue: "LH-4"
   - name: Calculus on Manifolds
     instructor: Subhojoy Gupta
     code: MA 229
     prereq-courses: MA 221
     ug-prereq-courses: ''
     timing: 'Mon, Wed, Fri: 11:00-12:00'
-    venue: "LH-3"
+    venue: "LH-4"
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: Thirupathi Gudi
@@ -51,7 +51,7 @@ jan2019:
     prereq-courses: MA 221
     ug-prereq-courses: ''
     timing: 'Tue, Thu: 10:00-11:30'
-    venue: "LH-3"
+    venue: "LH-4"
   electives:
   - name: Logic, Types & Spaces
     instructor: Siddhartha Gadgil
