@@ -3,7 +3,9 @@ speaker:  Katharina Jochemko (KTH, Stockholm, Sweden)
 title: "Combinatorial positive valuations"
 date: 12 December, 2018
 time: 3 pm
+series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
+website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 Valuations are a classical topic in convex geometry. The volume plays an
