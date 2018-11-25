@@ -118,8 +118,8 @@ __Abstract:__ Given a smooth function $f : \[0,1) \\to \\mathbb{R}$, and scalars
 Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is the 2x2 matrix
 
 $$\begin{pmatrix}
-f( t u_1 v_1 ) & f( t u_2 v_1 ) \\\\
-f( t u_1 v_2 ) & f( t u_2 v_2 )
+f( t u_1 v_1 ) & f( t u_1 v_2 ) \\\\
+f( t u_2 v_1 ) & f( t u_2 v_2 )
 \end{pmatrix}.$$
 
 C. Loewner computed the first two of these Maclaurin coefficients, in the thesis of his student
