@@ -19,7 +19,7 @@ Time     |  Title
 --- | ---
 10.45 am - 11.00 am   |           Tea/coffee and opening remarks
 11.00 am - 11.30 am   |          Subhojoy Gupta _Schwarzian equation on Riemann surfaces_
-11.30 am - 12.00 noon &nbsp; |      Kaushal Verma _Polynomials that have the same Julia set_
+11.30 am - 12.00 noon &nbsp; &nbsp; |      Kaushal Verma _Polynomials that have the same Julia set_
 12.00 noon - 12.30 pm   |     Ved Datar _Stability and canonical metrics_
 12.30 pm - 2.00 pm       |      Break
 2.00 pm - 2.30 pm          |      Manjunath Krishnapur _Comparing the largest eigenvalues of two random matrices_
@@ -107,18 +107,18 @@ higher dimensions with the help of an example or two.
 
 ---
 
-#### Lecture 6
+#### Lecture 6​
 
 __Speaker:__ Apoorva Khare
 
-__Title:__ Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his
+__Title:__ ​ Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his
 student), to Schur
 
 __Abstract:__ Given a smooth function $f : \[0,1) \\to \\mathbb{R}$, and scalars $u_j$, $v_j$ in $(0,1)$, I will compute the
 Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is the 2x2 matrix
 
 $$\begin{pmatrix}
-f( t u_1 v_1 ) & f( t u_2 v_1 ) \\
+f( t u_1 v_1 ) & f( t u_2 v_1 ) \\\\
 f( t u_1 v_2 ) & f( t u_2 v_2 )
 \end{pmatrix}.$$
 
