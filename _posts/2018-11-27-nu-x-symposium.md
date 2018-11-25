@@ -1,7 +1,7 @@
 ---
 title: $\nu$-X symposium
 ---
-We cordially invite you to the $\nu$-X symposium : an in-House faculty symposium
+We cordially invite you to the $\nu$-X symposium: an in-House faculty symposium
 of the Department of Mathematics, IISc, on Tuesday, 27th November, 2018. This symposium is to mark the inauguration
 of the new floor of the X-wing of the department.
 
