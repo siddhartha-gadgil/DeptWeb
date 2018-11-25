@@ -18,15 +18,15 @@ __Venue:__  Lecture Hall-1, Department of Mathematics
 Time     |  Title
 --- | ---
 10.45 am - 11.00 am   |           Tea/coffee and opening remarks
-11.00 am - 11.30 am   |          Subhojoy Gupta _Schwarzian equation on Riemann surfaces_
-11.30 am - 12.00 noon &nbsp; &nbsp; |      Kaushal Verma _Polynomials that have the same Julia set_
-12.00 noon - 12.30 pm   |     Ved Datar _Stability and canonical metrics_
+11.00 am - 11.30 am   |          Subhojoy Gupta &nbsp; _Schwarzian equation on Riemann surfaces_
+11.30 am - 12.00 noon &nbsp; &nbsp; &nbsp; &nbsp; |      Kaushal Verma &nbsp; _Polynomials that have the same Julia set_
+12.00 noon - 12.30 pm   |     Ved Datar &nbsp; _Stability and canonical metrics_
 12.30 pm - 2.00 pm       |      Break
-2.00 pm - 2.30 pm          |      Manjunath Krishnapur _Comparing the largest eigenvalues of two random matrices_
-2.30 pm - 3.00 pm         |       Vamsi Pritham Pingali _Interpolation of entire functions_
+2.00 pm - 2.30 pm          |      Manjunath Krishnapur &nbsp; _Comparing the largest eigenvalues of two random matrices_
+2.30 pm - 3.00 pm         |       Vamsi Pritham Pingali &nbsp; _Interpolation of entire functions_
 3.00PM - 3.15 pm           |      Tea/Coffee
-3.15 pm - 3.45 pm         |       Apoorva Khare _Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his student), to Schur_
-3.45 pm - 4:15 pm | Gautam Bharali _Hilbert and Minkowski meet Kobayashi and Royden, and_ ...
+3.15 pm - 3.45 pm         |       Apoorva Khare &nbsp; _Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his student), to Schur_
+3.45 pm - 4:15 pm | Gautam Bharali &nbsp; _Hilbert and Minkowski meet Kobayashi and Royden, and_ ...
 4.15 pm - 5.00 pm       |        High tea
 
 
@@ -136,7 +136,7 @@ named after Cauchy, which is the special case $f(x) = 1/(1-x)$ and $t=1$ above.
 
 ---
 
-#### Lecture 7:​
+#### Lecture 7​
 
 __Speaker:__ Gautam Bharali
 
