@@ -18,13 +18,13 @@ __Venue:__  Lecture Hall-1, Department of Mathematics
 Time     |  Title
 --- | ---
 10.45 AM-11.00 AM   |           Tea/coffee and opening remarks
-11.00 AM-11.30 AM   |          Subhojoy Gupta "Schwarzian equation on Riemann surfaces "
-11.30 AM - 12.00 Noon &nbsp; |      Kaushal Verma "Polynomials that have the same Julia set"
-12.00 Noon- 12.30 PM   |     Ved Datar "TBA"
+11.00 AM-11.30 AM   |          Subhojoy Gupta _Schwarzian equation on Riemann surfaces_
+11.30 AM - 12.00 Noon &nbsp; |      Kaushal Verma _Polynomials that have the same Julia set_
+12.00 Noon- 12.30 PM   |     Ved Datar _TBA_
 12.30 PM- 2.00 PM       |      Break
-2.00 PM-2.30 PM          |      Manjunath Krishnapur "TBA"
-2.30 PM-3.00 PM         |       Vamsi Pritham Pingali "Interpolation of entire functions"
+2.00 PM-2.30 PM          |      Manjunath Krishnapur _TBA_
+2.30 PM-3.00 PM         |       Vamsi Pritham Pingali _Interpolation of entire functions_
 3.00PM-3.15 PM           |      Tea/Coffee
-3.15 PM-3.45 PM         |       Apoorva Khare "Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his student), to Schur"
-3.45 PM- 4.15 PM       |        Gautam Bharali "TBA"
+3.15 PM-3.45 PM         |       Apoorva Khare _Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his student), to Schur_
+3.45 PM- 4.15 PM       |        Gautam Bharali _TBA_
 4.15 PM-5.00 PM       |        High tea
