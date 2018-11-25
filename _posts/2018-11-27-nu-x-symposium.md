@@ -111,21 +111,22 @@ higher dimensions with the help of an example or two.
 
 __Speaker:__ Apoorva Khare
 
-__Title:__​ ​ Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his
+__Title:__ Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his
 student), to Schur
 
-__Abstract:__​ ​ Given a smooth function $f : [0,1) \\to \\mathbb{R}$, and scalars $u_j$, $v_j$ in $(0,1)$, I will compute the
+__Abstract:__ Given a smooth function $f : \[0,1) \\to \\mathbb{R}$, and scalars $u_j$, $v_j$ in $(0,1)$, I will compute the
 Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is the 2x2 matrix
 
 $$\begin{pmatrix}
 f( t u_1 v_1 ) & f( t u_2 v_1 ) \\
 f( t u_1 v_2 ) & f( t u_2 v_2 )
-\end{pmatrix}$$
+\end{pmatrix}.$$
 
 C. Loewner computed the first two of these Maclaurin coefficients, in the thesis of his student
-R.A. Horn (​ Trans. AMS ​ 1969). This was in connection with entrywise functions preserving
+R.A. Horn (*Trans. AMS* 1969). This was in connection with entrywise functions preserving
 positivity on matrices of a fixed dimension -- the case of all dimensions following from earlier
-work of Schur (​ Crelle ​ 1911) and his student Schoenberg (​ Duke ​ 1942).
+work of Schur (*Crelle* 1911) and his student Schoenberg (*Duke* 1942).
+
 It turns out that an "algebraic" family of symmetric functions is hiding inside this "analysis". We
 will see how this family emerges when one computes the second-order (and each subsequent
 higher-order) Maclaurin coefficient above. This family of functions was introduced by Cauchy
