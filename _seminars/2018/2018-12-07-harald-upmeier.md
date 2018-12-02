@@ -1,5 +1,5 @@
 ---
-speaker: Harald Upemeier, Marburg University
+speaker: Harald Upmeier, Marburg University
 title: Geometric Quantization in Complex and Harmonic Analysis
 date: 7 December 2018
 time: 4:00 pm
