@@ -16,7 +16,7 @@ the Department of Mathematics, IISc as the _InfoSys Visiting Professor_ during t
 - Lecture 5: Monday, Dec 17
 - Lecture 6: Wednesday, Dec 19
 
-All lectures will take place in LH-1, Department of Mathematics at 4:00 pm.
+All lectures will take place in LH-1, Department of Mathematics.The first lecture will be at 3:00 pm.  All subsequent lectures will be at 4:00 pm.
 
 In this series, the speaker will discuss some basic material (connexions, curvature etc) and then cover,
 with full proofs, the Borel-Weil-Bott theorem and the Kodaira embedding theorem.
