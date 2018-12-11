@@ -1,7 +1,7 @@
 ---
 speaker: Gopal Srinivasan (IIT, Bombay)
 title: "The gamma function - an eclectic tour"
-date: 12 December, 2018
+date: 13 December, 2018
 time: 11 am
 venue: LH-1, Mathematics Department
 ---
