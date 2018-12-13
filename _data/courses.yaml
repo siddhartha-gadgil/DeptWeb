@@ -66,6 +66,8 @@ jan2019:
     code: MA 278
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 11:30-1:00'
+    venue: "LH-1"
   - name: Algebraic Geometry II
     instructor: Abhishek Banerjee
     code: MA 311
