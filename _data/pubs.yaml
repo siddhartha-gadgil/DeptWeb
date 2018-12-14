@@ -5391,7 +5391,7 @@
   mrclass: "90C27 (05C40 05C70 05C85)"
 
 - number: "5"
-  author: "Pritham Pingali, Vamsi"
+  author: "Pingali, Vamsi Pritham"
   fjournal: "International Journal of Mathematics"
   url: "httpsdoi.org10.1142S0129167X18500416"
   journal: "Internat. J. Math."
@@ -6044,7 +6044,7 @@
   mrnumber: "3836111"
   pages: "083103, 12"
   year: 2018
-  title: "Deformation of dark solitons in a $\\Cal{PT}$-invariant variable coefficients nonlocal nonlinear Schr\\\"odinger equation"
+  title: "Deformation of dark solitons in a $\\mathcal{PT}$-invariant variable coefficients nonlocal nonlinear Schr\\\"odinger equation"
   doi: "10.10631.5039901"
   mrclass: "82C10"
   volume: "28"
@@ -11342,16 +11342,6 @@
   mrclass: "47B15"
   volume: "469"
   issn: "0022-247X"
-
-- author: "Gupta, S. C."
-  mrnumber: "3726880"
-  pages: "xxiii726"
-  year: 2018
-  note: "Basic concepts, modelling and analysis with quasi-analytical solutions and methods"
-  publisher: "Elsevier, Amsterdam"
-  isbn: "978-0-444-63581-5"
-  title: "The classical Stefan problem"
-  mrclass: "80A22 (35C15 35R30 35R35)"
 
 - author: "Thathachar, M. A. L. and Ramakrishnan, K. R."
   series: "IFAC Proc. Ser."
