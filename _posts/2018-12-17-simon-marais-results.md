@@ -1,14 +1,12 @@
-The results for the Simon Marais competition 2018 are announced <a href="https://www.simonmarais.org/20182.html">here</a>.
-
-The performance of students from IISc is extremely good. 
+The results for the Simon Marais competition 2018 are announced <a href="https://www.simonmarais.org/20182.html">here</a>. The performance of students from IISc is extremely good. 
 
 **University prize-winners**
 
-2nd place for IISc
+Second place for IISc!
 
 **Individual prize-winners**
 
-7th place in the Singles category to a student who wishes to remain anonymous
+Seventh place in the Singles category to a student who wishes to remain anonymous
 
 **Top quartile names and scores (out of 56) in the singles category**
 
@@ -30,3 +28,4 @@ Aniruddh Balasubramaniam and Pranshu Gaba, 26
 Shabarish Chenakkod and	Nishit Pandya, 25  
 Aaradhya Pandey and	Nabarun Deka,	25  
 
+Congratulations to all the winners!
