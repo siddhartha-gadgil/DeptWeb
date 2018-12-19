@@ -1,3 +1,7 @@
+---
+title: Simon Marais
+---
+
 Here is the list of students selected for participating in the
 Simon Marais competition 2018.
 
@@ -26,14 +30,14 @@ Simon Marais competition 2018.
 21.	Mihir	Jain
 22.	M. Nikhesh Kumar
 23.	Kaushik	Yashwant Bhagat
-24.	Achal	Kumar 
+24.	Achal	Kumar
 25.	Praveen	Jayakumar
-26.	Umang	Bhat 
+26.	Umang	Bhat
 27.	Sagnik Barman
 28.	S. Shri Hari
 29.	Adit Vishnu P. M.
 30.	Bharat Vivan Thapa
-31.	S. R. Apuroopa 
+31.	S. R. Apuroopa
 
 **Pairs Category**
 
