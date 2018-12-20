@@ -7,11 +7,16 @@ jan2019:
   - code: UM 203
     name: Introduction to Algebraic Structures
     instructor: Vamsi Pingali
+    webpage: http://math.iisc.ac.in/~vamsipingali/um2032018.html
     ug-prereq-courses: UM 102
+    timing: 'Tue, Thur - 11:00-12:00; Wed - 10:00-11:00'
+    venue: "G-2 (Old Physics)"
   - code: UM 204
     name: Introduction to Basic Analysis
     instructor: Gautam Bharali
     ug-prereq-courses: UM 102
+    timing: 'Mon, Wed, Fri: 11:00-12:00'
+    venue: "G-2 (Old Physics)"
   core1:
   - name: Algebra II
     credits: '3:1'
