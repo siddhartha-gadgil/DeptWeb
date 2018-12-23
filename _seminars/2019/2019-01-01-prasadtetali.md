@@ -1,8 +1,8 @@
 ---
-speaker: Prasad Tetali (Georgia Institute of Technology)
+speaker: Prasad Tetali (Georgia Institute of Technology, Atlanta, USA)
 title: "Discrete Curvature: a brief overview"
 date: 01 January, 2019
-time: 3 - 4 pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 ---
 
