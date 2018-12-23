@@ -14,7 +14,7 @@ orders of a given partial cyclic order) has been subject to very little
 investigation. In this talk I will introduce some classes of partial cyclic
 orders for which this enumeration problem is tractable. Some cases require
 the use of a multidimensional version of the classical boustrophedon
-construction (a.k.a. Seidel-Entringer–Arnold triangle). The integers arising
+construction (a.k.a. Seidel-Entringer-Arnold triangle). The integers arising
 from these enumerative questions also appear as the normalized volumes of
 certain polytopes.
 
