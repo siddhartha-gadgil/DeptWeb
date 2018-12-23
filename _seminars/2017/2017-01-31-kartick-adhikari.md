@@ -10,7 +10,7 @@ title: "Hole probabilities for determinantal point processes in the complex plan
 ---
 Consider the infinite Ginibre ensemble (the distributional limit of
 the eigenvalues of nxn random matrices with i.i.d. standard complex
-Gaussian entries) in the complex plane. For a bounded set U, let $H_r(U)$ denote
+Gaussian entries) in the complex plane. For a bounded set $U$, let $H_r(U)$ denote
 the probability (hole probability) that no points of infinite Ginibre ensemble
 fall in the region $rU$. We study the asymptotic
 behavior of $H_r(U)$ as $r \to \infty$. Under certain conditions on $U$
