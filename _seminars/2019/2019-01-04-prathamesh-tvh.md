@@ -1,5 +1,5 @@
 ---
-speaker: Prathamesh, TVH (University of Innsbruck)
+speaker: Prathamesh, TVH (University of Innsbruck, Innsbruck, Austria)
 title: "On elementary equivalence in Artin groups of finite type"
 date: 4 January, 2019
 time: 4 pm
