@@ -42,12 +42,12 @@ a.algebra-combinatorics-seminar:focus {
 }
 
 .geometry-topology-seminar {
-  color: fuchsia;
+  color: cyan;
 }
 
 a.geometry-topology-seminar:hover,
 a.geometry-topology-seminar:focus {
-  color: fuchsia;
+  color: cyan;
   text-decoration: underline;
 }
 
