@@ -1,7 +1,7 @@
 ---
 speaker: Kriti Sehgal (IISc Mathematics) 
 title: "Holomorphic functions into a locally convex topological vector space"
-date: 19th March
+date: 19th March, 2018
 time: 11:15 am
 venue: LH-1, Mathematics Department
 ---
