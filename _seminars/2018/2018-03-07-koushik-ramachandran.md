@@ -1,7 +1,7 @@
 ---
 speaker: Koushik Ramachandran (Oklahoma State University, Stillwater, USA)
 title: "Positive harmonic functions and Potential theory: Analytic and Geometric aspects"
-date: 7th March
+date: 7th March, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
 ---
