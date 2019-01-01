@@ -1,7 +1,7 @@
 ---
 speaker: Himanshu Gupta (IISc Mathematics) 
 title: "Correlation Functions in the Finite Toom Model"
-date: 19th March
+date: 19th March, 2018
 time: 10 am
 venue: LH-1, Mathematics Department
 ---
