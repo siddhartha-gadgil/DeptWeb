@@ -1,8 +1,8 @@
 ---
 speaker:  Sanjay Ramassamy (Ecole Normale Superiure, Paris, France)
 title: "Extensions of partial cyclic orders, boustrophedons and polytopes"
-date: 16 January, 2019
-time: 3 pm
+date: 18 January, 2019
+time: 11 am
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
 website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
