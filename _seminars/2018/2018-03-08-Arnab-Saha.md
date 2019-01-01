@@ -1,7 +1,7 @@
 ---
 speaker: Arnab Saha (Australian National University, Canberra, Australia) 
 title: "Isocrystals associated to arithmetic jet spaces of abelian schemes"
-date: 8th March
+date: 8th March, 2018
 time: 3 pm
 venue: LH-1, Mathematics Department
 ---
