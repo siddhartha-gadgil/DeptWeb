@@ -27,7 +27,10 @@ does not exist a non-abelian group with a "norm".
 We will discuss motivations from analysis, probability, and geometry;
 then the proof of the above equivalences; and if time permits, the
 logistics of how the problem was solved, via a
-[PolyMath](http://michaelnielsen.org/polymath1/index.php?title=Linear_norm)
+[PolyMath project](http://michaelnielsen.org/polymath1/index.php?title=Linear_norm)
 that began on a
 [blogpost](https://terrytao.wordpress.com/2017/12/16/bi-invariant-metrics-of-linear-growth-on-the-free-group/)
 of Terence Tao.
+
+(Joint - as D.H.J. PolyMath - with Tobias Fritz, Siddhartha Gadgil,
+Pace Nielsen, Lior Silberman, and Terence Tao.)
