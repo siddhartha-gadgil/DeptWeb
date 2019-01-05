@@ -13,3 +13,5 @@ GCD matrix on $X$. By a surprising result of Beslin and Ligh (1989),
 all GCD matrices are positive definite. In this talk, we will discuss
 new characterizations of the GCD matrices satisfying the stronger property
 of being totally nonnegative (i.e., all their minors are nonnegative).
+
+Joint work with Lucas Wu (U. Delaware).
