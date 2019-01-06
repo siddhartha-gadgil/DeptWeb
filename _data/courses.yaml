@@ -110,8 +110,8 @@ jan2019:
     code: MA 332
     prereq-courses: MA 232
     ug-prereq-courses: ''
-    timing: 'Mon, Wed, Fri: 10:00-11:00'
-    venue: "LH-3"
+    timing: 'Mon, Wed, Fri: 2:00-3:00'
+    venue: "LH-5"
   - name: Differentiable Manifolds & Lie Groups
     instructor: Harish Seshadri
     code: MA 338
