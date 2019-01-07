@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NCM Instructional School for TEachers on Analysis and PDE during May 6-18, 2019.
+title: NCM Instructional School for Teachers on Analysis and PDE during May 6-18, 2019.
 date: 2019-05-06
 ---
 
