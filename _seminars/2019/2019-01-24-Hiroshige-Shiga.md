@@ -1,6 +1,6 @@
 ---
 title:  Quasiconformal maps and open Riemann surfaces
-speaker: Professor Hiroshige Shiga (Tokyo Tech)
+speaker: Hiroshige Shiga (Tokyo Tech, Japan)
 date: 24 Jan, 2019
 time: 11 am
 venue: LH-1, Mathematics Department
