@@ -1,5 +1,5 @@
 ---
-speaker: Pranav Pandit (ICTS, Bengaluru)
+speaker: Pranav Pandit (ICTS, Bangalore)
 title: "Holomorphic differentials and stability in Fukaya categories"
 date: 21 January, 2019
 time: 4 pm
