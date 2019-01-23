@@ -166,8 +166,8 @@
   position: Assistant Professor
   research-areas: Probability Theory
   phd: Courant Institute
-  office: L14
-  phone-ext: xxxx
+  office: X01
+  phone-ext: 3616
   website: https://sites.google.com/site/sanchayansenss/
 
 - name: Harish Seshadri
@@ -200,8 +200,8 @@
   position: Assistant professor
   research-areas: Representation theory of infinite-dimensional Lie algebras
   phd: IMSc
-  phone-ext: 3616
-  office: X01
+  phone-ext: 
+  office: 
 
 - name:  Kaushal Verma
   user-id: kverma
