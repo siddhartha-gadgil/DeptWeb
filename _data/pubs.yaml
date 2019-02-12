@@ -939,6 +939,20 @@
   issn: "1867-1152"
 
 - number: "1"
+  author: "Vishnu Priya, N. and Senthilvelan, M. and Rangarajan, Govindan and Lakshmanan, M."
+  fjournal: "Physics Letters. A"
+  url: "httpsdoi.org10.1016j.physleta.2018.10.011"
+  journal: "Phys. Lett. A"
+  mrnumber: "3869743"
+  pages: "15-26"
+  year: 2019
+  title: "On symmetry preserving and symmetry broken bright, dark and antidark soliton solutions of nonlocal nonlinear Schr\\\"odinger equation"
+  doi: "10.1016j.physleta.2018.10.011"
+  mrclass: "35Q55 (35A30 35C08)"
+  volume: "383"
+  issn: "0375-9601"
+
+- number: "1"
   author: "Ghosh, Mrinal K. and Bagchi, Arunabha"
   fjournal: "Bulletin of Kerala Mathematics Association"
   journal: "Bull. Kerala Math. Assoc."
@@ -4644,6 +4658,20 @@
   mrclass: "53C21 (53C20 53C25)"
   volume: "40"
   issn: "0926-2245"
+
+- number: "1"
+  author: "Mal, Arpita and Sain, Debmalya and Paul, Kallol"
+  fjournal: "Banach Journal of Mathematical Analysis"
+  url: "httpsdoi.org10.121517358787-2018-0021"
+  journal: "Banach J. Math. Anal."
+  mrnumber: "3892339"
+  pages: "174-191"
+  year: 2019
+  title: "On some geometric properties of operator spaces"
+  doi: "10.121517358787-2018-0021"
+  mrclass: "46B20 (47L05)"
+  volume: "13"
+  issn: "1735-8787"
 
 - number: "3"
   author: "Borkar, V. S. and Ghosh, M. K. and Sahay, P."
@@ -9332,6 +9360,20 @@
   mrclass: "32E20 (32V20 46J10)"
   volume: "271"
   issn: "0025-5874"
+
+- number: "1"
+  author: "Gaussier, Herv\\'e and Seshadri, Harish"
+  fjournal: "Proceedings of the American Mathematical Society"
+  url: "httpsdoi.org10.1090proc14217"
+  journal: "Proc. Amer. Math. Soc."
+  mrnumber: "3876750"
+  pages: "301-313"
+  year: 2019
+  title: "Holomorphic motions and complex geometry"
+  doi: "10.1090proc14217"
+  mrclass: "32F45 (32Q45 53C23)"
+  volume: "147"
+  issn: "0002-9939"
 
 - author: "Bora, S. N. and Martha, S. C. and Chakrabarti, A."
   fjournal: "Journal of the Assam Academy of Mathematics (JAAM)"
