@@ -11,7 +11,7 @@ According to Wikipedia, a continued fraction is "an expression obtained
 through an iterative process of representing a number as the sum of its
 integer part and the reciprocal of another number, then writing this
 other number as the sum of its integer part and another reciprocal, and
-so on". It has connections to various areas of mathematics including
+so on." It has connections to various areas of mathematics including
 analysis, number theory, dynamical systems and probability theory. 
 
 Continued fractions of numbers in the open interval (0,1) naturally
