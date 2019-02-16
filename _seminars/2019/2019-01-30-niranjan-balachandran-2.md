@@ -27,4 +27,4 @@ functions. Many of the proofs involve the use of polynomial methods (not
 the Polynomial Method, though!).
 
 (Joint work with Rogers Mathew, Tapas Mishra, and Sudebkumar Prasant
-Pal)
+Pal.)
