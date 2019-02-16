@@ -26,3 +26,5 @@ generalize relative (A,H)-Hopf modules over an H-comodule algebra A.
 We construct Grothendieck spectral sequences for their cohomologies
 by using their rational Hom objects and higher derived functors of
 coinvariants.
+
+(Joint work with Abhishek Banerjee and Mamta Balodi.)
