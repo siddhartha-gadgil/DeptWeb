@@ -34,10 +34,14 @@
     <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a>  </h3>
     <ul class="post-list">
       {% assign futposts = site.posts | sort: 'date' %}
+      {% assign postcounter = 0 %}
+
       {% for post in futposts %}
       {% assign postDate = post.date | date: '%s' | plus: 604800 %}
 
       {% if postDate >= curDate %}
+      {% assign postcounter=postcounter | plus: 1 %}
+      {% if postcounter <= 3 %}
         <li>
           <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
 
@@ -46,6 +50,7 @@
           </h4>
           <p> {{ post.content | truncate: 200 }}</p>
         </li>
+        {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
