@@ -4,7 +4,7 @@ title: "Cohomology of modules over H-categories and co-H-categories"
 date: 22 February, 2019
 time: 3 pm
 series: "Algebra & Combinatorics Seminar"
-venue: LH-3, Mathematics Department
+venue: LH-1, Mathematics Department
 website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
