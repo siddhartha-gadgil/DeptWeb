@@ -4,7 +4,7 @@ title: Ph.D. Degrees Awarded
 <div class="col-md-12">
   <h2> Ph.D. degrees awarded by the department (by year) </h2>
 
-  {% assign years = site.data.phds | group_by: "year" %}
+  {% assign years = site.data.phd-alumni | group_by: "year" %}
 
 
  {% assign sorted = years | sort: 'name' | reverse %}
