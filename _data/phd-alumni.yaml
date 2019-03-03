@@ -1,9 +1,3 @@
-- name: Nitin Singh
-  title: On Walkup's class of manifolds and tight triangulations
-  advisor: Basudeb Datta, Vijay Natarajan
-  year: 2014
-  present: Researcher, IBM Research Center, Bangalore
-
 - name: A. C. Jain
   year: 1962
   title: Studies in laminar boundary layer flows with suction or injection
@@ -851,6 +845,12 @@
   year: 2014
   title: On the structure of proper holomorphic mappings
   advisor: G. Bharali
+
+- name: Nitin Singh
+  title: On Walkup's class of manifolds and tight triangulations
+  advisor: Basudeb Datta, Vijay Natarajan
+  year: 2014
+  present: Researcher, IBM Research Center, Bangalore
 
 - name: Atreyee Bhattacharya
   year: 2014
