@@ -2,7 +2,7 @@
 speaker: Agnid Banerjee (TIFR-CAM, Bengaluru)
 title: "New monotonicity formulas for degenerate parabolic equations with applications to unique continuation and free boundary problems (part 2)"
 date: 15 March, 2019
-time: 4:00 pm
+time: 4 pm
 venue: LH-1, Mathematics Department
 ---
 
