@@ -3,7 +3,6 @@ speaker: Soumya Bhattacharya (IISER, Kolkata)
 title: " Finiteness results on a certain class of modular forms and applications"
 date: 20 March, 2019
 time: 3:00 pm
-series: "Finiteness results on a certain class of modular forms and applications"
 venue: LH-1, Mathematics Department
 ---
 
