@@ -143,7 +143,8 @@ __Speaker:__ Gautam Bharali
 __Title:__ ​ Hilbert and Minkowski meet Kobayashi and Royden, and...
 
 __Abstract:__ The Wolff--Denjoy theorem is a classical result that says: given a holomorphic
-self-map f of the open unit disc, exactly one of the following holds true: either f has a fixedpoint in the open unit disc or there exists a point p on the unit circle such that ALL orbits under
+self-map f of the open unit disc, exactly one of the following holds true: either f has a fixedpoint in the open unit disc or
+ there exists a point p on the unit circle such that ALL orbits under
 the successive iterates of f approach p. This result is hard to generalise to higher dimensions,
 although Abate has a precise analogue for strongly convex domains. A (real) convex domain
 has an intrinsic distance associated to it -- the Hilbert distance. Beardon simplified the proof of
