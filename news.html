@@ -11,10 +11,10 @@ layout: default
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h3>
+        <h4>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h3>
-        <p> {{ post.content | markdownify | strip_html | truncatewords: 100 }}</p>
+        </h4>
+        <p> {{ post.content |  strip_html | truncatewords: 100 }}</p>
       </li>
     {% endfor %}
   </ul>
