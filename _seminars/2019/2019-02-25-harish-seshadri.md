@@ -1,5 +1,5 @@
 ---
-speaker: Harish Seshadri (IISc, Bangalore)
+speaker: Harish Seshadri (IISc Mathematics)
 title: "A compactness theorem for Einstein metrics on the four-sphere"
 date: 25 February, 2019
 time: 4 pm

@@ -1,5 +1,5 @@
 ---
-speaker: Basudeb Datta (IIsc, Bangalore)
+speaker: Basudeb Datta (IISc Mathematics)
 title: "Semi-regular tilings"
 date: 01 April, 2019
 time: 4 pm
