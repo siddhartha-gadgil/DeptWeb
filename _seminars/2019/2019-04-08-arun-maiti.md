@@ -1,5 +1,5 @@
 ---
-speaker: Arun Maiti (IISc, Bangalore)
+speaker: Arun Maiti (IISc Mathematics)
 title: "A chain model for the Goresky-Hingston product"
 date: 08 April, 2019
 time: 4 pm
