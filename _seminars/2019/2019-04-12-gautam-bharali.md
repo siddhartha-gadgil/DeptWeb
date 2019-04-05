@@ -1,6 +1,6 @@
 ---
 speaker: Gautam Bharali (IISc Mathematics)
-title: "The Pick--Nevanlinna problem: from metric geometry to matrix positivity"
+title: "The Pick-Nevanlinna problem: from metric geometry to matrix positivity"
 date: 12 April, 2019
 time:  4 pm
 venue: LH-1, Mathematics Department
