@@ -6,3 +6,4 @@ _root-site
 tarball/
 tmp/
 out/
+.metals/
