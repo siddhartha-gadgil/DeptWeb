@@ -11,8 +11,8 @@
   position: Assistant Professor
   research-areas: Algebraic geometry, noncommutative geometry
   phd: Johns Hopkins
-  phone-ext: 3326
-  office: 
+  phone-ext: 
+  office: X24
   website: https://sites.google.com/site/abhishekb1313/
 
 - name: Gautam Bharali
@@ -45,7 +45,7 @@
   position: Assistant Professor
   research-areas: Geometric analysis and Complex geometry.
   phd: Rutgers
-  phone-ext: xxxx
+  phone-ext: 3326
   office: X05
   
 - name: Basudeb Datta
@@ -201,7 +201,7 @@
   research-areas: Representation theory of infinite-dimensional Lie algebras
   phd: IMSc
   phone-ext: 
-  office: 
+  office: X22
 
 - name:  Kaushal Verma
   user-id: kverma
