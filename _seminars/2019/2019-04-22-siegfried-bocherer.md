@@ -1,6 +1,6 @@
 ---
-speaker: Siegfried Bocherer (Univ. Mannheim, Germany)
-title: "On derivatives of Modular forms."
+speaker: Siegfried Bocherer (University of Mannheim, Germany)
+title: "On derivatives of Modular forms"
 date: 22 April, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
