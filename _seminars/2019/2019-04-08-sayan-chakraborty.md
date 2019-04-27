@@ -8,6 +8,6 @@ venue: LH-1, Mathematics Department
 website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
- In this talk I consider crossed product $C\*$-algebras of higher
+ In this talk I consider crossed product $C^\*$-algebras of higher
  dimensional noncommutative tori with actions of cyclic groups.
- I will discuss $K$-theory of those $C\*$-algebras and some applications.
+ I will discuss $K$-theory of those $C^\*$-algebras and some applications.
