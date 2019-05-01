@@ -4,7 +4,7 @@ speaker: Sankaran Viswanath (IMSc, Chennai)
 date: 7 May, 2019
 time: 11:30 am
 series: "Algebra & Combinatorics Seminar"
-venue: LH-1, Mathematics Department
+venue: LH-5, Mathematics Department
 website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
