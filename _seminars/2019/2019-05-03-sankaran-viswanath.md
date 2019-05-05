@@ -2,7 +2,7 @@
 title: The Brylinski filtration and W-algebras
 speaker: Sankaran Viswanath (IMSc, Chennai)
 date: 3 May, 2019
-time: 3:30 pm
+time: 3 pm
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
 website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
