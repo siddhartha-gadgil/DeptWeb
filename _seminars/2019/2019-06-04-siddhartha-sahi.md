@@ -4,7 +4,7 @@ title: "Metaplectic Representations of Hecke algebras"
 date: 4 June, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
-series: "Analysis Seminar"
+series: "Algebra & Combinatorics Seminar"
 ---
 
 We construct certain representations of affine Hecke
