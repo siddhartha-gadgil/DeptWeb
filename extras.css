@@ -51,6 +51,16 @@ a.geometry-topology-seminar:focus {
   text-decoration: underline;
 }
 
+.analysis-seminar {
+  color: darkred;
+}
+
+a.analysis-seminar:hover,
+a.analysis-seminar:focus {
+  color: darkred;
+  text-decoration: underline;
+}
+
 .eigenfunctions-seminar {
   color: #8a6d3b;
 }
