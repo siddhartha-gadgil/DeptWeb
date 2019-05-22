@@ -5,6 +5,7 @@ date: 12 April, 2019
 time:  4 pm
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2019-04-12-GautamBharali.pdf"
 ---
 
 The Pick--Nevanlinna problem refers to the problem of -- given two connected
