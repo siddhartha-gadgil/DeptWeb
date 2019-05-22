@@ -12,7 +12,7 @@ title: Eigenfunctions Seminars
   <h5 id="{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}"><strong> Title: </strong>
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a>
     {% if sem.slides %}
-    (<a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ sem.slides }}" target="_blank">slides</a>)
+    <a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ sem.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
     {% endif %}
   </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
