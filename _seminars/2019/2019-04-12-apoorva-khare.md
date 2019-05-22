@@ -5,6 +5,7 @@ date: 12 April, 2019
 time:  3 pm
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2019-04-12-1-ApoorvaKhare.pdf"
 ---
 
 I will present a historical account of some work of Schoenberg

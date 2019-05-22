@@ -7,7 +7,11 @@ href="{% if page.website %}{{ page.website }}#{{ page.date | date: "%Y-%m-%d" }}
 <div class="row">
 
   <div class="col-md-10">
- <h5><strong> Title: </strong> {{ page.title }} </h5>
+ <h5><strong> Title: </strong> {{ page.title }}
+{% if page.slides %}
+(<a href="{{ site.baseurl }}/seminar-slides/{{ page.date | date: "%Y" }}/{{ page.slides }}" target="_blank">slides</a>)
+{% endif %}
+ </h5>
 <h5>  <strong>Speaker: </strong> {{page.speaker}} </h5>
 <h5>  <strong>Date: </strong>{{ page.date | date_to_long_string }} </h5>
 {% if page.time %}

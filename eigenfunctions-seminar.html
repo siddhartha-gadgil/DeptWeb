@@ -10,7 +10,11 @@ title: Eigenfunctions Seminars
   <div class="col-md-11"> -->
   {% if sem.series == "Eigenfunctions Seminar" %}
   <h5 id="{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}"><strong> Title: </strong>
-    <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
+    <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a>
+    {% if sem.slides %}
+    (<a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ sem.slides }}" target="_blank">slides</a>)
+    {% endif %}
+  </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
   <h5>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </h5>
   {% if sem.time %}
