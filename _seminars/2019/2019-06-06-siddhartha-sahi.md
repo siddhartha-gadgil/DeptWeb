@@ -4,5 +4,5 @@ title: "Macdonald's conjecture on hypergeometric functions associated to Jack po
 date: 6 June, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
-series: "Analysis Seminar"
+series: "APRG Seminar"
 ---
