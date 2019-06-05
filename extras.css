@@ -61,6 +61,16 @@ a.analysis-seminar:focus {
   text-decoration: underline;
 }
 
+.aprg-seminar {
+  color: darkred;
+}
+
+a.aprg-seminar:hover,
+a.aprg-seminar:focus {
+  color: darkred;
+  text-decoration: underline;
+}
+
 .eigenfunctions-seminar {
   color: #8a6d3b;
 }
