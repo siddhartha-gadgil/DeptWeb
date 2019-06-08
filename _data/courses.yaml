@@ -138,7 +138,7 @@ aug2019:
     instructor: Arvind Ayyer
     timing:
     code: MA 261
-    webpage: http://math.iisc.ac.in/~gadgil/MA261/
+    webpage: 
     prereq-courses: ''
     ug-prereq-courses: ''
   core2:
@@ -156,7 +156,7 @@ aug2019:
     ug-prereq-courses: ''
   - name: Partial Differential Equations
     instructor: Thirupathi Gudi
-    timing: 
+    timing:
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
