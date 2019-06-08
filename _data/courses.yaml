@@ -144,19 +144,19 @@ aug2019:
   core2:
   - name: Functional Analysis
     instructor: S. Thangavelu
-    timing: 'Mon, Wed, Fri: 10:00-11:00'
+    timing:
     code: MA 223
     prereq-courses: MA 222, MA 224 & MA 219
     ug-prereq-courses: ''
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
-    timing: 'Mon, Wed, Fri: 11:00-12:00'
+    timing:
     code: MA 232
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
   - name: Partial Differential Equations
     instructor: Thirupathi Gudi
-    timing: 'Tue, Thu: 9:30-11:00'
+    timing: 
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
@@ -179,7 +179,7 @@ aug2019:
     instructor: Ved Datar
   - name: Matrix Analysis & positivity
     instructor: Apoorva Khare
-    timing: 
+    timing:
     code: MA 341
     webpage:
     prereq-courses: MA 219
