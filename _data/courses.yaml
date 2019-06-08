@@ -179,7 +179,7 @@ aug2019:
     instructor: Ved Datar
   - name: Matrix Analysis & positivity
     instructor: Apoorva Khare
-    timing: 'Wed, Fri: 11:00-12:30'
+    timing: 
     code: MA 341
     webpage:
     prereq-courses: MA 219
