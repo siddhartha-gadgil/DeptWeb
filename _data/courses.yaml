@@ -87,9 +87,7 @@ jan2020:
   - name: Topics in Representation Theory
     code: MA 387
     instructor: Pooja Singla
-  - name: Stochastic Processes and Random Geometric Graphs
-    code: MA 397
-    instructor: Srikanth Iyer
+
 
 aug2019:
   ug:
@@ -138,7 +136,7 @@ aug2019:
     instructor: Arvind Ayyer
     timing:
     code: MA 261
-    webpage: 
+    webpage:
     prereq-courses: ''
     ug-prereq-courses: ''
   core2:
@@ -151,6 +149,7 @@ aug2019:
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
     timing:
+    webpage: http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/
     code: MA 232
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
