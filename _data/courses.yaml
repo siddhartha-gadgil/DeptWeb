@@ -64,6 +64,9 @@ jan2020:
   - name: Lie Algebras and their Representations
     code: MA 315
     instructor: R. Venkatesh/Apoorva Khare
+  - name: Operator Theory
+    code: MA 323
+    instructor: Surjit Kumar
   - name: Algebraic Topology
     instructor: Siddhartha Gadgil
     code: MA 332
@@ -170,9 +173,6 @@ aug2019:
   - name: Topics in Morse Theory
     code: MA 306
     instructor: Arun Maiti
-  - name: Operator Theory
-    code: MA 323
-    instructor: Surjit Kumar
   - name: Introduction to Several Complex Variables
     code: MA 328
     instructor: Gautam Bharali
