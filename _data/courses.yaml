@@ -160,6 +160,9 @@ aug2019:
     prereq-courses: MA 241
     ug-prereq-courses: ''
   electives:
+  - name: Introduction to Graph Theory
+    instructor : Arvind Ayyer
+    code: MA 216
   - name: Representation Theory of Finite Groups
     instructor: Pooja Singla
     code: MA 220
