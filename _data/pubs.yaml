@@ -208,8 +208,9 @@
   mrnumber: "3800492"
   pages: "91-107"
   year: 2018
+  mrreviewer: "Hassan Haghighi"
   title: "Rational cuspidal curves on del-Pezzo surfaces"
-  mrclass: "14N35 (14H10 14J26)"
+  mrclass: "14N35 (14H10 14J26 14J45)"
   volume: "17"
   issn: "1949-2006"
 
@@ -249,6 +250,7 @@
   mrnumber: "3780407"
   pages: "49-69"
   year: 2018
+  mrreviewer: "Jason Philip Gino Semeraro"
   title: "On Boolean intervals of finite groups"
   doi: "10.1016j.jcta.2018.02.004"
   mrclass: "20E15 (06A11 06C15 20C15 20D30)"
@@ -376,6 +378,7 @@
   mrnumber: "3818448"
   pages: "1341-1352"
   year: 2018
+  mrreviewer: "\\L ukasz Kosi\\'nski"
   title: "The three-point Pick-Nevanlinna interpolation problem on the polydisc"
   doi: "10.108017476933.2017.1370461"
   mrclass: "32A17 (30E05 30J10 32F45 46E20)"
@@ -490,6 +493,7 @@
   mrnumber: "3895862"
   pages: "155-174"
   year: 2019
+  mrreviewer: "Zhen Wu"
   title: "Risk sensitive control of pure jump processes on a general state space"
   doi: "10.108017442508.2018.1521413"
   mrclass: "93E20 (60J75 90C40)"
@@ -1050,6 +1054,20 @@
   volume: "87"
   issn: "0970-4140"
 
+- number: "1"
+  author: "Kataria, Kuldeep Kumar and Vellaisamy, Palaniappan"
+  fjournal: "Stochastic Analysis and Applications"
+  url: "httpsdoi.org10.108007362994.2018.1538803"
+  journal: "Stoch. Anal. Appl."
+  mrnumber: "3939356"
+  pages: "115-122"
+  year: 2019
+  title: "On the convolution of Mittag-Leffler distributions and its applications to fractional point processes"
+  doi: "10.108007362994.2018.1538803"
+  mrclass: "60G50 (60G22 60G55)"
+  volume: "37"
+  issn: "0736-2994"
+
 - number: "2"
   author: "Seshadri, Harish"
   fjournal: "Differential Geometry and its Applications"
@@ -1187,9 +1205,10 @@
   mrnumber: "3882023"
   pages: "235-244"
   year: 2018
+  mrreviewer: "Pekka Salmi"
   title: "An analogue of Pfannschmidt's theorem for the Heisenberg group"
   doi: "10.1007s41478-018-0147-9"
-  mrclass: "43A30 (43A10)"
+  mrclass: "43A30 (22E25 43A10)"
   volume: "26"
   issn: "0971-3611"
 
@@ -1401,6 +1420,19 @@
   mrclass: "47H09 (46C15)"
   volume: "10"
   issn: "2008-8752"
+
+- number: "2"
+  author: "Reddy, Nanda Kishore"
+  fjournal: "International Mathematics Research Notices. IMRN"
+  url: "httpsdoi.org10.1093imrnrnx134"
+  journal: "Int. Math. Res. Not. IMRN"
+  mrnumber: "3903568"
+  pages: "606-624"
+  year: 2019
+  title: "Equality of Lyapunov and stability exponents for products of isotropic random matrices"
+  doi: "10.1093imrnrnx134"
+  mrclass: "60B20 (37D25)"
+  issn: "1073-7928"
 
 - author: "Narayanan, E. K. and Rawat, R. and Ray, S. K."
   fjournal: "The Journal of Analysis"
@@ -1651,6 +1683,7 @@
   mrnumber: "3892467"
   pages: "1-29"
   year: 2018
+  mrreviewer: "Fran&ccedil;coise Lust-Piquard"
   title: "Weighted norm inequalities for Weyl multipliers and fourier multipliers on the Heisenberg group"
   doi: "10.1007s11854-018-0053-8"
   mrclass: "43A15"
@@ -1783,6 +1816,20 @@
   volume: "55"
   issn: "0033-569X"
 
+- number: "1"
+  author: "Verma, Kaushal"
+  fjournal: "Analysis and Mathematical Physics"
+  url: "httpsdoi.org10.1007s13324-018-0221-0"
+  journal: "Anal. Math. Phys."
+  mrnumber: "3933560"
+  pages: "617-638"
+  year: 2019
+  title: "Notes on the boundaries of quadrature domains"
+  doi: "10.1007s13324-018-0221-0"
+  mrclass: "30C35"
+  volume: "9"
+  issn: "1664-2368"
+
 - number: "2"
   author: "Gadgil, Siddhartha and Kalelkar, Tejas"
   fjournal: "The Rocky Mountain Journal of Mathematics"
@@ -1850,6 +1897,20 @@
   volume: "241"
   issn: "0022-247X"
 
+- number: "2"
+  author: "Dond, Asha K. and Gudi, Thirupathi"
+  fjournal: "Numerical Methods for Partial Differential Equations. An International Journal"
+  url: "httpsdoi.org10.1002num.22317"
+  journal: "Numer. Methods Partial Differential Equations"
+  mrnumber: "3915226"
+  pages: "638-663"
+  year: 2019
+  title: "Patch-wise local projection stabilized finite element methods for convection-diffusion-reaction problems"
+  doi: "10.1002num.22317"
+  mrclass: "65N30 (65N12 65N15)"
+  volume: "35"
+  issn: "0749-159X"
+
 - author: "Bharali, Gautam and Biswas, Indranil and Divakaran, Divakaran and Janardhanan, Jaikrishnan"
   fjournal: "Documenta Mathematica"
   journal: "Doc. Math."
@@ -1904,6 +1965,18 @@
   mrclass: "93B05 (34G20 34H05 93C20)"
   volume: "16"
   issn: "0163-0563"
+
+- number: "4"
+  author: "Gupta, Rajeev and Ramiz Reza, Md."
+  fjournal: "Houston Journal of Mathematics"
+  journal: "Houston J. Math."
+  mrnumber: "3904699"
+  pages: "1205-1212"
+  year: 2018
+  title: "Operator space structures on $\\ell^1(n)$"
+  mrclass: "47A20"
+  volume: "44"
+  issn: "0362-1588"
 
 - number: "1"
   author: "Bharali, Gautam and Biswas, Indranil and Mj, Mahan"
@@ -1994,6 +2067,20 @@
   volume: "46"
   issn: "0179-5376"
 
+- number: "1"
+  author: "Quddus, Safdar"
+  fjournal: "Journal of Noncommutative Geometry"
+  url: "httpsdoi.org10.4171JNCG320"
+  journal: "J. Noncommut. Geom."
+  mrnumber: "3941479"
+  pages: "257-267"
+  year: 2019
+  title: "Invariants of the $\\Bbb Z_2$ orbifolds of the Podle\\'s two spheres"
+  doi: "10.4171JNCG320"
+  mrclass: "19D55 (17B37 19K56 46L05)"
+  volume: "13"
+  issn: "1661-6952"
+
 - author: "Prasad, U. R. and Grimm, W. and Berger, E."
   series: "Lect. Notes Control Inf. Sci."
   url: "httpdx.doi.org10.1007BFb0004265"
@@ -2021,6 +2108,20 @@
   mrclass: "05C60"
   volume: "19"
   issn: "0364-9024"
+
+- number: "1"
+  author: "Maity, Dipendu"
+  fjournal: "Beitr\\\"age zur Algebra und Geometrie. Contributions to Algebra and Geometry"
+  url: "httpsdoi.org10.1007s13366-018-0405-7"
+  journal: "Beitr. Algebra Geom."
+  mrnumber: "3916238"
+  pages: "17-37"
+  year: 2019
+  title: "Pentagonal maps on the torus and the plane"
+  doi: "10.1007s13366-018-0405-7"
+  mrclass: "52C20 (52B70 57M60)"
+  volume: "60"
+  issn: "0138-4821"
 
 - number: "1"
   author: "Chakrabarti, A. and Hamsapriye"
@@ -2396,6 +2497,7 @@
   mrnumber: "3790010"
   pages: "100-126"
   year: 2018
+  mrreviewer: "Leonid V. Bogachev"
   title: "Bumping sequences and multispecies juggling"
   doi: "10.1016j.aam.2018.03.001"
   mrclass: "60C05 (05A05 60J10 82C23)"
@@ -3662,6 +3764,7 @@
   mrnumber: "3848067"
   pages: "1750071, 27"
   year: 2018
+  mrreviewer: "Jorge Vit\\'oria"
   title: "On Auslander's formula and cohereditary torsion pairs"
   doi: "10.1142S0219199717500717"
   mrclass: "18E30 (18E40)"
@@ -3820,6 +3923,20 @@
   mrclass: "13F10"
   volume: "12"
   issn: "0973-1350"
+
+- number: "3"
+  author: "Ayyer, Arvind and Finn, Caley and Roy, Dipankar"
+  fjournal: "Journal of Statistical Physics"
+  url: "httpsdoi.org10.1007s10955-018-2183-x"
+  journal: "J. Stat. Phys."
+  mrnumber: "3911779"
+  pages: "605-621"
+  year: 2019
+  title: "The phase diagram for a multispecies left-permeable asymmetric exclusion process"
+  doi: "10.1007s10955-018-2183-x"
+  mrclass: "82C70"
+  volume: "174"
+  issn: "0022-4715"
 
 - number: "5"
   author: "Tao, Terence and Vu, Van"
@@ -4505,6 +4622,20 @@
   volume: "168"
   issn: "0026-9255"
 
+- number: "4"
+  author: "Dond, Asha K. and Gudi, Thirupathi and Sau, Ramesh CH."
+  fjournal: "Numerical Functional Analysis and Optimization. An International Journal"
+  url: "httpsdoi.org10.108001630563.2018.1538158"
+  journal: "Numer. Funct. Anal. Optim."
+  mrnumber: "3924212"
+  pages: "421-460"
+  year: 2019
+  title: "An error analysis of discontinuous finite element methods for the optimal control problems governed by Stokes equation"
+  doi: "10.108001630563.2018.1538158"
+  mrclass: "65N30 (65K10 65N12 65N15 76D07)"
+  volume: "40"
+  issn: "0163-0563"
+
 - number: "1-2"
   author: "Borkar, Vivek S. and Jain, Sanjay and Rangarajan, Govindan"
   fjournal: "Physica D. Nonlinear Phenomena"
@@ -5143,6 +5274,20 @@
   mrclass: "47B35 (22E30 43A65)"
   volume: "28"
   issn: "0213-2230"
+
+- number: "2"
+  author: "Biswas, Rahul and Dond, Asha K. and Gudi, Thirupathi"
+  fjournal: "Computational Methods in Applied Mathematics"
+  url: "httpsdoi.org10.1515cmam-2018-0020"
+  journal: "Comput. Methods Appl. Math."
+  mrnumber: "3935885"
+  pages: "189-214"
+  year: 2019
+  title: "Edge patch-wise local projection stabilized nonconforming FEM for the Oseen problem"
+  doi: "10.1515cmam-2018-0020"
+  mrclass: "65N30 (35Q35 65N12 65N15 76D07 76M10)"
+  volume: "19"
+  issn: "1609-4840"
 
 - number: "3"
   author: "Gnaneshwar, N."
@@ -6784,7 +6929,7 @@
   mrnumber: "3906291"
   pages: "751-784"
   year: 2019
-  title: "On reducing submodules of Hilbert modules with ${S}_n$-invariant kernels"
+  title: "On reducing submodules of Hilbert modules with $\\germ{S}_n$-invariant kernels"
   doi: "10.1016j.jfa.2018.10.025"
   mrclass: "47A13 (20B30 47A25 47B32)"
   volume: "276"
@@ -7081,6 +7226,19 @@
   mrclass: "14J60 (14J30)"
   volume: "212"
   issn: "0022-4049"
+
+- author: "Gudi, Thirupathi and Majumder, Papri"
+  fjournal: "Journal of Computational and Applied Mathematics"
+  url: "httpsdoi.org10.1016j.cam.2019.02.026"
+  journal: "J. Comput. Appl. Math."
+  mrnumber: "3922211"
+  pages: "85-102"
+  year: 2019
+  title: "Convergence analysis of finite element method for a parabolic obstacle problem"
+  doi: "10.1016j.cam.2019.02.026"
+  mrclass: "65M60 (65K15 65M15)"
+  volume: "357"
+  issn: "0377-0427"
 
 - author: "Narayanan, E. K. and Rawat, R. and Ray, S. K."
   fjournal: "Israel Journal of Mathematics"
@@ -7705,6 +7863,7 @@
   mrnumber: "3724147"
   pages: "504-524"
   year: 2018
+  mrreviewer: "\\L ukasz Kosi\\'nski"
   title: "Holomorphic functions on the symmetrized bidisk--realization, interpolation and extension"
   doi: "10.1016j.jfa.2017.09.013"
   mrclass: "32A10 (32A70 46E22 47A13 47A20 47A25)"
@@ -8539,6 +8698,18 @@
   volume: "9"
   issn: "0971-3514"
 
+- author: "Jha, Abhash Kumar and Kumar, Arvind"
+  series: "Springer Proc. Math. Stat."
+  mrnumber: "3773926"
+  pages: "329-341"
+  year: 2017
+  mrreviewer: "Karam Deo Shankhadhar"
+  publisher: "Springer, Cham"
+  booktitle: "Analytic number theory, modular forms and $q$-hypergeometric series"
+  title: "Construction of cusp forms using Rankin-Cohen brackets"
+  mrclass: "11F37 (11F25 11F66)"
+  volume: "221"
+
 - number: "1"
   author: "Bhattacharyya, T. and Sarkar, J."
   fjournal: "Journal of Mathematical Analysis and Applications"
@@ -9148,6 +9319,20 @@
   volume: "12"
   issn: "1937-0652"
 
+- number: "2"
+  author: "Carstensen, Carsten and Dond, Asha K. and Rabus, Hella"
+  fjournal: "Computational Methods in Applied Mathematics"
+  url: "httpsdoi.org10.1515cmam-2019-0034"
+  journal: "Comput. Methods Appl. Math."
+  mrnumber: "3935887"
+  pages: "233-250"
+  year: 2019
+  title: "Quasi-optimality of adaptive mixed FEMs for non-selfadjoint indefinite second-order linear elliptic problems"
+  doi: "10.1515cmam-2019-0034"
+  mrclass: "65N30 (65N12 65N15 65N50 65Y20)"
+  volume: "19"
+  issn: "1609-4840"
+
 - number: "24"
   author: "Bhattacharyya, T. and Shyam Roy, S."
   fjournal: "Journal of Physics. A. Mathematical and Theoretical"
@@ -9358,6 +9543,20 @@
   title: "Continuous-time controlled jump Markov processes on the finite horizon"
   doi: "10.1007978-0-8176-8337-5_6"
   mrclass: "90C40 (91A05 91A15 93E20)"
+
+- number: "1"
+  author: "Mahajan, Prachi and Verma, Kaushal"
+  fjournal: "International Journal of Mathematics"
+  url: "httpsdoi.org10.1142S0129167X19500125"
+  journal: "Internat. J. Math."
+  mrnumber: "3916275"
+  pages: "1950012, 16"
+  year: 2019
+  title: "A comparison of two biholomorphic invariants"
+  doi: "10.1142S0129167X19500125"
+  mrclass: "32F45 (32Q45)"
+  volume: "30"
+  issn: "0129-167X"
 
 - number: "2"
   author: "Iyer, Srikanth K. and Manjunath, D."
@@ -10168,6 +10367,15 @@
   mrclass: "17B67 (33D67)"
   volume: "58"
   issn: "1286-4889"
+
+- author: "Paul, Kallol and Sain, Debmalya"
+  mrnumber: "3888857"
+  pages: "245-284"
+  year: 2019
+  publisher: "CRC Press, Boca Raton, FL"
+  booktitle: "Advanced topics in mathematical analysis"
+  title: "Birkhoff-James orthogonality and its application in the study of geometry of Banach space"
+  mrclass: "46B20"
 
 - number: "2"
   author: "Bharali, Gautam"
@@ -11021,6 +11229,17 @@
   volume: "43"
   issn: "0036-1429"
 
+- author: "Biswas, Indranil and Pingali, Vamsi Pritham"
+  fjournal: "\\'Epijournal de G\\'eom\\'etrie Alg\\'ebrique. EPIGA"
+  journal: "\\'Epijournal Geom. Alg\\'ebrique"
+  mrnumber: "3894855"
+  pages: "Art. 6, 13"
+  year: 2018
+  title: "A characterization of finite vector bundles on Gauduchon astheno-K\\\"ahler manifolds"
+  mrclass: "32L10 (14D20 53C55)"
+  volume: "2"
+  issn: "2491-6765"
+
 - number: "2"
   author: "Bhattacharyya, Tirthankar and Grover, Priyanka"
   fjournal: "Journal of Mathematical Analysis and Applications"
@@ -11127,7 +11346,8 @@
   mrnumber: "3877198"
   pages: "1181-1206"
   year: 2018
-  title: "A Morely finite element method for an elliptic distributed optimal control problem with pointwise state and control constraints"
+  mrreviewer: "Luz Roncal"
+  title: "A Morley finite element method for an elliptic distributed optimal control problem with pointwise state and control constraints"
   doi: "10.1051cocv2017031"
   mrclass: "49M25 (65K15 65N30)"
   volume: "24"
@@ -11678,6 +11898,7 @@
   mrnumber: "3846155"
   pages: "335-376"
   year: 2018
+  mrreviewer: "G. K. Sankaran"
   title: "Petersson norms of not necessarily cuspidal Jacobi modular forms and applications"
   doi: "10.1016j.aim.2018.07.033"
   mrclass: "11F50 (11F46)"
@@ -11782,6 +12003,20 @@
   mrclass: "62N01 (62G05 62N02 62N05 62P20)"
   volume: "46"
   issn: "0361-0926"
+
+- number: "4"
+  author: "Turgay, Nurettin Cenk and Upadhyay, Abhitosh"
+  fjournal: "Mathematische Nachrichten"
+  url: "httpsdoi.org10.1002mana.201700328"
+  journal: "Math. Nachr."
+  mrnumber: "3937626"
+  pages: "905-921"
+  year: 2019
+  title: "On biconservative hypersurfaces in 4-dimensional Riemannian space forms"
+  doi: "10.1002mana.201700328"
+  mrclass: "53D12 (53C42 58E20)"
+  volume: "292"
+  issn: "0025-584X"
 
 - number: "12"
   author: "Sengadir, T."
@@ -12085,6 +12320,19 @@
   volume: "83"
   issn: "0169-2968"
 
+- author: "Choudhury, Projesh Nath and Kannan, M. Rajesh and Sivakumar, K. C."
+  fjournal: "Electronic Journal of Linear Algebra"
+  url: "httpsdoi.org10.130011081-3810.3864"
+  journal: "Electron. J. Linear Algebra"
+  mrnumber: "3907812"
+  pages: "687-694"
+  year: 2018
+  title: "A note on linear preservers of semipositive and minimally semipositive matrices"
+  doi: "10.130011081-3810.3864"
+  mrclass: "15A86 (15B48)"
+  volume: "34"
+  issn: "1081-3810"
+
 - number: "2"
   author: "Bhattacharyya, T. and Binding, P. A. and Seddighi, K."
   fjournal: "Journal of Mathematical Analysis and Applications"
@@ -12114,6 +12362,20 @@
   mrclass: "83E10 (53C80 83F05)"
   volume: "20"
   issn: "0001-7701"
+
+- number: "6"
+  author: "Mukherjee, Sajal Kumar and Bera, Sudip"
+  fjournal: "Discrete Mathematics"
+  url: "httpsdoi.org10.1016j.disc.2019.02.013"
+  journal: "Discrete Math."
+  mrnumber: "3922155"
+  pages: "1577-1580"
+  year: 2019
+  title: "Combinatorial proofs of the Newton-Girard and Chapman-Costas-Santos identities"
+  doi: "10.1016j.disc.2019.02.013"
+  mrclass: "15A15 (05C50)"
+  volume: "342"
+  issn: "0012-365X"
 
 - number: "1"
   author: "Gupta, S. C."
@@ -13011,6 +13273,20 @@
   volume: "32"
   issn: "0307-904X"
 
+- number: "1"
+  author: "Sanki, Bidyut and Gadgil, Siddhartha"
+  fjournal: "Journal of Topology and Analysis"
+  url: "httpsdoi.org10.1142S1793525319500018"
+  journal: "J. Topol. Anal."
+  mrnumber: "3918059"
+  pages: "1-20"
+  year: 2019
+  title: "Graphs of systoles on hyperbolic surfaces"
+  doi: "10.1142S1793525319500018"
+  mrclass: "57M50 (05C10 57M15)"
+  volume: "11"
+  issn: "1793-5253"
+
 - number: "12"
   author: "Balachandran, A. P. and Marmo, G. and Mukunda, N. and Nilsson, J. S. and Sudarshan, E. C. G. and Zaccaria, F."
   fjournal: "Physical Review. D. Particles and Fields. Third Series"
@@ -13093,6 +13369,17 @@
   mrclass: "47A13 (22E45 32M15 47B32)"
   volume: "303"
   issn: "0001-8708"
+
+- author: "Bhimani, Divyang G. and Balhara, Rakesh and Thangavelu, Sundaram"
+  series: "Springer Proc. Math. Stat."
+  mrnumber: "3923332"
+  pages: "42-64"
+  year: 2019
+  publisher: "Springer, Cham"
+  booktitle: "Analysis and partial differential equations perspectives from developing countries"
+  title: "Hermite multipliers on modulation spaces"
+  mrclass: "42B15"
+  volume: "275"
 
 - number: "4"
   author: "Datti, P. S."
@@ -13265,20 +13552,6 @@
   volume: "30"
   issn: "0736-2994"
 
-- author: "Gupta, Subhojoy and Wolf, Michael"
-  series: "Contemp. Math."
-  url: "httpsdoi.org10.1090conm69614021"
-  mrnumber: "3715446"
-  pages: "153-181"
-  year: 2017
-  mrreviewer: "Athanase Papadopoulos"
-  publisher: "Amer. Math. Soc., Providence, RI"
-  booktitle: "In the tradition of Ahlfors-Bers. VII"
-  title: "Meromorphic quadratic differentials with complex residues and spiralling foliations"
-  doi: "10.1090conm69614021"
-  mrclass: "30F30 (30F60 37C85)"
-  volume: "696"
-
 - number: "6"
   author: "Rangarajan, Govindan and Sridharan, Shrihari"
   fjournal: "Applied Mathematics and Computation"
@@ -13403,6 +13676,7 @@
   mrnumber: "3807052"
   pages: "362-399"
   year: 2018
+  mrreviewer: "Samuel Dalalyan"
   title: "Completions of monoid objects and descent results"
   doi: "10.1016j.jalgebra.2018.04.022"
   mrclass: "14A20 (13J10 14A15)"
