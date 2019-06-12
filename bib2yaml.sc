@@ -10,13 +10,22 @@ def reader= new java.io.FileReader("_data/publications.bib")
 
 def db = parser.parse(reader)
 
+def ok(c: Char) = {
+  val value = c.toInt
+  (value == 0x09 || value == 0x0A || value == 0x0D ||
+     (value >= 0x20 && value <= 0x7E) ||
+     (value == 0x85))
+  }
+
+def makeOk(s: String) = s.filter(ok).mkString("")
 
 val regex = "[^a-zA-Z0-9 =<>*+-/#\\-,.\\\\$\\{\\}\\(\\)_\\``\'\"^]".r
 def fix(s: String) =
   {
     val purged =
-      regex.
-        replaceAllIn(s, "").
+      makeOk(s).
+      // regex.
+      //   replaceAllIn(s, "").
         replace("\\'e", "&eacute;").
         replace("\\`e", "&egrave;").
         replace("\\\"o", "&ouml;").
@@ -44,7 +53,9 @@ def fix(s: String) =
         // replace("\\", "\\\\").
         replace("--", "-").
         replace("\\'", "&#39;").
-        replace("'", "&#39;")
+        replace("'", "&#39;").
+        replace("\\ssf", "\\mathrm").
+        replace("\\Cal", "\\mathcal")
         // replace("\"", "\\\"")
     val debraceVec = purged.split('$').toVector.zipWithIndex.map {
       case (x, n) => if (n % 2 == 0) x.replace("{", "").replace("}", "") else x
