@@ -6929,7 +6929,7 @@
   mrnumber: "3906291"
   pages: "751-784"
   year: 2019
-  title: "On reducing submodules of Hilbert modules with $\\germ{S}_n$-invariant kernels"
+  title: "On reducing submodules of Hilbert modules with ${S}_n$-invariant kernels"
   doi: "10.1016j.jfa.2018.10.025"
   mrclass: "47A13 (20B30 47A25 47B32)"
   volume: "276"
@@ -13551,6 +13551,20 @@
   mrclass: "49N70 (60G40 91A15 91A23 93E20)"
   volume: "30"
   issn: "0736-2994"
+
+- author: "Gupta, Subhojoy and Wolf, Michael"
+  series: "Contemp. Math."
+  url: "httpsdoi.org10.1090conm69614021"
+  mrnumber: "3715446"
+  pages: "153-181"
+  year: 2017
+  mrreviewer: "Athanase Papadopoulos"
+  publisher: "Amer. Math. Soc., Providence, RI"
+  booktitle: "In the tradition of Ahlfors-Bers. VII"
+  title: "Meromorphic quadratic differentials with complex residues and spiralling foliations"
+  doi: "10.1090conm69614021"
+  mrclass: "30F30 (30F60 37C85)"
+  volume: "696"
 
 - number: "6"
   author: "Rangarajan, Govindan and Sridharan, Shrihari"
