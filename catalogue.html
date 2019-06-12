@@ -9,7 +9,7 @@ title: Course Catalogue
 <div>
 
   {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
-  <h4>  <a href={{ lnk }}>{{ course.code }}: {{ course.title }} </a>
+  <h4>  <a href={{ lnk }} id="{{ course.code | slugify }}">{{ course.code }}: {{ course.title }} </a>
     ({% if course.credits %}{{ course.credits }}{% else %}3:0{% endif %})
   </h4>
 {% if course.prereq-courses %}
