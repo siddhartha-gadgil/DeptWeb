@@ -1057,7 +1057,7 @@
 - number: "1"
   author: "Kataria, Kuldeep Kumar and Vellaisamy, Palaniappan"
   fjournal: "Stochastic Analysis and Applications"
-  url: "httpsdoi.org10.108007362994.2018.1538803"
+  url: https://doi.org/10.1080/07362994.2018.1538803
   journal: "Stoch. Anal. Appl."
   mrnumber: "3939356"
   pages: "115-122"
@@ -1424,7 +1424,7 @@
 - number: "2"
   author: "Reddy, Nanda Kishore"
   fjournal: "International Mathematics Research Notices. IMRN"
-  url: "httpsdoi.org10.1093imrnrnx134"
+  url: https://doi.org/10.1093/imrn/rnx134
   journal: "Int. Math. Res. Not. IMRN"
   mrnumber: "3903568"
   pages: "606-624"
@@ -1819,7 +1819,7 @@
 - number: "1"
   author: "Verma, Kaushal"
   fjournal: "Analysis and Mathematical Physics"
-  url: "httpsdoi.org10.1007s13324-018-0221-0"
+  url: https://doi.org/10.1007/s13324-018-0221-0
   journal: "Anal. Math. Phys."
   mrnumber: "3933560"
   pages: "617-638"
@@ -1900,7 +1900,7 @@
 - number: "2"
   author: "Dond, Asha K. and Gudi, Thirupathi"
   fjournal: "Numerical Methods for Partial Differential Equations. An International Journal"
-  url: "httpsdoi.org10.1002num.22317"
+  url: https://doi.org/10.1002/num.22317
   journal: "Numer. Methods Partial Differential Equations"
   mrnumber: "3915226"
   pages: "638-663"
@@ -2070,7 +2070,7 @@
 - number: "1"
   author: "Quddus, Safdar"
   fjournal: "Journal of Noncommutative Geometry"
-  url: "httpsdoi.org10.4171JNCG320"
+  url: https://doi.org/10.4171/JNCG/320
   journal: "J. Noncommut. Geom."
   mrnumber: "3941479"
   pages: "257-267"
@@ -2112,7 +2112,7 @@
 - number: "1"
   author: "Maity, Dipendu"
   fjournal: "Beitr\\\"age zur Algebra und Geometrie. Contributions to Algebra and Geometry"
-  url: "httpsdoi.org10.1007s13366-018-0405-7"
+  url: https://doi.org/10.1007/s13366-018-0405-7
   journal: "Beitr. Algebra Geom."
   mrnumber: "3916238"
   pages: "17-37"
@@ -3927,7 +3927,7 @@
 - number: "3"
   author: "Ayyer, Arvind and Finn, Caley and Roy, Dipankar"
   fjournal: "Journal of Statistical Physics"
-  url: "httpsdoi.org10.1007s10955-018-2183-x"
+  url: https://doi.org/10.1007/s10955-018-2183-x
   journal: "J. Stat. Phys."
   mrnumber: "3911779"
   pages: "605-621"
@@ -4639,7 +4639,7 @@
 - number: "4"
   author: "Dond, Asha K. and Gudi, Thirupathi and Sau, Ramesh CH."
   fjournal: "Numerical Functional Analysis and Optimization. An International Journal"
-  url: "httpsdoi.org10.108001630563.2018.1538158"
+  url: https://doi.org/10.1080/01630563.2018.1538158
   journal: "Numer. Funct. Anal. Optim."
   mrnumber: "3924212"
   pages: "421-460"
@@ -5292,7 +5292,7 @@
 - number: "2"
   author: "Biswas, Rahul and Dond, Asha K. and Gudi, Thirupathi"
   fjournal: "Computational Methods in Applied Mathematics"
-  url: "httpsdoi.org10.1515cmam-2018-0020"
+  url: https://doi.org/10.1515/cmam-2018-0020
   journal: "Comput. Methods Appl. Math."
   mrnumber: "3935885"
   pages: "189-214"
@@ -7243,7 +7243,7 @@
 
 - author: "Gudi, Thirupathi and Majumder, Papri"
   fjournal: "Journal of Computational and Applied Mathematics"
-  url: "httpsdoi.org10.1016j.cam.2019.02.026"
+  url: https://doi.org/10.1016/j.cam.2019.02.026
   journal: "J. Comput. Appl. Math."
   mrnumber: "3922211"
   pages: "85-102"
@@ -9319,14 +9319,13 @@
   issn: "0036-1429"
 
 - number: "7"
-  author: "D. H. J. Polymath"
+  author: "Tobias Fritz, Siddhartha Gadgil, Apoorva Khare, Pace P. Nielsen, Lior Silberman and Terence Tao"
   fjournal: "Algebra \\ Number Theory"
   url: https://doi.org/10.2140/ant.2018.12.1773
   journal: "Algebra Number Theory"
   mrnumber: "3871510"
   pages: "1773-1786"
   year: 2018
-  note: "Paper published under group name ``D. H. J. Polymath\""
   title: "Homogeneous length functions on groups"
   doi: "10.2140ant.2018.12.1773"
   mrclass: "20F12 (20F65)"
@@ -9336,7 +9335,7 @@
 - number: "2"
   author: "Carstensen, Carsten and Dond, Asha K. and Rabus, Hella"
   fjournal: "Computational Methods in Applied Mathematics"
-  url: "httpsdoi.org10.1515cmam-2019-0034"
+  url: https://doi.org/10.1515/cmam-2019-0034
   journal: "Comput. Methods Appl. Math."
   mrnumber: "3935887"
   pages: "233-250"
@@ -9561,7 +9560,7 @@
 - number: "1"
   author: "Mahajan, Prachi and Verma, Kaushal"
   fjournal: "International Journal of Mathematics"
-  url: "httpsdoi.org10.1142S0129167X19500125"
+  url: https://doi.org/10.1142/S0129167X19500125
   journal: "Internat. J. Math."
   mrnumber: "3916275"
   pages: "1950012, 16"
@@ -12021,7 +12020,7 @@
 - number: "4"
   author: "Turgay, Nurettin Cenk and Upadhyay, Abhitosh"
   fjournal: "Mathematische Nachrichten"
-  url: "httpsdoi.org10.1002mana.201700328"
+  url: https://doi.org/10.1002/mana.201700328
   journal: "Math. Nachr."
   mrnumber: "3937626"
   pages: "905-921"
@@ -12336,7 +12335,7 @@
 
 - author: "Choudhury, Projesh Nath and Kannan, M. Rajesh and Sivakumar, K. C."
   fjournal: "Electronic Journal of Linear Algebra"
-  url: "httpsdoi.org10.130011081-3810.3864"
+  url: https://doi.org/10.13001/1081-3810.3864
   journal: "Electron. J. Linear Algebra"
   mrnumber: "3907812"
   pages: "687-694"
@@ -12380,7 +12379,7 @@
 - number: "6"
   author: "Mukherjee, Sajal Kumar and Bera, Sudip"
   fjournal: "Discrete Mathematics"
-  url: "httpsdoi.org10.1016j.disc.2019.02.013"
+  url: https://doi.org/10.1016/j.disc.2019.02.013
   journal: "Discrete Math."
   mrnumber: "3922155"
   pages: "1577-1580"
@@ -13290,7 +13289,7 @@
 - number: "1"
   author: "Sanki, Bidyut and Gadgil, Siddhartha"
   fjournal: "Journal of Topology and Analysis"
-  url: "httpsdoi.org10.1142S1793525319500018"
+  url: https://doi.org/10.1142/S1793525319500018
   journal: "J. Topol. Anal."
   mrnumber: "3918059"
   pages: "1-20"
