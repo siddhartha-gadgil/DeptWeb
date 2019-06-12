@@ -11,7 +11,7 @@ def reader= new java.io.FileReader("_data/publications.bib")
 def db = parser.parse(reader)
 
 
-val regex = "[^a-zA-Z0-9 #\\-,.\\\\$\\{\\}\\(\\)_\\``\'\"^]".r
+val regex = "[^a-zA-Z0-9 =<>*+-/#\\-,.\\\\$\\{\\}\\(\\)_\\``\'\"^]".r
 def fix(s: String) =
   {
     val purged =
@@ -41,9 +41,11 @@ def fix(s: String) =
         replace("\\v s", "&#353;").
         replace("\\v c", "&#263;").
         replace("\\v d", "&#273;").
-        replace("\\", "\\\\").
+        // replace("\\", "\\\\").
         replace("--", "-").
-        replace("\"", "\\\"")
+        replace("\\'", "&#39;").
+        replace("'", "&#39;")
+        // replace("\"", "\\\"")
     val debraceVec = purged.split('$').toVector.zipWithIndex.map {
       case (x, n) => if (n % 2 == 0) x.replace("{", "").replace("}", "") else x
     }
@@ -52,8 +54,9 @@ def fix(s: String) =
 def mp = db.getEntries.toMap.values.map(_.getFields.toMap.map{
   case (k, v) => k.getValue.toLowerCase -> v.toUserString})
 def out = mp.map((h) => h.map {
-  case (k, v) if k == "year" || k == "url" => s"$k: $v"
-  case (k, v)  => s"""$k: "${fix(v.replace("\n", " "))}""""
+  case (k, v) if k == "year" || k == "url" => s"$k: '$v'"
+  case (k, v) => s"""$k: '${fix(v.replace("\n", " "))}'"""
+  // case (k, v)  => s"""$k: "${fix(v.replace("\n", " "))}""""
   }.mkString("- ", "\n  ", "\n")).mkString("\n")
 
 import ammonite.ops._
