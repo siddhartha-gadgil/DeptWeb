@@ -52,7 +52,7 @@ def fix(s: String) =
 def mp = db.getEntries.toMap.values.map(_.getFields.toMap.map{
   case (k, v) => k.getValue.toLowerCase -> v.toUserString})
 def out = mp.map((h) => h.map {
-  case (k, v) if k == "year" => s"$k: $v"
+  case (k, v) if k == "year" || k == "url" => s"$k: $v"
   case (k, v)  => s"""$k: "${fix(v.replace("\n", " "))}""""
   }.mkString("- ", "\n  ", "\n")).mkString("\n")
 
