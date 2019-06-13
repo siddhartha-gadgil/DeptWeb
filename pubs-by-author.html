@@ -13,6 +13,7 @@ title: Publications - Dept of Mathematics, IISc
   <div class="col-md-12">
     <h2> Publications (by author) </h2>
 
+{% assign years = site.data.pubs | group_by: "year" | sort: 'name' | reverse %}
 
 <ul>
   {% for fac in site.data.faculty %}
@@ -23,9 +24,16 @@ title: Publications - Dept of Mathematics, IISc
 
 <div class="collapse" id="{{fac.name | slugify}}">
   <ol>
-  {% for paper in site.data.pubs %}
+  {% for y in years %}
+  {% assign yearpubs = y.items | sort: 'author' %}
+  {% for paper in yearpubs %}
   {% assign authors = paper.author | split: " and " %}
-  {% if authors contains fac.author-name %}
+  {% assign test = false %}
+  {% if authors contains fac.author-name %}{% assign test = true %}{% endif %}
+  {% for name in fac.author-names %}
+  {% if authors contains name %}{% assign test = true %}{% endif %}
+  {% endfor %}
+  {% if test %}
     <li>
       {% if paper.author %} {{ paper.author }}{% else %} {{paper.editor}} (Ed.){% endif %},
       <em>{{ paper.title }}</em>, {{ paper.journal }} {{ paper.booktitle }} {{ paper.note }}, <strong>{{paper.volume}} </strong> ({{paper.year}}), {{paper.pages}}{{ paper.article }}.
@@ -33,6 +41,7 @@ title: Publications - Dept of Mathematics, IISc
       {% if paper.mrnumber %}(<a href="https://mathscinet.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR{{ paper.mrnumber }}" target="_blank">Review</a>){% endif %}
     </li>
     {% endif %}
+  {% endfor %}
   {% endfor %}
   </ol>
 </div>

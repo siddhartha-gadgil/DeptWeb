@@ -106,7 +106,9 @@
   phd: UC, Santa Barbara
   phone-ext: 3327
   office: L15
-  author-name: "Iyer, Srikanth K."
+  author-names:
+    - "Iyer, Srikanth K."
+    - "Iyer, Srikanth"
 
 - name: Apoorva Khare
   user-id: khare
@@ -125,6 +127,8 @@
   phone-ext: 3207
   office: N25
   author-name: Krishnapur, Manjunath
+  author-names:
+    - Manjunath Krishnapur
 
 - name: Gadadhar Misra
   user-id: gm
@@ -170,7 +174,10 @@
   phd: Stony Brook
   phone-ext: 2754
   office: N23
-  author-name: "Pingali, Vamsi P."
+  author-names:
+    - "Pingali, Vamsi P."
+    - "Pritham Pingali, Vamsi"
+    - "Pingali, Vamsi Pritham"
 
 - name: Govindan Rangarajan
   user-id: rangaraj
