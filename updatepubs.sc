@@ -19,7 +19,7 @@ var emap = entryMap(read.lines(pubFile).mkString("\n"))
 
 def update(f: Path) = {
   val m = entryMap(read.lines(f).mkString("\n"))
-  emap = emap ++ m
+  emap = m ++ emap
 }
 
 import $file.bib2yaml
