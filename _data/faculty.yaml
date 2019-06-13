@@ -224,7 +224,9 @@
   phd: Princeton
   phone-ext: 3206
   office: X14
-  author-name: Thangavelu, Sundaram
+  author-names:
+    - Thangavelu, Sundaram
+    - "Thangavelu, S."
 
 - name: R. Venkatesh
   user-id: rvenkat
