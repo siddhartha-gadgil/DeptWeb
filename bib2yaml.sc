@@ -52,6 +52,7 @@ def fix(s: String) =
         replace("\\v s", "&#353;").
         replace("\\v c", "&#263;").
         replace("\\v d", "&#273;").
+        replace("""\~n""", "&ntilde;").
         // replace("\\", "\\\\").
         replace("--", "-").
         replace("\\'", "&#39;").
