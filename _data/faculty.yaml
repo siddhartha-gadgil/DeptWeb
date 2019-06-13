@@ -5,15 +5,17 @@
   phd: Rutgers
   phone-ext: 3215
   office: X15
+  author-name: "Ayyer, Arvind"
 
 - name: Abhishek Banerjee
   user-id: abhi
   position: Assistant Professor
   research-areas: Algebraic geometry, noncommutative geometry
   phd: Johns Hopkins
-  phone-ext: 
+  phone-ext:
   office: X24
   website: https://sites.google.com/site/abhishekb1313/
+  author-name: "Banerjee, Abhishek"
 
 - name: Gautam Bharali
   user-id: bharali
@@ -22,6 +24,7 @@
   phd: Wisconsin
   phone-ext: 3328
   office: L19
+  author-name: "Bharali, Gautam"
 
 - name: Tirthankar Bhattacharya
   user-id: tirtha
@@ -30,6 +33,7 @@
   phd: ISI
   phone-ext: 2710
   office: L27
+  author-name: Bhattacharya, Tirthankar
 
 - name: Soumya Das
   user-id: soumya
@@ -39,6 +43,7 @@
   phone-ext: 3205
   office: X03
   website: https://sites.google.com/site/somuhomepage/
+  author-name: Das, Soumya
 
 - name: Ved Datar
   user-id: vvdatar
@@ -47,7 +52,8 @@
   phd: Rutgers
   phone-ext: 3326
   office: X05
-  
+  author-name: Datar, Ved
+
 - name: Basudeb Datta
   user-id: dattab
   position: Professor
@@ -55,6 +61,7 @@
   phd: ISI
   phone-ext: 3211
   office: X04
+  author-name: Datta, Basudeb
 
 - name: Siddhartha Gadgil
   user-id: gadgil
@@ -63,6 +70,7 @@
   phd: Caltech
   phone-ext: 3209
   office: N15
+  author-name: Gadgil, Siddhartha
 
 - name: Mrinal K. Ghosh
   user-id: mkg
@@ -71,6 +79,7 @@
   phd: IISc-TIFR
   phone-ext: 3210
   office: L29
+  author-name: Ghosh, Mrinal
 
 - name: Thirupathi Gudi
   user-id: gudi
@@ -79,6 +88,7 @@
   phd: IIT Bombay
   phone-ext: 3208
   office: R26
+  author-name: Gudi, Thirupathi
 
 - name: Subhojoy Gupta
   user-id: subhojoy
@@ -87,6 +97,7 @@
   phd: Yale
   phone-ext: 3330
   office: X06
+  author-name: Gupta, Subhojoy
 
 - name: Srikanth K. Iyer
   user-id: skiyer
@@ -95,6 +106,7 @@
   phd: UC, Santa Barbara
   phone-ext: 3327
   office: L15
+  author-name: Iyer, Srikanth
 
 - name: Apoorva Khare
   user-id: khare
@@ -103,6 +115,7 @@
   research-areas: Positivity and analysis; representation theory of Lie algebras and algebras with triangular decompositions; combinatorics and discrete mathematics (with connections to the two research areas above)
   phone-ext: 2514
   office: X26
+  author-name: Khare, Apoorva
 
 - name: Manjunath Krishnapur
   user-id: manju
@@ -111,6 +124,7 @@
   phd: UC, Berkeley
   phone-ext: 3207
   office: N25
+  author-name: Krishnapur, Manjunath
 
 - name: Gadadhar Misra
   user-id: gm
@@ -120,6 +134,7 @@
   phd: Stony Brook
   phone-ext: 2712
   office: L17
+  author-name: Misra, Gadadhar
 
 - name: A. K. Nandakumaran
   user-id: nands
@@ -128,6 +143,7 @@
   phd: IISc-TIFR
   phone-ext: 2835
   office: N27
+  author-name: Nandakumaran, A. K.
 
 - name: E. K. Narayanan
   user-id: naru
@@ -136,6 +152,7 @@
   phd: ISI
   phone-ext: 3270
   office: N29
+  author-name: Narayanan, E. K.
 
 - name: Dilip P. Patil
   user-id: patil
@@ -144,6 +161,7 @@
   phd: Bombay
   phone-ext: 3212
   office: R25
+  author-name: Patil, Dilip
 
 - name: Vamsi Pritham Pingali
   user-id: vamsipingali
@@ -152,6 +170,7 @@
   phd: Stony Brook
   phone-ext: 2754
   office: N23
+  author-name: Pingali, Vamsi
 
 - name: Govindan Rangarajan
   user-id: rangaraj
@@ -160,6 +179,7 @@
   phd: Maryland
   phone-ext: 3213
   office: X17
+  author-name: Rangarajan, Govindan
 
 - name: Sanchayan Sen
   user-id: sanchayan
@@ -169,6 +189,7 @@
   office: X01
   phone-ext: 3616
   website: https://sites.google.com/site/sanchayansenss/
+  author-name: Sen, Sanchayan
 
 - name: Harish Seshadri
   user-id: harish
@@ -177,6 +198,7 @@
   phd: Stony Brook
   phone-ext: 2709
   office: R27
+  author-name: Seshadri, Harish
 
 - name: Pooja Singla
   user-id: pooja
@@ -186,6 +208,7 @@
   phone-ext: 2571
   office: L25
   website: https://sites.google.com/site/poojasingla7/Home
+  author-name: Singla, Pooja
 
 - name: S. Thangavelu
   user-id: veluma
@@ -194,14 +217,16 @@
   phd: Princeton
   phone-ext: 3206
   office: X14
+  author-name: Thangavelu, Sundaram
 
 - name: R. Venkatesh
   user-id: rvenkat
   position: Assistant professor
   research-areas: Representation theory of infinite-dimensional Lie algebras
   phd: IMSc
-  phone-ext: 
+  phone-ext:
   office: X22
+  author-name: Venkatesh, R.
 
 - name:  Kaushal Verma
   user-id: kverma
@@ -210,3 +235,4 @@
   phd: Indiana
   phone-ext: 3216
   office: L13
+  author-name: Verma, Kaushal
