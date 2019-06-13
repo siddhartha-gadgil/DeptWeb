@@ -26,9 +26,10 @@ def fix(s: String) =
       makeOk(s).
       // regex.
       //   replaceAllIn(s, "").
-        replace("""\"{o}""", """\o""").
+        replace("""\"{o}""", """\"o""").
         replace("""\"{a}""", """\"a""").
         replace("\\'e", "&eacute;").
+        replace("\\'{e}", "&eacute;").
         replace("\\`e", "&egrave;").
         replace("\\\"o", "&ouml;").
         replace("\\`a", "&agrave;").
