@@ -36,8 +36,8 @@ def fix(s: String) =
         replace("\\'a", "&aacute;").
         replace("\\`o", "&ograve;").
         replace("\\'o", "&oacute;").
-        replace("\\`O", "&ograve;").
-        replace("\\'O", "&oacute;").
+        replace("\\`O", "&Ograve;").
+        replace("\\'O", "&Oacute;").
         replace("\\\"u", "&uuml;").
         replace("\\'E", "&Eacute;").
         replace("\\`E", "&Egrave;").
@@ -54,6 +54,29 @@ def fix(s: String) =
         replace("\\v c", "&#263;").
         replace("\\v d", "&#273;").
         replace("""\~n""", "&ntilde;").
+        replace("\\`{e}", "&egrave;").
+        replace("\\\"{o}", "&ouml;").
+        replace("\\`{a}", "&agrave;").
+        replace("\\'{a}", "&aacute;").
+        replace("\\`{o}", "&ograve;").
+        replace("\\'{o}", "&oacute;").
+        replace("\\`{O}", "&Ograve;").
+        replace("\\'{O}", "&Oacute;").
+        replace("\\\"{u}", "&uuml;").
+        replace("\\'{E}", "&Eacute;").
+        replace("\\`{E}", "&Egrave;").
+        replace("\\\"{O}", "&Ouml;").
+        replace("\\\"{A}", "&Auml;").
+        replace("\\\"{a}", "&auml;").
+        replace("\\\"\\i", "&iuml;").
+        replace("\\c", "&ccedil;").
+        replace("\\`{A}", "&Agrave;").
+        replace("\\'{A}", "&Aacute;").
+        replace("\\\"{U}", "&Uuml;").
+        replace("\\o", "&oslash;").
+        replace("\\v s", "&#353;").
+        replace("\\v c", "&#263;").
+        replace("\\v d", "&#273;").
         // replace("\\", "\\\\").
         replace("--", "-").
         replace("\\'", "&#39;").
