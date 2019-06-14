@@ -33,9 +33,9 @@
   phd: ISI
   phone-ext: 2710
   office: L27
-  author-name:
-    - Bhattacharya, Tirthankar
-    - "Bhattacharya, T."
+  author-names:
+    - "Bhattacharyya, Tirthankar"
+    - "Bhattacharyya, T."
 
 - name: Soumya Das
   user-id: soumya
@@ -90,7 +90,9 @@
   phd: IIT Bombay
   phone-ext: 3208
   office: R26
-  author-name: Gudi, Thirupathi
+  author-names:
+    - Gudi, Thirupathi
+    - Gudi, T.
 
 - name: Subhojoy Gupta
   user-id: subhojoy
