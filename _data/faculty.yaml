@@ -165,7 +165,9 @@
   phd: Bombay
   phone-ext: 3212
   office: R25
-  author-name: "Patil, Dilip P."
+  author-names:
+    - "Patil, Dilip P."
+    - "Patil, D. P."
 
 - name: Vamsi Pritham Pingali
   user-id: vamsipingali
