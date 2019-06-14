@@ -18,6 +18,7 @@ title: Publications - Dept of Mathematics, IISc
 
 <ul>
   {% for fac in site.data.faculty %}
+  {% assign recent = true %}
 <li><h4>
 <a class="" data-toggle="collapse" href="#{{fac.name | slugify}}" aria-expanded="false" aria-controls="{{fac.name | slugify}}">
   {{fac.name}}
@@ -35,6 +36,7 @@ title: Publications - Dept of Mathematics, IISc
   {% if authors contains name %}{% assign test = true %}{% endif %}
   {% endfor %}
   {% if test %}
+  {% assign recent = false %}
     <li>
       {% if paper.author %} {{ paper.author }}{% else %} {{paper.editor}} (Ed.){% endif %},
       <em>{{ paper.title }}</em>, {{ paper.journal }} {{ paper.booktitle }} {{ paper.note }}, <strong>{{paper.volume}} </strong> ({{paper.year}}), {{paper.pages}}{{ paper.article }}.
@@ -44,6 +46,9 @@ title: Publications - Dept of Mathematics, IISc
     {% endif %}
   {% endfor %}
   {% endfor %}
+  {% if recent %}
+  <p> <strong>Note:</strong> {{ fac.name}} has joined the department recently. Only publications publcations with affiliation the department are shown.</p>
+  {% endif %}
   </ol>
 </div>
 </li>
