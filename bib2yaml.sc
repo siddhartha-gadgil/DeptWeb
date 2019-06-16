@@ -74,15 +74,17 @@ def fix(s: String) =
         replace("\\'{A}", "&Aacute;").
         replace("\\\"{U}", "&Uuml;").
         replace("\\o", "&oslash;").
-        replace("\\v s", "&#353;").
-        replace("\\v c", "&#263;").
-        replace("\\v d", "&#273;").
+        replace("\\v{s}", "&#353;").
+        replace("\\v{c}", "&#263;").
+        replace("\\v{d}", "&#273;").
+        replace("\\v{z}", "&#382;").
         // replace("\\", "\\\\").
         replace("--", "-").
         replace("\\'", "&#39;").
         replace("'", "&#39;").
         replace("\\ssf", "\\mathrm").
-        replace("\\Cal", "\\mathcal")
+        replace("\\Cal", "\\mathcal").
+        replace("\\bold", "\\boldsymbol")
         // replace("\"", "\\\"")
     val debraceVec = purged.split('$').toVector.zipWithIndex.map {
       case (x, n) => if (n % 2 == 0) x.replace("{", "").replace("}", "") else x
