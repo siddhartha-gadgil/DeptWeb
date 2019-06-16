@@ -78,6 +78,7 @@ def fix(s: String) =
         replace("\\v{c}", "&#263;").
         replace("\\v{d}", "&#273;").
         replace("\\v{z}", "&#382;").
+        replace("\\v z", "&#382;").
         // replace("\\", "\\\\").
         replace("--", "-").
         replace("\\'", "&#39;").
