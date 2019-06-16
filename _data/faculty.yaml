@@ -192,7 +192,9 @@
   phd: Maryland
   phone-ext: 3213
   office: X17
-  author-name: Rangarajan, Govindan
+  author-names:
+    - Rangarajan, Govindan
+    - "Rangarajan, G."
 
 - name: Sanchayan Sen
   user-id: sanchayan

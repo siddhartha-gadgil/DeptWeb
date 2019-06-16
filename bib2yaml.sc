@@ -2,7 +2,7 @@
 
 import $ivy.`org.jbibtex:jbibtex:1.0.5`
 import org.jbibtex._
-import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
 
 import java.io._
 val parser = new BibTeXParser()
@@ -89,7 +89,7 @@ def fix(s: String) =
     }
     debraceVec.mkString("$")
   }
-def mp = db.getEntries.toMap.values.map(_.getFields.toMap.map{
+def mp = db.getEntries.asScala.toMap.values.map(_.getFields.asScala.toMap.map{
   case (k, v) => k.getValue.toLowerCase -> v.toUserString})
 def out = mp.map((h) => h.map {
   case (k, v) if k == "year" || k == "url" => s"$k: '$v'"

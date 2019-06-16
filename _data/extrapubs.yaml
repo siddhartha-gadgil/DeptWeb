@@ -1,4 +1,44 @@
-- author: "Benedetti, Carolina and González D’León, Rafael S. and Hanusa, Christopher R.H. and Harris, Pamela E. and Khare, Apoorva and Morales, Alejandro H. and Yip, Martha."
+
+- author: Chopra, R. and Murthy, C. R. and Rangarajan, G.
+  title: 'Statistical tests for detecting Granger causality'
+  year: 2018
+  journal: 'IEEE Transactions on Signal Processing'
+  volume:
+  pages: 5803
+
+
+- author: Lin, X. and Roy, S. and Jolly, M. K. and Bocci, F. and Schafer, N. P. and Tsai, M.-Y. and Chen, Y. and He, Y. and Grishaev, A. and Weninger, K. and Orban, J. and Kulkarni, P. and Rangarajan, G. and Levine, H. and J. N. Onuchic
+  title: 'PAGE4 and conformational switching: Insights from molecular dynamics simulations and implications for prostate cancer'
+  year: 2018
+  journal: 'Journal of Molecular Biology'
+  volume: 430
+  pages: 2422
+
+
+- author: Sant, D.A. and Parvez, I. A. and Rangarajan, G. and Patel, S. J. and Salam, T. A. S. and Bhatt, M. N.
+  title: 'Subsurface imaging of brown coal bearing Tertiary sedimentaries - Deccan Trap interface using microtremor method'
+  year: 2018
+  journal: 'Journal of Applied Geophysics'
+  volume: 159
+  pages: 362
+
+
+- author: Lin, X. and Kulkarni, P. and Bocci, F. and Schafer, N. and Roy, S. and Tsai, M-Y. and He, Y. and Chen, Y and Rajagopalan, K. and Mooney, S. and Zeng, Y. and Weninger, K. and Grishaev, A. and Onuchic, J. and Levine, H. and Wolynes, P. and Salgia, R. and Rangarajan, G. and Uversky, V. and Orban, J. and Jolly, M. K.
+  title: 'Structural and Dynamical Order of a Disordered Protein: Molecular Insights into Conformational Switching of PAGE4 at the Systems Level'
+  year: 2019
+  journal: 'Biomolecules'
+  volume: 9
+  pages: 77
+
+
+- author: Kashyap, G. A. R. S. R. K. and Bapat, D. and Das, D. and Gowaikar, R. D. and  Amritkar, R. E. and Rangarajan, G. and V. Ravindranath and G. Ambika
+  title: 'Synapse loss and progress of Alzheimer&rsquo;s disease - A network model'
+  year: 2019
+  journal: 'Scientific Reports'
+  volume: 9
+  pages:
+
+- author: "Benedetti, Carolina and González D’León, Rafael S. and Hanusa, Christopher R.H. and Harris, Pamela E. and Khare, Apoorva and Morales, Alejandro H. and Yip, Martha"
   title: "The volume of the caracol polytope"
   fjournal: "Séminaire Lotharingien de Combinatoire"
   journal: "S&eacute;m. Lothar. Combin."
@@ -41,33 +81,33 @@
 
 - author: "Rangarajan, G. and Sachidanand, M."
   title: "Spherical aberration and its correction using Lie algebraic techniques"
-  journal: "Pramana -- Journal of Physics"
+  journal: "Pramana - Journal of Physics"
   year: 1997
   volume: 49
   pages: 635
 
-- author: "Borkar, V. S, Jain, S and Rangarajan, G."
+- author: "Borkar, V. S and Jain, S and Rangarajan, G."
   title: "Dynamics of individual specialization and global diversification in   communities"
   journal: "Complexity"
   year: 1998
   volume: 03
   pages: 50
 
-- author: "Rangarajan, G., Habib, S. and Ryne, R. D."
+- author: "Rangarajan, G. and Habib, S. and Ryne, R. D."
   title: "Lyapunov exponents without rescaling and reorthogonalization"
   journal: "Physical Review Letters"
   year: 1998
   volume: 80
   pages: 3747
 
-- author: "Borkar, V. S., Jain, S. and Rangarajan, G."
+- author: "Borkar, V. S. and Jain, S. and Rangarajan, G."
   title: "Generalized replicator dynamics as a model of specialization and   diversity in societies"
   journal: "Advances in Complex Systems"
   year: 1998
   volume: 01
   pages: 325
 
-- author: “Rangarajan, G., Habib, S. and Ryne, R. D."
+- author: “Rangarajan, G. and Habib, S. and Ryne, R. D."
   title: "A new method for computing Lyapunov exponents"
   booktitle: "Nonlinear Dynamics and Brain Functioning"
   year: 1999
@@ -110,14 +150,14 @@
   volume: 58
   pages: 477
 
-- author: "Sant, D. A- and Rangarajan, G."
+- author: "Sant, D. A. and Rangarajan, G."
   title: "Onset of climate change at last Glacial-Holocene transition: Role of the tropical Pacific"
   journal: "Current Science"
   year: 2002
   volume: 83
   pages: 1398
 
-- author: "Chen, Y., Rangarajan, G. and Ding,. M."
+- author: "Chen, Y. and Rangarajan, G. and Ding,. M."
   title: "General stability analysis of synchronized dynamics in coupled systems"
   journal: "Physical Review E"
   year: 2003
@@ -131,14 +171,14 @@
   volume: 621
   pages: 167
 
-- author: "Truccolo, W. A., Rangarajan, G., Chen, Y. and Ding, M."
+- author: "Truccolo, W. A. and Rangarajan, G. and Chen, Y. and Ding, M."
   title: "Analyzing stability of equilibrium points in neural networks: A general approach"
   journal: "Neural Networks"
   year: 2003
   volume: 16
   pages: 1453
 
-- author: "Borkar, V. S., Jain, S., and Rangarajan, G."
+- author: "Borkar, V. S. and Jain, S. and Rangarajan, G."
   title: "Collective behaviour and diversity in economic communities: Some insights from an evolutionary game"
   booktitle: "The Application of Econophysics"
   year: 2003
@@ -150,7 +190,7 @@
   volume: 14
   pages: 847
 
-- author: "Daya Sagar B. S., Rangarajan, G., and Veneziano, D."
+- author: "Daya Sagar B. S. and Rangarajan, G. and Veneziano, D."
   title: "Fractals in Geophysics"
   journal: "Chaos, Solitons and Fractals"
   year: 2004
@@ -164,14 +204,14 @@
   volume: 19
   pages: 285
 
-- author: "Sant, D. A., Krishnan, K., Rangarajan, G., Basavaiah, N., Pandya, C.,Sharma, M. and Trivedi, Y."
+- author: "Sant, D. A. and Krishnan, K. and Rangarajan, G. and Basavaiah, N. and Pandya and C.,Sharma, M. and Trivedi, Y."
   title: "Characterization of flood plain and climate change using multi-proxy records"
   journal: "Journal of Indian Geophysical Union"
   year: 2004
   volume: 08
   pages: 39
 
-- author: “Albo, Z., Di Prisco, G. V., Chen, Y., Rangarajan, G., Truccolo, W., Feng, J., Vertes, R. P. and Ding, M."
+- author: “Albo, Z. and Di Prisco, G. V. and Chen, Y. and Rangarajan, G. and Truccolo, W. and Feng, J. and Vertes, R. P. and Ding, M."
   title: "Is partial coherence a viable technique for identifying generators of neural oscillations?"
   journal: "Biological Cybernetics"
   year: 2004
@@ -184,7 +224,7 @@
   year: 2005
   pages: 145
 
-- author: "Borkar, V. S., Jain, S. and Rangarajan, G."
+- author: "Borkar, V. S. and Jain, S. and Rangarajan, G."
   title: "Evolutionary mechanisms of organization in complex systems"
   booktitle: "Mathematical Models for Bioengineering and Probabilistic Systems"
   year: 2005
@@ -197,21 +237,21 @@
   volume: 96
   pages: 258102
 
-- author: "Sant, D. A., Rangarajan, G., Krishnan, K., Basavaiah, N., Pandya, C., Sharma, M. and Trivedi, Y."
+- author: "Sant, D. A. and Rangarajan, G. and Krishnan, K. and Basavaiah, N. and Pandya, C. and Sharma, M. and Trivedi, Y."
   title: “ Flood plain record of southwest Indian monsoon during the last glacial"
   journal: "Man and Environment"
   year: 2006
   volume: 31
   pages: 09
 
-- author: "Ganapathy, R., Rangarajan, G. and Sood A. K."
+- author: "Ganapathy, R. and Rangarajan, G. and Sood A. K."
   title: "Granger causality and cross recurrence plots in rheochaos"
   journal: "Physical Review E"
   year: 2007
   volume: 75
   pages: 016211
 
-- author: "Nalatore, H., Ding, M. and Rangarajan, G."
+- author: "Nalatore, H. and Ding, M. and Rangarajan, G."
   title: "Mitigating the effects of measurement noise on Granger causality"
   journal: "Physical Review E"
   year: 2007
@@ -225,21 +265,21 @@
   volume: 76
   pages: 027202
 
-- author: "Dhamala, M., Rangarajan, G. and Ding, M."
+- author: "Dhamala, M. and Rangarajan, G. and Ding, M."
   title: "Estimating Granger causality from Fourier and wavelet transforms of time series data"
   journal: "Physical Review Letters"
   year: 2008
   volume: 100
   pages: 018701
 
-- author: "Dhamala, M., Rangarajan, G. and Ding, M."
+- author: "Dhamala, M. and Rangarajan, G. and Ding, M."
   title: "Analyzing information flow in brain networks with nonparametric Granger causality"
   journal: "NeuroImage"
   year: 2008
   volume: 41
   pages: 354
 
-- author: "Nalatore, H., Ding, M. and Rangarajan, G."
+- author: "Nalatore, H. and Ding, M. and Rangarajan, G."
   title: "Denoising neural data with state-space smoothing: Method and application"
   journal: "Journal of Neuroscience Methods"
   year: 2009
@@ -253,7 +293,7 @@
   volume: 101
   pages: 71
 
-- author: "Ghosh, S., Rangarajan, G. and Sinha, S."
+- author: "Ghosh, S. and Rangarajan, G. and Sinha, S."
   title: "Stability of synchronization in a multi-cellular system"
   journal: "European Physics Letters"
   year: 2010
@@ -261,35 +301,35 @@
   pages: 40012
 
 
-- author: "Sukumaran, P., Parvez, I. A., Sant, D. A., Rangarajan, G. and Krishnan, K."
+- author: "Sukumaran, P. and Parvez, I. A. and Sant, D. A. and Rangarajan, G. and Krishnan, K."
   title: "Profiling of Late Tertiary - Early Quaternary surface in the lower reaches of Narmada Valley using microtremors"
   journal: "Journal of Asian Earth Sciences"
   year: 2011
   volume: 41
   pages: 325
 
-- author: "Sukumaran, P., Sant, D. A., Krishnan, K. and Rangarajan, G."
+- author: "Sukumaran, P. and Sant, D. A. and Krishnan, K. and Rangarajan, G."
   title: "High resolution facies record on Late Holocene flood plain sediments from lower reaches of Narmada Valley, Western India"
   journal: "Journal of the Geological Society of India"
   year: 2012
   volume: 79
   pages: 41
 
-- author: "Resmi, V., Ambika, G., Amritkar, R. E. and Rangarajan, G."
+- author: "Resmi, V. and Ambika, G. and Amritkar, R. E. and Rangarajan, G."
   title: "Amplitude death in complex networks induced by environment"
   journal: "Physical Review E"
   year: 2012
   volume: 85
   pages: 046211
 
-- author: "Mahmoudabadi, G.,  Rajagopalan, K., Getzenberg, R. H., Hannenhalli, S., Rangarajan, G. and Kulkarni, P."
+- author: "Mahmoudabadi, G. and Rajagopalan, K. and Getzenberg, R. H. and Hannenhalli, S. and Rangarajan, G. and Kulkarni, P."
   title: "Intrinsically disordered proteins and conformational noise: Implications in cancer"
   journal: "Cell Cycle"
   year: 2013
   volume: 12
   pages: 26
 
-- author: "Wen. X., Rangarajan, G. and Ding, M."
+- author: "Wen. X. and Rangarajan, G. and Ding, M."
   title: "Is Granger causality a viable technique for analyzing fMRI data?"
   journal: "PLoS One"
   year: 2013
@@ -303,21 +343,21 @@
   volume: 23
   pages: 033104
 
-- author: "Ghosh, A., Paria, D., Rangarajan, G. and Ghosh, A."
+- author: "Ghosh, A. and Paria, D. and Rangarajan, G. and Ghosh, A."
   title: "Velocity fluctuations in helical propulsion: How small can a propeller be"
   journal: "Journal of Physical Chemistry Letters"
   year: 2014
   volume: 05
   pages: 62
 
-- author: "Sampath, D., Sabitha, K. R., Hegde, P., Jayakrishnan, H. R., Kutty, B.M., Chattarji, S., Rangarajan, G. and Laxmi, T.R."
+- author: "Sampath, D. and Sabitha, K. R. and Hegde, P. and Jayakrishnan, H. R. and Kutty, B.M. and Chattarji, S. and Rangarajan, G. and Laxmi, T.R."
   title: "A study on fear memory retrieval and REM sleep in maternal separation and isolation stressed rats"
   journal: "Behavioural Brain Research"
   year: 2014
   volume: 273
   pages: 144
 
-- author: "Nalatore. H., Sasikumar, N. and Rangarajan, G."
+- author: "Nalatore. H. and Sasikumar, N. and Rangarajan, G."
   title: "Effect of measurement noise on Granger causality"
   journal: "Physical Review E"
   year: 2014
@@ -329,35 +369,35 @@
   booktitle: "Encyclopedia of Computational Neuroscience: Springer Reference"
   year: 2015
 
-- author: "Ray, A., Sehgal, N., Karunakaran, S., Rangarajan, G. and  Ravindranath, V."
+- author: "Ray, A. and Sehgal, N. and Karunakaran, S. and Rangarajan, G. and  Ravindranath, V."
   title: "MPTP activates ASK1-p38 MAPK signaling pathway through TNF-dependent Trx1 oxidation in Parkinsonism mouse model"
   journal: "Free Radical Biology & Medicine"
   year: 2015
   volume: 87
   pages: 312
 
-- author: "Rangarajan, N., Fox, Z., Singh, A., Kulkarni, P. and Rangarajan, G."
+- author: "Rangarajan, N. and Fox, Z. and Singh, A. and Kulkarni, P. and Rangarajan, G."
   title: "Disorder, Oscillatory Dynamics and State Switching: The Role of c-Myc"
   journal: "Journal of Theoretical Biology"
   year: 2015
   volume: 386
   pages: 105
 
-- author: "Mooney, S. M., Rajagopalan, K., Rangarajan, G. and Kulkarni, P."
+- author: "Mooney, S. M. and Rajagopalan, K. and Rangarajan, G. and Kulkarni, P."
   title: "Cancer/testis antigens and obligate participation in multiple hallmarks of cancer: an update"
   journal: "Asian Journal of Andrology"
   year: 2016
   volume: 18
   pages: 711
 
-- author: "Joshi, A. U., Sant, D. A., Parvez, I. A., Rangarajan, G.,  Limaye, M. A., Mukherjee, S., Charola, M. J., Bhatt, M. N. and Mistry, S. P."
+- author: "Joshi, A. U. and Sant, D. A. and Parvez, I. A. and Rangarajan, G. and Limaye, M. A. and Mukherjee, S. and Charola, M. J. and Bhatt, M. N. and Mistry, S. P."
   title: "Sub-surface profiling of granite pluton using microtremor method: southern Aravalli, Gujarat, India"
   journal: "International Journal of Earth Sciences"
   year: 2017
   volume: 106
   pages: 00
 
-- author: "Sant D. A, Parvez, I. A., Rangarajan, G., Patel, J., Bhatt, M. N. and Salam, T. A. S."
+- author: "Sant D. A and Parvez, I. A. and Rangarajan, G. and Patel, J. and Bhatt, M. N. and Salam, T. A. S."
   title: "Subsurface profiling along Banni Plains and bounding faults, Kachchh, Western India using Microtremors method"
   journal: "Journal of Asian Earth Sciences"
   year: 2017
