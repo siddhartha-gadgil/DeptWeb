@@ -1,10 +1,13 @@
 - name  :       Mamta Balodi (Ph.D., MNNIT Allahabad)
   user-id       :       mamtabalodi
 
+- name: Kiran Kumar Behera (Ph.D., IIT Rourkee)
+  user-id: kiranbehera
+
 - name  :       Projesh Nath Choudhury (Ph.D., IIT Madras)
   user-id       :       projeshc
 
-- name  :       Gopal Datt (Ph.D., )
+- name  :       Gopal Datt (Ph.D., University of Delhi)
   user-id       :       gopaldatt
 
 - name	:	Asha Kisan Dond (Ph.D., IIT Bombay)
@@ -20,7 +23,10 @@
   user-id : abhashjha
 
 - name : Kuldeep Kumar Kataria (Ph.D., IIT Bombay)
-  user-id : kuldeepk 
+  user-id : kuldeepk
+
+- name: Arun Maiti
+  user-id: arunmaiti
 
 - name	:	Dipendu Maity (Ph.D., IIT Patna)
   user-id	:	dipendumaity
@@ -37,6 +43,9 @@
 
 - name : Debamalya Sain (Ph.D., Jadavpur)
   user-id: debamalyasain
+
+- name: Bikramaditya Sahu (Ph.D., NISER Bhubaneshwar)
+  user-id: bikramadityas
 
 - name	:	Tanmay Sarkar (Ph.D., IIT Madras)
   user-id	:	tanmaysarkar
