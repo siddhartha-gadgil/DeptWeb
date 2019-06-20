@@ -4,6 +4,8 @@ title: "Invertibility and condition number of sparse random matrices"
 date: October 5, 2017
 time: 4 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
 ---
 I will describe our work that establishes (akin to) von Neumann's
 conjecture on condition number, the ratio of the largest and the
