@@ -5,5 +5,5 @@ date: 6 June, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
