@@ -5,7 +5,7 @@ date: October 5, 2017
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 ---
 I will describe our work that establishes (akin to) von Neumann's
 conjecture on condition number, the ratio of the largest and the
