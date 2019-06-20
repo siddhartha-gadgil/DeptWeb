@@ -4,6 +4,8 @@ title: "Problem governed by the von Kármán equations Morley finite element for
 date: 21 May, 2019
 time: 11 am
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
 ---
 
 This talk consists of the finite element analysis of a distributed optimal control problem
