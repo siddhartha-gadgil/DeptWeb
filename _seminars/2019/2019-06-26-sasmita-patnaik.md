@@ -1,7 +1,7 @@
 ---
 speaker: Sasmita Patnaik (Indian Institute of Technology, Kanpur)
 title: "Solvability of an operator equation in B(H)-semigroups"
-date: 27 June, 2019
+date: 26 June, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
