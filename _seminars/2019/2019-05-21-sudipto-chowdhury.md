@@ -5,7 +5,7 @@ date: 21 May, 2019
 time: 11 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 This talk consists of the finite element analysis of a distributed optimal control problem
