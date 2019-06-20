@@ -4,6 +4,8 @@ speaker: Nishant Chandgotia (Tel Aviv University, Israel)
 date: 2017-10-09
 time: 3 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
 ---
 
 It is a well-known result from Hermann Weyl that if alpha is an irrational number in [0,1)
