@@ -4,6 +4,8 @@ title: "Spectral asymptotics for a singularly perturbed periodic elliptic operat
 date: 26 February, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
 ---
 
 We consider a singularly perturbed Dirichlet spectral problem for an elliptic
