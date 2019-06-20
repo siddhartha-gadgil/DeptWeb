@@ -17,7 +17,7 @@ We provide new upper bounds for the Kobayashi metric on bounded convex domains i
 **The continuous extension of Kobayashi isometries:**
 We provide a new result in this direction that is based on the properties of convex domains viewed as distance spaces (equipped with the Kobayashi distance). Specifically, we sharpen certain techniques introduced recently by A. Zimmer and extend a result of his to a wider class of convex domains having lower boundary regularity. In particular, all complex geodesics into any such convex domain are shown to extend continuously to the unit circle.
 
-**A weak notion of negative curvature for the Kobayashi distance on domains in $\mathbb{C}^n:**
+**A weak notion of negative curvature for the Kobayashi distance on domains in $\mathbb{C}^n$:**
 We introduce and study a property that we call "visibility with respect to the Kobayashi distance", which is an analogue of the notion of uniform visibility in CAT(0) spaces. It abstracts an important and characteristic property of Gromov hyperbolic spaces. We call domains satisfying this newly-introduced property "visibility domains". Bharali--Zimmer recently introduced a class of domains called Goldilocks domains, which are visibility domains, and proved for Goldilocks domains a wide range of properties. We show that visibility domains form a proper superclass of the Goldilocks domains. We do so by constructing a family of domains that are visibility domains but not Goldilocks domains. We also show that visibility domains enjoy many of the properties shown to hold for Goldilocks domains.
 
 **Wolff--Denjoy-type theorems for visibility domains:**
