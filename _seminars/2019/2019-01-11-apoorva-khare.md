@@ -5,7 +5,7 @@ date: 11 January, 2019
 time: 3 pm
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: http://www.math.iisc.ac.in/~khare/algcomb-2019.html
 ---
 
 Consider the following three properties of a general group $G$:
