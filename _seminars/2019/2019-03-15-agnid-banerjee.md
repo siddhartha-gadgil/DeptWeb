@@ -4,6 +4,8 @@ title: "New monotonicity formulas for degenerate parabolic equations with applic
 date: 15 March, 2019
 time: 4 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
 ---
 
  I will continue my discussion on the  strong unique continuation theorem for zero order perturbations of the 
