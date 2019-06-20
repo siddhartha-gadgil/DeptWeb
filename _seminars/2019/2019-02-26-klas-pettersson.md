@@ -5,7 +5,7 @@ date: 26 February, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 We consider a singularly perturbed Dirichlet spectral problem for an elliptic
