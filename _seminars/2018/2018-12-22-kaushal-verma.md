@@ -1,7 +1,7 @@
 ---
 speaker: Kaushal Verma (IISc Mathematics)
 title: "The path of least resistance - from Euclid to Schwarz and plateau"
-date: 21 December, 2018
+date: 22 December, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
