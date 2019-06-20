@@ -4,6 +4,8 @@ title: "Dynamics of Schwarz reflections: mating rational maps with groups"
 date: 7 January, 2019
 time: 4:30 pm
 venue: LH-1, Mathematics Department (Skype talk)
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar
 ---
 
 A domain in the complex plane is called a quadrature domain if it admits a global Schwarz reflection map. Topology of quadrature domains has important applications to physics, and is intimately related to iteration of Schwarz reflection maps. As dynamical systems, Schwarz reflection maps  produce various instances of "matings" of rational maps and groups. 
