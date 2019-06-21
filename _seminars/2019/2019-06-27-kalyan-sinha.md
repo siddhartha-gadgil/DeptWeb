@@ -1,6 +1,6 @@
 ---
 speaker: Kalyan B. Sinha (Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore)
-title: "Formulae in Operator Theory - Story of Two  Projections (Ramanujan Medal Award Lecture, INSA)"
+title: "Formulae in Operator Theory - Story of Two Projections (Ramanujan Medal Award Lecture, INSA)"
 date: 27 June, 2019
 time: 4 pm
 venue: LH-1, Mathematics Department
