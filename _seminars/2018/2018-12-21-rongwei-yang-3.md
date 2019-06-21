@@ -4,4 +4,6 @@ title: "The projective spectrum: 3. Non-Euclidean metrics on the resolvent set"
 date: 21 December, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
