@@ -1,5 +1,5 @@
 ---
-speaker: Sasmita Patnaik (Indian Institute of Technology, Kanpur)
+speaker: Sasmita Patnaik (IIT, Kanpur)
 title: "Solvability of an operator equation in B(H)-semigroups"
 date: 26 June, 2019
 time: 3:30 pm
