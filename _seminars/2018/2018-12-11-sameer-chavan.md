@@ -4,6 +4,8 @@ title: "Wandering subspace problem for m-isometries"
 date: 11 December, 2018
 time: 3 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 The wandering subspace problem for an analytic (norm-increasing)
