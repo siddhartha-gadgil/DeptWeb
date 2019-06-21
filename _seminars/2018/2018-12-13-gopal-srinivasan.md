@@ -4,6 +4,8 @@ title: "The gamma function - an eclectic tour"
 date: 13 December, 2018
 time: 11 am
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 In this talk we shall take an eclectic tour
