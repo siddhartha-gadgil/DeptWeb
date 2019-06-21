@@ -1,9 +1,11 @@
 ---
-speaker: Harald Upmeier, Marburg University
+speaker: Harald Upmeier (Universität Marburg, Germany; InfoSys Chair Professor, IISc)
 title: Geometric Quantization in Complex and Harmonic Analysis
 date: 7 December 2018
 time: 3:00 pm
 venue: LH-1, Department of Mathematics
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 Professor H. Upmeier of the Marburg University would be visiting
