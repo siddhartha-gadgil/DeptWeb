@@ -1,6 +1,6 @@
 ---
 speaker: Pramath Anamby (IISc Mathematics)
-title: "Fourier coefficients of modular forms and mass of pullbacks of Saito--Kurokawa lifts."
+title: "Fourier coefficients of modular forms and mass of pullbacks of Saito--Kurokawa lifts"
 date: 25 June, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
