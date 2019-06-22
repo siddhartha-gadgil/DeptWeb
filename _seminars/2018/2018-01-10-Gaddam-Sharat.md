@@ -4,6 +4,9 @@ title: "Numerical methods for elliptic variational inequalities in higher dimens
 date: 10 January, 2018
 time: 10 am
 venue: LH-3, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: colloquium
 ---
 
 The main emphasis of this thesis is on developing and implementing linear and quadratic finite element methods for 3-dimensional (3D) elliptic obstacle problems. The study consists of a priori and a posteriori error analysis of conforming as well as discontinuous Galerkin methods on a 3D domain. The work in the thesis also focuses on constructing reliable and efficient error estimator for elliptic obstacle problem with inhomogenous boundary data on a 2D domain.
