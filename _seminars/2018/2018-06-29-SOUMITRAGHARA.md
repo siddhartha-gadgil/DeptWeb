@@ -4,6 +4,9 @@ title: "Decomposition of the tensor product of Hilbert modules via the jet const
 date: 29 June, 2018
 time: 11 am
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: colloquium
 ---
 
 Let $K$ be a bounded domain and $K:\Omega \times \Omega \to \mathbb{C}$ be a sesqui-analytic function. We show that if $\alpha,\beta>0$ be such that the functions $K^{\alpha}$ and $K^{\beta}$, defined on $\Omega\times\Omega$, are non-negative definite kernels, then the $M_m(\mathbb{C})$ valued function
