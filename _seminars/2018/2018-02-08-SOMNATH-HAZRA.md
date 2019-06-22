@@ -4,6 +4,9 @@ title: "Homogeneous operators"
 date: 08 February, 2018
 time: 2 pm
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: defence
 ---
 
 The classification of homogeneous scalar weighted shifts is known. Recently, 
