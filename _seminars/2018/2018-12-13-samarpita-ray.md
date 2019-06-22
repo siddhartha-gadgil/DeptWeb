@@ -1,6 +1,6 @@
 ---
 speaker: Samarpita Ray (IISc Mathematics)
-title: "Fourier coefficients of modular forms and mass of pullbacks of Saito--Kurokawa lifts"
+title: "Some Results on Spectral Spaces and spectral sequences"
 date: 13 December, 2018
 time: 4 pm
 venue: LH-3, Mathematics Department
