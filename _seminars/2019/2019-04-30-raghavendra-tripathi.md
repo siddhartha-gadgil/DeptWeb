@@ -4,6 +4,9 @@ date: 30th April 2019
 time: 11:30 am
 venue: LH-1, Mathematics Department
 title: Determinantal processes and stochastic domination
+series: Thesis
+series-prefix: MS
+series-suffix: colloquium
 ---
 
 The systematic study of determinantal processes began with the work of Macchi (1975), and since then they have appeared in different contexts like random matrix theory (eigenvalues of random matrices), combinatorics (random spanning tree, non-intersecting paths, measures on Young diagrams), and physics (fermions). A particularly interesting and well-known example of a discrete determinantal process is the Uniform spanning tree (UST) on finite graphs. We shall describe UST on complete graphs and complete bipartite graphs—in these cases it is possible to make explicit computations that yield some special cases of Aldous’ result on CRT.
