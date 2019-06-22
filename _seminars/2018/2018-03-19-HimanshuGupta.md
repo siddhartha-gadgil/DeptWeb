@@ -4,6 +4,9 @@ title: "Correlation Functions in the Finite Toom Model"
 date: 19th March, 2018
 time: 10 am
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: MS
+series-suffix: colloquium
 ---
 
 We consider a finite version of the one-dimensional Toom model with
