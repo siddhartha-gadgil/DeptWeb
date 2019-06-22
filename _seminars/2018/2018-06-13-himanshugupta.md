@@ -4,6 +4,9 @@ speaker: Himanshu Gupta (IISc Mathematics)
 date: 2018-06-13
 time: 3 pm
 location: LH-3, Mathematics Department
+series: Thesis
+series-prefix: MS
+series-suffix: defence
 ---
 
 We consider a finite version of the one-dimensional Toom model with closed boundaries. Each site is occupied either by a particle of type 0 or of type 1, where the total number of particles of type 0 and type 1 are fixed to be n_0 and n_1 respectively. We call this an (n_0,n_1)-system. The dynamics are as follows: the leftmost particle in a block can exchange its position with the leftmost particle of the block to its right.
