@@ -4,6 +4,9 @@ title: "Holomorphic functions into a locally convex topological vector space"
 date: 19th March, 2018
 time: 11:15 am
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: MS
+series-suffix: colloquium
 ---
 
  In this talk, we present a portion of the paper “Sur certains espaces de fonctions holomorphes.I.” by Alexandre Grothendieck. For a function f: O → E, where O is an open subset of the complex
