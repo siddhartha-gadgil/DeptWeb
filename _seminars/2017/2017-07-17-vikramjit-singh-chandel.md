@@ -4,6 +4,9 @@ title: "The Pick--Nevanlinna interpolation problem: complex-analytic methods in 
 date: July 17, 2017
 time: 3 pm
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: colloquium
 ---
 The Pick--Nevanlinna interpolation problem in its fullest generality is as
 follows:
