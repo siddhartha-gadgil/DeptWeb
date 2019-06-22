@@ -4,6 +4,8 @@ title: "Dynamics Of Determinantal Point Processes"
 date: 17 January, 2018
 time: 2:30 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 ---
 
 Determinantal point processes, which first appeared in Dyson's work on random matrices, arise in diverse problems of asymptotic combinatorics, ergodic theory, representation theory. They have strong chaotic properties: for example, the sine-process has the Kolmogorov property and satisfies the Central Limit Theorem. A Functional Limit Theorem for the sine-process has been established in joint work with A. Dymov. 
