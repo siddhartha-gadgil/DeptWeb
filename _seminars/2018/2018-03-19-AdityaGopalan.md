@@ -5,6 +5,8 @@ application to online learning problems"
 date: 19th March, 2018
 time: 3:15 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 ---
 
 We will begin by providing a brief introduction to
