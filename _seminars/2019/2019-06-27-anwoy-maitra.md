@@ -4,6 +4,9 @@ title: "On the Kobayashi geometry of domains"
 date: 27 June, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: defence
 ---
 
 We study questions broadly related to the Kobayashi (pseudo)distance and (pseudo)metric on domains in $\mathbb{C}^n$. Specifically, we study the following subjects:

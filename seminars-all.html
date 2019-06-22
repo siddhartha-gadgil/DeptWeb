@@ -13,7 +13,7 @@ title: Seminars
   <h5><strong> Title: </strong>
     {% if sem.series %}<a
     href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
-    >{{sem.series}}: </a>{% endif %}
+    >{{ sem.series-prefix }} {{sem.series}}{% if sem.series-suffix %} {{sem.series-suffix}}{% endif %}: </a>{% endif %}
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
   <h5>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </h5>

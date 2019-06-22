@@ -71,6 +71,16 @@ a.aprg-seminar:focus {
   text-decoration: underline;
 }
 
+.thesis {
+  color: green;
+}
+
+a.thesis:hover,
+a.thesis:focus {
+  color: green;
+  text-decoration: underline;
+}
+
 .eigenfunctions-seminar {
   color: #8a6d3b;
 }

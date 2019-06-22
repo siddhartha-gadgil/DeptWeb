@@ -2,7 +2,7 @@
 
 {% if page.series %}<h4><a
 href="{% if page.website %}{{ page.website }}#{{ page.date | date: "%Y-%m-%d" }}{% else %}{{ site.baseurl }}/{{ page.series | slugify }}.html#{{ page.date | date: "%Y-%m-%d" }}-{{ page.speaker | slugify }}{% endif %}" class="{{ page.series | slugify }}"
->{{page.series}} </a></h4>{% endif %}
+>{{ page.series-prefix }} {{page.series}} {{ page.series-suffix }} </a></h4>{% endif %}
 
 <div class="row">
 

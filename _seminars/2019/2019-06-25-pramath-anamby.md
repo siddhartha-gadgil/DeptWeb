@@ -4,6 +4,9 @@ title: "Fourier coefficients of modular forms and mass of pullbacks of Saito--Ku
 date: 25 June, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: colloquium
 ---
 
 In the first part of the talk we would discuss a topic about the Fourier coefficients of modular forms. Namely, we would focus on the question of distinguishing two modular forms by certain 'arithmetically interesting' Fourier coefficients. These type of results are known as 'recognition results' and have been a useful theme in the theory of modular forms,having lots of applications. As an example we would recall the Sturm's bound (which applies quite generally to a wide class of modular forms), which says that two modular forms are equal if (in a suitable sense) their 'first' few Fourier coefficients agree. As another  example we would mention the classical multiplicity-one result for elliptic new forms of integral weight, which says that if two such forms ``$f_1,f_2$`` have the same eigenvalues of the $p$-th Hecke operator `$T_p$` for almost all primes `$p$`, then `$f_1=f_2$`.
