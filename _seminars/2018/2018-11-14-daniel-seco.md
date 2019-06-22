@@ -4,6 +4,8 @@ title: "A $z^k$-invariant subspace without the wandering property"
 date: 14 November, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
+series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 We study operators of multiplication by $z^k$ in Dirichlet-type
