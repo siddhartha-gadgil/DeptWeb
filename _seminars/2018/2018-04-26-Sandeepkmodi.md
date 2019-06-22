@@ -1,6 +1,6 @@
 ---
 speaker: Sandeep K. Modi (IISc Mathematics)
-title: Computation of sparse representation of high dimensional time series date and experimental applications
+title: Computation of sparse representation of high dimensional time series data and experimental applications
 date: 2018-04-26
 time: 2:30 pm
 venue: LH-2, Mathematics Department
