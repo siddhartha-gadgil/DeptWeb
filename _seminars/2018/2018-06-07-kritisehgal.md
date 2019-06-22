@@ -4,6 +4,9 @@ speaker: Kriti Sehgal (IISc Mathematics)
 date: 2018-06-07
 time: 2:30 pm
 location: LH-1, Mathematics Department
+series: Thesis
+series-prefix: MS
+series-suffix: defence
 ---
 
 In this talk, we present a portion of the paper “Sur certains espaces de fonctions holomorphes.I.” by Alexandre Grothendieck. For a function f: O → E, where O is an open subset of the complex plane and E a locally convex topological vector space, we define two notions: holomorphicity and weak derivability. We discuss some properties of the holomorphic functions and see the condition under which these two notions coincide.
