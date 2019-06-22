@@ -4,6 +4,9 @@ title: "A Study of Conformal Metrics and Invariants on Planar Domains"
 date: 27 July, 2018
 time:  3 pm
 venue: LH-3, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: colloquium
 ---
 
 The main aim of this thesis is to explain the behaviour of some conformal metrics and invariants near a smooth boundary point of a domain in the complex plane. We will be interested in the invariants associated to the Carathéodory metric such as its higher order curvatures that were introduced by Burbea and the Aumann-Carathéodory rigidity constant, the Sugawa metric and the Hurwitz metric. The basic technical step in all these is the method of scaling the domain near a smooth boundary point.
