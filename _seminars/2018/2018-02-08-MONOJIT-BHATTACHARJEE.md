@@ -4,6 +4,9 @@ title: "Analytic models, dilations, wandering subspaces and inner functions"
 date: 08 February, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
+series: Thesis
+series-prefix: PhD
+series-suffix: defence
 ---
 
 In this talk we will discuss an analytic model theory for pure hyper-contractions (introduced by J. Agler) which is analogous to Sz.Nagy-Foias model theory for contractions. We then proceed to study analytic model theory for doubly commuting n-tuples of operators and analyze the structure of joint shift co-invariant subspaces of reproducing kernel Hilbert spaces over polydisc. In particular, we completely characterize the doubly commuting quotient modules of a large class of reproducing kernel Hilbert Modules, in the sense of Arazy and Englis, over the unit polydisc.
