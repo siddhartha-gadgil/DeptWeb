@@ -5,7 +5,7 @@ date: 10 July, 2018
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 ---
 
 Since its introduction, the class of entanglement breaking maps
