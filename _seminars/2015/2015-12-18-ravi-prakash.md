@@ -1,6 +1,6 @@
 ---
 date: 2015-12-18
-speaker: "Ravi Prakash, University of Conception, Chilie"
+speaker: "Ravi Prakash (IISc Mathematics)"
 title: "Homogenization of Periodic Optimal Control Problems in a Domain with highly oscillating boundary"
 time: "2:30pm"
 venue: "LH-3"
