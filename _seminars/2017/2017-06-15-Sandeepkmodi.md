@@ -1,12 +1,12 @@
 ---
 speaker: Sandeep K. Modi (IISc Mathematics)
-title: Computation of sparse representation of high dimensional time series data and experimental applications
+title: VAR Models, Granger Causality and Applications to Neuroscience
 date: 2018-04-26
 time: 2:30 pm
 venue: LH-2, Mathematics Department
 series: Thesis
 series-prefix: PhD
-series-suffix: defence
+series-suffix: colloquium
 ---
 
 Obtaining a sparse representation of high dimensional data is often the first step towards its further analysis. Conventional Vector Autoregressive (VAR) modelling methods applied to such data results in
