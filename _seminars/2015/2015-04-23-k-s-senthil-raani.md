@@ -8,7 +8,7 @@ series: Thesis
 series-prefix: PhD
 series-suffix: colloquium
 ---
-One of the basic questions in harmonic analysis is to study the decay properties of the Fourier transform of measures or distributions supported on thin sets in `$\mathbb{R}^n$`. When the support is a smooth enough manifold, an almost complete picture is available. One of the early results in this direction is the following: Let $f\in C_c^{\infty}(d\sigma)$, where $d\sigma$ is the surface measure on the sphere $S^{n-1}\subset\mathbb{R}^n$. Then
+One of the basic questions in harmonic analysis is to study the decay properties of the Fourier transform of measures or distributions supported on thin sets in $\mathbb{R}^n$. When the support is a smooth enough manifold, an almost complete picture is available. One of the early results in this direction is the following: Let $f\in C_c^{\infty}(d\sigma)$, where $d\sigma$ is the surface measure on the sphere $S^{n-1}\subset\mathbb{R}^n$. Then
 $$|\widehat{fd\sigma}(\xi)|\leq\ C\ (1+|\xi|)^{-\frac{n-1}{2}}.$$
 
 It follows that $\widehat{fd\sigma}\in L^p(\mathbb{R}^n)$ for all
@@ -20,7 +20,7 @@ $\mathbb{R}^n$ under appropriate curvature conditions. However, the
 picture for fractal measures is far from complete. This thesis is
 a contribution to the study of asymptotic properties of the
 Fourier transform of measures supported in sets of fractal
-dimension `$0<\alpha<n$` for `$p\leq 2n/\alpha$`.
+dimension $0<\alpha<n$ for $p\leq 2n/\alpha$.
 
 In 2004, Agranovsky and Narayanan proved that if $\mu$ is a
 measure supported in a $C^1$-manifold of dimension $d<n$, then
