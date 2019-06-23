@@ -1,12 +1,12 @@
 ---
-date: 2014-5-23
+date: 2014-10-14
 speaker: "Mr. Divakaran D."
 title: "Compactness theorem for the spaces of distance measure spaces and Riemann surface laminations."
 time: "11.00 a.m. - 12.00 noon"
 venue: "Lecture Hall I, Department of Mathematics"
 series: Thesis
 series-prefix: PhD
-series-suffix: colloquium
+series-suffix: defence
 ---
 Gromov’s compactness theorem for metric spaces, a compactness theorem for the
 space of compact metric spaces equipped with the Gromov-Hausdorff distance, is
