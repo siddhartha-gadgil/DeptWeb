@@ -6,7 +6,7 @@ time: 3 pm
 venue: LH-1, Mathematics Department
 series: Thesis
 series-prefix: PhD
-series-suffix: defence
+series-suffix: colloquium
 ---
 
 We study questions broadly related to the Kobayashi (pseudo)distance and (pseudo)metric on domains in $\mathbb{C}^n$. Specifically, we study the following subjects:
