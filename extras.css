@@ -32,12 +32,12 @@ a:focus {
 }
 
 .algebra-combinatorics-seminar {
-  color: #3c763d;
+  color: magenta;
 }
 
 a.algebra-combinatorics-seminar:hover,
 a.algebra-combinatorics-seminar:focus {
-  color: #3c763d;
+  color: magenta;
   text-decoration: underline;
 }
 
