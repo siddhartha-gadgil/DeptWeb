@@ -9,4 +9,4 @@ Advanced Scientific Research.
 The lecture is at 4pm, on Thursday June 27, 2019, in
 Lecture Hall LH-1 in the Department of Mathematics, IISc.
 
-<img src="{{site.baseurl}}/images/2019-06-27-Ramanujan-Medal-Award-KBS.pdf" alt=""/>
+<embed src="{{site.baseurl}}/images/2019-06-27-Ramanujan-Medal-Award-KBS.pdf" alt=""/>
