@@ -9,7 +9,7 @@ series-prefix: PhD
 series-suffix: defence
 ---
 An ordinary ring may be expressed as a preadditive category with a single object.
-Accordingly, as introduced by B. Mitchel, an arbitrary small preadditive category
+Accordingly, as introduced by B. Mitchell, an arbitrary small preadditive category
 may be understood as a "ring with several objects".  In this respect, for a Hopf
 algebra H, an H-category will denote an "H-module algebra with several objects"
 and a co-H-category will denote an  "H-comodule algebra with several objects".
