@@ -105,96 +105,117 @@ aug2019:
   - name: Multivariable Calculus
     credits: '3:1'
     instructor: Kaushal Verma
-    timing:
+    timing: 'Mon, Wed, Fri: 2:00-3:00'
     code: MA 200
     prereq-courses: ''
     ug-prereq-courses: UM 204
+    venue: LH-4
   - name: Algebra I
     instructor: Apoorva Khare
-    timing:
+    timing: 'Tue, Thu: 11:30-1:00'
     code: MA 212
     prereq-courses: ''
     ug-prereq-courses: UM 203
+    venue: LH-3
   - name: Linear Algebra
     credits: '3:1'
     instructor: Vamsi Pingali
-    timing:
+    timing: 'Tue, Thu: 2:00-3:30'
     code: MA 219
     prereq-courses: ''
     ug-prereq-courses: UM 102
+    venue: LH-4
   - name: 'Analysis I: Real Anaysis'
     instructor: Gadadhar Misra
-    timing:
+    timing: 'Mon, Wed, Fri: 11:00-12:00'
     code: MA 221
     prereq-courses: ''
     ug-prereq-courses:
+    venue: LH-4
   - name: Topology
     credits: '3:1'
     instructor: Subhojoy Gupta
-    timing:
+    timing: 'Tue, Thu: 4:00-5:30'
     code: MA 231
     prereq-courses: ''
     ug-prereq-courses: UM 204
+    venue: LH-4
   - name: Probability Models
     instructor: Arvind Ayyer
-    timing:
+    timing: 'Mon, Wed, Fri: 10:00-11:00'
     code: MA 261
     webpage:
     prereq-courses: ''
     ug-prereq-courses: ''
+    venue: LH-4
   core2:
   - name: Functional Analysis
     instructor: S. Thangavelu
-    timing:
+    timing: 'Mon, Wed, Fri: 10:00-11:00'
     code: MA 223
     prereq-courses: MA 222, MA 224 & MA 219
     ug-prereq-courses: ''
+    venue: LH-5
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
-    timing:
+    timing: 'Tue, Thu: 8:30-10:00'
     webpage: http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/
     code: MA 232
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
+    venue: LH-5
   - name: Partial Differential Equations
     instructor: Thirupathi Gudi
-    timing:
+    timing: 'Tue, Thu: 10:00-11:30'
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
+    venue: LH-5
   electives:
   - name: Introduction to Graph Theory
     instructor : Arvind Ayyer
     code: MA 216
+    timing: 'Tue, Thu: 10:00-11:30'
+    venue: LH-4
   - name: Representation Theory of Finite Groups
     instructor: Pooja Singla
     code: MA 220
     prereq-courses: MA 212 and MA 219
+    timing: 'Tue, Thu: 11:30-1:00'
+    venue: LH-5
   - name: Topics in Morse Theory
     code: MA 306
     instructor: Arun Maiti
+    timing: 'Mon, Wed, Fri: 2:00-3:00'
+    venue: LH-5
   - name: Introduction to Several Complex Variables
     code: MA 328
     instructor: Gautam Bharali
+    timing: 'Tue, Thu: 2:00-3:30'
+    venue: LH-5
   - name: Riemannian Geometry
     code: MA 333
     instructor: Ved Datar
+    timing: 'Tue, Thu: 10:00-11:30'
+    venue: LH-3
   - name: Matrix Analysis & positivity
     instructor: Apoorva Khare
-    timing:
+    timing: 'Tue, Thu: 3:30-5:00'
     code: MA 341
     webpage:
     prereq-courses: MA 219
     ug-prereq-courses: ''
+    venue: LH-3
   - name: Topics around the Grothendieck inequality
     code: MA 349
     instructor: Gadadhar Misra
   - name: Probability Theory
     instructor: Manjunath Krishnapur
-    timing:
+    timing: 'Tue, Thu: 3:30-5:00'
     code: MA 361
     prereq-courses: MA 222
     ug-prereq-courses: ''
+    venue: LH-5
   - name: Control & Homogenization
     instructor: A. K. Nandakumaran
     code: MA 371
@@ -209,6 +230,8 @@ aug2019:
   - name: Large Deviations
     code: MA 396
     instructor: Anirban Basak
+    timing: 'Tue, Thu: 2:00-3:30'
+    venue: LH-3
 
 
 jan2019:
