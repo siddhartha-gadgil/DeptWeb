@@ -223,10 +223,11 @@ aug2019:
     ug-prereq-courses: ''
   - name: Topics in Stochastic Finance
     instructor: Mrinal K. Ghosh
-    timing:
+    timing: 'Tue, Thu: 11:30-1:00'
     code: MA 395
     prereq-courses: ''
     ug-prereq-courses: ''
+    venue: LH-3
   - name: Large Deviations
     code: MA 396
     instructor: Anirban Basak
