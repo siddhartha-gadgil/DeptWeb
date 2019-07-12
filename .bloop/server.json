@@ -164,6 +164,11 @@
                         {
                             "name" : "os-lib_2.12",
                             "path" : "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.2.7/os-lib_2.12-0.2.7.jar"
+                        },
+                        {
+                            "name" : "os-lib_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/gadgil/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/os-lib_2.12/0.2.7/os-lib_2.12-0.2.7-sources.jar"
                         }
                     ]
                 },
