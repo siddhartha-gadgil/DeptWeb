@@ -1,7 +1,7 @@
 ---
 title: Postdoctoral Positions
 ---
-The department hosts postdocs having various external Postdoctoral fellowships. If you wish to join the department as a psotdoc, please apply for one of these. You may wish to contact a [faculty member](faculty.html) in an area related to your work.
+The department hosts postdocs having various external Postdoctoral fellowships. If you wish to join the department as a postdoc, you can apply for one of these. You may wish to contact a [faculty member](faculty.html) in an area related to your work.
 
 Some of the fellowships to which you may apply are:
 
@@ -9,4 +9,4 @@ Some of the fellowships to which you may apply are:
 * [U.G.C. Kothari Fellowship](http://ugcdskpdf.unipune.ac.in/)
 * [National Postdoctoral Fellowship](http://www.serb.gov.in/npdf.php)
 
-The Indian Institute of Science currently does not have its own post-doctoral fellowships. However some members of our [faculty](faculty.html) may have grants that can support a post-doctoral position.
+The Indian Institute of Science also offers the selective [Raman Post-Doctoral Fellowship](https://iisc.ac.in/post-docs/). Some members of our [faculty](faculty.html) may also have grants that can support a post-doctoral position.
