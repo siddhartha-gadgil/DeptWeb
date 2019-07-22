@@ -1,63 +1,92 @@
 - name  :       Mamta Balodi (Ph.D., MNNIT Allahabad)
   user-id       :       mamtabalodi
+  position: IISc Raman PDF
 
 - name: Kiran Kumar Behera (Ph.D., IIT Rourkee)
   user-id: kiranbehera
+  position: UGC Kothari
 
 - name: Sudip Bera (Ph.D., Visva-Bharati University)
   user-id: sudipbera
+  position: NBHM
 
 - name  :       Projesh Nath Choudhury (Ph.D., IIT Madras)
   user-id       :       projeshc
+  position: NBHM
 
 - name  :       Gopal Datt (Ph.D., University of Delhi)
   user-id       :       gopaldatt
+  position: NBHM
 
 - name	:	Asha Kisan Dond (Ph.D., IIT Bombay)
   user-id	:	ashadond
+  position: NBHM
 
 - name: Anupam Gumber (Ph.D., IIT Indore)
   user-id: anupamgumber
+  position: NBHM
 
 - name: Sumana Hatui (Ph.D., HRI, Allahabad)
   user-id: sumanahatui
+  position: NBHM
 
 - name : Abhash Kumar Jha (Ph.D., NISER)
   user-id : abhashjha
+  position: NBHM
 
 - name : Kuldeep Kumar Kataria (Ph.D., IIT Bombay)
   user-id : kuldeepk
+  position: NBHM
 
 - name: Arun Maiti
   user-id: arunmaiti
+  position: NBHM
 
 - name	:	Dipendu Maity (Ph.D., IIT Patna)
   user-id	:	dipendumaity
+  position: NBHM
 
 - name	:	Gouranga Mallik (Ph.D., IIT Bombay)
   user-id	:	gourangam
+  position: NBHM
 
 
 - name	:	Kaustubh Manchanda (Ph.D., JNU)
   user-id	:	kaustubhm
+  position: UGC Kothari
+
+- name: Divya Khurana (Ph.D., IIT Kanpur)
+  user-id: divyakhurana
+  position: NBHM
 
 - name	:	 Anirudha Poria  (Ph.D., IIT Guwahati)
   user-id	:	anirudhap
+  position: NBHM
 
 - name	:	 Vishnu Priya Nataraj (Ph.D., Bharathidasan University, Tamilnadu)
   user-id	:	vishnupriyan
+  position: NBHM
 
 - name : Debamalya Sain (Ph.D., Jadavpur)
   user-id: debamalyasain
+  position: UGC Kothari
 
 - name: Bikramaditya Sahu (Ph.D., NISER Bhubaneshwar)
   user-id: bikramadityas
+  position: NBHM
 
-- name	:	Tanmay Sarkar (Ph.D., IIT Madras)
-  user-id	:	tanmaysarkar
+- name	:	Srijan Sarkar (NBHM) (Ph.D., ISI Bangalore)
+  user-id: srijans
+  position: NBHM
 
 - name	:	Sneh Bala Sinha (Ph.D., HRI, Allahabad)
   user-id	:	snehasinha
+  position: NBHM
 
-- name  :       Abhitosh Upadhyay (Ph.D., Guru Gobind Singh Indraprastha University Delhi)
-  user-id       :       abhitoshu
+- name: Tamal Pramanick (NBHM) (Ph.D., IIT Guwahati)
+  user-id: tamalp
+  position: NBHM
+
+- name  :  Abhitosh Upadhyay (Ph.D., Guru Gobind Singh Indraprastha University Delhi)
+  user-id : abhitoshu
+  position: NPDF
