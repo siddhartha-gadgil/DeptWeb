@@ -1,44 +1,8 @@
-- name:	Sandeep K Mody
-  user-id:	sandeepmody
-  year-of-joining: 2009
-  programme: PhD
-  image: true
-
 
 
 - name	:	Jis Joseph
   user-id	:	jisjoseph
   year-of-joining: 2010
-  programme: PhD
-
-
-
-
-
-- name	:	S Aiyappan
-  user-id	:	aiyappans
-  year-of-joining: 2012
-  programme: PhD
-  image: true
-
-
-- name	:	Monojit Bhattachariya
-  user-id	:	monojitb
-  year-of-joining: 2012
-  programme: PhD
-  image: true
-
-
-
-
-- name	:	Somnath Hazra
-  user-id	:	somnathhazra
-  year-of-joining: 2012
-  programme: PhD
-
-- name	:	Gaddam Sharat
-  user-id	:	sharatgaddam
-  year-of-joining: 2012
   programme: PhD
 
 
@@ -125,30 +89,10 @@
 
 
 
-- name	:	Soumitra Ghara
-  user-id	:	gharas
-  year-of-joining: 2011
-  programme: Integrated PhD
-
-
 - name	:	Harshavardan R
   user-id	:	harsha11
   year-of-joining: 2011
   programme: Integrated PhD
-
-
-- name	:	Samarpita Ray
-  user-id	:	samarpitaray
-  year-of-joining: 2011
-  programme: Integrated PhD
-  image: true
-
-
-- name	:	Amar Deep Sarkar
-  user-id	:	amarsarkar
-  year-of-joining: 2011
-  programme: Integrated PhD
-  image: true
 
 
 
@@ -234,16 +178,6 @@
   programme: Integrated PhD
 
 
-- name	:	Himanshu Gupta
-  user-id	:	himanshug
-  year-of-joining: 2015
-  programme: Integrated PhD
-  image: true
-
-- name	:	Kriti Sehgal
-  user-id	:	kritisehgal
-  year-of-joining: 2015
-  programme: Integrated PhD
 
 - name	:	Prateek Kumar Vishwakarma
   user-id	:	prateekv
@@ -416,4 +350,3 @@
   user-id: agnivac
   year-of-joining: 2018
   programme: Integrated PhD
-

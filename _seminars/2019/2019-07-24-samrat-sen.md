@@ -1,4 +1,3 @@
-
 ---
 speaker: Samrat Sen (IISc Mathematics)
 title: "Geometric Invariants For a Class of Submodules of Analytic Hilbert Modules"
