@@ -180,6 +180,7 @@
   user-id	:	sahilg
   year-of-joining: 2015
   programme: Integrated PhD
+  image: true
 
 
 - name	:	Surjadipta De Sarkar
@@ -257,6 +258,7 @@
   user-id: aakankshaj
   year-of-joining: 2017
   programme: Integrated PhD
+  image: true
 
 - name: Arindam Mandal
   year-of-joining: 2017
@@ -267,6 +269,7 @@
   user-id: neeladrim
   year-of-joining: 2017
   programme: Integrated PhD
+  image: true
 
 - name: Aparajita Karmakar
   user-id: aparajitak
