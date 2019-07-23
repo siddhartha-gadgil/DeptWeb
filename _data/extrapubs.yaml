@@ -38,14 +38,6 @@
   volume: 9
   pages:
 
-- author: "Benedetti, Carolina and González D’León, Rafael S. and Hanusa, Christopher R.H. and Harris, Pamela E. and Khare, Apoorva and Morales, Alejandro H. and Yip, Martha"
-  title: "The volume of the caracol polytope"
-  fjournal: "Séminaire Lotharingien de Combinatoire"
-  journal: "S&eacute;m. Lothar. Combin."
-  volume:  80B,
-  article: "#87"
-  year: 2018
-  url: 'https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2018/87-AIM2016.html'
 
 - author: Khare, Apoorva
   title: Generalized nil-Coxeter algebras
