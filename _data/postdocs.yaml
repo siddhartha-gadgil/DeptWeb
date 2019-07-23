@@ -16,7 +16,7 @@
 
 - name  :       Gopal Datt (Ph.D., University of Delhi)
   user-id       :       gopaldatt
-  position: NBHM
+  position: NPDF
 
 - name	:	Asha Kisan Dond (Ph.D., IIT Bombay)
   user-id	:	ashadond
@@ -30,13 +30,17 @@
   user-id: sumanahatui
   position: NBHM
 
+- name: Divya Khurana (Ph.D., IIT Kanpur)
+  user-id: divyakhurana
+  position: UGC Kothari
+
 - name: Arun Maiti
   user-id: arunmaiti
   position: NBHM
 
 - name	:	Dipendu Maity (Ph.D., IIT Patna)
   user-id	:	dipendumaity
-  position: NBHM
+  position: UGC Kothari
 
 - name	:	Gouranga Mallik (Ph.D., IIT Bombay)
   user-id	:	gourangam
@@ -47,17 +51,19 @@
   user-id	:	kaustubhm
   position: UGC Kothari
 
-- name: Divya Khurana (Ph.D., IIT Kanpur)
-  user-id: divyakhurana
-  position: NBHM
+- name	:	 Vishnu Priya Nataraj (Ph.D., Bharathidasan University, Tamilnadu)
+  user-id	:	vishnupriyan
+  position: UGC Kothari
+
 
 - name	:	 Anirudha Poria  (Ph.D., IIT Guwahati)
   user-id	:	anirudhap
+  position: UGC Kothari
+
+- name: Tamal Pramanick (NBHM) (Ph.D., IIT Guwahati)
+  user-id: tamalp
   position: NBHM
 
-- name	:	 Vishnu Priya Nataraj (Ph.D., Bharathidasan University, Tamilnadu)
-  user-id	:	vishnupriyan
-  position: NBHM
 
 - name : Debamalya Sain (Ph.D., Jadavpur)
   user-id: debamalyasain
@@ -73,10 +79,6 @@
 
 - name	:	Sneh Bala Sinha (Ph.D., HRI, Allahabad)
   user-id	:	snehasinha
-  position: NBHM
-
-- name: Tamal Pramanick (NBHM) (Ph.D., IIT Guwahati)
-  user-id: tamalp
   position: NBHM
 
 - name  :  Abhitosh Upadhyay (Ph.D., Guru Gobind Singh Indraprastha University Delhi)
