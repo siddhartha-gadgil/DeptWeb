@@ -28,7 +28,9 @@ title: Postdocs
       </div>
     </td>
     <td>
+        {% if stu.image %}
       <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
+        {% endif %}
   </tr>
   {%  endfor %}
 </table>
