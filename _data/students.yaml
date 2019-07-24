@@ -264,6 +264,7 @@
   year-of-joining: 2017
   programme: Integrated PhD
   user-id: arindamm
+  image: true
 
 - name: Neeladri Maitra
   user-id: neeladrim
@@ -307,6 +308,7 @@
   user-id: annapurnab
   year-of-joining: 2018
   programme: PhD
+  image: true
 
 - name: Nishu Kumari
   user-id: nishukumari
