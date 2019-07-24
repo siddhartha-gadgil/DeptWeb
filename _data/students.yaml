@@ -193,6 +193,7 @@
   user-id	:	kartickghosh
   year-of-joining: 2016
   programme: Integrated PhD
+  image: true
 
 
 - name	:	Pabitra Barman
@@ -221,6 +222,7 @@
   user-id	:	ragavendrat
   year-of-joining: 2016
   programme: Integrated PhD
+  image: true
 
 - name	:	Shubham Rastogi
   user-id	:	shubhamr
