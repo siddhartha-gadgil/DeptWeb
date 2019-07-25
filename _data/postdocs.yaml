@@ -2,33 +2,40 @@
   user-id       :       mamtabalodi
   position: IISc Raman PDF
 
-- name: Kiran Kumar Behera (Ph.D., IIT Rourkee)
+- name: Kiran Kumar Behera (Ph.D., IIT Roorkee)
   user-id: kiranbehera
   position: UGC Kothari
+  image: true
 
 - name: Sudip Bera (Ph.D., Visva-Bharati University)
   user-id: sudipbera
   position: NBHM
+  image: true
 
 - name  :       Projesh Nath Choudhury (Ph.D., IIT Madras)
   user-id       :       projeshc
   position: NBHM
+  image: true
 
 - name  :       Gopal Datt (Ph.D., University of Delhi)
   user-id       :       gopaldatt
   position: NPDF
+  image: true
 
 - name	:	Asha Kisan Dond (Ph.D., IIT Bombay)
   user-id	:	ashadond
   position: NBHM
+  image: true
 
 - name: Anupam Gumber (Ph.D., IIT Indore)
   user-id: anupamgumber
   position: NBHM
+  image: true
 
 - name: Sumana Hatui (Ph.D., HRI, Allahabad)
   user-id: sumanahatui
   position: NBHM
+  image: true
 
 - name: Divya Khurana (Ph.D., IIT Kanpur)
   user-id: divyakhurana
@@ -41,15 +48,18 @@
 - name	:	Dipendu Maity (Ph.D., IIT Patna)
   user-id	:	dipendumaity
   position: UGC Kothari
+  image: true
 
 - name	:	Gouranga Mallik (Ph.D., IIT Bombay)
   user-id	:	gourangam
   position: NBHM
+  image: true
 
 
 - name	:	Kaustubh Manchanda (Ph.D., JNU)
   user-id	:	kaustubhm
   position: UGC Kothari
+  image: true
 
 - name	:	 Vishnu Priya Nataraj (Ph.D., Bharathidasan University, Tamilnadu)
   user-id	:	vishnupriyan
@@ -59,6 +69,7 @@
 - name	:	 Anirudha Poria  (Ph.D., IIT Guwahati)
   user-id	:	anirudhap
   position: UGC Kothari
+  image: true
 
 - name: Tamal Pramanick  (Ph.D., IIT Guwahati)
   user-id: tamalp
@@ -77,6 +88,7 @@
 - name	:	Srijan Sarkar  (Ph.D., ISI Bangalore)
   user-id: srijans
   position: NBHM
+  image: true
 
 - name	:	Sneh Bala Sinha (Ph.D., HRI, Allahabad)
   user-id	:	snehasinha
@@ -85,3 +97,4 @@
 - name  :  Abhitosh Upadhyay (Ph.D., Guru Gobind Singh Indraprastha University Delhi)
   user-id : abhitoshu
   position: NPDF
+  image: true

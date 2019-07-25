@@ -1,48 +1,3 @@
-- name:	Sandeep K Mody
-  user-id:	sandeepmody
-  year-of-joining: 2009
-  programme: PhD
-  image: true
-
-
-
-- name	:	Jis Joseph
-  user-id	:	jisjoseph
-  year-of-joining: 2010
-  programme: PhD
-
-
-
-
-
-- name	:	S Aiyappan
-  user-id	:	aiyappans
-  year-of-joining: 2012
-  programme: PhD
-  image: true
-
-
-- name	:	Monojit Bhattachariya
-  user-id	:	monojitb
-  year-of-joining: 2012
-  programme: PhD
-  image: true
-
-
-
-
-- name	:	Somnath Hazra
-  user-id	:	somnathhazra
-  year-of-joining: 2012
-  programme: PhD
-
-- name	:	Gaddam Sharat
-  user-id	:	sharatgaddam
-  year-of-joining: 2012
-  programme: PhD
-
-
-
 - name	:	Rakesh Kumar
   user-id	:	rakeshkumar
   year-of-joining: 2013
@@ -125,30 +80,10 @@
 
 
 
-- name	:	Soumitra Ghara
-  user-id	:	gharas
-  year-of-joining: 2011
-  programme: Integrated PhD
-
-
 - name	:	Harshavardan R
   user-id	:	harsha11
   year-of-joining: 2011
   programme: Integrated PhD
-
-
-- name	:	Samarpita Ray
-  user-id	:	samarpitaray
-  year-of-joining: 2011
-  programme: Integrated PhD
-  image: true
-
-
-- name	:	Amar Deep Sarkar
-  user-id	:	amarsarkar
-  year-of-joining: 2011
-  programme: Integrated PhD
-  image: true
 
 
 
@@ -189,12 +124,14 @@
   user-id	:	gsubhajit
   year-of-joining: 2013
   programme: Integrated PhD
+  image: true
 
 
 - name	:	Anindya Biswas
   user-id	:	anindyab
   year-of-joining: 2014
   programme: Integrated PhD
+  image: true
 
 
 - name	:	Rahul Biswas
@@ -234,16 +171,6 @@
   programme: Integrated PhD
 
 
-- name	:	Himanshu Gupta
-  user-id	:	himanshug
-  year-of-joining: 2015
-  programme: Integrated PhD
-  image: true
-
-- name	:	Kriti Sehgal
-  user-id	:	kritisehgal
-  year-of-joining: 2015
-  programme: Integrated PhD
 
 - name	:	Prateek Kumar Vishwakarma
   user-id	:	prateekv
@@ -255,6 +182,7 @@
   user-id	:	sahilg
   year-of-joining: 2015
   programme: Integrated PhD
+  image: true
 
 
 - name	:	Surjadipta De Sarkar
@@ -267,6 +195,7 @@
   user-id	:	kartickghosh
   year-of-joining: 2016
   programme: Integrated PhD
+  image: true
 
 
 - name	:	Pabitra Barman
@@ -291,10 +220,11 @@
   year-of-joining: 2016
   programme: Integrated PhD
 
-- name	:	Ragavendra Tripathi
+- name	:	Raghavendra Tripathi
   user-id	:	ragavendrat
   year-of-joining: 2016
   programme: Integrated PhD
+  image: true
 
 - name	:	Shubham Rastogi
   user-id	:	shubhamr
@@ -332,16 +262,19 @@
   user-id: aakankshaj
   year-of-joining: 2017
   programme: Integrated PhD
+  image: true
 
 - name: Arindam Mandal
   year-of-joining: 2017
   programme: Integrated PhD
   user-id: arindamm
+  image: true
 
 - name: Neeladri Maitra
   user-id: neeladrim
   year-of-joining: 2017
   programme: Integrated PhD
+  image: true
 
 - name: Aparajita Karmakar
   user-id: aparajitak
@@ -374,11 +307,13 @@
   user-id: renjitht
   year-of-joining: 2018
   programme: PhD
+  image: true
 
 - name: Annapurna Banik
   user-id: annapurnab
   year-of-joining: 2018
   programme: PhD
+  image: true
 
 - name: Nishu Kumari
   user-id: nishukumari
@@ -416,4 +351,3 @@
   user-id: agnivac
   year-of-joining: 2018
   programme: Integrated PhD
-
