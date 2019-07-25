@@ -2,11 +2,10 @@
 title: Students
 layout: blank
 ---
-{% assign sl = 1 %}{% assign students = site.data.students | where: "programme", "PhD" %}
-{% assign years = students | group_by: "year-of-joining" %}
 <html> <body>
 <pre><code>
-\subsubsection*{{\small $(a)$ {\sc Research scholars}}}
+{% assign sl = 1 %}{% assign students = site.data.students | where: "programme", "PhD" %}{% assign years = students | group_by: "year-of-joining" %}
+\subsubsection*{\small $(a)$ {\sc Research scholars}}
 
 \begin{center}
 \begin{longtable}{|l|l|c|l|l|}
@@ -26,6 +25,33 @@ layout: blank
 &&&& \\[-4mm]
 {{ sl }} & {{ stu.name }} & {{ y.name }}  & "yet to decide" & IISc \\[1mm]\hline
 %{% assign sl = sl | plus: 1 %}{% endfor %}{% endfor %}
+\end{longtable}
+\end{center}
+
+{% assign sl = 1 %}{% assign students = site.data.students | where: "programme", "Integrated PhD" %}{% assign years = students | group_by: "year-of-joining" %}
+\subsubsection*{\small $(a)$ {\sc Research scholars}}
+
+\begin{center}
+\begin{longtable}{|l|l|c|l|l|}
+
+\hline
+&&&& \\[-4mm]
+{\bf Sl.} & {\bf Name} & {\bf Year of} & {\bf Guide}\hspace{3.5cm}  & {\bf Scholarship}\hspace{1.1cm}  \\
+{\bf No.} & & {\bf joining} &  & \\[1mm]\hline
+\endfirsthead
+
+\hline
+&&&& \\[-4mm]
+{\bf Sl.} & {\bf Name} & {\bf Year of} & {\bf Guide}\hspace{3.5cm}  & {\bf Scholarship}\hspace{1.1cm}  \\
+{\bf No.} & & {\bf joining} &  & \\[1mm]\hline
+\endhead
+{% for y in years %}{% assign list = y.items | sort: 'name' %}{% for stu in list %}
+&&&& \\[-4mm]
+{{ sl }} & {{ stu.name }} & {{ y.name }}  & "yet to decide" & IISc \\[1mm]\hline
+%{% assign sl = sl | plus: 1 %}{% endfor %}{% endfor %}
+\end{longtable}
+\end{center}
+
 </code> </pre>
 </body> </html>
 
