@@ -4,9 +4,9 @@
   <code>
     \begin{enumerate}
     {% for sem in sorted  %}{% capture year %}{{sem.date | date: "%Y"}}{% endcapture %}{% if year == current %}
-      \item Prof.~{{ sem.speaker }} gave a talk entitled {\em {{ sem.title }}} on {{ sem.date | date: '%b %d, %Y' }}{% if sem.series-prefix %}
+      \item Prof.~{{ sem.speaker }} gave a talk entitled {\em {{ sem.title }}} on {{ sem.date | date: '%b %-d, %Y' }}{% if sem.series-prefix %}
       as his/her {{ sem.series-prefix }} {{ sem.series }} {{ sem.series-suffix}}{% elsif sem.series %}
-      in the {{ sem.series}}{% endif %}.
+      in the {{ sem.series | replace: ' & ', "~\\&~" }}{% endif %}.
       {% endif %}{% endfor %}
     \end{enumerate}
   </code>
