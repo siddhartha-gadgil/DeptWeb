@@ -34,10 +34,10 @@ $\mathcal{Q} \subseteq H^2\_{\mathcal{D}}(\mathbb{D})$.
 Then $T = T_1 T_2$, for some commuting contractions $T_1$ and $T_2$ on
 $\mathcal{H}$, if and only if there exist $\mathcal{B}(\mathcal{D})$-valued
 polynomials $\varphi$ and $\psi$ of degree $\leq 1$ such that
-$\mathcal{Q}$ is a joint ($M\_\varphi^{*}, M\_\psi^{*}$)-invariant subspace and
+$\mathcal{Q}$ is a joint ($M_\varphi^{*}, M_\psi^{*}$)-invariant subspace and
 
 $$
-P_{\mathcal{Q}} M_z\mid\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
+P_{\mathcal{Q}} M_z\mid_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
 \psi}|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\psi
 \varphi}|\_{\mathcal{Q}} \quad \mbox{and} \quad (T_1, T_2) \cong
 (P_{\mathcal{Q}} M_{\varphi}|\_{\mathcal{Q}}, P_{\mathcal{Q}}
