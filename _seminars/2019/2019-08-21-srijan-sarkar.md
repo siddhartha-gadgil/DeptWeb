@@ -37,7 +37,7 @@ a joint $(M_{\varphi}^*, M_{\psi}^*)$-invariant subspace and
 $$
 P_{\mathcal{Q}} M_z|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
 \psi}|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\psi
-\varphi}|\_{\mathcal{Q}} \mbox{~and~} (T_1, T_2) \cong
+\varphi}|\_{\mathcal{Q}} \mbox{ and } (T_1, T_2) \cong
 (P_{\mathcal{Q}} M_{\varphi}|\_{\mathcal{Q}}, P_{\mathcal{Q}}
 M_{\psi}|\_{\mathcal{Q}}).
 $$
@@ -49,7 +49,7 @@ V^* \Psi(z) V \quad \quad (z \in \mathbb{D}),
 $$
 where the pair $(\Phi, \Psi)$, as defined above, is the Berger,
 Coburn and Lebow representation of a pure pair of commuting
-isometries on $H^2_{\mathcal{E}}(\mathbb{D})$. As an application, we shall obtain a
+isometries on $H^2\_{\mathcal{E}}(\mathbb{D})$. As an application, we shall obtain a
 sharper von Neumann inequality for commuting pairs of contractions.
 
 If time permits, then we will look at some of the recent work by other authors
