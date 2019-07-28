@@ -48,7 +48,7 @@ Moreover, there exist a Hilbert space $\mathcal{E}$ and an isometry
 $V \in \mathcal{B}(\mathcal{D}; \mathcal{E})$ such that
 
 $$
-\varphi(z) = V^* \Phi(z) V \mbox{ and } \psi(z) =
+\varphi(z) = V^* \Phi(z) V \quad \mbox{and} \quad \psi(z) =
 V^* \Psi(z) V \quad \quad (z \in \mathbb{D}),
 $$
 
