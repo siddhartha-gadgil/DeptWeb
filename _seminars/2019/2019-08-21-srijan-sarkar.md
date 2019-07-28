@@ -38,10 +38,10 @@ $\mathcal{Q}$ is a joint ($M^\*\_{\varphi}, M^\*\_{\psi}$)-invariant subspace an
 
 $$
 P_{\mathcal{Q}} M_z\mid_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
-\psi}|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\psi
-\varphi}|\_{\mathcal{Q}} \quad \mbox{and} \quad (T_1, T_2) \cong
-(P_{\mathcal{Q}} M_{\varphi}|\_{\mathcal{Q}}, P_{\mathcal{Q}}
-M_{\psi}|\_{\mathcal{Q}}).
+\psi}\mid_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\psi
+\varphi}\mid_{\mathcal{Q}} \quad \mbox{and} \quad (T_1, T_2) \cong
+(P_{\mathcal{Q}} M_{\varphi}\mid_{\mathcal{Q}}, P_{\mathcal{Q}}
+M_{\psi}\mid_{\mathcal{Q}}).
 $$
 
 Moreover, there exist a Hilbert space $\mathcal{E}$ and an isometry
