@@ -37,9 +37,9 @@ polynomials $\varphi$ and $\psi$ of degree $ \leq 1$ such that
 $\mathcal{Q}$ is a joint $(M\_{\varphi}^{*}, M\_{\psi}^{*})$-invariant subspace and
 
 $$
-P_{\mathcal{Q}} M_z|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
+P_{\mathcal{Q}} M_z\mid\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
 \psi}|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\psi
-\varphi}|\_{\mathcal{Q}} \mbox{ and } (T_1, T_2) \cong
+\varphi}|\_{\mathcal{Q}} \quad \mbox{and} \quad (T_1, T_2) \cong
 (P_{\mathcal{Q}} M_{\varphi}|\_{\mathcal{Q}}, P_{\mathcal{Q}}
 M_{\psi}|\_{\mathcal{Q}}).
 $$
