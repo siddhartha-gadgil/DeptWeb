@@ -28,12 +28,12 @@ $$
 Followed by proving the similar factorization result for pure contractions.
 More particularly, let $T$ be a pure contraction on a Hilbert space
 $\mathcal{H}$ and let $P_{\mathcal{Q}} M_z|\_{\mathcal{Q}}$ be the Sz.-Nagy and Foias
-representation of $T$ for some canonical $\mathcal{Q} \subseteq
-H^2_{\mathcal{D}}(\mathbb{D})$. Then $T = T_1 T_2$, for some
-commuting contractions $T_1$ and $T_2$ on $\mathcal{H}$, if and only
-if there exist $\mathcal{B}(\mathcal{D})$-valued polynomials
-$\varphi$ and $\psi$ of degree $ \leq 1$ such that $\mathcal{Q}$ is
-a joint $(M_{\varphi}^*, M_{\psi}^*)$-invariant subspace and
+representation of $T$ for some canonical
+$\mathcal{Q} \subseteq H^2\_{\mathcal{D}}(\mathbb{D})$.
+Then $T = T_1 T_2$, for some commuting contractions $T_1$ and $T_2$ on
+$\mathcal{H}$, if and only if there exist $\mathcal{B}(\mathcal{D})$-valued
+polynomials $\varphi$ and $\psi$ of degree $ \leq 1$ such that
+$\mathcal{Q}$ is a joint $(M_{\varphi}^*, M_{\psi}^*)$-invariant subspace and
 $$
 P_{\mathcal{Q}} M_z|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
 \psi}|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\psi
