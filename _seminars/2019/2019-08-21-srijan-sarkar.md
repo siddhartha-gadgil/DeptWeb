@@ -41,12 +41,14 @@ P_{\mathcal{Q}} M_z|\_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
 (P_{\mathcal{Q}} M_{\varphi}|\_{\mathcal{Q}}, P_{\mathcal{Q}}
 M_{\psi}|\_{\mathcal{Q}}).
 $$
+
 Moreover, there exist a Hilbert space $\mathcal{E}$ and an isometry
 $V \in \mathcal{B}(\mathcal{D}; \mathcal{E})$ such that
 $$
 \varphi(z) = V^* \Phi(z) V \mbox{~and~} \psi(z) =
 V^* \Psi(z) V \quad \quad (z \in \mathbb{D}),
 $$
+
 where the pair $(\Phi, \Psi)$, as defined above, is the Berger,
 Coburn and Lebow representation of a pure pair of commuting
 isometries on $H^2\_{\mathcal{E}}(\mathbb{D})$. As an application, we shall obtain a
