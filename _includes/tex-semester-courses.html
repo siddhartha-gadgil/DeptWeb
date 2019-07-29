@@ -1,0 +1,10 @@
+{% assign list = semester.core1 | concat: semester.electives | sort: 'code' %}
+{% if semester.core2 %}{% assign list = semester.core1 | concat: semester.core2 | concat: semester.electives | sort: 'code' %}{% endif %}<pre><code>
+\begin{enumerate}
+{% for course in list %}
+  \item {\bf {{ course.code }}} {{ course.name }} by {{ course.instructor }}.  
+{% endfor %}
+\end{enumerate}
+
+</code></pre>
+

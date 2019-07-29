@@ -151,6 +151,7 @@
   year-of-joining: 2014
   programme: Integrated PhD
   webpage: https://sites.google.com/view/nidhirathi/about
+  image: true
 
 
 - name	:	Ramesh Chandra Sau
@@ -164,6 +165,7 @@
   year-of-joining: 2014
   programme: Integrated PhD
   webpage: https://sruthisekar.wordpress.com/
+  image: true
 
 - name	:	Abu Sufian
   user-id	:	abusufian
@@ -214,6 +216,7 @@
   user-id	:	pritamg
   year-of-joining: 2016
   programme: Integrated PhD
+  image: true
 
 - name	:	Poornendu Kumar
   user-id	:	poornenduk
