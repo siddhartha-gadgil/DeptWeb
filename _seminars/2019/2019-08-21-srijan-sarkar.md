@@ -25,6 +25,7 @@ $$
 \Phi(z)=(P+zP^{\perp})U^* \quad \text{and} \quad
 \Psi(z)=U(P^{\perp}+zP)
 $$
+
 for  $z \in \mathbb{D}$ (the unit disc in $\mathbb{C}$).
 
 We shall then proceed to derive a similar characterization for pure contractions. In
