@@ -30,7 +30,7 @@ title: INSPIRE Fellows and DST Scientists
       </div>
     </td>
     <td>
-      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
+      {% if stu.image %}<img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>{% endif %}
   </tr>
   {%  endfor %}
 </table>

@@ -23,15 +23,17 @@ $H^2_{\mathcal{E}}(\mathbb{D})$ are unitarily equivalent, where
 
 $$
 \Phi(z)=(P+zP^{\perp})U^* \quad \text{and} \quad
-\Psi(z)=U(P^{\perp}+zP) \quad \quad (z \in \mathbb{D}).
+\Psi(z)=U(P^{\perp}+zP)
 $$
 
-Followed by proving the similar factorization result for pure contractions.
-More particularly, let $T$ be a pure contraction on a Hilbert space
-$\mathcal{H}$ and let $P_{\mathcal{Q}} M_z|\_{\mathcal{Q}}$ be the Sz.-Nagy and Foias
-representation of $T$ for some canonical
-$\mathcal{Q} \subseteq H^2\_{\mathcal{D}}(\mathbb{D})$.
-Then $T = T_1 T_2$, for some commuting contractions $T_1$ and $T_2$ on
+for  $z \in \mathbb{D}$ (the unit disc in $\mathbb{C}$).
+
+We shall then proceed to derive a similar characterization for pure contractions. In
+particular, let $T$ be a pure contraction on a Hilbert space $\mathcal{H}$ and let
+$P_{\mathcal{Q}} M_z|\_{\mathcal{Q}}$ be the Sz.-Nagy and Foias representation of $T$
+for some canonical $\mathcal{Q} \subseteq H^2\_{\mathcal{D}}(\mathbb{D})$, where
+$\mathcal{D}$ is a closed subspace of $\mathcal{H}$. We will show that $T = T_1 T_2$,
+for some commuting contractions $T_1$ and $T_2$ on
 $\mathcal{H}$, if and only if there exist $\mathcal{B}(\mathcal{D})$-valued
 polynomials $\varphi$ and $\psi$ of degree $\leq 1$ such that
 $\mathcal{Q}$ is a joint ($M^\*\_{\varphi}, M^\*\_{\psi}$)-invariant subspace and

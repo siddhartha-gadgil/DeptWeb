@@ -125,6 +125,7 @@ aug2019:
     prereq-courses: ''
     ug-prereq-courses: UM 102
     venue: LH-4
+    webpage: http://math.iisc.ac.in/~vamsipingali/ma2192019.html
   - name: 'Analysis I: Real Anaysis'
     instructor: Gadadhar Misra
     timing: 'Mon, Wed, Fri: 11:00-12:00'
@@ -144,7 +145,7 @@ aug2019:
     instructor: Arvind Ayyer
     timing: 'Mon, Wed, Fri: 10:00-11:00'
     code: MA 261
-    webpage:
+    webpage: http://www.math.iisc.ernet.in/~arvind/ma261/
     prereq-courses: ''
     ug-prereq-courses: ''
     venue: LH-4
@@ -177,6 +178,7 @@ aug2019:
     code: MA 216
     timing: 'Tue, Thu: 10:00-11:30'
     venue: LH-4
+    webpage: http://www.math.iisc.ernet.in/~arvind/ma216/
   - name: Representation Theory of Finite Groups
     instructor: Pooja Singla
     code: MA 220
