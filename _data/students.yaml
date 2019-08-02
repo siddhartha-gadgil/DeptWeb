@@ -84,8 +84,26 @@
   user-id	:	tejag
   year-of-joining: 2016
   programme: PhD
+<<<<<<< Updated upstream
   guide: Apoorva Khare
   scholarship: NBHM
+=======
+  guide: yet to decide
+  scholarship: IISc
+
+
+
+
+- name	:	Md. Ramiz Reza
+  user-id	:	ramiz
+  year-of-joining: 2009
+  programme: Integrated PhD
+  image: true
+  guide: yet to decide
+  scholarship: IISc
+
+
+>>>>>>> Stashed changes
 
 
 - name	:	Hassain M
