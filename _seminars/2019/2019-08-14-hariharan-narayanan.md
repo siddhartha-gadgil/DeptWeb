@@ -2,7 +2,7 @@
 speaker: Hariharan Narayanan (TIFR, Mumbai)
 title: "Reconstruction of a Riemannian manifold from noisy intrinsic distances"
 date: 14 August, 2019
-time: 3:30 pm
+time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
