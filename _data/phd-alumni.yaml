@@ -910,6 +910,11 @@
   advisor: Basudeb Datta
   present: SERB Indo-US Research Fellow, Cornell University, USA.
 
+- name: Rajeev Gupta
+  year: 2015
+  title: The Caratheodory-Fejer interpolation problems and the von Neumann inequality, 
+  advisor: Gadadhar Misra
+
 - name: Senthil Raani K. S.
   year: 2016
   title: $L^p$ asymptotics of Fourier transform of fractal measures
@@ -951,6 +956,11 @@
   title: "Study of Optimal Control Problems in a Domain with Rugose Boundary and Homogenization"
   advisor: A. K. Nanadkumaran
 
+- name: Md. Ramiz Reza
+  year: 2016
+  title:  "Curvature inequalities for operators in the Cowen-Douglas class of a planar domain"
+  advisor: Gadadhar Misra
+
 - name: Kartick Adhikari
   year: 2017
   title: "Hole probabilities for determinantal point processes in the complex plane"
@@ -963,6 +973,11 @@
   advisor: Manjunath Krishnapur
   present: ISF-UGC visiting scientist, ISI, Bangalore
 
+- name: Somnath Hazra
+  year: 2017
+  title: Homogeneous Operators
+  advisor: Gadadhar Misra 
+ 
 - name: Aiyappan S
   year: 2018
   title: "Unfolding Operators in Various Oscillatory Domains: Homogenization of Optimal Control Problems"
@@ -973,9 +988,9 @@
   title: "The Pick-Nevanlinna interpolation problems: complex-analytic methods in special domains"
   advisor: Gautam Bharali
 
-- name: Somnath Hazra
+- name: Soumitra Ghara 
   year: 2018
-  title: "Homogenous Operators"
+  title: "Decomposition of the tensor product of Hilbert modules via the jet construction and weakly homogeneous operator"
   advisor: Gadadhar Misra
 
 - name: Monojit Bhattacharjee
