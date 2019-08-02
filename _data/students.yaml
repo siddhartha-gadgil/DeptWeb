@@ -78,6 +78,7 @@
   programme: PhD
   guide: Soumya Das
   scholarship: IISc
+  image: true
 
 
 - name	:	G. V. K. Teja
@@ -430,6 +431,7 @@
   programme: Integrated PhD
   guide: yet to decide
   scholarship: IISc
+  image: true
 
 - name: Priyanka Chudasama
   user-id: Priyankac
