@@ -40,10 +40,12 @@
 - name: Divya Khurana (Ph.D., IIT Kanpur)
   user-id: divyakhurana
   position: UGC Kothari
+  image: true
 
 - name: Arun Maiti (Ph.D., Universitat Leipzig)
   user-id: arunmaiti
   position: NBHM
+  image: true
 
 - name	:	Dipendu Maity (Ph.D., IIT Patna)
   user-id	:	dipendumaity
@@ -78,6 +80,7 @@
 - name: Bikramaditya Sahu (Ph.D., NISER Bhubaneshwar)
   user-id: bikramadityas
   position: NBHM
+  image: true
 
 
 - name : Debamalya Sain (Ph.D., Jadavpur)
