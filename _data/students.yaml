@@ -3,6 +3,8 @@
   year-of-joining: 2013
   programme: PhD
   webpage	:	http://www.math.iisc.ac.in/~rakesh13/index.html
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -11,56 +13,77 @@
   year-of-joining: 2014
   programme: PhD
   webpage	:	https://sites.google.com/view/pramathanamby/home
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Ritwik Pal
   user-id	:	ritwikpal
   year-of-joining: 2014
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Sanjay Kumar Jhawar
   user-id	:	sanjayjhawar
   year-of-joining: 2014
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name	:	Sourav Hait
   user-id	:	souravhait
   year-of-joining: 2014
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Lakshmi Priya M.E.
   user-id	:	lakshmip
   year-of-joining: 2015
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name	:	Paramita Pramanick
   user-id	:	paramitap
   year-of-joining: 2015
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name	:	Srimala Srikanth
   user-id	:	srikanths
   year-of-joining: 2015
   programme: PhD
+  guide: Manjunath Krishnapur
+  scholarship: NBHM
 
 
 - name	:	Londhe Mayuresh Mahadeo
   user-id	:	mayureshl
   year-of-joining: 2016
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
+
 
 - name	:	K. Hariram
   user-id	:	hariramk
   year-of-joining: 2016
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	G. V. K. Teja
   user-id	:	tejag
   year-of-joining: 2016
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -69,6 +92,8 @@
   year-of-joining: 2009
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -77,6 +102,8 @@
   year-of-joining: 2009
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -84,6 +111,8 @@
   user-id	:	harsha11
   year-of-joining: 2011
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -92,24 +121,32 @@
   year-of-joining: 2012
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Anwoy Maitra
   user-id	:	anwoymaitra
   year-of-joining: 2012
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Samrat Sen
   user-id	:	samratsen
   year-of-joining: 2012
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Manish Kumar
   user-id	:	manishkumar
   year-of-joining: 2013
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -118,6 +155,8 @@
   user-id	:	somnathp
   year-of-joining: 2013
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Subhajit Ghosh
@@ -125,6 +164,8 @@
   year-of-joining: 2013
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Anindya Biswas
@@ -132,18 +173,24 @@
   year-of-joining: 2014
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Rahul Biswas
   user-id	:	rahulbiswas
   year-of-joining: 2014
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Nimisha Pahuja
   user-id	:	nimishap
   year-of-joining: 2014
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Nidhi Rathi
@@ -152,6 +199,8 @@
   programme: Integrated PhD
   webpage: https://sites.google.com/view/nidhirathi/about
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Ramesh Chandra Sau
@@ -159,6 +208,8 @@
   year-of-joining: 2014
   programme: Integrated PhD
   webpage: https://sites.google.com/view/rameshsau/home
+  guide: yet to decide
+  scholarship: IISc
 
 - name	:	Sruthi Sekar
   user-id	:	sruthisekar
@@ -166,11 +217,15 @@
   programme: Integrated PhD
   webpage: https://sruthisekar.wordpress.com/
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 - name	:	Abu Sufian
   user-id	:	abusufian
   year-of-joining: 2015
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -178,6 +233,8 @@
   user-id	:	prateekv
   year-of-joining: 2015
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Sahil Gehlawat
@@ -185,12 +242,16 @@
   year-of-joining: 2015
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Surjadipta De Sarkar
   user-id	:	surjadiptade
   year-of-joining: 2015
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Kartick Ghosh
@@ -198,18 +259,24 @@
   year-of-joining: 2016
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Pabitra Barman
   user-id	:	pabitrab
   year-of-joining: 2016
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Pranab Sarkar
   user-id	:	pranabsarkar
   year-of-joining: 2016
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Pritam Ganguly
@@ -217,116 +284,163 @@
   year-of-joining: 2016
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
+
 
 - name	:	Poornendu Kumar
   user-id	:	poornenduk
   year-of-joining: 2016
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name	:	Raghavendra Tripathi
   user-id	:	ragavendrat
   year-of-joining: 2016
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 - name	:	Shubham Rastogi
   user-id	:	shubhamr
   year-of-joining: 2016
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name	:	Swarnalipa Datta
   user-id	:	swarnalipad
   year-of-joining: 2016
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Ramesh Mete
   year-of-joining: 2017
   programme: Integrated PhD
   user-id: rameshmete
+  guide: yet to decide
+  scholarship: IISc
+
 
 - name: Purba Banerjee
   year-of-joining: 2017
   programme: Integrated PhD
   user-id: purbab
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Abhay Jindal
   year-of-joining: 2017
   programme: Integrated PhD
   user-id:
   email: abhayjindal.999@gmail.com
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Babhrubahan Bose
   year-of-joining: 2017
   programme: Integrated PhD
   user-id: babhrubahanb
+  guide: yet to decide
+  scholarship: IISc
 
 - name : Aakanksha Jain
   user-id: aakankshaj
   year-of-joining: 2017
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
+
 
 - name: Arindam Mandal
   year-of-joining: 2017
   programme: Integrated PhD
   user-id: arindamm
   image: true
+  guide: yet to decide
+  scholarship: IISc
+  
 
 - name: Neeladri Maitra
   user-id: neeladrim
   year-of-joining: 2017
   programme: Integrated PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
+
 
 - name: Aparajita Karmakar
   user-id: aparajitak
   year-of-joining: 2017
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Lakshmi Kanta Mahata
   user-id: lakshmim
   year-of-joining: 2017
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name: Gobinda Sau
   user-id: gobindasau
   year-of-joining: 2017
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 - name: Kesav S. Krishnan
   user-id: kesavk
   year-of-joining: 2017
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Sivaram P
   user-id: sivaramp
   year-of-joining: 2018
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Renjith. T
   user-id: renjitht
   year-of-joining: 2018
   programme: PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Annapurna Banik
   user-id: annapurnab
   year-of-joining: 2018
   programme: PhD
   image: true
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Nishu Kumari
   user-id: nishukumari
   year-of-joining: 2018
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Sompurkar Rajas Sandeep
   user-id: rajass
   year-of-joining: 2018
   programme: PhD
+  guide: yet to decide
+  scholarship: IISc
 
 
 
@@ -334,23 +448,33 @@
   user-id: dipnitbiswas
   year-of-joining: 2018
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: B.S. Jnaneshwar
   user-id: jnaneshwarb
   year-of-joining: 2018
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Aashirwad Ballal
   user-id: aashirwadb
   year-of-joining: 2018
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Priyanka Chudasama
   user-id: Priyankac
   year-of-joining: 2018
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
 
 - name: Agniva Chatterjee
   user-id: agnivac
   year-of-joining: 2018
   programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
