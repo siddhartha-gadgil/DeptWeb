@@ -25,12 +25,13 @@
   scholarship: NBHM
 
 
-- name	:	Sanjay Kumar Jhawar
+- name	:	Sanjoy Kumar Jhawar
   user-id	:	sanjayjhawar
   year-of-joining: 2014
   programme: PhD
   guide: Srikanth K. Iyer
   scholarship: Inspire
+  image: true
 
 - name	:	Sourav Hait
   user-id	:	souravhait
@@ -232,7 +233,7 @@
   year-of-joining: 2016
   programme: Integrated PhD
   image: true
-  guide: A. K. Nandakumaran
+  guide: Vamsi Pritham Pingali
   scholarship: IISc
 
 
@@ -337,7 +338,7 @@
   programme: Integrated PhD
   user-id: arindamm
   image: true
-  guide: T. Bhattacharyya
+  guide: Vamsi Pritam Pingali
   scholarship: IISc
   
 
