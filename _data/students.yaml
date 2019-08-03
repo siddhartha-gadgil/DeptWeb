@@ -68,6 +68,8 @@
   programme: PhD
   guide: Gautam Bharali
   scholarship: NBHM
+  image: true
+  webpage: http://math.iisc.ac.in/~mayuresh16/
 
 
 - name	:	K. Hariram
@@ -76,6 +78,7 @@
   programme: PhD
   guide: Soumya Das
   scholarship: IISc
+  image: true
 
 
 - name	:	G. V. K. Teja
@@ -264,6 +267,7 @@
   programme: Integrated PhD
   guide: Srikanth K. Iyer
   scholarship: IISc
+  image: true
 
 - name	:	Raghavendra Tripathi
   user-id	:	ragavendrat
@@ -294,6 +298,7 @@
   user-id: rameshmete
   guide: Manjunath Krishnapur
   scholarship: IISc
+  image: true
 
 
 - name: Purba Banerjee
@@ -426,6 +431,7 @@
   programme: Integrated PhD
   guide: yet to decide
   scholarship: IISc
+  image: true
 
 - name: Priyanka Chudasama
   user-id: Priyankac
