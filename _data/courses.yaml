@@ -117,6 +117,7 @@ aug2019:
     prereq-courses: ''
     ug-prereq-courses: UM 203
     venue: LH-3
+    webpage: http://www.math.iisc.ac.in/~khare/teaching.html
   - name: Linear Algebra
     credits: '3:1'
     instructor: Vamsi Pingali
@@ -209,6 +210,7 @@ aug2019:
     prereq-courses: MA 219
     ug-prereq-courses: ''
     venue: LH-3
+    webpage: http://www.math.iisc.ac.in/~khare/teaching.html
   - name: Topics around the Grothendieck inequality
     code: MA 349
     instructor: Gadadhar Misra
