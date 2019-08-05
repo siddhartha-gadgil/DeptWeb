@@ -115,16 +115,6 @@
   scholarship: IISc
 
 
-- name	:	Manish Kumar
-  user-id	:	manishkumar
-  year-of-joining: 2013
-  programme: Integrated PhD
-  guide:
-  scholarship: 
-
-
-
-
 - name	:	Somnath Pradhan
   user-id	:	somnathp
   year-of-joining: 2013
@@ -275,8 +265,8 @@
   year-of-joining: 2016
   programme: Integrated PhD
   image: true
-  guide: 
-  scholarship: 
+  guide: Manjunath Krishnapur
+  scholarship: IISc
 
 - name	:	Shubham Rastogi
   user-id	:	shubhamr
@@ -349,21 +339,6 @@
   image: true
   guide: Sanchayan Sen
   scholarship: IISc
-
-
-- name: Aparajita Karmakar
-  user-id: aparajitak
-  year-of-joining: 2017
-  programme: PhD
-  guide: 
-  scholarship: 
-
-- name: Lakshmi Kanta Mahata
-  user-id: lakshmim
-  year-of-joining: 2017
-  programme: PhD
-  guide: 
-  scholarship: 
 
 
 - name: Gobinda Sau
