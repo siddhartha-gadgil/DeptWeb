@@ -26,7 +26,7 @@ algorithms (i.e., those that do not use any randomness and do not have a probabi
 was until recently $q \geq 2.58 \Delta$, which lagged behind even the simple path coupling
 analysis.  In this work, we improve this to $q \geq 2 \Delta$, thus finally matching at least
 the path coupling bound for deterministic algorithms.  Our method, based on a paradigm proposed
-by Alexander Barvinok, uses information on the __complex__ zeros of the associated Potts model
+by Alexander Barvinok, uses information on the _complex_ zeros of the associated Potts model
 partition function.  Perhaps surprisingly, the information we need about the complex zeros of
 this partition function is obtained using methods inspired from previous analyses of phenomena
 related to Markov chain algorithms for the problem.
