@@ -137,7 +137,7 @@ aug2019:
   - name: Topology
     credits: '3:1'
     instructor: Subhojoy Gupta
-    timing: 'Tue, Thu: 4:00-5:30'
+    timing: 'Tue, Thu: 3:30-5:00'
     code: MA 231
     prereq-courses: ''
     ug-prereq-courses: UM 204
@@ -178,7 +178,7 @@ aug2019:
   - name: Introduction to Graph Theory
     instructor : Arvind Ayyer
     code: MA 216
-    timing: 'Tue, Thu: 10:00-11:30'
+    timing: 'Tue, Thu: 5:00-6:30'
     venue: LH-4
     webpage: http://www.math.iisc.ernet.in/~arvind/ma216/
   - name: Representation Theory of Finite Groups
