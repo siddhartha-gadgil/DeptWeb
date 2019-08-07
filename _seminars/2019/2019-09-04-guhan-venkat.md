@@ -1,6 +1,6 @@
 ---
 speaker: Guhan Venkat (Université Laval, Quebec, Canada; and Morningside Center of Mathematics, Beijing, China)
-title: "Stark--Heegner cycles for Bianchi modular forms"
+title: "Stark-Heegner cycles for Bianchi modular forms"
 date: 4 September, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
