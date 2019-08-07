@@ -5,7 +5,7 @@ title: VPN info
 
 #### For Windows
 
-1. Download (and install) the [Cisco Anyconnect VPN client](https://digits.iisc.ac.in/wp-content/uploads/2019/05/How_to_download_VPN.pdf).
+1. Download (and install) the [Cisco Anyconnect VPN client](https://www1.aps.anl.gov/information-technology/remote-access/vpn-downloads).
 
 2. Follow the instructions for [IISc Cisco VPN](https://digits.iisc.ac.in/iisc-vpn/).
 
@@ -13,7 +13,7 @@ title: VPN info
 
 1. Please install openconnect vpn client.
 ```bash
-apt-get install openconnect  network-manager-openconnect
+sudo apt-get install openconnect
 ```
 
 2. execute it from command terminal (eg. gnome-terminal)
