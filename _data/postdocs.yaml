@@ -1,103 +1,124 @@
 - name  :       Mamta Balodi (Ph.D., MNNIT Allahabad)
   user-id       :       mamtabalodi
   position: IISc Raman PDF
+  research-area: Quantum Algebra
 
 - name: Kiran Kumar Behera (Ph.D., IIT Roorkee)
   user-id: kiranbehera
   position: UGC Kothari
   image: true
+  research-area: Operator Theory
 
 - name: Sudip Bera (Ph.D., Visva-Bharati University)
   user-id: sudipbera
   position: NBHM
   image: true
+  research-area: Algebraic combinatorics
 
 - name  :       Projesh Nath Choudhury (Ph.D., IIT Madras)
   user-id       :       projeshc
   position: NBHM
   image: true
+  research-area:  Linear algebra (with combinatorial flavour)
 
 - name  :       Gopal Datt (Ph.D., University of Delhi)
   user-id       :       gopaldatt
   position: NPDF
   image: true
+  research-area: Normal families of meromorphic functions, Nevanlinna theory, normality in several complex variables, complex dynamics
 
 - name	:	Asha Kisan Dond (Ph.D., IIT Bombay)
   user-id	:	ashadond
   position: NBHM
   image: true
+  research-area: PDE
 
 - name: Anupam Gumber (Ph.D., IIT Indore)
   user-id: anupamgumber
   position: NBHM
   image: true
+  research-area: Frame Theory, Harmonic analysis and its applications, Time-frequency analysis, Approximation theory, Function spaces, Operator theory, Group representation theory
 
 - name: Sumana Hatui (Ph.D., HRI, Allahabad)
   user-id: sumanahatui
   position: NBHM
   image: true
+  research-area: Group Theory, Schur multiplier 
 
 - name: Divya Khurana (Ph.D., IIT Kanpur)
   user-id: divyakhurana
   position: UGC Kothari
   image: true
+  research-area: Geometry of Banach spaces, greedy-type approximation algorithms
 
 - name: Arun Maiti (Ph.D., Universitat Leipzig)
   user-id: arunmaiti
   position: NBHM
   image: true
+  research-area: Symplectic geometry and string topology.
 
 - name	:	Dipendu Maity (Ph.D., IIT Patna)
   user-id	:	dipendumaity
   position: UGC Kothari
   image: true
+  research-area: Combinatorial topology
 
 - name	:	Gouranga Mallik (Ph.D., IIT Bombay)
   user-id	:	gourangam
   position: NBHM
   image: true
+  research-area: PDE, finite element method 
 
 
 - name	:	Kaustubh Manchanda (Ph.D., JNU)
   user-id	:	kaustubhm
   position: UGC Kothari
   image: true
+  research-area: Dynamics
 
 - name	:	 Vishnu Priya Nataraj (Ph.D., Bharathidasan University, Tamilnadu)
   user-id	:	vishnupriyan
   position: UGC Kothari
+  research-area: Solitons, Rogue waves, Nonlinear Integrable systems
 
 
 - name	:	 Anirudha Poria  (Ph.D., IIT Guwahati)
   user-id	:	anirudhap
   position: UGC Kothari
   image: true
+  research-area: Applied Harmonic Analysis, Frame Theory, Functional Analysis, Time-Frequency Analysis
 
 - name: Tamal Pramanick  (Ph.D., IIT Guwahati)
   user-id: tamalp
   position: NBHM
+  research-area: Numerical analysis, Partial differential equations, Finite element method
 
 - name: Bikramaditya Sahu (Ph.D., NISER Bhubaneshwar)
   user-id: bikramadityas
   position: NBHM
   image: true
+  research-area: Algebraic Combinatorics, Finite Geometry
 
 
 - name : Debamalya Sain (Ph.D., Jadavpur)
   user-id: debamalyasain
   position: UGC Kothari
+  research-area: Geometry of normed linear spaces
 
 
 - name	:	Srijan Sarkar  (Ph.D., ISI Bangalore)
   user-id: srijans
   position: NBHM
   image: true
+  research-area: Multivariate Operator Theory 
 
 - name	:	Sneh Bala Sinha (Ph.D., HRI, Allahabad)
   user-id	:	snehasinha
   position: NBHM
+  research-area: Number theory
 
 - name  :  Abhitosh Upadhyay (Ph.D., Guru Gobind Singh Indraprastha University Delhi)
   user-id : abhitoshu
   position: NPDF
   image: true
+  research-area: Semi-Riemannian geometry, Biconservative/Biharmonic hypersurfaces and submanifolds

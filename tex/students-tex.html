@@ -29,7 +29,7 @@ layout: blank
 \end{center}
 
 {% assign sl = 1 %}{% assign students = site.data.students | where: "programme", "Integrated PhD" %}{% assign years = students | group_by: "year-of-joining" %}
-\subsubsection*{\small $(a)$ {\sc Research scholars}}
+\subsubsection*{\small $(a)$ {\sc Integrated PhD students}}
 
 \begin{center}
 \begin{longtable}{|l|l|c|l|l|}
@@ -47,7 +47,7 @@ layout: blank
 \endhead
 {% for y in years %}{% assign list = y.items | sort: 'name' %}{% for stu in list %}
 &&&& \\[-4mm]
-{{ sl }} & {{ stu.name }} & {{ y.name }}  & yet to decide & IISc \\[1mm]\hline
+{{ sl }} & {{ stu.name }} & {{ y.name }}  & {{ stu.guide }} & {{ stu.scholarship }} \\[1mm]\hline
 %{% assign sl = sl | plus: 1 %}{% endfor %}{% endfor %}
 \end{longtable}
 \end{center}
