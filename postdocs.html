@@ -14,9 +14,9 @@ title: Postdocs
     <td class="col-md-7"><div>
       <h4>
         {% if stu.webpage %}
-        <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+        <a href="{{ stu.webpage}}">{{ stu.name }} (Ph.D., {{ stu.phd}})</a>
         {% else %}
-        {{ stu.name }}
+        {{ stu.name }} (Ph.D., {{ stu.phd}})
         {% endif %}
       </div>
       <div>
