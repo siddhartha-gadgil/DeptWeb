@@ -8,7 +8,7 @@ venue: LH-1, Mathematics Department
 website: http://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
 ---
 
-Let $\{ M_k \}\_{k=1}^{\infty}$ be a sequence of closed, singular, minimal hypersurfaces in a closed Riemannian manifold 
+Let $\\{ M_k \\}\_{k=1}^{\infty}$ be a sequence of closed, singular, minimal hypersurfaces in a closed Riemannian manifold 
 $(N^{n+1},g), n+1 \geq 3$. Suppose, the volumes of $M_k$ are uniformly bounded from above and the $p$-th Jacobi 
 eigenvalues of $M_k$ are uniformly bounded from below. Then, there exists a closed, singular, minimal hypersurface $M$ in 
 $N$ with the above mentioned volume and eigenvalue bounds such that possibly after passing to a subsequence, $M_k$ weakly 
