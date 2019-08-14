@@ -5,7 +5,8 @@ WORKDIR /app
 COPY . /app 
 
 
-RUN sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev  \
+RUN apt-get update  \
+    && apt-get install --assume-yes ruby-full build-essential zlib1g-dev liblzma-dev < /dev/null  \
     && gem install bundler --no-ri --no-rdoc \
     && bundle install --without development test \
     && gem cleanup 
