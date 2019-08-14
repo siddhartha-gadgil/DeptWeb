@@ -7,7 +7,7 @@ COPY . /app
 
 RUN apt-get update  \
     && apt-get install --assume-yes ruby-full build-essential zlib1g-dev liblzma-dev < /dev/null  \
-    && gem install bundler --no-ri --no-rdoc \
+    && gem install -v "1.16.4" bundler --no-ri --no-rdoc \
     && bundle install --without development test \
     && gem cleanup 
 
