@@ -1,0 +1,37 @@
+---
+title: Postdocs
+layout: blank
+---
+<html> <body>
+<pre><code>
+{% assign students = site.data.postdocs %}
+\subsubsection*{\small $(a)$ {\sc PostDocs and RAs}}
+
+
+\begin{center}
+    \begin{longtable}{|l|l|l|l|}
+    
+    \hline
+    &&& \\[-4mm]
+    {\bf Name} & {\bf Qualifications} & {\bf Fellowship} & {\bf Fields of Research Interest} \\
+    {\bf Period} & & & \\[.4mm] \hline
+    \endfirsthead
+   
+    \hline
+    &&& \\[-4mm]
+    {\bf Name} & {\bf Qualifications} & {\bf Fellowship} & {\bf Fields of Research Interest} \\
+    {\bf Period} & & & \\[.4mm] \hline
+    \endhead
+     {% for stu in students %}
+    &&&\\[-4mm]
+    {{ stu.name }}  & PhD  & {{ stu.position }} & {{ stu.research-area }} \\
+    23.12.2011--04.09.2014 & ({{ stu.phd }}) & & \\[0.4mm]\hline
+    %
+    {% endfor %}
+    \end{longtable}
+    \end{center}
+
+
+</code> </pre>
+</body> </html>
+
