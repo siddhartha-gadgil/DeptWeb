@@ -42,7 +42,7 @@ collections:
     output: true
     permalink: /all-courses/:title
 
-exclude: ["sources/", "purged/", "out/", "tarball/"]
+exclude: ["sources/", "purged/", "out/", "tarball/", "docs/"]
 
 defaults:
   - scope:
