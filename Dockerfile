@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY . /app 
 
+RUN rm -rf sources out purged tarball _site _root-site
 
 RUN apt-get update  \
     && apt-get install --assume-yes ruby-full build-essential zlib1g-dev liblzma-dev git < /dev/null  \
