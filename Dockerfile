@@ -15,4 +15,4 @@ RUN apt-get update  \
 
 RUN git pull 
 
-CMD ["bundle", "exec", "jekyll", "build", "--config", "_config.yml,_config-root.yml", "--destination", "/var/_site"]
+CMD ["bash", "cmd.sh"]
