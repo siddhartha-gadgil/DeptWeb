@@ -7,9 +7,9 @@ venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
 
-**Lecture 1:** _An introduction to Monge-Kantorovich optimal transport and entropic relaxations_
+**Lecture 1:** _An introduction to Monge–Kantorovich optimal transport and entropic relaxations_
 
-**Abstract:** The mathematics of Monge Kantorovich optimal transport (OT) has grown to be a
+**Abstract:** The mathematics of Monge–Kantorovich optimal transport (OT) has grown to be a
 unifying theme in many scientific disciplines, from purely mathematical areas such as analysis,
 geometry, and probability to revolutionary new methods in economics, statistics, machine learning
 and artificial intelligence. Much of these are due to impressive leaps in computational methods
@@ -20,7 +20,7 @@ sewing through various recent advances.
 
 **Lecture 2:** _On the difference between entropic cost and the optimal transport cost_
 
-**Abstract:** Consider a Monge-Kantorovich problem of transporting densities with a strictly
+**Abstract:** Consider a Monge–Kantorovich problem of transporting densities with a strictly
 convex cost function. The entropic relaxation cost is known to converge to the cost of optimal
 transport. We are interested in the difference between the two, suitably scaled. We show that
 this limit is always given by the relative entropy of the target density with respect to a
