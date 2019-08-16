@@ -27,5 +27,5 @@ this limit is always given by the relative entropy of the target density with re
 Riemannian volume measure that measures the local sensitivity of the Monge map. In the special
 case of the quadratic Wasserstein transport, this relative entropy is exactly one half of the
 difference of entropies of the target and initial densities. The proofs are based of Gaussian
-approximations to Schr\"odinger bridges which can be interpreted as a higher order large deviation.
+approximations to Schr\"{o}dinger bridges which can be interpreted as a higher order large deviation.
 
