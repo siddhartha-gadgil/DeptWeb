@@ -14,8 +14,8 @@ unifying theme in many scientific disciplines, from purely mathematical areas su
 geometry, and probability to revolutionary new methods in economics, statistics, machine learning
 and artificial intelligence. Much of these are due to impressive leaps in computational methods
 in OT that hinge on entropy based approximations. For dynamical OT such relaxations correspond
-to stochastic processes called Schr\"odinger bridges. This is an introductory talk on OT, entropic
-relaxations, and Schr\"odinger bridges that will attempt to give a flavor of this "hot area" by
+to stochastic processes called Schrödinger bridges. This is an introductory talk on OT, entropic
+relaxations, and Schrödinger bridges that will attempt to give a flavor of this "hot area" by
 sewing through various recent advances.
 
 **Lecture 2:** _On the difference between entropic cost and the optimal transport cost_
@@ -27,5 +27,5 @@ this limit is always given by the relative entropy of the target density with re
 Riemannian volume measure that measures the local sensitivity of the Monge map. In the special
 case of the quadratic Wasserstein transport, this relative entropy is exactly one half of the
 difference of entropies of the target and initial densities. The proofs are based of Gaussian
-approximations to Schr\"{o}dinger bridges which can be interpreted as a higher order large deviation.
+approximations to Schrödinger bridges which can be interpreted as a higher order large deviation.
 
