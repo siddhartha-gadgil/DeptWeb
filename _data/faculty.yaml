@@ -122,6 +122,13 @@
     - "Iyer, Srikanth K."
     - "Iyer, Srikanth"
 
+- name: Mahesh Kakde
+  user-id: maheshkakde 
+  position: Professor
+  research-areas: Number Theory, Arithmetic Geometry
+  phd: Cambridge, UK
+  author-name: "Kakde, Mahesh"
+
 - name: Apoorva Khare
   user-id: khare
   position: Assistant Professor
