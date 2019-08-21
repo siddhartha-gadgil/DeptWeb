@@ -5,6 +5,7 @@ date: 16 August, 2019
 time:  3 – 5 pm (with a 15 minute break at 3:45)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2019-08-16-NikhilSrivastava.pdf"
 ---
 
 A diagonalizable matrix has linearly independent
