@@ -5,6 +5,8 @@ date: 30 August, 2019
 time:  3 – 5 pm (with a 15 minute break at 3:45)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2019-08-30-SoumikPal-1.pdf"
+slides: "2019-08-30-SoumikPal-2.pdf"
 ---
 
 **Lecture 1:** _An introduction to Monge–Kantorovich optimal transport and entropic relaxations_
