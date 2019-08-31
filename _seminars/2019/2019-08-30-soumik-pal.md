@@ -1,6 +1,6 @@
 ---
 speaker: Soumik Pal (University of Washington, Seattle, USA)
-title: "Entropic relaxations of Monge–Kantorovich optimal transports"
+title: "Entropic relaxations of Monge–Kantorovich optimal transport"
 date: 30 August, 2019
 time:  3 – 5 pm (with a 15 minute break at 3:45)
 venue: LH-1, Mathematics Department
