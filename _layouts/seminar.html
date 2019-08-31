@@ -28,10 +28,10 @@ href="{% if page.website %}{{ page.website }}#{{ page.date | date: "%Y-%m-%d" }}
 <hr />
   {% if lecture.slides %}
   <div>
-  <a href="{{ site.baseurl }}/seminar-slides/{{ page.date | date: "%Y" }}/{{ page.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
+  <a href="{{ site.baseurl }}/seminar-slides/{{ page.date | date: "%Y" }}/{{ lecture.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
   {% endif %}
 <h5><strong> Lecture {{ counter }}: </strong> {{ lecture.title }}</h5>
-  <p><strong> Abstract: </strong> {{ lecture.abstract }}</p>
+  <h5><strong> Abstract: </strong></h5> <p>{{ lecture.abstract }}</p>
 </div>
 {% endfor %}
 {% endif %}

@@ -37,10 +37,12 @@ title: Eigenfunctions Seminars
   {% assign counter=counter | plus: 1 %}
     {% if lecture.slides %}
     <div>
-    <a href="{{ site.baseurl }}/seminar-slides/{{ page.date | date: "%Y" }}/{{ page.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
+    <a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ lecture.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
     {% endif %}
   <h5><strong> Lecture {{ counter }}: </strong> {{ lecture.title }}</h5>
-    <p><strong> Abstract: </strong> {{ lecture.abstract }}</p>
+  
+    <p><strong> Abstract: </strong>
+      <p> {{ lecture.abstract }}</p>
   </div>
   {% endfor %}
   {% endif %}
