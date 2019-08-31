@@ -31,6 +31,7 @@ title: Seminars
     {% endif %}
   </h5>
   {% if sem.lectures %}{% assign counter = 0 %}
+  <p>&nbsp;</p>
   {% for lecture in sem.lectures %}
   {% assign counter=counter | plus: 1 %}
     {% if lecture.slides %}
