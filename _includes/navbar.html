@@ -136,9 +136,14 @@
     </ul>
 
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form class="navbar-form" role="search" action="https://www.google.com/search"  target="_blank">
+      <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="q">
+          <input type="hidden" class="form-control" name="sitesearch" value="math.iisc.ac.in"/>
+          <div class="input-group-btn">
+              <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+          </div>
+      </div>
+      </form>
   </div>
 </nav>
