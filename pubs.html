@@ -34,9 +34,9 @@ title: Publications - Dept of Mathematics, IISc
 
 <ul class="list-inline">
   {% for y in years  limit: 15 %}
-  <li> <a href="#{{y.name}}"> {{y.name}} </a> </li>
+  <li class="list-inline-item"> <a href="#{{y.name}}"> {{y.name}} </a> </li>
   {% endfor %}
-  <li><a href="#{{years[15].name}}">{{years[15].name}}  and earlier</a> </li>
+  <li class="list-inline-item"><a href="#{{years[15].name}}">{{years[15].name}}  and earlier</a> </li>
 </ul>
 
 {% for y in years %}
