@@ -1,7 +1,7 @@
 
 <table class="table table-bordered">
 
-<tr><td colspan="7" class="text-center"><h3> Core for Int. Ph.D. 1st year and UG 3rd year </h3></td>
+<tr><td colspan="8" class="text-center"><h3> Core for Int. Ph.D. 1st year and UG 3rd year </h3></td>
 
 </tr>
 {% assign list = semester.core1 %}
@@ -10,7 +10,7 @@
 
 
 {% if semester.core2 %}
-<tr> <td colspan="7" class="text-center"><h3>Core for Int. Ph.D. 2nd year</h3></td>
+<tr> <td colspan="8" class="text-center"><h3>Core for Int. Ph.D. 2nd year</h3></td>
   </tr>
 
 {% assign list = semester.core2 %}
@@ -18,14 +18,14 @@
 {% include course-table.html %}
 {% endif %}
 
-<tr><td  colspan="7" class="text-center"><h3> Electives  </h3></td>
+<tr><td  colspan="8" class="text-center"><h3> Electives  </h3></td>
   </tr>
 
 {% assign list = semester.electives %}
 
 {% include course-table.html %}
 
-<tr><td  colspan="7" class="text-center"><h3> Undergraduate Courses  </h3></td>
+<tr><td  colspan="8" class="text-center"><h3> Undergraduate Courses  </h3></td>
   </tr>
 
 {% assign list = semester.ug %}
