@@ -1,10 +1,4 @@
 
-.navbar-default .navbar-nav > li.dropdown:hover > a,
-.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
-.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
-    background-color: rgb(231, 231, 231);
-    color: rgb(85, 85, 85);
-} 
 li.dropdown:hover > .dropdown-menu {
     display: block;
 }
@@ -21,15 +15,6 @@ li.dropdown:hover > .dropdown-menu {
   color: #0f0f0f;
 }
 
-a {
-  color: #3498db;
-}
-
-a:hover,
-a:focus {
-  color: #3498db;
-  text-decoration: underline;
-}
 
 .algebra-combinatorics-seminar {
   color: magenta;
