@@ -49,7 +49,7 @@ def fix(s: String) =
         replace("\\`A", "&Agrave;").
         replace("\\'A", "&Aacute;").
         replace("\\\"U", "&Uuml;").
-        replace("\\o", "&oslash;").
+        replace("\\o ", "&oslash;").
         replace("\\v s", "&#353;").
         replace("\\v c", "&#263;").
         replace("\\v d", "&#273;").
@@ -73,7 +73,7 @@ def fix(s: String) =
         replace("\\`{A}", "&Agrave;").
         replace("\\'{A}", "&Aacute;").
         replace("\\\"{U}", "&Uuml;").
-        replace("\\o", "&oslash;").
+        replace("\\o ", "&oslash;").
         replace("\\v{s}", "&#353;").
         replace("\\v{c}", "&#263;").
         replace("\\v{d}", "&#273;").
