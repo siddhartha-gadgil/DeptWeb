@@ -4,6 +4,8 @@
 <div class="row">
   <div class="col-md-8">
     <img src="department.jpg" alt="" width="100%">
+    <p>&nbsp;</p>
+    <div class="row">
   <div class="col-md-6 text-justify">
     <h3>Research</h3>
     The department is active in research in most areas of pure and applied mathematics,
@@ -16,6 +18,7 @@
         <li><a href="pubs.html">Research Publications</a></li>
       </ul>
   </div>
+ 
   <div class="col-md-6 text-justify">
     <h3>Teaching</h3>
     The department has a Ph.D. programme as well as an integrated Ph.D. programme. The department participates
@@ -28,6 +31,7 @@
         <li><a href="http://www.iisc.ac.in/ug/">Undergraduate programme</a></li>
       </ul>
   </div>
+</div>
   {% assign curDate = site.time | date: '%s' | minus: 86400 %}
 
   <div class="col-md-12">
@@ -59,9 +63,8 @@
 </div>
 
   <div class="col-md-4">
-    <h3 style="text-align:center"> <a href="seminars-all.html">Seminars</a></h3>
+    <h3 class="text-center"> <a href="seminars-all.html">Seminars</a></h3>
 
-<br>
 <ul>
 
   {% assign sorted = site.seminars | sort: 'date' | reverse %}
@@ -136,7 +139,7 @@
 
   </div>
   <div class="col-md-12">
-  <div style="float : right; bottom : 0;">
+  <div class="text-right">
    <a href="funding_agen.html">Supported by UGC and DST</a>
   </div>
 </div>

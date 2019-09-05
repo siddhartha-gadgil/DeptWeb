@@ -1,161 +1,149 @@
-<nav class="navbar navbar-default" style="border-radius:0px;" role="navigation">
-  <div class="container-fluid bg-info">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigationbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <!-- <span class="navbar-brand"> <a href="http://www.iisc.ac.in" style="color: rgb(255,255,255);" target="_blank"> IISc</a></span> -->
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navigationbar">
-      <ul class="nav navbar-nav">
-        <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Research <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{ site.baseurl }}/research-areas.html">Research Areas</a></li>
-            <li><a href="{{ site.baseurl }}/pubs.html">All Publications</a></li>
-            <li><a href="{{ site.baseurl }}/pubs-by-author.html">Faculty Publications (by author)</a> </li>
-            <li><a href="{{ site.baseurl }}/academic-reports.html">Academic Review Reports</a> </li>
-          </ul>
-        </li>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            People <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{ site.baseurl }}/faculty.html">Faculty </a></li>
-            <li><a href="{{ site.baseurl }}/emsci.html">Emeritus Scientists </a></li>
-            <li><a href="{{ site.baseurl }}/nmi-dist.html">NMI Distinguished Associates </a></li>
-            <li><a href="{{ site.baseurl }}/inspire.html">Inspire Fellows/DST Young Scientists</a></li>
-            <li><a href="{{ site.baseurl }}/postdocs.html">Postdocs</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="{{ site.baseurl }}/visitors.html">Visitors</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header"> <font color="#000000"><strong>STUDENTS</strong></font></li>
-            <li><a href="{{ site.baseurl }}/students-phd.html">Ph.D.</a></li>
-            <li><a href="{{ site.baseurl }}/students-intphd.html">Integrated Ph.D.</a></li>
-            <li><a href="{{ site.baseurl }}/students-intdisphd.html">Interdisciplinary Ph.D.</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header"> <font color="#000000"><strong>ALUMNI</strong></font></li>
-            <li><a href="{{ site.baseurl }}/phd-alumni.html">Ph.D.</a></li>
-            <li><a href="{{ site.baseurl }}/ug-alumni.html">Undergraduate </a></li>
-            <li><a href="{{ site.baseurl }}/fac-alumni.html">Faculty </a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="{{ site.baseurl }}/staff.html">Staff</a></li>
-            <li><a href="{{ site.baseurl }}/trainees.html">Project Staff</a></li>
-            </li>
-          </ul>
-        </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ site.baseurl }}/index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="researchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Research <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="researchDropdown">
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/research-areas.html">Research Areas</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/pubs.html">All Publications</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/pubs-by-author.html">Faculty Publications (by author)</a> </li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/academic-reports.html">Academic Review Reports</a> </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="peopleDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          People <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="peopleDropdown">
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/faculty.html">Faculty </a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/emsci.html">Emeritus Scientists </a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/nmi-dist.html">NMI Distinguished Associates </a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/inspire.html">Inspire Fellows/DST Young Scientists</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/postdocs.html">Postdocs</a></li>
+          <hr/>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/visitors.html">Visitors</a></li>
+          <hr/>
+          <li class="dropdown-header"> <font color="#000000"><strong>STUDENTS</strong></font></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/students-phd.html">Ph.D.</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/students-intphd.html">Integrated Ph.D.</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/students-intdisphd.html">Interdisciplinary Ph.D.</a></li>
+          <hr/>
+          <li class="dropdown-header"> <font color="#000000"><strong>ALUMNI</strong></font></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/phd-alumni.html">Ph.D.</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/ug-alumni.html">Undergraduate </a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/fac-alumni.html">Faculty </a></li>
+          <hr/>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/staff.html">Staff</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/trainees.html">Project Staff</a></li>
+          
+        </ul>
+      </li>
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Academics <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li class="dropdown-header"> <font color="#000000"><strong>COURSES</strong></font> </li>
-            <li><a href="{{ site.baseurl }}/course-list.html">Current & Upcoming</a></li>
-            <li><a href="{{ site.baseurl }}/course-schedule.html">Course Schedule</a></li>
-            <li><a href="{{ site.baseurl }}/exam-schedule-apr-2019.html">Final Examination Schedule</a></li>
-            <li><a href="{{ site.baseurl }}/catalogue.html">Catalogue</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header"> <font color="#000000"><strong>DEGREE PROGRAMMES</strong></font> </li>
-            <li><a href="{{ site.baseurl }}/degprog-phd.html">Ph.D. Programme</a></li>
-            <li><a href="{{ site.baseurl }}/degprog-intphd.html">Integrated Ph.D. Programme</a></li>
-            <li><a href="http://www.iisc.ac.in/ug/" target="_blank">Undergraduate Programme</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header"> <font color="#000000"><strong>RESOURCES</strong></font> </li>
-            <li>
-              <a href="http://www.iisc.ac.in/wp-content/uploads/2017/09/Student_information2017_New.pdf" target="_blank">
-                Student Information Handbook
-              </a></li>
-              <li><a href="http://www.iisc.ac.in/wp-content/uploads/2017/08/SOI_2017.pdf" target="_blank">
-                Scheme of Instruction
-              </a></li>
-              <li><a href="http://www.iisc.ac.in/ug/SOI_2017.pdf" target="_blank">
-                Undergrad Scheme of Instruction
-              </a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="academicsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Academics <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+          <li class="dropdown-header"> <font color="#000000"><strong>COURSES</strong></font> </li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/course-list.html">Current & Upcoming</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/course-schedule.html">Course Schedule</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/exam-schedule-apr-2019.html">Final Examination Schedule</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/catalogue.html">Catalogue</a></li>
+          <hr/>
+          <li class="dropdown-header"> <font color="#000000"><strong>DEGREE PROGRAMMES</strong></font> </li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/degprog-phd.html">Ph.D. Programme</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/degprog-intphd.html">Integrated Ph.D. Programme</a></li>
+          <li><a class="dropdown-item" href="http://www.iisc.ac.in/ug/" target="_blank">Undergraduate Programme</a></li>
+          <hr/>
+          <li class="dropdown-header"> <font color="#000000"><strong>RESOURCES</strong></font> </li>
+          <li>
+            <a class="dropdown-item" href="http://www.iisc.ac.in/wp-content/uploads/2017/09/Student_information2017_New.pdf" target="_blank">
+              Student Information Handbook
+            </a></li>
+            <li><a class="dropdown-item" href="http://www.iisc.ac.in/wp-content/uploads/2017/08/SOI_2017.pdf" target="_blank">
+              Scheme of Instruction
+            </a></li>
+            <li><a class="dropdown-item" href="http://www.iisc.ac.in/ug/SOI_2017.pdf" target="_blank">
+              Undergrad Scheme of Instruction
+            </a></li>
 
-          </ul>
-        </li>
+        </ul>
+      </li>
 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Jobs <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="{{ site.baseurl }}/pros-fac.html">Faculty</a></li>
-            <li><a href="{{ site.baseurl }}/pros-pdf.html">Postdoctoral</a></li>
-          </ul>
-        </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="jobsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Jobs <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="jobsDropdown">
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/pros-fac.html">Faculty</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/pros-pdf.html">Postdoctoral</a></li>
+        </ul>
+      </li>
 
 <!-- <li><a href="{{ site.baseurl }}/pros-fac.html">Jobs</a></li> -->
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-    News & Events <span class="caret"></span></a>
-  <ul class="dropdown-menu">
-    <li><a href="{{ site.baseurl }}/seminars-all.html">Seminars</a></li>
-      <li><a href="{{ site.baseurl }}/news.html">News</a></li>
-      <li role="separator" class="divider"></li>
-      <li> <a href="{{ site.baseurl }}/eigenfunctions-seminar.html">Eigenfunctions Seminars</a> </li>
-      <li> <a href="{{ site.baseurl }}/thesis.html">Thesis colloquium/defence</a> </li>
-      <li> <a href="http://www.math.iisc.ac.in/~manju/Seminar/seminar.html" target="_blank">Bangalore Probability Seminar </a> </li>
-      <li> <a href="http://www.math.iisc.ac.in/~khare/algcomb19-20.html" target="_blank">Algebra & Combinatorics Seminar</a> </li>
-      <li> <a href="http://www.math.iisc.ac.in/~vvdatar/gt_2019_Fall.html" target="_blank">Geometry & Topology Seminar</a> </li>
-      <li><a href="http://www.math.iisc.ac.in/~aprg/index.php?id=seminar19-20">APRG Seminar</a>
-      <li><a href="https://iiscmathstudentseminars.wordpress.com/", target="_blank">Student Seminars</a></li>
-  </ul>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  News & Events <span class="caret"></span></a>
+<ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+  <li><a class="dropdown-item" href="{{ site.baseurl }}/seminars-all.html">Seminars</a></li>
+    <li><a class="dropdown-item" href="{{ site.baseurl }}/news.html">News</a></li>
+    <hr/>
+    <li> <a class="dropdown-item" href="{{ site.baseurl }}/eigenfunctions-seminar.html">Eigenfunctions Seminars</a> </li>
+    <li> <a class="dropdown-item" href="{{ site.baseurl }}/thesis.html">Thesis colloquium/defence</a> </li>
+    <li> <a class="dropdown-item" href="http://www.math.iisc.ac.in/~manju/Seminar/seminar.html" target="_blank">Bangalore Probability Seminar </a> </li>
+    <li> <a class="dropdown-item" href="http://www.math.iisc.ac.in/~khare/algcomb19-20.html" target="_blank">Algebra & Combinatorics Seminar</a> </li>
+    <li> <a class="dropdown-item" href="http://www.math.iisc.ac.in/~vvdatar/gt_2019_Fall.html" target="_blank">Geometry & Topology Seminar</a> </li>
+    <li><a class="dropdown-item" href="http://www.math.iisc.ac.in/~aprg/index.php?id=seminar19-20">APRG Seminar</a>
+    <li><a class="dropdown-item" href="https://iiscmathstudentseminars.wordpress.com/", target="_blank">Student Seminars</a></li>
+</ul>
 </li>
 
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Resources <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://outlook.office.com/owa/" target="_blank"> IISc Mail</a></li>
-            <li> <a href="http://acadserver.admin.iisc.ac.in/course/" target="_blank">IISc Course Registration </a></li>
-            <li><a href="http://www.ams.org/mathscinet/search.html" target="_blank">MathSciNet</a></li>
-            <li><a href="{{ site.baseurl }}/computerfaqs.html">Computer/Network FAQs</a></li>
-            <li><a href="http://www.math.iisc.ac.in/moodle/" target="_blank">Moodle</a></li>
-            <li> <a href="http://www.iisc.ac.in/wp-content/uploads/2018/02/change_of_Important_Email_IDs.pdf" target="_blank">Changed E-mails (at IISc)</a> </li>
-            <li role="separator" class="divider"></li>
-            <li><a href="http://math.iisc.ac.in/~library/" target="_blank">Mathematics Library</a></li>
-            <li> <a href="http://www.math.iisc.ernet.in/~nbhm/index.html" target="_blank">NBHM Regional Library</a> </li>
-            <li><a href="http://math.iisc.ac.in/~ifcam/" target="_blank"> IFCAM </a></li>
-            <li><a href="http://math.iisc.ac.in/~nmi/" target="_blank"> NMI</a></li>
-           <!--<li><a href="http://math.iisc.ac.in/~opportunities/" target="_blank"> Opportunities </a></li>-->
-           <li><a href="{{ site.baseurl }}/office_2017aug.pdf" target="_blank">Offices and Phone Numbers</a></li>
-            <li><a href="{{ site.baseurl }}/contact-us.html"> Contact Us </a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header"> <font color="#000000"><strong>UTILITIES</strong></font> </li>
-            <li><a href="{{site.baseurl}}/fileIndex.html">Department Forms</a></li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Resources <span class="caret"></span></a>
+        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+          <li><a class="dropdown-item" href="https://outlook.office.com/owa/" target="_blank"> IISc Mail</a></li>
+          <li> <a class="dropdown-item" href="http://acadserver.admin.iisc.ac.in/course/" target="_blank">IISc Course Registration </a></li>
+          <li><a class="dropdown-item" href="http://www.ams.org/mathscinet/search.html" target="_blank">MathSciNet</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/computerfaqs.html">Computer/Network FAQs</a></li>
+          <li><a class="dropdown-item" href="http://www.math.iisc.ac.in/moodle/" target="_blank">Moodle</a></li>
+          <li> <a class="dropdown-item" href="http://www.iisc.ac.in/wp-content/uploads/2018/02/change_of_Important_Email_IDs.pdf" target="_blank">Changed E-mails (at IISc)</a> </li>
+          <hr/>
+          <li><a class="dropdown-item" href="http://math.iisc.ac.in/~library/" target="_blank">Mathematics Library</a></li>
+          <li> <a class="dropdown-item" href="http://www.math.iisc.ernet.in/~nbhm/index.html" target="_blank">NBHM Regional Library</a> </li>
+          <li><a class="dropdown-item" href="http://math.iisc.ac.in/~ifcam/" target="_blank"> IFCAM </a></li>
+          <li><a class="dropdown-item" href="http://math.iisc.ac.in/~nmi/" target="_blank"> NMI</a></li>
+         <!--<li><a class="dropdown-item" href="http://math.iisc.ac.in/~opportunities/" target="_blank"> Opportunities </a></li>-->
+         <li><a class="dropdown-item" href="{{ site.baseurl }}/office_2017aug.pdf" target="_blank">Offices and Phone Numbers</a></li>
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us.html"> Contact Us </a></li>
+          <hr/>
+          <li class="dropdown-header"> <font color="#000000"><strong>UTILITIES</strong></font> </li>
+          <li><a class="dropdown-item" href="{{site.baseurl}}/fileIndex.html">Department Forms</a></li>
 
-            <li><a href="{{ site.baseurl}}/IIScForms.html">IISc Forms</a></li>
-            <li><a href="https://sap.iisc.ac.in" target="_blank">IISc SAP S/4 HANA</a> </li>
-            <li><a href="http://iams.admin.iisc.ernet.in/" target="_blank">IAMS</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="{{site.baseurl}}/opportunities.html">Opportunities</a></li>
-          </ul>
-        </li>
-      </ul>
+          <li><a class="dropdown-item" href="{{ site.baseurl}}/IIScForms.html">IISc Forms</a></li>
+          <li><a class="dropdown-item" href="https://sap.iisc.ac.in" target="_blank">IISc SAP S/4 HANA</a> </li>
+          <li><a class="dropdown-item" href="http://iams.admin.iisc.ernet.in/" target="_blank">IAMS</a></li>
+          <hr/>
+          <li><a class="dropdown-item" href="{{site.baseurl}}/opportunities.html">Opportunities</a></li>
+        </ul>
+      </li>
+    </ul>
 
-          <ul class="nav navbar-nav navbar-right">
-        {% if page.showpubs %}
-        {% include publist.html %}
-        {% endif %}
-        <form class="navbar-form" role="search" action="https://www.google.com/search"  target="_blank">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search" name="q">
-            <input type="hidden" class="form-control" name="sitesearch" value="math.iisc.ac.in"/>
-            <div class="input-group-btn">
-                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
-            </div>
-        </div>
-        </form>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </ul>
+    <form class="navbar-form" role="search" action="https://www.google.com/search"  target="_blank">
+      <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="q">
+          <input type="hidden" class="form-control" name="sitesearch" value="math.iisc.ac.in"/>
+          <div class="input-group-btn">
+              <button class="btn btn-info" type="submit"><i class="fa fa-search"></i></button>
+          </div>
+      </div>
+      </form>
+  </div>
 </nav>

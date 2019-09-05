@@ -8,6 +8,9 @@ title: Ph.D. Students
   
   <p><b>To send email: <font face="Courier New" size="3">UserID[at]iisc.ac.in</font></b></p>
 
+  <p>
+      <button class="btn btn-info" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle View All</button>
+    </p>
 
 
 {% assign students = site.data.students | where: "programme", "PhD" %}
@@ -19,11 +22,11 @@ title: Ph.D. Students
 
 
 <li><h3>
-<a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}">
+<a class="" data-toggle="collapse" href="#stu{{y.name}}" role="button" aria-expanded="false" aria-controls="stu{{y.name}}">
   {{y.name}}
   </a></h3>
 
-<div class="collapse" id="{{y.name}}">
+<div class="collapse multi-collapse" id="stu{{y.name}}">
 
 <table class="table table-striped" >
   {% for stu in y.items %}
