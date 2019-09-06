@@ -2,62 +2,67 @@
 title: Ph.D. Students
 ---
 <div class="col-md-12">
-<h2>Ph.D. students</h2>
-  
-<h4>By year of joining</h4>
-  
+  <h2>Ph.D. students</h2>
+
+  <h4>By year of joining</h4>
+
   <p><b>To send email: <font face="Courier New" size="3">UserID[at]iisc.ac.in</font></b></p>
 
   <p>
-      <button class="btn btn-info" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle View All</button>
-    </p>
+    <button class="btn btn-info" type="button" data-toggle="collapse" data-target=".multi-collapse"
+      aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle View All</button>
+  </p>
 
 
-{% assign students = site.data.students | where: "programme", "PhD" %}
-{% assign years = students | group_by: "year-of-joining" %}
+  {% assign students = site.data.students | where: "programme", "PhD" %}
+  {% assign years = students | group_by: "year-of-joining" %}
 
-<ul>
-{% for y in years %}
+  <ul>
+    {% for y in years %}
 
 
 
-<li><h3>
-<a class="" data-toggle="collapse" href="#stu{{y.name}}" role="button" aria-expanded="false" aria-controls="stu{{y.name}}">
-  {{y.name}}
-  </a></h3>
+    <li>
+      <h3>
+        <a class="" data-toggle="collapse" href="#stu{{y.name}}" role="button" aria-expanded="false"
+          aria-controls="stu{{y.name}}">
+          {{y.name}}
+        </a></h3>
 
-<div class="collapse multi-collapse" id="stu{{y.name}}">
+      <div class="collapse multi-collapse" id="stu{{y.name}}">
 
-<table class="table table-striped" >
-  {% for stu in y.items %}
-  <tr>
-    <td class="col-md-7">
-      <div>
-      <h4>
-      {% if stu.webpage %}
-      <a href="{{ stu.webpage}}">{{ stu.name }}</a>
-      {% else %}
-      {{ stu.name }}
-      {% endif %}
-    </h4>
-    </div>
-      <!-- <div class="">
-        <strong>Program:</strong> {{ stu.programme}}
-      </div> -->
-        <div>
-          <strong>UserID:</strong>
-          {{stu.user-id}}
-        </div>
-    </td>
-    <td>
-      {% if stu.image %}
-      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
-      {% endif %}
-  </tr>
-  {%  endfor %}
-</table>
-</div>
-</li>
-{% endfor %}
-</ul>
+        <table class="table table-striped">
+          {% for stu in y.items %}
+          <tr>
+            <td>
+              <div class="row">
+              <div class="col-md-10">
+                <div>
+                  <h4>
+                    {% if stu.webpage %}
+                    <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+                    {% else %}
+                    {{ stu.name }}
+                    {% endif %}
+                  </h4>
+                </div>
+                <div>
+                  <strong>UserID:</strong>
+                  {{stu.user-id}}
+                </div>
+              </div>
+                <div class="col-md-2">
+                  {% if stu.image %}
+                  <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg">
+                  {% endif %}
+                </div>
+              </div>
+            </td>
+          </tr>
+          {%  endfor %}
+        </table>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

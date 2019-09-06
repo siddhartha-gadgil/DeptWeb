@@ -8,31 +8,38 @@ title: INSPIRE Fellows and DST Scientists
   
    <p><b>To send email: <font face="Courier New" size="3">UserID[at]iisc.ac.in</font></b></p>
 
-<table class="table table-striped">
-  {% for stu in site.data.InspireDST %}
-  <tr>
-    <td class="col-md-7">
-      <div><h4>
-        {% if stu.webpage %}
-        <a href="{{ stu.webpage}}">{{ stu.name }}</a>
-        {% else %}
-        {{ stu.name }}
-        {% endif %}</h4></div>
-      <div class="">
-        <strong>Research areas:</strong> {{ stu.research-areas}}
-      </div>
-        <div>
-          <strong>UserID:</strong> {{stu.user-id}}
-        </div>
-        <div>
-          <strong>Position:</strong> {{stu.position}}
-        </div>
-      </div>
-    </td>
-    <td>
-      {% if stu.image %}<img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>{% endif %}
-  </tr>
-  {%  endfor %}
-</table>
+   <table class="table table-striped">
+      {% for stu in site.data.InspireDST %}
+      <tr>
+        <td>
+          <div class="row">
+          <div class="col-md-10">
+              <div><h4>
+                  {% if stu.webpage %}
+                  <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+                  {% else %}
+                  {{ stu.name }}
+                  {% endif %}</h4></div>
+                <div class="">
+                  <strong>Research areas:</strong> {{ stu.research-areas}}
+                </div>
+                  <div>
+                    <strong>UserID:</strong> {{stu.user-id}}
+                  </div>
+                  <div>
+                    <strong>Position:</strong> {{stu.position}}
+                  </div>
+                </div>
+            <div class="col-md-2">
+              {% if stu.image %}
+              <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg">
+              {% endif %}
+            </div>
+          </div>
+        </td>
+      </tr>
+      {%  endfor %}
+    </table>
+
 
 </div>
