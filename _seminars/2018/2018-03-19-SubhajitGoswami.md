@@ -1,5 +1,5 @@
 ---
-speaker: Subhajit Goswami (IHES, France) 
+speaker: Subhajit Goswami (IHES, Bures-sur-Yvette, France) 
 title: "Liouville first-passage percolation and Watabiki's prediction"
 date: 19th March, 2018
 time: 2 pm
