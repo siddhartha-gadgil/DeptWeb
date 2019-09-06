@@ -23,7 +23,7 @@ zeroth Tate cohomology of $\mathcal{L}$ with respect to ${\rm Gal}(E/F)$
 is the Frobenius twist of mod-$l$ reduction of the representation
 $\pi_F$, i.e.,
 
-$$\widehat{\rm H}^0 ({\rm Gal}(E/F), \mathcal{L}) \simeq \overline{\pi} \_F^{(l)}.$$
+$$\widehat{H}^0 ({\rm Gal}(E/F), \mathcal{L}) \simeq \overline{\pi} \_F^{(l)}.$$
 
 This conjecture is verified by Ronchetti when $\pi_F$ is a depth-zero
 cuspidal representation using compact induction model. We will explain a
