@@ -1,5 +1,5 @@
 ---
-speaker: Subhajit Goswami (IHES, France)
+speaker: Subhajit Goswami (IHES, Bures-sur-Yvette, France)
 title: "Percolation theory: from classical to dependent models"
 date: 26 July, 2019
 time: 3:30 - 4:40 PM
