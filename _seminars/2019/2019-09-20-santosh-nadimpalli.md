@@ -1,6 +1,6 @@
 ---
 speaker: Santosh Nadimpalli (Radboud University, Nijmegen, Netherlands)
-title: "Linkage principle and Tame cyclic base change for ${\rm GL}\_n(F)$"
+title: "Linkage principle and Tame cyclic base change for $GL_n(F)$"
 date: 20 September, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
