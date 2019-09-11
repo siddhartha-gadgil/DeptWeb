@@ -1,8 +1,8 @@
 ---
 speaker: Kartick Adhikari (Technion, Haifa, Israel)
 title: "The Spectrum of Dense Random Geometric Graphs"
-date: 28 August, 2019
-time: 3:30 pm
+date: 18 September, 2019
+time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
