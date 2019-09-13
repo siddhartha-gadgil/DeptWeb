@@ -7,8 +7,8 @@ venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
 lectures:
-    - title: Part 1: Modular Class Groups
-    - title: Part 2: Number Rings
+    - title: "Modular Class Groups"
+    - title: "Number Rings"
 ---
 
 A famous result of Leonhard Euler says that his so-called "convenient numbers" $N$
@@ -28,8 +28,8 @@ Then we conjugate the first of these matrices, namely $t_1=\binom{0, 1}{-1, 0}$,
 of $G_{11}$ and get matrices whose top right entry is of the form $x^2+11 y^2$.
 Conversely, we construct elliptic elements $A_n(\ell)$ of order 2 in $G_{11}$ which are
 conjugate to one of the generators. Then the matrices conugate to $t_1$ are the ones
-we are interested in, and we find a set of candidate numbers $C$ such that $C=S_1 \cup
-S_2$, where $S_1 is the set we want to characterise. Thus the task is reduced to distinguishing
+we are interested in, and we find a set of candidate numbers $C$ such that `$C=S_1 \cup
+S_2$`, where `$S_1$` is the set we want to characterise. Thus the task is reduced to distinguishing
 between $S_1$ and $S_2$.
 
 This problem is addressed in the second part of the talk using number rings in $K=\mathbb{Q}(\sqrt{-11})$.
