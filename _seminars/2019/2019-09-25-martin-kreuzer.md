@@ -1,6 +1,6 @@
 ---
 speaker: Martin Kreuzer (Universität Passau, Germany)
-title: "On the Numbers of the Form x^2+11y^2"
+title: "On the Numbers of the Form $x^2+11y^2$"
 date: 25 September, 2019
 time:  11 am – 12 pm and 3:30 – 4:30 pm 
 venue: LH-1, Mathematics Department
@@ -23,14 +23,14 @@ representation of the form $n=x^2+11 y^2$ with $\gcd(x,11y)=1$.
 Our approach is split into two parts. First we introduce the modular class group $G\_{11}$
 of level 11 and give a detailed description of its structure. We show that there are four
 conjugacy classes of elliptic elements of order 2, we provide concrete matrices representing these
-elliptic elements, and we give an explicit representation of $G\_{11}$ using them.
-Then we conjugate the first of these matrices, namely $t\_1=\binom{0, 1}{-1, 0}$, by the elements
-of $G\_{11}$ and get matrices whose top right entry is of the form $x^2+11 y^2$.
-Conversely, we construct elliptic elements $A\_n(\ell)$ of order 2 in $G\_{11}$ which are
-conjugate to one of the generators. Then the matrices conugate to $t\_1$ are the ones
-we are interested in, and we find a set of candidate numbers $C$ such that $C=S\_1 \cup
-S\_2$, where $S\_1 is the set we want to characterise. Thus the task is reduced to distinguishing
-between $S\_1$ and $S\_2$.
+elliptic elements, and we give an explicit representation of $G_{11}$ using them.
+Then we conjugate the first of these matrices, namely $t_1=\binom{0, 1}{-1, 0}$, by the elements
+of $G_{11}$ and get matrices whose top right entry is of the form $x^2+11 y^2$.
+Conversely, we construct elliptic elements $A_n(\ell)$ of order 2 in $G_{11}$ which are
+conjugate to one of the generators. Then the matrices conugate to $t_1$ are the ones
+we are interested in, and we find a set of candidate numbers $C$ such that $C=S_1 \cup
+S_2$, where $S_1 is the set we want to characterise. Thus the task is reduced to distinguishing
+between $S_1$ and $S_2$.
 
 This problem is addressed in the second part of the talk using number rings in $K=\mathbb{Q}(\sqrt{-11})$.
 The ring of integers of this number field is $\mathcal{O}\_K=\mathbb{Z}[(-11+\sqrt{-11})/2]$, and the more natural ring
