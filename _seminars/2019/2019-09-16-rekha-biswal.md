@@ -1,6 +1,6 @@
 ---
 speaker: Rekha Biswal (Max Planck Institut, Bonn, Germany)
-title: "Macdonald polynomials and level two Demazure modules for affine sl_{n+1}"
+title: "Macdonald polynomials and level two Demazure modules for affine $\mathfrak{sl}\_{n+1}$"
 date: 16 September, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
