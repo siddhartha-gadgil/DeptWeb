@@ -61,6 +61,9 @@ jan2020:
   - name: Topics in Harmonic Anaysis
     code: MA 304
     instructor: S. Thangavelu
+  - name: Commutative Algebra
+    code: MA 312
+    instructor: Dilip Patil
   - name: Lie Algebras and their Representations
     code: MA 315
     instructor: R. Venkatesh/Apoorva Khare
