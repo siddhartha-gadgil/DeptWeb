@@ -2,8 +2,8 @@
 speaker: Martin Kreuzer (Universität Passau, Germany)
 title: "On the Numbers of the Form $x^2+11y^2$"
 date: 25 September, 2019
-time:  11 am – 12 pm and 3:30 – 4:30 pm 
-venue: LH-1, Mathematics Department
+time:  11 am – 12 pm (LH-5) and 3:30 – 4:30 pm (LH-1)
+venue: Rooms LH-5 and LH-1 (respectively), Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
 lectures:
