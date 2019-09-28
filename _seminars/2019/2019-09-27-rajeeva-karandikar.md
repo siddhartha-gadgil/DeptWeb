@@ -5,6 +5,7 @@ date: 27 September, 2019
 time:  3 – 5 pm (with a 15 minute break at 3:45)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2019-09-27-RajeevaKarandikar.pdf"
 ---
 
 Consider a stochastic matrix $P$ for which the Perron–Frobenius eigenvalue
