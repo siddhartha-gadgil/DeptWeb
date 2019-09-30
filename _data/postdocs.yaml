@@ -39,6 +39,14 @@
   image: true
   research-area: PDE
 
+- name	:	Deb Kumar Giri
+  phd: IIT Guwahati
+  user-id	:	debkumarg
+  position: NBHM
+  image: true
+  research-area: Harmonic Analysis
+
+
 - name: Anupam Gumber 
   phd: IIT Indore
   user-id: anupamgumber
