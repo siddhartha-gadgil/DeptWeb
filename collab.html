@@ -18,13 +18,13 @@ title: Research Landscape
     }
 </style>
 Faculty members are linked to their collaborators and research areas.
-<svg width="1200" height="600"></svg>
+<svg width="100%" height="100%" viewBox="0 0 960 600"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
     var svg = d3.select("svg"),
-        width = +svg.attr("width"),
-        height = +svg.attr("height");
+        width = 960,
+        height = 600;
 
     var color = d3.scaleOrdinal(d3.schemeCategory20);
 
