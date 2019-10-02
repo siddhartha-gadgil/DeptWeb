@@ -2,7 +2,7 @@
 speaker: Ramesh Manna (TIFR-CAM, Bengaluru)
 title: "On some local smoothing estimate of Fourier integral operators and Hermite functions"
 date: 30 October, 2019
-time: 3:30 pm
+time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
