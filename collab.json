@@ -1,0 +1,437 @@
+{
+  "nodes": [
+    {
+      "id": "A. K. Nandakumaran",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~nands/"
+    },
+    {
+      "id": "Subhojoy Gupta",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~subhojoy/"
+    },
+    {
+      "id": "Apoorva Khare",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~khare/"
+    },
+    {
+      "id": "Soumya Das",
+      "colour" : "blue",
+      "url" : "https://sites.google.com/site/somuhomepage/"
+    },
+    {
+      "id": "Srikanth Iyer",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~skiyer/"
+    },
+    {
+      "id": "Mrinal Ghosh",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~mkg/"
+    },
+    {
+      "id": "E. K. Narayanan",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~naru/"
+    },
+    {
+      "id": "Sanchayan Sen",
+      "colour" : "blue",
+      "url" : "https://sites.google.com/site/sanchayansenss/"
+    },
+    {
+      "id": "G. Rangarajan",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~rangaraj/"
+    },
+    {
+      "id": "Vamsi Pingali",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~vamsipingali/"
+    },
+    {
+      "id": "Pooja Singla",
+      "colour" : "blue",
+      "url" : "https://sites.google.com/site/poojasingla7/Home"
+    },
+    {
+      "id": "Siddhartha Gadgil",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~gadgil/"
+    },
+    {
+      "id": "Basudeb Datta",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~dattab/"
+    },
+    {
+      "id": "R. Venkatesh",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~rvenkat/"
+    },
+    {
+      "id": "Tirthankar Bhattacharya",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~tirtha/"
+    },
+    {
+      "id": "Arvind Ayyer",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~arvind/"
+    },
+    {
+      "id": "Radhika Ganapathy",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~radhikag/"
+    },
+    {
+      "id": "Mahesh Kakde",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~maheshkakde/"
+    },
+    {
+      "id": "Ved Datar",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~vvdatar/"
+    },
+    {
+      "id": "S. Thangavelu",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~veluma/"
+    },
+    {
+      "id": "Dilip Patil",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~patil/"
+    },
+    {
+      "id": "Gautam Bharali",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~bharali/"
+    },
+    {
+      "id": "Gadadhar Misra",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~gm/"
+    },
+    {
+      "id": "Tirupathi Gudi",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~gudi/"
+    },
+    {
+      "id": "Kaushal Verma",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~kverma/"
+    },
+    {
+      "id": "Abhishek Banerjee",
+      "colour" : "blue",
+      "url" : "https://sites.google.com/site/abhishekb1313/"
+    },
+    {
+      "id": "Manjunath Krishanpur",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~manju/"
+    },
+    {
+      "id": "Harish Seshadri",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~harish/"
+    },
+    {
+      "id": "Combinatorics",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Algebra & Algebraic Geometry",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Probability & Statistics",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Differential Equations",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Geometry & Topology",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Analysis",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Mathematical Physics",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Number Theory",
+      "colour" : "darkmagenta"
+    },
+    {
+      "id": "Applications",
+      "colour" : "darkmagenta"
+    }
+  ],
+  "links": [
+    {
+      "source": "Arvind Ayyer",
+      "target": "Manjunath Krishanpur",
+      "value": 1
+    },
+    {
+      "source": "Arvind Ayyer",
+      "target": "Pooja Singla",
+      "value": 1
+    },
+    {
+      "source": "Tirthankar Bhattacharya",
+      "target": "Gadadhar Misra",
+      "value": 1
+    },
+    {
+      "source": "Tirthankar Bhattacharya",
+      "target": "E. K. Narayanan",
+      "value": 1
+    },
+    {
+      "source": "Siddhartha Gadgil",
+      "target": "Manjunath Krishanpur",
+      "value": 1
+    },
+    {
+      "source": "Siddhartha Gadgil",
+      "target": "Harish Seshadri",
+      "value": 1
+    },
+    {
+      "source": "Siddhartha Gadgil",
+      "target": "Apoorva Khare",
+      "value": 1
+    },
+    {
+      "source": "Tirupathi Gudi",
+      "target": "A. K. Nandakumaran",
+      "value": 1
+    },
+    {
+      "source": "Srikanth Iyer",
+      "target": "Mrinal Ghosh",
+      "value": 1
+    },
+    {
+      "source": "E. K. Narayanan",
+      "target": "S. Thangavelu",
+      "value": 1
+    },
+    {
+      "source": "Harish Seshadri",
+      "target": "Kaushal Verma",
+      "value": 1
+    },
+    {
+      "source": "E. K. Narayanan",
+      "target": "Pooja Singla",
+      "value": 1
+    },
+    {
+      "source": "Subhojoy Gupta",
+      "target": "Harish Seshadri",
+      "value": 1
+    },
+    {
+      "source": "Subhojoy Gupta",
+      "target": "Basudeb Datta",
+      "value": 1
+    },
+    {
+      "source": "Ved Datar",
+      "target": "Vamsi Pingali",
+      "value": 1
+    },
+    {
+      "source": "Arvind Ayyer",
+      "target": "Combinatorics",
+      "value": 5
+    },
+    {
+      "source": "Arvind Ayyer",
+      "target": "Mathematical Physics",
+      "value": 5
+    },
+    {
+      "source": "Arvind Ayyer",
+      "target": "Probability & Statistics",
+      "value": 5
+    },
+    {
+      "source": "Abhishek Banerjee",
+      "target": "Algebra & Algebraic Geometry",
+      "value": 5
+    },
+    {
+      "source": "Gautam Bharali",
+      "target": "Analysis",
+      "value": 5
+    },
+    {
+      "source": "Tirthankar Bhattacharya",
+      "target": "Analysis",
+      "value": 5
+    },
+    {
+      "source": "Soumya Das",
+      "target": "Number Theory",
+      "value": 5
+    },
+    {
+      "source": "Mahesh Kakde",
+      "target": "Number Theory",
+      "value": 5
+    },
+    {
+      "source": "Mahesh Kakde",
+      "target": "Algebra & Algebraic Geometry",
+      "value": 5
+    },
+    {
+      "source": "Basudeb Datta",
+      "target": "Geometry & Topology",
+      "value": 5
+    },
+    {
+      "source": "Siddhartha Gadgil",
+      "target": "Geometry & Topology",
+      "value": 5
+    },
+    {
+      "source": "Subhojoy Gupta",
+      "target": "Geometry & Topology",
+      "value": 5
+    },
+    {
+      "source": "Mrinal Ghosh",
+      "target": "Probability & Statistics",
+      "value": 5
+    },
+    {
+      "source": "Mrinal Ghosh",
+      "target": "Applications",
+      "value": 5
+    },
+    {
+      "source": "Tirupathi Gudi",
+      "target": "Differential Equations",
+      "value": 5
+    },
+    {
+      "source": "Manjunath Krishanpur",
+      "target": "Probability & Statistics",
+      "value": 5
+    },
+    {
+      "source": "Sanchayan Sen",
+      "target": "Probability & Statistics",
+      "value": 5
+    },
+    {
+      "source": "Apoorva Khare",
+      "target": "Algebra & Algebraic Geometry",
+      "value": 5
+    },
+    {
+      "source": "Apoorva Khare",
+      "target": "Combinatorics",
+      "value": 5
+    },
+    {
+      "source": "Apoorva Khare",
+      "target": "Analysis",
+      "value": 5
+    },
+    {
+      "source": "Srikanth Iyer",
+      "target": "Probability & Statistics",
+      "value": 5
+    },
+    {
+      "source": "Srikanth Iyer",
+      "target": "Applications",
+      "value": 5
+    },
+    {
+      "source": "Gadadhar Misra",
+      "target": "Analysis",
+      "value": 5
+    },
+    {
+      "source": "A. K. Nandakumaran",
+      "target": "Differential Equations",
+      "value": 5
+    },
+    {
+      "source": "E. K. Narayanan",
+      "target": "Analysis",
+      "value": 5
+    },
+    {
+      "source": "Dilip Patil",
+      "target": "Algebra & Algebraic Geometry",
+      "value": 5
+    },
+    {
+      "source": "G. Rangarajan",
+      "target": "Applications",
+      "value": 5
+    },
+    {
+      "source": "Harish Seshadri",
+      "target": "Geometry & Topology",
+      "value": 5
+    },
+    {
+      "source": "Vamsi Pingali",
+      "target": "Geometry & Topology",
+      "value": 5
+    },
+    {
+      "source": "Vamsi Pingali",
+      "target": "Analysis",
+      "value": 5
+    },
+    {
+      "source": "Vamsi Pingali",
+      "target": "Mathematical Physics",
+      "value": 5
+    },
+    {
+      "source": "Pooja Singla",
+      "target": "Algebra & Algebraic Geometry",
+      "value": 5
+    },
+    {
+      "source": "Radhika Ganapathy",
+      "target": "Algebra & Algebraic Geometry",
+      "value": 5
+    },
+    {
+      "source": "S. Thangavelu",
+      "target": "Analysis",
+      "value": 5
+    },
+    {
+      "source": "R. Venkatesh",
+      "target": "Algebra & Algebraic Geometry",
+      "value": 5
+    },
+    {
+      "source": "Kaushal Verma",
+      "target": "Analysis",
+      "value": 5
+    }
+  ]
+}
