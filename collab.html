@@ -3,7 +3,7 @@ title: Research Landscape
 ---
 <style>
     .links line {
-        stroke: #999;
+
         stroke-opacity: 0.6;
     }
 
@@ -18,7 +18,7 @@ title: Research Landscape
     }
 </style>
 Faculty members are linked to their collaborators and research areas.
-<svg width="100%" height="100%" viewBox="0 0 960 600"></svg>
+<svg width="100%" height="100%" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -44,7 +44,8 @@ Faculty members are linked to their collaborators and research areas.
             .selectAll("line")
             .data(graph.links)
             .enter().append("line")
-            .attr("stroke-width", function (d) { return Math.sqrt(d.value); });
+            .attr("stroke-width", function (d) { return Math.sqrt(d.value); })
+            .attr("stroke", function (d) { return d.colour});
 
         var node = svg.append("g")
             .attr("class", "nodes")
