@@ -1,7 +1,7 @@
 ---
 speaker: Somnath Pradhan (IISc Mathematics)
 title: "Risk-Sensitive Stochastic Control and Differential Games"
-date: 30 May, 2019
+date: 4 Oct, 2019
 time: 2:30 pm
 venue: R-15 (Chairman's Room), Mathematics Department
 series: Thesis
