@@ -17,7 +17,7 @@ def view(m: Map[Int, String]) =
 
 var emap = entryMap(read.lines(pubFile).mkString("\n"))
 
-def update(f: Path) = {
+def update(f: Path = pwd / "tmp" / "newpubs.bib") = {
   val m = entryMap(read.lines(f).mkString("\n"))
   emap = m ++ emap
 }
@@ -28,3 +28,4 @@ def save() = {
   write.over(pubFile, view(emap))
   bib2yaml.run
 }
+
