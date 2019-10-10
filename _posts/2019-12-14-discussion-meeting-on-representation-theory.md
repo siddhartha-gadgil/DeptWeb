@@ -5,4 +5,4 @@ date: 2019-12-14
 ---
 
 [Visit this page <br>
-math.iisc.ac.in/~rvenkat/dmrt19/](~rvenkat/dmrt19/)
+math.iisc.ac.in/~rvenkat/dmrt19/](https://math.iisc.ac.in/~rvenkat/dmrt19/)
