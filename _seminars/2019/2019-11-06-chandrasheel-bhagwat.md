@@ -2,7 +2,7 @@
 speaker: Chandrasheel Bhagwat (IISER, Pune)
 title: "Special Values of L-functions and period relations for motives"
 date: 6 November, 2019
-time: 3 pm
+time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
