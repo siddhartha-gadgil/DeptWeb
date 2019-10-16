@@ -16,8 +16,8 @@
   user-id: sudipbera
   position: NBHM
   image: true
-  research-area: Algebraic combinatorics
-
+  research-area: Algebraic Graph Theory, Algebraic Combinatorics
+  
 - name  :       Projesh Nath Choudhury 
   phd: IIT Madras
   user-id       :       projeshc
@@ -114,6 +114,7 @@
 - name: Tamal Pramanick  
   phd: IIT Guwahati
   user-id: tamalp
+  image: true
   position: NBHM
   research-area: Numerical analysis, Partial differential equations, Finite element method
 
