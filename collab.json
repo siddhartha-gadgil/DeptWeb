@@ -424,6 +424,11 @@
       "value": 5, "colour" : "cyan"
     },
     {
+      "source": "Ved Datar",
+      "target": "Geometry & Topology",
+      "value": 5, "colour" : "cyan"
+    },
+    {
       "source": "Vamsi Pingali",
       "target": "Analysis",
       "value": 5, "colour" : "cyan"
