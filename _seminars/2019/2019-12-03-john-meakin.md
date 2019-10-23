@@ -2,7 +2,7 @@
 speaker: John Meakin (University of Nebraska at Lincoln, USA)
 title: "Some remarks on Leavitt path algebras"
 date: 3 December, 2019
-time: 3 pm
+time: 11 am
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
@@ -11,7 +11,7 @@ website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
 The study of Leavitt path algebras has two primary sources, the
 work of W.G. Leavitt in the early 1960's on the module type of
 a ring, and the work by Kumjian, Pask, and Raeburn in the 1990's
-on _Cuntz-Krieger_ graph $C^*$-algebras. Given a directed graph
+on _Cuntz-Krieger_ graph $C^\*$-algebras. Given a directed graph
 $\Gamma$ and a field $F$, the Leavitt path algebra $L_F(\Gamma)$
 is an $F$-algebra essentially built from the directed paths in
 the graph $\Gamma$. Reasonable necessary and sufficient
