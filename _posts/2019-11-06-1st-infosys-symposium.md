@@ -15,7 +15,7 @@ __Venue:__  Lecture Hall-1, Department of Mathematics
 
 
 
-Time   |  Title
+Time               |  &nbsp; &nbsp; &nbsp; &nbsp;   Title
 --- | ---
 2:00 pm - 2:45 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Subhojoy Gupta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  _TBA_
 2:50 pm - 3:35 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; _TBA_
