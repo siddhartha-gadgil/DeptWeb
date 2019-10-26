@@ -60,8 +60,8 @@ funding from the Infosys Foundation. The first is the
 which arose out of a discussion literally made possible by Infosys funding!
 In this project, we show that a group is abelian and torsion-free if and
 only if it admits a "norm", or equivalently a homogeneous length function.
-This question was motivated by probability, and connects algebra, geometry,
-and analysis.
+This question was motivated by probability, connects algebra, geometry,
+and analysis, was solved in five days and entirely on a blog, and used a computer.
 ([Joint work as D.H.J. Polymath](http://dx.doi.org/10.2140/ant.2018.12.1773),
 with Tobias Fritz, Siddhartha Gadgil, Pace Nielsen, Lior Silberman, and Terence Tao.)
 
