@@ -1,8 +1,8 @@
 ---
 title: 1st Math Symposium of Infosys Young Investigators
 ---
-We cordially invite you to the 1st Math Symposium of Infosys
-Young Investigators: an in-House faculty symposium of the
+We cordially invite you to the __1st Math Symposium of Infosys
+Young Investigators__: an in-House faculty symposium of the
 Department of Mathematics, IISc, on Wednesday, 6th November, 2019.
 In it, the most recent cohort of Infosys Young Investigators
 in IISc Mathematics will present snapshots of their research 
@@ -55,13 +55,15 @@ __Speaker:__ Apoorva Khare
 __Title:__ ​ Groups with norms; Schur polynomials and weak majorization; distance matrices and Zariski density
 
 __Abstract:__ I present details of three disparate projects that received
-funding from the Infosys Foundation. The first is the Polymath-14 project,
+funding from the Infosys Foundation. The first is the
+[Polymath-14 project](http://michaelnielsen.org/polymath1/index.php?title=Linear_norm),
 which arose out of a discussion literally made possible by Infosys funding!
 In this project, we show that a group is abelian and torsion-free if and
 only if it admits a "norm", or equivalently a homogeneous length function.
 This question was motivated by probability, and connects algebra, geometry,
-and analysis. (Joint work as D.H.J. Polymath, with Tobias Fritz, Siddhartha
-Gadgil, Pace Nielsen, Lior Silberman, and Terence Tao.)
+and analysis.
+([Joint work as D.H.J. Polymath](http://dx.doi.org/10.2140/ant.2018.12.1773),
+with Tobias Fritz, Siddhartha Gadgil, Pace Nielsen, Lior Silberman, and Terence Tao.)
 
 The second project provides two-way connections between positivity (analysis)
 and symmetric functions (algebra). I cover two aspects, the first of which
@@ -69,12 +71,13 @@ reveals that every smooth function naturally leads to all Schur polynomials.
 This extends a computation by Loewner (1967). The "reverse" connection starts
 from a Schur positivity/monotonicity phenomenon, and uses the
 Harish-Chandra--Itzykson--Zuber integral to obtain a novel characterization
-of weak majorization. This last is joint with Terence Tao.
+of weak majorization. This last is [joint with Terence Tao](http://arxiv.org/abs/1708.05197).
 
-Finally, I discuss recent joint work with Projesh Nath Choudhury, in which
-we study distance matrices of trees and graphs. We propose a model that
-subsumes all previous variants to date (starting with Graham, Pollak, and
-Lovasz). In this model, we compute the determinant, cofactor-sum, and
+Finally, I discuss recent
+[joint work with Projesh Nath Choudhury](http://arxiv.org/abs/1903.11566),
+in which we study distance matrices of trees and graphs. We propose a model
+that subsumes all previous variants to date (starting with Graham, Pollak,
+and Lovasz). In this model, we compute the determinant, cofactor-sum, and
 inverse of the distance matrix (and its minors), once again subsuming prior
 results, and answering an open question of Bapat et al. The proofs use
 Zariski density, as our results hold over all unital commutative rings.
