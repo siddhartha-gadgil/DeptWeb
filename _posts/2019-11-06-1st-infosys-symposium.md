@@ -18,7 +18,7 @@ __Venue:__  Lecture Hall-1, Department of Mathematics
 Time               |  &nbsp; &nbsp; &nbsp; &nbsp;   Speaker & Title
 --- | ---
 2:00 pm - 2:45 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Subhojoy Gupta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  _TBA_
-2:50 pm - 3:35 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; &nbsp; _TBA_
+2:50 pm - 3:35 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; _TBA_
 3:40 pm - 4:25 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Apoorva Khare  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Groups with norms; Schur polynomials and weak majorization; distance matrices and Zariski density_
 
 
