@@ -3,13 +3,10 @@ title: 1st Math Symposium of Infosys Young Investigators
 ---
 We cordially invite you to the 1st Math Symposium of Infosys
 Young Investigators: an in-House faculty symposium of the
-Department of Mathematics, IISc, on Wednesday, 6th November,
-2019. In it, the most recent cohort of Infosys Young Investigators
+Department of Mathematics, IISc, on Wednesday, 6th November, 2019.
+In it, the most recent cohort of Infosys Young Investigators
 in IISc Mathematics will present snapshots of their research 
 funded by the Infosys Foundation.
-
-
-The programme schedule for the symposium is as follows:
 
 __Date:__     6th November, 2019 (Wednesday)
 
