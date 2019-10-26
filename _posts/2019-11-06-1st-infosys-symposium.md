@@ -71,7 +71,8 @@ reveals that every smooth function naturally leads to all Schur polynomials.
 This extends a computation by Loewner (1967). The "reverse" connection starts
 from a Schur positivity/monotonicity phenomenon, and uses the
 Harish-Chandra--Itzykson--Zuber integral to obtain a novel characterization
-of weak majorization. This last is [joint with Terence Tao](http://arxiv.org/abs/1708.05197).
+of weak majorization. This last is
+[joint work with Terence Tao](http://arxiv.org/abs/1708.05197).
 
 Finally, I discuss recent
 [joint work with Projesh Nath Choudhury](http://arxiv.org/abs/1903.11566),
