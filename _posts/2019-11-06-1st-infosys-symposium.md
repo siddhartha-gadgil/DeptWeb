@@ -75,7 +75,7 @@ of weak majorization. This last is [joint with Terence Tao](http://arxiv.org/abs
 
 Finally, I discuss recent
 [joint work with Projesh Nath Choudhury](http://arxiv.org/abs/1903.11566),
-in which we study distance matrices of trees and graphs. We propose a model
+in which we study distance matrices of trees. We propose a model
 that subsumes all previous variants to date (starting with Graham, Pollak,
 and Lovasz). In this model, we compute the determinant, cofactor-sum, and
 inverse of the distance matrix (and its minors), once again subsuming prior
