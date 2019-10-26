@@ -8,7 +8,7 @@ In it, the most recent cohort of Infosys Young Investigators
 in IISc Mathematics will present snapshots of their research 
 funded by the Infosys Foundation.
 
-__Date:__     6th November, 2019 (Wednesday)
+__Date:__     6<sup>th</sup> November, 2019 (Wednesday)
 
 __Venue:__  Lecture Hall-1, Department of Mathematics
 
