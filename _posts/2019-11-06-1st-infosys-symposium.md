@@ -44,7 +44,7 @@ __Speaker:__ Vamsi Pritham Pingali
 
 __Title:__ Interpolation or the lack of thereof from affine hypersurfaces; a vector bundle version of the Monge-Ampere equation
 
-__Abstract:__ There are two themes of my research funded from the Infosys Foundation. I shall present a "typical representative" of each theme.
+__Abstract:__ There are two themes of my research funded by the Infosys Foundation. I shall present a "typical representative" of each theme.
 
 1) PDE arising from Differential Geometry and Physics : The Monge-Ampere equation is a well-studied PDE in complex geometry and its solvability has ramifications in various sub-areas. Inspired by its success, in [a preprint](https://arxiv.org/abs/1804.03934), I introduced a vector bundle version of it, and proved a Kobayashi-Hitchin correspondence (essentially, the PDE has a solution if and only if some condition from algebraic geometry is met) in a special case, namely, for some equivariant rank-2 vortex bundles.
 
