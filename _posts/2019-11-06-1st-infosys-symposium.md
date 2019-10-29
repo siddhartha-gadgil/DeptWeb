@@ -17,14 +17,16 @@ __Venue:__  Lecture Hall-1, Department of Mathematics
 
 Time               |  &nbsp; &nbsp; &nbsp; &nbsp;   Speaker & Title
 --- | ---
-2:00 pm - 2:45 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Subhojoy Gupta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  _Meromorphic geometric structures on surfaces_
-2:50 pm - 3:35 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; _Interpolation or the lack of thereof from affine hypersurfaces; a vector bundle version of the Monge-Ampere equation_
-3:40 pm - 4:25 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Apoorva Khare  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Groups with norms; Schur polynomials and weak majorization; distance matrices and Zariski density_
+2:00 pm - 2:30 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Subhojoy Gupta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  _Meromorphic geometric structures on surfaces_
+2:35 pm - 3:05 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; _Interpolation or the lack of thereof from affine hypersurfaces; a vector bundle version of the Monge-Ampere equation_
+3:05 pm - 3:25 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Tea
+3:25 pm - 3:55 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Apoorva Khare  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Groups with norms; Schur polynomials and weak majorization; distance matrices and Zariski density_
+5:00 pm            |   &nbsp; &nbsp; &nbsp; &nbsp;  High Tea
 
 
 ---
 
-Each lecture will be of 45 minutes with 5 minutes break for Q&A and change of speaker.
+Each lecture will be of 30 minutes with 5 minutes break for Q&A and change of speaker.
 
 ### Abstracts
 
