@@ -28,7 +28,7 @@ Time               |   &nbsp;&nbsp; Speaker | &nbsp;&nbsp; Title
 
 ---
 
-Each lecture will be of 30 minutes with 5 minutes break for Q&A and change of speaker.
+Each lecture will be of 30 minutes, with a 5 minute break for Q&A and change of speaker.
 
 ### Abstracts
 
