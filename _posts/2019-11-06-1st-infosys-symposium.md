@@ -21,8 +21,7 @@ Time               |   &nbsp;&nbsp;&nbsp;&nbsp; Speaker | &nbsp;&nbsp;&nbsp;&nbs
 2:35 pm -- 3:05 pm  | &nbsp;&nbsp;&nbsp;&nbsp;   Vamsi Pritham Pingali | &nbsp;&nbsp;&nbsp;&nbsp; _Interpolation or the lack of thereof from affine hypersurfaces;_
      &nbsp;        |   &nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; _a vector bundle version of the Monge-Ampere equation_
 3:05 pm -- 3:25 pm  |   &nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;  Tea
-3:25 pm -- 3:55 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Apoorva Khare  | &nbsp;&nbsp;&nbsp;&nbsp; _Groups with norms; Schur polynomials and weak majorization;_
-     &nbsp;        |   &nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; _distance matrices and Zariski density_
+3:25 pm -- 3:55 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Apoorva Khare  | &nbsp;&nbsp;&nbsp;&nbsp; _Groups with norms; distance matrices and Zariski density_
 5:00 pm            |   &nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; High Tea
 
 
