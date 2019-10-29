@@ -15,15 +15,15 @@ __Venue:__  Lecture Hall-1, Department of Mathematics
 
 
 
-Time               |  &nbsp; &nbsp; &nbsp; &nbsp;   Speaker & Title
---- | ---
-2:00 pm -- 2:30 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Subhojoy Gupta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  _Meromorphic geometric structures on surfaces_
-2:35 pm -- 3:05 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; _Interpolation or the lack of thereof from affine hypersurfaces;_
-     &nbsp;        |   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _a vector bundle version of the Monge-Ampere equation_
-3:05 pm -- 3:25 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Tea
-3:25 pm -- 3:55 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Apoorva Khare  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Groups with norms; Schur polynomials and weak majorization;_
-     &nbsp;        |   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _distance matrices and Zariski density_
-5:00 pm            |   &nbsp; &nbsp; &nbsp; &nbsp;  High Tea
+Time               |   &nbsp;&nbsp; Speaker | &nbsp;&nbsp; Title
+--- | --- | --- 
+2:00 pm -- 2:30 pm  | &nbsp;&nbsp;  Subhojoy Gupta | &nbsp;&nbsp; _Meromorphic geometric structures on surfaces_
+2:35 pm -- 3:05 pm  | &nbsp;&nbsp;   Vamsi Pritham Pingali | &nbsp;&nbsp; _Interpolation or the lack of thereof from affine hypersurfaces;_
+     &nbsp;        |   &nbsp; | &nbsp;&nbsp; _a vector bundle version of the Monge-Ampere equation_
+3:05 pm -- 3:25 pm  |   &nbsp; | &nbsp;&nbsp;  Tea
+3:25 pm -- 3:55 pm  | &nbsp;&nbsp;  Apoorva Khare  | &nbsp;&nbsp; _Groups with norms; Schur polynomials and weak majorization;_
+     &nbsp;        |   &nbsp; | &nbsp;&nbsp; _distance matrices and Zariski density_
+5:00 pm            |   &nbsp; | &nbsp;&nbsp; High Tea
 
 
 ---
