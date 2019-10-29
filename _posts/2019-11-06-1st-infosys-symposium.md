@@ -58,7 +58,7 @@ __Abstract:__ There are two themes of my research funded by the Infosys Foundati
 
 1) PDE arising from Differential Geometry and Physics : The Monge--Ampere equation is a well-studied PDE in complex geometry and its solvability has ramifications in various sub-areas. Inspired by its success, in [a preprint](https://arxiv.org/abs/1804.03934), I introduced a vector bundle version of it, and proved a Kobayashi--Hitchin correspondence (essentially, the PDE has a solution if and only if some condition from algebraic geometry is met) in a special case, namely, for some equivariant rank-2 vortex bundles.
 
-2) Analytic studies in Algebraic Geometry : A natural question arising from applied mathematics is, "When can one extend finite-energy analytic functions from subsets of '$mathbb{C}^n$' to all of space whilst preserving the finite-energy condition ?" In a [joint work with D. Varolin](https://arxiv.org/abs/1810.00895), we discuss examples and counterexamples of such subsets arising as zeroes of polynomials.  
+2) Analytic studies in Algebraic Geometry : A natural question arising from applied mathematics is, "When can one extend finite-energy analytic functions from subsets of '$\mathbb{C}^n$' to all of space whilst preserving the finite-energy condition ?" In a [joint work with D. Varolin](https://arxiv.org/abs/1810.00895), we discuss examples and counterexamples of such subsets arising as zeroes of polynomials.  
 
 ---
 
