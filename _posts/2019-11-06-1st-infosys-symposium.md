@@ -17,8 +17,8 @@ __Venue:__  Lecture Hall-1, Department of Mathematics
 
 Time               |  &nbsp; &nbsp; &nbsp; &nbsp;   Speaker & Title
 --- | ---
-2:00 pm - 2:45 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Subhojoy Gupta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  _TBA_
-2:50 pm - 3:35 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; _TBA_
+2:00 pm - 2:45 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Subhojoy Gupta &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  _Meromorphic geometric structures on surfaces_
+2:50 pm - 3:35 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Vamsi Pritham Pingali   &nbsp; &nbsp; _Interpolation or the lack of thereof from affine hypersurfaces; a vector bundle version of the Monge-Ampere equation_
 3:40 pm - 4:25 pm  |   &nbsp; &nbsp; &nbsp; &nbsp;  Apoorva Khare  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; _Groups with norms; Schur polynomials and weak majorization; distance matrices and Zariski density_
 
 
@@ -32,9 +32,15 @@ Each lecture will be of 45 minutes with 5 minutes break for Q&A and change of sp
 
 __Speaker:__ Subhojoy Gupta
 
-__Title:__ ​ TBA
+__Title:__ ​ Meromorphic geometric structures on surfaces
 
-__Abstract:__ TBA
+__Abstract:__ I shall present results from two projects of mine that were supported by the Infosys Foundation. Both concern geometric structures on a punctured Riemann surface X, that are associated with holomorphic quadratic differentials on X via certain differential equations. 
+
+The first concerns projective structures, which are determined by quadratic differentials via the Schwarzian differential equation. If we fix the orders of the poles at the punctures, the space of such meromorphic projective structures admits a monodromy map to the space of surface-group representations to PSL(2,C).
+
+I shall discuss a recent result characterizing the image of the monodromy map in the case the poles have order at most two. This is an analogue of a theorem of Gallo-Kapovich-Marden for closed surfaces, and clarifies a remark of Poincaré.
+
+The second concerns solutions of the non-linear PDE satisfied by harmonic maps from X to a hyperbolic surface of the same topological type. In this case, a holomorphic quadratic differential is obtained as the Hopf differential of the harmonic map. In the case that X is a closed surface, this defines a homeomorphism between the Teichmüller space of X and the space of holomorphic quadratic differentials on X.  This was work of M. Wolf, and independently N. Hitchin, in the mid-1980s. I shall discuss the analogue of this theorem in the case X has punctures, with the assumption that the orders of the poles are all greater than two.
 
 ---
 
@@ -46,9 +52,9 @@ __Title:__ Interpolation or the lack of thereof from affine hypersurfaces; a vec
 
 __Abstract:__ There are two themes of my research funded by the Infosys Foundation. I shall present a typical representative of each theme.
 
-1) PDE arising from Differential Geometry and Physics : The Monge-Ampere equation is a well-studied PDE in complex geometry and its solvability has ramifications in various sub-areas. Inspired by its success, in [a preprint](https://arxiv.org/abs/1804.03934), I introduced a vector bundle version of it, and proved a Kobayashi-Hitchin correspondence (essentially, the PDE has a solution if and only if some condition from algebraic geometry is met) in a special case, namely, for some equivariant rank-2 vortex bundles.
+1) PDE arising from Differential Geometry and Physics : The Monge--Ampere equation is a well-studied PDE in complex geometry and its solvability has ramifications in various sub-areas. Inspired by its success, in [a preprint](https://arxiv.org/abs/1804.03934), I introduced a vector bundle version of it, and proved a Kobayashi--Hitchin correspondence (essentially, the PDE has a solution if and only if some condition from algebraic geometry is met) in a special case, namely, for some equivariant rank-2 vortex bundles.
 
-2) Analytic studies in Algebraic Geometry : A natural question arising from applied mathematics is, "When can one extend finite-energy analytic functions from subsets of `$\mathbb{C}^n$` to all of space whilst preserving the finite-energy condition ?" In a [joint work with D. Varolin](https://arxiv.org/abs/1810.00895), we discuss examples and counterexamples of such subsets arising as zeroes of polynomials.  
+2) Analytic studies in Algebraic Geometry : A natural question arising from applied mathematics is, "When can one extend finite-energy analytic functions from subsets of '$mathbb{C}^n$' to all of space whilst preserving the finite-energy condition ?" In a [joint work with D. Varolin](https://arxiv.org/abs/1810.00895), we discuss examples and counterexamples of such subsets arising as zeroes of polynomials.  
 
 ---
 
@@ -59,7 +65,7 @@ __Speaker:__ Apoorva Khare
 __Title:__ ​ Groups with norms; Schur polynomials and weak majorization; distance matrices and Zariski density
 
 __Abstract:__ I present details of three disparate projects that received
-funding from the Infosys Foundation. The first is the
+funding from the Infosys Foundation. We first discuss the
 [Polymath-14 project](http://michaelnielsen.org/polymath1/index.php?title=Linear_norm),
 which arose out of a discussion literally made possible by Infosys funding!
 In this project, we show that a group is abelian and torsion-free if and
