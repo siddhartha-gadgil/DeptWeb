@@ -35,9 +35,9 @@ coefficients of elliptic cusp forms.
 
 In the second part of the talk we introduce Saito--Kurokawa lifts: these are certain Siegel
 modular forms lifted from classical elliptic modular forms on the upper half plane $H$. If
-$g$ is such an elliptic modular form of integral weight $k$ on $SL(2, Z)$ then we consider
-its Saito--Kurokawa lift $F_g$ and a certain 'restricted' $L^2$-norm, which we denote by
-$N(F_g)$ (and which we refer to as the 'mass'), associated with it.
+$g$ is such an elliptic modular form of integral weight $k$ on $SL(2, \matahbb{Z})$ then we
+consider its Saito--Kurokawa lift $F_g$ and a certain 'restricted' $L^2$-norm, which we
+denote by $N(F_g)$ (and which we refer to as the 'mass'), associated with it.
 
 Pullback of a Siegel modular form $F((\tau,z,z,\tau'))$ ($(\tau,z,z,\tau')$ in Siegel's
 upper half-plane of degree 2) to $H \times H$ is its restriction to $z=0$, which we denote
