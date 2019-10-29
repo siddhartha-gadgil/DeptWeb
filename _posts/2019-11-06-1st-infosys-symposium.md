@@ -78,7 +78,7 @@ and analysis, was solved in five days on a blog, and used a computer.
 ([Joint work as D.H.J. Polymath](http://dx.doi.org/10.2140/ant.2018.12.1773),
 with Tobias Fritz, Siddhartha Gadgil, Pace Nielsen, Lior Silberman, and Terence Tao.)
 
-Nexi, I discuss recent
+Next, I discuss recent
 [joint work with Projesh Nath Choudhury](http://arxiv.org/abs/1903.11566),
 in which we study distance matrices of trees. We propose a model that subsumes
 all previous variants to date (starting with Graham, Pollak, and Lovasz). In
