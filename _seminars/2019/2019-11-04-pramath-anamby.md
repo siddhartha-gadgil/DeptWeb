@@ -30,7 +30,7 @@ elliptic cusp forms, which will also be discussed. This result was established b
 in the context of Siegel modular forms -- and played a crucial role (among others) in the
 automorphic transfer from $GSp(4)$ to $GL(4)$.
 
-We expect similar applications. We also discuss few results on the square--free Fourier
+We expect similar applications. We also discuss few results on the square-free Fourier
 coefficients of elliptic cusp forms.
 
 In the second part of the talk we introduce Saito--Kurokawa lifts: these are certain Siegel
