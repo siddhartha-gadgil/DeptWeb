@@ -66,9 +66,9 @@ __Abstract:__ There are two themes of my research funded by the Infosys Foundati
 
 __Speaker:__ Apoorva Khare
 
-__Title:__ ​ Groups with norms; Schur polynomials and weak majorization; distance matrices and Zariski density
+__Title:__ ​ Groups with norms; distance matrices and Zariski density
 
-__Abstract:__ I present details of three disparate projects that received
+__Abstract:__ I present details of two disparate projects that received
 funding from the Infosys Foundation. We first discuss the
 [Polymath-14 project](http://michaelnielsen.org/polymath1/index.php?title=Linear_norm),
 which arose out of a discussion literally made possible by Infosys funding!
@@ -79,16 +79,7 @@ and analysis, was solved in five days on a blog, and used a computer.
 ([Joint work as D.H.J. Polymath](http://dx.doi.org/10.2140/ant.2018.12.1773),
 with Tobias Fritz, Siddhartha Gadgil, Pace Nielsen, Lior Silberman, and Terence Tao.)
 
-The second project provides two-way connections between positivity (analysis)
-and symmetric functions (algebra). I cover two aspects, the first of which
-reveals that every smooth function naturally leads to all Schur polynomials.
-This extends a computation by Loewner (1967). The "reverse" connection starts
-from a Schur positivity/monotonicity phenomenon, and uses the
-Harish-Chandra--Itzykson--Zuber integral to obtain a novel characterization
-of weak majorization. This last is
-[joint work with Terence Tao](http://arxiv.org/abs/1708.05197).
-
-Finally, I discuss recent
+Nexi, I discuss recent
 [joint work with Projesh Nath Choudhury](http://arxiv.org/abs/1903.11566),
 in which we study distance matrices of trees. We propose a model that subsumes
 all previous variants to date (starting with Graham, Pollak, and Lovasz). In
