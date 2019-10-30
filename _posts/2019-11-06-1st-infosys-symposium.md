@@ -65,7 +65,7 @@ __Abstract:__ There are two themes of my research funded by the Infosys Foundati
 
 __Speaker:__ Apoorva Khare
 
-__Title:__ ​ Groups with norms; distance matrices and Zariski density
+__Title:__ ​ Polymath-14 - groups with norms; Distance matrices and Zariski density
 
 __Abstract:__ I present details of two disparate projects that received
 funding from the Infosys Foundation. We first discuss the
