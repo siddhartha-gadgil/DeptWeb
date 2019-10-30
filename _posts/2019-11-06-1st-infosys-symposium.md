@@ -67,7 +67,7 @@ __Speaker:__ Apoorva Khare
 
 __Title:__ ​ Polymath-14 - Groups with norms; Distance matrices and Zariski density
 
-__Abstract:__ I present details of two disparate projects that received
+__Abstract:__ I shall present details of two disparate projects that received
 funding from the Infosys Foundation. We first discuss the
 [Polymath-14 project](http://michaelnielsen.org/polymath1/index.php?title=Linear_norm),
 which arose out of a discussion literally made possible by Infosys funding!
