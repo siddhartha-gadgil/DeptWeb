@@ -16,7 +16,7 @@ def get(s: String) = memo.get(s).getOrElse{
    result
 }
 
-def subLinks(s: String) = get(s).select("a").asScala.toVector.map{el => el.attr("href").replace(" ", "%20")}.flatMap(_.split("#").headOption).filter(_ != "") 
+def subLinks(s: String) = get(s).select("a").asScala.toVector.map{el => el.attr("href").trim.replace("\n", " ").replace(" ", "%20")}.flatMap(_.split("#").headOption).filter(_ != "") 
 def localLinks(s: String) = subLinks(s).filterNot(l => l.startsWith("#") || l.startsWith("http"))
 
 def contents(s: String) = if (s.startsWith("http")) requests.get(s) else os.read(os.pwd / "_site" / os.RelPath(trm(s)))
@@ -25,7 +25,7 @@ def isMissing(s: String) = {
     Try{val url = new URL(s)
     val huc = url.openConnection.asInstanceOf[HttpURLConnection]
     huc.getResponseCode == HttpURLConnection.HTTP_NOT_FOUND
-    }.getOrElse(true)
+    }.getOrElse(false)
 }
 def isBroken(l: String) = 
     mcheck.get(l).getOrElse{
@@ -52,11 +52,13 @@ def checkAll() = {
             val links = subLinks(s)
             if (links.size < 500) {
                 val br = brokenLinks(s)
-                if (br.nonEmpty) {pprint.log(s); pprint.log(br)}
+                if (br.nonEmpty) {
+                    println(s"* start page: $s")
+                    println(s"  broken links: ${br.mkString("\n    * ","\n    * ", "\n")}")}
+                    // println("")
             }
             
     }
 }
-// val allBroken = allLocal.flatMap(brokenLinks)
-// pprint.log(allBroken)
-// assert(allBroken.isEmpty, s"Broken links: ${allBroken.mkString("\n\n", "\n", "\n")}")
+
+checkAll()

@@ -5,7 +5,7 @@ date: 11 March, 2019
 time: 4 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_Spring_2019.html
+website: http://math.iisc.ac.in/~vvdatar/gt_2019_Spring.html
 ---
 
 Consider Riemannian functionals defined by L^2-norms of Ricci curvature, scalar curvature, Weyl curvature and 

@@ -1,0 +1,206 @@
+jan2014:
+- code: MA 222
+  name: Measure Theory
+  instructor: Harish Seshadri
+- code: MA 224
+  name: Complex Analysis
+  instructor: E. K. Narayanan
+- code: MA 229
+  name: Calculus on Manifolds
+  instructor: A. K. Nandakumaran
+- code: MA 241
+  name: Ordinary Differential Equations
+  instructor: G. Rangarajan
+- code: MA 303
+  name: Topics in Operator Theory
+  instructor: Gadadhar Misra
+- code: MA 304
+  name: Abstract Harmonic Analysis
+  instructor: Lakshmi Lavanya / S. Thangavelu
+- code: MA 315
+  name: Galois Theory*
+  instructor: D.P. Patil
+- code: MA 322
+  name: Harmonic Analysis
+  instructor: S. Thangavelu
+- code: MA 324
+  name: Topics in Complex Analysis
+  instructor: Gautam Bharali
+- code: MA 332
+  name: Symplectic Geometry
+  instructor: David Farris / Harish Seshadri
+- code: MA 347
+  name: Advanced PDE and Finite Element Method
+  instructor: Thirupathi Gudi
+- code: MA 361
+  name: Probability Theory*
+  instructor: Arvind Ayyer Link to course webpage
+- code: MA 365
+  name: Topics in Gaussian Processes
+  instructor: Manjunath Krishnapur
+aug2014:
+- code: MA 212
+  name: Algebra
+  instructor: Abhishek Banerjee
+- code: MA 219
+  name: Linear Algebra
+  instructor: Pooja Singla
+- code: MA 221
+  name: Real Analysis
+  instructor: Thirupathi Gudi
+- code: MA 223
+  name: Functional Analysis
+  instructor: S. Thangavelu
+- code: MA 226
+  name: Complex Analysis II
+  instructor: Jaikrishnan / Gautam Bharali
+- code: MA 231
+  name: Topology
+  instructor: Basudeb Datta
+- code: MA 232
+  name: Introduction to Algebraic Topology
+  instructor: Siddhartha Gadgil
+- code: MA 242
+  name: Partial Differential Equations
+  instructor: M. K. Ghosh
+- code: MA 261
+  name: Probability Models
+  instructor: M. K. Ghosh
+- code: MA 316
+  name: Introduction to Homological Algebra
+  instructor: Umesh V Dubey
+- code: MA 317
+  name: Introduction to Number Theory
+  instructor: Soumya Das
+- code: MA 325
+  name: Operator Theory II
+  instructor: Gadadhar Misra
+- code: MA 327
+  name: Topics in Analysis
+  instructor: Manjunath Krishnapur
+- code: MA 329
+  name: Topics in Several Complex Variables
+  instructor: Gautam Bharali
+- code: MA 338
+  name: Differentiable Manifolds and Lie Groups
+  instructor: Harish Seshadri
+aug2015:
+- code: MA 212
+  name: Algebra I
+  instructor: Abhishek Banerjee
+- code: MA 219
+  name: Linear Algebra
+  instructor: Harish Seshadri
+- code: MA 221
+  name: 'Analysis I: Real Anaysis'
+  instructor: S. Thangavelu
+- code: MA 231
+  name: Topology
+  instructor: Siddhartha Gadgil
+- code: MA 261
+  name: Probability Models
+  instructor: Arvind Ayyer
+- code: MA 223
+  name: Functional Analysis
+  instructor: T. Bhattacharyya
+- code: MA 232
+  name: Introduction to Algebraic Topology
+  instructor: Basudeb Datta
+- code: MA 242
+  name: Partial Differential Equations
+  instructor: Mrinal K. Ghosh
+- code: MA 215
+  name: Introduction to Modular Forms
+  instructor: Jaban Meher
+- code: MA 277
+  name: Advanced PDE and Finite Element Method
+  instructor: Thirupathi Gudi
+- code: MA 361
+  name: Probability Theory
+  instructor: Manjunath Krishnapur
+- code: MA 368
+  name: Topics in Probability and Stochastic Processes
+  instructor: Manjunath Krishnapur
+- code: MA 278
+  name: Introduction to Dynamical Systems Theory
+  instructor: Govindan Rangarajan & Janaki Balakrishnan
+jan2015:
+- code: MA 222
+  name: Measure Theory
+  instructor: Harish Seshadri
+- code: MA 224
+  name: Complex Analysis
+  instructor: Thangavelu
+- code: MA 229
+  name: Calculus on Manifolds
+  instructor: Gadadhar Misra
+- code: MA 241
+  name: Ordinary Differential Equations
+  instructor: A. K. Nandakumaran
+- code: MA 210
+  name: Logic, Types and Spaces
+  instructor: Siddhartha Gadgil
+- code: MA 213
+  name: Representation Theory of Finite Groups
+  instructor: Pooja Singla
+- code: MA 312
+  name: Commutative Algebra
+  instructor: D. P. Patil
+- code: MA 315
+  name: Galois Theory
+  instructor: Abhishek Banerjee
+- code: MA 318
+  name: Combinatorics
+  instructor: Arvind Ayyer
+- code: MA 332
+  name: Algebraic Topology
+  instructor: Divakaran D/Siddhartha Gadgil
+- code: MA 347
+  name: Advanced PDE and Finite Element Method
+  instructor: Thirupathi Gudi
+- code: MA 361
+  name: Probability Theory
+  instructor: Manjunath Krishnapur
+aug2013:
+- code: MA 210
+  name: p-adic Analysis Compared with Real
+  instructor: Pooja Singla
+- code: MA 212
+  name: Algebra
+  instructor: Mousumi Mandal
+- code: MA 215
+  name: Introduction to Modular Forms
+  instructor: Soumya Das
+- code: MA 219
+  name: Linear Algebra
+  instructor: E. K. Narayanan
+- code: MA 221
+  name: Real Analysis
+  instructor: Pooja Singla
+- code: MA 223
+  name: Functional Analysis
+  instructor: Gadadhar Misra
+- code: MA 231
+  name: Topology
+  instructor: Basudeb Datta
+- code: MA 232
+  name: Introduction to Algebraic Topology
+  instructor: Basudeb Datta
+- code: MA 234
+  name: Metric Geometry of Spaces and Groups
+  instructor: Siddhartha Gadgil
+- code: MA 242
+  name: Partial Differential Equations
+  instructor: Thirupathi Gudi
+- code: MA 261
+  name: Probability Models
+  instructor: M. K. Ghosh / S. K. Iyer
+- code: MA 321
+  name: Analysis III
+  instructor: A. K. Nandakumaran / R Dhayna
+- code: MA 326
+  name: Fourier Analysis
+  instructor: Thangavelu
+- code: MA 338
+  name: Differentiable Manifolds and Lie Groups
+  instructor: Thomas Richard / Harish Seshadri

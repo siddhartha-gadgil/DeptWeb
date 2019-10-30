@@ -5,7 +5,7 @@ date: 18 February, 2019
 time: 4 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_Spring_2019.html
+website: http://math.iisc.ac.in/~vvdatar/gt_2019_Spring.html
 ---
 
 Motivated by mirror symmetry considerations (the deformed Hermitian-Yang-Mills equation due to Jacobs-Yau) 

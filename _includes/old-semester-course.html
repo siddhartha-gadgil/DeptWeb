@@ -1,0 +1,34 @@
+
+<table class="table table-bordered">
+  <tr>
+    <strong>
+      <td><b>Course No.</b></td> <td><b>Credits</b></td>
+      <td  class="text-center"><b>Course Title</b></td>
+      <td  class="text-center"><b>Instructor</b></td>
+      
+    </strong>
+  </tr>
+  {% for course in list %}
+  <td>{{ course.code }}</td>
+  <td>
+    {% if course.credits %}
+    {{ course.credits }}
+    {% else %}
+    3:0
+    {% endif %}
+  </td>
+
+  <td>
+    {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
+
+    {% if course.webpage %}
+    {% assign lnk = course.webpage %}
+    {% endif %}
+
+    <a href="{{ lnk }}"> {{ course.name }} </a> </td>
+  <td> {{ course.instructor}}</td>
+
+  </tr>
+  {% endfor %}
+
+</table>

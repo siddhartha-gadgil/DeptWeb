@@ -3,7 +3,7 @@
 
 ## The Integrated Ph.D. Programme
 
-See also: [The _Ph.D._ Programme]({{site.baseurl}}/degprog-phd)
+See also: [The _Ph.D._ Programme]({{site.baseurl}}/degprog-phd.html)
 
 The Department of Mathematics, through its Integrated Ph.D. programme, offers
 exciting opportunities to talented students holding a Bachelor's degree for
