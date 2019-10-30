@@ -1,5 +1,5 @@
 ---
-speaker: Simon Hell (Simon Fraser University, Canada)
+speaker: Pavol Hell (Simon Fraser University, Canada)
 title: "Graphs with possible loops"
 date: 22 November, 2019
 time: 3 pm
