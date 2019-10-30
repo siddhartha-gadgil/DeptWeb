@@ -26,7 +26,8 @@ jobs:
         java-version: 1.8
     - name: Install mill
       run: |
-       sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/1.8.1/2.13-1.8.1) > bin/amm && chmod +x bin/amm' 
+        mkdir bin
+        sudo sh -c '(echo "#!/usr/bin/env sh" && curl -L https://github.com/lihaoyi/Ammonite/releases/download/1.8.1/2.13-1.8.1) > bin/amm && chmod +x bin/amm' 
     - name: Test for broken links
       run: bin/amm checklinks.sc
 
