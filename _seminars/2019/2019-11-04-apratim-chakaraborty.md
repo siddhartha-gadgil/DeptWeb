@@ -4,7 +4,7 @@ title: "Invariants of annular links, cobordisms and transverse links from combin
 date: 04 November, 2019
 time: 4:15 pm
 series: "Geometry & Topology Seminar"
-venue: LH-1, Mathematics Department
+venue: LH-2, Mathematics Department
 website: http://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
 ---
 
