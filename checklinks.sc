@@ -61,4 +61,18 @@ def checkAll() = {
     }
 }
 
-checkAll()
+// checkAll()
+
+def testAll() = {    
+    allLocal.foreach{
+        s =>
+            val links = subLinks(s)
+            if (links.size < 500) {
+                assert(brokenLinks(s).isEmpty, s"broken links for $s")
+                    // println("")
+            }
+            
+    }
+}
+
+testAll()
