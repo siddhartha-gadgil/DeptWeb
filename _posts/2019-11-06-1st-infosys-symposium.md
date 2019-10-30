@@ -21,7 +21,7 @@ Time               |   &nbsp;&nbsp;&nbsp;&nbsp; Speaker | &nbsp;&nbsp;&nbsp;&nbs
 2:35 pm -- 3:05 pm  | &nbsp;&nbsp;&nbsp;&nbsp;   Vamsi Pritham Pingali | &nbsp;&nbsp;&nbsp;&nbsp; _Interpolation or the lack of thereof from affine hypersurfaces;_
      &nbsp;        |   &nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; _a vector bundle version of the Monge-Ampere equation_
 3:05 pm -- 3:25 pm  |   &nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;  Tea
-3:25 pm -- 3:55 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Apoorva Khare  | &nbsp;&nbsp;&nbsp;&nbsp; _Polymath-14 - groups with norms; Distance matrices and Zariski density_
+3:25 pm -- 3:55 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Apoorva Khare  | &nbsp;&nbsp;&nbsp;&nbsp; _Polymath-14 - Groups with norms; Distance matrices and Zariski density_
 5:00 pm            |   &nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; High Tea
 
 
@@ -65,7 +65,7 @@ __Abstract:__ There are two themes of my research funded by the Infosys Foundati
 
 __Speaker:__ Apoorva Khare
 
-__Title:__ ​ Polymath-14 - groups with norms; Distance matrices and Zariski density
+__Title:__ ​ Polymath-14 - Groups with norms; Distance matrices and Zariski density
 
 __Abstract:__ I present details of two disparate projects that received
 funding from the Infosys Foundation. We first discuss the
