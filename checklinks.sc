@@ -41,7 +41,7 @@ def brokenLinks(s: String) = subLinks(s).filter(l => isBroken(l) && isBroken(s+"
 def childLinks(s: String) = localLinks(s).filter(_.endsWith(".html")).filterNot(l => isBroken(l)) 
 def offspring(ls: Set[String]) : Set[String] = {
       val next = ls union ls.flatMap(childLinks)
-      pprint.log(next.size)
+      println(s"pages in site found: ${next.size}")
       if (ls == next) ls else offspring(next)
 } 
 
@@ -64,13 +64,19 @@ def checkAll() = {
 // checkAll()
 
 def testAll() = {    
-    allLocal.foreach{
-        s =>
+    allLocal.zipWithIndex.foreach{
+        case (s, n) =>
             val links = subLinks(s)
             if (links.size < 500) {
-                assert(brokenLinks(s).isEmpty, s"broken links for $s")
-                    // println("")
+                val br = brokenLinks(s)
+                if (br.nonEmpty){ 
+                    Console.err.println("Broken link:")
+                    Console.err.println(s"* source page: $s")
+                    Console.err.println(s"  broken links: ${br.mkString("\n    * ","\n    * ", "\n")}")
+                    throw new Exception(s"Broken link in $s")
+                    }
             }
+            if (n % 50 == 0) println(s"checked links from $n pages")
             
     }
 }
