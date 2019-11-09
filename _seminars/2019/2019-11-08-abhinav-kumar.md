@@ -5,6 +5,7 @@ date: 8 November, 2019
 time:  3 – 5 pm (with a 15 minute break at 3:45)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2019-11-08-AbhinavKumar.pdf"
 ---
 
 The sphere packing problem asks for the densest packing by
