@@ -2,7 +2,7 @@
 speaker: Bernhard Heim (German University of Technology, Oman)
 title: "The G.-C. Rota approach and the Lehmer conjecture"
 date: 14 November, 2019
-time: 2 pm
+time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
