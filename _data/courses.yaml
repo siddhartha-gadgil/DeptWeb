@@ -77,6 +77,14 @@ jan2020:
     ug-prereq-courses: ''
     timing:
     venue:
+  - name: Computer Assisted Topology and Geometry
+    instructor: Siddhartha Gadgil
+    code: MA 337
+    credits: "1:3"
+    prereq-courses: 
+    ug-prereq-courses: ''
+    timing:
+    venue:
   - name: Differentiable Manifolds & Lie Groups
     instructor: Subhojoy Gupta
     code: MA 338
