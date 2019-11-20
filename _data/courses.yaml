@@ -58,12 +58,18 @@ jan2020:
     timing:
     venue: "LH-4"
   electives:
+  - name: Introduction to Dynamical Systems Theory
+    instructor: Janaki Balakrishnan
+    code: MA 278
   - name: Topics in Harmonic Anaysis
     code: MA 304
     instructor: S. Thangavelu
   - name: Commutative Algebra
     code: MA 312
     instructor: Dilip Patil
+  - name: Algebraic Number Theory
+    code: MA 313
+    instructor: Radhika Ganapathy
   - name: Lie Algebras and their Representations
     code: MA 315
     instructor: R. Venkatesh/Apoorva Khare
@@ -85,6 +91,7 @@ jan2020:
     ug-prereq-courses: ''
     timing:
     venue:
+    webpage: http://math.iisc.ac.in/~gadgil/catg2020/index.html
   - name: Differentiable Manifolds & Lie Groups
     instructor: Subhojoy Gupta
     code: MA 338
@@ -95,12 +102,18 @@ jan2020:
   - name: Geometric Analysis
     code: MA 339
     instructor: Vamsi Pingali
+  - name: Elliptic Curves
+    code: MA 353
+    instructor: Mahesh Kakde
   - name: Topics in Probability and Stochastic Processes
     code: MA 368
     instructor: Manjunath Krishnapur
-  - name: Topics in Representation Theory
-    code: MA 387
-    instructor: Pooja Singla
+  - name: Semigroup Theory and Evolution Equations
+    code: MA 374
+    instructor: A. K. Nandakumaran
+  - name: Topics in Rigorous Statistical Mechanics
+    code: MA 39x
+    instructor: Riddhipratim Basu (ICTS)
 
 
 aug2019:
