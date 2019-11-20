@@ -64,6 +64,9 @@ jan2020:
   - name: Commutative Algebra
     code: MA 312
     instructor: Dilip Patil
+  - name: Algebraic Number Theory
+    code: MA 313
+    instructor: Radhika Ganapathy
   - name: Lie Algebras and their Representations
     code: MA 315
     instructor: R. Venkatesh/Apoorva Khare
@@ -96,12 +99,12 @@ jan2020:
   - name: Geometric Analysis
     code: MA 339
     instructor: Vamsi Pingali
+  - name: Elliptic Curves
+    code: MA 353
+    instructor: Mahesh Kakde
   - name: Topics in Probability and Stochastic Processes
     code: MA 368
     instructor: Manjunath Krishnapur
-  - name: Topics in Representation Theory
-    code: MA 387
-    instructor: Pooja Singla
 
 
 aug2019:
