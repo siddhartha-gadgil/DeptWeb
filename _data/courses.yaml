@@ -58,6 +58,9 @@ jan2020:
     timing:
     venue: "LH-4"
   electives:
+  - name: Introduction to Dynamical Systems Theory
+    instructor: Janaki Balakrishnan
+    code: MA 278
   - name: Topics in Harmonic Anaysis
     code: MA 304
     instructor: S. Thangavelu
@@ -105,6 +108,12 @@ jan2020:
   - name: Topics in Probability and Stochastic Processes
     code: MA 368
     instructor: Manjunath Krishnapur
+  - name: Semigroup Theory and Evolution Equations
+    code: MA 374
+    instructor: A. K. Nandakumaran
+  - name: Topics in Rigorous Statistical Mechanics
+    code: MA 39x
+    instructor: Riddhipratim Basu (ICTS)
 
 
 aug2019:
