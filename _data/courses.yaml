@@ -73,6 +73,10 @@ jan2020:
   - name: Lie Algebras and their Representations
     code: MA 315
     instructor: R. Venkatesh/Apoorva Khare
+  - name: Introduction to Homological Algebra
+    code: MA 316
+    instructor: Safdar Quddus
+    prereq-courses: ''
   - name: Operator Theory
     code: MA 323
     instructor: Surjit Kumar
