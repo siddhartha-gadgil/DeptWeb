@@ -58,6 +58,9 @@ jan2020:
     timing:
     venue: "LH-4"
   electives:
+  - name: "Logic: classical, modal and intuitionistic"
+    instructor: Kamal Lodaya
+    code: MA 209
   - name: Introduction to Dynamical Systems Theory
     instructor: Janaki Balakrishnan
     code: MA 278
