@@ -23,6 +23,6 @@ interpolation and weak spaces.
 rectangular partial sums and $L^{\bar{p}}$ convergence.
 
 Several open problems and other questions will be considered.  Some of
-the results presented are joint work with Emilio Fern\'andez
+the results presented are joint work with Emilio Fernandez
 (Universidad de La Rioja, Spain).
 
