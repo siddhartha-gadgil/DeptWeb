@@ -1,5 +1,5 @@
 ---
-speaker: Luz Roncal (BCAM -- Basque Center for Applied Mathematics, Spain)
+speaker: Luz Roncal (BCAM – Basque Center for Applied Mathematics, Spain)
 title: "Fourier analysis on the infinite-dimensional torus"
 date: 04 December, 2019
 time: 3:30 pm
