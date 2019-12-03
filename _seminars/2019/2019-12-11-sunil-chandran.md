@@ -11,7 +11,7 @@ website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
 The Gyárfás–Sumner conjecture states the following: Let $a,b$ be
 positive integers. Then there exists a function $f$, such that if
 $G$ is a graph of clique number at most $a$ and chromatic number at
-least $f(a,b)$, then $G$ contains all trees on at most $s$ vertices
+least $f(a,b)$, then $G$ contains all trees on at most $b$ vertices
 as induced subgraphs. This conjecture is still open, though for
 several special cases it is known to be true. We study the oriented
 version of this conjecture: Does there exist a function $g$, such
