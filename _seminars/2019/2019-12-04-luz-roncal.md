@@ -2,7 +2,7 @@
 speaker: Luz Roncal (BCAM – Basque Center for Applied Mathematics, Spain)
 title: "Fourier analysis on the infinite-dimensional torus"
 date: 04 December, 2019
-time: 3:30 pm
+time: 11 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
