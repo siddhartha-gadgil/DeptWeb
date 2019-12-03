@@ -20,7 +20,7 @@ certain properties) is at least $g(s)$ then $G$ contains all
 oriented trees on at most $s$ vertices as its induced subgraphs. In
 general this statement is not true, not even for triangle free graphs.
 Therefore, we consider the next natural special class – namely the
-4-cycle free graphs –and prove the above statement for that class.
+4-cycle free graphs – and prove the above statement for that class.
 We show that $g(s) \leq 4s^2$ in this case.
 
 We also consider the rainbow (colorful) variant of this conjecture.
