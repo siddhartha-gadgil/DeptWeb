@@ -7,7 +7,7 @@ jan2020:
   - code: UM 203
     name: Introduction to Algebraic Structures
     instructor: R. Venkatesh
-    webpage: http://math.iisc.ac.in/~vamsipingali/um2032018.html
+    webpage: 
     ug-prereq-courses: UM 102
     timing:
     venue:
@@ -184,7 +184,7 @@ aug2019:
     prereq-courses: ''
     ug-prereq-courses: UM 102
     venue: LH-4
-    webpage: http://math.iisc.ac.in/~vamsipingali/ma2192019.html
+    webpage: 
   - name: 'Analysis I: Real Anaysis'
     instructor: Gadadhar Misra
     timing: 'Mon, Wed, Fri: 11:00-12:00'
@@ -307,7 +307,7 @@ jan2019:
   - code: UM 203
     name: Introduction to Algebraic Structures
     instructor: Vamsi Pingali
-    webpage: http://math.iisc.ac.in/~vamsipingali/um2032018.html
+    webpage: 
     ug-prereq-courses: UM 102
     timing: 'Tue, Thur - 11:00-12:00; Wed - 10:00-11:00'
     venue: "G-2 (Old Physics)"
@@ -858,7 +858,7 @@ aug2017:
   - name: Differentiable Manifolds & Lie Groups
     instructor: Vamsi Pingali
     code: MA 338
-    webpage: http://math.iisc.ac.in/~vamsipingali/338_2017.html
+    webpage: 
     prereq-courses: ''
     ug-prereq-courses: ''
   - name: Probability Theory
