@@ -32,5 +32,5 @@ It is surprising that each one of these can inform us of the other in the inters
 that is soliton theory, an outcome of the KdV equation.
 
 The subject is too big but I shall try to give some glimpses (1) of the history,
-(2) of the inverse scattering method, and (3) show that aan lgorithm based on
+(2) of the inverse scattering method, and (3) show that an algorithm based on
 algebraic-geometric approach is much easier to derive soliton solutions.
