@@ -16,7 +16,7 @@ jobs:
         mkdir ~/.ruby
         export GEM_HOME=~/.ruby/
         export PATH="$PATH:~/.ruby/bin"
-        gem install -v "1.16.4" bundler --no-ri --no-rdoc 
+        gem install -v "2.0.1" bundler --no-ri --no-rdoc 
         bundle update github-pages 
         bundle install --without development test 
         bundle exec jekyll build 
