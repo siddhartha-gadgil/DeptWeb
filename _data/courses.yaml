@@ -6,6 +6,7 @@ jan2020:
     ug-prereq-courses: UM 101
   - code: UM 203
     name: Introduction to Algebraic Structures
+    credits: '3:1'
     instructor: R. Venkatesh
     webpage: 
     ug-prereq-courses: UM 102
@@ -13,6 +14,7 @@ jan2020:
     venue:
   - code: UM 204
     name: Introduction to Basic Analysis
+    credits: '3:1'
     instructor: Srikanth Iyer
     ug-prereq-courses: UM 102
     timing:
