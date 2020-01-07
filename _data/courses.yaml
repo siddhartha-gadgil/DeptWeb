@@ -117,7 +117,7 @@ jan2020:
     prereq-courses: 
     ug-prereq-courses: ''
     timing: 'Mon, Wed, Fri: 12:10-1:00'
-    venue: "LH-3/LH-5"
+    venue: "LH-3"
     webpage: http://math.iisc.ac.in/~gadgil/catg2020/index.html
   - name: Differentiable Manifolds & Lie Groups
     instructor: Subhojoy Gupta
