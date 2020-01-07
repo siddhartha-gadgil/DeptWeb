@@ -7,3 +7,8 @@ tarball/
 tmp/
 out/
 .metals/
+*.aux
+*.fls
+*.synctex*
+*.fdb_latexmk
+*.log

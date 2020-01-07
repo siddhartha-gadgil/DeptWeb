@@ -1,0 +1,26 @@
+---
+title: "Course Schedule"
+layout: blank
+---
+\documentclass[11pt]{amsart}
+
+\begin{document}
+\date{}
+\title{Course Schedule, 
+January-April 2020\\
+Department of Mathematics, IISc}
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+    
+\begin{tabular}{| c | p{.32\textwidth} | p{.3\textwidth} | p{.38\textwidth} |}
+\hline 
+\textbf{Code} & \textbf{Name} & \textbf{Instructor} & \textbf{Timing} \\
+\hline
+{% assign semester = site.data.courses.jan2020 %}{% assign list = semester.core1 | concat: semester.electives | sort: 'code' %}{% if semester.core2 %}{% assign list = semester.core1 | concat: semester.core2 | concat: semester.electives | sort: 'code' %}{% endif %}{% for course in list %}
+   {{ course.code }} & {{ course.name | replace: '&', '\\&' }} & {{ course.instructor }} & {{ course.timing }} \\ \hline
+  {% endfor %}
+\hline
+\end{tabular}
+
+\end{document}
