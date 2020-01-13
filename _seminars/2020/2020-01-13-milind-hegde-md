@@ -15,7 +15,7 @@ characteristic KPZ scaling exponents of one-third and two-third,
 is known to be the Airy_2 process shifted by a parabola. This
 limiting process is expected to be "locally Brownian", and a
 recent result gives a quantified bound on probabilities of events
-under the Airy$\_2$ process on a unit order interval in terms of
+under the Airy_2 process on a unit order interval in terms of
 probabilities of the same events under Brownian motion (of rate
 two). This comparison also holds in the prelimit for the
 particular model of Brownian last passage percolation. In this
