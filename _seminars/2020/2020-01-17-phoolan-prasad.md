@@ -1,7 +1,7 @@
 ---
 speaker: Phoolan Prasad (IISc Mathematics)
 title: "Glimpses of KdV Equation and Soliton theory"
-date: 31 January, 2020
+date: 17 January, 2020
 time:  3 – 5 pm (with a 15 minute break at 3:45)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
