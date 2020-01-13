@@ -1,7 +1,7 @@
 ---
 speaker: Eshita Mazumdar (ISI, Bangalore)
 title: "An extremal problem related to weighted Davenport constant"
-date: 17 January, 2020
+date: 31 January, 2020
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
