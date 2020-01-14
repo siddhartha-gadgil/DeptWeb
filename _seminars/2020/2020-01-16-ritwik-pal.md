@@ -26,7 +26,7 @@ subspace of the Siegel modular forms), where in the thesis, we have
 improved upon the previously known result on this topic significantly.
 We will prove that the smallest $n$ with $\lambda(n)<0$ satisfy
 $n < Q_{F}^{1/2-2\theta+\epsilon}$, where $Q_{F}$ is the analytic 
-of a Yoshida lift $F$ and $0<\theta <1/4$ is some constant. 
+conductor of a Yoshida lift $F$ and $0<\theta <1/4$ is some constant. 
 The crucial point is establishing a non-trivial upper bound on the sum of
 Hecke eigenvalues of an elliptic newform at primes away from the level. 
 
@@ -50,7 +50,7 @@ some of their machinery of averages multiplicative functions to the
 number field setting.
 
 In the second part of the talk we will introduce Jacobi forms and certain
-differential operators indexed by $\{D_{v}\}\_{0}^{2m}$ that maps the
+differential operators indexed by $\\{D_{v}\\}\_{0}^{2m}$ that maps the
 space of Jacobi forms $J_{k,m}(N)$ of weight $k$, index $m$ and level $N$
 to the space of modular forms $M_{k+v}(N)$ of weight $k+v$ and level $N$.
 It is also known that the direct sum of the differential operators $D_{v}$
