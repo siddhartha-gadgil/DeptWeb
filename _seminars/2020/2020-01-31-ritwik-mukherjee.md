@@ -2,7 +2,7 @@
 speaker: Ritwik Mukherjee (NISER, Bhubaneswar)
 title: "Enumerative Geometry of the Quintic Threefold"
 date: 31 January, 2020
-time: 11:00 am
+time: 10:00 am
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
 website: http://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
