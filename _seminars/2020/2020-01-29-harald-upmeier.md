@@ -10,9 +10,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 
 The second part of the lectures on multi-variable automorphic forms emphasizes relations
 to harmonic analysis and operator algebras, together with some explicit constructions
-of automorphic forms.
-
-The date and time for the third and fourth lectures will be announced in due course.  
+of automorphic forms. 
 
 Lecture 1. Automorphic Forms on Semisimple Lie Groups (Tuesday, January 14)
 
