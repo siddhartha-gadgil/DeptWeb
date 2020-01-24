@@ -19,6 +19,6 @@ Lecture 1. Automorphic Forms on Semisimple Lie Groups (Tuesday, January 14)
 Lecture 2. Construction of Automorphic Forms (Eisenstein series and Theta functions),
 relations to number theory in higher dimension (Thursday, January 16)
 
-Lecture 3. Automorphic Forms in Berezin Quantization and von Neumann Algebras 
+Lecture 3. Automorphic Forms in Berezin Quantization and von Neumann Algebras (Wednesday, January 29)
 
-Lecture 4. Multivariable Scattering Theory
+Lecture 4. Multivariable Scattering Theory (Friday, January 31)
