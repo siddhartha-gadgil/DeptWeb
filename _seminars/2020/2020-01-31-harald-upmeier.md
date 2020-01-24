@@ -12,8 +12,6 @@ The second part of the lectures on multi-variable automorphic forms emphasizes r
 to harmonic analysis and operator algebras, together with some explicit constructions
 of automorphic forms.
 
-The date and time for the third and fourth lectures will be announced in due course.  
-
 Lecture 1. Automorphic Forms on Semisimple Lie Groups (Tuesday, January 14)
 
 Lecture 2. Construction of Automorphic Forms (Eisenstein series and Theta functions),
