@@ -19,4 +19,4 @@ relations to number theory in higher dimension (Thursday, January 16)
 
 Lecture 3. Automorphic Forms in Berezin Quantization and von Neumann Algebras (Wednesday, January 29)
 
-Lecture 4. Multivariable Scattering Theory (Friday, January 31)
+Lecture 4. Multivariable Scattering Theory (Wednesday, February 5)
