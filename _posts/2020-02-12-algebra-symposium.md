@@ -1,12 +1,11 @@
 ---
 title: Algebra Symposium
 ---
-We cordially invite you to an __Algebra Symposium__ at the
-Department of Mathematics, IISc, on Wednesday, 12th February, 2019.
+We cordially invite you to an __Algebra Symposium__ at IISc.
 
-__Date:__     6<sup>th</sup> November, 2019 (Wednesday)
+__Date:__     12<sup>th</sup> February, 2020 (Wednesday)
 
-__Venue:__  Lecture Hall-1, Department of Mathematics
+__Venue:__  Lecture Hall-1, Department of Mathematics, IISc
 
 
 
