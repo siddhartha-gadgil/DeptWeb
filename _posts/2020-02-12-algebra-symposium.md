@@ -1,7 +1,7 @@
 ---
 title: Algebra Symposium
 ---
-We cordially invite you to an __Algebra Symposium__ at IISc.
+We cordially invite you to an __Algebra Symposium__ at IISc. The organizers are R. Venkatesh and Apoorva Khare.
 
 __Date:__     12<sup>th</sup> February, 2020 (Wednesday)
 
