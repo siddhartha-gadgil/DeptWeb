@@ -29,7 +29,7 @@ Time               |   &nbsp;&nbsp;&nbsp;&nbsp; Speaker | &nbsp;&nbsp;&nbsp;&nbs
 
 #### Lecture 1 ​
 
-__Speaker:__ Uri Onn (Australian National University, Canberra, Australia)
+__Speaker:__ _Uri Onn_ (Australian National University, Canberra, Australia)
 
 __Title:__ ​ Representation growth of arithmetic lattices
 
@@ -39,7 +39,7 @@ __Abstract:__ Let $G$ be a group and let $r(n,G)$ denote the number of equivalen
 
 #### Lecture 2​
 
-__Speaker:__ Radhika Ganapathy (IISc Mathematics)
+__Speaker:__ _Radhika Ganapathy_ (IISc Mathematics)
 
 __Title:__ TBA
 
@@ -49,7 +49,7 @@ __Abstract:__ TBA
 
 #### Lecture 3​
 
-__Speaker:__ Shaunak Deo (TIFR, Mumbai)
+__Speaker:__ _Shaunak Deo_ (TIFR, Mumbai)
 
 __Title:__ Deformations of Galois representations
 
@@ -59,7 +59,7 @@ __Abstract:__ One of the main themes of deformation theory of Galois representat
 
 #### Lecture 4​
 
-__Speaker:__ Mahesh Kakde (IISc Mathematics)
+__Speaker:__ _Mahesh Kakde_ (IISc Mathematics)
 
 __Title:__ TBA
 
@@ -69,7 +69,7 @@ __Abstract:__ TBA
 
 #### Lecture 5​
 
-__Speaker:__ Amalendu Krishna (TIFR, Mumbai)
+__Speaker:__ _Amalendu Krishna_ (TIFR, Mumbai)
 
 __Title:__ An application of $K$-theory in class field theory
 
