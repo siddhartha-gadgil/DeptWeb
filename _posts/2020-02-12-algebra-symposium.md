@@ -43,7 +43,7 @@ __Speaker:__ _Radhika Ganapathy_ (IISc Mathematics)
 
 __Title:__ Congruences of parahoric group schemes
 
-__Abstract:__ TBA
+__Abstract:__ Let $F$ be a non-archimedean local field and let $T$ be a torus over $F$. With $\mathcal{T}^{N R}$ denoting the Neron-Raynaud model of $T$, a result of Chai and Yu asserts that the model $\mathcal{T}^{N R} \times\_{\mathfrak{O}\_F} \mathfrak{O}\_F / \mathfrak{p}\_F^m$ is canonically determined by $({\rm Tr}\_l(F), \Lambda)$ for $l \gg m$, where $({\rm Tr}\_l(F) = (\mathfrak{O}\_F / \mathfrak{p}\_F^l, \mathfrak{p}\_F / \mathfrak{p}\_F^{l+1}, \epsilon)$ with $\epsilon$ denoting the natural projection of $\mathfrak{p}\_F / \mathfrak{p}\_F^{l+1}$ on $\mathfrak{p}\_F / \mathfrak{p}\_F^l$, and $\Lambda := X\_\*(T)$. In this talk we will discuss the analogous question for parahoric group schemes attached to facets in the Bruhat-Tits building of a connected reductive group over $F$, and some applications of this result towards studying the representation theory of $p$-adic groups over close local fields.
 
 ---
 
