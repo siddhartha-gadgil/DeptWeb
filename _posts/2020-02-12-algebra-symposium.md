@@ -33,7 +33,7 @@ __Speaker:__ Uri Onn (Australian National University, Canberra, Australia)
 
 __Title:__ ​ Representation growth of arithmetic lattices
 
-__Abstract:__ Let G be a group and let r(n,G) denote the number of equivalence classes of n-dimensional complex irreducible representations of G. Representation growth is a branch of asymptotic group theory that studies the asymptotic and arithmetic properties of the sequences (r(n,G)). In 2008 Larsen and Lubotzky conjectured that all irreducible lattices in a high rank semisimple Lie group have the same degree of polynomial representation growth. In this talk I will explain the conjecture and describe the ideas around the proof of a variant of the conjecture: if the lattices have polynomial representation growth (which is known to be true in most cases) then they have the same degree of polynomial growth. This is a joint work with Nir Avni, Benjamin Klopsch and Christopher Voll.
+__Abstract:__ Let $G$ be a group and let $r(n,G)$ denote the number of equivalence classes of $n$-dimensional complex irreducible representations of $G$. Representation growth is a branch of asymptotic group theory that studies the asymptotic and arithmetic properties of the sequences $(r(n,G))$. In 2008 Larsen and Lubotzky conjectured that all irreducible lattices in a high rank semisimple Lie group have the same degree of polynomial representation growth. In this talk I will explain the conjecture and describe the ideas around the proof of a variant of the conjecture: if the lattices have polynomial representation growth (which is known to be true in most cases) then they have the same degree of polynomial growth. This is a joint work with Nir Avni, Benjamin Klopsch and Christopher Voll.
 
 ---
 
