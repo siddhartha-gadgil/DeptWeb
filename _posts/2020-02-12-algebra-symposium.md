@@ -43,7 +43,7 @@ __Speaker:__ _Radhika Ganapathy_ (IISc Mathematics)
 
 __Title:__ Congruences of parahoric group schemes
 
-__Abstract:__ 
+__Abstract:__ TBA
 
 ---
 
