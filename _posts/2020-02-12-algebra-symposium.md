@@ -14,11 +14,11 @@ Time               |   &nbsp;&nbsp;&nbsp;&nbsp; Speaker | &nbsp;&nbsp;&nbsp;&nbs
 --- | --- | --- 
 9:00 am  | &nbsp;&nbsp;&nbsp;&nbsp;  Amalendu Krishna | &nbsp;&nbsp;&nbsp;&nbsp; _An application of $K$-theory in class field theory_
 10:00 am  | &nbsp;&nbsp;&nbsp;&nbsp;  Tea
-10:15 am  | &nbsp;&nbsp;&nbsp;&nbsp;  Radhika Ganapathy  | &nbsp;&nbsp;&nbsp;&nbsp; _TBA_
+10:15 am  | &nbsp;&nbsp;&nbsp;&nbsp;  Radhika Ganapathy  | &nbsp;&nbsp;&nbsp;&nbsp; _Congruences of parahoric group schemes_
 11:15 am  | &nbsp;&nbsp;&nbsp;&nbsp;  Tea
 11:30 am  | &nbsp;&nbsp;&nbsp;&nbsp;  Shaunak Deo  | &nbsp;&nbsp;&nbsp;&nbsp; _Deformations of Galois representations_
 12:30 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Lunch
-2:30 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Mahesh Kakde  | &nbsp;&nbsp;&nbsp;&nbsp; _TBA_
+2:30 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Mahesh Kakde  | &nbsp;&nbsp;&nbsp;&nbsp; _On Hilbert's 12th problem and Brumer-Stark conjecture_
 3:30 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Tea
 4:00 pm  | &nbsp;&nbsp;&nbsp;&nbsp;  Uri Onn | &nbsp;&nbsp;&nbsp;&nbsp; _Representation growth of arithmetic lattices_
 5:00 pm  | &nbsp;&nbsp;&nbsp;&nbsp; High Tea
@@ -41,9 +41,9 @@ __Abstract:__ I will show how we can use algebraic $K$-theory to solve a higher 
 
 __Speaker:__ _Radhika Ganapathy_ (IISc Mathematics)
 
-__Title:__ TBA
+__Title:__ Congruences of parahoric group schemes
 
-__Abstract:__ TBA
+__Abstract:__ 
 
 ---
 
@@ -61,9 +61,9 @@ __Abstract:__ One of the main themes of deformation theory of Galois representat
 
 __Speaker:__ _Mahesh Kakde_ (IISc Mathematics)
 
-__Title:__ TBA
+__Title:__ On Hilbert's 12th problem and Brumer-Stark conjecture
 
-__Abstract:__ TBA
+__Abstract:__ In this talk I will state Hilbert's 12th problem (explicit class field theory) and give a $p$-adic solution for totally real fields. This involves proving the Brumer-Stark conjecture and an integral refinement of the Gross-Stark conjecture. This is a joint work with Samit Dasgupta. 
 
 ---
 
