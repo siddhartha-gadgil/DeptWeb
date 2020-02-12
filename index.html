@@ -40,10 +40,7 @@
       {% assign futposts = site.posts | sort: 'date' %}
       {% assign postcounter = 0 %}
 
-      {% for post in futposts %}
-      {% assign postDate = post.date | date: '%s' | plus: 604800 %}
-
-      {% if postDate >= curDate %}
+      {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}{% if postDate >= curDate %}
       {% assign postcounter=postcounter | plus: 1 %}
       {% if postcounter <= 3 %}
         <li>
@@ -59,8 +56,7 @@
           {% endif %}
         </li>
         {% endif %}
-        {% endif %}
-      {% endfor %}
+        {% endif %}{% endfor %}
     </ul>
   </div>
 
@@ -69,15 +65,7 @@
   <div class="col-md-4">
     <h3 class="text-center"> <a href="seminars-all.html">Seminars</a></h3>
 
-<ul>
-
-  {% assign sorted = site.seminars | sort: 'date' | reverse %}
-  {% assign chron = site.seminars | sort: 'date' %}
-{% assign counter = 0 %}
-
-{% for sem in chron %}
-{% assign semDate = sem.date | date: '%s' | plus: 0 %}
-{% if semDate >= curDate %}
+<ul>{% assign sorted = site.seminars | sort: 'date' | reverse %}{% assign chron = site.seminars | sort: 'date' %}{% assign counter = 0 %}{% for sem in chron %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% if semDate >= curDate %}
 {% assign counter=counter | plus: 1 %}
 <li>
  <div><strong> Title: </strong>
@@ -101,17 +89,14 @@
 <div class="">
 &nbsp;
 </div>
-</li>{% endif %}
- {% endfor %}
+</li>{% endif %}{% endfor %}
  {% assign pastnum = 4 | minus: counter %}
 
  {% if pastnum > 0 %}
  <h4 class="text-center">Past Seminars</h4>
  {% endif %}
 
- {% for sem in sorted limit: 4 %}
- {% assign semDate = sem.date | date: '%s' | plus: 0 %}
- {% unless semDate >= curDate %}
+ {% for sem in sorted limit: 4 %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% unless semDate >= curDate %}
  <li>
   <div><strong> Title: </strong>
     {% if sem.series %}<a
@@ -135,8 +120,7 @@
  &nbsp;
  </div>
  </li>
-  {% endunless %}
-  {% endfor %}
+  {% endunless %}{% endfor %}
 
  <a href="seminars-all.html"><h4>All Seminars</h4></a>
 </ul>
