@@ -20,6 +20,6 @@ It is an interesting problem to decide, given an infinite group $G$
 whether or not $G$ has property $R_\infty$.  We will consider the problem
 in the case when $G=GL(n,R), SL(n,R), n\ge 2$, when $R$ is either a
 polynomial ring or a Laurent polynomial ring over a finite field
-$\mathbb{F}_q$
+$\mathbb{F}\_q$.
 
 The talk is based on recent joint work with Oorna Mitra.
