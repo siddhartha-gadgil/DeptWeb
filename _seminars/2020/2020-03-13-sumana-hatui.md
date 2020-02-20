@@ -3,7 +3,7 @@ speaker: Sumana Hatui (IISc Mathematics)
 title: "Projective representations of Heisenberg groups"
 date: 13 March, 2020
 time: 3 pm
-venue: LH-3, Mathematics Department
+venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
 ---
