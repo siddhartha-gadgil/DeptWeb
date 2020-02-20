@@ -14,7 +14,7 @@ conjectures the existence of a $\mathfrak{p}$-unit called the
 Gross--Stark unit.  This unit has $\mathfrak{P}$ order equal
 to the value of a partial zeta function at 0, for a prime
 $\mathfrak{P}$ above $\mathfrak{p}$. In 2008 and 2018 Dasgupta
-and Dasgupta--Spie\ss, conjectured formulas for this unit.
+and Dasgupta--Spie&szlig;, conjectured formulas for this unit.
 During this talk I shall explain Tate's conjecture and then
 the ideas for the constructions of these formulas. I will
 finish by explaining the results I have obtained from comparing
