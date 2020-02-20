@@ -1,6 +1,6 @@
 ---
 speaker: Matthew Honnor (King's College London, UK)
-title: "Formulas for the Gross--Stark units"
+title: "Formulas for the Gross-Stark units"
 date: 6 March, 2020
 time: 3 pm
 venue: LH-3, Mathematics Department
