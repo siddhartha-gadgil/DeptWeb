@@ -9,7 +9,7 @@ import $ivy.`org.jsoup:jsoup:1.12.1`, org.jsoup._
 val memo: mMap[String, nodes.Document] = mMap()
 val mcheck: mMap[String, Boolean] = mMap()
 
-def trm(s: String) = if (s.startsWith("/DeptWeb/")) s.drop(9) else s
+def trm(s: String) = if (s.startsWith("/DeptWeb/")) s.drop(9) else if (s.startsWith("/")) s.drop(1) else  s
 def get(s: String) = memo.get(s).getOrElse{
    val result = if (s.startsWith("http")) Jsoup.connect(s).get() else Jsoup.parse(os.read(os.pwd / "_site" / os.RelPath(trm(s)))) 
    memo += s -> result
