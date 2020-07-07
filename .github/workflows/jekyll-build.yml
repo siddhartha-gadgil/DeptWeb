@@ -1,4 +1,4 @@
-name: jekyll test
+name: jekyll test, build and zip
 
 on: workflow_dispatch
 
