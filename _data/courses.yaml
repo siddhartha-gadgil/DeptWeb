@@ -2,7 +2,7 @@ jan2021:
   ug:
   - code: UM 102
     instructor: Vamsi Pingali
-    name: "Anaysis and Linear Algebra - II"
+    name: "Analysis and Linear Algebra - II"
     ug-prereq-courses: UM 101
   - code: UM 203
     name: Introduction to Algebraic Structures
