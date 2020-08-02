@@ -34,9 +34,11 @@ which may be in trace class. For this, we define an operator valued determinant 
 $d\times d$-block operator $\boldsymbol B := \big (\big ( B_{i j} \big ) \big )$ 
 by the formula 
 
-$$\text{dEt}\big (\boldsymbol{B}\big ):=\sum_{\sigma, \tau \in \mathfrak S_d} 
+\[
+\text{dEt}\big (\boldsymbol{B}\big ):=\sum_{\sigma, \tau \in \mathfrak S_d} 
 \text{sgn}(\sigma)B_{\tau(1),\sigma(\tau(1))}B_{\tau(2),\sigma(\tau(2))},\ldots, 
-B_{\tau(d),\sigma(\tau(d))} .$$
+B_{\tau(d),\sigma(\tau(d))} .
+\]
 
 It is then natural to investigate the properties of the operator 
 $\mbox{\rm dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big \] \big ),$
@@ -44,7 +46,7 @@ in this case, $B_{i j} = \[T_j^\*,T_i\]$.
 Indeed, we show that the operator dEt equals the generalized commutator  
 $\text{GC}\,\big (\boldsymbol T^\*, \boldsymbol T \big )$ introduced earlier by 
 Helton and Howe. Among other things, we find a trace inequality for the operator 
-$\mbox{\rm dEt}\big (\big \[\!\!\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\!\!\big\] \big ),$ 
+$\mbox{\rm dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big\] \big ),$ 
 after imposing certain growth and cyclicity condition on the operator $\boldsymbol T$, namely, 
 \[\text{trace}\,\big (\text{dEt}\,
 \big(\big\[ \big \[\boldsymbol{T}^\*, \boldsymbol{T}\big \]\big\]\big)\big )
