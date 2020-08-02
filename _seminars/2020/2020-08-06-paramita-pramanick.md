@@ -1,3 +1,14 @@
+---
+speaker: Paramita Pramanick (IISc Mathematics)
+title: "Trace Estimate For The Determinant Operators"
+date: 6 August, 2020
+time: 4 pm
+venue: Microsoft Teams (online)
+series: Thesis
+series-prefix: PhD
+series-suffix: colloquium
+---
+
 Let $\boldsymbol T=(T_1, \ldots , T_d)$ be $d$ -tuple of commuting operators
 on a Hilbert space $\mathcal H$. Assume that $\boldsymbol T$ is hyponormal, 
 that is, 
