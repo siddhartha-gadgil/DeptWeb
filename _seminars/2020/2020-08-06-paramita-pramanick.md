@@ -47,6 +47,6 @@ Helton and Howe. Among other things, we find a trace inequality for the operator
 $\mbox{dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big\] \big ),$ 
 after imposing certain growth and cyclicity condition on the operator $\boldsymbol T$, namely,
 
-$$ \text{trace} \big( {\rm dEt} \big( [[ \boldsymbol{T}^*, \boldsymbol{T} ]] \big) \big) \leq m \vartheta d! \prod_{i=1}^{d} \|T\_i\|^2 $$
+$$ \text{trace} \big( {\rm dEt} \big( [[ \boldsymbol{T}^*, \boldsymbol{T} ]] \big) \big) \leq m \vartheta d! \prod_{i=1}^{d} \|T_i\|^2 $$
 
 for some $\vartheta \geq 1.$ We give explicit examples illustrating the abstract inequality.
