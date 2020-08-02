@@ -47,7 +47,7 @@ Helton and Howe. Among other things, we find a trace inequality for the operator
 $\mbox{dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big\] \big ),$ 
 after imposing certain growth and cyclicity condition on the operator $\boldsymbol T$, namely,
 
-$$ trace\ dEt$$
+$$ {\rm trace} \big( {\rm dEt}$$
 
 $$ {\rm trace} \big (\text{dEt}\,
 \big(\big\[ \big \[\boldsymbol{T}^\*, \boldsymbol{T}\big \]\big\]\big)\big )
