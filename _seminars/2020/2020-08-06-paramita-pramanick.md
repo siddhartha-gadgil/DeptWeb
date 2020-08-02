@@ -49,8 +49,8 @@ after imposing certain growth and cyclicity condition on the operator $\boldsymb
 
 $$ trace\ dEt$$
 
-$$ \text{trace}\,\big (\text{dEt}\,
+$$ {\rm trace} \big (\text{dEt}\,
 \big(\big\[ \big \[\boldsymbol{T}^\*, \boldsymbol{T}\big \]\big\]\big)\big )
-\leq m\, \vartheta \,d!\prod_{i=1}^{d}\|T_i\|^2$$
+\leq m \vartheta \,d!\prod_{i=1}^{d}\|T_i\|^2$$
 
 for some $\vartheta \geq 1.$ We give explicit examples illustrating the abstract inequality.
