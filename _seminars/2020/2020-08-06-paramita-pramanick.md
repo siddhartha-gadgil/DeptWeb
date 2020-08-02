@@ -41,14 +41,14 @@ B_{\tau(d),\sigma(\tau(d))} .
 \]
 
 It is then natural to investigate the properties of the operator 
-$\mbox{\rm dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big \] \big ),$
+$\mbox{dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big \] \big ),$
 in this case, $B_{i j} = \[T_j^\*,T_i\]$. 
 Indeed, we show that the operator dEt equals the generalized commutator  
 $\text{GC}\,\big (\boldsymbol T^\*, \boldsymbol T \big )$ introduced earlier by 
 Helton and Howe. Among other things, we find a trace inequality for the operator 
-$\mbox{\rm dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big\] \big ),$ 
+$\mbox{dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big\] \big ),$ 
 after imposing certain growth and cyclicity condition on the operator $\boldsymbol T$, namely, 
-\[\text{trace}\,\big (\text{dEt}\,
+\[\mbox{trace}\,\big (\mbox{dEt}\,
 \big(\big\[ \big \[\boldsymbol{T}^\*, \boldsymbol{T}\big \]\big\]\big)\big )
 \leq m\, \vartheta \,d!\prod_{i=1}^{d}\|T_i\|^2\]
 for some $\vartheta \geq 1.$ We give explicit examples illustrating the abstract inequality.
