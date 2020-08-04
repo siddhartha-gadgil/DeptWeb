@@ -1,5 +1,5 @@
 ---
-speaker: Subhajit Goswami (IISc Mathematics)
+speaker: Subhajit Ghosh (IISc Mathematics)
 title: "Total variation cutoff for random walks on some finite groups"
 date: 10 August, 2020
 time: 3 pm
