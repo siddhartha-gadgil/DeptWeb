@@ -93,7 +93,7 @@ jan2021:
     venue: 
     webpage: 
   - name: Probability in higher dimensions
-    instructor: Anirban Basak and Manjunath Krishnapur
+    instructor: Anirban Basak
     code: MA 363
   - name: Introduction to Complex Dynamics
     instructor: Gautam Bharali
@@ -182,7 +182,7 @@ aug2020:
     code: MA 226
     instructor: Kaushal Verma
   - name: Mechanics
-    instructor: Pranav Pandit and Kaushal Verma
+    instructor: Pranav Pandit
     code: MA 302
   - name: Riemann Surfaces 
     instructor: Subhojoy Gupta 
