@@ -64,6 +64,10 @@ jan2021:
     timing: 
     venue: 
   electives:
+  - name: Introduction to Dynamical Systems Theory
+    instructor: Amit Apte
+    code: MA 278
+
   - name: Topics in Harmonic Anaysis
     code: MA 304
     instructor: S. Thangavelu
@@ -177,9 +181,6 @@ aug2020:
   - name: Complex Analysis II 
     code: MA 226
     instructor: Kaushal Verma
-  - name: Introduction to Dynamical Systems Theory
-    instructor: Amit Apte
-    code: MA 278
   - name: Mechanics
     instructor: Pranav Pandit and Kaushal Verma
     code: MA 302
