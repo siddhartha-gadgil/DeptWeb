@@ -88,6 +88,9 @@ jan2021:
     timing: 
     venue: 
     webpage: 
+  - name: Probability in higher dimensions
+    instructor: Anirban Basak and Manjunath Krishnapur
+    code: MA 363
   - name: Introduction to Complex Dynamics
     instructor: Gautam Bharali
     code: MA 380
@@ -174,13 +177,20 @@ aug2020:
   - name: Complex Analysis II 
     code: MA 226
     instructor: Kaushal Verma
+  - name: Introduction to Dynamical Systems Theory
+    instructor: Amit Apte
+    code: MA 278
+  - name: Mechanics
+    instructor: Pranav Pandit and Kaushal Verma
+    code: MA 302
   - name: Riemann Surfaces 
     instructor: Subhojoy Gupta 
     code: MA 307
     webpage: https://sites.google.com/view/subhojoy/ma307
-  - name: Algebraic Geometry I 
+  - name: Basic Algebraic Geometry
     instructor: Radhika Ganapathy
-    code: MA 310
+    code: MA 308
+    prereq-courses: MA 213
   - name: Fourier Analysis
     instructor: S. Thangavelu
     code: MA 326
