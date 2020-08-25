@@ -822,7 +822,7 @@ jan2017:
   electives:
   - name: Introduction to Homotopy Type Theory
     instructor: Siddhartha Gadgil
-    code: MA 372
+    code: MA 334
     webpage: http://math.iisc.ac.in/~gadgil/HoTT-Course.html
     prereq-courses: MA 223
     ug-prereq-courses: ''
