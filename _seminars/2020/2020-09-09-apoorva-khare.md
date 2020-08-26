@@ -14,5 +14,5 @@ spectral properties, basic examples including via convolution,
 and a few proofs to show how the main ingredients fit together.
 Many classical results (and one Hypothesis) from before 1955
 feature in this journey. I will end by describing how PF functions
-connect to the Laguerre-Polya class and hence Polya-Schur
+connect to the Laguerre--Polya class and hence Polya--Schur
 multipliers, and mention 21st century incarnations of the latter.
