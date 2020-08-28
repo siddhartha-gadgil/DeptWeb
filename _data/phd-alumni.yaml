@@ -37,6 +37,7 @@
   year: 1966
   title: Small amplitude phenomena in conducting fluids and transport properties of plasmas
   advisor: P. L. Bhatnagar
+  present: IISc (Retd)
 
 - name: R. K. Bhatnagar
   year: 1967
@@ -52,6 +53,7 @@
   year: 1968
   title: Finite amplitude waves with or without radiation
   advisor: P. L. Bhatnagar
+  present: IISc (Retd)
 
 - name: M. N. Mathur
   year: 1968
@@ -82,6 +84,7 @@
   year: 1970
   title: Some flow and heat transfer problems with special reference to numerical procedure
   advisor: P. L. Bhatnagar
+  present: IISc (Retd)
 
 - name: Isaac Jayakaran
   year: 1970
@@ -133,7 +136,7 @@
   title: Some problems in fluid mechanics with special reference to turbomechanary
   advisor: G. Nath
 
-- name: R. Girija Devi
+- name: R. Girija Devi 
   year: 1974
   title: Theoretical studies on flow problems in polar fluids
   advisor: Rathna Devenathan, Renuka Ravindran
@@ -197,6 +200,7 @@
   year: 1979
   title: A numerical study of some flow and heat transfer problems in laminar boundary layers
   advisor: G. Nath
+  present: MO Cell (Retd)
 
 - name: E. V. Krishnan
   year: 1979
@@ -237,6 +241,7 @@
   year: 1982
   title: Enumerative considerations of SDR's and Latin rectangles
   advisor: R. Vittal Rao
+  present: MO Cell (Retd)
 
 - name: C. R. Seshan
   year: 1982
@@ -272,6 +277,7 @@
   year: 1983
   title: Mathematical models of some physiological systems
   advisor: Rathna Devanathan, G. Nath
+  present: NIT Trichy
 
 - name: Rangan C. Panda
   year: 1983
@@ -317,6 +323,7 @@
   year: 1985
   title: Some results on finite section linear integral operators
   advisor: R. Vittal Rao
+  present: IIT Roorkee
 
 - name: R. Vasantha
   year: 1985
@@ -327,6 +334,7 @@
   year: 1985
   title: Numerical studies of some problems in mixed convection boundary layer flows
   advisor: G. Nath
+  present: ONGC (Retd.)
 
 - name: T. M. Ramanathan
   year: 1985
@@ -402,6 +410,7 @@
   year: 1989
   title: Ergodic and adaptive control of Markov Processes
   advisor: V. Borkar, V. G. Tikekar
+  present: IISc 
 
 - name: M. S. Ganagi
   year: 1989
@@ -437,16 +446,19 @@
   year: 1991
   title: Homogenization of partial differential equations in perforated domains
   advisor: Phoolan Prasad
+  present: IISc
 
 - name: V. Rajeswari
   year: 1992
   title: Numerical studies of unsteady boundary layer flow problems
   advisor: G. Nath
+  present: Central University (Pondicherry)
 
 - name: B. R. Shankar
   year: 1992
-  title: Finite section convolution integral operations structure  of resolvent and solution of equations of the first kind
+  title: Finite section convolution integral operations structure  of resolvent and solution of equations of the first kind 
   advisor: R. Vittal Rao
+  present: NIT Surathkal
 
 - name: R. V. Sagayamary
   year: 1992
@@ -482,6 +494,7 @@
   year: 1993
   title: Numerical studies of laminar compressible boundary layer flows with heat and mass transfer
   advisor: G. Nath, A. Chakrabarti
+  present: IIT Madras
 
 - name: K. Padmavathi
   year: 1993
@@ -502,8 +515,9 @@
   year: 1994
   title: Exact analytic solutions for some classes of PDE's
   advisor: P. L. Sachdev
+  present: M. K. University (Madurai)
 
-- name: T. Chitra
+- name: T. Chitra 
   year: 1995
   title: Combat modelling simulation of aerial combact of m vs n aircraft
   advisor: G. Nath, A. Chakrabarti
@@ -517,6 +531,7 @@
   year: 1995
   title: Some nonlinear elliptic equations involving nonlinearities of critical growth
   advisor: R. Vittal Rao, Adimurthi
+  present: University of Delhi
 
 - name: Nageswara Yogi A Y
   year: 1995
@@ -532,6 +547,7 @@
   year: 1995
   title: Singularity structure of dynamical systems
   advisor: P. L. Sachdev
+  present: TCS
 
 - name: A. J. George
   year: 1996
@@ -592,6 +608,7 @@
   year: 1998
   title: Stochastic differential games in a bounded domain
   advisor: M. K. Ghosh
+  present: IIT Bombay
 
 - name: P. C. Biswas
   year: 1998
@@ -654,16 +671,18 @@
   year: 2002
   title: Differential games and viscosity solutions
   advisor: M. K. Ghosh, A. K. Nandakumaran
+  present: IIT Bombay
 
 - name: S. Jayanthi (QIP)
   year: 2003
   title: Non-Darcy non-newtonian free or mixed convection flow heat transfer problems in porous media
   advisor: A. Chakrabarti, M. K. Ghosh
 
-- name: Srinivasa Rao Manaas
+- name: Srinivasa Rao Manam 
   year: 2003
   title: Singular integral equations in water wave scattering
   advisor: A. Chakrabarti
+  present: IIT Madras
 
 - name: Baskar. S.
   year: 2003
@@ -684,6 +703,7 @@
   year: 2005
   title: Optimal control, differential games and quasivariational inequalities
   advisor: M. K. Ghosh, Mythily Ramaswamy
+  present: IISER Thiruvananthapuram
 
 - name: Ashish Kumar Upadhyay
   year: 2005
@@ -695,6 +715,7 @@
   year: 2005
   title: Analysis and numerical approximation of conservation laws with discontinuous coefficients
   advisor: M. K. Ghosh, Adimurthi
+  present: ETH Zurich
 
 - name: N. Hariharan
   year: 2005
@@ -710,11 +731,13 @@
   year: 2006
   title: Characteristic functions for tuples of commuting operators
   advisor: T. Bhattacharyya
+  present: ISI Bangalore
 
 - name: Sanjiban Santra
   year: 2006
   title: On a class of superlinear elliptic problems in symmetric domains and in a fourth order singular eigenvalue problem
   advisor: A. K. Nandakumaran, P. N. Srikanth
+  present: CIMAT (Mexico)
 
 - name: S. Akila
   year: 2007
@@ -725,16 +748,19 @@
   year: 2007
   title: On the peak-to-average power ratio for affine linear codes
   advisor: C. R. Pradeep
+  present: BITS Goa
 
 - name: J. P. Mohan Das
   year: 2007
   title: Spectral theory and root bases associated with multiparameter eigenvalue problems
   advisor: T. Bhattacharyya
+  present: University College, Thiruvananthapuram
 
 - name: Anindya Goswami
   year: 2008
   title: Semi-Markov processes in dynamic games and quantitative finance
   advisor: M. K. Ghosh
+  present: IISER Pune
 
 - name: Nedungadi Atira G.
   year: 2010
@@ -745,6 +771,7 @@
   year: 2010
   title: Some aspects of the Kobayashi and Caratheodory metrics on pseudoconvex domains
   advisor: K. Verma
+  present: IIT Bombay
 
 - name: Hari Shankar Gupta
   year: 2010
@@ -755,42 +782,49 @@
   year: 2010
   title: Kinematical conservation laws and propagation of nonlinear waves in three dimensions
   advisor: Phoolan Prasad
+  present: IISER Thiruvananthapuram
 
 - name: Sushil Gorai
   year: 2010
   title: Exploring polynomial convexity of certain classes of sets
   advisor: G. Bharali
+  present: IISER Kolkata
 
 - name: Diganta Borah
   year: 2010
   title: A study of the metric induced by the Robin function
   advisor: K. Verma
+  present: IISER Pune
 
 - name: Suparna Sen
   year: 2011
   title: Segal-Bargmann transform and Paley-Wiener theorems on motion groups
   advisor: E. K. Narayanan
+  present: Kolkata University
 
 - name: Rahul Garg
   year: 2012
   title: On the role of the Bargmann transform in Uncertainty Principles
   advisor: S. Thangavelu
+  present: IISER Bhopal
 
 - name: Amit Tripathi
   year: 2012
   title: Vector bundles over hypersurfaces of projective varieties
   advisor: G. V. Ravindra, M. K. Ghosh
+  present: NISER
 
 - name: Dheeraj D. Kulkarni
   year: 2012
   title: Relative symplectic caps, 4 genus and fibered knots
-  advisor: Siddhartha Gadgil
-  present: Assistant Professor, IISER Bhopal
+  advisor: S. Gadgil
+  present: IISER Bhopal
 
 - name: Dinesh K. Keshari
   year: 2012
   title: Infinitely divisible metrics, curvature inequalities and curvature formulae
   advisor: G. Misra
+  present: NISER
 
 - name: Amit Samanta
   year: 2012
@@ -806,26 +840,30 @@
   year: 2012
   title: Ricci flow and isotropic curvature
   advisor: H. Seshadri
+  present: NISER
 
 - name: Sourav Pal
   year: 2012
   title: Dilations, functional model and a complete unitary invariant of a F-contraction
   advisor: T. Bhattacharyya
+  present: IIT Bombay
 
 - name: G. P. Balakumar
   year: 2013
   title: Rigidity and regularity of holomorphic mappings
   advisor: K. Verma
+  present: ISI Chennai  (DST Inspire Postdoc)
 
 - name: Soma Maity
   year: 2013
   title: On the study of certain Riemannian functionals
   advisor: H. Seshadri
 
-- name: Sanjay P. K.
+- name: Sanjay P. K. 
   year: 2013
   title: Riesz transforms associated with Heisenberg groups and Grushin operators
   advisor: S. Thangavelu
+  present: NIT Calicut
 
 - name: Ravi Prakash
   year: 2013
@@ -841,11 +879,13 @@
   year: 2013
   title: Single and multi-player stochastic dynamic optimization
   advisor: M. K. Ghosh
+  present: IIT Guwahati
 
-- name: Jaikrishnan J.
+- name: Jaikrishnan J. 
   year: 2014
   title: On the structure of proper holomorphic mappings
   advisor: G. Bharali
+  present: IIT Madras
 
 - name: Nitin Singh
   title: On Walkup's class of manifolds and tight triangulations
@@ -857,53 +897,60 @@
   year: 2014
   title: On an ODE associated with the Ricci flow
   advisor: H. Seshadri
-  present: Assistant Professor, IISER Bhopal
+  present: IISER Bhopal
 
 - name: Kamana Porwal
   year: 2014
   title: A posteriori error analysis of discontinuous Galerkin methods for elliptic variational inequalities
   advisor: T. Gudi
+  present: IIT Gandhinagar
 
 - name: Divakaran D.
   year: 2014
   title: Compactness theorems for the spaces of distance measure spaces and Riemann surface laminations
-  advisor: Siddhartha Gadgil
+  advisor: S. Gadgil
+  present: Assistant Professor, Azim Premji University
 
 - name: Avijit Pal
   year: 2014
   title: Contractivity, complete contractivity and curvature inequalities
   advisor: G. Misra
+  present: IISER Kolkata
 
 - name: Sayani Bera
   year: 2015
   title: Shift-like automorphisms of Ck
   advisor: K. Verma
+  present: HRI (Postdoc)
 
 - name: Pradeep Boggarapu
   year: 2015
   title: Mixed norm estimates in Dunkl setting and chaotic behaviour of heal semigroups
   advisor: S. Thangavelu
+  present: BITS Goa
 
 - name: Santanu Sarkar
   year: 2015
   title: Some problems in multivariable operator theory
   advisor: T. Bhattacharyya
+  present: ISI Bangalore (DST Inspire Postdoc)
 
 - name: T. V. H. Prathamesh
   year: 2015
   title: Mechanising Knot theory
-  advisor: Siddhartha Gadgil
+  advisor: S. Gadgil
   present: Assistant Professor, KREA University
 
 - name: Sayan Bagchi
   year: 2015
   title: Weighted norm inequalities for Weyl multipliers and Hermite pseudo-multipliers
   advisor: S. Thangavelu
+  present: ISI Kolkata (DST Inspire Postdoc)
 
 - name: Bidyut Sanki
   year: 2015
   title: Shortest length geodesics on closed hyperbolic surfaces
-  advisor: Siddhartha Gadgil
+  advisor: S. Gadgil
   present: Assistant Professor, IIT Kanpur
 
 - name: Biplab Basak
@@ -921,6 +968,7 @@
   year: 2016
   title: $L^p$ asymptotics of Fourier transform of fractal measures
   advisor: E. K. Narayanan
+  present: IISER Bhopal (DST SERB Postdoc)
 
 - name: Tulasi Ram Reddy A.
   year: 2016
@@ -932,16 +980,18 @@
   year: 2016
   title: Dynamical properties of families of holomorphic mappings
   advisor: K. Verma
+  present: IISER Pune (DST SERB Postdoc)
 
 - name: Pranav Haridas
   year: 2016
   title: The Green's function, the Bergman Kernel and quadrature domains in Cn
   advisor: K. Verma
+  present: IIT Madras (Postdoc)
 
 - name: Arpan Kabiraj
   year: 2016
   title: "Goldman bracket : Center, geometric intersection number and length equivalent curves"
-  advisor: Siddhartha Gadgil
+  advisor: S. Gadgil
 
 - name: Haripada Sau
   year: 2016
@@ -963,52 +1013,51 @@
   title:  "Curvature inequalities for operators in the Cowen-Douglas class of a planar domain"
   advisor: Gadadhar Misra
 
+
 - name: Kartick Adhikari
   year: 2017
-  title: "Hole probabilities for determinantal point processes in the complex plane"
+  title: Hole probabilities for determinantal point processes in the complex plane
   advisor: Manjunath Krishnapur
-  present: postdoctoral fellow, ISI, Kolkata
 
-- name: S Nanda Kishore Reddy
+- name: Md. Ramiz Reza
   year: 2017
-  title: "Eigenvalues of products of random matrices"
+  title: Curvature Inequalities for Operators in the Cowen-Douglas Class of a Planer Domain
+  advisor: Gadadhar Misra
+
+- name: Nanda Kishore Reddy
+  year: 2017
+  title: Eigenvalues of products of Random matrics
   advisor: Manjunath Krishnapur
-  present: ISF-UGC visiting scientist, ISI, Bangalore
 
-- name: Somnath Hazra
-  year: 2017
-  title: Homogeneous Operators
-  advisor: Gadadhar Misra 
- 
 - name: Aiyappan S
   year: 2018
   title: "Unfolding Operators in Various Oscillatory Domains: Homogenization of Optimal Control Problems"
-  advisor:  A. K Nandakumar
+  advisor: A K NandaKumaran
 
-- name: Vikramjeet Singh
+- name: Somnath Hazra
   year: 2018
-  title: "The Pick-Nevanlinna interpolation problems: complex-analytic methods in special domains"
+  title: Homogeneous Operators
+  advisor: Gadadhar Misra
+
+- name: Vikramjeet Singh Chandel
+  year: 2018
+  title: "The Pick-Nevanlinna interpolation problems: complex analytic methods in special domains"
   advisor: Gautam Bharali
 
-- name: Soumitra Ghara 
+- name: Manojit Bhattacharjee
   year: 2018
-  title: "Decomposition of the tensor product of Hilbert modules via the jet construction and weakly homogeneous operator"
-  advisor: Gadadhar Misra
-
-- name: Monojit Bhattacharjee
-  year: 2018
-  title: "Analytic Models, Dilations, Wandering subspaces and Inner functions"
-  advisor: Gadadhar Misra
+  title: Analytic Models, Dilations Wandering subspaces and inner functions
+  advisor: Gadadhar Misra/ Jaydeb Sarkar
 
 - name: Gaddam Sharat
   year: 2018
-  title: "Numerical Methods for Elliptic Varitions Inequalities in Higher Dimensions"
+  title: Numerical Methods for Elliptic Variational Inequalities in Higher Dimensions
   advisor: Thirupathi Gudi
 
-- name: Sandeep K. Mody
+- name: Sandeep K Mody
   year: 2018
-  title: "Computation of Sparse Representations of High Dimensional Time Series Data and Experimental Applications"
-  advisor: G. Rangarajan
+  title: Computation of Sparse Representation of High Dimensional Time Series Data and Experimental Applications
+  advisor: G Rangarajan
 
 - name: Soumitra Ghara
   year: 2019
