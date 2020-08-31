@@ -1,7 +1,7 @@
 ---
 speaker: Apoorva Khare (IISc Mathematics)
 title: "Totally positive matrices, Polya frequency sequences, and Schur polynomials (Joint with APRG Seminar)"
-date: 26 February, 2020
+date: 18 September, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
