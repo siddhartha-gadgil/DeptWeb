@@ -12,3 +12,4 @@ out/
 *.synctex*
 *.fdb_latexmk
 *.log
+.ammonite

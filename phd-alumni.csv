@@ -1,0 +1,5 @@
+---
+layout: blank
+---
+{% for deg in site.data.phd-alumni  %}"{{ deg.name }}", "{{ deg.year }}", "{{ deg.title }}", "{{ deg.advisor }}", "{{ deg.present }}"
+{% endfor %}

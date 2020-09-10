@@ -1,0 +1,8 @@
+---
+layout: blank
+---
+{% assign semester = site.data.courses.aug2020 %}
+{% assign list = semester.core1 | concat: semester.core2 | concat: semester.electives %}
+{% assign sorted = list | sort: "code" %}
+{% for course in sorted  %}"{{ course.code }}", "{{ course.name }}", "{{ course.instructor }}"
+{% endfor %}
