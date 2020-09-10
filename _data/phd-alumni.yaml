@@ -933,7 +933,7 @@
   year: 2015
   title: Some problems in multivariable operator theory
   advisor: T. Bhattacharyya
-  present: ISI Bangalore (DST Inspire Postdoc)
+  present: IIT, Ropar
 
 - name: T. V. H. Prathamesh
   year: 2015
@@ -997,6 +997,7 @@
   year: 2016
   title: "Operator theory on symmetrized  bidisc  and tetrablock - some explicit  Contructions"
   advisor: Tirthankar Bhattacharyya
+  present: INSPIRE faculty at TIFR CAM, Bangalore	
 
 - name: Sudipto Chowdhury
   year: 2016
@@ -1083,3 +1084,10 @@
   year: 2019
   title: Fourier coefficients of modular forms and mass of pullback of Saito-Kurokawa lifts
   advisor: Soumya Das
+  present: Post doc (HRI)
+
+- name: Sanjay Jhawar	
+  year: 2019	
+  title: Phase transition, percolation at criticality, Poisson convergence of isolated vertices and connectivity in random connection models
+  advisor: Srikanth Iyer	
+  present: Post doc (ISI Bangalore) 
