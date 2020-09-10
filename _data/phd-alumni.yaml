@@ -608,7 +608,7 @@
   year: 1998
   title: Stochastic differential games in a bounded domain
   advisor: M. K. Ghosh
-  present: IIT Bombay
+  present: Professor, IIT Bombay
 
 - name: P. C. Biswas
   year: 1998
@@ -671,7 +671,7 @@
   year: 2002
   title: Differential games and viscosity solutions
   advisor: M. K. Ghosh, A. K. Nandakumaran
-  present: IIT Bombay
+  present: Professor, IIT Bombay
 
 - name: S. Jayanthi (QIP)
   year: 2003
@@ -693,17 +693,20 @@
   year: 2004
   title: Optimal control and differential games in a Hilbert space
   advisor: M. K. Ghosh, A. K. Nandakumaran
+  present: Professor, IIT Madras
 
 - name: Manoranjan Mishra
   year: 2005
   title: Peristaltic flows with some applications
   advisor: A. Ramachandra Rao
+  present: 	Associate Professor, IIT Ropar
 
 - name: Dharmathi Sheetal
   year: 2005
   title: Optimal control, differential games and quasivariational inequalities
   advisor: M. K. Ghosh, Mythily Ramaswamy
   present: IISER Thiruvananthapuram
+  present: Assistant Professor, IISER, Thiruvananthapuram
 
 - name: Ashish Kumar Upadhyay
   year: 2005
@@ -715,7 +718,7 @@
   year: 2005
   title: Analysis and numerical approximation of conservation laws with discontinuous coefficients
   advisor: M. K. Ghosh, Adimurthi
-  present: ETH Zurich
+  present: 	Professor ETH Zurich
 
 - name: N. Hariharan
   year: 2005
@@ -743,6 +746,7 @@
   year: 2007
   title: Orbit model analysis and dynamic filter compensation for onboard autonomy
   advisor: M. K. Ghosh, R. Pandian (ISRO)
+  present: 	ISRO (Retd.)
 
 - name: Prabal Paul
   year: 2007
@@ -760,7 +764,7 @@
   year: 2008
   title: Semi-Markov processes in dynamic games and quantitative finance
   advisor: M. K. Ghosh
-  present: IISER Pune
+  present: 	Associate Professor, IISER Pune
 
 - name: Nedungadi Atira G.
   year: 2010
@@ -771,7 +775,7 @@
   year: 2010
   title: Some aspects of the Kobayashi and Caratheodory metrics on pseudoconvex domains
   advisor: K. Verma
-  present: IIT Bombay
+  present: 	Assiatant Professor, IIT Bombay
 
 - name: Hari Shankar Gupta
   year: 2010
@@ -788,19 +792,19 @@
   year: 2010
   title: Exploring polynomial convexity of certain classes of sets
   advisor: G. Bharali
-  present: IISER Kolkata
+  present: Assiatant Professor, IISER Kolkata
 
 - name: Diganta Borah
   year: 2010
   title: A study of the metric induced by the Robin function
   advisor: K. Verma
-  present: IISER Pune
+  present: Associate Professor, IISER Pune
 
 - name: Suparna Sen
   year: 2011
   title: Segal-Bargmann transform and Paley-Wiener theorems on motion groups
   advisor: E. K. Narayanan
-  present: Kolkata University
+  present: 	Assitant Professor, University of Calcutta
 
 - name: Rahul Garg
   year: 2012
@@ -968,7 +972,7 @@
   year: 2016
   title: $L^p$ asymptotics of Fourier transform of fractal measures
   advisor: E. K. Narayanan
-  present: IISER Bhopal (DST SERB Postdoc)
+  present: Assitant Professor, IISER Berhampur, Odisha				
 
 - name: Tulasi Ram Reddy A.
   year: 2016
@@ -1069,11 +1073,13 @@
   year: 2019
   title: A study of Some Conformal Metrics and Invariants on Planar Domains
   advisor: Kaushal Verma
+  present: Postdoc, HRI
 
 - name: Somnath Pradhan
   year: 2019
   title: Risk-Sensitive Stochastic Control and Differeential Games
   advisor: Mrinal Kanti Ghosh
+  present: Postdoc, IISER, Pune
 
 - name: Anwoy Maitra
   year: 2019
@@ -1084,10 +1090,10 @@
   year: 2019
   title: Fourier coefficients of modular forms and mass of pullback of Saito-Kurokawa lifts
   advisor: Soumya Das
-  present: Post doc (HRI)
+  present: Postdoc (HRI)
 
 - name: Sanjay Jhawar	
   year: 2019	
   title: Phase transition, percolation at criticality, Poisson convergence of isolated vertices and connectivity in random connection models
   advisor: Srikanth Iyer	
-  present: Post doc (ISI Bangalore) 
+  present: Postdoc (ISI Bangalore) 
