@@ -445,7 +445,7 @@
 - name: A. K. Nandakumaran
   year: 1991
   title: Homogenization of partial differential equations in perforated domains
-  advisor: Phoolan Prasad
+  advisor: Phoolan Prasad and M. Vanninathan
   present: IISc
 
 - name: V. Rajeswari
@@ -827,7 +827,7 @@
 - name: Dinesh K. Keshari
   year: 2012
   title: Infinitely divisible metrics, curvature inequalities and curvature formulae
-  advisor: G. Misra
+  advisor: Gadadhar Misra
   present: NISER
 
 - name: Amit Samanta
@@ -918,8 +918,8 @@
 - name: Avijit Pal
   year: 2014
   title: Contractivity, complete contractivity and curvature inequalities
-  advisor: G. Misra
-  present: IISER Kolkata
+  advisor: Gadadhar Misra
+  present: Assistant Professor, IIT, Bhillai
 
 - name: Sayani Bera
   year: 2015
@@ -967,6 +967,7 @@
   year: 2015
   title: The Caratheodory-Fejer interpolation problems and the von Neumann inequality, 
   advisor: Gadadhar Misra
+  present: Assistant Professor, IIT Goa
 
 - name: Senthil Raani K. S.
   year: 2016
@@ -978,7 +979,7 @@
   year: 2016
   title: On critical points of random polynomials and spectrum of certain products of random matrices
   advisor: Manjunath Krishnapur
-  present: postdoctoral associate, NYU, Abu-Dhabi
+  present: Deutsche bank
 
 - name: Ratna Pal
   year: 2016
@@ -1017,22 +1018,19 @@
   year: 2016
   title:  "Curvature inequalities for operators in the Cowen-Douglas class of a planar domain"
   advisor: Gadadhar Misra
-
+  present: Postdoc, IIT, Kanpur
 
 - name: Kartick Adhikari
   year: 2017
   title: Hole probabilities for determinantal point processes in the complex plane
   advisor: Manjunath Krishnapur
-
-- name: Md. Ramiz Reza
-  year: 2017
-  title: Curvature Inequalities for Operators in the Cowen-Douglas Class of a Planer Domain
-  advisor: Gadadhar Misra
+  present: Postdoc, Technion, Israel
 
 - name: Nanda Kishore Reddy
   year: 2017
   title: Eigenvalues of products of Random matrics
   advisor: Manjunath Krishnapur
+  present: Postdoc, ISI, Bangalore
 
 - name: Aiyappan S
   year: 2018
@@ -1043,6 +1041,7 @@
   year: 2018
   title: Homogeneous Operators
   advisor: Gadadhar Misra
+  present: NBHM Postdoc, IISER, Kolkata
 
 - name: Vikramjeet Singh Chandel
   year: 2018
@@ -1052,7 +1051,8 @@
 - name: Manojit Bhattacharjee
   year: 2018
   title: Analytic Models, Dilations Wandering subspaces and inner functions
-  advisor: Gadadhar Misra/ Jaydeb Sarkar
+  advisor:  Jaydeb Sarkar and Gadadhar Misra
+  present: Postdoc, IIT, Bombay 
 
 - name: Gaddam Sharat
   year: 2018
@@ -1068,6 +1068,7 @@
   year: 2019
   title: Decomposition of the tensor product of Hilbert modles via the jet contruction and weakly homogeneous operators
   advisor: Gadadhar Misra
+  present: Postdoc, IIT, Kanpur
 
 - name: Amar Deep Sarkar
   year: 2019
@@ -1097,3 +1098,8 @@
   title: Phase transition, percolation at criticality, Poisson convergence of isolated vertices and connectivity in random connection models
   advisor: Srikanth Iyer	
   present: Postdoc (ISI Bangalore) 
+
+- name: Samrat Sen	
+  year: 2020	
+  title: Geometric invariants for a class of submodules of analytic Hilbert modules	
+  advisor: Gadadhar Misra
