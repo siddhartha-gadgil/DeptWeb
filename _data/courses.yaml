@@ -28,9 +28,6 @@ jan2021:
     ug-prereq-courses: ''
     timing: 
     venue:
-  - name: Introduction to Modular Forms
-    instructor: Soumya Das 
-    code: MA 215
   - name: Measure & Integration
     credits: '3:1'
     instructor: Manjunath Krishnapur
@@ -64,6 +61,10 @@ jan2021:
     timing: 
     venue: 
   electives:
+  - name: Introduction to Modular Forms
+    instructor: Soumya Das 
+    code: MA 215
+  
   - name: Introduction to Dynamical Systems Theory
     instructor: Amit Apte
     code: MA 278
