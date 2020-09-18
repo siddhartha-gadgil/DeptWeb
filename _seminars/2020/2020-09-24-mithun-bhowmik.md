@@ -9,7 +9,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 An $L^2$ version of the celebrated Denjoy-Carleman theorem regarding quasi-analytic
-functions was proved by Chernoff on $\R^d$ using iterates of the Laplacian. 
+functions was proved by Chernoff on $\mathbb{R}^d$ using iterates of the Laplacian. 
 In 1934, Ingham used the classical Denjoy-Carleman theorem to relate the decay
 of Fourier transform and quasi-analyticity of an integrable function on $\mathbb{R}$. 
 In this talk, we discuss analogues of the theorems of Chernoff and Ingham for
