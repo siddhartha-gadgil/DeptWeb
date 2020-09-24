@@ -11,7 +11,9 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 The spherical averages often make their appearance in partial differential
 equations. For instance, the solution of the wave equation
 
-$$u_{tt}=\Delta u,\ \ u(x,0)=0,\ \ u_{t}(x,0)=f(x),\ \ in\ \ \mathbb{R}^{3}\ \ is$$
+\[
+u_{tt}=\Delta u,\ \ u(x,0)=0,\ \ u_{t}(x,0)=f(x),\ \ in\ \ \mathbb{R}^{3}\ \ is
+\]
 
 $$u(x,t)=\frac{t}{4\pi}\int_{\mathbb{S}^{2}}f(x-ty)d\sigma(y),$$
 
