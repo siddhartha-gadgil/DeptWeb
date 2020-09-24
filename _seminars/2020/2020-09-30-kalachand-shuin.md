@@ -35,11 +35,11 @@ In this talk, I shall talk about the bilinear spherical maximal functions of pro
 which is defined in the spirit of bilinear Hardy--Littlewood maximal function. The lacunary
 and full bilinear spherical maximal functions are defined by
 \begin{equation}
-\mathcal{M}_{lac}(f_{1},f_{2})(x):= \sup_{j\in\mathbb{Z}} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
+\mathcal{M}\_{lac}(f_{1},f_{2})(x):= \sup_{j\in\mathbb{Z}} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
 f_{i}(x-2^{j}y_{i})d\sigma(y_{i}),
 \end{equation}
 \begin{equation}
-\mathcal{M}_{full}(f_{1},f_{2})(x):= \sup_{r>0} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
+\mathcal{M}\_{full}(f_{1},f_{2})(x):= \sup_{r>0} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
 f_{i}(x-ry_{i})d\sigma(y_{i}),
 \end{equation}
 where $f_{1},f_{2}\in\mathcal{S}(\mathbb{R}^{n})$, the Schwartz class. We have investigated
