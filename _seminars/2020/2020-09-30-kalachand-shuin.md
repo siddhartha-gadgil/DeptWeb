@@ -22,9 +22,9 @@ on the sphere $\mathbb{S}^{2}$. In [Proc. Natl. Acad. Sci. USA (1976)],
 Stein proved the following result:
 
 **Theorem.** _Let $n \geq 3$. Then_
-$$\Vert \sup_{t>0} \int_{\mathbb{S}^{n-1}}f(x-ty)d\sigma(y) \Vert_{L^{p}(\mathbb{R}^{n})}
-\leq C_{p}\Vert f\Vert_{L^{p}(\mathbb{R}^{n})}$$
-
+\begin{equation}\Vert \sup_{t>0} \int_{\mathbb{S}^{n-1}}f(x-ty)d\sigma(y) \Vert_{L^{p}(\mathbb{R}^{n})}
+\leq C_{p}\Vert f\Vert_{L^{p}(\mathbb{R}^{n})}
+\end{equation}
 _if, and only if $\frac{n}{n-1}<p\leq\infty$._
 
 The above result was extended to dimension $n=2$, by Bourgain in [J. d'Anal. Math. (1986)].
@@ -34,11 +34,12 @@ full spherical maximal functions.
 In this talk, I shall talk about the bilinear spherical maximal functions of product type,
 which is defined in the spirit of bilinear Hardy--Littlewood maximal function. The lacunary
 and full bilinear spherical maximal functions are defined by
-$$\mathcal{M}_{lac}(f_{1},f_{2})(x):= \sup_{j\in\mathbb{Z}} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
-f_{i}(x-2^{j}y_{i})d\sigma(y_{i}),$$
-
-$$\mathcal{M}_{full}(f_{1},f_{2})(x):= \sup_{r>0} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
-f_{i}(x-ry_{i})d\sigma(y_{i}),$$
+\begin{eqnarray}
+\mathcal{M}_{lac}(f_{1},f_{2})(x):= &\ \sup_{j\in\mathbb{Z}} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
+f_{i}(x-2^{j}y_{i})d\sigma(y_{i}),\\
+\mathcal{M}_{full}(f_{1},f_{2})(x):= &\ \sup_{r>0} \prod_{i=1,2} \int_{\mathbb{S}^{n-1}}
+f_{i}(x-ry_{i})d\sigma(y_{i}),
+\end{eqnarray}
 
 where $f_{1},f_{2}\in\mathcal{S}(\mathbb{R}^{n})$, the Schwartz class. We have investigated
 the sparse domination and weighted boundedness of both the operators $\mathcal{M}\_{lac}$ and
