@@ -45,4 +45,5 @@ f_{i}(x-ry_{i})d\sigma(y_{i}),
 where $f_{1},f_{2}\in\mathcal{S}(\mathbb{R}^{n})$, the Schwartz class. We have investigated
 the sparse domination and weighted boundedness of both the operators $\mathcal{M}\_{lac}$ and
 $\mathcal{M}\_{full}$ with respect to the bilinear Muckenhoupt weights $A_{\vec{p},\vec{r}}$.
+(Joint with Saurabh Shrivastava and Luz Roncal.)
 
