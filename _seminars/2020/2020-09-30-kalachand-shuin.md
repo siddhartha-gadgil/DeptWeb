@@ -10,12 +10,12 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 
 The spherical averages often make their appearance in partial differential
 equations. For instance, the solution of the wave equation
-\begin{equation*}
+\begin{equation}
 u_{tt}=\Delta u,\ \ u(x,0)=0,\ \ u_{t}(x,0)=f(x),\ \ in\ \ \mathbb{R}^{3}\ \ is
-\end{equation*}
-\begin{equation*}
+\end{equation}
+\begin{equation}
 u(x,t)=\frac{t}{4\pi}\int_{\mathbb{S}^{2}}f(x-ty)d\sigma(y),
-\end{equation*}
+\end{equation}
 
 where $d\sigma$ is the rotation invariant, normalized surface measure
 on the sphere $\mathbb{S}^{2}$. In [Proc. Natl. Acad. Sci. USA (1976)],
