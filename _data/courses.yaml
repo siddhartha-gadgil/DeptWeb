@@ -19,6 +19,10 @@ jan2021:
     ug-prereq-courses: UM 102
     timing:
     venue:
+  - code: MA 291
+    instructor: UG Coordinator
+    name: "Masters project B"
+    ug-prereq-courses: Only for 5th year Masters    
   core1:
   - name: Algebra II
     credits: '3:1'
@@ -110,6 +114,10 @@ aug2020:
   - code: UM 201
     instructor: Sanchayan Sen
     name: Probability and Statistics
+  - code: MA 290
+    instructor: UG Coordinator
+    name: "Masters project A"
+    ug-prereq-courses: Only for 5th year Masters    
   core1:
   - name: Multivariable Calculus
     credits: '3:1'
