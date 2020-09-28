@@ -22,6 +22,7 @@ jan2021:
   - code: MA 291
     instructor: UG Coordinator
     name: "Masters project B"
+    credits: '6:0'
     ug-prereq-courses: Only for 5th year Masters    
   core1:
   - name: Algebra II
@@ -117,6 +118,7 @@ aug2020:
   - code: MA 290
     instructor: UG Coordinator
     name: "Masters project A"
+    credits: '6:0'
     ug-prereq-courses: Only for 5th year Masters    
   core1:
   - name: Multivariable Calculus
