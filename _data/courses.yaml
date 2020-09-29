@@ -124,14 +124,14 @@ aug2020:
   - name: Multivariable Calculus
     credits: '3:1'
     instructor: Harish Seshadri
-    timing: 
+    timing: 'Mon, Wed, Fri 12:00 - 1:00'
     code: MA 200
     prereq-courses: ''
     ug-prereq-courses: UM 204
     venue: LH-4
   - name: Algebra I
     instructor: Mahesh Kakde and Soumya Das
-    timing: 
+    timing: 'Tue, Thu 8:30 - 10:00'
     code: MA 212
     prereq-courses: ''
     ug-prereq-courses: UM 203
@@ -143,9 +143,10 @@ aug2020:
     code: MA 219
     prereq-courses: ''
     ug-prereq-courses: UM 102
+    timing: 'Tue, Thu 10:00 - 11:30'
   - name: 'Analysis I: Real Anaysis'
     instructor: T. Gudi
-    timing: 
+    timing: 'Mon, Wed, Fri 3:00 - 4:00'
     code: MA 221
     prereq-courses: ''
     ug-prereq-courses:
@@ -153,13 +154,13 @@ aug2020:
   - name: Topology
     credits: '3:1'
     instructor: Basudeb Datta
-    timing: 
+    timing: 'Mon, Wed, Fri 11:00 - 12:00'
     code: MA 231
     prereq-courses: ''
     ug-prereq-courses:
   - name: Probability Models
     instructor: Arvind Ayyer
-    timing: 
+    timing: 'Mon, Wed, Fri 10:00 - 11:00'
     code: MA 261
     webpage: 
     prereq-courses: ''
@@ -168,14 +169,14 @@ aug2020:
   core2:
   - name: Functional Analysis
     instructor: Gadadhar Misra
-    timing: 
+    timing: 'Tue, Thu 11:30 - 1:00'
     code: MA 223
     prereq-courses: MA 222, MA 224 & MA 219
     ug-prereq-courses: ''
     venue: 
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
-    timing: 
+    timing: 'Mon, Wed, Fri 8:00 - 9:00'
     webpage: http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2020/
     code: MA 232
     prereq-courses: MA 231 & MA 212
@@ -183,7 +184,7 @@ aug2020:
     venue: 
   - name: Partial Differential Equations
     instructor: Mrinal K. Ghosh
-    timing: 
+    timing: 'Mon, Wed, Fri 9:00 - 10:00'
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
@@ -192,29 +193,36 @@ aug2020:
   - name: Complex Analysis II 
     code: MA 226
     instructor: Kaushal Verma
+    timing: 'Mon, Wed, Fri 3:00 - 4:00'
   - name: Mechanics
     instructor: Pranav Pandit
     code: MA 302
+    timing: 'Wed, Fri 2:00 - 3:30'
   - name: Riemann Surfaces 
     instructor: Subhojoy Gupta 
     code: MA 307
     webpage: https://sites.google.com/view/subhojoy/ma307
+    timing: 'Tue, Thu 3:30 - 5: 00'
   - name: Basic Algebraic Geometry
     instructor: Radhika Ganapathy
     code: MA 308
     prereq-courses: MA 213
+    timing: 'Tue, Thu 10:00 - 11:30'
   - name: Fourier Analysis
     instructor: S. Thangavelu
     code: MA 326
+    timing: 'Mon, Wed, Fri 10:00 - 11:00'
   - name: Topics in Riemannian Geometry
     code: MA 336
     instructor: Ved Datar
+    timing: 'Tue, Thu 8:30 - 10:00'
   - name: Topics in Number Theory
     code: MA 354
     instructor: Ignazio Longhi
+    timing: 'Mon, Wed, Fri 11:00 - 12:00'
   - name: Probability Theory
     instructor: Srikanth Iyer
-    timing: 
+    timing: 'Tue, Thu 3:30 - 5: 00'
     code: MA 361
     prereq-courses: MA 222
     ug-prereq-courses: ''
@@ -222,9 +230,11 @@ aug2020:
   - name: Topics in Gaussian Processes
     instructor: Manjunath Krishnapur
     code: MA 365
+    timing: 'Mon, Wed, Fri 3:00 - 4:00'
   - name: Topics in Several Complex Variables
     code: MA 381
     instructor: Purvi Gupta
+    timing: 'Tue, Thu 11:30 - 1:00'
   
 
 
