@@ -447,4 +447,22 @@
   user-id: bappaghosh
   image: true
 
- 
+- name: Rumpa Masanta
+  year-of-joining: 2020
+  programme: PhD
+  user-id: rumpamasanta
+  image: true
+
+- name: Utsabraj Sarkar 
+  year-of-joining: 2020
+  programme: PhD
+  user-id: utsabrajs
+  image: true
+
+- name: Mainak Bhowmik
+  year-of-joining: 2020
+  programme: PhD
+  user-id: mainakb
+  image: true
+
+
