@@ -423,11 +423,11 @@
   guide: yet to decide
   scholarship: IISc
 
-- name: Divya
-  year-of-joining: 2019
+- name: Sumanta Das
+  year-of-joining: 2019 
   programme: PhD
-  guide: yet to decide
-  scholarship: IISc
+  user-id: sumantadas
+  image: true
 
 - name: M V Ajay Kumar Nair
   year-of-joining: 2019
@@ -435,10 +435,22 @@
   user-id: ajaynair
   image: true
 
+- name: MD Irfan Habib
+  year-of-joining: 2019
+  programme: PhD
+  user-id: irfanhabib
+  image: true
+
 - name: Mansimar Singh
   year-of-joining: 2019
   programme: Integrated PhD
   user-id: mansimars
+  image: true
+
+- name: Thummala Vamsi Krishna
+  year-of-joining: 2019
+  programme: Integrated PhD
+  user-id: vamsit
   image: true
 
 - name: Bappa Ghosh
