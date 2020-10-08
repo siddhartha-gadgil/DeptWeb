@@ -32,12 +32,6 @@
   image: true
   research-area: Normal families of meromorphic functions, Nevanlinna theory, normality in several complex variables, complex dynamics
 
-- name	:	Asha Kisan Dond 
-  phd: IIT Bombay
-  user-id	:	ashadond
-  position: NBHM
-  image: true
-  research-area: PDE
 
 - name	:	Deb Kumar Giri
   phd: IIT Guwahati
@@ -74,13 +68,6 @@
   position: NBHM
   image: true
   research-area: String topology.
-
-- name	:	Dipendu Maity 
-  phd: IIT Patna
-  user-id	:	dipendumaity
-  position: UGC Kothari
-  image: true
-  research-area: Combinatorial topology
 
 - name	:	Gouranga Mallik 
   phd: IIT Bombay
@@ -119,44 +106,17 @@
   image: true
   research-area: Applied Harmonic Analysis, Frame Theory, Functional Analysis, Time-Frequency Analysis
 
-- name: Tamal Pramanick  
-  phd: IIT Guwahati
-  user-id: tamalp
-  image: true
-  position: NBHM
-  research-area: Numerical analysis, Partial differential equations, Finite element method
-
-- name: Bikramaditya Sahu 
-  phd: NISER Bhubaneshwar
-  user-id: bikramadityas
-  position: NBHM
-  image: true
-  research-area: Algebraic Combinatorics, Finite Geometry
-
 
 - name : Debamalya Sain 
   phd: Jadavpur
   user-id: debamalyasain
   position: UGC Kothari
   research-area: Geometry of normed linear spaces
-
-
-- name	:	Srijan Sarkar  
-  phd: ISI Bangalore
-  user-id: srijans
-  position: NBHM
-  image: true
-  research-area: Multivariate Operator Theory 
-
+ 
+        
 - name	:	Sneh Bala Sinha 
   phd: HRI, Allahabad
   user-id	:	snehasinha
   position: NBHM
   research-area: Number theory
 
-- name  :  Abhitosh Upadhyay 
-  phd: Guru Gobind Singh Indraprastha University Delhi
-  user-id : abhitoshu
-  position: NPDF
-  image: true
-  research-area: Semi-Riemannian geometry, Biconservative/Biharmonic hypersurfaces and submanifolds
