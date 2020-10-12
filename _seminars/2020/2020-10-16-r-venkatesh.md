@@ -8,7 +8,7 @@ series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-21.html
 ---
 
-The​ affine Demazure modules are the Demazure modules that occur in a level
+The affine Demazure modules are the Demazure modules that occur in a level
 $\ell$ irreducible integrable representation of an affine Lie algebra. We
 call them $\mathfrak{g}$-stable if they are stable under the action of the
 standard maximal parabolic subalgebra of the affine Lie algebra. We prove
