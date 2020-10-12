@@ -1,6 +1,6 @@
 ---
 speaker: R. Venkatesh (IISc Mathematics)
-title: "Fusion product decomposition of $\mathfrak{g}$-stable affine Demazure modules"
+title: "Fusion product decomposition of g-stable affine Demazure modules"
 date: 16 October, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
