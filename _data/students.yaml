@@ -453,6 +453,24 @@
   user-id: vamsit
   image: true
 
+- name: Karambir Das
+  year-of-joining: 2020
+  programme: Integrated PhD
+  user-id: karambirdas
+  image: true
+
+- name: Maniyar Sourish Parag
+  year-of-joining: 2020
+  programme: Integrated PhD
+  user-id: sourishparag
+  image: true
+
+- name: Riehikesh Rajendra Ghatage
+  year-of-joining: 2020
+  programme: Integrated PhD
+  user-id: rieshikeshr
+  image: true
+
 - name: Bappa Ghosh
   year-of-joining: 2020
   programme: PhD
