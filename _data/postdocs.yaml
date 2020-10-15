@@ -76,6 +76,13 @@
   image: true
   research-area: PDE, finite element method 
 
+- name  :       G. Arunkumar
+  phd: Institute of Mathematical Sciences, Chennai
+  user-id       :       garunkumar
+  position: NBHM
+  image: true
+  research-area: Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory
+
 
 - name	:	Ramesh Manna
   phd: HRI, Allahabad
@@ -84,6 +91,12 @@
   image: true
   research-area: Harmonic Analysis
 
+- name  :       Gianluca Faraco
+  phd: University of Ferrera, Italy
+  user-id       :       gianlucaf
+  position:  Raman PDF
+  image: true
+  research-area: Low-dimensional geometry
 
 - name	:	Kaustubh Manchanda 
   phd: JNU
