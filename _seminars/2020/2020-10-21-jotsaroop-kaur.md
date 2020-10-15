@@ -9,5 +9,5 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 We prove some new $L^p$ estimates for the maximal function
-associated to bilinear Bochner Riesz in all dimensions $n\geq 1$.
-This is a joint work with Saurabh Shrivastava.
+associated to bilinear Bochner Riesz means in all dimensions
+$n\geq 1$. This is a joint work with Saurabh Shrivastava.
