@@ -441,6 +441,12 @@
   user-id: irfanhabib
   image: true
 
+- name: Anita Arora
+  year-of-joining: 2019
+  programme: PhD
+  user-id: anitaarora
+  image: true
+
 - name: Mansimar Singh
   year-of-joining: 2019
   programme: Integrated PhD
