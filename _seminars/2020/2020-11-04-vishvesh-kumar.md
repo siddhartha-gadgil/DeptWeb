@@ -23,4 +23,4 @@ As an application, we obtain the boundedness of spectral multipliers, embedding 
 and time asymptotic the heat kernels for the anharmonic oscillator.   
 
 This talk is based on my joint works with Duván Cardona (UGent), Marianna Chatzakou
-(Imperial College London), Michael Ruzhansky(UGent), and Niyaz Tokmagambetov (UGent).
+(Imperial College London), Michael Ruzhansky (UGent), and Niyaz Tokmagambetov (UGent).
