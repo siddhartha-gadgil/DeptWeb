@@ -51,6 +51,15 @@ MathJax.Hub.Config({
     processEscapes: true,
     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
   },
+  TeX: {
+    Macros: {
+      R: '\\mathbb{R}',
+      Z: '\\mathbb{Z}',
+      C: '\\mathbb{C}',
+      Q: '\\mathbb{Q}',
+      N: '\\mathbb{N}'
+    }
+  },
   messageStyle: "none",
   "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
 });
