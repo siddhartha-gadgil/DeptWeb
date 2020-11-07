@@ -9,7 +9,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 In this expository lecture we will discuss some recent results
-concerning fractional Poincaré and PoincaréSobolev inequalities with
+concerning fractional Poincaré and Poincaré-Sobolev inequalities with
 weights, the degeneracy. These results improve some well known estimates
 due to Fabes-Kenig-Serapioni from the 80’s in connection with the local
 regularity of solutions of degenerate elliptic equations and also some
