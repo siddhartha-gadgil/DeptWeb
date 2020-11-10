@@ -1,6 +1,6 @@
 ---
 speaker: Shifra Reif (Bar-Ilan University, Israel)
-title: "Denominator identities for the periplectic Lie superalgebra {\bf p}$(n)$"
+title: "Denominator identities for the periplectic Lie superalgebra `<b>p</b>`$(n)$"
 date: 13 November, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
