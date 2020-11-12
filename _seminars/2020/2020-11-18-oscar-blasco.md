@@ -1,5 +1,5 @@
 ---
-speaker: Oscar Blasco (Universidad de Valencia , Spain)
+speaker: Oscar Blasco (Universidad de Valencia, Spain)
 title: Bilinear multipliers on Banach function spaces
 date: 18 November 2020
 time: 4 pm
