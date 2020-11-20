@@ -13,3 +13,4 @@ out/
 *.fdb_latexmk
 *.log
 .ammonite
+.bloop/
