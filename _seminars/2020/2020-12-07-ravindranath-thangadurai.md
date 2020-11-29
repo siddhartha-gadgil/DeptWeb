@@ -1,7 +1,7 @@
 ---
 speaker: Ravindranath Thangadurai (Harish-Chandra Research Institute, Prayagraj)
 title: "On the simultaneous approximation of algebraic numbers"
-date: 27 November, 2020
+date: 7 December, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
