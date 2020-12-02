@@ -8,7 +8,7 @@ series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-21.html
 ---
 
-Recall that an \emph{excedance} of a permutation $\pi$ is any position
+Recall that an _excedance_ of a permutation $\pi$ is any position
 $i$ such that $\pi_i > i$. Inspired by the work of Hopkins, McConville
 and Propp (arXiv:1612.06816) on sorting using toppling, we say that a
 permutation is toppleable if it gets sorted by a certain sequence of
