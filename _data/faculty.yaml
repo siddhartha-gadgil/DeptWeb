@@ -66,6 +66,15 @@
   office: X04
   author-name: Datta, Basudeb
 
+- name: Shaunak Deo
+  user-id: shaunakdeo
+  position: Assistant Professor
+  research-areas: Number theory
+  phd: Brandeis
+  phone-ext:
+  office: R23
+  author-name: Deo, Shaunak
+
 - name: Siddhartha Gadgil
   user-id: gadgil
   position: Professor
