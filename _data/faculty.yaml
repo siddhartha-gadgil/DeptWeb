@@ -1,6 +1,6 @@
 - name: Arvind Ayyer
   user-id: arvind
-  position: Assistant Professor
+  position: Associate Professor
   research-areas: Probability, combinatorics, statistical mechanics, mathematical physics, experimental mathematics
   phd: Rutgers
   phone-ext: 3215
@@ -9,7 +9,7 @@
 
 - name: Abhishek Banerjee
   user-id: abhi
-  position: Assistant Professor
+  position: Associate Professor
   research-areas: Algebraic geometry, noncommutative geometry
   phd: Johns Hopkins
   phone-ext:
@@ -19,7 +19,7 @@
 
 - name: Gautam Bharali
   user-id: bharali
-  position: Associate Professor
+  position: Professor
   research-areas: Several complex variables, complex-analytic dynamics
   phd: Wisconsin
   phone-ext: 3328
@@ -40,7 +40,7 @@
 
 - name: Soumya Das
   user-id: soumya
-  position: Assistant Professor
+  position: Associate Professor
   research-areas: Number theory
   phd: HRI
   phone-ext: 3205
@@ -145,7 +145,7 @@
 
 - name: Apoorva Khare
   user-id: khare
-  position: Assistant Professor
+  position: Associate Professor
   phd: Chicago
   research-areas: Positivity and analysis; representation theory of Lie algebras and algebras with triangular decompositions; combinatorics and discrete mathematics (with connections to the two research areas above)
   phone-ext: 2514
@@ -245,7 +245,7 @@
 
 - name: Pooja Singla
   user-id: pooja
-  position: Assistant professor
+  position: Associate professor
   research-areas: Representation theory
   phd: IMSc
   phone-ext: 2571
