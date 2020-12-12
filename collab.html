@@ -53,7 +53,7 @@ Faculty members are linked to their collaborators and research areas.
             .data(graph.links)
             .enter().append("line")
             .attr("stroke-width", 1)
-            .attr("stroke", function (d) { return d.colour });
+            .attr("stroke", function (d) { return d.rel == "collab" ? "navy" : "maroon"});
 
         var node = svg.append("g")
             .attr("class", "nodes")
@@ -63,7 +63,7 @@ Faculty members are linked to their collaborators and research areas.
 
         var circles = node.append("circle")
             .attr("r", 5)
-            .attr("fill", function (d) { return d.colour; })
+            .attr("fill", function (d) { return d.url ? "navy" : "maroon"; })
             .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)

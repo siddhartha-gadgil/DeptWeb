@@ -196,322 +196,322 @@
     {
       "source": "Arvind Ayyer",
       "target": "Manjunath Krishanpur",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Arvind Ayyer",
       "target": "Pooja Singla",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Tirthankar Bhattacharya",
       "target": "Gadadhar Misra",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Tirthankar Bhattacharya",
       "target": "E. K. Narayanan",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Siddhartha Gadgil",
       "target": "Manjunath Krishanpur",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Siddhartha Gadgil",
       "target": "Harish Seshadri",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Siddhartha Gadgil",
       "target": "Apoorva Khare",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Tirupathi Gudi",
       "target": "A. K. Nandakumaran",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Mrinal Ghosh",
       "target": "A. K. Nandakumaran",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Srikanth Iyer",
       "target": "Mrinal Ghosh",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "E. K. Narayanan",
       "target": "S. Thangavelu",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Harish Seshadri",
       "target": "Kaushal Verma",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "E. K. Narayanan",
       "target": "Pooja Singla",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Subhojoy Gupta",
       "target": "Harish Seshadri",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Subhojoy Gupta",
       "target": "Basudeb Datta",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Ved Datar",
       "target": "Vamsi Pingali",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Apoorva Khare",
       "target": "Vamsi Pingali",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Ved Datar",
       "target": "Harish Seshadri",
-      "value": 1, "colour": "navy"
+      "rel" : "collab"
     },
     {
       "source": "Arvind Ayyer",
       "target": "Combinatorics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Arvind Ayyer",
       "target": "Mathematical Physics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Arvind Ayyer",
       "target": "Probability & Statistics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Abhishek Banerjee",
       "target": "Algebra & Algebraic Geometry",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Gautam Bharali",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Purvi Gupta",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Swarnendu Sil",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Swarnendu Sil",
       "target": "Geometry & Topology",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Tirthankar Bhattacharya",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Soumya Das",
       "target": "Number Theory",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Mahesh Kakde",
       "target": "Number Theory",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Shaunak Deo",
       "target": "Number Theory",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Mahesh Kakde",
       "target": "Algebra & Algebraic Geometry",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Basudeb Datta",
       "target": "Geometry & Topology",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Basudeb Datta",
       "target": "Combinatorics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Siddhartha Gadgil",
       "target": "Geometry & Topology",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Subhojoy Gupta",
       "target": "Geometry & Topology",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Mrinal Ghosh",
       "target": "Probability & Statistics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Mrinal Ghosh",
       "target": "Applications",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Tirupathi Gudi",
       "target": "Differential Equations",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Manjunath Krishanpur",
       "target": "Probability & Statistics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Sanchayan Sen",
       "target": "Probability & Statistics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Apoorva Khare",
       "target": "Algebra & Algebraic Geometry",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Apoorva Khare",
       "target": "Combinatorics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Apoorva Khare",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Srikanth Iyer",
       "target": "Probability & Statistics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Srikanth Iyer",
       "target": "Applications",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Tirupathi Gudi",
       "target": "Applications",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Tirupathi Gudi",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "A. K. Nandakumaran",
       "target": "Applications",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Gadadhar Misra",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "A. K. Nandakumaran",
       "target": "Differential Equations",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "E. K. Narayanan",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Dilip Patil",
       "target": "Algebra & Algebraic Geometry",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "G. Rangarajan",
       "target": "Applications",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Harish Seshadri",
       "target": "Geometry & Topology",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Vamsi Pingali",
       "target": "Geometry & Topology",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Ved Datar",
       "target": "Geometry & Topology",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Vamsi Pingali",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Vamsi Pingali",
       "target": "Mathematical Physics",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Pooja Singla",
       "target": "Algebra & Algebraic Geometry",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Radhika Ganapathy",
       "target": "Algebra & Algebraic Geometry",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Radhika Ganapathy",
       "target": "Number Theory",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "S. Thangavelu",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "R. Venkatesh",
       "target": "Algebra & Algebraic Geometry",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     },
     {
       "source": "Kaushal Verma",
       "target": "Analysis",
-      "value": 5, "colour" : "maroon"
+      "rel" : "area"
     }
   ]
 }
