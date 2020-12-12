@@ -14,7 +14,7 @@ title: Research Landscape
 
     text {
         font-family: sans-serif;
-        font-size: 11px;
+        font-size: 10px;
     }
 </style>
 Faculty members are linked to their collaborators and research areas.
@@ -30,10 +30,11 @@ Faculty members are linked to their collaborators and research areas.
 
     var simulation = d3.forceSimulation()
         .force("link", d3.forceLink().id(function (d) { return d.id; }))
-        .force("charge", d3.forceManyBody())
+        .force("charge", d3.forceManyBody().strength(-50))
         .force("center", d3.forceCenter(width / 2, height / 2)).
+        force("vertical", d3.forceY(height / 2).strength(0.1)).
         force('collision', d3.forceCollide().radius(function (d) {
-            return 30;
+            return 40;
         }));
 
     d3.json("collab.json", function (error, graph) {
@@ -45,7 +46,7 @@ Faculty members are linked to their collaborators and research areas.
             .data(graph.links)
             .enter().append("line")
             .attr("stroke-width", function (d) { return Math.sqrt(d.value); })
-            .attr("stroke", function (d) { return d.colour});
+            .attr("stroke", function (d) { return d.colour });
 
         var node = svg.append("g")
             .attr("class", "nodes")

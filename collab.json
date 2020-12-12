@@ -141,6 +141,21 @@
       "url" : "http://math.iisc.ac.in/~harish/"
     },
     {
+      "id": "Purvi Gupta",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~purvi/"
+    },
+    {
+      "id": "Swarnendu Sil",
+      "colour" : "blue",
+      "url" : "http://math.iisc.ac.in/~ssil/"
+    },
+    {
+      "id": "Shaunak Deo",
+      "colour" : "blue",
+      "url" : "https://sites.google.com/view/shaunakdeo/"
+    },
+    {
       "id": "Combinatorics",
       "colour" : "darkmagenta"
     },
@@ -284,6 +299,21 @@
       "value": 5, "colour" : "cyan"
     },
     {
+      "source": "Purvi Gupta",
+      "target": "Analysis",
+      "value": 5, "colour" : "cyan"
+    },
+    {
+      "source": "Swarnendu Sil",
+      "target": "Analysis",
+      "value": 5, "colour" : "cyan"
+    },
+    {
+      "source": "Swarnendu Sil",
+      "target": "Geometry & Topology",
+      "value": 5, "colour" : "cyan"
+    },
+    {
       "source": "Tirthankar Bhattacharya",
       "target": "Analysis",
       "value": 5, "colour" : "cyan"
@@ -295,6 +325,11 @@
     },
     {
       "source": "Mahesh Kakde",
+      "target": "Number Theory",
+      "value": 5, "colour" : "cyan"
+    },
+    {
+      "source": "Shaunak Deo",
       "target": "Number Theory",
       "value": 5, "colour" : "cyan"
     },
@@ -446,6 +481,11 @@
     {
       "source": "Radhika Ganapathy",
       "target": "Algebra & Algebraic Geometry",
+      "value": 5, "colour" : "cyan"
+    },
+    {
+      "source": "Radhika Ganapathy",
+      "target": "Number Theory",
       "value": 5, "colour" : "cyan"
     },
     {
