@@ -6,48 +6,48 @@
     <img src="department.jpg" alt="" width="100%">
     <p>&nbsp;</p>
     <div class="row">
-  <div class="col-md-6 text-justify">
-    <h3>Research</h3>
-    The department is active in research in most areas of pure and applied mathematics,
-    including algebra and  number theory, analysis,
-    discrete mathematics, geometry/topology, mathematical finance, numerical analysis, partial
-    differential equations, probability, representation theory, and time-series analysis.
-      <ul>
-        <li><a href="research-areas.html">Research Areas</a></li>
-        <li><a href="faculty.html">Faculty</a></li>
-        <li><a href="pubs.html">Research Publications</a></li>
-      </ul>
-  </div>
- 
-  <div class="col-md-6 text-justify">
-    <h3>Teaching</h3>
-    The department has a Ph.D. programme as well as an integrated Ph.D. programme. The department participates
-    in the undergraduate programme of IISc: undergraduate students can
-    opt for mathematics as a major or a minor.
-      <ul>
-        <li><a href="course-list.html">Courses</a></li>
-        <li><a href="degprog-phd.html">Ph.D. programme</a></li> for students with Masters degrees
-        <li><a href="degprog-intphd.html">Integrated Ph.D. programme</a></li> for students with Bachelor degrees
-        <li><a href="http://www.iisc.ac.in/ug/">Undergraduate programme</a></li>
-      </ul>
-  </div>
-</div>
-  {% assign curDate = site.time | date: '%s' | minus: 86400 %}
+      <div class="col-md-6 text-justify">
+        <h3>Research</h3>
+        The department is active in research in most areas of pure and applied mathematics,
+        including algebra and number theory, analysis,
+        discrete mathematics, geometry/topology, mathematical finance, numerical analysis, partial
+        differential equations, probability, representation theory, and time-series analysis.
+        <ul>
+          <li><a href="research-areas.html">Research Areas</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="pubs.html">Research Publications</a></li>
+        </ul>
+      </div>
 
-  <div class="col-md-12">
-    <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a>  </h3>
-    <ul class="post-list">
-      {% assign futposts = site.posts | sort: 'date' %}
-      {% assign postcounter = 0 %}
+      <div class="col-md-6 text-justify">
+        <h3>Teaching</h3>
+        The department has a Ph.D. programme as well as an integrated Ph.D. programme. The department participates
+        in the undergraduate programme of IISc: undergraduate students can
+        opt for mathematics as a major or a minor.
+        <ul>
+          <li><a href="course-list.html">Courses</a></li>
+          <li><a href="degprog-phd.html">Ph.D. programme</a></li> for students with Masters degrees
+          <li><a href="degprog-intphd.html">Integrated Ph.D. programme</a></li> for students with Bachelor degrees
+          <li><a href="http://www.iisc.ac.in/ug/">Undergraduate programme</a></li>
+        </ul>
+      </div>
+    </div>
+    {% assign curDate = site.time | date: '%s' | minus: 86400 %}
 
-      {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}{% if postDate >= curDate %}
-      {% assign postcounter=postcounter | plus: 1 %}
-      {% if postcounter <= 3 %}
+    <div class="col-md-12">
+      <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a> </h3>
+      <ul class="post-list">
+        {% assign futposts = site.posts | sort: 'date' %}
+        {% assign postcounter = 0 %}
+
+        {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}{% if postDate >= curDate %}
+        {% assign postcounter=postcounter | plus: 1 %}
+        {% if postcounter <= 3 %}
         <li>
           {% if post.redirect %}
           <h4>
-              <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
-            </h4>
+            <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
+          </h4>
           {% else %}
           <h4>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
@@ -57,78 +57,82 @@
         </li>
         {% endif %}
         {% endif %}{% endfor %}
-    </ul>
-  </div>
+      </ul>
+    </div>
 
-</div>
+  </div>
 
   <div class="col-md-4">
     <h3 class="text-center"> <a href="seminars-all.html">Seminars</a></h3>
 
-<ul>{% assign sorted = site.seminars | sort: 'date' | reverse %}{% assign chron = site.seminars | sort: 'date' %}{% assign counter = 0 %}{% for sem in chron %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% if semDate >= curDate %}
-{% assign counter=counter | plus: 1 %}
-<li>
- <div><strong> Title: </strong>
-   {% if sem.series %}<a
-    href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
-    >{{ sem.series-prefix }} {{sem.series}}{% if sem.series-suffix %} {{sem.series-suffix}}{% endif %}: </a>{% endif %}
-   <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
-<div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
-<div>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
-<div class=""> <strong>Time: </strong>
-  {{ sem.time }}
-</div>
-<div class="">
-  <strong>Venue:</strong>
-    {% if sem.venue %}
-      {{ sem.venue }}
-      {% else %}
-      {{ sem.location }}
+    <ul>
+      {% assign sorted = site.seminars | sort: 'date' | reverse %}{% assign chron = site.seminars | sort: 'date' %}{% assign counter = 0 %}{% for sem in chron %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% if semDate >= curDate %}
+      {% assign counter=counter | plus: 1 %}
+      <li>
+        <div><strong> Title: </strong>
+          {% if sem.series %}<a
+            href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}"
+            class="{{ sem.series | slugify }}">{{ sem.series-prefix }} {{sem.series}}{% if sem.series-suffix %}
+            {{sem.series-suffix}}{% endif %}: </a>{% endif %}
+          <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+        <div> <strong>Speaker: </strong> {{sem.speaker}} </div>
+        <div> <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
+        <div class=""> <strong>Time: </strong>
+          {{ sem.time }}
+        </div>
+        <div class="">
+          <strong>Venue:</strong>
+          {% if sem.venue %}
+          {{ sem.venue }}
+          {% else %}
+          {{ sem.location }}
+          {% endif %}
+        </div>
+        <div class="">
+          &nbsp;
+        </div>
+      </li>{% endif %}{% endfor %}
+      {% assign pastnum = 4 | minus: counter %}
+
+      {% if pastnum > 0 %}
+      <h4 class="text-center">Past Seminars</h4>
       {% endif %}
-</div>
-<div class="">
-&nbsp;
-</div>
-</li>{% endif %}{% endfor %}
- {% assign pastnum = 4 | minus: counter %}
 
- {% if pastnum > 0 %}
- <h4 class="text-center">Past Seminars</h4>
- {% endif %}
+      {% for sem in sorted limit: 4 %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% unless semDate >= curDate %}
+      <li>
+        <div><strong> Title: </strong>
+          {% if sem.series %}<a
+            href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}"
+            class="{{ sem.series | slugify }}">{{sem.series}}: </a>{% endif %}
+          <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+        <div> <strong>Speaker: </strong> {{sem.speaker}} </div>
+        <div> <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
+        <div class=""> <strong>Time: </strong>
+          {{ sem.time }}
+        </div>
+        <div class="">
+          <strong>Venue:</strong>
+          {% if sem.venue %}
+          {{ sem.venue }}
+          {% else %}
+          {{ sem.location }}
+          {% endif %}
+        </div>
+        <div class="">
+          &nbsp;
+        </div>
+      </li>
+      {% endunless %}{% endfor %}
 
- {% for sem in sorted limit: 4 %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% unless semDate >= curDate %}
- <li>
-  <div><strong> Title: </strong>
-    {% if sem.series %}<a
-    href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
-    >{{sem.series}}: </a>{% endif %}
-    <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
- <div>  <strong>Speaker: </strong> {{sem.speaker}} </div>
- <div>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
- <div class=""> <strong>Time: </strong>
-   {{ sem.time }}
- </div>
- <div class="">
-   <strong>Venue:</strong>
-     {% if sem.venue %}
-       {{ sem.venue }}
-       {% else %}
-       {{ sem.location }}
-       {% endif %}
- </div>
- <div class="">
- &nbsp;
- </div>
- </li>
-  {% endunless %}{% endfor %}
-
- <a href="seminars-all.html"><h4>All Seminars</h4></a>
-</ul>
+      <a href="seminars-all.html">
+        <h4>All Seminars</h4>
+      </a>
+    </ul>
 
   </div>
   <div class="col-md-12">
-  <div class="text-right">
-   <a href="funding_agen.html">Supported by UGC and DST</a>
+    <div class="text-right">
+      <a href="funding_agen.html">Supported by UGC and DST</a>
+    </div>
   </div>
-</div>
 </div>
