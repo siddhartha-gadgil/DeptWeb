@@ -8,7 +8,7 @@ series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-21.html
 ---
 
-Given a galois extension of number fields $K/F$ and two elliptic curves $A$
+Given a Galois extension of number fields $K/F$ and two elliptic curves $A$
 and $B$ with equivalent residual Galois representation mod $p$, for an odd
 prime $p$, we will discuss the relation between the $p$-parity conjecture of
 $A$ twisted by $\sigma$ and that of $B$ twisted by $\sigma$ for an irreducible,
