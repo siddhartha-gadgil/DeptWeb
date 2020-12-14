@@ -2,157 +2,157 @@
   "nodes": [
     {
       "id": "A. K. Nandakumaran",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~nands/"
     },
     {
       "id": "Subhojoy Gupta",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~subhojoy/"
     },
     {
       "id": "Apoorva Khare",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~khare/"
     },
     {
       "id": "Soumya Das",
-      "colour" : "navy",
+      
       "url" : "https://sites.google.com/site/somuhomepage/"
     },
     {
       "id": "Srikanth Iyer",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~skiyer/"
     },
     {
       "id": "Mrinal Ghosh",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~mkg/"
     },
     {
       "id": "E. K. Narayanan",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~naru/"
     },
     {
       "id": "Sanchayan Sen",
-      "colour" : "navy",
+      
       "url" : "https://sites.google.com/site/sanchayansenss/"
     },
     {
       "id": "G. Rangarajan",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~rangaraj/"
     },
     {
       "id": "Vamsi Pingali",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~vamsipingali/"
     },
     {
       "id": "Pooja Singla",
-      "colour" : "navy",
+      
       "url" : "https://sites.google.com/site/poojasingla7/Home"
     },
     {
       "id": "Siddhartha Gadgil",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~gadgil/"
     },
     {
       "id": "Basudeb Datta",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~dattab/"
     },
     {
       "id": "R. Venkatesh",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~rvenkat/"
     },
     {
       "id": "Tirthankar Bhattacharya",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~tirtha/"
     },
     {
       "id": "Arvind Ayyer",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~arvind/"
     },
     {
       "id": "Radhika Ganapathy",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~radhikag/"
     },
     {
       "id": "Mahesh Kakde",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~maheshkakde/"
     },
     {
       "id": "Ved Datar",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~vvdatar/"
     },
     {
       "id": "S. Thangavelu",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~veluma/"
     },
     {
       "id": "Dilip Patil",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~patil/"
     },
     {
       "id": "Gautam Bharali",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~bharali/"
     },
     {
       "id": "Gadadhar Misra",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~gm/"
     },
     {
       "id": "Tirupathi Gudi",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~gudi/"
     },
     {
       "id": "Kaushal Verma",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~kverma/"
     },
     {
       "id": "Abhishek Banerjee",
-      "colour" : "navy",
+      
       "url" : "https://sites.google.com/site/abhishekb1313/"
     },
     {
       "id": "Manjunath Krishanpur",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~manju/"
     },
     {
       "id": "Harish Seshadri",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~harish/"
     },
     {
       "id": "Purvi Gupta",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~purvi/"
     },
     {
       "id": "Swarnendu Sil",
-      "colour" : "navy",
+      
       "url" : "http://math.iisc.ac.in/~ssil/"
     },
     {
       "id": "Shaunak Deo",
-      "colour" : "navy",
+      
       "url" : "https://sites.google.com/view/shaunakdeo/"
     },
     {
@@ -324,6 +324,11 @@
       "rel" : "area"
     },
     {
+      "source": "Swarnendu Sil",
+      "target": "Differential Equations",
+      "rel" : "area"
+    },
+    {
       "source": "Tirthankar Bhattacharya",
       "target": "Analysis",
       "rel" : "area"
@@ -471,6 +476,16 @@
     {
       "source": "Ved Datar",
       "target": "Geometry & Topology",
+      "rel" : "area"
+    },
+    {
+      "source": "Vamsi Pingali",
+      "target": "Differential Equations",
+      "rel" : "area"
+    },
+    {
+      "source": "Ved Datar",
+      "target": "Differential Equations",
       "rel" : "area"
     },
     {
