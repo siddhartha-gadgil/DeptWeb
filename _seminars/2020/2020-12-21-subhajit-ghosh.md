@@ -39,4 +39,4 @@ e,\dots, e, g; (i, n))$ for $g \in G_n$, $1 \leq i < n$. We call this the warp-t
 top with random shuffle on $G_n \wr S_n$. We find the spectrum of the transition probability
 matrix for this shuffle. We prove that the mixing time for this shuffle is of order
 $n \log (n) + (1/2) n \log(|G_n| − 1)$. We also show that this shuffle satisfies cutoff
-phenomenon with cutoff time $n \log n$ if $|G_n| = o( n^\delta )$ for all $\delta > 0$.
+phenomenon with cutoff time $n \log (n)$ if $|G_n| = o( n^\delta )$ for all $\delta > 0$.
