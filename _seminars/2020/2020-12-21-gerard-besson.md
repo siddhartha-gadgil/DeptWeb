@@ -1,5 +1,5 @@
 ---
-speaker: Gerard Besson (Institut Fourier, Université de grenoble) 
+speaker: Gerard Besson (Institut Fourier, Université de Grenoble) 
 title: "Bishop-Gromov inequality generalised"
 date: 21 December, 2020
 time: 9:00 pm
