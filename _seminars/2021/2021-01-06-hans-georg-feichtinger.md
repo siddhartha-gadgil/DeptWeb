@@ -1,7 +1,7 @@
 ---
 speaker: Hans Georg Feichtinger (Institute of Mathematics, University of Vienna, Austria)
 title: "Time-frequency analysis and suitable function spaces"
-date: 
+date: 6 January, 2021
 time: 4 pm
 venue: Zoom (online)
 series: "APRG Seminar"
