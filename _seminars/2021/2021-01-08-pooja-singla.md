@@ -3,7 +3,7 @@ speaker: Pooja Singla (IIT Kanpur)
 title: "Projective representations of discrete nilpotent groups"
 date: 8 January, 2021
 time: 3 pm
-venue: Microsoft Teams (online)
+venue: Zoom (online)
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-21.html
 ---
