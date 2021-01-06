@@ -3,7 +3,7 @@ speaker: Maria del Mar Gonzalez (Universidad Autónoma de Madrid, Spain)
 title: "Non-local ODE via conformal geometry"
 date: 13 January, 2021
 time: 4 pm
-venue: Zoom (online)
+venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
