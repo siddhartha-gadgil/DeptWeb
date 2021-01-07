@@ -16,7 +16,7 @@ jobs:
         mkdir ~/.ruby
         export GEM_HOME=~/.ruby/
         export PATH="$PATH:~/.ruby/bin"
-        gem install -v "2.1.4" bundler 
+        gem install -v "2.2.4" bundler 
         bundle update github-pages 
         bundle install --without development test 
         bundle exec jekyll build --config _config.yml,_config-root.yml
@@ -26,5 +26,6 @@ jobs:
         java-version: 1.8
     - name: Test for broken links
       run: ./amm checklinks.sc
+
       
 
