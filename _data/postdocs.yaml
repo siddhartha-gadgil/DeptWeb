@@ -62,12 +62,6 @@
   image: true
   research-area: Geometry of Banach spaces, greedy-type approximation algorithms
 
-- name: Arun Maiti 
-  phd: Universitat Leipzig
-  user-id: arunmaiti
-  position: NBHM
-  image: true
-  research-area: String topology.
 
 - name	:	Gouranga Mallik 
   phd: IIT Bombay
@@ -98,32 +92,12 @@
   image: true
   research-area: Low-dimensional geometry
 
-- name	:	Kaustubh Manchanda 
-  phd: JNU
-  user-id	:	kaustubhm
-  position: UGC Kothari
-  image: true
-  research-area: Dynamics
-
-- name	:	 Vishnu Priya Nataraj 
-  phd: Bharathidasan University, Tamilnadu
-  user-id	:	vishnupriyan
-  position: UGC Kothari
-  research-area: Solitons, Rogue waves, Nonlinear Integrable systems
-
-
-- name	:	 Anirudha Poria  
-  phd: IIT Guwahati
-  user-id	:	anirudhap
-  position: UGC Kothari
-  image: true
-  research-area: Applied Harmonic Analysis, Frame Theory, Functional Analysis, Time-Frequency Analysis
-
 
 - name : Debamalya Sain 
   phd: Jadavpur
   user-id: debamalyasain
   position: UGC Kothari
+  image: true
   research-area: Geometry of normed linear spaces
  
         
@@ -131,40 +105,47 @@
   phd: HRI, Allahabad
   user-id	:	snehasinha
   position: NBHM
+  image: true
   research-area: Number theory
 
 - name: Chandan Biswas
   phd: University of Wisconsin, Madison
   user-id: chandanbiswa
   position: Raman PDF
+  image: true
   research-area: Harmonic Analysis
 
 - name: Mihir Sheth
   phd: University of Duisburg-Essen, Germany
   user-id: mihirsheth
   position: Raman PDF
+  image: true
   research-area: Number theory, Representation theory
 
 - name: Anoop V. P.
   phd: NISER Bhubaneswar
   user-id: anoopvp
   position: NPDF
+  image: true
   research-area: Harmonic Analysis 
 
 - name: Rajesh Kumar Singh 
-  phd: 
+  phd: IIT Kanpur 
   user-id: rajeshsingh
   position: NBHM
-  research-area:
+  image: true
+  research-area: Harmonic Analysis
 
 - name: Tathagata Banerjee
   phd: 
   user-id: tathagatab
   position: UGC Kothari
+  image: true
   research-area: 
 
 - name: Vijaya Kumar U
   phd:
   user-id: vijayak
   position: 
+  image: true
   research-area:  
