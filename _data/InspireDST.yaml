@@ -25,3 +25,22 @@
   user-id : srijans
   image: true
 
+- name: Ramesh Manna, (Ph.D., HRI, Allahabad)
+  position: Inspire Fellow
+  research-areas: Harmonic Analysis
+  user-id : rameshmanna
+  image: true
+
+- name: Mithun Bhowmik, (Ph.D., Indian Statistical Institute, Kolkata)
+  position: Inspire Fellow
+  research-areas: Harmonic analysis on Lie groups
+  user-id : mithunb
+  image: true
+
+- name: Neelam Saikia, (Ph.D.,IIT Delhi)
+  position: Inspire Fellow
+  research-areas: Number Theory
+  user-id : neelamsaikia
+  image: true
+
+
