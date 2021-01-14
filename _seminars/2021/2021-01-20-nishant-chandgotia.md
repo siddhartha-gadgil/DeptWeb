@@ -9,7 +9,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 Given a finite (complex-valued) measure $\mu$ on the circle
-$\mathbb{R}/\mathbb{Z}$ we write supp(mu-hat) to denote the support
+$\mathbb{R}/\mathbb{Z}$ we write supp$(\widehat{\mu})$ to denote the support
 of its Fourier coefficients. A subset $P$ of the integers is called a
 Riesz set if for all measures $\mu$ on $\mathbb{R}/\mathbb{Z}$ for which
 supp$(\widehat{\mu}) \subset P$, $\mu$ is absolutely continuous with
