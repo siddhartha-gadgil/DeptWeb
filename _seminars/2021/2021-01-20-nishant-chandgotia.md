@@ -1,6 +1,6 @@
 ---
 speaker: Nishant Chandgotia (TIFR-CAM, Bengaluru)
-title: "Time-frequency analysis and suitable function spaces"
+title: "On Riesz sets"
 date: 20 January, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
