@@ -1,17 +1,18 @@
 ---
-title: Former Faculty members
+title: Former Postdocs and Inspire faculty
 ---
 <div class="col-md-12">
-  <h2> Former Postdocs  of the Department </h2>
+  <h2> Former Postdocs of the Department </h2>
 
   {% assign alumni = site.data.postdoc-alumni %}
 
 
 
- <ol>
-  {% for y in alumni %}
-   <li> {{ y.name }} </li>
-  {% endfor %}
- </ol>
+  <ul>
+    {% for y in alumni %}
+    <li>
+      {{ y.name }} {% if y.position %}(<strong>Next position:</strong> {{ y.position }}){% endif %}
+    {% endfor %}</li>
+  </ul>
 
 </div>
