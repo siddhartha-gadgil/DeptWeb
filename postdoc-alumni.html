@@ -1,0 +1,17 @@
+---
+title: Former Faculty members
+---
+<div class="col-md-12">
+  <h2> Former Postdocs  of the Department </h2>
+
+  {% assign alumni = site.data.postdoc-alumni %}
+
+
+
+ <ol>
+  {% for y in alumni %}
+   <li> {{ y.name }} </li>
+  {% endfor %}
+ </ol>
+
+</div>
