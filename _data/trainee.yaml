@@ -1,6 +1,7 @@
 - name: S. Shanmugavel
   user-id: library.math
-  photo: staf-shan.jpg
+  image: true
 
-- name: K. Surenderan
-  user-id:	surenderank
+- name: R. Thirunavukkarasu
+  user-id: thirunavukka
+  image: true
