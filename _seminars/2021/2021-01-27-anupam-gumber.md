@@ -8,7 +8,7 @@ series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
-A countable family $\{\psi_n: n \in \mathbb{N}\}$ of elements in a
+A countable family $\\{\psi_n: n \in \mathbb{N}\\}$ of elements in a
 Hilbert space $\mathcal{H}$ constitutes a frame if there are constants
 $0< A\leq B < \infty$ s.t. $\forall f \in \mathcal{H}$  we have:
 \begin{equation}
@@ -20,14 +20,14 @@ deal with problems in nonharmonic Fourier series, and have been used more
 recently to obtain signal reconstruction for signals embedded in certain
 noises.
 
-For a given pair of frames $\{\psi_n\}$ and $\{\varphi_n\}$ in
+For a given pair of frames $\\{\psi_n\\}$ and $\\{\varphi_n\\}$ in
 $\mathcal{H}$, the associated mixed frame operator $S: \mathcal{H} \to
 \mathcal{H}; f \mapsto \sum_n \langle f, \psi_n \rangle\varphi_n$ is a
 bounded linear operator. The translation invariance of this operator
 plays a significant role in investigating reproducing formulas for frame
-pairs $\{\psi_n\}$ and $\{\varphi_n\}$ in $\mathcal{H}$.
+pairs $\\{\psi_n\\}$ and $\\{\varphi_n\\}$ in $\mathcal{H}$.
 
 In the present talk, we examine necessary and sufficient conditions for
 $S$ to be invariant under translations on $\mathbb{R}^n$ when
-$\{\psi_n\}$ and $\{\varphi_n\}$ belong to a special class of structured
+$\\{\psi_n\\}$ and $\\{\varphi_n\\}$ belong to a special class of structured
 frame systems in $L^2(\mathbb{R}^n)$.
