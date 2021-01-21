@@ -12,7 +12,7 @@ A countable family $\\{\psi_n: n \in \mathbb{N}\\}$ of elements in a
 Hilbert space $\mathcal{H}$ constitutes a frame if there are constants
 $0< A\leq B < \infty$ s.t. $\forall f \in \mathcal{H}$  we have:
 \begin{equation}
-A\|f\|^2 \leq \sum\limits_n|\langle f,\psi_n \rangle|^2\leq B \|f\|^2,
+A\\|f\\|^2 \leq \sum\limits_n|\langle f,\psi_n \rangle|^2\leq B \\|f\\|^2,
 \end{equation}
 where $\langle\cdot, \cdot\rangle$ denotes an inner-product in
 $\mathcal{H}$. Frames were introduced by Duffin and Schaeffer in 1952 to
