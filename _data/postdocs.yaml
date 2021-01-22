@@ -66,7 +66,7 @@
 - name	:	Gouranga Mallik 
   phd: IIT Bombay
   user-id	:	gourangam
-  position: NBHM
+  position: Raman PDF
   image: true
   research-area: PDE, finite element method 
 
@@ -129,10 +129,10 @@
   image: true
   research-area: Harmonic Analysis
 
-- name: Tathagata Banerjee
+- name: Sushma Palimar
   phd: 
-  user-id: tathagatab
-  position: UGC Kothari
+  user-id: psushma
+  position: DST WOSA
   image: true
   research-area: 
 
@@ -141,4 +141,18 @@
   user-id: vijayak
   position: 
   image: true
-  research-area:  
+  research-area:
+
+- name: Geethika Sebastian
+  phd:
+  user-id: geethikas
+  position: UGC Kothari
+  image: true
+  research-area:
+
+- name: Sajal Kumar Mukherjee
+  phd:
+  user-id: sajalm
+  position: NBHM
+  image: true
+  research-area:          
