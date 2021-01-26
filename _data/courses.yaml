@@ -101,6 +101,10 @@ jan2021:
   - name: Probability in higher dimensions
     instructor: Anirban Basak
     code: MA 363
+  - name: Introduction to the Calculus of Variations
+    instructor: Swarnendu Sil
+    code: MA 374
+    prereq-courses: 'MA 221, MA 222, MA 223'
   - name: Introduction to Complex Dynamics
     instructor: Gautam Bharali
     code: MA 380
