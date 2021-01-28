@@ -131,22 +131,22 @@
   research-area: 
 
 - name: Vijaya Kumar U
-  phd:
+  phd: Indian Statistical Institute, Bangalore 
   user-id: vijayak
-  position: 
+  position: IOE-PDF
   image: true
-  research-area:
+  research-area: Operator Theory, Operator Algebras, Quantum Probability
 
 - name: Geethika Sebastian
-  phd:
+  phd: IIT Hyderabad 
   user-id: geethikas
   position: UGC Kothari
   image: true
-  research-area:
+  research-area: Functional Analysis
 
 - name: Sajal Kumar Mukherjee
-  phd:
+  phd: Visva- Bharati University
   user-id: sajalm
   position: NBHM
   image: true
-  research-area:          
+  research-area: Combinatorics (enumerative and topological)          
