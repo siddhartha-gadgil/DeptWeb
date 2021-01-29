@@ -13,7 +13,7 @@ For a commuting $d$-tuple of operators $\boldsymbol T=(T_1, \ldots , T_d)$ defin
 on a complex separable Hilbert space $\mathcal{H}$, let
 $\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \] \big \]$ be the $d \times d$
 block operator $\big (\big ( \big \[ T_j^\*,T_i\] \big )\big )$ of commutators:
-$\[T_j^\*,t_i\] := T_j^\* T_i - T_i T_j^\*$. We define an operator on the Hilbert space
+$\[T_j^\*,T_i\] := T_j^\* T_i - T_i T_j^\*$. We define an operator on the Hilbert space
 $\mathcal{H}$, to be designated the determinant operator, corresponding to the block
 operator $\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \] \big \]$.
 We show that if the $d$-tuple is cyclic, the determinant operator is positive and the
