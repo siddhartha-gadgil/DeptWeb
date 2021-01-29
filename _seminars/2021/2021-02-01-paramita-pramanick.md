@@ -36,7 +36,7 @@ where $k_1(\mathbf{z}), \dots, k_d(\mathbf{z})$ are linear polynomials. If the o
 action modulo unitary equivalence is a singleton, then we say that $\mathbf{T}$ is
 $\mathbb{K}$-homogeneous. We realize a certain class of $\mathbb{K}$-homogeneous $d$-tuples
 $\mathbf{T}$ as a $d$-tuple of multiplication by the coordinate functions $z_1, \dots, z_d$ on a
-reproducing kernel Hilbert space $\mathcal{H}_K$. (The Hilbert space $\mathcal{H}_k$ consisting of
+reproducing kernel Hilbert space $\mathcal{H}\_K$. (The Hilbert space $\mathcal{H}\_K$ consisting of
 holomorphic functions defined on $\Omega$, with $K$ as reproducing kernel.) Using this model we obtain
 a criterion for (i) boundedness, (ii) membership in the Cowen-Douglas class, (iii) unitary
 equivalence and similarity of these $d$-tuples. In particular, we show that the adjoint of the
