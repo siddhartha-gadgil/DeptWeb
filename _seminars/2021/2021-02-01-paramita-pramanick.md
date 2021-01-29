@@ -21,7 +21,7 @@ compression of a fixed set of words in $T_j^\*$ and $T_i$ -- to a nested sequenc
 finite dimensional subspaces increasing to $\mathcal{H}$ -- does not grow very rapidly,
 then the trace of the determinant of the operator $\big (\big ( \big \[ T_j^\*,T_i\] \big )\big )$
 is finite. Moreover, an upper bound for this trace is given. This upper bound is shown
-to be sharp for certain small class of commuting $d$-tuples. We make a conjecture of
+to be sharp for a certain small class of commuting $d$-tuples. We make a conjecture of
 what might be a sharp bound in much greater generality and verify it in many examples.
 
 Let $\Omega$ be an irreducible classical bounded symmetric domain of rank $r$ in
