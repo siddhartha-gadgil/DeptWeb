@@ -19,10 +19,15 @@ jan2021:
     ug-prereq-courses: UM 102
     timing:
     venue:
+  - code: UM 400
+    instructor: UG Coordinator
+    name: "UG project"
+    credits: '0:13'
+    ug-prereq-courses: Only for 4th year UGs  
   - code: UM 502
     instructor: UG Coordinator
     name: "Masters project B"
-    credits: '6:0'
+    credits: '0:6'
     ug-prereq-courses: Only for 5th year Masters    
   core1:
   - name: Algebra II
