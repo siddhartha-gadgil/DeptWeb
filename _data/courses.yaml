@@ -127,7 +127,7 @@ aug2020:
   - code: UM 501
     instructor: UG Coordinator
     name: "Masters project A"
-    credits: '6:0'
+    credits: '0:6'
     ug-prereq-courses: Only for 5th year Masters    
   core1:
   - name: Multivariable Calculus
