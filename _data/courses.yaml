@@ -113,7 +113,9 @@ jan2021:
   - name: Introduction to Complex Dynamics
     instructor: Gautam Bharali
     code: MA 380
-    
+  - name: Representation theory of affine Lie algebras
+    instructor: R. Venkatesh
+    code: MA 387  
 
 aug2020:
   ug:
