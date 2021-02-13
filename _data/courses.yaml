@@ -36,7 +36,7 @@ jan2021:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
-    timing: 
+    timing: 'Tue, Thu 8:30 - 10:00'
     venue:
   - name: Measure & Integration
     credits: '3:1'
@@ -44,7 +44,7 @@ jan2021:
     code: MA 222
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing: 
+    timing: 'Tue, Thu 3:30 - 5:00'
     venue: 
   - name: Complex Analysis
     credits: '3:1'
@@ -52,70 +52,79 @@ jan2021:
     code: MA 224
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing: 
+    timing: 'Mon, Wed, Fri 2:00 - 3:00'
     venue: 
   - name: Calculus on Manifolds
     instructor: Ved Datar
     code: MA 229
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing:
+    timing: 'Mon, Wed, Fri 10:00 - 11:00'
     venue: 
-    timing: 
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: A. K. Nandakumaran
     code: MA 241
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing: 
+    timing: 'Mon, Wed, Fri 11:00 - 12:00'
     venue: 
   electives:
   - name: Introduction to Modular Forms
     instructor: Soumya Das 
     code: MA 215
-  
+    timing: 'Tue, Thu 3:30 - 5:00'
   - name: Introduction to Dynamical Systems Theory
     instructor: Amit Apte
     code: MA 278
-
+    timing: 'Tue, Thu 10:00 - 11:30'
   - name: Topics in Harmonic Anaysis
     code: MA 304
     instructor: S. Thangavelu
-    timing: 
+    timing: 'Mon, Wed, Fri 10:00 - 11:00'
     venue: 
   - name: Commutative Algebra
     code: MA 312
     instructor: Abhishek Banerjee
-    timing: 
+    timing: 'Tue, Thu 2:00 - 3:30'
     venue: 
   - name: Algebraic Combinatorics
     instructor: Arvind Ayyer 
     code: MA 319
+    timing: 'Tue, Thu 11:30 - 1:00'
   - name: Analysis III 
     instructor: E. K. Narayanan
     code: MA 321
+    timing: 'Tue, Thu 8:30 - 10:00'
   - name: Differentiable Manifolds & Lie Groups
     instructor: Subhojoy Gupta
     code: MA 338
     prereq-courses: ''
     ug-prereq-courses: ''
-    timing: 
+    timing: 'Tue, Thu 3:30 - 5:00'
     venue: 
     webpage: 
+  - name: Stochastic Dynamic Optimization
+    code: MA 359
+    instructor: Rahul Singh
+    prereq-courses: 'MA 361, MA 221, MA 231'
   - name: Probability in higher dimensions
     instructor: Anirban Basak
     code: MA 363
+    timing: 'Tue, Thu 10:00 - 11:30'
   - name: Introduction to the Calculus of Variations
     instructor: Swarnendu Sil
     code: MA 374
     prereq-courses: 'MA 221, MA 222, MA 223'
+    timing: 'Tue, Thu 2:00 - 3:30'
   - name: Introduction to Complex Dynamics
     instructor: Gautam Bharali
     code: MA 380
+    timing: 'Tue, Thu 11:30 - 1:00'
   - name: Representation theory of affine Lie algebras
     instructor: R. Venkatesh
-    code: MA 387  
+    code: MA 387 
+    prereq-courses: 'MA 219, MA 212, MA 213, MA 315'
 
 aug2020:
   ug:
@@ -213,7 +222,7 @@ aug2020:
     instructor: Subhojoy Gupta 
     code: MA 307
     webpage: https://sites.google.com/view/subhojoy/ma307
-    timing: 'Tue, Thu 3:30 - 5: 00'
+    timing: 'Tue, Thu 3:30 - 5:00'
   - name: Basic Algebraic Geometry
     instructor: Radhika Ganapathy
     code: MA 308
@@ -233,7 +242,7 @@ aug2020:
     timing: 'Mon, Wed, Fri 11:00 - 12:00'
   - name: Probability Theory
     instructor: Srikanth Iyer
-    timing: 'Tue, Thu 3:30 - 5: 00'
+    timing: 'Tue, Thu 3:30 - 5:00'
     code: MA 361
     prereq-courses: MA 222
     ug-prereq-courses: ''
