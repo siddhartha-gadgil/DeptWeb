@@ -1,5 +1,5 @@
 ---
-speaker: Arka Mallick (EPFL, Lausanne, Switzerland)
+speaker: Arka Mallick (Technion, Haifa, Israel)
 title: "Optimal exponential integrability of maps with finite non convex energy"
 date: 24 February, 2021
 time: 4 pm
