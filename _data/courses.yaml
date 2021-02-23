@@ -44,7 +44,7 @@ jan2021:
     instructor: Manjunath Krishnapur
     code: MA 222
     prereq-courses: MA 221
-    ug-prereq-courses: ''
+    ug-prereq-courses: 'UM 204'
     timing: 'Tue, Thu 3:30 - 5:00'
     venue: 
   - name: Complex Analysis
@@ -69,7 +69,7 @@ jan2021:
     instructor: A. K. Nandakumaran
     code: MA 241
     prereq-courses: MA 221
-    ug-prereq-courses: ''
+    ug-prereq-courses: 'UM 204'
     timing: 'Mon, Wed, Fri 11:00 - 12:00'
     venue: 
   electives:
