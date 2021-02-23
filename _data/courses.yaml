@@ -52,7 +52,7 @@ jan2021:
     instructor: Purvi Gupta
     code: MA 224
     prereq-courses: MA 221
-    ug-prereq-courses: ''
+    ug-prereq-courses: 'UM 204'
     timing: 'Mon, Wed, Fri 2:00 - 3:00'
     venue: 
     webpage: http://math.iisc.ac.in/~purvigupta/math224.html
