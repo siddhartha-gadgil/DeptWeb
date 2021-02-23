@@ -20,11 +20,11 @@ MA 219	Linear Algebra		UM 102	Preferably UM 203
 				
 MA 221	Analysis I - Real Analysis		UM 204	Not for mathematics majors
 				
-MA 222	Analysis II - Measure and Integration	MA 221		Preferably MA 231
+MA 222	Analysis II - Measure and Integration	MA 221	UM 204	Preferably MA 231
 				
 MA 223	Functional Analysis	MA 222, MA 224 and MA 219		Preferably MA 231
 				
-MA 224	Complex Analysis	MA 221		
+MA 224	Complex Analysis	MA 221	UM 204	
 				
 MA 229	Calculus on Manifolds	MA 221		MA 231?
 				
@@ -32,7 +32,7 @@ MA 231	Topology		UM 204
 				
 MA 232	Introduction to algebraic topology	MA 231 and MA 212		
 				
-MA 241	Ordinary Differential Equations	MA 221		
+MA 241	Ordinary Differential Equations	MA 221	UM 204	
 				
 MA 242	Partial Differential Equations	MA 241		
 				
