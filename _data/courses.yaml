@@ -5,20 +5,20 @@ jan2021:
     name: "Analysis and Linear Algebra - II"
     ug-prereq-courses: UM 101
     webpage: http://math.iisc.ac.in/~vamsipingali/teaching/um102anallinealg2021spring/um1022021.html
-  - code: UM 203
-    name: Introduction to Algebraic Structures
-    credits: '3:1'
-    instructor: R. Venkatesh
-    webpage: 
-    ug-prereq-courses: UM 102
-    timing:
-    venue:
   - code: UM 204
     name: Introduction to Basic Analysis
     credits: '3:1'
     instructor: Tirthankar Bhattacharyya
     ug-prereq-courses: UM 102
-    timing:
+    timing: 'Mon, Wed, Fri 11:00 - 12:00'
+    venue:
+  - code: UM 205
+    name: Introduction to Algebraic Structures
+    credits: '3:1'
+    instructor: R. Venkatesh
+    webpage: 
+    ug-prereq-courses: UM 102
+    timing: 'Mon, Wed, Fri 12:00 - 1:00'
     venue:
   - code: UM 400
     instructor: UG Coordinator
@@ -61,7 +61,7 @@ jan2021:
     code: MA 229
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing: 'Mon, Wed, Fri 10:00 - 11:00'
+    timing: 'Mon, Wed, Fri 9:00 - 10:00'
     venue: 
     webpage: http://math.iisc.ac.in/~vvdatar/teaching_2021-Feb.html
   - name: Ordinary Differential Equations
@@ -70,7 +70,7 @@ jan2021:
     code: MA 241
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
-    timing: 'Mon, Wed, Fri 11:00 - 12:00'
+    timing: 'Mon, Wed, Fri 10:00 - 11:00'
     venue: 
   electives:
   - name: Introduction to Modular Forms
