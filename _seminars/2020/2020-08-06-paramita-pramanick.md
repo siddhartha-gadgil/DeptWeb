@@ -34,9 +34,11 @@ which may be in trace class. For this, we define an operator valued determinant 
 $d\times d$-block operator $\boldsymbol B := \big (\big ( B_{i j} \big ) \big )$ 
 by the formula 
 
-$$\text{dEt}\big (\boldsymbol{B}\big ):=\sum_{\sigma, \tau \in \mathfrak S_d} 
+\begin{equation}
+\text{dEt}\big (\boldsymbol{B}\big ):=\sum_{\sigma, \tau \in \mathfrak S_d} 
 \text{sgn}(\sigma)B_{\tau(1),\sigma(\tau(1))}B_{\tau(2),\sigma(\tau(2))},\ldots, 
-B_{\tau(d),\sigma(\tau(d))}.$$
+B_{\tau(d),\sigma(\tau(d))}.
+\end{equation}
 
 It is then natural to investigate the properties of the operator 
 $\mbox{dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big \] \big ),$
@@ -47,6 +49,8 @@ Helton and Howe. Among other things, we find a trace inequality for the operator
 $\mbox{dEt}\big (\big \[\big \[ \boldsymbol T^\*, \boldsymbol T \big \]\big\] \big ),$ 
 after imposing certain growth and cyclicity condition on the operator $\boldsymbol T$, namely,
 
-$$ \text{trace} \big( {\rm dEt} \big( [[ \boldsymbol{T}^*, \boldsymbol{T} ]] \big) \big) \leq m \vartheta d! \prod_{i=1}^{d} \|T_i\|^2 $$
+\begin{equation}
+\text{trace} \big( {\rm dEt} \big( [[ \boldsymbol{T}^\*, \boldsymbol{T} ]] \big) \big) \leq m \vartheta d! \prod_{i=1}^{d} \|T_i\|^2
+\end{equation}
 
 for some $\vartheta \geq 1.$ We give explicit examples illustrating the abstract inequality.
