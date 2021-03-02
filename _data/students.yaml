@@ -501,4 +501,15 @@
   user-id: mainakb
   image: true
 
+- name: Subhajit Das
+  year-of-joining: 2020
+  programme: PhD
+  user-id: subhajitdas
+  image: true
+
+- name: Arnab Pal
+  year-of-joining: 2020
+  programme: PhD
+  user-id: arnabpalp
+  image: true
 
