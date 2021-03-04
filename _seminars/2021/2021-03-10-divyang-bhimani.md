@@ -15,5 +15,5 @@ nonlinearity. We prove two types of norm inflation (strong
 ill-posedness) results. We first establish norm inflation results
 below the expected critical regularities. We then prove norm
 inflation with infinite loss of regularity under less general assumptions.
-We shall also discuss similar results for fractional Hartree equation.  
+We shall also discuss similar results for fractional Hartree equation. 
 The talk is based on a joint work with Remi Carles and Saikatul Haque.
