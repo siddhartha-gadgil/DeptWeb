@@ -18,7 +18,7 @@
 - name : Katta Venkata Ramana
   degree : Bachelor of Science (Research)
   year : '2015'
-- name : Athmanathan S 
+- name : Athmanathan S.
   degree : Bachelor of Science (Research)
   year : '2015'
 - name : Gollapalli Thyagarajulu
@@ -27,16 +27,6 @@
   year : '2015'
   
   
-- name: Vignesh A. N.
-  degree: Bachelor of Science (Research) & Master of Science
-  present: "Graduate student at Berlin School of Mathematics"
-  year: '2016'
-- name: Padma Bhushan Borah
-  degree: Bachelor of Science (Research) & Master of Science
-  year: '2016'
-- name: Sriram C.
-  degree: Bachelor of Science (Research) & Master of Science
-  year: '2016'
 - name: Anamay Chaturvedi
   degree: Bachelor of Science (Research)
   year: '2016'
@@ -48,13 +38,10 @@
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of California at Berkeley"
   year: '2016'
-- name: Chirag S. Igoor
-  degree: Bachelor of Science (Research) & Master of Science
-  year: '2016'
 - name: Sampada Chandrashekhar Kolharkar
   degree: Bachelor of Science (Research)
   year: '2016'
-- name: Sabareesh R
+- name: Sabareesh R.
   degree: Bachelor of Science (Research)
   present: "Masters programme at the London School of Economics"
   year: '2016'
@@ -62,25 +49,73 @@
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of California at Davis"
   year: '2016'
-- name: Sameer Bipin Shah
-  degree: Bachelor of Science (Research) & Master of Science
-  year: '2016'
 - name: Sandip Sinha
   degree: Bachelor of Science (Research)
   present: "Graduate student at Columbia University"
+  year: '2016'
+
+- name: Vignesh A. N.
+  degree: Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at Berlin School of Mathematics"
+  year: '2016'
+- name: Padma Bhushan Borah
+  degree: Bachelor of Science (Research) & Master of Science
+  year: '2016'
+- name: Sriram C.
+  degree: Bachelor of Science (Research) & Master of Science
+  year: '2016'
+- name: Chirag S. Igoor
+  degree: Bachelor of Science (Research) & Master of Science
+  year: '2016'
+- name: Sameer Bipin Shah
+  degree: Bachelor of Science (Research) & Master of Science
   year: '2016'
 
   
 - name: Sayyad Irfan Ali
   degree: Bachelor of Science (Research)
   year: '2017'
-- name: Abhishek Balakrishna
-  degree: Bachelor of Science (Research) & Master of Science
-  present: "Graduate student at University of Maryland, Baltimore County"
-  year: '2017'
 - name: Ishan Banerjee
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of Chicago"
+  year: '2017'
+  - name: Rekha Nawal Jyoti
+  degree: Bachelor of Science (Research)
+  year: '2017'
+- name: Amleshwar Kumar
+  degree: Bachelor of Science (Research)
+  year: '2017'
+- name: Chinmay Lohani
+  degree: Bachelor of Science (Research)
+  present: "Graduate student at University of Pennsylvania"
+  year: '2017'
+- name: Seethamraju Mukund
+  degree: Bachelor of Science (Research)
+  year: '2017'
+- name: Varun Prasad
+  degree: Bachelor of Science (Research)
+  year: '2017'
+- name: Amal Roy
+  degree: Bachelor of Science (Research)
+  year: '2017'
+- name: Abhishek V. Shetty
+  degree: Bachelor of Science (Research)
+  year: '2017'
+- name: Raghav Malhotra
+  degree: Bachelor of Science (Research)
+  year: '2017'
+- name: Sanal Shivaprasad
+  degree: Bachelor of Science (Research)
+  present: "Graduate student at University of Michigan"
+  year: '2017'
+- name: Shubham Sinha
+  degree: Bachelor of Science (Research)
+  present: "Graduate student at University of California at San Diego"
+  year: '2017'
+
+- name: Abhishek Balakrishna
+  degree: Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at University of Maryland, Baltimore County"
   year: '2017'
 - name: Soumyo Biswas
   degree: Bachelor of Science (Research) & Master of Science
@@ -100,93 +135,60 @@
 - name: Ankit Kumar Jaiswal
   degree: Bachelor of Science (Research) & Master of Science
   year: '2017'
-- name: Rekha Nawal Jyoti
-  degree: Bachelor of Science (Research)
-  year: '2017'
-- name: Amleshwar Kumar
-  degree: Bachelor of Science (Research)
-  year: '2017'
-- name: Chinmay Lohani
-  degree: Bachelor of Science (Research)
-  present: "Graduate student at University of Pennsylvania"
-  year: '2017'
-- name: Seethamraju Mukund
-  degree: Bachelor of Science (Research)
-  year: '2017'
-- name: Varun Prasad
-  degree: Bachelor of Science (Research)
-  year: '2017'
-- name: Amal Roy
-  degree: Bachelor of Science (Research)
-  year: '2017'
-- name: Abhishek V Shetty
-  degree: Bachelor of Science (Research)
-  year: '2017'
-- name: Raghav Malhotra
-  degree: Bachelor of Science (Research)
-  year: '2017'
-- name: Sanal Shivaprasad
-  degree: Bachelor of Science (Research)
-  present: "Graduate student at University of Michigan"
-  year: '2017'
 - name: Rahul Singh
   degree: Bachelor of Science (Research) & Master of Science
   year: '2017'
-- name: Shubham Sinha
-  degree: Bachelor of Science (Research)
-  present: "Graduate student at University of California at San Diego"
-  year: '2017'
 
   
+- name: Saswata Chatterjee
+  degree: Bachelor of Science (Research) & Master of Science
+  year: '2018'
 - name: Aditi Rai
-  year: '2018'
   degree: Bachelor of Science (Research)
+  year: '2018'
 - name: Atlanta Chakraborty
-  year: '2018'
   degree: Bachelor of Science (Research)
-- name: Ishan Agarwal
   year: '2018'
+- name: Ishan Agarwal
   degree: Bachelor of Science (Research)
   present: "Graduate student at New York University"
-- name: Pranav Nuti
   year: '2018'
+- name: Pranav Nuti
   degree: Bachelor of Science (Research)
   present: "Graduate student at Stanford University"
-- name: Sayantan Khan
   year: '2018'
+- name: Sayantan Khan
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of Michigan"
-- name: Tappu Chaitanya Mukund
   year: '2018'
+- name: Tappu Chaitanya Mukund
   degree: Bachelor of Science (Research)
   present: "Graduate student at Cornell University"
+  year: '2018'
 - name: Prayut Jain
-  year: '2018'
   degree: Bachelor of Science (Research)
-- name: Naren Vohra
   year: '2018'
+- name: Naren Vohra
   degree: Bachelor of Science (Research) & Master of Science
   present: "Graduate student at Oregon State University"
+  year: '2018'
 - name: Agniva Das Gupta
-  year: '2018'
   degree: Bachelor of Science (Research) & Master of Science
-- name: Kartik Waghmare
   year: '2018'
+- name: Kartik Waghmare
   degree: Bachelor of Science (Research) & Master of Science
   present: "Graduate student at École Polytechnique Fédérale de Lausanne"
-- name: Sarvesh Ravichandran Iyer
   year: '2018'
+- name: Sarvesh Ravichandran Iyer
   degree: Bachelor of Science (Research) & Master of Science
   present: "Graduate student at Indian Statistical Institute Bangalore"
-- name: Saswata Chatterjee
   year: '2018'
-  degree: Bachelor of Science (Research) & Master of Science
 - name: Ujjwal Rajput
-  year: '2018'
   degree: Bachelor of Science (Research) & Master of Science
+  year: '2018'
 - name: Utkarsh Rajput
-  year: '2018'
   degree: Bachelor of Science (Research) & Master of Science
+  year: '2018'
   
   
 - name : Biswajit Nag
