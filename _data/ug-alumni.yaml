@@ -239,6 +239,7 @@
 - name : Samayak
   degree : Bachelor of Science (Research)
   year : '2019'
+  
 - name : Prokash Kumar Kundu
   degree : Bachelor of Science (Research) & Master of Science
   present: "Graduate student at ICTS Bangalore"
@@ -252,45 +253,46 @@
   year : '2019'
   
   
-- name : Anand U R
-  degree : Bachelor of Science (Research)
-  year : '2020'
-- name : Rohan Das
-  degree : Bachelor of Science (Research)
-  year : '2020'
-- name : Bharath Krishnan
-  degree : Bachelor of Science (Research)
-  year : '2020'
-- name : Chandrakant Harjpal                              
-  degree : Bachelor of Science (Research)
-  year : '2020'
-- name : Vishnu Teja Bondalakunta                       
-  degree : Bachelor of Science (Research)
-  year : '2020'
-- name : Anil Kumar
-  degree : Bachelor of Science (Research)
-  year : '2020'
 - name : Aniruddh Balasubramaniam
   degree : Bachelor of Science (Research)
-  year : '2020'
-- name : Gaba Pranshu Kishor Raashi
-  degree : Bachelor of Science (Research)
-  year : '2020'
-- name : Julian Reuben Dcosta
-  degree : Bachelor of Science (Research)
-  present: "Graduate student at Oxford University"
   year : '2020'
 - name : Manan Bhatia
   degree : Bachelor of Science (Research)
   present: "ICTS Bangalore"
   year : '2020'
+- name : Vishnu Teja Bondalakunta                       
+  degree : Bachelor of Science (Research)
+  year : '2020'
+- name : Rohan Das
+  degree : Bachelor of Science (Research)
+  year : '2020'
+- name : Julian Reuben D'Costa
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at Oxford University"
+  year : '2020'
+- name : Pranshu Kishor Raashi Gaba
+  degree : Bachelor of Science (Research)
+  year : '2020'
+- name : Chandrakant Harjpal                              
+  degree : Bachelor of Science (Research)
+  year : '2020'
+- name : Bharath Krishnan
+  degree : Bachelor of Science (Research)
+  year : '2020'
+- name : Anil Kumar
+  degree : Bachelor of Science (Research)
+  year : '2020'
+- name : Anand U R
+  degree : Bachelor of Science (Research)
+  year : '2020'
+  
 - name : Agneedh Basu
   degree : Bachelor of Science (Research) & Master of Science
   year : '2020'
-- name : Arka Ghosh
+- name : Soumik Dutta
   degree : Bachelor of Science (Research) & Master of Science
   year : '2020'
-- name : K Philip Thomas
+- name : Arka Ghosh
   degree : Bachelor of Science (Research) & Master of Science
   year : '2020'
 - name : Navdeep Kumar
@@ -299,10 +301,11 @@
 - name : Rohit Murali
   degree : Bachelor of Science (Research) & Master of Science
   year : '2020'
-- name : Soumik Dutta
-  degree : Bachelor of Science (Research) & Master of Science
-  year : '2020'
 - name : Abhratanu Saha
   degree : Bachelor of Science (Research) & Master of Science
+  year : '2020'
+- name : K Philip Thomas
+  degree : Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at University of Oregon"
   year : '2020'
 
