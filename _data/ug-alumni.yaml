@@ -79,7 +79,7 @@
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of Chicago"
   year: '2017'
-  - name: Rekha Nawal Jyoti
+- name: Rekha Nawal Jyoti
   degree: Bachelor of Science (Research)
   year: '2017'
 - name: Amleshwar Kumar
@@ -140,22 +140,15 @@
   year: '2017'
 
   
-- name: Saswata Chatterjee
-  degree: Bachelor of Science (Research) & Master of Science
-  year: '2018'
-- name: Aditi Rai
-  degree: Bachelor of Science (Research)
-  year: '2018'
-- name: Atlanta Chakraborty
-  degree: Bachelor of Science (Research)
-  year: '2018'
 - name: Ishan Agarwal
   degree: Bachelor of Science (Research)
   present: "Graduate student at New York University"
   year: '2018'
-- name: Pranav Nuti
+- name: Atlanta Chakraborty
   degree: Bachelor of Science (Research)
-  present: "Graduate student at Stanford University"
+  year: '2018'
+- name: Prayut Jain
+  degree: Bachelor of Science (Research)
   year: '2018'
 - name: Sayantan Khan
   degree: Bachelor of Science (Research)
@@ -165,19 +158,19 @@
   degree: Bachelor of Science (Research)
   present: "Graduate student at Cornell University"
   year: '2018'
-- name: Prayut Jain
+- name: Pranav Nuti
+  degree: Bachelor of Science (Research)
+  present: "Graduate student at Stanford University"
+  year: '2018'
+- name: Aditi Rai
   degree: Bachelor of Science (Research)
   year: '2018'
-- name: Naren Vohra
+
+- name: Saswata Chatterjee
   degree: Bachelor of Science (Research) & Master of Science
-  present: "Graduate student at Oregon State University"
   year: '2018'
 - name: Agniva Das Gupta
   degree: Bachelor of Science (Research) & Master of Science
-  year: '2018'
-- name: Kartik Waghmare
-  degree: Bachelor of Science (Research) & Master of Science
-  present: "Graduate student at École Polytechnique Fédérale de Lausanne"
   year: '2018'
 - name: Sarvesh Ravichandran Iyer
   degree: Bachelor of Science (Research) & Master of Science
@@ -188,6 +181,14 @@
   year: '2018'
 - name: Utkarsh Rajput
   degree: Bachelor of Science (Research) & Master of Science
+  year: '2018'
+- name: Naren Vohra
+  degree: Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at Oregon State University"
+  year: '2018'
+- name: Kartik Waghmare
+  degree: Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at École Polytechnique Fédérale de Lausanne"
   year: '2018'
   
   
