@@ -11,8 +11,9 @@
   year : '2015'
 - name : Sudhanva Shyam Kamath
   degree : Bachelor of Science (Research)
+  present: "Indian Institute of Technology Bombay"
   year : '2015'
-- name : Joseph Kannathoor
+- name : Joseph Kunnathoor
   degree : Bachelor of Science (Research)
   year : '2015'
 - name : Katta Venkata Ramana
@@ -29,6 +30,7 @@
   
 - name: Anamay Chaturvedi
   degree: Bachelor of Science (Research)
+  present: "Graduate student at Northeastern University"
   year: '2016'
 - name: Saibal De
   degree: Bachelor of Science (Research)
@@ -40,6 +42,7 @@
   year: '2016'
 - name: Sampada Chandrashekhar Kolharkar
   degree: Bachelor of Science (Research)
+  present: "Chennai Mathematical Institute"
   year: '2016'
 - name: Sabareesh R.
   degree: Bachelor of Science (Research)
@@ -87,7 +90,7 @@
   year: '2017'
 - name: Chinmay Lohani
   degree: Bachelor of Science (Research)
-  present: "Graduate student at University of Pennsylvania"
+  present: "London School of Economics"
   year: '2017'
 - name: Seethamraju Mukund
   degree: Bachelor of Science (Research)
@@ -100,6 +103,7 @@
   year: '2017'
 - name: Abhishek V. Shetty
   degree: Bachelor of Science (Research)
+  present: "Microsoft Research; Cornell University"
   year: '2017'
 - name: Raghav Malhotra
   degree: Bachelor of Science (Research)
@@ -146,6 +150,7 @@
   year: '2018'
 - name: Atlanta Chakraborty
   degree: Bachelor of Science (Research)
+  present: "Graduate student at National University of Singapore"
   year: '2018'
 - name: Prayut Jain
   degree: Bachelor of Science (Research)
@@ -168,6 +173,7 @@
 
 - name: Saswata Chatterjee
   degree: Bachelor of Science (Research) & Master of Science
+  present: Associate Software Engineer at iManage LLC (Bangalore)
   year: '2018'
 - name: Agniva Das Gupta
   degree: Bachelor of Science (Research) & Master of Science
@@ -236,7 +242,7 @@
   degree : Bachelor of Science (Research)
   present: "Graduate student at University of Chicago"
   year : '2019'
-- name : Samayak
+- name : Samyak
   degree : Bachelor of Science (Research)
   year : '2019'
   
