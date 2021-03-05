@@ -45,7 +45,7 @@
   degree: Bachelor of Science (Research)
   present: "Masters programme at the London School of Economics"
   year: '2016'
-- name: S Hamilton Samraj
+- name: S. Hamilton Samraj
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of California at Davis"
   year: '2016'
@@ -154,16 +154,16 @@
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of Michigan"
   year: '2018'
-- name: Tappu Chaitanya Mukund
-  degree: Bachelor of Science (Research)
-  present: "Graduate student at Cornell University"
-  year: '2018'
 - name: Pranav Nuti
   degree: Bachelor of Science (Research)
   present: "Graduate student at Stanford University"
   year: '2018'
 - name: Aditi Rai
   degree: Bachelor of Science (Research)
+  year: '2018'
+- name: Chaitanya Mukund Tappu
+  degree: Bachelor of Science (Research)
+  present: "Graduate student at Cornell University"
   year: '2018'
 
 - name: Saswata Chatterjee
@@ -192,6 +192,30 @@
   year: '2018'
   
   
+- name : Sabyasachi Basu
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at University of California at Santa Cruz"
+  year : '2019'
+- name : Ratul Biswas
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Minnesota"
+  year : '2019'
+- name : Prakhar Gupta
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Maryland at College Park" 
+  year : '2019'
+- name : Junaid Hasan
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Washington at Seattle" 
+  year : '2019'
+- name : Rachitesh Kumar
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at Columbia University"
+  year : '2019'
+- name : Ashwin Maran
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Wisconsin at Madison"
+  year : '2019'
 - name : Biswajit Nag
   degree : Bachelor of Science (Research)
   year : '2019'
@@ -199,40 +223,16 @@
   degree : Bachelor of Science (Research)
   present: "Microsoft Research Lab; Indian Institute of Technology Madras"
   year : '2019'
-- name : Adhithya P
-  degree : Bachelor of Science (Research)
-  year : '2019'
-- name : Ashwin Maran
-  degree : Bachelor of Science (Research)
-  present: "Graduate student at University of Wisconsin at Madison"
-  year : '2019'
-- name : Junaid Hasan
-  degree : Bachelor of Science (Research)
-  present: "Graduate student at University of Washington at Seattle" 
-  year : '2019'
-- name : Prakhar Gupta
-  degree : Bachelor of Science (Research)
-  present: "Graduate student at University of Maryland at College Park" 
-  year : '2019'
-- name : Rachitesh Kumar
-  degree : Bachelor of Science (Research)
-  present: "Graduate student at Columbia University"
-  year : '2019'
-- name : Ratul Biswas
-  degree : Bachelor of Science (Research)
-  present: "Graduate student at University of Minnesota"
-  year : '2019'
-- name : Sabyasachi Basu
-  degree : Bachelor of Science (Research)
-  present: "Graduate student at University of California at Santa Cruz"
-  year : '2019'
-- name : Saket Padhi
+- name : Adhithya P.
   degree : Bachelor of Science (Research)
   year : '2019'
 - name : Sidharth P. Jacob
   degree : Bachelor of Science (Research)
   year : '2019'
-- name : Warade Pranjal Pandurang
+- name : Saket Padhi
+  degree : Bachelor of Science (Research)
+  year : '2019'
+- name : Pranjal Pandurang Warade
   degree : Bachelor of Science (Research)
   present: "Graduate student at University of Chicago"
   year : '2019'
@@ -243,7 +243,7 @@
   degree : Bachelor of Science (Research) & Master of Science
   present: "Graduate student at ICTS Bangalore"
   year : '2019'
-- name : Sapre Dushyant Prashant
+- name : Dushyant Prashant Sapre
   degree : Bachelor of Science (Research) & Master of Science
   year : '2019'
 - name : Tapesh Yadav
