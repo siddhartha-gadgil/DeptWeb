@@ -167,7 +167,7 @@
 - name: Kartik Waghmare
   year: '2018'
   degree: Bachelor of Science (Research) & Master of Science
-  present: "Graduate student at École polytechnique fédérale de Lausanne"
+  present: "Graduate student at École Polytechnique Fédérale de Lausanne"
 - name: Sarvesh Ravichandran Iyer
   year: '2018'
   degree: Bachelor of Science (Research) & Master of Science
@@ -186,24 +186,30 @@
   year : '2019'
 - name : Prateek Yadav
   degree : Bachelor of Science (Research)
+  present: "Microsoft Research Lab; Indian Institute of Technology Madras"
   year : '2019'
 - name : Adhithya P
   degree : Bachelor of Science (Research)
   year : '2019'
 - name : Ashwin Maran
   degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Wisconsin at Madison"
   year : '2019'
 - name : Junaid Hasan
   degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Washington at Seattle" 
   year : '2019'
 - name : Prakhar Gupta
   degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Maryland at College Park" 
   year : '2019'
 - name : Rachitesh Kumar
   degree : Bachelor of Science (Research)
+  present: "Graduate student at Columbia University"
   year : '2019'
 - name : Ratul Biswas
   degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Minnesota"
   year : '2019'
 - name : Sabyasachi Basu
   degree : Bachelor of Science (Research)
@@ -216,6 +222,7 @@
   year : '2019'
 - name : Warade Pranjal Pandurang
   degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Chicago"
   year : '2019'
 - name : Samayak
   degree : Bachelor of Science (Research)
