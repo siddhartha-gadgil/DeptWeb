@@ -1,9 +1,22 @@
-- name : S. Athmanathan 
+- name : Eva Cherian
+  degree : Bachelor of Science (Research)
+  present: "Cochin University"
+  year : '2015'
+- name : Tejas Fuley
   degree : Bachelor of Science (Research)
   year : '2015'
 - name : Terrence George George
   degree : Bachelor of Science (Research)
   present: "Graduate student at Brown University"
+  year : '2015'
+- name : Sudhanva Shyam Kamath
+  degree : Bachelor of Science (Research)
+  year : '2015'
+- name : Joseph Kannathoor
+  degree : Bachelor of Science (Research)
+  year : '2015'
+- name : Athmanathan S 
+  degree : Bachelor of Science (Research)
   year : '2015'
 - name : Gollapalli Thyagarajulu
   degree : Bachelor of Science (Research)
@@ -12,41 +25,28 @@
 - name : Katta Venkata Ramana
   degree : Bachelor of Science (Research)
   year : '2015'
-- name : Eva Cherian
-  degree : Bachelor of Science (Research)
-  present: "Cochin University"
-  year : '2015'
-- name : Tejas Fuley
-  degree : Bachelor of Science (Research)
-  year : '2015'
-- name : Joseph Kannathoor
-  degree : Bachelor of Science (Research)
-  year : '2015'
-- name : Sudhanva Shyam Kamath
-  degree : Bachelor of Science (Research)
-  year : '2015'
 - name: Anamay Chaturvedi
-  year: '2016'
   degree: Bachelor of Science (Research)
-- name: Milind Hegde
   year: '2016'
+- name: Milind Hegde
   degree: Bachelor of Science (Research)
   present: "Graduate student at University of California at Berkeley"
-- name: S Hamilton Samraj
   year: '2016'
-  degree: Bachelor of Science (Research)
-  present: "Graduate student at University of California at Davis"
 - name: Sabareesh R
-  year: '2016'
   degree: Bachelor of Science (Research)
   present: "Masters programme at the London School of Economics"
+  year: '2016'
+- name: S Hamilton Samraj
+  degree: Bachelor of Science (Research)
+  present: "Graduate student at University of California at Davis"
+  year: '2016'
 - name: Saibal De
   year: '2016'
   degree: Bachelor of Science (Research)
-  present: "Graduate student at University of Michigan"
-- name: Sandip Sinha
+  present: "Graduate stud
   year: '2016'
-  degree: Bachelor of Science (Research)
+  degree: Bachelor of Scient at University of Michigan"
+- name: Sandip Sinhaence (Research)
   present: "Graduate student at Columbia University"
 - name: Kolharkar Sampada Chandrashekhar
   year: '2016'
