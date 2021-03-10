@@ -21,3 +21,5 @@ on various (appropriately defined) boundary sets. We then define the Neumann
 derivative of functions on these boundary sets and establish a relationship between
 the three important concepts in our analysis so far, namely, the Laplacian, the
 bilinear energy form and the Neumann derivative of a function.
+
+This is a joint work with my doctoral student, Sharvari Neetin Tikekar.
