@@ -2,47 +2,66 @@
 title: Undergraduate Degrees Awarded
 ---
 <div class="col-md-12">
-  <h2> Undergraduate degrees awarded by the department (by year) </h2>
+    <h2>
+        Undergraduate degrees awarded by the department (by year)
+    </h2>
 
-  {% assign years = site.data.ug-alumni | group_by: "year" %}
-
-
- {% assign sorted = years | sort: 'name' | reverse %}
-
- <ul class="list-inline">
-   {% for y in sorted %}
-   <li class="list-inline-item"> <a href="#{{y.name}}"> {{y.name}} </a> </li>
-   {% endfor %}
- </ul>
+    {% assign years = site.data.ug-alumni | group_by: "year" %}
 
 
- <ul>
-  {% for y in sorted %}
-   <li>
-     <h4>
-     <!-- <a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}"> -->
-     {{y.name}}
-     <!-- </a> -->
-     </h4>
+    {% assign sorted = years | sort: 'name' | reverse %}
 
-<div class="" id="{{y.name}}">
-  <ul style="list-style-type:none">
-  {% for deg in y.items %}
-   <li><p style="margin-top: 15px; margin-bottom: -3px"> <b>Name:</b> <em>{{ deg.name }}</em> </p></li>
-   <li> <b>Degree:</b> {{deg.degree }} </li>
-   {% if deg.present %}
-   <li> <b>Next position:</b>  {{ deg.present}} </li>
- {% endif %}
+    <ul class="list-inline">
+        {% for y in sorted %}
+            <li class="list-inline-item">
+                <a href="#{{y.name}}">
+                    {{y.name}}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 
- {% endfor %}
- </ul>
 
-</div>
+    <ul>
+        {% for y in sorted %}
+            <li>
+                <h4>
+                    <!-- <a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}"> -->
+                    {{y.name}}
+                    <!-- </a> -->
+                </h4>
 
-</li>
-<p><a href="#" class="pull-right">Top</a></p>
-<br>
-{% endfor %}
-</ul>
+                <div class="" id="{{y.name}}">
+                    <ul style="list-style-type:none">
+                        {% for deg in y.items %}
+                            <li>
+                                <p style="margin-top: 15px; margin-bottom: -3px">
+                                    <b>Name:</b>
+                                    <em>{{ deg.name }}</em>
+                                </p>
+                            </li>
+                            <li>
+                                <b>Degree:</b>
+                                {{deg.degree }}
+                            </li>
+                            {% if deg.present %}
+                                <li>
+                                    <b>Next position:</b>
+                                    {{ deg.present}}
+                                </li>
+                            {% endif %}
+
+                        {% endfor %}
+                    </ul>
+
+                </div>
+
+            </li>
+            <p>
+                <a class="pull-right" href="#">Top</a>
+            </p>
+            <br>
+        {% endfor %}
+    </ul>
 
 </div>

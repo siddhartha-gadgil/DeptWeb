@@ -2,45 +2,57 @@
 title: Postdocs
 ---
 <div class="col-md-12">
-  <h2>Postdocs</h2>
+    <h2>Postdocs</h2>
 
-  <h4>Alphabetically by last name</h4>
+    <h4>Alphabetically by last name</h4>
 
-  <p><b>To send email: <font face="Courier New" size="3">UserID[at]iisc.ac.in</font></b></p>
+    <p>
+        <b>To send email:
+            <font face="Courier New" size="3">UserID[at]iisc.ac.in</font>
+        </b>
+    </p>
 
-  <table class="table table-striped">
-    {% for stu in site.data.postdocs %}
-    <tr>
-      <td>
-        <div class="row">
-          <div class="col-md-10">
-            <div>
-              <h4>
-                {% if stu.webpage %}
-                <a href="{{ stu.webpage}}">{{ stu.name }} (Ph.D., {{ stu.phd}})</a>
-                {% else %}
-                {{ stu.name }} (Ph.D., {{ stu.phd}})
-                {% endif %}
-            </div>
-            <div>
-              <strong>Research Areas:</strong> {{stu.research-area}}
-            </div>
-            <div>
-              <strong>UserID:</strong> {{stu.user-id}}
-            </div>
-            <div>
-              <strong>Fellowship:</strong> {{stu.position}}
-            </div>
-          </div>
-          <div class="col-md-2">
-            {% if stu.image %}
-            <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg">
-            {% endif %}
-          </div>
-        </div>
-      </td>
-    </tr>
-    {%  endfor %}
-  </table>
+    <table class="table table-striped">
+        {% for stu in site.data.postdocs %}
+            <tr>
+                <td>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div>
+                                <h4>
+                                    {% if stu.webpage %}
+                                        <a href="{{ stu.webpage}}">{{ stu.name }}
+                                            (Ph.D.,
+                                            {{ stu.phd}})</a>
+                                    {% else %}
+                                        {{ stu.name }}
+                                        (Ph.D.,
+                                        {{ stu.phd}})
+                                    {% endif %}
+                                </div>
+                                <div>
+                                    <strong>Research Areas:</strong>
+                                    {{stu.research-area}}
+                                </div>
+                                <div>
+                                    <strong>UserID:</strong>
+                                    {{stu.user-id}}
+                                </div>
+                                <div>
+                                    <strong>Fellowship:</strong>
+                                    {{stu.position}}
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                {% if stu.image %}
+                                    <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg">
+                                {% endif %}
+                            </div>
+                        </div>
+                    </td>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
 
 </div>
