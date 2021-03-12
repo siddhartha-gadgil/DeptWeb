@@ -1,0 +1,571 @@
+- name: "Raju K. George"
+  phdloc : Hyderabad
+  startdate : '1991'
+  enddate : '1994'
+- name : D. Palaniappan
+  present : 
+  position : NBHM
+  phdloc : 
+  startdate : '1991'
+  enddate : '1994'
+- name : S. Sundar
+  present : 
+  position : IISc RA
+  phdloc : IITB
+  startdate : '1991'
+  enddate : '1994'
+- name : Raju K. George
+  present : 
+  position : NBHM
+  phdloc : Bombay
+  startdate : '1992'
+  enddate : '1994'
+- name : G. Sethuraman
+  present : 
+  position : NBHM
+  phdloc : 
+  startdate : '1993'
+  enddate : '1995'
+- name : M. P. Joy
+  present : 
+  position : NBHM
+  phdloc : NBU
+  startdate : '1994'
+  enddate : '1995'
+- name : S. C. Mandal
+  present : 
+  position : JNCASR
+  phdloc : Cambridge
+  startdate : '1996'
+  enddate : '1998'
+- name : Geetha P. Ramaswami
+  present : 
+  position : NBHM
+  phdloc : ISI
+  startdate : '1996'
+  enddate : '1998'
+- name : A. K. Vijayarajan
+  present : 
+  position : NBHM
+  phdloc : CUSAT
+  startdate : '1998'
+  enddate : '1999'
+- name : P. V. Ushakumari
+  present : 
+  position : 
+  phdloc : Chennai
+  startdate : '2000'
+  enddate : '2002'
+- name : M. Rajesh
+  present : 
+  position : NBHM
+  phdloc : Geneva
+  startdate : '2001'
+  enddate : '2002'
+- name : Philippe Pitteloud
+  present : 
+  position : IISc RA
+  phdloc : Behrampur univ.
+  startdate : '2002'
+  enddate : '2004'
+- name : Saroj Panigrahi
+  present : 
+  position : NBHM
+  phdloc : Oxford (D. Phil.)
+  startdate : '2005'
+  enddate : '2006'
+- name : Sachi Srivastava
+  present : Delhi University
+  position : IISc RA
+  phdloc : Pune
+  startdate : '2005'
+  enddate : '2006'
+- name : Anuradha Narasimhan
+  present : 
+  position : IMI
+  phdloc : Paris
+  startdate : '2004'
+  enddate : '2007'
+- name : D. Narayana
+  present : 
+  position : NBHM
+  phdloc : IIT KGP
+  startdate : '2005'
+  enddate : '2007'
+- name : Karabi Sikdar
+  present : BMS Institute of Technology and Management Bangalore
+  position : NBHM
+  phdloc : Manchester
+  startdate : '2006'
+  enddate : '2007'
+- name : Shrihari Sridharan
+  present : IISER Thiruvananthapuram
+  position : IMI
+  phdloc : Bharathidasan
+  startdate : '2007'
+  enddate : '2007'
+- name : P. Palaniyandi
+  present : Bharathidasan University Tiruchirapalli
+  position : DRDO
+  phdloc : ISI
+  startdate : '2004'
+  enddate : '2008'
+- name : Anita Naolekar
+  present : ISI Bangalore
+  position : NBHM
+  phdloc : IITK
+  startdate : '2005'
+  enddate : '2008'
+- name : V. V. K. Srinivas Kumar
+  present : IIT Delhi
+  position : DST
+  phdloc : IITK
+  startdate : '2006'
+  enddate : '2008'
+- name : Muslim Malik
+  present : IIT Mandi
+  position : NBHM
+  phdloc : Madras
+  startdate : '2007'
+  enddate : '2008'
+- name : T. Muthukumar
+  present : IIT Kanpur
+  position : NBHM
+  phdloc : Caltech
+  startdate : '2007'
+  enddate : '2008'
+- name : Tejaswi Navilarekallu
+  present : 
+  position : CPDF
+  phdloc : Pune
+  startdate : '2009'
+  enddate : '2009'
+- name : Ranja Sarkar
+  present : 
+  position : DST
+  phdloc : IITG
+  startdate : '2007'
+  enddate : '2010'
+- name : Subash Chandra Martha
+  present : IIT Ropar
+  position : NBHM
+  phdloc : ISI
+  startdate : '2009'
+  enddate : '2010'
+- name : Sanjoy Pusti
+  present : IIT Kanpur/IIT Bombay
+  position : UGC
+  phdloc : York Canada
+  startdate : '2009'
+  enddate : '2010'
+- name : Aparajita Dasgupta
+  present : IIT Delhi
+  position : DST
+  phdloc : IITM
+  startdate : '2009'
+  enddate : '2010'
+- name : Sudheesh
+  present : IIST Thiruvananthapuram
+  position : IISc RA
+  phdloc : Cornell
+  startdate : '2010'
+  enddate : '2010'
+- name : Arijit Chakrabarty 
+  present : ISI Kolkata
+  position : CPDF
+  phdloc : IITM
+  startdate : '2010'
+  enddate : '2012'
+- name : Manoj K Yadav
+  present : Mahindra University Hyderabad
+  position : NBHM
+  phdloc : IITK
+  startdate : '2011'
+  enddate : '2012'
+- name : Rajesh Srivastava
+  present : IIT Guwahati
+  position : Kothari
+  phdloc : IITM
+  startdate : '2011'
+  enddate : '2012'
+- name : Venku Naidu
+  present : IIT Hyderabad
+  position : Kothari
+  phdloc : TIFR
+  startdate : '2011'
+  enddate : '2012'
+- name : Sameer Kamal
+  present : IIT Guwahati
+  position : NBHM
+  phdloc : UC Berkeley
+  startdate : '2011'
+  enddate : '2012'
+- name : David Michael Farris
+  present : NCBS/Indian Foundatiion of Arts
+  position : IISc RA
+  phdloc : IMSc
+  startdate : '2011'
+  enddate : '2012'
+- name : Anoop T. V.
+  present : IIT Madras
+  position : Kothari
+  phdloc : ISI
+  startdate : '2012'
+  enddate : '2012'
+- name : Soumen Sarkar
+  present : IIT Madras
+  position : CPDF
+  phdloc : IITK
+  startdate : '2010'
+  enddate : '2013'
+- name : Ashisha Kumar
+  present : IIT Indore
+  position : DST
+  phdloc : Calicut
+  startdate : '2010'
+  enddate : '2013'
+- name : K. Nidhin
+  present : 
+  position : Kothari
+  phdloc : 
+  startdate : '2011'
+  enddate : '2013'
+- name : H. S. Gupta
+  present : 
+  position : NBHM
+  phdloc : Grenoble
+  startdate : '2012'
+  enddate : '2013'
+- name : Thomas Richard 
+  present : Université Paris-Est Créteil
+  position : IISc RA
+  phdloc : TIFR
+  startdate : '2011'
+  enddate : '2014'
+- name : R. Dhanya 
+  present : IISER Thiruvananthapuram
+  position : NBHM
+  phdloc : CUNY
+  startdate : '2012'
+  enddate : '2014'
+- name : Micah Miller
+  present : Texas State University
+  position : CPDF
+  phdloc : Madras
+  startdate : '2012'
+  enddate : '2015'
+- name : R. Lakshmi Lavanya
+  present : IISER Tirupati
+  position : NBHM
+  phdloc : Cochin
+  startdate : '2014'
+  enddate : '2015'
+- name : R. Manikandan
+  present : Central University Kerala Kasargod
+  position : Kothari
+  phdloc : HRI
+  startdate : '2013'
+  enddate : '2016'
+- name : V. K. Sohani
+  present : IIT Indore
+  position : NBHM
+  phdloc : JNU
+  startdate : '2014'
+  enddate : '2017'
+- name : K. Manchanda
+  present : Azim Premji university Bangalore
+  position : Kothari
+  phdloc : IITK
+  startdate : '2015'
+  enddate : '2017'
+- name : Sumit Mohanty
+  present : IISER Tiruvananthapuram
+  position : 
+  phdloc : ISI
+  startdate : '2016'
+  enddate : '2017'
+- name : Qaiser Jahan
+  present : IIT Mandi
+  position : 
+  phdloc : IITM
+  startdate : '2017'
+  enddate : '2018'
+- name : Tanmay Sarkar
+  present : IIT Jammu
+  position : 
+  phdloc : IITB
+  startdate : '2018'
+  enddate : '2018'
+- name : Kuldeep Kumar Kataria
+  present : IIT Bhilai
+  position : 
+  phdloc : IITP
+  startdate : '2015'
+  enddate : '2019'
+- name : Dipendu Maity
+  present : IIIT Guwahati
+  position : Kothari/NBHM
+  phdloc : IITB
+  startdate : '2016'
+  enddate : '2020'
+- name : Asha Kisan Dond
+  present : IISER Thiruvananthapuram
+  position : NBHM
+  phdloc : University of Delhi
+  startdate : '2017'
+  enddate : '2020'
+- name : Gopal Datt
+  present : 
+  position : Kothari/SJF/NPDF
+  phdloc : Bharathidasan university
+  startdate : '2017'
+  enddate : '2020'
+- name : Vishnu Priya Nataraj 
+  present : 
+  position : Kothari
+  phdloc : Jadavpur
+  startdate : '2017'
+  enddate : '2020'
+- name : Debamalya Sain
+  present : 
+  position : Kothari
+  phdloc : Guru Gobind Indraprastha university
+  startdate : '2017'
+  enddate : '2020'
+- name : Abhitosh Upadhyay
+  present : IIT Goa
+  position : NPDF
+  phdloc : IITG
+  startdate : '2019'
+  enddate : '2020'
+- name : Anirudha Poria
+  present : 
+  position : Kothari
+  phdloc : IITG
+  startdate : '2019'
+  enddate : '2020'
+- name : Tamal Pramanick 
+  present : 
+  position : NBHM
+  phdloc : NISER
+  startdate : '2019'
+  enddate : '2020'
+- name : Bikramaditya Sahu
+  present : 
+  position : NBHM
+  phdloc : HRI
+  startdate : '2019'
+  enddate : '2020'
+- name : Sneh Bala Sinha
+  present : 
+  position : NBHM
+  phdloc : HRI
+  startdate : '2020'
+  enddate : '2020'
+- name : Ramesh Manna
+  present : 
+  position : Kothari/DST INSPIRE FACULTY
+  phdloc : Pune
+  startdate : '1997'
+  enddate : ''
+- name : K. Kolwankar
+  present : 
+  position : DST
+  phdloc : IITB
+  startdate : '2003'
+  enddate : ''
+- name : N. Gnaneshwaran
+  present : 
+  position : NBHM
+  phdloc : Univ. of California
+  startdate : '2003'
+  enddate : ''
+- name : Sara Mohanty
+  present : 
+  position : NBHM
+  phdloc : IITB
+  startdate : '2004'
+  enddate : ''
+- name : P. Danunjaya
+  present : 
+  position : 
+  phdloc : Notre Dame
+  startdate : '2004'
+  enddate : ''
+- name : Deepak Sridhara
+  present : 
+  position : IMI
+  phdloc : IITB
+  startdate : '2009'
+  enddate : ''
+- name : Hemangi Shah
+  present : HRI Allahabad
+  position : CPDF
+  phdloc : IITM
+  startdate : '2010'
+  enddate : ''
+- name : Bappaditya Bhowmik
+  present : IIT Kharagpur
+  position : Kothari
+  phdloc :    IITB
+  startdate : '2014'
+  enddate : ''
+- name : Chandan Pal
+  present : IIT Guwahati
+  position : Kothari
+  phdloc : MNNIT
+  startdate : '2017'
+  enddate : ''
+- name : Mamta Balodi
+  present : 
+  position : IISc Raman PDF
+  phdloc : Visva-Bharati University
+  startdate : '2018'
+  enddate : ''
+- name : Sudip Bera
+  present : 
+  position : NBHM/DST
+  phdloc : IITM
+  startdate : '2018'
+  enddate : ''
+- name : Projesh Nath Choudhury
+  present : 
+  position : NBHM
+  phdloc : University of Leipzig
+  startdate : '2018'
+  enddate : ''
+- name : Arun Maiti 
+  present : 
+  position : NBHM
+  phdloc : IITB
+  startdate : '2018'
+  enddate : ''
+- name : Gouranga Mallik
+  present : 
+  position : NBHM
+  phdloc : IITR
+  startdate : '2019'
+  enddate : ''
+- name : Kiran Kumar Behera
+  present : 
+  position : Kothari
+  phdloc : IITG
+  startdate : '2019'
+  enddate : ''
+- name : Deb Kumar Giri
+  present : 
+  position : NBHM
+  phdloc : IITI
+  startdate : '2019'
+  enddate : ''
+- name : Anupam Gumber
+  present : 
+  position : NBHM
+  phdloc : HRI
+  startdate : '2019'
+  enddate : ''
+- name : Sumana Hatui 
+  present : 
+  position : NBHM
+  phdloc : IITK
+  startdate : '2019'
+  enddate : ''
+- name : Divya Khurana
+  present : 
+  position : Kothari
+  phdloc : ISI
+  startdate : '2019-2020'
+  enddate : ''
+- name : Srijan Sarkar
+  present : 
+  position : NBHM
+  phdloc : IMSc
+  startdate : ''
+  enddate : ''
+- name : G. Arunkumar
+  present : 
+  position : NBHM
+  phdloc : University of Ferrera
+  startdate : ''
+  enddate : ''
+- name : Gianluca Faraco
+  present : 
+  position : IISc Raman PDF
+  phdloc : University of Wisconsin Madison
+  startdate : ''
+  enddate : ''
+- name : Chandan Biswas
+  present : 
+  position : IISc Raman PDF
+  phdloc : University of Duisburg-Essen Germany
+  startdate : ''
+  enddate : ''
+- name : Mihir Sheth
+  present : 
+  position : IISc Raman PDF
+  phdloc : NISER
+  startdate : ''
+  enddate : ''
+- name : Anoop V. P. 
+  present : 
+  position : NPDF
+  phdloc : IITK
+  startdate : ''
+  enddate : ''
+- name : Rajesh Kumar Singh
+  present : 
+  position : NBHM
+  phdloc : 
+  startdate : ''
+  enddate : ''
+- name : Sushma Palimar
+  present : 
+  position : DST WOSA
+  phdloc : ISI
+  startdate : ''
+  enddate : ''
+- name : Vijaya Kumar U
+  present : 
+  position : IOE
+  phdloc : IITH
+  startdate : ''
+  enddate : ''
+- name : Geetika Sebastian
+  present : 
+  position : Kothari
+  phdloc : Visva-Bharati University
+  startdate : ''
+  enddate : ''
+- name : Sajal Kumar Mukherjee 
+  present : 
+  position : NBHM
+  phdloc : IITB
+  startdate : ''
+  enddate : ''
+- name : Samrith Ram
+  present : IIIT Delhi
+  position : 
+  phdloc : NISER
+  startdate : ''
+  enddate : ''
+- name : Abhash Kumar Jha
+  present : IIT BHU
+  position : 
+  phdloc : 
+  startdate : ''
+  enddate : ''
+- name : Anuradha Jha
+  present : IIIT Guwahati
+  position : 
+  phdloc : 
+  startdate : ''
+  enddate : ''
+- name : A. Sathish Kumar
+  present : 
+  position : 
+  phdloc : 
+  startdate : ''
+  enddate : ''
+- name : K.Kalaivani
+  present : 
+  position : 

@@ -6,13 +6,13 @@ title: Former Postdocs and Inspire faculty
 
   {% assign alumni = site.data.postdoc-alumni %}
 
-
-
-  <ul>
+    <ul style="list-style-type:none">
     {% for y in alumni %}
-    <li>
-      {{ y.name }} {% if y.position %}(<strong>Next position:</strong> {{ y.position }}){% endif %}
-    {% endfor %}</li>
-  </ul>
+      <li><p style="margin-top: 15px; margin-bottom: -3px"><strong>Name:</strong> <em>{{ y.name }}</em></p></li>
+      {% if y.position %}<li><strong>Present position:</strong> {{ y.position }}</li>{% endif %}    
+      {% endfor %}
+    </ul>
+    
+
 
 </div>
