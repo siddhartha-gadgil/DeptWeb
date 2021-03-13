@@ -8,11 +8,13 @@ title: Former Postdocs and Inspire faculty
 
     <ul style="list-style-type:none">
     {% for y in alumni %}
-      <li><p style="margin-top: 15px; margin-bottom: -3px"><strong>Name:</strong> <em>{{ y.name }}</em></p></li>
-      {% if y.position %}<li><strong>Postdoc position:</strong> {{ y.position }}</li>{% endif %}    
-      {% if y.start %}<li><strong>Start date:</strong> {{ y.start }}</li>{% endif %}
-      {% if y.end %}<li><strong>End date:</strong> {{ y.end }}</li>{% endif %}
-      {% if y.present %}<li><strong>Present position:</strong> {{ y.present }}</li>{% endif %}
+      <li><p style="margin-top: 15px; margin-bottom: -3px"><strong>Name:</strong> <em>{{ y.name }}</em>
+        (Ph.D.{% if y.phd %}, {{ y.phd }}{% endif %})</p></li>
+      {% if y.area %}<li><strong>Research area:</strong> {{ y.area }}</li>{% endif %}
+      {% if y.position %}<li><strong>Position at IISc:</strong> {{ y.position }}</li>{% endif %}   
+      {% if y.present %}<li><strong>Current/next position:</strong> {{ y.present }}</li>{% endif %} 
+      {% if y.start %}<li><strong>Start date (at IISc):</strong> {{ y.start }}</li>{% endif %}
+      {% if y.end %}<li><strong>End date (at IISc):</strong> {{ y.end }}</li>{% endif %}
       {% endfor %}
     </ul>
     

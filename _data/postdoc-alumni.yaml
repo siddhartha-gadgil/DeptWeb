@@ -1,122 +1,10 @@
-- name: "G. Arunkumar"  
-  position: "NBHM"  
-  phd: "IMSc"  
-  area: "Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory"  
-  start: 
-  end: 
-  present: 
-
-- name: "Gianluca Faraco"  
-  position: "IISc Raman PDF"  
-  phd: "University of Ferrera"  
-  area: "Low dimensional Geometry"  
-  start: 
-  end: 
-  present: 
-
-- name: "Chandan Biswas"  
-  position: "IISc Raman PDF"  
-  phd: "University of Wisconsin, Madison"  
-  area: "Harmonic Analysis"  
-  start: 
-  end: 
-  present: 
-
-- name: "Mihir Sheth"  
-  position: "IISc Raman PDF"  
-  phd: "University of Duisburg-Essen, Germany"  
-  area: "Number theory, Representation theory"  
-  start: 
-  end: 
-  present: 
-
-- name: "Anoop V. P. "  
-  position: "NPDF"  
-  phd: "NISER"  
-  area: "Harmonic Analysis"  
-  start: 
-  end: 
-  present: 
-
-- name: "Rajesh Kumar Singh"  
-  position: "NBHM"  
-  phd: "IITK"  
-  area: "Harmonic Analysis"  
-  start: 
-  end: 
-  present: 
-
-- name: "Sushma Palimar"  
-  position: "DST WOSA"  
-  phd: 
-  area: 
-  start: 
-  end: 
-  present: 
-
-- name: "Vijaya Kumar U"  
-  position: "IOE"  
-  phd: "ISI"  
-  area: "Operator Theory, Operator Algebras, Quantum Probability"  
-  start: 
-  end: 
-  present: 
-
-- name: "Geetika Sebastian"  
-  position: "Kothari"  
-  phd: "IITH"  
-  area: "Functional analysis"  
-  start: 
-  end: 
-  present: 
-
-- name: "Sajal Kumar Mukherjee "  
-  position: "NBHM"  
-  phd: "Visva-Bharati University"  
-  area: "Combinatorics"  
-  start: 
-  end: 
-  present: 
-
-- name: "Mamta Balodi"  
-  position: "IISc Raman PDF"  
-  phd: "MNNIT"  
-  area: "Quantum Algebra"  
-  start: "2017"  
-  end: 
-  present: 
-
-- name: "Kiran Kumar Behera"  
-  position: "Kothari"  
-  phd: "IITR"  
-  area: "Operator theory"  
-  start: "2019"  
-  end: 
-  present: 
-
-- name: "Sudip Bera"  
-  position: "NBHM/DST"  
-  phd: "Visva-Bharati University"  
-  area: "Algebraic combinatorics"  
-  start: "2018"  
-  end: 
-  present: 
-
-- name: "Projesh Nath Choudhury"  
-  position: "NBHM"  
-  phd: "IITM"  
-  area: "Linear algebra (Combinatorial)"  
-  start: "2018"  
-  end: 
-  present: 
-
 - name: "Gopal Datt"  
   position: "Kothari/SJF/NPDF"  
   phd: "University of Delhi"  
   area: "Nevanlinna theory, Several complex variables"  
   start: "2017"  
   end: "2020"  
-  present: 
+  present: "Babasaheb Bhimrao Ambedkar University, Lucknow"  
 
 - name: "Asha Kisan Dond"  
   position: "NBHM"  
@@ -126,44 +14,12 @@
   end: "2020"  
   present: "IISER, Thiruvananthapuram"  
 
-- name: "Deb Kumar Giri"  
-  position: "NBHM"  
-  phd: "IITG"  
-  area: "Harmonic Analysis"  
-  start: "2019"  
-  end: 
-  present: 
-
-- name: "Anupam Gumber"  
-  position: "NBHM"  
-  phd: "IITI"  
-  area: "Harmonic Analysis, Approximation theory, Representation theory"  
-  start: "2019"  
-  end: 
-  present: 
-
-- name: "Sumana Hatui "  
-  position: "NBHM"  
-  phd: "HRI"  
-  area: "Group theoery, Schur multipliers"  
-  start: "2019"  
-  end: 
-  present: 
-
-- name: "Divya Khurana"  
-  position: "Kothari"  
-  phd: "IITK"  
-  area: "Geometry of Banach spaces, Greedy approximation algorithms"  
-  start: "2019"  
-  end: 
-  present: 
-
 - name: "Arun Maiti "  
   position: "NBHM"  
   phd: "University of Leipzig"  
   area: "String Topology, Symplectic Geometry"  
   start: "2018"  
-  end: 
+  end: "2020"
   present: 
 
 - name: "Dipendu Maity"  
@@ -173,22 +29,6 @@
   start: "2015"  
   end: "2019"  
   present: "IIIT, Guwahati"  
-
-- name: "Gouranga Mallik"  
-  position: "NBHM"  
-  phd: "IITB"  
-  area: "PDE, Finite element methods"  
-  start: "2018"  
-  end: 
-  present: 
-
-- name: "Ramesh Manna"  
-  position: "Kothari/DST INSPIRE FACULTY"  
-  phd: "HRI"  
-  area: "Harmonic Analysis"  
-  start: "2020"  
-  end: "2020"  
-  present: 
 
 - name: "Vishnu Priya Nataraj "  
   position: "Kothari"  
@@ -244,7 +84,7 @@
   area: "Applied Harmonic Analysis"  
   start: "2019"  
   end: "2020"  
-  present: 
+  present: "Bar-Ilan university, Israel?"  
 
 - name: "Tamal Pramanick "  
   position: "NBHM"  
@@ -252,7 +92,7 @@
   area: "Numerical analysis, PDE, FEM"  
   start: "2019"  
   end: "2020"  
-  present: 
+  present: "NIT, Calicut"  
 
 - name: "Bikramaditya Sahu"  
   position: "NBHM"  
@@ -260,31 +100,7 @@
   area: "Algebraic combinatorics, Finite geometry"  
   start: "2019"  
   end: "2020"  
-  present: 
-
-- name: "Debamalya Sain"  
-  position: "Kothari"  
-  phd: "Jadavpur"  
-  area: "Geometry of normed linear spacez"  
-  start: "2017"  
-  end: "2020"  
-  present: 
-
-- name: "Srijan Sarkar"  
-  position: "NBHM"  
-  phd: "ISI"  
-  area: "Multivariate operator theory"  
-  start: "2019-2020"  
-  end: 
-  present: 
-
-- name: "Sneh Bala Sinha"  
-  position: "NBHM"  
-  phd: "HRI"  
-  area: "Number Theory"  
-  start: "2019"  
-  end: "2020"  
-  present: 
+  present: "NIT, Rourkela"  
 
 - name: "Abhitosh Upadhyay"  
   position: "NPDF"  
@@ -334,7 +150,7 @@
   end: 
   present: 
 
-- name: "K.Kalaivani"  
+- name: "K. Kalaivani"  
   position: 
   phd: 
   area: 
