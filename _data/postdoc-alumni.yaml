@@ -12,14 +12,14 @@
   area: "Partial Differential Equations"  
   start: "2016"  
   end: "2020"  
-  present: "IISER, Thiruvananthapuram"  
+  present: "GITAM Visakhatam /IISER, Thiruvananthapuram"  
 
 - name: "Arun Maiti "  
   position: "NBHM"  
   phd: "University of Leipzig"  
   area: "String Topology, Symplectic Geometry"  
   start: "2018"  
-  end: "2020"
+  end: "2020"  
   present: 
 
 - name: "Dipendu Maity"  
@@ -196,7 +196,7 @@
   area: "Topology"  
   start: "2012"  
   end: "2012"  
-  present: "IIT, Madras"  
+  present: "KAIST, Korea/IIT Madras"  
 
 - name: "Venku Naidu"  
   position: "Kothari"  
@@ -524,7 +524,7 @@
   area: "Index theory of von Neumann algebras"  
   start: "1996"  
   end: "1998"  
-  present: 
+  present: "Kerala School of Mathematics, Kazhikode"  
 
 - name: "S. C. Mandal"  
   position: "JNCASR"  
@@ -564,7 +564,7 @@
   area: "Partial Differential Equations, CFD"  
   start: "1991"  
   end: "1994"  
-  present: 
+  present: " IIT Madras"  
 
 - name: "Raju K. George"  
   position: "NBHM"  
@@ -572,5 +572,5 @@
   area: "Nonlinear functional analysis, Control system theory"  
   start: "1991"  
   end: "1994"  
-  present: 
+  present: "IIST, Trivandam"  
 
