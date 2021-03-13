@@ -54,7 +54,7 @@
   end: "2020"  
   present: "IISER, Thiruvananthapuram"  
 
-- name: "Arun Maiti "  
+- name: "Arun Maiti"  
   position: "NBHM"  
   phd: "University of Leipzig"  
   area: "String Topology, Symplectic Geometry"  
@@ -70,7 +70,7 @@
   end: "2019"  
   present: "IIIT, Guwahati"  
 
-- name: "Vishnu Priya Nataraj "  
+- name: "Vishnu Priya Nataraj"  
   position: "Kothari"  
   phd: "Bharathidasan university"  
   area: "Nonlinear integrable systems, Solitons"  
@@ -126,7 +126,7 @@
   end: "2020"  
   present: "Bar-Ilan university, Israel?"  
 
-- name: "Tamal Pramanick "  
+- name: "Tamal Pramanick"  
   position: "NBHM"  
   phd: "IITG"  
   area: "Numerical analysis, PDE, FEM"  
@@ -200,8 +200,8 @@
 
 - name: "Chandan Pal"  
   position: "Kothari"  
-  phd: "   IITB"  
-  area: "  Stochastic Analysis"  
+  phd: "IITB"  
+  area: "Stochastic Analysis"  
   start: "2014"  
   end: 
   present: "IIT, Guwahati"  
@@ -214,10 +214,10 @@
   end: "2015"  
   present: "Central University Kerala, Kasargod"  
 
-- name: "Thomas Richard "  
+- name: "Thomas Richard"  
   position: "IISc RA"  
   phd: "Grenoble"  
-  area: "Differential Geometry "  
+  area: "Differential Geometry"  
   start: "2012"  
   end: "2013"  
   present: "Université Paris-Est Créteil"  
@@ -286,7 +286,7 @@
   end: "2013"  
   present: 
 
-- name: "R. Dhanya "  
+- name: "R. Dhanya"  
   position: "NBHM"  
   phd: "TIFR"  
   area: "Partial Differential Equations"  
@@ -326,7 +326,7 @@
   end: "2013"  
   present: 
 
-- name: "Arijit Chakrabarty "  
+- name: "Arijit Chakrabarty"  
   position: "CPDF"  
   phd: "Cornell"  
   area: "Probability"  
@@ -345,7 +345,7 @@
 - name: "Hemangi Shah"  
   position: "CPDF"  
   phd: "IITB"  
-  area: "Differential Geometry "  
+  area: "Differential Geometry"  
   start: "2009"  
   end: 
   present: "HRI, Allahabad"  
@@ -604,7 +604,7 @@
   area: "Partial Differential Equations, CFD"  
   start: "1991"  
   end: "1994"  
-  present: " IIT Madras"  
+  present: "IIT Madras"  
 
 - name: "Raju K. George"  
   position: "NBHM"  
