@@ -1,3 +1,43 @@
+- name: "Koushik Saha"  
+  position: "INSPIRE Faculty"  
+  phd: "ISI"  
+  area: "Probability"  
+  start: "2012"  
+  end: "2014 "  
+  present: "IIT, Bombay"  
+
+- name: "Mousumi Mondal"  
+  position: "INSPIRE Faculty"  
+  phd: "IITB"  
+  area: "Commutative Algebra"  
+  start: "2013"  
+  end: 
+  present: "IIT Kharagpur"  
+
+- name: "Umesh V. Dubey"  
+  position: "INSPIRE Faculty"  
+  phd: "IMSc"  
+  area: "Algebraic geometry"  
+  start: "2013"  
+  end: 
+  present: "HRI, Allahabad"  
+
+- name: "Jaban Meher"  
+  position: "INSPIRE Faculty"  
+  phd: "HRI"  
+  area: "Number Theory"  
+  start: "2013"  
+  end: "2015"  
+  present: "NISER, Bhubaneshwar"  
+
+- name: "Esha Chatterjee Ghosh"  
+  position: "DST Young scientist"  
+  phd: "Rhode Island"  
+  area: "Nonlinear Difference Equations"  
+  start: "2011"  
+  end: 
+  present: 
+
 - name: "Gopal Datt"  
   position: "Kothari/SJF/NPDF"  
   phd: "University of Delhi"  
@@ -12,7 +52,7 @@
   area: "Partial Differential Equations"  
   start: "2016"  
   end: "2020"  
-  present: "GITAM Visakhatam /IISER, Thiruvananthapuram"  
+  present: "IISER, Thiruvananthapuram"  
 
 - name: "Arun Maiti "  
   position: "NBHM"  
@@ -140,7 +180,7 @@
   area: "Analysis on Graphs, Spectral Graph Theory"  
   start: "2015"  
   end: "2017"  
-  present: "IISER, Tiruvananthapuram"  
+  present: "GITAM Visakhatam /IISER, Thiruvananthapuram"  
 
 - name: "A. Sathish Kumar"  
   position: 
