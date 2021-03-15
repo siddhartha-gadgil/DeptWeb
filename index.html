@@ -37,7 +37,29 @@
     <div class="col-md-12">
       <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a> </h3>
       <ul class="post-list">
-        {% assign futposts = site.posts | sort: 'date' %}
+        {% assign futposts = site.posts | sort: 'date' | reverse %}
+        {% assign postcounter = 0 %}
+
+        {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}
+        {% assign postcounter=postcounter | plus: 1 %}
+        {% if postcounter <= 3 %}
+        <li>
+          {% if post.redirect %}
+          <h4>
+            <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
+          </h4>
+          {% else %}
+          <h4>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h4>
+          <p> {{ post.content | truncate: 200 }}</p>
+          {% endif %}
+        </li>
+        {% endif %}{% endfor %}
+      </ul>
+    <h3 class="text-center"><a href="{{ site.baseurl}}/events.html">Events</a> </h3>
+      <ul class="post-list">
+        {% assign futposts = site.events | sort: 'date' %}
         {% assign postcounter = 0 %}
 
         {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}{% if postDate >= curDate %}
@@ -58,10 +80,30 @@
         {% endif %}
         {% endif %}{% endfor %}
       </ul>
+    <h3 class="text-center"><a href="{{ site.baseurl}}/announcements.html">Announcements</a> </h3>
+      <ul class="post-list">
+        {% assign futposts = site.announcements | sort: 'date' | reverse %}
+        {% assign postcounter = 0 %}
+
+        {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}
+        {% assign postcounter=postcounter | plus: 1 %}
+        {% if postcounter <= 3 %}
+        <li>
+          {% if post.redirect %}
+          <h4>
+            <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
+          </h4>
+          {% else %}
+          <h4>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h4>
+          <p> {{ post.content | truncate: 200 }}</p>
+          {% endif %}
+        </li>
+        {% endif %}{% endfor %}
+      </ul>
     </div>
-
   </div>
-
   <div class="col-md-4">
     <h3 class="text-center"> <a href="seminars-all.html">Seminars</a></h3>
 
