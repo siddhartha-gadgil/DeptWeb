@@ -40,7 +40,8 @@
         {% assign futposts = site.posts | sort: 'date' | reverse %}
         {% assign postcounter = 0 %}
 
-        {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}
+        {% for post in futposts %}{% assign expireDate = post.expire | date: '%s' | plus: 604800 %}
+        {% if post.expire == nil or expireDate >= curDate %}
         {% assign postcounter=postcounter | plus: 1 %}
         {% if postcounter <= 3 %} <li>
           {% if post.redirect %}
@@ -54,7 +55,7 @@
           <p> {{ post.content | truncate: 200 }}</p>
           {% endif %}
           </li>
-          {% endif %}{% endfor %}
+          {% endif %}{% endif %}{% endfor %}
       </ul>
       <h3 class="text-center"><a href="{{ site.baseurl}}/events.html">Events</a> </h3>
       <ul class="post-list">
