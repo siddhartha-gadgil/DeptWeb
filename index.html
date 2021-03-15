@@ -42,8 +42,7 @@
 
         {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}
         {% assign postcounter=postcounter | plus: 1 %}
-        {% if postcounter <= 3 %}
-        <li>
+        {% if postcounter <= 3 %} <li>
           {% if post.redirect %}
           <h4>
             <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
@@ -54,18 +53,18 @@
           </h4>
           <p> {{ post.content | truncate: 200 }}</p>
           {% endif %}
-        </li>
-        {% endif %}{% endfor %}
+          </li>
+          {% endif %}{% endfor %}
       </ul>
-    <h3 class="text-center"><a href="{{ site.baseurl}}/events.html">Events</a> </h3>
+      <h3 class="text-center"><a href="{{ site.baseurl}}/events.html">Events</a> </h3>
       <ul class="post-list">
         {% assign futposts = site.events | sort: 'date' %}
         {% assign postcounter = 0 %}
 
-        {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}{% if postDate >= curDate %}
+        {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}{% if postDate >= curDate
+        %}
         {% assign postcounter=postcounter | plus: 1 %}
-        {% if postcounter <= 3 %}
-        <li>
+        {% if postcounter <= 3 %} <li>
           {% if post.redirect %}
           <h4>
             <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
@@ -76,19 +75,19 @@
           </h4>
           <p> {{ post.content | truncate: 200 }}</p>
           {% endif %}
-        </li>
-        {% endif %}
-        {% endif %}{% endfor %}
+          </li>
+          {% endif %}
+          {% endif %}{% endfor %}
       </ul>
-    <h3 class="text-center"><a href="{{ site.baseurl}}/announcements.html">Announcements</a> </h3>
+      <h3 class="text-center"><a href="{{ site.baseurl}}/announcements.html">Announcements</a> </h3>
       <ul class="post-list">
         {% assign futposts = site.announcements | sort: 'date' | reverse %}
         {% assign postcounter = 0 %}
 
-        {% for post in futposts %}{% assign postDate = post.date | date: '%s' | plus: 604800 %}
+        {% for post in futposts %}{% assign expireDate = post.expire | date: '%s' | plus: 604800 %}
+        {% if post.expire == nil or expireDate >= curDate %} 
         {% assign postcounter=postcounter | plus: 1 %}
-        {% if postcounter <= 3 %}
-        <li>
+        {% if postcounter <= 3 %} <li>
           {% if post.redirect %}
           <h4>
             <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
@@ -99,8 +98,9 @@
           </h4>
           <p> {{ post.content | truncate: 200 }}</p>
           {% endif %}
-        </li>
-        {% endif %}{% endfor %}
+          </li>
+          {% endif %}
+          {% endif %}{% endfor %}
       </ul>
     </div>
   </div>
@@ -108,15 +108,18 @@
     <h3 class="text-center"> <a href="seminars-all.html">Seminars</a></h3>
 
     <ul>
-      {% assign sorted = site.seminars | sort: 'date' | reverse %}{% assign chron = site.seminars | sort: 'date' %}{% assign counter = 0 %}{% for sem in chron %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% if semDate >= curDate %}
+      {% assign sorted = site.seminars | sort: 'date' | reverse %}{% assign chron = site.seminars | sort: 'date' %}{%
+      assign counter = 0 %}{% for sem in chron %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% if semDate >=
+      curDate %}
       {% assign counter=counter | plus: 1 %}
       <li>
         <div><strong> Title: </strong>
-          {% if sem.series %}<a
-            href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}"
+          {% if sem.series %}<a href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: " %Y-%m-%d" }}{% else
+            %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}"
             class="{{ sem.series | slugify }}">{{ sem.series-prefix }} {{sem.series}}{% if sem.series-suffix %}
             {{sem.series-suffix}}{% endif %}: </a>{% endif %}
-          <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+          <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a>
+        </div>
         <div> <strong>Speaker: </strong> {{sem.speaker}} </div>
         <div> <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
         <div class=""> <strong>Time: </strong>
@@ -140,13 +143,15 @@
       <h4 class="text-center">Past Seminars</h4>
       {% endif %}
 
-      {% for sem in sorted limit: 4 %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% unless semDate >= curDate %}
+      {% for sem in sorted limit: 4 %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% unless semDate >= curDate
+      %}
       <li>
         <div><strong> Title: </strong>
-          {% if sem.series %}<a
-            href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}"
+          {% if sem.series %}<a href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: " %Y-%m-%d" }}{% else
+            %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}"
             class="{{ sem.series | slugify }}">{{sem.series}}: </a>{% endif %}
-          <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </div>
+          <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a>
+        </div>
         <div> <strong>Speaker: </strong> {{sem.speaker}} </div>
         <div> <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </div>
         <div class=""> <strong>Time: </strong>
