@@ -43,8 +43,6 @@ collections:
     permalink: /all-courses/:title
   events:
     output: true
-  announcements:
-    output: true
 
 exclude: ["sources/", "purged/", "out/", "tarball/", "docs/", ".metals/", ".ammonite/"]
 

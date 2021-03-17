@@ -35,7 +35,7 @@
     {% assign curDate = site.time | date: '%s' | minus: 86400 %}
 
     <div class="col-md-12">
-      <h3 class="text-center"><a href="{{ site.baseurl}}/events.html">Events</a> </h3>
+      <h3 class="text-center"><a href="{{ site.baseurl}}/events.html">Current and Upcoming Events</a> </h3>
       <ul class="post-list">
         {% assign futposts = site.events | sort: 'date' %}
         {% assign postcounter = 0 %}
@@ -59,7 +59,7 @@
           {% endif %}{% endfor %}
       </ul>
 
-      <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News</a> </h3>
+      <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News & Announcements</a> </h3>
       <ul class="post-list">
         {% assign futposts = site.posts | sort: 'date' | reverse %}
         {% assign postcounter = 0 %}
@@ -76,33 +76,10 @@
           <h5>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
           </h5>
-          <p> {{ post.content | truncate: 200 }}</p>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>{{ post.content | truncate: 200 }}
           {% endif %}
           </li>
           {% endif %}{% endif %}{% endfor %}
-      </ul>
-      <h3 class="text-center"><a href="{{ site.baseurl}}/announcements.html">Announcements</a> </h3>
-      <ul class="post-list">
-        {% assign futposts = site.announcements | sort: 'date' | reverse %}
-        {% assign postcounter = 0 %}
-
-        {% for post in futposts %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
-        {% if post.expiry-date == nil or expiry-dateDate >= curDate %}
-        {% assign postcounter=postcounter | plus: 1 %}
-        {% if postcounter <= 3 %} <li>
-          {% if post.redirect %}
-          <h5>
-            <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
-          </h5>
-          {% else %}
-          <h5>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-          </h5>
-          <p> {{ post.content | truncate: 200 }}</p>
-          {% endif %}
-          </li>
-          {% endif %}
-          {% endif %}{% endfor %}
       </ul>
     </div>
   </div>
