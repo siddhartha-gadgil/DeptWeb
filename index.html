@@ -52,7 +52,7 @@
           <h5>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
           </h5>
-          <p> {{ post.content | truncate: 200 }}</p>
+          <p> {{ post.excerpt }}</p>
           {% endif %}
           </li>
           {% endif %}
@@ -76,7 +76,7 @@
           <h5>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
           </h5>
-          {{ post.content | truncate: 200 }}
+          {{ post.excerpt }}
           {% endif %}
           </li>
           {% endif %}{% endif %}{% endfor %}

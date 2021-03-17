@@ -20,7 +20,7 @@ title: News
         <h4>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h4>
-        <p> {{ post.content | truncatewords: 100 }}</p>
+        <p> {{ post.excerpt }}</p>
         {% endif %}
       </li>
     {% endfor %}
