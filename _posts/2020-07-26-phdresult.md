@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ph.D Research Program 2020.
+title: Selected candidates for Ph.D. Program 2020.
 date: 2020-07-26
 redirect: http://math.iisc.ac.in/phd2020result.html
 ---
