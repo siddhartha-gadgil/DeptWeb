@@ -1,4 +1,3 @@
-
 ---
 title: New Faculty Member
 date: Jul. 2, 2018 
