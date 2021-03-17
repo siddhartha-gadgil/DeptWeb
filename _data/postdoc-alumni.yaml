@@ -14,9 +14,17 @@
   end: "2020"  
   present: "IISER, Thiruvananthapuram"  
 
+- name: "Tathagata Banerjee"  
+  position: 
+  phd: "Georg-August Universität Göttingen, Germany"  
+  area: 
+  start: "2015"  
+  end: "2017"  
+  present: "ISI, Bangalore / CUSAT"  
+
 - name: "Arun Maiti"  
   position: "NBHM"  
-  phd: "University of Leipzig"  
+  phd: "University of Leipzig, Germany"  
   area: "String Topology, Symplectic Geometry"  
   start: "2018"  
   end: "2020"  
@@ -32,7 +40,7 @@
 
 - name: "Vishnu Priya Nataraj"  
   position: "Kothari"  
-  phd: "Bharathidasan university"  
+  phd: "Bharathidasan University"  
   area: "Nonlinear integrable systems, Solitons"  
   start: "2017"  
   end: "2020"  
@@ -104,7 +112,7 @@
 
 - name: "Abhitosh Upadhyay"  
   position: "NPDF"  
-  phd: "Guru Gobind Indraprastha university"  
+  phd: "Guru Gobind Indraprastha University"  
   area: "Semi-Riemannian geometry, Biconservative and Biharmonic submanifolds"  
   start: "2017"  
   end: "2020"  
@@ -118,13 +126,13 @@
   end: "2016"  
   present: "IIT, Indore"  
 
-- name: "K. Manchanda"  
+- name: "Kaustubh Manchanda"  
   position: "Kothari"  
   phd: "JNU"  
   area: "Combinatorics"  
   start: "2014"  
   end: "2017"  
-  present: "Azim Premji university, Bangalore"  
+  present: "Azim Premji University, Bangalore"  
 
 - name: "Anuradha Jha"  
   position: 
@@ -176,7 +184,7 @@
 
 - name: "Thomas Richard"  
   position: "IISc RA"  
-  phd: "Grenoble"  
+  phd: "Grenoble, France"  
   area: "Differential Geometry"  
   start: "2012"  
   end: "2013"  
@@ -208,7 +216,7 @@
 
 - name: "Micah Miller"  
   position: "CPDF"  
-  phd: "CUNY"  
+  phd: "CUNY, USA"  
   area: "Topology"  
   start: "2012"  
   end: "2014"  
@@ -232,7 +240,7 @@
 
 - name: "David Michael Farris"  
   position: "IISc RA"  
-  phd: "UC, Berkeley"  
+  phd: "University of California at Berkeley, USA"  
   area: "Topology"  
   start: "2011"  
   end: "2012"  
@@ -246,7 +254,7 @@
   end: "2013"  
   present: 
 
-- name: "R. Dhanya"  
+- name: "Dhanya Rajendran"  
   position: "NBHM"  
   phd: "TIFR"  
   area: "Partial Differential Equations"  
@@ -288,7 +296,7 @@
 
 - name: "Arijit Chakrabarty"  
   position: "CPDF"  
-  phd: "Cornell"  
+  phd: "Cornell, USA"  
   area: "Probability"  
   start: "2010"  
   end: "2010"  
@@ -360,7 +368,7 @@
 
 - name: "P. Palaniyandi"  
   position: "DRDO"  
-  phd: "Bharathidasan"  
+  phd: "Bharathidasan University"  
   area: "Nonlinear dynamics"  
   start: "2007"  
   end: "2007"  
@@ -368,7 +376,7 @@
 
 - name: "Tejaswi Navilarekallu"  
   position: "CPDF"  
-  phd: "Caltech"  
+  phd: "CalTech, USA"  
   area: "Number theory"  
   start: "2007"  
   end: "2008"  
@@ -400,7 +408,7 @@
 
 - name: "Sachi Srivastava"  
   position: "IISc RA"  
-  phd: "Oxford (D. Phil.)"  
+  phd: "Oxford (D. Phil.), UK"  
   area: "Functional Analysis"  
   start: "2005"  
   end: "2006"  
@@ -456,7 +464,7 @@
 
 - name: "Deepak Sridhara"  
   position: "IMI"  
-  phd: "Notre Dame"  
+  phd: "Notre Dame, USA"  
   area: "Coding theory"  
   start: "2004"  
   end: 
@@ -464,35 +472,35 @@
 
 - name: "Saroj Panigrahi"  
   position: "NBHM"  
-  phd: "Behrampur univ."  
+  phd: "Behrampur University"  
   area: "Difference/Differential Equations"  
   start: "2002"  
   end: "2004"  
-  present: 
+  present: "University of Hyderabad"  
 
 - name: "Sara Mohanty"  
   position: "NBHM"  
-  phd: "Univ. of California"  
+  phd: "University of California at Riverside"  
   area: "Topology"  
   start: "2003"  
   end: 
-  present: 
+  present: "East Los Angeles College"  
 
 - name: "Philippe Pitteloud"  
   position: "IISc RA"  
-  phd: "Geneva"  
+  phd: "Université de Genève, Switzerland"  
   area: "Number theory"  
   start: "2001"  
   end: "2002"  
   present: 
 
-- name: "M. Rajesh"  
+- name: "Rajesh Mahadevan"  
   position: "NBHM"  
   phd: "Chennai"  
   area: "Homogenization, PDE"  
   start: "2000"  
   end: "2002"  
-  present: 
+  present: "Universidad de Concepcion, Chile"  
 
 - name: "P. V. Ushakumari"  
   position: 
@@ -512,7 +520,7 @@
 
 - name: "Geetha P. Ramaswami"  
   position: "NBHM"  
-  phd: "Cambridge"  
+  phd: "Cambridge, UK"  
   area: "Numerical Analysis, ODE, Dynamical systems"  
   start: "1996"  
   end: "1998"  
@@ -524,7 +532,7 @@
   area: "Index theory of von Neumann algebras"  
   start: "1996"  
   end: "1998"  
-  present: "Kerala School of Mathematics, Kazhikode"  
+  present: "Kerala School of Mathematics, Kozhikode"  
 
 - name: "S. C. Mandal"  
   position: "JNCASR"  
@@ -564,7 +572,7 @@
   area: "Partial Differential Equations, CFD"  
   start: "1991"  
   end: "1994"  
-  present: "IIT Madras"  
+  present: "IIT, Madras"  
 
 - name: "Raju K. George"  
   position: "NBHM"  
@@ -572,5 +580,5 @@
   area: "Nonlinear functional analysis, Control system theory"  
   start: "1991"  
   end: "1994"  
-  present: "IIST, Trivandam"  
+  present: "IIST, Thiruvananthapuram"  
 
