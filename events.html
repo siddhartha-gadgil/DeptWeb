@@ -8,7 +8,8 @@ title: Events
   <h2 class="page-heading">Events</h2>
 
   <ul class="post-list">
-    {% for post in site.events %}
+    {% assign sorted = site.events | sort: 'date' | reverse %}
+    {% for post in sorted %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.redirect %}
