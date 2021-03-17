@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ph.D Research Program 2018.
+title: Selected candidates for Ph.D. Program 2018.
 date: 2018-05-31
 redirect: http://math.iisc.ac.in/phd2018result.html
 expiry-date: 2020-06-01

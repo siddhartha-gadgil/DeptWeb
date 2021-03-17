@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Selected candidates for Integrated Ph.D Program 2020.
+title: Selected candidates for Integrated Ph.D. Program 2020.
 date: 2020-07-27
 redirect: http://math.iisc.ac.in/intphd2020result.html
 ---

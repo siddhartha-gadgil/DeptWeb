@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Integrated Ph.D Program 2018.
+title: Selected candidates for Integrated Ph.D. Program 2018.
 date: 2018-06-01
 redirect: http://math.iisc.ac.in/intphd2018result.html
 ---
