@@ -13,13 +13,13 @@ title: Events
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.redirect %}
-          <h4>
+          <h5>
               <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
-            </h4>
+            </h5>
           {% else %}
-        <h4>
+        <h5>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h4>
+        </h5>
         <p> {{ post.excerpt }}</p>
         {% endif %}
       </li>
