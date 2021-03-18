@@ -119,7 +119,7 @@ Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is 
 
 \begin{equation}
 \begin{pmatrix}
-f( t u_1 v_1 ) & f( t u_1 v_2 ) \\
+f( t u_1 v_1 ) & f( t u_1 v_2 ) \\\\
 f( t u_2 v_1 ) & f( t u_2 v_2 )
 \end{pmatrix}.
 \end{equation}
