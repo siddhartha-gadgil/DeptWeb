@@ -115,7 +115,7 @@ __Title:__ ​ Entrywise functions and 2x2 matrices: from Schur (and his student
 student), to Schur
 
 __Abstract:__ Given a smooth function $f : \[0,1) \\to \\mathbb{R}$, and scalars $u_j$, $v_j$ in $(0,1)$, I will compute the
-Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is the 2x2 matrix
+Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is the $2 \times 2$ matrix
 
 `\begin{equation}
 \begin{pmatrix}
