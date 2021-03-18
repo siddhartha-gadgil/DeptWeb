@@ -24,7 +24,7 @@ acting on a
 Hilbert space with the closure of the tetrablock
 \begin{equation}
 E=\\{(a_{11},a_{22},\det A):
-A=\begin{pmatrix} a_{11} & a_{12} \\
+A=\begin{pmatrix} a_{11} & a_{12} \\\
 a_{21} & a_{22} \end{pmatrix}\text{ with }\lVert A \rVert
 <1\\}\subseteq\mathbb{C}^3
 \end{equation}
