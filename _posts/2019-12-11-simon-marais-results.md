@@ -1,5 +1,5 @@
 ---
-title: Simon Marais 2019 Results
+title: Simon Marais Competition Results
 date: Dec. 11, 2019
 ---
 
