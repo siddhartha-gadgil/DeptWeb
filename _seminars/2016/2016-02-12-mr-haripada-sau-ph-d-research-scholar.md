@@ -22,12 +22,12 @@ fundamental operator of $(S,P)$. This thesis constructs an explicit normal bound
 $\Gamma$-contraction. A triple of commuting bounded operators $(A,B,P)$
 acting on a
 Hilbert space with the closure of the tetrablock
-\begin{equation}
-E=\\{(a_{11},a_{22},\det A):
-A=\begin{pmatrix} a_{11} & a_{12} \\\
+`\begin{equation}
+E=\{(a_{11},a_{22},\det A):
+A=\begin{pmatrix} a_{11} & a_{12} \\
 a_{21} & a_{22} \end{pmatrix}\text{ with }\lVert A \rVert
-<1\\}\subseteq\mathbb{C}^3
-\end{equation}
+<1\}\subseteq\mathbb{C}^3
+\end{equation}`
 as a spectral set, is called a tetrablock contraction. Every tetrablock contraction
 possesses two fundamental operators and these are the unique solutions of
 \begin{equation}
