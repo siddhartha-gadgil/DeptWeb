@@ -11,16 +11,14 @@ series-suffix: colloquium
 
 A pair of commuting bounded operators $(S,P)$ acting on a
 Hilbert space, is
-called a `$\Gamma$`-contraction, if it has the symmetrised bidisc $$\Gamma=\{
-(z_1+z_2,z_1z_2):|z_1| \leq 1,|z_2| \leq 1 \}\subseteq \mathbb{C}^2$$ as a
-spectral set. For
-every `$\Gamma$-contraction $(S,P)$`, the operator equation
-$$S-S^\*P=D\_PFD\_P$$ has a
-unique solution $F$ with numerical radius, $w(F)$ no greater than one,
-where $D_P$ is the
-positive square root of `$(I-P^*P)$`. This unique operator is called the
-fundamental operator of
-$(S,P)$. This thesis constructs an explicit normal boundary dilation for a
+called a `$\Gamma$`-contraction, if it has the symmetrised bidisc
+\begin{equation}
+\Gamma=\{ (z_1+z_2,z_1z_2):|z_1| \leq 1,|z_2| \leq 1 \}\subseteq \mathbb{C}^2
+\end{equation}
+as a spectral set. For every `$\Gamma$-contraction $(S,P)$`, the operator equation
+$S-S^\*P=D\_PFD\_P$ has a unique solution $F$ with numerical radius, $w(F)$ no greater than one,
+where $D_P$ is the positive square root of `$(I-P^*P)$`. This unique operator is called the
+fundamental operator of $(S,P)$. This thesis constructs an explicit normal boundary dilation for a
 $\Gamma$-contraction. A triple of commuting bounded operators $(A,B,P)$
 acting on a
 Hilbert space with the closure of the tetrablock
