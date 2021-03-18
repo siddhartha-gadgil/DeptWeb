@@ -1,5 +1,5 @@
 ---
-title: Simon Marais 2020 Results
+title: Simon Marais Competition Results
 date: Dec. 14, 2020
 ---
 
