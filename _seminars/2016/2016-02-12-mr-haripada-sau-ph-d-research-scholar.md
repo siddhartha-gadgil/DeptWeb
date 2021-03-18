@@ -15,7 +15,7 @@ called a `$\Gamma$`-contraction, if it has the symmetrised bidisc $$\Gamma=\{
 (z_1+z_2,z_1z_2):|z_1| \leq 1,|z_2| \leq 1 \}\subseteq \mathbb{C}^2$$ as a
 spectral set. For
 every `$\Gamma$-contraction $(S,P)$`, the operator equation
-$$S-S^*P=D_PFD_P$$ has a
+$$S-S^\*P=D\_PFD\_P$$ has a
 unique solution $F$ with numerical radius, $w(F)$ no greater than one,
 where $D_P$ is the
 positive square root of `$(I-P^*P)$`. This unique operator is called the
