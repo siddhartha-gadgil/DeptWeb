@@ -1,5 +1,6 @@
 ---
 title: Ph.D Research Program 2018.
+expiry-date: 2020-06-01
 ---
 
 <b>

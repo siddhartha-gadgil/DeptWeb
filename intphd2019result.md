@@ -1,5 +1,6 @@
 ---
 title: Integrated Ph.D Program 2019.
+expiry-date: 2020-06-01
 ---
 
 <b>

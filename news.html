@@ -1,29 +1,29 @@
 ---
 layout: default
+title: News
 ---
 
 <div class="home">
 
-  <h2 class="page-heading">News</h2>
+  <h3 class="page-heading">News and Announcements</h3>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% assign sorted = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         {% if post.redirect %}
-          <h4>
+          <h5>
               <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
-            </h4>
+            </h5>
           {% else %}
-        <h4>
+        <h5>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h4>
-        <p> {{ post.content |  strip_html | truncatewords: 100 }}</p>
+        </h5>
+        <p> {{ post.excerpt }}</p>
         {% endif %}
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
