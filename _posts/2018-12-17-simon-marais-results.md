@@ -2,7 +2,7 @@
 title: Simon Marais competition results
 ---
 
-The results for the Simon Marais competition 2018 are announced <a href="https://www.simonmarais.org/20183.html">here</a>. The performance of students from IISc is extremely good.
+The results for the 2018 Simon Marais Competition are announced <a href="https://www.simonmarais.org/20183.html">here</a>. The performance of students from IISc is extremely good.
 
 **University prize-winners**
 
