@@ -1,5 +1,5 @@
 ---
-title: Simon Marais competition results
+title: Simon Marais Competition results
 ---
 
 The results for the 2018 Simon Marais Competition are announced <a href="https://www.simonmarais.org/20183.html">here</a>. The performance of students from IISc is extremely good.
