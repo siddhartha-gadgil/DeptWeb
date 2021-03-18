@@ -117,12 +117,12 @@ student), to Schur
 __Abstract:__ Given a smooth function $f : \[0,1) \\to \\mathbb{R}$, and scalars $u_j$, $v_j$ in $(0,1)$, I will compute the
 Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is the 2x2 matrix
 
-\begin{equation}
+`\begin{equation}
 \begin{pmatrix}
 f( t u_1 v_1 ) & f( t u_1 v_2 ) \\
 f( t u_2 v_1 ) & f( t u_2 v_2 )
 \end{pmatrix}.
-\end{equation}
+\end{equation}`
 
 C. Loewner computed the first two of these Maclaurin coefficients, in the thesis of his student
 R.A. Horn (*Trans. AMS* 1969). This was in connection with entrywise functions preserving
