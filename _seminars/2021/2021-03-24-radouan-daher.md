@@ -1,6 +1,6 @@
 ---
 speaker: Radouan Daher (University of Hassan II, Morocco)
-title: "A Laplacian on the unilateral shift space"
+title: "A note of Titchmarsh theorem and approximation theory on the sphere"
 date: 24 March, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
