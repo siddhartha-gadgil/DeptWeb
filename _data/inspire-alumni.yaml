@@ -1,26 +1,10 @@
 - name: "Sarang Sane"  
   position: "INSPIRE Faculty"  
   phd: "TIFR"  
-  area: "Commutative algebra"  
-  start: "2014"  
-  end: "2014 "  
-  present: "IIT, Madras"  
-
-- name: "Koushik Saha"  
-  position: "INSPIRE Faculty"  
-  phd: "ISI"  
-  area: "Probability"  
-  start: "2012"  
-  end: "2014 "  
-  present: "IIT, Bombay"  
-
-- name: "Mousumi Mondal"  
-  position: "INSPIRE Faculty"  
-  phd: "IITB"  
   area: "Commutative Algebra"  
-  start: "2013"  
-  end: 
-  present: "IIT Kharagpur"  
+  start: "2014"  
+  end: "2014"  
+  present: "IIT, Madras"  
 
 - name: "Umesh V. Dubey"  
   position: "INSPIRE Faculty"  
@@ -37,6 +21,22 @@
   start: "2013"  
   end: "2015"  
   present: "NISER, Bhubaneshwar"  
+
+- name: "Mousumi Mondal"  
+  position: "INSPIRE Faculty"  
+  phd: "IITB"  
+  area: "Commutative Algebra"  
+  start: "2013"  
+  end: 
+  present: "IIT, Kharagpur"  
+
+- name: "Koushik Saha"  
+  position: "INSPIRE Faculty"  
+  phd: "ISI"  
+  area: "Probability"  
+  start: "2012"  
+  end: "2014 "  
+  present: "IIT, Bombay"  
 
 - name: "Esha Chatterjee Ghosh"  
   position: "DST Young scientist"  

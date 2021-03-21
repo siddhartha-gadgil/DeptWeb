@@ -1,87 +1,90 @@
 NAME,TYPE,Ph.D.,Broad area,Start,End,Current/Next position,Postdoc completed?
-Mamta Balodi,IISc Raman PDF,MNNIT,Quantum Algebra,2017,,,No
-Kiran Kumar Behera,Kothari,IITR,Operator theory,2019,,,No
-Sudip Bera,NBHM/DST,Visva-Bharati University,Algebraic combinatorics,2018,,,No
-Projesh Nath Choudhury,NBHM/NPDF,IITM,Matrix theory,2018,,,No
+Chandan Biswas,IISc Raman PDF,"University of Wisconsin at Madison, USA",Harmonic Analysis,2021,,,No
 Biltu Dan,IISc Raman PDF,ISI,Probability theory,2021,,,No
+Gargi Ghosh,IOE,"IISER, Kolkata",Operator Theory,2021,,,No
+Anoop V. P.,NPDF,NISER,Harmonic Analysis,2020,,,No
+G. Arunkumar,NBHM,IMSc,"Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory",2020,,,No
+Gianluca Faraco,IISc Raman PDF,"University of Ferrera, Italy",Low dimensional Geometry,2020,,,No
+Sajal Kumar Mukherjee,NBHM,Visva-Bharati University,Combinatorics,2020,,,No
+Mihir Sheth,IISc Raman PDF,"University of Duisburg-Essen, Germany","Number theory, Representation theory",2020,,,No
+Vijaya Kumar U,IOE,ISI,"Operator Theory, Operator Algebras, Quantum Probability",2020,,,No
+Kiran Kumar Behera,Kothari,IITR,Operator theory,2019,,,No
 Deb Kumar Giri,NBHM,IITG,Harmonic Analysis,2019,,,No
 Anupam Gumber,NBHM,IITI,"Harmonic Analysis, Approximation theory, Representation theory",2019,,,No
-Sumana Hatui,NBHM,HRI,"Group theory, Schur multipliers",2019,,,No
+Sumana Hatui,NBHM/IISc Raman PDF,HRI,"Group theory, Schur multipliers",2019,,,No
 Divya Khurana,Kothari,IITK,"Geometry of Banach spaces, Greedy approximation algorithms",2019,,,No
-Gouranga Mallik,NBHM,IITB,"PDE, Finite element methods",2018,,,No
-G. Arunkumar,NBHM,IMSc,"Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory",2020,,,No
-Gianluca Faraco,IISc Raman PDF,"University of Ferrera, Italy",Low dimensional Geometry,,,,No
+Geethika Sebastian,Kothari,IITH,Functional analysis,2019,,,No
+Sudip Bera,NBHM/DST,Visva-Bharati University,Algebraic combinatorics,2018,,,No
+Projesh Nath Choudhury,NBHM/NPDF,IITM,Matrix theory,2018,,,No
+Gouranga Mallik,NBHM/IISc Raman PDF,IITB,"PDE, Finite element methods",2018,,,No
+Sneh Bala Sinha,NBHM,HRI,Number Theory,2018,,,No
+Mamta Balodi,IISc Raman PDF,MNNIT,Quantum Algebra,2017,,,No
 Debamalya Sain,Kothari/NPDF,Jadavpur,Geometry of normed linear spaces,2017,,,No
-Sneh Bala Sinha,NBHM,HRI,Number Theory,2019,2020,,No
-Chandan Biswas,IISc Raman PDF,"University of Wisconsin at Madison, USA",Harmonic Analysis,,,,No
-Mihir Sheth,IISc Raman PDF,"University of Duisburg-Essen, Germany","Number theory, Representation theory",,,,No
-Anoop V. P.,NPDF,NISER,Harmonic Analysis,,,,No
 Rajesh Kumar Singh,NBHM,IITK,Harmonic Analysis,,,,No
-Sushma Palimar,DST WOSA,,,,,,No
-Vijaya Kumar U,IOE,ISI,"Operator Theory, Operator Algebras, Quantum Probability",,,,No
-Geetika Sebastian,Kothari,IITH,Functional analysis,,,,No
-Sajal Kumar Mukherjee,NBHM,Visva-Bharati University,Combinatorics,,,,No
-Gopal Datt,Kothari/SJF/NPDF,University of Delhi,"Nevanlinna theory, Several complex variables",2017,2020,"Babasaheb Bhimrao Ambedkar University, Lucknow",Yes
-Asha Kisan Dond,NBHM,IITB,Partial Differential Equations,2016,2020,"IISER, Thiruvananthapuram",Yes
-Tathagata Banerjee,,"Georg-August Universität Göttingen, Germany",,2015,2017,"ISI, Bangalore / CUSAT",Yes
-Arun Maiti,NBHM,"University of Leipzig, Germany","String Topology, Symplectic Geometry",2018,2020,,Yes
-Dipendu Maity,Kothari/NBHM,IITP,Combinatorial Topology,2015,2019,"IIIT, Guwahati",Yes
-Vishnu Priya Nataraj,Kothari,Bharathidasan University,"Nonlinear integrable systems, Solitons",2017,2020,,Yes
-Samrith Ram,,IITB,Combinatorics,,,"IIIT, Delhi",Yes
-Kuldeep Kumar Kataria,,IITB,Probability and Stochastic processes,2018,2018,"IIT, Bhilai",Yes
-Tanmay Sarkar,,IITM,Partial Differential Equations and Numerics,2017,2018,"IIT, Jammu",Yes
-Abhash Kumar Jha,,NISER,Number theory,,,"IIT, BHU",Yes
-Qaiser Jahan,,ISI,"Harmonic Analysis, Wavelets",,2017,"IIT, Mandi",Yes
-Anirudha Poria,Kothari,IITG,Applied Harmonic Analysis,2019,2020,"Bar-Ilan university, Israel?",Yes
+,,,,,,,
+Ramesh Manna,Kothari/IISc Raman PDF,IITK,Harmonic analysis,2020,2020,"INSPIRE Faculty, IISc",Yes
+Anirudha Poria,Kothari,IITG,Applied Harmonic Analysis,2019,2020,"Bar-Ilan university, Israel",Yes
 Tamal Pramanick,NBHM,IITG,"Numerical analysis, PDE, FEM",2019,2020,"NIT, Calicut",Yes
 Bikramaditya Sahu,NBHM,NISER,"Algebraic combinatorics, Finite geometry",2019,2020,"NIT, Rourkela",Yes
+Srijan Sarkar,NBHM,ISI,Multivariate operator Theory,2019,2020,"INSPIRE Faculty, IISc",Yes
+Kuldeep Kumar Kataria,,IITB,Probability and Stochastic processes,2018,2018,"IIT, Bhilai",Yes
+Arun Maiti,NBHM,"University of Leipzig, Germany","String Topology, Symplectic Geometry",2018,2020,,Yes
+Gopal Datt,Kothari/SJF/NPDF,University of Delhi,"Nevanlinna theory, Several complex variables",2017,2020,"Babasaheb Bhimrao Ambedkar University, Lucknow",Yes
+Qaiser Jahan,Kothari,ISI,"Harmonic Analysis, Wavelets",2017,2017,"IIT, Mandi",Yes
+Abhash Kumar Jha,NPDF,NISER,Number theory,2017,2019,"IIT, BHU",Yes
+Vishnu Priya Nataraj,Kothari,Bharathidasan University,"Nonlinear integrable systems, Solitons",2017,2020,,Yes
+Tanmay Sarkar,,IITM,Partial Differential Equations and Numerics,2017,2018,"IIT, Jammu",Yes
 Abhitosh Upadhyay,NPDF,Guru Gobind Indraprastha University,"Semi-Riemannian geometry, Biconservative and Biharmonic submanifolds",2017,2020,IIT Goa,Yes
-V. K. Sohani ,NBHM,HRI,Harmonic Analysis,2013,2016,"IIT, Indore",Yes
-Kaustubh Manchanda,Kothari,JNU,Combinatorics,2014,2017,"Azim Premji University, Bangalore",Yes
-Anuradha Jha,,,,,,"IIIT, Guwahati",Yes
+Asha Kisan Dond,NBHM,IITB,Partial Differential Equations,2016,2020,"IISER, Thiruvananthapuram",Yes
+Tathagata Banerjee,,"Georg-August Universität Göttingen, Germany",,2015,2017,"ISI, Bangalore / CUSAT",Yes
+A. Sathish Kumar,NBHM,IITR,Approximation Theory,2015,2016,"VNIT, Nagpur",Yes
+Dipendu Maity,Kothari/NBHM,IITP,Combinatorial Topology,2015,2019,"IIIT, Guwahati",Yes
 Sumit Mohanty,,IITK,"Analysis on Graphs, Spectral Graph Theory",2015,2017,"GITAM Visakhatam /IISER, Thiruvananthapuram",Yes
-A. Sathish Kumar,,,,,,,Yes
-K. Kalaivani,,,,,,,Yes
-Chandan Pal,Kothari,IITB,Stochastic Analysis,2014,,"IIT, Guwahati",Yes
+Samrith Ram,,IITB,Combinatorics,2015,2015,"IIIT, Delhi",Yes
+K. Kalaivani,,University of Madras,,,,"VIT, Vellore",Yes
+Kaustubh Manchanda,Kothari,JNU,Combinatorics,2014,2017,"Azim Premji University, Bangalore",Yes
 R. Manikandan,Kothari,Cochin,Stochastic Analysis,2014,2015,"Central University Kerala, Kasargod",Yes
-Thomas Richard,IISc RA,"Grenoble, France",Differential Geometry,2012,2013,Université Paris-Est Créteil,Yes
-Rajesh Srivastava ,Kothari,IITK,Harmonic Analysis,2011,2012,"IIT, Guwahati",Yes
-Soumen Sarkar,CPDF,ISI,Topology,2012,2012,"KAIST, Korea/IIT Madras",Yes
-Venku Naidu,Kothari,IITM,Harmonic Analysis,2011,2012,"IIT, Hyderabad",Yes
-Micah Miller,CPDF,"CUNY, USA",Topology,2012,2014,Texas State University,Yes
+Chandan Pal,Kothari,IITB,Stochastic Analysis,2014,,"IIT, Guwahati",Yes
+Anuradha Jha,,IITK,Numerical solutions of ordinary and partial differential equations,2013,,"IIIT, Guwahati",Yes
+V. K. Sohani ,NBHM,HRI,Harmonic Analysis,2013,2016,"IIT, Indore",Yes
 R. Lakshmi Lavanya,NBHM,Madras,Harmonic Analysis,2012,2015,"IISER, Tirupati",Yes
-Sameer Kamal,NBHM,TIFR,Applied probability,2011,2012,"IIT, Guwahati",Yes
+Micah Miller,CPDF,"CUNY, USA",Topology,2012,2014,Texas State University,Yes
+Thomas Richard,IISc RA,"Grenoble, France",Differential Geometry,2012,2013,Université Paris-Est Créteil,Yes
+Soumen Sarkar,CPDF,ISI,Topology,2012,2012,"KAIST, Korea/IIT Madras",Yes
+T. V. Anoop,Kothari,IMSc,Partial Differential Equations,2011,2012,"IIT, Madras",Yes
 David Michael Farris,IISc RA,"University of California at Berkeley, USA",Topology,2011,2012,NCBS/Indian Foundatiion of Arts,Yes
 H. S. Gupta,NBHM,,"Numerical Analysis, PDE",2011,2013,,Yes
+Sameer Kamal,NBHM,TIFR,Applied probability,2011,2012,"IIT, Guwahati",Yes
+Venku Naidu,Kothari,IITM,Harmonic Analysis,2011,2012,"IIT, Hyderabad",Yes
 Dhanya Rajendran,NBHM,TIFR,Partial Differential Equations,2011,2014,"IISER, Thiruvananthapuram",Yes
-Anoop T. V.,Kothari,IMSc,Partial Differential Equations,2011,2012,"IIT, Madras",Yes
-Ashisha Kumar,DST,IITK,Harmonic Analysis,2010,2013,"IIT, Indore",Yes
-Manoj K Yadav,NBHM,IITM,"Applied analysis, Nonlinear PDE",2010,2012,"Mahindra University, Hyderabad",Yes
-K. Nidhin,Kothari,Calicut,Stochastic processes,2010,2013,,Yes
-Arijit Chakrabarty,CPDF,"Cornell, USA",Probability,2010,2010,"ISI, Kolkata",Yes
+Rajesh Srivastava ,Kothari,IITK,Harmonic Analysis,2011,2012,"IIT, Guwahati",Yes
 Bappaditya Bhowmik,Kothari,IITM,Complex analysis,2010,,"IIT, Kharagpur",Yes
-Hemangi Shah,CPDF,IITB,Differential Geometry,2009,,"HRI, Allahabad",Yes
-Sanjoy Pusti,UGC,ISI,Harmonic Analysis,2009,2010,"IIT, Kanpur/IIT, Bombay",Yes
+Arijit Chakrabarty,CPDF,"Cornell, USA",Probability,2010,2010,"ISI, Kolkata",Yes
+Ashisha Kumar,DST,IITK,Harmonic Analysis,2010,2013,"IIT, Indore",Yes
+K. Nidhin,Kothari,Calicut,Stochastic processes,2010,2013,,Yes
+Manoj K Yadav,NBHM,IITM,"Applied analysis, Nonlinear PDE",2010,2012,"Mahindra University, Hyderabad",Yes
+Sudheesh Chethil,IISc RA,IITM,Dynamical systems,2009,2010,"IIST, Thiruvananthapuram",Yes
 Aparajita Dasgupta,DST,"York, Canada",Harmonic Analysis,2009,2010,"IIT, Delhi",Yes
-Subash Chandra Martha,NBHM,IITG,Fluid dynamics,2007,2010,"IIT, Ropar",Yes
-Sudheesh,IISc RA,IITM,Dynamical systems,2009,2010,"IIST, Thiruvananthapuram",Yes
+Sanjoy Pusti,UGC,ISI,Harmonic Analysis,2009,2010,"IIT, Kanpur/IIT, Bombay",Yes
 Ranja Sarkar,DST,Pune,Mathematical finance,2009,2009,,Yes
+Hemangi Shah,CPDF,IITB,Differential Geometry,2009,,"HRI, Allahabad",Yes
+Subash Chandra Martha,NBHM,IITG,Fluid dynamics,2007,2010,"IIT, Ropar",Yes
 T. Muthukumar,NBHM,Madras,Partial Differential Equations,2007,2008,"IIT, Kanpur",Yes
-P. Palaniyandi,DRDO,Bharathidasan University,Nonlinear dynamics,2007,2007,"Bharathidasan University, Tiruchirapalli",Yes
 Tejaswi Navilarekallu,CPDF,"CalTech, USA",Number theory,2007,2008,,Yes
-Shrihari Sridharan,IMI,Manchester,Complex dynamics,2006,2007,"IISER, Thiruvananthapuram",Yes
+P. Palaniyandi,DRDO,Bharathidasan University,Nonlinear dynamics,2007,2007,"Bharathidasan University, Tiruchirapalli",Yes
 Muslim Malik,NBHM,IITK,Differential Equations,2006,2008,"IIT, Mandi",Yes
-Karabi Sikdar,NBHM,IIT KGP,Queueing theory,2005,2007,"BMS Institute of Technology and Management, Bangalore",Yes
-Sachi Srivastava,IISc RA,"Oxford (D. Phil.), UK",Functional Analysis,2005,2006,Delhi University,Yes
+Shrihari Sridharan,IMI,Manchester,Complex dynamics,2006,2007,"IISER, Thiruvananthapuram",Yes
 Anuradha Narasimhan,IMI,Pune,Algebraic number theory,2005,2006,,Yes
+Karabi Sikdar,NBHM,IIT KGP,Queueing theory,2005,2007,"BMS Institute of Technology and Management, Bangalore",Yes
 V. V. K. Srinivas Kumar,DST,IITK,Scientific computation,2005,2008,"IIT, Delhi",Yes
+Sachi Srivastava,IISc RA,"Oxford (D. Phil.), UK",Functional Analysis,2005,2006,Delhi University,Yes
+P. Danunjaya,,IITB,Finite element method,2004,,,Yes
 Anita Naolekar,NBHM,ISI,Algebraic Topology,2004,2008,"ISI, Bangalore",Yes
 D. Narayana,NBHM,Paris,Functional Analysis,2004,2007,,Yes
-P. Danunjaya,,IITB,Finite element method,2004,,,Yes
-N. Gnaneshwaran,NBHM,IITB,Numerical Analysis,2003,,,Yes
 Deepak Sridhara,IMI,"Notre Dame, USA",Coding theory,2004,,,Yes
-Saroj Panigrahi,NBHM,Behrampur University,Difference/Differential Equations,2002,2004,University of Hyderabad,Yes
+N. Gnaneshwaran,NBHM,IITB,Numerical Analysis,2003,,,Yes
 Sara Mohanty,NBHM,University of California at Riverside,Topology,2003,,East Los Angeles College,Yes
+Saroj Panigrahi,NBHM,Behrampur University,Difference/Differential Equations,2002,2004,University of Hyderabad,Yes
 Philippe Pitteloud,IISc RA,"Université de Genève, Switzerland",Number theory,2001,2002,,Yes
 Rajesh Mahadevan,NBHM,Chennai,"Homogenization, PDE",2000,2002,"Universidad de Concepcion, Chile",Yes
 P. V. Ushakumari,,CUSAT,Stochastic Modelling and Analysis,1998,1999,,Yes
@@ -91,6 +94,6 @@ A. K. Vijayarajan,NBHM,ISI,Index theory of von Neumann algebras,1996,1998,"Keral
 S. C. Mandal,JNCASR,NBU,Elastic and viscoelastic waves,1994,1995,,Yes
 M. P. Joy,NBHM,,Chaos and nonlinear waves,1993,1995,,Yes
 G. Sethuraman,NBHM,Bombay,Nonlinear dyifferential equations,1992,1994,,Yes
+Raju K. George,NBHM,IITB,"Nonlinear functional analysis, Control system theory",1991,1994,"IIST, Thiruvananthapuram",Yes
 D. Palaniappan,NBHM,Hyderabad,"Nonlinear phenomena, Shallow water equations",1991,1994,,Yes
 S. Sundar,IISc RA,,"Partial Differential Equations, CFD",1991,1994,"IIT, Madras",Yes
-Raju K. George,NBHM,IITB,"Nonlinear functional analysis, Control system theory",1991,1994,"IIST, Thiruvananthapuram",Yes
