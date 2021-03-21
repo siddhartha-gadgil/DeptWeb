@@ -9,7 +9,7 @@ title: Chair and Committees
 
 * __Phone :__ +91-80 2293 {{ fac.phone-ext}}
 * __Office :__ Room {{ fac.office}}
-* __Email :__ {{fac.user-id}} AT iisc DOT ac DOT in, chair AT iisc DOT ac DOT in 
+* __Email :__ {{fac.user-id}} AT iisc DOT ac DOT in, chair DOT math AT iisc DOT ac DOT in 
 {% endif %}
 {%  endfor %}
 
@@ -23,7 +23,7 @@ The present members and chairs are as follows:
 
 * Soumya Das (Chair, DCC)
 * Thirupathi Gudi (Chair, DC)
-* Arvind (Chair, UG-DCC)
+* Arvind Ayyer (Chair, UG-DCC)
 * Vamsi Pritham Pingali
 * R. Venkatesh
 * Subhojoy Gupta
@@ -31,9 +31,20 @@ The present members and chairs are as follows:
 
 ---
 
+### Wellness committee
+
+* Radhika Ganapathy
+* R. Venkatesh
+* Aakanksha Jain
+* Mayuresh Londhe.
+
+---
+
 ### Postdoctoral fellows committee
 
-* Purvi Gupta (Chair)
+* Mahesh Kakde
+* Purvi Gupta
+* Soumya Das
 * R. Venkatesh
 
 ---
@@ -45,5 +56,21 @@ The present members and chairs are as follows:
 
 ---
 
+### Maintenance committee
+
+* Tirthankar Bhattacharyya
+* Harish Seshadri
+* Abhishek Banerjee
+* S. Thangavelu (ex-officio as department chair)
+
+---
+
 ### Library committee
 
+* Apoorva Khare (Convenor)
+
+---
+
+### Safety Champion
+
+* Srikanth K. Iyer
