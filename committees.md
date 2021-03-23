@@ -36,7 +36,7 @@ The present members and chairs are as follows:
 * Radhika Ganapathy
 * R. Venkatesh
 * Aakanksha Jain
-* Mayuresh Londhe.
+* Mayuresh Londhe
 
 ---
 
@@ -69,6 +69,7 @@ The present members and chairs are as follows:
 
 * Apoorva Khare (Convenor)
 * Tirthankar Bhattacharyya
+* S. Thangavelu
 
 ---
 
