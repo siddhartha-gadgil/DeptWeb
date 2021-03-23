@@ -68,6 +68,7 @@ The present members and chairs are as follows:
 ### Library committee
 
 * Apoorva Khare (Convenor)
+* Tirthankar Bhattacharyya
 
 ---
 
