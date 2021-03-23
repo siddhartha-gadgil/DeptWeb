@@ -52,7 +52,6 @@ The present members and chairs are as follows:
 ### Computer committee
 
 * Arvind Ayyer
-* Thirupathi Gudi
 
 ---
 
