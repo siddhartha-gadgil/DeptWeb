@@ -27,7 +27,7 @@ The present members and chairs are as follows:
 * Vamsi Pritham Pingali
 * R. Venkatesh
 * Subhojoy Gupta
-* S. Thangavelu (ex-officio as department chair)
+* S. Thangavelu (ex-officio)
 
 ---
 
@@ -61,7 +61,7 @@ The present members and chairs are as follows:
 * Tirthankar Bhattacharyya
 * Harish Seshadri
 * Abhishek Banerjee
-* S. Thangavelu (ex-officio as department chair)
+* S. Thangavelu (ex-officio)
 
 ---
 
