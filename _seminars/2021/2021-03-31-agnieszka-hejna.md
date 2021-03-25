@@ -24,7 +24,7 @@ compactly supported function $\phi$ (not necessarily radial).
 
 The results listed above turn out to be useful tools in studying harmonic analysis in
 Dunkl setting. We will discuss this kind of applications in the second part of the talk.
-We will focus on a version of the classical H\"ormander's multiplier theorem proved in joint
+We will focus on a version of the classical Hormander's multiplier theorem proved in joint
 work with Dziubanski (2019). If time permits, we will discussed how our tools can be used to
 for studying singular integrals of convolution type or Littlewood–Paley square functions
 in the Dunkl setting.
