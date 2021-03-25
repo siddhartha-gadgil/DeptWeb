@@ -14,13 +14,13 @@ title: Seminars
     {%assign finish = start | date : '%s' | plus: 3600  %}
     {% capture timing %}{{ start | date: "%Y%m%dT%H%M%S" }}/{{ finish | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
     {% capture fulltitle %}{{ sem.speaker }} : {{ sem.title}}{% endcapture %}
-    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-primary">Add to Google calendar</a>
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-info">Add to Google calendar</a>
   <h5><strong> Title: </strong>
     {% if sem.series %}<a
     href="{% if sem.website %}{{ sem.website }}#{{ sem.date | date: "%Y-%m-%d" }}{% else %}{{ sem.series | slugify }}.html#{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}{% endif %}" class="{{ sem.series | slugify }}"
     >{{ sem.series-prefix }} {{sem.series}}{% if sem.series-suffix %} {{sem.series-suffix}}{% endif %}: </a>{% endif %}
     {% if sem.slides %}
-    <a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ sem.slides }}" target="_blank" class="pull-right btn btn-primary">Slides</a>
+    <a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ sem.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
     {% endif %}
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a> </h5>
  <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>

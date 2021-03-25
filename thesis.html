@@ -15,7 +15,7 @@ title: Thesis
     {%assign finish = start | date : '%s' | plus: 3600  %}
     {% capture timing %}{{ start | date: "%Y%m%dT%H%M%S" }}/{{ finish | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
     {% capture fulltitle %}{{ sem.speaker }} : {{ sem.title}}{% endcapture %}
-    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-primary">Add to Google calendar</a>
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-info">Add to Google calendar</a>
   <h4>{{ sem.series-prefix }} {{sem.series}}{% if sem.series-suffix %} {{sem.series-suffix}}{% endif %}</h4>
   <h5 id="{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}"><strong> Title: </strong>
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a>
