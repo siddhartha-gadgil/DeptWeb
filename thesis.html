@@ -15,8 +15,10 @@ title: Thesis
     {%assign finish = start | date : '%s' | plus: 3600  %}
     {% capture timing %}{{ start | date: "%Y%m%dT%H%M%S" }}/{{ finish | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
     {% capture fulltitle %}{{ sem.speaker }} : {{ sem.title}}{% endcapture %}
-    <a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt={{ start | date: "%Y-%m-%dT%H:%M:%S" }}&enddt={{ finish | date: "%Y-%m-%dT%H:%M:%S" }}&subject={{fulltitle | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-success ml-2">Add to Outlook calendar</a>
-    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-info">Add to Google calendar</a>
+    <div class="row mb-3">
+    <a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt={{ start | date: "%Y-%m-%dT%H:%M:%S" }}&enddt={{ finish | date: "%Y-%m-%dT%H:%M:%S" }}&subject={{fulltitle | uri_escape }}&body={{ sem.content | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-success ml-2">Add to Outlook calendar</a>
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&details={{ sem.content | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="ml-2 pull-right btn btn-info">Add to Google calendar</a>
+    </div>
   <h4>{{ sem.series-prefix }} {{sem.series}}{% if sem.series-suffix %} {{sem.series-suffix}}{% endif %}</h4>
   <h5 id="{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}"><strong> Title: </strong>
     <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a>

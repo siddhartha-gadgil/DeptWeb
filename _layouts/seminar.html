@@ -4,8 +4,9 @@
     {%assign finish = start | date : '%s' | plus: 3600  %}
     {% capture timing %}{{ start | date: "%Y%m%dT%H%M%S" }}/{{ finish | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
     {% capture fulltitle %}{{ page.speaker }} : {{ page.title}}{% endcapture %}
-    <a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt={{ start | date: "%Y-%m-%dT%H:%M:%S" }}&enddt={{ finish | date: "%Y-%m-%dT%H:%M:%S" }}&subject={{fulltitle | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-success ml-2">Add to Outlook calendar</a>
-    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-info ml-2">Add to Google calendar</a>
+<div class="row mb-3">
+    <a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt={{ start | date: "%Y-%m-%dT%H:%M:%S" }}&enddt={{ finish | date: "%Y-%m-%dT%H:%M:%S" }}&subject={{fulltitle | uri_escape }}&body={{ page.content | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-success ml-2">Add to Outlook calendar</a>
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&details={{ page.content | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-info ml-2">Add to Google calendar</a></div>
 {% if page.series %}<h4><a
 href="{% if page.website %}{{ page.website }}#{{ page.date | date: "%Y-%m-%d" }}{% else %}{{ site.baseurl }}/{{ page.series | slugify }}.html#{{ page.date | date: "%Y-%m-%d" }}-{{ page.speaker | slugify }}{% endif %}" class="{{ page.series | slugify }}"
 >{{ page.series-prefix }} {{page.series}} {{ page.series-suffix }} </a></h4>{% endif %}
@@ -48,8 +49,6 @@ href="{% if page.website %}{{ page.website }}#{{ page.date | date: "%Y-%m-%d" }}
   </div>
 
 </div>
-
-{{ start }}
 {% capture year %}{{page.date | date: "%Y"}}{% endcapture %}
 <div>
   <ul>
