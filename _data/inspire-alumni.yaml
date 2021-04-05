@@ -30,6 +30,14 @@
   end: 
   present: "IIT, Kharagpur"  
 
+- name: "Soumya Das"  
+  position: "INSPIRE Faculty"  
+  phd: "HRI"  
+  area: "Number Theory"  
+  start: "2012"  
+  end: "2013"  
+  present: "IISc, Bangalore"  
+
 - name: "Koushik Saha"  
   position: "INSPIRE Faculty"  
   phd: "ISI"  

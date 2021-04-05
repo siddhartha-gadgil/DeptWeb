@@ -126,6 +126,14 @@
   end: "2016"  
   present: "VNIT, Nagpur"  
 
+- name: "K. Kalaivani"  
+  position: 
+  phd: "University of Madras"  
+  area: 
+  start: "2015"  
+  end: "2016"  
+  present: "VIT, Vellore"  
+
 - name: "Dipendu Maity"  
   position: "Kothari/NBHM"  
   phd: "IITP"  
@@ -149,14 +157,6 @@
   start: "2015"  
   end: "2015"  
   present: "IIIT, Delhi"  
-
-- name: "K. Kalaivani"  
-  position: 
-  phd: "University of Madras"  
-  area: 
-  start: 
-  end: 
-  present: "VIT, Vellore"  
 
 - name: "Kaustubh Manchanda"  
   position: "Kothari"  
