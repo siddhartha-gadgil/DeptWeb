@@ -1,6 +1,6 @@
 ---
 speaker: Tapendu Rana (IIT, Bombay)
-title: "Wiener Tauberian Theorems on SL$(2,\mathbb{R})$"
+title: "Wiener Tauberian Theorems on SL(2,R)"
 date: 14 April, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
