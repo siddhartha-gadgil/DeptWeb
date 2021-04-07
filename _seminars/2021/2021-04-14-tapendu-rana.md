@@ -17,7 +17,7 @@ However in 1955,  L. Ehrenpreis and F. I. Mautner observed that the correspondin
 is not true for the commutative Banach algebra $L^1(G//K)$ of $K$-biinvariant functions
 on $G$ and proved Wiener Tauberian theorem with additional conditions, for
 $G= \mathrm{SL(2,\mathbb{R})}$ and $ K=\mathrm{SO}(2) $. Their result is ameliorated by
-Y. Ben Natan et al.  In their paper; the authors studied the analog of the Wiener Tauberian
+Y. Ben Natan et al.  In their paper, the authors studied the analog of the Wiener Tauberian
 theorem for the Banach algebra $ L^1( \mathrm{SL(2,\mathbb{R})} //\mathrm{SO}(2))$.
 
 In this talk, we will discuss an analog of the Wiener Tauberian theorem for the Lorentz
