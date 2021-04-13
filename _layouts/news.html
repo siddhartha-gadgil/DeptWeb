@@ -1,0 +1,10 @@
+{% include header.html %}
+
+<div class="mb-4">
+<h4>{{ page.title | escape }}</h4>
+<span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+</div>
+
+{{ content }}
+
+{% include footer.html %}

@@ -58,6 +58,12 @@ defaults:
       type: seminars
     values:
       layout: seminar
+  
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: news
 
   - scope:
       path: ""
