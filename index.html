@@ -33,6 +33,7 @@
       </div>
     </div>
     {% assign curDate = site.time | date: '%s' | minus: 86400 %}
+    {% assign lastMonth = site.time | date: '%s' | minus: 2592000 %}
 
     <div class="col-md-12">
       <div class="mt-4">
@@ -71,9 +72,10 @@
             {% assign postcounter = 0 %}
 
             {% for post in futposts %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
+            {% assign postDate = post.date | date: '%s' | plus: 604800 %}
             {% if post.expiry-date == nil or expiry-dateDate >= curDate %}
             {% assign postcounter=postcounter | plus: 1 %}
-            {% if postcounter <= 6 %} <li>
+            {% if postcounter <= 2 or postDate >= lastMonth %} <li>
               {% if post.redirect %}
               <h5>
                 <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
