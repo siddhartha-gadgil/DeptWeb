@@ -160,7 +160,17 @@
   research-areas: Positivity and analysis; representation theory of Lie algebras and algebras with triangular decompositions; combinatorics and discrete mathematics (with connections to the two research areas above)
   phone-ext: 2514
   office: X26
-  author-name: Khare, Apoorva
+  author-name: "Khare, Apoorva"
+
+- name: Amalendu Krishna
+  user-id: amalenduk
+  position: Professor
+  research-areas: Algebraic geometry, K-theory, and algebraic cycles
+  phd: TIFR
+  phone-ext:
+  office:
+  website: "#"
+  author-name: "Krishna, Amalendu"
 
 - name: Manjunath Krishnapur
   user-id: manju
