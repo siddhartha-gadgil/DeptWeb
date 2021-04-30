@@ -69,10 +69,24 @@
           <h3 class="text-center"><a href="{{ site.baseurl}}/news.html">News & Announcements</a> </h3>
           <ul class="post-list">
             {% assign futposts = site.posts | sort: 'date' | reverse %}
-            {% assign pinnedposts = site.posts | sort: 'date' | reverse | where: "pinned", true %}
-            {% assign showposts = pinnedposts | concat: futposts %}
             {% assign postcounter = 0 %}
-            {% for post in showposts %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
+            {% for post in futposts %}
+            {% if post.pinned %}
+            {% assign postcounter=postcounter | plus: 1 %}
+             <li>
+              {% if post.redirect %}
+              <h5>
+                <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
+              </h5>
+              {% else %}
+              <h5>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+              </h5>
+              {{ post.excerpt }}
+              {% endif %}
+              </li>
+              {% endif %}{% endfor %}
+            {% for post in futposts %}{% unless post.pinned %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
             {% assign postDate = post.date | date: '%s' | plus: 604800 %}
             {% if post.expiry-date == nil or expiry-dateDate >= curDate %}
             {% assign postcounter=postcounter | plus: 1 %}
@@ -88,7 +102,8 @@
               {{ post.excerpt }}
               {% endif %}
               </li>
-              {% endif %}{% endif %}{% endfor %}
+              {% endif %}{% endif %}{% endunless %}{% endfor %}
+              
           </ul>
         </div>
       </div>
