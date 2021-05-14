@@ -1,6 +1,6 @@
 ---
-speaker: Francesca Astengo ( Universita di Genova)
-title: "On the Schwartz correspondence for Gelfand Pairs of polynomial growth"
+speaker: Francesca Astengo (Universita di Genova, Italy)
+title: "On the Schwartz correspondence for Gelfand pairs of polynomial growth"
 date: 12 May, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
