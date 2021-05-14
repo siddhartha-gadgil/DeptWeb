@@ -1,7 +1,7 @@
 ---
 speaker: Bianca Di Blasio (Universita di Milano, Italy)
 title: "The Schwartz correspondence for the complex motion group of $C^2$"
-date: 5 May, 2021
+date: 19 May, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
