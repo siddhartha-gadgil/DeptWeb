@@ -90,7 +90,7 @@
             {% assign postDate = post.date | date: '%s' | plus: 604800 %}
             {% if post.expiry-date == nil or expiry-dateDate >= curDate %}
             {% assign postcounter=postcounter | plus: 1 %}
-            {% if postcounter <= 2 or postDate >= lastMonth %} <li>
+            {% if postcounter <= 3 or postDate >= lastMonth %} <li>
               {% if post.redirect %}
               <h5>
                 <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
