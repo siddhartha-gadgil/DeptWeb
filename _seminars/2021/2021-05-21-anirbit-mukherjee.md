@@ -21,12 +21,10 @@ initial work on understanding neural functions, loss functions for autoencoders 
 algorithms for exact neural training. Next, we will explain our recent result about
 how under mild distributional conditions we can construct an iterative algorithm which
 can be guaranteed to train a ReLU gate in the realizable setting in linear time while
-also keeping track of mini-batching - 
-
-and its provable graceful degradation of performance under a data-poisoning attack. We
-will show via experiments the intriguing property that our algorithm very closely mimics
-the behaviour of Stochastic Gradient Descent (S.G.D.), for which similar convergence
-guarantees are still unknown. 
+also keeping track of mini-batching - and its provable graceful degradation of performance
+under a data-poisoning attack. We will show via experiments the intriguing property that
+our algorithm very closely mimics the behaviour of Stochastic Gradient Descent (S.G.D.),
+for which similar convergence guarantees are still unknown. 
 
 Lastly, we will review this very new concept of "local elasticity" of a learning process
 and demonstrate how it appears to reveal certain universal phase transitions during neural
