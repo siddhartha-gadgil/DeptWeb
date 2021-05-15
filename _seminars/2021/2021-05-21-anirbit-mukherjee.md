@@ -2,7 +2,7 @@
 speaker: Anirbit Mukherjee (Wharton, University of Pennsylvania, USA)
 title: "Recent developments in the mathematics of neural nets"
 date: 21 May, 2021
-time: 4 pm
+time: 6 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
