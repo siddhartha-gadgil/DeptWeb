@@ -13,11 +13,11 @@ in $\mathbb R^d$. Let $C_+$ denote a positive Weyl chamber.
 Consider an open subset $\Omega$ of $\mathbb R^d$, symmetric with
 respect to reflections from $W$. Let $\Omega_+=\Omega\cap C_+$ be the
 positive part of $\Omega$. We define a family $\{-\Delta_{\eta}^+\}$ of
-self-adjoint extensions of the Laplacian $-\Delta_{\Omp}$, labeled by
+self-adjoint extensions of the Laplacian $-\Delta_{\Omega_+}$, labeled by
 homomorphisms $\eta\colon W\to \{1,-1\}$. In the construction of these
 $\eta$-Laplacians  $\eta$-symmetrization of functions on $\Omega$ is
 involved. The Neumann Laplacian $-\Delta_{N,\Omega_+}$ is included and
-corresponds to $\eta\equiv 1$. If $H^{1}(\Om)=H^{1}\_0(\Om)$, then the
+corresponds to $\eta\equiv 1$. If $H^{1}(\Omega)=H^{1}\_0(\Omega)$, then the
 Dirichlet Laplacian $-\Delta_{D,\Omega_+}$ is
 either included and corresponds to $\eta={\rm sgn}$; otherwise the
 Dirichlet Laplacian is considered separately. Applying  the spectral
@@ -29,6 +29,6 @@ between the integral kernels for the operators in these pairs, which
 are given in terms of symmetries governed by $W$. 
 
 In the talk, for simplicity, I will focus on the case $\Omega = \R^d$ (so $\Omega_+ = C_+$)
-and $\Psi = \Psi_t, t > 0$, where $\Psi_t(\lambda) = exp(−t\lamba)$ for $\lambda > 0$. Then the integral
+and $\Psi = \Psi_t, t > 0$, where $\Psi_t(\lambda) = exp(−t\lambda)$ for $\lambda > 0$. Then the integral
 kernels of $\Psi_t(-Delta^{+}\_{\eta})$, called the $\eta$-heat kernels, will be investigated in more
 detail.
