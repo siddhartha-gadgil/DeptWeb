@@ -29,6 +29,6 @@ between the integral kernels for the operators in these pairs, which
 are given in terms of symmetries governed by $W$. 
 
 In the talk, for simplicity, I will focus on the case $\Omega = \R^d$ (so $\Omega_+ = C_+$)
-and $\Psi = \Psi_t, t > 0$, where $\Psi_t(\lambda) = exp(−t\lambda)$ for $\lambda > 0$. Then the integral
+and $\Psi = \Psi_t, t > 0$, where $\Psi_t(\lambda) = \exp(−t\lambda)$ for $\lambda > 0$. Then the integral
 kernels of $\Psi_t(-Delta^{+}\_{\eta})$, called the $\eta$-heat kernels, will be investigated in more
 detail.
