@@ -12,15 +12,13 @@ Let $W$ be a finite reflection group associated with a root system $R$
 in $\mathbb R^d$. Let $C_+$ denote a positive Weyl chamber.
 Consider an open subset $\Omega$ of $\mathbb R^d$, symmetric with
 respect to reflections from $W$. Let $\Omega_+=\Omega\cap C_+$ be the
-positive
-part of $\Omega$. We define a family $\{-\Delta_{\eta}^+\}$ of
+positive part of $\Omega$. We define a family $\{-\Delta_{\eta}^+\}$ of
 self-adjoint extensions of the Laplacian $-\Delta_{\Omp}$, labeled by
 homomorphisms $\eta\colon W\to \{1,-1\}$. In the construction of these
 $\eta$-Laplacians  $\eta$-symmetrization of functions on $\Omega$ is
-involved. The Neumann Laplacian
-$-\Delta_{N,\Omega_+}$ is included and corresponds to $\eta\equiv1$.
-If $H^{1}(\Om)=H^{1}_0(\Om)$, then the Dirichlet Laplacian
-$-\Delta_{D,\Omega_+}$ is
+involved. The Neumann Laplacian $-\Delta_{N,\Omega_+}$ is included and
+corresponds to $\eta\equiv 1$. If $H^{1}(\Om)=H^{1}\_0(\Om)$, then the
+Dirichlet Laplacian $-\Delta_{D,\Omega_+}$ is
 either included and corresponds to $\eta={\rm sgn}$; otherwise the
 Dirichlet Laplacian is considered separately. Applying  the spectral
 functional calculus we consider the pairs of operators
