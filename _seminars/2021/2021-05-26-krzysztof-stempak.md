@@ -26,12 +26,11 @@ Dirichlet Laplacian is considered separately. Applying  the spectral
 functional calculus we consider the pairs of operators
 $\Psi(-\Delta_{N,\Omega})$ and $\Psi(-\Delta_{\eta}^+)$, or
 $\Psi(-\Delta_{D,\Omega})$ and $\Psi(-\Delta_{D,\Omega_+})$,
-where  $\Psi$ is a Borel function on $[0,\infty)$. We prove relations
+where  $\Psi$ is a Borel function on $\[0,\infty)$. We prove relations
 between the integral kernels for the operators in these pairs, which
-are given in
-terms of symmetries governed by $W$. 
+are given in terms of symmetries governed by $W$. 
 
 In the talk, for simplicity, I will focus on the case $\Omega = \R^d$ (so $\Omega_+ = C_+$)
 and $\Psi = \Psi_t, t > 0$, where $\Psi_t(\lambda) = exp(−t\lamba)$ for $\lambda > 0$. Then the integral
-kernels of $\Psi_t(-Delta^{+}_{\eta})$, called the $\eta$-heat kernels, will be investigated in more
+kernels of $\Psi_t(-Delta^{+}\_{\eta})$, called the $\eta$-heat kernels, will be investigated in more
 detail.
