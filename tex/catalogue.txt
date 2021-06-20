@@ -3,17 +3,17 @@ layout: blank
 ---
 \section{Course Catalogue}
 {% assign sorted = site.all-courses | sort: 'code'  %}{% for course in sorted  %}
-\subsection*{ {{ course.code }}: {{ course.title }} ({% if course.credits %}{{ course.credits }}{% else %}3:0{% endif %})}\label{course-{{ course.code | slugify }}}
+\paragraph*{ {{ course.code }}: {{ course.title }} ({% if course.credits %}{{ course.credits }}{% else %}3:0{% endif %})}\label{course-{{ course.code | slugify }}}
 {% if course.prereq-courses %}
-\subsubsection*{Prerequisite courses: {{ course.prereq-courses }}{% if course.ug-prereq-courses %}, {{course.ug-prereq-courses }}{% endif %}}{% endif %}
-{% if course.prereqs %}\subsubsection*{Pre-requisites}
+\subparagraph*{Prerequisite courses: {{ course.prereq-courses }}{% if course.ug-prereq-courses %}, {{course.ug-prereq-courses }}{% endif %}}{% endif %}
+{% if course.prereqs %}\subparagraph*{Pre-requisites}
 \begin{enumerate}{% for pre in course.prereqs %}
   \item {{ pre }}{% endfor %}
 \end{enumerate}{% endif %}
 
     {{ course.content | strip_html }}
     {% if course.books %}
-\subsubsection*{Suggested books}
+\subparagraph*{Suggested books}
 \begin{enumerate}{% for book in course.books %}
   \item {% if book.author %}{{ book.author}}, {% endif %} \emph{ {{ book.title }}}{% if book.publ %}, {{ book. publ }}{% endif %}.{% endfor %}
 \end{enumerate}{% endif %}
