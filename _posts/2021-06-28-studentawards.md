@@ -2,6 +2,6 @@
 title: Student awards 2020-21
 date: Jun. 28, 2021
 ---
-Anwoy Maitra has been awarded the Martin Forster Gold Medal, for the best Ph.D. thesis in the Division of Physical and Mathematical Sciences.
+Anwoy Maitra has been awarded the Martin Forster Gold Medal for the best Ph.D. thesis in the Division of Physical and Mathematical Sciences.
 
-Akanksha Jain has been awarded the Professor P. L. Bhatnagar Medal, for the best Integrated Ph.D. student in Mathematics.  
+Akanksha Jain has been awarded the Professor P. L. Bhatnagar Medal for the best Integrated Ph.D. student in Mathematics.  
