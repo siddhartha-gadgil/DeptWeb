@@ -1,4 +1,4 @@
-i---
+---
 layout: post
 title: Selected candidates for Ph.D. Program 2021.
 date: 2021-06-29
