@@ -151,4 +151,31 @@
   user-id: sajalm
   position: NBHM
   image: true
-  research-area: Combinatorics (enumerative and topological)          
+  research-area: Combinatorics (enumerative and topological) 
+
+- name: Shivani Goel
+  phd: IIT Madras
+  user-id: shivanigoel
+  position: IOE-PDF
+  image: true
+  research-area: Linear algebra, Graph theory
+
+- name: Biltu Dan
+  phd: ISI Kolkata
+  user-id: biltudan 
+  position: Raman PDF
+  image: true
+  research-area: Probability Theory
+
+
+- name: Samir Shukla
+  phd: 
+  user-id: samirshukla
+  position: NBHM
+  image: true
+  research-area:   
+
+
+
+
+
