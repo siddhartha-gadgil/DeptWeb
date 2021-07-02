@@ -191,6 +191,7 @@ aug2021:
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
+    webpage: http://math.iisc.ac.in/~ssil/Courses/Intro_PDE_Fall21/PDE1Fall21.html
     venue: 
   electives:
   - name: Representation Theory of Finite Groups
