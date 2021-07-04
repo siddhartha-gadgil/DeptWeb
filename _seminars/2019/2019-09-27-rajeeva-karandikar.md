@@ -11,7 +11,9 @@ slides: "2019-09-27-RajeevaKarandikar.pdf"
 Consider a stochastic matrix $P$ for which the Perron–Frobenius eigenvalue
 has multiplicity larger than 1, and for $\epsilon > 0$, let
 
-$$P^\epsilon := (1 - \epsilon) P + \epsilon Q,$$
+\begin{equation}
+P^\epsilon := (1 - \epsilon) P + \epsilon Q,
+\end{equation}
 
 where $Q$ is a stochastic matrix for which the Perron–Frobenius eigenvalue
 has multiplicity 1. Let $\pi^\epsilon$ be the Perron–Frobenius eigenfunction
