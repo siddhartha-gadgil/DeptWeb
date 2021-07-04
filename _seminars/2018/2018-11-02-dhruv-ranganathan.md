@@ -14,7 +14,7 @@ The subject saw a major advance in the 1990s, due to
 groundbreaking work of Kontsevich in the 1990s. Shortly after,
 considerations from high energy physics led to an entirely
 combinatorial approach to these curve counts, via piecewise
-linear embeddings of graphs, pioneered by Mikahlkin. I will
+linear embeddings of graphs, pioneered by Mikhalkin. I will
 give an introduction to the surrounding ideas, outlining new
 results and new proofs that the theory enables. Time permitting
 I will discuss generalizations, difficulties, and future
