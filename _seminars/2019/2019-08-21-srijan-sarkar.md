@@ -26,7 +26,7 @@ $H^2_{\mathcal{E}}(\mathbb{D})$ are unitarily equivalent, where
 \Psi(z)=U(P^{\perp}+zP)
 \end{equation}
 
-for  $z \in \mathbb{D}$ (the unit disc in $\mathbb{C}$).
+for $z \in \mathbb{D}$ (the unit disc in $\mathbb{C}$).
 
 We shall then proceed to derive a similar characterization for pure contractions. In
 particular, let $T$ be a pure contraction on a Hilbert space $\mathcal{H}$ and let
@@ -38,21 +38,21 @@ $\mathcal{H}$, if and only if there exist $\mathcal{B}(\mathcal{D})$-valued
 polynomials $\varphi$ and $\psi$ of degree $\leq 1$ such that
 $\mathcal{Q}$ is a joint ($M^\*\_{\varphi}, M^\*\_{\psi}$)-invariant subspace and
 
-$$
+\begin{equation}
 P_{\mathcal{Q}} M_z\mid_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\varphi
 \psi}\mid_{\mathcal{Q}} = P_{\mathcal{Q}} M_{\psi
 \varphi}\mid_{\mathcal{Q}} \quad \mbox{and} \quad (T_1, T_2) \cong
 (P_{\mathcal{Q}} M_{\varphi}\mid_{\mathcal{Q}}, P_{\mathcal{Q}}
 M_{\psi}\mid_{\mathcal{Q}}).
-$$
+\end{equation}
 
 Moreover, there exist a Hilbert space $\mathcal{E}$ and an isometry
 $V \in \mathcal{B}(\mathcal{D}; \mathcal{E})$ such that
 
-$$
+\begin{equation}
 \varphi(z) = V^* \Phi(z) V \quad \mbox{and} \quad \psi(z) =
 V^* \Psi(z) V \quad \quad (z \in \mathbb{D}),
-$$
+\end{equation}
 
 where the pair $(\Phi, \Psi)$, as defined above, is the Berger,
 Coburn and Lebow representation of a pure pair of commuting
