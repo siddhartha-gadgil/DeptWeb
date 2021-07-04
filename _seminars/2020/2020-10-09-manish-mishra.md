@@ -9,7 +9,7 @@ website: http://www.math.iisc.ac.in/~khare/algcomb20-21.html
 ---
 
 Let $G$ be a connected reductive group defined over a non-archimedean local field $F$.
-The category $R(G)$ of smooth representations of G(F) has a decomposition into a
+The category $R(G)$ of smooth representations of $G(F)$ has a decomposition into a
 product of indecomposable subcategories called Bernstein blocks and to each block is
 associated a non-negative real number called Moy-Prasad depth. We will begin with
 recalling all this basic theory. Then we will focus the discussion on 'regular' blocks.
