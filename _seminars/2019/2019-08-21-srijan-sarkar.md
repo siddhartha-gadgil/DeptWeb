@@ -21,10 +21,10 @@ an orthogonal projection $P$ in $\mathcal{B}(\mathcal{E})$ such that
 $(V, V_1, V_2)$ and $(M_z, M_{\Phi}, M_{\Psi})$ on
 $H^2_{\mathcal{E}}(\mathbb{D})$ are unitarily equivalent, where
 
-$$
+\begin{equation}
 \Phi(z)=(P+zP^{\perp})U^* \quad \text{and} \quad
 \Psi(z)=U(P^{\perp}+zP)
-$$
+\end{equation}
 
 for  $z \in \mathbb{D}$ (the unit disc in $\mathbb{C}$).
 
