@@ -22,7 +22,7 @@ the complement of a principal divisor in a domain of holomorphy and show that th
 in the construction of this metric, i.e., we can choose this metric in a continuous fashion if the corresponding
 principal divisors vary continuously in an appropriate topology.
 
-The second part of the talk deals with Verjovsky's __modulus of uniformization__ that arises in the study of the
+The second part of the talk deals with Verjovsky's _modulus of uniformization_ that arises in the study of the
 leaf-wise Poincare metric on a hyperbolic singular Riemann surface lamination. This is a function defined away
 from the singular locus. One viewpoint is to think of this as a domain functional. Adopting this view, we will
 show that it varies continuously when the domains vary continuously in the Hausdorff sense. We will also give
