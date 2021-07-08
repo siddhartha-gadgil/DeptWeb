@@ -1,7 +1,7 @@
 jan2022:
   ug:
   - code: UM 102
-    instructor: Arvind Ayyer
+    instructor: Vamsi Pingali
     name: "Analysis and Linear Algebra - II"
     ug-prereq-courses: UM 101
     webpage: 
@@ -116,7 +116,7 @@ aug2021:
     name: Anaysis and Linear Algebra - I
     ug-prereq-courses:
   - code: UM 201
-    instructor: Vamsi Pingali
+    instructor: Arvind Ayyer
     name: Probability and Statistics
   - code: UM 501
     instructor: UG Coordinator
