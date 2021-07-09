@@ -1,7 +1,7 @@
 ---
 speaker: Parthanil Roy (ISI, Bangalore)
 title: "Stable Random Fields, Patterson-Sullivan measures and Extremal Cocycle Growth"
-date: 14 Jul, 2021
+date: 21 Jul, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
