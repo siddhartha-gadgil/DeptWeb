@@ -89,8 +89,9 @@ jan2022:
   - name: Topics in Complex Analysis
     code: MA 324
     instructor: Purvi Gupta
+    webpage: http://math.iisc.ac.in/~purvigupta/math324.html
   - name: Algebraic Topology
-    code: MA 332
+    code: MA 332 
     instructor: Siddhartha Gadgil
   - name: Advanced PDE and FEM
     code: MA 347
