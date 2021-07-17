@@ -25,7 +25,7 @@ gradient cost functional problem. _A priori_ error estimates of optimal order in
 norm are derived up to the regularity of the solution.
 
 In the second part, we discuss the Dirichlet boundary optimal control problem governed by the Stokes
-equation. We develop a finite element discretization by using $\mathbf{P}\_1$ elements(in the fine mesh)
+equation. We develop a finite element discretization by using $\mathbf{P}\_1$ elements (in the fine mesh)
 for the velocity and control variable and $P_0$ elements (in the coarse mesh) for the pressure variable.
 We present a new _a posteriori_ error estimator for the control error. This estimator generalizes
 the standard residual type estimator of the unconstrained Dirichlet boundary control problems by adding
