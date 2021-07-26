@@ -60,7 +60,7 @@ __Abstract:__ ​  In this talk, we first describe a family of reproducing kerne
 spaces of holomorphic functions taking values in $\mathbb{C}^r$ on the unit poly-disc
 $\mathbb{D}^n$ depending upon $r+n$ parameters of positive real numbers for any natural
 number $r$. It is then shown that these reproducing kernels are quasi-invariant with
-respect to the subgroup M&ouml;ob$\times\cdots\times$M&ouml;b ($n$ times) of the bi-holomorphic
+respect to the subgroup M&ouml;b$\times\cdots\times$M&ouml;b ($n$ times) of the bi-holomorphic
 automorphism group of $\mathbb{D}^n$. Using the quasi-invariant property, these reproducing
 kernels can be described explicitly. The adjoint of the $n-$tuples of multiplication operators
 by co-ordinate functions on these Hilbert spaces turn out to be homogeneous, irreducible,
