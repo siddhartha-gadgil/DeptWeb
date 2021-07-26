@@ -87,17 +87,31 @@ due to Nehari will be obtained.
 
 #### Lecture 4
 
-__Speaker:__ Manjunath Krishnapur
+__Speaker:__ Surjit Kumar (IISc Bangalore)
 
-__Title:__ ​ Comparing the largest eigenvalues of two random matrices
+__Title:__ ​ $K$-homogeneous tuple of operators on bounded symmetric domains
 
-__Abstract:__ Let $T(m,n)$ denote the largest singular value of the complex Wishart matrix $W_{m,n}$
-whose entries are independent random variables with real and imaginary parts that are
-independent standard Gaussians. Riddhipratim Basu asked the question whether $T(n,n)$ is larger
-than $T(n-1,n+1)$ in a stochastic sense, i.e., $P\\{T(n,n)>x\\} \\ge P\\{T(n-1,n+1)>x\\}$ for all $x$. We provide a
-positive answer by invoking a general coupling theorem of Lyons for determinantal point
-processes. There are natural extensions of the question for which we do not know the answer.
-For example, if the entries of W are real-valued Gaussian random variables.
+__Abstract:__ In this talk, we discuss Hilbert space operator tuples which are homogeneous under
+the action of a compact linear group.
+
+Let $\Omega$ be an irreducible bounded symmetric domain of rank $r$ in $\mathbb C^d$ and $K$ is a
+maximal compact subgroup of the identity component $G$ of the biholomorphic automorphism group of
+the domain $\Omega$. The group $K$ consisting of linear transformations acts naturally on any
+$d$-tuple $T=(T_1, \ldots, T_d)$ of commuting bounded linear operators by the rule: 
+
+\begin{equation}
+k\cdot T:=\big(k_1(T_1, \ldots, T_d), \ldots, k_d(T_1, \ldots, T_d)\big),\,\, k\in  K,
+\end{equation}
+
+where $k_1( z), \ldots, k_d( z)$ are linear polynomials. 
+
+If the orbit of this action modulo unitary equivalence is a singleton, then we say that $T$ is
+$K$-homogeneous. We obtain a model for a certain class of $K$-homogeneous $d$-tuple $T$  as the
+operators of multiplication by the coordinate functions $z_1,\ldots ,z_d$ on a $K$- invariant
+reproducing kernel Hilbert space of holomorphic functions defined on $\Omega$. Using this model
+we obtain a criterion for boundedness,  unitary equivalence and similarity of these $d$-tuples. 
+
+This is joint work with Soumitra Ghara and Paramita Pramanick.
 
 ---
 
