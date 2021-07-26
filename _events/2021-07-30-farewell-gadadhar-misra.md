@@ -117,7 +117,7 @@ This is joint work with Soumitra Ghara and Paramita Pramanick.
 
 #### Lecture 5​​ ​
 
-__Speaker:__ Ramiz Reza
+__Speaker:__ Ramiz Reza (IISER Pune)
 
 __Title:__ ​ Analytic $m$-isometries and weighted Dirichlet-type spaces
 
