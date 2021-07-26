@@ -18,7 +18,7 @@ Time     |  Speaker &  Title
 10.45 am - 11.25 am &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |      Somnath Hazra &nbsp;&nbsp;&nbsp; _A family of homogeneous operators in the Cowen--Douglas class over the poly-disc_
 11.35 am - 12.15 pm      |    Rajeev Gupta &nbsp;&nbsp;&nbsp; _The Caratheodory--Fejer interpolation on the polydisc_
 12.20 pm - 1.00 pm       |    Surjit Kumar &nbsp;&nbsp;&nbsp; _$K$-homogeneous tuple of operators on bounded symmetric domains_
-1.00 pm - 2.15 pm        |    Lunch
+1.00 pm - 2.15 pm        |    _Lunch_
 2.15 pm - 2.55 pm        |    Ramiz Reza &nbsp;&nbsp;&nbsp; _Analytic $m$-isometries and weighted Dirichlet-type spaces_
 3.00 pm - 3.40 pm        |    Jaydeb Sarkar &nbsp;&nbsp;&nbsp; _Analytic perturbations of unilateral shift_
 
