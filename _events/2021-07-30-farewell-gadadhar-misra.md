@@ -2,7 +2,7 @@
 title: Farewell Symposium for Prof. Gadadhar Misra
 ---
 We cordially invite you to the symposium commemorating the superannuation of Professor Gadadhar Misra (IISc Bangalore).
-The (online) symposium is organised by Profs. Subrata Shyam Roy and Shibanand Biswas of IISER, Kolkata.
+The (online) symposium is organised by Subrata Shyam Roy and Shibanand Biswas of IISER, Kolkata.
 
 The programme schedule for the symposium is as follows:
 
