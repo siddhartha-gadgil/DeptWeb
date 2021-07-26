@@ -60,7 +60,7 @@ __Abstract:__ ​  In this talk, we first describe a family of reproducing kerne
 spaces of holomorphic functions taking values in $\mathbb{C}^r$ on the unit poly-disc
 $\mathbb{D}^n$ depending upon $r+n$ parameters of positive real numbers for any natural
 number $r$. It is then shown that these reproducing kernels are quasi-invariant with
-respect to the subgroup M\"ob$\times\cdots\times$M\"ob ($n$ times) of the bi-holomorphic
+respect to the subgroup M&ouml;ob$\times\cdots\times$M&ouml;b ($n$ times) of the bi-holomorphic
 automorphism group of $\mathbb{D}^n$. Using the quasi-invariant property, these reproducing
 kernels can be described explicitly. The adjoint of the $n-$tuples of multiplication operators
 by co-ordinate functions on these Hilbert spaces turn out to be homogeneous, irreducible,
@@ -117,45 +117,30 @@ This is joint work with Soumitra Ghara and Paramita Pramanick.
 
 #### Lecture 5​​ ​
 
-__Speaker:__ Vamsi Pritham Pingali
+__Speaker:__ Ramiz Reza
 
-__Title:__ ​ Interpolation of entire functions
+__Title:__ ​ Analytic $m$-isometries and weighted Dirichlet-type spaces
 
-__Abstract:__ ​ For various reasons (applied mathematics as well as algebraic geometry) it is
-interesting to ask the following question :
-Given a holomorphic function with "finite energy" on a subset of $\\mathbb{C}^n$, can you extend it to all
-of $\\mathbb{C}^n$ still having finite energy ?
-The answer to this question is known (almost completely) for a sequence of points in $\\mathbb{C}$ with an
-$L^2$ notion of the energy. After recalling the results in $\\mathbb{C}$, we shall describe what happens in
-higher dimensions with the help of an example or two.
+__Abstract:__ ​ We introduce a weighted Dirichlet-type space associated to any $(m − 1)$-tuple of
+finite, positive, Borel measures on the unit circle. We show that every cyclic, analytic
+$m$-isometry which satisfies a certain set of operator inequalities can be represented as an
+operator of multiplication by the coordinate function on such a weighted Dirichlet-type space.
+This extends a result of Richter on the class of cyclic analytic 2-isometries. Further we explore
+various properties of functions in these weighted Dirichlet type spaces.
 
 ---
 
 #### Lecture 6​
 
-__Speaker:__ Apoorva Khare
+__Speaker:__ Jaydeb Sarkar (ISI Bangalore)
 
-__Title:__ ​ Entrywise functions and 2x2 matrices: from Schur (and his student), to Loewner (and his
-student), to Schur
+__Title:__ ​ Analytic perturbations of unilateral shift
 
-__Abstract:__ Given a smooth function $f : \[0,1) \\to \\mathbb{R}$, and scalars $u_j$, $v_j$ in $(0,1)$, I will compute the
-Taylor (Maclaurin) series of the function $F(t) := \\det A(t)$, where $A(t)$ is the $2 \times 2$ matrix
-
-`\begin{equation}
-\begin{pmatrix}
-f( t u_1 v_1 ) & f( t u_1 v_2 ) \\
-f( t u_2 v_1 ) & f( t u_2 v_2 )
-\end{pmatrix}.
-\end{equation}`
-
-C. Loewner computed the first two of these Maclaurin coefficients, in the thesis of his student
-R.A. Horn (*Trans. AMS* 1969). This was in connection with entrywise functions preserving
-positivity on matrices of a fixed dimension -- the case of all dimensions following from earlier
-work of Schur (*Crelle* 1911) and his student Schoenberg (*Duke* 1942).
-
-It turns out that an "algebraic" family of symmetric functions is hiding inside this "analysis". We
-will see how this family emerges when one computes the second-order (and each subsequent
-higher-order) Maclaurin coefficient above. This family of functions was introduced by Cauchy
-(1800s), studied by Schur in his thesis (1901), and has featured extensively in recent
-Eigenfunction Seminars (2017, 2018). As an application, I will generalize a determinant formula
-named after Cauchy, which is the special case $f(x) = 1/(1-x)$ and $t=1$ above.
+__Abstract:__ The main aim of perturbation theory is to study (and also compare the properties of)
+$S:= F + T$, where $F$ is a finite rank (or compact, Hilbert-–Schmidt, Schatten--von Neumann class,
+etc.) operator and $T$ is a tractable operator (like unitary, normal, isometry, self-adjoint, etc.)
+on some Hilbert space. I will discuss joint work with Susmita Das in which we investigate some basic
+properties of shifts ($S$) that are finite rank ($F$) perturbations of the unilateral shift ($T$) on the
+classical Hardy space. Here shift ($S$) refers to the multiplication operator by the coordinate function
+$z$ on some analytic reproducing kernel Hilbert space defined on the open unit disc in the complex plane.
+Also, we will recall and introduce all the background material needed for this talk.
