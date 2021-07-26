@@ -1,7 +1,7 @@
 ---
 title: Farewell Symposium for Prof. Gadadhar Misra
 ---
-We cordially invite you to the symposium for the superannuation of Professor Gadadhar Misra (IISc Bangalore).
+We cordially invite you to the symposium commemorating the superannuation of Professor Gadadhar Misra (IISc Bangalore).
 The (online) symposium is organised by Profs. Subrata Shyam Roy and Shibanand Biswas of IISER, Kolkata.
 
 The programme schedule for the symposium is as follows:
@@ -31,40 +31,57 @@ Each lecture will be of 40 minutes with 5 minutes break for Q&A and change of sp
 
 #### Lecture 1 ​
 
-__Speaker:__ Subhojoy Gupta
+__Speaker:__ Sameer Chavan (IIT Kanpur)
 
-__Title:__ ​ Schwarzian equation on Riemann surfaces
+__Title:__ ​ Positivity aspects of Dirichlet series
 
-__Abstract:__ There is a Riemann-Hilbert type problem for a certain second-order linear differential
-equation that is still unsolved in the case that the surface has punctures. I will describe this, and
-talk of how that relates to complex projective structures on surfaces via the Schwarzian
-derivative. No background will be assumed.
+__Abstract:__ In the first half of this talk, we discuss the space $\mathcal D[s]$
+of finite Dirichlet series considered as a subspace of continuous functions on
+$\mathbb R_+$. Unlike the space of polynomials, $\mathcal D[s]$ fails to be an
+adapted space in the sense of Choquet. This causes an obstruction in identifying
+all positive linear functionals on $\mathcal D[s]$ as moment functionals (an analog
+of the so-called Riesz--Haviland Theorem). One solution (direct) to this problem
+can be based on a well-known one-point compactification technique in moment theory.
+Another solution (rather indirect) takes us to the topics like $\log$-moment
+sequences and Helson matrices of independent interest. In the second half, we focus
+on half-plane analog of the weighted Hardy spaces. The motivating example comes from
+the Riemann zeta function. We address the problem of finding members/multipliers of
+these spaces.
 
 ---
 
 #### Lecture 2​
 
-__Speaker:__ Kaushal Verma
+__Speaker:__ Somnath Hazra (IISER Kolkata)
 
-__Title:__ ​ Polynomials that have the same Julia set
+__Title:__ ​ A family of homogeneous operators in the Cowen--Douglas class over the poly-disc
 
-__Abstract:__ ​ The purpose of this elementary talk will be to introduce some things that are known
-about the following question: is there a relation between a pair of polynomials that have the
-same Julia set?
+__Abstract:__ ​  In this talk, we first describe a family of reproducing kernel Hilbert
+spaces of holomorphic functions taking values in $\mathbb{C}^r$ on the unit poly-disc
+$\mathbb{D}^n$ depending upon $r+n$ parameters of positive real numbers for any natural
+number $r$. It is then shown that these reproducing kernels are quasi-invariant with
+respect to the subgroup M\"ob$\times\cdots\times$M\"ob ($n$ times) of the bi-holomorphic
+automorphism group of $\mathbb{D}^n$. Using the quasi-invariant property, these reproducing
+kernels can be described explicitly. The adjoint of the $n-$tuples of multiplication operators
+by co-ordinate functions on these Hilbert spaces turn out to be homogeneous, irreducible,
+mutually unitarily inequivalent and in the Cowen-Douglas class over $\mathbb{D}^n$.
 
 ---
 
 #### Lecture 3​​ ​
 
-__Speaker:__ Ved Datar
+__Speaker:__ Rajeev Gupta (IIT Goa)
 
-__Title:__ ​ Stability and canonical metrics
+__Title:__ ​ The Caratheodory--Fejer interpolation on the polydisc
 
-__Abstract:__ A general principle in complex geometry is that existence of metrics with good
-curvature properties must be related to some form of algebra-geometric stability. I will illustrate
-this by using the example of conical Einstein metrics on a two dimensional sphere with marked
-points. If time permits, I will touch upon the problem of constructing constant scalar curvature
-metrics on kahler manifolds.
+__Abstract:__ CF-Problem: Given any polynomial $p$ in $n$-variables of degree $d$, find necessary
+and sufficient conditions on the coefficients of $p$ to ensure the existence of a holomorphic
+function $h$ defined on the polydisc such that $f:=p+h$ maps the polydisc into the unit disc in the
+complex plane and that for any multi-index $I$ with length at most $d$ $h^{(I)}(\boldsymbol 0)=0.$ 
+In this talk, we give an algorithm for finding a solution to the Caratheodory--Fejer interpolation
+problem on the polydisc, whenever it exists. A necessary condition for the existence of a solution
+becomes apparent from this algorithm. Along the way a generalization of the well-known theorem
+due to Nehari will be obtained.
 
 ---
 
@@ -128,25 +145,3 @@ higher-order) Maclaurin coefficient above. This family of functions was introduc
 (1800s), studied by Schur in his thesis (1901), and has featured extensively in recent
 Eigenfunction Seminars (2017, 2018). As an application, I will generalize a determinant formula
 named after Cauchy, which is the special case $f(x) = 1/(1-x)$ and $t=1$ above.
-
----
-
-#### Lecture 7​
-
-__Speaker:__ Gautam Bharali
-
-__Title:__ ​ Hilbert and Minkowski meet Kobayashi and Royden, and...
-
-__Abstract:__ The Wolff--Denjoy theorem is a classical result that says: given a holomorphic
-self-map f of the open unit disc, exactly one of the following holds true: either f has a fixedpoint in the open unit disc or
- there exists a point p on the unit circle such that ALL orbits under
-the successive iterates of f approach p. This result is hard to generalise to higher dimensions,
-although Abate has a precise analogue for strongly convex domains. A (real) convex domain
-has an intrinsic distance associated to it -- the Hilbert distance. Beardon simplified the proof of
-Wolff and Denjoy and, in the process, showed that their conclusion in fact holds true for any
-self-map of a convex domain that is contractive with respect to the Hilbert distance. This
-strongly suggests that the Wolff--Denjoy theorem is only incidentally about holomorphic
-functions. The latter observation is one of the motivations behind separate works with Zimmer
-and Maitra. In these works, we show that the Wolff--Denjoy phenomenon extends to most
-families of domains whose metric geometry we have some understanding of. We shall have no
-time for proofs -- we shall discuss motivations, analogies and intuitions.
