@@ -15,7 +15,7 @@ __Venue:__  Microsoft Teams (online)
 Time     |  Speaker &  Title
 --- | ---
 10.00 am - 10.40 am      |    Sameer Chavan &nbsp;&nbsp;&nbsp; _Positivity aspects of Dirichlet series_
-10.45 am - 11.25 noon &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |      Somnath Hazra &nbsp; _A family of homogeneous operators in the Cowen-Douglas class over the poly-disc_
+10.45 am - 11.25 am &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |      Somnath Hazra &nbsp;&nbsp;&nbsp; _A family of homogeneous operators in the Cowen-Douglas class over the poly-disc_
 11.35 am - 12.15 pm      |    Rajeev Gupta &nbsp;&nbsp;&nbsp; _The Caratheodory-Fejer interpolation on the polydisc_
 12.20 pm - 1.00 pm       |    Surjit Kumar &nbsp;&nbsp;&nbsp; _K-homogeneous tuple of operators on bounded symmetric domains_
 1.00 pm - 2.15 pm        |    Lunch
