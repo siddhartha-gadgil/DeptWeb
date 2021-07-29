@@ -18,7 +18,7 @@ __Venue:__  Zoom (online) + YouTube (live-streaming)
 
 Time     |  Speaker &  Title
 --- | ---
-1.55 pm - 2.25 pm   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |    Juergen Herzog &nbsp;&nbsp;&nbsp; _A short survey on numerical semigroups_
+1.55 pm - 2.25 pm   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |    J&uuml;rgen Herzog &nbsp;&nbsp;&nbsp; _A short survey on numerical semigroups_
 2.30 pm - 3.00 pm     |    Jugal K. Verma &nbsp;&nbsp;&nbsp; _The Chern number of an $I$-good filtration of ideals_
 3.05 pm - 3.35 pm     |    Indranath Sengupta &nbsp;&nbsp;&nbsp; _Some results on numerical semigroup rings_
 3.35 pm - 3.50 pm     |    _Break_
@@ -52,7 +52,7 @@ Each lecture will be of 30 minutes with 5 minutes break for Q&A and change of sp
 
 #### Lecture 1 ​
 
-__Speaker:__ Juergen Herzog (University of Essen, Germany)
+__Speaker:__ J&uuml;rgen Herzog (Universit&auml;t Duisburg--Essen, Germany)
 
 __Title:__ ​ A short survey on numerical semigroups
 
@@ -73,7 +73,7 @@ Srinivasan, Patil and others. The semigroup ring $K[S]$ is a
 Cohen--Macaulay  domain, and by the theorem of Kunz it is Gorenstein if
 and only if the semigroup $S$ is symmetric. Barucci, Dobbs and Fontana
 introduced pseudo-symmetric numerical semigroups. This concept was
-generalized by Barucci and Fr\"oberg, who introduced almost symmetric
+generalized by Barucci and Fr&ounl;berg, who introduced almost symmetric
 numerical semigroups. The corresponding semigroup ring is called almost
 Gorenstein. One can define almost Gorenstein rings not only in dimension
 $1$. A full-fledged theory in this direction has been developed by Goto,
@@ -84,7 +84,29 @@ will briefly discuss these generalizations of Gorensteiness and address a
 few open problems related to this.
 
 
-
 ---
 
 #### Lecture 2​
+
+__Speaker:__ Jugal K. Verma (IIT Bombay, India)
+
+__Title:__ ​ The Chern number of an $I$-good filtration of ideals
+
+__Abstract:__ 
+Let $I$ be an $\mathfrak m$-primary ideal of a Noetherian local ring $R$.
+Let $\mathcal F$ be an $I$-good filtration of ideals. The second Hilbert
+coefficient $e_1(\mathcal F)$ of the Hilbert polynomial of $\mathcal F$
+is called its Chern number. We discuss how the vanishing of the Chern
+number characterizes Cohen--Macaulay local rings, regular local rings and
+$F$-rational local rings using the $I$-adic filtration, the filtrations
+of the integral closure of powers, and the filtration of the tight
+closure of powers of a parameter ideal. We provide a partial answer to a
+question of C.\ Huneke about $F$-rational local rings. 
+
+(This is joint work with Saipriya Dubey (IIT Bombay) and Pham Hung
+Quy (FPT University, Vietnam).)
+
+
+---
+
+#### Lecture 3​
