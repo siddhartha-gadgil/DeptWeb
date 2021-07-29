@@ -12,7 +12,7 @@ The programme schedule for the symposium is as follows:
 
 __Date:__     29th July, 2021 (Thursday)
 
-__Venue:__  Zoom (online)
+__Venue:__  Zoom (online) + YouTube (live-streaming)
 
 
 
@@ -32,7 +32,7 @@ Time     |  Speaker &  Title
 
 __Date:__     30th July, 2021 (Friday)
 
-__Venue:__  Zoom (online)
+__Venue:__  Zoom (online) + YouTube (live-streaming)
 
 
 
@@ -48,5 +48,43 @@ Time     |  Speaker &  Title
 
 Each lecture will be of 30 minutes with 5 minutes break for Q&A and change of speaker.
 
-### Abstracts
+### Abstracts for July 29
 
+#### Lecture 1 ​
+
+__Speaker:__ Juergen Herzog (University of Essen, Germany)
+
+__Title:__ ​ A short survey on numerical semigroups
+
+__Abstract:__ 
+In this lecture I will give a short survey on numerical semigroups from a
+viewpoint of commutative algebra. A numerical semigroup is a subsemigroup
+$S$ of the additive semigroup of non-negative integers. One may assume
+that the greatest common divisor of the elements of $s$ is one. Then
+there is an integer $F(S) \not\in S$, such that all integers bigger than
+$F(S)$ belong to $S$. This number is called the Frobenius number of $S$.
+For a fixed field $K$ one considers the $K$-algebra $K[S]$ which is the
+subalgebra of the polynomial ring $K[t]$  which is generated over $K$ by
+the powers $t^s$ with $s\in S$. This algebra is finitely generated and
+its relation ideal $I(S)$ is a binomial ideal. In  general it is hard to
+compute $I(S)$. I will recall what is known about this ideal by my own
+work but also by the work of Bresinsky, Delorme, Gimenez, Sengupta and
+Srinivasan, Patil and others. The semigroup ring $K[S]$ is a
+Cohen--Macaulay  domain, and by the theorem of Kunz it is Gorenstein if
+and only if the semigroup $S$ is symmetric. Barucci, Dobbs and Fontana
+introduced pseudo-symmetric numerical semigroups. This concept was
+generalized by Barucci and Fr\"oberg, who introduced almost symmetric
+numerical semigroups. The corresponding semigroup ring is called almost
+Gorenstein. One can define almost Gorenstein rings not only in dimension
+$1$. A full-fledged theory in this direction has been developed by Goto,
+Takahashi and Taniguchi. By considering the trace of the canonical ideal
+of a numerical semigroup ring one is led to define nearly Gorenstein
+numerical semigroups, as has been done by Hibi, Stamate and myself. I
+will briefly discuss these generalizations of Gorensteiness and address a
+few open problems related to this.
+
+
+
+---
+
+#### Lecture 2​
