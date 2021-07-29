@@ -262,9 +262,8 @@ the following question arises:
 
 _If $A[X,Y] \cong B[X,Y]$, does this imply $A \cong B$?_
 
-\noindent In this talk we shall present four dimensional seminormal
-affine domains over ${\mathbb C}$ for which the above question does not
-hold. 
+In this talk we shall present four dimensional seminormal affine domains
+over ${\mathbb C}$ for which the above question does not hold. 
 
 This is a joint work with Professor T. Asanuma.
 
