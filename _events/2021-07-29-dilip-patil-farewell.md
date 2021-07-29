@@ -101,7 +101,7 @@ number characterizes Cohen--Macaulay local rings, regular local rings and
 $F$-rational local rings using the $I$-adic filtration, the filtrations
 of the integral closure of powers, and the filtration of the tight
 closure of powers of a parameter ideal. We provide a partial answer to a
-question of C.\ Huneke about $F$-rational local rings. 
+question of C. Huneke about $F$-rational local rings. 
 
 (This is joint work with Saipriya Dubey (IIT Bombay) and Pham Hung
 Quy (FPT University, Vietnam).)
