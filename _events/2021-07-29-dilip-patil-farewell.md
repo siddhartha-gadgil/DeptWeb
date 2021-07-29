@@ -73,7 +73,7 @@ Srinivasan, Patil and others. The semigroup ring $K[S]$ is a
 Cohen--Macaulay  domain, and by the theorem of Kunz it is Gorenstein if
 and only if the semigroup $S$ is symmetric. Barucci, Dobbs and Fontana
 introduced pseudo-symmetric numerical semigroups. This concept was
-generalized by Barucci and Fr&ounl;berg, who introduced almost symmetric
+generalized by Barucci and Fr&ouml;berg, who introduced almost symmetric
 numerical semigroups. The corresponding semigroup ring is called almost
 Gorenstein. One can define almost Gorenstein rings not only in dimension
 $1$. A full-fledged theory in this direction has been developed by Goto,
@@ -110,3 +110,82 @@ Quy (FPT University, Vietnam).)
 ---
 
 #### Lecture 3​
+
+__Speaker:__ Indranath Sengupta (IIT Gandhinagar, India)
+
+__Title:__ ​ Some results on numerical semigroup rings
+
+__Abstract:__ 
+We will discuss Professor Patil's contribution in the field of numerical
+semigroups and my association with the subject through some old and
+recent results.
+
+
+---
+
+#### Lecture 4​
+
+__Speaker:__ Rajendra V. Gurjar (IIT Bombay, India)
+
+__Title:__ ​ $\mathbb{A}^1$-fibrations on affine varieties
+
+__Abstract:__ 
+
+We will begin with the fundamental result of Fujita--Miyanishi--Sugie that
+a smooth affine surface $V$ has log Kodaira dimension $-\infty$ if and
+only if $V$ has an $\mathbb{A}^1$-fibration over a smooth curve.
+Generalizations of this to singular affine surfaces and higher
+dimensional affine varieties raise non-trivial questions. We will
+describe some results in these directions. Connection with
+locally-nilpotent derivations will be mentioned. Use of topological
+arguments for proving some of these results will be indicated.
+
+
+---
+
+#### Lecture 5​
+
+__Speaker:__ Martin Kreuzer (Universit\&auml;t Passau, Germany)
+
+__Title:__ ​ Differential methods for $0$-dimensional schemes
+
+__Abstract:__ 
+Given a $0$-dimensional subscheme $X$ in $\mathbb{P}^n$, the traditional
+way to study the geometry of $X$ is to look at algebraic properties of
+its homogeneous coordinate ring $R = K[x_0, \ldots, x_n]/I_X$ and the
+structure of the canonical module of $R$.
+
+Here we introduce and exploit a novel approach: we look at the K\"ahler
+differential algebra $\Omega_{R/K}$ which is the exterior algebra over
+the K\"ahler differential module $\Omega^1_{R/K}$ of $X$. Based on a
+careful examination of the embedding of R into its normal closure and the
+corresponding embedding of $\Omega^1_{R/K}$, we provide new bounds for
+the regularity index of the K\"ahler differential module and connect it
+to the geometry of $X$ in low embedding dimensions.
+
+
+---
+
+#### Lecture 6​
+
+__Speaker:__ Leslie Roberts (Queen's University, Canada)
+
+__Title:__ ​ Ideal generators of projective monomial curves in $\mathbb{P}^3$
+
+__Abstract:__ 
+I discuss ideal generators of projective monomial curves of degree $d$ in
+$\mathbb{P}^3$, based on the paper P.\ Li, D.P.\ Patil and L.\ Roberts,
+\textit{Bases and ideal generators for projective monomial curves},
+Communications in Algebra, 40(1), pages 173--191, 2012, which was my last
+paper with Dilip. I also discuss more recent observations by Ping Li and
+myself.
+
+
+---
+
+
+### Abstracts for July 30
+
+#### Lecture 1 ​
+
+__Speaker:__ J&uuml;rgen Herzog (Universit&auml;t Duisburg--Essen, Germany)
