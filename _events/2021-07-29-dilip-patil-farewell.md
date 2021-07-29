@@ -130,7 +130,6 @@ __Speaker:__ Rajendra V. Gurjar (IIT Bombay, India)
 __Title:__ ​ $\mathbb{A}^1$-fibrations on affine varieties
 
 __Abstract:__ 
-
 We will begin with the fundamental result of Fujita--Miyanishi--Sugie that
 a smooth affine surface $V$ has log Kodaira dimension $-\infty$ if and
 only if $V$ has an $\mathbb{A}^1$-fibration over a smooth curve.
@@ -189,3 +188,72 @@ myself.
 #### Lecture 1 ​
 
 __Speaker:__ Shreedevi Masuti (IIT Dharwad, India)
+
+__Title:__ ​ The Waring rank of binary binomial forms
+
+__Abstract:__ 
+It is well known that every form $F$ of degree $d$ over a field can be
+expressed as a linear combination of $d$th powers of linear forms. The
+least number of summands required for such an expression of $F$ is known
+as the Waring rank of $F$. Computing the Waring rank of a form is a
+classical problem in mathematics. In this talk we will discuss the Waring
+rank of binary binomial forms. This is my joint work with L. Brustenga.
+
+
+---
+
+#### Lecture 2​
+
+__Speaker:__ Parnashree Ghosh (ISI Kolkata, India)
+
+__Title:__ ​ The Chern number of an $I$-good filtration of ideals
+
+__Abstract:__ 
+Let $I$ be an $\mathfrak m$-primary ideal of a Noetherian local ring $R$.
+Let $\mathcal F$ be an $I$-good filtration of ideals. The second Hilbert
+coefficient $e_1(\mathcal F)$ of the Hilbert polynomial of $\mathcal F$
+is called its Chern number. We discuss how the vanishing of the Chern
+number characterizes Cohen--Macaulay local rings, regular local rings and
+$F$-rational local rings using the $I$-adic filtration, the filtrations
+of the integral closure of powers, and the filtration of the tight
+closure of powers of a parameter ideal. We provide a partial answer to a
+question of C.\ Huneke about $F$-rational local rings. 
+
+(This is joint work with Saipriya Dubey (IIT Bombay) and Pham Hung
+Quy (FPT University, Vietnam).)
+
+
+---
+
+#### Lecture 3​
+
+__Speaker:__ Kriti Goel (IIT Gandhinagar, India)
+
+__Title:__ ​ Some results on numerical semigroup rings
+
+__Abstract:__ 
+We will discuss Professor Patil's contribution in the field of numerical
+semigroups and my association with the subject through some old and
+recent results.
+
+
+---
+
+#### Lecture 4​
+
+__Speaker:__ Neena Gupta (ISI Kolkata, India)
+
+__Title:__ ​ $\mathbb{A}^1$-fibrations on affine varieties
+
+__Abstract:__ 
+We will begin with the fundamental result of Fujita--Miyanishi--Sugie that
+a smooth affine surface $V$ has log Kodaira dimension $-\infty$ if and
+only if $V$ has an $\mathbb{A}^1$-fibration over a smooth curve.
+Generalizations of this to singular affine surfaces and higher
+dimensional affine varieties raise non-trivial questions. We will
+describe some results in these directions. Connection with
+locally-nilpotent derivations will be mentioned. Use of topological
+arguments for proving some of these results will be indicated.
+
+
+---
