@@ -144,7 +144,7 @@ arguments for proving some of these results will be indicated.
 
 #### Lecture 5​
 
-__Speaker:__ Martin Kreuzer (Universit\&auml;t Passau, Germany)
+__Speaker:__ Martin Kreuzer (Universit&auml;t Passau, Germany)
 
 __Title:__ ​ Differential methods for $0$-dimensional schemes
 
@@ -154,12 +154,12 @@ way to study the geometry of $X$ is to look at algebraic properties of
 its homogeneous coordinate ring $R = K[x_0, \ldots, x_n]/I_X$ and the
 structure of the canonical module of $R$.
 
-Here we introduce and exploit a novel approach: we look at the K\&auml;hler
+Here we introduce and exploit a novel approach: we look at the K&auml;hler
 differential algebra $\Omega_{R/K}$ which is the exterior algebra over
-the K\&auml;hler differential module $\Omega^1\_{R/K}$ of $X$. Based on a
+the K&auml;hler differential module $\Omega^1\_{R/K}$ of $X$. Based on a
 careful examination of the embedding of R into its normal closure and the
 corresponding embedding of $\Omega^1\_{R/K}$, we provide new bounds for
-the regularity index of the K\&auml;hler differential module and connect it
+the regularity index of the K&auml;hler differential module and connect it
 to the geometry of $X$ in low embedding dimensions.
 
 
