@@ -155,12 +155,12 @@ way to study the geometry of $X$ is to look at algebraic properties of
 its homogeneous coordinate ring $R = K[x_0, \ldots, x_n]/I_X$ and the
 structure of the canonical module of $R$.
 
-Here we introduce and exploit a novel approach: we look at the K\"ahler
+Here we introduce and exploit a novel approach: we look at the K\&auml;hler
 differential algebra $\Omega_{R/K}$ which is the exterior algebra over
-the K\"ahler differential module $\Omega^1_{R/K}$ of $X$. Based on a
+the K\&auml;hler differential module $\Omega^1\_{R/K}$ of $X$. Based on a
 careful examination of the embedding of R into its normal closure and the
-corresponding embedding of $\Omega^1_{R/K}$, we provide new bounds for
-the regularity index of the K\"ahler differential module and connect it
+corresponding embedding of $\Omega^1\_{R/K}$, we provide new bounds for
+the regularity index of the K\&auml;hler differential module and connect it
 to the geometry of $X$ in low embedding dimensions.
 
 
@@ -174,8 +174,8 @@ __Title:__ ​ Ideal generators of projective monomial curves in $\mathbb{P}^3$
 
 __Abstract:__ 
 I discuss ideal generators of projective monomial curves of degree $d$ in
-$\mathbb{P}^3$, based on the paper P.\ Li, D.P.\ Patil and L.\ Roberts,
-\textit{Bases and ideal generators for projective monomial curves},
+$\mathbb{P}^3$, based on the paper P. Li, D.P. Patil and L. Roberts,
+_Bases and ideal generators for projective monomial curves_,
 Communications in Algebra, 40(1), pages 173--191, 2012, which was my last
 paper with Dilip. I also discuss more recent observations by Ping Li and
 myself.
@@ -188,4 +188,4 @@ myself.
 
 #### Lecture 1 ​
 
-__Speaker:__ J&uuml;rgen Herzog (Universit&auml;t Duisburg--Essen, Germany)
+__Speaker:__ Shreedevi Masuti (IIT Dharwad, India)
