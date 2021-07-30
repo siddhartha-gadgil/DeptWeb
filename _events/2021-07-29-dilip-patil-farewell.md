@@ -18,7 +18,7 @@ __Venue:__  Zoom (online) + YouTube (live-streaming)
 
 Time     |  Speaker &  Title
 --- | ---
-1.55 pm - 2.25 pm   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |    J&uuml;rgen Herzog &nbsp;&nbsp;&nbsp; _A short survey on numerical semigroups_
+1.55 pm - 2.25 pm   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |    J&uuml;rgen Herzog &nbsp;&nbsp;&nbsp; _A short survey on numerical semigroups_ <a href="{{site.baseurl}}/slides/2021-07-PatilFest/talk-Herzog.pdf">slides</a>
 2.30 pm - 3.00 pm     |    Jugal K. Verma &nbsp;&nbsp;&nbsp; _The Chern number of an $I$-good filtration of ideals_
 3.05 pm - 3.35 pm     |    Indranath Sengupta &nbsp;&nbsp;&nbsp; _Some results on numerical semigroup rings_
 3.35 pm - 3.50 pm     |    _Break_
