@@ -42,7 +42,7 @@ Time     |  Speaker &  Title
 10.35 am - 11.05 am &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |    Parnashree Ghosh &nbsp;&nbsp;&nbsp; _Homogeneous locally nilpotent derivations of rank $2$ and $3$ on $k[X,Y,Z]$_ &nbsp; [<a target="_blank" href="{{site.baseurl}}/slides/2021-07-PatilFest/slides-Ghosh.pdf">slides</a>] &nbsp; [<a target="_blank" href="https://www.youtube.com/watch?v=ss9mnIhhyK4&list=PLQXtaLhI1-1r3BX4Nl_3CaNHU-A7CXbmi&index=8">video</a>]
 11.05 am - 11.15 am     |    _Break_
 11.15 am - 11.45 am     |    Kriti Goel &nbsp;&nbsp;&nbsp; _On Row-Factorization matrices and generic ideals_ &nbsp; [<a target="_blank" href="{{site.baseurl}}/slides/2021-07-PatilFest/slides-Goel.pdf">slides</a>] &nbsp; [<a target="_blank" href="https://www.youtube.com/watch?v=JHe3h9YrEyk&list=PLQXtaLhI1-1r3BX4Nl_3CaNHU-A7CXbmi&index=9">video</a>]
-11.50 pm - 12.20 pm     |    Neena Gupta &nbsp;&nbsp;&nbsp; _On $2$-stably isomorphic four dimensional affine domains_ &nbsp; [<a target="_blank" href="{{site.baseurl}}/slides/2021-07-PatilFest/slides-Gupta.pdf">slides</a>] &nbsp; [<a target="_blank" href="https://www.youtube.com/watch?v=I_y8NfvHNzw&list=PLQXtaLhI1-1r3BX4Nl_3CaNHU-A7CXbmi&index=10">video</a>]
+11.50 pm - 12.20 pm     |    Neena Gupta &nbsp;&nbsp;&nbsp; _On $2$-stably isomorphic four dimensional affine domains_ &nbsp; [<a target="_blank" href="https://www.youtube.com/watch?v=I_y8NfvHNzw&list=PLQXtaLhI1-1r3BX4Nl_3CaNHU-A7CXbmi&index=10">video</a>]
 
 ---
 
