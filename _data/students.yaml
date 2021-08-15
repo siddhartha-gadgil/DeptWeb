@@ -513,7 +513,22 @@
   user-id: arnabpalp
   image: true
 
+- name: Chaithra P 
+  year-of-joining: 2021
+  programme: PhD
+  user-id: chaithrap 
+  image: true
 
+- name: Lalit Thuwal
+  year-of-joining: 2021
+  programme: PhD
+  user-id: lalitthuwal
+  image: true
 
+- name: Kumar Sannidhya Shukla
+  year-of-joining: 2021
+  programme: PhD
+  user-id: kumarshukla
+  image: true
 
-
+  
