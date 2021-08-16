@@ -531,4 +531,30 @@
   user-id: kumarshukla
   image: true
 
+- name: Yash Chauhan
+  year-of-joining: 2021
+  programme: Integrated PhD
+  user-id: yashchauhan
+  image: true
   
+- name: Arghan Dutta
+  year-of-joining: 2021
+  programme: Integrated PhD
+  user-id: arghandutta
+  image: true
+
+- name: Arghyadeep Chatterjee
+  year-of-joining: 2021
+  programme: Integrated PhD
+  user-id: arghyadeepc
+  image: true
+
+- name: Sushobhan Das
+  year-of-joining: 2021
+  programme: Integrated PhD
+  user-id: sushobhandas
+  image: true
+  
+
+
+
