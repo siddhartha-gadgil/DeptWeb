@@ -1,6 +1,6 @@
 ---
 speaker: Mihir Sheth (IISc Mathematics)
-title: "mod `$p$` local Langlands correspondence for `$GL_2$`"
+title: "mod p local Langlands correspondence for `$GL_2$` "
 date: 3 September, 2021
 time: 2 pm
 series: "Number Theory Seminar"
