@@ -51,6 +51,16 @@ a.geometry-topology-seminar:focus {
   text-decoration: underline;
 }
 
+.number-theory-seminar {
+  color: teal;
+}
+
+a.number-theory-seminar:hover,
+a.number-theory-seminar:focus {
+  color: teal;
+  text-decoration: underline;
+}
+
 .analysis-seminar {
   color: darkred;
 }
