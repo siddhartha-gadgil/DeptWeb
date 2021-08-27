@@ -52,12 +52,12 @@ a.geometry-topology-seminar:focus {
 }
 
 .number-theory-seminar {
-  color: teal;
+  color: #0437F2;
 }
 
 a.number-theory-seminar:hover,
 a.number-theory-seminar:focus {
-  color: teal;
+  color: black;
   text-decoration: underline;
 }
 
