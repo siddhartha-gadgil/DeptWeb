@@ -3,7 +3,7 @@ import ammonite.ops._
 val pubFile = pwd / "_data" / "publications.bib"
 
 def entries(s: String) =
-  s.split("@article").tail.map{x => "@article"+x}.toVector
+  s.split("@").tail.map{x => "@"+x}.toVector
 
 val mrReg = "MR[0-9]+".r
 
@@ -28,4 +28,7 @@ def save() = {
   write.over(pubFile, view(emap))
   bib2yaml.run
 }
+
+update()
+save()
 
