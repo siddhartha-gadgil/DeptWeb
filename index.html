@@ -123,9 +123,7 @@
         {% capture timing %}{{ start | date: "%Y%m%dT%H%M%S" }}/{{ finish | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
         {% capture fulltitle %}{{ sem.speaker }} : {{ sem.title}}{% endcapture %}
         <div class="row mb-1">
-          <a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt={{ start | date: "
-            %Y-%m-%dT%H:%M:%S" }}&enddt={{ finish | date: "%Y-%m-%dT%H:%M:%S" }}&subject={{fulltitle | uri_escape
-            }}&body={{ sem.content | uri_escape }}&ctz=Asia/Calcutta" target="blank"
+          <a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt={{ start | date: "%Y-%m-%dT%H:%M:%S" }}&enddt={{ finish | date: "%Y-%m-%dT%H:%M:%S" }}&subject={{fulltitle | uri_escape}}&body={{ sem.content | uri_escape }}&ctz=Asia/Calcutta" target="blank"
             class="pull-right btn btn-success ml-2">Outlook calendar</a>
           <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&details={{ sem.content | uri_escape }}&ctz=Asia/Calcutta"
             target="blank" class="ml-2 pull-right btn btn-info">Google calendar</a>
