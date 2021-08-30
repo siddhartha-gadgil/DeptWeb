@@ -39,24 +39,6 @@
   pages:
 
 
-- author: Khare, Apoorva
-  title: Generalized nil-Coxeter algebras
-  fjournal: "Séminaire Lotharingien de Combinatoire"
-  journal: "S&eacute;m. Lothar. Combin."
-  volume:  80B,
-  article: "#29"
-  year: 2018
-  url: 'http://www.mat.univie.ac.at/~slc/wpapers/FPSAC2018/29-Khare.html'
-
-- author: Khare, Apoorva and Tao, Terence
-  title: Schur polynomials, entrywise positivity preservers, and weak majorization.
-  fjournal: "Séminaire Lotharingien de Combinatoire"
-  journal: "S&eacute;m. Lothar. Combin."
-  volume:  80B,
-  article: "#14"
-  year: 2018
-  url: 'http://www.mat.univie.ac.at/~slc/wpapers/FPSAC2018/14-Khare-Tao.html'
-
 - author: "Rangarajan, G."
   title: "Symplectic integration of nonlinear Hamiltonian systems"
   journal: "Pramana -- Journal of Physics"
