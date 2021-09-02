@@ -1,6 +1,6 @@
 ---
 speaker: Aditya Karnataki (BICMR)
-title: "Families of $(\phi, \tau)$-modules and Galois representations"
+title: "Families of `$(\varphi, \tau)$`-modules and Galois representations"
 date: 8 October, 2021
 time: 2 pm
 series: "Number Theory Seminar"
