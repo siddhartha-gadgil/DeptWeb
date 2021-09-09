@@ -83,6 +83,9 @@ jan2022:
   - name: Algebraic Number Theory
     code: MA 313
     instructor: Soumya Das
+  - name: Analysis III
+    code: MA 321
+    instructor: Swarnendu Sil
   - name: Topics in Harmonic Analysis II
     code: MA 322
     instructor: Thangavelu
@@ -93,15 +96,9 @@ jan2022:
   - name: Algebraic Topology
     code: MA 332 
     instructor: Siddhartha Gadgil
-  - name: Advanced PDE and FEM
-    code: MA 347
-    instructor: T. Gudi
   - name: "Topics in Geometric Topology: Geometric structures"
     code: MA 355
     instructor: Subhojoy Gupta
-  - name: Introduction to Calculus of Variations
-    code: MA 374
-    instructor: Swarnendu Sil
   - name: Coxeter Groups 
     code: MA 386
     instructor: R. Venkatesh
