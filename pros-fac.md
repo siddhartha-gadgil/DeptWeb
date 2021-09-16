@@ -92,7 +92,7 @@ in mind.
    standards in hiring. You might also find it useful to know that, since September 2015, IISc has
    adopted a new tenure system, details of which are given [here](http://www.iisc.ac.in/tenure-track-assessment/).
 
-2. Please take a look at [this website](https://sites.google.com/site/newfacultyiisc/home) for a sense
+2. Please take a look at [this website](https://sites.google.com/site/newfacultyiisc/homepage?authuser=0) for a sense
    of how things are at IISc and to get a sense of the recruitment process here (click on "Recruitment"
    in the navigation bar). While the page "[Recruitment](https://sites.google.com/site/newfacultyiisc/recruitment)" 
    is not a webpage authorized by IISc, the information on it is fairly representative of applications to the Department of Mathematics.
