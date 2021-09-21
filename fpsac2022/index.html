@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,10 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="author" content="Arvind Ayyer" />
     <title>FPSAC 2022</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png"/>
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -20,44 +21,413 @@
         rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/custom.scss" rel="stylesheet" />
+    <link href="scss/custom.scss" rel="stylesheet" />
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">FPSAC 2022</a>
+            <a class="navbar-brand js-scroll-trigger" style="color:#808080" href="#page-top">FPSAC 2022</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#speakers">Speakers</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#downloads">Downloads</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Register</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#committee">Committees</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dates">Deadlines</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Registration</a></li>
+                    <!--<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="contact-dropdown" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registration</a>
+                    <div class="dropdown-menu js-scroll-trigger" aria-labelledby="contact-dropdown">
+                        <a class="dropdown-item js-scroll-trigger" href="#support">Financial Support</a>
+                    </div>-->
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="local-info-dropdown" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
+                        <div class="dropdown-menu js-scroll-trigger" aria-labelledby="local-info-dropdown">
+                           <a class="dropdown-item js-scroll-trigger" href="#localinfovisa">Accommodation</a>
+                           <a class="dropdown-item js-scroll-trigger" href="#localinfobanq">Visa Information</a>
+                           <a class="dropdown-item js-scroll-trigger" href="#localinfotour">Social Events</a>
+                           <a class="dropdown-item js-scroll-trigger" href="#localinfoacco">Other Conferences</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#submission">Submission</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <!-- Masthead-->
     <header class="masthead">
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-10 align-self-end">
                     <h1 class="text-uppercase text-white font-weight-bold">Welcome to FPSAC 2022</h1>
+                    <p class="text-white-75 font-weight-bold mb-3"> 33<sup>rd</sup> International Conference on Formal
+                        Power Series & Algebraic Combinatorics</p>
+                    <p class="text-white-75 font-weight-bold mb-3" style="font-size:15px;">Topics include all aspects of
+                        combinatorics and their relation to other parts of
+                        <br />mathematics, physics, computer science, chemistry and biology
+                    </p>
+                    <p class="text-white-75 font-weight-bold mb-3" style="font-size:25px;">A satellite conference of <a class="nav-item" href="http://icm2022.org/">ICM
+                        2022</a></p>
+                    <p class="text-white-75 font-weight-bold mb-3" style="font-size:15px;">For more information visit <a class="nav-item" href="http://fpsac.org/">FPSAC Main Website</a></p>
                     <hr class="divider my-4" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
-                    <p class="text-white-75 font-weight-light mb-5">July 18–22, 2022, Indian Institute of Science,
+                    <p class="text-white-75 font-weight-bold mb-5">July 18–22, 2022, Indian Institute of Science,
                         Bengaluru, India</p>
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Register</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#submission">Submit</a>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- Speakers -->
+    <section class="page-section bg-primary" id="speakers">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">Speakers</h2>
+                    <hr class="divider light my-4" />
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a href="http://www.math.iisc.ac.in/~khare/">Apoorva
+                            Khare</a></h3>
+                    <p style="text-align: center;">Indian Institute of Science</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a href="http://math.ntnu.edu.tw/~speu/">Sen-Peng
+                            Eu</a></h3>
+                    <p style="text-align: center;">National Taiwan Normal University</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a
+                            href="https://psniady.impan.pl/data/uploads/cv/list-of-publications-2017.pdf">Piotr
+                            Sniady</a></h3>
+                    <p style="text-align: center;">Polish Academy of Sciences</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a href="https://clvinzan.math.ncsu.edu/">Cynthia
+                            Vinzant</a></h3>
+                    <p style="text-align: center;">North Carolina State University</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a href="https://uqam.academia.edu/HughThomas">Hugh
+                            Thomas</a></h3>
+                    <p style="text-align: center;">L'Université du Québec à Montréal</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a
+                            href="http://sites.math.washington.edu/~thomas/">Rekha Thomas</a></h3>
+                    <p style="text-align: center;">University of Washington</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a href="https://www.mellit.org/">Anton Mellit</a>
+                    </h3>
+                    <p style="text-align: center;">University of Vienna</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a href="https://secure.math.ubc.ca/~angel/">Omer
+                            Angel</a></h3>
+                    <p style="text-align: center;">University of British Columbia</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h3 style="text-align: center;" class="h4 mb-2"><a href="http://web.mat.bham.ac.uk/D.Kuehn/">Daniela Kuhn</a></h3>
+                    <p style="text-align: center;">University of Birmingham</p>
+                    <!--<p style="text-align: center;">TBA</p> -->
+                </div>
+            </div>
+    </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Committee-->
+    <section class="page-section" id="committee">
+        <div class="container">
+           <div class="row justify-content-center">
+                <div class="col-lg-8 border-right">
+                    <div class="row">
+                        <div class="col">
+                            <h2 style="text-align: center;">Program Committee</h2>
+                            <hr class="divider my-4" />
+                        </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-lg-6">
+                            <p style="text-align: center;"><a href="https://people.kth.se/~linusson/">Svante Linusson</a><br><strong>Co-chair</strong> </br>KTH Royal Institute of Technology, Stockholm</p>
+                            <p style="text-align: center;"><a href="https://www.mat.univie.ac.at/~ifischer/">Ilse Fischer</a><br><strong>Co-chair</strong> </br>University of Vienna</p>
+                            <p style="text-align: center;"><a href="https://www.labri.fr/perso/aval/">Jean-Christophe Aval</a></br>CNRS, Université de Bordeaux</p>
+                            <p style="text-align: center;"><a href="http://faculty.wwu.edu/~bergeta/">AndrewBerget</a> </br>Western Washington University</p>
+                            <p style="text-align: center;"><a href="https://www.ipht.fr/en/Pisp/jeremie.bouttier/index_en.php">Jeremie Bouttier</a></br>CEA Saclay and ENS de Lyon</p>
+                            <p style="text-align: center;"><a href="https://www.mat.univie.ac.at/~cesar/">Cesar Ceballos</a> </br>TU Graz</p>
+                            <p style="text-align: center;"><a href="https://www.irif.fr/~chapuy/">Guillaume Chapuy</a></br>Université de Paris</p>
+                            <p style="text-align: center;"><a href="https://community.dur.ac.uk/sunil.chhita/">Sunil Chhita</a> </br>Durham University</p>
+                            <p style="text-align: center;"><a href="https://math.berkeley.edu/~corteel/">Sylvie Corteel</a></br>University of California Berkeley</p>
+                            <p style="text-align: center;"><a href="http://dleon.combinatoria.co/">Rafael S. González D'León</a> </br>Universidad Sergio Arboleda</p>
+                            <p style="text-align: center;"><a href="http://math.iisc.ac.in/~dattab/">Basudeb Datta</a></br>Indian Institute of Science, Bangalore</p>
+                            <p style="text-align: center;"><a href="https://faculty.math.illinois.edu/~philippe/">Philippe di Francesco</a> </br>University of Illinois at Urbana-Champaign</p>
+                            <p style="text-align: center;"><a href="http://math.univ-lyon1.fr/~dousse/">Jehanne Dousse</a></br>Université Lyon 1</p>
+                            <p style="text-align: center;"><a href="https://maths.ucd.ie/~dukes/">Mark Dukes</a> </br>University College Dublin</p>
+                            <p style="text-align: center;"><a href="http://www.lix.polytechnique.fr/Labo/Eric.Fusy/">Éric Fusy</a> </br>Ecole Polytechnique</p>
+                        </div>
+                        <div class="col-lg-6">       
+                            <p style="text-align: center;"><a href="http://www.unk.edu/academics/math/faculty-staff/dr-jia-huang.php">Jia Huang</a></br>Sungkyunkwan University</p>
+                            <p style="text-align: center;"><a href="https://www.irif.fr/~josuat/">Matthieu Josuat-Vergès</a></br>Université de Paris</p>     
+                            <p style="text-align: center;"><a href="https://sites.google.com/site/mathjskim/">Jang Soo Kim</a></br>Universidad Sergio Arboleda</p>   
+                            <p style="text-align: center;"><a href="http://fac-staff.seattleu.edu/klees/web/">Steven Klee</a></br>Seattle University</p>
+                            <p style="text-align: center;"><a href="http://www.koutschan.de/">Christoph Koutschan</a></br>RICAM, Austria</p>
+                            <p style="text-align: center;"><a href="https://homepages.warwick.ac.uk/staff/D.Maclagan/">Diane Maclagan</a></br>University of Warwick</p>
+                            <p style="text-align: center;"><a href="https://sites.google.com/view/ahmorales/">Alejandro Morales</a></br>University of Massachusetts, Amherst</p>
+                            <p style="text-align: center;"><a href="http://math.univ-lyon1.fr/~nadeau/">Philippe Nadeau</a></br>Université Lyon 1</p>
+                            <p style="text-align: center;"><a href="http://math.huji.ac.il/~nevo/">Eran Nevo</a></br>Hebrew University</p>
+                            <p style="text-align: center;"><a href="https://www.math.nagoya-u.ac.jp/en/people/download/faculty/okada_soichi_en.pdf">Soichi Okada</a></br>Nagoya University</p>
+                            <p style="text-align: center;"><a href="https://www.lri.fr/~pons/en/">Viviane Pons</a></br>Université Paris-Sud</p>
+                            <p style="text-align: center;"><a href="https://www.imsc.res.in/~amri/">Amritanshu Prasad</a></br>The Institute of Mathematical Sciences, Chennai</p>
+                            <p style="text-align: center;"><a href="https://www.mat.univie.ac.at/~schlosse/">Michael Schlosser</a></br>University of Vienna</p>
+                            <p style="text-align: center;"><a href="http://arminstraub.com/">Armin Straub</a></br>Hebrew University</p>
+                            <p style="text-align: center;"><a href="https://www.math.upenn.edu/~vvtewari/">Vasu Tewari</a></br>University of Pennsylvania</p>
+                            <p style="text-align: center;"><a href="https://www.math.upenn.edu/~vvtewari/">Jiang Zeng</a></br>University of Pennsylvania</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="col-sm">
+                    <h2 style="text-align: center;">Organizing Committee</h2>
+                    <hr class="divider my-4" />
+                <div class="col-sm">
+                    <p style="text-align: center;"><a href="http://www.math.iisc.ernet.in/~arvind/">Arvind Ayyer</a><br><strong>Chair</strong></br>Indian Institute of Science, Bengaluru</p>
+                    <p style="text-align: center;"><a href="https://www.gbhatnagar.com/">Gaurav Bhatnagar</a></br>Jawaharlal Nehru University, Delhi</p>
+                    <p style="text-align: center;"><a href="http://people.iitgn.ac.in/~adixit/">Atul Dixit</a></br>Indian Institute of Technology, Gandhinagar</p>
+                    <p style="text-align: center;"><a href="https://www.renyi.hu/~ohkatona/">Gyula O. H. Katona</a></br>Hungarian Academy of Sciences</p>
+                    <p style="text-align: center;"><a href="https://madhumath.wordpress.com/2016/05/06/homepage-madhusudan-manjunath/">Madhusudan Manjunath</a></br>Indian Institute of Technology, Bombay</p>
+                    <p style="text-align: center;"><a href="https://home.iitm.ac.in/naru/">Narayanan N.</a></br>Indian Institute of Technology, Madras</p>
+                    <p style="text-align: center;"><a href="https://www.imsc.res.in/~knr/">K. N. Raghavan</a></br>The Institute of Mathematical Sciences, Chennai</p>
+                    <p style="text-align: center;"><a href="http://math.iisc.ac.in/~rvenkat/">Venkatesh Rajendran</a></br>Indian Institute of Science, Bangalore</p>
+                    <p style="text-align: center;"><a href="https://sites.google.com/site/poojasingla7/Home">Pooja Singla</a></br>Indian Institute of Technology, Kanpur</p>
+                    <p style="text-align: center;"><a href="http://www.math.iitb.ac.in/~krishnan/">Sivaramakrishnan Sivasubramanian</a></br>Indian Institute of Technology, Bombay</p>
+                    <p style="text-align: center;"><a href="https://math.depaul.edu/bridget/">Bridget Tenner</a><br><strong>Executive Committee Liaison</strong></br>DePaul University</p>
+                    <p style="text-align: center;"><a href="https://www.imsc.res.in/~svis/">S. Viswanath</a></br>The Institute of Mathematical Sciences, Chennai</p>
+                    <p style="text-align: center;"><a href="https://personal.utdallas.edu/~nxw170830/">Nathan Williams</a><br><strong>Funding Coordinator</strong> </br>University of Texas at Dallas</p>
+                </div>
+                </div>
+            </div>
+    </section>
+
+    
+    <!-- Dates-->
+    <section class="page-section bg-dark" id="dates">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mb-4">Deadlines</h2>
+                    <hr class="divider light my-4" />
+                    <p class="text-white-50 mb-4">
+                        <dt class="text-white-50 mb-4">Paper/poster submissions open</dt>
+                        <dd class="text-white-50 mb-4"><li>October 15, 2020</li></dd>
+
+                        <dt class="text-white-50 mb-4">Deadline for paper/poster submissions</dt>
+                        <dd class="text-white-50 mb-4"><li> November 15, 2020</li></dd>
+
+                        <dt class="text-white-50 mb-4">Submission decisions</dt>
+                        <dd class="text-white-50 mb-4"><li> February 15, 2021</li></dd>
+
+                        <dt class="text-white-50 mb-4">Deadline for travel support requests</dt>
+                        <dd class="text-white-50 mb-4"><li> March 15, 2021</li></dd>
+
+                        <dt class="text-white-50 mb-4">Deadline for software demonstration submissions</dt>
+                        <dd class="text-white-50 mb-4"><li> March 15, 2021</li></dd>
+
+                        <dt class="text-white-50 mb-4">Deadline for final extended abstract submissions</dt>
+                        <dd class="text-white-50 mb-4"><li> April 1, 2021</li></dd>
+
+                        <dt class="text-white-50 mb-4">Financial support decisions</dt>
+                        <dd class="text-white-50 mb-4"><li> April 15, 2021</li></dd>
+
+                        <dt class="text-white-50 mb-4">Youth hostel reservations</dt>
+                        <dd class="text-white-50 mb-4"><li> May 1, 2021</li></dd>
+
+                        <dt class="text-white-50 mb-4">Early-bird registration ends</dt>
+                        <dd class="text-white-50 mb-4"><li> May 15, 2021</li></dd>
+
+                        <dt class="text-white-50 mb-4">Conference</dt>
+                        <dd class="text-white-50 mb-4"><li> July 18–22, 2021</li></dd>
+                    </p>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Registration-->
+
+    <section class="page-section bg-primary" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mb-4">Registration</h2>
+                    <hr class="divider light my-4" />
+                    <p class="text-white-50 mb-4">Coming soon</p>
+                    <!--<a class="btn btn-light btn-xl js-scroll-trigger" href="https://drive.google.com/file/d/1Rac9SYQ0CkGxJ80XnBs7S2rxrWNcquog/view?usp=sharing"
+                    target="_blank">Download Guidelines</a>-->
+                </div>
+            </div>
+        </div>
+                            <!--<p class="text-muted mb-5">Fill the form for registering with us</p>
+                    <p class="text-muted mb-5">Cancellation policy: To cancel your reservation, send an e-mail to
+                        fpsac19@fmf.uni-lj.si at least 14 days before the conference to get a full refund (minus bank
+                        and administration fees). If you cancel later, or do not arrive at the conference, you will get
+                        a partial refund (minus bank and administration fees, and any costs that we might not be able to
+                        recoup).</p>-->
+            <!--<div class="row">
+                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                    <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                    <div>+91 8080808080</div>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                    <a class="d-block" href="mailto:contact@yourwebsite.com">fpsac2022@iisc.ac.in</a>
+                </div>
+            </div>-->
+    <!-- Visa-->
+    <div id="support" class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h4 class="text-white mb-4">Financial Support</h4>
+                <hr class="divider light my-4" />
+                <p class="text-white-50 mb-4">Coming soon</p>
+                <!--<a class="btn btn-light btn-xl js-scroll-trigger" href="https://drive.google.com/file/d/1Rac9SYQ0CkGxJ80XnBs7S2rxrWNcquog/view?usp=sharing"
+                target="_blank">Download Guidelines</a>-->
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+
+     <!-- Local Info-->
+     <section class="page-section" id="localinfo">
+        <div class="container">
+           <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 style="text-align: center;">Local information</h2>
+                    <hr class="divider my-4" />
+                    <!--<p style="text-align: center;">Coming soon</p>-->
+                    </div>
+            </div>
+        </div>
+
+    <!-- Accommodation-->
+
+    <div id="localinfovisa" class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h4 style="text-align: center;">Accommodation</h4>
+                <hr class="divider my-4" />
+                <p style="text-align: center;">Coming soon</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Visa Info-->
+
+    <div id="localinfobanq" class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h4 style="text-align: center;">Visa Information</h4>
+                <hr class="divider my-4" />
+                <p><strong>Please note that ALL foreign nationals, including American and EU passport holders, must hold a valid visa in order to travel to India. 
+						Visas must be applied for in advance at an Indian embassy or consulate. 
+						<a href="https://indianvisaonline.gov.in/visa/" target="_blank">See here for more details.</a></strong> </p>
+					 <p> Nationals of certain countries may be eligible for e-tourist visa. 
+					 <a href="https://indianvisaonline.gov.in/visa/tvoa.html" target="_blank">Check this website for more details</a>.</p>
+                <p style="text-align: center;">Coming soon</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Events-->
+
+    <div id="localinfotour" class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h4 style="text-align: center;">Social Events</h4>
+                <hr class="divider my-4" />
+                <p style="text-align: center;">Coming soon</p> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Other Conferences-->
+
+    <div id="localinfoacco" class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h4 style="text-align: center;">Other Conferences</h4>
+                <hr class="divider my-4" />
+                <p style="text-align: center;">Coming soon</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Submission-->
+    <section class="page-section bg-dark" id="submission">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mb-4">Submission</h2>
+                    <hr class="divider light my-4" />
+                    <p class="text-white-50 mb-4">Submissions will be handled through the SoftConf website.</p>
+                    <p class="text-white-50 mb-4">More details will be available soon.</p>
+                    <!-- <p class="text-white-50 mb-4">Decisions on submissions for talks, posters, 
+                    and software demonstrations have been made and mailed out. We thank everyone for their submissions 
+                    and congratulate those whose submissions have been accepted.</p>
+                <a class="btn btn-light btn-xl js-scroll-trigger" href="https://drive.google.com/file/d/1Rac9SYQ0CkGxJ80XnBs7S2rxrWNcquog/view?usp=sharing"
+                    target="_blank">Download Guidelines</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- Schedule-->
     <section class="page-section bg-primary" id="schedule">
         <div class="container">
@@ -65,119 +435,33 @@
                 <div class="col-lg-8 text-center">
                     <h2 class="text-white mt-0">Schedule</h2>
                     <hr class="divider light my-4" />
-                    <p class="text-white-50 mb-4">July 18-19 : Program 1</p>
+                    <p class="text-white-50 mb-4">Coming soon</p>
+                    <!--<p class="text-white-50 mb-4">July 18-19 : Program 1</p>
                     <p class="text-white-50 mb-4">July 19-21 : Program 2</p>
                     <p class="text-white-50 mb-4">July 22 : Program 3</p>
                     <a class="btn btn-light btn-xl js-scroll-trigger" href="https://drive.google.com/file/d/1Rac9SYQ0CkGxJ80XnBs7S2rxrWNcquog/view?usp=sharing"
-                        target="_blank">Download Schedule</a>
+                        target="_blank">Download Schedule</a> -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- Speakers -->
-    <section class="page-section" id="speakers">
+    
 
+    
+    <section class="page-section" id="sponsors">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2>Speakers</h2>
-
+                    <h2 style="text-align: center;">Sponsors</h2>
+                    <hr class="divider my-4" />
+                    <p style="text-align: center;">Coming soon</p>
                 </div>
             </div>
         </div>
-        <hr class="divider my-4" />
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <img src="assets/img/portfolio/fullsize/1.jpg" class="img-fullsize" alt="...">
-                    <h3 class="h4 mb-2">Speaker One</h3>
-                </div>
-                <div class="col-sm">
-                    <p class="text-muted mb-0">Speaker One is a mathematician and computer scientist working on the
-                        foundations of mathematics, computability, and mathematical foundations of programming
-                        languages. He also works on computer tools that assist mathematicians with formally verified
-                        mathematics. Obtaining Ph.D. in pure and applied logic from the School of Computer Science
-                        at Carnegie Mellon University in 2000, he is currently a professor of computational
-                        mathematics at the University of Ljubljana, Slovenia. In 2012, he was a visiting member at
-                        the Institute for Advanced Study. He has co-authored the book "Homotopy type theory:
-                        Univalent foundations of Mathematics", introducing homotopy type theory.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <div class="mt-5">
-                        <img src="assets/img/portfolio/fullsize/2.jpg" class="img-fullsize" alt="...">
-                        <h3 class="h4 mb-2">Speaker Two</h3>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="mt-5">
-                        <p class="text-muted mb-0">Speaker Two is a mathematician and computer scientist working on the
-                            foundations of mathematics, computability, and mathematical foundations of programming
-                            languages. He also works on computer tools that assist mathematicians with formally verified
-                            mathematics. Obtaining Ph.D. in pure and applied logic from the School of Computer Science
-                            at Carnegie Mellon University in 2000, he is currently a professor of computational
-                            mathematics at the University of Ljubljana, Slovenia. In 2012, he was a visiting member at
-                            the Institute for Advanced Study. He has co-authored the book "Homotopy type theory:
-                            Univalent foundations of Mathematics", introducing homotopy type theory.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <div class="mt-5">
-                        <img src="assets/img/portfolio/fullsize/3.jpg" class="img-fullsize" alt="...">
-                        <h3 class="h4 mb-2">Speaker Three</h3>
-                    </div>
-                </div>
-                <div class="col-sm">
-                    <div class="mt-5"></div>
-                    <p class="text-muted mb-0">Speaker Three is a mathematician and computer scientist working on the
-                        foundations of mathematics, computability, and mathematical foundations of programming
-                        languages. He also works on computer tools that assist mathematicians with formally verified
-                        mathematics. Obtaining Ph.D. in pure and applied logic from the School of Computer Science
-                        at Carnegie Mellon University in 2000, he is currently a professor of computational
-                        mathematics at the University of Ljubljana, Slovenia. In 2012, he was a visiting member at
-                        the Institute for Advanced Study. He has co-authored the book "Homotopy type theory:
-                        Univalent foundations of Mathematics", introducing homotopy type theory.</p>
-                </div>
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Downloads-->
-    <section class="page-section bg-dark text-white" id="downloads">
-        <div class="container text-center">
-            <h2 class="mb-4">Downloads</h2>
-            <hr class="divider light my-4" />
-            <a class="btn btn-light btn-xl" href="https://drive.google.com/drive/folders/1X5Gztcl7U4X6ENt_o4DoAd7l6tq53ZZm?usp=sharing">Download All</a>
-        </div>
-    </section>
-
-        <!-- Organizers-->
-        <section class="page-section" id="organizers"></section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2>Organizers</h2>
-                </div>
-            </div>
-        </div>
-        <hr class="divider my-4" />
-        
-        <div id="portfolio">
+    <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6">
+            <!--        <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/7.jpg">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/7.jpg" alt="" />
                             <div class="portfolio-box-caption">
@@ -186,7 +470,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
+                   <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/8.jpg">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/8.jpg" alt="" />
                             <div class="portfolio-box-caption">
@@ -230,44 +514,20 @@
                                 <div class="project-name">Sponsor Five</div>
                             </div>
                         </a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="mt-0">Register</h2>
-                    <hr class="divider my-4" />
-                    <p class="text-muted mb-5">Fill the form for registering with us</p>
-                    <p class="text-muted mb-5">Cancellation policy: To cancel your reservation, send an e-mail to
-                        fpsac19@fmf.uni-lj.si at least 14 days before the conference to get a full refund (minus bank
-                        and administration fees). If you cancel later, or do not arrive at the conference, you will get
-                        a partial refund (minus bank and administration fees, and any costs that we might not be able to
-                        recoup).</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                    <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                    <div>+91 8080808080</div>
-                </div>
-                <div class="col-lg-4 mr-auto text-center">
-                    <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                    <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                    <a class="d-block" href="mailto:contact@yourwebsite.com">fpsac2022@iisc.ac.in</a>
-                </div>
-            </div>
-        </div>
-    </section>
+
+   
+
+
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container">
-            <div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div>
+            <p class="small text-center text-muted">&copy; 2021. All rights reserved.</p>
         </div>
     </footer>
     <!-- Bootstrap core JS-->
