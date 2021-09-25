@@ -47,7 +47,7 @@
             curDate
             %}
             {% assign postcounter=postcounter | plus: 1 %}
-            {% if postcounter <= 3 %} <li>
+            {% if postcounter <= 3 or post.pinned %} <li>
               {% if post.redirect %}
               <h5>
                 <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
