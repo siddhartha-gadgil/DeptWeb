@@ -13,11 +13,6 @@
   # webpage: http://math.iisc.ac.in/~surjitk15
 
 
-- name: Sushma Palimar, (Ph.D., NITK, Surathkal)
-  position: DST-Women Scientist (A)
-  research-areas: Algebraic number theory
-  user-id : psushma
-  image: true
 
 - name: Srijan Sarkar, (Ph.D., ISI, Bangalore)
   position: Inspire Fellow
@@ -25,11 +20,6 @@
   user-id : srijans
   image: true
 
-- name: Ramesh Manna, (Ph.D., HRI, Allahabad)
-  position: Inspire Fellow
-  research-areas: Harmonic Analysis
-  user-id : rameshmanna
-  image: true
 
 - name: Mithun Bhowmik, (Ph.D., Indian Statistical Institute, Kolkata)
   position: Inspire Fellow
