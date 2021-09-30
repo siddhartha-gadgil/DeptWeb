@@ -21,4 +21,4 @@ agree approximately with $f$? Suppose we allow ourselves to discard a
 few data points as "outliers". Which points should we discard?
 
 The [video of this talk](https://www.youtube.com/watch?v=T6EYpf-uHUM) is available
-on the IISc Math Department channel.
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
