@@ -19,3 +19,6 @@ Suppose $E$ is finite. Can we compute a nearly optimal $F$? How many
 computer operations does it take? What if we demand merely that $F$
 agree approximately with $f$? Suppose we allow ourselves to discard a
 few data points as "outliers". Which points should we discard?
+
+The [video of this talk](https://www.youtube.com/watch?v=T6EYpf-uHUM) is available
+on the IISc Math Department channel.
