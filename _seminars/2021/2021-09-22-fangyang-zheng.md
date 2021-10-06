@@ -1,7 +1,7 @@
 ---
 speaker: Fangyang Zheng (Chongqing Normal University)
 title: "The Hermitian geometry of Strominger connection"
-date: 22 Sept, 2021
+date: 24 Sept, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)

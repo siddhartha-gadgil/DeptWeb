@@ -1,8 +1,3 @@
-- name  :       Mamta Balodi 
-  phd: MNNIT Allahabad
-  user-id       :       mamtabalodi
-  position: IISc Raman PDF
-  research-area: Quantum Algebra
 
 - name: Kiran Kumar Behera 
   phd: IIT Roorkee
@@ -126,16 +121,16 @@
   research-area: Harmonic Analysis
 
 - name: Sushma Palimar
-  phd: 
+  phd: NITK, Surathkal
   user-id: psushma
   position: DST WOSA
   image: true
-  research-area: 
+  research-area: Algebraic number theory
 
 - name: Vijaya Kumar U
   phd: Indian Statistical Institute, Bangalore 
   user-id: vijayak
-  position: IOE-PDF
+  position: Dr. D.S. Kothari 
   image: true
   research-area: Operator Theory, Operator Algebras, Quantum Probability
 

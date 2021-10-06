@@ -3,7 +3,7 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
     */
-    (function($) {
+(function($) {
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
@@ -12,16 +12,21 @@
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
-        $('html, body').animate({
+      /* $('html').animate({
           scrollTop: (target.offset().top - 72)
-        }, 1000, "easeInOutExpo");
+          }, 1000, "easeInOutExpo");*/
+	  window.scrollBy({ 
+	      top: target.offset().top - 72 - window.scrollY,
+	      left: 0, 
+	      behavior: 'smooth' 
+	  });
         return false;
       }
     }
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
+	$('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
 
@@ -31,18 +36,13 @@
     offset: 75
   });
 
-  // Collapse Navbar
-  var navbarCollapse = function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-scrolled");
-    } else {
-      $("#mainNav").removeClass("navbar-scrolled");
-    }
-  };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+    var collapseDropdown = function() {
+      var scroll = $(window).scrollTop();
+        if(scroll > 200){
+            $("div.dropdown-menu").removeClass("show");
+        }
+    };
+    $(window).scroll(collapseDropdown);
 
   // Magnific popup calls
   $('#portfolio').magnificPopup({
@@ -58,6 +58,11 @@
     image: {
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
+  });
+
+  // For positioning submenu correctly on click
+  $("a.dropdown-item").click(function() {
+    $(".navbar-collapse").collapse("hide");
   });
 
 })(jQuery); // End of use strict
