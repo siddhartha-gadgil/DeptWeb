@@ -92,6 +92,17 @@ def fix(s: String) =
     }
     debraceVec.mkString("$")
   }
+
+def quickFix(s: String) =
+  {
+    val purged =
+      makeOk(s)
+    val debraceVec = purged.split('$').toVector.zipWithIndex.map {
+      case (x, n) => if (n % 2 == 0) x.replace("{", "").replace("}", "") else x
+    }
+    debraceVec.mkString("$")
+  }
+
 def mp = db.getEntries.asScala.toMap.values.map(_.getFields.asScala.toMap.map{
   case (k, v) => k.getValue.toLowerCase -> v.toUserString})
 def out = mp.map((h) => h.map {
@@ -100,11 +111,19 @@ def out = mp.map((h) => h.map {
   // case (k, v)  => s"""$k: "${fix(v.replace("\n", " "))}""""
   }.mkString("- ", "\n  ", "\n")).mkString("\n")
 
+def simpleOut = mp.map((h) => h.map {
+  case (k, v) if k == "year" || k == "url" => s"$k: '$v'"
+  case (k, v) => s"""$k: '${quickFix(v.replace("\n", " ").replace("'", "''"))}'"""
+  }.mkString("- ", "\n  ", "\n")).mkString("\n")
+
+
 import ammonite.ops._
 def run = {
   write.over(pwd / "_data" / "pubs.yaml", out)
+  write.over(pwd / "_data" / "publ.yaml", simpleOut)
   val extra = read(pwd / "_data" / "extrapubs.yaml")
   write.append(pwd / "_data" / "pubs.yaml", "\n"+extra)
+  write.append(pwd / "_data" / "publ.yaml", "\n"+extra)
 }
 
 run
