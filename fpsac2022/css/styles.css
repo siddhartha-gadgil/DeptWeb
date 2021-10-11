@@ -178,6 +178,26 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
+a.alt {
+  color: #108896;
+  text-decoration: none;
+  background-color: transparent;
+}
+a.alt:hover {
+  color: #ffa500;
+  /*color: #108896;*/
+  text-decoration: underline;
+}
+
+a.alt:not([href]):not([class]) {
+  color: inherit;
+  text-decoration: none;
+}
+a.alt:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 .inactiveLink {
   pointer-events: none;
   cursor: default;
