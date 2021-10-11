@@ -457,7 +457,6 @@
     </div>
     </section>
 
-
     <!-- Submission-->
     <section class="page-section bg-dark" id="submission">
         <div class="container">
@@ -465,7 +464,153 @@
                 <div class="col-lg-10 text-center">
                     <h2 class="text-white mb-4">Submission</h2>
                     <hr class="divider light my-4" />
-                    <p class="text-white-50 mb-4">Submissions will be handled through the SoftConf website. More details will be available soon.</p>
+                    <!--<p class="text-white-50 mb-4">Submissions will be handled through the SoftConf website. More details will be available soon.</p>-->
+                    
+                    <h3 class="text-white-50 mb-6">Guidelines for Initial Submissions</h3>
+
+							<p class="text-white-50 mb-6">Accepted extended abstracts will be published in a proceedings volume 
+							of&nbsp;<a class="alt" href="https://www.emis.de/journals/SLC/">Séminaire Lotharingien Combinatoire</a>. 
+							Authors will retain the right to publish a full version of their work in another journal, provided that the 
+							conference contribution is indicated as an extended abstract of the full version.</p>
+
+							<p class="text-white-50 mb-6">For each submission,&nbsp;<strong>you must indicate which author will present the work.&nbsp;</strong>
+							A change of presenter will only be possible after advance consultation with the program committee. 
+							Each person may be the presenter (i.e., correspondent author) for&nbsp;<strong>at most one submission</strong>. 
+							Program committee members may co-author a paper submitted to the conference, but should not submit the paper themselves, 
+							and must recuse themselves from any decisions involving the paper.</p>
+
+							<p class="text-white-50 mb-6"><em>Authors should indicate any potential conflict of interest that may exist 
+							with&nbsp;<strong>program committee</strong>&nbsp;members in the submission form.</em></p>
+
+							<p class="text-white-50 mb-6"><em>You have a conflict of interest if a program committee member:</em></p>
+							<ul class="text-white-50 mb-6">
+							<li><em>is at the same institution as an author</em></li>
+							<li><em>has been in a supervisory/supervisee role in the past</em></li>
+							<li><em>has been a co-author in the last 5 years or is currently collaborating with an author</em></li>
+							</ul>
+
+							<p class="text-white-50 mb-6">As is tradition, there will be a&nbsp;<strong>prize for the</strong>&nbsp;<strong>best student paper</strong>. 
+							In order to qualify for this prize,&nbsp;<strong>all authors</strong>&nbsp;on the qualifying submission must be 
+							students&nbsp;<strong>at the time of submission</strong>. You will be asked on the submissions website if your submission qualifies, 
+							so please remember to indicate this if it does.</p>
+
+							<p class="text-white-50 mb-6">As for the scientific content of the work, the originality of the results 
+							and the clarity of exposition will be the primary criteria used to determine which submissions will be accepted.</p>
+
+							<h3 class="text-white-50 mb-6">Formatting requirements and submission procedures</h3>
+
+							<p class="text-white-50 mb-6">In order to prepare your submission, please take the following steps to format your document according to these
+  							specifications. Please prepare your document using standard LaTeX. If you have any user macros, you must include them
+  							in your submission.</p>
+
+							<ul class="text-white-50 mb-6">
+  							<li>Please download and unpack the file <a class="alt" href="assets/submissions/FPSAC-2022.zip" target="_blank">FPSAC-2022.zip</a> or, if you prefer,
+    						download the files it contains individually and place them all in one folder:
+    							<ul>
+      						<li>the LaTeX class file <a class="alt" href="assets/submissions/FPSAC2022.cls" target="_blank">FPSAC2022.cls</a>;</li>
+      						<li>the main LaTeX file <a class="alt" href="assets/submissions/sample.tex" target="_blank">sample.tex</a>;</li>
+      						<li>the graphics file <a class="alt" href="assets/submissions/plot.pdf" target="_blank">plot.pdf</a>;</li>
+      						<li>the bibliography file <a class="alt" href="assets/submissions/sample.bib" target="_blank">sample.bib</a>;</li>
+      						<li>the intended output sample file <a class="alt" href="assets/submissions/intended output of sample.pdf" target="_blank">intended output of sample.pdf</a>.</li>
+    							</ul>
+  							</li>
+
+						  <li>Compile <strong>sample.tex</strong> using your favourite editor (if compiling from the command line you may need
+    						pdflatex) and make sure the output matches intended output file. Note that you <strong>must</strong> generate a PDF
+    						file - dvi or ps files will not be accepted.  </li>
+    						
+						  <li>Read the comments in the preamble of sample.tex. In particular:
+		   			  		<ul>
+      						<li>use <code>\documentclass[submission]{FPSAC2022}</code> for your initial submission;</li>
+      						<li><strong>do not</strong> make any changes to font size, page size, layout, etc;</li>
+      						<li>include your title in the usual way, ie. <code>\title[optional short title]{long title};</code></li>
+      						<li>include the author(s) in the usual way, ie. <code>\author[optional shorter names]{longer names};</code></li>
+      						<li>use <code>\thanks{…}</code> to include the contact details of author(s), and <code>\addressmark{1},
+        						\addressmark{2} </code>etc. to include the institution(s) of the author(s), and then use <code>\address{\addressmark{1}…}</code>
+        						to match author(s) to institution(s);  </li>
+      						<li>use <code>\received{date}</code> to include your date of submission (don’t cheat!);</li>
+      						<li>use <code>\abstract{…}</code> to include your English language abstract. Please <strong>do not</strong>
+        						include any citations in your abstract with <code>\cite{…}</code>. If you need to cite something in your
+        						abstract then write it out, as (author year). Also, <strong>do not</strong> include any custom commands in your
+        						abstract; </li>
+      						<li>if you wish to include a second-language abstract then you can do this with the <code>\resume{…}</code>
+        						command. If you do not wish to include a second-language abstract then you can just comment this command out;  </li>
+      						<li>by default the second-language abstract will have the title "Abstract". If you want another word like
+        						"Saar", "Résumé" or "Zusammenfassung" then you can use the \resumetitle{...} command. Otherwise just comment
+        						this command out;   </li>
+      						<li>include 3-6 keywords with the <code>\keywords{…}</code> command;</li>
+      						<li>the <code>\maketitle</code> command after <code>\begin{document}</code> will generate your title, abstract and
+        						keywords automatically.  </li>
+    						   </ul>
+  							</li>
+  						
+					  		<li>The <strong>FPSAC2022.cls</strong> file loads the graphicx package, and so you should be able to include figures
+    						with the usual
+    							<div class="text-white-50 mb-6"><pre>
+<code class="text-white-50 mb-6">
+%figure code
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{plot}
+\caption{A plot of a function.}
+\label{fig:plot}
+\end{figure}</code>
+								</pre> </div>
+				    		commands. Wherever possible, please use .pdf versions of your figures.</li>
+
+	  						<li>The <strong>FPSAC2022.cls</strong> file loads the AMS packages amsmath, amsthm and amssymb. If you wish to load
+   	 					other packages then you must use the usual <code>\includepackage{…}</code> command in the preamble.  </li>
+  							<li>For the final submissions it <strong>will be required</strong> to include your bibliography <strong>as a separate
+    						.bib</strong> file rather than using <code>\bibitem{…} </code>commands at the end of the document. This will make
+    						life much easier for the editor, as it simplifies the process of making bibliographies consistent. The sample.tex
+    						file uses the biblatex package, where the commands
+	    						<div><pre>
+<code class="text-white-50 mb-6">
+%preamble code
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{sample.bib}</code>
+								</pre> </div>
+			     			are included in the preamble, and then <code>\printbibliography</code> is used at the end of the document. (This may
+    			  			require installation of the <a class="alt" href="http://biblatex-biber.sourceforge.net/" target="_blank">biber package</a> or
+    			  			the texlive-bibtex-extra package (Ubuntu) if you don’t already have it. See below if you are having compile
+    			 			problems). Alternatively, if you wish you can remove these commands and use something like
+					    		<div><pre>
+<code class="text-white-50 mb-6">
+%bibliography code
+\bibliographystyle{plain}
+\bibliography{sample}</code>
+								</pre> </div>
+    						at the end of the document. Please use numerical citations in the text, ie. [xx, yy].  </li>
+  
+		  					<li>If you are having trouble compiling sample.tex, make sure your LaTeX distribution is up to date:
+    							<ul>
+      						<li>On a Mac you are probably using MacTeX, so you can run "<code>tlmgr update --all</code>” in the Terminal,
+        						or use the TeX Live Utility app in/Applications/TeX. </li>
+      						<li>On Windows you are probably using MiKTeX, so you can use the MiKTeX Update Wizard in the Start menu.</li>
+      						<li>On Linux you should use your package manager to keep things up to date (your version of LaTeX is probably a
+        						variant of TeX Live). Depending on your version of Linux you may also be able to use the "<code>tlmgr
+          					update --all</code>” command. To use biblatex you may need to install the separate texlive-bibtex-extra
+        						package.   </li>
+      						<li>As noted above, you may also need the <a class="alt" href="http://biblatex-biber.sourceforge.net/" target="_blank">biber
+        						package</a> to get biblatex working (on any system).</li>
+      						<li>If you are missing the lipsum package needed to generate the Latin text, include the
+        						<a class="alt" href="assets/submissions/lipsum.sty" target="_blank">lipsum style file</a> in the directory containing
+        						your tex files.    </li>
+      						<li>If problems persist then you should email the proceedings editor <a class="alt" href="mailto:?" target="_blank">?</a>. </li>
+    							</ul>
+  							</li>
+  							
+  							<li>In your initial submission, you must include either a single PDF file of your manuscript, compiled with <strong>FPSAC2022.cls</strong>,
+    						or a zipped (.zip file) containing all necessary files needed to compile your manuscript (including the <strong>FPSAC2022.cls</strong>
+    						file, all figures, the source .tex file and .bib files etc.). <strong>Do not alter the font size, font, or the
+      					margin sizes </strong>in the <strong>FPSAC2022.cls</strong> file. If your submission is accepted, all source files
+    						will be requested. </li>
+    						
+  							<li>All submissions must use <strong>12pt font, </strong>the default font for the above class file, and be <strong>6-12
+    						pages in length</strong>, including the bibliography. Submissions that exceed the length restriction, use a
+    						different font, or have altered margins will not be accepted.  </li>
+							</ul>
+
                     <!-- <p class="text-white-50 mb-4">Decisions on submissions for talks, posters, 
                     and software demonstrations have been made and mailed out. We thank everyone for their submissions 
                     and congratulate those whose submissions have been accepted.</p>
