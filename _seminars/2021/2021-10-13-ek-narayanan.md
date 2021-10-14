@@ -17,3 +17,6 @@ We establish injectivity results for these means on $L^p$ spaces for the
 range $1 \leq p \leq 2m/(m-1)$ where $m$ is the dimension of the center.
 Our results extend and generalize S. Thangavelu’s results for spherical
 means on the Heisenberg group. (Joint work with P. K. Sanjay and K. T. Yasser)
+
+The [video of this talk](https://www.youtube.com/watch?v=JHAjVszFhvk&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
