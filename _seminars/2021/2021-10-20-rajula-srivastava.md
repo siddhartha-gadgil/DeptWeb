@@ -15,3 +15,6 @@ type, relying on the maximal possible number of nonvanishing curvatures for a co
 fibers of the associated canonical relation. We shall also discuss a new counterexample
 which shows the sharpness of one of the edges in the region of boundedness. Based on
 joint work with Joris Roos and Andreas Seeger.
+
+The [video of this talk](https://www.youtube.com/watch?v=lqYnQqhKT_o&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
