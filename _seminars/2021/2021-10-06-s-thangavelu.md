@@ -16,5 +16,5 @@ follow from this interesting result. In this talk we explore the possibility of
 formulating (and proving!) an analogue of Beurling's theorem for the operator
 valued Fourier transform on the Heisenberg group.
 
-The [video of this talk](https://www.youtube.com/watch?v=VlAZJuYwvMI) is available
+The [video of this talk](https://www.youtube.com/watch?v=VlAZJuYwvMI&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
 on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
