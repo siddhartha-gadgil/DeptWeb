@@ -86,7 +86,7 @@
               {% endif %}
               </li>
               {% endif %}{% endfor %}
-            {% for post in futposts %}{% unless post.pinned %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
+            {% for post in futposts %}{% unless post.pinned or post.archived %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
             {% assign postDate = post.date | date: '%s' | plus: 604800 %}
             {% if post.expiry-date == nil or expiry-dateDate >= curDate %}
             {% assign postcounter=postcounter | plus: 1 %}
