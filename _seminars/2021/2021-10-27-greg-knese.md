@@ -18,3 +18,6 @@ such that $q/p$ is bounded on the bi-upper half plane. We completely characteriz
 several geometrically interesting situations including smooth points, double points, and ordinary
 multiple points of $p$. Finally, we analyze integrability properties of bounded rational functions
 and their derivatives on the bidisk.  Joint work with Bickel, Pascoe, Sola.
+
+The [video of this talk](https://www.youtube.com/watch?v=5ocuNQjWRz0&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
