@@ -6,7 +6,7 @@ time: 4 pm
 venue: LH-1, Mathematics Department
 series: Thesis
 series-prefix: PhD
-series-suffix: colloquium
+series-suffix: defence
 ---
 
 We prove Hardy's inequalities for the fractional power of Grushin operator
@@ -21,7 +21,7 @@ In the second approach, we start with an extension problem for Grushin, with
 initial condition $f\in L^p(\mathbb{R}^{n+1})$. We derive a solution
 $u(\cdot,\rho)$ to that extension problem and show that solution goes to $f$ in
 $L^p(\mathbb{R}^{n+1})$ as the extension variable $\rho$ goes to $0$. Further
-$-\rho^{1-2s}\partial_\rho u $ goes to $B_s\mathcal{G}_s f$ in $L^p(\mathbb{R}^{n+1})$
+$-\rho^{1-2s}\partial_\rho u $ goes to $B_s\mathcal{G}\_s f$ in $L^p(\mathbb{R}^{n+1})$
 as $\rho$ goes to $0$, thereby giving us an another way of defining fractional
 powers of Grushin operator. We also derive trace Hardy inequality for the Grushin
 operator with the help of extension problem. Finally we prove $L^p$-$L^q$
