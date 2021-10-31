@@ -19,11 +19,11 @@ formalism of correspondences in their proofs, and the fact that the measures tha
 describe the asymptotic distribution of the iterated inverse images of a generic point.
 
 The first class of results involve giving a description of a natural invariant measure associated with a
-finitely generated polynomial semigroup (which we shall call the Dinh--Sibony measure) in terms of potential
+finitely generated polynomial semigroup (which we shall call the Dinh–Sibony measure) in terms of potential
 theory. This requires the theory of logarithmic potentials in the presence of an external field, which we can
 describe explicitly given a choice of a set of generators. In particular, we generalize the classical result
 of Brolin to certain finitely generated polynomial semigroups. To do so, we establish the continuity of the
-logarithmic potential for the Dinh--Sibony measure, whose proof will be sketched. If time permits, we will
+logarithmic potential for the Dinh–Sibony measure, whose proof will be sketched. If time permits, we will
 discuss bounds on the capacity and diameter of the Julia sets of such semigroups, for which we use the
 $F$-functional of Mhaskar and Saff.
 
