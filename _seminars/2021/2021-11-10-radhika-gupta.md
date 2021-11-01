@@ -1,8 +1,8 @@
 ---
 speaker: Radhika Gupta (Temple University, USA) 
 title: "Colloquium: Non-positive curvature in groups"
-date: 10 Nov, 2021
-time: 5:30 pm
+date: 11 Nov, 2021
+time: 6:30 pm
 venue: MS teams 
 website: 
 ---
