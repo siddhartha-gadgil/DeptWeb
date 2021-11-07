@@ -302,10 +302,12 @@
 - name: Abhay Jindal
   year-of-joining: 2017
   programme: Integrated PhD
-  user-id:
+  user-id: abjayj
   email: abhayjindal.999@gmail.com
   guide: Vamsi Pritham Pingali
   scholarship: IISc
+  Webpage: https://sites.google.com/view/abhayjindal
+  image: true
 
 - name: Babhrubahan Bose
   year-of-joining: 2017
