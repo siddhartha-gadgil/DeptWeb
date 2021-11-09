@@ -1,4 +1,6 @@
 % Copyright 2018 Nicholas Beaton
+% 2020 version updated by Olya Mandelshtam
+% 2021 version updated by Tomer Bauer
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{FPSAC2022}[2020/09/02 FPSAC 2022 Proceedings class]
@@ -29,16 +31,20 @@
 
 \LoadClass[letterpaper,12pt]{article}
 
+\usepackage[hyphens]{url}
+
 \RequirePackage{calc}
 \RequirePackage[top=1in,bottom=1in,left=1in,right=1in,includehead]{geometry}
 \RequirePackage[dvipsnames,table]{xcolor}
-\RequirePackage[colorlinks=true,citecolor=RoyalBlue,linkcolor=Red,breaklinks=true]{hyperref}
+\definecolor{darkishgreen}{rgb}{0,0.4,0}
+\RequirePackage[colorlinks=true,citecolor=RoyalBlue,linkcolor=darkishgreen,urlcolor=magenta,breaklinks=true]{hyperref}
+\Urlmuskip=0mu plus 3mu\relax
 \RequirePackage{lastpage}
 
 \RequirePackage{amsmath,amsthm,amssymb}
 \RequirePackage{graphicx}
 \RequirePackage{caption}
-
+\RequirePackage{enumitem}
 \RequirePackage[sc]{mathpazo}
 \linespread{1.05}
 \RequirePackage[T1]{fontenc}
@@ -77,7 +83,7 @@
   \fi%
 }
 \global \@marksrequiredfalse
-\gdef \and{\unskip \space \@authorand \space \ignorespaces}
+\gdef \and{\ignorespaces \space \@authorand \space \ignorespaces}
 \gdef \@authorand{and}
 
 
@@ -139,7 +145,7 @@
 }
 
 \def \@resumetitle{\relax}
-\long\gdef \@resumetitle{Abstract}
+\long\gdef \@resumetitle{R\'esum\'e}
 \long\def \resumetitle#1{
   \long\gdef \@resumetitle{#1}
 }
@@ -149,23 +155,45 @@
 
 %%%%%%% BIBLATEX STUFF %%%%%%%
 
-%\RequirePackage[maxbibnames=99,backend=bibtex,sorting=nyt]{biblatex}
-%\renewbibmacro{in:}{. In:}
-%\DeclareFieldFormat[misc]{title}{\mkbibquote{#1}}
-%\renewcommand*{\bibfont}{\small}
-%\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
-%\DeclareFieldFormat{url}{\textsc{url}: \href{#1}{#1}}
-%\DeclareFieldFormat{doi}{\textsc{doi}: \href{http://dx.doi.org/#1}{#1}}
-%\DeclareFieldFormat{eprint:arxiv}{arXiv:\href{https://arxiv.org/abs/#1}{#1}}
+\RequirePackage[maxbibnames=99,sorting=nyt,giveninits,maxnames=10,backend=bibtex,block=space]{biblatex}
+\RequirePackage{doi}
+\renewcommand\mkbibnamelast[1]{#1}
+\renewbibmacro{in:}{}
+\DeclareFieldFormat[misc]{title}{\mkbibquote{#1}}
+\renewcommand*{\bibfont}{\small}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\DeclareFieldFormat{url}{\href{#1}{Link}}
+\DeclareFieldFormat{doi}{\href{https://dx.doi.org/#1}{\textsc{doi}}}
+\DeclareFieldFormat{eprint:arxiv}{\href{https://arxiv.org/abs/#1}{arXiv:\allowbreak{#1}}}
+\DeclareFieldFormat{eprint}{\href{https://arxiv.org/abs/#1}{arXiv:\allowbreak{#1}}}
+\AtEveryBibitem{\clearfield{issn}\clearfield{isbn}\clearlist{language}}
+% print url if no doi
+\renewbibmacro*{doi+eprint+url}{%
+    \printfield{doi}%
+    \newunit\newblock%
+    \iftoggle{bbx:eprint}{%
+        \usebibmacro{eprint}%
+    }{}%
+    \newunit\newblock%
+    \iffieldundef{doi}{%
+        \usebibmacro{url+urldate}}%
+        {}%
+}
+
+
+\def\abx@missing@entry#1{\abx@missing{#1??}}
 
 %%%%%%%%%%%%%%
 
 
 \let \pagenumber=\@gobble
 
-\AtBeginDocument{\gdef \@thefirstpage{\thepage}}
+\AtBeginDocument{
+\gdef \@thefirstpage{\thepage}
+\hypersetup{pdftitle={\@title},pdfauthor={\@author}}
+}
 
-\long \gdef \@firsthead{\parbox{\textwidth}{\footnotesize \textit{S\'eminaire Lotharingien de Combinatoire} XX (2022) \hfill \textit{Proceedings of the 34$^\text{th}$ Conference on Formal Power} \newline Article \#\@articlenumber, \pageref*{LastPage} pp. \hfill \textit{Series and Algebraic Combinatorics (Bangalore)}}}
+\long \gdef \@firsthead{\parbox{\textwidth}{\footnotesize \textit{S\'eminaire Lotharingien de Combinatoire} \textbf{XX} (2022) \hfill \textit{Proceedings of the 34\textsuperscript{th} Conference on Formal Power} \newline Article \#\@articlenumber, \pageref*{LastPage} pp. \hfill \textit{Series and Algebraic Combinatorics (Bangalore)}}}
 
 
 \def \ps@first{
@@ -219,7 +247,7 @@
 \def \@maketitle{
   \begin{titlesp}
     \begingroup
-    \hypersetup{hidelinks=true}
+    \hypersetup{hidelinks}
     \@marksrequiredtrue
     \null % this is a very annoying way to add space before the title
     \vspace{-19\p@}
@@ -287,6 +315,26 @@
 \newcommand \acknowledgments{\section*{Acknowledgments}}
 \newcommand \acknowledgements{\section*{Acknowledgements}}
 \newcommand \noabstract{\printkeywords}
+
+%cref names for multiple refs
+%
+%
+\crefname{example}{Example}{Examples}
+\crefname{theorem}{Theorem}{Theorems}
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{thm}{Theorem}{Theorems}
+\crefname{lem}{Lemma}{Lemmas}
+\crefname{prop}{Proposition}{Propositions}
+\crefname{figure}{Figure}{Figures}
+\crefname{fig}{Figure}{Figures}
+\crefname{remark}{Remark}{Remarks}
+\crefname{rem}{Remark}{Remarks}
+\crefname{cor}{Corollary}{Corollaries}
+\crefname{corollary}{Corollary}{Corollaries}
+\crefname{conjecture}{Conjecture}{Conjectures}
+\crefname{conj}{Conjeture}{Conjectures}
+\crefname{ex}{Example}{Examples}
 
 
 \endinput
