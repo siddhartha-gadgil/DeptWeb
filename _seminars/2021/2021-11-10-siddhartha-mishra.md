@@ -17,3 +17,6 @@ approximating infinite-dimensional operators which arise in PDEs
 and 3) Physics informed Neural Networks for approximating both forward
 and inverse problems for PDEs. We will highlight open questions in
 the analysis of deep learning algorithms for PDEs.
+
+The [video of this talk](https://www.youtube.com/watch?v=BuxXSFNV2jo&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
