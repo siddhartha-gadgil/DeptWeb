@@ -16,3 +16,6 @@ developments in operator algebras, quantum groups and noncommutative geometry. L
 us consider a generalised situation where we shall equip the finite spaces with a
 continuous action of the circle group. This talk aims to understand the object that
 captures the quantum symmetries of these systems and their applications.
+
+The [video of this talk](https://www.youtube.com/watch?v=XPgsS-2BhNY&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
