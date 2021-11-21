@@ -333,7 +333,7 @@
 \crefname{cor}{Corollary}{Corollaries}
 \crefname{corollary}{Corollary}{Corollaries}
 \crefname{conjecture}{Conjecture}{Conjectures}
-\crefname{conj}{Conjeture}{Conjectures}
+\crefname{conj}{Conjecture}{Conjectures}
 \crefname{ex}{Example}{Examples}
 
 
