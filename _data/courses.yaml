@@ -99,6 +99,9 @@ jan2022:
   - name: "Topics in Geometric Topology: Geometric structures"
     code: MA 355
     instructor: Subhojoy Gupta
+  - name: "Class field theory: a course in arithmetic geometry"
+    code: MA 356
+    instructor: Amalendu Krishna
   - name: Coxeter Groups 
     code: MA 386
     instructor: R. Venkatesh
