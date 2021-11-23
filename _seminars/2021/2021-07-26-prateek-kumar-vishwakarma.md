@@ -30,8 +30,8 @@ general framework.) The ensuing analysis yields the first examples of
 dimension-free entrywise positivity preservers - with certain forbidden
 principal blocks - that are not absolutely monotonic.
 
-The talk will begin by discussing connections between metric geometry an
-d positivity, also via positive definite functions. Following this, we
+The talk will begin by discussing connections between metric geometry and
+positivity, also via positive definite functions. Following this, we
 present Schoenberg's motivations in studying entrywise positivity preservers,
 followed by classical variants for matrices with entries in other real and 
 complex domains. Then we shall see the result due to Guillot and Rajaratnam
