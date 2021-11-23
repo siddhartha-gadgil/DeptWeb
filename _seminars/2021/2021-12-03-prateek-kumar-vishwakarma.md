@@ -2,7 +2,7 @@
 speaker: Prateek Kumar Vishwakarma (IISc Mathematics)
 title: "Positivity preservers forbidden to operate on diagonal blocks"
 date: 3 December, 2021
-time: 4 pm
+time: 9 am
 venue: Microsoft Teams (online)
 series: Thesis
 series-prefix: PhD
