@@ -21,3 +21,6 @@ With McCullough, we adapt Nelson's trick to various other classes of
 operators to obtain their dilation theory, including the quantum annulus,
 row contractions and doubly commuting contractions. We conjecture a geometric
 relationship between Ando's inequality and Gerstenhaber's theorem.
+
+The [video of this talk](https://www.youtube.com/watch?v=TyKyzlaxgtU&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
