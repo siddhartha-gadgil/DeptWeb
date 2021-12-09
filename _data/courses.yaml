@@ -80,9 +80,11 @@ jan2022:
   - name: Algebraic Geometry
     code: MA 308
     instructor: Abhishek Banerjee
+    prereq-courses: MA 213
   - name: Algebraic Number Theory
     code: MA 313
     instructor: Soumya Das
+    prereq-courses: MA 213
   - name: Analysis III
     code: MA 321
     instructor: Swarnendu Sil
@@ -93,12 +95,15 @@ jan2022:
     code: MA 324
     instructor: Purvi Gupta
     webpage: http://math.iisc.ac.in/~purvigupta/math324.html
+    prereq-courses: MA 224
   - name: Algebraic Topology
     code: MA 332 
     instructor: Siddhartha Gadgil
+    prereq-courses: MA 232
   - name: "Topics in Geometric Topology: Geometric structures"
     code: MA 355
     instructor: Subhojoy Gupta
+    prereq-courses: MA 231, MA 232
   - name: "Class field theory: a course in arithmetic geometry"
     code: MA 356
     instructor: Amalendu Krishna
@@ -108,6 +113,7 @@ jan2022:
   - name: "Topics: Percolation"
     code: MA 390
     instructor: Sanchayan Sen
+    prereq-courses: "UM 201 or MA 261"
 
 
 aug2021:
