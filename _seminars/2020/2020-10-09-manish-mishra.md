@@ -5,7 +5,7 @@ date: 9 October, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-21.html
+website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
 ---
 
 Let $G$ be a connected reductive group defined over a non-archimedean local field $F$.

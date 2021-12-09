@@ -5,7 +5,7 @@ date: 8 September, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-21.html
+website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
 ---
 
  Cohomology theories are one of the most important algebraic
