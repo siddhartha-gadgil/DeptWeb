@@ -4,16 +4,6 @@
   user-id: safdarquddus
   image: true
   
-
-- name: Surjit Kumar, (Ph.D., IIT Kanpur)
-  position: Inspire Fellow
-  research-areas: Operator theory
-  user-id: surjitkumar
-  image: true
-  # webpage: http://math.iisc.ac.in/~surjitk15
-
-
-
 - name: Srijan Sarkar, (Ph.D., ISI, Bangalore)
   position: Inspire Fellow
   research-areas: Multivariate Operator Theory
@@ -27,10 +17,5 @@
   user-id : mithunb
   image: true
 
-- name: Neelam Saikia, (Ph.D.,IIT Delhi)
-  position: Inspire Fellow
-  research-areas: Number Theory
-  user-id : neelamsaikia
-  image: true
 
 

@@ -30,12 +30,6 @@
   research-area: Harmonic Analysis
 
 
-- name: Anupam Gumber 
-  phd: IIT Indore
-  user-id: anupamgumber
-  position: NBHM
-  image: true
-  research-area: Frame Theory, Harmonic analysis and its applications, Time-frequency analysis, Approximation theory, Function spaces, Operator theory, Group representation theory
 
 - name: Sumana Hatui 
   phd: HRI, Allahabad
@@ -59,12 +53,6 @@
   image: true
   research-area: PDE, finite element method 
 
-- name  :       G. Arunkumar
-  phd: Institute of Mathematical Sciences, Chennai
-  user-id       :       garunkumar
-  position: NBHM
-  image: true
-  research-area: Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory
 
 
 - name  :       Gianluca Faraco
@@ -163,10 +151,10 @@
   research-area: Probability Theory
 
 
-- name: Samir Shukla
+- name: Manoj Kumar
   phd: 
-  user-id: samirshukla
-  position: NBHM
+  user-id: manojkumar1
+  position: NBHM 
   image: true
   research-area:   
 

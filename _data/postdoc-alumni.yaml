@@ -1,3 +1,36 @@
+- name: "Mamta Balodi"
+  position: "Raman PDF"
+  phd: "MNNIT Allahabad"
+  area: "Quantum Algebra"
+  start: "2019"
+  end: "2021"
+  present:
+
+- name: "Samir Shukla"
+  position: "NBHM"
+  phd: 
+  area: 
+  start: "2021"
+  end: "2021"
+  present:      
+
+- name: "G. Arunkumar"
+  position: "NBHM"
+  phd: "Institute of Mathematical Sciences, Chennai"
+  area: "Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory"
+  start: "2021"
+  end: "2021"
+  present:  
+
+- name: "Anupam Gumber"  
+  position: "NBHM"
+  phd: "IIT Indore"
+  area: "Frame Theory, Harmonic analysis and its applications, Time-frequency analysis, Approximation theory, Function spaces, Operator theory, Group representation theory"
+  start: "2019"
+  end: "2021"
+  present:
+
+
 - name: "Ramesh Manna"  
   position: "Kothari/IISc Raman PDF"  
   phd: "IITK"  

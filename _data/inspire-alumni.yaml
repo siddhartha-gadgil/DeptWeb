@@ -1,3 +1,28 @@
+- name: "Neelam Saikia"
+  position: "INSPIRE Faculty" 
+  phd: "IIT Delhi"
+  area: "Number Theory"
+  start: "2020"
+  end: "2021"
+  present: 
+
+- name: "Surjit Kumar"
+  position: "INSPIRE Faculty"
+  phd: "IIT Kanpur"
+  area: "Operator theory"
+  start: 
+  end:
+  present:
+ 
+- name: "Ramesh Manna" 
+  position: "INSPIRE Faculty"
+  phd: "IITK"
+  area: "Harmonic analysis"
+  start: 
+  end:
+  present:
+
+
 - name: "Sarang Sane"  
   position: "INSPIRE Faculty"  
   phd: "TIFR"  
