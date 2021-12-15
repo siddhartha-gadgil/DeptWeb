@@ -21,7 +21,7 @@ By tradition, these committees have the same members but different members are c
 
 The present members and chairs are as follows:
 
-* Soumya Das (Chair, DCC)
+* Mahesh Kakde (Chair, DCC)
 * Harish Seshadri (Chair, DC)
 * Arvind Ayyer (Chair, UG-DCC)
 * Vamsi Pritham Pingali
@@ -44,7 +44,7 @@ The present members and chairs are as follows:
 
 * Mahesh Kakde
 * Purvi Gupta
-* Soumya Das
+* Swarnendu Sil
 * R. Venkatesh
 
 ---
