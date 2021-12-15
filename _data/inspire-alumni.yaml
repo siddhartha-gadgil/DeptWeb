@@ -10,17 +10,17 @@
   position: "INSPIRE Faculty"
   phd: "IIT Kanpur"
   area: "Operator theory"
-  start: 
-  end:
-  present:
+  start: "2016"
+  end: "2021"
+  present: "IIT, Madras"
  
 - name: "Ramesh Manna" 
   position: "INSPIRE Faculty"
   phd: "IITK"
   area: "Harmonic analysis"
-  start: 
-  end:
-  present:
+  start: "2021" 
+  end: "2021"
+  present: "NISER, Bhubaneshwar"
 
 
 - name: "Sarang Sane"  
