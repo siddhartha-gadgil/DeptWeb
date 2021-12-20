@@ -11,7 +11,7 @@ jan2022:
     credits: '3:1'
     instructor: Gautam Bharali
     ug-prereq-courses: UM 102
-    timing: 'Mon, Wed, Fri 11:00 - 12:00'
+    timing: 
     venue:
   - code: UM 205
     name: Introduction to Algebraic Structures
@@ -19,7 +19,7 @@ jan2022:
     instructor: Radhika Ganapathy
     webpage: 
     ug-prereq-courses: UM 102
-    timing: 'Mon, Wed, Fri 12:00 - 1:00'
+    timing: 
     venue:
   - code: UM 400
     instructor: UG Coordinator
@@ -38,82 +38,104 @@ jan2022:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
-    timing: 
-    venue:
+    timing: 'Mon, Wed, Fri: 11:00-12:00'
+    venue: LH-4
   - name: Measure & Integration
     credits: '3:1'
     instructor: Manjunath Krishnapur
     code: MA 222
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
-    timing: 
-    venue: 
+    timing: 'Tue, Thu: 3:30 - 5:00'
+    venue: LH-4
   - name: Complex Analysis
     credits: '3:1'
     instructor: E. K. Narayanan
     code: MA 224
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
-    timing: 
-    venue: 
+    timing: 'Mon, Wed, Fri: 9:00 - 10:00'
+    venue: LH-4
     webpage: 
-  - name: Calculus on Manifolds/ Introduction to Differentiable Manifolds
+  - name: Introduction to Differentiable Manifolds
     instructor: Ved Datar
-    code: MA 229/ MA 235
+    code: MA 235
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing: 
-    venue: 
-    webpage: http://math.iisc.ac.in/~vvdatar/teaching_2021-Feb.html
+    timing: 'Tue, Thu: 2:00 - 3:30' 
+    venue: LH-4
+    webpage: 
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: Harish Seshadri
     code: MA 241
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
-    timing: 
-    venue: 
+    timing: 'Mon, Wed, Fri: 2:00 - 3:00'
+    venue: LH-4
   electives:
   - name: Stochastic Finance
     code: MA 263
-    instructor: Srikanth Iyer 
+    instructor: Srikanth Iyer
+    timing: 'Tue, Thu 11:30-1:00'
+    venue: LH-5 
   - name: Algebraic Geometry
     code: MA 308
     instructor: Abhishek Banerjee
     prereq-courses: MA 213
+    timing: 'Tue, Thu: 2:00 - 3:30'
+    venue: 'LH-5'
   - name: Algebraic Number Theory
     code: MA 313
     instructor: Soumya Das
     prereq-courses: MA 213
+    timing: 'Tue, Thu 11:30 - 1:00' 
+    venue: LH-4
   - name: Analysis III
     code: MA 321
     instructor: Swarnendu Sil
+    timing: 'Tue-Thu: 2:00 - 3:30'
+    venue: LH-2/LH-1
   - name: Topics in Harmonic Analysis II
     code: MA 322
     instructor: Thangavelu
+    timing: 'Mon, Wed, Fri: 10:00 - 11:00'
+    venue: LH-5
   - name: Topics in Complex Analysis
     code: MA 324
     instructor: Purvi Gupta
     webpage: http://math.iisc.ac.in/~purvigupta/math324.html
     prereq-courses: MA 224
+    timing: 'Tue, Thu: 10:00 - 11:30' 
+    venue: LH-5
   - name: Algebraic Topology
     code: MA 332 
     instructor: Siddhartha Gadgil
     prereq-courses: MA 232
+    timing: 'Tue, Thu: 8:30 - 10:00' 
+    venue: LH-5
   - name: "Topics in Geometric Topology: Geometric structures"
     code: MA 355
     instructor: Subhojoy Gupta
     prereq-courses: MA 231, MA 232
+    timing: 'Tue, Thu: 3:30 - 5:00' 
+    venue: LH-2/LH-1
   - name: "Class field theory: a course in arithmetic geometry"
     code: MA 356
     instructor: Amalendu Krishna
+    timing: 'Tue, Thu: 3:30 - 5:00' 
+    venue: LH-5
   - name: Coxeter Groups 
     code: MA 386
     instructor: R. Venkatesh
+    timing: 'Tue, Thu: 3:30 - 5:00' 
+    venue: LH-3
   - name: "Topics: Percolation"
     code: MA 390
     instructor: Sanchayan Sen
     prereq-courses: "UM 201 or MA 261"
+    timing: 'Tue, Thu: 2:00 - 3:30' 
+    venue: LH-3
 
 
 aug2021:
