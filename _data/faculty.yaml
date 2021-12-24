@@ -125,7 +125,7 @@
  
 - name: Subhojoy Gupta
   user-id: subhojoy
-  position: Assistant Professor
+  position: Associate Professor
   research-areas: Teichmueller theory, low dimensional geometry and topology
   phd: Yale
   phone-ext: 3330
@@ -161,6 +161,8 @@
   phone-ext: 2514
   office: X26
   author-name: "Khare, Apoorva"
+  author-names:
+    - Apoorva Khare
 
 - name: Amalendu Krishna
   user-id: amalenduk
@@ -183,15 +185,6 @@
   author-names:
     - Manjunath Krishnapur
 
-- name: Gadadhar Misra
-  user-id: gm
-  position: Professor
-  research-areas: Functional analysis
-  phd: Stony Brook
-  phone-ext: 2712
-  office: L17
-  author-name: Misra, Gadadhar
-
 - name: A. K. Nandakumaran
   user-id: nands
   position: Professor
@@ -203,27 +196,24 @@
 
 - name: E. K. Narayanan
   user-id: naru
-  position: Associate Professor
+  position: Professor
   research-areas: Harmonic analysis
   phd: ISI
   phone-ext: 3270
   office: N29
   author-name: Narayanan, E. K.
 
-- name: Dilip P. Patil
-  user-id: patil
-  position: Professor
-  research-areas: Commutative algebra and algebraic geometry
-  phd: TIFR-Bombay
-  phone-ext: 3212
-  office: R25
-  author-names:
-    - "Patil, Dilip P."
-    - "Patil, D. P."
+- name: Bharathwaj Palvannan
+  user-id: bharathwaj
+  position: Assistant Professor
+  research-areas: Number theory and arithmetic geometry
+  phd: University of Washington
+  phone-ext: 
+  office: N21
 
 - name: Vamsi Pritham Pingali
   user-id: vamsipingali
-  position: Assistant Professor
+  position: Associate Professor
   research-areas: Differential geometry, several complex variables, mathematical physics
   phd: Stony Brook
   phone-ext: 2754
