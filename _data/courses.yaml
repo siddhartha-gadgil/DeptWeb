@@ -59,12 +59,12 @@ jan2022:
     webpage: 
   - name: Introduction to Differentiable Manifolds
     instructor: Ved Datar
-    code: MA 235
+    code: MA 235 / MA 229
     prereq-courses: MA 221
     ug-prereq-courses: ''
     timing: 'Tue, Thu: 2:00 - 3:30' 
     venue: LH-4
-    webpage: 
+    webpage: http://math.iisc.ac.in/~vamsipingali/teaching/ma229ma235manifoldsspring2022/ma229235.html
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: Harish Seshadri
