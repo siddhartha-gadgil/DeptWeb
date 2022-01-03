@@ -4,4 +4,4 @@ date: July 24, 2021
 pinned: false
 ---
 
-Dr. Vamsi Pritham Pingali has been inducted as an Associate of the Indian Academy of Sciences for the period 2021-2024.  
+Prof. Vamsi Pritham Pingali has been inducted as an Associate of the Indian Academy of Sciences for the period 2021-2024.  
