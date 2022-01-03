@@ -1,5 +1,5 @@
 ---
-title: Fellow of the Indian National Science Academy 
+title: NASI Fellow
 date: Jan. 03, 2022
 ---
 
