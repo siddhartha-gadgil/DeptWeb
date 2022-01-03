@@ -1,5 +1,5 @@
 ---
-speaker: Muthukumar P. (ISI Bangalore)
+speaker: P. Muthukumar (ISI Bangalore)
 title: "Colloquium: Shift invariant subspaces of composition operators"
 date: 3 Jan, 2022
 time: 4 pm
