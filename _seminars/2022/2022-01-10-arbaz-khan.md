@@ -22,7 +22,7 @@ local problems. These local problem estimators are also shown to be reliable, ef
 Numerical results are presented that validate the theoretical estimates, and illustrate the effectiveness
 of the estimators in guiding adaptive solution algorithms.
 
-In the second part of talk, we discuss a novel locking-free stochastic Galerkin mixed finite element
+In the second part of the talk, we discuss a novel locking-free stochastic Galerkin mixed finite element
 method for the Biot consolidation model with uncertain Young's modulus and hydraulic conductivity field.
 After introducing a five-field mixed variational formulation of the standard Biot consolidation model,
 we discuss stochastic Galerkin mixed finite element approximation, focusing on the issue of well-posedness
