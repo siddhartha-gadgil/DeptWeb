@@ -9,7 +9,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 There many operators in Harmonic Analysis which can be described as an average
-of a family of operators $\{T_j\}\_j$ for which some boundedness properties
+of a family of operators $\\{T_j\\}\_j$ for which some boundedness properties
 are known. In particular, if $T_j$ are uniformly bounded on $L^p$, then the
 Minkowski integral inequality tells us that $T$ also satisfies this property.
 But things change completely if the information that we have is that $T_j$
