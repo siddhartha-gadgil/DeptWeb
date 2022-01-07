@@ -25,3 +25,6 @@ we find a connection between the Weyl denominators and the $G$-elementary
 symmetric functions. Using this connection, we give a Lie-theoretic proof
 of non-negativity of coefficients of $G$-power sum symmetric functions. I
 will also talk about the plethysms of chromatic symmetric functions.
+
+The [video of this talk](https://www.youtube.com/watch?v=UPgtpzSSMWU&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
