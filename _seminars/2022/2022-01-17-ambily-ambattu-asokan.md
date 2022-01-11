@@ -1,6 +1,6 @@
 ---
 speaker: Ambily Ambattu Asokan (Cochin University of Science and Technology)
-title: "Colloquium: Dickson--Siegel--Eichler--Roy elementary orthogonal transformations"
+title: "Colloquium: Dickson-Siegel-Eichler-Roy elementary orthogonal transformations"
 date: 17 Jan, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
@@ -17,7 +17,7 @@ non-degenerate quadratic space over $R$ of rank $n$ and let
 $\mathbb{H}(R)^m$ denote the hyperbolic space of rank $m$. We consider
 the elementary orthogonal transformations of the quadratic space $Q \perp
 \mathbb{H}(R)^m$. These transformations were introduced by Amit Roy in
-1968. Earlier forms of these transformations over fields were considered
+$1968$. Earlier forms of these transformations over fields were considered
 by Dickson, Siegel, Eichler and Dieudonn&eacute;. We call the elementary
 orthogonal transformations as
 Dickson&ndash;Siegel&ndash;Eichler&ndash;Roy elementary orthogonal
