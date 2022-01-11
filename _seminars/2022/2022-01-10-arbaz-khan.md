@@ -31,3 +31,6 @@ MINRES and establish eigenvalue bounds. Finally, we present specific numerical e
 efficiency of our numerical solution approach.
 
 Finally, we discuss some remarks related to non-conforming approximation of Biot's consolidation model.
+
+The [video of this talk](https://www.youtube.com/watch?v=e-_215cJOJY&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
