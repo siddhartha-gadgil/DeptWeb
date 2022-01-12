@@ -27,3 +27,5 @@ website:
  variants. The system of differential equations that governs their state
  probabilities are discussed.
  
+The [video of this talk](https://www.youtube.com/watch?v=UtF7EUsnHRs&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
