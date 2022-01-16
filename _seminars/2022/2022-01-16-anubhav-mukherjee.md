@@ -1,8 +1,9 @@
 ---
 speaker: Anubhav Mukherjee (Georgia Tech)
-title: "Geometry and Topology Seminar: On mapping class group of 4-manifolds"
+title: "On mapping class group of 4-manifolds"
 date: 16 Jan, 2022
 time: 9 pm
+series: "Geometry & Topology Seminar"
 venue: Microsoft Teams (online)
 website: 
 ---
