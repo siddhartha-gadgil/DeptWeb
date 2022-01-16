@@ -1,0 +1,71 @@
+---
+title: Geometry & Topology Seminars
+---
+
+<h3>Geometry & Topology Seminar</h3>
+
+    {% assign sorted = site.seminars | sort: 'date' | reverse %}
+
+{% for sem in sorted  %}
+<!-- <div class="row">
+  <div class="col-md-11"> -->
+  {% if sem.series == "Geometry & Topology Seminar" %}
+  {% capture start %}{{sem.date | date_to_long_string }} {{ sem.time }}{% endcapture %}
+    {%assign finish = start | date : '%s' | plus: 3600  %}
+    {% capture timing %}{{ start | date: "%Y%m%dT%H%M%S" }}/{{ finish | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
+    {% capture fulltitle %}{{ sem.speaker }} : {{ sem.title}}{% endcapture %}
+    <div class="row mb-3">
+    <a href="https://outlook.office.com/calendar/0/deeplink/compose?path=/calendar/action/compose&rru=addevent&startdt={{ start | date: "%Y-%m-%dT%H:%M:%S" }}&enddt={{ finish | date: "%Y-%m-%dT%H:%M:%S" }}&subject={{fulltitle | uri_escape }}&body={{ sem.content | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="pull-right btn btn-success ml-2">Add to Outlook calendar</a>
+    <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={{fulltitle | uri_escape }}&dates={{ timing }}&details={{ sem.content | uri_escape }}&ctz=Asia/Calcutta" target="blank" class="ml-2 pull-right btn btn-info">Add to Google calendar</a>
+    </div>
+  <h5 id="{{ sem.date | date: "%Y-%m-%d" }}-{{ sem.speaker | slugify }}"><strong> Title: </strong>
+    <a href="{{ site.baseurl}}{{ sem.url }}.html">{{ sem.title }}</a>
+    {% if sem.slides %}
+    <a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ sem.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
+    {% endif %}
+  </h5>
+ <h5>  <strong>Speaker: </strong> {{sem.speaker}} </h5>
+  <h5>  <strong>Date: </strong>{{ sem.date | date: "%a, %d %b %Y" }} </h5>
+  {% if sem.time %}
+  <h5>  <strong>Time: </strong>{{ sem.time }} </h5>
+  {% endif %}
+  <h5>
+    {% if sem.venue %}
+       <strong>Venue: </strong> {{ sem.venue }}
+    {% elsif sem.location %}
+     <strong>Venue: </strong> {{ sem.location }}
+    {% endif %}
+  </h5>
+  {% if sem.lectures %}{% assign counter = 0 %}
+  <p>&nbsp;</p>
+  {% for lecture in sem.lectures %}
+  {% assign counter=counter | plus: 1 %}
+  <div>
+    {% if lecture.slides %}
+    <a href="{{ site.baseurl }}/seminar-slides/{{ sem.date | date: "%Y" }}/{{ lecture.slides }}" target="_blank" class="pull-right btn btn-info">Slides</a>
+    {% endif %}
+  <h5><strong> Lecture {{ counter }}: </strong> {{ lecture.title }}</h5>
+  
+  {% if lecture.abstract %}<p><strong> Abstract: </strong>
+      <p> {{ lecture.abstract }}</p>{% endif %}
+  </div>
+  <p>&nbsp;</p>
+  {% endfor %}
+  {% endif %}
+    {{ sem.content }}
+
+  <p><a href="#" class="pull-right">Top</a></p>
+  <!-- </div>
+
+</div> -->
+
+  <p>&nbsp;</p>
+
+  {% endif %}
+ {% endfor %}
+
+
+<!-- <div class="row"> -->
+
+
+<!-- </div> -->
