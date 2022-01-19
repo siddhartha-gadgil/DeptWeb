@@ -19,3 +19,6 @@ However, under certain condition on the operators $T_j$,
 the weak type boundedness of $T$ can be reached. 
 
 This is a joint work with my student Sergi Baena.
+
+The [video of this talk](https://www.youtube.com/watch?v=cjEJkShWvUo&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
