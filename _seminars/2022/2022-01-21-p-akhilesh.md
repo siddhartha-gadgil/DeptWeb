@@ -45,3 +45,6 @@ _Evaluation of the multiple zeta values_
 $\zeta(2,\ldots,2,3,2,\ldots,2)$, Annals of Math. __175__ (2012),
 977&ndash;1000) as well as of similar ones in the context of
 Apéry-like sums.
+
+The [video of this talk](https://www.youtube.com/watch?v=Kq5GpwhUYII&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
