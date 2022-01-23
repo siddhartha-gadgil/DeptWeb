@@ -55,7 +55,9 @@
   phd: Rutgers
   phone-ext: 3326
   office: X05
-  author-name: Datar, Ved
+  author-names: 
+    - "Datar, Ved"
+    - "Datar, Ved V."
 
 - name: Basudeb Datta
   user-id: dattab
