@@ -17674,6 +17674,7 @@
   volume: '2'
   number: '4'
   doi: '10.54550/ECA2022V2S4PP1'
+  url: https://doi.org/10.54550/ECA2022V2S4PP1
 
 - author: Chopra, R. and Murthy, C. R. and Rangarajan, G.
   title: 'Statistical tests for detecting Granger causality'
