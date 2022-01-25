@@ -1,3 +1,12 @@
+- pages: 'S4PP1 (14pp)'
+  year: '2022'
+  journal: 'Enum. Comb. Appl.'
+  fjournal: 'Enumerative Combinatorics and Applications'
+  title: 'The number of inversions of permutations with fixed shape,'
+  author: 'Ayyer, Arvind and Banerjee, Naya'
+  volume: '2'
+  number: '4'
+  doi: '10.54550/ECA2022V2S4PP1'
 
 - author: Chopra, R. and Murthy, C. R. and Rangarajan, G.
   title: 'Statistical tests for detecting Granger causality'
