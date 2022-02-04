@@ -9,7 +9,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 This is a continuation of a talk I gave at the University of Delhi in
-2015. Let $G$ be a separable locally compact unimodular group of type I,
+$2015.$ Let $G$ be a separable locally compact unimodular group of type I,
 and $\widehat G$ the unitary dual of $G$ endowed with the Mackey Borel
 structure. We regard the Fourier transform $\mathcal F$ as a mapping of
 $L^1(G)$ to a space of $\mu$-measurable field of bounded operators on
