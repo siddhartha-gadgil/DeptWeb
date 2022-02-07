@@ -2218,6 +2218,17 @@
   mrclass: '57Q15 (05E18)'
   volume: '338'
 
+- mrnumber: '4321170'
+  pages: '89--124'
+  year: '2020'
+  publisher: 'Eur. Math. Soc., Z\"urich'
+  booktitle: 'Handbook of Teichm\"uller theory. Vol. VII'
+  title: 'Holomorphic quadratic differentials in Teichm\"uller theory'
+  author: 'Gupta, Subhojoy'
+  series: 'IRMA Lect. Math. Theor. Phys.'
+  mrclass: '30F60 (32G15 57K20)'
+  volume: '30'
+
 - number: '1'
   author: 'Ayyer, Arvind and Finn, Caley and Roy, Dipankar'
   fjournal: 'Physical Review E'
