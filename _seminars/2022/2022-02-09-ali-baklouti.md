@@ -35,3 +35,6 @@ equality holds if  $N$ has a $K$-invariant sequence $(\varphi_j)\_j$
 of functions in $L^1(N)\cap L^p(N)$ such that ${\Vert \mathscr F\varphi_j
 \Vert_q}/{\Vert \varphi_j \Vert_p}$ tends to $\Vert \mathscr F^p(N
 )\Vert$ when $j$ goes to infinity.
+
+The [video of this talk](https://www.youtube.com/watch?v=iY-UDuFz8C4&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
