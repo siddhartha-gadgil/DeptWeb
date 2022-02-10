@@ -17,7 +17,7 @@ reference measure $\omega$ is a bounded, positive continuous multiple of
 induced Lebesgue measure. Here we show that $\mathcal{S}\_\omega$ (defined with
 respect to any measure $\omega$ as above) satisfies explicit, optimal
 bounds in $L^p(bD, \Omega_p)$, for any $1<p<\infty$ and for any $\Omega_p$
-in the maximal class of \textit{$A_p$}-measures, that is $\Omega_p =
+in the maximal class of $A_p$-measures, that is $\Omega_p =
 \psi_p\sigma$ where  $\psi_p$ is a Muckenhoupt $A_p$-weight and $\sigma$
 is the induced Lebesgue measure. As an application, we characterize
 boundedness in $L^p(bD, \Omega_p)$ with explicit bounds, and compactness,
