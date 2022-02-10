@@ -12,7 +12,7 @@ Let $D\subset\mathbb{C}^n$ be a bounded, strongly pseudoconvex domain
 whose boundary $bD$ satisfies the minimal regularity condition of class
 $C^2$.  A 2017 result of Lanzani & E. M. Stein states that the
 Cauchy--Szeg&ouml; projection $\mathcal{S}\_\omega$ maps $L^p(bD, \omega)$ to
-$L^p(bD, \omega)$ continuously} for any $1<p<\infty$ whenever the
+$L^p(bD, \omega)$ continuously for any $1<p<\infty$ whenever the
 reference measure $\omega$ is a bounded, positive continuous multiple of
 induced Lebesgue measure. Here we show that $\mathcal{S}\_\omega$ (defined with
 respect to any measure $\omega$ as above) satisfies explicit, optimal
