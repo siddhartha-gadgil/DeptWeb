@@ -1,6 +1,6 @@
 ---
 speaker: Loredana Lanzani (Syracuse University, USA)
-title: "The Cauchy-Szego projection and its commutator for domains in \C^n with minimal smoothness: Optimal bounds"
+title: "The Cauchy-Szego projection and its commutator for domains in C^n with minimal smoothness: Optimal bounds"
 date: 16 February, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
