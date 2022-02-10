@@ -29,7 +29,7 @@ where $\mathcal{S}\_{\Omega_2}$ is the Cauchy--Szeg&ouml; projection defined wit
 respect to any given $A_2$-measure $\Omega_2$. Earlier results rely upon
 an asymptotic expansion and subsequent pointwise estimates of the
 Cauchy--Szeg&ouml; kernel, but these are unavailable in our setting of
-minimal regularity {of $bD$}; at the same time, recent techniques that
+minimal regularity of $bD$; at the same time, recent techniques that
 allow to handle domains with minimal regularity, are not applicable to
 $A_p$-measures. It turns out that the method of quantitative
 extrapolation is an appropriate replacement for the missing tools.  
