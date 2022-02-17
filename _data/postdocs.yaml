@@ -13,16 +13,16 @@
   image: true
   research-area: Algebraic Graph Theory, Algebraic Combinatorics
   
-- name  :       Projesh Nath Choudhury 
+- name  : Projesh Nath Choudhury 
   phd: IIT Madras
-  user-id       :       projeshc
+  user-id: projeshc
   position: NBHM
   image: true
   research-area:  Linear algebra (with combinatorial flavour)
 
-- name	:	Gargi Ghosh
+- name:	Gargi Ghosh
   phd: IISER Kolkata
-  user-id	:	gargighosh
+  user-id:	gargighosh
   position: IoE
   image: true
   research-area: Operator Theory
