@@ -1,6 +1,6 @@
 ---
 speaker: Loredana Lanzani (Syracuse University, USA)
-title: "The Cauchy-Szego projection and its commutator for domains in C^n with minimal smoothness: Optimal bounds"
+title: "The Cauchy-Szego projection and its commutator for domains in $\\mathbb{C}^n$ with minimal smoothness: Optimal bounds"
 date: 16 February, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
@@ -37,4 +37,6 @@ extrapolation is an appropriate replacement for the missing tools.
 This is joint work with Xuan Thinh Duong (Macquarie University), Ji Li
 (Macquarie University) and Brett Wick (Washington University in St.
 Louis).
- 
+
+The [video of this talk](https://www.youtube.com/watch?v=3zM6TggcWqA&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
