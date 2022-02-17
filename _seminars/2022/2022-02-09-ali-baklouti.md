@@ -1,6 +1,6 @@
 ---
 speaker: Ali Baklouti (University of Sfax, Tunisia)
-title: "On the L^p-Fourier transform norm for compact extensions of locally compact groups"
+title: "On the $L^p$-Fourier transform norm for compact extensions of locally compact groups"
 date: 9 February, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
