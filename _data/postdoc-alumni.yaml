@@ -95,6 +95,14 @@
   end: "2020"  
   present: 
 
+- name: "Aiyappan S."  
+  position:  
+  phd: "IISc, Bangalore"  
+  area: "Partial differential equations"  
+  start: "2017"  
+  end: "2019"  
+  present: "Postdoctoral Fellow, Fraunhofer-ITWM, Germany"  
+
 - name: "Gopal Datt"  
   position: "Kothari/SJF/NPDF"  
   phd: "University of Delhi"  

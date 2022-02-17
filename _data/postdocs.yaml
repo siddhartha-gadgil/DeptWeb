@@ -20,6 +20,12 @@
   image: true
   research-area:  Linear algebra (with combinatorial flavour)
 
+- name	:	Gargi Ghosh
+  phd: IISER Kolkata
+  user-id	:	gargighosh
+  position: IoE
+  image: true
+  research-area: Operator Theory
 
 
 - name	:	Deb Kumar Giri
