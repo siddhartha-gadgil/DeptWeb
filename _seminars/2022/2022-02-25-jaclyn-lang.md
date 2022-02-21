@@ -2,7 +2,7 @@
 speaker: Jaclyn Lang (Temple University, USA)
 title: "A modular construction of unramified $p$-extensions of $\\mathbb{Q}(N^{1/p})$"
 date: 25 February, 2022
-time: 3 pm
+time: 6 pm
 series: "Number Theory Seminar"
 venue: Microsoft Teams (Online)
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
