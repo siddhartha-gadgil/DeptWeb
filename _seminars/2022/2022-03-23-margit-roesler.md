@@ -1,7 +1,7 @@
 ---
 speaker: Margit Rösler (Universität Paderborn, Germany)
 title: "The Laplace transform in the Dunkl setting"
-date: 23 February, 2022
+date: 23 March, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
