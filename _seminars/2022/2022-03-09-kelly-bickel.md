@@ -1,7 +1,7 @@
 ---
 speaker: Kelly Bickel (Bucknell University, USA)
 title: "Blaschke Products, Level Sets, and Crouzeix's Conjecture"
-date: 23 March, 2022
+date: 9 March, 2022
 time: 6 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
