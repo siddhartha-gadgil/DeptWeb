@@ -279,7 +279,7 @@ jan2021:
     instructor: Vamsi Pingali
     name: "Analysis and Linear Algebra - II"
     ug-prereq-courses: UM 101
-    webpage: http://math.iisc.ac.in/~vamsipingali/teaching/um102anallinealg2021spring/um1022021.html
+    webpage:
     timing: 'Mon, Wed, Fri 9:30 - 10:30'
   - code: UM 204
     name: Introduction to Basic Analysis
