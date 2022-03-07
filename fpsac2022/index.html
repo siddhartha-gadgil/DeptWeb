@@ -639,6 +639,97 @@
 				<p class="text-white-50 mb-6">The software itself shall be made publicly available for scrutinizing by the reviewers. If a specific platform is required, 
 				reviewers will make some efforts to get access to that platform and try the software.</p>
 
+				<h3 class="text-white-50 mb-6">Guidelines for final submissions</h3>
+
+				<p class="text-white-50 mb-6">Accepted extended abstracts will be published in a proceedings volume of Séminaire Lotharingien Combinatoire. 
+				Authors will retain the right to publish a full version of their work in another journal, provided that the conference 
+				contribution is indicated as an extended abstract of the full version. For questions and problems, email the proceedings 
+				editor <a href="mailto:tcscrims@gmail.com" target="_blank">Travis Scrimshaw</a>.</p>
+
+				<p class="text-white-50 mb-6">Before sending the final version or your submission, please read the instructions and requirements below.  
+				The requirements for the original format of the submission apply (please read <strong>Guidelines for initial submissions</strong> 
+				and <strong>Formatting requirements and submission procedures</strong> below).  In particular, the default font type and 
+				font size (12 pt) must not be changed.  Final submissions, including suggested corrections, must not exceed 12 pages.</p>
+
+				<p class="text-white-50 mb-6">Your new submission should consist of:</p>
+				<ul class="text-white-50 mb-6">
+    			<li>Your latex file;</li>
+    			<li>A bibtex file with references (see the guidelines below)</li>
+    			<li>All other files required to compile your final submission (figures, etc., keeping in mind the guidelines below);</li>
+    			<li>A PDF file of your submission compiled from these.</li>
+				</ul>
+
+				<h3 class="text-white-50 mb-6">Additional guidelines</h3>
+
+				<ul class="text-white-50 mb-6">
+  				<li>Please spell-check the text before submitting the final version – there are standard spell-checking (or check spelling) 
+  				softwares in most/all OS. This includes the .bib file, where authors' names may be misspelled. E.g. Fulton ↔ Futon.</li>
+				<li>A minor matter of style: if hyphenating between a single name, such as Piatetsky-Shapiro, use a single hyphen 
+				in the TeX source. If hyphenating between multiple names, such as Kac--Moody, use two hyphens. 
+				For example: Harish-Chandra--Itzykson--Zuber integral.</li>
+				<li>When mentioning Remarks or Examples: these should be defined as macros using \theoremstyle, and share the same 
+				counter as definitions, theorems, lemmas, etc. They should not be unnumbered/isolated headings.</li>
+				<li>Proofs: If you have a theorem labelled  <div><pre>
+<code class="text-white-50 mb-6">
+\begin{theorem}\label{Tsample}
+</code></pre></div>
+				then please use <div><pre>
+<code class="text-white-50 mb-6">\begin{proof}</code></pre></div>
+				if the proof is located very closely after the statement of the result; or else <div><pre>
+<code class="text-white-50 mb-6">\begin{proof}[Proof of Theorem \ref{Tsample}]</code></pre></div>
+				if it is more than a few lines away, and definitely if another result is stated between Theorem \ref{Tsample} 
+				and its proof. In particular, please do not use <code>{\em Proof.}</code> or something similar.
+				</li>
+				<li>Avoid use of abbreviations like "wrt", "wlog", "iff".</li>
+  				<li>Figures: The document should be compiled (and compilable) using pdflatex (then bibtex, say, then twice pdflatex). 
+  				In particular, the use of .pdf figures or tikz code is preferred.</li>
+  				<li>When compiling, please ensure that it avoids \overfull \hbox or \vbox errors.</li>
+				</ul>
+
+				<h3 class="text-white-50 mb-6">Bibliography guidelines</h3>
+
+				<p class="text-white-50 mb-6">Bibliography is the .bib file, which is required during final submission, and should contain all references.</p>
+
+				<ul class="text-white-50 mb-6">
+  				<li>Please be sure to delete the lines with the ISBN or ISSN fields. Note that using % may not comment out a line 
+  				from .bib files, so simply delete those fields from the FPSAC accepted .bib file. </li>
+			  <li>You need not include the lines with the MRCLASS and MRNUMBER fields if you so wish, 
+			  since these do not get displayed in the PDF output.</li>
+			  <li>If mentioning the DOI of an article delete the URL line. It is preferable to use the DOI, which typically 
+			  starts with "10.****/...". For instance, in the following information for the .bib file, 
+			  please remove the URL (and ISSN) line, keeping the DOI line in place.  <div><pre>
+<code class="text-white-50 mb-6">@article {MR1333035,
+    AUTHOR = {Wiles, A.},
+    TITLE = {Modular elliptic curves and {F}ermat's last theorem},
+    JOURNAL = {Ann. of Math. (2)},
+    FJOURNAL = {Annals of Mathematics. Second Series},
+    VOLUME = {141},
+    YEAR = {1995},
+    NUMBER = {3},
+    PAGES = {443--551},
+    DOI = {10.2307/2118559},
+    URL = {https://doi.org/10.2307/2118559},
+    ISSN = {0003-486X},
+    MRCLASS = {11G05 (11D41 11F11 11F80 11G18)},
+    MRNUMBER = {1333035},
+    MRREVIEWER = {Karl Rubin}}</code></pre></div></li>
+				<li>For preprints, use the following template in the .bib file: <div><pre>
+<code class="text-white-50 mb-6">@misc{MP,
+    AUTHOR = {Madhava, I. and Pingala, A.},
+    EPRINT = {0201.00000},
+    EPRINTTYPE = {arxiv},
+    TITLE = {Title of the arXiv preprint},
+    YEAR = {0002}}</code></pre></div>
+  				(Do not use <code>@article</code>, but <code>@misc</code>. 
+  				Use EPRINT etc. if there is an arXiv identifier).</li>
+				<li>Author names: All first names should be (edited to become) initials, and never followed by a comma. 
+				Usually, it is: Lastname1, F1. and Lastname2, F2. and... While this may not have been the case in the 
+				"sample files" created in the past, please manually edit in your .bib file all first names, and keep only their initials intact. 
+				Or rather, edit all pre last-names, such as Serre, J.-P.</li>
+			  	<li>Just to remind you: the total length of each FPSAC submission can be no more than 12 pages, 
+			  	with no alterations to the preamble in the TeX file (font size, margins, etc.).</li>
+				</ul>
+
 			<h3 class="text-white-50 mb-6">Guidelines for Initial Submissions</h3>
 
 				<p class="text-white-50 mb-6">Accepted extended abstracts will be published in a proceedings volume 
