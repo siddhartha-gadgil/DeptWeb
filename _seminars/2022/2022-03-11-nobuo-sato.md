@@ -2,7 +2,7 @@
 speaker: Nobuo Sato (National Taiwan University)
 title: "On Eulerian multiple zeta values and the block shuffle relations"
 date: 11 March, 2022
-time: 3 pm
+time: 4 pm
 series: "Number Theory Seminar"
 venue: Microsoft Teams (Online)
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
