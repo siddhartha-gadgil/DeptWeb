@@ -19,3 +19,6 @@ the conjecture in low degree situations (n=3, n=4, n =5 with a caveat). Time
 permitting, I’ll explain how these geometric results also give insights into
 Crouzeix's conjecture for the associated compressed shifts. This talk is based
 on joint work with Pam Gorkin.
+
+The [video of this talk](https://www.youtube.com/watch?v=DHrmuAe910k&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
