@@ -25,6 +25,13 @@
   position: Raman PDF
   image: true
   research-area:  Matrix theory, in connection with positivity and combinatorics
+  
+- name  : Arpita Mal 
+  phd: Jadavpur University
+  user-id: arpitamal
+  position: NPDF
+  image: true
+  research-area: Functional analysis, Geometry of Banach space
 
 - name:	Gargi Ghosh
   phd: IISER Kolkata
@@ -33,15 +40,12 @@
   image: true
   research-area: Operator Theory
 
-
 - name	:	Deb Kumar Giri
   phd: IIT Guwahati
   user-id	:	debkumarg
   position: NBHM
   image: true
   research-area: Harmonic Analysis
-
-
 
 - name: Sumana Hatui 
   phd: HRI, Allahabad
@@ -56,7 +60,6 @@
   position: UGC Kothari
   image: true
   research-area: Geometry of Banach spaces, greedy-type approximation algorithms
-
 
 - name	:	Gouranga Mallik 
   phd: IIT Bombay
@@ -95,7 +98,6 @@
   position: Raman PDF
   image: true
   research-area: Number theory, Representation theory
-  
 
 - name: Anoop V. P.
   phd: NISER Bhubaneswar
@@ -147,7 +149,6 @@
   image: true
   research-area: Probability Theory
 
-
 - name: Manoj Kumar
   phd: IIT Delhi 
   user-id: manojkumar1
@@ -161,7 +162,4 @@
   position: UGC Kothari
   image: true
   research-area: Homogenization of Partial Differential Equations
-
-
-
-
+  
