@@ -162,4 +162,12 @@
   position: UGC Kothari
   image: true
   research-area: Homogenization of Partial Differential Equations
-  
+
+- name: Pratibha Shakya
+  phd: IIT Guwahati
+  user-id: spratibha
+  position: NPDF
+  image: true
+  reaserch-area: Optimal control problems governed by PDEs, Finite element method
+
+
