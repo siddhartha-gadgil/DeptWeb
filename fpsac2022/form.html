@@ -65,15 +65,15 @@
 	<h4 class="mt-5">Participation</h4>
 	<p>How will you attend FPSAC 2022?</p>
 	<div class="form-check">
-	  <input type="radio" class="form-check-input" id="InPersonAttend" name="Attend" value="In-person" checked>
+	  <input type="radio" class="form-check-input" id="InPersonAttend" name="Attend" value="In-person">
 	  <label class="form-check-label" for="InPersonAttend">In-person</label>
 	</div>
 	<div class="form-check">
-	  <input type="radio" class="form-check-input" id="OnlineAttend" name="Attend" value="Online">
+	  <input type="radio" class="form-check-input" id="OnlineAttend" name="Attend" value="Online" checked>
 	  <label class="form-check-label" for="OnlineAttend">Online</label>
 	</div>
 
-	<div id="misc-section">
+	<div id="misc-section" hidden>
 	<div class="mb-3 mt-3">
 	  <label for="requests" class="form-label">Specify any
 	  special requests (for example, accessibility, dietary needs,
@@ -104,18 +104,20 @@
 	
 	
 
+	<div id="passport-information" hidden>
 	<h4 class="mt-5">Passport information</h4>
 	<p>Do you either hold an Indian passport or are a PIO/OCI?</p>
 	<div class="form-check">
-	  <input type="radio" class="form-check-input" id="YesCitizen" name="Citizen?" value="Yes">
+	  <input type="radio" class="form-check-input" id="YesCitizen" name="Citizen?" value="Yes" checked>
 	  <label class="form-check-label" for="YesCitizen">Yes</label>
 	</div>
 	<div class="form-check">
-	  <input type="radio" class="form-check-input" id="NoCitizen" name="Citizen?" value="No" checked>
+	  <input type="radio" class="form-check-input" id="NoCitizen" name="Citizen?" value="No">
 	  <label class="form-check-label" for="NoCitizen">No</label>
 	</div>
+	</div>
 
-	<div id="non-indian-details">
+	<div id="non-indian-details" hidden>
 	<div class="mb-3 mt-3">
 	  <label for="father-name" class="form-label">Father's Name:</label>
 	  <input class="form-control" id="father-name" name="Father's Name" required>
@@ -160,17 +162,60 @@
     </div>
 
     <script>
-      passportDetailIds = ["#father-name", "#dob", "#nationality", "#passport-no", "#place-of-issue", "#date-of-issue", "#date-of-expiry"];
+      passportDetailIds = [
+	  "#father-name", "#dob", "#nationality",
+	  "#passport-no", "#place-of-issue", "#date-of-issue",
+	  "#date-of-expiry"];
 
-      document.querySelector('#YesCitizen').addEventListener("click", function () {
+      function disablePassportQuestion() {
+	  document.querySelector('#passport-information').hidden = true;
+      }
+
+      function enablePassportQuestion() {
+	  document.querySelector('#passport-information').hidden = false;
+      }
+
+      function disablePassportDetails() {
 	  document.querySelector('#non-indian-details').hidden = true;
 	  passportDetailIds.forEach(name => {document.querySelector(name).required = false;});
-      });
+      }
 
-      document.querySelector('#NoCitizen').addEventListener("click", function () {
+      function enablePassportDetails() {
 	  document.querySelector('#non-indian-details').hidden = false;
 	  passportDetailIds.forEach(name => {document.querySelector(name).required = true;});
-      });
+      }
+
+      document.querySelector('#OnlineAttend').addEventListener(
+	  "click",
+	  function() {
+	      disablePassportQuestion();
+	      disablePassportDetails();
+	      document.querySelector('#YesCitizen').checked = true
+	  }
+      );
+
+      document.querySelector('#InPersonAttend').addEventListener(
+	  "click",
+	  function() {
+	      enablePassportQuestion();
+	      disablePassportDetails();
+	  }
+      );
+      
+      document.querySelector('#NoCitizen').addEventListener(
+	  "click",
+	  function() {
+	      enablePassportDetails();
+	  }
+      );
+
+      document.querySelector('#YesCitizen').addEventListener(
+	  "click",
+	  function() {
+	      disablePassportDetails();
+	  }
+      );
+      
 
       miscSectionIds = ["#emerg-name", "#emerg-no"];
       document.querySelector('#InPersonAttend').addEventListener("click", function () {
