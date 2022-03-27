@@ -10,8 +10,8 @@ website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
 
 Here are two problems about hyperplane arrangements.
 
-_Problem 1:_ If you take a collection of planes in R3, then
-the number of lines you get by intersecting the planes is at
+_Problem 1:_ If you take a collection of planes in $\mathbb{R}^3$,
+then the number of lines you get by intersecting the planes is at
 least the number of planes. This is an example of a more general
 statement, called the "Top-Heavy Conjecture", that Dowling and
 Wilson conjectured in 1974.
