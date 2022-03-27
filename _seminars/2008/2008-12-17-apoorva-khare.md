@@ -1,6 +1,6 @@
 ---
 date: 2008-12-17
-speaker: "Apoorva Khare (UC Riverside)"
+speaker: "Apoorva Khare (UC Riverside, USA)"
 title: "Infinitesimal Hecke algebras"
 time: "11 am" 
 venue: "Lecture Hall - I, Dept. of Mathematics"
