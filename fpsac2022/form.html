@@ -72,7 +72,7 @@
 	<div id="misc-section" hidden>
 	<div class="mb-3 mt-3">
 	  <label for="name-tag" class="form-label">Preferred name for name tag:</label>
-	  <input class="form-control" id="name-tag" name="Name Tag" required>
+	  <input class="form-control" id="name-tag" name="Name Tag">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="requests" class="form-label">Specify any
@@ -83,12 +83,12 @@
 	<div class="mb-3 mt-3">
 	  <label for="emerg-name" class="form-label">Emergency contact
 	  name:</label>
-	  <input class="form-control" id="emerg-name" name="Emergency Name" required>
+	  <input class="form-control" id="emerg-name" name="Emergency Name">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="emerg-no" class="form-label">Emergency contact
 	  phone number (including country code):</label>
-	  <input class="form-control" id="emerg-no" name="Emergency contact phone number" required>
+	  <input class="form-control" id="emerg-no" name="Emergency contact phone number">
 	</div>
 	</div>
 
@@ -120,7 +120,7 @@
 	<div id="non-indian-details" hidden>
 	<div class="mb-3 mt-3">
 	  <label for="father-name" class="form-label">Father's Name:</label>
-	  <input class="form-control" id="father-name" name="Father's Name" required>
+	  <input class="form-control" id="father-name" name="Father's Name">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="gender" class="form-label">Gender:</label>
@@ -133,27 +133,27 @@
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="dob" class="form-label">Date of Birth:</label>
-	  <input type="date" class="form-control" id="dob" name="DOB" required>
+	  <input type="date" class="form-control" id="dob" name="DOB">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="nationality" class="form-label">Nationality:</label>
-	  <input class="form-control" id="nationality" name="Nationality" required>
+	  <input class="form-control" id="nationality" name="Nationality">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="passport-no" class="form-label">Passport Number:</label>
-	  <input class="form-control" id="passport-no" name="Passport Number" required>
+	  <input class="form-control" id="passport-no" name="Passport Number">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="place-of-issue" class="form-label">Place of Issue:</label>
-	  <input class="form-control" id="place-of-issue" name="Place of Issue" required>
+	  <input class="form-control" id="place-of-issue" name="Place of Issue">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="date-of-issue" class="form-label">Date of Issue:</label>
-	  <input type="date" class="form-control" id="date-of-issue" name="Date of Issue" required>
+	  <input type="date" class="form-control" id="date-of-issue" name="Date of Issue">
 	</div>
 	<div class="mb-3 mt-3">
 	  <label for="date-of-expiry" class="form-label">Date of Expiry:</label>
-	  <input type="date" class="form-control" id="date-of-expiry" name="Date of Expiry" required>
+	  <input type="date" class="form-control" id="date-of-expiry" name="Date of Expiry">
 	</div>
 	</div>
 
@@ -219,7 +219,7 @@
       );
       
 
-      miscSectionIds = ["#emerg-name", "#emerg-no"];
+      miscSectionIds = ["#emerg-name", "#emerg-no", "#name-tag", '#requests'];
       document.querySelector('#InPersonAttend').addEventListener("click", function () {
 	  document.querySelector('#misc-section').hidden = false;
 	  miscSectionIds.forEach(name => {document.querySelector(name).required = true;});
