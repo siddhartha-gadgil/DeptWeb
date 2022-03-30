@@ -23,3 +23,6 @@ any knowledge of symmetric spaces or symmetric functions.  However, the second h
 of the talk will assume familiarity with basic constructions of Lie theory, such
 as root systems and the Iwasawa decomposition.  Details of the relevant work can be
 found in [this pre-print](https://arxiv.org/pdf/2006.08541.pdf).
+
+The [video of this talk](https://www.youtube.com/watch?v=lQdp5iPDtM0&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
