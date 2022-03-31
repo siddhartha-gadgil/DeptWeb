@@ -13,7 +13,7 @@ A set of large Hausdorff dimension contains many points, so it is natural to exp
 that it should contain specific configurations of interest. Yet many existing
 results in the literature point to the contrary. In particular, there exist
 full-dimensional sets $K$ in the plane with the property that if a point $(x_1, x_2)$
-is in $K$, then no point of the form $(x_1, x_2 + t)$ lies in $K, for any $t \neq 0$.
+is in $K$, then no point of the form $(x_1, x_2 + t)$ lies in $K$, for any $t \neq 0$.
 
 A recent result of Kuca, Orponen and Sahlsten shows that every planar set of Hausdorff
 dimension sufficiently close to 2 contains a two-point configuration of the form
