@@ -17,10 +17,10 @@ is in $K$, then no point of the form $(x_1, x_2 + t) $lies in $K, for any $t \ne
 
 A recent result of Kuca, Orponen and Sahlsten shows that every planar set of Hausdorff
 dimension sufficiently close to 2 contains a two-point configuration of the form
-$(x1, x2)+\{(0, 0), (t, t^2)\}$ for some $t \neq 0$. This suggests that sets of
+$(x1, x2)+\\{(0, 0), (t, t^2)\\}$ for some $t \neq 0$. This suggests that sets of
 sufficiently large Hausdorff dimension may contain patterns with "curvature",
 suitably interpreted. In joint work with Benjamin Bruce, we obtain a characterization
 of smooth functions $\Phi : \mathbb{R} \to \mathbb{R}^d$ such that every set of
 sufficiently high Hausdorff dimension in $d$-dimensional Euclidean space contains a
-two point configuration of the form $\{x, x + \Phi(t)\}$, for some $t$ with
+two point configuration of the form $\\{x, x + \Phi(t)\\}$, for some $t$ with
 $\Phi(t) \neq 0$.
