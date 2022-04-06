@@ -2,7 +2,7 @@
 speaker: Somnath Jha (IIT Kanpur)
 title: "Fine Selmer group of elliptic curves"
 date: 08 April, 2022
-time: 3 pm
+time: 4 pm
 series: "Number Theory Seminar"
 venue: Microsoft Teams (Online)
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
