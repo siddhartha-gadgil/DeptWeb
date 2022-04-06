@@ -18,8 +18,8 @@ corresponding to the restricted symbol is bounded above by the norm of the origi
 For non-commutative groups, one may ask the same question by replacing "$L_p$ spaces of the
 dual group" with the non-commutative $L_p$ space of the group von Neuman algebra.  Caspers,
 Parcet, Perrin and Ricard showed that the answer is still yes in the non-commutative case,
-provided $G$ has something called the 'small-almost invariant neighbourhood property with
-respect to the subgroup $H$'. 
+provided $G$ has something called the "small-almost invariant neighbourhood property with
+respect to the subgroup $H$". 
 
 In recent joint work with Martijn Caspers, Bas Janssens and Lukas Miaskiwskyi, we prove a
 local version of this result, which removes this restriction (for a price). We show that the
