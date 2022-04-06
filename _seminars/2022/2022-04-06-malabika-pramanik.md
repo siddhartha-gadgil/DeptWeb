@@ -24,3 +24,6 @@ of smooth functions $\Phi : \mathbb{R} \to \mathbb{R}^d$ such that every set of
 sufficiently high Hausdorff dimension in $d$-dimensional Euclidean space contains a
 two point configuration of the form $\\{x, x + \Phi(t)\\}$, for some $t$ with
 $\Phi(t) \neq 0$.
+
+The [video of this talk](https://www.youtube.com/watch?v=YnwBAj1Sdzo&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
