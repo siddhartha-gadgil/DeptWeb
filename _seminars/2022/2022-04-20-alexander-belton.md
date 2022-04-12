@@ -8,7 +8,7 @@ series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
-Hirschman-Widder densities may be viewed as the probability density functions of
+Hirschman--Widder densities may be viewed as the probability density functions of
 positive linear combinations of independent and identically distributed exponential
 random variables. They also arise naturally in the study of Pólya frequency functions,
 that is, integrable functions which give rise to totally positive Toeplitz kernels.
