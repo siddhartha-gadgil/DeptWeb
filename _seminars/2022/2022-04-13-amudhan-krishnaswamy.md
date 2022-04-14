@@ -16,7 +16,7 @@ De Leeuw showed that this is indeed the case when $G=\mathbb{R}^n$, and others l
 extended this to all locally compact commutative groups. Moreover, the norm of the multiplier
 corresponding to the restricted symbol is bounded above by the norm of the original multiplier.
 For non-commutative groups, one may ask the same question by replacing "$L_p$ spaces of the
-dual group" with the non-commutative $L_p$ space of the group von Neuman algebra.  Caspers,
+dual group" with the non-commutative $L_p$ space of the group von Neumann algebra.  Caspers,
 Parcet, Perrin and Ricard showed that the answer is still yes in the non-commutative case,
 provided $G$ has something called the "small-almost invariant neighbourhood property with
 respect to the subgroup $H$". 
@@ -29,3 +29,6 @@ invariant neighbourhood property, and can be explicitly estimated for real reduc
 groups. We also prove non-commutative multilinear versions of the De Leeuw theorems, and use
 these to construct examples of multilinear multipliers on the Heisenberg group. I will outline
 these results in my talk, and if time permits, describe some possible extensions.
+
+The [video of this talk](https://www.youtube.com/watch?v=Ot7g_haO7EY&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
