@@ -20,3 +20,7 @@ functions.
 This is joint work with Dominique Guillot (University of Delaware), Apoorva Khare
 (Indian Institute of Science, Bangalore) and Mihai Putinar (University of California at
 Santa Barbara and Newcastle University).
+
+
+The [video of this talk](https://www.youtube.com/watch?v=CcjPun8J9uQ&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
