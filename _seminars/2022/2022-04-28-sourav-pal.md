@@ -16,7 +16,7 @@ unitary dilation space of $T$ respectively, where $V=\prod_{i=1}^{n}V_i$ and
 $U=\prod_{i=1}^{n}U_i$ are the minimal isometric and the minimal unitary dilations of $T$
 respectively. We construct both Sch&auml;ffer and Sz. Nagy-Foias type isometric and unitary
 dilations for $(T_1,\ldots ,T_n)$. Also, a special minimal isometric dilation is constructed
-where the product $T$ is a $C_{0}$ contraction, that is $T^{\*n}\to 0$ strongly as $n\to \infty$.
+where the product $T$ is a $C_0$ contraction, that is $T^{\*n}\to 0$ strongly as $n\to \infty$.
 As a consequence of these dilation theorems we obtain different functional models for $(T_1,\ldots ,T_n)$.
 When the product $T$ is a $C\_0$ contraction, the dilation of $(T_1,\ldots ,T_n)$ leads to a natural
 factorization of $ T$ in terms of compression of Toeplitz operators with linear analytic symbols.
