@@ -19,4 +19,4 @@ dilations for $(T_1,\ldots ,T_n)$. Also, a special minimal isometric dilation is
 where the product $T$ is a $C_0$ contraction, that is $T^{\*n}\to 0$ strongly as $n\to \infty$.
 As a consequence of these dilation theorems we obtain different functional models for $(T_1,\ldots ,T_n)$.
 When the product $T$ is a $C\_0$ contraction, the dilation of $(T_1,\ldots ,T_n)$ leads to a natural
-factorization of $ T$ in terms of compression of Toeplitz operators with linear analytic symbols.
+factorization of $T$ in terms of compression of Toeplitz operators with linear analytic symbols.
