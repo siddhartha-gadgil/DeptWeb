@@ -1,0 +1,14 @@
+body {
+    background-color: #002b36;
+    color: white;
+}
+
+a {
+    color: lightgoldenrodyellow;
+}
+
+a:hover,
+a:focus {
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
