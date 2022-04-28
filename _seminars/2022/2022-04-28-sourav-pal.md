@@ -2,7 +2,7 @@
 speaker: Sourav Pal (IIT, Bombay)
 title: "Minimal dilations for commuting contractions and operator model"
 date: 28 April, 2022
-time: 3:15 pm
+time: 3 pm
 venue: Lecture Hall LH-1
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
