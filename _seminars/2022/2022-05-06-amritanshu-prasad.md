@@ -23,6 +23,6 @@ clearly by Riordan.
 We provide a formula for the number of splitting subspaces for a general
 operator $T$ in terms of the number of $T$-invariant subspaces of various
 dimensions. Specializing to diagonal matrices with distinct eigenvalues
-gives an unexpected and new proof of the Touchard&nbsp;Riordan formula.
+gives an unexpected and new proof of the Touchard&ndash;Riordan formula.
 
 This is based on joint work with Samrith Ram.
