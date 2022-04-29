@@ -2,7 +2,7 @@
 speaker: Amritanshu Prasad (IMSc, Chennai)
 title: "Splitting subspaces and the Touchard-Riordan formula"
 date: 6 May, 2022
-time: 4 pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
