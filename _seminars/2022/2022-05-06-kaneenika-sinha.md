@@ -4,7 +4,7 @@ title: "Distribution and spacing statistics of Sato-Tate sequences in short inte
 date: 06 May, 2022
 time: 11 AM
 series: "Number Theory Seminar"
-venue: Microsoft Teams (Online)
+venue: Google Meet (Online)
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
 
 ---
