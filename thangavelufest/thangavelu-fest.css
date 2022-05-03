@@ -1,14 +1,14 @@
 body {
-    background-color: #002b36;
-    color: white;
+    background-color: #FFFFF;
+    color: black;
 }
 
 a {
-    color: lightgoldenrodyellow;
+    color: blue;
 }
 
 a:hover,
 a:focus {
-    color: lightgoldenrodyellow;
+    color: blue;
     text-decoration: underline;
 }
