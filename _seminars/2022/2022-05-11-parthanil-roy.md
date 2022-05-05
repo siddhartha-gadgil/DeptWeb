@@ -3,7 +3,7 @@ speaker: Parthanil Roy (ISI, Bangalore)
 title: "Ergodicity of stable random fields indexed by amenable groups"
 date: 11 May, 2022
 time: 4 pm
-venue: Microsoft Teams (online) (Joint with the <a href="http://math.iisc.ac.in/geometry-topology-seminar.html">Geometry & Topology Seminar)
+venue: Microsoft Teams (online) (Joint with the <a href="http://math.iisc.ac.in/geometry-topology-seminar.html">Geometry & Topology Seminar</a>)
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
