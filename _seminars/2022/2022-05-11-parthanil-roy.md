@@ -20,7 +20,7 @@ the help of a truncation argument along with the seminal work of Lindenstrauss (
 Tempelman (2015), and finally applying the Maharam skew-product. This work extends the domain of
 application of the speaker's previous paper connecting stable random fields with von Neumann
 algebras via the group measure space construction of Murray and von Neumann (1936). In particular,
-both ergodicity and complete non-ergodicity have now become $W^*$-rigid properties for stable
+both ergodicity and complete non-ergodicity have now become $W^\*$-rigid properties for stable
 random fields indexed by any amenable group, not just $\mathbb{Z}^d$.
 
 This talk is based on an ongoing joint work with Mahan Mj (TIFR Mumbai) and Sourav Sarkar (University of Cambridge).
