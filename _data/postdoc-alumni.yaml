@@ -1,3 +1,36 @@
+
+- name: "Divya Khurana"
+  position: "UGC Kothari"
+  phd: "IIT Kanpur"
+  area: "Geometry of Banach spaces, greedy-type approximation algorithms"
+  start: "2019"
+  end: "2022"
+  present:
+
+- name: "Debmalya Sain"
+  position: "NPDF"
+  phd: "Jadavpur University"
+  area: "Geometry of normed linear spaces"
+  start: "2021"
+  end: "2022"
+  present:
+
+- name: "Sneh Bala Sinha"
+  position: "NBHM"
+  phd: "HRI, Allahabad"
+  area: "Number Theory"
+  start: "2018"
+  end: "2021"
+  present: 
+
+- name: "Sajal Kumar Mukherjee"
+  position: "NBHM"
+  phd: "Visva- Bharati University"
+  area: "Combinatorics (enumerative and topological)"
+  start: "2020"
+  end: "2021"
+  present:
+
 - name: "Gianluca Faraco"
   position: "Raman PDF"
   phd: "University of Ferrera, Italy"

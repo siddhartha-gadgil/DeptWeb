@@ -54,12 +54,6 @@
   image: true
   research-area: Group Theory, Schur multiplier 
 
-- name: Divya Khurana 
-  phd: IIT Kanpur
-  user-id: divyakhurana
-  position: UGC Kothari
-  image: true
-  research-area: Geometry of Banach spaces, greedy-type approximation algorithms
 
 - name	:	Gouranga Mallik 
   phd: IIT Bombay
@@ -67,22 +61,6 @@
   position: Raman PDF
   image: true
   research-area: PDE, finite element method 
-
-
-- name : Debmalya Sain 
-  phd: Jadavpur University
-  user-id: debmalyasain
-  position: NPDF
-  image: true
-  research-area: Geometry of normed linear spaces
- 
-        
-- name	:	Sneh Bala Sinha 
-  phd: HRI, Allahabad
-  user-id	:	snehasinha
-  position: NBHM
-  image: true
-  research-area: Number theory
 
 - name: Chandan Biswas
   phd: University of Wisconsin, Madison
@@ -128,13 +106,6 @@
   image: true
   research-area: Functional Analysis
 
-- name: Sajal Kumar Mukherjee
-  phd: Visva- Bharati University
-  user-id: sajalm
-  position: NBHM
-  image: true
-  research-area: Combinatorics (enumerative and topological) 
-
 - name: Shivani Goel
   phd: IIT Madras
   user-id: shivanigoel
@@ -170,4 +141,18 @@
   image: true
   research-area: Optimal control problems governed by PDEs, Finite element method
 
+- name: Rishabh Agnihotri
+  phd: HRI, Prayagraj
+  user-id: rishabha
+  position: IOE
+  image: true
+  research-area: Number Theory
+
+- name: Hiranya Kishore Dey
+  phd:
+  user-id: hiranyadey
+  position: NPDF
+  image: true
+  research-area:
+ 
 

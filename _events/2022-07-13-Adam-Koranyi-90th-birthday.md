@@ -7,4 +7,4 @@ The programme schedule for the symposium is as follows:
 
 __Date:__     13th July, 2022 (Wednesday)
 
-__Venue:__  Microsoft Teams (online)
+__Venue:__  Zoom (online)
