@@ -149,10 +149,11 @@
   research-area: Number Theory
 
 - name: Hiranya Kishore Dey
-  phd:
+  webpage: https://sites.google.com/view/hiranyadey
+  phd: IIT Bombay
   user-id: hiranyadey
   position: NPDF
   image: true
-  research-area:
+  research-area: Algebraic Combinatorics
  
 
