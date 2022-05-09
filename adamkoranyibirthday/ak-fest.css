@@ -1,0 +1,17 @@
+body {
+    background-color: #002b36;
+    color: white;
+}
+
+<img class="watermark" src="akbackground.JPG"/>
+.watermark { position: relative; }
+.watermark::after { position: absolute; bottom: 0; right: 0; content: "COPYRIGHT"; }
+a {
+    color: lightgoldenrodyellow;
+}
+
+a:hover,
+a:focus {
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
