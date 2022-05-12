@@ -202,6 +202,7 @@
 - name: A. K. Nandakumaran
   user-id: nands
   position: Professor
+  chair: <b>Chairman,</b> Department of Mathematics
   research-areas: Partial differential equations, homogenization, controllability, optimal control and differential games; viscosity solutions
   phd: IISc-TIFR
   phone-ext: 2835
@@ -290,7 +291,6 @@
 - name: S. Thangavelu
   user-id: veluma
   position: Professor
-  chair: <b>Chairman,</b> Department of Mathematics
   research-areas: Harmonic analysis
   phd: Princeton
   phone-ext: 3206
