@@ -4,7 +4,7 @@ title: "Fully nonlinear PDEs on complex manifolds"
 date: 16 Dec, 2021
 time: 11:00 am
 series: "Geometry & Topology Seminar"
-venue: LH 1
+venue: LH-1, Mathematics Department
 website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
