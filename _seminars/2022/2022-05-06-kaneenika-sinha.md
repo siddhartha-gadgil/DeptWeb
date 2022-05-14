@@ -2,7 +2,7 @@
 speaker: Kaneenika Sinha (IISER Pune)
 title: "Distribution and spacing statistics of Sato-Tate sequences in short intervals"
 date: 06 May, 2022
-time: 11 AM
+time: 11 am
 series: "Number Theory Seminar"
 venue: Google Meet (Online)
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
