@@ -1,5 +1,5 @@
 ---
-speaker: George Mathew (Ohio State University) 
+speaker: George Mathew (Ohio State University, USA) 
 title: "Fully nonlinear PDEs on complex manifolds"
 date: 16 Dec, 2021
 time: 11:00 am
