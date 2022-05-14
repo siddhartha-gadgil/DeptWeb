@@ -2,7 +2,7 @@
 speaker: Madhusudan Manjunath (IIT, Bombay)
 title: "Combinatorial Brill-Noether theory via lattice points and polyhedra"
 date: 17 May, 2022
-time: 3 pm
+time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
