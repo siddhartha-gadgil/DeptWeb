@@ -1,6 +1,6 @@
 ---
 date: 2015-11-12
-speaker: "Benjamin A. Burton (University of Queensland, Australia)"
+speaker: "Benjamin A. Burton (University of Queensland, Brisbane, Australia)"
 title: "Exploring parameterised complexity in computational topology"
 time: "4 pm" 
 venue: "LH-1, Mathematics Department"
