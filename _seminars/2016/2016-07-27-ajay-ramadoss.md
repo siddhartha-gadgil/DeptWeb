@@ -1,9 +1,9 @@
 ---
 date: 2016-7-27
-speaker: "Ajay Ramadoss, Indiana University"
+speaker: "Ajay Ramadoss (Indiana University, USA)"
 title: "Representation homology"
 time: "11:15 am" 
-venue: "LH-1, Department of Mathematics"
+venue: "LH-1, Mathematics Department"
 ---
 The n-dimensional matrix representations of a group or an associative
 algebra A form a space (algebraic variety) Rep(A,n) called the n-th
