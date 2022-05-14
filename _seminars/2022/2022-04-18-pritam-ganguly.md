@@ -3,7 +3,7 @@ speaker: Pritam Ganguly (IISc Mathematics)
 title: "Quasi-analytic functions, spherical means, and uncertainty principles on Heisenberg groups and symmetric spaces"
 date: 18 April, 2022
 time: 2 pm
-venue: Lecture Hall LH-1 (Hybrid mode)
+venue: LH-1, Mathematics Department (Hybrid mode)
 series: Thesis
 series-prefix: PhD
 series-suffix: defence
