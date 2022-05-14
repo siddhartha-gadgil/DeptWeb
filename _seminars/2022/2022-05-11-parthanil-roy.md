@@ -24,4 +24,4 @@ geometric actions of hyperbolic groups on various negatively curved spaces are a
 This talk is based on an ongoing joint work with Mahan Mj (TIFR Mumbai) and Sourav Sarkar (University of Cambridge).
 
 The [video of this talk](https://www.youtube.com/watch?v=W3ErQXKKddU&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
-on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists). Here are the [slides](http://www.math.iisc.ac.in/~aprg/slides/2022-05-11-Parthanil-Roy-slides.pdf).
