@@ -3,7 +3,7 @@ speaker: Sudeep Bapat (University of Calfornia at Santa Barbara, USA)
 title: Purely sequential estimation of a negative binomial mean with applications in ecology
 date: 5 February 2020
 time: 2 pm
-venue: LH-1, Department of Mathematics
+venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
