@@ -1,6 +1,6 @@
 ---
 date: 2014-6-25
-speaker: "Ridhdi Shah (Jawaharlal Nehru University, New Delhi)"
+speaker: "Riddhi Shah (Jawaharlal Nehru University, New Delhi)"
 title: "Dynamics of distal group actions"
 time: "3 pm" 
 venue: "LH-1, Mathematics Department"
