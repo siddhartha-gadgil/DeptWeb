@@ -25,10 +25,10 @@ variables.
 In the second part we deal with the spectrum of products of Ginibre
 matrices. Exact eigenvalue density is known for a very few matrix
 ensembles. For the known ones they often lead to determinantal point
-process. Let `$X_1,X_2,...,X_k$` be i.i.d matrices of size nxn whose entries
+process. Let `$X_1,X_2,...,X_k$` be i.i.d. matrices of size $n \times n$ whose entries
 are independent complex Gaussian random variables. We derive the
 eigenvalue density for matrices of the form `$Y_1.Y_2....Y_n$`, where each
-`$Y_i = X_i or (X_i)^{-1}$`. We show that the eigenvalues form a determinantal
+`$Y_i = X_i$ or $(X_i)^{-1}$`. We show that the eigenvalues form a determinantal
 point process. The case where k=2, `$Y_1=X_1,Y_2=X_2^{-1}$` was derived
 earlier by Krishnapur. The case where `$Y_i =X_i$` for all `$i=1,2,...,n$`, was
 derived by Akemann and Burda. These two known cases can be obtained as
