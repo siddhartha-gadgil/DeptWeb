@@ -3,7 +3,7 @@ speaker: Harald Upmeier (Universität Marburg, Germany; InfoSys Chair Professor,
 title: Automorphic Forms in Analysis and Operator Theory
 date: 16 January 2020
 time: 3 pm
-venue: LH-1, Department of Mathematics
+venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
