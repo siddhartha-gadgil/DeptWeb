@@ -1,7 +1,7 @@
 ---
 date: 2015-8-31
 speaker: "Sujatha Ramdorai (University of British Columbia, Vancouver, Canada)"
-title: "Iwasawa theory and the Birch and Swinnerton-Dyer conjecture:"
+title: "Iwasawa theory and the Birch and Swinnerton-Dyer conjecture"
 time: "2 pm" 
 venue: "LH-2, Mathematics Department"
 ---
