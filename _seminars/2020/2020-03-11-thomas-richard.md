@@ -10,4 +10,4 @@ website: http://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
 
 Let $(M,g)$ be a Riemannian manifold and '$c$' be some homology class of $M$. The systole of $c$ is the minimum of the $k$-volume over 
 all possible representatives of $c$. We will use combine recent works of Gromov and Zhu to show an upper bound for the 
-systole of $S^2 \times \{\*\}$ under the assumption that $S^2 \times \{\*\}$ contains two representatives which are far enough from each other.
+systole of $S^2 \times \\{\*\\}$ under the assumption that $S^2 \times \\{\*\\}$ contains two representatives which are far enough from each other.
