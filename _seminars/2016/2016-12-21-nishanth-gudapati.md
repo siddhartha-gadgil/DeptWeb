@@ -1,7 +1,7 @@
 ---
 date: 2016-12-21
 speaker: "Nishanth Gudapati (Yale University, USA)"
-title: "On 3+1 Lorentzian Einstein manifolds with one rotational isometry."
+title: "On 3+1 Lorentzian Einstein manifolds with one rotational isometry"
 time: "11 am" 
 venue: "LH-1, Mathematics Department"
 ---
