@@ -22,7 +22,7 @@ of the "product formula".
 Also, we prove that the projective representations `$\sigma_L$` and
 `$\sigma_R$` for a class of multiplication operators, the two
 representations `$\sigma_{R}$` and `$\sigma_{L}$` are unitarily equivalent to
-certain known pair of representations $\sigma_{\lambda + 1}$` and
+certain known pair of representations `$\sigma_{\lambda + 1}$` and
 `$\sigma_{\lambda - 1},$` respectively. These are described explicitly.
 
 Let $G$ be either (i) the direct product of $n$-copies of the
