@@ -7,7 +7,7 @@ title: Chair and Committees
 
 ### Department Chair : [{{ fac.name }}]({% if fac.website %}{{ fac.website }}{% else %}http://math.iisc.ac.in/~{{fac.user-id}}/{% endif %})
 
-* __Phone :__ +91-80 2293 {{ fac.phone-ext}}
+* __Phone :__ +91-80 2293 {{ fac.phone-ext}}, +91-80 2293 2265
 * __Office :__ Room {{ fac.office}}
 * __Email :__ {{fac.user-id}} AT iisc DOT ac DOT in, chair DOT math AT iisc DOT ac DOT in 
 {% endif %}
@@ -27,7 +27,7 @@ The present members and chairs are as follows:
 * Vamsi Pritham Pingali
 * R. Venkatesh
 * Subhojoy Gupta
-* S. Thangavelu (ex-officio)
+* A. K. Nandakumaran (ex-officio)
 
 ---
 
@@ -51,7 +51,8 @@ The present members and chairs are as follows:
 
 ### Computer committee
 
-* Arvind Ayyer
+* Shaunak Deo (Convener)
+* Arka Mallick
 
 ---
 
@@ -60,7 +61,7 @@ The present members and chairs are as follows:
 * Tirthankar Bhattacharyya
 * Harish Seshadri
 * Abhishek Banerjee
-* S. Thangavelu (ex-officio)
+* A. K. Nandakumaran (ex-officio)
 
 ---
 
