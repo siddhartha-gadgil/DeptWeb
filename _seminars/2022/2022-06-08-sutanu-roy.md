@@ -1,5 +1,5 @@
 ---
-speaker: Sutanu Roy (NISER, Bhubaneswa
+speaker: Sutanu Roy (NISER, Bhubaneswar)
 title: "Braided quantum symmetries of graph $C*$-algebras"
 date: 8 June, 2022
 time: 4 pm
