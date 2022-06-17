@@ -3,7 +3,7 @@ speaker: Arjun Krishnan (University of Rochester)
 title: Geometry of random geodesics
 date: 22 June, 2022
 time: 2:00-3:40 pm (with a 10 minute break 2:45-2:55)
-venue: LH-1, Mathematics Department
+venue: LH-1, Mathematics Department (and Microsoft Teams)
 ---
 
 First-passage percolation is a canonical example of a random metric on the lattice $\mathbb{Z}^d$. It is also conjecturally
