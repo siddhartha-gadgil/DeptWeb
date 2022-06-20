@@ -12,3 +12,15 @@ a:focus {
     color: lightgoldenrodyellow;
     text-decoration: underline;
 }
+
+.gold {
+    color: lightgoldenrodyellow;
+}
+
+.table-dark {
+    background-color: teal !important;
+}
+
+.table-dark th, .table-dark td, .table-dark thead th {
+    border-color: lightgoldenrodyellow !important;
+}
