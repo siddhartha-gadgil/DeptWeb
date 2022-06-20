@@ -27,7 +27,7 @@
 <ol>
 {% for book in page.books %}
  <li>
-   {% if book.author %}{{ book.author | strip }}, {% endif %} <em>{{ book.title | strip }}</em>{% if book.publ %}, {{ book. publ | strip }}{% endif %}.</li>
+   {% if book.author %}{{ book.author | strip }}, {% endif %} <em>{{ book.title | strip }}</em>{% if book.publ %}, {{ book. publ | append: "." | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}</li>
  {% endfor %}
  </ol>
 {% endif %}

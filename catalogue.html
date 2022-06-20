@@ -38,7 +38,7 @@ title: Course Catalogue
     <ol>
     {% for book in course.books %}
      <li>
-       {% if book.author %}{{ book.author}}, {% endif %} <em>{{ book.title }}</em>{% if book.publ %}, {{ book. publ }}{% endif %}.</li>
+       {% if book.author %}{{ book.author}}, {% endif %} <em>{{ book.title }}</em>{% if book.publ %}, {{ book. publ | append: "." | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}</li>
      {% endfor %}
    </ol>
     {% endif %}
