@@ -5,7 +5,7 @@ expiry-date: 2022-07-30
 published: true
 ---
 
-A three-day symposium will be organized by the Department on 25, 26, and 28 July 2022 on the occasion of the superannuation of our faculty members Prof. Mrinal Ghosh, Prof. S. Thangavelu, and Prof. Basudeb Datta. This will be in hybrid mode.
+A three-day symposium will be organized by the Department on 25, 26, and 28 July 2022 on the occasion of the superannuation of our faculty members [Prof. Mrinal Ghosh]({{ site.baseurl }}/mkgfest/index.html), [Prof. S. Thangavelu]({{ site.baseurl }}/thangavelufest/index.html), and [Prof. Basudeb Datta]({{ site.baseurl }}/dattafest/index.html). This will be in hybrid mode.
 
 The symposium will consist of three thematic one-day events. For details of speakers and schedules, please visit the web page of the individual events.
 
