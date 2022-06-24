@@ -59,7 +59,7 @@ jan2023:
     webpage: 
   - name: Introduction to Differentiable Manifolds
     instructor: Subhojoy Gupta
-    code: MA 235 / MA 229
+    code: MA 235 
     prereq-courses: MA 221
     ug-prereq-courses: ''
     timing: 
