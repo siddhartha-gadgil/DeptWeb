@@ -307,7 +307,7 @@ jan2022:
     webpage: 
   - name: Introduction to Differentiable Manifolds
     instructor: Ved Datar
-    code: MA 235 / MA 229
+    code: MA 235 
     prereq-courses: MA 221
     ug-prereq-courses: ''
     timing: 'Tue, Thu: 2:00 - 3:30' 
