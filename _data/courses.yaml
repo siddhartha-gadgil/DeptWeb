@@ -107,12 +107,13 @@ jan2023:
   - name: Elliptic Curves
     code: MA 353
     instructor: Shaunak Deo
-  - name: Introduction to the Calculus of Variations
-    instructor: Swarnendu Sil
-    code: MA 374
   - name: Topics in Probability and Stochastic Processes
     code: MA 368
     instructor: Manjunath Krishnapur
+  - name: Introduction to the Calculus of Variations
+    instructor: Swarnendu Sil
+    code: MA 374
+
 
 aug2022:
   ug:
