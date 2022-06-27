@@ -206,8 +206,8 @@ aug2022:
     code: MA 220
     instructor: Radhika Ganapathy
     timing: 
-  - code: MA 303
-    name : Topics in Operator Theory
+  - code: MA 325
+    name : Operator Theory II
     instructor: E.K.Narayanan
     prereq-courses: 
     ug-prereq-courses: 
