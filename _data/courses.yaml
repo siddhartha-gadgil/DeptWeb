@@ -110,8 +110,8 @@ jan2023:
   - name: Introduction to the Calculus of Variations
     instructor: Swarnendu Sil
     code: MA 374
-  - name: Martingales and Brownian Motion
-    code: MA 3xx
+  - name: Topics in Probability and Stochastic Processes
+    code: MA 368
     instructor: Manjunath Krishnapur
 
 aug2022:
