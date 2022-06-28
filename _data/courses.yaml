@@ -50,7 +50,7 @@ jan2023:
     venue: 
   - name: Complex Analysis
     credits: '3:1'
-    instructor: Bharatwaj Palvannan
+    instructor: Bharathwaj Palvannan
     code: MA 224
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
@@ -217,7 +217,7 @@ aug2022:
     timing: 
   - name: Algebraic Number Theory
     code: MA 313
-    instructor: Bharatwaj Palvannan
+    instructor: Bharathwaj Palvannan
   - name : Introduction to Analytic Number Theory
     code: MA 317
     instructor: Soumya Das
