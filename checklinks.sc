@@ -29,9 +29,12 @@ def isMissing(s: String) = {
 }
 def isBroken(l: String) = 
     mcheck.get(l).getOrElse{
+        // println(s"Checking $l")
         val result =
-        if (l.startsWith("mailto:")) false
-        else 
+        if (l.startsWith("mailto:") || l.startsWith("https://outlook.office.com/calendar") || l.startsWith("https://calendar.google.com/calendar")) {
+        // println("skipped")
+        false}
+        else         
         if (l.startsWith("http")) isMissing(l)
         else Try(contents(l)).isFailure
         mcheck += l -> result
@@ -45,7 +48,7 @@ def offspring(ls: Set[String]) : Set[String] = {
       if (ls == next) ls else offspring(next)
 } 
 
-val allLocal = offspring(Set("index.html")).toVector.filterNot(_ == "pubs.html") 
+val allLocal = offspring(Set("index.html")).toVector.filterNot(s => s == "pubs.html" || s.contains("fpsac")) 
 def checkAll() = {    
     allLocal.foreach{
         s =>
@@ -66,6 +69,7 @@ def checkAll() = {
 def testAll() = {    
     allLocal.zipWithIndex.foreach{
         case (s, n) =>
+            // println(s"checking links from:$s")
             val links = subLinks(s)
             if (links.size < 500) {
                 val br = brokenLinks(s)
