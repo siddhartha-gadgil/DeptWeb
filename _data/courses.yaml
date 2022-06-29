@@ -206,11 +206,6 @@ aug2022:
     code: MA 220
     instructor: Radhika Ganapathy
     timing: 
-  - code: MA 325
-    name : Operator Theory II
-    instructor: E.K.Narayanan
-    prereq-courses: 
-    ug-prereq-courses: 
   - name: Commutative Algebra
     code: MA 312
     instructor: Amalendu Krishna
@@ -227,6 +222,11 @@ aug2022:
     timing: 
     venue: 
     webpage: 
+  - code: MA 325
+    name : Operator Theory II
+    instructor: E.K.Narayanan
+    prereq-courses: 
+    ug-prereq-courses: 
   - name: Topics in Several Complex Variables
     code: MA 329
     instructor: Gautam Bharali
