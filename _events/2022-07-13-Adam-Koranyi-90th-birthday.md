@@ -19,3 +19,5 @@ Time     |  Speaker
 21:45 - 22:30      |    Break  &nbsp;&nbsp;&nbsp;
 22:30 - 00:00      |    Conversations &nbsp;&nbsp;&nbsp;
 
+
+<embed src="{{site.baseurl}}/images/ProfessorKoranyiEventPoster.png" width="1000px" height="1500px">
