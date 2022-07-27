@@ -220,6 +220,11 @@ aug2022:
     timing: 'Tue, Thu: 10:00 - 11:30'
     venue: LH-5
     webpage: https://pbharathwaj.github.io/2022/07/13/algebraicnumbertheoryfall2022.html
+  - name: Lie Algebras and their Representations
+    code: MA 315
+    instructor: Apoorva Khare and R. Venkatesh
+    timing: 'Tue, Thu: 3:30 - 5:00'
+    venue: LH-4
   - name : Introduction to Analytic Number Theory
     code: MA 317
     instructor: Soumya Das
@@ -243,11 +248,12 @@ aug2022:
     instructor: Gautam Bharali
   - name: Probability Theory
     instructor: Manjunath Krishnapur
-    timing: 'Mon, Wed, Fri: 2:00 - 3:00'
-    venue: LH-4
+    timing: 'Tue-Thu: 2:00 - 3:30'
+    venue: LH-5
     code: MA 361
     prereq-courses: MA 222
     ug-prereq-courses: ''
+    webpage: http://math.iisc.ac.in/~manju/PT2022/PT22.html
   - name: Algebraic Graph Theory
     code: MA 375
     timing : 'Mon, Wed, Fri: 11:00 - 12:00'
