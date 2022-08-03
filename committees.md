@@ -36,7 +36,7 @@ The present members and chairs are as follows:
 * Radhika Ganapathy
 * R. Venkatesh
 * Aakanksha Jain
-* Mayuresh Londhe
+* Renjith T.
 
 ---
 
