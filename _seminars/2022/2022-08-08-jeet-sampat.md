@@ -13,7 +13,7 @@ characterizes all shift cyclic functions in $H^p(D^n)$ when $n = 1$. Such a theo
 function spaces, even in the one variable case. Therefore, it becomes natural to ask what properties these functions satisfy to
 understand them better. The goal of this talk is to showcase some important properties of cyclic functions in two different settings.
 
-1. Fix $1 \leq p,q < \infty$ and natural numbers $m, n$. Let $T : H^p(D^p) \to H^q(D^m)$ be a bounded linear operator. Then $T$
+1. Fix $1 \leq p,q < \infty$ and natural numbers $m, n$. Let $T : H^p(D^n) \to H^q(D^m)$ be a bounded linear operator. Then $T$
 preserves cyclic functions i.e., $Tf$ is cyclic whenever $f$ is, if and only if $T$ is a weighted composition operator.
 
 2. Let $H$ be a normalized complete Nevanlinna-Pick (NCNP) space, and let $f, g$ be functions in $H$ such that $fg$ also lies in $H$.
