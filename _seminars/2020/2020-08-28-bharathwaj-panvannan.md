@@ -5,7 +5,7 @@ date: 28 August, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
+website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 In classical Iwasawa theory, one studies a relationship called the Iwasawa main

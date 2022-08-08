@@ -5,7 +5,7 @@ date: 6 May, 2022
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
+website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 Let $T$ be a linear endomorphism of a $2m$-dimensional vector space. An

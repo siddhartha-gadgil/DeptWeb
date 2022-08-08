@@ -5,7 +5,7 @@ date: 4 September, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
+website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 Let $G$ be the group $SL_2$ over a finite extension $F$ of

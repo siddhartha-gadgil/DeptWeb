@@ -5,7 +5,7 @@ date: 17 May, 2022
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
+website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 We start by considering analogies between graphs and Riemann surfaces.

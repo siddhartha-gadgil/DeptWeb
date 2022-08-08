@@ -5,7 +5,7 @@ date: 8 January, 2021
 time: 3 pm
 venue: Zoom (online)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-22.html
+website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 The study of projective representations of a group has a long history
