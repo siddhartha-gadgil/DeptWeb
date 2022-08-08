@@ -4,7 +4,7 @@ title: "Abelian Varieties not isogenous to Jacobians"
 date: 10 August, 2022
 time: 11.30 AM
 series: "Number Theory Seminar"
-venue: LH 1
+venue: LH-1
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
