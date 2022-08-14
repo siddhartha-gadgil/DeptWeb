@@ -4,28 +4,7 @@
   position: Raman PDF
   image: true
   research-area: Representation Theory
-
-- name: Kiran Kumar Behera 
-  phd: IIT Roorkee
-  user-id: kiranbehera
-  position: UGC Kothari
-  image: true
-  research-area: Operator Theory
-
-- name: Sudip Bera 
-  phd: Visva-Bharati University
-  user-id: sudipbera
-  position: NBHM
-  image: true
-  research-area: Algebraic Graph Theory, Algebraic Combinatorics
-  
-- name  : Projesh Nath Choudhury 
-  phd: IIT Madras
-  user-id: projeshc
-  position: Raman PDF
-  image: true
-  research-area:  Matrix theory, in connection with positivity and combinatorics
-  
+ 
 - name  : Arpita Mal 
   phd: Jadavpur University
   user-id: arpitamal

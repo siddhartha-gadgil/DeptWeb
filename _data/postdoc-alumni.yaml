@@ -1,3 +1,31 @@
+
+
+- name: "Kiran Kumar Behera "
+  position: "Kothari"
+  phd: "IIT Roorkee"
+  area: "Operator Theory"
+  start: "2019"
+  end: "2022"
+  present: "Postdoctoral Fellow, NISER, Bhubaneshwar"
+
+- name: "Sudip Bera"
+  position: "NBHM/DST"
+  phd: "Visva-Bharati University"
+  area: "Algebraic Graph Theory, Algebraic combinatorics"
+  start: "2018"
+  end: "2022"
+  present: "Postdoctoral Fellow, TIFR, Mumbai"
+
+
+- name: "Projesh Nath Choudhury"
+  position: "NBHM/NPDF/Raman PDF"
+  phd: "IIT Madras"
+  area: "Matrix theory, in connection with positivity and combinatorics"
+  start: "2019"
+  end: "2022"
+  present: "Assistant Professor, IIT Gandhinagar"
+
+
 - name: "Sumana Hatui"
   position: "Raman PDF"
   phd: "HRI, Allahabad"
@@ -80,12 +108,12 @@
 
 
 - name: "Ramesh Manna"  
-  position: "Kothari/IISc Raman PDF"  
+  position: "Kothari/IISc Raman PDF/INSPIRE Faculty"  
   phd: "HRI, Allahabad"  
   area: "Harmonic analysis"  
   start: "2020"  
-  end: "2020"  
-  present: "INSPIRE Faculty, IISc"  
+  end: "2021"  
+  present: "Assistant Professor, NISER, Bhubaneshwar"  
 
 - name: "Anirudha Poria"  
   position: "Kothari"  
