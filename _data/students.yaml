@@ -260,6 +260,7 @@
   guide: Tirthankar Bhattacharyya
   scholarship: IISc
   image: true
+  webpage: https://sites.google.com/view/welcometomyhomepage/home
 
 - name	:	Raghavendra Tripathi
   user-id	:	ragavendrat
@@ -571,4 +572,66 @@
   programme: PhD
   user-id: ashutoshjs
   image: true  
+
+- name: Jadhav Pratik Ashok Pushpa
+  year-of-joining: 2022
+  programme: PhD
+  user-id: pratikjadhav
+  image: true  
+
+- name: Mahesh Garg
+  year-of-joining: 2022
+  programme: PhD
+  user-id: maheshgarg
+  image: true
+
+- name: Pallab Kumar Hembram
+  year-of-joining: 2022
+  programme: PhD
+  user-id: pallabh
+  image: true
+
+- name: Ajay Prajapati
+  year-of-joining: 2022
+  programme: PhD
+  user-id: ajayp
+  image: true
+
+- name: Rohit Mahato
+  year-of-joining: 2022
+  programme: Integrated PhD
+  user-id: rohitmahato
+  image: true
+
+
+- name: Sourav Ghosh
+  year-of-joining: 2022
+  programme: Integrated PhD
+  user-id: souravghosh1
+  image: true  
+  
+- name: Daksh Sultania
+  year-of-joining: 2022
+  programme: Integrated PhD
+  user-id: dakshs
+  image: true  
+
+- name: Chavda Sahil Ramjibhai
+  year-of-joining: 2022
+  programme: Integrated PhD
+  user-id: sahilchavda
+  image: true
+
+- name: Kapil Kumar
+  year-of-joining: 2022
+  programme: Integrated PhD
+  user-id: kapilkumar
+  image: true
+
+- name: Anant Narayanan
+  year-of-joining: 2022
+  programme: Integrated PhD
+  user-id: anantn
+  image: true
+
 
