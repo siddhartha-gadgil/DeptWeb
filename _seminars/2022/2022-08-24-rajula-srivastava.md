@@ -13,7 +13,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
  groups. This is a codimension one surface compatible with the non-isotropic Heisenberg dilation
  structure. I will describe the main features of the problem, some of which are helpful while
  others are obstructive. These include the non-Euclidean group structure (the extra "twist"
- due to the Heisenberg group law), the geometry of the Korányi sphere (in particular, the
+ due to the Heisenberg group law), the geometry of the Koranyi sphere (in particular, the
  flatness at the poles) and an "imbalanced" scaling argument encapsulated by a new type of
  Knapp example, which we shall describe in detail.
  
