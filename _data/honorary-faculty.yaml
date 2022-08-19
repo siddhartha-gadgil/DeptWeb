@@ -1,0 +1,10 @@
+- name: S. Thangavelu
+  user-id: veluma
+  position: Professor
+  research-areas: Harmonic analysis
+  phd: Princeton
+  phone-ext: 3206
+  office: X14
+  author-names:
+    - Thangavelu, Sundaram
+    - "Thangavelu, S."
