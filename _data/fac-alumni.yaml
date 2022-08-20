@@ -11,6 +11,8 @@
 - name: M N Mathur
 - name: Girishwar Nath
 - name: Phoolan Prasad
+  website: http://math.iisc.ac.in/~prasad/
+  
 - name: Renuka Ravindran
 - name: P K Bhat
 - name: R Jayakaran Isaac
@@ -18,6 +20,9 @@
 - name: E V Krishnamurthy
 - name: K P Sinha, joint appointment with the department of physics
 - name: K B Athreya
+  position: Emeritus Faculty, Iowa State University
+  website: https://www.stat.iastate.edu/people/krishna-athreya
+
 - name: R Vittal Rao
 - name: A Ramachandra Rao
 - name: S C Gupta
@@ -30,14 +35,14 @@
 - name: G. V. Ravindra
 
 - name: S. Viswanath
-  position: Faculty, IMSc. Chennai
+  position: Faculty, IMSc Chennai
   website: https://www.imsc.res.in/s_viswanath
 
 - name: Pooja Singla
   position: Faculty, IIT Kanpur
   website: https://www.iitk.ac.in/new/pooja-singla
 
-- name: Dilip Patil 
+- name: Dilip Patil
   website: http://www.math.iisc.ernet.in/~patil/
 
 - name: Gadadhar Misra
@@ -45,7 +50,7 @@
   website: https://www.isibang.ac.in/~gm/
 
 - name: S. Thangavelu
-  position: Honourary Professor at IISc
+  position: Honorary Professor at IISc
   website: http://math.iisc.ac.in/~veluma/
 
 - name: Mrinal K. Ghosh
