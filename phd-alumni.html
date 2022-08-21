@@ -7,42 +7,40 @@ title: Ph.D. Alumni
   {% assign years = site.data.phd-alumni | group_by: "year" %}
 
 
- {% assign sorted = years | sort: 'name' | reverse %}
+  {% assign sorted = years | sort: 'name' | reverse %}
 
- <ul class="list-inline">
-   {% for y in sorted %}
-   <li class="list-inline-item"> <a href="#{{y.name}}"> {{y.name}} </a> </li>
-   {% endfor %}
- </ul>
+  <ul class="list-inline">
+    {% for y in sorted %}
+    <li class="list-inline-item"> <a href="#{{y.name}}"> {{y.name}} </a> </li>
+    {% endfor %}
+  </ul>
 
 
- <ul>
-  {% for y in sorted %}
-   <li>
-     <h4>
-     <!-- <a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}"> -->
-     {{y.name}}
-     <!-- </a> -->
-     </h4>
+  <ul class="list-group list-group-flush">
+    {% for y in sorted %}
+    <li class="list-group-item">
+      <h4>
+        <!-- <a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}"> -->
+        {{y.name}}
+        <!-- </a> -->
+      </h4>
+      <div class="list-group">
+          {% for deg in y.items %}
+          <div class="list-group-item">
+            <h5>{{ deg.name }}</h5>
+            <div> <b>Thesis title:</b> {{ deg.title }} </div>
+            <div> <b>Supervisor:</b> {{ deg.advisor }}</div>{% if deg.present %} 
+            <div> <b>Present Position:</b> {{ deg.present}} </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
 
-<div class="" id="{{y.name}}">
-  <ul style="list-style-type:none">
-  {% for deg in y.items %}
-   <li><p style="margin-top: 15px; margin-bottom: -3px"> <b>Name:</b> <em>{{ deg.name }}</em> </p></li>
-   <li> <b>Title:</b> {{ deg.title }} </li>
-   <li> <b>Supervisor:</b> {{ deg.advisor }}{% if deg.present %} </li>
-   <li> <b>Present Position:</b>  {{ deg.present}} </li>
- {% endif %}
 
- {% endfor %}
- </ul>
-
-</div>
-
-</li>
-<p><a href="#" class="pull-right">Top</a></p>
-<br>
-{% endfor %}
-</ul>
+  </li>
+  <p><a href="#" class="pull-right">Top</a></p>
+  <br>
+  {% endfor %}
+  </ul>
 
 </div>
