@@ -22,37 +22,34 @@ title: Undergraduate Degrees Awarded
     </ul>
 
 
-    <ul>
+    <ul class="list-group list-group-flush">
         {% for y in sorted %}
-            <li>
+            <li class="list-group-item">
                 <h4>
                     <!-- <a class="" data-toggle="collapse" href="#{{y.name}}" aria-expanded="false" aria-controls="{{y.name}}"> -->
                     {{y.name}}
                     <!-- </a> -->
                 </h4>
 
-                <div class="" id="{{y.name}}">
-                    <ul style="list-style-type:none">
+                <div class="list-group" id="{{y.name}}">
                         {% for deg in y.items %}
-                            <li>
-                                <p style="margin-top: 15px; margin-bottom: -3px">
-                                    <b>Name:</b>
-                                    <em>{{ deg.name }}</em>
-                                </p>
-                            </li>
-                            <li>
+                        <div class="list-group-item">
+                            <h5>
+                                    {{ deg.name }}
+                                </h5>
+                            <div>
                                 <b>Degree:</b>
                                 {{deg.degree }}
-                            </li>
+                            </div>
                             {% if deg.present %}
-                                <li>
+                                <div>
                                     <b>Next position:</b>
                                     {{ deg.present}}
-                                </li>
+                                </div>
                             {% endif %}
-
+                        </div>
                         {% endfor %}
-                    </ul>
+
 
                 </div>
 

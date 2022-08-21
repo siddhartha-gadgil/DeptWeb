@@ -6,17 +6,18 @@ title: Former Inspire faculty and DST Scientists
 
   {% assign alumni = site.data.inspire-alumni %}
 
-    <ul style="list-style-type:none">
+  <ul class="list-group list-group-flush">
     {% for y in alumni %}
-      <li><p style="margin-top: 15px; margin-bottom: -3px"><strong>Name:</strong> <em>{{ y.name }}</em>
+      <li class="list-group-item">
+      <h5 class="list-item">{{ y.name }}
         (Ph.D.{% if y.phd %}, {{ y.phd }}{% endif %}){% if y.start %}, {{ y.start }} &ndash; {% if y.end %}{{y.end}}.{% endif %}{% endif %}
-        </p></li>
-      {% if y.area %}<li><strong>Research area:</strong> {{ y.area }}</li>{% endif %}
-      {% if y.position %}<li><strong>Position at IISc:</strong> {{ y.position }}</li>{% endif %}   
-      {% if y.present %}<li><strong>Current/next position:</strong> {{ y.present }}</li>{% endif %} 
+      </h5>
+      {% if y.area %}<div class="list-item"><strong>Research area:</strong> {{ y.area }}</div>{% endif %}
+      {% if y.position %}<div class="list-item"><strong>Position at IISc:</strong> {{ y.position }}</div>{% endif %}   
+      {% if y.present %}<div class="list-item"><strong>Current/next position:</strong> {{ y.present }}</div>{% endif %} 
       {% endfor %}
+    </div></li>
     </ul>
-    
 
 
 </div>
