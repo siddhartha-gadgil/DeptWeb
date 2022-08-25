@@ -11,5 +11,5 @@ I will explain a generalisation of the constructions Quillen used to prove that 
 of rings of integers are finitely generated. It takes the form of a 'rank' spectral sequence,
 converging to the homology of Quillen's $Q$-construction on the category of coherent sheaves over
 a Noetherian integral scheme, and whose $E^1$ terms are given by homology of Steinberg modules.
-Computing its d^1 differentials is a challenge, which can be approached through the universal
+Computing its $d^1$ differentials is a challenge, which can be approached through the universal
 modular symbols of Ash-Rudolph.
