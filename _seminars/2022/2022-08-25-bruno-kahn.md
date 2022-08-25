@@ -4,6 +4,7 @@ title: "The rank spectral sequence on Quillen's Q construction"
 date: 25 August, 2022
 time: 12 pm
 venue: LH-1, Mathematics Department
+series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
