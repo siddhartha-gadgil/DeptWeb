@@ -23,7 +23,7 @@
   area: "Matrix theory, in connection with positivity and combinatorics"
   start: "2018"
   end: "2022"
-  present: "[Assistant Professor, IIT Gandhinagar](http://projesh.people.iitgn.ac.in/)"
+  present: <a target="_blank" href="http://projesh.people.iitgn.ac.in/">Assistant Professor, IIT Gandhinagar</a>
 
 
 - name: "Sumana Hatui"
@@ -40,7 +40,7 @@
   area: "Geometry of Banach spaces, greedy-type approximation algorithms"
   start: "2019"
   end: "2022"
-  present:
+  present: <a target="_blank" href="https://iimranchi.ac.in/p/faculty.html?profile=divya-khurana">Assistant Professor, IIM Ranchi</a>
 
 - name: "Debmalya Sain"
   position: "NPDF"
@@ -72,7 +72,7 @@
   area: "Low-dimensional topology"
   start: "2020"
   end: "2021"
-  present: "Visiting Fellow, Max Planck Institute for Mathematics, Bonn"
+  present: <a target="_blank" href="https://sites.google.com/view/gianluca-faraco">Visiting Fellow, Max Planck Institute for Mathematics, Bonn</a>
 
 - name: "Mamta Balodi"
   position: "Raman PDF"
@@ -96,7 +96,7 @@
   area: "Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory"
   start: "2020"
   end: "2021"
-  present: "Assistant Professor, IIT, Dharwad" 
+  present: <a target="_blank" href="https://sites.google.com/view/g-arunkumar/>Assistant Professor, IIT Madras</a>
 
 - name: "Anupam Gumber"  
   position: "NBHM"
@@ -153,7 +153,7 @@
   area: "Probability and Stochastic processes"  
   start: "2018"  
   end: "2018"  
-  present: "IIT, Bhilai"  
+  present: <a target="_blank" "https://www.iitbhilai.ac.in/index.php?pid=profile_drkuldeep>IIT, Bhilai</a>
 
 - name: "Arun Maiti"  
   position: "NBHM"  
