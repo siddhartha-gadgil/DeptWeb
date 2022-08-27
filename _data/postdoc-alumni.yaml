@@ -113,7 +113,7 @@
   area: "Harmonic analysis"  
   start: "2020"  
   end: "2021"  
-  present: "Assistant Professor, NISER, Bhubaneshwar"  
+  present: <a target="_blank" href="https://www.niser.ac.in/sms/professor/rameshmanna">Assistant Professor, NISER Bhubaneswar</a>
 
 - name: "Anirudha Poria"  
   position: "Kothari"  
@@ -132,12 +132,12 @@
   present: "NIT, Calicut"  
 
 - name: "Bikramaditya Sahu"  
-  position: "NBHM"  
+  position: "NBHM"
   phd: "NISER"  
   area: "Algebraic combinatorics, Finite geometry"  
   start: "2019"  
   end: "2020"  
-  present: "NIT, Rourkela"  
+  present: <a target="_blank" href="https://website.nitrkl.ac.in/FProfile.aspx?e=sahuba">Assistant Professor, NIT Rourkela</a>
 
 - name: "Srijan Sarkar"  
   position: "NBHM"  
@@ -177,7 +177,7 @@
   area: "Nevanlinna theory, Several complex variables"  
   start: "2017"  
   end: "2020"  
-  present: "Babasaheb Bhimrao Ambedkar University, Lucknow"  
+  present: <a target="_blank" href="https://sites.google.com/view/gopaldatt">Assistant Professor, Babasaheb Bhimrao Ambedkar University</a>
 
 - name: "Qaiser Jahan"  
   position: "Kothari"  
