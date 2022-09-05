@@ -4,7 +4,7 @@ title: "Moduli space of abelian surfaces with fixed $3$-torsion representation"
 date: 07 September, 2022
 time: 11.30 AM
 series: "Number Theory Seminar"
-venue: LH-1
+venue: LH-3
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
