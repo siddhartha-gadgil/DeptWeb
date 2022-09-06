@@ -1,5 +1,5 @@
 ---
-speaker: Anusha Krishnan (University of Münster)
+speaker: Anusha Krishnan (University of Münster, Germany)
 title: "Positive sectional curvature and Ricci flow"
 date: 30 August, 2022
 time: 4:00 pm
