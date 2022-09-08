@@ -10,7 +10,7 @@ website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
 
 Let `$F$` be a global field and `$\Gamma_F$` its absolute Galois group. Given
 a continuous representation `$\bar{\rho}: \Gamma_F \to G(k)$`, where `$G$` is a split
-reductive group and `$k$` is a finite field, it is of interest to know when `$\bar(\rho}$` lifts
+reductive group and `$k$` is a finite field, it is of interest to know when `$\bar{\rho}$` lifts
 to a representation `$\rho: \Gamma_F \to G(O)$`, where `$O$` is a complete discrete
 valuation ring of characteristic zero with residue field `$k$`. One would also like to control
 the local behaviour of `$\rho$` at places of `$F$`, especially at primes dividing `$p = \mathrm{char}(k)$`
