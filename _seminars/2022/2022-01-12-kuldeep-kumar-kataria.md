@@ -1,6 +1,6 @@
 ---
 speaker: Kuldeep Kumar Kataria (IIT Bhilai)
-title: "On fractional counting processes"
+title: "Colloquium: On fractional counting processes"
 date: 12 Jan, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
