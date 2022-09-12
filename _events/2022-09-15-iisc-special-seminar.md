@@ -1,5 +1,5 @@
 ---
-title: "IISc Special Seminar (John M. Ball)"
+title: "IISc Special Seminar"
 ---
 
 Sir John Macleod Ball (Heriot Watt University and Oxford University) will deliver a Special Seminar.
