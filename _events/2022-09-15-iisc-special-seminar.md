@@ -4,8 +4,9 @@ title: "IISc Special Seminar (John M. Ball)"
 
 Sir John Macleod Ball (Heriot Watt University and Oxford University) will deliver a Special Seminar.
 
-The lecture is in the MRC Auditorium, at 4pm on Thursday September 15, 2022.
+_Date and time:_ Thursday September 15, 2022, at 4pm
 
+_Venue:_ MRC Auditorium
 
 _Title:_ "Monodromy and approach to equilibrium for viscoelastic models allowing microstructure"
 
