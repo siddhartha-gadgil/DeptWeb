@@ -1,6 +1,6 @@
 - name: Safdar Quddus, (Ph.D., Washington University)
   position: Inspire Fellow
-  research-areas: Non-commutative geometry
+  research-areas: Non-commutative Geometry
   user-id: safdarquddus
   image: true
   
@@ -13,13 +13,20 @@
 
 - name: Mithun Bhowmik, (Ph.D., Indian Statistical Institute, Kolkata)
   position: Inspire Fellow
-  research-areas: Harmonic analysis on Lie groups
+  research-areas: Harmonic Analysis on Lie Groups
   user-id : mithunb
   image: true
 
 - name: Sushma Palimar, (Ph.D., NITK, Surathkal)
   position: DST WOSA
-  research-areas: Algebraic number theory
+  research-areas: Algebraic Number Theory
   user-id : psushma
   image: true
+
+
+- name: Shraddha Srivastava, (Ph.D., CMI, Chennai)
+  position: Inspire Fellow
+  research-areas: Representation Theory
+  user-id : sshraddha
+  image: true  
 
