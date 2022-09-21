@@ -1,5 +1,5 @@
 ---
-title: Junior Associate of International Centre for Theoretical Physics
+title: Junior Associate of the International Centre for Theoretical Physics
 date: Sep. 04, 2017
 ---
 
