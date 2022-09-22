@@ -1,6 +1,6 @@
 ---
 title: Junior Associate of the International Centre for Theoretical Physics
-date: Sep. 16, 2022
+date: Sept. 16, 2022
 archived: true
 ---
 
