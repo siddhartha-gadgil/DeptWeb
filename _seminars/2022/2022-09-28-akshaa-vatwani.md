@@ -2,7 +2,7 @@
 speaker: Akshaa Vatwani (IIT Gandhinagar)
 title: "Limitations to equidistribution in arithmetic progressions"
 date: 28 September, 2022
-time: 12 pm
+time: 11.30 AM
 series: "Number Theory Seminar"
 venue: LH 1
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
