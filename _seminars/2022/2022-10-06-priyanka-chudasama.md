@@ -1,7 +1,7 @@
 ---
 speaker: Priyanka Chudasama (IISc Mathematics)
 date: 6th October 2022
-time: TBA
+time: 11 am
 venue: Hybrid - Microsoft Teams (online) and TBA, Mathematics Department
 title: Asymmetric Super-Heston-rough volatility model with Zumbach effect as a scaling limit of quadratic Hawkes processes
 series: Thesis
