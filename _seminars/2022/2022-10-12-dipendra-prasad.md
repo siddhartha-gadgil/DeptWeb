@@ -2,7 +2,7 @@
 speaker: Dipendra Prasad (IIT Bombay)
 title: "The distinction problem for symmetric spaces"
 date: 12 October, 2022
-time: 12 pm
+time: 2 pm
 series: "Number Theory Seminar"
 venue: LH 1
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
