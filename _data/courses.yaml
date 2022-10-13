@@ -121,6 +121,9 @@ aug2022:
     instructor: Purvi Gupta
     name: Anaysis and Linear Algebra - I
     ug-prereq-courses:
+    timing: 'Mon, Wed, Fri: 11:00 - 12:00'
+    webpage: http://math.iisc.ac.in/~purvigupta/math101.html
+    venue: F12, OPB
   - code: UM 201
     instructor: Arvind Ayyer
     name: Probability and Statistics
