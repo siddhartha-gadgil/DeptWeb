@@ -59,15 +59,6 @@
     - "Datar, Ved"
     - "Datar, Ved V."
 
-- name: Basudeb Datta
-  user-id: dattab
-  position: Professor
-  research-areas: Algebraic and combinatorial topology
-  phd: ISI
-  phone-ext: 3211
-  office: X04
-  author-name: Datta, Basudeb
-
 - name: Shaunak Deo
   user-id: shaunakdeo
   position: Assistant Professor
@@ -95,15 +86,6 @@
   author-name: Ganapathy, R
   website: "#"
   phone-ext: 3694
-
-- name: Mrinal K. Ghosh
-  user-id: mkg
-  position: Professor
-  research-areas: Stochastic control, Markov decision processes, stochastic dynamic games, stochastic hybrid Systems; applications of stochastic analysis to manufacturing systems, finance, etc.
-  phd: IISc-TIFR
-  phone-ext: 3210
-  office: L29
-  author-name: "Ghosh, Mrinal K."
 
 - name: Thirupathi Gudi
   user-id: gudi
@@ -223,8 +205,8 @@
   position: Assistant Professor
   research-areas: Number theory and arithmetic geometry
   phd: University of Washington
-  phone-ext: 
-  office: N21
+  phone-ext: 3211
+  office: X04
 
 - name: Vamsi Pritham Pingali
   user-id: vamsipingali
