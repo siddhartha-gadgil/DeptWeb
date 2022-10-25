@@ -22,3 +22,5 @@ gem 'faraday', '0.17.3'
 # group :jekyll_plugins do
 #   gem "jekyll-gist"
 # end
+
+gem "webrick", "~> 1.7"
