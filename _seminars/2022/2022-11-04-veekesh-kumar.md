@@ -8,14 +8,14 @@ website:
 ---
 
 
-For a real number $x$, let $\|x\|$ denote the distance from $x$ to the
-nearest integer. The study of the sequence $\|\alpha^n\|$ for $\alpha > 1$
+For a real number $x$, let $\\|x\\|$ denote the distance from $x$ to the
+nearest integer. The study of the sequence $\\|\alpha^n\\|$ for $\alpha > 1$
 naturally arises in various contexts in number theory. For example, it is
-not known that the sequence $\|e^n\|$ tends to zero as $n$ tends to
-infinity. Also, the growth of the sequence $\|(3/2)^n\|$ is linked to the
+not known that the sequence $\\|e^n\\|$ tends to zero as $n$ tends to
+infinity. Also, the growth of the sequence $\\|(3/2)^n\\|$ is linked to the
 famous Waring's problem. This was the motivation for Mahler in 1957 to
 prove that for any non-integral rational number $\alpha > 1$ and any real
-number $c$ with $0 < c < 1$, the inequality $\|\alpha^n\| < c^n$ has only
+number $c$ with $0 < c < 1$, the inequality $\\|\alpha^n\\| < c^n$ has only
 finitely many solutions in $n\in\mathbb{N}$. Mahler also asked the
 characterization of all algebraic numbers satisfying the same property as
 the non-integral rational numbers. In 2004, Corvaja and Zannier proved a
