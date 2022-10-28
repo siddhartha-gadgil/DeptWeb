@@ -17,8 +17,8 @@ domain is star-shaped with respect to the origin.
 We show that this non-existence is surprisingly stable under perturbations, which
 includes situations not covered by the Pohozaev obstruction, if the boundary of the
 domain has a positive curvature. In particular, we show that there are no positive
-variational solutions to our PDE under C^1-perturbations of the potential when the
+variational solutions to our PDE under $C^1$-perturbations of the potential when the
 domain is star-shaped with respect to the origin and the mean curvature of the boundary
-at the origin is positive..The proof of our result relies on sharp blow-up analysis.
+at the origin is positive. The proof of our result relies on sharp blow-up analysis.
 This is a joint work with Nassif Ghoussoub (UBC, Vancouver) and Frédéric Robert
 (Institut Élie Cartan, Nancy).
