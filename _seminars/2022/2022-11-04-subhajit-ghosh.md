@@ -17,8 +17,8 @@ Define a $B_q(n)\times B_q(n)$ complex matrix $M_{q,n}$ with entries given by
 `\begin{equation}
 M_{q,n}(X,Y):=
 \begin{cases}
-	1&\text{ if }Y\subseteq X, \dim(Y)=\dim(X)-1,\\\\
-	q^{\dim(X)}&\text{ if }X\subseteq Y, \dim(Y)=\dim(X)+1,\\\\
+	1&\text{ if }Y\subseteq X, \dim(Y)=\dim(X)-1,\\
+	q^{\dim(X)}&\text{ if }X\subseteq Y, \dim(Y)=\dim(X)+1,\\
 	0&\text{ otherwise.}
 \end{cases}
 \end{equation}`
