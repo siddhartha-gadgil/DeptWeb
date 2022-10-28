@@ -9,7 +9,7 @@ website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 In this talk, we will consider the issues of non-existence of solutions to a Yamabe
-type equation on bounded Euclidean domains(dim>2). The leading order terms of this
+type equation on bounded Euclidean domains (dim>2). The leading order terms of this
 equation are invariant under conformal transformations which leads to the classical
 Pohozaev identity. This in turn gives non-existence of solutions to the PDE when the
 domain is star-shaped with respect to the origin.
