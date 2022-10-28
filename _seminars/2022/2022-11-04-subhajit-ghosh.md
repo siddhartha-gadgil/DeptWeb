@@ -14,14 +14,14 @@ $\mathbb{F}\_q^n$, the $n$-dimensional $\mathbb{F}\_q$-vector space of all
 column vectors with $n$ components.
 
 Define a $B_q(n)\times B_q(n)$ complex matrix $M_{q,n}$ with entries given by
-\begin{equation}
+`\begin{equation}
 M_{q,n}(X,Y):=
 \begin{cases}
 	1&\text{ if }Y\subseteq X, \dim(Y)=\dim(X)-1,\\\\
 	q^{\dim(X)}&\text{ if }X\subseteq Y, \dim(Y)=\dim(X)+1,\\\\
 	0&\text{ otherwise.}
 \end{cases}
-\end{equation}
+\end{equation}`
 We think of $M_{q,n}$ as a $q$-analog of the adjacency matrix of the
 $n$-cube. We show that the eigenvalues of $M_{q,n}$ are
 \begin{equation}
