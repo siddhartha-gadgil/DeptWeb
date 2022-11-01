@@ -1,7 +1,7 @@
 ---
 speaker: Tuhin Ghosh (Universität Bielefeld, Germany)
 title: "Colloquium: Nonlocal Calderón Problem"
-date: 14 Nov, 2022
+date: 16 Nov, 2022
 time: 4 pm
 venue: Microsoft Teams (Online)
 website: 
