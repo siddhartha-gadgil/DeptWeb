@@ -2,7 +2,7 @@
 speaker: Satadal Ganguly (ISI Kolkata)
 title: "Counting matrices with Diophantine restrictions on the entries"
 date: 09 November, 2022
-time: 12 pm
+time: 11.30 AM
 series: "Number Theory Seminar"
 venue: LH-1
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
