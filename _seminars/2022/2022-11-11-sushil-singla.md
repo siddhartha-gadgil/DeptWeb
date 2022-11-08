@@ -1,5 +1,5 @@
 ---
-speaker: Sushil Singla (IISc Bangalore)
+speaker: Sushil Singla (IISc Mathematics)
 title: "Sequence of Toeplitz algebras converge to odd spheres for the quantum Gromov-Hausdorff distance"
 date: 11 Nov, 2022
 time: 4 pm
