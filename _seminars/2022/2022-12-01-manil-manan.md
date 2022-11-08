@@ -13,7 +13,7 @@ stochastic Navier-Stokes equations (SNSE) driven by a linear multiplicative whit
 We prove that non-autonomous 2D SNSE generates a bi-spatial continuous random cocycle. Due to the bi-spatial continuity
 property of the random cocycle associated with SNSE, we show that if the initial data is in $L^2(\mathbb{R}^2)$, then
 there exists a unique bi-spatial $(L^2(\mathbb{R}^2), \mathbb{H}^1(\mathbb{R}^2))$-pullback random attractor for
-non-autonomous SNSE which is compact and attracting not only in L^2-norm but also in $\mathbb{H}^1$-norm. Next, we
+non-autonomous SNSE which is compact and attracting not only in $L^2$-norm but also in $\mathbb{H}^1$-norm. Next, we
 discuss the existence of an invariant measure for the random cocycle associated with autonomous SNSE which is a
 consequence of the existence of random attractors. We prove the uniqueness of invariant measures  by using the
 linear multiplicative structure of the noise coefficient and exponential stability of solutions.
