@@ -1,5 +1,5 @@
 ---
-speaker: Mukesh Kumar Nagar (IIT, Kanpur)
+speaker: Mukesh Kumar Nagar (Punjab Engineering College, Chandigarh)
 title: "Colloquium: GTS Poset and Laplacian Immanants of Trees"
 date: 14 Nov, 2022
 time: 4 pm
