@@ -75,4 +75,4 @@ The present members and chairs are as follows:
 
 ### Safety Champion
 
-* Amalendu Krishna
+* Srikanth K. Iyer
