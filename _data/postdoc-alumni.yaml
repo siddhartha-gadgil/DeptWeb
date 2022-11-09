@@ -1,4 +1,10 @@
-
+- name: "Anoop V. P"
+  position: "NPDF"
+  phd: "NISER Bhubaneswar"
+  area: "Harmonic Analysis"
+  start: "2020"
+  end: "2022"
+  present: 
 
 - name: "Kiran Kumar Behera "
   position: "Kothari"
