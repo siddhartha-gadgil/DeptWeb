@@ -16,3 +16,6 @@ mathematicians in the last two decades. We will define compact quantum metric sp
 of Toeplitz algebras on generalized Bergman space and prove that it converges to the space of continuous
 function on odd spheres in the quantum Gromov-Hausdorff distance. This is a joint work with Prof. Tirthankar
 Bhattacharyya.
+
+The [video of this talk](https://www.youtube.com/watch?v=b4XiHnh7P4w&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
