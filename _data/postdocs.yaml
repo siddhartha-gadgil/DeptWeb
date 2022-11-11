@@ -49,12 +49,6 @@
   image: true
   research-area: Number theory, Representation theory
 
-- name: Anoop V. P.
-  phd: NISER Bhubaneswar
-  user-id: anoopvp
-  position: NPDF
-  image: true
-  research-area: Harmonic Analysis 
 
 - name: Rajesh Kumar Singh 
   phd: IIT Kanpur 
@@ -129,4 +123,10 @@
   image: true
   research-area: Algebraic Combinatorics
  
-
+- name: Dharmendra Kumar
+  webpage: 
+  phd: IIT Gandhinagar
+  user-id: dharmendrak
+  position: IOE
+  image: true
+  research-area: PDEs

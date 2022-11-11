@@ -260,26 +260,6 @@
   website: http://www.math.iisc.ac.in/~ssil/
   author-name: Sil, Swarnendu
 
-- name: Pooja Singla
-  user-id: pooja
-  position: Associate professor
-  research-areas: Representation theory
-  phd: IMSc
-  phone-ext: 2571
-  office:
-  website: https://sites.google.com/site/poojasingla7/Home
-  author-name: Singla, Pooja
-
-- name: S. Thangavelu
-  user-id: veluma
-  position: Professor
-  research-areas: Harmonic analysis
-  phd: Princeton
-  phone-ext: 3206
-  office: X14
-  author-names:
-    - Thangavelu, Sundaram
-    - "Thangavelu, S."
 
 - name: R. Venkatesh
   user-id: rvenkat
