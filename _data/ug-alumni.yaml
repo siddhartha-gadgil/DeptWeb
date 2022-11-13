@@ -139,7 +139,7 @@
   year: '2017'
 - name: Mathew George
   degree: Bachelor of Science (Research) & Master of Science
-  present: "MS at IISc, Visiting at ICTS, PhD at Ohio State University"
+  present: "Visiting at ICTS, PhD at Ohio State University"
   year: '2017'
 - name: Ankit Kumar Jaiswal
   degree: Bachelor of Science (Research) & Master of Science
@@ -235,16 +235,18 @@
   year : '2019'
 - name : Prateek Yadav
   degree : Bachelor of Science (Research)
-  present: "Microsoft Research Lab; Indian Institute of Technology Madras"
+  present: "Microsoft Research Lab; IIT Madras"
   year : '2019'
 - name : Adhithya P.
   degree : Bachelor of Science (Research)
   year : '2019'
 - name : Sidharth P. Jacob
   degree : Bachelor of Science (Research)
+  present: "Anitha & Associates; IIM Calcutta"
   year : '2019'
 - name : Saket Padhi
   degree : Bachelor of Science (Research)
+  present: "ML Software Engineer at Cargill"
   year : '2019'
 - name : Pranjal Pandurang Warade
   degree : Bachelor of Science (Research)
@@ -253,7 +255,6 @@
 - name : Samyak
   degree : Bachelor of Science (Research)
   year : '2019'
-  
 - name : Prokash Kumar Kundu
   degree : Bachelor of Science (Research) & Master of Science
   present: "Graduate student at ICTS Bangalore"
