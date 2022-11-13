@@ -87,10 +87,11 @@
   year: '2017'
 - name: Amleshwar Kumar
   degree: Bachelor of Science (Research)
+  present: "Strat analyst at Goldman Sachs"
   year: '2017'
 - name: Chinmay Lohani
   degree: Bachelor of Science (Research)
-  present: "London School of Economics"
+  present: "Master's at London School of Economics; PhD at UPenn"
   year: '2017'
 - name: Seethamraju Mukund
   degree: Bachelor of Science (Research)
@@ -100,6 +101,7 @@
   year: '2017'
 - name: Amal Roy
   degree: Bachelor of Science (Research)
+  present: "PhD student at CSA Game Theory Lab, IISc"
   year: '2017'
 - name: Abhishek V. Shetty
   degree: Bachelor of Science (Research)
@@ -107,6 +109,7 @@
   year: '2017'
 - name: Raghav Malhotra
   degree: Bachelor of Science (Research)
+  present: "Economics PhD student at University of Warwick"
   year: '2017'
 - name: Sanal Shivaprasad
   degree: Bachelor of Science (Research)
@@ -118,7 +121,8 @@
   year: '2017'
 
 - name: Abhishek Balakrishna
-  degree: Bachelor of Science (Research) & Master of Science
+  degree: Bachelor
+ of Science (Research) & Master of Science
   present: "Graduate student at University of Maryland, Baltimore County"
   year: '2017'
 - name: Soumyo Biswas
@@ -135,6 +139,7 @@
   year: '2017'
 - name: Mathew George
   degree: Bachelor of Science (Research) & Master of Science
+  present: "MS at IISc, Visiting at ICTS, PhD at Ohio State University"
   year: '2017'
 - name: Ankit Kumar Jaiswal
   degree: Bachelor of Science (Research) & Master of Science
@@ -155,6 +160,7 @@
   year: '2018'
 - name: Prayut Jain
   degree: Bachelor of Science (Research)
+  present: "RA at IISc; Research Analyst at State Street Global Advisors"
   year: '2018'
 - name: Sayantan Khan
   degree: Bachelor of Science (Research)
@@ -166,18 +172,19 @@
   year: '2018'
 - name: Aditi Rai
   degree: Bachelor of Science (Research)
+  present: "Masters at Barcelona School of Economics; Goldman Sachs"
   year: '2018'
 - name: Chaitanya Mukund Tappu
   degree: Bachelor of Science (Research)
   present: "Graduate student at Cornell University"
   year: '2018'
-
 - name: Saswata Chatterjee
   degree: Bachelor of Science (Research) & Master of Science
   present: Associate Software Engineer at iManage LLC (Bangalore)
   year: '2018'
 - name: Agniva Das Gupta
   degree: Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at Texas A&M University"
   year: '2018'
 - name: Sarvesh Ravichandran Iyer
   degree: Bachelor of Science (Research) & Master of Science
