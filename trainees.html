@@ -13,22 +13,35 @@ title: Project Staff
   {% for stu in site.data.trainee %}
   <tr>
     <td class="col-md-7">
-      <div><h4>{{ stu.name }}</h4> </div>
+      <div>
+      <h4>
+        {% if stu.webpage %}
+        <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+        {% else %}
+        {{ stu.name }}
+        {% endif %}
+      </div>
       {% if stu.user-id %}
         <div>
           <strong>UserID:</strong> {{stu.user-id}}
         </div>
         {% endif %}
         {% if stu.webpage %}
-        <div>
-        <strong>Web page:</strong> <a href="{{ stu.webpage}}"> {{ stu.webpage }}</a>
+      	<div>
+         <strong>Phone :</strong> +91-80 2293 {{ stu.phone-ext}}
+         </div>
+              <div>
+                <strong>Office :</strong> Room {{ stu.office}}
+              </div>
+	<div>
+        
       </div>
       {% endif %}
       </div>
     </td>
-    {% if stu.photo %}
+    {% if stu.image %}
     <td>
-      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/{{stu.photo}}"></td>
+      <img class="col-md-3 pull-right img-responsive" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg"></td>
     {% endif %}
   </tr>
   {%  endfor %}

@@ -1,8 +1,10 @@
-- name: R. Narendranath
-  user-id: narendranath
 
 - name: S. Ashok
   user-id: ashoks
+  phone-ext: 2711
+  office: R16
 
 - name: A. Roopa
   user-id: rooparoopa
+  phone-ext: 2265
+  office: R16         
