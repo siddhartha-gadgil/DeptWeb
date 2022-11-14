@@ -64,7 +64,7 @@
   position: Assistant Professor
   research-areas: Number theory
   phd: Brandeis
-  phone-ext:
+  phone-ext: 3212
   office: R23
   website: https://sites.google.com/view/shaunakdeo/
   author-name: Deo, Shaunak
@@ -103,7 +103,7 @@
   position: Assistant Professor
   research-areas: Several complex variables
   phd: Michigan
-  phone-ext:
+  phone-ext: 2571
   office: L25
   author-names: 
     - Gupta, Purvi
@@ -146,7 +146,7 @@
   position: Associate Professor
   phd: Chicago
   research-areas: Positivity and analysis; representation theory of Lie algebras and algebras with triangular decompositions; combinatorics and discrete mathematics (with connections to the two research areas above)
-  phone-ext: 2514
+  phone-ext: 3214
   office: X26
   author-name: "Khare, Apoorva"
   author-names:
@@ -157,7 +157,7 @@
   position: Professor
   research-areas: Algebraic geometry, K-theory, and algebraic cycles
   phd: TIFR
-  phone-ext:
+  phone-ext: 2712
   office:
   website: "#"
   author-name: "Krishna, Amalendu"
@@ -178,7 +178,7 @@
   position: Assistant Professor
   research-areas: Partial differential equations, variational methods, non-linear functional analysis
   phd: TIFR-CAM
-  phone-ext: 
+  phone-ext: 3210
   office: 
 
 - name: A. K. Nandakumaran
@@ -237,7 +237,7 @@
   research-areas: Probability Theory
   phd: Courant Institute
   office: X01
-  phone-ext: 3616
+  phone-ext: 
   website: https://sanchayansen.wixsite.com/root
   author-name: Sen, Sanchayan
 
@@ -266,7 +266,7 @@
   position: Assistant professor
   research-areas: Representation theory of infinite-dimensional Lie algebras
   phd: IMSc
-  phone-ext:
+  phone-ext: 3616
   office: X23
   website: https://sites.google.com/view/rvenkateshiisc
   author-name: Venkatesh, R.
