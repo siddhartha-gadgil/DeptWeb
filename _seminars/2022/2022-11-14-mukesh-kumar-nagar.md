@@ -30,3 +30,5 @@ ongoing research projects and future plans.
 This is a joint work with Prof. A. K. Lal (IITK)  and Prof. S.
 Sivaramakrishnan (IITB).
 
+The [video of this talk](https://www.youtube.com/watch?v=zWDe-WPEVmo&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
