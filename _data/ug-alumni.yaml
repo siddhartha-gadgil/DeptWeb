@@ -58,6 +58,7 @@
   degree: Bachelor of Science (Research)
   present: "Graduate student at Columbia University"
   year: '2016'
+  
 - name: Vignesh A. N.
   degree: Bachelor of Science (Research) & Master of Science
   present: "Graduate student at Berlin School of Mathematics"
@@ -179,6 +180,7 @@
   degree: Bachelor of Science (Research)
   present: "Graduate student at Cornell University"
   year: '2018'
+  
 - name: Saswata Chatterjee
   degree: Bachelor of Science (Research) & Master of Science
   present: "Associate Software Engineer at iManage LLC (Bangalore)"
@@ -257,6 +259,7 @@
 - name : Samyak
   degree : Bachelor of Science (Research)
   year : '2019'
+  
 - name : Prokash Kumar Kundu
   degree : Bachelor of Science (Research) & Master of Science
   present: "Graduate student at ICTS Bangalore"
@@ -336,4 +339,75 @@
   degree : Bachelor of Science (Research) & Master of Science
   present: "Graduate student at University of Oregon"
   year : '2020'
+
+
+- name : Chinmaya Kausik
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at University of Michigan"
+  year : '2021'
+- name : Rohit Kumar
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at Duke University"
+  year : '2021'
+- name : Aaradhya Pandey
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at Princeton University"
+  year : '2021'
+- name : Abishek Rajan
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at University of California at Berkeley"
+  year : '2021'
+- name : Vrunda Rathi
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at London School of Economics"
+  year : '2021'
+- name : Sriram S.
+  degree : Bachelor of Science (Research)
+  present: "Research intern at Microsoft Research"
+  year : '2021'
+- name : Sidharth Soundararajan
+  degree : Bachelor of Science (Research)
+  present: "Graduate student at Boston University"
+  year : '2021'
+- name : Adit Vishnu P.M.
+  degree : Bachelor of Science (Research)
+  present: "Machine Learning Lab at IISc"
+  year : '2021'
+
+- name : Sarbartha Bhattacharya
+  degree : Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at University of Minnesota"
+  year : '2021'
+- name : Shabarish Chenakkod
+  degree : Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at University of Michigan"
+  year : '2021'
+- name : Simran Gade
+  degree : Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at Georgia Tech"
+  year : '2021'
+- name : Sreehari K.
+  degree : Bachelor of Science (Research) & Master of Science
+  year : '2021'
+- name : Anirban Mandal
+  degree : Bachelor of Science (Research) & Master of Science
+  year : '2021'
+- name : Shubham Kumar Pandey
+  degree : Bachelor of Science (Research) & Master of Science
+  year : '2021'
+- name : Vasanth Pidaparthy
+  degree : Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at University of Maryland"
+  year : '2021'
+- name : Kartik Singh
+  degree : Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at University of Waterloo"
+  year : '2021'
+- name : Gaurang Sriramanan
+  degree : Bachelor of Science (Research) & Master of Science
+  present: "Graduate student at University of Maryland"
+  year : '2021'
+- name : Eros M. Sunny
+  degree : Bachelor of Science (Research) & Master of Science
+  year : '2021'
 
