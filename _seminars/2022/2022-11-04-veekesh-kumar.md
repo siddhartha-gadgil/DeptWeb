@@ -24,3 +24,6 @@ completely answered the above question of Mahler. In this talk, we will
 explore this theme and will present recent result, building on the
 earlier works of Corvaja and Zannier, establishing an inhomogeneous
 Thue-Roth's type theorem with moving targets.
+
+The [video of this talk](https://www.youtube.com/watch?v=xj5uXc7-JYc&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
