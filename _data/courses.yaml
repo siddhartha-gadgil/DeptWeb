@@ -83,6 +83,11 @@ jan2023:
   - name: Introduction to Stochastic Processes
     code: MA 262
     instructor: Srikanth Iyer
+  - name: Introduction to Dynamical Systems Theory
+    instructor: Janaki Balakrishnan
+    code: MA 278
+    prereq-courses: ''
+    ug-prereq-courses: ''
   - name: Topics in Harmonic Analysis
     code: MA 304
     instructor: S.Thangavelu/E.K.Narayanan
@@ -95,10 +100,10 @@ jan2023:
   - name: Combinatorics
     instructor: Arvind Ayyer 
     code: MA 318
-  - name: Complex analytic techniques in Operator Theory
+  - name: Topics in function theoretic operator Theory
     instructor: Tirthankar Bhattacharyya
-    code: MA 343
-    prereq-courses: MA 223
+    code: MA 348
+    prereq-courses: MA 219, MA 222, MA 223 and MA 224
     ug-prereq-courses: ''
   - name: Topics in Analytic Number Theory
     code: MA 350
@@ -863,7 +868,6 @@ jan2020:
     code: MA 229
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing:
     venue: "LH-4"
     timing: 'Mon, Wed, Fri: 10:00-11:00'
   - name: Ordinary Differential Equations
@@ -1082,7 +1086,6 @@ aug2019:
     instructor: Apoorva Khare
     timing: 'Tue, Thu: 3:30-5:00'
     code: MA 341
-    webpage:
     prereq-courses: MA 219
     ug-prereq-courses: ''
     venue: LH-3
