@@ -88,9 +88,6 @@ jan2023:
     code: MA 278
     prereq-courses: ''
     ug-prereq-courses: ''
-  - name: Topics in Harmonic Analysis
-    code: MA 304
-    instructor: S.Thangavelu/E.K.Narayanan
   - name: Algebraic Geometry
     code: MA 308
     instructor: Abhishek Banerjee
