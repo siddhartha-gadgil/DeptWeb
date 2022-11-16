@@ -58,7 +58,7 @@ The present members and chairs are as follows:
 
 ### Maintenance committee
 
-* Tirthankar Bhattacharyya
+* Tirthankar Bhattacharyya (Convener)
 * Harish Seshadri
 * Abhishek Banerjee
 * A. K. Nandakumaran (ex-officio)
