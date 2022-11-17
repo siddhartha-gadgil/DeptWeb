@@ -18,9 +18,9 @@
   position: "Raman PDF"
   phd: "Ph.D., IIT Bombay"
   area: "PDE, finite element method"
-  start: 
-  end: 
-  present:
+  start: "2018"
+  end: "2022"
+  present: "Assistant Professor, VIT, Vellore"
 
 
 
@@ -30,9 +30,9 @@
   area: "Harmonic Analysis"
   start: "2020"
   end: "2022"
-  present: 
+  present: "Visiting Scientist, ISI, Bangalore"
 
-- name: "Kiran Kumar Behera "
+- name: "Kiran Kumar Behera"
   position: "Kothari"
   phd: "IIT Roorkee"
   area: "Operator Theory"
@@ -87,8 +87,8 @@
   phd: "HRI, Allahabad"
   area: "Number Theory"
   start: "2018"
-  end: "2021"
-  present: 
+  end: "2022"
+  present: "Guest Faculty, SRM University"
 
 - name: "Sajal Kumar Mukherjee"
   position: "NBHM"
@@ -96,7 +96,7 @@
   area: "Combinatorics (enumerative and topological)"
   start: "2020"
   end: "2021"
-  present:
+  present: "Postdoctoral Fellow, TCG Crest, Kolkata"
 
 - name: "Gianluca Faraco"
   position: "Raman PDF"
@@ -120,7 +120,7 @@
   area: 
   start: "2021"
   end: "2021"
-  present:      
+  present: "Assistant Professor, IIT, Mandi"   
 
 - name: "G. Arunkumar"
   position: "NBHM"
@@ -136,7 +136,7 @@
   area: "Frame Theory, Harmonic analysis and its applications, Time-frequency analysis, Approximation theory, Function spaces, Operator theory, Group representation theory"
   start: "2019"
   end: "2021"
-  present:
+  present: "Postdoctoral Researcher, University of Vienna"
 
 
 - name: "Ramesh Manna"  
@@ -193,7 +193,7 @@
   area: "String Topology, Symplectic Geometry"  
   start: "2018"  
   end: "2020"  
-  present: 
+  present: "Postdoctoral Fellow, IIT, Kharagpur" 
 
 - name: "Aiyappan S."  
   position:  
