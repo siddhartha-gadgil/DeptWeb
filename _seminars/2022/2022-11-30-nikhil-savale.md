@@ -2,7 +2,7 @@
 speaker: Nikhil Savale (Universität zu Köln, Germany)
 title: "Bergman-Szegő kernel asymptotics in weakly pseudoconvex finite type cases"
 date: 30 November, 2022
-time: 4 pm
+time: 4:00 pm
 venue: Microsoft Teams (online) (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~aprg/index.php?id=seminar22-23">APRG Seminar</a>)
 series: "Geometry & Topology Seminar"
 ---
