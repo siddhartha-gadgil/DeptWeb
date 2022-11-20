@@ -21,3 +21,6 @@ some of the interesting spectral properties (with respect to the complex adjacen
 spectra) of a multidigraph are established. It is shown that not only the eigenvalues,
 but also the eigenvectors corresponding to the complex adjacency matrix of a multidigraph
 carry a lot of information about the structure of the multidigraph. 
+
+The [video of this talk](https://www.youtube.com/watch?v=tnT2cwu274E&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
