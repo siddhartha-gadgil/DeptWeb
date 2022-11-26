@@ -1,5 +1,5 @@
 ---
-speaker: Manil T. Manan (IIT, Roorkee)
+speaker: Manil T. Mohan (IIT, Roorkee)
 title: "Bi-spatial random attractors and ergodicity for stochastic Navier–Stokes equations on the whole space"
 date: 1 Dec, 2022
 time: 3:30 pm
