@@ -3,7 +3,7 @@ speaker: Rakesh Kumar (IISER, Thiruvananthapuram)
 title: "Colloquium: Higher order accurate numerical schemes for hyperbolic conservation laws"
 date: 28 Nov, 2022
 time: 4 pm
-venue: LH-1, Mathematics Department
+venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 website: 
 ---
 
