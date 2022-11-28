@@ -40,7 +40,7 @@ dimension $(3 \mid 0)$. Then we define the function $s(L)$ as
 s(L)= \frac{1}{2}(m+n-2)(m+n-1)+n+1-\dim \mathcal{M}(L).
 \end{equation}
 Clearly $s(L) \geq 0$ and structure of $L$ with $s(L)=0$ is known. We
-obtain classification all finite dimensional nilpotent Lie supealgebras
+obtain classification all finite dimensional nilpotent Lie superalgebras
 with $s(L) \leq 2$.  
  
 We hope, this leads to a complete classification of the finite
