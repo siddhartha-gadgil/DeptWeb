@@ -24,7 +24,7 @@ Batten introduced and studied Schur multiplier and cover of Lie algebras
 and later on studied by several authors. We have extended these notation
 to Lie superalgebra case. Given a free presentation $ 0 \longrightarrow R
 \longrightarrow F \longrightarrow L \longrightarrow 0 $ of Lie
-superalgebra $L$ we define {\it multiplier} of $L$ as $\mathcal{M}(L) =
+superalgebra $L$ we define the _multiplier_ of $L$ as $\mathcal{M}(L) =
 \frac{[F,F]\cap R}{[F, R]}$. In this talk we prove that for nilpotent Lie
 superalgebra $L = L_{\bar{0}} \oplus L_{\bar{1}}$  of dimension $(m\mid
 n)$ and $\dim L^2= (r\mid s)$ with $r+s \geq 1$,
