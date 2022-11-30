@@ -4,7 +4,7 @@ title: " A higher dimensional analog of Margulis’ construction of
 expanders"
 date: 02 December, 2022
 time: 11:00 am
-venue: TBD
+venue: LH-1
 ---
 
  Expanders are a family of finite graphs that are sparse but
