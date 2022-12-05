@@ -1,7 +1,7 @@
 ---
 speaker: Saudamini Nayak (Kalinga Institute of Industrial Technology, Bhubaneswar)
 title: "Colloquium: Schur Multipliers and Classification of finite dimensional nilpotent Lie superalgebras"
-date: 5 Dec, 2022
+date: 12 Dec, 2022
 time: 4 pm
 venue: Microsoft Teams (Online)
 website: 
