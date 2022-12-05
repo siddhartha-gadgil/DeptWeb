@@ -108,3 +108,11 @@
   position: IOE
   image: true
   research-area: PDEs
+
+- name: Pintu Bhunia
+  webpage: 
+  phd: Jadavpur University 
+  user-id: pintubhunia 
+  position: NPDF
+  image: true
+  research-area: Norm and numerical radius inequalities of bounded linear operators   
