@@ -1,4 +1,11 @@
- 
+- name  : Sushil Singla
+  phd: Shiv Nadar University
+  user-id: 
+  position: Research Associate
+  image: true
+  research-area: Functional analysis, Operator algebras
+
+
 - name  : Arpita Mal 
   phd: Jadavpur University
   user-id: arpitamal
@@ -9,7 +16,7 @@
 - name:	Gargi Ghosh
   phd: IISER Kolkata
   user-id:	gargighosh
-  position: IoE
+  position: Raman PDF
   image: true
   research-area: Operator Theory
 - name: Chandan Biswas
