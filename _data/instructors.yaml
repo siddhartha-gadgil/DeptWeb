@@ -1,0 +1,11 @@
+- name: Geethika Sebastian
+  phd: IIT Hyderabad 
+  user-id: geethikas
+  image: true
+  research-area: Functional Analysis
+
+  - name: Manpreet Singh
+  phd: IIT Delhi
+  user-id: manpreets
+  image: true
+  research-area: 
