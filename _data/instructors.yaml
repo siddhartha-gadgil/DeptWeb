@@ -7,5 +7,5 @@
 - name: Manpreet Singh
   phd: IIT Delhi
   user-id: manpreets
-  image: false
+  image: true
   research-area: Topological Dynamics
