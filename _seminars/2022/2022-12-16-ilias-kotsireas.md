@@ -13,3 +13,6 @@ Hadamard conjecture. We shall demonstrate the exceptional versatility of Legendr
 as they admit several different formulations via concepts from disparate areas of
 Mathematics and Computer Science. We shall mention old and new results and conjectures
 within the past 20+ years, as well as potential future avenues for investigation.
+
+The [video of this talk](https://www.youtube.com/watch?v=OsKgqGymILQ) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
