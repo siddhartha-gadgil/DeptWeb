@@ -3,7 +3,7 @@ speaker: Ilias S. Kotsireas (Wilfrid Laurier University, Waterloo, Canada)
 title: "Legendre Pairs: old and new results/conjectures and the road ahead"
 date: 16 December, 2022
 time: 2:30 pm
-venue: LH-1, Mathematics Department
+venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
 ---
