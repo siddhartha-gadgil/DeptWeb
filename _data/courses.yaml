@@ -38,32 +38,32 @@ jan2023:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
-    timing: 
-    venue: 
+    timing: 'Mon, Wed, Fri 8:00 - 9:00'
+    venue: LH-4
   - name: Measure & Integration
     credits: '3:1'
     instructor: Gautam Bharali
     code: MA 222
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
-    timing: 
-    venue: 
+    timing: 'Mon, Wed, Fri: 11:00 - 12:00'
+    venue: LH-4
   - name: Complex Analysis
     credits: '3:1'
     instructor: Bharathwaj Palvannan
     code: MA 224
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
-    timing: 
-    venue: 
+    timing: 'Mon, Wed, Fri: 10:00 - 11:00'
+    venue: LH-4
     webpage: 
   - name: Introduction to Differentiable Manifolds
     instructor: Subhojoy Gupta
     code: MA 235 
     prereq-courses: MA 221
     ug-prereq-courses: ''
-    timing: 
-    venue: 
+    timing: 'Tue Thu 3:30 - 5:00'
+    venue: LH-4
     webpage: 
   - name: Ordinary Differential Equations
     credits: '3:1'
@@ -71,52 +71,74 @@ jan2023:
     code: MA 241
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
-    timing: 
-    venue: 
+    timing: 'Mon, Wed, Fri 3:00 - 4:00'
+    venue: LH-4
   electives:
   - name: Proofs and Programs
     code: MA 208
     instructor: Siddhartha Gadgil
     credits: '3:1'
+    timing: 'Mon, Wed, Fri: 9:00 - 10:00'
+    venue: LH-3
     webpage: "http://math.iisc.ac.in/~gadgil/proofs-and-programs-2023/"
   - name: Introduction to Modular Forms
     instructor: Mahesh Kakde 
     code: MA 215
+    timing: 'Tue, Thu 8:30 - 10:00'
+    venue: LH-5
   - name: Introduction to Stochastic Processes
     code: MA 262
     instructor: Srikanth Iyer
+    timing: 'Tue, Thu 11:30 - 1:00'
+    venue: 'LH-1/LH-2'
   - name: Introduction to Dynamical Systems Theory
     instructor: Janaki Balakrishnan
     code: MA 278
+    timing: 'Tue, Thu 11:30 - 1:00'
+    venue: LH-5
     prereq-courses: ''
     ug-prereq-courses: ''
   - name: Algebraic Geometry
     code: MA 308
     instructor: Abhishek Banerjee
     prereq-courses: MA 213
-    timing: 
-    venue: 
+    timing: 'Tue, Thu 3:30 - 5:00'
+    venue: LH-5
   - name: Combinatorics
     instructor: Arvind Ayyer 
     code: MA 318
+    timing: 'Tue, Thu 2:00 - 3:30'
+    venue: 'LH-1/LH-2'
+  - name: Fourier Analysis
+    instructor: E.K.Narayanan
+    code: MA 326
   - name: Topics in function theoretic operator Theory
     instructor: Tirthankar Bhattacharyya
     code: MA 348
     prereq-courses: MA 219, MA 222, MA 223 and MA 224
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 10:00 - 11:00'
+    venue: LH-5
   - name: Topics in Analytic Number Theory
     code: MA 350
     instructor: Soumya Das
-    timing: 
+    timing: 'Tue, Thu 11:30 - 1:00'
+    venue: LH-4
   - name: Elliptic Curves
     code: MA 353
     instructor: Shaunak Deo
+    timing: 'Tue, Thu 2:00 - 3:30'
+    venue: LH-4
   - name: Topics in Probability and Stochastic Processes
     code: MA 368
     instructor: Manjunath Krishnapur
+    timing: 'Tue, Thu 2:00 - 3:30'
+    venue: LH-5
   - name: Introduction to the Calculus of Variations
     instructor: Swarnendu Sil
     code: MA 374
+    timing: 'Tue, Thu 2:00 - 3:30'
+    venue: LH-3
 
 
 aug2022:
