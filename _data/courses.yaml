@@ -112,6 +112,8 @@ jan2023:
   - name: Fourier Analysis
     instructor: E.K.Narayanan
     code: MA 326
+    timing: 'Mon, Wed, Fri 11:00 - 12:00'
+    venue: LH-5
   - name: Topics in function theoretic operator Theory
     instructor: Tirthankar Bhattacharyya
     code: MA 348
