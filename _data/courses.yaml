@@ -98,11 +98,16 @@ jan2023:
     venue: LH-5
     prereq-courses: ''
     ug-prereq-courses: ''
-  - name: Algebraic Geometry
+  - name: Basic Algebraic Geometry
     code: MA 308
     instructor: Abhishek Banerjee
     prereq-courses: MA 213
     timing: 'Tue, Thu 3:30 - 5:00'
+    venue: LH-5
+  - name: Algebraic Geometry I
+    code: MA 310
+    instructor: Amalendu Krishna
+    timing: 'Mon, Wed 3:30 - 5:00'
     venue: LH-5
   - name: Combinatorics
     instructor: Arvind Ayyer 
