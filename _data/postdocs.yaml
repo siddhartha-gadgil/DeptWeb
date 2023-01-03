@@ -13,16 +13,10 @@
   image: true
   research-area: Functional analysis, Geometry of Banach space
 
-- name:	Gargi Ghosh
-  phd: IISER Kolkata
-  user-id:	gargighosh
-  position: Raman PDF
-  image: true
-  research-area: Operator Theory
 - name: Chandan Biswas
   phd: University of Wisconsin, Madison
   user-id: chandanbiswa
-  position: Raman PDF
+  position: Research Associate
   image: true
   research-area: Harmonic Analysis
 
@@ -30,7 +24,7 @@
   webpage: https://sites.google.com/view/mihirsheth/home
   phd: University of Duisburg-Essen, Germany
   user-id: mihirsheth
-  position: Raman PDF
+  position: Research Associate
   image: true
   research-area: Number theory, Representation theory
 
@@ -50,17 +44,11 @@
   image: true
   research-area: Operator Theory, Operator Algebras, Quantum Probability
 
-- name: Geethika Sebastian
-  phd: IIT Hyderabad 
-  user-id: geethikas
-  position: UGC Kothari
-  image: true
-  research-area: Functional Analysis
 
 - name: Shivani Goel
   phd: IIT Madras
   user-id: shivanigoel
-  position: IOE-PDF
+  position: NPDF
   image: true
   research-area: Linear algebra, Graph theory
 
@@ -81,7 +69,7 @@
 - name: Sankar K
   phd: IIT Kanpur
   user-id: sankark
-  position: UGC Kothari
+  position: Dr. D.S. Kothari
   image: true
   research-area: Homogenization of Partial Differential Equations
 
@@ -123,3 +111,11 @@
   position: NPDF
   image: true
   research-area: Norm and numerical radius inequalities of bounded linear operators   
+
+- name: Jyotirmoy Ganguly
+  webpage:
+  phd: 
+  user-id: jyotirmoyg
+  position: NBHM
+  image: true
+  research-area:   
