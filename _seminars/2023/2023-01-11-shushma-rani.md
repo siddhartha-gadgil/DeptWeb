@@ -2,7 +2,7 @@
 speaker: Shushma Rani (IISER, Mohali)
 title: "Free root spaces of Borcherds-Kac-Moody Lie superalgebras"
 date: 11 January, 2023
-time: 4 pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
