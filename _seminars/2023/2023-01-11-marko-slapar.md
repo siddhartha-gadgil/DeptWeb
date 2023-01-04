@@ -1,5 +1,5 @@
 ---
-speaker: Marko Slapar ( University of Ljubljana, Slovenia)
+speaker: Marko Slapar (University of Ljubljana, Slovenia)
 title: "Thom conjecture in higher dimensions 
 "
 date: 11 January, 2023
