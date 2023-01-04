@@ -8,5 +8,4 @@ venue: Microsoft Teams (online) (Joint with the <a target="_blank" href="http://
 series: "Geometry & Topology Seminar"
 ---
 
- The Thom conjecture, proven by Kronheimer and Mrowka in 1994, states that complex curves in $\mathbb{C}P^2$ are genus minimizers in their homology class. 
- We will show that an analogous statement does not hold for complex hypersurfaces in $\mathbb{C}P^3$. This is joint work with Ruberman and Strle.
+ The Thom conjecture, proven by Kronheimer and Mrowka in 1994, states that complex curves in $\mathbb{C}{\rm P}^2$ are genus minimizers in their homology class. We will show that an analogous statement does not hold for complex hypersurfaces in $\mathbb{C}{\rm P}^3$. This is joint work with Ruberman and Strle.
