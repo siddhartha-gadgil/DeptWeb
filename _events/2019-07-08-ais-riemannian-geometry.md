@@ -6,4 +6,4 @@ date: 2019-07-28
 ---
 
 <!-- [Visit this page <br> -->
-<!-- https://www.atmschools.org/school/2019/AIS/rg/speakers-and-syllabus](https://www.atmschools.org/school/2019/AIS/rg/speakers-and-syllabus) -->
+<!-- https://www.atmschools.org/school/2019/AIS/rg/speakers-and-syllabus]https://www.atmschools.org/ -->

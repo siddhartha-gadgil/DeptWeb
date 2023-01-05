@@ -6,4 +6,4 @@ redirect: https://www.atmschools.org/school/2019/IST/ap
 ---
 
 [Visit this page <br>
-https://www.atmschools.org/school/2019/IST/ap](https://www.atmschools.org/school/2019/IST/ap)
+https://www.atmschools.org/school/2019/IST/ap]https://www.atmschools.org/
