@@ -637,4 +637,21 @@
   user-id: anantn
   image: true
 
+- name: Deepak Kumar
+  year-of-joining: 2022
+  programme: PhD
+  user-id: deepakkumar5
+  image: true
+
+- name: Supriya Saha
+  year-of-joining: 2022
+  programme: PhD
+  user-id: supriyasaha
+  image: true
+
+- name: Sudip Dolai
+  year-of-joining: 2022
+  programme: PhD
+  user-id: sudipdolai
+  image: true
 
