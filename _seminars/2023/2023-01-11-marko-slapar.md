@@ -4,7 +4,7 @@ title: "Thom conjecture in higher dimensions
 "
 date: 11 January, 2023
 time: 2:00 pm
-venue: Microsoft Teams (online) (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~aprg/index.php?id=seminar22-23">APRG Seminar</a>)
+venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~aprg/index.php?id=seminar22-23">APRG Seminar</a>)
 series: "Geometry & Topology Seminar"
 ---
 
