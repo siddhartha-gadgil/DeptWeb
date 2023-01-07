@@ -3,7 +3,7 @@ speaker: Shubham Sinha (University of California, San Diego, USA)
 title: "The virtual intersection theory of isotropic Quot schemes"
 date: 10 January, 2023
 time: 4:00 pm
-venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb20-23.html">Algebra-Combinatorics Seminar</a>)
+venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb20-23.html">Algebra Combinatorics Seminar</a>)
 series: "Geometry & Topology Seminar"
 ---
 
