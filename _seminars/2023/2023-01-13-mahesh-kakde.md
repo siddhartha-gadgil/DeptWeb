@@ -2,7 +2,7 @@
 speaker: Mahesh Kakde (IISc Mathematics)
 title: "Stark’s conjectures and refinements"
 date: 13 January, 2023
-time:  3 – 5 pm (with a 15 minute break at 3:45)
+time:  3 – 5 pm (with a 15 minute break at 4:00)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
