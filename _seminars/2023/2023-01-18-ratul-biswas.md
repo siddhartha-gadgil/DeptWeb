@@ -2,7 +2,7 @@
 speaker: Ratul Biswas (University of Minnesota, Minneapolis, USA)
 title: "Free energy of the diluted Shcherbina–Tirozzi model with quadratic Hamiltonian"
 date: 18 Jan, 2023
-time: 4 pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
