@@ -14,6 +14,3 @@ electrical properties of a medium by making voltage and current measurements at
 the boundary of the medium is known as Calderón's problem. We will introduce
 the nonlocal analog of it and further study the connection with the local analog
 as well.
-
-The [video of this talk](https://www.youtube.com/watch?v=nK4chyB7owg&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
-on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
