@@ -45,8 +45,3 @@ with $s(L) \leq 2$.
  
 We hope, this leads to a complete classification of the finite
 dimensional nilpotent Lie superalgebras of dimension $6,7$.
-
-The [video of this talk](https://www.youtube.com/watch?v=lAsjSsEyVQI&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
-on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
-
-
