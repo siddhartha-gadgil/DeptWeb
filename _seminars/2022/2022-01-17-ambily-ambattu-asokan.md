@@ -38,6 +38,3 @@ The DSER elementary orthogonal group is a normal subgroup of the
 orthogonal group. We shall also discuss some generalizations of classical
 groups over form rings and their comparison with the DSER elementary
 orthogonal group.
-
-The [video of this talk](https://www.youtube.com/watch?v=k3xrZac8Hts&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
-on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
