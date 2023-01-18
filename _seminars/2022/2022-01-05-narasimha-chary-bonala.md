@@ -21,6 +21,3 @@ by Stanley, Fieseler–Kaup, Braden–MacPherson and many others. We suggest a n
 generalisation using the geometric and combinatorial approach of Altmann, Hausen,
 and Süß for normal varieties with a torus action in terms of the language of
 divisorial fans.
-
-The [video of this talk](https://www.youtube.com/watch?v=_pknNgofZjc&list=PLQXtaLhI1-1ql_pkG5ro-E5JB8Et9WKMq) is available
-on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
