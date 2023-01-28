@@ -12,9 +12,9 @@ determinant of the matrix $f[{\bf u}{\bf v}^T]$, where $f(t) = 1/(1-t)$
 is applied entrywise to the rank-one matrix $(u_i v_j)$. This theme has
 resurfaced in the 2010s in analysis (following a 1960s computation by
 Loewner), in the quest to find polynomials $p(t)$ with a negative
-coefficient that entrywise preserve positivity. The key novelty here has
-been an application of Schur polynomials, which essentially arise from
-the expansion of $\det(p[{\bf u}{\bf v}^T])$.
+coefficient that entrywise preserve positivity. A key novelty here has
+been the application of Schur polynomials, which essentially arise from
+the expansion of $\det(p[{\bf u}{\bf v}^T])$, to positivity.
 
 In the first half of the talk, I will explain the above journey from
 matrix positivity to determinantal identities and Schur polynomials; then
