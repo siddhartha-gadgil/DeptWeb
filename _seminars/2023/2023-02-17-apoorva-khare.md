@@ -16,11 +16,11 @@ coefficient that entrywise preserve positivity. The key novelty here has
 been an application of Schur polynomials, which essentially arise from
 the expansion of $\det(p[{\bf u}{\bf v}^T])$.<br><br>
 
-In the first two parts of the talk, I will explain the above journey from
+In the first half of the talk, I will explain the above journey from
 matrix positivity to determinantal identities and Schur polynomials; then
 go beyond, to the expansion of $\det(f[{\bf u}{\bf v}^T])$ for all power
 series $f$. (Partly based on joint works with Alexander Belton, Dominique
-Guillot, Mihai Putinar, and with Terence Tao.) In the third part, joint
+Guillot, Mihai Putinar, and with Terence Tao.) In the second half, joint
 with Siddhartha Sahi, I will explain how to extend the above
 determinantal identities to
 (a) any subgroup $G$ of signed permutations;
