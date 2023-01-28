@@ -14,7 +14,7 @@ resurfaced in the 2010s in analysis (following a 1960s computation by
 Loewner), in the quest to find polynomials $p(t)$ with a negative
 coefficient that entrywise preserve positivity. The key novelty here has
 been an application of Schur polynomials, which essentially arise from
-the expansion of $\det(p[{\bf u}{\bf v}^T])$.<br><br>
+the expansion of $\det(p[{\bf u}{\bf v}^T])$.
 
 In the first half of the talk, I will explain the above journey from
 matrix positivity to determinantal identities and Schur polynomials; then
