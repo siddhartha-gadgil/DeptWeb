@@ -1,7 +1,7 @@
 ---
 speaker: Apoorva Khare (IISc Mathematics)
 title: "Schur polynomials: from smooth functions and determinants, to symmetric functions and all characters"
-date: 10 February, 2023
+date: 17 February, 2023
 time: 3 pm
 venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb20-23.html" >Algebra-Combinatorics Seminar</a>)
 series: "APRG Seminar"
