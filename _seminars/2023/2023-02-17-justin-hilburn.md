@@ -12,7 +12,7 @@ In 1976 Bernstein, Gelfand, and Gelfand introduced Category $\mathcal{O}$
 for a semi-simple Lie algebra $\mathfrak{g}$. This is roughly the
 smallest sub-category of $\mathfrak{g}$-mod containing the Verma modules
 and such that the simple modules have projective covers. After work of
-Beilinson-Bernstein and Beilinson-Ginzburg-Soergel it became clear that
+Beilinson--Bernstein and Beilinson--Ginzburg--Soergel it became clear that
 the the good homological properties of this category were due to the fact
 that it can be identified with a category of perverse sheaves on the flag
 variety $G/B$.
