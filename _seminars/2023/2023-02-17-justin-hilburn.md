@@ -1,6 +1,6 @@
 ---
 speaker: Justin Hilburn (Perimeter Institute, Waterloo, Canada)
-title: "2-Categorification of Category $\mathcal{O}$ and 3d Mirror Symmetry"
+title: "2-Categorification of Category O and 3d Mirror Symmetry"
 date: 17 February, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
