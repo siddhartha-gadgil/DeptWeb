@@ -118,4 +118,14 @@
   user-id: jyotirmoyg
   position: NBHM
   image: true
-  research-area: Representation Theory   
+  research-area: Representation Theory  
+
+- name: Digjoy Paul
+  webpage:
+  phd: IMSc Chennai
+  user-id: digjoypaul
+  position: Raman PDF
+  image: true
+  research-area: Representation theory, Combinatorics
+
+
