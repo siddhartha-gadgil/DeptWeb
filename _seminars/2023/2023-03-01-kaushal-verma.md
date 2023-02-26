@@ -2,7 +2,7 @@
 speaker: Kaushal Verma (IISc Mathematics)
 title: "Basins of attraction and their uniformization"
 date: 1 Mar, 2023
-time: 3 pm
+time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
