@@ -1,5 +1,5 @@
 ---
-speaker: Apratim Chakraborty (ISI Bangalore)
+speaker: Apratim Chakraborty (ISI, Bangalore)
 title: "Invariants of annular links, cobordisms and transverse links from combinatorial link Floer complex"
 date: 04 November, 2019
 time: 4:15 pm
