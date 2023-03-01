@@ -22,4 +22,3 @@ classification of all possible irreducible Harish-Chandra modules over the highe
 algebra, thereby proving Eswara Rao's conjecture (conjectured in 2004). These directly generalize the
 well-known result of O. Mathieu for the classical Virasoro algebra and also the recent work of
 Billig--Futorny for the higher rank Witt algebra.
-2
