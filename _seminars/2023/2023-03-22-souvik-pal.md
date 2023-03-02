@@ -1,7 +1,7 @@
 ---
 speaker: Souvik Pal (ISI, Bangalore)
 title: "Harish-Chandra modules over full toroidal Lie algebras and higher-dimensional Virasoro algebras"
-date: 20 March, 2023
+date: 22 March, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
