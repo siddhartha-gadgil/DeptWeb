@@ -1,6 +1,6 @@
 ---
 title: "2023 Professor Vishnu Vasudeva Narlikar Memorial Lecture"
-
+date: 2023-03-20    
 ---
 
 The 2023 Professor Vishnu Vasudeva Narlikar Memorial Lecture, of the Indian National Science Academy, will be delivered by Prof. B V Rajarama Bhat (ISI Bangalore) in the Department of Mathematics, IISc. The details are as follows
