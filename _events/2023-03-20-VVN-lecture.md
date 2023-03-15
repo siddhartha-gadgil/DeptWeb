@@ -15,4 +15,4 @@ __Venue.__ LH-1, Mathematics Department
 
 __Abstract.__ Often, mathematical structures or dynamics can be understood better when they are treated as projections of bigger, more easily understood systems. In quantum theory of open systems, the dynamics is described through quantum dynamical semigroups. They are non-commutative analogues of stochastic maps. Classically, we have Kolmogorov's construction for stochastic transition semigroups. In a similar fashion, starting with quantum dynamical semigroups one can construct quantum Markov processes. Going further by considering the shift on these processes, one obtains semigroups of endomorphisms.  This has led to new understanding of tensor product systems of Hilbert spaces. We will outline some highlights of this theory.
 
-<img src="{{site.baseurl}}/images/bvrbhat.png" alt=""/>
+<img src="{{site.baseurl}}/images/bvrbhat.png" width="800" alt=""/>
