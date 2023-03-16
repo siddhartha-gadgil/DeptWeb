@@ -48,7 +48,7 @@ def offspring(ls: Set[String]) : Set[String] = {
       if (ls == next) ls else offspring(next)
 } 
 
-val allLocal = offspring(Set("index.html")).toVector.filterNot(s => s == "pubs.html" || s.contains("fpsac")) 
+val allLocal = offspring(Set("index.html")).toVector.filterNot(s => s == "pubs.html" || s.contains("fpsac")).toIterator
 def checkAll() = {    
     allLocal.foreach{
         s =>
