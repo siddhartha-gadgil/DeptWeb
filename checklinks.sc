@@ -16,7 +16,7 @@ def get(s: String) = memo.get(s).getOrElse{
    result
 }
 
-def subLinks(s: String) = get(s).select("a").asScala.toVector.map{el => el.attr("href").trim.replace("\n", " ").replace(" ", "%20")}.flatMap(_.split("#").headOption).filter(_ != "") 
+def subLinks(s: String) = get(s).select("a").asScala.toIterator.map{el => el.attr("href").trim.replace("\n", " ").replace(" ", "%20")}.flatMap(_.split("#").headOption).filter(_ != "") 
 def localLinks(s: String) = subLinks(s).filterNot(l => l.startsWith("#") || l.startsWith("http"))
 
 def contents(s: String) = if (s.startsWith("http")) requests.get(s) else os.read(os.pwd / "_site" / os.RelPath(trm(s)))
