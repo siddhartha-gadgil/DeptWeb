@@ -5,6 +5,7 @@ date: 24 February, 2023
 time: 3 pm
 venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb20-23.html" >Algebra-Combinatorics Seminar</a>)
 series: "APRG Seminar"
+website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 Cauchy's determinantal identity (1840s) expands via Schur polynomials the 
