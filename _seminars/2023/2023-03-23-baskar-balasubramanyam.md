@@ -4,7 +4,7 @@ title: "$p$-adic adjoint $L$-functions for Hilbert modular forms"
 date: 23 March, 2023
 time: 10.30 AM
 series: "Number Theory Seminar"
-venue: LH-1
+venue: LH-2
 website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
