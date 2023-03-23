@@ -1,7 +1,7 @@
 ---
 speaker: Poornendu Kumar (IISc Mathematics)
-date: 29th March 2023
-time: 11 am
+date: 31st March 2023
+time: 3:30 pm
 venue: LH-1, Mathematics Department
 title: Interaction of distinguished varieties and the Nevanlinna-Pick interpolation problem in some domains
 series: Thesis
