@@ -33,8 +33,8 @@ characterization of distinguished varieties, we improved the known
 description by Pal--Shalit of distinguished varieties over the
 symmetrized bidisc:
 \begin{equation}
-\mathbb {G}=\{(z_1+z_2,z_1z_2)\in\mathbb{C}^2:
-(z_1,z_2)\in\mathbb{D}^2\}.
+\mathbb {G}=\\{(z_1+z_2,z_1z_2)\in\mathbb{C}^2:
+(z_1,z_2)\in\mathbb{D}^2\\}.
 \end{equation}
 Moreover, we will see complete algebraic and geometric characterizations
 of distinguished varieties with respect to $\mathbb G$. In a
