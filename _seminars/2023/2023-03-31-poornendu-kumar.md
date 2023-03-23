@@ -26,7 +26,7 @@ algebraic geometry. This talk is divided into two parts.
 In the first part of the talk, we shall see a new description of
 distinguished varieties with respect to the bidisc. It is in terms of the
 joint eigenvalue of a pair of commuting linear pencils. There is a
-characerization known of $\mathbb{D}^2$ due to a seminal work of
+characterization known of $\mathbb{D}^2$ due to a seminal work of
 Agler--McCarthy. We shall see how the Agler--McCarthy characterization
 can be obtained from the new one and vice versa. Using the new
 characterization of distinguished varieties, we improved the known
