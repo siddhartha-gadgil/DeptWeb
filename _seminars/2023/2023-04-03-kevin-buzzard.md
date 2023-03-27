@@ -15,4 +15,4 @@ internet. But can computers help researchers to come up with new mathematics? Ho
 will automatically prove the Riemann Hypothesis is still science fiction. But new tools and methods are
 becoming available. I will give an overview of the state of the art.
 
-(This is a Plenary talk in the (https://eecs.iisc.ac.in/EECS2023/schedule-apr3.html)[EECS Research Students' Symposium].)
+(This is a Plenary talk in the [EECS Research Students' Symposium](https://eecs.iisc.ac.in/EECS2023/schedule-apr3.html).)
