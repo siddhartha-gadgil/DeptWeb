@@ -1,5 +1,5 @@
 ---
-speaker: Tanushree Shah (Galsgow University)
+speaker: Tanushree Shah (Glasgow University)
 title: "Tight contact structures on Seifert fibered 3-manifolds."
 date: 03 April, 2023
 time: 4:00 pm
