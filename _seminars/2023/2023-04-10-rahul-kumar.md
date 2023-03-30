@@ -31,8 +31,8 @@ variation. The mesh adaptivity will be  based on an aposteriori error estimator 
 fourth order elliptic equation reads as follows:
 \begin{subequations}
 \begin{align}
- u + \lambda \nabla \cdot \nabla \cdot \frac{D^2 u}{|D^2 w|} = & 0 \quad \mbox{in} \ Q := \Omega, \\
-  u = & 0 \hspace{0.3cm} \mbox{on} \ \Gamma,\\
+ u + \lambda \nabla \cdot \nabla \cdot \frac{D^2 u}{|D^2 w|} = & \ 0 \quad \mbox{in} \ Q := \Omega, \\
+  u = & \ 0 \hspace{0.3cm} \mbox{on} \ \Gamma,\\
  n_{\Gamma} \cdot\frac{D^2 u} {n_{\Gamma}}  = & \ 0 \quad \mbox{on} \ {\Gamma}, 
 \end{align}
 \end{subequations}
