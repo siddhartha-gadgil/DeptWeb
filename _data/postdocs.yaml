@@ -123,3 +123,20 @@
   research-area: Representation theory, Combinatorics
 
 
+- name: Debaprasanna Kar
+  webpage:
+  phd: IISER Pune
+  user-id: debaprasanna
+  position: NBHM PDF
+  image: true
+  research-area: Several Complex Variables
+
+- name: Ravitheja Vangala
+  webpage:
+  phd: TIFR Mumbai
+  user-id: ravithejav
+  position: Research Associate
+  image: true
+  research-area: Number Theory
+
+
