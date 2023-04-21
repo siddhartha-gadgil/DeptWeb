@@ -139,4 +139,21 @@
   image: true
   research-area: Number Theory
 
+- name: Banhirup Sengupta
+  webpage:
+  phd: Autonomous University of Barcelona, Spain
+  user-id: banhirups
+  position: IOE
+  image: true
+  research-area: Geometric Analysis & PDEs
+
+- name: Susmita Das
+  webpage:
+  phd: Indian Statistical Institute, Bangalore
+  user-id: susmitadas
+  position: IOE
+  image: true
+  research-area: Operator Theory
+
+
 
