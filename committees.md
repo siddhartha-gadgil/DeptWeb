@@ -23,10 +23,10 @@ The present members and chairs are as follows:
 
 * Mahesh Kakde (Chair, DCC)
 * Harish Seshadri (Chair, DC)
-* Arvind Ayyer (Chair, UG-DCC)
-* Vamsi Pritham Pingali
+* Vamsi Pritham Pingali (Chair, UG-DCC)
 * R. Venkatesh
 * Subhojoy Gupta
+* Purvi Gupta
 * A. K. Nandakumaran (ex-officio)
 
 ---
