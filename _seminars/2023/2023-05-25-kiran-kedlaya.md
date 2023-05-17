@@ -2,7 +2,7 @@
 speaker: Kiran S. Kedlaya (University of California, San Diego, USA)
 title: "Tetrahedra with rational dihedral angles"
 date: 25 May, 2023
-time:  3 – 5 pm (with a 15 minute break at 4:00)
+time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
