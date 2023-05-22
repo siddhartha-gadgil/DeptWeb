@@ -6,7 +6,7 @@ time:  5 pm
 venue: LH-1, Mathematics Department
 ---
 
-We introduce an important family of polynomials, the __cyclotomic polynomials__,
+We introduce an important family of polynomials, the _cyclotomic polynomials_,
 whose roots are the roots of unity of a fixed order. We  explore the structure
 of these polynomials and the number fields that they generate, including a
 brief look at Gauss sums.
