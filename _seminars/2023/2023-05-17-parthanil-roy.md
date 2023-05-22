@@ -10,4 +10,4 @@ This talk will be a lucid introduction to the formal mathematics behind Euclidea
 our middle school curriculum. The rules, regulations and restrictions of this type of construction will be discussed
 in detail. An alternative will also be suggested. We shall also find out how a completely geometric question can be
 answered using purely algebraic techniques giving rise to an elegant theory introduced in the nineteenth century by a
-famous French mathematician named Évariste Galois.
+famous French mathematician named Evariste Galois.
