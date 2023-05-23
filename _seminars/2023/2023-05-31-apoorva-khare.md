@@ -11,7 +11,7 @@ divisor $d$, in any coprime base $B$ - i.e. usable by species having any number 
 That is, the test works for everything ($d$), everywhere ($B$), all at once.
 
 We will then move to recurring decimals. Note that 1/3 = 0.3333... and 1/3x3 = 0.1111... have the same number of digits - one -
-in their recurring parts. (Is 3 the only prime with this property in base 10?) More generally, we will see how many digits $1/n$
+in their recurring parts. (Is 3 the only prime with this property in base 10?) More generally, we will see how many digits $1/d$
 has in its recurring "decimal" expansion, for us or for any species as above.
 
 Finally, for a species with a given number of fingers (= digits!), are there infinitely many primes $p$ for which the recurring part
