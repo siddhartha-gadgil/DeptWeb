@@ -17,5 +17,5 @@ has in its recurring "decimal" expansion, for us or for any species as above.
 Finally, for a species with a given number of fingers (= digits!), are there infinitely many primes $p$ for which the recurring part
 of $1/p$ has $p-1$ digits? (E.g. for us, 1/7 has the decimal recurring string (142857).) And what does this have to do with Gauss,
 Fermat, and one of the Bernoullis? Or with Artin and a decimal number starting with 0.3739558136... ? I will end by mentioning why the
-infinitude of primes above is true for at least one "species" among humans (10), emus (6), icthyostega (14), and computers (2) - but,
+infinitude of primes above is true for at least one species among humans (10), emus (6), icthyostega (14), and computers (2) - but,
 we don’t know which one!
