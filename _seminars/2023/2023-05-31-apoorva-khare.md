@@ -6,8 +6,8 @@ time:  5 pm
 venue: LH-1, Mathematics Department
 ---
 
-If we had two extra thumbs, how would we check if "2024" is divisible by eleven? Or by "11"? We will see a simple test for any
-divisor $d$, in any coprime base $B$ - i.e. usable by species having any number of fingers (whether shaped like hot-dogs or not).
+If we had two extra thumbs, how would we check if "2024" is divisible by eleven? Or by "11"? We will see a simple test in any base
+$B$, i.e. usable by species having any number of fingers (whether shaped like hot-dogs or not); and for any divisor $d$.
 That is, the test works for everything ($d$), everywhere ($B$), all at once.
 
 We will then move to recurring decimals. Note that 1/3 = 0.3333... and 1/3x3 = 0.1111... have the same number of digits - one -
