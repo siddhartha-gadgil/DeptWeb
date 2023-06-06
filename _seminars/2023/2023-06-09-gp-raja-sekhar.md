@@ -2,7 +2,7 @@
 speaker: G P Raja Sekhar (IIT, Kharagpur)
 title: "Mathematical modelling of tumor growth and mechanical behaviour"
 date: 9 June, 2023
-time: 11:30 am
+time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
