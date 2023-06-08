@@ -1,5 +1,5 @@
 ---
-speaker: Sujatha Ramdorai (University of British Columbia, Canada)
+speaker: Sujatha Ramdorai (University of British Columbia, Vancouver, Canada)
 title: "PROMYS Guest Lecture: Prime numbers"
 date: 7 Jun, 2023
 time:  5 pm
