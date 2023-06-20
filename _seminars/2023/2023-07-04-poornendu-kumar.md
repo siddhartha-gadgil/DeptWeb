@@ -1,6 +1,6 @@
 ---
 speaker: Poornendu Kumar (IISc Mathematics)
-date: 4th July 2023
+date: 4 Jul 2023
 time: 4 pm
 venue: Microsoft Teams (Online)
 title: Interaction of distinguished varieties and the Nevanlinna-Pick interpolation problem in some domains
