@@ -28,7 +28,7 @@ a $C_0$-semigroup of isometries. The factorizations of the unilateral shift have
 the factorizations of the right-shift-semigroup.
 Firstly, we shall discuss the contractive $C_0$-semigroups which commute with the right-shift-semigroup. Then, we give a complete
 description of the pairs $(\mathcal V_1,\mathcal V_2)$  of commuting $C_0$-semigroups of contractions which satisfy $\mathcal S^\mathcal
-E=\mathcal V_1\mathcal V_2$, (such a pair is called as a {\em factorization} of $\mathcal S^\mathcal E$),  when $\mathcal E$ is a finite
+E=\mathcal V_1\mathcal V_2$, (such a pair is called as a _factorization_ of $\mathcal S^\mathcal E$),  when $\mathcal E$ is a finite
 dimensional Hilbert space.	
 
 Next, we discuss the Taylor joint spectrum for a pair of commuting isometries $(V_1,V_2)$ using the defect operator $C(V_1,V_2)$ defined
