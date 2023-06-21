@@ -18,7 +18,7 @@ The right-shift-semigroup $\mathcal S^\mathcal E=(S^\mathcal E_t)\_{t\ge 0}$ on 
 $\mathcal E$ is defined as
 \begin{equation}
 (S_t^\mathcal E f)(x) = \begin{cases}
-f(x-t) &\text{if } x\ge t,\\
+f(x-t) &\text{if } x\ge t,\\\\
 0 & \text{otherwise,}
 \end{cases}
 \end{equation}
