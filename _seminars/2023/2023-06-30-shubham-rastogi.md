@@ -17,7 +17,7 @@ or dual double commutativity.
 The right-shift-semigroup $\mathcal S^\mathcal E=(S^\mathcal E_t)\_{t\ge 0}$ on $L^2(\mathbb R_+,\mathcal E)$ for any Hilbert space
 $\mathcal E$ is defined as
 \begin{equation}
-(S_t^\mathcal E f)(x) ( \begin{cases}
+(S_t^\mathcal E f)(x) = \begin{cases}
 f(x-t) &\text{if } x\ge t,\\
 0 & \text{otherwise,}
 \end{cases}
