@@ -34,7 +34,7 @@ dimensional Hilbert space.
 Next, we discuss the Taylor joint spectrum for a pair of commuting isometries $(V_1,V_2)$ using the defect operator $C(V_1,V_2)$ defined
 as
 \begin{equation}
-C(V_1,V_2)=I-V_1V_1^*-V_2V_2^\*+ V_1V_2V_2^*V_1^*.
+C(V_1,V_2)=I-V_1V_1^\*-V_2V_2^\*+ V_1V_2V_2^\*V_1^\*.
 \end{equation}
 We show that the joint spectrum of two commuting isometries can vary widely
 depending on various factors. It can range from being small (of measure zero or an analytic disc for example) to the full bidisc. En
