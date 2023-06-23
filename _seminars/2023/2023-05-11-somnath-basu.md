@@ -2,7 +2,7 @@
 speaker: Somnath Basu (IISER-Kolkata)
 title: "On manifolds homeomorphic to the n-sphere"
 date: 11 May, 2023
-time: 4:00 pm
+time: 3:00 pm
 venue: LH-1
 series: "Geometry & Topology Seminar"
 ---
