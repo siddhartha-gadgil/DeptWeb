@@ -169,6 +169,9 @@ aug2023:
     prereq-courses: MA 241
     ug-prereq-courses: ''
   electives:
+  - name: Commutative Algebra	
+    code: MA 312	
+    instructor: Radhika Ganapathy
   - name: Introduction to Analytic Number Theory
     code: MA 317
     instructor: Soumya Das
