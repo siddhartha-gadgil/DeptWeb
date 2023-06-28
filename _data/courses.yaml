@@ -1,3 +1,195 @@
+jan2024:
+  ug:
+  - code: UM 102
+    instructor: Subhojoy Gupta
+    name: "Analysis and Linear Algebra - II"
+    ug-prereq-courses: UM 101
+    webpage: 
+    timing: 
+  - code: UM 204
+    name: Introduction to Basic Analysis
+    credits: '3:1'
+    instructor: Purvi Gupta
+    ug-prereq-courses: UM 102
+    timing: 
+    venue:
+  - code: UM 205
+    name: Introduction to Algebraic Structures
+    credits: '3:1'
+    instructor: Arvind Ayyer
+    webpage: 
+    ug-prereq-courses: UM 102
+    timing: 
+    venue:
+  - code: UM 400
+    instructor: UG Coordinator
+    name: "UG project"
+    credits: '0:13'
+    ug-prereq-courses: Only for 4th year UGs  
+  - code: UM 502
+    instructor: UG Coordinator
+    name: "Masters project B"
+    credits: '0:6'
+    ug-prereq-courses: Only for 5th year Masters    
+  core1:
+  - name: Algebra II
+    credits: '3:1'
+    instructor: Abhishek Banerjee
+    code: MA 213
+    prereq-courses: MA 212
+    ug-prereq-courses: ''
+  - name: Measure & Integration
+    credits: '3:1'
+    instructor: Arka Mallick
+    code: MA 222
+    prereq-courses: MA 221
+    ug-prereq-courses: 'UM 204'
+  - name: Complex Analysis
+    credits: '3:1'
+    instructor: Ved Datar
+    code: MA 224
+    prereq-courses: MA 221
+    ug-prereq-courses: 'UM 204'
+    webpage: 
+  - name: Introduction to Differentiable Manifolds
+    instructor: Vamsi Pritham Pingali
+    code: MA 235 
+    prereq-courses: MA 221
+    ug-prereq-courses: ''
+    webpage: 
+  - name: Ordinary Differential Equations
+    credits: '3:1'
+    instructor: Harish Seshadri
+    code: MA 241
+    prereq-courses: MA 221
+    ug-prereq-courses: 'UM 204'
+  electives:
+  - name: Number Theory	
+    code: MA 218	
+    instructor: Soumya Das
+  - name: Representation Theory of Finite Groups	
+    code: MA 220	
+    instructor: Shaunak Deo
+  - name : Introduction to Stochastic Processes	
+    code: MA 262	
+    instructor: Sanchayan Sen
+  - name : Analysis 3	
+    code: MA 321	
+    instructor: E. K. Narayanan
+
+
+  - name: Topics in Number Theory 3 (Iwasawa theory)	
+    code: MA 348a	
+    instructor: Mahesh Kakde
+  - name:  Topics in Number Theory 4 (p-adic L-functions)	
+    code: MA 348b	
+    instructor: Bharathwaj Palvannan
+  - name:  Operator Theory II	
+    code: MA 325	
+    instructor: E. K. Narayanan
+  - name:  Topics in analysis	
+    code: MA 327	
+    instructor: Manjunath Krishnapur
+  - name:  Algebraic Topology	
+    code: MA 332	
+    instructor: Siddhartha Gadgil
+  - name:  Topics in Representation theory	
+    code: MA 357	
+    instructor: Radhika Ganapathy
+
+
+aug2023:
+  ug:
+  - code: UM 101
+    instructor: Gautam Bharaali
+    name: Anaysis and Linear Algebra - I
+    ug-prereq-courses:
+  - code: UM 201
+    instructor: Manjunath Krishnapur
+    name: Probability and Statistics
+  - code: UMC 202
+    instructor: Thirupathi Gudi
+    name: Introduction to Numerical Methods
+  - code: UM 501
+    instructor: UG Coordinator
+    name: "Masters project A"
+    credits: '0:6'
+    ug-prereq-courses: Only for 5th year Masters    
+  core1:
+  - name: Multivariable Calculus
+    credits: '3:1'
+    instructor: Amalendu Krishna
+    code: MA 200
+    prereq-courses: ''
+    ug-prereq-courses: UM 204
+  - name: Algebra I
+    instructor: Bharathwaj Palvannan
+    code: MA 212
+    prereq-courses: ''
+    ug-prereq-courses: UM 203
+    webpage: 
+  - name: Linear Algebra
+    credits: '3:1'
+    instructor: Apoorva Khare
+    code: MA 219
+    prereq-courses: ''
+    ug-prereq-courses: UM 102
+  - name: 'Analysis I: Real Anaysis'
+    instructor: Tirthankar Bhattacharyya
+    code: MA 221
+    prereq-courses: ''
+    ug-prereq-courses:
+    webpage: 
+  - name: Topology
+    credits: '3:1'
+    instructor: Harish Seshadri
+    code: MA 231
+    prereq-courses: ''
+    ug-prereq-courses:
+  - name: Probability Models
+    instructor: Sanchayan Sen
+    code: MA 261
+    webpage: 
+    prereq-courses: ''
+    ug-prereq-courses: ''
+  core2:
+  - name: Functional Analysis
+    instructor: Swarnendu Sil
+    code: MA 223
+    prereq-courses: MA 222, MA 224 & MA 219
+    ug-prereq-courses: ''
+  - name: Introduction to Algebraic Topology
+    instructor: Siddhartha Gadgil
+    webpage:
+    code: MA 232
+    prereq-courses: MA 231 & MA 212
+    ug-prereq-courses: ''
+  - name: Partial Differential Equations
+    instructor: A. K. Nandakumaran
+    code: MA 242
+    prereq-courses: MA 241
+    ug-prereq-courses: ''
+  electives:
+  - name: Introduction to Analytic Number Theory
+    code: MA 317
+    instructor: Soumya Das
+  - name: Riemannian Geometry
+    code: MA 333
+    instructor: Ved Datar
+  - name: Matrix Analysis and Positivity
+    code: MA 341
+    instructor: Apoorva Khare
+  - name: Topics in Number Theory 1 (Galois representations)
+    code: MA 348
+    instructor: Shaunak Deo
+  - name: Linear Algebraic Groups
+    code: MA 379
+    instructor: Mihir Sheth
+  - name : Topics in Non-linear functional analysis
+    code: MA 388
+    instructor: Arka Mallick
+
+
 jan2023:
   ug:
   - code: UM 102
