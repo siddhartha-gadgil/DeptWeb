@@ -78,10 +78,10 @@ jan2024:
     instructor: E. K. Narayanan
 
   - name: Topics in Number Theory 3 (Iwasawa theory)	
-    code: MA 348a	
+    code: MA 358A	
     instructor: Mahesh Kakde
   - name:  Topics in Number Theory 4 (p-adic L-functions)	
-    code: MA 348b	
+    code: MA 358	
     instructor: Bharathwaj Palvannan
   - name:  Operator Theory II	
     code: MA 325	
@@ -109,6 +109,7 @@ aug2023:
   - code: UMC 202
     instructor: Thirupathi Gudi
     name: Introduction to Numerical Methods
+    webpage: https://btech-ug.iisc.ac.in/MathandComputing/course-details/
   - code: UM 501
     instructor: UG Coordinator
     name: "Masters project A"
@@ -182,7 +183,7 @@ aug2023:
     code: MA 341
     instructor: Apoorva Khare
   - name: Topics in Number Theory 1 (Galois representations)
-    code: MA 348
+    code: MA 354
     instructor: Shaunak Deo
   - name: Linear Algebraic Groups
     code: MA 379
