@@ -73,6 +73,9 @@ jan2024:
   - name : Introduction to Stochastic Processes	
     code: MA 262	
     instructor: Sanchayan Sen
+  - name : Introduction to Statistical Learning with Applications
+    code: MA 267
+    instructor: Siva Athreya
   - name : Analysis 3	
     code: MA 321	
     instructor: E. K. Narayanan
@@ -94,6 +97,9 @@ jan2024:
   - name:  Topics in Representation theory	
     code: MA 357	
     instructor: Radhika Ganapathy
+  - name: Stochastic Finance II 
+    code: MA 366
+    instructor: Srikanth Iyer
 
 
 aug2023:
@@ -184,6 +190,9 @@ aug2023:
   - name: Topics in Number Theory 1 (Galois representations)
     code: MA 354
     instructor: Shaunak Deo
+  - name: Probability Theory
+    code: MA 361
+    instructor: Srikanth Iyer
   - name: Linear Algebraic Groups
     code: MA 379
     instructor: Mihir Sheth
