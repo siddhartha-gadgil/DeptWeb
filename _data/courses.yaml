@@ -76,13 +76,12 @@ jan2024:
   - name : Analysis 3	
     code: MA 321	
     instructor: E. K. Narayanan
-
+  - name:  Topics in Number Theory 2 (p-adic L-functions)	
+    code: MA 358	
+    instructor: Bharathwaj Palvannan
   - name: Topics in Number Theory 3 (Iwasawa theory)	
     code: MA 358A	
     instructor: Mahesh Kakde
-  - name:  Topics in Number Theory 4 (p-adic L-functions)	
-    code: MA 358	
-    instructor: Bharathwaj Palvannan
   - name:  Operator Theory II	
     code: MA 325	
     instructor: E. K. Narayanan
@@ -118,7 +117,7 @@ aug2023:
   core1:
   - name: Multivariable Calculus
     credits: '3:1'
-    instructor: Amalendu Krishna
+    instructor: ''
     code: MA 200
     prereq-courses: ''
     ug-prereq-courses: UM 204
