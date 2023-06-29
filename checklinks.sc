@@ -19,6 +19,7 @@ def get(s: String) = memo.get(s).getOrElse{
 def subLinks(s: String) = get(s).select("a").asScala.toIterator.map{el => el.attr("href").trim.replace("\n", " ").replace(" ", "%20")}.flatMap(_.split("#").headOption).filter(_ != "") 
 def localLinks(s: String) = subLinks(s).filterNot(l => l.startsWith("#") || l.startsWith("http"))
 
+val allFiles = os.walk(os.pwd / "_site").toSet
 def contents(s: String) = if (s.startsWith("http")) requests.get(s) else os.read(os.pwd / "_site" / os.RelPath(trm(s)))
 def isMissing(s: String) = {
     import java.net._
@@ -36,7 +37,7 @@ def isBroken(l: String) =
         false}
         else         
         if (l.startsWith("http")) isMissing(l)
-        else Try(contents(l)).isFailure
+        else !allFiles.contains(os.pwd / "_site" / os.RelPath(trm(l)))
         mcheck += l -> result
         result
     } 
