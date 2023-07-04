@@ -1,9 +1,10 @@
 jan2024:
   ug:
-  - code: UM 102
+  - code: UMA 102
     instructor: Subhojoy Gupta
     name: "Analysis and Linear Algebra - II"
-    ug-prereq-courses: UM 101
+    ug-prereq-courses: UMA 101
+    credits: '4:0'
     webpage: 
     timing: 
   - code: UM 204
@@ -104,13 +105,15 @@ jan2024:
 
 aug2023:
   ug:
-  - code: UM 101
+  - code: UMA 101
     instructor: Gautam Bharaali
     name: Anaysis and Linear Algebra - I
+    credits: '4:0'
     ug-prereq-courses:
-  - code: UM 201
+  - code: UMA 201
     instructor: Manjunath Krishnapur
     name: Probability and Statistics
+    credits: '4:0'
   - code: UMC 202
     instructor: Thirupathi Gudi
     name: Introduction to Numerical Methods
