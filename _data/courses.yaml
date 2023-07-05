@@ -181,6 +181,9 @@ aug2023:
   - name: Commutative Algebra	
     code: MA 312	
     instructor: Radhika Ganapathy
+  - code: MA 313
+    instructor: Mahesh Kakde
+    name: Algebraic Number Theory
   - name: Introduction to Analytic Number Theory
     code: MA 317
     instructor: Soumya Das
