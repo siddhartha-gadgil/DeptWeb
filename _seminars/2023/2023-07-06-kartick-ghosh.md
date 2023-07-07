@@ -2,7 +2,7 @@
 speaker: Kartick Ghosh (IISc Mathematics)
 date: 6th July 2023
 time: 3 pm
-venue: Google Meet (online)
+venue: Hybrid - Google Meet (online) and LH-3, Mathematics Department
 title: On some canonical metrics on holomorphic vector bundles over Kähler manifolds
 series: Thesis
 series-prefix: PhD
