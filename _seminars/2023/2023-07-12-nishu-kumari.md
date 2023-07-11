@@ -2,7 +2,7 @@
 speaker: Nishu Kumari (IISc Mathematics)
 date: 12th July 2023
 time: 11 am
-venue: LH-1, Mathematics Department
+venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 title: Characters of classical groups twisted by roots of unity
 series: Thesis
 series-prefix: PhD
