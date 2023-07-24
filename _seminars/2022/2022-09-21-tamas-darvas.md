@@ -5,7 +5,7 @@ date: 21 September, 2022
 time: 6:30 pm
 series: "Geometry & Topology Seminar"
 venue: Microsoft Teams (online)
-website: http://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
 ---
 
 We prove existence of twisted Kähler-Einstein metrics in big cohomology classes, using a divisorial stability condition. 

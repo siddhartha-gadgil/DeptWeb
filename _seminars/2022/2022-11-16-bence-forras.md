@@ -5,7 +5,7 @@ date: 16 November, 2022
 time: 11.30 AM
 series: "Number Theory Seminar"
 venue: LH-1
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 We introduce a smoothed version of the equivariant `$S$`-truncated

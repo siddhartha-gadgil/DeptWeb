@@ -5,7 +5,7 @@ date: 16 Dec, 2021
 time: 11:00 am
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 Since the Calabi conjecture was proved in 1978 by S.T. Yau, there has been extensive studies into nonlinear PDEs on complex manifolds. 

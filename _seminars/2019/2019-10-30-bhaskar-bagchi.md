@@ -5,7 +5,7 @@ date: 30 October, 2019
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 If $T$ is a cnu (completely non-unitary) contraction on a Hilbert

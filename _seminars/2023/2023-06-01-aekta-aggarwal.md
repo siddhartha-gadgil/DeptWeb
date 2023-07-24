@@ -5,7 +5,7 @@ date: 1 June, 2023
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 Nonlocal conservation laws are gaining interest due to their wide range of applications in modeling

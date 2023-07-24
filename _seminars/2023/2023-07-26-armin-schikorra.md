@@ -5,7 +5,7 @@ date: 26 July, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 n-Laplace systems with antisymmetric potential are known to govern

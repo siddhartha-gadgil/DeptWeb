@@ -5,7 +5,7 @@ date: 04 November, 2019
 time: 4:15 pm
 series: "Geometry & Topology Seminar"
 venue: LH-2, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
 ---
 
 We will define an invariant for annular links using the combinatorial link Floer complex that gives genus bounds 

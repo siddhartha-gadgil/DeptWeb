@@ -75,7 +75,7 @@ INDIA
 e-mail: ``chair.math[at]iisc.ac.in``
 
 General information about the Indian Institute of Science (IISc) is available on the [IISc website](http://www.iisc.ac.in).
-Information about the Department of Mathematics is available on the [Department website](http://math.iisc.ac.in).
+Information about the Department of Mathematics is available on the [Department website](https://math.iisc.ac.in).
 
 
 ## Some useful tips:

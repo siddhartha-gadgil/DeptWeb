@@ -5,7 +5,7 @@ date: 18 Jan, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 The study of diluted spin glasses may help solve some problems in

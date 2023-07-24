@@ -5,7 +5,7 @@ date: 8 June, 2022
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 In this talk, we will explain the existence of a universal braided compact quantum group acting

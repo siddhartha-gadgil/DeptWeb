@@ -5,7 +5,7 @@ date: 27 Oct, 2021
 time: 4:30 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 We provide detailed local descriptions of stable polynomials in terms of their homogeneous

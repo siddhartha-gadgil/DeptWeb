@@ -5,7 +5,7 @@ date: 23 September, 2019
 time: 3:30 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
 ---
 
 Counting holomorphic curves in a symplectic manifold has

@@ -5,7 +5,7 @@ date: 14 April, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 The celebrated Wiener Tauberian theorem asserts that for  $ f \in L^1(\mathbb{R})$, the

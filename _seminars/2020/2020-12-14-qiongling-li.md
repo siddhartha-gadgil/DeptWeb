@@ -5,7 +5,7 @@ date: 14 December, 2020
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
 ---
 
 On a Riemann surface with a holomorphic $r$-differential, one can naturally define a Toda equation and a cyclic Higgs bundle with a grading. 

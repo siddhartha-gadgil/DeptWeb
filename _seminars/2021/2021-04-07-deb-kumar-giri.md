@@ -5,7 +5,7 @@ date: 7 April, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 The notion of Heisenberg uniqueness pair has been introduced by Hedenmalm

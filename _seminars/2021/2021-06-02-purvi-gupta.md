@@ -5,7 +5,7 @@ date: 2 Jun, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 A compact subset of $\mathbb{C}^n$ is polynomially convex if it is defined by a

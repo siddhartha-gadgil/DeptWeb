@@ -5,7 +5,7 @@ date: 01 Dec, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 Surprisingly there exist connected components of character varieties of fundamental groups of surfaces in semisimple Lie groups only consisting of 

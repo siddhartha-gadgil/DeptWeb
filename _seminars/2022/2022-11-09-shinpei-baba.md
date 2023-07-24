@@ -6,7 +6,7 @@ date: 09 November, 2022
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1 (In person)
-website: http://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
 ---
 
 The Poincaré holonomy variety (or $sl(2, C)$-oper) is the set of holonomy representations of all complex projective structures on a Riemann surface.  It is a complex analytic subvariety of the $PSL(2, C)$ character variety of the underlying topological surface. In this talk, we consider the intersection 

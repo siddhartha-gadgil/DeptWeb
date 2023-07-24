@@ -5,7 +5,7 @@ date: 24 March, 2021
 time: 9:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 Anosov representations are representations of word hyperbolic groups into semisimple Lie groups with many good geometric properties. In this talk I will 

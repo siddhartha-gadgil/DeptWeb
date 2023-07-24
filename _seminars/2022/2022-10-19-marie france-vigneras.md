@@ -5,7 +5,7 @@ date: 19 October, 2022
 time: 5 pm
 series: "Number Theory Seminar"
 venue: Zoom (Online)
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 I will answer some  questions (admissibility, dimensions of invariants by Moy-Prasad groups)

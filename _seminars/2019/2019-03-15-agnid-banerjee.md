@@ -5,7 +5,7 @@ date: 15 March, 2019
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 I will continue my discussion on the  strong unique continuation theorem for zero order perturbations of the fractional heat equation based on a monotonicity property of a generalized Almgren frequency in weighted Gauss space. This is joint with Nicola Garofalo. Then I will briefly describe how similar considerations  are useful while studying the regularity of the free boundary in the obstacle problem for the fractional heat operator where some other monotonicity formulas are also required. This is a more recent work with Donatella Danielli, Nicola Garofalo and Arshak Petrosyan.

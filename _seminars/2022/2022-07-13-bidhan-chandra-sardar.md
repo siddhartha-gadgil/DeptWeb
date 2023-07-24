@@ -5,7 +5,7 @@ date: 13 Jul, 2022
 time: 11:30 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 In this talk, we consider the optimal control problem (OCP) governed by the steady Stokes system in a

@@ -5,7 +5,7 @@ date: 19th March, 2018
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 ---
 
  In this talk I will give a brief introduction to Liouville

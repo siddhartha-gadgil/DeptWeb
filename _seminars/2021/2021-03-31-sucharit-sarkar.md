@@ -5,7 +5,7 @@ date: 31 March, 2021
 time: 9:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 The Khovanov chain complex is a categorification of the Jones polynomial and is built using a functor from Kauffman's cube of resolutions to Abelian groups. 

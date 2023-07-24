@@ -182,7 +182,7 @@ aug2023:
     venue: LH-5
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
-    webpage:
+    webpage: https://math.iisc.ac.in/~gadgil/intro-algebraic-topology-2023/
     code: MA 232
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
@@ -325,7 +325,7 @@ jan2023:
     credits: '3:1'
     timing: 'Mon, Wed, Fri: 9:00 - 10:00'
     venue: LH-3
-    webpage: "http://math.iisc.ac.in/~gadgil/proofs-and-programs-2023/"
+    webpage: "https://math.iisc.ac.in/~gadgil/proofs-and-programs-2023/"
   - name: Introduction to Modular Forms
     instructor: Mahesh Kakde 
     code: MA 215
@@ -400,7 +400,7 @@ aug2022:
     name: Anaysis and Linear Algebra - I
     ug-prereq-courses:
     timing: 'Mon, Wed, Fri: 11:00 - 12:00'
-    webpage: http://math.iisc.ac.in/~purvigupta/math101.html
+    webpage: https://math.iisc.ac.in/~purvigupta/math101.html
     venue: F12, OPB
   - code: UM 201
     instructor: Arvind Ayyer
@@ -421,7 +421,7 @@ aug2022:
     code: MA 200
     prereq-courses: ''
     ug-prereq-courses: UM 204
-    webpage: http://math.iisc.ac.in/~vamsipingali/teaching/ma200mult2022autumn/ma200mult2022autumn.html
+    webpage: https://math.iisc.ac.in/~vamsipingali/teaching/ma200mult2022autumn/ma200mult2022autumn.html
   - name: Algebra I
     instructor: Shaunak Deo
     timing: 'Mon, Wed, Fri: 3:00 - 4:00'
@@ -454,7 +454,7 @@ aug2022:
     venue: LH-4
     prereq-courses: ''
     ug-prereq-courses:
-    webpage: http://math.iisc.ac.in/~gadgil/topology-2022/index.html
+    webpage: https://math.iisc.ac.in/~gadgil/topology-2022/index.html
   - name: Probability Models
     instructor: Sanchayan Sen
     timing: 'Tue, Thu: 3:30 - 5:00' 
@@ -485,7 +485,7 @@ aug2022:
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
-    webpage: http://math.iisc.ac.in/~ssil/Courses/Intro_PDE_Fall22/PDE1Fall22.html
+    webpage: https://math.iisc.ac.in/~ssil/Courses/Intro_PDE_Fall22/PDE1Fall22.html
     venue: LH-5
   electives:
   - name: Representation Theory of Finite Groups
@@ -537,7 +537,7 @@ aug2022:
     code: MA 361
     prereq-courses: MA 222
     ug-prereq-courses: ''
-    webpage: http://math.iisc.ac.in/~manju/PT2022/PT22.html
+    webpage: https://math.iisc.ac.in/~manju/PT2022/PT22.html
   - name: Algebraic Graph Theory
     code: MA 375
     timing : 'Mon, Wed, Fri: 11:00 - 12:00'
@@ -617,7 +617,7 @@ jan2022:
     ug-prereq-courses: ''
     timing: 'Tue, Thu: 2:00 - 3:30' 
     venue: LH-4
-    webpage: http://math.iisc.ac.in/~vamsipingali/teaching/ma229ma235manifoldsspring2022/ma229235.html
+    webpage: https://math.iisc.ac.in/~vamsipingali/teaching/ma229ma235manifoldsspring2022/ma229235.html
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: Harish Seshadri
@@ -658,7 +658,7 @@ jan2022:
   - name: Topics in Complex Analysis
     code: MA 324
     instructor: Purvi Gupta
-    webpage: http://math.iisc.ac.in/~purvigupta/math324.html
+    webpage: https://math.iisc.ac.in/~purvigupta/math324.html
     prereq-courses: MA 224
     timing: 'Tue, Thu: 10:00 - 11:30' 
     venue: LH-5
@@ -668,7 +668,7 @@ jan2022:
     prereq-courses: MA 232
     timing: 'Tue, Thu: 8:30 - 10:00' 
     venue: LH-5
-    webpage: http://math.iisc.ac.in/~gadgil/algebraic-topology-2022/
+    webpage: https://math.iisc.ac.in/~gadgil/algebraic-topology-2022/
   - name: "Topics in Geometric Topology: Geometric structures"
     code: MA 355
     instructor: Subhojoy Gupta
@@ -737,7 +737,7 @@ aug2021:
     code: MA 221
     prereq-courses: ''
     ug-prereq-courses:
-    webpage: http://math.iisc.ac.in/~purvigupta/math221.html
+    webpage: https://math.iisc.ac.in/~purvigupta/math221.html
     venue: 
   - name: Topology
     credits: '3:1'
@@ -746,7 +746,7 @@ aug2021:
     code: MA 231
     prereq-courses: ''
     ug-prereq-courses:
-    webpage: http://math.iisc.ac.in/~gadgil/topology-2021/index.html
+    webpage: https://math.iisc.ac.in/~gadgil/topology-2021/index.html
   - name: Probability Models
     instructor: Sanchayan Sen
     timing: 'Tue, Thu: 3:30 - 5:00'
@@ -777,7 +777,7 @@ aug2021:
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
-    webpage: http://math.iisc.ac.in/~ssil/Courses/Intro_PDE_Fall21/PDE1Fall21.html
+    webpage: https://math.iisc.ac.in/~ssil/Courses/Intro_PDE_Fall21/PDE1Fall21.html
     venue: 
   electives:
   - name: Representation Theory of Finite Groups
@@ -804,7 +804,7 @@ aug2021:
     code: MA 326
     instructor: Manjunath Krishnapur
     timing: 'Mon, Wed, Fri: 12:00 - 1:00'
-    webpage: http://math.iisc.ac.in/~manju/FA/fourieranalysis2021.html
+    webpage: https://math.iisc.ac.in/~manju/FA/fourieranalysis2021.html
   - name: Introduction to Several Complex Variables 
     code: MA 328
     instructor: E. K. Narayanan
@@ -884,7 +884,7 @@ jan2021:
     ug-prereq-courses: 'UM 204'
     timing: 'Mon, Wed, Fri 2:00 - 3:00'
     venue: 
-    webpage: http://math.iisc.ac.in/~purvigupta/math224.html
+    webpage: https://math.iisc.ac.in/~purvigupta/math224.html
   - name: Calculus on Manifolds
     instructor: Ved Datar
     code: MA 229
@@ -892,7 +892,7 @@ jan2021:
     ug-prereq-courses: ''
     timing: 'Mon, Wed, Fri 9:00 - 10:00'
     venue: 
-    webpage: http://math.iisc.ac.in/~vvdatar/teaching_2021-Feb.html
+    webpage: https://math.iisc.ac.in/~vvdatar/teaching_2021-Feb.html
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: A. K. Nandakumaran
@@ -1029,7 +1029,7 @@ aug2020:
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
     timing: 'Mon, Wed, Fri 8:00 - 9:00'
-    webpage: http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2020/
+    webpage: https://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2020/
     code: MA 232
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
@@ -1200,7 +1200,7 @@ jan2020:
     ug-prereq-courses: ''
     timing: 'Mon, Wed, Fri: 9:00-10:00'
     venue: "LH-5"
-    webpage: "http://math.iisc.ac.in/~gadgil/algebraic-topology-2020/"
+    webpage: "https://math.iisc.ac.in/~gadgil/algebraic-topology-2020/"
   - name: Computer Assisted Topology and Geometry
     instructor: Siddhartha Gadgil
     code: MA 337
@@ -1209,7 +1209,7 @@ jan2020:
     ug-prereq-courses: ''
     timing: 'Mon, Wed, Fri: 12:10-1:00'
     venue: "LH-3"
-    webpage: http://math.iisc.ac.in/~gadgil/catg2020/index.html
+    webpage: https://math.iisc.ac.in/~gadgil/catg2020/index.html
   - name: Differentiable Manifolds & Lie Groups
     instructor: Subhojoy Gupta
     code: MA 338
@@ -1237,7 +1237,7 @@ jan2020:
     instructor: Manjunath Krishnapur
     timing: 'Mon, Wed, Fri: 10:00-11:00'
     venue: "LH-5"
-    webpage: "http://math.iisc.ac.in/~manju/MartBM/martingalesandbrownianmotion.html"
+    webpage: "https://math.iisc.ac.in/~manju/MartBM/martingalesandbrownianmotion.html"
   - name: Topics in Rigorous Statistical Mechanics
     code: MA 397
     instructor: Riddhipratim Basu (ICTS)
@@ -1315,7 +1315,7 @@ aug2019:
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
     timing: 'Tue, Thu: 8:30-10:00'
-    webpage: http://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/
+    webpage: https://math.iisc.ac.in/~gadgil/introduction-algebraic-topology-2019/
     code: MA 232
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
@@ -1459,7 +1459,7 @@ jan2019:
     ug-prereq-courses: ''
     timing: 'Tue, Thu: 8:30-10:00'
     venue: "LH-5"
-    webpage: http://math.iisc.ac.in/~gadgil/LTS2019/
+    webpage: https://math.iisc.ac.in/~gadgil/LTS2019/
   - name: Introduction to Dynamical Systems Theory
     instructor: Janaki Balakrishnan
     code: MA 278
@@ -1599,7 +1599,7 @@ aug2018:
     instructor: Siddhartha Gadgil
     timing: 'Mon, Wed, Fri: 9:00-10:00'
     code: MA 261
-    webpage: http://math.iisc.ac.in/~gadgil/MA261/
+    webpage: https://math.iisc.ac.in/~gadgil/MA261/
     prereq-courses: ''
     ug-prereq-courses: ''
   electives:
@@ -1694,7 +1694,7 @@ jan2017:
   - name: Introduction to Homotopy Type Theory
     instructor: Siddhartha Gadgil
     code: MA 334
-    webpage: http://math.iisc.ac.in/~gadgil/HoTT-Course.html
+    webpage: https://math.iisc.ac.in/~gadgil/HoTT-Course.html
     prereq-courses: MA 223
     ug-prereq-courses: ''
   - name: Algebraic Number Theory
@@ -1891,7 +1891,7 @@ aug2016:
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
     code: MA 232
-    webpage: http://math.iisc.ac.in/~gadgil/AlgebraicTopology/home/
+    webpage: https://math.iisc.ac.in/~gadgil/AlgebraicTopology/home/
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
   - name: Partial Differential Equations

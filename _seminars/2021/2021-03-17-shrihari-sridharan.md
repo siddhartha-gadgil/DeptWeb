@@ -5,7 +5,7 @@ date: 17 March, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 Rough analysis, as undertaken and popularised by Robert Strichartz and Jun Kigami,

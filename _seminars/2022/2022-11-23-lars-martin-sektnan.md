@@ -6,7 +6,7 @@ date: 23 November, 2022
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: Microsoft Teams (online)
-website: http://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
 ---
 
 Abstract:  A fundamental problem in complex geometry is to construct canonical metrics, such as Hermite-Einstein (HE) metrics on vector bundles and 

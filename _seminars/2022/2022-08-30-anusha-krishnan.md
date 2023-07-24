@@ -5,7 +5,7 @@ date: 30 August, 2022
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: Microsoft Teams (online)
-website: http://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
 ---
 
 The preservation of positive curvature conditions under the Ricci flow has been an important ingredient in applications of 

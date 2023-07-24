@@ -6,7 +6,7 @@ date: 02 November, 2022
 time: 6:30 pm
 series: "Geometry & Topology Seminar"
 venue: Microsoft Teams (online)
-website: http://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
 ---
 
 In her thesis, Maryam Mirzakhani counted the number of simple closed geodesics of bounded length on a (real) hyperbolic surface. 

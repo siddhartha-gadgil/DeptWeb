@@ -5,7 +5,7 @@ date: 25 March, 2022
 time: 12 pm
 series: "Number Theory Seminar"
 venue: LH 1
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 
 ---
 

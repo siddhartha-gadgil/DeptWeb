@@ -5,7 +5,7 @@ date: 16 January, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 Let $X=(x_1, ... ,x_n)$ be a vector of distinct positive integers.

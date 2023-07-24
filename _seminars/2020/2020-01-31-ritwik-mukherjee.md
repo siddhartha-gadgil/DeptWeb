@@ -5,7 +5,7 @@ date: 31 January, 2020
 time: 10:00 am
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
 ---
 
 The quintic threefold (the zero set of a homogeneous degree 5 polynomial on CP^4) is one of the 

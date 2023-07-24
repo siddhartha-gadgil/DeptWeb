@@ -5,7 +5,7 @@ date: 3 May, 2023
 time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 This talk comprises two parts. In the first part, we revisit the problem of pointwise semi-supervised learning (SSL).

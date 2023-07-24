@@ -5,7 +5,7 @@ date: 20 September, 2019
 time: 4:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 We discuss some progress in the last decade (and ongoing interest) of

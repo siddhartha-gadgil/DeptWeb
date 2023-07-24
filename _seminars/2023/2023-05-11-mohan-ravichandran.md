@@ -5,7 +5,7 @@ date: 11 May, 2023
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 The problem of algorithmically computing the volumes of

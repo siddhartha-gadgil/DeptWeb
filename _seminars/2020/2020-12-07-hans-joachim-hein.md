@@ -5,7 +5,7 @@ date: 07 December, 2020
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
 ---
 
 Yau's solution of the Calabi conjecture provided the first nontrivial examples of Ricci-flat Riemannian metrics on compact manifolds. 

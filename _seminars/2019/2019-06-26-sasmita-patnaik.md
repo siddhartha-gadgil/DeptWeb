@@ -5,7 +5,7 @@ date: 26 June, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 The study of multiplicative B(H)-semigroups with

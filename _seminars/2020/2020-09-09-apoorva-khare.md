@@ -5,7 +5,7 @@ date: 9 September 2020
 time: 11 am
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 I will give a gentle introduction to total positivity and the

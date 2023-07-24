@@ -5,7 +5,7 @@ date: 11 March, 2020
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
 ---
 
 Let $(M,g)$ be a Riemannian manifold and '$c$' be some homology class of $M$. The systole of $c$ is the minimum of the $k$-volume over 

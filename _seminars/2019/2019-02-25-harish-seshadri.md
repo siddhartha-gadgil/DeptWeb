@@ -5,7 +5,7 @@ date: 25 February, 2019
 time: 4 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2019_Spring.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2019_Spring.html
 ---
 
 It is open question if the standard round metric on $S^4$ is the unique positive Einstein metric, up to isometry and scaling. 

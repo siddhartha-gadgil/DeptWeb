@@ -5,7 +5,7 @@ date: 14 September, 2022
 time: 12 PM
 series: "Number Theory Seminar"
 venue: LH-1
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 Let `$F$` be a global field and `$\Gamma_F$` its absolute Galois group. Given

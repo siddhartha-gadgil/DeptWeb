@@ -5,7 +5,7 @@ date: 14 August, 2019
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 We consider reconstruction of a manifold, or, invariant manifold learning, where

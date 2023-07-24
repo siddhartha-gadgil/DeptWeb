@@ -5,7 +5,7 @@ date: 10 Apr, 2023
 time: 3 pm
 venue: Microsoft Teams (Online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 Nanomedicine is an offshoot of nanotechnology that involves many disciplines, including the manipulation and manufacturing

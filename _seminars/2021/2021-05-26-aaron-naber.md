@@ -5,7 +5,7 @@ date: 26 May, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 In the last decades there have been many connections made between the analysis of a manifold M and the geometry of M. Said correctly, there are now many ways to 

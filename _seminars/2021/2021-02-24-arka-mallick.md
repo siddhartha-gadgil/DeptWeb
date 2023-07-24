@@ -5,7 +5,7 @@ date: 24 February, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 In this talk, I would like to present some recent results regarding the behaviour

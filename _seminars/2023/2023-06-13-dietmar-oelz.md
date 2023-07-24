@@ -5,7 +5,7 @@ date: 13 June, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 The origins of disordered actomyosin network contraction such as in the cellular cortex

@@ -5,7 +5,7 @@ date: 14 August, 2019
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 Problems associated with the algorithmic counting of combinatorial structures arise

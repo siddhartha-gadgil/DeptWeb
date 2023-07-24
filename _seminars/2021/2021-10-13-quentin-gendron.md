@@ -5,7 +5,7 @@ date: 13 Oct, 2021
 time: 9:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 The k-differentials are sections of the tensorial product of the canonical bundle of a complex algebraic curves. Fixing a partition (m_1,...,m_n) of k(2g-2), 

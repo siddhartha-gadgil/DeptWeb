@@ -5,7 +5,7 @@ date: 17 Nov, 2021
 time: 9:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 Choose a homotopically non-trivial curve “at random” on a compact orientable surface- what properties is it likely to have? We address this when, 

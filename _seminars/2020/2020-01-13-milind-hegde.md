@@ -5,7 +5,7 @@ date: 13 January, 2020
 time: 2:15 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 Many models of one dimensional random growth are expected to lie

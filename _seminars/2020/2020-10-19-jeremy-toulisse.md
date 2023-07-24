@@ -5,7 +5,7 @@ date: 19 October, 2020
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
 ---
 
 The pseudo-hyperbolic space $H^{2,n}$ is the pseudo-Riemannian

@@ -5,7 +5,7 @@ date: 9 March, 2022
 time: 6 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 This talk is motivated by interest in Crouzeix's conjecture for compressions

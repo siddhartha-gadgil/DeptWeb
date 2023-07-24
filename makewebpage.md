@@ -15,7 +15,7 @@ title: Make your web page
 
 * __NOTE:__ For your web page to be seen, you must set permissions for it to be readable (see below for how to do this).
 
-* To make a web padge, `ssh` into your mathematics account. (See [this page for details.](http://math.iisc.ac.in/sshinfo.html)) create a folder called `public_html` and give it the correct permissions.
+* To make a web padge, `ssh` into your mathematics account. (See [this page for details.](https://math.iisc.ac.in/sshinfo.html)) create a folder called `public_html` and give it the correct permissions.
 ```bash
 mkdir public_html
 chmod go+rX public_html

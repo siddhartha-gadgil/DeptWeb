@@ -5,7 +5,7 @@ date: 12 October, 2020
 time: 9:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
 ---
 
 We present a new compactness theory of Ricci flows. This theory states that any sequence of Ricci flows that is pointed in an appropriate sense, 

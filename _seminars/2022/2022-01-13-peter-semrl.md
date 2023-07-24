@@ -5,7 +5,7 @@ date: 13 January, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 Some recent improvements of [Wigner's unitary-antiunitary theorem](https://en.wikipedia.org/wiki/Wigner%27s_theorem)

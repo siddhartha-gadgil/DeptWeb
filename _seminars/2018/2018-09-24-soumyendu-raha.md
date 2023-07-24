@@ -5,7 +5,7 @@ time: 3:30 pm
 venue: LH-1, Mathematics Department
 title: "Differential-Algebraic Equations: Rough Paths and Simulation"
 series: "Bangalore Probability Seminar"
-website: http://math.iisc.ac.in/~manju/Seminar/seminar.html
+website: https://math.iisc.ac.in/~manju/Seminar/seminar.html
 ---
 
 We shall discuss the difficulty in solving and numerically integrating

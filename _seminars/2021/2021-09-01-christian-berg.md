@@ -5,7 +5,7 @@ date: 1 Sep, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 In Geostatistics one examines measurements depending on the location on the earth and on time.

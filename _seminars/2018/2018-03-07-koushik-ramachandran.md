@@ -5,7 +5,7 @@ date: 7th March, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 ---
 
 Let $\\Omega\\subset\\mathbb{R}^d$

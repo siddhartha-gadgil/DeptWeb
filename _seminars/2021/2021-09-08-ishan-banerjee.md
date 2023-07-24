@@ -5,7 +5,7 @@ date: 08 Sept, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 Homological stability is an interesting phenomenon exhibited by many natural sequences of classifying spaces and moduli spaces like the moduli spaces of 

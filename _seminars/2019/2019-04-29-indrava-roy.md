@@ -5,7 +5,7 @@ date: 29 April, 2019
 time: 4 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2019_Spring.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2019_Spring.html
 ---
 
 We shall present the circle of ideas concerning the coarse geometric approach to the Baum-Connes conjecture, 

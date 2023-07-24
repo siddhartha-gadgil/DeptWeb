@@ -5,7 +5,7 @@ date: 19 October, 2022
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: Microsoft Teams (online)
-website: http://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2022_Aug.html
 ---
 
 In general, the equivalence of the stability and the solvability of an equation is an important problem in geometry. 

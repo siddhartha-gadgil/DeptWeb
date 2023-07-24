@@ -5,7 +5,7 @@ date: 29 Sept, 2021
 time: 9:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 Triangulated surfaces are compact hyperbolic Riemann surfaces that admit a conformal triangulation by equilateral triangles. Brooks and Makover started the 

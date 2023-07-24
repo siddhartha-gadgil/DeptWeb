@@ -82,7 +82,7 @@ colon, enclose it in quotation marks.
 
 Note that if a **website** is not specified for a faculty member, then
 it is assumed to be the standard website with url
-`http://math.iisc.ac.in/~"user-id"`.
+`https://math.iisc.ac.in/~"user-id"`.
 
 The other groups of people have similar pages, with the data in a *YAML*
 file in the [data

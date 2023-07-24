@@ -5,7 +5,7 @@ date: 16 Nov, 2022
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 Motifs (patterns of subgraphs), such as edges and triangles, encode important structural information

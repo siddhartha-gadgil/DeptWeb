@@ -5,7 +5,7 @@ date: 24 Aug, 2022
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
  In this talk, we discuss the problem of obtaining sharp $L^p\to L^q$ estimates for the local

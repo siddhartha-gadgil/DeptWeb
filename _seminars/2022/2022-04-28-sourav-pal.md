@@ -5,7 +5,7 @@ date: 28 April, 2022
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 For commuting contractions $T_1,\ldots ,T_n$ acting on a Hilbert space $\mathcal{H}$ with

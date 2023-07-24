@@ -5,7 +5,7 @@ date: 19 January, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 There many operators in Harmonic Analysis which can be described as an average

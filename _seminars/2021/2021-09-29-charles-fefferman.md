@@ -5,7 +5,7 @@ date: 29 Sep, 2021
 time: 6:30 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 Let $X$ be your favorite Banach space of continuous functions on $\mathbb{R}^n$.

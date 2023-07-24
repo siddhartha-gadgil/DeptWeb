@@ -5,7 +5,7 @@ date: 6 January, 2021
 time: 4 pm
 venue: Zoom (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 The key-point of this talk will be some exploration of

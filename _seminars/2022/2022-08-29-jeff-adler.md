@@ -5,7 +5,7 @@ date: 29 August, 2022
 time: 12 PM
 series: "Number Theory Seminar"
 venue: LH-1
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 Let `$k$` be a nonarchimedian local field, `$\widetilde{G}$` a connected reductive `$k$`-group, `$\Gamma$` a finite group of automorphisms of `$\widetilde{G}$,` and `$G:= (\widetilde{G}^\Gamma)^\circ$` the connected part

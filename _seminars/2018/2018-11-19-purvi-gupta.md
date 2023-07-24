@@ -5,7 +5,7 @@ date: 19 November, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar18-19
 ---
 
 A compact subset of $\mathbb{C}^n$ is polynomially convex if it is

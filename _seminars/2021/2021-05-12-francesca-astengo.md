@@ -5,7 +5,7 @@ date: 12 May, 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 A result due to Hulanicki (and refined by Veneruso) states that if $m$ is a

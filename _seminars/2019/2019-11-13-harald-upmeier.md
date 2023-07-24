@@ -5,7 +5,7 @@ date: 13 November 2019
 time: 2:30-3:30 pm and 4-5 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 Automorphic and modular forms in one complex variable (on the upper half-plane)

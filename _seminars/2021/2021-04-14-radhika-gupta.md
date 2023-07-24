@@ -5,7 +5,7 @@ date: 14 April, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 'Growth' is a geometrically defined property of a group that can reveal algebraic aspects of the group. For instance, Gromov showed that a group has polynomial 

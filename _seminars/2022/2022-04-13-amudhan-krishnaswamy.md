@@ -5,7 +5,7 @@ date: 13 April, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 If $m$ is a function on a commutative group $G$, one may define an associated Fourier

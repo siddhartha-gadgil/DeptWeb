@@ -5,7 +5,7 @@ date: 05 November, 2021
 time: 8.30 pm
 series: "Number Theory Seminar"
 venue: Microsoft Teams (Online)
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 In the 1980’s, Greene defined hypergeometric functions over finite fields using

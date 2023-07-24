@@ -5,7 +5,7 @@ date: 26 November, 2021
 time: 2 pm
 series: "Number Theory Seminar"
 venue: Microsoft Teams (Online)
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 
 ---
 

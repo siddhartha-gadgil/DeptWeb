@@ -5,7 +5,7 @@ date: 26 May, 2021
 time: 5 pm
 venue: Zoom (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 Let $W$ be a finite reflection group associated with a root system $R$

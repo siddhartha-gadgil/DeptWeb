@@ -5,7 +5,7 @@ date: 09 March, 2020
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Spring.html
 ---
 
 The analysis for Yang-Mills functional and in general, problems related to higher dimensional gauge theory, 

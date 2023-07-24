@@ -5,7 +5,7 @@ time: 2:15 pm
 venue: LH-1, Mathematics Department
 title: "A probabilistic approach to the leader problem in random graphs"
 series: "Bangalore Probability Seminar"
-website: http://math.iisc.ac.in/~manju/Seminar/seminar.html
+website: https://math.iisc.ac.in/~manju/Seminar/seminar.html
 ---
 
 Start with a system of particles with possibly different masses, and

@@ -5,7 +5,7 @@ date: 21 August, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 This talk will be a continuation of my presentation on 'Factorization

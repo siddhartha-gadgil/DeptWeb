@@ -5,7 +5,7 @@ date: 13 August, 2019
 time: 10 am
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
 ---
 
 Let $\\{ M_k \\}\_{k=1}^{\infty}$ be a sequence of closed, singular, minimal hypersurfaces in a closed Riemannian manifold 

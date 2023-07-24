@@ -5,7 +5,7 @@ date: 30 October, 2019
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 In this talk, we discuss the "local smoothing" phenomenon for Fourier integral

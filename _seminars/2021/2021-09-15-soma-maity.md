@@ -5,7 +5,7 @@ date: 15 Sept, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 Consider a proper geodesic metric space $(X,d)$ equipped with a Borel measure $\mu.$ We establish a family of uniform Poincare inequalities on $(X,d,\mu)$ 

@@ -5,7 +5,7 @@ date: 04 December, 2019
 time: 10 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar19-20
 ---
 
 We will show both original and known results on Harmonic Analysis for

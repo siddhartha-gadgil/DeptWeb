@@ -5,7 +5,7 @@ date: 10 November, 2021
 time: 5 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 Machine Learning, particularly Deep Learning, algorithms are being

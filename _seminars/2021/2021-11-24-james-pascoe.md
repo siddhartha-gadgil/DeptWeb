@@ -5,7 +5,7 @@ date: 24 November, 2021
 time: 5:30 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 The von Neumann inequality says the value of a polynomial at a contractive

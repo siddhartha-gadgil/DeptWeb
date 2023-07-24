@@ -5,7 +5,7 @@ date: 8 Aug, 2022
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 For a natural number $n$ and $1 \leq p < \infty$, consider the Hardy space $H^p(D^n)$ on the unit polydisk. Beurling's theorem

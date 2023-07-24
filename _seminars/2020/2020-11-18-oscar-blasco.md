@@ -5,7 +5,7 @@ date: 18 November 2020
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 Let $X_1,X_2, X_3$ be Banach  spaces of measurable functions in

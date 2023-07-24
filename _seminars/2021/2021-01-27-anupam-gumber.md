@@ -5,7 +5,7 @@ date: 27 January 2021
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 A countable family $\\{\psi_n: n \in \mathbb{N}\\}$ of elements in a

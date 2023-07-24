@@ -5,7 +5,7 @@ title: Chair and Committees
 {% for fac in site.data.faculty %}
 {% if fac.chair %}
 
-### Department Chair : [{{ fac.name }}]({% if fac.website %}{{ fac.website }}{% else %}http://math.iisc.ac.in/~{{fac.user-id}}/{% endif %})
+### Department Chair : [{{ fac.name }}]({% if fac.website %}{{ fac.website }}{% else %}https://math.iisc.ac.in/~{{fac.user-id}}/{% endif %})
 
 * __Phone :__ +91-80 2293 {{ fac.phone-ext}}, +91-80 2293 2265
 * __Office :__ Room {{ fac.office}}

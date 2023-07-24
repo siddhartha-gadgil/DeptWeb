@@ -5,7 +5,7 @@ date: 17 March, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 In this talk I will present a quantization approach which directly relates Fujita-Odaka's delta-invariant to the optimal exponent of certain Moser-Trudinger 

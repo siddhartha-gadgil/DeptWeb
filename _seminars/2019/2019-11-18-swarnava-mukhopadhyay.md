@@ -5,7 +5,7 @@ date: 18 November, 2019
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
 ---
 
 We consider the natural embedding for SO(r) into SL(r) and study the corresponding map between the moduli spaces of 

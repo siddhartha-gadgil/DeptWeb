@@ -5,7 +5,7 @@ date: 2 September 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 We prove well-posedness of McKean–Vlasov stochastic differential equations (McKean–Vlasov SDEs) with common noise,

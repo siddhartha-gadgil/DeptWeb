@@ -5,7 +5,7 @@ date: 16 December, 2020
 time: 4 pm
 venue: Microoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar20-21
 ---
 
 We show $L^p\to L^q$ estimates for local and global $r$-variation operators

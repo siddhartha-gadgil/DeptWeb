@@ -5,7 +5,7 @@ date: 9 June, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 In this talk, we first introduce the basic structure of tumors and consequently

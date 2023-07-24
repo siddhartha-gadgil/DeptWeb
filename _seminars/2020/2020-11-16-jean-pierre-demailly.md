@@ -6,7 +6,7 @@ date: 16 November, 2020
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2020_Autumn.html
 ---
 
 Given a vector bundle of arbitrary rank with ample determinant line

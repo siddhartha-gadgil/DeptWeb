@@ -5,7 +5,7 @@ date: 12 November, 2021
 time: 2 pm
 series: "Number Theory Seminar"
 venue: Microsoft Teams (Online)
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 The theory of `$\delta$`-geometry was developed by A. Buium based on the analogy with differential algebra where the analogue of a differential operator is played by a `$\pi$`-derivation `$\delta$`. A `$\pi$`-derivation `$\delta$` arises from the `$\pi$`-typical Witt vectors and naturally associates with a lift of Frobenius `$\phi$`. In this talk, we will discuss the theory of `$\delta$`-geometry for Anderson modules. Anderson modules are higher dimensional generalizations of Drinfeld modules.

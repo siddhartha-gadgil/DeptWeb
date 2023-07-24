@@ -5,7 +5,7 @@ date: 2 Nov, 2022
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 In this talk, we will consider the issues of non-existence of solutions to a Yamabe

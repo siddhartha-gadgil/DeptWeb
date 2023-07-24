@@ -5,7 +5,7 @@ date: 12 October, 2022
 time: 2 pm
 series: "Number Theory Seminar"
 venue: LH 1
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 If `$\theta$` is an involution on a group `$G$` with fixed points `$H$`, 

@@ -5,7 +5,7 @@ date: 2 February, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 In this talk, I shall talk about analogues of pseudo-differential

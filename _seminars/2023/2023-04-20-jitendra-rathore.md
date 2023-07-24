@@ -5,7 +5,7 @@ date: 20 April, 2023
 time: 11 AM
 series: "Number Theory Seminar"
 venue: LH-1
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 The  (tame) class field theory for a smooth variety `$X$` is the

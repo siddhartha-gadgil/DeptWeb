@@ -5,7 +5,7 @@ date: 11 Nov, 2022
 time: 4 pm
 venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 ---
 
 Marc Rieffel had introduced the notion of quantum Gromov-Hausdorff distance on compact quantum metric spaces

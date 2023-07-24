@@ -5,7 +5,7 @@ date: 11 February, 2022
 time: 3 pm
 series: "Number Theory Seminar"
 venue: Microsoft Teams (Online)
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 
 ---
 

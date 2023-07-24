@@ -5,7 +5,7 @@ date: 24 Sept, 2021
 time: 4:00 pm
 series: "Geometry & Topology Seminar"
 venue: MS teams (team code hiq1jfr)
-website: http://math.iisc.ac.in/~vvdatar/gt_Current.html
+website: https://math.iisc.ac.in/~vvdatar/gt_Current.html
 ---
 
 In this talk we will discuss the geometry of Strominger connection of Hermitian manifolds, based

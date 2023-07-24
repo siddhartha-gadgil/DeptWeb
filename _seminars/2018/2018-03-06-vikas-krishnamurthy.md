@@ -5,7 +5,7 @@ date: 06 March, 2018
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 ---
 
 In recent years, the theory of complex valued analytic functions defined on multiply connected domains has been recognized to have several applications in applied mathematics. In this talk, we will review the theory of Schottky-Klein prime functions and other allied special functions defined on multiply connected circular domains, and discuss the numerical computation of these special functions. We will also briefly present applications to selected problems in fluid dynamics through conformal mapping methods.

@@ -5,7 +5,7 @@ date: 30 March, 2022
 time: 7 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 A fundamental and widely used mathematical fact states that the arithmetic mean

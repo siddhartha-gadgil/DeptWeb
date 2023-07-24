@@ -5,7 +5,7 @@ date: 21 September, 2022
 time: 11.30 AM
 series: "Number Theory Seminar"
 venue: LH-1
-website: http://math.iisc.ac.in/~maheshkakde/currentseminar.html
+website: https://math.iisc.ac.in/~maheshkakde/currentseminar.html
 ---
 
 Hilbert modular forms are generalization of classical modular forms over totally real number fields. The Fourier coefficients of a modular form are of great importance owing to

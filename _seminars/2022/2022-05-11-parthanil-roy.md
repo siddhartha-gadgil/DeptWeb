@@ -3,9 +3,9 @@ speaker: Parthanil Roy (ISI, Bangalore)
 title: "Amenable and hyperbolic groups, stable random fields, and von Neumann algebras"
 date: 11 May, 2022
 time: 4 pm
-venue: Microsoft Teams (online) (Joint with the <a target="_blank" href="http://math.iisc.ac.in/geometry-topology-seminar.html">Geometry & Topology Seminar</a>)
+venue: Microsoft Teams (online) (Joint with the <a target="_blank" href="https://math.iisc.ac.in/geometry-topology-seminar.html">Geometry & Topology Seminar</a>)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 Random fields indexed by amenable groups arise naturally in machine learning algorithms for structured and dependent data.

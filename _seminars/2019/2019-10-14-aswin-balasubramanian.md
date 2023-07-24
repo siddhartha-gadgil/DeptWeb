@@ -5,7 +5,7 @@ date: 14 October, 2019
 time: 4 pm
 series: "Geometry & Topology Seminar"
 venue: LH-1, Mathematics Department
-website: http://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
+website: https://math.iisc.ac.in/~vvdatar/gt_2019_Fall.html
 ---
 
  I will begin by reviewing the relationship between Hitchin's Integrable System and 4d N=2 Supersymmetric 

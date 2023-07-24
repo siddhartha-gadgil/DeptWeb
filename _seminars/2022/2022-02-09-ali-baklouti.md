@@ -5,7 +5,7 @@ date: 9 February, 2022
 time: 4 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
-website: http://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar21-22
 ---
 
 This is a continuation of a talk I gave at the University of Delhi in
