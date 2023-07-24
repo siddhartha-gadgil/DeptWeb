@@ -130,81 +130,117 @@ aug2023:
     code: MA 200
     prereq-courses: ''
     ug-prereq-courses: UM 204
+    timing: 'Tue, Thu: 3:30 - 5:00'
+    venue: LH-4
   - name: Algebra I
     instructor: Bharathwaj Palvannan
     code: MA 212
     prereq-courses: ''
     ug-prereq-courses: UM 203
     webpage: 
+    timing: 'Mon, Wed, Fri: 10:00 - 11:00'
+    venue: LH-4
   - name: Linear Algebra
     credits: '3:1'
     instructor: Apoorva Khare
     code: MA 219
     prereq-courses: ''
     ug-prereq-courses: UM 102
+    timing: 'Tue, Thu: 10:00 - 11:30'
+    venue: LH-4
   - name: 'Analysis I: Real Anaysis'
     instructor: Tirthankar Bhattacharyya
     code: MA 221
     prereq-courses: ''
     ug-prereq-courses:
     webpage: 
+    timing: 'Mon, Wed, Fri: 11:00 - 12:00'
+    venue: LH-4
   - name: Topology
     credits: '3:1'
     instructor: Harish Seshadri
     code: MA 231
     prereq-courses: ''
     ug-prereq-courses:
+    timing: 'Mon, Wed, Fri: 2:00 - 3:00'
+    venue: LH-4
   - name: Probability Models
     instructor: Sanchayan Sen
     code: MA 261
     webpage: 
     prereq-courses: ''
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 2:00 - 3:30'
+    venue: LH-4
   core2:
   - name: Functional Analysis
     instructor: Swarnendu Sil
     code: MA 223
     prereq-courses: MA 222, MA 224 & MA 219
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 2:00 - 3:00'
+    venue: LH-5
   - name: Introduction to Algebraic Topology
     instructor: Siddhartha Gadgil
     webpage:
     code: MA 232
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 10:00 - 11:00'
+    venue: LH-5
   - name: Partial Differential Equations
     instructor: A. K. Nandakumaran
     code: MA 242
     prereq-courses: MA 241
     ug-prereq-courses: ''
+    timing: 'Tue, Thu: 11:30 - 1:00'
+    venue: LH-1/LH-5
   electives:
   - name: Commutative Algebra	
     code: MA 312	
     instructor: Radhika Ganapathy
+    timing: 'Mon, Wed, Fri: 8:30 - 10:00'
+    venue: LH-4
   - code: MA 313
     instructor: Mahesh Kakde
     name: Algebraic Number Theory
+    timing: 'Mon, Wed, Fri: 9:00 - 10:00'
+    venue: LH-5
   - name: Introduction to Analytic Number Theory
     code: MA 317
     instructor: Soumya Das
+    timing: 'Tue, Thu: 11:30 - 1:00'
+    venue: LH-4
   - name: Riemannian Geometry
     code: MA 333
     instructor: Ved Datar
+    timing: 'Tue, Thu: 10:00 - 11:30'
+    venue: LH-5
   - name: Matrix Analysis and Positivity
     code: MA 341
     instructor: Apoorva Khare
+    timing: 'Tue, Thu: 2:00 - 3:30'
+    venue: LH-3
   - name: Topics in Number Theory 1 (Galois representations)
     code: MA 354
     instructor: Shaunak Deo
+    timing: 'Tue, Thu: 2:00 - 3:30'
+    venue: LH-2
   - name: Probability Theory
     code: MA 361
     instructor: Srikanth Iyer
+    timing: 'Tue, Thu: 11:30 - 1:00'
+    venue: LH-2/LH-3
   - name: Linear Algebraic Groups
     code: MA 379
     instructor: Mihir Sheth
+    timing: 'Mon, Wed, Fri: 8:00 - 9:00'
+    venue: LH-4
   - name : Topics in Non-linear functional analysis
     code: MA 388
     instructor: Arka Mallick
+    timing: 'Tue, Thu: 2:00 - 3:30'
+    venue: LH-5
 
 
 jan2023:
