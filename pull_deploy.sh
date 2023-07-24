@@ -5,6 +5,6 @@ if [[ $(git pull) == "Already up to date." ]]; then
   echo "No update to repository, exiting"
 else
   echo "Update to repository, running deploy script"
-  local_deploy.sh
+  ./local_deploy.sh
 fi
 
