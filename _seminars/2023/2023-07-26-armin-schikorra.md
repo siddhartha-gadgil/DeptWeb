@@ -1,7 +1,7 @@
 ---
 speaker: Armin Schikorra (University of Pittsburgh, USA)
 title: "Regularity results for n-Laplace systems with antisymmetric potential"
-date: 25 July, 2023
+date: 26 July, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
