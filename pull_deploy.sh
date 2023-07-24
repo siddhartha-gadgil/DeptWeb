@@ -2,9 +2,9 @@
 
 # Check if git pull returns "Already up to date"
 if [[ $(git pull) == "Already up to date." ]]; then
-  echo "Repo is up to date, skipping script"
+  echo "No update to repository, exiting"
 else
-  echo "Repo is not up to date, running script"
-  # Run your script here
+  echo "Update to repository, running deploy script"
+  local_deploy.sh
 fi
 
