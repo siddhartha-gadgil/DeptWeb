@@ -147,7 +147,7 @@ aug2023:
     prereq-courses: ''
     ug-prereq-courses: UM 102
     timing: 'Tue, Thu: 10:00 - 11:30'
-    venue: LH-4
+    venue: LH-5
   - name: 'Analysis I: Real Anaysis'
     instructor: Tirthankar Bhattacharyya
     code: MA 221
@@ -215,7 +215,7 @@ aug2023:
     code: MA 333
     instructor: Ved Datar
     timing: 'Tue, Thu: 10:00 - 11:30'
-    venue: LH-5
+    venue: LH-4
   - name: Matrix Analysis and Positivity
     code: MA 341
     instructor: Apoorva Khare
