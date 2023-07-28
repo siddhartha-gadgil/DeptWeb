@@ -126,7 +126,7 @@ aug2023:
   core1:
   - name: Multivariable Calculus
     credits: '3:1'
-    instructor: ''
+    instructor: 'Vamsi Pingali'
     code: MA 200
     prereq-courses: ''
     ug-prereq-courses: UM 204
