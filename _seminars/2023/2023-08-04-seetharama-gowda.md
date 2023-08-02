@@ -11,7 +11,7 @@ Motivated by optimization considerations and the (matrix theory) inequalities of
 we introduce a Fan-Theobald-von Neumann system as a triple $(V,W,\lambda)$, where  $V$ and $W$ are real
 inner product spaces and $\lambda:V\rightarrow W$ is a (nonlinear) map satisfying the following condition:
 For all $c,u\in V$,  
-$$\max \{\langle c,x\rangle: x\in [u]\big \}=\langle \lambda(c),\lambda(u)\rangle,$$
+$$\max \{\langle c,x\rangle: x\in [u] \}=\langle \lambda(c),\lambda(u)\rangle,$$
 where $[u]:= \{x:\lambda(x)=\lambda(u)\}$.
 
 This simple formulation happens to be equivalent to the Fenchel conjugate formula of the form
