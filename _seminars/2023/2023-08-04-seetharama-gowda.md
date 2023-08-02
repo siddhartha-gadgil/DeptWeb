@@ -10,12 +10,12 @@ website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
 Motivated by optimization considerations and the (matrix theory) inequalities of Ky Fan and von Neumann,
 we introduce a Fan-Theobald-von Neumann system as a triple $(V,W,\lambda)$, where  $V$ and $W$ are real
 inner product spaces and $\lambda:V\rightarrow W$ is a (nonlinear) map satisfying the following condition:
-For all  $c,u\in V$,  
-$$\max \big \{\langle c,x\rangle: x\in [u]\big \}=\langle \lambda(c),\lambda(u)\rangle,$$
+For all $c,u\in V$,  
+$$\max \{\langle c,x\rangle: x\in [u]\big \}=\langle \lambda(c),\lambda(u)\rangle,$$
 where $[u]:= \{x:\lambda(x)=\lambda(u)\}$.
 
 This simple formulation happens to be equivalent to the Fenchel conjugate formula of the form
-$(\phi\circ \lambda)^*=\phi^*\circ \lambda$ and a subdifferential formula in some settings and becomes useful
+$(\phi\circ \lambda)^\*=\phi^\*\circ \lambda$ and a subdifferential formula in some settings and becomes useful
 in addressing linear/distance  optimization problems over "spectral sets" which are of the form
 $\lambda^{-1}(Q)$, where $Q$ is a subset of $W$.
 Three standard examples of FTvN systems are:  $(R^n,R^n,\lambda)$ with 
