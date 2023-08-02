@@ -21,7 +21,7 @@ $\lambda^{-1}(Q)$, where $Q$ is a subset of $W$.
 Three standard examples of FTvN systems are:  $(\mathbb{R}^n,\mathbb{R}^n,\lambda)$ with 
 $\lambda(x):=x^\downarrow$ (the decreasing rearrangement of the vector $x\in \mathbb{R}^n$);
 $({\cal H}^n,\mathbb{R}^n,\lambda)$, where ${\cal H}^n$ is the space of $n$ by $n$ complex Hermitian matrices with $\lambda$ denoting the eigenvalue map;
-and $(M_n,R^n, \lambda)$, where $M_n$ is the space of $n$ by $n$ complex matrices with $\lambda$ denoting the singular value map.
+and $(M_n,\mathbb{R}^n, \lambda)$, where $M_n$ is the space of $n$ by $n$ complex matrices with $\lambda$ denoting the singular value map.
 Other examples come from Euclidean Jordan algebras, systems induced by certain hyperbolic polynomials, and normal decomposition systems
 (Eaton triples). In the general framework of Fan-Theobald-von Neumann systems, we introduce and elaborate on the concepts of
 commutativity, automorphisms, majorization, etc. We will also  talk about "transfer principles" where properties (such as convexity)
