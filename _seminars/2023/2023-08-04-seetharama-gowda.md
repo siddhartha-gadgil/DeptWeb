@@ -5,7 +5,7 @@ date: 4 August, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
-website: https://math.iisc.ac.in/~aprg/index.php?id=seminar22-23
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
 ---
 Motivated by optimization considerations and the (matrix theory) inequalities of Ky Fan and von Neumann,
 we introduce a Fan-Theobald-von Neumann system as a triple $(V,W,\lambda)$, where  $V$ and $W$ are real
