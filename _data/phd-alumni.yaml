@@ -705,7 +705,6 @@
   year: 2005
   title: Optimal control, differential games and quasivariational inequalities
   advisor: M. K. Ghosh, Mythily Ramaswamy
-  present: IISER Thiruvananthapuram
   present: Assistant Professor, IISER, Thiruvananthapuram
 
 - name: Ashish Kumar Upadhyay
@@ -1110,4 +1109,113 @@
   title: Sparse bounds for various maximal functions
   advisor: S. Thangavelu
   
+- name : Subhajit Ghosh (IISc Mathematics)
+  year: 2020
+  title: Total variation cutoff for random walks on some finite groups
+  advisor: Arvind Ayyer
+  
+- name : Paramita Pramanick (IISc Mathematics)
+  year: 2021
+  title: Trace Estimate For The Determinant Operator and K-Homogeneous Operators
+  advisor: Tirthankar Bhattacharyya
+  
+- name : Neeladri Maitra (IISc Mathematics)
+  year: 2021
+  title: Random graphs with given degree sequence
+  advisor:
+  
+- name : Nidhi Rathi (IISc Mathematics)
+  year: 2021
+  title: Algorithmic and Hardness Results for Fundamental Fair-Division Problems
+  advisor: 
+  
+- name : Lakshmi Priya M. E. (IISc Mathematics)
+  year: 2021
+  title: Nodal sets of random functions
+  advisor: Manjunath Krishnapur
+  
+- name : Anindya Biswas (IISc Mathematics)
+  year: 2021
+  title: On the geometry and operator theory of the bidisc and the symmetrized bidisc
+  advisor: Tirthankar Bhattacharyya
+  
+- name : Rakesh Kumar (IISc Mathematics)
+  year: 2021
+  title: Hardy's inequalities for Grushin operator and Hermite multipliers on modulation spaces
+  advisor: S. Thangavelu
+  
+- name : Mayuresh Londhe (IISc Mathematics)
+  year: 2021
+  title: On certain invariant measures for correspondences, their analysis, and an application to recurrence
+  advisor: Gautam Bharali
+  
+- name : Sahil Gehlawat (IISc Mathematics)
+  year: 2021
+  title: Hermitian metrics and singular Riemann surface foliations
+  advisor: Kaushal Verma
+  
+- name : Prateek Kumar Vishwakarma (IISc Mathematics)
+  year: 2021
+  title: Positivity preservers forbidden to operate on diagonal blocks
+  advisor: Apoorva Khare
+  
+- name : Ramesh Chandra Sau (IISc Mathematics)
+  year: 2021
+  title: Finite Element Analysis of Dirichlet Boundary Control Problems Governed by Certain PDEs
+  advisor: 
+  
+- name : Abu Sufian (IISc Mathematics)
+  year: 2022
+  title: Homogenization of certain PDEs and associated optimal control problems on various rough domains
+  advisor: E. K. Nandakumaran
+  
+- name : Sruthi Sekar (IISc Mathematics)
+  year: 2022
+  title: Near-optimal Non-malleable Codes and Leakage Resilient Secret Sharing Schemes
+  advisor: 
+  
+- name : Pritam Ganguly (IISc Mathematics)
+  year: 2022
+  title: Quasi-analytic functions, spherical means, and uncertainty principles on Heisenberg groups and symmetric spaces
+  advisor: 
+  
+- name : G V Krishna Teja (IISc Mathematics)
+  year: 2022
+  title: Weights of highest weight modules over Kac–Moody algebras
+  advisor: 
+  
+- name : Thummala Vamsi Krishna (IISc Mathematics)
+  year: 2022
+  title: Local Langlands correspondence for GL(1) and GL(2)
+  advisor: 
+  
+- name : Mansimar Singh (IISc Mathematics)
+  year: 2022
+  title: Attaching Galois Representations to Modular Forms of weight 2
+  advisor: 
+  
+- name : Rahul Biswas (IISc Mathematics)
+  year: 2023
+  title: Local Projection Stabilization Methods for the Oseen Problem
+  advisor: 
+  
+- name : Renjith T. (IISc Mathematics)
+  year: 2023
+  title: Homogenization of PDEs on oscillating boundary domains with L1 data and Optimal control problems
+  advisor: 
+  
+- name : Nimisha Pahuja (IISc Mathematics)
+  year: 2023
+  title: Correlations in multispecies asymmetric exclusion process
+  advisor: 
+  
+- name : Poornendu Kumar (IISc Mathematics)
+  year: 2023
+  title: Interaction of distinguished varieties and the Nevanlinna-Pick interpolation problem in some domains
+  advisor: 
+  
+- name : Kartick Ghosh (IISc Mathematics)
+  year: 2023
+  title: On some canonical metrics on holomorphic vector bundles over Kähler manifolds
+  advisor: 
   

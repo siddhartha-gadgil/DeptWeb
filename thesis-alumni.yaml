@@ -1,0 +1,11 @@
+---
+title: defences
+layout: blank
+---
+{% assign sorted = site.seminars | sort: 'date' %}{% for sem in sorted  %}{% if sem.series-suffix == "defence" %}
+- name : {{ sem.speaker }}
+  year: {{ sem.date | date: "%Y" }}
+  title: {{ sem.title }}
+  advisor: 
+  {% endif %}
+{% endfor %}
