@@ -15,7 +15,7 @@ $\mathbb{H}^3$  with prescribed asymptotic behavior and has two parts.
 The focus of the first part is when the domain is the complex plane. In this case, given a finite cyclic configuration
 of points  $P \subset \partial\mathbb{H}^3=\mathbb{CP}^1$, we construct a harmonic map from $\mathbb{C}$ to
 $\mathbb{H}^3$ that is asymptotic to a twisted ideal polygon with ideal vertices contained in $P$. Moreover, we prove
-that given any ideal twisted polygon in $\mathbb{H}^3$ with \textit{rotational symmetry}, there exists a harmonic map
+that given any ideal twisted polygon in $\mathbb{H}^3$ with _rotational symmetry_, there exists a harmonic map
 from $\mathbb{C}$ to $\mathbb{H}^3$ asymptotic to that polygon. This generalizes the work of Han, Tam, Treibergs, and
 Wan which concerned harmonic maps from $\mathbb{C}$ to the hyperbolic plane $\mathbb{H}^2$.
 
