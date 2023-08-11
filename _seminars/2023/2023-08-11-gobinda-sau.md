@@ -22,7 +22,7 @@ Wan which concerned harmonic maps from $\mathbb{C}$ to the hyperbolic plane $\ma
 In the second part, we consider the case of equivariant harmonic maps. For a closed Riemann surface $X$, and an
 irreducible representation $\rho$ of its fundamental group into $PSL_2(\mathbb{C})$, a seminal theorem of Donaldson
 asserts the existence of a $\rho$-equivariant harmonic map from the universal cover $\tilde{X}$ into $\mathbb{H}^3$.
-In this thesis, we consider domain surfaces that are non-compact, namely \textit{marked and bordered surfaces} (introduced
+In this thesis, we consider domain surfaces that are non-compact, namely _marked and bordered surfaces_ (introduced
 in the work of Fock-Goncharov). Such a marked and bordered surface is denoted by a pair $(S, M)$ where $M$ is a set of
 marked points that are either punctures or marked points on boundary components. Our main result in this part is: given
 an element $X$ in the enhanced Teichmuller space $\mathcal{T}^{\pm}(S, M)$, and a non-degenerate type-preserving framed
