@@ -21,9 +21,9 @@ By tradition, these committees have the same members but different members are c
 
 The present members and chairs are as follows:
 
-* Mahesh Kakde (Chair, DCC)
-* Harish Seshadri (Chair, DC)
-* Vamsi Pritham Pingali (Chair, UG-DCC)
+* [Mahesh Kakde](https://math.iisc.ac.in/~maheshkakde/)(Chair, DCC)
+* [Harish Seshadri](http://math.iisc.ernet.in/~harish/)(Chair, DC)
+* [Vamsi Pritham Pingali](https://math.iisc.ac.in/~vamsipingali/)(Chair, UG-DCC)
 * R. Venkatesh
 * Subhojoy Gupta
 * Purvi Gupta
@@ -33,46 +33,62 @@ The present members and chairs are as follows:
 
 ### Wellness committee
 
-* Radhika Ganapathy
-* R. Venkatesh
-* Aakanksha Jain
-* Renjith T.
+* [Radhika Ganapathy](https://iisc.ac.in/women-scientists-in-iisc-dr-radhika-ganapathy/)
+* Bharathwaj Palvannan
+* Agniva Chatterjee
+* Rumpa Masanta
 
 ---
 
 ### Postdoctoral fellows committee
 
-* Mahesh Kakde
-* Purvi Gupta
+* [Abhishek Banerjee](https://sites.google.com/site/abhishekb1313/)(Convener)
+* Soumya Das
 * Swarnendu Sil
-* R. Venkatesh
+* Ved Datar
 
 ---
 
 ### Computer committee
 
-* Shaunak Deo (Convener)
+* [Shaunak Deo](https://sites.google.com/view/shaunakdeo/)(Convener)
 * Arka Mallick
 
 ---
 
 ### Maintenance committee
 
-* Tirthankar Bhattacharyya (Convener)
+* [Tirthankar Bhattacharyya](https://math.iisc.ac.in/~tirtha/)(Convener)
+* G.Bharali
 * Harish Seshadri
 * Abhishek Banerjee
 * A. K. Nandakumaran (ex-officio)
 
 ---
 
-### Library committee
+### Library and Seminar committee
 
-* Apoorva Khare (Convenor)
+* [Apoorva Khare](https://math.iisc.ac.in/~khare/) (Convenor)
 * Tirthankar Bhattacharyya
-* S. Thangavelu
+* A. K. Nandakumaran (ex-officio)
+
+---
+
+### Webpage Committee
+* [S. Gadgil](https://math.iisc.ac.in/~gadgil/)
+* Apoorva Khare
+
+---
+
+### Endowment Committee
+* [G.Bharali](https://math.iisc.ac.in/~bharali/) (Convener)
+* Subhojoy Gupta
+* Swarnendu Sil
+* Apoorva Khare
+* A.K Nandakumaran (ex-officio)
 
 ---
 
 ### Safety Champion
 
-* Amalendu Krishna
+* [T. Gudi](http://math.iisc.ernet.in/~gudi/)
