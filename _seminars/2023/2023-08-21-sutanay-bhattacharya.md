@@ -18,4 +18,4 @@ work of Khare, we attempt to obtain a classification of the finite-dimensional n
 include the usual nil-Coxeter algebras for $W$ of finite type, their "fully commutative" analogues for $W$ of FC-finite type, three
 exceptional algebras (of types $F_4$,$H_3$,$H_4$), and three exceptional series (of types $B_n$ and $A_n$, two of them novel). We further
 uncover combinatorial bases of algebras, both known (fully commutative elements) and novel ($\overline{12}$-avoiding signed permutations),
-and classify the Frobenius nil-Hecke algebra in the aforementioned cases. (Joint with Apoorva Khare.)
+and classify the Frobenius nil-Hecke algebras in the aforementioned cases. (Joint with Apoorva Khare.)
