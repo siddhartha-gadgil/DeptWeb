@@ -3,7 +3,7 @@ speaker: Swaraj Pande (University of Michigan, Ann Arbor, USA)
 title: "A Frobenius version of Tian's Alpha invariant"
 date: 30 August, 2023
 time: 3:30 pm
-venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/geometry-topology-seminar.html">Geometry &amp; Topology Seminar</a>)
+venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/geometry-topology-seminar.html">Geometry & Topology Seminar</a>)
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
 ---
