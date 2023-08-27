@@ -23,3 +23,9 @@ The following are important dates for the current semester (August-December 2023
 | Course Grade Entry |&nbsp; &nbsp; &nbsp; &nbsp;| 30.11.2023 to 18.12.2023
 | Exams Results Publishing |&nbsp; &nbsp; &nbsp; &nbsp;| 29.12.2023
 | Course & Instructor Feedback View    |&nbsp; &nbsp; &nbsp; &nbsp;| From 30.12.2023
+
+---
+
+#### Midterm week
+ 
+The midterm week for the mathematics department will be from 25.09.2023 to 29.09.2023. There will be no regular classes during this week for `MA` courses.
