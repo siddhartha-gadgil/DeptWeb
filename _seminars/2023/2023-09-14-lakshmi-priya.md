@@ -2,7 +2,7 @@
 speaker: Lakshmi Priya M.E. (Tel Aviv University, Tel Aviv, Israel)
 title: "Almost sharp lower bound for the nodal volume of harmonic functions"
 date: 14 September, 2023
-time: 11:30 am
+time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
