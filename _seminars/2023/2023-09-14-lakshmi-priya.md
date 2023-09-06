@@ -10,7 +10,7 @@ website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
 
 In this talk, I will discuss the relation between the growth of harmonic functions and their nodal volume.
 Let $u:\mathbb{R}^n \rightarrow \mathbb{R}$ be a harmonic function, where $n\geq 2$. One way to quantify the
-growth of $u$ in the  ball $B(0,1) \subset \mathbb{R}^n$ is via the \textit{doubling index} $N$, defined by
+growth of $u$ in the  ball $B(0,1) \subset \mathbb{R}^n$ is via the _doubling index_ $N$, defined by
 \begin{equation}
 \sup_{B(0,1)}|u| = 2^N \sup_{B(0,\frac{1}{2})}|u|.
 \end{equation}
