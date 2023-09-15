@@ -17,7 +17,7 @@ In the present lecture we will discuss about the absolute analogue of almost con
 
 The two concepts of variational inequality and complementarily problems are essentially the same concepts which are
 studied by two different groups of mathematicians: applied mathematics on one hand and operations researchers on the
-other hand. The proof existence of variational inequality problem uses Hanh-Banach Theorem or Fixed Point Theorem.
+other hand. The proof existence of variational inequality problem uses Hahn-Banach Theorem or Fixed Point Theorem.
 
 In this lecture we will discuss about the existence of solutions of the complementarily problem, under the most general
 conditions on the operator and the cone.
