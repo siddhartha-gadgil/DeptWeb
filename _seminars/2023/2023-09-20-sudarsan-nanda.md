@@ -11,7 +11,7 @@ website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
 Application of the Hahn-Banach Theorem to the space of bounded sequences with a specific sub linear functional
 $p$ defined on it gives rise to linear functionals which are dominated by $p$ and are extensions of limits of
 convergent sequences. These are called Banach Limits and were studied by Banach (1932), and their uniqueness
-is called almost convergence and was characterised by Lonentz [1948].
+is called almost convergence and was characterised by Lonentz (1948).
 
 In the present lecture we will discuss about the absolute analogue of almost convergence which generalizes lp spaces.
 
