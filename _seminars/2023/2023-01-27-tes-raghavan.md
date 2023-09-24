@@ -2,7 +2,7 @@
 speaker: T.E.S. Raghavan (University of Illinois at Chicago, USA)
 title: "Cones, and spectral properties of positive operators in real Banach spaces via Game theory"
 date: 27 January, 2023
-time:  3 – 5 pm (with a 15 minute break)
+time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
