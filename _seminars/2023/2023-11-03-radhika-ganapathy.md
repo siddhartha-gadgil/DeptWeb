@@ -1,7 +1,7 @@
 ---
 speaker: Radhika Ganapathy (IISc Mathematics)
 title: "Representations of $p$-adic groups over close local fields"
-date: 20 October, 2023
+date: 3 November, 2023
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
