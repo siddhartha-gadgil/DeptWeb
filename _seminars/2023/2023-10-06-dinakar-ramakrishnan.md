@@ -2,7 +2,7 @@
 speaker: Dinakar Ramakrishnan (California Institute of Technology, Pasadena/LA, USA)
 title: "Relative Trace Formula, Periods and non-vanishing of L-values"
 date: 6 October, 2023
-time:  3 – 5 pm (with a 15 minute break at 4:00)
+time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
