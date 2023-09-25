@@ -1,7 +1,7 @@
 ---
-speaker: Loic Merel (Institut de Mathematiques de Jussieu, Paris, France)
+speaker: Loïc Merel (Institut de Mathematiques de Jussieu, Paris, France)
 title: "About the unit $1^1.2^2.3^3.4^4....((N-1)/2)^{(N-1)/2}$ modulo a prime number $N$ "
-date: 27 September, 2023
+date: 28 September, 2023
 time: 11.30 am
 series: "Number Theory Seminar"
 venue: LH-1
