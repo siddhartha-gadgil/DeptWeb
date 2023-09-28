@@ -1,5 +1,5 @@
 ---
-speaker: Indranil Biswas (Shiv Nader University)
+speaker: Indranil Biswas (Shiv Nadar University)
 title: "A Hodge theoretic projective structure on compact Riemann surfaces"
 date: 04 October, 2023
 time: 11:00 pm 
