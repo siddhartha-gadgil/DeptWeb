@@ -2,7 +2,7 @@
 speaker: Carsten Carstensen (Humboldt Universitat, Berlin, Germany)
 title: "Lower eigenvalue bounds of the Laplacian (and bi-Laplacian)"
 date: 3 October, 2023
-time: 11 am
+time: 10:30 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
