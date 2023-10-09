@@ -7,4 +7,16 @@
 - name: A. Roopa
   user-id: rooparoopa
   phone-ext: 2265
-  office: R16         
+  office: R16        
+
+- name: Nitish Kumar
+  user-id: nitishs
+  phone-ext: 2514
+  office: R14
+
+- name: Kiran R
+  user-id: rkiran
+  phone-ext: 2265
+  office: R16
+
+
