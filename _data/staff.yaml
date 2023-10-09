@@ -7,4 +7,16 @@
 - name: A. Roopa
   user-id: rooparoopa
   phone-ext: 2265
-  office: R16         
+  office: R16      
+
+- name: Kiran R
+  user-id: rkiran
+  phone: "+91-80 2293 2265"
+  office: Room R16
+
+- name: Sodagudi Nitish Kumar
+  user-id: sysadmin
+  phone: "+91-80 2293 2514"
+  office: Room R14
+
+
