@@ -11,12 +11,12 @@
 
 - name: Kiran R
   user-id: rkiran
-  phone: "+91-80 2293 2265"
+  phone-ext: 2265
   office: Room R16
 
 - name: Sodagudi Nitish Kumar
   user-id: sysadmin.math
-  phone: "+91-80 2293 2514"
+  phone-ext: 2514
   office: Room R14
 
 

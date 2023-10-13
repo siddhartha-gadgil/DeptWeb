@@ -129,6 +129,7 @@
   user-id: gobindasau
   year-of-joining: 2017
   programme: PhD
+  image: true
   guide: Subhojoy Gupta
   scholarship: IISc
 
@@ -166,6 +167,7 @@
   user-id: rajass
   year-of-joining: 2018
   programme: PhD
+  image: true
   guide: Vamsi Pritham Pingali
   scholarship: Inspire
 
