@@ -1,5 +1,5 @@
 ---
-speaker: Gianluca Faraco (IISc)
+speaker: Gianluca Faraco (University of Milano Bicocca)
 title: "Flat geometry and representations"
 date: 18 October, 2023
 time: 11:00 am 
