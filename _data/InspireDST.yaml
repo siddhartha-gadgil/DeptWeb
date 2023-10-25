@@ -10,25 +10,11 @@
   user-id : srijans
   image: true
 
-
-- name: Mithun Bhowmik, (Ph.D., Indian Statistical Institute, Kolkata)
-  position: INSPIRE Faculty Fellow
-  research-areas: Harmonic Analysis on Lie Groups
-  user-id : mithunb
-  image: true
-
 - name: Sushma Palimar, (Ph.D., NITK, Surathkal)
   position: DST WOSA
   research-areas: Algebraic Number Theory
   user-id : psushma
   image: true
-
-
-- name: Shraddha Srivastava, (Ph.D., CMI, Chennai)
-  position: INSPIRE Faculty Fellow
-  research-areas: Representation Theory
-  user-id : sshraddha
-  image: true  
 
 - name: Biltu Dan (Ph.D., ISI)
   position: INSPIRE Faculty Fellow
