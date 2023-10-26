@@ -1,11 +1,3 @@
-- name  : Sushil Singla
-  phd: Shiv Nadar University
-  user-id: 
-  position: Research Associate
-  image: true
-  research-area: Functional analysis, Operator algebras
-
-
 - name  : Arpita Mal 
   phd: Jadavpur University
   user-id: arpitamal
@@ -13,29 +5,13 @@
   image: true
   research-area: Functional analysis, Geometry of Banach space
 
-- name: Chandan Biswas
-  phd: University of Wisconsin, Madison
-  user-id: chandanbiswa
-  position: Research Associate
-  image: true
-  research-area: Harmonic Analysis
-
 - name: Mihir Sheth
   webpage: https://sites.google.com/view/mihirsheth/home
   phd: University of Duisburg-Essen, Germany
   user-id: mihirsheth
-  position: Research Associate
+  position: INSPIRE Faculty
   image: true
   research-area: Number theory, Representation theory
-
-
-- name: Rajesh Kumar Singh 
-  phd: IIT Kanpur 
-  user-id: rajeshsingh
-  position: NBHM
-  image: true
-  research-area: Harmonic Analysis
-
 
 - name: Vijaya Kumar U
   phd: Indian Statistical Institute, Bangalore 
@@ -43,15 +19,6 @@
   position: Dr. D.S. Kothari 
   image: true
   research-area: Operator Theory, Operator Algebras, Quantum Probability
-
-
-- name: Shivani Goel
-  phd: IIT Madras
-  user-id: shivanigoel
-  position: NPDF
-  image: true
-  research-area: Linear algebra, Graph theory
-
 
 - name: Manoj Kumar
   phd: IIT Delhi 
@@ -78,7 +45,7 @@
   webpage: https://sites.google.com/view/rishabhagnihotri
   phd: HRI, Prayagraj
   user-id: rishabha
-  position: IOE
+  position: NBHM PDF
   image: true
   research-area: Number Theory
 
@@ -106,13 +73,6 @@
   image: true
   research-area: Norm and numerical radius inequalities of bounded linear operators   
 
-- name: Jyotirmoy Ganguly
-  webpage:
-  phd: IISER Pune
-  user-id: jyotirmoyg
-  position: NBHM
-  image: true
-  research-area: Representation Theory  
 
 - name: Digjoy Paul
   webpage:
@@ -135,7 +95,7 @@
   webpage:
   phd: TIFR Mumbai
   user-id: ravithejav
-  position: Research Associate
+  position: NBHM PDF
   image: true
   research-area: Number Theory
 
@@ -171,5 +131,19 @@
   image: true
   research-area: Algebraic geometry and Representation theory
 
-
+- name: Chandan Pradhan
+  webpage:
+  phd: IIT Guwahati
+  user-id: chandanpradhan
+  position: IOE
+  image: true
+  research-area: TBD
+  
+- name: Sumit Arora
+  webpage:
+  phd: IIT Roorkee
+  user-id: sumitarora
+  position: NBHM PDF
+  image: true
+  research-area: TBD
 

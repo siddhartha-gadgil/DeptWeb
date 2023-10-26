@@ -1,3 +1,15 @@
+- name: Mithun Bhowmik, (Ph.D., Indian Statistical Institute, Kolkata)
+  position: INSPIRE Faculty Fellow
+  research-areas: Harmonic Analysis on Lie Groups
+  user-id : mithunb
+  image: true
+  
+- name: Shraddha Srivastava, (Ph.D., CMI, Chennai)
+  position: INSPIRE Faculty Fellow
+  research-areas: Representation Theory
+  user-id : sshraddha
+  image: true  
+  
 - name: "Neelam Saikia"
   position: "INSPIRE Faculty" 
   phd: "IIT Delhi"
