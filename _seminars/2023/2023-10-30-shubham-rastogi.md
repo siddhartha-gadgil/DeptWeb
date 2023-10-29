@@ -10,7 +10,7 @@ series-suffix: defence
 ---
 
 The famous Wold decomposition gives a complete structure of an isometry on a Hilbert space. Berger, Coburn, and Lebow (BCL) obtained
-a structure for a tuple of commuting isometries acting on a Hilbert space. In this talk, we shall discuss a structures of a pair
+a structure for a tuple of commuting isometries acting on a Hilbert space. In this talk, we shall discuss a structure of a pair
 of commuting $C_0$-semigroups of isometries and obtain a BCL type result.
 
 The right-shift-semigroup $\mathcal S^\mathcal E=(S^\mathcal E_t)\_{t\ge 0}$ on $L^2(\mathbb R_+,\mathcal E)$ for any Hilbert space
