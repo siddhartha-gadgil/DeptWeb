@@ -10,7 +10,7 @@ series-suffix: colloquium
 ---
 
 Two points $x$ and $y$ in a normed linear space $\mathbb{X}$ are said to be Birkhoff-James orthogonal (denoted by $x\perp_By$) if 
-$$\|x+\lambda y\|\geq\|x\|~~\text{for every scalar}~\lambda.$$
+$\|x+\lambda y\|\geq\|x\|~~\text{for every scalar}~\lambda.$
 James proved that in a normed linear space of dimension more than two, Birkhoff-James orthogonality is symmetric if and only if the parallelogram law holds.
 Motivated by this result, Sain introduced the concept of pointwise symmetry of Birkhoff-James orthogonality in a normed linear space.
 
