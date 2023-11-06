@@ -1,6 +1,6 @@
 ---
 speaker: Joachim Toft (Linnaeus University, Vaxjo, Sweden)
-title: "Fractional Fourier transform, harmonic oscillator propagators and Strichartz estimate"
+title: "Fractional Fourier transform, harmonic oscillator propagators and Strichartz estimates"
 date: 14 November, 2023
 time: 3:30 pm
 venue: LH-1, Mathematics Department
