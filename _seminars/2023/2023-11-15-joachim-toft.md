@@ -8,9 +8,9 @@ series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
 ---
 
-A convex function $\Phi$ from $[0,\infty ]$ to $[0,\infty]$ with properties
+A convex function $\Phi$ from $[0,\infty]$ to $[0,\infty]$ with properties
 \begin{equation}
-\Phi (0)=0,\qquad \lim _{t\to \infty}\Phi (t)=\Phi (\infty )=\infty ,
+\Phi (0)=0,\qquad \lim_{t\to \infty}\Phi (t)=\Phi (\infty )=\infty ,
 \end{equation}
 is called a _Young function_. For any Young function $\Phi$, the Orlicz space $L^\Phi$ is a Banach space,
 and consists of all measurable functions $f$ such that $\Phi (t\cdot |f|)\in L^1$ for some $t>0$. By choosing
