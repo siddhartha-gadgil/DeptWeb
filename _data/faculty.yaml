@@ -171,6 +171,14 @@
   phone-ext: 3210
   office: 
 
+- name: Muna Naik
+  user-id: muna
+  position: Assistant Professor
+  research-areas: Harmonic analysis
+  phd: ISI
+  phone-ext: 2712
+  office: L17
+
 - name: A. K. Nandakumaran
   user-id: nands
   position: Professor
