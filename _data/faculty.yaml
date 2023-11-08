@@ -152,16 +152,6 @@
   author-names:
     - Apoorva Khare
 
-- name: Amalendu Krishna
-  user-id: amalenduk
-  position: Professor
-  research-areas: Algebraic geometry, K-theory, and algebraic cycles
-  phd: TIFR
-  phone-ext: 2712
-  office:
-  website: "#"
-  author-name: "Krishna, Amalendu"
-
 - name: Manjunath Krishnapur
   user-id: manju
   position: Associate Professor
@@ -179,7 +169,15 @@
   research-areas: Partial differential equations, variational methods, non-linear functional analysis
   phd: TIFR-CAM
   phone-ext: 3210
-  office: 
+  office: L29
+
+- name: Muna Naik
+  user-id: muna
+  position: Assistant Professor
+  research-areas: Harmonic analysis
+  phd: ISI
+  phone-ext: 2712
+  office: L17
 
 - name: A. K. Nandakumaran
   user-id: nands
