@@ -1,6 +1,6 @@
 ---
 speaker: Shashank Kanade (University of Denver, USA)
-title: "A glimpse into the world of Rogers--Ramanujan identities"
+title: "A glimpse into the world of Rogers-Ramanujan identities"
 date: 1 December, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
