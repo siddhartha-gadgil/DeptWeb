@@ -35,6 +35,6 @@ given as
 \ell_{X_n}(A)= \sum_{i=1}^{n}\log (\sigma_i(A))^2,
 \end{equation}
 where $\sigma_i(A)$ are the singular values of $A$. We show that the same $j$ dominates $\rho$ in the translation length
-spectrum as well. Lindstr\"om's Lemma for planar networks is one of the key ingredients of the proof.
+spectrum as well. Lindstr&ouml;m's Lemma for planar networks is one of the key ingredients of the proof.
 
 In both cases, if $S$ is a punctured surface, then $j$ lies in the same relative representation variety as $\rho$.
