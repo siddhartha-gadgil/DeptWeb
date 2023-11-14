@@ -3,7 +3,7 @@ speaker: Rekha Biswal (NISER, Bhubaneswar)
 title: "Ideals in enveloping algebras of affine Kac-Moody algebras"
 date: 17 November, 2023
 time: 11:30 am
-venue: LH-1, Mathematics Department
+venue: LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
 ---
