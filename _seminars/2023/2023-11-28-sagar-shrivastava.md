@@ -15,7 +15,7 @@ are multiplicity free, but the same is not the case for symplectic
 groups. The explicit combinatorial description of the multiplicities was
 given by Lepowsky in his PhD thesis. In 2009, Wallach and Oded showed
 that this multiplicity corresponds to the dimension of the multiplicity
-space, which was a representation of $SL_2(=Sp(2))$. In this talk, we
+space, which was a representation of $SL_2$ $(=Sp(2))$. In this talk, we
 give an alternate proof of the same without invoking any partition
 function machinery. The only assumption for this talk would be the Weyl
 character formula.
