@@ -4,7 +4,7 @@ title: "Congruences and period relations: a new case"
 date: 20 November, 2023
 time: 2 pm
 series: "Number Theory Seminar"
-venue: LH-1
+venue: LH-3
 website: https://math.iisc.ac.in/number-theory-seminar.html
 ---
 
