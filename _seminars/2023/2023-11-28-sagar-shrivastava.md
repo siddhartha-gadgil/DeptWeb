@@ -8,7 +8,7 @@ series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
-Branching rules is a systematic way of understanding the multiplicity of
+Branching rules are a systematic way of understanding the multiplicity of
 irreducible representations in restrictions of representations of Lie
 groups. In the case of $GL_n$ and orthogonal groups, the branching rules
 are multiplicity free, but the same is not the case for symplectic
