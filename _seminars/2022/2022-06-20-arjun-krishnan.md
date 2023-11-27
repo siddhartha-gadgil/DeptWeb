@@ -4,6 +4,7 @@ title: Geometry of random geodesics - 2
 date: 20 June, 2022
 time: 2:00-3:40 pm (with a 10 minute break 2:45-2:55)
 series: "APRG Seminar"
+website: https://math.iisc.ac.in/~aprg/index.php?id=seminar17-18
 venue: LH-1, Mathematics Department (and Microsoft Teams)
 ---
 
