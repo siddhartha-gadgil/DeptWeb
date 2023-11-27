@@ -2,7 +2,7 @@
 speaker: Suraj Krishna (Technion, Israel)
 title: "Cubulating hyperbolic mapping tori"
 date: 1 December, 2023
-time: 04:00 pm 
+time: 04:15 pm 
 venue: LH-1 
 series: "Geometry & Topology Seminar"
 ---
