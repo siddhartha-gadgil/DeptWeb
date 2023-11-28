@@ -3,7 +3,7 @@ speaker: Shashank Kanade (University of Denver, USA)
 title: "A glimpse into the world of Rogers-Ramanujan identities"
 date: 1 December, 2023
 time: 11 am
-venue: LH-1, Mathematics Department
+venue: LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
 ---
