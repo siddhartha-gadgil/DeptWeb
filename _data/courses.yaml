@@ -65,6 +65,9 @@ jan2024:
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
   electives:
+  - name: Introduction to Graph Theory
+    code: MA 216
+    instructor: Vineeth Chintala/ R. Venkatesh
   - name: Number Theory	
     code: MA 218	
     instructor: Soumya Das
