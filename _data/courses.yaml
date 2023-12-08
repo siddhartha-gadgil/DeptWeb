@@ -81,15 +81,12 @@ jan2024:
   - name : Introduction to Statistical Learning with Applications
     code: MA 267
     instructor: Siva Athreya
+  - name: Introduction to Homological Algebra
+    code: MA 316
+    instructor: Safdar Quddus
   - name : Analysis 3	
     code: MA 321	
     instructor: E. K. Narayanan
-  - name:  Topics in Number Theory 2 (p-adic L-functions)	
-    code: MA 358	
-    instructor: Bharathwaj Palvannan
-  - name: Topics in Number Theory 3 (Iwasawa theory)	
-    code: MA 358A	
-    instructor: Mahesh Kakde
   - name:  Operator Theory II	
     code: MA 325	
     instructor: E. K. Narayanan
@@ -105,6 +102,12 @@ jan2024:
   - name:  Topics in Representation theory	
     code: MA 357	
     instructor: Radhika Ganapathy
+  - name:  Topics in Number Theory 2 (p-adic L-functions)	
+    code: MA 358	
+    instructor: Bharathwaj Palvannan
+  - name: Topics in Number Theory 3 (Iwasawa theory)	
+    code: MA 358A	
+    instructor: Mahesh Kakde
   - name: Stochastic Finance II 
     code: MA 366
     instructor: Srikanth Iyer
