@@ -3,7 +3,7 @@ speaker: Duncan Laurie (University of Oxford, UK)
 title: "The structure and representation theory of quantum toroidal algebras"
 date: 8 December, 2023
 time: 3 pm
-venue: <del>LH-1</del> LH-3, Mathematics Department
+venue: <strike style="font-size: 1.5em; font-weight: bold; color: red;">LH-1</strike> LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
 ---
