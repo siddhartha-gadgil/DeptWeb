@@ -15,4 +15,4 @@ generally a unique factorization result for products of characters of
 parabolic Verma modules when restricted to certain subalgebras of
 $\mathfrak h$. These include fixed point subalgebras of $\mathfrak h$
 under subgroups of diagram automorphisms of $\mathfrak g$. This is
-joint work with K.N.Raghavan, R.Venkatesh and S.Viswanath.
+joint work with K.N. Raghavan, R. Venkatesh and S. Viswanath.
