@@ -2,7 +2,7 @@
 date: 28 December, 2023
 speaker: A. Raghuram (Fordham University, New York City, USA)
 title: "Kerala School of Mathematics"
-time: "3:30 pm" 
+time: "2 pm" 
 venue: LH-1, Mathematics Department
 ---
 The basic ideas of Calculus started with Archimedes, and reached a highly developed form in the 17th Century
