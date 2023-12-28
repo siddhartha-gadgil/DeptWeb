@@ -14,10 +14,10 @@ $\mathbb C^d$ by the rule: $\boldsymbol z \mapsto u\cdot \boldsymbol z$, $\bolds
 is the usual matrix product. We say that $\boldsymbol T$ is $\mathcal U(d)$-homogeneous if $u \cdot \boldsymbol T$ is unitarily
 equivalent to $\boldsymbol T$ for all $u\in \mathcal U(d)$.
 In this talk, we describe  $\mathcal U(d)$-homogeneous $d$-tuple $\boldsymbol M$ of multiplication by the coordinate functions acting
-on a reproducing kernel Hilbert space $\mathcal H_K(\mathbb B_d, \mathbb C^n) \subseteq \mbox{\rm Hol}(\mathbb B_d, \mathbb C^n)$, where
-$n$ is the dimension of the joint kernel of $\boldsymbol T^*$.  The case $n=1$ is well understood, here, we focus on the case $n=d.$ We
+on a reproducing kernel Hilbert space `$\mathcal H_K(\mathbb B_d, \mathbb C^n) \subseteq {\rm Hol}(\mathbb B_d, \mathbb C^n)$,` where
+$n$ is the dimension of the joint kernel of $\boldsymbol T^*$. The case $n=1$ is well understood, here, we focus on the case $n=d.$ We
 describe this class of $\mathcal U(d)$-homogeneous operators, equivalently, non-negative definite kernels quasi invariant under the
-action of the group $\mathcal U(d).$ As a result , we obtain criterion for boundedness, irreducibility and mutual unitary equivalence
+action of the group $\mathcal U(d).$ As a result, we obtain criterion for boundedness, irreducibility and mutual unitary equivalence
 among these operators.
 
 This is a joint work  with Soumitra Ghara, Gadadhar Misra and Paramita Pramanick.
