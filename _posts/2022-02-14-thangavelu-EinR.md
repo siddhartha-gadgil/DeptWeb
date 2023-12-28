@@ -4,4 +4,4 @@ date: Feb. 14, 2022
 archived: true
 ---
 
-Prof. Sundaram Thangavelu has been awarded the Alumni Award for Excellence in Research in Science/Engineering for 2021. 
+Professor Sundaram Thangavelu has been awarded the Alumni Award for Excellence in Research in Science/Engineering for 2021. 

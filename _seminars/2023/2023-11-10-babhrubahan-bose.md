@@ -1,8 +1,8 @@
 ---
 speaker: Babhrubahan Bose (IISc Mathematics)
 date: 10 Nov 2023
-time: 2 pm
-venue: Hybrid - Microsoft Teams (online) and LH-3, Mathematics Department
+time: 2:30 pm
+venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 title: Geometry of Normed Linear Spaces in Light of Birkhoff-James Orthogonality
 series: Thesis
 series-prefix: PhD
