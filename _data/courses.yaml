@@ -12,8 +12,9 @@ jan2024:
     credits: '3:1'
     instructor: Purvi Gupta
     ug-prereq-courses: UM 102
-    timing: 
-    venue:
+    webpage: https://math.iisc.ac.in/~purvigupta/math204.html
+    timing: MWF Noon-12:50 pm
+    venue: G-21, OPB
   - code: UM 205
     name: Introduction to Algebraic Structures
     credits: '3:1'
