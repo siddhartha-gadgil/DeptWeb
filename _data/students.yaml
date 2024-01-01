@@ -215,7 +215,7 @@
   user-id: sumantadas
   image: true
 
-- name: M V Ajay Kumar Nair
+- name: M V Kumar Nair
   year-of-joining: 2019
   programme: PhD
   user-id: ajaynair
@@ -377,6 +377,7 @@
   programme: PhD
   user-id: ajayp
   image: true
+  webpage: https://ajay731.github.io/ajayprajapati/
 
 - name: Rohit Mahato
   year-of-joining: 2022
