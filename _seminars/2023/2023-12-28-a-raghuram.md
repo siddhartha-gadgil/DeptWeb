@@ -4,7 +4,7 @@ speaker: A. Raghuram (Fordham University, New York City, USA)
 title: "Kerala School of Mathematics"
 time: "2 pm" 
 venue: LH-1, Mathematics Department
-slides: "https://drive.google.com/file/d/1i-Boj_c64AS_5TsaoIenvYuykDEXRves/view"
+slides: "2023-12-28-raghuram-slides.pdf"
 ---
 The basic ideas of Calculus started with Archimedes, and reached a highly developed form in the 17th Century
 with Newton and Leibniz often being credited as its inventors. What was not so well-known until only a few
