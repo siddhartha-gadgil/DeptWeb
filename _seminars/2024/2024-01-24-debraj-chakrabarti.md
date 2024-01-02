@@ -1,6 +1,6 @@
 ---
 speaker: Debraj Chakrabarti (Central Michigan University, Mount Pleasant, USA)
-title: "Partial convexity conditions and the `$\overline\partial$` problem"
+title: "Partial convexity conditions and the d/d(zbar) problem"
 date: 24 January, 2024
 time: 4 pm
 venue: LH-1, Mathematics Department
