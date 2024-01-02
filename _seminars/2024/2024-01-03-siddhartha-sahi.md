@@ -16,4 +16,4 @@ respect to the measure. Our main result is a lower bound for (a) in terms of (b)
 This lower bound was conjectured by Burns-Pugh-Shub-Wilkinson (2001), and special cases were proved by Dedieu-Shub (2002), Avila-Bochi (2003)
 and Rivin (2005).  We give a proof in complete generality by using some results from the theory of spherical functions and Jack polynomials.
 
-This is joint work with Diego Armentano, Gautam Chinta, and Michael Shub. (arXiv:2206.01091), (Ergodic theory and Dynamical systems, to appear)
+This is joint work with Diego Armentano, Gautam Chinta, and Michael Shub. (arXiv:2206.01091), (Ergodic theory and Dynamical systems, to appear).
