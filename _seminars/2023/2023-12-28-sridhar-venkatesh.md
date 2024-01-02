@@ -16,6 +16,6 @@ Du Bois that there is a substitute called the Du Bois complex which
 satisfies many of the nice properties enjoyed by the de Rham complex in
 the smooth case. In this talk, we will discuss some classical
 singularities associated with this complex, namely Du Bois and rational
-singularities, and some recently introduced refinements, namely k-Du Bois
-and k-rational singularities. This is based on joint work with Wanchun
+singularities, and some recently introduced refinements, namely $k$-Du Bois
+and $k$-rational singularities. This is based on joint work with Wanchun
 Shen and Anh Duc Vo.
