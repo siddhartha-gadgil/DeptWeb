@@ -40,18 +40,24 @@ jan2024:
     code: MA 213
     prereq-courses: MA 212
     ug-prereq-courses: ''
+    timing: 'Mon, Wed, Fri: 2:00 - 3:00'
+    venue: LH-4
   - name: Measure & Integration
     credits: '3:1'
     instructor: Arka Mallick
     code: MA 222
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
+    timing: 'Mon, Wed, Fri: 10:00 - 11:00'
+    venue: LH-4
   - name: Complex Analysis
     credits: '3:1'
     instructor: Ved Datar
     code: MA 224
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
+    timing : 'Tue, Thu: 10:00 - 11:30'
+    venue: LH-4
     webpage: 
   - name: Introduction to Differentiable Manifolds
     instructor: Vamsi Pritham Pingali
@@ -59,64 +65,94 @@ jan2024:
     prereq-courses: MA 221
     ug-prereq-courses: ''
     webpage: https://math.iisc.ac.in/~vamsipingali/teaching/ma235manifoldsspring2023/ma235.html
+    timing: 'Tue, Thu: 3:30 - 5:00'
+    venue: LH-4
   - name: Ordinary Differential Equations
     credits: '3:1'
     instructor: Harish Seshadri
     code: MA 241
     prereq-courses: MA 221
     ug-prereq-courses: 'UM 204'
+    timing: 'Mon, Wed, Fri: 3:00 - 4:00'
+    venue: LH-4
   electives:
   - name: Introduction to Graph Theory
     code: MA 216
     instructor: Vineeth Chintala/ R. Venkatesh
     webpage: https://sites.google.com/view/vineethchintala/graph-theory
+    timing: 'Tue, Thu: 10:00 - 11:30'
+    venue: LH-3
   - name: Number Theory	
     code: MA 218	
     instructor: Soumya Das
+    timing: 'Tue, Thu: 11:30 - 1:00'
+    venue: LH-4
   - name: Representation Theory of Finite Groups	
     code: MA 220	
     instructor: Shaunak Deo
+    timing: 'Mon, Wed, Fri: 11:00 - 12:00'
+    venue: LH-4
   - name : Introduction to Stochastic Processes	
     code: MA 262	
     instructor: Sanchayan Sen
+    timing: 'Tue, Thu: 3:30 - 5:00'
+    venue: LH-5
   - name: Introduction to Homological Algebra
     code: MA 316
     instructor: Safdar Quddus
     webpage: https://sites.google.com/site/safdarquddus/ma-316
-  - name : Analysis 3	
-    code: MA 321	
-    instructor: E. K. Narayanan
-  - name:  Operator Theory II	
-    code: MA 325	
-    instructor: E. K. Narayanan
-  - name:  Topics in analysis	
-    code: MA 327	
-    instructor: Manjunath Krishnapur
-  - name:  Algebraic Topology	
-    code: MA 332	
-    instructor: Siddhartha Gadgil
-    webpage: https://math.iisc.ac.in/~gadgil/algebraic-topology-2024/index.html
-  - name: Advanced Functional Analysis  
-    code: MA 340	
-    instructor: Chandan Pradhan and Tirthankar Bhattacharyya
-  - name:  Topics in Representation theory	
-    code: MA 357	
-    instructor: Radhika Ganapathy
-  - name:  Topics in Number Theory 2 (p-adic L-functions)	
-    code: MA 358	
-    instructor: Bharathwaj Palvannan
-  - name: Topics in Number Theory 3 (Iwasawa theory)	
-    code: MA 358A	
-    instructor: Mahesh Kakde
-  - name: Stochastic Finance II 
-    code: MA 366
-    instructor: Srikanth Iyer
+    timing: 'Tue, Thu: 8:30 - 10:00'
+    venue: LH-2
   - name: Algebraic Combinatorics
     code: MA 319
     instructor: Arvind Ayyer and Digjoy Paul
     webpage: https://math.iisc.ac.in/~arvind/ma319/
     timing: 'Tue, Thu: 2:00 - 3:30'
     venue: LH-3
+  - name : Analysis 3	
+    code: MA 321	
+    instructor: E. K. Narayanan
+  - name:  Operator Theory II	
+    code: MA 325	
+    instructor: E. K. Narayanan
+    timing: 'Tue, Thu: 8:30 - 10:00'
+    venue: LH-5
+  - name:  Topics in analysis	
+    code: MA 327	
+    instructor: Manjunath Krishnapur
+    timing: 'Tue, Thu: 2:00 - 3:30'
+    venue: LH-2
+  - name:  Algebraic Topology	
+    code: MA 332	
+    instructor: Siddhartha Gadgil
+    timing: 'Tue, Thu: 8:30 - 10:00'
+    venue: LH-3
+    webpage: https://math.iisc.ac.in/~gadgil/algebraic-topology-2024/index.html
+  - name: Advanced Functional Analysis  
+    code: MA 340	
+    instructor: Chandan Pradhan and Tirthankar Bhattacharyya
+    timing: 'Tue, Thu: 2:00-3:30'
+    venue: LH-4
+  - name:  Topics in Representation theory	
+    code: MA 357	
+    instructor: Radhika Ganapathy
+    timing: 'Tue, Thu: 8:30 - 10:00'
+    venue: LH-4
+  - name:  Topics in Number Theory 2 (p-adic L-functions)	
+    code: MA 358	
+    instructor: Bharathwaj Palvannan
+    timing: 'Tue, Thu: 10:00 - 11:30'
+    venue: LH-5
+  - name: Topics in Number Theory 3 (Iwasawa theory)	
+    code: MA 358A	
+    instructor: Mahesh Kakde
+    timing: 'Tue, Thu: 2:00 - 3:30'
+    venue: LH-5
+  - name: Stochastic Finance II 
+    code: MA 366
+    instructor: Srikanth Iyer
+    timing: 'Tue, Thu: 11:30 - 1:00'
+    venue: LH-5
 
 
 aug2023:
