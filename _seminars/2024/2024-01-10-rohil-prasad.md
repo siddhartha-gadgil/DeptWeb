@@ -2,7 +2,7 @@
 speaker: Rohil Prasad (UC Berkeley)
 title: "On the dense existence of compact invariant sets"
 date: 10 January, 2024
-time: 11:00 pm 
+time: 11:00 am 
 venue: LH-1
 series: "Geometry & Topology Seminar"
 ---
