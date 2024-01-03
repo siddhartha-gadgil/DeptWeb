@@ -19,10 +19,10 @@ jan2024:
     name: Introduction to Algebraic Structures
     credits: '3:1'
     instructor: Arvind Ayyer
-    webpage: 
+    webpage: https://math.iisc.ac.in/~arvind/um205/
     ug-prereq-courses: UM 102
-    timing: 
-    venue:
+    timing: MWF 11-11:50am
+    venue: G-21, OPB
   - code: UM 400
     instructor: UG Coordinator
     name: "UG project"
