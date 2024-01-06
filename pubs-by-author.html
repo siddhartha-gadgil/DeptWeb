@@ -42,6 +42,7 @@ title: Faculty Publications (by author) - Dept of Mathematics, IISc
       {% if paper.author %} {{ paper.author }}{% else %} {{paper.editor}} (Ed.){% endif %},
       <em>{{ paper.title }}</em>, {{ paper.journal }} {{ paper.booktitle }} {{ paper.note }}, <strong>{{paper.volume}} </strong> ({{paper.year}}), {{paper.pages}}{{ paper.article }}.
       {% if paper.url %}(<a href="{{ paper.url }}" target="_blank">Article</a>){% endif %}
+      {% if paper.doi %}(<a href="https://doi.org/{{ paper.doi }}" target="_blank">doi:{{ paper.doi }}</a>){% endif %}
       {% if paper.mrnumber %}(<a href="https://mathscinet.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=MR{{ paper.mrnumber }}" target="_blank">Review</a>){% endif %}
     </li>
     {% endif %}
