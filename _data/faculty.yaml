@@ -67,7 +67,9 @@
   phone-ext: 3212
   office: R23
   website: https://sites.google.com/view/shaunakdeo/
-  author-name: Deo, Shaunak
+  author-names: 
+    - "Deo, Shaunak"
+    - "Deo, Shaunak V."
 
 - name: Siddhartha Gadgil
   user-id: gadgil
