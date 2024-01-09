@@ -458,7 +458,7 @@ aug2022:
     instructor: Arvind Ayyer
     name: Probability and Statistics
     timing: 'Mon, Wed, Fri: 11:00 - 12:00'
-    webpage: http://www.math.iisc.ernet.in/~arvind/um201/    
+    webpage: https://math.iisc.ac.in/~arvind/um201/    
   - code: UM 501
     instructor: UG Coordinator
     name: "Masters project A"
@@ -1352,7 +1352,7 @@ aug2019:
     instructor: Arvind Ayyer
     timing: 'Mon, Wed, Fri: 10:00-11:00'
     code: MA 261
-    webpage: http://www.math.iisc.ernet.in/~arvind/ma261/
+    webpage: https://math.iisc.ac.in/~arvind/ma261/
     prereq-courses: ''
     ug-prereq-courses: ''
     venue: LH-4
@@ -1385,7 +1385,7 @@ aug2019:
     code: MA 216
     timing: 'Tue, Thu: 5:00-6:30'
     venue: LH-4
-    webpage: http://www.math.iisc.ernet.in/~arvind/ma216/
+    webpage: https://math.iisc.ac.in/~arvind/ma216/
   - name: Representation Theory of Finite Groups
     instructor: Pooja Singla
     code: MA 220
@@ -1985,7 +1985,7 @@ aug2017:
   - name: Probability Models
     instructor: Manjunath Krishnapur
     code: MA 261
-    webpage: http://math.iisc.ernet.in/~manju/PM17/PM17.html
+    webpage: https://math.iisc.ac.in/~manju/PM17/PM17.html
     prereq-courses: ''
     ug-prereq-courses: ''
   electives:
@@ -1998,7 +1998,7 @@ aug2017:
   - name: Commutative Algebra
     instructor: Dilip Patil
     code: MA 312
-    webpage: http://www.math.iisc.ernet.in/~patil/current_courses/MA312-CA2017/MA312-CA2017.html
+    webpage: https://math.iisc.ac.in/~patil/current_courses/MA312-CA2017/MA312-CA2017.html
     prereq-courses: ''
     ug-prereq-courses: ''
   - name: Differentiable Manifolds & Lie Groups
@@ -2015,7 +2015,7 @@ aug2017:
   - name: Random Matrix Theory
     instructor: Manjunath Krishnapur
     code: MA 369
-    webpage: http://math.iisc.ernet.in/~manju/RMT17/RMT.html
+    webpage: https://math.iisc.ac.in/~manju/RMT17/RMT.html
     prereq-courses: ''
     ug-prereq-courses: ''
   core2:
@@ -2027,7 +2027,7 @@ aug2017:
   - name: Introduction to Algebraic Topology
     instructor: Subhojoy Gupta
     code: MA 232
-    webpage: http://math.iisc.ernet.in/~subhojoy/public_html/Ma232_August_2017.html
+    webpage: https://math.iisc.ac.in/~subhojoy/public_html/Ma232_August_2017.html
     prereq-courses: MA 231 & MA 212
     ug-prereq-courses: ''
   - name: Partial Differential Equations

@@ -5,4 +5,4 @@ title: "HARMONIC ANALYSIS ON EXPONENTIAL HOMOGENEOUS SPACES AND DIFFERENTIAL OPE
 time: "4:00 - 5:00 p.m." 
 venue: "Lecture Hall I, Department of Mathematics"
 ---
-See http://www.math.iisc.ernet.in/~arvind/Baklouti-Abst.Bangalore14.pdf
+See https://math.iisc.ac.in/~arvind/Baklouti-Abst.Bangalore14.pdf

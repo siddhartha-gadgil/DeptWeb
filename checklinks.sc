@@ -22,6 +22,7 @@ def localLinks(s: String) = subLinks(s).filterNot(l => l.startsWith("#") || l.st
 val allFiles = os.walk(os.pwd / "_site").toSet
 def contents(s: String) = if (s.startsWith("http")) requests.get(s) else os.read(os.pwd / "_site" / os.RelPath(trm(s)))
 def isMissing(s: String) = {
+    // println(s"Checking url $s")
     import java.net._
     Try{val url = new URL(s)
     val huc = url.openConnection.asInstanceOf[HttpURLConnection]
@@ -49,7 +50,7 @@ def offspring(ls: Set[String]) : Set[String] = {
       if (ls == next) ls else offspring(next)
 } 
 
-val allLocal = offspring(Set("index.html")).toVector.filterNot(s => s == "pubs.html" || s.contains("fpsac")).toIterator
+val allLocal = offspring(Set("index.html")).toIterator.filterNot(s => s == "pubs.html" || s.contains("fpsac"))
 def checkAll() = {    
     allLocal.foreach{
         s =>
@@ -68,12 +69,14 @@ def checkAll() = {
 // checkAll()
 
 def testAll() = {    
+    println("Checking all links")
     allLocal.zipWithIndex.foreach{
         case (s, n) =>
             // println(s"checking links from:$s")
-            val links = subLinks(s)
+            val links = subLinks(s).toVector
             if (links.size < 500) {
-                val br = brokenLinks(s)
+                println(s"  found ${links.size} links")
+                val br = links.filter(l => isBroken(l) && isBroken(s+"/../"+l) )
                 if (br.nonEmpty){ 
                     Console.err.println("Broken link:")
                     Console.err.println(s"* source page: $s")

@@ -22,7 +22,7 @@ By tradition, these committees have the same members but different members are c
 The present members and chairs are as follows:
 
 * [Mahesh Kakde](https://math.iisc.ac.in/~maheshkakde/)(Chair, DCC)
-* [Harish Seshadri](http://math.iisc.ernet.in/~harish/)(Chair, DC)
+* [Harish Seshadri](https://math.iisc.ac.in/~harish/)(Chair, DC)
 * [Vamsi Pritham Pingali](https://math.iisc.ac.in/~vamsipingali/)(Chair, UG-DCC)
 * R. Venkatesh
 * Subhojoy Gupta
@@ -91,4 +91,4 @@ The present members and chairs are as follows:
 
 ### Safety Champion
 
-* [T. Gudi](http://math.iisc.ernet.in/~gudi/)
+* [T. Gudi](https://math.iisc.ac.in/~gudi/)
