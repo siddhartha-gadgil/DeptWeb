@@ -1,3 +1,5 @@
+#!/usr/bin/env amm
+
 import ammonite.ops._
 
 val pubFile = pwd / "_data" / "publications.bib"
