@@ -29,7 +29,7 @@ title: Faculty Publications (by author) - Dept of Mathematics, IISc
   {% for y in years %}
   {% assign yearpubs = y.items | sort: 'author' %}
   {% for paper in yearpubs %}
-  {% assign authors = paper.author | split: " and " %}
+  {% assign authors = paper.author | split: " and " | strip %}
   {% assign test = false %}
   {% if authors contains fac.author-name %}{% assign test = true %}{% endif %}
   {% for name in fac.author-names %}
