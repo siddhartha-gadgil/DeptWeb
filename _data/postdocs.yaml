@@ -147,13 +147,13 @@
   image: true
   research-area: Nonlinear Analysis, Control Theory, Controllability and observability of dynamical systems
 
-- name: Ramlal Debnath
-  webpage:
-  phd:
-  user-id: ramlald
-  position: NBHM PDF
-  image: true
-  research-area:
+- name: Ramlal Debnath 
+  webpage: https://sites.google.com/view/ramlal-debnath 
+  phd:  Indian Statistical Institute  
+  user-id: ramlald 
+  position: NBHM PDF 
+  image: true 
+  research-area: Operator Theory 
 
 - name: Naveen Gupta
   webpage:
