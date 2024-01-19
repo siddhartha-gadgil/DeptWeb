@@ -155,13 +155,14 @@
   image: true 
   research-area: Operator Theory 
 
-- name: Naveen Gupta
-  webpage:
-  phd:
-  user-id: naveengupta
-  position: NBHM PDF
-  image: true
-  research-area:
+- name: Naveen Gupta 
+
+  webpage: 
+  phd: University of Delhi 
+  user-id: naveengupta 
+  position: NBHM PDF 
+  image: true 
+  research-area: Several complex variables 
 
 - name: Murugan SP
   webpage:
@@ -171,13 +172,13 @@
   image: true
   research-area:
 
-- name: Md Hasan Ali Biswas
-  webpage:
-  phd:
-  user-id: hasanbiswas
-  position: NBHM PDF
-  image: true
-  research-area:
+- name: Md Hasan Ali Biswas 
+  webpage: 
+  phd: IIT Madras 
+  user-id: hasanbiswas 
+  position: NBHM PDF 
+  image: true 
+  research-area: Harmonic Analysis 
 
 - name: Souvik Pal
   webpage:
