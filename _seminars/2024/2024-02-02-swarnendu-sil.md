@@ -12,7 +12,7 @@ if $\Delta u \in L^{q}\_{\text{loc}}(\mathbb{R}^{n}).$ Combined with the Sobolev
 continuous. However, as soon as  we pass from the linear case to the quasilinear operator, we no longer have any representation formula for the solution of
 the following problem 
 \begin{equation}
-- {\rm div}\left(\left\lvert \nabla u \right\rvert^{p-2}\nabla u\right) = f 
+{-}{\rm div}\left(\left\lvert \nabla u \right\rvert^{p-2}\nabla u\right) = f 
 \end{equation}
 if $p \neq 2$ and CZ estimates for second derivatives of the solution is not yet known. In fact, solution can fail to be $C^{2}$ even when $f \equiv 0.$  
 
