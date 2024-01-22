@@ -14,7 +14,7 @@ the following problem
 \begin{equation}
 {-}{\rm div}\left(\left\lvert \nabla u \right\rvert^{p-2}\nabla u\right) = f 
 \end{equation}
-if $p \neq 2$ and CZ estimates for second derivatives of the solution is not yet known. In fact, solution can fail to be $C^{2}$ even when $f \equiv 0.$  
+if $p \neq 2$ and CZ estimates for second derivatives of the solution are not yet known. In fact, the solution can fail to be $C^{2}$ even when $f \equiv 0.$  
 
 However, one can still establish H&ouml;lder continuity of the gradient whenever  
 ${\rm div}\left(\left\lvert \nabla u \right\rvert^{p-2}\nabla u\right) \in L^{q}_{\text{loc}}$ and $q>n.$ These type of results are often called
