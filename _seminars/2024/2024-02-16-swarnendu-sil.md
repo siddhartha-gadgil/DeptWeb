@@ -1,7 +1,7 @@
 ---
 speaker: Swarnendu Sil (IISc Mathematics)
 title: "Nonlinear Calderon-Zygmund theory and differential forms"
-date: 2 February, 2024
+date: 16 February, 2024
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
