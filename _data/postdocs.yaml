@@ -180,11 +180,10 @@
   image: true 
   research-area: Harmonic Analysis 
 
-- name: Souvik Pal
-  webpage:
-  phd:
-  user-id: souvikpal
-  position: NBHM PDF
-  image: true
-  research-area:
-
+- name: Souvik Pal 
+  webpage: 
+  phd: Harish-Chandra Research institute 
+  user-id: souvikpal 
+  position: NBHM PDF 
+  image: true 
+  research-area: Lie algebras 
