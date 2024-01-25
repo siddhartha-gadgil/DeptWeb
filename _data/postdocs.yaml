@@ -157,13 +157,13 @@
   image: true 
   research-area: Several complex variables 
 
-- name: Murugan SP
-  webpage:
-  phd:
-  user-id: murugansp
-  position: IOE
-  image: true
-  research-area:
+- name: Murugan SP 
+  webpage: 
+  phd: Chennai Mathematical Institute  
+  user-id: murugansp 
+  position: IOE 
+  image: true 
+  research-area: Operator Algebras, Operator Systems and Spectral Graph Theory.
 
 - name: Md Hasan Ali Biswas 
   webpage: 
