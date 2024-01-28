@@ -17,7 +17,7 @@ collaborators have entirely characterized the interpolating and sampling sequenc
 spaces on the complex plane. This problem has also been studied for the Bargmann--Fock spaces on the higher
 dimensional complex Euclidean spaces. Very few results about the interpolating and sampling hypersurfaces
 in higher dimensions are known. We have proved certain hypersurfaces are not interpolating in dimensions
-2 and 3. Cerd\'{a}, Schuster and Varolin have defined uniformly flat smooth hypersurfaces and proved that
+2 and 3. Cerda, Schuster and Varolin have defined uniformly flat smooth hypersurfaces and proved that
 uniform flatness is one of the sufficient conditions for smooth hypersurfaces to be interpolating and
 sampling in higher dimensions. We have studied the uniformly flat hypersurfaces in dimensions greater
 than or equal to two and proved a complete characterization of it. In dimension two, we provided sufficient
