@@ -1,6 +1,6 @@
 ---
 speaker: Arindam Mandal (IISc Mathematics)
-date: 30 Jan 2023
+date: 30 Jan 2024
 time: 2 pm
 venue: LH-1, Mathematics Department
 title: Existence and implications of positively curved metrics on holomorphic vector bundles
