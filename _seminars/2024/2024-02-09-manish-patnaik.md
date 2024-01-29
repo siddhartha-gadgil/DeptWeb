@@ -16,6 +16,6 @@ Motivated on the one hand by the recent theory of Weyl group multiple Dirichlet 
 geometric Langlands correspondence, we explain how to connect the representation theory of metaplectic covers of $p$-adic groups to
 an object of rather disparate origin, namely a quantum group at a root of unity. This gives us a new point of view on the non-uniqueness
 of Whittaker functionals and leads, among other things, to a Casselman--Shalika type formula expressed in terms of (Gauss sum) twists of
-"q"-Littlewood--Richardson coefficients, objects of some combinatorial interest.
+"$q$"-Littlewood--Richardson coefficients, objects of some combinatorial interest.
 
 Joint work with Valentin Buciumas.
