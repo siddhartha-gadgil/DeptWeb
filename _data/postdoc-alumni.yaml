@@ -5,12 +5,15 @@
   image: true
   research-area: Functional analysis, Geometry of Banach space
 
-- name  : Sushil Singla
-  phd: Shiv Nadar University
-  user-id: 
-  position: Research Associate
-  image: true
-  research-area: Functional analysis, Operator algebras
+- name: "Sushil Singla" 
+  position: "Research Associate" 
+  phd: "Shiv Nadar University" 
+  user-id: "" 
+  image: true 
+  research-area: "Functional analysis, Operator algebras" 
+  start: "2022" 
+  end: "2022" 
+  present: "University of Primorska, Slovenia" 
   
 - name: Chandan Biswas
   phd: University of Wisconsin, Madison
