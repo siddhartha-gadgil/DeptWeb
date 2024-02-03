@@ -8,4 +8,4 @@ venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
 ---
 
-Baladi and Vallée shows the limit Gaussian distribution of the length of continued fractions as a random variable on the set of rational numbers with bounded denominators based on ergodic methods. We give an analogue of the result for complex continued fractions over imaginary quadratic number fields and discuss applications in value distribution of `$L$`-functions of `$\mathram{GL}_2$` (joint with Dohyeong Kim and Seonhee Lim).
+Baladi and Vallée shows the limit Gaussian distribution of the length of continued fractions as a random variable on the set of rational numbers with bounded denominators based on ergodic methods. We give an analogue of the result for complex continued fractions over imaginary quadratic number fields and discuss applications in value distribution of `$L$`-functions of `$\mathrm{GL}_2$` (joint with Dohyeong Kim and Seonhee Lim).
