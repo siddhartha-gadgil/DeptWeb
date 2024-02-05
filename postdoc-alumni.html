@@ -12,7 +12,7 @@ title: Former Postdocs
       <h5 class="list-item">{{ y.name }}
         (Ph.D.{% if y.phd %}, {{ y.phd }}{% endif %}){% if y.start %}, {{ y.start }} &ndash; {% if y.end %}{{y.end}}.{% endif %}{% endif %}
       </h5>
-      {% if y.area %}<div class="list-item"><strong>Research area:</strong> {{ y.area }}</div>{% endif %}
+      {% if y.research-area %}<div class="list-item"><strong>Research area:</strong> {{ y.research-area }}</div>{% endif %}
       {% if y.position %}<div class="list-item"><strong>Position at IISc:</strong> {{ y.position }}</div>{% endif %}   
       {% if y.present %}<div class="list-item"><strong>Current/next position:</strong> {{ y.present }}</div>{% endif %} 
       {% endfor %}

@@ -3,14 +3,14 @@
   user-id: arpitamal
   position: NPDF
   image: true
-  area: Functional analysis, Geometry of Banach space
+  research-area: Functional analysis, Geometry of Banach space
 
 - name: "Sushil Singla" 
   position: "Research Associate" 
   phd: "Shiv Nadar University" 
   user-id: "" 
   image: true 
-  area: "Functional analysis, Operator algebras" 
+  research-area: "Functional analysis, Operator algebras" 
   start: "2022" 
   end: "2022" 
   present: "University of Primorska, Slovenia" 
@@ -20,21 +20,21 @@
   user-id: chandanbiswa
   position: Research Associate
   image: true
-  area: Harmonic Analysis
+  research-area: Harmonic Analysis
   
 - name: Rajesh Kumar Singh 
   phd: IIT Kanpur 
   user-id: rajeshsingh
   position: NBHM
   image: true
-  area: Harmonic Analysis
+  research-area: Harmonic Analysis
   
 - name: Shivani Goel
   phd: IIT Madras
   user-id: shivanigoel
   position: NPDF
   image: true
-  area: Linear algebra, Graph theory
+  research-area: Linear algebra, Graph theory
   
 - name: Jyotirmoy Ganguly
   webpage:
@@ -42,12 +42,12 @@
   user-id: jyotirmoyg
   position: NBHM
   image: true
-  area: Representation Theory  
+  research-area: Representation Theory  
   
 - name: Biltu Dan
   position: Raman PDF
   phd: ISI
-  area: Probability Theory
+  research-area: Probability Theory
   start: "2021"
   end: "2023"
   present: Inspire Fellow, IISc, Bangalore
@@ -55,7 +55,7 @@
 - name: Gargi Ghosh
   position: Raman PDF
   phd: IISER Kolkata
-  area: Operator Theory
+  research-area: Operator Theory
   start: "2021"
   end: "2022"
   present:
@@ -63,7 +63,7 @@
 - name: Geethika Sebastian
   position: UGC Kothari
   phd: IIT Hyderabad 
-  area: Functional Analysis
+  research-area: Functional Analysis
   start: "2019"
   end: "2022"
   present: Instructor, IISc, Bangalore
@@ -71,7 +71,7 @@
 - name: "Mrigendra Singh Kushwaha"
   position: "Raman PDF"
   phd: "IMSc, Chennai"
-  area: "Representation Theory"
+  research-area: "Representation Theory"
   start: "2021"
   end: "2022"
   present: "Assistant Professor, University of Delhi - South Campus"
@@ -79,7 +79,7 @@
 - name: "Deb Kumar Giri"
   position: "NBHM"
   phd: "IIT Guwahati"
-  area: "Harmonic Analysis"
+  research-area: "Harmonic Analysis"
   start: 
   end: 
   present:
@@ -87,7 +87,7 @@
 - name: "Gouranga Mallik"
   position: "Raman PDF"
   phd: "IIT Bombay"
-  area: "PDE, finite element method"
+  research-area: "PDE, finite element method"
   start: "2018"
   end: "2022"
   present: "Assistant Professor, VIT, Vellore"
@@ -97,7 +97,7 @@
 - name: "Anoop V. P"
   position: "NPDF"
   phd: "NISER Bhubaneswar"
-  area: "Harmonic Analysis"
+  research-area: "Harmonic Analysis"
   start: "2020"
   end: "2022"
   present: "Visiting Scientist, ISI, Bangalore"
@@ -105,7 +105,7 @@
 - name: "Kiran Kumar Behera"
   position: "Kothari"
   phd: "IIT Roorkee"
-  area: "Operator Theory"
+  research-area: "Operator Theory"
   start: "2019"
   end: "2022"
   present: "Postdoctoral Fellow, NISER, Bhubaneshwar"
@@ -113,7 +113,7 @@
 - name: "Sudip Bera"
   position: "NBHM/DST"
   phd: "Visva-Bharati University"
-  area: "Algebraic Graph Theory, Algebraic combinatorics"
+  research-area: "Algebraic Graph Theory, Algebraic combinatorics"
   start: "2018"
   end: "2022"
   present: "Postdoctoral Fellow, TIFR, Mumbai"
@@ -122,7 +122,7 @@
 - name: "Projesh Nath Choudhury"
   position: "NBHM/NPDF/Raman PDF"
   phd: "IIT Madras"
-  area: "Matrix theory, in connection with positivity and combinatorics"
+  research-area: "Matrix theory, in connection with positivity and combinatorics"
   start: "2018"
   end: "2022"
   present: <a target="_blank" href="http://projesh.people.iitgn.ac.in/">Assistant Professor, IIT Gandhinagar</a>
@@ -131,7 +131,7 @@
 - name: "Sumana Hatui"
   position: "Raman PDF"
   phd: "HRI, Allahabad"
-  area: "Group Theory, Schur multiplier"
+  research-area: "Group Theory, Schur multiplier"
   start: "2019"
   end: "2022"
   present: <a target="_blank" href="https://sites.google.com/view/sumana-hatui/">Assistant Professor, NISER Bhubaneswar</a>
@@ -139,7 +139,7 @@
 - name: "Divya Khurana"
   position: "UGC Kothari"
   phd: "IIT Kanpur"
-  area: "Geometry of Banach spaces, greedy-type approximation algorithms"
+  research-area: "Geometry of Banach spaces, greedy-type approximation algorithms"
   start: "2019"
   end: "2022"
   present: <a target="_blank" href="https://iimranchi.ac.in/p/faculty.html?profile=divya-khurana">Assistant Professor, IIM Ranchi</a>
@@ -147,7 +147,7 @@
 - name: "Debmalya Sain"
   position: "NPDF"
   phd: "Jadavpur University"
-  area: "Geometry of normed linear spaces"
+  research-area: "Geometry of normed linear spaces"
   start: "2021"
   end: "2022"
   present: "Postdoctoral Fellow, Universidad de Granada, Spain"
@@ -155,7 +155,7 @@
 - name: "Sneh Bala Sinha"
   position: "NBHM"
   phd: "HRI, Allahabad"
-  area: "Number Theory"
+  research-area: "Number Theory"
   start: "2018"
   end: "2022"
   present: "Guest Faculty, SRM University"
@@ -163,7 +163,7 @@
 - name: "Sajal Kumar Mukherjee"
   position: "NBHM"
   phd: "Visva- Bharati University"
-  area: "Combinatorics (enumerative and topological)"
+  research-area: "Combinatorics (enumerative and topological)"
   start: "2020"
   end: "2021"
   present: "Postdoctoral Fellow, TCG Crest, Kolkata"
@@ -171,7 +171,7 @@
 - name: "Gianluca Faraco"
   position: "Raman PDF"
   phd: "University of Ferrera, Italy"
-  area: "Low-dimensional topology"
+  research-area: "Low-dimensional topology"
   start: "2020"
   end: "2021"
   present: <a target="_blank" href="https://sites.google.com/view/gianluca-faraco">Visiting Fellow, Max Planck Institute for Mathematics, Bonn</a>
@@ -179,7 +179,7 @@
 - name: "Mamta Balodi"
   position: "Raman PDF"
   phd: "MNNIT Allahabad"
-  area: "Quantum Algebra"
+  research-area: "Quantum Algebra"
   start: "2019"
   end: "2021"
   present:
@@ -187,7 +187,7 @@
 - name: "Samir Shukla"
   position: "NBHM"
   phd: 
-  area: 
+  research-area: 
   start: "2021"
   end: "2021"
   present: "Assistant Professor, IIT, Mandi"   
@@ -195,7 +195,7 @@
 - name: "G. Arunkumar"
   position: "NBHM"
   phd: "Institute of Mathematical Sciences, Chennai"
-  area: "Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory"
+  research-area: "Combinatorics, Infinite-dimensional Lie algebras, Spectral graph theory"
   start: "2020"
   end: "2021"
   present: <a target="_blank" href="https://sites.google.com/view/g-arunkumar/">Assistant Professor, IIT Madras</a>
@@ -203,7 +203,7 @@
 - name: "Anupam Gumber"  
   position: "NBHM"
   phd: "IIT Indore"
-  area: "Frame Theory, Harmonic analysis and its applications, Time-frequency analysis, Approximation theory, Function spaces, Operator theory, Group representation theory"
+  research-area: "Frame Theory, Harmonic analysis and its applications, Time-frequency analysis, Approximation theory, Function spaces, Operator theory, Group representation theory"
   start: "2019"
   end: "2021"
   present: "Postdoctoral Researcher, University of Vienna"
@@ -212,7 +212,7 @@
 - name: "Ramesh Manna"  
   position: "Kothari/Raman PDF/INSPIRE Faculty"  
   phd: "HRI, Allahabad"  
-  area: "Harmonic analysis"  
+  research-area: "Harmonic analysis"  
   start: "2020"  
   end: "2021"  
   present: <a target="_blank" href="https://www.niser.ac.in/sms/professor/rameshmanna">Assistant Professor, NISER Bhubaneswar</a>
@@ -220,7 +220,7 @@
 - name: "Anirudha Poria"  
   position: "Kothari"  
   phd: "IITG"  
-  area: "Applied Harmonic Analysis"  
+  research-area: "Applied Harmonic Analysis"  
   start: "2019"  
   end: "2020"  
   present: "Bar-Ilan university, Israel"  
@@ -228,7 +228,7 @@
 - name: "Tamal Pramanick"  
   position: "NBHM"  
   phd: "IITG"  
-  area: "Numerical analysis, PDE, FEM"  
+  research-area: "Numerical analysis, PDE, FEM"  
   start: "2019"  
   end: "2020"  
   present: "NIT, Calicut"  
@@ -236,7 +236,7 @@
 - name: "Bikramaditya Sahu"  
   position: "NBHM"
   phd: "NISER"  
-  area: "Algebraic combinatorics, Finite geometry"  
+  research-area: "Algebraic combinatorics, Finite geometry"  
   start: "2019"  
   end: "2020"  
   present: <a target="_blank" href="https://website.nitrkl.ac.in/FProfile.aspx?e=sahuba">Assistant Professor, NIT Rourkela</a>
@@ -244,7 +244,7 @@
 - name: "Srijan Sarkar"  
   position: "NBHM"  
   phd: "ISI"  
-  area: "Multivariate operator Theory"  
+  research-area: "Multivariate operator Theory"  
   start: "2019"  
   end: "2020"  
   present: "INSPIRE Faculty, IISc"  
@@ -252,7 +252,7 @@
 - name: "Kuldeep Kumar Kataria"  
   position: 
   phd: "IITB"  
-  area: "Probability and Stochastic processes"  
+  research-area: "Probability and Stochastic processes"  
   start: "2018"  
   end: "2018"  
   present: <a target="_blank" href="https://www.iitbhilai.ac.in/index.php?pid=profile_drkuldeep">Assistant Professor, IIT Bhilai</a>
@@ -260,7 +260,7 @@
 - name: "Arun Maiti"  
   position: "NBHM"  
   phd: "University of Leipzig, Germany"  
-  area: "String Topology, Symplectic Geometry"  
+  research-area: "String Topology, Symplectic Geometry"  
   start: "2018"  
   end: "2020"  
   present: "Postdoctoral Fellow, IIT, Kharagpur" 
@@ -268,7 +268,7 @@
 - name: "Aiyappan S."  
   position:  
   phd: "IISc, Bangalore"  
-  area: "Partial differential equations"  
+  research-area: "Partial differential equations"  
   start: "2017"  
   end: "2019"  
   present: "Postdoctoral Fellow, Fraunhofer-ITWM, Germany"  
@@ -276,7 +276,7 @@
 - name: "Gopal Datt"  
   position: "Kothari/SJF/NPDF"  
   phd: "University of Delhi"  
-  area: "Nevanlinna theory, Several complex variables"  
+  research-area: "Nevanlinna theory, Several complex variables"  
   start: "2017"  
   end: "2020"  
   present: <a target="_blank" href="https://sites.google.com/view/gopaldatt">Assistant Professor, Babasaheb Bhimrao Ambedkar University</a>
@@ -284,7 +284,7 @@
 - name: "Qaiser Jahan"  
   position: "Kothari"  
   phd: "ISI"  
-  area: "Harmonic Analysis, Wavelets"  
+  research-area: "Harmonic Analysis, Wavelets"  
   start: "2017"  
   end: "2017"  
   present: "IIT, Mandi"  
@@ -292,7 +292,7 @@
 - name: "Abhash Kumar Jha"  
   position: "NPDF"  
   phd: "NISER"  
-  area: "Number theory"  
+  research-area: "Number theory"  
   start: "2017"  
   end: "2019"  
   present: "IIT, BHU"  
@@ -300,7 +300,7 @@
 - name: "Vishnu Priya Nataraj"  
   position: "Kothari"  
   phd: "Bharathidasan University"  
-  area: "Nonlinear integrable systems, Solitons"  
+  research-area: "Nonlinear integrable systems, Solitons"  
   start: "2017"  
   end: "2020"  
   present: 
@@ -308,7 +308,7 @@
 - name: "Tanmay Sarkar"  
   position: 
   phd: "IITM"  
-  area: "Partial Differential Equations and Numerics"  
+  research-area: "Partial Differential Equations and Numerics"  
   start: "2017"  
   end: "2018"  
   present: "IIT, Jammu"  
@@ -316,7 +316,7 @@
 - name: "Abhitosh Upadhyay"  
   position: "NPDF"  
   phd: "Guru Gobind Indraprastha University"  
-  area: "Semi-Riemannian geometry, Biconservative and Biharmonic submanifolds"  
+  research-area: "Semi-Riemannian geometry, Biconservative and Biharmonic submanifolds"  
   start: "2017"  
   end: "2020"  
   present: "IIT Goa"  
@@ -324,7 +324,7 @@
 - name: "Asha Kisan Dond"  
   position: "NBHM"  
   phd: "IITB"  
-  area: "Partial Differential Equations"  
+  research-area: "Partial Differential Equations"  
   start: "2016"  
   end: "2020"  
   present: "IISER, Thiruvananthapuram"  
@@ -332,7 +332,7 @@
 - name: "Tathagata Banerjee"  
   position: 
   phd: "Georg-August Universität Göttingen, Germany"  
-  area: 
+  research-area: 
   start: "2015"  
   end: "2017"  
   present: "ISI, Bangalore / CUSAT"  
@@ -340,7 +340,7 @@
 - name: "A. Sathish Kumar"  
   position: "NBHM"  
   phd: "IITR"  
-  area: "Approximation Theory"  
+  research-area: "Approximation Theory"  
   start: "2015"  
   end: "2016"  
   present: "VNIT, Nagpur"  
@@ -348,7 +348,7 @@
 - name: "K. Kalaivani"  
   position: 
   phd: "University of Madras"  
-  area: 
+  research-area: 
   start: "2015"  
   end: "2016"  
   present: "VIT, Vellore"  
@@ -356,7 +356,7 @@
 - name: "Dipendu Maity"  
   position: "Kothari/NBHM"  
   phd: "IITP"  
-  area: "Combinatorial Topology"  
+  research-area: "Combinatorial Topology"  
   start: "2015"  
   end: "2019"  
   present: "IIIT, Guwahati"  
@@ -364,7 +364,7 @@
 - name: "Sumit Mohanty"  
   position: 
   phd: "IITK"  
-  area: "Analysis on Graphs, Spectral Graph Theory"  
+  research-area: "Analysis on Graphs, Spectral Graph Theory"  
   start: "2015"  
   end: "2017"  
   present: "GITAM Visakhatam /IISER, Thiruvananthapuram"  
@@ -372,7 +372,7 @@
 - name: "Samrith Ram"  
   position: 
   phd: "IITB"  
-  area: "Combinatorics"  
+  research-area: "Combinatorics"  
   start: "2015"  
   end: "2015"  
   present: "IIIT, Delhi"  
@@ -380,7 +380,7 @@
 - name: "Kaustubh Manchanda"  
   position: "Kothari"  
   phd: "JNU"  
-  area: "Combinatorics"  
+  research-area: "Combinatorics"  
   start: "2014"  
   end: "2017"  
   present: "Azim Premji University, Bangalore"  
@@ -388,7 +388,7 @@
 - name: "R. Manikandan"  
   position: "Kothari"  
   phd: "Cochin"  
-  area: "Stochastic Analysis"  
+  research-area: "Stochastic Analysis"  
   start: "2014"  
   end: "2015"  
   present: "Central University Kerala, Kasargod"  
@@ -396,7 +396,7 @@
 - name: "Chandan Pal"  
   position: "Kothari"  
   phd: "IITB"  
-  area: "Stochastic Analysis"  
+  research-area: "Stochastic Analysis"  
   start: "2014"  
   end: 
   present: "IIT, Guwahati"  
@@ -404,7 +404,7 @@
 - name: "Anuradha Jha"  
   position: 
   phd: "IITK"  
-  area: "Numerical solutions of ordinary and partial differential equations"  
+  research-area: "Numerical solutions of ordinary and partial differential equations"  
   start: "2013"  
   end: 
   present: "IIIT, Guwahati"  
@@ -412,7 +412,7 @@
 - name: "V. K. Sohani "  
   position: "NBHM"  
   phd: "HRI"  
-  area: "Harmonic Analysis"  
+  research-area: "Harmonic Analysis"  
   start: "2013"  
   end: "2016"  
   present: "IIT, Indore"  
@@ -420,7 +420,7 @@
 - name: "R. Lakshmi Lavanya"  
   position: "NBHM"  
   phd: "Madras"  
-  area: "Harmonic Analysis"  
+  research-area: "Harmonic Analysis"  
   start: "2012"  
   end: "2015"  
   present: "IISER, Tirupati"  
@@ -428,7 +428,7 @@
 - name: "Micah Miller"  
   position: "CPDF"  
   phd: "CUNY, USA"  
-  area: "Topology"  
+  research-area: "Topology"  
   start: "2012"  
   end: "2014"  
   present: "Texas State University"  
@@ -436,7 +436,7 @@
 - name: "Thomas Richard"  
   position: "IISc RA"  
   phd: "Grenoble, France"  
-  area: "Differential Geometry"  
+  research-area: "Differential Geometry"  
   start: "2012"  
   end: "2013"  
   present: "Université Paris-Est Créteil"  
@@ -444,7 +444,7 @@
 - name: "Soumen Sarkar"  
   position: "CPDF"  
   phd: "ISI"  
-  area: "Topology"  
+  research-area: "Topology"  
   start: "2012"  
   end: "2012"  
   present: "KAIST, Korea/IIT Madras"  
@@ -452,7 +452,7 @@
 - name: "T. V. Anoop"  
   position: "Kothari"  
   phd: "IMSc"  
-  area: "Partial Differential Equations"  
+  research-area: "Partial Differential Equations"  
   start: "2011"  
   end: "2012"  
   present: "IIT, Madras"  
@@ -460,7 +460,7 @@
 - name: "David Michael Farris"  
   position: "IISc RA"  
   phd: "University of California at Berkeley, USA"  
-  area: "Topology"  
+  research-area: "Topology"  
   start: "2011"  
   end: "2012"  
   present: "NCBS/Indian Foundatiion of Arts"  
@@ -468,7 +468,7 @@
 - name: "H. S. Gupta"  
   position: "NBHM"  
   phd: 
-  area: "Numerical Analysis, PDE"  
+  research-area: "Numerical Analysis, PDE"  
   start: "2011"  
   end: "2013"  
   present: 
@@ -476,7 +476,7 @@
 - name: "Sameer Kamal"  
   position: "NBHM"  
   phd: "TIFR"  
-  area: "Applied probability"  
+  research-area: "Applied probability"  
   start: "2011"  
   end: "2012"  
   present: "IIT, Guwahati"  
@@ -484,7 +484,7 @@
 - name: "Venku Naidu"  
   position: "Kothari"  
   phd: "IITM"  
-  area: "Harmonic Analysis"  
+  research-area: "Harmonic Analysis"  
   start: "2011"  
   end: "2012"  
   present: "IIT, Hyderabad"  
@@ -492,7 +492,7 @@
 - name: "Dhanya Rajendran"  
   position: "NBHM"  
   phd: "TIFR"  
-  area: "Partial Differential Equations"  
+  research-area: "Partial Differential Equations"  
   start: "2011"  
   end: "2014"  
   present: "IISER, Thiruvananthapuram"  
@@ -500,7 +500,7 @@
 - name: "Rajesh Srivastava "  
   position: "Kothari"  
   phd: "IITK"  
-  area: "Harmonic Analysis"  
+  research-area: "Harmonic Analysis"  
   start: "2011"  
   end: "2012"  
   present: "IIT, Guwahati"  
@@ -508,7 +508,7 @@
 - name: "Bappaditya Bhowmik"  
   position: "Kothari"  
   phd: "IITM"  
-  area: "Complex analysis"  
+  research-area: "Complex analysis"  
   start: "2010"  
   end: 
   present: "IIT, Kharagpur"  
@@ -516,7 +516,7 @@
 - name: "Arijit Chakrabarty"  
   position: "CPDF"  
   phd: "Cornell, USA"  
-  area: "Probability"  
+  research-area: "Probability"  
   start: "2010"  
   end: "2010"  
   present: "ISI, Kolkata"  
@@ -524,7 +524,7 @@
 - name: "Ashisha Kumar"  
   position: "DST"  
   phd: "IITK"  
-  area: "Harmonic Analysis"  
+  research-area: "Harmonic Analysis"  
   start: "2010"  
   end: "2013"  
   present: "IIT, Indore"  
@@ -532,7 +532,7 @@
 - name: "K. Nidhin"  
   position: "Kothari"  
   phd: "Calicut"  
-  area: "Stochastic processes"  
+  research-area: "Stochastic processes"  
   start: "2010"  
   end: "2013"  
   present: 
@@ -540,7 +540,7 @@
 - name: "Manoj K Yadav"  
   position: "NBHM"  
   phd: "IITM"  
-  area: "Applied analysis, Nonlinear PDE"  
+  research-area: "Applied analysis, Nonlinear PDE"  
   start: "2010"  
   end: "2012"  
   present: "Mahindra University, Hyderabad"  
@@ -548,7 +548,7 @@
 - name: "Sudheesh Chethil"  
   position: "IISc RA"  
   phd: "IITM"  
-  area: "Dynamical systems"  
+  research-area: "Dynamical systems"  
   start: "2009"  
   end: "2010"  
   present: "IIST, Thiruvananthapuram"  
@@ -556,7 +556,7 @@
 - name: "Aparajita Dasgupta"  
   position: "DST"  
   phd: "York, Canada"  
-  area: "Harmonic Analysis"  
+  research-area: "Harmonic Analysis"  
   start: "2009"  
   end: "2010"  
   present: "IIT, Delhi"  
@@ -564,7 +564,7 @@
 - name: "Sanjoy Pusti"  
   position: "UGC"  
   phd: "ISI"  
-  area: "Harmonic Analysis"  
+  research-area: "Harmonic Analysis"  
   start: "2009"  
   end: "2010"  
   present: "IIT, Kanpur/IIT, Bombay"  
@@ -572,7 +572,7 @@
 - name: "Ranja Sarkar"  
   position: "DST"  
   phd: "Pune"  
-  area: "Mathematical finance"  
+  research-area: "Mathematical finance"  
   start: "2009"  
   end: "2009"  
   present: "TheMathCompany"
@@ -580,7 +580,7 @@
 - name: "Hemangi Shah"  
   position: "CPDF"  
   phd: "IITB"  
-  area: "Differential Geometry"  
+  research-area: "Differential Geometry"  
   start: "2009"  
   end: 
   present: "HRI, Allahabad"  
@@ -588,7 +588,7 @@
 - name: "Subash Chandra Martha"  
   position: "NBHM"  
   phd: "IITG"  
-  area: "Fluid dynamics"  
+  research-area: "Fluid dynamics"  
   start: "2007"  
   end: "2010"  
   present: "IIT, Ropar"  
@@ -596,7 +596,7 @@
 - name: "T. Muthukumar"  
   position: "NBHM"  
   phd: "Madras"  
-  area: "Partial Differential Equations"  
+  research-area: "Partial Differential Equations"  
   start: "2007"  
   end: "2008"  
   present: "IIT, Kanpur"  
@@ -604,7 +604,7 @@
 - name: "Tejaswi Navilarekallu"  
   position: "CPDF"  
   phd: "Caltech, USA"  
-  area: "Number theory"  
+  research-area: "Number theory"  
   start: "2007"  
   end: "2008"  
   present: 
@@ -612,7 +612,7 @@
 - name: "P. Palaniyandi"  
   position: "DRDO"  
   phd: "Bharathidasan University"  
-  area: "Nonlinear dynamics"  
+  research-area: "Nonlinear dynamics"  
   start: "2007"  
   end: "2007"  
   present: "Bharathidasan University, Tiruchirapalli"  
@@ -620,7 +620,7 @@
 - name: "Muslim Malik"  
   position: "NBHM"  
   phd: "IITK"  
-  area: "Differential Equations"  
+  research-area: "Differential Equations"  
   start: "2006"  
   end: "2008"  
   present: "IIT, Mandi"  
@@ -628,7 +628,7 @@
 - name: "Shrihari Sridharan"  
   position: "IMI"  
   phd: "Manchester"  
-  area: "Complex dynamics"  
+  research-area: "Complex dynamics"  
   start: "2006"  
   end: "2007"  
   present: "IISER, Thiruvananthapuram"  
@@ -636,7 +636,7 @@
 - name: "Anuradha Narasimhan"  
   position: "IMI"  
   phd: "Pune"  
-  area: "Algebraic number theory"  
+  research-area: "Algebraic number theory"  
   start: "2005"  
   end: "2006"  
   present: 
@@ -644,7 +644,7 @@
 - name: "Karabi Sikdar"  
   position: "NBHM"  
   phd: "IIT KGP"  
-  area: "Queueing theory"  
+  research-area: "Queueing theory"  
   start: "2005"  
   end: "2007"  
   present: "BMS Institute of Technology and Management, Bangalore"  
@@ -652,7 +652,7 @@
 - name: "V. V. K. Srinivas Kumar"  
   position: "DST"  
   phd: "IITK"  
-  area: "Scientific computation"  
+  research-area: "Scientific computation"  
   start: "2005"  
   end: "2008"  
   present: "IIT, Delhi"  
@@ -660,7 +660,7 @@
 - name: "Sachi Srivastava"  
   position: "IISc RA"  
   phd: "Oxford (D. Phil.), UK"  
-  area: "Functional Analysis"  
+  research-area: "Functional Analysis"  
   start: "2005"  
   end: "2006"  
   present: "Delhi University"  
@@ -668,7 +668,7 @@
 - name: "P. Danunjaya"  
   position: 
   phd: "IITB"  
-  area: "Finite element method"  
+  research-area: "Finite element method"  
   start: "2004"  
   end: 
   present: 
@@ -676,7 +676,7 @@
 - name: "Anita Naolekar"  
   position: "NBHM"  
   phd: "ISI"  
-  area: "Algebraic Topology"  
+  research-area: "Algebraic Topology"  
   start: "2004"  
   end: "2008"  
   present: "ISI, Bangalore"  
@@ -684,7 +684,7 @@
 - name: "D. Narayana"  
   position: "NBHM"  
   phd: "Paris"  
-  area: "Functional Analysis"  
+  research-area: "Functional Analysis"  
   start: "2004"  
   end: "2007"  
   present: 
@@ -692,7 +692,7 @@
 - name: "Deepak Sridhara"  
   position: "IMI"  
   phd: "Notre Dame, USA"  
-  area: "Coding theory"  
+  research-area: "Coding theory"  
   start: "2004"  
   end: 
   present: 
@@ -700,7 +700,7 @@
 - name: "N. Gnaneshwaran"  
   position: "NBHM"  
   phd: "IITB"  
-  area: "Numerical Analysis"  
+  research-area: "Numerical Analysis"  
   start: "2003"  
   end: 
   present: 
@@ -708,7 +708,7 @@
 - name: "Sara Mohanty"  
   position: "NBHM"  
   phd: "University of California at Riverside"  
-  area: "Topology"  
+  research-area: "Topology"  
   start: "2003"  
   end: 
   present: "East Los Angeles College"  
@@ -716,7 +716,7 @@
 - name: "Saroj Panigrahi"  
   position: "NBHM"  
   phd: "Behrampur University"  
-  area: "Difference/Differential Equations"  
+  research-area: "Difference/Differential Equations"  
   start: "2002"  
   end: "2004"  
   present: "University of Hyderabad"  
@@ -724,7 +724,7 @@
 - name: "Philippe Pitteloud"  
   position: "IISc RA"  
   phd: "Université de Genève, Switzerland"  
-  area: "Number theory"  
+  research-area: "Number theory"  
   start: "2001"  
   end: "2002"  
   present: 
@@ -732,7 +732,7 @@
 - name: "Rajesh Mahadevan"  
   position: "NBHM"  
   phd: "Chennai"  
-  area: "Homogenization, PDE"  
+  research-area: "Homogenization, PDE"  
   start: "2000"  
   end: "2002"  
   present: "Universidad de Concepcion, Chile"  
@@ -740,7 +740,7 @@
 - name: "P. V. Ushakumari"  
   position: 
   phd: "CUSAT"  
-  area: "Stochastic Modelling and Analysis"  
+  research-area: "Stochastic Modelling and Analysis"  
   start: "1998"  
   end: "1999"  
   present: 
@@ -748,7 +748,7 @@
 - name: "K. Kolwankar"  
   position: "DST"  
   phd: "Pune"  
-  area: "Fractional calculus, Nonlinear dynamics"  
+  research-area: "Fractional calculus, Nonlinear dynamics"  
   start: "1997"  
   end: 
   present: 
@@ -756,7 +756,7 @@
 - name: "Geetha P. Ramaswami"  
   position: "NBHM"  
   phd: "Cambridge, UK"  
-  area: "Numerical Analysis, ODE, Dynamical systems"  
+  research-area: "Numerical Analysis, ODE, Dynamical systems"  
   start: "1996"  
   end: "1998"  
   present: 
@@ -764,7 +764,7 @@
 - name: "A. K. Vijayarajan"  
   position: "NBHM"  
   phd: "ISI"  
-  area: "Index theory of von Neumann algebras"  
+  research-area: "Index theory of von Neumann algebras"  
   start: "1996"  
   end: "1998"  
   present: "Kerala School of Mathematics, Kozhikode"  
@@ -772,7 +772,7 @@
 - name: "S. C. Mandal"  
   position: "JNCASR"  
   phd: "NBU"  
-  area: "Elastic and viscoelastic waves"  
+  research-area: "Elastic and viscoelastic waves"  
   start: "1994"  
   end: "1995"  
   present: 
@@ -780,7 +780,7 @@
 - name: "M. P. Joy"  
   position: "NBHM"  
   phd: 
-  area: "Chaos and nonlinear waves"  
+  research-area: "Chaos and nonlinear waves"  
   start: "1993"  
   end: "1995"  
   present: 
@@ -788,7 +788,7 @@
 - name: "G. Sethuraman"  
   position: "NBHM"  
   phd: "Bombay"  
-  area: "Nonlinear dyifferential equations"  
+  research-area: "Nonlinear dyifferential equations"  
   start: "1992"  
   end: "1994"  
   present: 
@@ -796,7 +796,7 @@
 - name: "Raju K. George"  
   position: "NBHM"  
   phd: "IITB"  
-  area: "Nonlinear functional analysis, Control system theory"  
+  research-area: "Nonlinear functional analysis, Control system theory"  
   start: "1991"  
   end: "1994"  
   present: "IIST, Thiruvananthapuram"  
@@ -804,7 +804,7 @@
 - name: "D. Palaniappan"  
   position: "NBHM"  
   phd: "Hyderabad"  
-  area: "Nonlinear phenomena, Shallow water equations"  
+  research-area: "Nonlinear phenomena, Shallow water equations"  
   start: "1991"  
   end: "1994"  
   present: 
@@ -812,7 +812,7 @@
 - name: "S. Sundar"  
   position: "IISc RA"  
   phd: 
-  area: "Partial Differential Equations, CFD"  
+  research-area: "Partial Differential Equations, CFD"  
   start: "1991"  
   end: "1994"  
   present: "IIT, Madras"  
