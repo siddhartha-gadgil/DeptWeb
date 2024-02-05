@@ -3,14 +3,14 @@
   user-id: arpitamal
   position: NPDF
   image: true
-  research-area: Functional analysis, Geometry of Banach space
+  area: Functional analysis, Geometry of Banach space
 
 - name: "Sushil Singla" 
   position: "Research Associate" 
   phd: "Shiv Nadar University" 
   user-id: "" 
   image: true 
-  research-area: "Functional analysis, Operator algebras" 
+  area: "Functional analysis, Operator algebras" 
   start: "2022" 
   end: "2022" 
   present: "University of Primorska, Slovenia" 
@@ -20,21 +20,21 @@
   user-id: chandanbiswa
   position: Research Associate
   image: true
-  research-area: Harmonic Analysis
+  area: Harmonic Analysis
   
 - name: Rajesh Kumar Singh 
   phd: IIT Kanpur 
   user-id: rajeshsingh
   position: NBHM
   image: true
-  research-area: Harmonic Analysis
+  area: Harmonic Analysis
   
 - name: Shivani Goel
   phd: IIT Madras
   user-id: shivanigoel
   position: NPDF
   image: true
-  research-area: Linear algebra, Graph theory
+  area: Linear algebra, Graph theory
   
 - name: Jyotirmoy Ganguly
   webpage:
@@ -42,7 +42,7 @@
   user-id: jyotirmoyg
   position: NBHM
   image: true
-  research-area: Representation Theory  
+  area: Representation Theory  
   
 - name: Biltu Dan
   position: Raman PDF
