@@ -1,69 +1,69 @@
-- name	:	Srimala Srikanth
-  user-id	:	srikanths
+- name: Srimala Srikanth
+  user-id: srikanths
   year-of-joining: 2015
   programme: PhD
-  guide: Manjunath Krishnapur 
-  scholarship: NBHM 
+  guide: Manjunath Krishnapur
+  scholarship: NBHM
   office: L14
 
-
-- name	:	Londhe Mayuresh Mahadeo
-  user-id	:	mayureshl
+- name: Londhe Mayuresh Mahadeo
+  user-id: mayureshl
   year-of-joining: 2016
   programme: PhD
   guide: Gautam Bharali
   scholarship: NBHM
   image: true
   webpage: https://math.iisc.ac.in/~mayuresh16/
+  office: L21
 
-
-- name	:	K. Hariram
-  user-id	:	hariramk
+- name: K. Hariram
+  user-id: hariramk
   year-of-joining: 2016
   programme: PhD
   guide: Soumya Das
   scholarship: IISc
   image: true
+  office: R21(4)
 
-
-- name	:	Surjadipta De Sarkar
-  user-id	:	surjadiptade
+- name: Surjadipta De Sarkar
+  user-id: surjadiptade
   year-of-joining: 2015
   programme: Integrated PhD
   guide: Arvind Ayyer
   scholarship: IISc
+  office: N11(4)
 
-
-- name	:	Pabitra Barman
-  user-id	:	pabitrab
+- name: Pabitra Barman
+  user-id: pabitrab
   year-of-joining: 2016
   programme: Integrated PhD
   guide: Subhojoy Gupta
   scholarship: IISc
+  office: L21(4)
 
-
-- name	:	Pranab Sarkar
-  user-id	:	pranabsarkar
+- name: Pranab Sarkar
+  user-id: pranabsarkar
   year-of-joining: 2016
   programme: Integrated PhD
   guide: Subhojoy Gupta
   scholarship: IISc
+  office: LH-I
 
-
-- name	:	Shubham Rastogi
-  user-id	:	shubhamr
+- name: Shubham Rastogi
+  user-id: shubhamr
   year-of-joining: 2016
   programme: Integrated PhD
   guide: Tirthankar Bhattacharyya
   scholarship: IISc
+  office: LH-I
 
-
-- name	:	Swarnalipa Datta
-  user-id	:	swarnalipad
+- name: Swarnalipa Datta
+  user-id: swarnalipad
   year-of-joining: 2016
   programme: Integrated PhD
   guide: Apoorva Khare
   scholarship: IISc
+  office: LH-I
 
 - name: Ramesh Mete
   year-of-joining: 2017
@@ -72,7 +72,7 @@
   guide: Ved Datar
   scholarship: IISc
   image: true
-
+  office: X22(6)
 
 - name: Purba Banerjee
   year-of-joining: 2017
@@ -80,6 +80,7 @@
   user-id: purbab
   guide: M. K. Ghosh
   scholarship: IISc
+  office: L26(4)
 
 - name: Abhay Jindal
   year-of-joining: 2017
@@ -90,6 +91,7 @@
   scholarship: IISc
   webpage: https://sites.google.com/view/abhayjindal
   image: true
+  office: X22(6)
 
 - name: Babhrubahan Bose
   year-of-joining: 2017
@@ -97,8 +99,9 @@
   user-id: babhrubahanb
   guide: Apoorva Khare
   scholarship: PMRF
+  office: X22(6)
 
-- name : Aakanksha Jain
+- name: Aakanksha Jain
   user-id: aakankshaj
   year-of-joining: 2017
   programme: Integrated PhD
@@ -106,7 +109,7 @@
   guide: Kaushal Verma
   scholarship: IISc
   webpage: https://sites.google.com/view/aakanksha-jain
-
+  office: LH-I
 
 - name: Arindam Mandal
   year-of-joining: 2017
@@ -115,7 +118,7 @@
   image: true
   guide: Vamsi Pritam Pingali
   scholarship: IISc
-  
+  office: X22(6)
 
 - name: Neeladri Maitra
   user-id: neeladrim
@@ -124,7 +127,7 @@
   image: true
   guide: Sanchayan Sen
   scholarship: IISc
-
+  office: N05(4)
 
 - name: Gobinda Sau
   user-id: gobindasau
@@ -133,6 +136,7 @@
   image: true
   guide: Subhojoy Gupta
   scholarship: IISc
+  office: R24(4)
 
 - name: Sivaram P
   user-id: sivaramp
@@ -140,6 +144,7 @@
   programme: PhD
   guide: Kaushal Verma
   scholarship: NBHM
+  office: X20(6)
 
 - name: Renjith. T
   user-id: renjitht
@@ -148,6 +153,7 @@
   image: true
   guide: Kaushal Verma
   scholarship: NBHM
+  office: X20(6)
 
 - name: Annapurna Banik
   user-id: annapurnab
@@ -156,6 +162,7 @@
   image: true
   guide: Gautam Bharali
   scholarship: NBHM
+  office: L24(4)
 
 - name: Nishu Kumari
   user-id: nishukumari
@@ -163,6 +170,7 @@
   programme: PhD
   guide: Kaushal Verma
   scholarship: NBHM
+  office: L28(4)
 
 - name: Sompurkar Rajas Sandeep
   user-id: rajass
@@ -171,8 +179,7 @@
   image: true
   guide: Vamsi Pritham Pingali
   scholarship: Inspire
-
-
+  office: X20(6)
 
 - name: Dipnit Biswas
   user-id: dipnitbiswas
@@ -180,6 +187,7 @@
   programme: Integrated PhD
   guide: yet to decide
   scholarship: IISc
+  office: N06(4)
 
 - name: B.S. Jnaneshwar
   user-id: jnaneshwarb
@@ -187,6 +195,7 @@
   programme: Integrated PhD
   guide: yet to decide
   scholarship: IISc
+  office: N06(4)
 
 - name: Aashirwad Ballal
   user-id: aashirwadb
@@ -195,6 +204,7 @@
   guide: yet to decide
   scholarship: IISc
   image: true
+  office: N06(4)
 
 - name: Priyanka Chudasama
   user-id: Priyankac
@@ -202,6 +212,7 @@
   programme: Integrated PhD
   guide: yet to decide
   scholarship: IISc
+  office: N06(4)
 
 - name: Agniva Chatterjee
   user-id: agnivac
@@ -209,169 +220,196 @@
   programme: Integrated PhD
   guide: yet to decide
   scholarship: IISc
+  office: X22(6)
 
 - name: Sumanta Das
-  year-of-joining: 2019 
+  year-of-joining: 2019
   programme: PhD
   user-id: sumantadas
   image: true
+  office: LH-I
 
 - name: M V Kumar Nair
   year-of-joining: 2019
   programme: PhD
   user-id: ajaynair
   image: true
+  office: N04(6)
 
 - name: MD Irfan Habib
   year-of-joining: 2019
   programme: PhD
   user-id: irfanhabib
   image: true
+  office: X21(6)
 
 - name: Anita Arora
   year-of-joining: 2019
   programme: PhD
   user-id: anitaarora
   image: true
+  office: L24(4)
 
 - name: Mansimar Singh
   year-of-joining: 2019
   programme: Integrated PhD
   user-id: mansimars
   image: true
+  office: X21(6)
 
 - name: Thummala Vamsi Krishna
   year-of-joining: 2019
   programme: Integrated PhD
   user-id: vamsit
   image: true
+  office: N06(4)
 
 - name: Karambir Das
   year-of-joining: 2020
   programme: Integrated PhD
   user-id: karambirdas
   image: true
+  office: X20(6)
 
 - name: Maniyar Sourish Parag
   year-of-joining: 2020
   programme: Integrated PhD
   user-id: sourishparag
   image: true
+  office: X20(6)
 
 - name: Rieshikesh Rajendra Ghatage
   year-of-joining: 2020
   programme: Integrated PhD
   user-id: rieshikeshr
   image: true
-
+  office: X20(6)
 
 - name: Rumpa Masanta
   year-of-joining: 2020
   programme: PhD
   user-id: rumpamasanta
   image: true
+  office: L26(4)
 
-- name: Utsabraj Sarkar 
+- name: Utsabraj Sarkar
   year-of-joining: 2020
   programme: PhD
   user-id: utsabrajs
   image: true
+  office: N11(4)
 
 - name: Mainak Bhowmik
   year-of-joining: 2020
   programme: PhD
   user-id: mainakb
   image: true
+  webpage: https://ajay731.github.io/ajayprajapati/
+  office: X21(6)
 
 - name: Subhajit Das
   year-of-joining: 2020
   programme: PhD
   user-id: subhajitdas
   image: true
+  office: N11(4)
 
 - name: Arnab Pal
   year-of-joining: 2020
   programme: PhD
   user-id: arnabpalp
   image: true
+  office: N04(6)
 
-- name: Chaithra P 
+- name: Chaithra P
   year-of-joining: 2021
   programme: PhD
-  user-id: chaithrap 
+  user-id: chaithrap
   image: true
+  office: L24(4)
 
 - name: Lalit Thuwal
   year-of-joining: 2021
   programme: PhD
   user-id: lalitthuwal
   image: true
+  office: N04(6)
 
 - name: Kumar Sannidhya Shukla
   year-of-joining: 2021
   programme: PhD
   user-id: kumarshukla
   image: true
+  office: N04(6)
 
 - name: Yash Chauhan
   year-of-joining: 2021
   programme: Integrated PhD
   user-id: yashchauhan
   image: true
-  
+  office: N04(6)
+
 - name: Arghan Dutta
   year-of-joining: 2021
   programme: Integrated PhD
   user-id: arghandutta
   image: true
+  office: L21(4)
 
 - name: Arghyadeep Chatterjee
   year-of-joining: 2021
   programme: Integrated PhD
   user-id: arghyadeepc
   image: true
+  office: L21(4)
 
 - name: Sushobhan Das
   year-of-joining: 2021
   programme: Integrated PhD
   user-id: sushobhandas
-  
-  
+  office: N04(6)
+
 - name: Ritabrata Das
   year-of-joining: 2021
   programme: PhD
   user-id: ritabratadas
   image: true
+  office: L26(4)
 
 - name: Sudeshna Bhattacharjee
   year-of-joining: 2021
   programme: PhD
   user-id: sudeshnab
   image: true
+  office: L26(4)
 
 - name: Ashutosh Suresh Jangle
   year-of-joining: 2021
   programme: PhD
   user-id: ashutoshjs
-  image: true  
+  image: true
+  office: X20(6)
 
 - name: Pratik Ashok Jadhav
   year-of-joining: 2022
   programme: PhD
   user-id: pratikjadhav
-  image: true  
+  image: true
+  office: L22(4)
 
 - name: Mahesh Garg
   year-of-joining: 2022
   programme: PhD
   user-id: maheshgarg
   image: true
+  office: L22(4)
 
 - name: Pallab Kumar Hembram
   year-of-joining: 2022
   programme: PhD
   user-id: pallabh
   image: true
+  office: L22(4)
 
 - name: Ajay Prajapati
   year-of-joining: 2022
@@ -379,117 +417,138 @@
   user-id: ajayp
   image: true
   webpage: https://ajay731.github.io/ajayprajapati/
+  office: L22(4)
 
 - name: Rohit Mahato
   year-of-joining: 2022
   programme: Integrated PhD
   user-id: rohitmahato
   image: true
-
+  office: X22(6)
 
 - name: Sourav Ghosh
   year-of-joining: 2022
   programme: Integrated PhD
   user-id: souravghosh1
-  image: true  
-  
+  image: true
+  office: N11(4)
+
 - name: Daksh Sultania
   year-of-joining: 2022
   programme: Integrated PhD
   user-id: dakshs
-  image: true  
+  image: true
+  office: N11(4)
 
 - name: Chavda Sahil Ramjibhai
   year-of-joining: 2022
   programme: Integrated PhD
   user-id: sahilchavda
   image: true
+  office: N11(4)
 
 - name: Kapil Kumar
   year-of-joining: 2022
   programme: Integrated PhD
   user-id: kapilkumar
   image: true
+  office: X21(6)
 
 - name: Anant Narayanan
   year-of-joining: 2022
   programme: Integrated PhD
   user-id: anantn
   image: true
+  office: X21(6)
 
 - name: Deepak Kumar
   year-of-joining: 2022
   programme: PhD
   user-id: deepakkumar5
   image: true
+  office: L22(4)
 
 - name: Supriya Saha
   year-of-joining: 2022
   programme: PhD
   user-id: supriyasaha
   image: true
+  office: L22(4)
 
 - name: Sudip Dolai
   year-of-joining: 2022
   programme: PhD
   user-id: sudipdolai
   image: true
+  office: L22(4)
+
 - name: Anantha Krishna B
   year-of-joining: 2023
   programme: PhD
   user-id: ananthakb
   image: true
+  office: L21(4)
 
 - name: Archana M P
   year-of-joining: 2023
   programme: PhD
   user-id: archanam
   image: true
+  office: L24(4)
 
 - name: Biplab Das
   year-of-joining: 2023
   programme: PhD
   user-id: biplabdas
   image: true
+  office: L21(4)
 
 - name: Damase Sujit Sakharam
   year-of-joining: 2023
   programme: PhD
   user-id: sujits
   image: true
+  office: L24(4)
 
 - name: Ritul
   year-of-joining: 2023
   programme: PhD
   user-id: ritul2023
   image: true
+  office: L21(4)
 
 - name: Ritvik Saharan
   year-of-joining: 2023
   programme: PhD
   user-id: ritviks
   image: true
+  office: L21(4)
 
 - name: Sayan Adhikari
   year-of-joining: 2023
   programme: PhD
   user-id: sayana
   image: true
+  office: L21(4)
 
 - name: Vyshnav V
   year-of-joining: 2023
   programme: PhD
   user-id: vyshnavv
   image: true
+  office: L21(4)
 
 - name: Rudranil Sahu
   year-of-joining: 2023
   programme: Integrated PhD
   user-id: rudranilsahu
   image: true
+  office: L21(4)
 
 - name: Saham Sil
   year-of-joining: 2023
   programme: Integrated PhD
   user-id: sahamsil
   image: true
+  office: L21(4)
+
