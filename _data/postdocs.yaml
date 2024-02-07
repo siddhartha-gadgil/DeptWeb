@@ -5,6 +5,7 @@
   position: INSPIRE Faculty
   image: true
   research-area: Number theory, Representation theory
+  office: N14
 
 - name: Vijaya Kumar U
   phd: Indian Statistical Institute, Bangalore 
@@ -12,6 +13,7 @@
   position: Dr. D.S. Kothari 
   image: true
   research-area: Operator Theory, Operator Algebras, Quantum Probability
+  office: N13
 
 - name: Manoj Kumar
   phd: IIT Delhi 
@@ -19,6 +21,7 @@
   position: NBHM 
   image: true
   research-area: Harmonic Analysis   
+  office: L24
 
 - name: Sankar K
   phd: IIT Kanpur
@@ -26,6 +29,7 @@
   position: Dr. D.S. Kothari
   image: true
   research-area: Homogenization of Partial Differential Equations
+  office: N14
 
 - name: Pratibha Shakya
   phd: IIT Guwahati
@@ -33,6 +37,7 @@
   position: NPDF
   image: true
   research-area: Optimal control problems governed by PDEs, Finite element method
+  office: L28
 
 - name: Rishabh Agnihotri
   webpage: https://sites.google.com/view/rishabhagnihotri
@@ -41,6 +46,7 @@
   position: NBHM PDF
   image: true
   research-area: Number Theory
+  office: N13
 
 - name: Hiranya Kishore Dey
   webpage: https://sites.google.com/view/hiranyadey
@@ -49,7 +55,8 @@
   position: NPDF
   image: true
   research-area: Algebraic Combinatorics
- 
+  office: N22
+
 - name: Dharmendra Kumar
   webpage: 
   phd: IIT Gandhinagar
@@ -57,6 +64,7 @@
   position: IOE
   image: true
   research-area: PDEs
+  office: R28
 
 - name: Pintu Bhunia
   webpage: 
@@ -65,7 +73,7 @@
   position: NPDF
   image: true
   research-area: Norm and numerical radius inequalities of bounded linear operators   
-
+  office: N28
 
 - name: Digjoy Paul
   webpage:
@@ -74,7 +82,7 @@
   position: Raman PDF
   image: true
   research-area: Representation theory, Combinatorics
-
+  office: N22
 
 - name: Debaprasanna Kar
   webpage:
@@ -83,6 +91,7 @@
   position: NBHM PDF
   image: true
   research-area: Several Complex Variables
+  office: N22
 
 - name: Ravitheja Vangala
   webpage:
@@ -91,6 +100,7 @@
   position: NBHM PDF
   image: true
   research-area: Number Theory
+  office: L18
 
 - name: Banhirup Sengupta
   webpage:
@@ -99,6 +109,7 @@
   position: IOE
   image: true
   research-area: Geometric Analysis & PDEs
+  office: L23
 
 - name: Susmita Das
   webpage:
@@ -107,6 +118,7 @@
   position: IOE
   image: true
   research-area: Operator Theory
+  office: N24
 
 - name: Somnath Ghosh
   webpage:
@@ -115,6 +127,7 @@
   position: NBHM PDF
   image: true
   research-area: Harmonic Analysis
+  office: R29
 
 - name: Pinakinath Saha
   webpage: https://sites.google.com/view/pinakinath
@@ -123,6 +136,7 @@
   position: NBHM PDF
   image: true
   research-area: Algebraic geometry and Representation theory
+  office: N28
 
 - name: Chandan Pradhan
   webpage: https://sites.google.com/view/chandanpradhan
@@ -131,7 +145,8 @@
   position: IOE
   image: true
   research-area: Operator Theory
-  
+  office: N24
+
 - name: Sumit Arora
   webpage:
   phd: IIT Roorkee
@@ -139,6 +154,7 @@
   position: IOE
   image: true
   research-area: Nonlinear Analysis, Control Theory, Controllability and observability of dynamical systems
+  office: N28
 
 - name: Ramlal Debnath 
   webpage: https://sites.google.com/view/ramlal-debnath 
@@ -147,15 +163,16 @@
   position: NBHM PDF 
   image: true 
   research-area: Operator Theory 
+  office: L13
 
 - name: Naveen Gupta 
-
   webpage: 
   phd: University of Delhi 
   user-id: naveengupta 
   position: NBHM PDF 
   image: true 
   research-area: Several complex variables 
+  office: R23
 
 - name: Murugan SP 
   webpage: 
@@ -164,6 +181,7 @@
   position: IOE 
   image: true 
   research-area: Operator Algebras, Operator Systems and Spectral Graph Theory.
+  office: R23
 
 - name: Md Hasan Ali Biswas 
   webpage: 
@@ -172,6 +190,7 @@
   position: NBHM PDF 
   image: true 
   research-area: Harmonic Analysis 
+  office: L13
 
 - name: Souvik Pal 
   webpage: 
@@ -180,3 +199,4 @@
   position: NBHM PDF 
   image: true 
   research-area: Lie algebras 
+  office: L18
