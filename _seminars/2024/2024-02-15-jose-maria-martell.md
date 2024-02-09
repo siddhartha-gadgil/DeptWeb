@@ -2,7 +2,7 @@
 speaker: José María Martell Berrocal (ICMAT, Madrid, Spain)
 title: "Elliptic operators in rough domains"
 date: 15 February, 2024
-time: 4 pm
+time: 2 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
