@@ -15,11 +15,11 @@ expected in the not-too-distant future.
 Nonlinear constitutive relationships which, at a given point in the space, present a behaviour for large arguments that is described by monomials
 of order $p$ and $q$ is considered in this presentation.
 
-The original contribution this work makes is that the nonlinear problem can be approximated by a weighted $p-$Laplace problem. From the perspective
-of tomography, this is a significant result because it highlights the central role played by the $p-$Laplacian in inverse problems with nonlinear
+The original contribution this work makes is that the nonlinear problem can be approximated by a weighted $p$-Laplace problem. From the perspective
+of tomography, this is a significant result because it highlights the central role played by the $p$-Laplacian in inverse problems with nonlinear
 materials. Moreover, when $p=2$, this provides a powerful bridge to bring all the imaging methods and algorithms developed for linear materials into
 the arena of problems with nonlinear materials.
 
 The main result of this work is that for "large" Dirichlet data in the presence of two materials of different order (i) one material can be replaced
 by either a perfect electric conductor or a perfect electric insulator and (ii) the other material can be replaced by a material giving rise to a
-weighted $p-$Laplace problem.
+weighted $p$-Laplace problem.
