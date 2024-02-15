@@ -1,5 +1,5 @@
 ---
-speaker: Walter van Suijlekom (Radboud Universiteit, Nijmegen, Netherlands)
+speaker: Walter van Suijlekom (Radboud Universiteit, Nijmegen, Netherlands and IASc Jubilee Chair)
 title: "Geometric spaces at finite resolution"
 date: 29 January, 2024
 time: 4 pm
