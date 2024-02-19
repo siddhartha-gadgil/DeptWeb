@@ -1290,7 +1290,7 @@
 - url: 'https://doi.org/10.1007/978-3-031-37800-3_7'
   mrnumber: '4676386'
   pages: '137--163'
-  year: '2023'
+  year: '[2023] \copyright 2023'
   booktitle: 'From classical analysis to analysis on fractals. Vol. 1. A tribute to Robert Strichartz'
   title: 'A scalar-valued Fourier transform for the Heisenberg group'
   doi: '10.1007/978-3-031-37800-3\_7'
@@ -20739,6 +20739,13 @@
   mrnumber: '4440458'
   mrclass: '05A17 (60K35 82B20)'
   volume: '8'
+
+- year: 2024
+  author: Gadgil, Siddhartha, and Anand Rao Tadipatri. 
+  title: "Formalizing Giles Gardam’s Disproof of Kaplansky’s Unit Conjecture." 
+  booktitle: "Proceedings of the 13th ACM SIGPLAN International Conference on Certified Programs and Proofs" 
+  pages: 177-189
+  
 
 - pages: 'S4PP1 (14pp)'
   year: '2022'
