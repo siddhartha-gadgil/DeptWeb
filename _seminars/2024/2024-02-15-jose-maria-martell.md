@@ -16,3 +16,6 @@ present some recent results in collaboration with M. Cao and P. Hidalgo where, w
 certain weak Carleson measure estimates for bounded null-solutions in terms of a Corona decomposition for the elliptic measure.
 This extends the previous theory to non-connected settings where, as a consequence of our method, we establish
 Fefferman-Kenig-Pipher perturbation results.
+
+The [video of this talk](https://www.youtube.com/watch?v=_VVsUcwfYDI&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
