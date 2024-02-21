@@ -12,3 +12,6 @@ In this talk, we will explore the $L^{p}$-boundedness of both bilinear and multi
 hypersurfaces. Additionally, we will delve into the $L^2(\mathbb{R}^d)\times L^2(\mathbb{R}^d)\times\cdots\times L^2(\mathbb{R}^d)
 \to L^{2/m}(\mathbb{R}^d)$ estimates for $m$-linear maximal averages, focusing on hypersurfaces with $1\leq \kappa < md-1$ non-zero
 principal curvatures.
+
+The [video of this talk](https://www.youtube.com/watch?v=L9dmR2xwX2Y&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
