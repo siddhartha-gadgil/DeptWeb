@@ -16,3 +16,6 @@ a finite order, at a single point? We shall offer a new heuristic in this regime
 contribution arising from "local flatness". Further, we will describe how several ideas from Harmonic Analysis
 can be used to establish the indicated estimates for hypersurfaces of this type immersed by homogeneous functions.
 Based on joint work with N. Technau.
+
+The [video of this talk](https://www.youtube.com/watch?v=pUKzNvVJY6M&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
