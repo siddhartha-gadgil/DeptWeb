@@ -7,7 +7,7 @@ venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
 
-Define $g(k) = \min \{ s :$ every positive integer can be written as a sum of $k$th powers of natural numbers with atmost $s$ summands $\}$.
+Define $g(k) = \min \\{ s :$ every positive integer can be written as a sum of $k$th powers of natural numbers with atmost $s$ summands $\\}$.
 Lagrange proved that $g(2) = 4$. Waring conjectured that $g(3) = 9, g(4) = 19$ and so on.
 
 In fact, in this question, there has been a lot of contribution from Indian mathematicians. The method of attacking this problem is called
