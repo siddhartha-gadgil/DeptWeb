@@ -30,3 +30,7 @@ pseudo-differential operator defined on functions of fixed $K=\mathrm{SO}(2)$-ty
 the symbol exhibits restricted regularity in the spatial variable.
 
 This talk is based on a joint work with Michael Ruzhansky.
+
+The [video of this talk](https://www.youtube.com/watch?v=M-iESjfazdQ&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
+
