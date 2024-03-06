@@ -14,3 +14,6 @@ the first $n-1$ variables.
 
 We prove $L^p$ boundedness for these operators for $p>3/2$. Assuming that the frequency support of the function is contained in an annulus,
 we can show $L^p$ boundedness for $p>1$.
+
+The [video of this talk](https://www.youtube.com/watch?v=fLjz45USMPg&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
