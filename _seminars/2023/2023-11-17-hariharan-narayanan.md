@@ -5,6 +5,7 @@ date: 17 November, 2023
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2023-11-17-HariharanNarayanan.pdf"
 ---
 
 Associated to two given sequences of eigenvalues is a natural polytope, the polytope of augmented hives with the specified boundary
