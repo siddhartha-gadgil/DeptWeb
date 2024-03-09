@@ -5,6 +5,7 @@ date: 17 March, 2023
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2023-03-17-RiddhipratimBasu.pdf"
 ---
 
 From the longest increasing subsequence in a random permutation to the shortest distance in a randomly
