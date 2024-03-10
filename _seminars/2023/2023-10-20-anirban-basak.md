@@ -5,6 +5,7 @@ date: 20 October, 2023
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2023-10-20-AnirbanBasak.pdf"
 ---
 
 Non-normal matrices are ubiquitous in various branches of science, such as fluid dynamics, mathematical
