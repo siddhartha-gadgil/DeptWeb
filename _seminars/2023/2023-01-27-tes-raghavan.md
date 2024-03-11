@@ -5,6 +5,7 @@ date: 27 January, 2023
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2023-01-27-TESRaghavan.pdf"
 ---
 
 While statistical decision theory led me to game theory, certain war duel models, and the close connection
