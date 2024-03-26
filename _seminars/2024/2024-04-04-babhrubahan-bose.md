@@ -1,6 +1,6 @@
 ---
 speaker: Babhrubahan Bose (IISc Mathematics)
-date: 4 Apr 2023
+date: 4 Apr 2024
 time: 3 pm
 venue: Microsoft Teams (online)
 title: Geometry of Normed Linear Spaces in Light of Birkhoff-James Orthogonality
