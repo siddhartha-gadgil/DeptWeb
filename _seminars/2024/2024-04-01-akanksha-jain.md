@@ -13,7 +13,7 @@ series-suffix: defence
 In this talk, we discuss various aspects of weighted kernel functions on planar domains. We focus on two key kernels, namely,
 the weighted Bergman kernel and the weighted Szegő kernel.
 
-For a planar domain $D \subset \mathbb C$ and an admissible weight function on it, we discuss some aspects of the
+For a planar domain and an admissible weight function on it, we discuss some aspects of the
 corresponding weighted Bergman kernel. First, we see a precise relation between the weighted Bergman kernel and the classical
 Bergman kernel near a smooth boundary point of the domain. Second, the weighted kernel gives rise to weighted metrics in the
 same way as the classical Bergman kernel does. Motivated by work of Mok, Ng, Chan--Yuan and Chan--Xiao--Yuan among others,
