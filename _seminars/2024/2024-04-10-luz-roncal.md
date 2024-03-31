@@ -1,5 +1,5 @@
 ---
-speaker:  Luz Roncal (BCAM -- Basque Center for Applied Mathematics, Spain)
+speaker:  Luz Roncal (BCAM - Basque Center for Applied Mathematics, Spain)
 title: "Pointwise localisation and weighted inequalities for Rubio de Francia square function"
 date: 10 April, 2024
 time: 4 pm
