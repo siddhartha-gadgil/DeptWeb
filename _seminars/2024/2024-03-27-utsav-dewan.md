@@ -15,3 +15,6 @@ Then is the function still going to be harmonic? This is the classical 'one-circ
 results dealing with sufficient conditions in terms of the boundary behavior of the function for the above problem to have an
 affirmative answer in the setting of (1) domains in Riemannian manifolds and (2) Hadamard manifolds of pinched negative sectional
 curvature, extending classical results of Fenton for the Euclidean unit disc. This is based on a joint work with Prof. Kingshook Biswas.
+
+The [video of this talk](https://www.youtube.com/watch?v=cM_eUWh13Rs&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
