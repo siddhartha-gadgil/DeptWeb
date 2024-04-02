@@ -20,8 +20,8 @@ representation variety. Here, we generalize these results to the case of higher-
 For a representation $\rho : \pi_1(S_{g,k}) \rightarrow PSL_n(\mathbb{C})$, the Hilbert length of a curve $\gamma\in \pi_1(S_{g,k})$ for $n >2$ is
 defined as
 \begin{equation}
-\ell_{\rho}(\gamma):= \ln \Bigg| \frac{\lambda_n}{\lambda_1} \Bigg|,
-\end{equaton}
+\ell_{\rho}(\gamma):=\ln \Bigg| \frac{\lambda_n}{\lambda_1} \Bigg|,
+\end{equation}
 where $\lambda_n$ and $\lambda_1$ are the largest and smallest eigenvalues of $\rho(\gamma)$ in modulus respectively. We show that for any generic
 representation $\rho : \pi_1 (S_{g,k}) \rightarrow PSL_n(\mathbb{C})$, there is a Hitchin representation $j : \pi_1 (S_{g,k}) \rightarrow PSL_n(\mathbb{R})$
 that dominates $\rho$ in the Hilbert length spectrum. The proof uses Fock-Goncharov coordinates on the moduli space of framed $PSL_n(\mathbb{C})$
