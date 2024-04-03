@@ -1,7 +1,8 @@
 ---
 title: Faculty Positions
 ---
-To apply for a faculty postion, please e-mail an application to ``chair.math[at]iisc.ac.in`` containing
+To apply for a faculty postion, please follow the procedure described [here](https://www.iisc.ac.in/careers/faculty-recruitment/#ffs-tabbed-11). You will be asked to submit: 
+<!-- ``chair.math[at]iisc.ac.in`` containing-->
 
 * a curriculum vitae (CV).
 * list of publications, along with reprints of important publications.
@@ -12,7 +13,7 @@ To apply for a faculty postion, please e-mail an application to ``chair.math[at]
 You may also wish to contact a [faculty member](faculty.html) in a subject related to yours if you
 are considering applying for a position at our department.
 
-## Why join us
+<!--## Why join us
 
 The Indian Institute of Science is a premier Institute of higher learning and
 research in the country. It has more than 40 departments/centres/units and
@@ -72,7 +73,7 @@ Indian Institute of Science
 Bangalore  560 012  
 INDIA  
 
-e-mail: ``chair.math[at]iisc.ac.in``
+e-mail: ``chair.math[at]iisc.ac.in``-->
 
 General information about the Indian Institute of Science (IISc) is available on the [IISc website](http://www.iisc.ac.in).
 Information about the Department of Mathematics is available on the [Department website](https://math.iisc.ac.in).
@@ -81,7 +82,7 @@ Information about the Department of Mathematics is available on the [Department 
 ## Some useful tips:
 
 In case you have decided to apply to the Department of Mathematics at IISc,
-here are a few points that might be useful to bear
+here are a couple of points that might be useful to bear
 in mind.
 
 1. The Department of Mathematics aims to recruit, over time, mathematicians
@@ -92,7 +93,7 @@ in mind.
    standards in hiring. You might also find it useful to know that, since September 2015, IISc has
    adopted a new tenure system, details of which are given [here](http://www.iisc.ac.in/tenure-track-assessment/).
 
-2. Please take a look at [this website](https://sites.google.com/site/newfacultyiisc/homepage?authuser=0) for a sense
+<!--2. Please take a look at [this website](https://sites.google.com/site/newfacultyiisc/homepage?authuser=0) for a sense
    of how things are at IISc and to get a sense of the recruitment process here (click on "Recruitment"
    in the navigation bar). While the page "[Recruitment](https://sites.google.com/site/newfacultyiisc/recruitment)" 
    is not a webpage authorized by IISc, the information on it is fairly representative of applications to the Department of Mathematics.
@@ -100,14 +101,12 @@ in mind.
 3. One of consequences of a rolling process of recruitment is that, as
    alluded to by the links in (2), a decision on your application could take as little as
    3 months or as long as 8–9 months. In case your mailing address changes in
-   the interim, please be sure to communicate any changes in your address.
+   the interim, please be sure to communicate any changes in your address.-->
 
-4. Since the eventual settlement of all job applications (numbering in the
+2. Since the eventual settlement of all job applications (numbering in the
    hundreds) across all departments is done centrally, it might not be
    possible for the Registrar to notify applicants individually that a
-   position has been filled. However, feel free to contact the Chairman,
-   Department of Mathematics, a few months into the process to inquire
-   informally about your application.
+   position has been filled. However, if you gave a job-talk, then feel free to contact the chair of the department at chair.math[at]iisc.ac.in a couple of months after your talk to inquire informally about your application. 
 
  
-                      ``Page last updated on February 27, 2018``
+                      ``Page last updated on April 03, 2024``
