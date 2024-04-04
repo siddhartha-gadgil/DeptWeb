@@ -1,5 +1,5 @@
 ---
-date: 8 April, 2023
+date: 8 April, 2024
 speaker: Amartya Kumar Dutta (ISI Kolkata)
 title: "In praise of Khahara"
 time: "2 pm"
