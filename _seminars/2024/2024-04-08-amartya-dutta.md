@@ -39,7 +39,7 @@ appear as absurdities. But all difficulties disappear in the light of the algebr
 from the commentary of Kr.s.n.adaivaj˜na indicates that idempotence was indeed envisaged as a natural property of numbers
 like zero and its reciprocal, the _khahara_.
 
-Prof. Sathaye's interpretation of Bhaskaracharya's khahara also gives a new meaning to certain mysterious utterances of
+Prof. Sathaye's interpretation of Bhaskaracharya's _khahara_ also gives a new meaning to certain mysterious utterances of
 Ramanujan recorded by P.C. Mahalanobis. In the light of valuation theory, Bhaskaracharya's _khahara_ not only deserves our
 praise, perhaps they indicate unexplored possibilities!
 
