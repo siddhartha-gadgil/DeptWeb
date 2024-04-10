@@ -1,7 +1,7 @@
 ---
 speaker: Sumanta Das (IISc Mathematics)
 date: 17 April 2024
-time: 11:00 am
+time: 4:00 pm
 venue: LH-1, Department of Mathematics, IISc
 title: Maps between Non-compact Surfaces
 series: Thesis
