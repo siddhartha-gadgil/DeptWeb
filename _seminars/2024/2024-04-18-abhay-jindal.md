@@ -22,7 +22,7 @@ requires a different (vector valued) reproducing kernel Hilbert space as the dom
 $k$ is an irreducible unitarily invariant kernel, but does not have the complete Nevanlinna-Pick property? We shall see that if $k$ has a complete Nevanlinna-Pick
 factor $s$, then much can be retrieved.
 
-We associate with a $1/k-$contraction its curvature invariant. The instrument that makes this possible is the characteristic function. We present an asymptotic
-formula for the curvature invariant. In the special case when the $1/k-$contraction is pure, we provide a notably simpler formula, revealing that in this instance,
+We associate with a $1/k$-contraction its curvature invariant. The instrument that makes this possible is the characteristic function. We present an asymptotic
+formula for the curvature invariant. In the special case when the $1/k$-contraction is pure, we provide a notably simpler formula, revealing that in this instance,
 the curvature invariant is an integer. We further investigate its connection with an algebraic invariant known as fiber dimension. Moreover, we obtain a refined
-and simplified asymptotic formula for the curvature invariant of the $1/k-$contraction specifically when its characteristic function is a polynomial.
+and simplified asymptotic formula for the curvature invariant of the $1/k$-contraction specifically when its characteristic function is a polynomial.
