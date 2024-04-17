@@ -1,5 +1,5 @@
 ---
-speaker: Sumanta Das (IISc Mathematics)
+speaker: Arghan Dutta (IISc Mathematics)
 date: 19 April 2024
 time: 2 pm
 venue: LH-1, Department of Mathematics
