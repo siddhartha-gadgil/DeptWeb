@@ -19,3 +19,6 @@ conjecture is verified for radially decreasing even $A_1$ weights, and in full g
 the Rubio de Francia square function. In general, the $L^2$ weighted inequality is still an open problem.
 
 Joint work with Francesco Di Plinio, Mikel Flórez-Amatriain, and Ioannis Parissis.
+
+The [https://www.youtube.com/watch?v=VSa4S6BKZVg&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
