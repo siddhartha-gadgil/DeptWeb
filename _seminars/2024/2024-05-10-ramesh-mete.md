@@ -1,7 +1,7 @@
 ---
 speaker: Ramesh Mete (IISc Mathematics)
 date: 10 May 2024
-time: 4:00 pm
+time: 4 pm
 venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 title: On Two complex Hessian equations and convergence of corresponding flows
 series: Thesis
