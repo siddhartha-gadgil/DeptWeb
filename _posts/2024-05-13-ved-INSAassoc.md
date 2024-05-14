@@ -1,3 +1,4 @@
+---
 title: INSA Young Associate
 date: May 12, 2024
 ---
