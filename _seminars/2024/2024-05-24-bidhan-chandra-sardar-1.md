@@ -2,7 +2,7 @@
 speaker: Bidhan Chandra Sardar (IIT Ropar)
 title: "Optimal control and homogenization of semi-linear parabolic problems with highly oscillatory coefficients in a pillar-type domain"
 date: 23 May, 2024
-time: 11 am
+time: 10 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
