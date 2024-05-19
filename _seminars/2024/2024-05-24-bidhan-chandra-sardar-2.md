@@ -1,8 +1,8 @@
 ---
 speaker: Bidhan Chandra Sardar (IIT Ropar)
 title: "Asymptotic qnalysis of an optimal control problem for the Stokes system in a perforated domain"
-date: 23 May, 2024
-time: 3:30 pm
+date: 24 May, 2024
+time: 11:30 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
