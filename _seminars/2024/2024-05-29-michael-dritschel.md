@@ -1,6 +1,6 @@
 ---
 speaker: Michael Dritschel (Newcastle University, UK)
-title: "The operator Fejer-Riesz thorem in two variables, II"
+title: "The operator Fejer-Riesz theorem in two variables, II"
 date: 29 May, 2024
 time: 11:30 am
 venue: LH-1, Mathematics Department
