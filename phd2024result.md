@@ -1,7 +1,8 @@
+<center>
 ## Ph.D Research Program 2024
 
-<center><b>Provisional List of Selected Candidates</b><br>
- (Subject to approval by the Admissions Committee of IISc.)</center>
+<b>Provisional List of Selected Candidates</b><br>
+ (Subject to approval by the Admissions Committee of IISc.)
 
 <br>
 
@@ -14,4 +15,5 @@
 | 4.  | 240104208      | Shubhanshu M Prasad                           |
 | 5.  | 240105280      | Akilan S                                       |
 | 6.  | 240102471      | Muhammed Faheem A.T                          |
+</center>
 
