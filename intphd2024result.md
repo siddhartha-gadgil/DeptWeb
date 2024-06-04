@@ -1,15 +1,13 @@
 ## Integrated Ph.D Program 2024
 
-<b>Provisional List of Selected Candidates</b><br>
+**Provisional List of Selected Candidates**
 (Subject to approval by the Admissions Committee of IISc.)
-<br>
 
-| S.No | Student Name                               | Application No |
-|---|---|---|
-| 1.  | Soham Manna                                   | 240500720      |
-| 2.  | Kedar Desai                                   | 240503111      |
-| 3.  | Ayon Chowdhory                                 | 240503794      |
-| 4.  | Amit Giri                                   | 240502429      |
-| 5.  | Arpan Pal                                     | 240501086      |
-| 6.  | Sufaid Saleel                                 | 240501380      |
-
+| S.No | Application No | Student Name       |
+|------|----------------|--------------------|
+| 1.   | 240500720      | Soham Manna        |
+| 2.   | 240503111      | Kedar Desai        |
+| 3.   | 240503794      | Ayon Chowdhory     |
+| 4.   | 240502429      | Amit Giri          |
+| 5.   | 240501086      | Arpan Pal          |
+| 6.   | 240501380      | Sufaid Saleel      |
