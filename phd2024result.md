@@ -11,7 +11,7 @@
 | 1.  | 240103788      | Snehinh Sen M                                 |
 | 2.  | 240103590      | Atanu Mondal                                  |
 | 3.  | 240104690      | Sachin Shukla                                  |
-| 4.  | 240104208      | Shubhanshu M Prasad                           |
+| 4.  | 240104208      | Shubhanshu Prasad                           |
 | 5.  | 240105280      | Akhila N S                                       |
 | 6.  | 240102471      | Muhammed Faheem A.T                          |
 
