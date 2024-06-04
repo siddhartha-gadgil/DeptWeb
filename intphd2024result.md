@@ -1,7 +1,7 @@
 ## Integrated Ph.D Program 2024
 
-**Provisional List of Selected Candidates**
-<br>(Subject to approval by the Admissions Committee of IISc.)</br>
+<b>Provisional List of Selected Candidates</b>
+<br>(Subject to approval by the Admissions Committee of IISc.)<br>
 
 | S.No | Application No | Student Name       |
 |------|----------------|--------------------|
