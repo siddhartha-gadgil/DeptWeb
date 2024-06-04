@@ -1,8 +1,8 @@
 ## Ph.D Research Program 2024
 
-<b>Provisional List of Selected Candidates</b><br>
- (Subject to approval by the Admissions Committee of IISc.)
-
+<b>Provisional List of Selected Candidates</b>
+<br>
+ (Subject to approval by the Admissions Committee of IISc)
 <br>
 
 | S.No | Application No | Student Name                               |
