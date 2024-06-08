@@ -1,15 +1,15 @@
 ---
-title: Promys Guest Lecture
+title: PROMYS Guest Lecture
 ---
 
-<h3>Promys Guest Lectures</h3>
+<h3>PROMYS Guest Lectures</h3>
 
     {% assign sorted = site.seminars | sort: 'date' | reverse %}
 
 {% for sem in sorted  %}
 <!-- <div class="row">
   <div class="col-md-11"> -->
-  {% if sem.series == "Promys Guest Lecture" %}
+  {% if sem.series == "PROMYS Guest Lecture" %}
   {% capture start %}{{sem.date | date_to_long_string }} {{ sem.time }}{% endcapture %}
     {%assign finish = start | date : '%s' | plus: 3600  %}
     {% capture timing %}{{ start | date: "%Y%m%dT%H%M%S" }}/{{ finish | date: "%Y%m%dT%H%M%S" }}{% endcapture %}
