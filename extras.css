@@ -81,6 +81,17 @@ a.aprg-seminar:focus {
   text-decoration: underline;
 }
 
+.promys-guest-lecture {
+  color: darkorange;
+}
+
+a.promys-guest-lecture:hover,
+a.promys-guest-lecture:focus {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+
 .thesis {
   color: green;
 }
