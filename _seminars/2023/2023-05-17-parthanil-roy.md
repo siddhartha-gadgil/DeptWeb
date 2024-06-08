@@ -1,9 +1,10 @@
 ---
 speaker: Parthanil Roy (ISI, Bangalore)
-title: "PROMYS Guest Lecture: Could Euclid trisect every angle? How about us?"
+title: "Could Euclid trisect every angle? How about us?"
 date: 17 May, 2023
 time:  5 pm
 venue: LH-1, Mathematics Department
+series: "PROMYS Guest Lecture"
 ---
 
 This talk will be a lucid introduction to the formal mathematics behind Euclidean Constructions, which we all learn in
