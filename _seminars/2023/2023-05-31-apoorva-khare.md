@@ -1,9 +1,10 @@
 ---
 speaker: Apoorva Khare (IISc Mathematics)
-title: "PROMYS Guest Lecture: Divisibility tests, recurring decimals, and Artin's conjecture"
+title: "Divisibility tests, recurring decimals, and Artin's conjecture"
 date: 31 May, 2023
 time:  5 pm
 venue: LH-1, Mathematics Department
+series: "PROMYS Guest Lecture"
 ---
 
 If we had two extra thumbs, how would we check if "2024" is divisible by eleven? Or by "11"? We will see a simple test in any base
