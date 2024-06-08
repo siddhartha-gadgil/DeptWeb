@@ -1,9 +1,10 @@
 ---
 speaker: Alina Bucur (University of California, San Diego, USA)
-title: "PROMYS Guest Lecture: Zeta functions and Euler products"
+title: "Zeta functions and Euler products"
 date: 24 May, 2023
 time:  5 pm
 venue: LH-1, Mathematics Department
+series: "PROMYS Guest Lecture"
 ---
 
 We will define one of the most famous functions in all of mathematics, the _Riemann zeta function_,
