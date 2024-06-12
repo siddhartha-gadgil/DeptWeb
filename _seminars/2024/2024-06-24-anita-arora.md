@@ -16,7 +16,7 @@ The first part of the thesis deals with the monopole-dimer model. The
 dimer (resp. monomer-dimer) model deals with weighted enumeration of
 perfect matchings (resp. matchings). The monopole-dimer model is a
 signed variant of the monomer-dimer model which has determinantal
-structure. A more general model called the \emph{loop-vertex model} has
+structure. A more general model called the <i>loop-vertex model</i> has
 also been defined for an oriented graph and the partition function in
 this case can also be written as a determinant. However, this model
 depends on the orientation of the graph. The monopole-dimer model
@@ -38,16 +38,16 @@ product formula. We also discuss about the asymptotic formulas for the
 free energy and monopole densities.
 
 In 1999, Lu and Wu evaluated the partition function of the dimer model
-on two-dimensional grids embedded on a M\"obius strip and a Klein
+on two-dimensional grids embedded on a Möbius strip and a Klein
 bottle. We first prove a product formula for the partition function of
 the monopole-dimer model for the higher dimensional grid graphs with
 cylindrical and toroidal boundary conditions. We then consider the
-monopole-dimer model on high-dimensional M\"obius and Klein grids, and
-evaluate the partition function for three-dimensional M\"obius and Klein
+monopole-dimer model on high-dimensional Möbius and Klein grids, and
+evaluate the partition function for three-dimensional Möbius and Klein
 grids. Further, we show that the formula does not generalise for the
 higher dimensions in any natural way. Finally, we present a relation
 between the product formulas for three-dimensional grids with
-cylindrical and M\"obius boundary conditions, generalising a result of
+cylindrical and Möbius boundary conditions, generalising a result of
 Lu and Wu.
 
 Let $G$ be an undirected simple connected graph. We say a vertex $u$ is
