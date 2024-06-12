@@ -3,7 +3,7 @@ speaker: Ipsita Datta (ETH Zurich)
 title: "Doing Morse theory without Smale condition"
 date: 12 June, 2024
 time: 04:00 pm 
-venue: LH-1
+venue: <del>LH-1</del> LH-3
 series: "Geometry & Topology Seminar"
 ---
 
