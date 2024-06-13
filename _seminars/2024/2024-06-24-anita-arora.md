@@ -1,8 +1,8 @@
 ---
 speaker: Anita Arora (IISc Mathematics)
 date: 24 June 2024
-time: 2:00 pm
-venue: LH-1, Department of Mathematics, IISc
+time: 2 pm
+venue: LH-1, Mathematics Department
 title: The monopole-dimer model and eccentricities for the Cartesian product of graphs
 series: Thesis
 series-prefix: PhD
@@ -51,7 +51,7 @@ cylindrical and Möbius boundary conditions, generalising a result of
 Lu and Wu.
 
 Let $G$ be an undirected simple connected graph. We say a vertex $u$ is
-eccentric to a vertex $v$ in $G$ if $d(u,v)=\max\{d(v,w): w\in V(G)\}$.
+eccentric to a vertex $v$ in $G$ if $d(u,v)=\max\\{d(v,w): w\in V(G)\\}$.
 The eccentric graph of $G$, denoted $Ec(G)$, is a graph defined on the
 vertices of $G$ in which two vertices are adjacent if one is eccentric
 to the other. In the second part of the thesis, we find the structure
