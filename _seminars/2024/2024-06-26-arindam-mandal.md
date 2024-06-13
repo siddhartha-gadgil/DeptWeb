@@ -1,6 +1,6 @@
 ---
-speaker: P Sivaram (IISc Mathematics)
-date: 14 June 2024
+speaker: Arindam Mandal (IISc Mathematics)
+date: 26 June 2024
 time: 3 pm
 venue: LH-3, Mathematics Department 
 title: "Existence and implications of positively curved metrics on holomorphic vector bundles"
