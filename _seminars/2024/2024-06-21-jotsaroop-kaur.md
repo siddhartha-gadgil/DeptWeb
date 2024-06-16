@@ -2,7 +2,7 @@
 speaker: Jotsaroop Kaur (IISER Mohali)
 title: "On Hardy Spaces associated with the Twisted Laplacian and sharp estimates for the corresponding Wave Operator"
 date: 21 Jun, 2024
-time: 2 pm
+time: 3 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
