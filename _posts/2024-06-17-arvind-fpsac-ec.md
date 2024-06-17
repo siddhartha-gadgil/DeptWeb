@@ -1,5 +1,5 @@
 ---
-title: FPSAC Executive Committeee
+title: FPSAC Executive Committee
 date: 2024-06-17
 ---
 
