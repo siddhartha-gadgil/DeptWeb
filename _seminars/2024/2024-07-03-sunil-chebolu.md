@@ -12,7 +12,7 @@ Let $F$ be a field that has a primitive $p$-th root of unity. According
 to the Bloch&ndash;Kato conjecture, now a theorem  by Voevodsky and Rost,
 the norm-residue map
 \begin{equation}
-k_*(F)/pk_*(F) \rightarrow H^*(F, \mathbb{F}_p)
+k_\*(F)/pk_\*(F) \rightarrow H^*(F, \mathbb{F}_p)
 \end{equation}
 from the reduced Milnor $K$-theory to the Galois cohomology of $F$ is an
 isomorphism of $\mathbb{F}_p$-algebras.
