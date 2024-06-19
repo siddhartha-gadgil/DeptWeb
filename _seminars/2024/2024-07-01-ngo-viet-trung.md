@@ -1,6 +1,6 @@
 ---
 speaker: Ngo Viet Trung (Institute of Mathematics, Vietnam Academy of Science and Technology, Hanoi, Vietnam)
-title: "Buchsbaumness and Castelnuovo-Mumford regularity of non-smooth monomial curves 	(LH-1 – 2 pm, Mon)"
+title: "Buchsbaumness and Castelnuovo-Mumford regularity of non-smooth monomial curves"
 date: 1 Jul, 2024
 time: 2 pm
 venue: LH-1, Mathematics Department
