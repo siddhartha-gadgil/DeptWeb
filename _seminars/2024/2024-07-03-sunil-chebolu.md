@@ -1,7 +1,7 @@
 ---
 date: 3 Jul, 2024
 speaker: Sunil Chebolu (Illinois State University, Normal, USA)
-title: "Towards a refinement of the Bloch--Kato conjecture"
+title: "Towards a refinement of the Bloch-Kato conjecture"
 time: "11 am" 
 series: "Number Theory Seminar"
 website: https://math.iisc.ac.in/number-theory-seminar.html
