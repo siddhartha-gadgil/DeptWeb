@@ -1,7 +1,7 @@
 ---
 speaker: Sushobhan Das (IISc Mathematics)
 date: 21 June 2024
-time: 2 pm
+time: 10 am
 venue: LH-1, Mathematics Department
 title: On the study of Toeplitz operators on Hardy Space over a multiply connected domain
 series: Thesis
