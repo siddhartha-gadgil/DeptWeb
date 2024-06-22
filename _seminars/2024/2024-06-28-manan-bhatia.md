@@ -14,4 +14,4 @@ and the Brownian web. Subsequently, we discuss the construction of a pair of int
 directed landscape, the conjectural universal scaling limit of models in the Kardar-Parisi-Zhang universality class. Finally, we look
 at the question of determining the precise Holder and variation regularity of this space-filling curve and discuss some of the ideas
 involved in the proof. Based on the works [arxiv:2304.03269](https://arxiv.org/abs/2304.03269) (joint with Riddhipratim Basu) and
-[https://arxiv.org/abs/2301.07704](arxiv:2301.07704).
+[arxiv:2301.07704](https://arxiv.org/abs/2301.07704).
