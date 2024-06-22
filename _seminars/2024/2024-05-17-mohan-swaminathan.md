@@ -3,7 +3,7 @@ speaker: Mohan Swaminathan (Stanford University)
 title: "Constructing smoothings of stable maps"
 date: 17 May, 2024
 time: 11:30 am 
-venue: LH-1
+venue: LH-1, Mathematics Department
 series: "Geometry & Topology Seminar"
 ---
 
