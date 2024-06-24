@@ -2,7 +2,7 @@
 speaker: Basudeb Datta (IAI, TCG Crest, Kolkata)
 title: "Simplicial cell decompositions of CP^n"
 date: 18 Jul, 2024
-time: 4 pm
+time: 11 am
 venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb23-24.html" >Algebra-Combinatorics Seminar</a>)
 series: "Geometry & Topology Seminar"
 ---
