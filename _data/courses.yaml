@@ -82,12 +82,24 @@ jan2025:
   - code: MA 216
     name: Introduction to Graph Theory
     instructor: Vineeth Chintala/ Apoorva Khare
+  - code: MA 218
+    name: Number Theory
+    instructor: Radhika Ganapathy
+  - code: MA 220
+    name: Representation Theory of Finite Groups
+    instructor: Soumya Das
+  - code: MA 262
+    name: Introduction to Stochastic Processes
+    instructor: Sanchayan Sen
   - code: MA 305
     name: Analysis on Lie Groups
     instructor: Muna Naik
   - code: MA 310
     name: Algebraic Geometry I
     instructor: Abhishek Banerjee
+  - code: MA 321
+    name: Analysis III
+    instructor: Swarnendu Sil
   - code: MA 356
     name : Class Field Theory
     instructor: Mahesh Kakde
@@ -97,6 +109,16 @@ jan2025:
   - code: MA 379
     name: Linear Algebraic Groups
     instructor: Pinakinath Saha/Radhika Ganapathy
+  - code: MA 3xx
+    name: Complex Manifolds
+    instructor: Purvi Gupta
+  - code: MA 3xx
+    name: Tilings
+    instructor: Subhojoy Gupta
+  - code: MA 3xx
+    instructor: Manjunath Krishnapur
+  - code: MA 3xx
+    instructor: Harish Seshadri
 
 
 aug2024:
@@ -230,6 +252,13 @@ aug2024:
     instructor: Manjunath Krishnapur
     timing: 
     venue: 
+  - name : Topics in Non-linear functional analysis
+    code: MA 388
+    instructor: Arka Mallick
+    timing: 
+    venue: 
+  - code: MA 3xx
+    instructor: Arvind Ayyer
 
 jan2024:
   ug:
@@ -386,7 +415,6 @@ jan2024:
     instructor: Srikanth Iyer
     timing: 'Tue, Thu: 11:30 - 1:00'
     venue: LH-5
-
 
 aug2023:
   ug:
