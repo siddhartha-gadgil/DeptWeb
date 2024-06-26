@@ -88,6 +88,9 @@ jan2025:
   - code: MA 220
     name: Representation Theory of Finite Groups
     instructor: Soumya Das
+  - code: MA 237
+    name: Introduction to Tilings
+    instructor: Subhojoy Gupta
   - code: MA 262
     name: Introduction to Stochastic Processes
     instructor: Sanchayan Sen
@@ -106,15 +109,15 @@ jan2025:
   - code: MA 368
     name: Topics in Probability and Stochastic Processes
     instructor: Biltu Dan/Manjunath Krishnapur
+  - code: MA 372
+    name: Abstract Harmonic Analysis
+    instructor: E.K.Narayanan
   - code: MA 379
     name: Linear Algebraic Groups
     instructor: Pinakinath Saha/Radhika Ganapathy
   - code: MA 3xx
     name: Complex Manifolds
     instructor: Purvi Gupta
-  - code: MA 3xx
-    name: Tilings
-    instructor: Subhojoy Gupta
   - code: MA 3xx
     instructor: Manjunath Krishnapur
   - code: MA 3xx
@@ -252,13 +255,17 @@ aug2024:
     instructor: Manjunath Krishnapur
     timing: 
     venue: 
+  - code: MA 368
+    instructor: Arvind Ayyer
+    name: Topics in Probability and Stochastic Processes
+  - name: Extremal Combinatorics
+    code: MA 376
+    instructor: Hiranya kishore Dey/Arvind Ayyer
   - name : Topics in Non-linear functional analysis
     code: MA 388
     instructor: Arka Mallick
     timing: 
     venue: 
-  - code: MA 3xx
-    instructor: Arvind Ayyer
 
 jan2024:
   ug:
