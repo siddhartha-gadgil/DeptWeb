@@ -112,6 +112,9 @@ jan2025:
   - code: MA 372
     name: Abstract Harmonic Analysis
     instructor: E.K.Narayanan
+  - name: Extremal Combinatorics
+    code: MA 376
+    instructor: Hiranya kishore Dey/Arvind Ayyer
   - code: MA 379
     name: Linear Algebraic Groups
     instructor: Pinakinath Saha/Radhika Ganapathy
@@ -258,9 +261,6 @@ aug2024:
   - code: MA 368
     instructor: Arvind Ayyer
     name: Topics in Probability and Stochastic Processes
-  - name: Extremal Combinatorics
-    code: MA 376
-    instructor: Hiranya kishore Dey/Arvind Ayyer
   - name : Topics in Non-linear functional analysis
     code: MA 388
     instructor: Arka Mallick
