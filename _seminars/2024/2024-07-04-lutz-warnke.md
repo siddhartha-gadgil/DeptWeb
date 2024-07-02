@@ -19,4 +19,4 @@ The proofs are based on careful refinements of the first and second moment metho
 and (b) work around the large variance issues that prevent standard applications of the second moment method, using in particular pseudorandom properties
 and multi-round exposure arguments to tame the variance.
 
-Based on joint work with my PhD students Erlang Surya and Emily Zhu; see [https://arxiv.org/abs/2305.04850](arXiv:2305.04850).
+Based on joint work with my PhD students Erlang Surya and Emily Zhu; see [arXiv:2305.04850](https://arxiv.org/abs/2305.04850).
