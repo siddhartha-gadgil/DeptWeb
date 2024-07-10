@@ -35,8 +35,8 @@ Lie algebra is an interesting problem in its own right. Barnea et al. started su
 regular subalgebras in 2008, more precisely the root generated subalgebras of an affine Kac-Moody algebra. We took a completely different approach, namely, using the classification of
 the closed subroot system of a real affine root system given by Roy and Venkatesh, we classify the regular subalgebras of affine Kac-Moody Lie algebras with a symmetric set of roots
 and we get the classification of root generated subalgebras as a Corollary. Moreover, we also classify the maximal symmetric regular subalgebras we show a bijective correspondence
-between the maximal real closed subroot systems of the affine Lie algebra and the maximal symmetric regular subalgebras different from $[\mathfrak g,\mathfrak g].$ Which also shows in affine case,
-given a maximal closed subroot system $\Psi$ of $\Delta,$ the poset (with set inclusion as the partial order)
+between the maximal real closed subroot systems of the affine Lie algebra and the maximal symmetric regular subalgebras different from $[\mathfrak g,\mathfrak g].$ Which also shows
+that in the affine case, given a maximal closed subroot system $\Psi$ of $\Delta,$ the poset (with set inclusion as the partial order)
 
 \begin{equation}
 A_\Psi:=\{\mathfrak s:\Delta(\mathfrak s)^{\mathrm{re}}=\Psi\}
