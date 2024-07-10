@@ -39,7 +39,7 @@ between the maximal real closed subroot systems of the affine Lie algebra and th
 given a maximal closed subroot system $\Psi$ of $\Delta,$ the poset (with set inclusion as the partial order)
 
 \begin{equation}
-A_\Psi:=\{\lie s:\Delta(\lie s)^{\mathrm{re}}=\Psi\}
+A_\Psi:=\{\mathfrak s:\Delta(\mathfrak s)^{\mathrm{re}}=\Psi\}
 \end{equation}
 
 contains a unique maximal element.
