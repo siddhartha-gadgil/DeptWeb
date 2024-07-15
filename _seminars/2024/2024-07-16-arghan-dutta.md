@@ -2,7 +2,7 @@
 speaker: Arghan Dutta (IISc Mathematics)
 date: 16 July 2024
 time: 11 am
-venue: LH-3, Mathematics Department
+venue: Hybrid - LH-3, Department of Mathematics and Microsoft Teams (online)
 title: Higher categories of n-bordisms
 series: Thesis
 series-prefix: MS
