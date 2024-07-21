@@ -1,7 +1,7 @@
 ---
 speaker: Rakesh Pawar (UMPA, École Normale Supériure de Lyon, France)
 title: "Milnor–Witt cycle modules over excellent DVR"
-date: 26 Jul, 2024
+date: 24 Jul, 2024
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
