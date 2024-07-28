@@ -25,5 +25,5 @@ that we call affine and projective. This vastly generalizes Fefferman's
 theorem to nontrigonometric and noncommutative scenarios. It confirms the
 intuition that Schur multipliers share profound similarities with
 Euclidean Fourier multipliers -- even in the lack of a Fourier transform
-connection— and complete, for Lie groups, a longstanding search of
+connection -- and complete, for Lie groups, a longstanding search of
 Fourier $L_p$-idempotents. Joint work with M. de la Salle and E. Tablate.
