@@ -261,11 +261,12 @@ aug2024:
     instructor: Manjunath Krishnapur
     timing: 'Tue, Thu: 11:30-1:00'
     venue: LH-5
-  - code: MA 368
+  - code: MA 368A
     instructor: Arvind Ayyer
-    name: Topics in Probability and Stochastic Processes
+    name: Exclusion Processes
     timing: 'Tue, Thu: 2:00-3:30'
     venue: LH-3
+    webpage: https://math.iisc.ac.in/~arvind/ma368a/
   - name : Topics in Non-linear functional analysis
     code: MA 388
     instructor: Arka Mallick
