@@ -163,7 +163,7 @@ aug2024:
     ug-prereq-courses: UM 203
     webpage: 
     timing: 'Mon, Wed, Fri: 11:00-12:00'
-    venue: LH-1/LH-4
+    venue: LH-4
   - name: Linear Algebra
     credits: '3:1'
     instructor: Apoorva Khare
@@ -171,7 +171,7 @@ aug2024:
     prereq-courses: ''
     ug-prereq-courses: UM 102
     timing: 'Tue, Thu: 10:00-11:30'
-    venue: LH-4
+    venue: LH-1/LH-4
   - name: 'Analysis I: Real Anaysis'
     instructor: Purvi Gupta
     code: MA 221
