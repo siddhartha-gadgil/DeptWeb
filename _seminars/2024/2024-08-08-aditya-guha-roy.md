@@ -1,5 +1,5 @@
 ---
-speaker: Aditya Guha Roy (University of Indiana, Bloomington, USA)
+speaker: Aditya Guha Roy (Indiana University, Bloomington, USA)
 title: "Ruin in double halve gambling"
 date: 8 Aug, 2024
 time: 2:30 pm
