@@ -2,29 +2,13 @@
 <div class="table-responsive">
 <table class="table table-bordered">
 
-<tr><td colspan="8" class="text-center"><h3> Core for Int. Ph.D. 1st year <strong>and</strong> UG 3rd year </h3></td>
+<tr><td colspan="8" class="text-center"><h3> Core for Int. Ph.D. 1st year and/or UG 3rd year </h3></td>
 
 </tr>
 {% assign list = semester.core1 %}
 
 {% include course-table.html %}
 
-<tr><td colspan="8" class="text-center"><h3> Core for UG 3rd year only </h3></td>
-
-</tr>
-{% assign list = semester.core-ug %}
-
-{% include course-table.html %}
-
-
-<tr><td colspan="8" class="text-center"><h3> Core for Int. Ph.D. 1st year only </h3></td>
-
-</tr>
-{% assign list = semester.core-intphd %}
-
-{% include course-table.html %}
-
-<tr><td colspan="8">&nbsp; </td></tr>
 
 {% if semester.core2 %}
 <tr> <td colspan="8" class="text-center"><h3>Core for Int. Ph.D. 2nd year</h3></td>
