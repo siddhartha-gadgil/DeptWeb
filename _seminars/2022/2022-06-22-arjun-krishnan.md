@@ -1,5 +1,5 @@
 ---
-speaker: Arjun Krishnan (University of Rochester)
+speaker: Arjun Krishnan (University of Rochester, USA)
 title: Geometry of random geodesics - 3
 date: 22 June, 2022
 time: 2:00-3:40 pm (with a 10 minute break 2:45-2:55)
