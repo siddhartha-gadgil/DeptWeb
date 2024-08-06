@@ -3,7 +3,7 @@ speaker: Aditya Guha Roy (Indiana University, Bloomington, USA)
 title: "Ruin in double halve gambling"
 date: 8 Aug, 2024
 time: 2:30 pm
-venue: LH-1, Mathematics Department
+venue: Hybrid - LH-1, Mathematics Department and Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
 ---
