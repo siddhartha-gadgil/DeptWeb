@@ -227,3 +227,13 @@
   image: true
   research-area: Harmonic Analysis
   office: R28
+  
+- name: Abhishek Khetan
+  webpage:
+  phd: TIFR Mumbai
+  user-id: abhishek2@iisc.ac.in
+  position: IoE-Postdoctoral Fellow
+  image: true
+  research-area: Combinatorics
+  office: R24
+
