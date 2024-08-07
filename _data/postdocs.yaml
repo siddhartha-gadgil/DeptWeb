@@ -231,11 +231,7 @@
 - name: Abhishek Khetan
   webpage:
   phd: TIFR Mumbai
-<<<<<<< HEAD
   user-id: abhishek2
-=======
-  user-id: abhishek2@iisc.ac.in
->>>>>>> master
   position: IoE-Postdoctoral Fellow
   image: true
   research-area: Combinatorics
