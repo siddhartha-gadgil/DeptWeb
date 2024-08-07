@@ -12,5 +12,5 @@ The study of invariant dispersive PDE on noncompact symmetric spaces, such as th
 arising from the inverse spherical Fourier transform. While this can be achieved by classical though nontrivial tools in rank one, a major problem in higher rank lies
 in the fact that the Plancherel density is not a differentiable symbol in general, and thus integration by parts produces no additional global decay at infinity. In
 this talk, we will explain a way to overcome this problem by introducing a smooth barycentric decomposition of Weyl chambers, which leads eventually to the same
-dispersive and Strichartz estimates as in rank one. This work started 15 years ago as a joint project with S. Media, V. Pierfelice, M. Vallarino and was finally
+dispersive and Strichartz estimates as in rank one. This work started 15 years ago as a joint project with S. Meda, V. Pierfelice, M. Vallarino and was finally
 achieved in collaboration with H.-W. Zhang.
