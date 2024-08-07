@@ -27,3 +27,6 @@ intuition that Schur multipliers share profound similarities with
 Euclidean Fourier multipliers -- even in the lack of a Fourier transform
 connection -- and complete, for Lie groups, a longstanding search of
 Fourier $L_p$-idempotents. Joint work with M. de la Salle and E. Tablate.
+
+The [video of this talk](https://www.youtube.com/watch?v=VFuq6kF4Lhk&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
