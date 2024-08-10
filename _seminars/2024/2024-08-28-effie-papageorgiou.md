@@ -15,7 +15,7 @@ On a Riemannian manifold, consider the Laplace-Beltrami operator $-\Delta$, and 
 \end{equation}
 
 introduced by Caffarelli and Silvestre on Euclidean space to recover the fractional Laplacian $(-\Delta)^{\sigma}$, as $t$ approaches zero.
-On hyperbolic spaces this gives rise to a family of convolution operators, including the Poisson operator $e^{-t\sqrt{-\Delta}}$, $t>0$; moreover,
+On hyperbolic spaces this gives rise to a family of convolution operators, including the Poisson operator $e^{-t\sqrt{-\Delta}}$, $t>0$ ; moreover,
 the kernels of these operators are subordinated to the heat kernel. 
 
 Motivated by Euclidean results for the Poisson semigroup, but also by results on the heat semigroup on Riemannian manifolds and the influence of
