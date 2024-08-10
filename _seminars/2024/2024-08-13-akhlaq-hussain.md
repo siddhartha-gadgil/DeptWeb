@@ -8,7 +8,7 @@ series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
 ---
 
-In this article, we consider _p_ and _h-p_ least-squares spectral element methods for elliptic boundary layer problems in one dimension. We derive stability
+In this talk, we consider _p_ and _h-p_ least-squares spectral element methods for elliptic boundary layer problems in one dimension. We derive stability
 estimates and design a numerical scheme based on minimizing the residuals in the sense of least-squares in appropriate Sobolev norms. We prove parameter
 robust uniform error estimates i.e. error in the approximation is independent of the boundary layer parameter for the _p_ and _hp_-version. Numerical results
 are presented for a number of model elliptic boundary layer problems confirming the theoretical estimates and uniform convergence results.
