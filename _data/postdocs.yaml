@@ -236,4 +236,14 @@
   image: true
   research-area: Combinatorics
   office: R24
+  
+- name: Vaibhav Kumar Jena
+  webpage: https://sites.google.com/view/vaibhavkumarjena
+  phd: Queen Mary University of London, UK
+  user-id: vaibhavkuma1
+  position: NBHM PDF
+  image: true
+  research-area: Analysis of PDEs and control theory
+  office: X-13
+
 
