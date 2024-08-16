@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-08-14-vishvesh-slides.pdf"
 ---
 
 In this talk, I will discuss the semilinear hypoelliptic damped wave equation with power-type nonlinearity associated with a Rockland operator on graded Lie groups.
