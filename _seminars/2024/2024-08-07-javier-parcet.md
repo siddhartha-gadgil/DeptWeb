@@ -5,6 +5,7 @@ date: 7 Aug, 2024
 time: 2:30 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
+slides: "2024-08-07-parcet-slides.pdf"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
 ---
 
