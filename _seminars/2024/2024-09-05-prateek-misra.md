@@ -3,7 +3,7 @@ speaker: Prateek Misra (Technical University of Munich, Germany)
 title: "Graphical models, causality and algebraic perspectives"
 date: 5 Sep, 2024
 time: 4 pm
-venue: LH-1, Mathematics Department
+venue: LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
 ---
