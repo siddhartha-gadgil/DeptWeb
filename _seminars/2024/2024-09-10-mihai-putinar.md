@@ -14,4 +14,4 @@ I will sketch the main ideas of Stieltjes celebrated memoir, to continue with an
 we will touch on Marcel Riesz's pioneering work on extensions of positive linear functionals, to return from another perspective to the Christoffel-Darboux kernel.
 All in 1D.
 
-Some unfinished parallel studies in nD, marred by pitfalls and open problems will be discussed.
+Some unfinished parallel studies in $n$D, marred by pitfalls and open problems will be discussed.
