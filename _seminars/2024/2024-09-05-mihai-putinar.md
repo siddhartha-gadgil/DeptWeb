@@ -8,8 +8,8 @@ series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
 ---
 
-Given a positive measure in Euclidean space, rapidly decaying at infinity, a point a, and a filtration of the polynomial ring by the degree, the optimal bounds
-for point evaluations at a in Lebesgue space $L^2$ are provided by a reproducing kernel known as the Christoffel--Darboux kernel. For a century and a half, this
+Given a positive measure in Euclidean space, rapidly decaying at infinity, a point $a$, and a filtration of the polynomial ring by the degree, the optimal bounds
+for point evaluations at $a$ in Lebesgue space $L^2$ are provided by a reproducing kernel known as the Christoffel--Darboux kernel. For a century and a half, this
 object continues to intrigue by surprising new turns. 
 
 We will touch the asymptotics of orthogonal polynomials in the complex plane, with emphasis on Szego's Limit Theorem. Then turn to spectral analysis on the line,
