@@ -2,7 +2,7 @@
 speaker: Mihai Putinar (University of California at Santa Barbara, USA and Newcastle University, UK) 
 title: "Moment indeterminateness"
 date: 9 Sep, 2024
-time: 3 – 5:15 pm (with a 15 minute break in between) 
+time: 10 am – 12:15 pm (with a 15 minute break in between) 
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
