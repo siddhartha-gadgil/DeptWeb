@@ -6,7 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
-slides="2024-08-28-papageorgiou-slides.pdf"
+slides: "2024-08-28-papageorgiou-slides.pdf"
 ---
 
 On a Riemannian manifold, consider the Laplace-Beltrami operator $-\Delta$, and the associated extension problem 
