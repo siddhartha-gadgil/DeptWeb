@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides="2024-08-28-papageorgiou-slides.pdf"
 ---
 
 On a Riemannian manifold, consider the Laplace-Beltrami operator $-\Delta$, and the associated extension problem 
@@ -22,3 +23,6 @@ Motivated by Euclidean results for the Poisson semigroup, but also by results on
 underlying geometry, we study the long-time asymptotic behavior of solutions to the extension problem for $L^1$ initial data. If the initial datum
 is radial, then the solution to the extension problem behaves asymptotically as the mass times the fundamental solution, but this convergence can
 break down in the non-radial case. The results extend to all noncompact symmetric spaces of arbitrary rank.
+
+The [video of this talk](https://www.youtube.com/watch?v=ghrPgTmT9q0&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
