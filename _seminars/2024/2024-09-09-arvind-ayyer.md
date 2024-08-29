@@ -2,8 +2,8 @@
 speaker: Arvind Ayyer (IISc)
 title: "Interchangeability theorems for interacting particle systems"
 date: 9th September, 2024
-time: 2 PM -3 PM
-venue: LH-1, Department of Mathematics, IISc
+time: 2 pm
+venue: LH-1, Mathematics Department
 series: "Bangalore Probability Seminar"
 ---
   Focuses on two interacting particle systems with inhomogeneous rates on the finite ring with site-dependent rates.
