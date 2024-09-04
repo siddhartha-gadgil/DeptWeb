@@ -113,7 +113,8 @@
     <h3 class="text-center"> <a href="seminars-all.html">Seminars</a></h3>
 
     <ul>
-      {% assign sorted = site.seminars | sort: 'date' | reverse %}{% assign chron = site.seminars | sort: 'date' %}{%
+      {% assign sorted = site.seminars | sort: 'date' | sort: 'time' | reverse %}
+{% assign chron = site.seminars | sort: 'date' %}{%
       assign counter = 0 %}{% for sem in chron %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% if semDate >=
       curDate %}
       {% assign counter=counter | plus: 1 %}
