@@ -3,7 +3,7 @@ speaker: Davide Barilari (Università degli Studi di Padova, Italy)
 title: "Strichartz estimates in the Heisenberg group and generalizations"
 date: 11 Sep, 2024
 time: 3 pm
-time_start: "15:00"
+time_start: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

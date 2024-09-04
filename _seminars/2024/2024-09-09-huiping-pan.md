@@ -3,7 +3,7 @@ speaker: Huiping Pan (South China University)
 title: "Ray structures on Teichmuller spaces"
 date: 09 September, 2024
 time: 06:30 pm 
-time_start: "18:30"
+time_start: 18:30
 venue: online, MS Teams
 series: "Geometry & Topology Seminar"
 ---
