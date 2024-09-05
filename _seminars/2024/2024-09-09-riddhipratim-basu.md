@@ -6,6 +6,7 @@ time: 3:15 pm
 start_time: 15:15
 venue: LH-1, Mathematics Department
 series: "Bangalore Probability Seminar"
+website: "https://bangaloreprobabilityseminar.wordpress.com/"
 ---
 There are some remarkable bijections that connect the spectrum of classical random matrix ensembles (such as Gaussian and Laguerre unitary ensembles)
 to certain planar random growth models. I shall review some of these connections and discuss a few results on either side that uses the interplay.
