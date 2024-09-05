@@ -17,3 +17,6 @@ culminating in Weyl's circle phenomenon.
 
 Recent applications to dynamical systems (via Koopman's operator formalism) and the statistics of geometric data will be presented together with some numerical
 experiments.
+
+The [video of this talk](https://www.youtube.com/watch?v=laMHsOXiPEU&list=PLQXtaLhI1-1qRaxLLwYV1KdnhN8N3ieWy) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
