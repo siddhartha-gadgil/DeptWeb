@@ -3,7 +3,7 @@ speaker: Riddhipratim Basu (ICTS Bangalore)
 title: "Classical random matrix ensembles and planar random growth models"
 date: 9th September, 2024
 time: 3:15 pm
-time_start: 15:15
+start_time: 15:15
 venue: LH-1, Mathematics Department
 series: "Bangalore Probability Seminar"
 ---

@@ -113,10 +113,14 @@
     <h3 class="text-center"> <a href="seminars-all.html">Seminars</a></h3>
 
     <ul>
-      {% assign sorted = site.seminars | sort: 'date' | reverse | sort: 'time_start' %}
-{% assign chron = site.seminars | sort: 'date' %}{%
-      assign counter = 0 %}{% for sem in chron %}{% assign semDate = sem.date | date: '%s' | plus: 0 %}{% if semDate >=
-      curDate %}
+      {% assign sorted = site.seminars | sort: 'date' | reverse %}
+      {% assign by_date = site.seminars | group_by: "date"%}
+      {% assign by_date_sorted = by_date | sort: 'name' %}
+      {% assign curDate = site.time | date: '%s' | minus: 86400 %}
+      {% assign counter = 0 %}
+      {% for group in by_date_sorted %}{% assign semDate = group.name | date: '%s' | plus: 0 %}{% if semDate >=
+        curDate %}
+{% assign chron = group.items |  sort: 'start_time' %}{% for sem in chron %}
       {% assign counter=counter | plus: 1 %}
       <li>
         {% capture start %}{{sem.date | date_to_long_string }} {{ sem.time }}{% endcapture %}
@@ -152,8 +156,9 @@
         <div class="">
           &nbsp;
         </div>
-      </li>{% endif %}{% endfor %}
+      </li>{% endfor %}{% endif %}{% endfor %}
       {% assign pastnum = 4 | minus: counter %}
+
 
       {% if pastnum > 0 %}
       <h4 class="text-center">Past Seminars</h4>
