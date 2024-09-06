@@ -17,13 +17,14 @@
   scholarship: IISc
   office: N11(4)
 
-<!--- name: Swarnalipa Datta
-  user-id: swarnalipad
-  year-of-joining: 2016
-  programme: Integrated PhD
-  guide: Apoorva Khare
-  scholarship: IISc
-  office: LH-I-->
+# - name: Swarnalipa Datta
+#   user-id: swarnalipad
+#   year-of-joining: 2016
+#   programme: Integrated PhD
+#   guide: Apoorva Khare
+#   scholarship: IISc
+#   office: LH-I
+
 
 - name: Ramesh Mete
   year-of-joining: 2017
@@ -196,12 +197,12 @@
   image: true
   office: N04(6)
 
-<!--- name: Yash Chauhan
-  year-of-joining: 2021
-  programme: Integrated PhD
-  user-id: yashchauhan
-  image: true
-  office: N04(6)-->
+# name: Yash Chauhan
+#   year-of-joining: 2021
+#   programme: Integrated PhD
+#   user-id: yashchauhan
+#   image: true
+#   office: N04(6)
 
 - name: Arghyadeep Chatterjee
   year-of-joining: 2021
