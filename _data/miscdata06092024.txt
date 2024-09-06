@@ -1,0 +1,146 @@
+i# name: Yash Chauhan
+#   year-of-joining: 2021
+#   programme: Integrated PhD
+#   user-id: yashchauhan
+#   image: true
+#   office: N04(6)
+# - name: Swarnalipa Datta
+#   user-id: swarnalipad
+#   year-of-joining: 2016
+#   programme: Integrated PhD
+#   guide: Apoorva Khare
+#   scholarship: IISc
+#   office: LH-I
+
+
+
+#This is cut and paste from students.yaml 06092024
+# - name: Neeladri Maitra
+#   user-id: neeladrim
+#   year-of-joining: 2017
+#   programme: GOT AN MS
+  
+# - name: Priyanka Chudasama
+#   user-id: Priyankac
+#   year-of-joining: 2018
+#   programme: GOT AN MS
+
+# - name: Mansimar Singh
+#   year-of-joining: 2019
+#   programme: Downgrade to MS
+  
+# - name: Thummala Vamsi Krishna
+#   year-of-joining: 2019
+#   programme: Downgraded to ms
+
+# - name: Arghan Dutta
+#   year-of-joining: 2021
+#   programme: Downgrade to MS
+  
+# - name: Arindam Mandal
+#   year-of-joining: 2017
+#   programme: Integrated PhD
+#   user-id: arindamm
+#   image: true
+#   guide: Vamsi Pritam Pingali
+#   scholarship: IISc
+#   office: X22(6)
+
+# - name: Pranab Sarkar
+#   user-id: pranabsarkar
+#   year-of-joining: 2016
+#   programme: Integrated PhD
+#   guide: Subhojoy Gupta
+#   scholarship: IISc
+#   office: LH-I
+
+# - name: MD Irfan Habib
+#   year-of-joining: 2019
+#   programme: PhD
+#   user-id: irfanhabib
+#   image: true
+#   office: X21(6)
+
+# - name: Sivaram P
+#   user-id: sivaramp
+#   year-of-joining: 2018
+#   programme: PhD
+#   guide: Kaushal Verma
+#   scholarship: NBHM
+#   office: X20(6)
+
+# - name: Londhe Mayuresh Mahadeo
+#   user-id: mayureshl
+#   year-of-joining: 2016
+#   programme: PhD
+#   guide: Gautam Bharali
+#   scholarship: NBHM
+#   image: true
+#   webpage: https://math.iisc.ac.in/~mayuresh16/
+#   office: L21
+
+# - name: Srimala Srikanth
+#   user-id: srikanths
+#   year-of-joining: 2015
+#   programme: PhD
+#   guide: Manjunath Krishnapur
+#   scholarship: NBHM
+#   office: L14
+
+# - name: Shubham Rastogi
+#   user-id: shubhamr
+#   year-of-joining: 2016
+#   programme: Integrated PhD
+#   guide: Tirthankar Bhattacharyya
+#   scholarship: IISc
+#   office: LH-I
+
+# - name: Pabitra Barman
+#   user-id: pabitrab
+#   year-of-joining: 2016
+#   programme: Integrated PhD
+#   guide: Subhojoy Gupta
+#   scholarship: IISc
+#   office: L21(4)
+
+# - name: Babhrubahan Bose
+#   year-of-joining: 2017
+#   programme: Integrated PhD
+#   user-id: babhrubahanb
+#   guide: Apoorva Khare
+#   scholarship: PMRF
+#   office: X22(6)
+
+# - name: Aakanksha Jain
+#   user-id: aakankshaj
+#   year-of-joining: 2017
+#   programme: Integrated PhD
+#   image: true
+#   guide: Kaushal Verma
+#   scholarship: IISc
+#   webpage: https://sites.google.com/view/aakanksha-jain
+#   office: LH-I
+
+# - name: Nishu Kumari
+#   user-id: nishukumari
+#   year-of-joining: 2018
+#   programme: PhD
+#   guide: Kaushal Verma
+#   scholarship: NBHM
+#   office: L28(4)
+
+# - name: Gobinda Sau
+#   user-id: gobindasau
+#   year-of-joining: 2017
+#   programme: PhD
+#   image: true
+#   guide: Subhojoy Gupta
+#   scholarship: IISc
+#   office: R24(4)
+from NMIDIST.YAML
+
+
+
+#- name: M. S. Narasimhan
+# research-areas: Algebraic geometry-->
+  
