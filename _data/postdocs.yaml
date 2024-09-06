@@ -15,14 +15,6 @@
   research-area: Operator Theory, Operator Algebras, Quantum Probability
   office: N13
 
-- name: Manoj Kumar
-  phd: IIT Delhi 
-  user-id: manojkumar1
-  position: NBHM 
-  image: true
-  research-area: Harmonic Analysis   
-  office: L24
-
 - name: Sankar K
   phd: IIT Kanpur
   user-id: sankark
@@ -57,14 +49,6 @@
   research-area: Algebraic Combinatorics
   office: N22
 
-- name: Dharmendra Kumar
-  webpage: https://math.iisc.ac.in/~dharmendrak
-  phd: IIT Gandhinagar
-  user-id: dharmendrak
-  position: IOE
-  image: true
-  research-area: PDEs
-  office: R28
 
 - name: Pintu Bhunia
   webpage: 

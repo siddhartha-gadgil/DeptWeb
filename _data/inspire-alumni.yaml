@@ -90,4 +90,31 @@
   start: "2011"  
   end: 
   present: 
+  
+  - name: Safdar Quddus, (Ph.D., Washington University)
+  position: INSPIRE Faculty Fellow
+  research-areas: Non-commutative Geometry
+  user-id: safdarquddus
+  image: true
+  webpage: https://sites.google.com/site/safdarquddus/
+  
+  
+- name: Srijan Sarkar, (Ph.D., ISI, Bangalore)
+  position: INSPIRE Faculty Fellow
+  research-areas: Multivariate Operator Theory
+  user-id : srijans
+  image: true
 
+
+- name: Sushma Palimar, (Ph.D., NITK, Surathkal)
+  position: DST WOSA
+  research-areas: Algebraic Number Theory
+  user-id : psushma
+  image: true
+
+- name: Kousik Dhara (Ph.D., Indian Institute of Technology, Madras)
+  user-id: kousikdhara
+  position: INSPIRE Faculty Fellow
+  research-areas: Functional Analysis and Operator Theory
+  image: true
+  webpage: https://sites.google.com/view/kousikdhara

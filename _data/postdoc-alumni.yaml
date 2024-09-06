@@ -823,3 +823,21 @@
   end: "1994"  
   present: "IIT, Madras"  
 
+- name: Dharmendra Kumar
+  webpage: https://math.iisc.ac.in/~dharmendrak
+  phd: IIT Gandhinagar
+  user-id: dharmendrak
+  position: IOE
+  image: true
+  research-area: PDEs
+  office: R28
+  
+- name: Manoj Kumar
+  phd: IIT Delhi 
+  user-id: manojkumar1
+  position: NBHM 
+  image: true
+  research-area: Harmonic Analysis   
+  office: L24
+
+
