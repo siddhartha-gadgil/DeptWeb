@@ -1,5 +1,5 @@
 ---
-speaker: Huiping Pan (South China University)
+speaker: Huiping Pan (South China University of Technology)
 title: "Ray structures on Teichmuller spaces"
 date: 09 September, 2024
 time: 06:30 pm 
