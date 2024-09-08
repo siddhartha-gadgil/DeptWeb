@@ -18,4 +18,4 @@ Consider the following questions.
 These questions appeal to our basic intuition about geometry and information transmission, which seems to suggest the answer to both of them is yes.
 The first question is open; the Kneser--Poulsen conjecture asserts that it has an affirmative answer. In this talk, based on well-known analogies between
 convex geometry and information theory, we will frame (and prove) the natural entropic formulation of the Kneser--Poulsen conjecture. As a corollary, an
-affirmative answer to the second question is obtained. This talk is based on [https://arxiv.org/abs/2409.03664](joint work) with Dongbin Li. 
+affirmative answer to the second question is obtained. This talk is based on [joint work](https://arxiv.org/abs/2409.03664) with Dongbin Li. 
