@@ -16,3 +16,6 @@ we will touch on Marcel Riesz's pioneering work on extensions of positive linear
 All in 1D.
 
 Some unfinished parallel studies in $n$D, marred by pitfalls and open problems will be discussed.
+
+The [video of this talk](https://www.youtube.com/watch?v=T4231YM10BY&list=PLQXtaLhI1-1qRaxLLwYV1KdnhN8N3ieWy) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
