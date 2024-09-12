@@ -3,6 +3,7 @@ speaker:  Ioannis Parissis (University of the Basque Country, Leioa, Spain)
 title: "Directional singular integrals in codimension one"
 date: 25 Sep, 2024
 time: 3 pm
+start_time: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

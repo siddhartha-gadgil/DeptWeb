@@ -3,6 +3,7 @@ speaker: Madhavan Venkatesh (IIT Kanpur)
 title: "Computing the zeta function of varieties over finite fields"
 date: 13 September, 2024
 time: 4 pm
+start_time: 16:00
 series: "Number Theory Seminar"
 venue: LH-2
 website: https://math.iisc.ac.in/number-theory-seminar.html
