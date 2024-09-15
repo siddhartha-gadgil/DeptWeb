@@ -5,6 +5,7 @@ date: 6 September, 2024
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2024-09-06-KaneenikaSinha.pdf"
 ---
 
 "Explicit" number theory is the name given to the study of what are called zero-free regions of the Riemann zeta function and other L-functions.
