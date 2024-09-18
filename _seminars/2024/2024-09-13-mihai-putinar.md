@@ -15,3 +15,7 @@ monotonic functions. One of the spectacular applications of Fantappie's transfor
 functions. The multiplicative structure of Fantappie's transform brings us to the classical Markov--Krein correspondence, much investigated these days by probabilists.
 
 An application to mathematical economics will be sketched.
+
+The [video of this talk](https://www.youtube.com/watch?v=PcW3T2P63JI&list=PLQXtaLhI1-1qRaxLLwYV1KdnhN8N3ieWy) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
+
