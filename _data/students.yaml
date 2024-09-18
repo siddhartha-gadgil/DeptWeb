@@ -369,4 +369,67 @@
   user-id: sahamsil
   image: true
   office: L21(4)
+  
+  - name: Sachin Shukla
+  year-of-joining: 2024
+  programme: PhD
+  user-id: sachinshukla
+  image: true
+  office: To be allotted
+
+- name: Muhammed Faheem A T
+  year-of-joining: 2024
+  programme: PhD
+  user-id: faheemat
+  image: true
+  office: To be allotted
+
+- name: Shubhanshu Prasad
+  year-of-joining: 2024
+  programme: PhD
+  user-id: shubhanshup
+  image: true
+  office: To be allotted
+
+- name: Sohan Manna
+  year-of-joining: 2024
+  programme: Integrated PhD
+  user-id: sohanmanna
+  image: true
+  office: To be allotted
+
+- name: Arpan Pal
+  year-of-joining: 2024
+  programme: Integrated PhD
+  user-id: arpanpal
+  image: true
+  office: To be allotted
+
+- name: Amit Giri
+  year-of-joining: 2024
+  programme: Integrated PhD
+  user-id: amitgiri
+  image: true
+  office: To be allotted
+
+- name: Kedar Desai
+  year-of-joining: 2024
+  programme: Integrated PhD
+  user-id: kedardesai
+  image: true
+  office: To be allotted
+
+- name: Ayon Chowdhury
+  year-of-joining: 2024
+  programme: Integrated PhD
+  user-id: ayonc
+  image: true
+  office: To be allotted
+
+- name: Sufaid Saleel
+  year-of-joining: 2024
+  programme: Integrated PhD
+  user-id: sufaidsaleel
+  image: true
+  office: To be allotted
 
