@@ -18,4 +18,4 @@ For $\alpha>n-\frac{1}{2}$, $\mathcal{B}^{\alpha}\_R$ maps $L^{p_1}(\mathbb{R}^n
 $\frac{1}{p}=\frac{1}{p_1}+\frac{1}{p_2}$. Thus, $\alpha=n-\frac{1}{2}$ is commonly referred as the critical index for the bilinear Bochner--Riesz operator. Recently,
 there have been some results on $L^p$-boundedness of the bilinear Bochner--Riesz operator $\mathcal{B}^{\alpha}_R$ when $\alpha\leq n-\frac{1}{2}$.
 
-In this talk, we extend the bilinear Bochner-Riesz operator to convex domains in the plane and discuss some $L^p$-boundedness results.
+In this talk, we extend the bilinear Bochner--Riesz operator to convex domains in the plane and discuss some $L^p$-boundedness results.
