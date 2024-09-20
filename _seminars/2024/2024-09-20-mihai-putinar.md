@@ -20,3 +20,6 @@ theory has put some essential marks on purely Real Algebra chapters. We will als
 
 The third part of the lecture will contain applications of relatively recent positivity certificates to global, non-convex optimization, stability of
 dynamical systems and construction of wavelet frames.
+
+The [video of this talk](https://www.youtube.com/watch?v=DcAY990tOEU&list=PLQXtaLhI1-1qRaxLLwYV1KdnhN8N3ieWy) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
