@@ -15,7 +15,7 @@ probability. In the first half of this talk, we shall investigate the asymptotic
 on the two-dimensional lattice. Depending on the values of its parameters, we shall observe a nonlinear phase transition for these random walks from diffusive to
 superdiffusive regimes. 
 
-In the second half, we shall discuss a class of one-dimensional such models called “elephant random walk with n memory channels” introduced in a recent paper by
+In the second half, we shall discuss a class of one-dimensional such models called “elephant random walk with $n$ memory channels” introduced in a recent paper by
 another statistical physicist Saha (2022). In these models the information of $n$ previous steps from the walker’s entire history is needed to decide the future
 step. The aforementioned work carried out a bunch of calculations, and conjectured a phase transition from diffusive to superdiffusive regime based on some numerical
 computations in the $n=2$ case. We have been able to prove these conjectures rigorously and establish a few new transition boundaries beyond the predicted ones. 
