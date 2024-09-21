@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-09-18-carneiro-slides.pdf"
 ---
 
 This will be a broad discussion on a few different types of Fourier uncertainty principles for bandlimited functions (i.e. functions that have Fourier
