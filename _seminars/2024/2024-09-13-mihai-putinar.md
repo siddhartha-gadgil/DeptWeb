@@ -6,6 +6,7 @@ time: 3 – 5:15 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-09-13-putinar-slides.pdf"
 ---
 
 There are several analogs of Cauchy's integral transform in the theory of functions of several complex variables. Fantappie's transform is one of them, possibly
