@@ -6,6 +6,7 @@ time: 10 am – 12:15 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-09-18-putinar-slides.pdf"
 ---
 
 After a review of the Markov--Krein transform in the case of a one variable, and the Hilbert space interpretation of it (the phase shift), we will specialize
