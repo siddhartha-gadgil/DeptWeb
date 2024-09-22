@@ -6,6 +6,7 @@ time: 2 – 4:15 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-09-05-putinar-slides.pdf"
 ---
 
 Given a positive measure in Euclidean space, rapidly decaying at infinity, a point $a$, and a filtration of the polynomial ring by the degree, the optimal bounds
