@@ -5,6 +5,7 @@ date: 20 September, 2024
 time:  3 – 5 pm (with a 15 minute break in between)
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2024-09-20-MihaiPutinar.pdf"
 ---
 
 Elementary root separation arguments imply that a non-negative polynomial on the real line is a sum of two squares of polynomials. A non-constructive and
