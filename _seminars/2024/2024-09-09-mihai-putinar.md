@@ -7,6 +7,7 @@ start_time: 10:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-09-09-putinar-slides.pdf"
 ---
 
 Contrary to Fourier, Laplace, Cauchy, or Poisson transforms, the power moments of a positive measure, fast decaying at infinity on the real line, do not determine
