@@ -15,3 +15,6 @@ We will see the main obstructions to the boundedness of these objects which will
 with the Kakeya conjecture and the Stein and Zygmund conjectures. Finally, I will present a sharp estimate for maximal directional singular
 integrals in codimension one and general ambient dimension. This reports on joint work with O. Bakas (U. of Patras), F. Di Plinio (Napoli,
 Federico II) and L. Roncal (BCAM).
+
+The [video of this talk](https://www.youtube.com/watch?v=_8iPuU4Xnck&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
