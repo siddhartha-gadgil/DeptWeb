@@ -7,6 +7,7 @@ start_time: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-09-25-parissis-slides.pdf"
 ---
 
 In this talk I will give a brief overview of the theory of maximal directional averages and singular integrals in 2 and higher dimensions.
