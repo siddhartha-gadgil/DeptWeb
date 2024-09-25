@@ -11,6 +11,6 @@ An interesting class of examples of holomorphic maps tangent to the identity at 
 vector fields. It is known that the study of the dynamics of these maps can be reduced to the study of the dynamics of the geodesic field of meromorphic connections
 on Riemann surfaces. In this talk we shall describe some recent results, obtained in collaboration with Karim Rakhimov, on the dynamics of the geodesic field for
 Fuchsian meromorphic connections having real periods. The main tools used are: a generalization to general Fuchsian meromorphic connections of a classical formula
-proved by Teichm\"uller for quadratic differentials, and the relationship between Fuchsian meromorphic connections with real periods and singular flat Hermitian metrics.
+proved by Teichm&uuml;ller for quadratic differentials, and the relationship between Fuchsian meromorphic connections with real periods and singular flat Hermitian metrics.
 In particular, we obtain a description of the possible $\omega$-limit sets of simple geodesics that extends and makes more precise results known for the particular case
 of Riemann surfaces endowed with a meromorphic $k$-differential.
