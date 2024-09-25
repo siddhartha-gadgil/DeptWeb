@@ -1,6 +1,6 @@
 ---
 speaker: Marco Abate (Università di Pisa and Università degli Studi Guglielmo Marconi, Italy)
-title: "Dynamics of Fuchsian meromorphic connections with real period":w
+title: "Dynamics of Fuchsian meromorphic connections with real period"
 date: 7 October, 2024
 time: 3:30 pm
 venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25">APRG Seminar</a>)
