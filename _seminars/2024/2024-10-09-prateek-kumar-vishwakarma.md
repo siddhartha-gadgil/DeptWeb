@@ -5,7 +5,7 @@ date: 9 Oct, 2024
 time: 4:15 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb24-25.html
 ---
 
 We show that the partial sums of the long Pl&uuml;cker relations for
