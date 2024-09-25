@@ -5,7 +5,7 @@ date: 24 Jul, 2024
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 I will briefly recall Milnor cycle modules over a field as defined by Rost (1996) and their significance and properties. Recently, 'modules' over Milnor–Witt K-theory

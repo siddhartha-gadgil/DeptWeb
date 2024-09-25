@@ -5,7 +5,7 @@ date: 4 Nov, 2022
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 Let $q$ be a prime power and define $(n)\_q:=1+q+q^2+\cdots+q^{n-1}$, for

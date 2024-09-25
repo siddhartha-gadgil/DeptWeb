@@ -5,7 +5,7 @@ date: 22 September, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Let $\mathfrak g$ be a symmetrizable Kac-Moody Lie algebra with

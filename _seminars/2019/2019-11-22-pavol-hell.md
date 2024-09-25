@@ -5,7 +5,7 @@ date: 22 November, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 I will discuss a few examples of concepts that have interesting

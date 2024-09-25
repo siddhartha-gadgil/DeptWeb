@@ -5,7 +5,7 @@ date: 15 November, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Let us consider the continuous-time random walk on $G\wr S_n$, the

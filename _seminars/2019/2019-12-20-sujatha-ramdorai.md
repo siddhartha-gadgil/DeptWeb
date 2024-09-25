@@ -5,7 +5,7 @@ date: 20 December, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 The talk will focus on congruences modulo a prime $p$ of arithmetic

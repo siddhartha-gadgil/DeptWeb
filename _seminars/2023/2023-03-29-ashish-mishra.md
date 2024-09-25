@@ -5,7 +5,7 @@ date: 29 March, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 Consider a finite group $G$ and a prime number $p$ dividing the order of $G$.

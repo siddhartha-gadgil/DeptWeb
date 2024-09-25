@@ -5,7 +5,7 @@ date: 27 November, 2019
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 We will present some recent studies on ideals of the

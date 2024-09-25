@@ -5,7 +5,7 @@ date: 5 Jun, 2024
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 We characterize the existence of an Ulrich vector bundle on a variety $X\subset{\bf P}^N$ in terms of the existence of a subvariety

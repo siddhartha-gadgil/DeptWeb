@@ -5,7 +5,7 @@ date: 5 Sep, 2024
 time: 4 pm
 venue: LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Algebraic Statistics is a relatively new field of research where tools from Algebraic Geometry, Combinatorics and Commutative Algebra are used to solve

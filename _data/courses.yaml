@@ -978,7 +978,7 @@ jan2022:
     instructor: Swarnendu Sil
     timing: 'Tue, Thu: 2:00 - 3:30'
     venue: LH-2/LH-1
-    webpage: http://www.math.iisc.ac.in/~ssil/Courses/Analysis_3_Spring22/PDE2Spring22.html
+    webpage: https://math.iisc.ac.in/~ssil/Courses/Analysis_3_Spring22/PDE2Spring22.html
   - name: Topics in Harmonic Analysis II
     code: MA 322
     instructor: S. Thangavelu
@@ -1599,7 +1599,7 @@ aug2019:
     prereq-courses: ''
     ug-prereq-courses: UM 203
     venue: LH-3
-    webpage: http://www.math.iisc.ac.in/~khare/teaching.html
+    webpage: https://math.iisc.ac.in/~khare/teaching.html
   - name: Linear Algebra
     credits: '3:1'
     instructor: Vamsi Pingali
@@ -1691,7 +1691,7 @@ aug2019:
     prereq-courses: MA 219
     ug-prereq-courses: ''
     venue: LH-3
-    webpage: http://www.math.iisc.ac.in/~khare/teaching.html
+    webpage: https://math.iisc.ac.in/~khare/teaching.html
   - name: Topics around the Grothendieck inequality
     code: MA 349
     instructor: Gadadhar Misra
@@ -2133,7 +2133,7 @@ jan2018:
     instructor: Apoorva Khare
     timing: 'Wed, Fri: 11:00-12:30'
     code: MA 341
-    webpage: http://www.math.iisc.ac.in/~khare/teaching.html
+    webpage: https://math.iisc.ac.in/~khare/teaching.html
     prereq-courses: MA 219
     ug-prereq-courses: ''
   - name: Coxeter Groups

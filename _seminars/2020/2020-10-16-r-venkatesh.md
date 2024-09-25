@@ -5,7 +5,7 @@ date: 16 October, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 The affine Demazure modules are the Demazure modules that occur in a level

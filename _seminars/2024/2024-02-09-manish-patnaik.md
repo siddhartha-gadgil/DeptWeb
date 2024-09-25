@@ -5,7 +5,7 @@ title: "Whittaker functions on covers of p-adic groups and quantum groups at roo
 time: "2 pm" 
 series: "Number Theory Seminar"
 website: https://math.iisc.ac.in/number-theory-seminar.html
-venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb23-24.html" >Algebra-Combinatorics Seminar</a>)
+venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~khare/algcomb23-24.html" >Algebra-Combinatorics Seminar</a>)
 ---
 
 Since the work of Kubota in the late 1960s, it has been known that certain Gauss sum twisted (multiple) Dirichlet series are closely

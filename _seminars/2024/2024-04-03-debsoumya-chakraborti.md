@@ -3,9 +3,9 @@ speaker: Debsoumya Chakraborti (Mathematics Institute, University of Warwick, UK
 title: "Approximate packing of independent transversals in locally sparse graphs"
 date: 3 Apr, 2024
 time: 4 pm
-venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~aprg/index.php?id=seminar23-24">APRG Seminar</a>)
+venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24">APRG Seminar</a>)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Consider a multipartite graph $G$ with maximum degree at most $n-o(n)$,

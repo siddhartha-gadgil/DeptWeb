@@ -5,7 +5,7 @@ date: 30 March, 2023
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 The Virasoro algebra, which can be realized as a central extension of (complex) polynomial vector fields

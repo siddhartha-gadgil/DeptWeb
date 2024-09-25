@@ -5,7 +5,7 @@ date: 18 Sep, 2024
 time: 4:15 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 We discuss an algebraic version of Schoenberg's celebrated theorem [_Duke Math. J._, 1942] characterizing entrywise matrix transforms that preserve positive definiteness.

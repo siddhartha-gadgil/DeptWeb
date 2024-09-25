@@ -5,7 +5,7 @@ date: 14 December, 2022
 time: 10 am
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 Given a bipartite graph $G$ (subject to a constraint), the "cross-ratio

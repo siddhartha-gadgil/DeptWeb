@@ -23,4 +23,4 @@ chmod go+rX public_html
 
 * Create your webpage (i.e., file named `index.html`) locally, i.e., on your PC and upload all the files (including index.html which will be your main page) to the `public_html` folder on math using an sftp client such as [psftp](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 
-* Your webpage should be active. The address is "http://www.math.iisc.ac.in/~yourusername".
+* Your webpage should be active. The address is "https://math.iisc.ac.in/~yourusername".

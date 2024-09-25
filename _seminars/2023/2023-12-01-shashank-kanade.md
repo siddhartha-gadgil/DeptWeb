@@ -5,7 +5,7 @@ date: 1 December, 2023
 time: 11 am
 venue: LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 I will give a gentle introduction to the combinatorial Rogers--Ramanujan identities.

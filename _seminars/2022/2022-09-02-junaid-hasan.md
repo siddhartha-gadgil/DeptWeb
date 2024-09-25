@@ -5,7 +5,7 @@ date: 2 September, 2022
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 This talk is based on the work of Stark and Terras (Zeta functions of Finite graphs and

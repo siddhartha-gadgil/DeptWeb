@@ -5,7 +5,7 @@ date: 10 January, 2024
 time: 4 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Consider the following natural robustness question: is an almost-homomorphism of a group necessarily a small deformation of a homomorphism?

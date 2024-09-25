@@ -5,7 +5,7 @@ date: 17 February, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 In 1976 Bernstein, Gelfand, and Gelfand introduced Category $\mathcal{O}$

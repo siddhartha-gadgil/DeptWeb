@@ -5,7 +5,7 @@ date: 14 November, 2019
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 Report on joint work with M. Neuhauser. This includes results with C.

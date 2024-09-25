@@ -5,7 +5,7 @@ date: 7 May, 2019
 time: 11:30 am
 series: "Algebra & Combinatorics Seminar"
 venue: LH-5, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 Consider the tensor product of two irreducible finite dimensional

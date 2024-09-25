@@ -5,7 +5,7 @@ date: 26 September, 2018
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 The aim of this talk is to give a high-level overview of the theory

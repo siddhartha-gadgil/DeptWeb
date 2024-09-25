@@ -5,7 +5,7 @@ date: 30 January, 2019
 time: 4 pm
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 Given a hypergraph $\mathcal{H}$ with vertex set $[n]:=\{1,\ldots,n\}$, a

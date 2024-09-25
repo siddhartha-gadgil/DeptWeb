@@ -5,7 +5,7 @@ date: 8 April, 2019
 time: 2:30 pm
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
  In this talk I consider crossed product $C^\*$-algebras of higher

@@ -3,7 +3,7 @@ speaker: Philip Engel (University of Georgia, Athens, USA)
 title: "Counting Buckyballs"
 date: 7 Jun, 2023
 time: 2 pm
-venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb20-23.html" >Algebra-Combinatorics Seminar</a>)
+venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~khare/algcomb20-23.html" >Algebra-Combinatorics Seminar</a>)
 series: "Geometry & Topology Seminar"
 ---
 

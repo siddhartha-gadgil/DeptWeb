@@ -5,7 +5,7 @@ date: 26 October, 2018
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 Characters of classical groups appear in the enumeration of many

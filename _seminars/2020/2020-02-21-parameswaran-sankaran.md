@@ -5,7 +5,7 @@ date: 21 February, 2020
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 An endomorphism $\phi: G\to G$ of a group yields an action of $G$ on

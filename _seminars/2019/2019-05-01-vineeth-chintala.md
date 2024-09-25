@@ -5,7 +5,7 @@ date: 1 May, 2019
 time: 3 pm
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 In this talk, we will introduce the notion of an embedding of

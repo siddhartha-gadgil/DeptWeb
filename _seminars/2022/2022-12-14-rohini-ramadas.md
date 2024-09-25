@@ -5,7 +5,7 @@ date: 14 December, 2022
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 $\mathrm{Per}\_n $ is an affine algebraic curve, defined over $\mathbb Q$,

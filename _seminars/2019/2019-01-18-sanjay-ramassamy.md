@@ -5,7 +5,7 @@ date: 18 January, 2019
 time: 11 am
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 While the enumeration of linear extensions of a given poset is a well-studied

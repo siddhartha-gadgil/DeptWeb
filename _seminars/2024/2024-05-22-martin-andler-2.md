@@ -5,7 +5,7 @@ title: "Equivariant cohomology in a tensor category"
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 In the 1950s, topologists introduced the notion of equivariant cohomology

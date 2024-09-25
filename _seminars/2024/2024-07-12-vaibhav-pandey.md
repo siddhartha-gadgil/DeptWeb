@@ -5,7 +5,7 @@ date: 12 Jul, 2024
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Consider a reductive linear algebraic group $G$ acting linearly on a

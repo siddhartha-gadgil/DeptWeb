@@ -5,7 +5,7 @@ date: 11 September, 2019
 time: 4:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 The connection between the multiplicative and additive structures of an arbitrary

@@ -5,7 +5,7 @@ date: 25 August, 2022
 time: 12 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 I will explain a generalisation of the constructions Quillen used to prove that the $K$-groups

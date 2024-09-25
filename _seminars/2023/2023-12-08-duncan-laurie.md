@@ -5,7 +5,7 @@ date: 8 December, 2023
 time: 3 pm
 venue: LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Quantum toroidal algebras are the next class of quantum affinizations after quantum affine algebras, and can be thought of

@@ -5,7 +5,7 @@ date: 30 August, 2023
 time: 3:30 pm
 venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/geometry-topology-seminar.html">Geometry & Topology Seminar</a>)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 The Alpha invariant of a complex Fano manifold was introduced by Tian to detect its K-stability, an algebraic condition that implies the

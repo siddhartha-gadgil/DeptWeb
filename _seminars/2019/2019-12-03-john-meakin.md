@@ -5,7 +5,7 @@ date: 3 December, 2019
 time: 11 am
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 The study of Leavitt path algebras has two primary sources, the

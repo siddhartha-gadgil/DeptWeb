@@ -5,7 +5,7 @@ date: 9 October, 2019
 time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 A beautiful $q$-series identity found in the unorganized portion of Ramanujan's second

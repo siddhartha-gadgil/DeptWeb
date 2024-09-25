@@ -5,7 +5,7 @@ date: 16 December, 2022
 time: 2:30 pm
 venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 We shall discuss Legendre Pairs, an interesting combinatorial object related to the

@@ -5,7 +5,7 @@ date: 11 January, 2023
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 Let $\mathfrak g$ be a Borcherds--Kac--Moody Lie superalgebra (BKM superalgebra in short)

@@ -5,7 +5,7 @@ date: 11 December, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 The Gyárfás–Sumner conjecture states the following: Let $a,b$ be

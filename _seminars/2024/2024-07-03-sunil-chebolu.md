@@ -5,7 +5,7 @@ title: "Towards a refinement of the Bloch-Kato conjecture"
 time: "11 am" 
 series: "Number Theory Seminar"
 website: https://math.iisc.ac.in/number-theory-seminar.html
-venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="http://www.math.iisc.ac.in/~khare/algcomb23-24.html" >Algebra-Combinatorics Seminar</a>)
+venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~khare/algcomb23-24.html" >Algebra-Combinatorics Seminar</a>)
 ---
 
 Let $F$ be a field that has a primitive $p$-th root of unity. According

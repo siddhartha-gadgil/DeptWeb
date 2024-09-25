@@ -5,7 +5,7 @@ date: 31 January, 2020
 time: 3 pm
 venue: LH-3, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 For a finite abelian group $G$ and $A \subset [1, \exp(G) - 1]$, the

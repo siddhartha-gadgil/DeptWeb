@@ -5,7 +5,7 @@ date: 16 April, 2019
 time: 2 pm
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 Representations of Symmetric groups $S_n$ can be considered as

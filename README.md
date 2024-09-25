@@ -268,7 +268,7 @@ jan2018:
       name: Matrix Analysis and positivity
       instructor: Apoorva Khare
       timing: "Wed, Fri: 11:00-12:30"
-      webpage: http://www.math.iisc.ac.in/~khare/teaching.html
+      webpage: https://math.iisc.ac.in/~khare/teaching.html
 
 aug2017:
   core1:

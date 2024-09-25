@@ -5,7 +5,7 @@ date: 21 August, 2023
 time: 11:30 am
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Associated to every reflection group, we construct a lattice of quotients of its braid monoid-algebra, which we term nil-Hecke algebras,

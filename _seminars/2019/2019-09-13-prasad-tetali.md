@@ -5,7 +5,7 @@ date: 13 September, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 In 2001, Jeff Kahn showed that a disjoint union of $n/(2d)$ copies of the

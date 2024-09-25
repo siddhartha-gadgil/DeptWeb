@@ -5,7 +5,7 @@ date: 6 November, 2020
 time: 3 pm
 venue: Microsoft Teams (online)
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 We introduce a weight-dependent extension of the inversion statistic,

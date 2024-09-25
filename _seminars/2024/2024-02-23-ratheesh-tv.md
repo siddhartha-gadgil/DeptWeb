@@ -5,7 +5,7 @@ date: 23 February, 2024
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 We consider the monomial expansion of the $q$-Whittaker polynomials

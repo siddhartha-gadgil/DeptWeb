@@ -5,7 +5,7 @@ date: 28 November, 2023
 time: 11:30 am
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Branching rules are a systematic way of understanding the multiplicity of

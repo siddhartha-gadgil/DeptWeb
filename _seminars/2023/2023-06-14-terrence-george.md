@@ -5,7 +5,7 @@ date: 14 June, 2023
 time: 3:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb20-23.html
+website: https://math.iisc.ac.in/~khare/algcomb20-23.html
 ---
 
 I will discuss how the inverse problem of recovering conductances in an

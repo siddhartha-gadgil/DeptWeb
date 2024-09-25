@@ -5,7 +5,7 @@ date: 27 Jun, 2024
 time: 2 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 Let $f:Y \to X$ be a log resolution of singularities which is an

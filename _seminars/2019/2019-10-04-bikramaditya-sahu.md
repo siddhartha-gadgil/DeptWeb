@@ -5,7 +5,7 @@ date: 4 October, 2019
 time: 3 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb19-20.html
+website: https://math.iisc.ac.in/~khare/algcomb19-20.html
 ---
 
 In this talk, we shall discuss a combinatorial characterization of the family of secant lines of the

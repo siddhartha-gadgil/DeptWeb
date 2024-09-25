@@ -5,7 +5,7 @@ date: 24 January, 2024
 time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: http://www.math.iisc.ac.in/~khare/algcomb23-24.html
+website: https://math.iisc.ac.in/~khare/algcomb23-24.html
 ---
 
 There are many ways to associate a graph (combinatorial structure) to a

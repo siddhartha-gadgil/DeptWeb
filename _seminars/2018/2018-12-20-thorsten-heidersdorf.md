@@ -5,7 +5,7 @@ date: 20 December, 2018
 time: 11 am
 series: "Algebra & Combinatorics Seminar"
 venue: LH-1, Mathematics Department
-website: http://www.math.iisc.ac.in/~khare/algcomb18-19.html
+website: https://math.iisc.ac.in/~khare/algcomb18-19.html
 ---
 
 Let $\mathfrak{gl}(n)$ denote the Lie algebra of the general linear group $GL(n)$.
