@@ -103,6 +103,9 @@ jan2025:
   - code: MA 321
     name: Analysis III
     instructor: Swarnendu Sil
+  - code: MA 326
+    name: Fourier Analysis
+    instructor: E.K.Narayanan
   - code: MA 356
     name : Class Field Theory
     instructor: Mahesh Kakde
