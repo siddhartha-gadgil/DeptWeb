@@ -2,7 +2,7 @@
 speaker: Abhay Jindal (IISc Mathematics)
 date: 1 October 2024
 time: 11:15 am
-venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
+venue: Hybrid - Microsoft Teams (online) and LH-3, Mathematics Department
 title: Invariants Associated with Complete Nevanlinna-Pick Spaces
 series: Thesis
 series-prefix: PhD
