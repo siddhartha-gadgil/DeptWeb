@@ -2,7 +2,7 @@
 speaker: Raghavendra Tripathi (UW Seattle/NYU Abu Dhabi)
 title: "Optimization and dynamics on large graphs"
 date: 7th October, 2024
-time: 2 pm
+time: 2 pm to 3:45 pm
 start_time: 14:00
 venue: LH-3, Mathematics Department
 series: "Bangalore Probability Seminar"
