@@ -1,6 +1,6 @@
 ---
 speaker: Olli Saari (Universitat Politècnica de Catalunya, Barcelona, Spain)
-title: "$L^p$ bounds of maximal operators given by Fourier multipliers with some dilation sets"
+title: "Quantitative characterizations of weights and parabolic boundary value problems"
 date: 16 Oct, 2024
 time: 3 pm
 venue: Microsoft Teams (online)
