@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar23-24
+slides: "2024-10-03-choudhary-slides.pdf"
 ---
 
 For $\alpha\geq0$, the bilinear Bochner--Riesz operator of order $\alpha$ in $\mathbb{R}^n$ is defined as
