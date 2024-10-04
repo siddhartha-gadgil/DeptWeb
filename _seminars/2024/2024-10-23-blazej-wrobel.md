@@ -1,4 +1,3 @@
----
 speaker: Blazej Wrobel (Institute of Mathematics of the Polish Academy of Science and University of Wroclaw, Poland)
 title: "Estimates for maximal Riesz transforms in terms of the Riesz transforms: dimension-free bounds on L^p
 date: 23 Oct, 2024
