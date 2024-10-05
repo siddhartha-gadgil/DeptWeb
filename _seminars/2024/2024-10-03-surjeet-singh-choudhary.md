@@ -20,3 +20,7 @@ $\frac{1}{p}=\frac{1}{p_1}+\frac{1}{p_2}$. Thus, $\alpha=n-\frac{1}{2}$ is commo
 there have been some results on $L^p$-boundedness of the bilinear Bochner--Riesz operator $\mathcal{B}^{\alpha}_R$ when $\alpha\leq n-\frac{1}{2}$.
 
 In this talk, we extend the bilinear Bochner--Riesz operator to convex domains in the plane and discuss some $L^p$-boundedness results.
+
+
+The [video of this talk](https://www.youtube.com/watch?v=MsSRmIVh9eU&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
