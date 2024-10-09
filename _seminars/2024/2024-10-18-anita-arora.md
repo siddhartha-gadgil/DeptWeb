@@ -2,10 +2,10 @@
 speaker: Anita (IISc Mathematics)
 date: 18 October 2024
 time: 10:30 am
-venue: Online - Microsoft Teams
+venue: Hybrid: LH-1 and Online - Microsoft Teams
 title: The monopole-dimer model and eccentricities for Cartesian product of graphs
 series: Thesis
-series-prefix: MS
+series-prefix: PhD
 series-suffix: defence
 ---
 
