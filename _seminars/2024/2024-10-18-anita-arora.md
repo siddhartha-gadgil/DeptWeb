@@ -1,8 +1,8 @@
 ---
-speaker: Anita (IISc Mathematics)
+speaker: Anita Arora (IISc Mathematics)
 date: 18 October 2024
 time: 10:30 am
-venue: Hybrid: LH-1 and Online - Microsoft Teams
+venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 title: The monopole-dimer model and eccentricities for Cartesian product of graphs
 series: Thesis
 series-prefix: PhD
