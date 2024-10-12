@@ -14,3 +14,6 @@ are bounded on $L^p$ for each $p$. In other words, we first consider maximal ope
 $m(t\xi)$. The condition for $m$ may be understood as a vector-valued analogue of the H&ouml;rmander--Mikhlin multiplier theorem. For the second type of maximal operators, we take the
 supremum over $t \in E$ with $0 \leq \dim(E) < 1$. Together with the dimension of $E$, the condition for $m$ associated with the first maximal operators is still valid for the second
 maximal operators.
+
+The [video of this talk](https://www.youtube.com/watch?v=yvp2-9Y3dCc&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
