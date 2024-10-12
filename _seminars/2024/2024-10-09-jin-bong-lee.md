@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-10-09-lee-slides.pdf"
 ---
 
 In this talk, the speaker considers two types of maximal operators given by Fourier multipliers, and suggests criteria for Fourier multipliers so that the associated maximal operators
