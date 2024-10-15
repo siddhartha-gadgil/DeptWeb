@@ -1,6 +1,6 @@
 ---
 speaker: Aashirwad Ballal (IISc)
-title: "Dynamics of Fuchsian meromorphic connections with real period"
+title: "Positivity properties of the vector bundle MongeAmpere equation"
 date: 21 October, 2024
 time: 04:00 pm
 venue:  LH-1, Mathematics Department 
