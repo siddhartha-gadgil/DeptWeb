@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-10-16-saari-slides.pdf"
 ---
 
 Weights (non-negative locally integrable functions) satisfying a reverse H\"older condition are important in the study of harmonic measure and boundary value problems for
