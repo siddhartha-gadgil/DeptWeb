@@ -839,5 +839,17 @@
   image: true
   research-area: Harmonic Analysis   
   office: L24
+  
+- name: Ramlal Debnath 
+  start: "2023"  
+  end: "2024" 
+  webpage: https://sites.google.com/view/ramlal-debnath 
+  phd:  Indian Statistical Institute  
+  user-id: ramlald 
+  position: NBHM PDF 
+  image: true 
+  research-area: Operator Theory 
+  office: L13
+  present: "Postdoctoral fellow at the Department of Mathematics, KTH Royal Institute of Technology, Stockholm"
 
 
