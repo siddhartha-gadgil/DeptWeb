@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-10-23-wrobel-slides.pdf"
 ---
 
 In 1983 E. M. Stein proved that the vector of classical Riesz transforms has $L^p$ bounds on $\mathbb R^d$ which are independent of the dimension $d$.
