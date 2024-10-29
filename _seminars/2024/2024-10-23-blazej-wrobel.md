@@ -13,3 +13,6 @@ In 1983 E. M. Stein proved that the vector of classical Riesz transforms has $L^
 I will discuss an analogous result for the vector of maximal Riesz transforms. I will also mention generalizations to higher order Riesz transforms.
 A main principle of our approach is a comparison between a maximal Riesz transform and the corresponding Riesz transform. The talk is based on joint
 work with Maciej Kucharski and Jacek Zienkiewicz (Wrocław).
+
+The [video of this talk](https://www.youtube.com/watch?v=weFp7QfxWKk&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
