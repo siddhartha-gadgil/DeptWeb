@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-10-30-ganguly-slides.pdf"
 ---
 
 In this talk, we plan to explore the natural question of how to compare different $G$-continuous norms on a Harish-Chandra module
