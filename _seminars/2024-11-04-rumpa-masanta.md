@@ -3,6 +3,7 @@ speaker: Rumpa Masanta (IISc)
 title: "Visibility domains in complex manifolds"
 date: 04 November, 2024
 time: 04:00 pm
+start_time: 16:00
 venue:  LH-1, Dept. of Math.
 series: "Geometry & Topology Seminar"
 ---
