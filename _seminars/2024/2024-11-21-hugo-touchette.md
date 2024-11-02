@@ -1,9 +1,9 @@
 ---
-speaker: Hugo Touchette (Stellenbosch University, Department of Mathematical Sciences)
+speaker: Hugo Touchette (Stellenbosch University, South Africa)
 title: "Large deviations of Lévy's stochastic area"
 date: 21 Nov, 2024
 time: 11 am
-venue: To be confirmed
+venue: TBA
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
 ---
