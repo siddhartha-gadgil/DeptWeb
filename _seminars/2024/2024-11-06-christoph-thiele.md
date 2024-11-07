@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-11-06-thiele-slides.pdf"
 ---
 
 Recently it was observed that an important algorithm in quantum signal processing (QSP) is the same as what is
