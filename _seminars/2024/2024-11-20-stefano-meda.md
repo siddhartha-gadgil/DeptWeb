@@ -1,6 +1,6 @@
 ---
 speaker: Stefano Meda (Università degli Studi di Milano Bicocca, Italy)
-title: "Hardy--Littlewood maximal operators on trees and Riemannian manifolds"
+title: "Hardy–Littlewood maximal operators on trees and Riemannian manifolds"
 date: 20 Nov, 2024
 time: 3 pm
 venue: Microsoft Teams (online)
