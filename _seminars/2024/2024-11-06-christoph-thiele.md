@@ -13,3 +13,6 @@ Recently it was observed that an important algorithm in quantum signal processin
 called elsewhere the nonlinear Fourier transform (NLFT). This has led to a new provably stable algorithm to
 compute the tuning parameters for this quantum algorithm. We will discuss QSP, NLFT, and the algorithm.
 This is joint work with Michel Alexis and Gevorg Mnatsakanyan and in part also with Lin Lin and Jiasu Wang.
+
+The [video of this talk](https://www.youtube.com/watch?v=dRAYFFP0Lb8&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
