@@ -94,6 +94,9 @@ jan2025:
   - code: MA 262
     name: Introduction to Stochastic Processes
     instructor: Sanchayan Sen
+  - code: MA 267
+    name: Introduction to Statistical Learning with Applications
+    instructor: Siva Athreya
   - code: MA 305
     name: Lie Groups and Lie Algebras
     instructor: Muna Naik
@@ -109,6 +112,9 @@ jan2025:
   - code: MA 356
     name : Class Field Theory
     instructor: Mahesh Kakde
+  - code: MA 365
+    name : Topics in Gaussian Processes
+    instructor: Manjunath Krishnapur
   - code: MA 368
     name: Topics in Probability and Stochastic Processes
     instructor: Biltu Dan/Manjunath Krishnapur
@@ -118,14 +124,9 @@ jan2025:
   - name: Extremal Combinatorics
     code: MA 376
     instructor: Hiranya kishore Dey/Arvind Ayyer
-  - code: MA 379
-    name: Linear Algebraic Groups
-    instructor: Pinakinath Saha/Radhika Ganapathy
   - code: MA 3xx
     name: Complex Manifolds
     instructor: Purvi Gupta
-  - code: MA 3xx
-    instructor: Manjunath Krishnapur
   - code: MA 3xx
     instructor: Harish Seshadri
 
