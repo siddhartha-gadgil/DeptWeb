@@ -109,6 +109,9 @@ jan2025:
   - code: MA 326
     name: Fourier Analysis
     instructor: E.K.Narayanan
+  - code: MA 345
+    name: Complex Manifolds
+    instructor: Purvi Gupta
   - code: MA 356
     name : Class Field Theory
     instructor: Mahesh Kakde
@@ -124,9 +127,6 @@ jan2025:
   - name: Extremal Combinatorics
     code: MA 376
     instructor: Hiranya kishore Dey/Arvind Ayyer
-  - code: MA 3xx
-    name: Complex Manifolds
-    instructor: Purvi Gupta
   - code: MA 3xx
     instructor: Harish Seshadri
 
