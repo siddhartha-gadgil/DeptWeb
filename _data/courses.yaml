@@ -112,6 +112,12 @@ jan2025:
   - code: MA 345
     name: Complex Manifolds
     instructor: Purvi Gupta
+  - code: MA 346
+    name: Ergodic Theory
+    instructor: Abhishek Khetan
+  - code: MA 346a
+    name: Homogeneous Dynamics
+    instructor: Debanjan Nandy
   - code: MA 356
     name : Class Field Theory
     instructor: Mahesh Kakde
@@ -127,8 +133,6 @@ jan2025:
   - name: Extremal Combinatorics
     code: MA 376
     instructor: Hiranya kishore Dey/Arvind Ayyer
-  - code: MA 3xx
-    instructor: Harish Seshadri
 
 
 aug2024:
