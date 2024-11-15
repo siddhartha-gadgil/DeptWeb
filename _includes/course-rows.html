@@ -1,0 +1,26 @@
+  {% for course in list %}
+  <tr class="{{ type }}">
+  <td>{{ course.code }}</td>
+  <td>
+    {% if course.credits %}
+    {{ course.credits }}
+    {% else %}
+    3:0
+    {% endif %}
+  </td>
+
+  <td>
+    {% capture lnk %}{{ site.baseurl }}/all-courses/{{  course.code  | downcase | replace: ' ', '' }}.html{% endcapture  %}
+
+    {% if course.webpage %}
+    {% assign lnk = course.webpage %}
+    {% endif %}
+
+    <a href="{{ lnk }}"> {{ course.name }} </a> </td>
+  <td> {{ course.instructor}}</td>
+  <td> {{ course.prereq-courses }}</td>
+  <td> {{ course.ug-prereq-courses }}
+  <td> {{ course.timing }}</td>
+  <td> {{ course.venue }}</td>
+  </tr>
+  {% endfor %}

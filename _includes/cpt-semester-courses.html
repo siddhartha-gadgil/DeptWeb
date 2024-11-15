@@ -1,0 +1,51 @@
+<div class="table-responsive">
+<table class="table table-bordered">
+
+  <tr>
+    <strong>
+      <td><b>Course No.</b></td> <td><b>Credits</b></td>
+      <td  class="text-center"><b>Course Title</b></td>
+      <td  class="text-center"><b>Instructor</b></td>
+      <td  class="text-center"><b>Prereqs</b></td>
+      <td class="text-center"><b>UG-prereqs</b></td>
+      <td  class="text-center"><b>Timing</b></td>
+      <td  class="text-center"><b>Venue</b></td>
+    </strong>
+  </tr>
+
+{% assign list = semester.core1 %}
+{% assign type = "core1" %}
+
+{% include course-rows.html %}
+
+{% assign list = semester.core-ug %}
+{% assign type = "core-ug" %}
+
+{% include course-rows.html %}
+
+{% assign list = semester.core-intphd %}
+{% assign type = "core-intphd" %}
+
+{% include course-rows.html %}
+
+{% if semester.core2 %}
+
+{% assign list = semester.core2 %}
+{% assign type = "core2" %}
+
+{% include course-rows.html %}
+{% endif %}
+
+{% assign list = semester.electives %}
+{% assign type = "electives" %}
+
+{% include course-rows.html %}
+
+{% assign list = semester.ug %}
+{% assign type = "ug" %}
+
+{% include course-rows.html %}
+
+
+</table>
+</div>

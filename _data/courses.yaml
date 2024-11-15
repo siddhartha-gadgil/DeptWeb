@@ -27,12 +27,12 @@ jan2025:
     instructor: UG Coordinator
     name: "UG project"
     credits: '0:13'
-    ug-prereq-courses: Only for 4th year UGs  
+    ug-prereq-courses:  
   - code: UM 502
     instructor: UG Coordinator
     name: "Masters project B"
     credits: '0:6'
-    ug-prereq-courses: Only for 5th year Masters    
+    ug-prereq-courses:     
   core1:
   - name: Algebra II
     credits: '3:1'
@@ -155,7 +155,7 @@ aug2024:
     instructor: UG Coordinator
     name: "Masters project A"
     credits: '0:6'
-    ug-prereq-courses: Only for 5th year Masters    
+    ug-prereq-courses:     
   core-ug:
   - name: Multivariable Calculus
     credits: '3:1'

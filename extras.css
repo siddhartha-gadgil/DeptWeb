@@ -150,6 +150,22 @@ code {
   background-color: white;
 }
 
-.ug-course {
+.core-ug {
   background-color: lavender;
+}
+
+.core1 {
+  background-color: lightcyan;
+}
+
+.core2 {
+  background-color: mistyrose;
+}
+
+.core-intphd {
+  background-color: lemonchiffon;
+}
+
+td {
+  max-width: 15% !important;
 }
