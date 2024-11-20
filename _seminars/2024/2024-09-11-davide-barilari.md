@@ -7,6 +7,7 @@ start_time: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2024-09-11-barilari-slides.pdf"
 ---
 
 In this talk I will discuss Strichartz estimates on the Heisenberg group for the linear
