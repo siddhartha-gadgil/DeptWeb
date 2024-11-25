@@ -230,14 +230,14 @@
   research-area:  
   office:  
 
-- name: Kalachand Shuin  
-  webpage:  
-  phd:  
-  user-id: kalachands  
-  position:  
-  image: true  
-  research-area:  
-  office:  
+- name: Kalachand Shuin
+  webpage:
+  phd: IISER Bhopal
+  user-id: kalachands
+  position: INSPIRE Faculty
+  image: true
+  research-area: Euclidean harmonic analysis
+  office: X-13 
 
 - name: Shushma Rani
   webpage:
