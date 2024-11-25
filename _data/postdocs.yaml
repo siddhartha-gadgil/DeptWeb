@@ -239,14 +239,14 @@
   research-area:  
   office:  
 
-- name: Shushma Rani  
-  webpage:  
-  phd:  
-  user-id: shushmarani  
-  position:  
-  image: true  
-  research-area:  
-  office:  
+- name: Shushma Rani
+  webpage:
+  phd: IISER Mohali
+  user-id: shushmarani
+  position: NBHM PDF
+  image: true
+  research-area: Lie (super)algebras and its representation theory
+  office: L28
 
 - name: Kuldeep Sarma  
   webpage:  
