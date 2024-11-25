@@ -113,15 +113,6 @@
   research-area: Harmonic Analysis
   office: R29
 
-- name: Pinakinath Saha
-  webpage: https://sites.google.com/view/pinakinath
-  phd: Chennai Mathematical Institute (CMI)
-  user-id: pinakinaths
-  position: NBHM PDF
-  image: true
-  research-area: Algebraic geometry and Representation theory
-  office: N28
-
 - name: Chandan Pradhan
   webpage: https://sites.google.com/view/chandanpradhan
   phd: IIT Guwahati
@@ -130,15 +121,6 @@
   image: true
   research-area: Operator Theory
   office: N24
-
-- name: Sumit Arora
-  webpage:
-  phd: IIT Roorkee
-  user-id: sumitarora
-  position: IOE
-  image: true
-  research-area: Nonlinear Analysis, Control Theory, Controllability and observability of dynamical systems
-  office: N28
 
 - name: Naveen Gupta 
   webpage: 
@@ -230,3 +212,49 @@
   research-area: Numerical Analysis for Fractional Differential Equations, Finite Element Method
   office: L-16
 
+- name: Debanjan Nandi  
+  webpage:  
+  phd:  
+  user-id: debanjann  
+  position:  
+  image: true  
+  research-area:  
+  office:  
+
+- name: Kalachand Shuin  
+  webpage:  
+  phd:  
+  user-id: kalachands  
+  position:  
+  image: true  
+  research-area:  
+  office:  
+
+- name: Shushma Rani  
+  webpage:  
+  phd:  
+  user-id: shushmarani  
+  position:  
+  image: true  
+  research-area:  
+  office:  
+
+- name: Kuldeep Sarma  
+  webpage:  
+  phd:  
+  user-id:  
+  position:  
+  image: true  
+  research-area:  
+  office:  
+
+- name: Vishnupriya Natraj  
+  webpage:  
+  phd:  
+  user-id: vishnupriyan  
+  position:  
+  image: true  
+  research-area:  
+  office:  
+
+  
