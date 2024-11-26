@@ -11,20 +11,20 @@
   image: true
   webpage: https://sites.google.com/view/vineethchintala/home
 
-- name: Debanjan Nandi
+- name: Debanjan Nandi (Ph.D., University of Jyväskyla)
   webpage: https://sites.google.com/view/debanjannandi/home
   phd: University of Jyväskyla
   user-id: debanjann
   position: INSPIRE Faculty
   image: true
-  research-area: Geometry, dynamics, probability.
+  research-areas: Geometry, dynamics, probability.
   office: L16
   
-- name: Kalachand Shuin
+- name: Kalachand Shuin (PhD., University of Jyväskyla)
   webpage:
   phd: IISER Bhopal
   user-id: kalachands
   position: INSPIRE Faculty
   image: true
-  research-area: Euclidean harmonic analysis
+  research-areas: Euclidean harmonic analysis
   office: X-13 
