@@ -11,6 +11,15 @@
   image: true
   webpage: https://sites.google.com/view/vineethchintala/home
 
+- name: Debanjan Nandi
+  webpage: https://sites.google.com/view/debanjannandi/home
+  phd: University of Jyväskyla
+  user-id: debanjann
+  position: INSPIRE Faculty
+  image: true
+  research-area: Geometry, dynamics, probability.
+  office: L16
+  
 - name: Kalachand Shuin
   webpage:
   phd: IISER Bhopal
