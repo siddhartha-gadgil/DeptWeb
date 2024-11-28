@@ -4,7 +4,7 @@ title: "Visibility domains in complex manifolds"
 date: 04 November, 2024
 time: 04:00 pm
 start_time: 16:00
-venue:  LH-1, Dept. of Math.
+venue:  LH-1, Department of Mathematics
 series: "Geometry & Topology Seminar"
 ---
 
