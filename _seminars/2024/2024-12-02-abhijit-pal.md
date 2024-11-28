@@ -3,7 +3,6 @@ speaker: Abhijit Pal (IIT Kanpur)
 title: "Maps between Boundaries of Relatively Hyperbolic Groups"
 date: 2 December, 2024
 time: 04:00 pm
-start_time: 16:00
 venue:  LH-1, Dept. of Math.
 series: "Geometry & Topology Seminar"
 ---
