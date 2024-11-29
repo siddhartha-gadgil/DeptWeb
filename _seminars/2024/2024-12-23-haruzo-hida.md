@@ -16,7 +16,7 @@ extension  $E_{/F}$.
 The theta base-change lift  $\fc$  of a Hilbert modular form  $f$  to
 $B^\times$  has period integral over the Shimura subvariety
 $Sh_D\subset Sh_B$
-given by  $L(1,Ad(f)\otimes\left(\frac{E/F}{}\right))\ne0$; so,
+given by  $L(1,Ad(f)\otimes\left(\underline{E/F}\right))\ne0$; so,
 $Sh_D$  gives rise
-to a non-trivial Tate cycle  in  $H^{2r}(Sh_B,\Q_l(r))$  for  $r=\dim
+to a non-trivial Tate cycle  in  $H^{2r}(Sh_B,\mathbb{Q}_l(r))$  for  $r=\dim
 Sh_D=\dim Sh_B/2$.
