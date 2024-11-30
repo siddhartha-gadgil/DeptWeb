@@ -13,10 +13,10 @@ A key point is a twisted adjoint L-value formula relative to each
 quaternion algebra  $D/F$  for a totally real field   $F$
 and its scalar extension  B=D\otimes_F E$  for a totally real quadratic
 extension  $E_{/F}$.
-The theta base-change lift  $\fc$  of a Hilbert modular form  $f$  to
+The theta base-change lift  $\mathcal{F}$  of a Hilbert modular form  $f$  to
 $B^\times$  has period integral over the Shimura subvariety
 $Sh_D\subset Sh_B$
-given by  $L(1,Ad(f)\otimes(\underline{{E/F}}))\ne0$; so,
+given by  $L(1,Ad(f)\otimes(\frac{E/F}{}))\ne0$; so,
 $Sh_D$  gives rise
 to a non-trivial Tate cycle  in  $H^{2r}(Sh_B,\mathbb{Q}_l(r))$  for  $r=\dim
 Sh_D=\dim Sh_B/2$.
