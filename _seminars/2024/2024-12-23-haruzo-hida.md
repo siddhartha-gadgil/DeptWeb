@@ -11,7 +11,7 @@ We sketch a strategy to prove the Tate conjecture on algebraic cycles
 for a good amount of quaternionic Shimura varieties.
 A key point is a twisted adjoint L-value formula relative to each
 quaternion algebra  $D/F$  for a totally real field   $F$
-and its scalar extension  B=D\otimes_F E$  for a totally real quadratic
+and its scalar extension  B=D\otimes\_F E$  for a totally real quadratic
 extension  $E_{/F}$.
 The theta base-change lift  $\mathcal{F}$  of a Hilbert modular form  $f$  to
 $B^\times$  has period integral over the Shimura subvariety
