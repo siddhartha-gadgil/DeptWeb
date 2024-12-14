@@ -9,7 +9,7 @@ During this time, she will deliver a series of two lectures at IISc. The details
 
 ---
 
-__Title.__ The Geometry of Distances: A Tale of Points, Patterns, and Problems
+__Title.__ _The Geometry of Distances: A Tale of Points, Patterns, and Problems_
 
 __Date and Time.__ December 17 and 18, 2024 (Tuesday and Wednesday), 3:30-4:30 pm
 
