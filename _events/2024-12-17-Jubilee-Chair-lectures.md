@@ -13,6 +13,10 @@ __Title.__ The Geometry of Distances: A Tale of Points, Patterns, and Problems
 
 __Date and Time.__ December 17 and 18, 2024 (Tuesday and Wednesday), 3:30-4:30 pm
 
+Talk 1 Livestream: [https://youtube.com/live/faMPVNlNeZI?feature=share](https://youtube.com/live/faMPVNlNeZI?feature=share)
+
+Talk 2 Livestream: [https://youtube.com/live/IWo1qgmJw_g?feature=share](https://youtube.com/live/IWo1qgmJw_g?feature=share)
+
 __Venue.__ LH-1, Mathematics Department
 
 __Abstract.__ For millennia, the Pythagorean theorem has provided a simple yet profound formula for computing distances between points. Remarkably, this timeless concept continues to captivate mathematicians, inspiring new discoveries and posing challenging open questions.
