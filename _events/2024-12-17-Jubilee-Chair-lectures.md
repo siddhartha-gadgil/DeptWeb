@@ -21,4 +21,4 @@ A central theme in this journey involves distance sets: collections of distances
 
 This two-part series explores the surprising depth of these problems. The first talk introduces key ideas and landmark results in a way accessible to a general audience, requiring no advanced mathematical background. The second talk delves into analytical perspectives, uncovering deeper mathematical mysteries for those eager to explore the intricate beauty of this field.
 
-<img src="{{site.baseurl}}/images/2024-12-Pramanik-poster.pdf" width="1050" alt=""/>
+<img src="{{site.baseurl}}/images/2024-12-Pramanik-poster.png" width="1050" alt=""/>
