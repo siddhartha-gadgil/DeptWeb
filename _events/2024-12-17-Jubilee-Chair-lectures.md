@@ -3,7 +3,7 @@ title: "IASc Jubilee Chair Lectures"
 date: 2024-12-17
 ---
 
-The Jubilee Chair Professor-2024 of the Indian Academy of Sciences is Professor Malabika Pramanik (University of British Columbia, Vancouver, Canada).
+The 2024 Jubilee Chair Professor of the Indian Academy of Sciences is Professor Malabika Pramanik (University of British Columbia, Vancouver, Canada).
 She is visiting the Department of Mathematics at IISc from 16-20 December, 2024 (among other places).
 During this time, she will deliver a series of two lectures. The details are as follows.
 
