@@ -141,12 +141,12 @@ jan2025:
     venue: "LH-5"
   - code: MA 346
     name: Ergodic Theory
-    instructor: Abhishek Khetan
+    instructor: Abhishek Khetan/ Manjunath Krishnapur
     timing: "Mon, Wed, Fri: 3:00 - 4:00"
     venue: "LH-2"
   - code: MA 346a
     name: Homogeneous Dynamics
-    instructor: Debanjan Nandi
+    instructor: Debanjan Nandi/ Manjunath Krishnapur
     timing: "Mon, Wed, Fri: 8:00 - 9:00"
     venue: "LH-4"
   - code: MA 356
