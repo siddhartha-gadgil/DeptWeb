@@ -88,7 +88,7 @@ jan2025:
     name: Introduction to Graph Theory
     instructor: Vineeth Chintala/ Apoorva Khare
     timing: "Tue, Thu: 10:00 - 11:30"
-    venue: "LH-4"
+    venue: "LH-2"
   - code: MA 218
     name: Number Theory
     instructor: Radhika Ganapathy
@@ -153,7 +153,7 @@ jan2025:
     name : Class Field Theory
     instructor: Mahesh Kakde
     timing: "Tue, Thu: 10:00 - 11:30"
-    venue: "LH-5"
+    venue: "LH-4"
   - code: MA 365
     name : Topics in Gaussian Processes
     instructor: Manjunath Krishnapur
