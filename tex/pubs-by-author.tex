@@ -1,0 +1,26 @@
+---
+title: Faculty Publications (by author) - Dept of Mathematics, IISc
+layout: blank
+---
+
+\documentclass{amsart}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\begin{document}
+
+\title{Faculty Publications (by author)}
+
+These are the publications by current faculty members of the department after they joined the department.
+
+{% assign years = site.data.pubs | group_by: "year" | sort: 'name' | reverse %}
+
+  {% for fac in site.data.faculty %}{% assign counter = 0 %}
+\section{ {{fac.name}} }
+\begin{enumerate}
+  {% for y in years %}{% assign yearpubs = y.items | sort: 'author' %}{% for paper in yearpubs %}{% assign authors = paper.author | split: " and " | strip %}{% assign test = false %}{% if authors contains fac.author-name %}{% assign test = true %}{% endif %}{% for name in fac.author-names %}{% if authors contains name %}{% assign test = true %}{% endif %}{% endfor %}{% if test %}
+  {% assign recent = false %}{% assign counter=counter | plus: 1 %}
+\item {% if paper.author %} {{ paper.author }}{% else %} {{paper.editor}} (Ed.){% endif %}, \emph{ {{ paper.title }} }, {{ paper.journal }} {{ paper.booktitle }} {{ paper.note }}, \textbf{ {{paper.volume}} } ({{paper.year}}), {{paper.pages}}{{ paper.article }}. {% if paper.url %}(\url{ {{ paper.url }} }){% endif %} {% if paper.doi %}(\url {https://doi.org/{{ paper.doi }}}){% endif %} {% endif %}{% endfor %}{% endfor %}
+\end{enumerate}
+{% endfor %}
+\end{document}
