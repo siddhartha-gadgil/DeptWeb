@@ -2,7 +2,7 @@
 speaker: Dipnit Biswas (IISc Mathematics)
 date: 30 December 2024
 time: 11 AM
-venue: H-1, Mathematics Department
+venue: LH-1, Mathematics Department
 title: Symmetric real-closed subsets of affine Kac-Moody Lie Algebras
 series: Thesis
 series-prefix: PhD
