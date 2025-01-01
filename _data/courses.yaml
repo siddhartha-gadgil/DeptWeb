@@ -132,7 +132,7 @@ jan2025:
   - code: MA 326
     name: Fourier Analysis
     instructor: E.K.Narayanan
-    timing: "Tue, Thu: 2:00 - 3:30"
+    timing: "Tue, Thu: 11:30 - 1:00"
     venue: "LH-2"
   - code: MA 345
     name: Complex Manifolds
@@ -167,7 +167,7 @@ jan2025:
   - code: MA 372
     name: Abstract Harmonic Analysis
     instructor: E.K.Narayanan
-    timing: "Tue, Thu: 11:30 - 1:00"
+    timing: "Tue, Thu: 2:00 - 3:30"
     venue: "LH-2"
   - name: Extremal Combinatorics
     code: MA 376
