@@ -13,17 +13,17 @@ conditions on combinatorial structures (such as graphs, set systems, and
 simplicial complexes) that guarantee the existence of specific
 substructures. In this talk, I will concentrate on two central topics
 within this theme of extremal combinatorics:
-1. Tur\'an problems and
+1. Turán problems and
 2. Embedding spanning subgraphs.
 
 I will begin with a gentle introduction to the first topic, highlighting
 a few fundamental questions in the field. In this context, I will
-introduce the Er&ouml;s--Sauer problem that asks for the maximum
+introduce the Erd&ouml;s--Sauer problem that asks for the maximum
 possible number of edges that an $n$-vertex graph can have without
 containing an $r$-regular subgraph. The problem had seen no progress
 since Pyber's work in 1985 until recently when Janzer and Sudakov
 resolved this problem up to a multiplicative constant depending on $r$.
-We resolve the Er&ouml;s--Sauer problem up to an absolute constant
+We resolve the Erd&ouml;s--Sauer problem up to an absolute constant
 factor (not depending on $r$) as follows. There exists an absolute
 constant $C$ such that the following holds. For each positive integer
 $r$, there exists some $n_0=n_0(r)$ such that if $n\geq n_0$, then every
