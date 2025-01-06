@@ -2,7 +2,7 @@
 speaker: Ananyo Kazi (UniDistance Suisse, Swetzerland)
 title: "Twisted triple product $p$-adic $L$-function for finite slope families and a $p$-adic Gross-Zagier formula"
 date: 6 January, 2025
-time: TBA
+time: 11 am
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
