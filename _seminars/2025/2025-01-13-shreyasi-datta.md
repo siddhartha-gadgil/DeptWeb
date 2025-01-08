@@ -4,7 +4,7 @@ title: "Rational points near manifolds and the Khintchine theorem"
 date: 13 January, 2025
 time: 4 pm
 series: "Number Theory Seminar"
-venue: Online on MS-Teams
+venue: Online on Microsoft Teams (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25" >APRG Seminar</a>)
 website: https://math.iisc.ac.in/number-theory-seminar.html
 ---
 
