@@ -14,6 +14,6 @@ conjectures, which continue to see exciting advances stemming from Wiles' work i
 talk, I'll give an overview of Wiles' method and subsequent developments.
 
 In addition to its most famous consequence, namely Fermat’s Last Theorem, modularity also underpins all major progress on the Birch—Swinnerton-Dyer
-Conjecture. Like the Modularity Theorem, the Birch—Swinnerton-Dyer Conjecture can also be viewed as an instance of a vast family of conjectures,
+Conjecture. Like the Modularity Theorem, the Birch--Swinnerton-Dyer Conjecture can also be viewed as an instance of a vast family of conjectures,
 in this case relating arithmetic invariants to special values of $L$-functions. In the second half of the talk, I'll explain how the proof of the
 Modularity Theorem is itself related, by work of Hida, to another instance of these conjectures, namely for adjoint $L$-functions.
