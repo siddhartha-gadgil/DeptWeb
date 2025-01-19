@@ -22,3 +22,6 @@ curved harmonic manifolds and prove a Fourier inversion formula in this setting.
 
 In later joint work with Knieper and Peyerimhoff, this Fourier inversion formula was extended to the case of harmonic manifolds of purely exponential
 volume growth, a class which includes all known examples of simply connected, noncompact, nonflat harmonic manifolds.
+
+The [video of this talk](https://www.youtube.com/watch?v=o3EpsF2howQ&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
