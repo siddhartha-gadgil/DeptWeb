@@ -16,5 +16,5 @@ partial differential operators on $\mathbb{R}^n$.
 In this talk, we will explore several variants of this result for homogeneous trees, where the Euclidean Laplacian is replaced by the combinatorial Laplacian
 and the uniform boundedness condition is appropriately adjusted. We will then explore possible generalizations when the combinatorial Laplacian is substituted
 with multipliers on homogeneous trees. After presenting the result in this broader context, we will narrow our focus to specific cases, including key examples
-of multiplier operators such as the heat and Schr¨odinger operators, as well as ball and sphere averages of functions. The talk is based on a joint work with
+of multiplier operators such as the heat and Schrödinger operators, as well as ball and sphere averages of functions. The talk is based on a joint work with
 Rudra P. Sarkar.
