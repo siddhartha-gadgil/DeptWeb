@@ -1289,3 +1289,69 @@
   year: 2024
   title: On two complex Hessian equations and convergence of corresponding flows.
   advisor: Ved V. Datar
+  
+- name: Annapurna Banik
+  user-id: annapurnab
+  year-of-joining: 2018
+  programme: PhD
+  image: true
+  guide: Gautam Bharali
+  scholarship: NBHM
+  office: L24(4)
+  
+- name: Sompurkar Rajas Sandeep
+  user-id: rajass
+  year-of-joining: 2018
+  programme: PhD
+  image: true
+  guide: Vamsi Pritham Pingali
+  scholarship: Inspire
+  office: X20(6)
+  
+- name: Anita Arora
+  year-of-joining: 2019
+  programme: PhD
+  user-id: anitaarora
+  image: true
+  office: L24(4)
+  
+- name: Sumanta Das
+  year-of-joining: 2019
+  programme: PhD
+  user-id: sumantadas
+  image: true
+  office: LH-I
+  
+- name: Abhay Jindal
+  year-of-joining: 2017
+  programme: Integrated PhD
+  user-id: abjayj
+  email: abhayjindal.999@gmail.com
+  guide: Vamsi Pritham Pingali
+  scholarship: IISc
+  webpage: https://sites.google.com/view/abhayjindal
+  image: true
+  office: X22(6)
+  
+- name: Ramesh Mete
+  year-of-joining: 2017
+  programme: Integrated PhD
+  user-id: rameshmete
+  guide: Ved Datar
+  scholarship: IISc
+  image: true
+  office: X22(6)
+  
+- name: Dipnit Biswas
+  user-id: dipnitbiswas
+  year-of-joining: 2018
+  programme: Integrated PhD
+  guide: yet to decide
+  scholarship: IISc
+  office: N06(4)
+  
+- name: Sushobhan Das
+  year-of-joining: 2021
+  programme: Integrated PhD
+  user-id: sushobhandas
+  office: N04(6)

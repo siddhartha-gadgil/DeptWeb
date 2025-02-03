@@ -871,3 +871,20 @@
   research-area: Nonlinear Analysis, Control Theory, Controllability and observability of dynamical systems
   office: N28
   present: Fondecyt Postdoctoral Fellow, University of Talca, Chile
+
+- name: Vijaya Kumar U
+  phd: Indian Statistical Institute, Bangalore 
+  user-id: vijayak
+  position: Dr. D.S. Kothari 
+  image: true
+  research-area: Operator Theory, Operator Algebras, Quantum Probability
+  office: N13
+  
+- name: Banhirup Sengupta
+  webpage:
+  phd: Autonomous University of Barcelona, Spain
+  user-id: banhirups
+  position: IOE
+  image: true
+  research-area: Geometric Analysis & PDEs
+  office: L23
