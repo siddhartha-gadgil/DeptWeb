@@ -1217,7 +1217,7 @@
 - name : Nimisha Pahuja (IISc Mathematics)
   year: 2023
   title: Correlations in multispecies asymmetric exclusion process
-  advisor: 
+  advisor: Arvind Ayyer
   
 - name : Poornendu Kumar (IISc Mathematics)
   year: 2023
@@ -1283,12 +1283,18 @@
 - name: Nishu Kumari (IISc Mathematics)
   year: 2024
   title: Characters of classical groups twisted by roots of unity
-  advisor: Kaushal Verma
+  advisor: Arvind Ayyer
 
 - name: Ramesh Mete (IISc Mathematics)
   year: 2024
   title: On two complex Hessian equations and convergence of corresponding flows.
   advisor: Ved V. Datar
+
+- name: Anita Arora
+  year: 2024
+  title: The monopole-dimer model and eccentricities for Cartesian product of graphs
+  advisor: Arvind Ayyer
+  
   
 - name: Annapurna Banik
   user-id: annapurnab
@@ -1307,13 +1313,6 @@
   guide: Vamsi Pritham Pingali
   scholarship: Inspire
   office: X20(6)
-  
-- name: Anita Arora
-  year-of-joining: 2019
-  programme: PhD
-  user-id: anitaarora
-  image: true
-  office: L24(4)
   
 - name: Sumanta Das
   year-of-joining: 2019
