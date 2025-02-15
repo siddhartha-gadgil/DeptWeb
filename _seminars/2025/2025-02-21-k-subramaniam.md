@@ -3,7 +3,7 @@ speaker: K. Subramaniam, Professor (Retd.), HBCSE-TIFR
 title: "Teaching mathematics taking into account children’s understanding"
 date: 21 February, 2025
 time:  3 – 5 pm (with a 15 minute break in between)
-venue: LH-1, Mathematics Department
+venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
 
