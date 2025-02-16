@@ -2,7 +2,7 @@
 speaker: T.E.S. Raghavan (University of Illinois at Chicago, USA)
 title: "Totally positive matrices"
 date: 18 Feb, 2025
-time: 2 pm
+time: 2:30 pm
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
