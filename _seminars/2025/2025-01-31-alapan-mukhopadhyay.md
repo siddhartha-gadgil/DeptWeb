@@ -5,6 +5,7 @@ date: 31 January, 2025
 time: 3 pm
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
+website: https://math.iisc.ac.in/~khare/algcomb24-25.html
 ---
 
 Frobenius or the $p$-th power map is crucial in defining singularity
