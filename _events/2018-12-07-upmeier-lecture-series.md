@@ -2,7 +2,7 @@
 title: Lectures by H. Upmeier, Infosys Visiting Professor, from Friday, December 7, 2018
 ---
 
-Professor H. Upmeier of the Marburg University would be visiting
+Professor H. Upmeier of Marburg University would be visiting
 Department of Mathematics, IISc, as the InfoSys Visiting Professor during the period Dec 4 - Feb 28.
 
 
