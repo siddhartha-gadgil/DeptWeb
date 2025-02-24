@@ -12,5 +12,5 @@ tasks in elementary school. What is surprising about these responses? How do the
 will discuss a few relatively successful approaches to teaching specific concepts that are important in the transition to secondary mathematics. I will
 also make some remarks about the criteria by which we can understand whether an approach is successful.
 
-The video of the [first part](https://www.youtube.com/watch?v=OVFbss5SliE) and [second part[(https://www.youtube.com/watch?v=9k5iFh8H3eo) of this talk
+The video of the [first part](https://www.youtube.com/watch?v=OVFbss5SliE) and [second part](https://www.youtube.com/watch?v=9k5iFh8H3eo) of this talk
 are available on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
