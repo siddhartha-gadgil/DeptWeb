@@ -1,5 +1,5 @@
 ---
-speaker: Adi Adimurthi
+speaker: Adi Adimurthi (IISc Mathematics)
 title: "Embedding of critical fractional Sobolev space in a bounded domain"
 date: 21 March, 2025
 time:  3 – 5 pm (with a 15 minute break in between)
