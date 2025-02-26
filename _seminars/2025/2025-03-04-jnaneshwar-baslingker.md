@@ -1,6 +1,6 @@
 ---
 speaker: Jnaneshwar Baslingker
-date: 04 March 2025
+date: 4 March 2025
 time: 2:30 pm
 venue: LH-1, Department of Mathematics
 title: Some results on beta ensembles and on scaling limits of random graphs
