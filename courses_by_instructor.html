@@ -30,12 +30,13 @@ title: Courses by instructor
       {% for level in semester[1] %}
         {% for course in level[1] %}
           {% assign instructor_names = course.instructor | split: '/' %}
-          {% assign instructor_name = instructor_names[0] %}
+          {% assign instructor_name = instructor_names[0] | strip %}
+          {% assign instructor = instructor | strip %}
           {% if instructor_name == instructor %}
             <li> <strong> {{ semester[0] }}:</strong> {{ course.code }}: {{ course.name }} </li>
           {% else %}
           {% if instructor_name contains instructor %}
-          <li> <strong> {{ semester[0] }}:</strong> {{ course.code }}: {{ course.name }} ({{ instructor_names[0] }}) </li>
+          <li> <strong> {{ semester[0] }}:</strong> {{ course.code }}: {{ course.name }} ({{instructor_name}}) </li>
             {% endif %}
             {% endif %}
         {% endfor %}
