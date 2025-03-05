@@ -23,7 +23,7 @@ title: Courses by instructor
 
 
 {% for instructor in unique_instructors %}
-{% unless instructor contains 'and' %}
+{% unless instructor contains ' and ' %}
   <h4> {{ instructor }} </h4>
   <ul>
     {% for semester in site.data.courses %}
