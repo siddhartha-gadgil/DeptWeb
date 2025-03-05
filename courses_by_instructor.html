@@ -28,7 +28,9 @@ title: Courses by instructor
     {% for semester in site.data.courses %}
       {% for level in semester[1] %}
         {% for course in level[1] %}
-          {% if course.instructor == instructor %}
+          {% assign instructor_names = course.instructor | split: '/' %}
+          {% assign instructor_name = instructor_names[0] %}
+          {% if instructor_name == instructor %}
             <li> <strong> {{ semester[0] }}:</strong> {{ course.code }}: {{ course.name }} </li>
           {% endif %}
         {% endfor %}

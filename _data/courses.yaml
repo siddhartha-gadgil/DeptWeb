@@ -295,7 +295,7 @@ aug2024:
       venue: LH-5
     - name: Lie Algebras and their Representations
       code: MA 315
-      instructor: Souvik Pal/Apoorva Khare
+      instructor: Apoorva Khare/Souvik Pal
       timing: "Tue, Thu: 11:30-1:00"
       venue: LH-4
     - name: Introduction to Several Complex Variables
@@ -1975,7 +1975,7 @@ aug2018:
       ug-prereq-courses: ""
   electives:
     - name: Representation Theory
-      instructor: R. Venkatesh and Apoorva Khare
+      instructor: Apoorva Khare and R. Venkatesh
       code: MA 220
       prereq-courses: MA 212 and MA 219
     - name: Stochastic Finance I
