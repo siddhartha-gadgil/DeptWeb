@@ -1,0 +1,38 @@
+---
+title: Courses by instructor
+---
+
+<p><strong>Note:</strong> In courses with multiple names separated by "/", only the first is considered.</p>
+<p><strong>Note:</strong> The data before August 2018 does not include undergraduate courses.</p>
+
+{% assign all_instructors = "" %}
+{% for semester in site.data.courses %}
+  {% for level in semester[1] %}
+    {% for course in level[1] %}
+      {% assign instructor_name = course.instructor %}
+      {% unless instructor_name contains "/" %}
+        {% assign all_instructors = all_instructors | append: instructor_name | append: ";" %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+{% assign unique_instructors = all_instructors | split: ";" | uniq | sort %}
+
+<!-- Instructors: {{ unique_instructors }} from {{ all_instructors }} -->
+
+
+{% for instructor in unique_instructors %}
+  <h4> {{ instructor }} </h4>
+  <ul>
+    {% for semester in site.data.courses %}
+      {% for level in semester[1] %}
+        {% for course in level[1] %}
+          {% if course.instructor == instructor %}
+            <li> <strong> {{ semester[0] }}:</strong> {{ course.code }}: {{ course.name }} </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+{% endfor %}
