@@ -23,6 +23,7 @@ title: Courses by instructor
 
 
 {% for instructor in unique_instructors %}
+{% unless instructor contains 'and' %}
   <h4> {{ instructor }} </h4>
   <ul>
     {% for semester in site.data.courses %}
@@ -32,9 +33,14 @@ title: Courses by instructor
           {% assign instructor_name = instructor_names[0] %}
           {% if instructor_name == instructor %}
             <li> <strong> {{ semester[0] }}:</strong> {{ course.code }}: {{ course.name }} </li>
-          {% endif %}
+          {% else %}
+          {% if instructor_name contains instructor %}
+          <li> <strong> {{ semester[0] }}:</strong> {{ course.code }}: {{ course.name }} ({{ instructor_names[0] }}) </li>
+            {% endif %}
+            {% endif %}
         {% endfor %}
       {% endfor %}
     {% endfor %}
   </ul>
+{% endunless %}
 {% endfor %}
