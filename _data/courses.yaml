@@ -37,7 +37,7 @@ jan2025:
   core1:
     - name: Complex Analysis
       credits: "3:1"
-      instructor: E.K.Narayanan
+      instructor: E. K. Narayanan
       code: MA 224
       prereq-courses: MA 221
       ug-prereq-courses: "UM 204"
@@ -133,7 +133,7 @@ jan2025:
       venue: "LH-3"
     - code: MA 326
       name: Fourier Analysis
-      instructor: E.K.Narayanan
+      instructor: E. K. Narayanan
       timing: "Tue, Thu: 11:30 - 1:00"
       venue: "LH-2"
     - code: MA 345
@@ -168,7 +168,7 @@ jan2025:
       venue: "LH-2"
     - code: MA 372
       name: Abstract Harmonic Analysis
-      instructor: E.K.Narayanan
+      instructor: E. K. Narayanan
       timing: "Tue, Thu: 2:00 - 3:30"
       venue: "LH-2"
     - name: Extremal Combinatorics
@@ -388,7 +388,7 @@ jan2024:
       venue: LH-4
       webpage:
     - name: Introduction to Differentiable Manifolds
-      instructor: Vamsi Pritham Pingali
+      instructor: Vamsi Pingali
       code: MA 235
       prereq-courses: MA 221
       ug-prereq-courses: ""
@@ -485,7 +485,7 @@ jan2024:
 aug2023:
   ug:
     - code: UMA 101
-      instructor: Gautam Bharaali
+      instructor: Gautam Bharali
       name: Anaysis and Linear Algebra - I
       credits: "4:0"
       ug-prereq-courses:
@@ -639,7 +639,7 @@ jan2023:
     - code: UM 205
       name: Introduction to Algebraic Structures
       credits: "3:1"
-      instructor: R.Venkatesh
+      instructor: R. Venkatesh
       webpage:
       ug-prereq-courses: UM 102
       timing:
@@ -738,7 +738,7 @@ jan2023:
       timing: "Tue, Thu 2:00 - 3:30"
       venue: "LH-1/LH-2"
     - name: Fourier Analysis
-      instructor: E.K.Narayanan
+      instructor: E. K. Narayanan
       code: MA 326
       timing: "Mon, Wed, Fri 11:00 - 12:00"
       venue: LH-5
@@ -816,7 +816,7 @@ aug2022:
       timing: "Tue, Thu: 10:00 - 11:30"
       venue: LH-1
     - name: "Analysis I: Real Anaysis"
-      instructor: Sunadaram Thangavelu/R. Venkatesh
+      instructor: S. Thangavelu/R. Venkatesh
       timing: "Mon, Wed, Fri: 10:00 - 11:00"
       code: MA 221
       prereq-courses: ""
@@ -893,13 +893,13 @@ aug2022:
       venue: LH-4
     - name: Analysis III
       code: MA 321
-      instructor: A.K.Nandakumaran
+      instructor: A. K. Nandakumaran
       timing: "Tue, Thu: 10:00 - 11:30"
       venue: LH-4
       webpage:
     - code: MA 325
       name: Operator Theory II
-      instructor: E.K.Narayanan
+      instructor: E. K. Narayanan
       timing: "Tue, Thu: 8:30 - 10:00"
       venue: LH-5
       prereq-courses:
@@ -1864,7 +1864,7 @@ jan2019:
       timing: "Tue, Thu: 3:30-5:00"
       venue: "LH-4"
     - name: Fourier Anaysis
-      instructor: E.K. Narayanan
+      instructor: E. K. Narayanan
       code: MA 326
       prereq-courses: MA 223
       ug-prereq-courses: ""
