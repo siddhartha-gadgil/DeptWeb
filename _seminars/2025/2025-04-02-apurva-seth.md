@@ -1,6 +1,6 @@
 ---
 speaker: Apurva Seth (Oxford University, UK)
-title: "The radius of comparison for actions of $\mathbb{Z}^d$ on simple AH algebras"
+title: "The radius of comparison for actions of $Z^d$ on simple AH algebras"
 date: 2 Apr, 2025
 time: 4 pm
 venue: LH-1, Mathematics Department
