@@ -23,4 +23,4 @@ gem 'faraday', '0.17.3'
 #   gem "jekyll-gist"
 # end
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
