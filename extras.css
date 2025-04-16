@@ -52,12 +52,12 @@ a.geometry-topology-seminar:focus {
 }
 
 .lean-math-ai-seminar {
-  color: darkorange;
+  color: #F6358A;
 }
 
 a.lean-math-ai-seminar:hover,
 a.lean-math-ai:focus {
-  color: darkorange;
+  color: #F6358A;
   text-decoration: underline;
 }
 
