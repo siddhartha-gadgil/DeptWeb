@@ -5,6 +5,7 @@ time: 2 pm
 venue: LH-1, Department of Mathematics
 title: Computing Tukey depth in a convex body: a Hilbert geometry approach
 series: Thesis
+start_time: 14:00
 series-prefix: MS
 series-suffix: colloquium
 ---
