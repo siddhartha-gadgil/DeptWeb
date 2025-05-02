@@ -13,7 +13,7 @@ if $1 < p < \infty$ and   $\Omega$  is a bounded Lipschitz domain in
 $\mathbb{R}^d$, then
 
 \begin{equation}
-\int_{\Omega} \frac{|u(x)|^{p}}{\delta^{p}_{\Omega}(x)}  dx \leq
+\int_{\Omega} \frac{|u(x)|^{p}}{\delta^{p}\_{\Omega}(x)}  dx \leq
 C\int_{\Omega} |\nabla u(x) |^{p}dx,  \forall \ u \in
 C^{\infty}_{c}(\Omega),
 \end{equation}
