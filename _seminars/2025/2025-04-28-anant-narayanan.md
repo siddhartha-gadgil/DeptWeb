@@ -2,7 +2,7 @@
 speaker: Anant Narayanan
 date: 28 April 2025
 time: 2 pm
-venue: LH-1, Department of Mathematics
+venue: LH-1, Mathematics Department
 title: "Computing Tukey depth in a convex body: a Hilbert geometry approach"
 series: Thesis
 start_time: 14:00
