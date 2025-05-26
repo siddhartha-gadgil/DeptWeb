@@ -5,7 +5,6 @@ title: Integrated Ph.D Program 2025.
 <b>
 PROVISIONAL LIST OF SELECTED CANDIDATES</b><br>
 (Subject to approval by the Admissions Committee of IISc.)<br>
-(This is not a ranked list. The names are arranged alphabetically.)
 <br>
 
 | SI No  &nbsp;&nbsp;&nbsp; || Application No ||&nbsp;&nbsp;&nbsp; Student Name           ||
