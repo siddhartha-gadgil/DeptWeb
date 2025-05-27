@@ -6,6 +6,7 @@ title: Integrated Ph.D Program 2025.
 PROVISIONAL LIST OF SELECTED CANDIDATES</b><br>
 (Subject to approval by the Admissions Committee of IISc.)<br>
 <br>
+
 | SI No  &nbsp;&nbsp;&nbsp; || Application No ||&nbsp;&nbsp;&nbsp; Student Name           ||
 | ------- || -------------- || ----------------------- ||
 | 1.      || 250501508       ||&nbsp;&nbsp;&nbsp; ADITYA KUMAWAT          ||
