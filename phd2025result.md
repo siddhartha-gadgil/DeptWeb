@@ -7,8 +7,6 @@ PROVISIONAL LIST OF SELECTED CANDIDATES
 </b><br>
 (Subject to approval by the Admissions Committee of IISc.)
 <br>
-<b>Recommended List:
-</b>
 
 | SI No &nbsp;&nbsp;&nbsp;   || Application No ||&nbsp;&nbsp;&nbsp; Student Name               ||
 | ------- || --------------- || ----------------------------- ||
