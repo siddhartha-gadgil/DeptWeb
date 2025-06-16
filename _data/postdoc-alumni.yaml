@@ -888,3 +888,74 @@
   image: true
   research-area: Geometric Analysis & PDEs
   office: L23
+  
+- name: Safdar Quddus
+  webpage:
+  phd: 
+  user-id: 
+  position:
+  image: 
+  research-area: 
+  office:
+  
+- name: Souvik Pal 
+  webpage: 
+  phd: Harish-Chandra Research institute 
+  user-id: souvikpal 
+  position: NBHM PDF 
+  image: true 
+  research-area: Lie algebras 
+  office: L18
+  
+- name: Abhishek Khetan
+  webpage:
+  phd: TIFR Mumbai
+  user-id: abhishek2
+  position: IoE-Postdoctoral Fellow
+  image: true
+  research-area: Combinatorics
+  office: R24
+  
+- name: Debaprasanna Kar
+  webpage:
+  phd: IISER Pune
+  user-id: debaprasanna
+  position: NBHM PDF
+  image: true
+  research-area: Several Complex Variables
+  office: N22
+  
+- name: Mihir Sheth
+  webpage: https://sites.google.com/view/mihirsheth/home
+  phd: University of Duisburg-Essen, Germany
+  user-id: mihirsheth
+  position: INSPIRE Faculty
+  image: true
+  research-area: Number theory, Representation theory
+  office: N14
+  
+- name: Naveen Gupta 
+  webpage: 
+  phd: University of Delhi 
+  user-id: naveengupta 
+  position: NBHM PDF 
+  image: true 
+  research-area: Several complex variables 
+  office: R23
+  
+- name: Debanjan Nandi (Ph.D., University of Jyväskyla)
+  webpage: https://sites.google.com/view/debanjannandi/home
+  phd: University of Jyväskyla
+  user-id: debanjann
+  position: INSPIRE Faculty Fellow
+  image: true
+  research-areas: Geometry, dynamics, probability.
+  office: L16
+  
+- name: Sankar K
+  phd: IIT Kanpur
+  user-id: sankark
+  position: Dr. D.S. Kothari
+  image: true
+  research-area: Homogenization of Partial Differential Equations
+  office: N14
