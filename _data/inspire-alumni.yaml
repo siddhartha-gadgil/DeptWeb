@@ -118,3 +118,21 @@
   research-areas: Functional Analysis and Operator Theory
   image: true
   webpage: https://sites.google.com/view/kousikdhara
+
+- name: Debanjan Nandi (Ph.D., University of Jyväskyla)
+  webpage: https://sites.google.com/view/debanjannandi/home
+  phd: University of Jyväskyla
+  user-id: debanjann
+  position: INSPIRE Faculty Fellow
+  image: true
+  research-areas: Geometry, dynamics, probability.
+  office: L16
+  
+- name: Mihir Sheth
+  webpage: https://sites.google.com/view/mihirsheth/home
+  phd: University of Duisburg-Essen, Germany
+  user-id: mihirsheth
+  position: INSPIRE Faculty
+  image: true
+  research-area: Number theory, Representation theory
+  office: N14

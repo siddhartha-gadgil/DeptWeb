@@ -889,15 +889,6 @@
   research-area: Geometric Analysis & PDEs
   office: L23
   
-- name: Safdar Quddus
-  webpage:
-  phd: 
-  user-id: 
-  position:
-  image: 
-  research-area: 
-  office:
-  
 - name: Souvik Pal 
   webpage: 
   phd: Harish-Chandra Research institute 
@@ -925,15 +916,6 @@
   research-area: Several Complex Variables
   office: N22
   
-- name: Mihir Sheth
-  webpage: https://sites.google.com/view/mihirsheth/home
-  phd: University of Duisburg-Essen, Germany
-  user-id: mihirsheth
-  position: INSPIRE Faculty
-  image: true
-  research-area: Number theory, Representation theory
-  office: N14
-  
 - name: Naveen Gupta 
   webpage: 
   phd: University of Delhi 
@@ -942,15 +924,6 @@
   image: true 
   research-area: Several complex variables 
   office: R23
-  
-- name: Debanjan Nandi (Ph.D., University of Jyväskyla)
-  webpage: https://sites.google.com/view/debanjannandi/home
-  phd: University of Jyväskyla
-  user-id: debanjann
-  position: INSPIRE Faculty Fellow
-  image: true
-  research-areas: Geometry, dynamics, probability.
-  office: L16
   
 - name: Sankar K
   phd: IIT Kanpur
