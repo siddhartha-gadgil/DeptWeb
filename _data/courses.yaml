@@ -110,7 +110,7 @@ jan2026:
       venue:
     - code: MA 319
       name: Algebraic Combinatorics
-      instructor: Digjoy Paul
+      instructor: Digjoy Paul / Arvind Ayyer
       timing:
       venue:
     - code: MA 321
@@ -120,7 +120,7 @@ jan2026:
       venue:
     - code: MA 326
       name: Fourier Analysis
-      instructor: Kalachand Shuin
+      instructor: Kalachand Shuin / E. K. Narayanan
       timing:
       venue:
     - code: MA 336A
