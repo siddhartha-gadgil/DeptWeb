@@ -93,6 +93,11 @@ jan2026:
       instructor: R. Venkatesh
       timing:
       venue:
+    - code: MA 222A
+      name: "Advanced Measure Theory"
+      instructor: Arka Mallick
+      timing:
+      venue:
     - code: MA 262
       name: Introduction to Stochastic Processes
       instructor: Arvind Ayyer
@@ -133,7 +138,7 @@ jan2026:
       instructor: E. K. Narayanan
       timing:
       venue:
-    - code: MA 364A
+    - code: MA 346A
       name: Homogeneous Dynamics
       instructor: Debanjan Nandi
       timing:
@@ -149,13 +154,8 @@ jan2026:
       timing:
       venue:
     - code: MA 3xx
-      name: "Advanced Measure Theory"
-      instructor: Arka Mallick
-      timing:
-      venue:
-    - code: MA 3xx
       name: "Topics in Finite Element Method"
-      instructor: Manjunath Krishnapur
+      instructor: Thirupathi Gudi
       timing:
       venue:
     - code: MA 3xx
