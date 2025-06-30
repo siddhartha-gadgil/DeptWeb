@@ -118,11 +118,6 @@ jan2026:
       instructor: Kalachand Shuin
       timing:
       venue:
-    - code: MA 333
-      name: Riemannian Geometry
-      instructor: Ved Datar
-      timing:
-      venue:
     - code: MA 336A
       name: Introduction to Stochastic Finance
       instructor: Srikanth K. Iyer
@@ -274,6 +269,11 @@ aug2025:
     - code: MA 315
       name: Lie Algebras and their Representations
       instructor: "R. Venkatesh / Shushma Rani"
+      timing:
+      venue:
+    - code: MA 333
+      name: Riemannian Geometry
+      instructor: Ved Datar
       timing:
       venue:
     - code: MA 339
