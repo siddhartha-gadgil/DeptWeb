@@ -93,6 +93,11 @@ jan2026:
       instructor: Arka Mallick
       timing:
       venue:
+    - code: MA 237
+      name: "Introduction to Tilings"
+      instructor: Subhojoy Gupta
+      timing:
+      venue:
     - code: MA 262
       name: Introduction to Stochastic Processes
       instructor: Arvind Ayyer
@@ -141,11 +146,6 @@ jan2026:
     - code: MA 3xx
       name: "Topics in Finite Element Method"
       instructor: Thirupathi Gudi
-      timing:
-      venue:
-    - code: MA 3xx
-      name: "Elective"
-      instructor: Subhojoy Gupta
       timing:
       venue:
     - code: MA 3xx
