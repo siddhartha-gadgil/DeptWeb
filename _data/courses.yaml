@@ -1,3 +1,309 @@
+jan2026:
+  ug:
+    - code: UM 102
+      instructor: Purvi Gupta
+      name: "Analysis and Linear Algebra - II"
+      ug-prereq-courses: UMA 101
+      credits: "4:0"
+      webpage:
+      timing:
+      venue:
+    - code: UM 204
+      instructor: Muna Naik
+      name: Introduction to Basic Analysis
+      credits: "3:1"
+      ug-prereq-courses: UM 102
+      webpage:
+      timing:
+      venue:
+    - code: UM 205
+      instructor: Abhishek Banerjee
+      name: Introduction to Algebraic Structures
+      credits: "3:1"
+      webpage: https://math.iisc.ac.in/~arvind/um205/
+      ug-prereq-courses: UM 102
+      timing:
+      venue:
+    - code: UM 400
+      instructor: UG Coordinator
+      name: "UG project"
+      credits: "0:13"
+      ug-prereq-courses:
+    - code: UM 502
+      instructor: UG Coordinator
+      name: "Masters project B"
+      credits: "0:6"
+      ug-prereq-courses:
+  core1:
+    - code: MA 224
+      name: Complex Analysis
+      credits: "3:1"
+      instructor: Gautam Bharali
+      prereq-courses: MA 221
+      ug-prereq-courses: "UM 204"
+      timing:
+      venue:
+      webpage:
+    - code: MA 241
+      name: Ordinary Differential Equations
+      credits: "3:1"
+      instructor: Vamsi Pritham Pingali
+      prereq-courses: MA 221
+      ug-prereq-courses: "UM 204"
+      timing:
+      venue:
+  core-intphd:
+    - code: MA 213
+      name: Algebra II
+      credits: "3:1"
+      instructor: R. Venkatesh
+      prereq-courses: MA 212
+      ug-prereq-courses: ""
+      timing:
+      venue:
+    - code: MA 222
+      name: "Measure & Integration"
+      credits: "3:1"
+      instructor: Harish Seshadri
+      prereq-courses: MA 221
+      ug-prereq-courses: "UM 204"
+      timing:
+      venue:
+    - code: MA 235
+      name: Introduction to Differentiable Manifolds
+      instructor: Subhojoy Gupta
+      prereq-courses: MA 221
+      ug-prereq-courses: ""
+      webpage:
+      timing:
+      venue:
+  electives:
+    - code: MA 218
+      name: Number Theory
+      instructor: Shaunak Deo
+      timing:
+      venue:
+    - code: MA 219
+      name: Representation Theory of Finite Groups
+      instructor: R. Venkatesh
+      timing:
+      venue:
+    - code: MA 220
+      name: Representation Theory of Finite Groups
+      instructor: R. Venkatesh
+      timing:
+      venue:
+    - code: MA 262
+      name: Introduction to Stochastic Processes
+      instructor: Arvind Ayyer
+      timing:
+      venue:
+    - code: MA 305
+      name: Lie Groups and Lie Algebras
+      instructor: Muna Naik
+      timing:
+      venue:
+    - code: MA 319
+      name: Algebraic Combinatorics
+      instructor: Digjoy Paul
+      timing:
+      venue:
+    - code: MA 321
+      name: Analysis III
+      instructor: A. K. Nandakumaran
+      timing:
+      venue:
+    - code: MA 326
+      name: Fourier Analysis
+      instructor: Kalachand Shuin
+      timing:
+      venue:
+    - code: MA 333
+      name: Riemannian Geometry
+      instructor: Ved Datar
+      timing:
+      venue:
+    - code: MA 336A
+      name: Introduction to Stochastic Finance
+      instructor: Srikanth K. Iyer
+      timing:
+      venue:
+    - code: MA 340
+      name: Advanced Functional Analysis
+      instructor: E. K. Narayanan
+      timing:
+      venue:
+    - code: MA 364A
+      name: Homogeneous Dynamics
+      instructor: Debanjan Nandi
+      timing:
+      venue:
+    - code: MA 376
+      name: Extremal Combinatorics
+      instructor: "Hiranya Kishore Dey / Arvind Ayyer"
+      timing:
+      venue:
+    - code: MA 379
+      name: Linear Algebraic Groups
+      instructor: Radhika Ganapathy
+      timing:
+      venue:
+    - code: MA 3xx
+      name: "Advanced Measure Theory"
+      instructor: Arka Mallick
+      timing:
+      venue:
+    - code: MA 3xx
+      name: "Topics in Finite Element Method"
+      instructor: Manjunath Krishnapur
+      timing:
+      venue:
+    - code: MA 3xx
+      name: "Elective"
+      instructor: Subhojoy Gupta
+      timing:
+      venue:
+    - code: MA 3xx
+      name: "Elective"
+      instructor: Manjunath Krishnapur
+      timing:
+      venue:
+    - code: MA 3xx
+      name: "Elective"
+      instructor: Swarnendu Sil
+      timing:
+      venue:
+
+
+aug2025:
+  ug:
+    - code: UM 101
+      instructor: Soumya Das
+      name: "Analysis and Linear Algebra - I"
+      credits: "4:0"
+      ug-prereq-courses:
+    - code: UM 201
+      instructor: Sanchayan Sen
+      name: "Probability and Statistics"
+      credits: "4:0"
+    - code: UM 501
+      instructor: UG Coordinator
+      name: "Masters project A"
+      credits: "0:6"
+      ug-prereq-courses:
+  core-ug:
+    - code: MA 200
+      name: Multivariable Calculus
+      credits: "3:1"
+      instructor: E. K. Narayanan
+      prereq-courses: ""
+      ug-prereq-courses: UM 204
+      timing:
+      venue:
+  core1:
+    - code: MA 212
+      name: Algebra I
+      instructor: Shaunak Deo
+      prereq-courses: ""
+      ug-prereq-courses: UM 203
+      webpage:
+      timing:
+      venue:
+    - code: MA 219
+      name: Linear Algebra
+      credits: "3:1"
+      instructor: Apoorva Khare
+      prereq-courses: ""
+      ug-prereq-courses: UM 102
+      timing:
+      venue:
+    - code: MA 231
+      name: Topology
+      credits: "3:1"
+      instructor: Siddhartha Gadgil
+      prereq-courses: ""
+      ug-prereq-courses:
+      timing:
+      venue:
+  core-intphd:
+    - code: MA 221
+      name: "Analysis I: Real Analysis"
+      instructor: Thirupathi Gudi
+      prereq-courses: ""
+      ug-prereq-courses:
+      webpage:
+      timing:
+      venue:
+    - code: MA 261
+      name: Probability Models
+      instructor: Manjunath Krishnapur
+      webpage:
+      prereq-courses: ""
+      ug-prereq-courses: ""
+      timing:
+      venue:
+  core2:
+    - code: MA 223
+      name: Functional Analysis
+      instructor: Swarnendu Sil
+      prereq-courses: "MA 222, MA 224 & MA 219"
+      ug-prereq-courses: ""
+      timing:
+      venue:
+    - code: MA 232
+      name: Introduction to Algebraic Topology
+      instructor: Harish Seshadri
+      webpage: https://math.iisc.ac.in/~gadgil/intro-algebraic-topology-2024/
+      prereq-courses: "MA 231 & MA 212"
+      ug-prereq-courses: ""
+      timing:
+      venue:
+    - code: MA 242
+      name: Partial Differential Equations
+      instructor: Arka Mallick
+      prereq-courses: MA 241
+      ug-prereq-courses: ""
+      timing:
+      venue:
+  electives:
+    - code: MA 312
+      name: Commutative Algebra
+      instructor: Bharathwaj Palvannan
+      timing:
+      venue:
+    - code: MA 313
+      name: Algebraic Number Theory
+      instructor: Radhika Ganapathy
+      timing:
+      venue:
+    - code: MA 315
+      name: Lie Algebras and their Representations
+      instructor: "R. Venkatesh / Shushma Rani"
+      timing:
+      venue:
+    - code: MA 339
+      name: Geometric Analysis
+      instructor: Vamsi Pritham Pingali
+      timing:
+      venue:
+    - code: MA 341
+      name: Matrix Analysis and Positivity
+      instructor: Apoorva Khare
+      timing:
+      venue:
+    - code: MA 361
+      name: Probability Theory
+      instructor: Srikanth K. Iyer
+      timing:
+      venue:
+    - code: MA 380
+      name: Introduction to Complex Dynamics
+      instructor: Gautam Bharali
+    - code: MA 3xx
+      name: Schubert Calculus
+      instructor: Arvind Ayyer
+
+
 jan2025:
   ug:
     - code: UMA 102
