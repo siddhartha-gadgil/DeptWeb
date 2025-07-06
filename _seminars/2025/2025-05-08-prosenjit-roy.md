@@ -1,5 +1,5 @@
 ---
-speaker:  Prosenjit Roy (IIT Kanpur)
+speaker: Prosenjit Roy (IIT Kanpur)
 title: "Boundary Hardy type inequalities"
 date: 8 May, 2025
 time: 3 pm
