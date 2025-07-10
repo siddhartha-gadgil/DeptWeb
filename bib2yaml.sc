@@ -3,6 +3,7 @@
 import $ivy.`org.jbibtex:jbibtex:1.0.5`
 import org.jbibtex._
 import scala.collection.JavaConverters._
+import os._
 
 import java.io._
 val parser = new BibTeXParser()
@@ -117,7 +118,7 @@ def simpleOut = mp.map((h) => h.map {
   }.mkString("- ", "\n  ", "\n")).mkString("\n")
 
 
-import ammonite.ops._
+import os._
 def run = {
   write.over(pwd / "_data" / "pubs.yaml", out)
   write.over(pwd / "_data" / "publ.yaml", simpleOut)
