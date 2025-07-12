@@ -143,9 +143,10 @@ jan2026:
       instructor: Radhika Ganapathy
       timing:
       venue:
-    - code: MA 3xx
+    - code: MA 347A
       name: "Topics in Finite Element Method"
       instructor: Thirupathi Gudi
+      credits: "3:1"
       timing:
       venue:
     - code: MA 3xx
