@@ -184,8 +184,8 @@ aug2025:
       instructor: E. K. Narayanan
       prereq-courses: ""
       ug-prereq-courses: UM 204
-      timing:
-      venue:
+      timing: "Mon, Wed, Fri: 9:00 - 10:00"
+      venue: "LH-4"
   core1:
     - code: MA 212
       name: Algebra I
@@ -193,24 +193,24 @@ aug2025:
       prereq-courses: ""
       ug-prereq-courses: UM 203
       webpage:
-      timing:
-      venue:
+      timing: "Mon, Wed, Fri: 2:00 - 3:00"
+      venue: "LH-4"
     - code: MA 219
       name: Linear Algebra
       credits: "3:1"
       instructor: Apoorva Khare
       prereq-courses: ""
       ug-prereq-courses: UM 102
-      timing:
-      venue:
+      timing: "Tue, Thu: 2:00 - 3:30"
+      venue: "LH-4/LH-1"
     - code: MA 231
       name: Topology
       credits: "3:1"
       instructor: Siddhartha Gadgil
       prereq-courses: ""
       ug-prereq-courses:
-      timing:
-      venue:
+      timing: "Tue, Thu: 8:30 - 10:00"
+      venue: "LH-4"
   core-intphd:
     - code: MA 221
       name: "Analysis I: Real Analysis"
@@ -218,81 +218,85 @@ aug2025:
       prereq-courses: ""
       ug-prereq-courses:
       webpage:
-      timing:
-      venue:
+      timing: "Mon, Wed, Fri: 11:00 - 12:00"
+      venue: "LH-4"
     - code: MA 261
       name: Probability Models
       instructor: Manjunath Krishnapur
       webpage:
       prereq-courses: ""
       ug-prereq-courses: ""
-      timing:
-      venue:
+      timing: "Mon, Wed, Fri: 12:00 - 1:00"
+      venue: "LH-5"
   core2:
     - code: MA 223
       name: Functional Analysis
       instructor: Swarnendu Sil
       prereq-courses: "MA 222, MA 224 & MA 219"
       ug-prereq-courses: ""
-      timing:
-      venue:
+      timing: "Mon, Wed, Fri: 3:00 - 4:00"
+      venue: "LH-5"
     - code: MA 232
       name: Introduction to Algebraic Topology
       instructor: Harish Seshadri
       webpage: https://math.iisc.ac.in/~gadgil/intro-algebraic-topology-2024/
       prereq-courses: "MA 231 & MA 212"
       ug-prereq-courses: ""
-      timing:
-      venue:
+      timing: "Mon, Wed, Fri: 2:00 - 3:00"
+      venue: "LH-5"
     - code: MA 242
       name: Partial Differential Equations
       instructor: Arka Mallick
       prereq-courses: MA 241
       ug-prereq-courses: ""
-      timing:
-      venue:
+      timing: "Mon, Wed, Fri: 10:00 - 11:00"
+      venue: "LH-5"
   electives:
     - code: MA 312
       name: Commutative Algebra
       instructor: Bharathwaj Palvannan
-      timing:
-      venue:
+      timing: "Tue, Thu: 11:30 - 1:00"
+      venue: "LH-5"
     - code: MA 313
       name: Algebraic Number Theory
       instructor: Radhika Ganapathy
-      timing:
-      venue:
+      timing: "Tue, Thu: 8:30 - 10:00"
+      venue: "LH-5"
     - code: MA 315
       name: Lie Algebras and their Representations
       instructor: "R. Venkatesh / Shushma Rani"
-      timing:
-      venue:
+      timing: "Tue, Thu: 2:00 - 3:30"
+      venue: "LH-3"
     - code: MA 333
       name: Riemannian Geometry
       instructor: Ved Datar
-      timing:
-      venue:
+      timing: "Tue, Thu: 10:00 - 11:30"
+      venue: "LH-4"
     - code: MA 339
       name: Geometric Analysis
       instructor: Vamsi Pritham Pingali
-      timing:
-      venue:
+      timing: "Tue, Thu: 3:30 - 5:00"
+      venue: "LH-5"
     - code: MA 341
       name: Matrix Analysis and Positivity
       instructor: Apoorva Khare
-      timing:
-      venue:
+      timing: "Tue, Thu: 11:30 - 1:00"
+      venue: "LH-3"
     - code: MA 361
       name: Probability Theory
       instructor: Srikanth K. Iyer
-      timing:
-      venue:
+      timing: "Tue, Thu: 10:00 - 11:30"
+      venue: "LH-5"
     - code: MA 380
       name: Introduction to Complex Dynamics
       instructor: Gautam Bharali
+      timing: "Tue, Thu: 2:00 - 3:30"
+      venue: "LH-5"
     - code: MA 3xx
       name: Schubert Calculus
       instructor: Arvind Ayyer
+      timing: "Tue, Thu: 3:30 - 5:00"
+      venue: "LH-4"
 
 
 jan2025:
