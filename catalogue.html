@@ -13,14 +13,14 @@ title: Course Catalogue
     ({% if course.credits %}{{ course.credits }}{% else %}3:0{% endif %})
   </h4>
 {% if course.prereq-courses %}
-<h4>Prerequisite courses: {{ course.prereq-courses }} </h4>
+<h5>Prerequisite courses: {{ course.prereq-courses }} </h5>
 {% endif %}
 {% if course.ug-prereq-courses %}
 <h4>{% if course.prereq-courses %}(Additional ){% endif %}Prerequisite courses for Undegraduates: {{ course.ug-prereq-courses }} </h4>
 {% endif %}
 
 {% if course.prereqs %}
-<h4> Pre-requisites : </h4>
+<h5> Prerequisites : </h5>
     <ol>
     {% for pre in course.prereqs %}
      <li> {{ pre }} </li>
