@@ -3,7 +3,7 @@ speaker: Himanshu Gupta (University of Regina, Regina, Canada)
 title: "On the eigenvalues of the graphs D(5,q)"
 date: 29 Jul, 2025
 time: 11:30 am
-venue: LH-1, Mathematics Department
+venue: LH-5, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb24-25.html
 ---
