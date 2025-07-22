@@ -5,7 +5,7 @@ date: 2025-07-28
 
 We are organising a **GIAN course on *Graphs, Spectra and Convex Geometry*** from **July 28 to August 1, 2025**, at IISc, Bengaluru.
 
-**Lecturers:** 	Prof. Rekha Thomas (University of Washington, Seattle, USA)
+**Lecturers:** 	Prof. Rekha Thomas (University of Washington, Seattle, USA) &
 		Prof. Arvind Ayyer (Indian Institute of Science, Bengaluru)	
 
 🔗 **Course Website:**  
