@@ -276,7 +276,7 @@ aug2025:
       name: Geometric Analysis
       instructor: Vamsi Pritham Pingali
       timing: "Tue, Thu: 3:30 - 5:00"
-      venue: "LH-5"
+      venue: "LH-4"
     - code: MA 341
       name: Matrix Analysis and Positivity
       instructor: Apoorva Khare
@@ -296,7 +296,7 @@ aug2025:
       name: Schubert Calculus
       instructor: Arvind Ayyer
       timing: "Tue, Thu: 3:30 - 5:00"
-      venue: "LH-4"
+      venue: "LH-5"
 
 
 jan2025:
