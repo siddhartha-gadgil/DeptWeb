@@ -1,5 +1,5 @@
 ---
-speaker: Aashirwad N. Ballal
+speaker: Aashirwad N. Ballal (IISc Mathematics)
 date: 18 March 2025
 time: 3 pm
 venue: LH-1, Department of Mathematics
