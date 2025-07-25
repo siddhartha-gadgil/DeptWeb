@@ -267,6 +267,11 @@ aug2025:
       instructor: "R. Venkatesh / Shushma Rani"
       timing: "Tue, Thu: 2:00 - 3:30"
       venue: "LH-3"
+    - code: MA 319A
+      name: Schubert Calculus
+      instructor: Arvind Ayyer
+      timing: "Tue, Thu: 3:30 - 5:00"
+      venue: "LH-5"
     - code: MA 333
       name: Riemannian Geometry
       instructor: Ved Datar
@@ -291,11 +296,6 @@ aug2025:
       name: Introduction to Complex Dynamics
       instructor: Gautam Bharali
       timing: "Tue, Thu: 2:00 - 3:30"
-      venue: "LH-5"
-    - code: MA 3xx
-      name: Schubert Calculus
-      instructor: Arvind Ayyer
-      timing: "Tue, Thu: 3:30 - 5:00"
       venue: "LH-5"
 
 
