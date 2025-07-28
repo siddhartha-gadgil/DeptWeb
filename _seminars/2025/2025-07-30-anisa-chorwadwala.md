@@ -3,7 +3,7 @@ speaker: Anisa Chorwadwala (IISER Pune)
 title: "Optimisation of a mixed Steklov Dirichlet Eigenvalue"
 date: 30 July, 2025
 time: 4 pm
-venue: LH-1, Mathematics Department
+venue: LH-5, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
 ---
