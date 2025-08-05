@@ -202,7 +202,7 @@ aug2025:
       prereq-courses: ""
       ug-prereq-courses: UM 102
       timing: "Tue, Thu: 2:00 - 3:30"
-      venue: "LH-4/LH-1"
+      venue: "LH-1/LH-4"
     - code: MA 231
       name: Topology
       credits: "3:1"
@@ -210,7 +210,7 @@ aug2025:
       prereq-courses: ""
       ug-prereq-courses:
       timing: "Tue, Thu: 8:30 - 10:00"
-      venue: "LH-4"
+      venue: "LH-1/LH-4"
   core-intphd:
     - code: MA 221
       name: "Analysis I: Real Analysis"
