@@ -2,6 +2,7 @@
 speaker: Rumpa Masanta (IISc Mathematics)
 date: 6 August 2025
 time: 11:30 am
+start_time: 11:30
 venue: Hybrid - Microsoft Teams (online) and LH-1, Department of Mathematics
 title: Kobayashi geometry and a metric notion of negative curvature
 series: Thesis

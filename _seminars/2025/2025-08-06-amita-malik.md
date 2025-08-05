@@ -3,6 +3,7 @@ speaker: Amita Malik (Pennsylvania State University, USA)
 title: "Asymptotic analysis of partitions into primes"
 date: 06 August, 2025
 time: 3 pm
+start_time: 15:00
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
