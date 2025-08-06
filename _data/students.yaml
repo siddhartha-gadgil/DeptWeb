@@ -296,21 +296,21 @@
   programme: PhD
   user-id: sachinshukla
   image: true
-  office: To be allotted
+  office: X21
 
 - name: Muhammed Faheem A T
   year-of-joining: 2024
   programme: PhD
   user-id: faheemat
   image: true
-  office: To be allotted
+  office: X22
 
 - name: Shubhanshu Prasad
   year-of-joining: 2024
   programme: PhD
   user-id: shubhanshup
   image: true
-  office: To be allotted
+  office: R24
 
 - name: Sohan Manna
   year-of-joining: 2024
@@ -351,6 +351,104 @@
   year-of-joining: 2024
   programme: Integrated PhD
   user-id: sufaidsaleel
+  image: true
+  office: To be allotted
+  
+- name: Nabarun Sarkar
+  year-of-joining: 2025
+  programme: PhD
+  user-id: snabarun
+  image: true
+  office: To be allotted
+
+- name: Nilaksh Pundir
+  year-of-joining: 2025
+  programme: PhD
+  user-id: nilakshp
+  image: true
+  office: To be allotted
+
+- name: Satya Ranjan Ray Choudhary
+  year-of-joining: 2025
+  programme: PhD
+  user-id: satyar
+  image: true
+  office: To be allotted
+
+- name: Subhadeep Mandal
+  year-of-joining: 2025
+  programme: PhD
+  user-id: subhadeepm
+  image: true
+  office: To be allotted
+
+- name: Swathi B
+  year-of-joining: 2025
+  programme: PhD
+  user-id: swatib
+  image: true
+  office: To be allotted
+
+- name: Anshuman Agrawal
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: anshumana
+  image: true
+  office: To be allotted
+
+- name: Chandra Shekhar
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: chandra1
+  image: true
+  office: To be allotted
+
+- name: Ishan Chakraborty
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: ishanc
+  image: true
+  office: To be allotted
+
+- name: Mohideen Asif K. A.
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: mohideenka
+  image: true
+  office: To be allotted
+
+- name: Richik Samanta
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: richiks
+  image: true
+  office: To be allotted
+
+- name: Sagnik Saha
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: sagniksaha
+  image: true
+  office: To be allotted
+
+- name: Saheb Dhar
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: sahebdhar
+  image: true
+  office: To be allotted
+
+- name: Suchetana Sen
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: suchetanasen
+  image: true
+  office: To be allotted
+
+- name: Vaibhavi Shetty
+  year-of-joining: 2025
+  programme: Integrated PhD
+  user-id: vaibhavis
   image: true
   office: To be allotted
 
