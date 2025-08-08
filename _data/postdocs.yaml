@@ -158,6 +158,13 @@
   user-id: kuldeepsarma
   position: NBHM PDF
   image: true
-  research-area: Linear algebra, Algebraic graph theory, Combinatorial matrix theory
-  office: R24
+  
+- name: Shubham R. Bais
+  webpage: https://scholar.google.com/citations?hl=en&user=5SSABUMAAAAJ&view_op=list_works&sortby=pubdate
+  phd: The Institute of Mathematical Sciences
+  user-id: shubhamrb
+  position: NBHM Postdoctoral Fellow
+  research-area: Harmonic Analysis and Operator Theory
+  office: N28
+  image: true
   
