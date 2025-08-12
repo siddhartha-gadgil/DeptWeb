@@ -25,7 +25,7 @@
   user-id: spratibha
   position: INSPIRE Faculty Fellow
   image: true
-  research-area: Optimal control problems governed by PDEs, Finite element method
+  research-areas: Optimal control problems governed by PDEs, Finite element method
   office: L28
   
 - name: Mainak Ghosh
@@ -34,5 +34,5 @@
   user-id: mainakghosh
   position: INSPIRE Faculty Fellow
   image: true
-  research-area: Combinatorics, Number Theory, Algebraic Geometry
+  research-areas: Combinatorics, Number Theory, Algebraic Geometry
   office: N13
