@@ -14,3 +14,6 @@ associated to the sub-Laplacians, $\mathcal{L}$ on Métivier groups, $G$ with $(
 $1/p = 1/p_1 + 1/p_2$ and $1\leq p_1, p_2 \leq \infty$. We prove that $\mathcal{B}^{\alpha}$ is bounded for $\alpha > \alpha(p_1, p_2)$ where
 $\alpha(p_1, p_2)$ is in terms of $d:=d_1+d_2$, the topological dimension of $G$, which is strictly smaller than the homogeneous dimension
 $Q:=d_1+2d_2$ of $G$. This talk is based on joint work with Sayan Bagchi and Md Nurul Molla.
+
+The [video of this talk](https://www.youtube.com/watch?v=MdKbOmw3mf4&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
