@@ -6,6 +6,7 @@ time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
+slides: "2025-02-19-singh-slides.pdf"
 ---
 
 In this talk, we discuss about the $L^{p_1}(G) \times L^{p_2}(G)$ to $L^{p}(G)$ boundedness of bilinear Bochner-Riesz means, $\mathcal{B}^{\alpha}$
