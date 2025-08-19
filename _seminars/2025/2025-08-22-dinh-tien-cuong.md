@@ -1,6 +1,6 @@
 ---
 speaker: Dinh Tien Cuong (National University of Singapore, Singapore)
-title: "Exponential equidistribution of periodic points for endomorphisms of complex projective space"
+title: "Exponential equidistribution of periodic points for endomorphisms of the complex projective space"
 date: 22 Aug, 2025
 time: 4 pm
 venue:  LH-4, Mathematics Department 
