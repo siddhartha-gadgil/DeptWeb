@@ -3,6 +3,7 @@ speaker:  Shyam Swarup Mondal (ISI Kolkata)
 title: "Orthonormal Strichartz estimates on abstract measure spaces"
 date: 20 August, 2025
 time: 4 pm
+start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

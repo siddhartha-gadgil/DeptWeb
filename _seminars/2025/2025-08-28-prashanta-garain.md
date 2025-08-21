@@ -3,6 +3,7 @@ speaker:  Prashanta Garain (IISER Berhampur)
 title: "Regularity theory for mixed local and nonlocal $p$-Laplace equations"
 date: 28 August, 2025
 time: 4 pm
+start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

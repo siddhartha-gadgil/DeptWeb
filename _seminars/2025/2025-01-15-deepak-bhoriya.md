@@ -3,6 +3,7 @@ speaker: Deepak Bhoriya (University of Notre Dame, USA)
 title: "General purpose alternative finite difference WENO schemes (AFD-WENO) for hyperbolic conservative systems and systems with non-conservative products (with PCP and Div-preserving)"
 date: 15 Jan, 2025
 time: 4 pm
+start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

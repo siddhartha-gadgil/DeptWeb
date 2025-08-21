@@ -3,6 +3,7 @@ speaker: Abhishek Ghosh (IIT Jammu)
 title: "Maximal functions and Hardy Spaces for Fourier Integral operators"
 date: 26 Mar, 2025
 time: 3 pm
+start_time: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

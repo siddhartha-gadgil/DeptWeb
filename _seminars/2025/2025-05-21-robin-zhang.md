@@ -3,6 +3,7 @@ speaker: Robin Zhang (MIT, USA)
 title: "A 'dearest dream of youth', 180 years later"
 date: 21 May, 2025
 time:  4 pm
+start_time: 16:00
 venue: LH-1, Mathematics Department
 series: "PROMYS Guest Lecture"
 ---

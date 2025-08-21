@@ -3,6 +3,7 @@ speaker: Rajesh Mahadevan (Universidad de Concepcion, Concepcion, Chile)
 title: "Asymptotic theory for a general class of short-range interaction functionals"
 date: 24 Feb, 2025
 time: 11 am
+start_time: 11:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

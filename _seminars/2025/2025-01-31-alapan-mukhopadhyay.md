@@ -3,6 +3,7 @@ speaker: Alapan Mukhopadhyay (EPFL, Lausanne, Switzerland)
 title: "Frobenius and homological algebra"
 date: 31 January, 2025
 time: 3 pm
+start_time: 15:00
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb24-25.html

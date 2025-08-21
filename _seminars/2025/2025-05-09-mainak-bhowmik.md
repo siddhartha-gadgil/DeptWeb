@@ -2,6 +2,7 @@
 speaker: Mainak Bhowmik
 date: 9 May 2025
 time: 10 am
+start_time: 10:00
 venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 title: Herglotz representation, approximation by inner functions and Hankel operators
 series: Thesis

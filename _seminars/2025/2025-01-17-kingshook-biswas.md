@@ -3,6 +3,7 @@ speaker: Kingshook Biswas (Indian Statistical Institute, Kolkata)
 title: "The Fourier transform on harmonic manifolds"
 date: 17 Jan, 2025
 time: 3 pm
+start_time: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

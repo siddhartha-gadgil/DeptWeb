@@ -3,6 +3,7 @@ speaker: Krishna Maddaly (Ashoka University)
 title: "Dynamical delocalization for random operators"
 date: 8 Jan, 2025
 time: 2 pm
+start_time: 14:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

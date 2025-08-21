@@ -3,6 +3,7 @@ speaker: Shreyasi Datta (University of York, UK)
 title: "Rational points near manifolds and the Khintchine theorem"
 date: 13 January, 2025
 time: 4 pm
+start_time: 16:00
 series: "Number Theory Seminar"
 venue: Online on Microsoft Teams (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25" >APRG Seminar</a>)
 website: https://math.iisc.ac.in/number-theory-seminar.html

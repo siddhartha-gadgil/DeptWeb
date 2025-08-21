@@ -3,6 +3,7 @@ speaker: Sunil Naik (Queen's University, Canada)
 title: "On Matsuda Monoids and Artin's Primitive Root Conjecture"
 date: 05 May, 2025
 time: 11 am
+start_time: 11:00
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html

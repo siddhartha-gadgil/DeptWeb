@@ -3,6 +3,7 @@ speaker: Hong-Wei Zhang (Universität Paderborn, Germany)
 title: "Spectrum on locally symmetric spaces"
 date: 13 August, 2025
 time: 2 pm
+start_time: 14:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

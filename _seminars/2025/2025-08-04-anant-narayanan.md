@@ -2,6 +2,7 @@
 speaker: Anant Narayanan
 date: 4 August 2025
 time: 7:30 pm
+start_time: 19:30
 venue: Microsoft Teams (online)
 title: "Computing Tukey depth in a convex body: a Hilbert geometry approach"
 series: Thesis

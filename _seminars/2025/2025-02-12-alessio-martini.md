@@ -3,6 +3,7 @@ speaker: Alessio Martini (Politecnico di Torino, Italy and University of Birming
 title: "Sharp L^p estimates for the sub-Riemannian wave equation"
 date: 12 Feb, 2025
 time: 3 pm
+start_time: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

@@ -3,6 +3,7 @@ speaker: Valentina Ciccone (Universität Bonn, Germany)
 title: "Endpoint estimates for multipliers with singularities on higher-order lacunary sets"
 date: 9 Apr, 2025
 time: 3 pm
+start_time: 15:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

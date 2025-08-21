@@ -3,6 +3,7 @@ speaker: Matteo Mucciconi (National University of Singapore)
 title: "Asymptotic analysis of a multiplicative functional of the Poissonized Plancherel Measure: elliptic functions, phase transitions and applications"
 date: 22 Aug, 2025
 time: 11:30 am
+start_time: 11:30
 venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26" >APRG Seminar</a>)
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html

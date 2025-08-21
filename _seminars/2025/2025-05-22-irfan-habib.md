@@ -3,6 +3,7 @@ speaker: Md. Irfan Habib (IMSc, Chennai)
 title: "Maximal root subsystems and duality in affine reflection systems"
 date: 22 May, 2025
 time: 3 pm
+start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb24-25.html

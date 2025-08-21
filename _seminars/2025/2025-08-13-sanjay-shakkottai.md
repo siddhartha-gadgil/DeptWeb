@@ -3,6 +3,7 @@ speaker: Sanjay Shakkottai, University of Texas, Austin
 title: "Training-Free Approaches for Image Inversion and Editing Using Latent Generative Models"
 date: 13 August, 2025
 time: 5:30 pm
+start_time: 17:30
 venue: LH-1, Mathematics Department
 series: "Lean & Math-AI Seminar"
 ---

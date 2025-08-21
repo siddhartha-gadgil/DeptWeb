@@ -3,6 +3,7 @@ speaker: Ganesh Vaidya (Penn State University, University Park, USA)
 title: "Nonlocal conservation laws: modeling, theory, and numerics"
 date: 3 Feb, 2025
 time: 10 am
+start_time: 10:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25

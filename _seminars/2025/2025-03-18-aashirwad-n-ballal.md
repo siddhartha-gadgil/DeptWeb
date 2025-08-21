@@ -2,6 +2,7 @@
 speaker: Aashirwad N. Ballal (IISc Mathematics)
 date: 18 March 2025
 time: 3 pm
+start_time: 15:00
 venue: LH-1, Department of Mathematics
 title: Positivity properties of the deformed Hermitian Yang Mills and related equations
 series: Thesis

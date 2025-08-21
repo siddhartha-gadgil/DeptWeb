@@ -3,6 +3,7 @@ speaker: Subhajit Jana (Queen Mary University of London, UK)
 title: "Reciprocity of central L-values"
 date: 20 January, 2025
 time: 4 pm
+start_time: 16:00
 series: "Number Theory Seminar"
 venue: Online on MS-Teams
 website: https://math.iisc.ac.in/number-theory-seminar.html

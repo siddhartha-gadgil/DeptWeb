@@ -3,6 +3,7 @@ speaker: Haruzo Hida (University of California at Los Angeles, USA)
 title: "Euler’s Zeta values"
 date: 23 May, 2025
 time:  4 pm
+start_time: 16:00
 venue: LH-1, Mathematics Department
 series: "PROMYS Guest Lecture"
 ---

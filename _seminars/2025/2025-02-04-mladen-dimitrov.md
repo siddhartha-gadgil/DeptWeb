@@ -3,6 +3,7 @@ speaker: Mladen Dimitrov (University of Lille, France)
 title: "Eigenvariety for partially classical Hilbert modular forms"
 date: 04 February, 2025
 time: 2 pm
+start_time: 14:00
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html

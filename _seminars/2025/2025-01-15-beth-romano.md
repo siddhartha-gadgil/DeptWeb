@@ -3,6 +3,7 @@ speaker: Beth Romano (King's College London, UK)
 title: "Unipotent representations in the local Langlands correspondence"
 date: 15 January, 2025
 time: 11 am
+start_time: 11:00
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html

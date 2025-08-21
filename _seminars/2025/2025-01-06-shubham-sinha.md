@@ -3,6 +3,7 @@ speaker: Shubham Sinha (ICTP Trieste, Italy)
 title: "Quantum K-invariants of Grassmannian"
 date: 6 January, 2025
 time: 4 pm
+start_time: 16:00
 venue:  LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~khare/algcomb24-25.html" >Algebra-Combinatorics Seminar</a>)
 series: "Geometry & Topology Seminar"
 ---

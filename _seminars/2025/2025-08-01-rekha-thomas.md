@@ -3,6 +3,7 @@ speaker: Rekha Thomas (University of Washington, Seattle, USA)
 title: "Graphical designs"
 date: 1 August, 2025
 time:  2–3:15 and 3:45–5 pm (with a 30 minute break in between)
+start_time: 14:00
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---

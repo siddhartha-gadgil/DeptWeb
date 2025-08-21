@@ -3,6 +3,7 @@ speaker: Puskar Mondal (CMSA, Harvard University)
 title: "Einstein's Equations in Large Data Regime"
 date: 31 January, 2025
 time: 10 am
+start_time: 10:00
 venue:  online on MS Teams
 series: "Geometry & Topology Seminar"
 ---

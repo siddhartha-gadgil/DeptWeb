@@ -3,6 +3,7 @@ speaker: Abu Sufian (Universidad de Concepción, Chile)
 title: "Mathematical analysis of the motion of a piston (point mass) in a fluid with density-dependent viscosity"
 date: 20 Jan, 2025
 time: 11:30 am
+start_time: 11:30
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar24-25
