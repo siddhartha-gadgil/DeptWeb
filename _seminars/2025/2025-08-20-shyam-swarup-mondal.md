@@ -13,3 +13,6 @@ In this talk, we explore orthonormal Strichartz estimates associated with a gene
 Schr\"{o}dinger propagator $e^{itL}$, where $(X,\mu)$ is a measure space. As an application of these orthonormal Strichartz estimates, we will discuss the well-posedness
 of the Hartree equation within the framework of Schatten spaces. Additionally, we extend the discussion to orthonormal smoothing estimates, which extend prior work of
 Kenig-Ponce-Vega for single functions.
+
+The [video of this talk](https://www.youtube.com/watch?v=ayT1ErT_wiw&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
