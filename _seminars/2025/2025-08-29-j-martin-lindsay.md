@@ -26,7 +26,7 @@ Markov process?
 In the rest of the first part of the talk I shall outline the basic framework of QSA, connecting it to elements of the Malliavin calculus,
 and relate it to examples (1) and (2) through respective concepts of quantum stochastic cocycle. For a clue as to what might be involved,
 imagine taking the canonical commutation relations of quantum mechanics $[p,q] = - \mathrm{i}$ (in units for which Plank's constant equals $2 \pi$),
-and replacing $q$ by a position Brownian motion $( Q_t )$ and $p$ by a momentum Brownian motion $( P_t )$, and getting a \emph{quantum Brownian motion}
+and replacing $q$ by a position Brownian motion $( Q_t )$ and $p$ by a momentum Brownian motion $( P_t )$, and getting a _quantum Brownian motion_
 $( Q_t , P_t )$ satisfying $[ P_t, Q_s ] = - \mathrm{i} \min\{s,t\}$.
 
 After the break I intend (time permitting) to
