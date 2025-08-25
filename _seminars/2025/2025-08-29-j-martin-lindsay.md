@@ -12,7 +12,7 @@ In this talk I shall start with a brief discussion of three motivating examples/
 (1) Given a one-parameter group of unitary operators $( U_x )$ on a separable Hilbert space $\mathsf{h}$, set 
 $V_t = U_{B(t)}$ ($t \geqslant 0$) where $B$ is the canonical Brownian motion. Thus $( V_t )$ is a unitary operator valued stochastic process.
 The semigroup of time-shifts on paths induces a semigroup of completely positive maps $( \sigma_t )$ on the algebra 
-$L^\infty( \Omega; B(\mathsf{h}) ) \subset B(\mathsf{h}) \overline{\otimes}\, B( L^2( \Omega ) )$ with respect to which $V$ is easily seen to
+$L^\infty( \Omega; B(\mathsf{h}) ) \subset B(\mathsf{h}) \overline{\otimes} B( L^2( \Omega ) )$ with respect to which $V$ is easily seen to
 enjoy the cocycle relation
 $V_{r+t} = V_r \sigma_r( V_t )$ ($r,t \geqslant 0$).
 W. Arveson posed the questions, where does this structure arise beyond that of suitably randomised unitary evolutions?, and
