@@ -3,7 +3,7 @@ speaker: Chavda Sahil Ramjibhai
 date: 20 November 2024
 time: 2 pm
 venue: LH-3, Department of Mathematics
-title: λ-Decomposition of Hochschild Homology and Cyclic Homology
+title: "λ-Decomposition of Hochschild Homology and Cyclic Homology"
 series: Thesis
 series-prefix: MS
 series-suffix: colloquium
