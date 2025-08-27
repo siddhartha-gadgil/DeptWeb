@@ -1,5 +1,5 @@
 ---
-speaker: Sahil Chavda Ramjibhai
+speaker: Chavda Sahil Ramjibhai
 date: 20 November 2024
 time: 2 pm
 venue: LH-3, Department of Mathematics
