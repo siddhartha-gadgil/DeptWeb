@@ -108,11 +108,6 @@ jan2026:
       instructor: Muna Naik
       timing:
       venue:
-    - code: MA 319
-      name: Algebraic Combinatorics
-      instructor: Digjoy Paul / Arvind Ayyer
-      timing:
-      venue:
     - code: MA 321
       name: Analysis III
       instructor: A. K. Nandakumaran
@@ -131,11 +126,6 @@ jan2026:
     - code: MA 340
       name: Advanced Functional Analysis
       instructor: E. K. Narayanan
-      timing:
-      venue:
-    - code: MA 376
-      name: Extremal Combinatorics
-      instructor: "Hiranya Kishore Dey / Arvind Ayyer"
       timing:
       venue:
     - code: MA 379
