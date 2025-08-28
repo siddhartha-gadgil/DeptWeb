@@ -7,7 +7,7 @@ venue: Hybrid - Microsoft Teams (online) and LH-1, Department of Mathematics
 title: Mapping class group dynamics, relative character varieties and hyperbolic cone-surfaces
 series: Thesis
 series-prefix: PhD
-series-suffix: colloquium
+series-suffix: Defence
 ---
 
 This thesis explores the dynamics of the mapping class group action on relative character varieties. We focus on the representations from the fundamental group
