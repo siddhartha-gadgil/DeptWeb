@@ -7,6 +7,7 @@ start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
+slides: "2025-08-28-garain-slides.pdf"
 ---
 
 We study a class of quasi-linear elliptic equations that incorporate both local and nonlocal components. Our focus is on exploring various regularity properties of their
