@@ -35,7 +35,7 @@ The present members and chairs are as follows:
 
 * [Radhika Ganapathy](https://iisc.ac.in/women-scientists-in-iisc-dr-radhika-ganapathy/)
 * Bharathwaj Palvannan
-* Ashutosh Jangle
+* Karambir Das
 * Sudeshna Bhattacharjee
 
 ---
