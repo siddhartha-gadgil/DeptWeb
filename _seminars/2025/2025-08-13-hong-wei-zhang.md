@@ -12,3 +12,6 @@ website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 In this talk, we discuss the relation, on a locally symmetric space of higher rank and infinite volume, between the bottom of the $L^2$-spectrum of the
 Laplace--Beltrami operator and the convergence rate of the discrete subgroup. We also discuss their implications for the Strichartz inequality, a fundamental
 tool in the study of nonlinear dispersive equations.
+
+The [video of this talk](https://www.youtube.com/watch?v=9QGZmuxyMuw&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
