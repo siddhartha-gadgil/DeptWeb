@@ -6,17 +6,16 @@ time: 10 am
 venue:  LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
+header-includes: |
+    \usepackage{circuitikz}
 ---
 
 Let $X$ and $Y$ be $G$-spaces, where $G$ is a second-countable, locally compact group, and 
 $G \curvearrowright X$ and $Y$ by homeomorphisms. A very well-studied question from the dynamics 
 is to understand all intermediate factors of the form
-<p>
-<script src="https://i.upmath.me/latex.js"></script>
-\begin{tikzpicture}
+\begin{circuitikz}[american]
 X \times Y \arrow[rr, bend left=50, "\mathrm{Proj}_X"] \arrow[r] & Z \arrow[r] & X.
-\end{tikzpicture}
-</p>
+\end{circuitikz}
 In particular, to find conditions on $G$, $X$, and $Y$ such that every such intermediate factor splits as 
 a product of the form $X \times Y'$, where there is a continuous $G$-map $Y \to Y'$. 
 
