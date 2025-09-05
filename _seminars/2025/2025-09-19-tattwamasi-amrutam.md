@@ -22,9 +22,9 @@ a product of the form $X \times Y'$, where there is a continuous $G$-map $Y \to 
 Of course, we can also ask such a question in the measurable setup, where we replace topological compact spaces by measurable spaces.
 <p>
 <script src="https://i.upmath.me/latex.js"></script>
-\begin{tikzpicture}
+\begin{tikzcd}
 (X,\mu) \times (Y,\nu) \arrow[rr, bend left=50, "\mathrm{Proj}_X"] \arrow[r] & (Z,\eta) \arrow[r] & (X,\mu)
-\end{tikzpicture}
+\end{tikzcd}
 </p>
 When is $(Z,\eta) \cong (X,\mu) \times (Y',\nu')$, where there is a $G$-map $(Y,\nu)\to (Y',\nu')$?
 
