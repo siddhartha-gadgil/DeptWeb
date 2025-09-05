@@ -13,9 +13,9 @@ $G \curvearrowright X$ and $Y$ by homeomorphisms. A very well-studied question f
 is to understand all intermediate factors of the form
 <p>
 <script src="https://i.upmath.me/latex.js"></script>
-\begin{tikzcd}
+\begin{tikzpicture}
 X \times Y \arrow[rr, bend left=50, "\mathrm{Proj}_X"] \arrow[r] & Z \arrow[r] & X.
-\end{tikzcd}
+\end{tikzpicture}
 </p>
 In particular, to find conditions on $G$, $X$, and $Y$ such that every such intermediate factor splits as 
 a product of the form $X \times Y'$, where there is a continuous $G$-map $Y \to Y'$. 
