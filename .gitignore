@@ -17,4 +17,4 @@ out/
 .vscode/
 .scala-build/
 venv/
-__pycache__/*
+__pycache__/
