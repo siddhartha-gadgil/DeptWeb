@@ -11,3 +11,6 @@ website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 This talk is devoted to the study of weighted Poincaré inequalities on hyperbolic space, where the weight functions depend on a scaling parameter.
 This leads to a new family of scale-dependent Poincaré inequalities with Gaussian type measure on the hyperbolic space. As a result, we derive both
 scale-dependent and scale-invariant $L^2$-stability results for the Heisenberg uncertainty principle.
+
+The [video of this talk](https://www.youtube.com/watch?v=_0PrJCYMMqM&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
