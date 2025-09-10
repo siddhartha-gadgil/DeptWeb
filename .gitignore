@@ -16,3 +16,5 @@ out/
 .bloop/
 .vscode/
 .scala-build/
+venv/
+__pycache__/*
