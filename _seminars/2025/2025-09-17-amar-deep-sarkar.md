@@ -1,5 +1,5 @@
 ---
-speaker: Amardeep Sarkar (IIT Bhubaneswar)
+speaker: Amar Deep Sarkar (IIT Bhubaneswar)
 title: "Bi-Hölder extensions of quasi-isometries with respect to invariant metrics"
 date: 17 September, 2025
 time: 4 pm
