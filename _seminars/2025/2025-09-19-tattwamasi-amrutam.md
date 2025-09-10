@@ -67,7 +67,7 @@ Of course, we can also ask such a question in the measurable setup, where we rep
 
 When is $(Z,\eta) \cong (X,\mu) \times (Y',\nu')$, where there is a $G$-map $(Y,\nu)\to (Y',\nu')$?
 
-Such results, known as \emph{Intermediate Factor Theorems}, have been at the heart of rigidity results, 
+Such results, known as _Intermediate Factor Theorems_, have been at the heart of rigidity results, 
 starting from Margulis to Nevo--Stuck--Zimmer to Bader--Shalom.
 
 During this talk, we shall reformulate this problem in the $C^*$ and von Neumann algebraic language 
