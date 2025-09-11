@@ -2,7 +2,7 @@
 speaker: Amar Deep Sarkar (IIT Bhubaneswar)
 title: "Bi-Hölder extensions of quasi-isometries with respect to invariant metrics"
 date: 17 September, 2025
-time: 4 pm
+time: 3 pm
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
