@@ -21,9 +21,9 @@ $j^\mathrm{th}$-largest eigenvalue-modulus of $A$, and in fact provided
 an explicit description of the limit.
 
 In this talk, we will extend the Yamamoto--Nayak result to the context of
-{\it spectral operators} on a (infinite-dimensional) complex Hilbert
-space $\mathscr H$. Specifically, we will show that the  {\it normalized
-power sequence}, $\{ |A^n|^{\frac{1}{n}} \}_{n \in \mathbb N}$, of a
+_spectral operators_ on a (infinite-dimensional) complex Hilbert
+space $\mathscr H$. Specifically, we will show that the _normalized
+power sequence_, $\{ |A^n|^{\frac{1}{n}} \}_{n \in \mathbb N}$, of a
 spectral operator $A \in \mathscr B(\mathscr H)$ converges in norm, and
 provide an explicit description of the limiting positive operator. This
 framework not only generalizes Nayak's earlier result to
