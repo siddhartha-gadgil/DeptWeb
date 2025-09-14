@@ -28,4 +28,4 @@ spectral operator $A \in \mathscr B(\mathscr H)$ converges in norm, and
 provide an explicit description of the limiting positive operator. This
 framework not only generalizes Nayak's earlier result to
 infinite-dimensional settings, but also offers an alternative and
-streamlined proof of the finite-dimensional case.
+streamlined proof of the finite-dimensional case. (Joint with S. Nayak.)
