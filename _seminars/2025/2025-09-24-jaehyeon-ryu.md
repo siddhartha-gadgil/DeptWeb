@@ -12,3 +12,6 @@ In this talk, we consider the space $\mathbb R^d \times \mathbb R^m$ endowed wit
 initially introduced by Nevo and Thangavelu in the setting of the Heisenberg group, which involve noncommutative convolutions associated with measures supported on
 generalized spheres. Building upon and extending previous results for Métivier groups, we remove the non-degeneracy assumptions and establish sharp $L^p$ boundedness on all
 two-step nilpotent Lie groups in dimension $d \ge 3$. This talk is based on a joint work with Andreas Seeger.
+
+The [video of this talk](https://www.youtube.com/watch?v=5AyKYy8epns&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
