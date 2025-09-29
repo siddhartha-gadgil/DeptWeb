@@ -15,15 +15,6 @@
   image: true
   research-area: Algebraic Combinatorics
   office: N22
-
-- name: Pintu Bhunia
-  webpage: 
-  phd: Jadavpur University 
-  user-id: pintubhunia 
-  position: NBHM PDF
-  image: true
-  research-area: Norm and numerical radius inequalities of bounded linear operators   
-  office: N28
   
 - name: Vishnupriya Natraj  
   webpage:  
@@ -70,17 +61,6 @@
   research-area: Harmonic Analysis
   office: R29
 
-
-
-- name: Murugan SP 
-  webpage: 
-  phd: Chennai Mathematical Institute  
-  user-id: murugansp 
-  position: IOE 
-  image: true 
-  research-area: Operator Algebras, Operator Systems and Spectral Graph Theory.
-  office: R23
-
 - name: Md Hasan Ali Biswas 
   webpage: 
   phd: IIT Madras 
@@ -97,17 +77,8 @@
   position: NBHM PDF
   image: true 
   research-area: Several Complex Variables
-  office: R24
-  
-- name: Aritra Bhowmick
-  webpage:
-  phd: Indian Statistical Institute, Kolkata
-  user-id: aritrab
-  position: NBHM PDF
-  image: true
-  research-area: Algebraic Topology, Differential Geometry
-  office: R22
-  
+  office: R24  
+
 - name: Santosh Kumar Nayak
   webpage:
   phd: IIT Delhi
