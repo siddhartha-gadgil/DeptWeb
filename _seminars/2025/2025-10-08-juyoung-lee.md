@@ -1,5 +1,5 @@
 ---
-speaker:  Juyoung Lee (Korea Institute for Advanced Study, Seoul, South Korea)
+speaker: Juyoung Lee (Korea Institute for Advanced Study, Seoul, South Korea)
 title: "Variational inequalities for two-parameter averages over tori"
 date: 8 October, 2025
 time: 4 pm
