@@ -2,7 +2,7 @@
 speaker: Juyoung Lee (Korea Institute for Advanced Study, Seoul, South Korea)
 title: "Variational inequalities for two-parameter averages over tori"
 date: 8 October, 2025
-time: 4 pm
+time: 11 am
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
