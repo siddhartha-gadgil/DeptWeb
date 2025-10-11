@@ -13,3 +13,6 @@ insights into the pointwise convergence properties of averages. While maximal av
 powerful information regarding the behavior of averages. In this talk, we focus on a variational inequality for a two-parameter averaging operator. Indeed, a well-defined
 formulation of variational inequalities for two-parameter averages has not yet been established. We introduce a precise definition for two-parameter averages over tori and
 present a sharp boundedness result.
+
+The [video of this talk](https://www.youtube.com/watch?v=uLtElXZOZrM&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
