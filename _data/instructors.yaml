@@ -10,8 +10,16 @@
   image: true
   research-area: Topological Dynamics
   
-- name: Kamla Kant Mishra
-  phd: IIT Madras
-  user-id: kamlak	
+#- name: Kamla Kant Mishra
+ # phd: IIT Madras
+  #user-id: kamlak	
+  #image: true
+  #research-area: Fractional Differential Equations
+  
+- name: Sathish Kumar	
+  phd: IMSc Chennai
+  webpage: sites.google.com/view/vsathish/
+  user-id: vsathishk
   image: true
-  research-area: Fractional Differential Equations
+  research-area: Representation theory and Algebraic Combinatorics
+  
