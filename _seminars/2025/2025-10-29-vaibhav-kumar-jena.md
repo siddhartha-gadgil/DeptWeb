@@ -3,7 +3,7 @@ speaker: Vaibhav Kumar Jena (IISc Mathematics)
 title: "Control of wave equations via geometric Carleman estimates"
 date: 29 October, 2025
 time: 4 pm
-venue: Microsoft Teams (online)
+venue: Hybrid - Microsoft Teams (online) and LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 ---
