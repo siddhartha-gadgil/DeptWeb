@@ -22,9 +22,9 @@ theorem of linear programming. which subsumes all such problems. We finally disc
 
 *Theorem.* Let $K$ be a bounded non-empty polyhedron given by:
 \begin{equation}
-K= \{ \pi ∈ \mathbb{R}^n : \pi \geq 0, C \pi = b\},
+K = \\{ \pi ∈ \mathbb{R}^n : \pi \geq 0, C \pi = b \\},
 \end{equation}
-where $C = (c_{ij} ) is an $m \times n$ matrix with real entries and $b ∈ \mathbb{R}^m$ is a non-zero vector. Let $y \in K$. Then for any $x \geq 0$ with the same
+where $C = (c_{ij})$ is an $m \times n$ matrix with real entries and $b \in \mathbb{R}^m$ is a non-zero vector. Let $y \in K$. Then for any $x \geq 0$ with the same
 zero-nonzero pattern as $y$, there exist $z_{i} > 0$, $i = 1, \dots ,m$ and there exists a $\pi \in K$ such that
 \begin{equation}
 \pi_{j} = x_{j} \prod_{i=1}^m z^{c_{ij}}, \quad j=1,\dots, n.
