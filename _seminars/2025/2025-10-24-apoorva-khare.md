@@ -2,7 +2,7 @@
 speaker: Apoorva Khare (IISc Mathematics)
 title: "The history of majorization inequalities: from Newton to Macdonald polynomials"
 date: 24 Oct, 2025
-time: 3 pm
+time: 4 pm
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
