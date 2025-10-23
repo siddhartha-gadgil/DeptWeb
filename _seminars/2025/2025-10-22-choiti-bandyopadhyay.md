@@ -15,3 +15,6 @@ ergodic and Banach algebraic characterizations of the same in terms of convergen
 measures and translation of certain functionals, as well as F-algebraic (certain kind of Banach algebras) properties of the associated measure algebras. We conclude
 by briefly discussing topological amenability of sub-semihypergroups, that in turn provides an affirmative answer to a long-standing open question on semigroups asked
 by J. Wong in 1980.
+
+The [video of this talk](https://www.youtube.com/watch?v=fZ88iEav67w&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
