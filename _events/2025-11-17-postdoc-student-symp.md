@@ -6,5 +6,5 @@ published: true
 ---
 
 A two-day symposium featuring talks by postdocs and students will take place in the department on November 17 & 18, 2025.  
-Details will be live soon! Keep an $i$ on this space.
-<!--The schedule of the talks can be found [here](http://math.iisc.ac.in/Postdoc_Student_Symposium-2025.html). Intended audience: Department's PostDocs and Students (UG, Int. Ph.D. and Ph.D.).-->
+The schedule of the talks can be found [here](http://math.iisc.ac.in/Postdoc_Student_Symposium-2025.html). 
+Intended audience: Department's PostDocs and Students (UG, Int. Ph.D. and Ph.D.).
