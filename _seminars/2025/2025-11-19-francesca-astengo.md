@@ -1,6 +1,6 @@
 ---
 speaker: Francesca Astengo (University of Genova, Genoa, Italy)
-title: "Some results on irreducible representations of SL(2,\R)"
+title: "Some results on irreducible representations of SL(2,R)"
 date: 19 November, 2025
 time: 4 pm
 venue: Microsoft Teams (online)
