@@ -14,7 +14,7 @@ w_{tt}(x,t) + \gamma(x) w_t(x,t) + (-\Delta + 1)^{s/2} w(x,t) = 0,
 \end{equation}
 we consider an analogue of the classical Paneah-Logvinenko-Sereda theorem for the Fourier Bessel transform. In particular, if $E \subset \mathbb{R}^+$ is
 $\mu_\alpha$-relatively dense (where $d\mu_\alpha(x) \approx x^{2\alpha+1}\, dx$) for $\alpha > -1/2$, and
-$\operatorname{supp} \mathcal{F}\_\alpha(f) \subset [R,R+1]$,
+${\rm supp} \mathcal{F}\_\alpha(f) \subset [R,R+1]$,
 then we show
 \begin{equation}
 \|f\|\_{L^2_\alpha(\mathbb{R}^+)} \lesssim \|f\|\_{L^2_\alpha(E)},
