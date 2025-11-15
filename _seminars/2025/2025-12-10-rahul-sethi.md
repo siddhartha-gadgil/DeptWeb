@@ -13,10 +13,11 @@ Motivated by problems in control theory concerning decay rates for the damped wa
 w_{tt}(x,t) + \gamma(x) w_t(x,t) + (-\Delta + 1)^{s/2} w(x,t) = 0,
 \end{equation}
 we consider an analogue of the classical Paneah-Logvinenko-Sereda theorem for the Fourier Bessel transform. In particular, if $E \subset \mathbb{R}^+$ is
-$\mu_\alpha$-relatively dense (where $d\mu_\alpha(x) \approx x^{2\alpha+1}\, dx$) for $\alpha > -1/2$, and $\operatorname{supp} \mathcal{F}_\alpha(f) \subset [R,R+1]$,
+$\mu_\alpha$-relatively dense (where $d\mu_\alpha(x) \approx x^{2\alpha+1}\, dx$) for $\alpha > -1/2$, and
+$\operatorname{supp} \mathcal{F}\_\alpha(f) \subset [R,R+1]$,
 then we show
 \begin{equation}
-\|f\|_{L^2_\alpha(\mathbb{R}^+)} \lesssim \|f\|_{L^2_\alpha(E)},
+\|f\|\_{L^2_\alpha(\mathbb{R}^+)} \lesssim \|f\|\_{L^2_\alpha(E)},
 \end{equation}
 for all $f\in L^2_\alpha(\mathbb{R}^+)$, where the constants in $\lesssim$ do not depend on $R > 0$. Previous results on PLS theorems for the Fourier-Bessel transform by
 Ghobber and Jaming (2012) provide bounds that depend on $R$. In contrast, our techniques yield bounds that are independent of $R$, offering a new perspective on such
