@@ -17,7 +17,7 @@ $\mu_\alpha$-relatively dense (where $d\mu_\alpha(x) \approx x^{2\alpha+1}\, dx$
 ${\rm supp} \mathcal{F}\_\alpha(f) \subset [R,R+1]$,
 then we show
 \begin{equation}
-\|f\|\_{L^2_\alpha(\mathbb{R}^+)} \lesssim \|f\|\_{L^2_\alpha(E)},
+\|f\|\_{L^2\_\alpha(\mathbb{R}^+)} \lesssim \|f\|\_{L^2_\alpha(E)},
 \end{equation}
 for all $f\in L^2_\alpha(\mathbb{R}^+)$, where the constants in $\lesssim$ do not depend on $R > 0$. Previous results on PLS theorems for the Fourier-Bessel transform by
 Ghobber and Jaming (2012) provide bounds that depend on $R$. In contrast, our techniques yield bounds that are independent of $R$, offering a new perspective on such
