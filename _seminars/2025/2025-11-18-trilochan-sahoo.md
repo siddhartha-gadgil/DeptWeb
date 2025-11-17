@@ -3,7 +3,7 @@ speaker: Trilochan Sahoo (IIT Kharagpur)
 title: "Fourier methods in Hydroelasticity: from Arctic ice dynamics to very large floating structures"
 date: 18 November, 2025
 time: 11 am
-venue: LH-1, Mathematics Department
+venue: LH-5, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 ---
