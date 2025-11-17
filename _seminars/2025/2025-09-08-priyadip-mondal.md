@@ -3,6 +3,7 @@ speaker: Priyadip Mondal (Ben Gurion University, Israel)
 title: "Hyperbolic knot complements with hidden symmetries"
 date: 08 Sep, 2025
 time: 11 am
+start_time: 11:00
 venue:  LH-5, Mathematics Department 
 series: "Geometry & Topology Seminar"
 ---

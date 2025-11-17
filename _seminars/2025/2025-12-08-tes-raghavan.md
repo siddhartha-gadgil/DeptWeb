@@ -3,6 +3,7 @@ speaker: T.E.S. Raghavan (University of Illinois at Chicago, USA)
 title: "On the applications of scaling the entries of a matrix"
 date: 8 December, 2025
 time: 3 pm
+start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

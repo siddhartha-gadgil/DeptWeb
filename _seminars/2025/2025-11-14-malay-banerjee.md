@@ -3,6 +3,7 @@ speaker: Malay Banerjee (IIT Kanpur)
 title: "Routes to chaos and structural sensitivity in nonlinear dynamical systems"
 date: 14 November, 2025
 time: 10 am
+start_time: 10:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

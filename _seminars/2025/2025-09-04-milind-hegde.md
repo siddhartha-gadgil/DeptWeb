@@ -3,6 +3,7 @@ speaker: Milind Hegde (Columbia University, USA and NTU Singapore)
 title: "A new member of the Kardar–Parisi–Zhang universality class"
 date: 4 September, 2025
 time: 11:30 am
+start_time: 11:30
 venue: LH-3, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

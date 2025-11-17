@@ -3,6 +3,7 @@ speaker: Tattwamasi Amrutam (IMPAN, Warsaw, Poland)
 title: "Intermediate factor theorems: from dynamics to operator algebras"
 date: 19 Sep, 2025
 time: 10 am
+start_time: 10:00
 venue:  LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

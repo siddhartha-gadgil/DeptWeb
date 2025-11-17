@@ -2,6 +2,7 @@
 speaker: Subhajit Das (IISc Mathematics)
 date: 6 November 2025
 time: 3 pm
+start_time: 15:00
 venue: LH-1, Department of Mathematics
 title: "Schemes relative to Actegories, Heavy separability of the second kind and Eilenberg-Moore objects in the 2-category vDbl"
 series: Thesis

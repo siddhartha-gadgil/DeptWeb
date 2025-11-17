@@ -3,6 +3,7 @@ speaker: Senthil Raani (IISER Berhampur)
 title: "Large distances in sets of positive density"
 date: 15 October, 2025
 time: 4 pm
+start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

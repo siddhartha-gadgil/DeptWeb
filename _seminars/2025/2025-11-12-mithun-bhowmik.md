@@ -3,6 +3,7 @@ speaker: Mithun Bhowmik (IIT Kharagpur)
 title: "Uniqueness results for quasi-analytic functions on compact Lie groups and homogeneous spaces"
 date: 12 November, 2025
 time: 4 pm
+start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

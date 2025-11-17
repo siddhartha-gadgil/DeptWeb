@@ -2,6 +2,7 @@
 speaker: Agniva Chatterjee (IISc Mathematics)
 date: 25 November 2025
 time: 2 pm
+start_time: 14:00
 venue: LH-1, Department of Mathematics
 title: "Some dual realizations of Bergman and Hardy spaces on convex domains via integral transforms"
 series: Thesis
