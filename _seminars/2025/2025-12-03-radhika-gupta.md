@@ -3,6 +3,7 @@ speaker: Radhika Gupta (TIFR Mumbai)
 title: "An invariant for free-by-cyclic groups"
 date: 03 Dec, 2025
 time: 4 pm
+start_time: 16:00
 venue:  LH-1, Mathematics Department 
 series: "Geometry & Topology Seminar"
 ---
