@@ -154,8 +154,9 @@
     </ul>
 
     </ul>
-    <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="get">
+      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
+      <input type="hidden" name="sitesearch" value="{{ site.url }}{{ site.baseurl }}">
       <button class="btn btn-info my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
     </form>
   
