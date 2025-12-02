@@ -3,6 +3,7 @@ speaker: Pallav Goyal (University of California at Riverside, USA)
 title: "Shifted quantum affine algebras and Hall algebras"
 date: 8 Dec, 2025
 time: 11:30 am
+start_time: 11:30
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
