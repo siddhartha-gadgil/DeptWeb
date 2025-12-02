@@ -128,22 +128,23 @@ jan2026:
       instructor: E. K. Narayanan
       timing:
       venue:
-    - code: MA 379
-      name: Linear Algebraic Groups
-      instructor: Radhika Ganapathy
-      timing:
-      venue:
     - code: MA 347A
       name: "Topics in Finite Element Method"
       instructor: Thirupathi Gudi
       credits: "3:1"
       timing:
       venue:
-    - code: MA 3xx
-      name: "Elective"
+    - code: MA 362
+      name: "Stochastic Processes"
       instructor: Manjunath Krishnapur
+    - code: MA 379
+      name: Linear Algebraic Groups
+      instructor: Radhika Ganapathy
       timing:
       venue:
+    - code: MA 394
+      name: Techniques in discrete probability
+      instructor: Riddhipratim Basu
     - code: MA 3xx
       name: "Elective"
       instructor: Swarnendu Sil
