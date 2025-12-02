@@ -18,3 +18,4 @@ out/
 .scala-build/
 venv/
 __pycache__/
+Gemfile.lock
