@@ -1,12 +1,3 @@
-- name: Hiranya Kishore Dey
-  webpage: https://sites.google.com/view/hiranyadey
-  phd: IIT Bombay
-  user-id: hiranyadey
-  position: NBHM PDF
-  image: true
-  research-area: Algebraic Combinatorics
-  office: N22
-  
 - name: Vishnupriya Natraj  
   webpage:  
   phd:  
@@ -42,15 +33,6 @@
   image: true
   research-area: Operator Theory
   office: N24
-
-- name: Somnath Ghosh
-  webpage:
-  phd: IIT Guwahati
-  user-id: somnathghosh
-  position: NBHM PDF
-  image: true
-  research-area: Harmonic Analysis
-  office: R29
 
 - name: Md Hasan Ali Biswas 
   webpage: 
@@ -105,13 +87,6 @@
   image: true
   research-area: Lie (super)algebras and its representation theory
   office: L28
-
-- name: Kuldeep Sarma
-  webpage:
-  phd: Tezpur University
-  user-id: kuldeepsarma
-  position: NBHM PDF
-  image: true
   
 - name: Shubham R. Bais
   webpage: https://scholar.google.com/citations?hl=en&user=5SSABUMAAAAJ&view_op=list_works&sortby=pubdate

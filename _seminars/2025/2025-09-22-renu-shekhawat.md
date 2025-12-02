@@ -3,6 +3,7 @@ speaker: Renu Shekhawat (ISI Bangalore)
 title: "A spatial form of Yamamoto's theorem for spectral operators"
 date: 22 September, 2025
 time: 3 pm
+start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

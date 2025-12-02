@@ -3,6 +3,7 @@ speaker: Vasanth Pidaparthy (University of Maryland)
 title: "The degenerate special Lagrangian equation"
 date: 29 Sep, 2025
 time: 11 am
+start_time: 11:00
 venue:  LH-1, Mathematics Department 
 series: "Geometry & Topology Seminar"
 ---

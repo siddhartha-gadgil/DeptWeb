@@ -3,6 +3,7 @@ speaker: Jaclyn Lang (Temple University, USA)
 title: "Congruences between modular forms via modular representation theory"
 date: 10 November, 2025
 time: 11 am
+start_time: 11:00
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html

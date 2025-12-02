@@ -2,6 +2,7 @@
 speaker: Chavda Sahil Ramjibhai
 date: 29 August 2025
 time: 11 am
+start_time: 11:00
 venue: Microsoft Teams (online)
 title: "λ-Decomposition of Hochschild Homology and Cyclic Homology"
 series: Thesis

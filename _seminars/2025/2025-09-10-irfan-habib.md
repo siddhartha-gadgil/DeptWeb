@@ -3,6 +3,7 @@ speaker: Md. Irfan Habib (IMSc, Chennai)
 title: "KR crystals of polytopes and isomorphism with KR crystals of tableau in certain cases"
 date: 10 Sep, 2025
 time: 11 am
+start_time: 11:00
 venue: LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html

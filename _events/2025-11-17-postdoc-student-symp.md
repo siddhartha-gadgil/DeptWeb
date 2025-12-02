@@ -1,7 +1,7 @@
 ---
 title: In-house Postdoc-Student Symposium
 date: 2025-11-17
-expiry-date: 2025-11-30
+expiry-date: 2025-11-19
 published: true
 ---
 

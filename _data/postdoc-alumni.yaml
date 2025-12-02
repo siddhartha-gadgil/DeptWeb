@@ -824,6 +824,8 @@
   present: "IIT, Madras"  
 
 - name: Dharmendra Kumar
+  start: "2022"
+  end: "2024"
   webpage: https://math.iisc.ac.in/~dharmendrak
   phd: IIT Gandhinagar
   user-id: dharmendrak
@@ -833,6 +835,8 @@
   office: R28
   
 - name: Manoj Kumar
+  start: "2021"
+  end: "2025"
   phd: IIT Delhi 
   user-id: manojkumar1
   position: NBHM 
@@ -853,6 +857,8 @@
   present: "Postdoctoral fellow at the Department of Mathematics, KTH Royal Institute of Technology, Stockholm"
 
 - name: Pinakinath Saha
+  start: "2023"
+  end: "2024"
   webpage: https://sites.google.com/view/pinakinath
   phd: Chennai Mathematical Institute (CMI)
   user-id: pinakinaths
@@ -863,6 +869,8 @@
   present: Assistant Professor at the Indian Institute of Technology, Delhi
 
 - name: Sumit Arora
+  start: "2023"
+  end: "2024"
   webpage:
   phd: IIT Roorkee
   user-id: sumitarora
@@ -879,8 +887,12 @@
   image: true
   research-area: Operator Theory, Operator Algebras, Quantum Probability
   office: N13
+  start: "2020"
+  end: "2025"
   
 - name: Banhirup Sengupta
+  start: "2023"
+  end: "2025"
   webpage:
   phd: Autonomous University of Barcelona, Spain
   user-id: banhirups
@@ -891,6 +903,8 @@
   
 - name: Souvik Pal 
   webpage: 
+  start: "2024"
+  end: "2025"
   phd: Harish-Chandra Research institute 
   user-id: souvikpal 
   position: NBHM PDF 
@@ -900,6 +914,8 @@
   
 - name: Abhishek Khetan
   webpage:
+    start: "2024"
+  end: "2025"
   phd: TIFR Mumbai
   user-id: abhishek2
   position: IoE-Postdoctoral Fellow
@@ -909,6 +925,8 @@
   
 - name: Debaprasanna Kar
   webpage:
+    start: "2023"
+  end: "2025"
   phd: IISER Pune
   user-id: debaprasanna
   position: NBHM PDF
@@ -917,6 +935,8 @@
   office: N22
   
 - name: Naveen Gupta 
+  start: "2023"
+  end: "2025"
   webpage: 
   phd: University of Delhi 
   user-id: naveengupta 
@@ -926,6 +946,8 @@
   office: R23
   
 - name: Sankar K
+  start: "2020"
+  end: "2025"
   phd: IIT Kanpur
   user-id: sankark
   position: Dr. D.S. Kothari
@@ -946,6 +968,8 @@
   present: Fulbright-Nehru Post Doctoral Fellow at University of New Mexico
   
 - name: Aritra Bhowmick
+  start: "2024"
+  end: "2025"
   webpage:
   phd: Indian Statistical Institute, Kolkata
   user-id: aritrab
@@ -956,6 +980,8 @@
   
 - name: Murugan SP 
   webpage: 
+    start: "2023"
+  end: "2025"
   phd: Chennai Mathematical Institute  
   user-id: murugansp 
   position: IOE 
@@ -964,6 +990,8 @@
   office: R23
   
 - name: Rishabh Agnihotri
+  start: "2023"
+  end: "2025"
   webpage: https://sites.google.com/view/rishabhagnihotri
   phd: HRI, Prayagraj
   user-id: rishabha
@@ -973,6 +1001,8 @@
   office: N13
   
 - name: Pintu Bhunia
+  start: "2022"
+  end: "2025"
   webpage: 
   phd: Jadavpur University 
   user-id: pintubhunia 
@@ -988,3 +1018,34 @@
   start: "2025"  
   end: "2025"  
   present: "VIT, AP"  
+  
+- name: Hiranya Kishore Dey
+  start: "2022"
+  end: "2025"
+  webpage: https://sites.google.com/view/hiranyadey
+  phd: IIT Bombay
+  user-id: hiranyadey
+  position: NBHM PDF
+  image: true
+  research-area: Algebraic Combinatorics
+  office: N22
+  
+- name: Somnath Ghosh
+  start: "2023"
+  end: "2025"
+  webpage:
+  phd: IIT Guwahati
+  user-id: somnathghosh
+  position: NBHM PDF
+  image: true
+  research-area: Harmonic Analysis
+  office: R29
+  
+- name: Kuldeep Sarma
+  start: "2024"
+  end: "2025"
+  webpage:
+  phd: Tezpur University
+  user-id: kuldeepsarma
+  position: NBHM PDF
+  image: true

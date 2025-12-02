@@ -3,6 +3,7 @@ speaker: Jaehyeon Ryu (Korea Institute for Advanced Study, Seoul, South Korea)
 title: "Spherical maximal functions on two step nilpotent Lie groups"
 date: 24 September, 2025
 time: 4 pm
+start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

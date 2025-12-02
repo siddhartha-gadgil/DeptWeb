@@ -3,6 +3,7 @@ speaker: Arghya Sadhukhan (National University of Singapore)
 title: "Geometry of affine Deligne-Lusztig varieties corresponding to the maximal Newton stratum"
 date: 25 August, 2025
 time: 11 am
+start_time: 11:00
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
