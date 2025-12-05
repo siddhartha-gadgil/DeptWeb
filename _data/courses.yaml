@@ -118,11 +118,6 @@ jan2026:
       instructor: Kalachand Shuin / E. K. Narayanan
       timing:
       venue:
-    - code: MA 336A
-      name: Introduction to Stochastic Finance
-      instructor: Srikanth K. Iyer
-      timing:
-      venue:
     - code: MA 340
       name: Advanced Functional Analysis
       instructor: E. K. Narayanan
@@ -137,6 +132,16 @@ jan2026:
     - code: MA 362
       name: "Stochastic Processes"
       instructor: Manjunath Krishnapur
+    - code: MA 366A
+      name: Introduction to Stochastic Finance
+      instructor: Srikanth K. Iyer
+      timing:
+      venue:
+    - code: MA 374A
+      name: "Regularity in the Calculus of Variations"
+      instructor: Swarnendu Sil
+      timing:
+      venue:
     - code: MA 379
       name: Linear Algebraic Groups
       instructor: Radhika Ganapathy
@@ -145,11 +150,6 @@ jan2026:
     - code: MA 394
       name: Techniques in discrete probability
       instructor: Riddhipratim Basu
-    - code: MA 3xx
-      name: "Elective"
-      instructor: Swarnendu Sil
-      timing:
-      venue:
 
 
 aug2025:
