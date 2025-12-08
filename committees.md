@@ -52,6 +52,8 @@ The present members and chairs are as follows:
 ### Int PhD Coordinator
 * [Subhojoy Gupta](https://sites.google.com/view/subhojoy/home)
 
+---
+
 ### Computer committee
 
 * [Shaunak Deo](https://sites.google.com/view/shaunakdeo/)(Convener)
