@@ -22,11 +22,11 @@ By tradition, these committees have the same members but different members are c
 The present members and chairs are as follows:
 
 * [Mahesh Kakde](https://math.iisc.ac.in/~maheshkakde/)(Chair, DCC)
-* [Harish Seshadri](https://math.iisc.ac.in/~harish/)(Chair, DC)
 * [Vamsi Pritham Pingali](https://math.iisc.ac.in/~vamsipingali/)(Chair, UG-DCC)
 * R. Venkatesh
 * Subhojoy Gupta
 * Purvi Gupta
+* Swarnendu Sil
 * A. K. Nandakumaran (ex-officio)
 
 ---
@@ -48,6 +48,9 @@ The present members and chairs are as follows:
 * Ved Datar
 
 ---
+
+### Int PhD Coordinator
+* [Subhojoy Gupta](https://sites.google.com/view/subhojoy/home)
 
 ### Computer committee
 
