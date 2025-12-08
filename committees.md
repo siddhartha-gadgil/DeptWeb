@@ -17,7 +17,7 @@ title: Chair and Committees
 
 ### Course and Degree Programme committees (DCC/DC/UG-DCC)
 
-By tradition, these committees have the same members but different members are chairs. The __DCC__ is in charge of courses and of research students, <!--the __DC__ is in charge of the integrated PhD programme,--> and the __UG-DCC__ of the mathematics component and major of the undergraduate programme.
+By tradition, these committees have the same members but different members are chairs. The __DCC__ is in charge of courses and of research students, <!--the __DC__ is in charge of the integrated PhD programme,--> and the __UG-DCC__ is in charge of the mathematics component and major of the undergraduate programme.
 
 The present members and chairs are as follows:
 
