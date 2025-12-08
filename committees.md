@@ -17,14 +17,14 @@ title: Chair and Committees
 
 ### Course and Degree Programme committees (DCC/DC/UG-DCC)
 
-By tradition, these committees have the same members but different members are chairs. The __DCC__ is in charge of courses and of research students, the __DC__ is in charge of the integrated PhD programme, and the __UG-DCC__ of the mathematics component and major of the undergraduate programme.
+By tradition, these committees have the same members but different members are chairs. The __DCC__ is in charge of courses and of research students, <!--the __DC__ is in charge of the integrated PhD programme,--> and the __UG-DCC__ of the mathematics component and major of the undergraduate programme.
 
 The present members and chairs are as follows:
 
 * [Mahesh Kakde](https://math.iisc.ac.in/~maheshkakde/)(Chair, DCC)
 * [Vamsi Pritham Pingali](https://math.iisc.ac.in/~vamsipingali/)(Chair, UG-DCC)
 * R. Venkatesh
-* Subhojoy Gupta
+* Subhojoy Gupta (Int PhD coordinator)
 * Purvi Gupta
 * Swarnendu Sil
 * A. K. Nandakumaran (ex-officio)
@@ -46,11 +46,6 @@ The present members and chairs are as follows:
 * Soumya Das
 * Swarnendu Sil
 * Ved Datar
-
----
-
-### Int PhD Coordinator
-* [Subhojoy Gupta](https://sites.google.com/view/subhojoy/home)
 
 ---
 
