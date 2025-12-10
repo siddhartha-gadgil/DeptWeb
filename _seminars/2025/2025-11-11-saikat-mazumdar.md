@@ -1,5 +1,5 @@
 ---
-speaker:  Saikat Mazumdar (IIT Bombay)
+speaker: Saikat Mazumdar (IIT Bombay)
 title: "Conformal powers of the Laplacian, Q-curvature, and the compactness problem"
 date: 11 November, 2025
 time: 4 pm
