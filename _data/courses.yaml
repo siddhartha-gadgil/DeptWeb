@@ -132,6 +132,9 @@ jan2026:
       credits: "3:1"
       timing:
       venue:
+    - name: Topics in Analytic Number Theory
+      code: MA 350
+      instructor: Soumya Das
     - code: MA 362
       name: "Stochastic Processes"
       instructor: Manjunath Krishnapur
