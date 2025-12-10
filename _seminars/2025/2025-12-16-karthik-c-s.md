@@ -6,7 +6,7 @@ start_time: 15:00
 venue: LH-1, Department of Mathematics
 title: A Quick Primer on Hardness of Approximation
 series: Colloquium
-series-prefix: Colloquium
+series-prefix: 
 series-suffix: 
 ---
 
