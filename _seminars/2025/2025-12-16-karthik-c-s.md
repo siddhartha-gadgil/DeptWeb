@@ -1,5 +1,5 @@
 ---
-speaker: Karthik C. S.
+speaker: Karthik C. S. (Rutgers university, USA)
 date: 16 December 2025
 time: 3 pm
 start_time: 15:00
