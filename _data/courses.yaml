@@ -81,6 +81,7 @@ jan2026:
     - code: MA 207
       name: Proofs Lab with Lean
       instructor: V. Satish Kumar / Siddhartha Gadgil
+      credits: "0:1"
     - code: MA 218
       name: Number Theory
       instructor: Shaunak Deo
