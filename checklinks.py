@@ -28,7 +28,7 @@ def get_document(path_or_url: str, base_dir: Path):
 
     try:
         if path_or_url.startswith("http"):
-            response = requests.get(path_or_url)
+            response = requests.get(path_or_url, verify=False)
             response.raise_for_status()
             doc = BeautifulSoup(response.text, 'html.parser')
         else:
