@@ -7,7 +7,7 @@ date : 2025-12-19
 
 We will have a one-day informal workshop on Lean on **Friday, 19 December** at the **the Indian Institute of Science, Bangalore**, with a focus on programming, aimed at software professionals among others. The workshop will consist of example based introductions to various aspects of Lean and exercises to work on with help. The two principal speakers are [Siddhartha Gadgil](https://math.iisc.ac.in/~gadgil/) and Anand Rao Tadipatri.
 
-The workshop is free and is funded under a grant from [Renaissance Philanthropy](https://www.renaissancephilanthropy.org/). 
+The workshop is free and is funded under a grant from [Renaissance Philanthropy](https://www.renaissancephilanthropy.org/).
 
 ## Details
 
@@ -24,7 +24,7 @@ The workshop is free and is funded under a grant from [Renaissance Philanthropy]
 * 11:45 am - 2:00 pm : labs and lunch
 * 2:00 - 2:45 pm : Siddhartha Gadgil, *Monads and Metaprogramming in Lean*
 * 2:45 - 3:30 pm : Anand Rao Tadipatri, *Formal Ways for your Mathematical Plays - II*
-* 4:00 pm - 5:00 pm : Discussion and labs (beginning with a short introduction to the `LeanAide` project).'
+* 4:00 pm - 5:00 pm : Discussion and labs (beginning with a short introduction to the `LeanAide` project).
 
 ## Installing Lean and Workshop repository
 

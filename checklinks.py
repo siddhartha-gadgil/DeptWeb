@@ -171,6 +171,7 @@ def main():
     logging.info(f"Found {len(local_pages)} local pages to check.")
 
     broken_links_found = False
+    all_broken_links = []
     for i, page_path in enumerate(local_pages):
         logging.info(f"Checking page ({i+1}/{len(local_pages)}): {page_path}")
         if i % 50 == 0:
@@ -189,12 +190,13 @@ def main():
 
         if page_broken_links:
             broken_links_found = True
+            all_broken_links.extend(page_broken_links)
             print(f"\n* Broken links in: {page_path}", file=sys.stderr)
             for broken_link in page_broken_links:
                 print(f"  * {broken_link}", file=sys.stderr)
 
     if broken_links_found:
-        logging.error("Broken links found.")
+        logging.error(f"Broken links found: {set(all_broken_links)}")
         sys.exit(1)
     else:
         logging.info("No broken links found. Success!")
