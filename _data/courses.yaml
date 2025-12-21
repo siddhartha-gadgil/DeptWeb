@@ -42,8 +42,8 @@ jan2026:
       instructor: Gautam Bharali
       prereq-courses: MA 221
       ug-prereq-courses: "UM 204"
-      timing: "Mon, Wed, Fri 3:00-4:00"
-      venue:
+      timing: "Mon, Wed, Fri: 3:00 - 4:00"
+      venue: LH-4
       webpage:
     - code: MA 241
       name: Ordinary Differential Equations
@@ -51,8 +51,8 @@ jan2026:
       instructor: Vamsi Pritham Pingali
       prereq-courses: MA 221
       ug-prereq-courses: "UM 204"
-      timing: "Mon, Wed, Fri 11:00-12:00"
-      venue:
+      timing: "Mon, Wed, Fri: 11:00 - 12:00"
+      venue: LH-4
 
   core-intphd:
     - code: MA 213
@@ -61,83 +61,83 @@ jan2026:
       instructor: R. Venkatesh
       prereq-courses: MA 212
       ug-prereq-courses: ""
-      timing: "Tue, Thu 2:00-3:30"
-      venue:
+      timing: "Tue, Thu: 2:00 - 3:30"
+      venue: LH-4
     - code: MA 222
       name: "Measure & Integration"
       credits: "3:1"
       instructor: Harish Seshadri
       prereq-courses: MA 221
       ug-prereq-courses: "UM 204"
-      timing: "Mon, Wed, Fri 2:00-3:00"
-      venue:
+      timing: "Mon, Wed, Fri: 2:00 - 3:00"
+      venue: LH-4
     - code: MA 235
       name: Introduction to Differentiable Manifolds
       instructor: Subhojoy Gupta
       prereq-courses: MA 221
       ug-prereq-courses: ""
       webpage:
-      timing: "Tue, Thu 3:30-5:00"
-      venue:
+      timing: "Tue, Thu: 3:30 - 5:00"
+      venue: LH-4
 
   electives:
     - code: MA 207
       name: Proofs Lab with Lean
-      instructor: V. Sathish Kumar / Siddhartha Gadgil
+      instructor: V. Satish Kumar / Siddhartha Gadgil
       credits: "0:1"
-      timing: "Monday 2:00-5:00"
-      venue:
+      timing: "Mon: 2:00 - 5:00"
+      venue: "MLH Computation lab"
     - code: MA 218
       name: Number Theory
       instructor: Shaunak Deo
-      timing: "Tue, Thu 10:00-11:30"
-      venue:
+      timing: "Tue, Thu: 10:00 - 11:30"
+      venue: LH-1/LH-3
     - code: MA 220
       name: Representation Theory of Finite Groups
       instructor: R. Venkatesh
-      timing: "Tue, Thu 10:00-11:30"
-      venue:
+      timing: "Tue, Thu: 10:00 - 11:30"
+      venue: LH-2
     - code: MA 222A
       name: "Topics in Measure Theory"
       instructor: Arka Mallick
-      timing: "Tue, Thu 11:30-1:00"
-      venue:
+      timing: "Tue, Thu: 11:30 - 1:00"
+      venue: LH-2
     - code: MA 237
       name: "Introduction to Tilings"
       instructor: Subhojoy Gupta
-      timing: "Mon, Wed, Fri 11:00-12:00"
-      venue:
+      timing: "Mon, Wed, Fri: 11:00 - 12:00"
+      venue: LH-5
     - code: MA 262
       name: Introduction to Stochastic Processes
       instructor: Arvind Ayyer
-      timing: "Tue, Thu 3:30-5:00"
-      venue:
+      timing: "Tue, Thu: 3:30 - 5:00"
+      venue: LH-5
     - code: MA 305
       name: Lie Groups and Lie Algebras
       instructor: Muna Naik
-      timing: "Tue, Thu 11:30-1:00"
-      venue:
+      timing: "Tue, Thu: 11:30 - 1:00"
+      venue: LH-4
     - code: MA 321
       name: Analysis III
       instructor: A. K. Nandakumaran
-      timing: "Tue, Thu 10:00-11:30"
-      venue:
+      timing: "Tue, Thu: 10:00 - 11:30"
+      venue: LH-5
     - code: MA 326
       name: Fourier Analysis
       instructor: Kalachand Shuin / E. K. Narayanan
-      timing: "Tue, Thu 10:00-11:30"
-      venue:
+      timing: "Tue, Thu: 10:00 - 11:30"
+      venue: LH-4
     - code: MA 340
       name: Advanced Functional Analysis
       instructor: E. K. Narayanan
-      timing: "Mon, Wed, Fri 11:00-12:00"
-      venue:
+      timing: "Mon, Wed, Fri: 11:00 - 12:00"
+      venue: LH-2
     - code: MA 347A
       name: "Topics in Finite Element Method"
       instructor: Thirupathi Gudi
       credits: "3:1"
-      timing: "Tue, Thu 11:30-1:00"
-      venue:
+      timing: "Tue, Thu: 11:30 - 1:00"
+      venue: LH-1/LH-3
     - name: Topics in Analytic Number Theory
       code: MA 350
       instructor: Soumya Das
@@ -146,28 +146,28 @@ jan2026:
     - code: MA 362
       name: "Stochastic Processes"
       instructor: Manjunath Krishnapur
-      timing: "Tue, Thu 2:00-3:30"
-      venue:
+      timing: "Tue, Thu: 2:00 - 3:30"
+      venue: LH-5
     - code: MA 366A
       name: Introduction to Stochastic Finance
       instructor: Srikanth K. Iyer
-      timing: "Tue, Thu 11:30-1:00"
-      venue:
+      timing: "Tue, Thu: 11:30 - 1:00"
+      venue: LH-5
     - code: MA 374A
       name: "Regularity in the Calculus of Variations"
       instructor: Swarnendu Sil
-      timing: "Tue, Thu 2:00-3:30"
-      venue:
+      timing: "Tue, Thu: 2:00 - 3:30"
+      venue: LH-2/LH-3
     - code: MA 379
       name: Linear Algebraic Groups
       instructor: Radhika Ganapathy
-      timing: "Tue, Thu 8:30-10:00"
-      venue:
+      timing: "Tue, Thu: 8:30 - 10:00"
+      venue: LH-5
     - code: MA 394
       name: Techniques in discrete probability
       instructor: Riddhipratim Basu
-      timing: "Wed 2:00-5:15"
-      venue:
+      timing: "Wed: 2:00 - 5:15"
+      venue: LH-5
 
 
 aug2025:
