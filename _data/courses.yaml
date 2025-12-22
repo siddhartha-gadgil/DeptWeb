@@ -85,7 +85,7 @@ jan2026:
       name: Proofs Lab with Lean
       instructor: V. Satish Kumar / Siddhartha Gadgil
       credits: "0:1"
-      timing: "Mon: 2:00 - 5:00"
+      timing: "Fri: 2:00 - 4:30"
       venue: "MLH Computation lab"
     - code: MA 218
       name: Number Theory
@@ -106,7 +106,7 @@ jan2026:
       name: "Introduction to Tilings"
       instructor: Subhojoy Gupta
       timing: "Mon, Wed, Fri: 11:00 - 12:00"
-      venue: LH-5
+      venue: LH-3
     - code: MA 262
       name: Introduction to Stochastic Processes
       instructor: Arvind Ayyer
@@ -131,7 +131,7 @@ jan2026:
       name: Advanced Functional Analysis
       instructor: E. K. Narayanan
       timing: "Mon, Wed, Fri: 11:00 - 12:00"
-      venue: LH-2
+      venue: LH-5
     - code: MA 347A
       name: "Topics in Finite Element Method"
       instructor: Thirupathi Gudi
