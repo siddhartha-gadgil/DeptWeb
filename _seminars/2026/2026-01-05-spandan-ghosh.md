@@ -2,7 +2,7 @@
 speaker: Spandan Ghosh (University of Oxford)
 title: "Lagrangian mean curvature flow out of conical singularities"
 date: 05 Jan, 2026
-time: 4 pm
+time: 4:15 pm
 venue:  LH-5, Mathematics Department 
 series: "Geometry & Topology Seminar"
 ---
