@@ -87,6 +87,7 @@ jan2026:
       credits: "0:1"
       timing: "Fri: 2:00 - 4:30"
       venue: "MLH Computation lab"
+      webpage: https://math.iisc.ac.in/~gadgil/ma207-2026.html
     - code: MA 218
       name: Number Theory
       instructor: Shaunak Deo
