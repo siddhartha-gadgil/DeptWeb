@@ -1,6 +1,6 @@
 ---
 speaker: Prasit Bhattacharya (New Mexico State University, Las Cruces, USA)
-date: 6 January, 2025
+date: 12 January, 2026
 time: 4 pm
 title: "Topology, Symmetry, and the Frobenius endomorphism"
 start_time: 16:00
