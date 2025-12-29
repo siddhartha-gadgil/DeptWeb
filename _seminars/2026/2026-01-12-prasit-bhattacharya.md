@@ -9,7 +9,7 @@ series: "Geometry & Topology Seminar"
 ---
 
 The Frobenius map, which raises an element to its $p$-th power, is a fundamental ring endomorphism in characteristic $p$. This simple algebraic structure has profound
-implications, serving as the generator for Galois groups of finite fields. In the 1950s, N.E. Steenrod generalized this concept to graded $\mathbb{F}_p$​-algebras, a
+implications, serving as the generator for Galois groups of finite fields. In the 1950s, N.E. Steenrod generalized this concept to graded $\mathbb{F}_p$-algebras, a
 generalization that has since yielded cornerstone results in geometry and algebraic topology. 
 
 This talk explores a new, crucial question: Can Steenrod operations be refined to detect hidden symmetries? We will trace the historical development of this question
