@@ -53,7 +53,7 @@ jan2026:
       ug-prereq-courses: "UM 204"
       timing: "Mon, Wed, Fri: 11:00 - 12:00"
       venue: LH-4
-
+      webpage: https://math.iisc.ac.in/~vamsipingali/teaching/ma241ODE2026spring/ma241.html
   core-intphd:
     - code: MA 213
       name: Algebra II
