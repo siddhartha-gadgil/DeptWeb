@@ -1049,3 +1049,28 @@
   user-id: kuldeepsarma
   position: NBHM PDF
   image: true
+
+- name: Digjoy Paul
+  webpage:
+  phd: IMSc Chennai
+  user-id: digjoypaul
+  position: NBHM PDF
+  image: true
+  research-area: Representation theory, Combinatorics
+  office: N22
+  start: "2022"
+  end: "2025"
+  present: Assistant Professor, SRM University, AP
+  
+
+- name: Shushma Rani
+  webpage:
+  phd: IISER Mohali
+  user-id: shushmarani
+  position: NBHM PDF
+  image: true
+  research-area: Lie (super)algebras and its representation theory
+  office: L28
+  start: "2024"
+  end: "2025"
+  present: Assistant Professor, IIT Ropar
