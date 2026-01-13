@@ -2,6 +2,7 @@
 speaker: Sudeshna Bhattacharjee (IISc Mathematics)
 date: 7 January 2026
 time: 11:30 am
+start_time: 11:30
 venue: LH-2, Department of Mathematics
 title: "Geodesic geometry in the KPZ universality class and some related problems"
 series: Thesis

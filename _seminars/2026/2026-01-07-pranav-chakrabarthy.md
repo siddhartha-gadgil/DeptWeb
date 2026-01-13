@@ -3,6 +3,7 @@ speaker: Pranav Chakravarthy (Université libre de Bruxelles)
 title: "Almost toric fibrations on K3 surfaces"
 date: 07 Jan, 2026
 time: 4:00 pm
+start_time: 16:00
 venue:  Online on MS Teams
 series: "Geometry & Topology Seminar"
 ---

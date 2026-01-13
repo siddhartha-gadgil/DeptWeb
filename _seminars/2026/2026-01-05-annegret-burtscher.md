@@ -3,6 +3,7 @@ speaker: Annegret Burtscher (Radboud University)
 title: "On completeness in Lorentzian geometry"
 date: 05 Jan, 2026
 time: 3:00-4:00 pm
+start_time: 15:00
 venue:  LH-5, Mathematics Department 
 series: "Geometry & Topology Seminar"
 ---

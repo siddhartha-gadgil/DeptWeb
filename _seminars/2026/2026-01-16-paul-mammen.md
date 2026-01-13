@@ -3,6 +3,7 @@ speaker: Paul Mammen (University of Michigan, Ann Arbor, USA)
 title: "Residue formulae for the trace of affine Hecke Algebras"
 date: 16 Jan, 2026
 time: 3 pm
+start_time: 15:00
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html

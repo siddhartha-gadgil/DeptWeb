@@ -3,6 +3,7 @@ speaker: Ryan O'Loughlin (University of Reading, UK)
 title: "The Numerical Range as a spectral set"
 date: 19 January, 2026
 time: 11 am
+start_time: 11:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
