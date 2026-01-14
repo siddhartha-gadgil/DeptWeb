@@ -12,7 +12,7 @@ We establish a convergence result for  the approximation of low-regularity solut
 Maxwell's equations and the linear wave equations. The approximation is based on an explicit Runge--Kutta (ERK) time-stepping and the discontinuous Galerkin (dG)
 method with stabilization (so-called upwind fluxes) in space. The regularity setting only assumes that the exact solution and its first time-derivative are in
 $L^\infty(0,T;H^s(Dom))$ with a Sobolev regularity index $s$ in $(0,\frac12)$ (here, $T$ is the time horizon and $Dom$ the space domain), and that its second
-time-derivative is in $L^\infty(0,T;L2(Dom))$. The two main tools for the convergence analysis are a Ritz projection in space that leverages recent convergence
-results in operator norm for the dG approximation of the steady form of the PDE, and the $L2$-stability under a standard CFL condition of three-stage, third-order
+time-derivative is in $L^\infty(0,T;L^2(Dom))$. The two main tools for the convergence analysis are a Ritz projection in space that leverages recent convergence
+results in operator norm for the dG approximation of the steady form of the PDE, and the $L^2$-stability under a standard CFL condition of three-stage, third-order
 and four-stage, fourth-order ERK schemes. These latter results are known in the literature, but we provide here a somewhat simpler argumentation to prove the
 $L^2$-stability. This is joint work with J.-L. Guermond (Texas A&M).
