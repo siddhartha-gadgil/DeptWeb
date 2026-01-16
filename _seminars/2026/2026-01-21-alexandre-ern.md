@@ -3,6 +3,7 @@ speaker: Alexandre Ern (CERMICS , Ecole des Ponts, IP Paris and SERENA Project-T
 title: "Convergence of ERK-DG approximations of the first-order form of Maxwell's equations with low regularity"
 date: 21 January, 2026
 time: 3 pm
+start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26

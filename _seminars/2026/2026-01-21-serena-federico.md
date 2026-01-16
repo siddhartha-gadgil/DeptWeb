@@ -3,6 +3,7 @@ speaker:  Serena Federico (Università di Bologna, Bologna, Italy)
 title: "Smoothing estimates for third order equations with variable coefficients"
 date: 21 January, 2026
 time: 4 pm
+start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
