@@ -1,15 +1,4 @@
-- name: Biltu Dan (Ph.D., ISI)
-  position: INSPIRE Faculty Fellow
-  research-areas: Probability Theory
-  user-id: biltudan
-  image: true
 
-- name: Vineeth Chintala (Ph.D., Tata Institute of Fundamental Research, Mumbai)
-  position: INSPIRE Faculty Fellow
-  research-areas: Algebra, Quadratic forms, Behavioural Economics, Market Design
-  user-id: vineethc
-  image: true
-  webpage: https://sites.google.com/view/vineethchintala/home
   
 - name: Kalachand Shuin (PhD., IISER Bhopal)
   webpage:
@@ -36,3 +25,12 @@
   image: true
   research-areas: Combinatorics, Number Theory, Algebraic Geometry
   office: N13
+
+- name: Ruma R. Maity
+  webpage: https://sites.google.com/view/ruma-maity-math/home?authuser=0
+  phd: IIT Bombay
+  user-id: rumaranim
+  position: INSPIRE Faculty Fellow
+  image: true
+  research-areas: Numerical Analysis and Scientific Computing
+  office:

@@ -136,3 +136,16 @@
   image: true
   research-area: Number theory, Representation theory
   office: N14
+  
+- name: Biltu Dan (Ph.D., ISI)
+  position: INSPIRE Faculty Fellow
+  research-areas: Probability Theory
+  user-id: biltudan
+  image: true
+
+- name: Vineeth Chintala (Ph.D., Tata Institute of Fundamental Research, Mumbai)
+  position: INSPIRE Faculty Fellow
+  research-areas: Algebra, Quadratic forms, Behavioural Economics, Market Design
+  user-id: vineethc
+  image: true
+  webpage: https://sites.google.com/view/vineethchintala/home
