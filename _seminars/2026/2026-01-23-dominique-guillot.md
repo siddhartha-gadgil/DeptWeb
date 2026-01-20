@@ -7,7 +7,7 @@ venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
 ---
 
-We consider a new theory of positive definiteness for matrices with entries in a finite field. In the first part of the talk, we will review classical notions of matrix
+We consider a new theory of positive definiteness -- for matrices with entries in a finite field. In the first part of the talk, we will review classical notions of matrix
 positivity for real and complex matrices as well as background material in algebra and graph theory. We will then examine possible definitions of matrix positivity over
 finite fields.
 
