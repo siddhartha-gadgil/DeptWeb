@@ -3,6 +3,7 @@ speaker: Beth Romano (King's College London, UK)
 title: "Graded Lie algebras and families of algebraic curves"
 date: 27 January, 2026
 time: 11.30 am
+start_time: 11:30
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
