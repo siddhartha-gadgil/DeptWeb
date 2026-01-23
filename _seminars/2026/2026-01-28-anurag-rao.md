@@ -9,5 +9,5 @@ website: https://math.iisc.ac.in/number-theory-seminar.html
 ---
 
 Consider a noncompact homogeneous space equipped with the action of a one-parameter diagonable subgroup. In this dynamical system we study the set of points with precompact
-orbit which, due to the work of Kleinbock--Margulis, is known to be a dense set of full dimension. Motivated by a theorem of Davenport-Schmidt in Diophantine approximation
+orbit which, due to the work of Kleinbock--Margulis, is known to be a dense set of full dimension. Motivated by a theorem of Davenport--Schmidt in Diophantine approximation
 we revisit this work and give a construction for bounded orbits with large closures.
