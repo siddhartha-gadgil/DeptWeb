@@ -3,6 +3,7 @@ speaker: Balasubramanian Ananthanarayan (IISc CHEP)
 title: "Feynman and other integrals of mathematical physics and hypergeometric functions"
 date: 3 February, 2026
 time: 2:30 pm
+start_time: 14:30
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
