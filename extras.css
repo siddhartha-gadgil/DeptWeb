@@ -180,3 +180,47 @@ code {
 td {
   max-width: 15% !important;
 }
+
+.seminar-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 8px;
+  position: relative;
+  top: -1px;
+}
+
+.seminar-dot.today {
+  background-color: #28a745;
+  animation: pulse-green 2s infinite;
+}
+
+.seminar-dot.tomorrow {
+  background-color: #fd7e14;
+  animation: pulse-orange 2s infinite;
+}
+
+@keyframes pulse-green {
+  0% {
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 6px rgba(40, 167, 69, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+  }
+}
+
+@keyframes pulse-orange {
+  0% {
+    box-shadow: 0 0 0 0 rgba(253, 126, 20, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 6px rgba(253, 126, 20, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(253, 126, 20, 0);
+  }
+}
