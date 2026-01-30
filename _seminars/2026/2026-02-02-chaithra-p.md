@@ -2,6 +2,7 @@
 speaker: Chaithra P. (IISc Mathematics)
 date: 2 February 2026
 time: 11 am
+start_time: 11:00
 venue: LH-1, Department of Mathematics
 title: "On some structural problems in the theory of infinite-dimensional Lie (super)algebras"
 series: Thesis

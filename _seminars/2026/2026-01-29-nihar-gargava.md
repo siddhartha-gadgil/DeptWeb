@@ -3,6 +3,7 @@ date: 29 Jan, 2026
 speaker: Nihar Gargava (Institut de Mathématiques d’Orsay, Université Paris-Saclay, Paris, France)
 title: "Shapes of unit lattices of totally real orders form a dense set of lattices"
 time: 3:30 pm
+start_time: 15:30
 series: "Number Theory Seminar"
 website: https://math.iisc.ac.in/number-theory-seminar.html
 venue: LH-1, Mathematics Department (Joint with the <a target="_blank" href="https://math.iisc.ac.in/~khare/algcomb25-26.html" >Algebra-Combinatorics Seminar</a>)

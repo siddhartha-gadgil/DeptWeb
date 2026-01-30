@@ -3,6 +3,7 @@ speaker: Bishal Deb (Yau Mathematical Sciences Center, Tsinghua University, Beij
 title: "Hankel total positivity of the Schett polynomials: generalisations of continued fractions for Jacobian elliptic functions"
 date: 6 Feb, 2026
 time: 11:30 am
+start_time: 11:30
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
