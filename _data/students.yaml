@@ -24,39 +24,6 @@
   guide: M. K. Ghosh
   scholarship: IISc
   office: L26(4)
-  
-- name: B.S. Jnaneshwar
-  user-id: jnaneshwarb
-  year-of-joining: 2018
-  programme: Integrated PhD
-  guide: yet to decide
-  scholarship: IISc
-  office: N06(4)
-
-- name: Aashirwad Ballal
-  user-id: aashirwadb
-  year-of-joining: 2018
-  programme: Integrated PhD
-  guide: yet to decide
-  scholarship: IISc
-  image: true
-  office: N06(4)
-
-- name: "<a href='https://sites.google.com/view/agnivachatterjee'>Agniva Chatterjee</a>"
-  user-id: agnivac
-  year-of-joining: 2018
-  programme: Integrated PhD
-  guide: yet to decide
-  scholarship: IISc
-  image: true
-  office: X22(6)
-
-- name: M V Ajay Kumar Nair
-  year-of-joining: 2019
-  programme: PhD
-  user-id: ajaynair
-  image: true
-  office: N04(6)
 
 - name: Karambir Das
   year-of-joining: 2020
@@ -79,21 +46,6 @@
   image: true
   office: X20(6)
 
-- name: Rumpa Masanta
-  year-of-joining: 2020
-  programme: PhD
-  user-id: rumpamasanta
-  image: true
-  office: L26(4)
-
-- name: Mainak Bhowmik
-  year-of-joining: 2020
-  programme: PhD
-  user-id: mainakb
-  image: true
-  webpage:
-  office: X21(6)
-
 - name: Subhajit Das
   year-of-joining: 2020
   programme: PhD
@@ -107,13 +59,6 @@
   user-id: arnabpalp
   image: true
   office: N04(6)
-
-- name: Chaithra P
-  year-of-joining: 2021
-  programme: PhD
-  user-id: chaithrap
-  image: true
-  office: L24(4)
 
 - name: Lalit Thuwal
   year-of-joining: 2021
@@ -199,13 +144,6 @@
   user-id: sahilchavda
   image: true
   office: N11(4)
-
-- name: "<a href='https://mkanant17.github.io/math/'>Anant Narayanan</a>"
-  year-of-joining: 2022
-  programme: Integrated PhD
-  user-id: anantn
-  image: true
-  office: X21(6)
 
 - name: Supriya Saha
   year-of-joining: 2022
