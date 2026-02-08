@@ -6,7 +6,7 @@ time:  3 – 5 pm (with a 15 minute break in between)
 start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
-slides: "2026-02-08-Otmar-Venjakob.pdf"
+slides: "2026-02-06-Otmar-Venjakob.pdf"
 ---
 
 The quadratic Reciprocity Law for the Legendre or Jacobi-Symbol forms the starting point of all Reciprocity Laws as well as of class field theory. It is closely
