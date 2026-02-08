@@ -6,7 +6,7 @@ time:  3 – 5 pm (with a 15 minute break in between)
 start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
-slides: "2026-01-23-DominiqueGuillot"
+slides: "2026-01-23-DominiqueGuillot.pdf"
 ---
 
 We consider a new theory of positive definiteness -- for matrices with entries in a finite field. In the first part of the talk, we will review classical notions of matrix
