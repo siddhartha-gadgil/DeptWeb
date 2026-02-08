@@ -36,11 +36,11 @@ future: true
 collections:
   seminars:
       output: true
-      permalink: /seminars/:year/:title
+      permalink: /seminars/:year/:name
 
   all-courses:
     output: true
-    permalink: /all-courses/:title
+    permalink: /all-courses/:name
   events:
     output: true
 
