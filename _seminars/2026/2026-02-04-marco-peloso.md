@@ -14,3 +14,6 @@ $\mathbb{C}^d$ and require that their restrictions to a given submanifold are $L
 arises in this setting; we call this class the Siegel CR submanifolds. For these spaces, we prove several basic properties. In particular, we prove a Paley--Wiener
 theorem in terms of the non-commutative Fourier transform on a nilpotent Lie group. the Plancherel--Pólya inequality, a Bernstein inequality, and a sufficient
 condition for a sequence to be sampling. This is a report on joint work with Mattia Calzi.
+
+The [video of this talk](https://www.youtube.com/watch?v=3MnPSQ88hH8&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
