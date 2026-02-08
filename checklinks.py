@@ -78,7 +78,7 @@ def is_broken(link: str, source_path: str, base_dir: Path, all_files: set):
     if link.startswith("http"):
         try:
             # Emulate `Try{...}.getOrElse(false)` from scala script
-            response = requests.head(link, allow_redirects=True, timeout=10, verify=False)
+            response = requests.head(link, allow_redirects=True, timeout=60, verify=False)
             is_missing = response.status_code == 404
         except requests.RequestException as e:
             logging.warning(f"Could not check external link {link}: {e}")
