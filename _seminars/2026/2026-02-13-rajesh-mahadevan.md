@@ -3,6 +3,7 @@ speaker: Rajesh Mahadevan (Universidad de Concepcion, Concepcion, Chile)
 title: "An isoperimetric inequality for the fractional perimeter among triangular domains"
 date: 13 Feb, 2025
 time: 4:15 pm
+start_time: 16:15
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
