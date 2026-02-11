@@ -3,7 +3,7 @@ speaker: Ruadhai Dervan (University of Warwick)
 title: "Metric wall crossing"
 date: 11 Feb, 2026
 time: 4:00 pm
-start_time: 4:00 pm
+start_time: 16:00
 venue:  LH-4, Mathematics Department 
 series: "Geometry & Topology Seminar"
 ---
