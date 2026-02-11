@@ -3,7 +3,6 @@ speaker: Otmar Venjakob (Institute for Mathematics, Universität Heidelberg, Ger
 title: "$\\epsilon$-isomorphisms for analytic  $(\\varphi_L,\\Gamma_L)$-modules over Lubin-Tate Robba rings"
 date: 11 February, 2026
 time:  2 PM
-start_time: 14:00
 venue: LH-1, Mathematics Department
 series: Number Theory Seminar
 ---
