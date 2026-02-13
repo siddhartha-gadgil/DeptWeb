@@ -19,3 +19,6 @@ and Bouchut for the regularity with respect to position and in the spirit of the
 range of exponents. The methods rely on Fourier transform estimates. This allows us to give structural information about kinetic spaces (density, completeness and
 isomorphisms, embeddings...), to precisely describe the distributional solutions to the FKP equations with constant diffusion, to obtain well-posedness for weak
 solutions when the FKP equations come with rough diffusion and to define their fundamental solutions, and more. This is based on joint works with C. Imbert and L. Niebel.
+
+The [video of this talk](https://www.youtube.com/watch?v=SeXGS5FikdA&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
