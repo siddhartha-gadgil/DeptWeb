@@ -11,7 +11,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Caching
 memo = {}
-mcheck = {}
+# Some problematic links that we want to skip checking are preset as fine.
+mcheck = {"https://www.ganeshvaidya.in/": False}
 
 def trm(s: str) -> str:
     """Normalize local paths."""
