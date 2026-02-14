@@ -1,183 +1,187 @@
- <pre class="mermaid">
-    graph TD
+---
+title: "Research Landscape"
+---
+<pre class="mermaid">
+graph LR
 
-    %% ---------- Areas (maroon circles) ----------
-    C((Combinatorics))
-    AAG((Algebra & Algebraic Geometry))
-    PS((Probability & Statistics))
-    DE((Differential Equations))
-    GT((Geometry & Topology))
-    AN((Analysis))
-    MP((Mathematical Physics))
-    NT((Number Theory))
-    AP((Applications))
+%% ---------- Areas (maroon circles) ----------
+C((Combinatorics))
+AAG((Algebra & Algebraic Geometry))
+PS((Probability & Statistics))
+DE((Differential Equations))
+GT((Geometry & Topology))
+AN((Analysis))
+MP((Mathematical Physics))
+NT((Number Theory))
+AP((Applications))
 
-    classDef area fill:#800000,color:#ffffff,stroke:#800000;
-    class C,AAG,PS,DE,GT,AN,MP,NT,AP area;
+classDef area fill:#800000,color:#ffffff,stroke:#800000;
+class C,AAG,PS,DE,GT,AN,MP,NT,AP area;
 
-    %% ---------- Faculty ----------
-    AKN[A. K. Nandakumaran]
-    SGU[Subhojoy Gupta]
-    APK[Apoorva Khare]
-    SDA[Soumya Das]
-    SIY[Srikanth Iyer]
-    MGH[Mrinal Ghosh]
-    EKN[E. K. Narayanan]
-    SSN[Sanchayan Sen]
-    GRR[G. Rangarajan]
-    VPI[Vamsi Pingali]
-    PSI[Pooja Singla]
-    SGA[Siddhartha Gadgil]
-    BDT[Basudeb Datta]
-    RVK[R. Venkatesh]
-    TBB[Tirthankar Bhattacharya]
-    AAY[Arvind Ayyer]
-    RGN[Radhika Ganapathy]
-    MKD[Mahesh Kakde]
-    VDA[Ved Datar]
-    STH[S. Thangavelu]
-    DPA[Dilip Patil]
-    GBH[Gautam Bharali]
-    GMI[Gadadhar Misra]
-    TGU[Tirupathi Gudi]
-    KVE[Kaushal Verma]
-    ABA[Abhishek Banerjee]
-    MKR[Manjunath Krishanpur]
-    HSE[Harish Seshadri]
-    PGU[Purvi Gupta]
-    SSL[Swarnendu Sil]
-    SDO[Shaunak Deo]
+%% ---------- Faculty ----------
+AKN[A. K. Nandakumaran]
+SGU[Subhojoy Gupta]
+APK[Apoorva Khare]
+SDA[Soumya Das]
+SIY[Srikanth Iyer]
+MGH[Mrinal Ghosh]
+EKN[E. K. Narayanan]
+SSN[Sanchayan Sen]
+GRR[G. Rangarajan]
+VPI[Vamsi Pingali]
+PSI[Pooja Singla]
+SGA[Siddhartha Gadgil]
+BDT[Basudeb Datta]
+RVK[R. Venkatesh]
+TBB[Tirthankar Bhattacharya]
+AAY[Arvind Ayyer]
+RGN[Radhika Ganapathy]
+MKD[Mahesh Kakde]
+VDA[Ved Datar]
+STH[S. Thangavelu]
+DPA[Dilip Patil]
+GBH[Gautam Bharali]
+GMI[Gadadhar Misra]
+TGU[Tirupathi Gudi]
+KVE[Kaushal Verma]
+ABA[Abhishek Banerjee]
+MKR[Manjunath Krishanpur]
+HSE[Harish Seshadri]
+PGU[Purvi Gupta]
+SSL[Swarnendu Sil]
+SDO[Shaunak Deo]
 
-    %% ---------- Area → Faculty ----------
-    C --> AAY
-    MP --> AAY
-    PS --> AAY
+%% ---------- Faculty → Areas ----------
+AAY --> C
+AAY --> MP
+AAY --> PS
 
-    AAG --> ABA
+ABA --> AAG
 
-    AN --> GBH
-    AN --> PGU
-    AN --> SSL
-    GT --> SSL
-    DE --> SSL
+GBH --> AN
+PGU --> AN
+SSL --> AN
+SSL --> GT
+SSL --> DE
 
-    AN --> TBB
+TBB --> AN
 
-    NT --> SDA
-    NT --> MKD
-    NT --> SDO
+SDA --> NT
+MKD --> NT
+SDO --> NT
 
-    AAG --> MKD
+MKD --> AAG
 
-    GT --> BDT
-    C --> BDT
+BDT --> GT
+BDT --> C
 
-    GT --> SGA
-    GT --> SGU
+SGA --> GT
+SGU --> GT
 
-    PS --> MGH
-    AP --> MGH
+MGH --> PS
+MGH --> AP
 
-    DE --> TGU
-    AP --> TGU
-    AN --> TGU
+TGU --> DE
+TGU --> AP
+TGU --> AN
 
-    PS --> MKR
-    PS --> SSN
+MKR --> PS
+SSN --> PS
 
-    AAG --> APK
-    C --> APK
-    AN --> APK
+APK --> AAG
+APK --> C
+APK --> AN
 
-    PS --> SIY
-    AP --> SIY
+SIY --> PS
+SIY --> AP
 
-    AP --> AKN
-    DE --> AKN
+AKN --> AP
+AKN --> DE
 
-    AN --> GMI
-    AN --> EKN
+GMI --> AN
+EKN --> AN
 
-    AAG --> DPA
+DPA --> AAG
 
-    AP --> GRR
+GRR --> AP
 
-    GT --> HSE
+HSE --> GT
 
-    GT --> VPI
-    GT --> VDA
+VPI --> GT
+VDA --> GT
 
-    DE --> VPI
-    DE --> VDA
+VPI --> DE
+VDA --> DE
 
-    AN --> VPI
-    MP --> VPI
+VPI --> AN
+VPI --> MP
 
-    AAG --> PSI
-    AAG --> RGN
-    NT --> RGN
+PSI --> AAG
+RGN --> AAG
+RGN --> NT
 
-    AN --> STH
-    AAG --> RVK
+STH --> AN
+RVK --> AAG
 
-    AN --> KVE
+KVE --> AN
 
-    %% ---------- Collaborations ----------
-    AAY --- MKR
-    AAY --- PSI
-    TBB --- GMI
-    TBB --- EKN
-    SGA --- MKR
-    SGA --- HSE
-    SGA --- APK
-    TGU --- AKN
-    MGH --- AKN
-    SIY --- MGH
-    EKN --- STH
-    HSE --- KVE
-    EKN --- PSI
-    SGU --- HSE
-    SGU --- BDT
-    VDA --- VPI
-    APK --- VPI
-    VDA --- HSE
+%% ---------- Collaborations ----------
+AAY --- MKR
+AAY --- PSI
+TBB --- GMI
+TBB --- EKN
+SGA --- MKR
+SGA --- HSE
+SGA --- APK
+TGU --- AKN
+MGH --- AKN
+SIY --- MGH
+EKN --- STH
+HSE --- KVE
+EKN --- PSI
+SGU --- HSE
+SGU --- BDT
+VDA --- VPI
+APK --- VPI
+VDA --- HSE
 
-    %% ---------- Click links ----------
-    click AKN "https://math.iisc.ac.in/~nands/"
-    click SGU "https://math.iisc.ac.in/~subhojoy/"
-    click APK "https://math.iisc.ac.in/~khare/"
-    click SDA "https://sites.google.com/site/somuhomepage/"
-    click SIY "https://math.iisc.ac.in/~skiyer/"
-    click MGH "https://math.iisc.ac.in/~mkg/"
-    click EKN "https://math.iisc.ac.in/~naru/"
-    click SSN "https://sites.google.com/site/sanchayansenss/"
-    click GRR "https://math.iisc.ac.in/~rangaraj/"
-    click VPI "https://math.iisc.ac.in/~vamsipingali/"
-    click PSI "https://sites.google.com/site/poojasingla7/Home"
-    click SGA "https://math.iisc.ac.in/~gadgil/"
-    click BDT "https://math.iisc.ac.in/~dattab/"
-    click RVK "https://math.iisc.ac.in/~rvenkat/"
-    click TBB "https://math.iisc.ac.in/~tirtha/"
-    click AAY "https://math.iisc.ac.in/~arvind/"
-    click RGN "https://math.iisc.ac.in/~radhikag/"
-    click MKD "https://math.iisc.ac.in/~maheshkakde/"
-    click VDA "https://math.iisc.ac.in/~vvdatar/"
-    click STH "https://math.iisc.ac.in/~veluma/"
-    click DPA "https://math.iisc.ac.in/~patil/"
-    click GBH "https://math.iisc.ac.in/~bharali/"
-    click GMI "https://math.iisc.ac.in/~gm/"
-    click TGU "https://math.iisc.ac.in/~gudi/"
-    click KVE "https://math.iisc.ac.in/~kverma/"
-    click ABA "https://sites.google.com/site/abhishekb1313/"
-    click MKR "https://math.iisc.ac.in/~manju/"
-    click HSE "https://math.iisc.ac.in/~harish/"
-    click PGU "https://math.iisc.ac.in/~purvi/"
-    click SSL "https://math.iisc.ac.in/~ssil/"
-    click SDO "https://sites.google.com/view/shaunakdeo/"
+%% ---------- Click links ----------
+click AKN "https://math.iisc.ac.in/~nands/"
+click SGU "https://math.iisc.ac.in/~subhojoy/"
+click APK "https://math.iisc.ac.in/~khare/"
+click SDA "https://sites.google.com/site/somuhomepage/"
+click SIY "https://math.iisc.ac.in/~skiyer/"
+click MGH "https://math.iisc.ac.in/~mkg/"
+click EKN "https://math.iisc.ac.in/~naru/"
+click SSN "https://sites.google.com/site/sanchayansenss/"
+click GRR "https://math.iisc.ac.in/~rangaraj/"
+click VPI "https://math.iisc.ac.in/~vamsipingali/"
+click PSI "https://sites.google.com/site/poojasingla7/Home"
+click SGA "https://math.iisc.ac.in/~gadgil/"
+click BDT "https://math.iisc.ac.in/~dattab/"
+click RVK "https://math.iisc.ac.in/~rvenkat/"
+click TBB "https://math.iisc.ac.in/~tirtha/"
+click AAY "https://math.iisc.ac.in/~arvind/"
+click RGN "https://math.iisc.ac.in/~radhikag/"
+click MKD "https://math.iisc.ac.in/~maheshkakde/"
+click VDA "https://math.iisc.ac.in/~vvdatar/"
+click STH "https://math.iisc.ac.in/~veluma/"
+click DPA "https://math.iisc.ac.in/~patil/"
+click GBH "https://math.iisc.ac.in/~bharali/"
+click GMI "https://math.iisc.ac.in/~gm/"
+click TGU "https://math.iisc.ac.in/~gudi/"
+click KVE "https://math.iisc.ac.in/~kverma/"
+click ABA "https://sites.google.com/site/abhishekb1313/"
+click MKR "https://math.iisc.ac.in/~manju/"
+click HSE "https://math.iisc.ac.in/~harish/"
+click PGU "https://math.iisc.ac.in/~purvi/"
+click SSL "https://math.iisc.ac.in/~ssil/"
+click SDO "https://sites.google.com/view/shaunakdeo/"
+
   </pre>
 
-  <!-- Load Mermaid from CDN -->
-  <script type="module">
+<!-- Load Mermaid from CDN -->
+<script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true });
-  </script>
+</script>
