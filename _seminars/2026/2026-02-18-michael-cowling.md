@@ -7,6 +7,7 @@ start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
+slides: "2026-02-18-cowling-slides.pdf"
 ---
 
 Brascamp--Lieb inequalities generalise classical results such as H&ouml;lder's
