@@ -26,3 +26,6 @@ difficult. However, it also means that there are many fewer potential inequaliti
 to consider, and in some situations, all possible inequalities are built up out of
 H¨older’s inequality and Young’s convolution inequality. We illustrate this by means
 of examples, using compact Lie groups and Heisenberg-like groups.
+
+The [video of this talk](https://www.youtube.com/watch?v=93TmcqhOTiI&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
