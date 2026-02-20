@@ -1,6 +1,6 @@
 ---
 speaker: Venkata Pamulaparthy (University College London)
-title: Memory-induced active-particle ratchet: mean current and large deviations
+title: "Memory-induced active-particle ratchet: mean current and large deviations"
 date: 3 March, 2026
 time: 3:45 PM
 start_time: 15:45
