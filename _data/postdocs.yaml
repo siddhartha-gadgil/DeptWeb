@@ -79,6 +79,15 @@
   office: N28
   image: true
   
+- name: Sohan Ghosh
+  webpage: https://sites.google.com/view/sohan-ghosh/home
+  phd: Indian Institute of Technology Kanpur.
+  user-id: sohanghosh
+  position: NBHM Postdoctoral Fellow
+  image: true
+  research-area: Algebraic Number Theory, Iwasawa theory
+  office: L18
+  
 - name: Velmurugan S	
   webpage: https://sites.google.com/view/velmurugans
   phd: IMSc, Chennai
