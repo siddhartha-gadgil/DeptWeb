@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The KRS Sastry Prize</title>
+  <style>
+    /* Root variables for consistent theming */
+    :root {
+      --banner-bg: #772953;
+      --text-color: #222222;
+      --box-bg: #fdfdfd;
+      --border-color: #e0c5c5;
+    }
+
+    /* Body reset and global styles */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text-color);
+      background-color: #ffffff;
+    }
+
+    /* Heading styles with hover underline effect */
+    body h1, body h2, body h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    body h1::after, body h2::after, body h3::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: #772953;
+      transition: width 0.3s ease;
+    }
+
+    body h1:hover::after, body h2:hover::after, body h3:hover::after {
+      width: 100%;
+    }
+
+    /* Main container with responsive max-widths */
+    .container {
+      width: 100%;
+      margin: 24px auto;
+      padding: 0 15px;
+      background-color: #ffffff;
+    }
+
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px;
+      }
+    }
+
+    /* Page box matching homepage container */
+    header {
+      background-color: #fdfdfe;
+    }
+
+    .page-box {
+      margin: 0 auto;
+      border: 1px solid #cecece;
+      border-radius: 8px;
+      background-color: #fdfdfe;
+    }
+
+    /* Banner styles */
+    .banner-inner {
+      position: relative;
+      background: var(--banner-bg);
+      color: #ffffff;
+      padding: 10px 60px 10px 20px;
+      border-radius: 8px 8px 0 0;
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .banner-title {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 1.7rem;
+      color: #ffffff;
+      text-align: center;
+      position: relative;
+      transition: transform 0.2s ease-out, letter-spacing 0.2s ease-out;
+    }
+
+    .banner-title::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: -4px;
+      width: 0;
+      height: 2px;
+      background-color: #ffffff;
+      transform: translateX(-50%);
+      transition: width 0.18s ease-out;
+    }
+
+    .banner-title:hover {
+      transform: translateY(-1px);
+      letter-spacing: 0.03em;
+    }
+
+    .banner-title:hover::after {
+      width: 100%;
+    }
+
+    .banner-logo {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .banner-logo img {
+      max-width: 100%;
+      max-height: 100%;
+      filter: brightness(0) invert(1);
+      transition: transform 0.18s ease-out;
+    }
+
+    .banner-inner:hover .banner-logo img {
+      transform: scale(1.01);
+    }
+
+    /* Main content area */
+    main {
+      padding: 16px 20px 24px;
+    }
+
+    /* Oblong content box */
+    .oblong-box {
+      background-color: var(--box-bg);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      padding: 24px 20px;
+    }
+
+    /* Tab navigation */
+    .tabs {
+      display: flex;
+      gap: 12px;
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 20px;
+    }
+
+    .tab-button {
+      padding: 8px 16px;
+      border: none;
+      background: none;
+      font: inherit;
+      cursor: pointer;
+      color: #555555;
+      border-bottom: 2px solid transparent;
+    }
+
+    .tab-button[aria-selected="true"] {
+      color: var(--banner-bg);
+      border-color: var(--banner-bg);
+    }
+
+    /* Tab panels */
+    .tab-panel {
+      display: none;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    /* Subheading styles */
+    .subhead {
+      text-transform: uppercase;
+      color: var(--banner-bg);
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 1.05rem;
+    }
+
+    /* Paragraph and list styles */
+    p {
+      line-height: 1.6;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+
+    ul.rules {
+      padding-left: 20px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    ul.rules li {
+      margin-bottom: 8px;
+    }
+
+    /* Footer styles */
+    footer {
+      background: var(--banner-bg);
+      color: #ffffff;
+      border-radius: 0 0 8px 8px;
+    }
+
+    .footer-inner {
+      padding: 8px 20px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    .footer-email {
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 640px) {
+      .banner-inner {
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .banner-title {
+        font-size: 1.4rem;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="page-box">
+
+  <header>
+    <div class="banner-inner">
+      <h1 class="banner-title">The KRS Sastry Prize</h1>
+      <div class="banner-logo">
+        <img src="images/iisclogo.png" alt="IISc logo">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="oblong-box">
+      <div class="tabs" role="tablist" aria-label="KRS Sastry Prize sections">
+        <button class="tab-button" id="tab-about" role="tab" aria-controls="panel-about" aria-selected="true">About</button>
+        <button class="tab-button" id="tab-nomination" role="tab" aria-controls="panel-nomination" aria-selected="false">The Nomination Process</button>
+      </div>
+
+      <section id="panel-about" class="tab-panel active" role="tabpanel" aria-labelledby="tab-about">
+        <h2 class="subhead">ABOUT THE PRIZE</h2>
+
+        <p>The KRS Sastry Prize honours an Indian mathematician, working in India, for their long-term contributions of fundamental importance to any branch of mathematics.</p>
+
+        <p>Given once every four years, this award has been made possible by the generosity of the Late K.R. Shankaranarayana Sastry, a private individual who had a life-long interest in mathematics and was a keen well-wisher of the Indian Institute of Science (IISc).</p>
+
+        <p>In accordance with the terms of the bequest, as stated in Sastry’s will, the award is instituted and administered by IISc, in consultation with the Department of Mathematics at IISc.</p>
+
+        <p>The prize consists of a cash award of 5 lakh rupees and an accompanying citation. Following a nomination process, the recipient is selected by an independent jury of eminent mathematicians of international renown.</p>
+
+        <h2 class="subhead">RULES OF THE PRIZE</h2>
+        <ul class="rules">
+          <li>The KRS Sastry Prize is awarded to an Indian mathematician who is 60 years of age or less for their long-term contributions of fundamental importance to any branch of mathematics..</li>
+          <li>Nominees must be no older than 60 years as on December 31, 2025.</li>
+          <li>A nominee is required to have held regular positions, without a break, at institutions – whether public or private – in India for at least five years at the time of nomination. The nominee must be resident in India and can be a non-citizen.</li>
+          <li>A person holding a permanent position at the Indian Institute of Science either at the time of nomination or during the period of consideration for the prize is ineligible for the prize.</li>
+          <li>A nomination will be valid for one more cycle provided all the eligibility criteria are met.</li>
+          <li>Winners of the KRS Sastry Prize cannot be nominated again.</li>
+          <li>Nominations are sought, by invitation, from a diverse body of nominators whose composition will be reviewed by the KRS Sastry Endowment Standing Committee from time to time.</li>
+          <li>Self-nominations are not allowed.</li>
+          <li>The winner of the prize will be decided by a jury of eminent mathematicians from a broad range of specializations. The decision of this jury will be final.</li>
+          <li>In any given year, the jury may decide, in view of the nominations received, not to announce any winner for that year.</li>
+        </ul>
+      </section>
+
+      <section id="panel-nomination" class="tab-panel" role="tabpanel" aria-labelledby="tab-nomination">
+        <h2 class="subhead">THE NOMINATION PROCESS</h2>
+        <p>Content coming soon.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-email">krs@example.iisc.ac.in</div>
+      <div id="last-updated">Last updated: <span></span></div>
+    </div>
+  </footer>
+
+  </div>
+</div>
+
+<script>
+  // Tab switching logic
+  (function() {
+    var tabAbout = document.getElementById('tab-about');
+    var tabNom = document.getElementById('tab-nomination');
+    var panelAbout = document.getElementById('panel-about');
+    var panelNom = document.getElementById('panel-nomination');
+
+    function activate(tab, panel) {
+      tabAbout.setAttribute('aria-selected', tab === tabAbout ? 'true' : 'false');
+      tabNom.setAttribute('aria-selected', tab === tabNom ? 'true' : 'false');
+
+      panelAbout.classList.toggle('active', panel === panelAbout);
+      panelNom.classList.toggle('active', panel === panelNom);
+    }
+
+    tabAbout.addEventListener('click', function() {
+      activate(tabAbout, panelAbout);
+    });
+
+    tabNom.addEventListener('click', function() {
+      activate(tabNom, panelNom);
+    });
+
+    // Dynamic last updated date
+    var span = document.querySelector('#last-updated span');
+    if (span) {
+      var now = new Date();
+      var options = { day: 'numeric', month: 'long', year: 'numeric' };
+      span.textContent = now.toLocaleDateString('en-GB', options);
+    }
+  })();
+</script>
+
+</body>
+</html>
