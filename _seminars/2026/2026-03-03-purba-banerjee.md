@@ -30,9 +30,8 @@ _Merton Jump Diffusion_ models, illustrating the comparative performance of the 
 As the final work, we consider an investor who wishes to hedge a path-dependent option with maturity $T$ using a static hedging portfolio comprising cash, the underlying,
 and vanilla options written on the same underlying with maturity $t_1$. We propose a model-free approach to construct such a portfolio. The framework is inspired by the
 _primal-dual_ Martingale Optimal Transport (MOT) problem, which was pioneered by [2]. The dual super hedge could be expensive as the traded price is not always the maximum
-price. Contrary to the approach in [3], we formulate the robust hedging problem as an optimization problem that determines a portfolio that minimizes the expected worst-case
-hedging error at $t_1$ (which coincides with the maturity of the options in the hedging portfolio). For a given portfolio, the worst-case scenario corresponds to the
+price. Contrary to the approach in [3], we formulate the robust hedging problem as an optimization problem that determines a portfolio that minimizes the expected worst-case hedging error at $t_1$ (which coincides with the maturity of the options in the hedging portfolio). For a given portfolio, the worst-case scenario corresponds to the
 martingale measure with specified marginals at times $t_1, T$ that yields the maximum expected hedging error. The marginals are determined by the vanilla option prices
-with maturities $ t_1$ and $ T$. This formulation leads to a _min-max_ problem. We provide a numerical scheme for solving this problem when a finite number of vanilla
+with maturities $t_1$ and $T$. This formulation leads to a _min-max_ problem. We provide a numerical scheme for solving this problem when a finite number of vanilla
 option prices are available. Numerical results on the hedging performance of this model-free approach are presented. We also provide theoretical bounds on the hedging
 error at $T$, the maturity of the target option.
