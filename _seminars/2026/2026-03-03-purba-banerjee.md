@@ -2,6 +2,7 @@
 speaker: Purba Banerjee (IISc Mathematics)
 date: 3 March 2026
 time: 2:15 pm
+start_time: 14:15
 venue: Hybrid - Microsoft Teams (online) and LH-1, Department of Mathematics
 title: "Advanced numerical techniques for pricing and hedging of exotic options"
 series: Thesis
