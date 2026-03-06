@@ -16,6 +16,4 @@ drastically in negatively curved spaces characterized by exponential volume grow
 In this talk, we study the stabilization problem in the specific setting of Damek-Ricci spaces. We will discuss recent results showing that the convergence of ball
 averages is a sufficient, but not a necessary, condition for the stabilization of the heat flow. Building on this framework, we establish a new necessary condition for
 pointwise asymptotic stability on these spaces and provide a counterexample demonstrating that this condition is strictly weaker than the convergence of standard ball
-averages.
-
-This work is based on a joint work with Muna Naik.
+averages. This work is based on a joint work with Muna Naik.
