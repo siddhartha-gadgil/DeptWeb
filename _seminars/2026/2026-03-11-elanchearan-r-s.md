@@ -4,7 +4,7 @@ title: "Stabilization results for solutions to the heat equation"
 date: 11 Mar, 2026
 time: 4 pm
 start_time: 16:00
-venue: LH-1, Mathematics Department
+venue: Hybrid - Microsoft Teams (online) and LH-1, Department of Mathematics
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 ---
