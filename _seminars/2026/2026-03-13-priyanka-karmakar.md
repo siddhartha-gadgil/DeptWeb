@@ -2,8 +2,7 @@
 speaker: Priyanka Karmakar (ICTS Bangalore)
 title: "Characterization of Erdös matrices by their zero entries"
 date: 13 Mar, 2026
-time: 3 pm
-start_time: 15:00
+time: 4 pm
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
