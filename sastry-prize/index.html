@@ -441,57 +441,27 @@
     /* These add subtle interactivity to links. Less is more for professional sites! */
     .institution-link {
       color: inherit;
-      /* Makes links the same color as surrounding text. Clean, professional look */
-      
-      text-decoration: none;
-      /* Removes underline. Links are still identifiable by hover effects */
-      
-      position: relative;
-      /* Needed for the underline effect that appears on hover */
-      
       display: inline-block;
-      /* Allows transform effects and proper positioning */
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      text-decoration-color: rgba(0,0,0,0.35);
+      text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
       
-      transition: transform 0.2s ease;
-      /* Smooth animation for the scale effect. 0.2 seconds is snappy but not jarring */
-    }
-
-    .institution-link::after {
-      /* This creates the underline that appears on hover using a pseudo-element */
-      content: '';
-      /* Empty content - we're just creating a decorative element */
-      
-      position: absolute;
-      /* Position relative to the link */
-      
-      bottom: -2px;
-      /* Position slightly below the text */
-      
-      left: 0;
-      /* Start from the left edge */
-      
-      width: 0;
-      /* Start with no width - will animate to full width on hover */
-      
-      height: 1px;
-      /* Thin underline */
-      
-      background-color: currentColor;
-      /* Uses the text color. Will be purple for header links, dark for content */
-      
-      transition: width 0.3s ease;
-      /* Smooth animation for the underline growing effect. 0.3s is nice and smooth */
+      transition: text-decoration-color 0.2s ease, transform 0.15s ease;
     }
 
     .institution-link:hover {
-      transform: scale(1.04);
-      /* Slightly enlarges the link on hover. 1.04 = 4% larger. Subtle but noticeable */
-      /* You could make this more dramatic (1.1) or remove it entirely */
+      text-decoration-color: currentColor;
+      transform: scale(1.03);
     }
 
-    .institution-link:hover::after {
-      width: 100%;
-      /* Expands the underline to full width on hover. Creates the drawing effect! */
+    .institution-link:visited {
+      color: inherit;
+    }
+
+    .banner-title .institution-link {
+      text-decoration: none;
     }
 
   </style>
