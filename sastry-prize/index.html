@@ -606,11 +606,26 @@
         <!-- It's hidden by default (no "active" class) and becomes visible when the tab is clicked -->
         
         <h2 class="subhead">THE NOMINATION PROCESS</h2>
-        <!-- Purple subheading for this section -->
-        
-        <p>Content coming soon.</p>
-        <!-- Placeholder text. You should replace this with actual nomination process details! -->
-        <!-- You could add step-by-step instructions, forms, deadlines, etc. here -->
+
+        <p>Names of candidates for the KRS Sastry Prize may be proposed by anyone who has received an invitation to nominate. The KRS Sastry Endowment Standing Committee strives to reach a discerning, yet diverse, body of nominators whose composition will be reviewed by this Committee from time to time.</p>
+
+        <p><strong>Only those nominations and supporting materials received from an institutional e-mail address will be accepted.</strong> All nominations will be kept strictly confidential.</p>
+
+        <h3 class="subhead">ELIGIBILITY</h3>
+
+        <ul class="rules">
+          <li>Nominees must be no older than 60 years on January 1 of the year of the award. Therefore, to be considered for the 2026 KRS Sastry Prize, a nominee must be no older than 60 years on January 1, 2026.</li>
+
+          <li>To be eligible, a nominee must have held regular positions, without a break, at institutions — whether public or private — in India for at least five years at the time of nomination. The nominee must be resident in India and can be a non-citizen.</li>
+
+          <li>A nomination will be valid for one more cycle provided all the eligibility criteria are met.</li>
+
+          <li>Past winners of the KRS Sastry Prize and anyone holding a permanent position at the Indian Institute of Science either at the time of nomination or during the period of consideration for the prize cannot be nominated.</li>
+        </ul>
+
+        <h3 class="subhead">DEADLINE</h3>
+
+        <p>For the 2026 KRS Sastry Prize, a completed nomination form (link provided in the invitation to nominate) and all required supporting material must be received <strong>on or before May 25, 2026</strong>.</p>
       </section>
       <!-- End of nomination section -->
     </div>
@@ -624,9 +639,8 @@
       <div class="footer-email">Email: sastry.prize@iisc.ac.in</div>
       <!-- Contact email. Uses the monospace font style we defined in CSS -->
       
-      <div id="last-updated">Last updated: <span></span></div>
-      <!-- The last updated date. The empty span gets filled by JavaScript -->
-      <!-- This will automatically show the current date when the page loads -->
+      <!-- 🔧 UPDATE THIS DATE MANUALLY WHEN CONTENT CHANGES -->
+      <div id="last-updated">Last updated: 17 March 2026</div>
     </div>
   </footer>
   <!-- End of footer -->
@@ -676,28 +690,6 @@
       // When the Nomination tab is clicked, activate the Nomination tab and panel
       activate(tabNom, panelNom);
     });
-
-    // Dynamic last updated date
-    // This automatically sets the "last updated" date to today's date
-    var span = document.querySelector('#last-updated span');
-    // Find the empty span element inside the last-updated div
-    
-    if (span) {
-      // Only run this code if the span element exists (good practice to check!)
-      
-      var now = new Date();
-      // Get the current date and time
-      
-      var options = { day: 'numeric', month: 'long', year: 'numeric' };
-      // Formatting options for the date. This will give us something like "16 March 2026"
-      // day: 'numeric' = 16 (not 16th)
-      // month: 'long' = March (not Mar)
-      // year: 'numeric' = 2026
-      
-      span.textContent = now.toLocaleDateString('en-GB', options);
-      // Format the date according to British English conventions and put it in the span
-      // en-GB gives us day-month-year format. You could use 'en-US' for month-day-year
-    }
   })();
   // End of IIFE - the function runs immediately and keeps everything contained
 </script>
