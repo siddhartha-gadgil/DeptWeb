@@ -3,6 +3,7 @@ speaker: Abhiram Natarajan (Mathematics Institute, University of Warwick, UK)
 title: "Gröbner bases native to term-ordered commutative algebras, with application to the Hodge algebra of minors"
 date: 30 Mar, 2026
 time: 2 pm
+start_time: 14:00
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
