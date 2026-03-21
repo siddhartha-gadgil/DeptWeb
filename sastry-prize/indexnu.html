@@ -1,0 +1,680 @@
+<!doctype html>
+<!-- This tells the browser it's an HTML5 document. Always start with this! -->
+<html lang="en">
+<!-- The main HTML container. lang="en" tells screen readers and search engines this is in English -->
+<head>
+  <!-- The head section contains metadata and resources that don't appear on the page -->
+  <meta charset="utf-8">
+  <!-- Sets character encoding to UTF-8 - important for displaying special characters correctly -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Makes the page responsive on mobile devices. This is SUPER important! -->
+  <!-- width=device-width: tells the browser to use the device's actual screen width -->
+  <!-- initial-scale=1: prevents zooming and sets the initial zoom level to 100% -->
+  
+  <title>The KRS Sastry Prize</title>
+  <!-- This appears in the browser tab and search engine results. Keep it descriptive but not too long! -->
+  
+  <meta name="keywords" content="KRS Sastry Prize, Sastry Prize, Sastry Prize IISc">
+  <!-- Keywords for SEO (search engine optimization). Modern search engines don't use these much, but they don't hurt -->
+  
+  <link rel="icon" type="image/png" href="images/iisclogo_black.png">
+  <!-- The favicon - the little icon that appears in the browser tab. Make sure this image exists! -->
+  <style>
+    /* All our CSS styling goes here. I'm using internal styles for simplicity, but you could move this to a separate .css file! */
+    
+    /* Root variables for consistent theming */
+    /* This is like creating custom CSS variables that we can reuse throughout the stylesheet */
+    /* It's great for maintaining consistent colors and makes it easy to change the whole theme! */
+    :root {
+      --banner-bg: #772953;
+      /* This is the main purple color used for the banner and footer. Change this to instantly change the theme! */
+      
+      --text-color: #222222;
+      /* The main text color. A dark gray instead of pure black is easier on the eyes */
+      
+      --box-bg: #fdfdfd;
+      /* Background color for content boxes. Almost white but with a tiny bit of warmth */
+      
+      --border-color: #e0c5c5;
+      /* Border color for content boxes. A light pinkish-gray that complements the purple theme */
+    }
+
+    /* Body reset and global styles */
+    /* The body is the main container for all visible content on the page */
+    body {
+      margin: 0;
+      /* Removes the default margin that browsers add. This gives us full control over spacing! */
+      
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      /* This is a system font stack. It tries to use the default system font first (which looks native on each OS), then falls back to common web fonts */
+      /* You could change this to 'Georgia, serif' for a more traditional look, or 'Comic Sans MS' for... well, don't do that! */
+      
+      color: var(--text-color);
+      /* Using our CSS variable here. If you change the variable above, this will update automatically! */
+      
+      background-color: #ffffff;
+      /* White background for the whole page. You could make this a light gray (#f5f5f5) for a different look */
+    }
+
+    /* Heading styles */
+    /* This targets all h1, h2, and h3 headings within the body */
+    body h1, body h2, body h3 {
+      font-family: Arial, Helvetica, sans-serif;
+      /* Using a different font family for headings to make them stand out from body text */
+      /* Arial is a clean, sans-serif font that's widely supported. You could try 'Georgia' for a serif look! */
+    }
+
+    .subhead {
+      cursor: default;
+      /* Changes the mouse cursor to default (not a text cursor) when hovering over subheadings */
+      /* This is a subtle UX detail that tells users this isn't editable text */
+    }
+
+    /* Main container with responsive max-widths */
+    /* This container wraps all our content and makes it responsive */
+    .container {
+      width: 100%;
+      /* Takes up the full width on small screens */
+      
+      margin: 24px auto;
+      /* 24px top/bottom margin, auto left/right to center the container */
+      /* You could increase the margin to give more breathing room around the content */
+      
+      padding: 0 15px;
+      /* 15px padding on left and right to prevent content from touching screen edges on mobile */
+      
+      background-color: #ffffff;
+      /* White background. You could change this to match the overall page background */
+    }
+
+    /* These are media queries - they change styles based on screen size! */
+    /* This is how we make the page responsive and look good on different devices */
+    
+    @media (min-width: 576px) {
+      /* For screens 576px and wider (tablets in portrait mode and larger phones) */
+      .container {
+        max-width: 540px;
+        /* Limits the container width to 540px, creating margins on both sides */
+      }
+    }
+
+    @media (min-width: 768px) {
+      /* For screens 768px and wider (tablets in landscape mode) */
+      .container {
+        max-width: 720px;
+        /* Wider container for larger screens */
+      }
+    }
+
+    @media (min-width: 992px) {
+      /* For screens 992px and wider (small desktops) */
+      .container {
+        max-width: 960px;
+        /* Even wider container for desktop screens */
+      }
+    }
+
+    @media (min-width: 1200px) {
+      /* For screens 1200px and wider (large desktops) */
+      .container {
+        max-width: 1140px;
+        /* Maximum width for very large screens. Content won't get too wide on huge monitors! */
+      }
+    }
+
+    /* Page box matching homepage container */
+    /* This creates the white box that contains all our content */
+    header {
+      background-color: #fdfdfe;
+      /* Very slightly off-white background for the header area. Creates subtle contrast! */
+    }
+
+    .page-box {
+      margin: 0 auto;
+      /* Centers the box horizontally within the container */
+      
+      border: 1px solid #cecece;
+      /* Light gray border around the entire content box. You could make this darker for more definition */
+      
+      border-radius: 8px;
+      /* Rounded corners! 8px gives a modern, soft look. Increase for more rounded, or set to 0 for sharp corners */
+      
+      background-color: #fdfdfe;
+      /* Same off-white as the header to create a seamless look */
+    }
+
+    /* Banner styles */
+    /* This is the purple header section at the top of the page */
+    .banner-inner {
+      position: relative;
+      /* Position relative so we can position the logo absolutely within this container */
+      
+      background: var(--banner-bg);
+      /* Using our purple CSS variable here. Change the variable to change all purple elements! */
+      
+      color: #ffffff;
+      /* White text for good contrast against the purple background */
+      
+      padding: 18px 60px 18px 20px;
+      /* Asymmetric padding! More space on the right (60px) to make room for the logo */
+      /* Top/bottom: 18px, left: 20px, right: 60px */
+      
+      border-radius: 8px 8px 0 0;
+      /* Rounded corners on the top only, matching the page-box border-radius */
+      /* Order: top-left, top-right, bottom-right, bottom-left */
+      
+      min-height: 64px;
+      /* Ensures the banner has enough height even with short content */
+      
+      display: flex;
+      /* Flexbox layout! This makes it easy to center content and arrange items */
+      
+      align-items: center;
+      /* Vertically centers the content within the banner */
+      
+      justify-content: center;
+      /* Horizontally centers the content (the title) */
+    }
+
+    .banner-title {
+      margin: 0;
+      /* Removes default margin from the h1 element */
+      
+      font-family: Arial, Helvetica, sans-serif;
+      /* Consistent with other headings on the page */
+      
+      font-weight: 550;
+      /* Medium-bold weight. 400 is normal, 700 is bold. 550 is a nice in-between! */
+      
+      font-size: 1.9rem;
+      /* 1.9 times the root font size. 'rem' units are relative to the root font size, making them accessible */
+      /* You could make this larger (2.5rem) for a more dramatic header, or smaller (1.5rem) for subtlety */
+      
+      color: #ffffff;
+      /* White text to match the banner background color */
+      
+      text-align: center;
+      /* Centers the text. This works well with the flexbox centering above */
+    }
+
+    .banner-logo {
+      position: absolute;
+      /* Absolute positioning relative to the banner-inner container */
+      
+      right: 20px;
+      /* 20px from the right edge of the banner */
+      
+      top: 50%;
+      /* Positions the top edge at 50% of the banner's height */
+      
+      transform: translateY(-50%);
+      /* This is the magic! Moves the logo up by 50% of its own height, perfectly centering it vertically */
+      /* Without this, the logo would be slightly off-center because positioning starts from the top edge */
+      
+      width: 80px;
+      height: 80px;
+      /* Fixed size for the logo container. You could make this bigger (100px) or smaller (60px) */
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* These flex properties center the logo image within its container */
+    }
+
+    .banner-logo img {
+      max-width: 100%;
+      max-height: 100%;
+      /* Ensures the image fits within the 80x80px container without distortion */
+      /* The image will scale down if needed but won't be stretched */
+      
+      filter: brightness(0) invert(1);
+      /* This is a cool CSS trick! It makes any image white (suitable for dark backgrounds) */
+      /* brightness(0): makes the image completely black */
+      /* invert(1): flips black to white. Works for most logos! */
+      /* If your logo is already white, you can remove this filter */
+    }
+
+    /* Main content area */
+    /* This is where all the main page content lives (the tabs, text, etc.) */
+    main {
+      padding: 16px 20px 24px;
+      /* Padding around the main content: top 16px, left/right 20px, bottom 24px */
+      /* More padding at the bottom gives the content room to breathe before the footer */
+      /* You could increase these values for more spacious layout, or decrease for tighter design */
+    }
+
+    /* Oblong content box */
+    /* This creates the rounded container that holds our tab content */
+    .oblong-box {
+      background-color: var(--box-bg);
+      /* Using our light background CSS variable. Creates nice contrast with the page background */
+      
+      border-radius: 12px;
+      /* More rounded than the main container (12px vs 8px). Creates a nice layered effect! */
+      
+      border: 1px solid var(--border-color);
+      /* Light border using our CSS variable. Defines the edges of our content area */
+      
+      padding: 24px 20px;
+      /* 24px top/bottom, 20px left/right. Gives content breathing room */
+      /* You could increase padding for a more spacious feel, or add a subtle box-shadow for depth */
+    }
+
+    /* Tab navigation */
+    /* These are the clickable tabs that switch between different content sections */
+    .tabs {
+      display: flex;
+      /* Flexbox layout makes tabs arrange horizontally and handle spacing nicely */
+      
+      gap: 12px;
+      /* Creates 12px space between each tab. Modern CSS that's much cleaner than using margins! */
+      
+      border-bottom: 1px solid #e0e0e0;
+      /* Light gray line under the tabs. Creates visual separation from content */
+      
+      margin-bottom: 20px;
+      /* Space between the tabs and the content below them */
+    }
+
+    .tab-button {
+      padding: 8px 16px;
+      /* Comfortable padding for clickable area. Top/bottom: 8px, left/right: 16px */
+      
+      border: none;
+      /* Removes default button border for cleaner look */
+      
+      background: none;
+      /* Transparent background. Active tab gets colored via other styles */
+      
+      font: inherit;
+      /* Inherits font from parent. Ensures consistent typography */
+      
+      cursor: pointer;
+      /* Changes cursor to hand pointer on hover, indicating it's clickable */
+      
+      color: #555555;
+      /* Medium gray color for inactive tabs. Good contrast without being too prominent */
+      
+      border-bottom: 2px solid transparent;
+      /* Invisible border that becomes visible when tab is active. Creates the underline effect! */
+    }
+
+    .tab-button[aria-selected="true"] {
+      /* This styles the currently active tab */
+      color: var(--banner-bg);
+      /* Uses our purple color for the active tab text. Creates visual connection to header */
+      
+      border-color: var(--banner-bg);
+      /* Makes the bottom border purple, creating the active tab indicator */
+    }
+
+    /* Tab panels */
+    /* These are the content sections that show/hide when you click tabs */
+    .tab-panel {
+      display: none;
+      /* Hides all tab panels by default. Only the active one will be shown */
+    }
+
+    .tab-panel.active {
+      display: block;
+      /* Shows the active tab panel. The JavaScript adds/removes this class */
+      /* 'block' makes it take up the full width available */
+    }
+
+    /* Subheading styles */
+    /* These are the purple section headers like "ABOUT THE PRIZE" and "RULES OF THE PRIZE" */
+    .subhead {
+      text-transform: uppercase;
+      /* Makes all text uppercase. Creates a formal, authoritative look */
+      
+      color: var(--banner-bg);
+      /* Uses our purple color to match the theme and create visual hierarchy */
+      
+      font-weight: 700;
+      /* Bold weight (700). Makes these headings stand out from regular text */
+      
+      margin-top: 0;
+      margin-bottom: 5px;
+      /* Tight spacing. 0 top margin, 5px bottom margin. Keeps layout compact */
+      
+      font-size: 1.05rem;
+      /* Slightly larger than body text. 'rem' units are accessible and scale with user preferences */
+      /* You could make this larger (1.2rem) for more emphasis or smaller (0.9rem) for subtlety */
+    }
+
+    /* Paragraph and list styles */
+    p {
+      line-height: 1.6;
+      /* Creates comfortable spacing between lines of text. 1.6 is a good readable ratio */
+      /* You could increase this to 1.8 for more airy feel, or decrease to 1.4 for tighter layout */
+      
+      margin-top: 0;
+      margin-bottom: 10px;
+      /* Removes top margin (since headings handle spacing above) and adds small bottom margin */
+    }
+
+    ul.rules {
+      padding-left: 20px;
+      /* Indents the list from the left edge. Creates visual hierarchy */
+      
+      margin-top: 0;
+      margin-bottom: 0;
+      /* Removes default margins to control spacing more precisely */
+    }
+
+    ul.rules li {
+      margin-bottom: 8px;
+      /* Adds space between list items. Makes long lists easier to read */
+      /* You could increase this to 12px for more breathing room between rules */
+    }
+
+    /* Footer styles */
+    /* This is the purple footer at the bottom of the page */
+    footer {
+      background: var(--banner-bg);
+      /* Same purple as the header. Creates visual bookends for the content */
+      
+      color: #ffffff;
+      /* White text for contrast against the purple background */
+      
+      border-radius: 0 0 8px 8px;
+      /* Rounded corners on the bottom only, matching the main container */
+      /* Order: top-left, top-right, bottom-right, bottom-left */
+    }
+
+    .footer-inner {
+      padding: 8px 20px 10px;
+      /* Asymmetric padding: top 8px, left/right 20px, bottom 10px. Slightly more space at bottom */
+      
+      display: flex;
+      /* Flexbox for arranging footer content */
+      
+      justify-content: space-between;
+      /* Pushes items to opposite ends (email on left, date on right) */
+      
+      align-items: center;
+      /* Vertically centers the footer content */
+      
+      font-size: 0.9rem;
+      /* Slightly smaller text for footer. Creates visual hierarchy - footer is less important */
+    }
+
+    .footer-email {
+      font-family: "Courier New", Courier, monospace;
+      /* Monospace font for email. Makes it look like code/technical content and stands out */
+      /* You could change this to a regular font if you prefer consistency */
+    }
+
+    /* Mobile responsiveness */
+    /* These styles kick in on smaller screens to make everything look good on mobile */
+    @media (max-width: 640px) {
+      /* For screens 640px and smaller (most phones in portrait mode) */
+      
+      .banner-inner {
+        flex-direction: row;
+        /* Keeps the banner layout horizontal on mobile. You could change to 'column' to stack vertically */
+        
+        align-items: center;
+        /* Ensures everything stays centered vertically */
+      }
+
+      .banner-title {
+        font-size: 1.4rem;
+        /* Smaller font size for mobile. Prevents text from wrapping or looking too big */
+        /* 1.4rem instead of 1.9rem. You could go even smaller (1.2rem) for very tight layouts */
+      }
+
+      .footer-inner {
+        flex-direction: column;
+        /* Stacks footer content vertically instead of horizontally on mobile */
+        
+        align-items: flex-start;
+        /* Aligns items to the left instead of centering them */
+        
+        gap: 4px;
+        /* Adds small space between the email and date when stacked */
+      }
+    }
+
+    /* Minimal hover effects */
+    /* These add subtle interactivity to links. Less is more for professional sites! */
+    .institution-link {
+      color: inherit;
+      display: inline-block;
+      text-decoration: underline;
+      <!-- text-decoration: none; -->
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+      text-decoration-color: rgba(0,0,0,0.35);
+      text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+      
+      transition: text-decoration-color 0.2s ease, transform 0.15s ease;
+    }
+
+    .institution-link:hover {
+      text-decoration-color: currentColor;
+      transform: scale(1.03);
+    }
+
+    .institution-link:visited {
+      color: inherit;
+    }
+
+    .institution-link:hover::after {
+      width: 100%;
+      /* Expands the underline to full width on hover. Creates the drawing effect! */
+    }
+
+
+    .banner-title .institution-link {
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<!-- End of head section. Now we move to the visible content! -->
+<body>
+<!-- The body contains all visible content on the page -->
+
+<div class="container">
+  <!-- This is our main responsive container that centers content and sets max-widths -->
+  <div class="page-box">
+  <!-- This creates the white box with rounded corners and border that contains everything -->
+
+  <header>
+    <!-- The header contains the banner with title and logo -->
+    <div class="banner-inner">
+      <h1 class="banner-title"><a href="https://math.iisc.ac.in/sastry-prize" class="institution-link">The KRS Sastry Prize</a></h1>
+      <!-- This is the main title. It's wrapped in a link that goes to the official prize page -->
+      <!-- The class="institution-link" gives it the hover effects we defined in the CSS -->
+      
+      <div class="banner-logo">
+        <img src="images/iisclogo.png" alt="IISc logo">
+        <!-- The IISc logo in the top right corner. Make sure this image file exists in the images folder! -->
+        <!-- The alt text is important for accessibility - screen readers read this to visually impaired users -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Main content area. This is where the tabs and all the important information lives -->
+    <div class="oblong-box">
+      <!-- This creates the rounded container with light background for our tab content -->
+      
+      <div class="tabs" role="tablist" aria-label="KRS Sastry Prize sections">
+        <!-- Tab navigation. These are the clickable buttons that switch content -->
+        <!-- role="tablist" and aria-label are for accessibility - helps screen reader users understand this is tab navigation -->
+        
+        <button class="tab-button" id="tab-about" role="tab" aria-controls="panel-about" aria-selected="true">About</button>
+        <!-- The "About" tab. It's active by default (aria-selected="true") -->
+        <!-- aria-controls tells screen readers which content panel this button controls -->
+        
+        <button class="tab-button" id="tab-nomination" role="tab" aria-controls="panel-nomination" aria-selected="false">The Nomination Process</button>
+        <!-- The "Nomination Process" tab. It's inactive by default -->
+        <!-- You could add more tabs here by following the same pattern! -->
+      </div>
+
+      <section id="panel-about" class="tab-panel active" role="tabpanel" aria-labelledby="tab-about">
+        <!-- This is the content panel for the "About" tab -->
+        <!-- It's visible by default because of the "active" class -->
+        <!-- role="tabpanel" and aria-labelledby are accessibility attributes -->
+        
+        <h2 class="subhead">ABOUT THE PRIZE</h2>
+        <!-- Purple subheading using our subhead class -->
+
+        <p>The KRS Sastry Prize honours an Indian mathematician, working in India, for their long-term contributions of fundamental importance to any branch of mathematics.</p>
+        <!-- First paragraph explaining what the prize is about -->
+
+        <p>Given once every four years, this award has been made possible by the generosity of the Late K.R. Shankaranarayana Sastry, a private individual who had a life-long interest in mathematics and was a keen well-wisher of the <a href="https://iisc.ac.in" class="institution-link">Indian Institute of Science (IISc)</a>. In accordance with the terms of the bequest, as stated in Sastry's will, the award is instituted and administered by IISc, in consultation with the <a href="https://math.iisc.ac.in" class="institution-link">Department of Mathematics at IISc</a>.</p>
+        <!-- Second paragraph with more details about the prize's origin and administration -->
+        <!-- The links use the institution-link class for consistent styling and hover effects -->
+
+        <p>The prize consists of a cash award of 5 lakh rupees and an accompanying citation. Following a nomination process, the recipient is selected by an independent jury of eminent mathematicians of international renown. <br></br></p>
+        <!-- Third paragraph describing the prize details and selection process -->
+        <!-- The <br></br> adds extra line spacing. You could remove this if you want tighter spacing -->
+
+	<!-- <p><font color="FFFFFF">...</font></p>-->
+        <!-- This is a commented-out paragraph. It was probably used for testing or as a placeholder -->
+        <!-- The white font color would make it invisible against the white background -->
+        <!-- You can delete this or repurpose it for future content -->
+
+        <h2 class="subhead">RULES OF THE PRIZE</h2>
+        <!-- Another purple subheading for the rules section -->
+        
+        <ul class="rules">
+          <!-- Unordered list for the prize rules. The class gives it custom styling -->
+          
+          <li>The KRS Sastry Prize is awarded to an Indian mathematician who is 60 years of age or less for their long-term contributions of fundamental importance to any branch of mathematics.</li>
+          <!-- Rule 1: Age limit and contribution criteria -->
+          
+          <li>Nominees must be no older than 60 years on January 1 of the year of the award.</li>
+          <!-- Rule 2: Specific age cutoff date -->
+          
+          <li>A nominee is required to have held regular positions, without a break, at institutions – whether public or private – in India for at least five years at the time of nomination. The nominee must be resident in India and can be a non-citizen.</li>
+          <!-- Rule 3: Residency and employment requirements -->
+          
+          <li>A person holding a permanent position at the Indian Institute of Science either at the time of nomination or during the period of consideration for the prize is ineligible for the prize.</li>
+          <!-- Rule 4: IISc conflict of interest rule -->
+          
+          <li>A nomination will be valid for one more cycle provided all the eligibility criteria are met.</li>
+          <!-- Rule 5: Nomination validity period -->
+          
+          <li>Winners of the KRS Sastry Prize cannot be nominated again.</li>
+          <!-- Rule 6: Previous winners rule -->
+          
+          <li>Nominations are sought, by invitation, from a diverse body of nominators whose composition will be reviewed by the KRS Sastry Endowment Standing Committee from time to time.</li>
+          <!-- Rule 7: Nomination process and committee -->
+          
+          <li>Self-nominations are not allowed.</li>
+          <!-- Rule 8: No self-nomination rule -->
+          
+          <li>The winner of the prize will be decided by a jury of eminent mathematicians from a broad range of specializations. The decision of this jury will be final.</li>
+          <!-- Rule 9: Jury selection process -->
+          
+          <li>In any given year, the jury may decide, in view of the nominations received, not to announce any winner for that year.</li>
+          <!-- Rule 10: No winner possibility -->
+        </ul>
+        <!-- End of rules list. You could easily add more rules by adding more <li> elements! -->
+      </section>
+
+      <section id="panel-nomination" class="tab-panel" role="tabpanel" aria-labelledby="tab-nomination">
+        <!-- This is the content panel for the "Nomination Process" tab -->
+        <!-- It's hidden by default (no "active" class) and becomes visible when the tab is clicked -->
+        
+        <h2 class="subhead">THE NOMINATION PROCESS</h2>
+
+        <p>Names of candidates for the KRS Sastry Prize may be proposed by anyone who has received an invitation to nominate. The KRS Sastry Endowment Standing Committee strives to reach a discerning, yet diverse, body of nominators whose composition will be reviewed by this Committee from time to time.</p>
+
+        <p><strong>Only those nominations and supporting materials received from an institutional e-mail address will be accepted.</strong> All nominations will be kept strictly confidential. <br></br></p>
+
+        <h3 class="subhead">ELIGIBILITY</h3>
+
+        <ul class="rules">
+          <li>Nominees must be no older than 60 years on January 1 of the year of the award. Therefore, to be considered for the 2026 KRS Sastry Prize, a nominee must be no older than 60 years on January 1, 2026.</li>
+
+          <li>To be eligible, a nominee must have held regular positions, without a break, at institutions — whether public or private — in India for at least five years at the time of nomination. The nominee must be resident in India and can be a non-citizen.</li>
+
+          <li>A nomination will be valid for one more cycle provided all the eligibility criteria are met.</li>
+
+          <li>Past winners of the KRS Sastry Prize and anyone holding a permanent position at the Indian Institute of Science either at the time of nomination or during the period of consideration for the prize cannot be nominated.</li>
+        </ul><br></br>
+
+
+        <h3 class="subhead">DEADLINE</h3>
+
+        <p>For the 2026 KRS Sastry Prize, a completed nomination form (link provided in the invitation to nominate) and all required supporting material must be received <strong>on or before May 25, 2026</strong>.</p>
+      </section>
+      <!-- End of nomination section -->
+    </div>
+    <!-- End of oblong-box container -->
+  </main>
+  <!-- End of main content area -->
+
+  <footer>
+    <!-- The footer at the bottom of the page with contact info and last updated date -->
+    <div class="footer-inner">
+      <div class="footer-email">Email: sastry.prize@iisc.ac.in</div>
+      <!-- Contact email. Uses the monospace font style we defined in CSS -->
+      
+      <!-- 🔧 UPDATE THIS DATE MANUALLY WHEN CONTENT CHANGES -->
+      <div id="last-updated">Last updated: 17 March 2026</div>
+    </div>
+  </footer>
+  <!-- End of footer -->
+
+  </div>
+  <!-- End of page-box -->
+</div>
+<!-- End of container -->
+
+<script>
+  // Tab switching logic
+  // This JavaScript makes the tabs functional - clicking buttons switches content panels
+  
+  (function() {
+    // Wrap everything in an IIFE (Immediately Invoked Function Expression)
+    // This prevents polluting the global namespace with our variables
+    
+    // Get references to all the tab buttons and content panels
+    var tabAbout = document.getElementById('tab-about');
+    var tabNom = document.getElementById('tab-nomination');
+    var panelAbout = document.getElementById('panel-about');
+    var panelNom = document.getElementById('panel-nomination');
+    // These variables hold references to our DOM elements so we can manipulate them
+
+    function activate(tab, panel) {
+      // This function switches which tab and panel are active
+      
+      // Update the aria-selected attributes for accessibility
+      tabAbout.setAttribute('aria-selected', tab === tabAbout ? 'true' : 'false');
+      tabNom.setAttribute('aria-selected', tab === tabNom ? 'true' : 'false');
+      // This tells screen readers which tab is currently selected
+      
+      // Toggle the 'active' class to show/hide the content panels
+      panelAbout.classList.toggle('active', panel === panelAbout);
+      panelNom.classList.toggle('active', panel === panelNom);
+      // The toggle method adds/removes the 'active' class based on the condition
+      // Only the matching panel gets the 'active' class, making it visible
+    }
+
+    // Add click event listeners to the tab buttons
+    tabAbout.addEventListener('click', function() {
+      // When the About tab is clicked, activate the About tab and panel
+      activate(tabAbout, panelAbout);
+    });
+
+    tabNom.addEventListener('click', function() {
+      // When the Nomination tab is clicked, activate the Nomination tab and panel
+      activate(tabNom, panelNom);
+    });
+  })();
+  // End of IIFE - the function runs immediately and keeps everything contained
+</script>
+<!-- End of JavaScript. This makes the page interactive! -->
+
+</body>
+<!-- End of body section - all visible content is above this -->
+</html>
+<!-- End of HTML document. The browser will parse and render everything above! -->
+

@@ -18,15 +18,20 @@ title: Postdocs
                         <div class="col-md-10">
                             <div>
                                 <h4>
-                                    {% if stu.webpage %}
-                                        <a href="{{ stu.webpage}}">{{ stu.name }}
-                                            (Ph.D.,
-                                            {{ stu.phd}})</a>
-                                    {% else %}
-                                        {{ stu.name }}
+                                    {% if stu.webpage and stu.webpage != "" %}
+                                        <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+                                        {% if stu.phd and stu.phd != "" %}
                                         (Ph.D.,
                                         {{ stu.phd}})
+                                        {% endif %}
+                                    {% else %}
+                                        {{ stu.name }}
+                                        {% if stu.phd and stu.phd != "" %}
+                                        (Ph.D.,
+                                        {{ stu.phd}})
+                                        {% endif %}
                                     {% endif %}
+                                </h4>
                                 </div>
                                 <div>
                                     <strong>Research Areas:</strong>
