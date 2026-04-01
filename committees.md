@@ -27,7 +27,7 @@ The present members and chairs are as follows:
 * Subhojoy Gupta (Int PhD coordinator)
 * Purvi Gupta
 * Swarnendu Sil
-* A. K. Nandakumaran (ex-officio)
+* Tirthankar Bhattacharyya (ex-officio)
 
 ---
 
@@ -62,7 +62,7 @@ The present members and chairs are as follows:
 * G.Bharali
 * Harish Seshadri
 * Abhishek Banerjee
-* A. K. Nandakumaran (ex-officio)
+* Tirthankar Bhattacharyya (ex-officio)
 
 ---
 
@@ -70,7 +70,6 @@ The present members and chairs are as follows:
 
 * [Apoorva Khare](https://math.iisc.ac.in/~khare/) (Convenor)
 * Tirthankar Bhattacharyya
-* A. K. Nandakumaran (ex-officio)
 
 ---
 
@@ -85,7 +84,7 @@ The present members and chairs are as follows:
 * Subhojoy Gupta
 * Swarnendu Sil
 * Apoorva Khare
-* A.K Nandakumaran (ex-officio)
+* Tirthankar Bhattacharyya (ex-officio)
 
 ---
 
