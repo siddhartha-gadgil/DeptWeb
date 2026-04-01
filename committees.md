@@ -62,7 +62,6 @@ The present members and chairs are as follows:
 * G.Bharali
 * Harish Seshadri
 * Abhishek Banerjee
-* Tirthankar Bhattacharyya (ex-officio)
 
 ---
 
