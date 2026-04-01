@@ -21,8 +21,8 @@ By tradition, these committees have the same members but different members are c
 
 The present members and chairs are as follows:
 
-* [Mahesh Kakde](https://math.iisc.ac.in/~maheshkakde/)(Chair, DCC)
-* [Vamsi Pritham Pingali](https://math.iisc.ac.in/~vamsipingali/)(Chair, UG-DCC)
+* [Mahesh Kakde](https://math.iisc.ac.in/~maheshkakde/) (Chair, DCC)
+* [Vamsi Pritham Pingali](https://math.iisc.ac.in/~vamsipingali/) (Chair, UG-DCC)
 * R. Venkatesh
 * Subhojoy Gupta (Int PhD coordinator)
 * Purvi Gupta
@@ -42,7 +42,7 @@ The present members and chairs are as follows:
 
 ### Postdoctoral fellows committee
 
-* [Abhishek Banerjee](https://sites.google.com/site/abhishekb1313/)(Convener)
+* [Abhishek Banerjee](https://sites.google.com/site/abhishekb1313/) (Convener)
 * Soumya Das
 * Swarnendu Sil
 * Ved Datar
@@ -51,14 +51,14 @@ The present members and chairs are as follows:
 
 ### Computer committee
 
-* [Shaunak Deo](https://sites.google.com/view/shaunakdeo/)(Convener)
+* [Shaunak Deo](https://sites.google.com/view/shaunakdeo/) (Convener)
 * Arka Mallick
 
 ---
 
 ### Maintenance committee
 
-* [Tirthankar Bhattacharyya](https://math.iisc.ac.in/~tirtha/)(Convener)
+* [Tirthankar Bhattacharyya](https://math.iisc.ac.in/~tirtha/) (Convener)
 * G.Bharali
 * Harish Seshadri
 * Abhishek Banerjee
