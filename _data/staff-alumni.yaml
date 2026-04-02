@@ -1,0 +1,43 @@
+# Former Staff Data
+# Fields: name, user-id, image, employment, position_held, start_year, end_year, next_position, contact
+
+# Example entry (do not delete):
+# - name: Thirunavukkarasu Ramu
+#   user-id: thiru - can be anything. not necessarily be iisc user id. A unique identifier.
+#   image: true - name: image in the format stu-userid.jpg
+#   employment: Regular or Contractual
+#   position_held: System Administrator
+#   start_year: 2010
+#   end_year: 2020
+#   next_position: Senior System Administrator at XYZ Company
+#   contact: email@example.com
+
+- name: Thirunavukkarasu Ramu
+  user-id: thiru
+  image: true
+  employment: Contractual
+  position_held: System Administrator
+  start_year: 2020
+  end_year: 2023
+  next_position: Technology Manager at CENSE, IISc
+  contact: mrtarasu@gmail.com
+  
+- name: Surenderan K
+  user-id: surenderan
+  image: true
+  employment: Contractual
+  position_held: System Administrator
+  start_year: 2013
+  end_year: 2020
+  next_position: Senior Linux System Administrator, Syniverse
+  contact: thiru@gmail.com
+  
+- name: Narendranath
+  user-id: narendra
+  image: false
+  employment: Regular
+  position_held: Office Supervisor
+  start_year: 1986
+  end_year: 2022
+  next_position: Retd.
+  contact: 
