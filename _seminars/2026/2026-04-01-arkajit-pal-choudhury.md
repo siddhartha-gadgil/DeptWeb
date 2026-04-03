@@ -24,3 +24,6 @@ Gromov hyperbolic space, hence established an equivalence of categories between 
 Maximal Gromov hyperbolic spaces exhibit rich geometric structures. In this talk, we demonstrate that maximal Gromov hyperbolic spaces with finite boundary admit a
 polyhedral complex structure. We will also discuss several Gromov–Hausdorff convergence results for these spaces and their boundaries, along with some applications of
 these results. As a byproduct, we obtain a convergence theorem for CAT($-1$) spaces. This is joint work with Prof. Kingshook Biswas.
+
+The [video of this talk](https://www.youtube.com/watch?v=6oQZsnE84Q8&list=PLQXtaLhI1-1qxOEykh-1WOFkYuIzEE-ev) is available
+on the [IISc Math Department channel](https://www.youtube.com/channel/UCR5Igvq9HScQKlPr-0coSIg/playlists).
