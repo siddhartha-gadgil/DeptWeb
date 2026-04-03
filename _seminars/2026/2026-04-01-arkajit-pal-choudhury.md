@@ -13,7 +13,7 @@ It is well-known that an isometry between real hyperbolic spaces extends natural
 Gromov (or visual) boundaries. The same phenomenon holds for any boundary continuous Gromov hyperbolic space. The natural question then arises:
 Does a Möbius homeomorphism between the Gromov boundaries extends to isometry of the underlying spaces? 
 This is the Möbius rigidity problem, related to other problems such as the marked length spectrum rigidity and geodesic conjugacy problem for negatively curved manifolds.
-Möbius rigidity is known to hold for real hyperbolic spaces, and plays a role in several rigidity results, such us Mostow rigidity. 
+Möbius rigidity is known to hold for real hyperbolic spaces, and plays a role in several rigidity results, such as Mostow rigidity. 
 
 For "good" (i.e. proper, geodesically complete) Gromov hyperbolic spaces the Gromov boundary is a special type of compact metrisable space called quasi-metric antipodal
 space. In a paper published in 2024, Biswas gave a positive answer to the Möbius rigidity problem for a distinguished sub-class of good Gromov hyperbolic spaces called
