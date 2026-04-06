@@ -1,0 +1,97 @@
+---
+title: Former Staff
+---
+<div class="col-md-12">
+  <h2>Former Staff members of the Department</h2>
+
+  {% if site.data.former-staff %}
+    {% assign regular_staff = site.data.former-staff | where: "employment", "Regular" %}
+    {% assign contractual_staff = site.data.former-staff | where: "employment", "Contractual" %}
+    
+    {% comment %}Proper sorting: end_year DESC, then name ASC{% endcomment %}
+    {% assign regular_sorted = regular_staff | sort: 'end_year' | reverse | sort: 'name' %}
+    {% assign contractual_sorted = contractual_staff | sort: 'end_year' | reverse | sort: 'name' %}
+
+    {% comment %}Regular Staff Section{% endcomment %}
+    {% if regular_sorted.size > 0 %}
+      <h3>Regular Staff</h3>
+      <table class="table table-striped">
+        {% for staff in regular_sorted %}
+          <tr>
+            <td>
+              <div class="row">
+                <div class="col-md-10">
+                  <h5>{{ staff.name }}</h5>
+                  <div><b>Position:</b> {{ staff.position_held }}</div>
+                  {% if staff.start_year and staff.end_year %}
+                    <div><b>Service Period:</b> {{ staff.start_year }} &ndash; {{ staff.end_year }}</div>
+                  {% endif %}
+                  {% if staff.next_position %}
+                    {% if staff.next_position == "Retd." %}
+                      <div><b>Present Position:</b> Retired</div>
+                    {% else %}
+                      <div><b>Present Position:</b> {{ staff.next_position }}</div>
+                    {% endif %}
+                  {% endif %}
+                  {% if staff.contact %}
+                    <div><b>Contact:</b> {{ staff.contact }}</div>
+                  {% endif %}
+                </div>
+                <div class="col-md-2">
+                  {% if staff.image and staff.user-id %}
+                    {% assign image_path = "/images/stu-" | append: staff.user-id | append: ".jpg" %}
+                    <img class="img-fluid" src="{{site.baseurl}}{{image_path}}" alt="{{ staff.name }}" 
+                         onerror="this.src='{{site.baseurl}}/images/default.png'">
+                  {% endif %}
+                </div>
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endif %}
+
+    {% comment %}Contractual Staff Section{% endcomment %}
+    {% if contractual_sorted.size > 0 %}
+      <h3>Contractual Staff</h3>
+      <table class="table table-striped">
+        {% for staff in contractual_sorted %}
+          <tr>
+            <td>
+              <div class="row">
+                <div class="col-md-10">
+                  <h5>{{ staff.name }}</h5>
+                  <div><b>Position:</b> {{ staff.position_held }}</div>
+                  {% if staff.start_year and staff.end_year %}
+                    <div><b>Service Period:</b> {{ staff.start_year }} &ndash; {{ staff.end_year }}</div>
+                  {% endif %}
+                  {% if staff.next_position %}
+                    {% if staff.next_position == "Retd." %}
+                      <div><b>Present Position:</b> Retired</div>
+                    {% else %}
+                      <div><b>Present Position:</b> {{ staff.next_position }}</div>
+                    {% endif %}
+                  {% endif %}
+                  {% if staff.contact %}
+                    <div><b>Contact:</b> {{ staff.contact }}</div>
+                  {% endif %}
+                </div>
+                <div class="col-md-2">
+                  {% if staff.image and staff.user-id %}
+                    {% assign image_path = "/images/stu-" | append: staff.user-id | append: ".jpg" %}
+                    <img class="img-fluid" src="{{site.baseurl}}{{image_path}}" alt="{{ staff.name }}" 
+                         onerror="this.src='{{site.baseurl}}/images/default.png'">
+                  {% endif %}
+                </div>
+              </div>
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    {% endif %}
+
+  {% else %}
+    <p>No former staff data available yet.</p>
+  {% endif %}
+
+</div>
