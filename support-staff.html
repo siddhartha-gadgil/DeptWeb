@@ -3,10 +3,11 @@ title: Support Staff
 ---
 <div class="col-md-12">
   <h2>Support Staff</h2>
+  <p><em>Sorted by service period (longest to oldest)</em></p>
 
   {% if site.data.support-staff %}
     {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-    {% assign sorted_staff = site.data.support-staff | sort: 'start_date' | sort: 'name' %}
+    {% assign sorted_staff = site.data.support-staff | sort: 'start_date' %}
 
     <table class="table table-striped">
       {% for staff in sorted_staff %}
@@ -28,8 +29,6 @@ title: Support Staff
               <div class="col-md-2">
                 {% if staff.image and staff.user-id %}
                   <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{staff.user-id}}.jpg" alt="{{ staff.name }}">
-                {% else %}
-                  <img class="img-fluid" src="{{site.baseurl}}/images/default.png" alt="{{ staff.name }}">
                 {% endif %}
               </div>
             </div>
