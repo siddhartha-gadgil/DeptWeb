@@ -3,15 +3,26 @@ title: Support Staff
 ---
 <div class="col-md-12">
   <h2>Support Staff</h2>
-  <p><em>Sorted by service period (longest to oldest)</em></p>
+
+  <h4>Sorted by service period (longest to oldest)</h4>
 
   {% if site.data.support-staff %}
     {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-    {% assign sorted_staff = site.data.support-staff | sort: 'start_date' %}
+    
+    {% assign staff_with_year = "" | split: "" %}
+    {% for s in site.data.support-staff %}
+      {% assign year = s.start_date | slice: -4, 4 | plus: 0 %}
+      {% assign year_obj = year | append: "" %}
+      {% assign s_with_year = s | merge: year_obj %}
+      {% assign staff_with_year = staff_with_year | push: s_with_year %}
+    {% endfor %}
+    
+    {% assign sorted_staff = staff_with_year | sort: "name" %}
+    {% assign sorted_staff = sorted_staff | sort: "year" %}
 
     <table class="table table-striped">
       {% for staff in sorted_staff %}
-        {% assign start_year = staff.start_date | slice: -4, 4 %}
+        {% assign start_year = staff.year %}
         {% assign years_of_service = current_year | minus: start_year %}
         
         <tr>
