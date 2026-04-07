@@ -5,18 +5,13 @@ title: Support Staff
 <div class="col-md-12">
   <h2>Support Staff</h2>
 
-  <h4>Sorted by service period</h4>
-
   {% if site.data.support-staff %}
-    {% assign current_year = site.time | date: "%Y" | plus: 0 %}
 
     {% assign sorted_staff = site.data.support-staff | sort: "name" %}
     {% assign sorted_staff = sorted_staff | sort: "year" %}
 
     <table class="table table-striped">
       {% for staff in sorted_staff %}
-        {% assign start_year = staff.year | plus: 0 %}
-        {% assign years_of_service = current_year | minus: start_year %}
 
         <tr>
           <td>
@@ -25,12 +20,6 @@ title: Support Staff
               <div class="col-md-10">
                 <h5>{{ staff.name }}</h5>
                 <div><b>Role:</b> {{ staff.role }}</div>
-
-                {% if years_of_service >= 5 %}
-                  <div><b>Serving the Department since {{ start_year }}</b></div>
-                {% else %}
-                  <div><b>With the Department since {{ start_year }}</b></div>
-                {% endif %}
               </div>
 
               <div class="col-md-2">
