@@ -1,6 +1,7 @@
 ---
 title: Support Staff
 ---
+
 <div class="col-md-12">
   <h2>Support Staff</h2>
 
@@ -8,45 +9,43 @@ title: Support Staff
 
   {% if site.data.support-staff %}
     {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-    
-    {% assign staff_with_year = "" | split: "" %}
-    {% for s in site.data.support-staff %}
-      {% assign year = s.start_date | slice: -4, 4 | plus: 0 %}
-      {% assign year_obj = year | append: "" %}
-      {% assign s_with_year = s | merge: year_obj %}
-      {% assign staff_with_year = staff_with_year | push: s_with_year %}
-    {% endfor %}
-    
-    {% assign sorted_staff = staff_with_year | sort: "name" %}
+
+    {% assign sorted_staff = site.data.support-staff | sort: "name" %}
     {% assign sorted_staff = sorted_staff | sort: "year" %}
 
     <table class="table table-striped">
       {% for staff in sorted_staff %}
-        {% assign start_year = staff.year %}
+        {% assign start_year = staff.year | plus: 0 %}
         {% assign years_of_service = current_year | minus: start_year %}
-        
+
         <tr>
           <td>
             <div class="row">
+              
               <div class="col-md-10">
                 <h5>{{ staff.name }}</h5>
                 <div><b>Role:</b> {{ staff.role }}</div>
+
                 {% if years_of_service >= 5 %}
                   <div><b>Serving the Department since {{ start_year }}</b></div>
                 {% else %}
                   <div><b>With the Department since {{ start_year }}</b></div>
                 {% endif %}
               </div>
+
               <div class="col-md-2">
                 {% if staff.image and staff.user-id %}
-                  <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{staff.user-id}}.jpg" alt="{{ staff.name }}">
+                  <img class="img-fluid" src="{{ site.baseurl }}/images/stu-{{ staff.user-id }}.jpg" alt="{{ staff.name }}">
                 {% endif %}
               </div>
+
             </div>
           </td>
         </tr>
+
       {% endfor %}
     </table>
+
   {% else %}
     <p>No support staff data available yet.</p>
   {% endif %}
