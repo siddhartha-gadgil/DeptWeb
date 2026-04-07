@@ -1,0 +1,44 @@
+---
+title: Support Staff
+---
+<div class="col-md-12">
+  <h2>Support Staff</h2>
+
+  {% if site.data.support-staff %}
+    {% assign current_year = site.time | date: "%Y" | plus: 0 %}
+    {% assign sorted_staff = site.data.support-staff | sort: 'start_date' | sort: 'name' %}
+
+    <table class="table table-striped">
+      {% for staff in sorted_staff %}
+        {% assign start_year = staff.start_date | slice: -4, 4 %}
+        {% assign years_of_service = current_year | minus: start_year %}
+        
+        <tr>
+          <td>
+            <div class="row">
+              <div class="col-md-10">
+                <h5>{{ staff.name }}</h5>
+                <div><b>Role:</b> {{ staff.role }}</div>
+                {% if years_of_service >= 5 %}
+                  <div><b>Serving the Department since {{ start_year }}</b></div>
+                {% else %}
+                  <div><b>With the Department since {{ start_year }}</b></div>
+                {% endif %}
+              </div>
+              <div class="col-md-2">
+                {% if staff.image and staff.user-id %}
+                  <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{staff.user-id}}.jpg" alt="{{ staff.name }}">
+                {% else %}
+                  <img class="img-fluid" src="{{site.baseurl}}/images/default.png" alt="{{ staff.name }}">
+                {% endif %}
+              </div>
+            </div>
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% else %}
+    <p>No support staff data available yet.</p>
+  {% endif %}
+
+</div>

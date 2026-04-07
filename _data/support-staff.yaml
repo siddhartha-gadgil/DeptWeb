@@ -1,0 +1,38 @@
+# Support Staff Data
+# Fields: name, user-id, image, role, start_date
+
+- name: Papanna
+  user-id: papanna
+  image: true
+  role: Gardener
+  start_date: "01012000"
+
+- name: Malathi R
+  user-id: malathi
+  image: true
+  role: Housekeeping Staff
+  start_date: "01072013"
+
+- name: Subhas Rong
+  user-id: subhas
+  image: true
+  role: Housekeeping Staff
+  start_date: "03092018"
+
+- name: Shiridi Jonagiri
+  user-id: shiridi
+  image: true
+  role: Housekeeping Staff
+  start_date: "01012022"
+
+- name: Hemesh
+  user-id: hemesh
+  image: true
+  role: Office Attendant
+  start_date: "08032024"
+
+- name: Hema Valli
+  user-id: hema
+  image: true
+  role: Housekeeping Staff
+  start_date: "15122025"
