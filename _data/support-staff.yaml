@@ -3,7 +3,7 @@
 
 - name: Papanna N
   user-id: papanna
-  image: false
+  image: true
   role: Gardener
   start_date: "01012000"
   year: 2000
@@ -17,21 +17,21 @@
 
 - name: Subhash Chandra Rong
   user-id: subhash
-  image: false
+  image: true
   role: Housekeeping Staff
   start_date: "03092018"
   year: 2018
 
 - name: Shiridi Jonagiri
   user-id: shiridi
-  image: false
+  image: true
   role: Housekeeping Staff
   start_date: "01012022"
   year: 2022
 
 - name: Hemesha G
   user-id: hemesha
-  image: false
+  image: true
   role: Office Attendant
   start_date: "08032024"
   year: 2024
