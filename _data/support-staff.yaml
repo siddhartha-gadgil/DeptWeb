@@ -10,7 +10,7 @@
 
 - name: Malathi R
   user-id: malathi
-  image: false
+  image: true
   role: Housekeeping Staff
   start_date: "01072013"
   year: 2013
@@ -38,7 +38,7 @@
 
 - name: Hemavathi
   user-id: hemavathi
-  image: false
+  image: true
   role: Housekeeping Staff
   start_date: "15122025"
   year: 2025
