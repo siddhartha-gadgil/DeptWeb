@@ -16,4 +16,4 @@ perspective forms part of Grothendieck's vision of a motivic cohomology theory.
 Focusing on smooth and projective varieties over the complex numbers, the aim of this talk will be twofold. First, I will introduce algebraic cycles, examples, and various
 maps connecting them to singular and de Rham cohomology groups, as well as a particular bilinear pairing called the height pairing. This part will be a survey. Next, I will
 introduce my current topic of research (joint with Irene Spelta): the study of the limit of height pairings for a family of smooth projective varieties. I will explore this
-topic through a particularly interesting algebraic cycle called the Ceresa cycle. ([https://arxiv.org/abs/2604.01842](Joint work) with Irene Spelta.) 
+topic through a particularly interesting algebraic cycle called the Ceresa cycle. ([Joint work](https://arxiv.org/abs/2604.01842) with Irene Spelta.) 
