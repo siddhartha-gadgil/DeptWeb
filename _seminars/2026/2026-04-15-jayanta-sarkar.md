@@ -1,7 +1,7 @@
 ---
 speaker: Jayanta Sarkar (IISER Thiruvananthapuram)
 title: "L^p Heisenberg–Pauli–Weyl uncertainty inequalities on Heisenberg groups"
-date: 8 Apr, 2026
+date: 15 Apr, 2026
 time: 4 pm
 start_time: 16:00
 venue: Microsoft Teams (online)
