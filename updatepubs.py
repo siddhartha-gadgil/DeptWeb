@@ -30,7 +30,7 @@ def view(entry_map):
 def main():
     data_dir = Path("_data")
     pub_file = data_dir / "publications.bib"
-    new_pubs_file = Path("tmp") / "test.bib"
+    new_pubs_file = Path("tmp") / "newpubs.bib"
 
     if pub_file.exists():
         with open(pub_file, 'r', encoding='utf-8') as f:
