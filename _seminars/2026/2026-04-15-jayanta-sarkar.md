@@ -6,6 +6,7 @@ time: 4 pm
 start_time: 16:00
 venue: Microsoft Teams (online)
 series: "APRG Seminar"
+slides: "2026-04-16-sarkar-slides.pdf"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 ---
 
