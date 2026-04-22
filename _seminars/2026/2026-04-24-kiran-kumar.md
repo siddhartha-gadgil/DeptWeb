@@ -1,5 +1,5 @@
 ---
-speaker: Kiran Kumar (NYU, Abu Dhabi)
+speaker: Kiran Kumar (New York University Abu Dhabi, United Arab Emirates)
 title: "Ergodicity in discrete-time quantum walks"
 date: 24 Apr, 2026
 time: 11:30 am
