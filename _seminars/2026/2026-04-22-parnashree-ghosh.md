@@ -3,6 +3,7 @@ speaker: Parnashree Ghosh (IISER Pune)
 title: "Cancellation, embedding, and characterization in affine geometry"
 date: 22 Apr, 2026
 time: 2 pm
+start_time: 14:00
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html

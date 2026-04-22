@@ -4,6 +4,7 @@ title: "Characterization of eternal solutions of the KPZ fixed point"
 date: 24 Apr, 2026
 time: 2 pm
 start_time: 14:00
+series: "APRG Seminar"
 venue: LH-5, Department of mathematics
 ---
 

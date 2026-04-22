@@ -4,6 +4,7 @@ title: "Ergodicity in discrete-time quantum walks"
 date: 24 Apr, 2026
 time: 11:30 am
 start_time: 11:30
+series: "APRG Seminar"
 venue: LH-5, Department of mathematics
 ---
 
