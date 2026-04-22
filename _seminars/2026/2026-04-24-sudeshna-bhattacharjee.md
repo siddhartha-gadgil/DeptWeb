@@ -1,5 +1,5 @@
 ---
-speaker: Sudeshna Bhattacharjee (University of Bristol)
+speaker: Sudeshna Bhattacharjee (University of Bristol, UK)
 title: "Characterization of eternal solutions of the KPZ fixed point"
 date: 24 Apr, 2026
 time: 2 pm
