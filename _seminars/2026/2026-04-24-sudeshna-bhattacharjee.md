@@ -11,7 +11,7 @@ The KPZ fixed point is a Markov process on the space of upper semi-continuous fu
 for models in the KPZ universality class and has been shown to be such for many solvable (and even some unsolvable) models. The directed landscape provides a coupling
 for the growth of the KPZ fixed point starting from all initial conditions. Under this coupling, starting from an initial condition, the forward evolution of the KPZ
 fixed point can be described by a variational problem involving the directed landscape. It is an interesting question to characterize all eternal solutions of the KPZ
-fixed point (i.e.\ functions defined for both forward and backward times and satisfying the variational formula at all times). In this talk we give a full characterization
+fixed point (i.e. functions defined for both forward and backward times and satisfying the variational formula at all times). In this talk we give a full characterization
 of these eternal solutions.
 
 Directed landscape can be thought of as a random metric space and geodesics and semi-infinite geodesics are well studied objects. Semi-infinite geodesics in different
