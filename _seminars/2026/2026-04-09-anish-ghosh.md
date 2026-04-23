@@ -6,6 +6,13 @@ time:  3:30 – 5:30 pm (with a 15 minute break in between)
 start_time: 15:30
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+lectures:
+    - title:
+      abstract: 
+      slides: "2026-04-09-AnishGhosh-1.pdf"
+    - title:
+      abstract: 
+      slides: "2026-04-09-AnishGhosh-2.pdf"
 ---
 
 I will discuss some classical gems from number theory describing the behaviour of continued fraction expansions. I will then provide modern upgrades to these theorems
