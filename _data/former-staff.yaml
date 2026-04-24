@@ -14,7 +14,7 @@
 
 - name: Thirunavukkarasu Ramu
   user-id: Thirunavukkarasu
-  image: true
+  image: false
   employment: Contractual
   position_held: System Administrator
   start_year: 2020
