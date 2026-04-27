@@ -1,0 +1,73 @@
+---
+title: Careers in Mathematics
+---
+
+<h2>Careers in Mathematics</h2>
+
+<p>A rigorous training in mathematics has never been more valuable. Beyond the
+traditional paths in academia and research, mathematicians are now in high demand
+across a range of industries.</p>
+
+<h3>Pure Mathematics Careers</h3>
+
+<p>A major part of the training imparted in the Mathematics Department is geared
+towards a deep understanding of various areas of modern rigorous mathematics.
+This training can be a springboard for the following careers:</p>
+
+<p><b>Academic and Research Positions.</b>
+Faculty and postdoctoral positions are available at universities and research
+institutions across India and internationally. Major Indian institutions that
+hire mathematics Ph.D. graduates include
+<a href="https://www.tifr.res.in/" target="_blank">TIFR</a>,
+<a href="https://www.imsc.res.in/" target="_blank">IMSc</a>,
+<a href="https://www.isical.ac.in/" target="_blank">ISI</a>,
+<a href="https://www.cmi.ac.in/" target="_blank">CMI</a>,
+the IISERs, NISER, IITs, and IISc itself. Postdoctoral positions at these and
+international institutions are a common first step. Teaching positions in colleges
+and universities (including private engineering colleges) also remain widely
+available. (See <a href="https://www.mathjobs.org/" target="_blank">MathJobs.org</a>,
+the standard portal for academic math positions worldwide.)</p>
+
+<p><b>Formal Methods and Automated Theorem Proving.</b>
+There is growing demand in industry for expertise in formal verification and
+automated theorem proving, particularly using proof assistants such as
+<a href="https://lean-lang.org/" target="_blank">Lean</a>.
+In India, companies such as
+<a href="https://east.emergence.ai/" target="_blank">Emergence AI</a>
+are building verification-native AI systems using Lean.
+Internationally, pure mathematicians in various areas have been hired by
+companies such as
+<a href="https://openai.com/" target="_blank">OpenAI</a>,
+<a href="https://deepmind.google/" target="_blank">Google DeepMind</a>,
+<a href="https://axiommath.ai/" target="_blank">Axiom</a>, and
+<a href="https://harmonic.fun/" target="_blank">Harmonic</a>,
+which are actively building AI systems grounded in formal mathematical reasoning.</p>
+
+<h3>Applied Mathematics Careers</h3>
+
+<p>The grounding in pure mathematics, combined with the flexibility in our
+UG and PG programmes, enables students to take various applied courses at
+IISc &mdash; both within and outside the Mathematics Department. This training
+can prepare students for applied mathematical careers such as the following:</p>
+
+<p><b>Quantitative Finance.</b>
+Financial services remain a major employer of mathematicians.
+Quantitative roles at trading firms, hedge funds, and investment banks require
+skills in stochastic calculus, PDEs, probability theory, and numerical methods.
+Global firms like DE Shaw, Two Sigma, Goldman Sachs, JP Morgan, and MSCI have
+significant quantitative research operations in India.</p>
+
+<p><b>Data Science and Machine Learning.</b>
+The mathematical foundations of modern data science and machine learning &mdash;
+linear algebra and probability &mdash; are central to a
+mathematics education. Students who complement their mathematical training with
+computational coursework are well positioned for roles such as data scientist,
+machine learning engineer, and AI researcher at technology companies and
+research labs.</p>
+
+<p><b>Other Industry Roles.</b>
+Mathematicians also find careers in cryptography and cybersecurity,
+operations research, consulting, the semiconductor and chip design
+industry, scientific computing, and increasingly in biotech and computational
+biology. Almost all branches of mathematics find applications in modern
+industry.</p>
