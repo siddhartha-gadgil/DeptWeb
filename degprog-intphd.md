@@ -43,8 +43,6 @@ The following are the eligible degree programmes (modes of entry):
   </tbody>
 </table>
 
-<p>&nbsp;</p>
-
 <p>Students admitted to the Integrated Ph.D. programme need to complete 64 credits
 of course work (typically, a course is worth 3 credits) and a 7-credit project
 by the end of the fourth semester of their joining the programme.
