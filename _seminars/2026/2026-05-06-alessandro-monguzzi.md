@@ -1,7 +1,7 @@
 ---
 speaker: Alessandro Monguzzi (Università degli Studi di Bergamo)
 title: "On the L^p-regularity problem for the Bergman projection on Rudin ball quotients"
-date: 29 Apr, 2026
+date: 6 May, 2026
 time: 4 pm
 start_time: 16:00
 venue: Hybrid - Microsoft Teams (online) and LH-1, Department of Mathematics
