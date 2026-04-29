@@ -21,22 +21,31 @@ For more details, please visit the
 
 The following are the eligible degree programmes (modes of entry):
 
-| Degree Programme | Discipline (Branch) |
-|------------------|---------------------|
-| B Math | Mathematical Sciences |
-| B Math | Mathematics |
-| B Sc (3 Years) | Any Discipline (Branch) |
-| B Sc (Engg) | Any Discipline (Branch) |
-| B Sc (Tech) | Any Discipline (Branch) |
-| B Tech | Any Discipline (Branch) |
-| BE | Any Discipline (Branch) |
-| Four year B.Sc. (Hons.) | Any Discipline (Branch) |
-| Four year BSc/BS/BS(Res) | Any Discipline (Branch) |
-| M Sc (Integrated) | Any Discipline (Branch) |
-| MS (dual deg BSMS) | Any Discipline (Branch) |
+<table class="table table-bordered table-sm" style="max-width: 600px;">
+  <thead class="thead-light">
+    <tr>
+      <th>Degree Programme</th>
+      <th>Discipline (Branch)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>B Math</td><td>Mathematical Sciences</td></tr>
+    <tr><td>B Math</td><td>Mathematics</td></tr>
+    <tr><td>B Sc (3 Years)</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>B Sc (Engg)</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>B Sc (Tech)</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>B Tech</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>BE</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>Four year B.Sc. (Hons.)</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>Four year BSc/BS/BS(Res)</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>M Sc (Integrated)</td><td>Any Discipline (Branch)</td></tr>
+    <tr><td>MS (dual deg BSMS)</td><td>Any Discipline (Branch)</td></tr>
+  </tbody>
+</table>
 
+<p>&nbsp;</p>
 
-Students admitted to the Integrated Ph.D. programme need to complete 64 credits
+<p>Students admitted to the Integrated Ph.D. programme need to complete 64 credits
 of course work (typically, a course is worth 3 credits) and a 7-credit project
 by the end of the fourth semester of their joining the programme.
 (View the webpage [Courses]({{site.baseurl}}/course-list.html) for more information.)
