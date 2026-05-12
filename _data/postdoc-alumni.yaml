@@ -1074,3 +1074,15 @@
   start: "2024"
   end: "2025"
   present: Assistant Professor, IIT Ropar
+  
+- name: Himadri Halder
+  webpage: https://sites.google.com/view/halderhim/home
+  phd: Indian Institute of Technology Bhubaneswar
+  user-id: himadrih
+  position: NBHM Postdoctoral Fellow
+  image: true
+  research-area: Complex Analysis and Functional Analysis
+  office: R-28
+  start: "2026"
+  end: "2026"
+  present: Assistant Professor, IIT Dhanbad
