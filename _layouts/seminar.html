@@ -20,6 +20,9 @@ href="{% if page.website %}{{ page.website }}#{{ page.date | date: "%Y-%m-%d" }}
  <h5><strong> Title: </strong> {{ page.title }}
  </h5>
 <h5>  <strong>Speaker: </strong> {{page.speaker}} </h5>
+{% if page.supervisors %}
+<h5><strong>Research supervisors: </strong> {{ page.supervisors }}</h5>
+{% endif %}
 <h5>  <strong>Date: </strong>{{ page.date | date_to_long_string }} </h5>
 {% if page.time %}
 <h5><strong>Time:</strong> {{page.time}}</h5>
