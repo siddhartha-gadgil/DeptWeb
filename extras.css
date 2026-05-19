@@ -26,10 +26,18 @@ a {
 }
 
 .news-poster-thumb {
-  width: 110px;
+  width: auto;
   max-width: 110px;
+  max-height: 130px;
   height: auto;
   border: 1px solid #dddddd;
+  overflow: hidden;
+  animation: poster-zoom-in 8s ease-in-out infinite alternate;
+}
+
+@keyframes poster-zoom-in {
+  from { transform: scale(1); }
+  to   { transform: scale(1.15); }
 }
 
 .news-poster-link {

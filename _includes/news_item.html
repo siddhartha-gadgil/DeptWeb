@@ -12,12 +12,7 @@
   {% capture poster_path %}/assets/posters/{{ p.date | date: "%Y-%m-%d" }}-{{ slug }}.png{% endcapture %}
 <li class="news-item news-item-featured">
   <div class="row no-gutters">
-    <div class="col-auto">
-      <a href="{{ href }}">
-        <img class="news-poster-thumb" src="{{ poster_path | prepend: site.baseurl }}" alt="{% if p.poster_alt %}{{ p.poster_alt | escape }}{% else %}Poster{% endif %}">
-      </a>
-    </div>
-    <div class="col pl-3">
+    <div class="col pr-3">
       {% if show_date %}
       <span class="post-meta">{{ p.date | date: "%b %-d, %Y" }}</span>
       {% endif %}
@@ -28,6 +23,11 @@
       <div class="news-poster-link">
         <a href="{{ poster_path | prepend: site.baseurl }}">View poster</a>
       </div>
+    </div>
+    <div class="col-auto">
+      <a href="{{ href }}">
+        <img class="news-poster-thumb" src="{{ poster_path | prepend: site.baseurl }}" alt="{% if p.poster_alt %}{{ p.poster_alt | escape }}{% else %}Poster{% endif %}">
+      </a>
     </div>
   </div>
 </li>
