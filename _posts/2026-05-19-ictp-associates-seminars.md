@@ -7,4 +7,4 @@ poster: true
 poster_alt: "Poster: ICTP Associates Seminars"
 ---
 
-Prof. Apoorva Khare is opening the Associates Seminar Series launched by the [International Centre for Theoretical Physics](https://ictp.global/networks/events/213035), with a talk titled “The History of Majorization Inequalities: from Newton to Macdonald”.
+Prof. Apoorva Khare is opening the Associates Seminar Series launched by the [International Centre for Theoretical Physics](https://ictp.global/), with a [talk titled “The History of Majorization Inequalities: from Newton to Macdonald”](https://ictp.global/networks/events/213035).
