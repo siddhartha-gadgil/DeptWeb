@@ -26,7 +26,7 @@
     </div>
     <div class="col-auto">
       <a href="{{ href }}">
-        <img class="news-poster-thumb" src="{{ poster_path | prepend: site.baseurl }}" alt="{% if p.poster_alt %}{{ p.poster_alt | escape }}{% else %}Poster{% endif %}">
+        <img class="news-poster-thumb" width="85" src="{{ poster_path | prepend: site.baseurl }}" alt="{% if p.poster_alt %}{{ p.poster_alt | escape }}{% else %}Poster{% endif %}">
       </a>
     </div>
   </div>

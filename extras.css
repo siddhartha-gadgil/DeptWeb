@@ -26,23 +26,24 @@ a {
 }
 
 .news-poster-thumb {
-  width: auto;
-  max-width: 110px;
-  max-height: 130px;
+  width: 85px;
+  max-width: 85px;
+  max-height: 110px;
   height: auto;
   border: 1px solid #dddddd;
-  overflow: hidden;
-  animation: poster-zoom-in 8s ease-in-out infinite alternate;
-}
-
-@keyframes poster-zoom-in {
-  from { transform: scale(1); }
-  to   { transform: scale(1.15); }
 }
 
 .news-poster-link {
   margin-top: 2px;
   font-size: 90%;
+}
+
+@media (max-width: 576px) {
+  .news-poster-thumb {
+    width: 70px;
+    max-width: 70px;
+    max-height: 95px;
+  }
 }
 
 a:hover,
