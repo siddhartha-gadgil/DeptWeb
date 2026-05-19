@@ -10,19 +10,7 @@ title: News
   <ul class="post-list">
     {% assign sorted = site.posts | sort: 'date' | reverse %}
     {% for post in sorted %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {% if post.redirect %}
-          <h5>
-              <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
-            </h5>
-          {% else %}
-        <h5>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h5>
-        <p> {{ post.excerpt }}</p>
-        {% endif %}
-      </li>
+      {% include news_item.html post=post show_date=true %}
     {% endfor %}
   </ul>
 

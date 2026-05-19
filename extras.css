@@ -25,6 +25,18 @@ a {
   color: #3498db;
 }
 
+.news-poster-thumb {
+  width: 110px;
+  max-width: 110px;
+  height: auto;
+  border: 1px solid #dddddd;
+}
+
+.news-poster-link {
+  margin-top: 2px;
+  font-size: 90%;
+}
+
 a:hover,
 a:focus {
   color: #3498db;

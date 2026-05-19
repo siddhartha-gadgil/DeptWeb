@@ -85,35 +85,14 @@
             {% for post in futposts %}
             {% if post.pinned %}
             {% assign postcounter=postcounter | plus: 1 %}
-             <li>
-              {% if post.redirect %}
-              <h5>
-                <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
-              </h5>
-              {% else %}
-              <h5>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-              </h5>
-              {{ post.excerpt }}
-              {% endif %}
-              </li>
+            {% include news_item.html post=post %}
               {% endif %}{% endfor %}
             {% for post in futposts %}{% unless post.pinned or post.archived %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
             {% assign postDate = post.date | date: '%s' | plus: 604800 %}
             {% if post.expiry-date == nil or expiry-dateDate >= curDate %}
             {% assign postcounter=postcounter | plus: 1 %}
-            {% if postcounter <= 3 or postDate >= lastMonth %} <li>
-              {% if post.redirect %}
-              <h5>
-                <a class="post-link" href="{{ post.redirect }}">{{ post.title | escape }}</a>
-              </h5>
-              {% else %}
-              <h5>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-              </h5>
-              {{ post.excerpt }}
-              {% endif %}
-              </li>
+            {% if postcounter <= 3 or postDate >= lastMonth %}
+            {% include news_item.html post=post %}
               {% endif %}{% endif %}{% endunless %}{% endfor %}
               
           </ul>
