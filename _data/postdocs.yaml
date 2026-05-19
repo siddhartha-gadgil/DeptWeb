@@ -78,7 +78,7 @@
   research-area: Harmonic Analysis and Operator Theory
   office: N28
   image: true
-  
+
 - name: Sohan Ghosh
   webpage: https://sites.google.com/view/sohan-ghosh/home
   phd: Indian Institute of Technology Kanpur.
@@ -123,3 +123,21 @@
   image: true
   research-area: Number Theory
   office: R29
+
+- name: Vinayak Mani Tripathi
+  webpage: https://scholar.google.com.br/citations?user=1fVNlCoAAAAJ&hl=en
+  phd: Indian Institute of Technology Bhilai
+  user-id: vinayakmanit
+  position: NBHM Postdoctoral Fellow
+  research-area: Analysis of Partial Differential Equations
+  office: R 28
+  image: true
+
+- name: Guru Sharan N
+  webpage:
+  phd: Indian Institute of Technology Gandhinagar
+  user-id: ngurusharan
+  position: NBHM Postdoctoral Fellow
+  research-area: Analytic number theory, special functions and theory of Partitions.
+  office: N24
+  image: true
