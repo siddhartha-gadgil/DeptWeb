@@ -1,5 +1,5 @@
 ---
-speaker: Keerthi Madapusi (Boston College, USA)
+speaker: Keerthi Madapusi (Boston College, Boston, USA)
 title: "Hecke correspondences, Frobenius eigenvalues, and the Vinberg monoid"
 date: 5 June, 2026
 time:  3 – 5 pm (with a 15 minute break in between)
