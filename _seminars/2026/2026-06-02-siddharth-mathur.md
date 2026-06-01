@@ -3,6 +3,7 @@ date: 2 Jun, 2026
 speaker: Siddharth Mathur (University of Georgia, Athens, USA)
 title: "Vector bundles in algebraic geometry"
 time: 11 am
+start_time: 11:00
 series: "Number Theory Seminar"
 website: https://math.iisc.ac.in/number-theory-seminar.html
 venue: LH-1, Mathematics Department
