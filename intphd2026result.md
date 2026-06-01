@@ -3,7 +3,7 @@ title: Integrated Ph.D Program 2026.
 ---
 
 <b>
-PROVISIONAL LIST OF SELECTED CANDIDATES</b><br>
+PROVISIONAL LIST OF SELECTED CANDIDATES - Integrated PhD, 2026</b><br>
 (Subject to approval by the Admissions Committee of IISc.)<br>
 <br>
 
