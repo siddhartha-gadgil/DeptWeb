@@ -1,6 +1,6 @@
 ---
 speaker: Subhajit Das (IISc Mathematics)
-date: 10 June 2025
+date: 10 June 2026
 time: 2 pm
 venue: Hybrid - Microsoft Teams (online) and LH-1, Department of Mathematics
 title: "Schemes relative to actegories,, Heavy separability of the second kind and Eilenberg-Moore objects in the 2-category vDbl"
