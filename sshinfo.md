@@ -46,13 +46,13 @@ sudo openconnect vpn.iisc.ernet.in
 * Use the ssh command line application.
 
 
-#### The IISc network IP addresses :
+#### The IISc network IP addresses/aliases :
 
 * DNS servers : 10.16.25.15, 10.16.25.13
 
 * Netmask: 255.255.255.0
 
-* Math: Use math.iisc.ac.in
+* Math: math.iisc.ac.in
 
 * Sparrow: sparrow.math.iisc.ac.in
 
