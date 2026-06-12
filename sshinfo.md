@@ -50,10 +50,10 @@ sudo openconnect vpn.iisc.ernet.in
 
 * DNS servers : 10.16.25.15, 10.16.25.13
 
-* Gateway: 10.134.13.1
-
 * Netmask: 255.255.255.0
 
-* Math: 10.134.1.11
+* Math: Use math.iisc.ac.in
 
-* Sparrow: 10.134.13.102
+* Sparrow: sparrow.math.iisc.ac.in
+
+* Drongo: drongo.math.iisc.ac.in
