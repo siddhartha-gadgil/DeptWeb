@@ -52,6 +52,66 @@ a:focus {
   text-decoration: underline;
 }
 
+/* ---- Homepage poster feature (above events) ---- */
+.poster-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster-feature-thumb {
+  height: 3cm;
+  width: auto;
+  max-width: 90%;
+  border: 1px solid #dddddd;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.18);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.poster-feature-thumb:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  transform: translateY(-2px);
+}
+
+.poster-feature-text {
+  margin-left: 14px;
+  font-size: 1.25rem;
+}
+
+/* ---- Dedicated showcase page ---- */
+.showcase-page-header {
+  margin-bottom: 18px;
+}
+
+.showcase-page-title {
+  margin-bottom: 4px;
+}
+
+.showcase-page-sub {
+  font-size: 1.05rem;
+  color: #a51c30;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.showcase-poster-wrap {
+  margin-top: 10px;
+}
+
+.showcase-poster {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border: 1px solid #dddddd;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.22);
+  border-radius: 4px;
+}
+
+.showcase-poster-caption {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
 .algebra-combinatorics-seminar {
   color: darkmagenta;
 }
