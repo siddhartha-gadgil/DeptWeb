@@ -1,7 +1,6 @@
 ---
 speaker: Dietmar Oelz (University of Queensland, Brisbane, Australia)
-title: "Mechanochemical axis formation in Hydra spheroids: modeling, stability, and bifurcation"
-analysis
+title: "Mechanochemical axis formation in Hydra spheroids: modeling, stability, and bifurcation analysis"
 date: 17 Jun, 2026
 time: 11 am
 venue: LH-1, Department of Mathematics
