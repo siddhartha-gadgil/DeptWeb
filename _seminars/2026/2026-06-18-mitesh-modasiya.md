@@ -25,6 +25,5 @@ scale invariant.
 
 In this talk, we will start with an overview of the regularity theory and
 discuss the  H\"older regularity result in the mixed singular -
-degenerate range $\max\{p,q,2\} <  \min\left\{q +
-\tfrac{p-1}{1+\frac{n}{sp}}, 2 + \tfrac{p-1}{1+\frac{n}{sp}}\right\}$.
+degenerate range $\max\{p,q,2\} <  \min\left\{q + \tfrac{p-1}{1+\frac{n}{sp}}, 2 + \tfrac{p-1}{1+\frac{n}{sp}}\right\}$.
 We note that the analogous regularity in the local problem remains open.
