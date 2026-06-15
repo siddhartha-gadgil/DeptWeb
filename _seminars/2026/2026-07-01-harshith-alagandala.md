@@ -1,6 +1,6 @@
 ---
 speaker: Harshith Alagandala (Western University, London, Canada)
-title: "Local polynomial convexity at hyperbolic CR-singularity in M^n (subset of \C^n)"
+title: "Local polynomial convexity at hyperbolic CR-singularity in M^n (subset of C^n)"
 date: 1 Jul, 2026
 time: 4 pm
 venue: LH-1, Department of Mathematics
