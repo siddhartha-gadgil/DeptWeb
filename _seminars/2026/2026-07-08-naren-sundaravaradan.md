@@ -3,7 +3,7 @@ speaker: Naren Sundaravaradan (Get My Parking, Bengaluru)
 title: "A bijection on balanced words reversing both descents and major index"
 date: 8 Jul, 2026
 time: 2 pm
-venue:  LH-1, Mathematics Department
+venue:  LH-5, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
 ---
