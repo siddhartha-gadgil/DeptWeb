@@ -2,7 +2,7 @@
 speaker: Mitesh Modasiya (TIFR-CAM, Bengaluru)
 title: "Regularity theory of integro differential operators"
 date: 18 Jun, 2026
-time: TBA
+time: 3 pm
 venue: LH-1, Department of Mathematics
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
