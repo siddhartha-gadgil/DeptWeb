@@ -134,7 +134,7 @@
   image: true
 
 - name: Guru Sharan N
-  webpage:
+  webpage: https://sites.google.com/view/gurusharan/home
   phd: Indian Institute of Technology Gandhinagar
   user-id: ngurusharan
   position: NBHM Postdoctoral Fellow
