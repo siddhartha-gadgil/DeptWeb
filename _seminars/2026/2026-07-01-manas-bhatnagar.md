@@ -23,7 +23,7 @@ solutions is the space of BV functions. Since few decades, Front Tracking
 schemes have grown to be an essential tool in the analysis of such systems.
 However, practically all existing FT schemes are catered to small data. We
 will look into a modified FT scheme that handles general data, specifically
-strong shocks, and prove the convergence thereof, with the a priori assumption of BV bounds.
+strong shocks, and prove the convergence thereof, with the a priori assumption of BV bounds.
 
-The talk constitutes joint works with Robin Young (University of Massachusetts Amherst),
+The talk constitutes joint works with Robin Young (University of Massachusetts Amherst),
 Hailiang Liu (Iowa State University) and Changhui Tan (University of South Carolina).
