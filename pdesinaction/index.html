@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PDEs in Action — IISc Bangalore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <a href="index.html" class="brand">
+      <img src="assets/img/iisc-seal.png" alt="IISc Seal">
+      <span>PDEs in Action</span>
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#participants">Participants</a>
+      <a href="#programme">Programme</a>
+      <a href="#information">Information</a>
+      <a href="#application">Application</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <!-- Home Section -->
+  <section id="home">
+    <div class="hero">
+      <h1>PDEs in Action</h1>
+      <p class="subtitle">from multi-scale to inverse problems</p>
+    </div>
+    <div class="grid-2">
+      <div class="card" style="text-align: center;">
+        <span class="label">Dates & Venue</span>
+        <p style="font-size: 1.5rem; font-weight: 700; color: var(--accent-dark); margin: 15px 0;">22nd — 24th June, 2026</p>
+        <p>Department of Mathematics<br>Indian Institute of Science (IISc), Bangalore</p>
+      </div>
+      <div class="card">
+        <span class="label">Conference Goal</span>
+        <p style="font-size: 1.15rem; font-weight: 600; line-height: 1.7; margin-top: 10px;">To bring together leading researchers to discuss the analytical, computational, and applied aspects of multi-scale phenomena, fostering collaboration and advancing research in homogenization and related areas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="hero"><h2>Focal Themes</h2></div>
+    <div class="card" style="margin-bottom: 30px;">
+      <p>Homogenization is a mathematical framework used to analyze the behavior of multi-scale media. It provides a way to approximate macroscopic properties of a heterogeneous media by an equivalent homogeneous model, playing a crucial role in composite materials, metamaterials, and porous media.</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <span class="label">Theory</span>
+        <p>Asymptotic analysis of PDEs to describe effective bulk behavior free from microscopic heterogeneities.</p>
+      </div>
+      <div class="card">
+        <span class="label">Numerical</span>
+        <p>Developing efficient methods for approximating coefficients and simulating multi-scale behavior.</p>
+      </div>
+      <div class="card">
+        <span class="label">Control</span>
+        <p>Steering systems governed by PDEs and optimizing control strategies in multi-scale settings.</p>
+      </div>
+      <div class="card">
+        <span class="label">Inverse</span>
+        <p>Reconstruction of fine-scale info from macroscopic data, critical for imaging and material design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Speakers Section -->
+  <section id="speakers">
+    <div class="hero"><h2>Speakers</h2></div>
+    <div class="speaker-grid">
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/kb.jpeg" alt="K. Balachandran"></div>
+        <div class="speaker-info"><strong>K. Balachandran</strong><span>Bharathiar University</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/pd.jpeg" alt="Patrizia Donato"></div>
+        <div class="speaker-info"><strong>Patrizia Donato</strong><span>Université de Rouen Normandie</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar">AG</div>
+        <div class="speaker-info"><strong>Antonio Gaudiello</strong><span>Università della Campania</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/rkg.jpeg" alt="Raju K. George"></div>
+        <div class="speaker-info"><strong>Raju K. George</strong><span>IIST Trivandrum</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/tg.jpeg" alt="Tuhin Ghosh"></div>
+        <div class="speaker-info"><strong>‪Tuhin Ghosh</strong><span>HRI</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/hh.jpg" alt="Harsha Hutridurga"></div>
+        <div class="speaker-info"><strong>Harsha Hutridurga</strong><span>IIT Bombay</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/ktj.webp" alt="K. T. Joseph"></div>
+        <div class="speaker-info"><strong>K. T. Joseph</strong><span>TIFR CAM</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/rpk.jpg" alt="Ratnakumar P K"></div>
+        <div class="speaker-info"><strong>Ratnakumar P K</strong><span>KSoM</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/vk.jpeg" alt="Venky Krishnan"></div>
+        <div class="speaker-info"><strong>Venky Krishnan</strong><span>TIFR CAM</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/sk.jpeg" alt="Sandeep Kunnath"></div>
+        <div class="speaker-info"><strong>Sandeep Kunnath</strong><span>TIFR CAM</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/rm.jpeg" alt="Rajesh Mahadevan"></div>
+        <div class="speaker-info"><strong>Rajesh Mahadevan</strong><span>Univ. of Concepción, Chile</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/tmk.jpeg" alt="T. Muthukumar"></div>
+        <div class="speaker-info"><strong>T. Muthukumar</strong><span>IIT Kanpur</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/mtn.jpeg" alt="M. T. Nair"></div>
+        <div class="speaker-info"><strong>M. T. Nair</strong><span>BITS Goa</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/mr.jpeg" alt="Mythily Ramaswamy"></div>
+        <div class="speaker-info"><strong>Mythily Ramaswamy</strong><span>TIFR CAM</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/mriitb.jpeg" alt="Mallikarjuna Rao"></div>
+        <div class="speaker-info"><strong>Mallikarjuna Rao</strong><span>IIT Bombay</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/spn.jpeg" alt="P. N. Srikanth"></div>
+        <div class="speaker-info"><strong>P. N. Srikanth</strong><span>TIFR CAM</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/sg.jpeg" alt="Sivaguru Sritharan"></div>
+        <div class="speaker-info"><strong>Sivaguru Sritharan</strong><span>AFRL, USA</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/ss.jpg" alt="S. Sundar"></div>
+        <div class="speaker-info"><strong>S. Sundar</strong><span>IIT Madras</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/st.jpeg" alt="S. Thangavelu"></div>
+        <div class="speaker-info"><strong>S. Thangavelu</strong><span>IISc Bangalore</span></div>
+      </div>
+      <div class="speaker-card">
+        <div class="speaker-avatar"><img src="assets/img/hv.jpeg" alt="Hari Varma"></div>
+        <div class="speaker-info"><strong>Hari Varma</strong><span>IIT Bombay</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Participants Section -->
+  <section id="participants">
+    <div class="hero"><h2>Participants</h2></div>
+    <div class="card">
+      <input type="text" id="participant-search" class="search-box" placeholder="Search participants by name or institution...">
+      <ul id="participant-list">
+        <li>Abu Sufian, IISER Tirupati</li>
+        <li>Adi Adimurthi, IIT Kanpur</li>
+        <li>Aditi Chattaraj, IIT Hyderabad</li>
+        <li>Ajay Kumar, South Asian University</li>
+        <li>Akhilesh Verma, IIT Roorkee</li>
+        <li>Akhlaq Husain, Jamia Millia Islamia</li>
+        <li>Anoop T. V., IIT Madras</li>
+        <li>Anoop V. P., Kannur University</li>
+        <li>Balaje Kalyanaraman, Umeå University, Sweden</li>
+        <li>Barani Balan Natesan, Central Univ. of Tamil Nadu</li>
+        <li>Bikram Dholey, Jadavpur University</li>
+        <li>Darshne S M, Periyar University</li>
+        <li>Dharmendra Kumar, University of Hyderabad</li>
+        <li>G D Veerappa Gowda, Mahindra University</li>
+        <li>Gagan Sahoo, SR University</li>
+        <li>Garvita, IIT Madras</li>
+        <li>German Philo H, IIT Madras</li>
+        <li>Gnanavel Soundararajan, Central Univ. of Karnataka</li>
+        <li>Hari Shankar Mahato, IIT Kharagpur</li>
+        <li>Kalpana Rawat, IIST Thiruvananthapuram</li>
+        <li>Keerthivasan K, Sri Vasavi College</li>
+        <li>Neeraj Rawat, IIT Bombay</li>
+        <li>P. Karthikeyan, Sri Vasavi College</li>
+        <li>M Vanninathan, TIFR CAM</li>
+        <li>Muslim Malik, IIT Mandi</li>
+        <li>Pradeep S, Periyar University</li>
+        <li>Pranab Jyoti Hazarika, Gauhati University</li>
+        <li>Ram Gopal Jaiswal, IIT Bombay</li>
+        <li>Renjith T, Govt College Kasaragod</li>
+        <li>Ritesh Ranjan Patel, IIT Hyderabad</li>
+        <li>Ritu Raj, IIT Ropar</li>
+        <li>Riya K Nair, BITS Pilani Hyderabad</li>
+        <li>Rohit Khandelwal, South Asian University</li>
+        <li>S. Karthikeyan, Periyar University</li>
+        <li>S. Kesavan, IMSc Chennai</li>
+        <li>Sakthivel K. IIST Thiruvananthapuram</li>
+        <li>Sanchita Satpathy, IIT Jodhpur</li>
+        <li>Sandip Maji, Shanghai University</li>
+        <li>Sankar K, SRM Institute</li>
+        <li>Sayana K Jacob, SRM University Amaravati</li>
+        <li>Shallu, LNM Institute</li>
+        <li>Somnath Pradhan, IISER Bhopal</li>
+        <li>V Sadhasivam, Thiruvalluvar Govt Arts College</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Programme Section -->
+  <section id="programme">
+    <div class="hero"><h2>Programme</h2></div>
+    <div class="card" style="background: rgba(255, 254, 249, 0.7);">
+      <span class="label">Tentative Schedule</span>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr><th>Time</th><th>June 22 (Day 1)</th><th>June 23 (Day 2)</th><th>June 24 (Day 3)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>9:30–10:10 AM</td><td>S. Thangavelu</td><td>Antonio Gaudiello</td><td>Mythily Ramaswamy</td></tr>
+            <tr><td>10:10–10:50 AM</td><td>Patrizia Donato</td><td>K. Sandeep</td><td>K. Balachandran</td></tr>
+            <tr style="background: rgba(255, 255, 204, 0.5);"><td>10:50–11:30 AM</td><td>Tea Break</td><td>Tea Break</td><td>Tea Break</td></tr>
+            <tr><td>11:30–12:10 PM</td><td>Sivaguru S. Sritharan</td><td>Raju K. George</td><td>Venky Krishnan</td></tr>
+            <tr><td>12:10–12:50 PM</td><td>P.N. Srikanth</td><td>Rajesh Mahadevan</td><td>Harsha Hutridurga</td></tr>
+            <tr style="background: rgba(204, 255, 204, 0.5);"><td>12:50–2:30 PM</td><td>Lunch Break</td><td>Lunch Break</td><td>Lunch Break</td></tr>
+            <tr><td>2:30–3:10 PM</td><td>K. T. Joseph</td><td>T. Muthukumar</td><td>Mallikarjuna Rao</td></tr>
+            <tr><td>3:10–3:50 PM</td><td>M. T. Nair</td><td>S. Sundar</td><td>Tuhin Ghosh</td></tr>
+            <tr style="background: rgba(255, 255, 204, 0.5);"><td>3:50–4:30 PM</td><td>Tea Break</td><td>Tea Break</td><td>Tea Break</td></tr>
+            <tr><td>4:30–5:10 PM</td><td>Hari Varma</td><td>Special Programme</td><td>-</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Information Section -->
+  <section id="information">
+    <div class="hero"><h2>Information</h2></div>
+    
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch;">
+      <!-- Venue -->
+      <div class="card" style="flex: 3; min-width: 300px; display: flex; flex-direction: column;">
+        <span class="label">Venue</span>
+        <div style="flex-grow: 1;">
+            <p><strong>Department of Mathematics</strong>, IISc Bangalore.</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.5566773788153!2d77.5707936121717!3d13.018453803226153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17d10cd6c65f%3A0xc4cf17bb095e7a3a!2sDepartment%20of%20Mathematics%2C%20IISc%20Bangalore!5e0!3m2!1sen!2sus!4v1781785190568!5m2!1sen!2sus" width="600" height="450" style="border:2px solid var(--accent-dark); border-radius: 12px; width: 100%; height: 300px; margin-top: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+      <!-- Hoysala -->
+      <div class="card" style="flex: 1; min-width: 200px; display: flex; flex-direction: column;">
+        <span class="label" style="font-size: 0.7rem;">Hoysala House</span>
+        <div style="flex-grow: 1;"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d242.95540342284406!2d77.56495371223085!3d13.017421529914756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shoysala%20iisc!5e0!3m2!1sen!2sus!4v1781785316393!5m2!1sen!2sus" width="600" height="450" style="border:2px solid var(--accent-dark); border-radius: 12px; width: 100%; height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <!-- Jawahar -->
+      <div class="card" style="flex: 1; min-width: 200px; display: flex; flex-direction: column;">
+        <span class="label" style="font-size: 0.7rem;">Jawahar House</span>
+        <div style="flex-grow: 1;"></div>
+        <iframe class="map-frame" style="border:2px solid var(--accent-dark); border-radius: 12px; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3218558428815!2d77.5684531759247!3d13.013659914101416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17d983424107%3A0xf6930514a38f3f87!2sJawahar%20Visitors%20House!5e0!3m2!1sen!2sin!4v1718711000000" loading="lazy"></iframe>
+      </div>
+
+      <!-- Centenary -->
+      <div class="card" style="flex: 1; min-width: 200px; display: flex; flex-direction: column;">
+        <span class="label" style="font-size: 0.7rem;">Centenary House</span>
+        <div style="flex-grow: 1;"></div>
+        <iframe class="map-frame" style="border:2px solid var(--accent-dark); border-radius: 12px; width: 100%; height: 300px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2182565610815!2d77.57137407592472!3d13.021815014035607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17d6c6e737c5%3A0xe4c478e582877e84!2sCentenary%20Visitors%20House!5e0!3m2!1sen!2sin!4v1718711500000" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Application Section -->
+  <section id="application">
+    <div class="hero"><h2>Application</h2></div>
+    <div class="grid-2">
+      <div class="card">
+        <span class="label">How to Apply</span>
+        <p style="margin-top: 15px;">Interested participants must fill the application form with their latest CV via the Google Form.</p>
+        <p style="margin-top: 25px;"><a href="#" class="btn">Open Application Form</a></p>
+      </div>
+      <div class="card">
+        <span class="label">Important Dates</span>
+        <ul class="important-dates" style="margin-top: 10px;">
+          <li><span>Application Deadline</span><strong>April 15, 2026</strong></li>
+          <li><span>Selection Announcement</span><strong>May 01, 2026</strong></li>
+          <li><span>Check-in Date</span><strong>June 21, 2026</strong></li>
+          <li><span>Check-out Date</span><strong>June 25, 2026</strong></li>
+        </ul>
+      </div>
+    </div>
+    <div class="card">
+      <p style="margin-top: 10px;">Selected participants will receive <strong>free boarding and lodging</strong> for the conference period (June 22-24, 2026).</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="hero"><h2>Contact</h2></div>
+    <div class="grid-2">
+      <div class="card">
+        <span class="label">Organizers</span>
+        <ul style="list-style: none; padding: 0; margin-top: 15px;">
+          <li style="margin-bottom: 12px;"><strong>Tirthankar Bhattacharyya</strong> (IISc Bangalore)</li>
+          <li style="margin-bottom: 12px;"><strong>Bidhan Chandra Sardar</strong> (IIT Madras)</li>
+          <li><strong>S. Aiyappan</strong> (IIT Hyderabad)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="label">Query?</span>
+        <p style="margin-top: 15px;">For any information, please reach out to us:</p>
+        <p style="font-size: 1.3rem; margin-top: 20px;"><a href="mailto:pdesinaction@gmail.com" style="color: var(--accent-dark); font-weight: 700; text-decoration: none;">pdesinaction@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners Section -->
+  <section class="card" style="text-align: center; margin-top: 60px;">
+    <span class="label">Supported By</span>
+    <div style="display: flex; justify-content: center; gap: 50px; align-items: center; flex-wrap: wrap; margin-top: 30px;">
+      <img src="assets/img/iisc-seal.png" alt="IISc" style="height: 90px;">
+      <img src="assets/img/abcmc.png" alt="ABCMC" style="height: 90px;">
+      <img src="assets/img/NBHM (1).png" alt="NBHM" style="height: 70px;">
+    </div>
+    <p style="margin-top: 30px; font-style: italic; font-size: 0.95rem; color: var(--muted); max-width: 800px; margin-left: auto; margin-right: auto;">Supported by the Indian Institute of Science (IISc), the Axis Bank Centre for Mathematics and Computing at IISc, and the National Board for Higher Mathematics.</p>
+  </section>
+</main>
+
+<footer style="margin-top: 40px;">
+  <p>&copy; 2026 PDEs in Action — Department of Mathematics, IISc Bangalore</p>
+  <p style="font-size: 0.8rem; margin-top: 10px;">Designed for Excellence in Mathematical Research</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
