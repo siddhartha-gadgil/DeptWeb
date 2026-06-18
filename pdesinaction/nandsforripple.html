@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>A. K. Nandakumaran — Professor, Department of Mathematics, IISc Bangalore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A. K. Nandakumaran is a Professor and Former Chair of the Department of Mathematics, Indian Institute of Science, Bengaluru. His research covers partial differential equations, homogenization, control theory, and inverse problems.">
+  <meta name="keywords" content="Nandakumaran, IISc, mathematics, PDE, homogenization, controllability, differential equations">
+
+  <meta property="og:title" content="A. K. Nandakumaran — Professor, IISc Bangalore">
+  <meta property="og:description" content="Professor &amp; Former Chair, Department of Mathematics, Indian Institute of Science, Bengaluru. Research in PDE, homogenization, control theory, and inverse problems.">
+  <meta property="og:url" content="https://math.iisc.ac.in/~nands/">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home-page">
+
+<div class="progress-bar" aria-hidden="true"></div>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ── Navigation ── -->
+<nav class="site-nav" id="site-nav" aria-label="Main navigation">
+  <div class="wrap">
+    <a href="index.html" class="nav-brand">A. K. <span>Nandakumaran</span></a>
+    <button class="nav-burger" id="nav-burger" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="nav-list" role="list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research-interest.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="membership.html">Memberships</a></li>
+      <li><a href="links.html">Links</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ── Profile / Hero ── -->
+  <section class="profile-section" aria-label="Profile">
+
+    <!-- Wave-equation field: ∂²u/∂t² = c²∇²u. -->
+    <canvas id="hero-canvas" class="hero-bg" data-sim="wave"
+            aria-label="Wave-equation field"
+            title="∂²u/∂t² = c²∇²u"></canvas>
+
+    <div class="wrap">
+      <div class="profile-grid">
+
+        <div class="profile-photo-col">
+          <img class="profile-photo" src="img/profile-hero.jpg" alt="Professor A. K. Nandakumaran" width="900" height="1200" loading="eager" fetchpriority="high" decoding="async">
+        </div>
+
+        <div class="profile-info">
+          <span class="eyebrow eyebrow--light">Indian Institute of Science, Bangalore</span>
+          <h1 class="profile-name">A. K. Nandakumaran</h1>
+          <p class="profile-role">Former Chair &amp; Professor of Mathematics</p>
+
+          <div class="profile-addr-row">
+            <div class="profile-addr">
+              <strong>Office</strong>
+              Room N-27, Department of Mathematics<br>
+              Indian Institute of Science<br>
+              Bengaluru 560 012, India
+            </div>
+            <div class="profile-addr addr-home">
+              <strong>Residence</strong>
+              No. 162, Viswa Vihar<br>
+              10th Main, Tata Nagar Layout<br>
+              Bangalore 560 092, India
+            </div>
+          </div>
+
+          <div class="profile-contact">
+            <div class="contact-row">
+              <span class="contact-label">Email</span>
+              <a href="mailto:nands@iisc.ac.in">nands@iisc.ac.in</a>
+            </div>
+            <div class="contact-row">
+              <span class="contact-label">Office</span>
+              <span>+91-80-2293 2835 &nbsp;/&nbsp; 2293 2265</span>
+            </div>
+            <div class="contact-row">
+              <span class="contact-label">Residence</span>
+              <span>+91-80-4959 6996</span>
+            </div>
+          </div>
+
+          <div class="profile-badges">
+            <span class="badge">Fellow, NASI</span>
+            <span class="badge">Cambridge–IISc Series Author</span>
+            <span class="badge">NPTEL Faculty</span>
+            <span class="badge">Former KVPY Convener</span>
+          </div>
+
+          <div class="hero-caption">
+            <span class="eqn" aria-label="second partial of u with respect to t equals c squared times the Laplacian of u">
+              <span class="frac"><span class="num">∂<sup>2</sup>u</span><span class="den">∂t<sup>2</sup></span></span>
+              <span class="op">=</span>c<sup>2</sup>∇<sup>2</sup>u
+            </span>
+            <span class="hero-hint">Drag the field to see the wave change &nbsp;·&nbsp; <a class="hero-explore" href="https://www.desmos.com/calculator/xlnvhdvqaz" target="_blank" rel="noopener">Desmos graph&nbsp;↗</a></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ── -->
+  <section class="section section--white" aria-labelledby="about-heading">
+    <div class="wrap">
+      <span class="eyebrow">Biography</span>
+      <h2 class="sec-title" id="about-heading">About</h2>
+      <div class="bio-body reveal">
+        <p>
+          A. K. Nandakumaran is a Professor in the Department of Mathematics at the Indian
+          Institute of Science, Bengaluru, where he formerly served as Chair. He obtained
+          his Master's degree from Calicut University, Kerala, and completed his doctoral work
+          at the Tata Institute of Fundamental Research and the Indian Institute of Science.
+        </p>
+        <p>
+          His research is in analysis and partial differential equations, with work on homogenization
+          in oscillating domains, exact controllability and optimal control, differential games,
+          and inverse problems in tomography. He also works on applications that arise in biomedical
+          optics and structural health assessment.
+        </p>
+        <p>
+          He has written three textbooks in the Cambridge–IISc Series published by Cambridge
+          University Press, delivered five NPTEL lecture series, and is a Fellow of the National
+          Academy of Sciences India (NASI). He served as Convener of the Kishore Vaigyanik
+          Prothsahan Yojana (KVPY) from 2019 to 2022 and as Regional Coordinator of the Karnataka
+          Regional Mathematical Olympiad (KRMO) from 1998 to 2008.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Research Areas ── -->
+  <section class="section section--alt" aria-labelledby="research-heading">
+      <div class="wrap">
+        <span class="eyebrow">Areas of Work</span>
+        <h2 class="sec-title" id="research-heading">Research Interests</h2>
+        <div class="research-tiles">
+        <div class="research-tile reveal">
+          <h4>Homogenization</h4>
+          <p>Asymptotic analysis of PDEs posed on periodically oscillating and perforated domains; unfolding operators; H-convergence.</p>
+        </div>
+        <div class="research-tile reveal rd1">
+          <h4>Control &amp; Controllability</h4>
+          <p>Exact and approximate controllability for wave and heat equations; optimal control problems in oscillating geometries.</p>
+        </div>
+        <div class="research-tile reveal rd2">
+          <h4>Partial Differential Equations</h4>
+          <p>PDE theory, including elliptic, parabolic, and hyperbolic equations, together with functional analytic methods.</p>
+        </div>
+        <div class="research-tile reveal rd3">
+          <h4>Differential Games</h4>
+          <p>Zero-sum stochastic differential games; viscosity solutions of Hamilton–Jacobi–Isaacs equations; relaxed strategies.</p>
+        </div>
+        <div class="research-tile reveal rd4">
+          <h4>Inverse Problems</h4>
+          <p>Recovery of mechanical and optical parameters from boundary measurements; diffuse correlation tomography.</p>
+        </div>
+        <div class="research-tile reveal rd5">
+          <h4>Tomography &amp; Imaging</h4>
+          <p>Ultrasound-modulated optical tomography, speckle contrast methods, and biomedical optics in turbid media.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Books ── -->
+  <section class="section section--white" aria-labelledby="books-heading">
+    <div class="wrap">
+      <span class="eyebrow">Cambridge–IISc Series</span>
+      <h2 class="sec-title" id="books-heading">Books</h2>
+      <div class="books-list">
+
+        <article class="book-card reveal">
+          <div class="book-card-cover">
+            <img class="book-cover" src="img/bkcover.jpg" alt="Ordinary Differential Equations book cover" width="110">
+          </div>
+          <div>
+            <p class="book-year">2017</p>
+            <h3 class="book-title">Ordinary Differential Equations: Principles and Applications</h3>
+            <p class="book-authors">A. K. Nandakumaran, P. S. Datti &amp; Raju K. George</p>
+            <p class="book-publisher">Cambridge–IISc Series, Cambridge University Press</p>
+            <p class="book-desc">
+              A graduate-level text on ordinary differential equations. It covers existence and
+              uniqueness, linear systems, boundary value problems, stability theory, and worked
+              examples.
+            </p>
+            <div class="book-actions">
+              <a href="https://www.cambridge.org/in/academic/subjects/mathematics/differential-and-integral-equations-dynamical-systems-and-co/ordinary-differential-equations-principles-and-applications?format=HB" target="_blank" rel="noopener" class="btn btn-primary">Cambridge Page</a>
+              <a href="https://www.youtube.com/embed/NBcGLLU90fM" data-video="https://www.youtube.com/embed/NBcGLLU90fM" class="btn btn-ghost">&#9654; Lecture Preview</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="book-card reveal">
+          <div class="book-card-cover">
+            <img class="book-cover" src="img/bkcover.jpg" alt="Partial Differential Equations book cover" width="110">
+          </div>
+          <div>
+            <p class="book-year">2020</p>
+            <h3 class="book-title">Partial Differential Equations: Classical Theory with a Modern Touch</h3>
+            <p class="book-authors">A. K. Nandakumaran &amp; P. S. Datti</p>
+            <p class="book-publisher">Cambridge–IISc Series, Cambridge University Press</p>
+            <p class="book-desc">
+              A text on classical PDE theory and its functional analytic foundations, including
+              distributions, Sobolev spaces, and weak formulations. It treats elliptic, parabolic,
+              and hyperbolic equations with applications to physical systems.
+            </p>
+            <div class="book-actions">
+              <a href="https://www.cambridge.org/in/academic/subjects/mathematics/differential-and-integral-equations-dynamical-systems-and-co/partial-differential-equations-classical-theory-modern-touch?format=HB" target="_blank" rel="noopener" class="btn btn-primary">Cambridge Page</a>
+              <a href="https://www.youtube.com/embed/U51lQtlzvA0" data-video="https://www.youtube.com/embed/U51lQtlzvA0" class="btn btn-ghost">&#9654; Lecture Preview</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="book-card reveal">
+          <div class="book-card-cover">
+            <img class="book-cover" src="img/bkcover.jpg" alt="Notes, Problems and Solutions in Differential Equations book cover" width="110">
+          </div>
+          <div>
+            <p class="book-year">2025</p>
+            <h3 class="book-title">Notes, Problems and Solutions in Differential Equations</h3>
+            <p class="book-authors">A. K. Nandakumaran &amp; P. S. Datti</p>
+            <p class="book-publisher">Cambridge University Press</p>
+            <p class="book-desc">
+              Suitable for senior undergraduate and graduate students in mathematics, physics,
+              engineering, and biology. It begins with ordinary differential equations and then
+              moves to partial differential equations, with worked solutions and problem sets.
+            </p>
+            <div class="book-actions">
+              <a href="https://www.cambridge.org/in/universitypress/subjects/mathematics/differential-and-integral-equations-dynamical-systems-and-co/notes-problems-and-solutions-differential-equations?format=PB" target="_blank" rel="noopener" class="btn btn-primary">Cambridge Page</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── NPTEL Courses ── -->
+  <section class="section section--alt" aria-labelledby="nptel-heading">
+    <div class="wrap">
+      <span class="eyebrow">Online Lectures</span>
+      <h2 class="sec-title" id="nptel-heading">NPTEL Courses</h2>
+      <div class="nptel-grid">
+
+        <div class="nptel-card reveal">
+          <p class="nptel-tag">NPTEL</p>
+          <p class="nptel-name">Ordinary Differential Equations</p>
+          <div class="nptel-links">
+            <a href="http://nptel.ac.in/courses/111108081/" target="_blank" rel="noopener" class="nptel-link">NPTEL</a>
+            <a href="https://www.youtube.com/embed/NBcGLLU90fM" data-video="https://www.youtube.com/embed/NBcGLLU90fM" class="nptel-link">&#9654; Watch</a>
+          </div>
+        </div>
+
+        <div class="nptel-card reveal">
+          <p class="nptel-tag">NPTEL</p>
+          <p class="nptel-name">Partial Differential Equations — I</p>
+          <div class="nptel-links">
+            <a href="https://nptel.ac.in/courses/111/108/111108144/" target="_blank" rel="noopener" class="nptel-link">NPTEL</a>
+            <a href="https://www.youtube.com/embed/U51lQtlzvA0" data-video="https://www.youtube.com/embed/U51lQtlzvA0" class="nptel-link">&#9654; Watch</a>
+          </div>
+        </div>
+
+        <div class="nptel-card reveal">
+          <p class="nptel-tag">NPTEL</p>
+          <p class="nptel-name">Partial Differential Equations — II</p>
+          <div class="nptel-links">
+            <a href="https://nptel.ac.in/courses/111/108/111108152/" target="_blank" rel="noopener" class="nptel-link">NPTEL</a>
+            <a href="https://www.youtube.com/embed/3N-FEgScMss" data-video="https://www.youtube.com/embed/3N-FEgScMss" class="nptel-link">&#9654; Watch</a>
+          </div>
+        </div>
+
+        <div class="nptel-card reveal">
+          <p class="nptel-tag">NPTEL</p>
+          <p class="nptel-name">Advanced PDE — I</p>
+          <div class="nptel-links">
+            <a href="https://nptel.ac.in/courses/111/108/111108168/" target="_blank" rel="noopener" class="nptel-link">NPTEL</a>
+            <a href="https://www.youtube.com/embed/0BvnMbmOicc" data-video="https://www.youtube.com/embed/0BvnMbmOicc" class="nptel-link">&#9654; Watch</a>
+          </div>
+        </div>
+
+        <div class="nptel-card reveal">
+          <p class="nptel-tag">NPTEL</p>
+          <p class="nptel-name">Advanced PDE — II</p>
+          <div class="nptel-links">
+            <a href="https://nptel.ac.in/courses/111108412/" target="_blank" rel="noopener" class="nptel-link">NPTEL</a>
+            <a href="https://www.youtube.com/embed/25acP-DQbtQ" data-video="https://www.youtube.com/embed/25acP-DQbtQ" class="nptel-link">&#9654; Watch</a>
+          </div>
+        </div>
+
+        <div class="nptel-card reveal">
+          <p class="nptel-tag">Doordarshan</p>
+          <p class="nptel-name">KVPY — An Interview</p>
+          <div class="nptel-links">
+            <a href="https://www.youtube.com/embed/WK8rQH_XBgs" data-video="https://www.youtube.com/embed/WK8rQH_XBgs" class="nptel-link">&#9654; Watch</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Collaborators ── -->
+  <section class="section section--white" aria-labelledby="collab-heading">
+    <div class="wrap">
+      <span class="eyebrow">Research Network</span>
+      <h2 class="sec-title" id="collab-heading">Associates &amp; Collaborators</h2>
+      <div class="collab-grid">
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/dr-falguni-acharya.jpg?w=128" alt="Falguni S. Acharya" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Dr-Falguni-Acharya" target="_blank" rel="noopener">Falguni S. Acharya</a></p>
+          <p class="collab-inst">Applied Mathematics<br>Parul University</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/ravi-agarwal.jpg?w=128" alt="P. Agarwal" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Ravi-Agarwal" target="_blank" rel="noopener">P. Agarwal</a></p>
+          <p class="collab-inst">Mathematics<br>Texas A&amp;M Univ. Kingsville</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/aiyappan-srinivasan.jpg?w=128" alt="S. Aiyappan" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Aiyappan-Srinivasan" target="_blank" rel="noopener">S. Aiyappan</a></p>
+          <p class="collab-inst">Mathematics<br>IIT Hyderabad</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/ari-arapostathis.jpg?w=64" alt="Arapostatis" width="66" height="66" loading="lazy">
+          <p class="collab-name">Arapostatis</p>
+          <p class="collab-inst">University of Texas<br>Austin</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/biswanath-banerjee.jpg?w=128" alt="Biswanath Banerjee" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Biswanath-Banerjee" target="_blank" rel="noopener">Biswanath Banerjee</a></p>
+          <p class="collab-inst">Civil Engineering<br>IIT Kharagpur</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/dimplekumar-chalishajar-2.jpg?w=128" alt="D. N. Chalishajar" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Dimplekumar-Chalishajar-2" target="_blank" rel="noopener">D. N. Chalishajar</a></p>
+          <p class="collab-inst">Applied Mathematics<br>Virginia Military Institute</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/sudipto-chowdhury.jpg?w=128" alt="Sudipto Chowdhury" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.lnmiit.ac.in/Department/Mathematics/Mathematics_FacultyProfile.aspx?nDeptID=130465" target="_blank" rel="noopener">Sudipto Chowdhury</a></p>
+          <p class="collab-inst">Mathematics<br>LNM Institute</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/carlos-conca.jpg?w=128" alt="Carlos Conca" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Carlos-Conca" target="_blank" rel="noopener">Carlos Conca</a></p>
+          <p class="collab-inst">Ingeniería Matemática<br>University of Chile</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Palla Danumjaya" width="66" height="66" loading="lazy">
+          <p class="collab-name">Palla Danumjaya</p>
+          <p class="collab-inst">BITS-Pilani KK Birla<br>Goa</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/datti.png?w=100" alt="P. S. Datti" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.math.tifrbng.res.in/people/psd" target="_blank" rel="noopener">P. S. Datti</a></p>
+          <p class="collab-inst">TIFR Centre for<br>Applicable Mathematics</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/durduran.png?w=228" alt="Turgut Durduran" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.icfo.eu/about-icfo/people/directory/?id=368" target="_blank" rel="noopener">Turgut Durduran</a></p>
+          <p class="collab-inst">Physics<br>Univ. of Pennsylvania</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="François Murat" width="66" height="66" loading="lazy">
+          <p class="collab-name">François Murat</p>
+          <p class="collab-inst">Sorbonne University<br>France</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/raju.png?w=129" alt="Raju K. George" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.iist.ac.in/mathematics/george" target="_blank" rel="noopener">Raju K. George</a></p>
+          <p class="collab-inst">Dean (R&amp;D, IPR)<br>IIST</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/10/mk_ghosh.jpg?w=198" alt="Mrinal K. Ghosh" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Mrinal-Ghosh-5" target="_blank" rel="noopener">Mrinal K. Ghosh</a></p>
+          <p class="collab-inst">Mathematics<br>IISc Bangalore</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Grégoire Allaire" width="66" height="66" loading="lazy">
+          <p class="collab-name">Grégoire Allaire</p>
+          <p class="collab-inst">École Polytechnique<br>France</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/gudi-oct17.jpg?w=413" alt="Thirupathi Gudi" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="http://math.iisc.ac.in/~gudi/" target="_blank" rel="noopener">Thirupathi Gudi</a></p>
+          <p class="collab-inst">Mathematics<br>IISc Bangalore</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/nuutti.jpg" alt="Nuutti Hyvönen" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Nuutti-Hyvoenen" target="_blank" rel="noopener">Nuutti Hyvönen</a></p>
+          <p class="collab-inst">Helsinki University<br>of Technology</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/editha-jose.jpg?w=128" alt="Editha C. Jose" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Editha-Jose" target="_blank" rel="noopener">Editha C. Jose</a></p>
+          <p class="collab-inst">Math. Sciences &amp; Physics<br>UPLB</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/lomerio.jpg?w=1024" alt="Ivy Carol B. Lomerio" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Ivy-Carol-Lomerio" target="_blank" rel="noopener">Ivy Carol B. Lomerio</a></p>
+          <p class="collab-inst">Math. Sciences &amp; Physics<br>UPLB</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Rajesh Mahadevan" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Rajesh-Mahadevan" target="_blank" rel="noopener">Rajesh Mahadevan</a></p>
+          <p class="collab-inst">Matemática<br>Univ. de Concepción</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Umberto De Maio" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Umberto-Maio-2" target="_blank" rel="noopener">Umberto De Maio</a></p>
+          <p class="collab-inst">Mathematics<br>Univ. of Naples Federico II</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="K. P. Mohanan" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Mohanan-K-P" target="_blank" rel="noopener">K. P. Mohanan</a></p>
+          <p class="collab-inst">Govt. Engineering College<br>Kerala</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/mallikarjuna.jpg?w=120" alt="K. S. Mallikarjuna Rao" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Ks-Mallikarjuna-Rao" target="_blank" rel="noopener">K. S. Mallikarjuna Rao</a></p>
+          <p class="collab-inst">Govt. Engineering College<br>Trissur, Kerala</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/monsurro-1.jpg?w=100" alt="Sara Monsurrò" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://docenti.unisa.it/020704/home" target="_blank" rel="noopener">Sara Monsurrò</a></p>
+          <p class="collab-inst">Matematica/DIPMAT<br>Univ. of Salerno</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/muslim-malik.jpg" alt="Muslim Malik" width="66" height="66" loading="lazy">
+          <p class="collab-name">Muslim Malik</p>
+          <p class="collab-inst">Mathematics<br>IIT Mandi</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/10/muthu_kumar.jpg?w=300" alt="T. Muthukumar" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.iitk.ac.in/new/muthukumar-t" target="_blank" rel="noopener">T. Muthukumar</a></p>
+          <p class="collab-inst">Mathematics<br>IIT Kanpur</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/s-panigrahi.jpg?w=128" alt="S. Panigrahi" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/S-Panigrahi" target="_blank" rel="noopener">S. Panigrahi</a></p>
+          <p class="collab-inst">Mathematics &amp; Statistics<br>Univ. of Hyderabad</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/carmen-perugia.jpg?w=64" alt="Carmen Perugia" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.dstunisannio.it/it/persone/carmen-perugia.html" target="_blank" rel="noopener">Carmen Perugia</a></p>
+          <p class="collab-inst">Scienze e Tecnologie<br>Univ. of Salerno</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/ravi.jpg?w=200" alt="Ravi Prakash" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Ravi-Prakash-27" target="_blank" rel="noopener">Ravi Prakash</a></p>
+          <p class="collab-inst">Matemática<br>Univ. de Concepción</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/ratnakumar-1.png" alt="P. K. Ratnakumar" width="66" height="66" loading="lazy">
+          <p class="collab-name">P. K. Ratnakumar</p>
+          <p class="collab-inst">Harish-Chandra Research<br>Institute, Allahabad</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/raymond.png" alt="Jean-Pierre Raymond" width="66" height="66" loading="lazy">
+          <p class="collab-name">Jean-Pierre Raymond</p>
+          <p class="collab-inst">Université Paul Sabatier<br>France</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/renjith.jpg" alt="Renjith Thazhathethil" width="66" height="66" loading="lazy">
+          <p class="collab-name">Renjith Thazhathethil</p>
+          <p class="collab-inst">Indian Statistical Institute<br>Bangalore</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Debasish Roy" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Debasish-Roy-3" target="_blank" rel="noopener">Debasish Roy</a></p>
+          <p class="collab-inst">Civil Engineering<br>IISc Bangalore</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/10/bidhan_chandra.jpg?w=297" alt="Bidhan Chandra Sardar" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Bidhan-Sardar" target="_blank" rel="noopener">Bidhan Chandra Sardar</a></p>
+          <p class="collab-inst">Mathematics<br>IIT Ropar</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Ali Sili" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Ali-Sili" target="_blank" rel="noopener">Ali Sili</a></p>
+          <p class="collab-inst">Université de Toulon<br>La Garde</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/sritharan-sivaguru-s.jpg" alt="Sivaguru S. Sritharan" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Sivaguru-Sritharan" target="_blank" rel="noopener">Sivaguru S. Sritharan</a></p>
+          <p class="collab-inst">Air Force Research<br>Laboratory</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Abu Sufian" width="66" height="66" loading="lazy">
+          <p class="collab-name">Abu Sufian</p>
+          <p class="collab-inst">Fraunhofer ITWM<br>Germany</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/suresh-kumar.jpg" alt="K. Suresh Kumar" width="66" height="66" loading="lazy">
+          <p class="collab-name">K. Suresh Kumar</p>
+          <p class="collab-inst">Mathematics<br>IIT Bombay</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="Mo Tadi" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Mo-Tadi" target="_blank" rel="noopener">Mo Tadi</a></p>
+          <p class="collab-inst">Civil Engineering<br>Cal State LA</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/harivarma.jpg?w=150" alt="Hari M. Varma" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.bio.iitb.ac.in/people/faculty/varma-h/" target="_blank" rel="noopener">Hari M. Varma</a></p>
+          <p class="collab-inst">Biosciences &amp; Bioengineering<br>IIT Bombay</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2023/01/profile_default_l.jpg?w=160" alt="R. M. Vasu" width="66" height="66" loading="lazy">
+          <p class="collab-name"><a href="https://www.researchgate.net/profile/Ram-Vasu" target="_blank" rel="noopener">R. M. Vasu</a></p>
+          <p class="collab-inst">Instrumentation &amp; Applied Physics<br>IISc Bangalore</p>
+        </div>
+
+        <div class="collab-item">
+          <img class="collab-photo" src="https://mylisschoolblog.files.wordpress.com/2024/03/augusto.jpg?w=112" alt="Augusto Visintin" width="66" height="66" loading="lazy">
+          <p class="collab-name">Augusto Visintin</p>
+          <p class="collab-inst">University of Trento<br>Italy</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ── Video Modal ── -->
+<div class="modal-overlay" id="video-modal" role="dialog" aria-modal="true" aria-label="Video player">
+  <div class="modal-inner">
+    <button class="modal-close" id="modal-close" aria-label="Close video">&times;</button>
+    <div class="modal-video">
+      <iframe id="video-iframe" src="" allowfullscreen allow="autoplay; encrypted-media" title="Video"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- ── Footer ── -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-col-label">Contact</p>
+        <p class="footer-brand">A. K. Nandakumaran</p>
+        <p class="footer-sub">Former Chair &amp; Professor<br>Department of Mathematics<br>Indian Institute of Science, Bengaluru</p>
+        <p class="footer-addr">
+          Room N-27, Dept. of Mathematics<br>
+          IISc, Bengaluru 560 012, India<br>
+          <a href="mailto:nands@iisc.ac.in">nands@iisc.ac.in</a><br>
+          +91-80-2293 2835
+        </p>
+      </div>
+      <div>
+        <p class="footer-col-label">Navigation</p>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research-interest.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="membership.html">Memberships</a></li>
+          <li><a href="links.html">Links</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-col-label">External</p>
+        <ul class="footer-nav">
+          <li><a href="http://www.math.iisc.ac.in/" target="_blank" rel="noopener">Dept. of Mathematics</a></li>
+          <li><a href="https://iisc.ac.in/" target="_blank" rel="noopener">IISc Bangalore</a></li>
+          <li><a href="https://nptel.ac.in" target="_blank" rel="noopener">NPTEL</a></li>
+          <li><a href="http://www.nbhm.dae.gov.in/" target="_blank" rel="noopener">NBHM</a></li>
+          <li><a href="https://www.nasi.org.in/" target="_blank" rel="noopener">NASI</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>&copy; A. K. Nandakumaran &mdash; Department of Mathematics, IISc Bangalore</span>
+      <span><a href="http://www.math.iisc.ac.in/" target="_blank" rel="noopener">math.iisc.ac.in</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" id="back-top" aria-label="Back to top">&#8593;</button>
+
+<script src="js/main.js"></script>
+<script src="js/simulations.js"></script>
+</body>
+</html>

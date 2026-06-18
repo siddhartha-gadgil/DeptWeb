@@ -1,6 +1,6 @@
 /* newsite/assets/js/main.js */
 document.addEventListener('DOMContentLoaded', () => {
-  // --- Static Background ---
+  // --- Dynamic Background ---
   const bg = document.createElement('div');
   bg.id = 'dynamic-bg';
   Object.assign(bg.style, {
@@ -16,9 +16,22 @@ document.addEventListener('DOMContentLoaded', () => {
     backgroundPosition: 'center',
     backgroundSize: 'contain',
     opacity: '0.1',
-    transform: 'translateX(-2.28%) translateY(5%)',
+    transformOrigin: 'center',
+    transition: 'transform 0.1s ease-out',
+    transform: 'translateX(-2.28%) translateY(5%) scale(1)',
   });
   document.body.prepend(bg);
+
+  const updateBackgroundZoom = () => {
+    const scrollY = window.scrollY;
+    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercent = Math.min(scrollY / Math.max(maxScroll, 1), 1);
+    const scale = 1 + scrollPercent * 0.6; // Zoom up to 1.6x (doubled intensity)
+    bg.style.transform = `translateX(-2.28%) translateY(5%) scale(${scale})`;
+  };
+
+  window.addEventListener('scroll', updateBackgroundZoom);
+  updateBackgroundZoom(); // Initial call
 
   // Mobile Menu
   const menuToggle = document.getElementById('menu-toggle');

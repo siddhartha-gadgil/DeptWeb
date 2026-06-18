@@ -34,14 +34,15 @@
 <main class="page">
   <!-- Home Section -->
   <section id="home">
-    <div class="hero">
-      <h1>PDEs in Action</h1>
-      <p class="subtitle">from multi-scale to inverse problems</p>
+    <div class="hero" style="position: relative; overflow: hidden; padding: 100px 20px;">
+      <canvas id="hero-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></canvas>
+      <h1 style="position: relative; pointer-events: none;">PDEs in Action</h1>
+      <p class="subtitle" style="position: relative; pointer-events: none;">from multi-scale to inverse problems</p>
     </div>
     <div class="grid-2">
-      <div class="card" style="text-align: center;">
+      <div class="card text-center">
         <span class="label">Dates & Venue</span>
-        <p style="font-size: 1.5rem; font-weight: 700; color: var(--accent-dark); margin: 15px 0;">22nd — 24th June, 2026</p>
+        <span class="emphasis">22nd to 24th June, 2026</span>
         <p>Department of Mathematics<br>Indian Institute of Science (IISc), Bangalore</p>
       </div>
       <div class="card">
@@ -220,7 +221,8 @@
   <!-- Programme Section -->
   <section id="programme">
     <div class="hero"><h2>Programme</h2></div>
-    <div class="card" style="background: rgba(255, 254, 249, 0.7);">
+    <div class="schedule-hint blink"><strong>Note:</strong> The schedule is tentative and subject to minor adjustments.</div>
+    <div class="card">
       <span class="label">Tentative Schedule</span>
       <div class="table-container">
         <table>
@@ -230,13 +232,13 @@
           <tbody>
             <tr><td>9:30–10:10 AM</td><td>S. Thangavelu</td><td>Antonio Gaudiello</td><td>Mythily Ramaswamy</td></tr>
             <tr><td>10:10–10:50 AM</td><td>Patrizia Donato</td><td>K. Sandeep</td><td>K. Balachandran</td></tr>
-            <tr style="background: rgba(255, 255, 204, 0.5);"><td>10:50–11:30 AM</td><td>Tea Break</td><td>Tea Break</td><td>Tea Break</td></tr>
+            <tr class="break tea"><td>10:50–11:30 AM</td><td>Tea Break</td><td>Tea Break</td><td>Tea Break</td></tr>
             <tr><td>11:30–12:10 PM</td><td>Sivaguru S. Sritharan</td><td>Raju K. George</td><td>Venky Krishnan</td></tr>
             <tr><td>12:10–12:50 PM</td><td>P.N. Srikanth</td><td>Rajesh Mahadevan</td><td>Harsha Hutridurga</td></tr>
-            <tr style="background: rgba(204, 255, 204, 0.5);"><td>12:50–2:30 PM</td><td>Lunch Break</td><td>Lunch Break</td><td>Lunch Break</td></tr>
+            <tr class="break lunch"><td>12:50–2:30 PM</td><td>Lunch Break</td><td>Lunch Break</td><td>Lunch Break</td></tr>
             <tr><td>2:30–3:10 PM</td><td>K. T. Joseph</td><td>T. Muthukumar</td><td>Mallikarjuna Rao</td></tr>
             <tr><td>3:10–3:50 PM</td><td>M. T. Nair</td><td>S. Sundar</td><td>Tuhin Ghosh</td></tr>
-            <tr style="background: rgba(255, 255, 204, 0.5);"><td>3:50–4:30 PM</td><td>Tea Break</td><td>Tea Break</td><td>Tea Break</td></tr>
+            <tr class="break tea"><td>3:50–4:30 PM</td><td>Tea Break</td><td>Tea Break</td><td>Tea Break</td></tr>
             <tr><td>4:30–5:10 PM</td><td>Hari Varma</td><td>Special Programme</td><td>-</td></tr>
           </tbody>
         </table>
@@ -301,7 +303,7 @@
       </div>
     </div>
     <div class="card">
-      <p style="margin-top: 10px;">Selected participants will receive <strong>free boarding and lodging</strong> for the conference period (June 22-24, 2026).</p>
+      <p>Selected participants will receive <strong>free boarding and lodging</strong> for the conference period (June 22-24, 2026).</p>
     </div>
   </section>
 
@@ -320,13 +322,13 @@
       <div class="card">
         <span class="label">Query?</span>
         <p style="margin-top: 15px;">For any information, please reach out to us:</p>
-        <p style="font-size: 1.3rem; margin-top: 20px;"><a href="mailto:pdesinaction@gmail.com" style="color: var(--accent-dark); font-weight: 700; text-decoration: none;">pdesinaction@gmail.com</a></p>
+        <p class="emphasis"><a href="mailto:pdesinaction@gmail.com" style="color: inherit; text-decoration: none;">pdesinaction@gmail.com</a></p>
       </div>
     </div>
   </section>
 
   <!-- Partners Section -->
-  <section class="card" style="text-align: center; margin-top: 60px;">
+  <section class="card text-center" style="margin-top: 60px;">
     <span class="label">Supported By</span>
     <div style="display: flex; justify-content: center; gap: 50px; align-items: center; flex-wrap: wrap; margin-top: 30px;">
       <img src="assets/img/iisc-seal.png" alt="IISc" style="height: 90px;">
@@ -343,5 +345,6 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="assets/js/simulations.js"></script>
 </body>
 </html>

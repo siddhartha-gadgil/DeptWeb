@@ -1,0 +1,3971 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Workshop on Noncommutative Analysis and Probability — NCAP</title>
+<script>
+ window.MathJax = {
+   tex: {
+     inlineMath: [['$', '$'], ['\\(', '\\)']],
+     displayMath: [['$$', '$$'], ['\\[', '\\]']],
+     processEscapes: true,
+     macros: {
+       M: ['\\mathbb{M}_{#1}', 1],
+       IC: '\\mathbb{C}',
+       clq: '\\mathcal{Q}'
+     }
+   },
+   svg: { fontCache: 'global' }
+ };
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  /* Base theme (keeps the SPARC look) */
+  :root{
+    --accent-dark: #8B0000;
+    --accent-gold1: goldenrod;
+    --accent-gold2: darkgoldenrod;
+    --muted: #666;
+    --maxwidth: 980px;
+  }
+  body{ font-family: Arial, Helvetica, sans-serif; color:#222; margin:0; padding:28px; background:#fffdfb; -webkit-font-smoothing:antialiased; }
+  .page{ max-width:var(--maxwidth); margin:0 auto; }
+
+  /* Header styles */
+  .title{
+    font-size:2.1rem;
+    font-weight:700;
+    margin:0 0 6px 0;
+    line-height:1.08;
+    background: linear-gradient(90deg, var(--accent-gold1), var(--accent-gold2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .subtitle{
+    color:var(--accent-dark);
+    font-weight:600;
+    margin-bottom:14px;
+    text-align:center;
+  }
+
+  .meta-row{ display:flex; gap:18px; align-items:center; margin-bottom:18px; flex-wrap:wrap; }
+
+  /* Main info card */
+  .card{
+    background: #fffef9;
+    border-radius:12px;
+    padding:18px;
+    border:1px solid rgba(139,0,0,0.06);
+    box-shadow:0 14px 30px rgba(0,0,0,0.04);
+    margin-bottom:22px;
+  }
+
+  /* Two-column layout */
+  .grid{ display:grid; grid-template-columns: 1fr 360px; gap:20px; align-items:start; }
+  @media (max-width:920px){ .grid{ grid-template-columns: 1fr; } }
+
+  /* Labels: red + uppercase (used for When, Where, Speakers, Tentative schedule, Talk Details) */
+  .info-label{
+    color:var(--accent-dark);
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:0.9rem;
+    letter-spacing:1.5px;
+    margin-bottom:10px;
+    padding-bottom:8px;
+    font-family:Arial, Helvetica, sans-serif;
+    position:relative;
+    display:inline-block;
+  }
+  .info-label::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:2px;
+    background:linear-gradient(90deg, var(--accent-gold2) 0%, var(--accent-gold1) 50%, var(--accent-gold2) 100%);
+    border-radius:1px;
+  }
+  .info-value{ font-size:1.02rem; line-height:1.45; color:#222; }
+
+  /* QR block styling (QR isn't used yet; keeping the styling ready) */
+  .qr-wrap{ text-align:left; } /* left-align the aside content (as requested) */
+  .qr{ display:inline-block; border-radius:8px; overflow:hidden; box-shadow:0 10px 26px rgba(0,0,0,0.06); }
+  .qr img{ display:block; width:200px; height:200px; object-fit:cover; }
+  .qr small{ display:block; margin-top:8px; color:var(--muted); }
+
+  /* Speakers */
+  .speakers { margin-top:18px; }
+  .speakers h3{ margin:0 0 10px 0; color:var(--accent-dark); }
+  .speaker-list{ display:flex; flex-wrap:wrap; gap:12px; }
+
+  .talks{ margin-top:18px; }
+  .talks-list{ display:flex; flex-direction:column; gap:16px; width:100%; }
+  .talk-card{
+    background:#fff;
+    border-radius:14px;
+    padding:0;
+    border:1px solid rgba(0,0,0,0.06);
+    box-shadow:0 10px 24px rgba(0,0,0,0.04);
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+    display:flex;
+    flex-direction:row;
+    overflow:hidden;
+    width:100%;
+  }
+  .talk-card:hover{
+    transform: translateY(-2px);
+    box-shadow:0 14px 32px rgba(0,0,0,0.06);
+    border-color: rgba(139,0,0,0.18);
+  }
+  .talk-datetime{
+    flex:0 0 100px;
+    background: linear-gradient(135deg, var(--accent-dark) 0%, #5a0000 100%);
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:16px 12px;
+    text-align:center;
+  }
+  .talk-datetime .talk-day{
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    opacity:0.9;
+    margin-bottom:4px;
+  }
+  .talk-datetime .talk-date{
+    font-size:1.4rem;
+    font-weight:700;
+    line-height:1;
+    margin-bottom:2px;
+  }
+  .talk-datetime .talk-month{
+    font-size:0.8rem;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    opacity:0.9;
+    margin-bottom:8px;
+  }
+  .talk-datetime .talk-time{
+    font-size:0.85rem;
+    font-weight:600;
+    background:rgba(255,255,255,0.15);
+    padding:4px 8px;
+    border-radius:4px;
+  }
+  .talk-content{
+    flex:1;
+    padding:16px 20px;
+    display:flex;
+    flex-direction:column;
+  }
+  .talk-header{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-bottom:12px;
+  }
+  .talk-avatar{
+    flex:0 0 56px;
+    width:56px;
+    height:56px;
+    border-radius:50%;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    border:2px solid var(--accent-gold1);
+  }
+  .talk-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+  .talk-avatar-placeholder{
+    width:100%;
+    height:100%;
+    background:linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+    color:var(--accent-dark);
+    font-size:1.1rem;
+  }
+  .talk-speaker-info{
+    flex:1;
+  }
+  .talk-speaker{ font-weight:700; color:var(--accent-dark); margin-bottom:2px; font-size:1.05rem; }
+  .talk-affiliation{ font-size:0.85rem; color:var(--muted); font-style:italic; }
+  .talk-title{ font-weight:700; color:#222; margin-bottom:8px; font-size:1rem; }
+  .talk-abstract{ color:#333; line-height:1.55; font-size:0.92rem; }
+  .talk-meta{ margin-top:10px; color:var(--muted); font-size:0.9rem; }
+  .talk-meta a{ color:var(--accent-dark); text-decoration:none; border-bottom:1px solid rgba(139,0,0,0.25); }
+  .talk-meta a:hover{ border-bottom-color: var(--accent-gold2); }
+  @media (max-width:600px){
+    .talk-card{ flex-direction:column; }
+    .talk-datetime{ flex:0 0 auto; flex-direction:row; gap:12px; padding:12px 16px; }
+    .talk-datetime .talk-day, .talk-datetime .talk-month{ margin-bottom:0; }
+    .talk-content{ padding:14px 16px; }
+    .talk-speaker{ font-size:1rem; }
+    .talk-title{ font-size:0.96rem; }
+    .talk-abstract{ font-size:0.88rem; }
+    .talk-avatar{ width:50px; height:50px; flex:0 0 50px; }
+    .talks-tools{ flex-direction:column; align-items:stretch; gap:8px; }
+    .talks-filter{ width:100%; }
+    .talks-tools > div{ display:flex; gap:8px; flex-wrap:wrap; }
+  }
+
+  .abstract-toggle{
+    appearance:none;
+    border:1px solid rgba(139,0,0,0.25);
+    background:#fffef9;
+    color:var(--accent-dark);
+    border-radius:999px;
+    padding:6px 10px;
+    font-size:0.82rem;
+    font-weight:700;
+    cursor:pointer;
+    margin-top:10px;
+    align-self:flex-start;
+  }
+  .abstract-toggle:hover{ border-color: rgba(139,0,0,0.4); }
+  .abstract-toggle:focus{ outline:2px solid var(--accent-gold1); outline-offset:2px; }
+
+  @media (max-width:720px){
+    body{ padding-bottom:88px; }
+    .talk-card.abstract-collapsible .talk-abstract,
+    .carousel-card.abstract-collapsible .carousel-abstract{
+      max-height:5.2em;
+      overflow:hidden;
+      position:relative;
+    }
+    .talk-card.abstract-collapsible .talk-abstract::after,
+    .carousel-card.abstract-collapsible .carousel-abstract::after{
+      content:'';
+      position:absolute;
+      left:0; right:0; bottom:0;
+      height:2.4em;
+      background:linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.92));
+      pointer-events:none;
+    }
+    .talk-card.abstract-expanded .talk-abstract,
+    .carousel-card.abstract-expanded .carousel-abstract{
+      max-height:none;
+      overflow:visible;
+    }
+    .talk-card.abstract-expanded .talk-abstract::after,
+    .carousel-card.abstract-expanded .carousel-abstract::after{
+      display:none;
+    }
+
+    .mobile-quicknav{
+      position:fixed;
+      left:12px;
+      right:12px;
+      bottom:12px;
+      z-index:999;
+      display:flex;
+      gap:10px;
+      justify-content:space-between;
+      background:rgba(255,255,255,0.92);
+      border:1px solid rgba(139,0,0,0.14);
+      box-shadow:0 10px 28px rgba(0,0,0,0.10);
+      border-radius:16px;
+      padding:10px 12px;
+      backdrop-filter:saturate(140%) blur(8px);
+    }
+    .mobile-quicknav a{
+      flex:1;
+      text-align:center;
+      text-decoration:none;
+      color:var(--accent-dark);
+      font-weight:700;
+      font-size:0.9rem;
+      padding:10px 8px;
+      border-radius:12px;
+      border:1px solid rgba(218,165,32,0.18);
+      background:linear-gradient(180deg, rgba(255,247,230,0.8), rgba(255,255,255,0.8));
+    }
+    .mobile-quicknav a:focus{ outline:2px solid var(--accent-gold1); outline-offset:2px; }
+
+    .back-to-top{
+      position:fixed;
+      right:18px;
+      bottom:88px;
+      z-index:1000;
+      display:none;
+      border-radius:999px;
+      border:1px solid rgba(139,0,0,0.25);
+      background:rgba(255,255,255,0.92);
+      color:var(--accent-dark);
+      font-weight:700;
+      padding:10px 12px;
+      box-shadow:0 10px 22px rgba(0,0,0,0.10);
+      cursor:pointer;
+    }
+    .back-to-top.show{ display:inline-flex; align-items:center; justify-content:center; }
+    .back-to-top:focus{ outline:2px solid var(--accent-gold1); outline-offset:2px; }
+  }
+
+  @media (min-width:721px){
+    .mobile-quicknav, .back-to-top{ display:none !important; }
+  }
+
+  /* Day group collapsible styles */
+  .day-group{
+    margin-bottom:20px;
+    border-radius:16px;
+    overflow:hidden;
+    background:#fafafa;
+    border:1px solid rgba(0,0,0,0.05);
+  }
+  .day-group-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:14px 20px;
+    background:linear-gradient(135deg, var(--accent-dark) 0%, #5a0000 100%);
+    color:#fff;
+    cursor:pointer;
+    user-select:none;
+    transition: background 200ms ease;
+  }
+  .day-group-header:hover{
+    background:linear-gradient(135deg, #9a0000 0%, #6a0000 100%);
+  }
+  .day-group-title{
+    font-size:1.1rem;
+    font-weight:700;
+    letter-spacing:0.3px;
+  }
+  .day-group-subtitle{
+    font-size:0.85rem;
+    opacity:0.85;
+    margin-left:10px;
+    font-weight:400;
+  }
+  .day-group-toggle{
+    font-size:1.4rem;
+    transition:transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
+    line-height:1;
+  }
+  .day-group.collapsed .day-group-toggle{
+    transform:rotate(-90deg);
+  }
+  .day-group-content{
+    display:grid;
+    grid-template-rows:1fr;
+    transition:grid-template-rows 400ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms ease;
+    opacity:1;
+  }
+  .day-group.collapsed .day-group-content{
+    grid-template-rows:0fr;
+    opacity:0;
+  }
+  .day-group-inner{
+    overflow:hidden;
+    padding:16px;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+  }
+  .day-group.collapsed .day-group-inner{
+    padding-top:0;
+    padding-bottom:0;
+  }
+
+  /* Talks panel + toggle button */
+  .radial-heading{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
+  }
+  .talks-panel-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    padding:6px 12px;
+    border:1px solid var(--accent-dark);
+    border-radius:6px;
+    background:transparent;
+    color:var(--accent-dark);
+    font-weight:600;
+    font-size:0.85rem;
+    cursor:pointer;
+    transition:all 200ms ease;
+  }
+  .talks-panel-btn .btn-icon{
+    font-size:0.9rem;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .talks-panel-btn:hover{
+    background:var(--accent-dark);
+    color:#fff8ee;
+  }
+  .talks-panel-btn.active{
+    background:var(--accent-dark);
+    color:#fff8ee;
+    border-color:var(--accent-dark);
+  }
+  .talks-section{
+    transition:opacity 450ms ease, transform 450ms ease;
+    opacity:0;
+    transform:translateY(20px);
+  }
+  .talks-section.visible{
+    opacity:1;
+    transform:translateY(0);
+  }
+  .radial-section.carousel-hidden{
+    opacity:0;
+    transform:scale(0.95);
+    pointer-events:none;
+    max-height:0;
+    overflow:hidden;
+    transition:opacity 450ms ease, transform 450ms ease, max-height 450ms ease;
+  }
+  .radial-section:not(.carousel-hidden){
+    transition:opacity 450ms ease, transform 450ms ease, max-height 450ms ease;
+  }
+
+  
+  /* Double-hairline vignette border animation for talk cards */
+  .talk-card{
+    position:relative;
+  }
+  .talk-card::before,
+  .talk-card::after{
+    content:'';
+    position:absolute;
+    inset:0;
+    border-radius:14px;
+    pointer-events:none;
+    opacity:0;
+    transition:opacity 400ms ease, transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .talk-card::before{
+    border:1.5px solid var(--accent-gold2);
+    transform:scale(1.02);
+  }
+  .talk-card::after{
+    border:1px solid var(--accent-gold2);
+    inset:3px;
+    border-radius:11px;
+    transform:scale(1.01);
+  }
+  .talk-card:hover::before,
+  .talk-card:hover::after{
+    opacity:1;
+    transform:scale(1);
+  }
+  .talk-card::before{
+    box-shadow:0 0 20px rgba(184,134,11,0.15), inset 0 0 20px rgba(184,134,11,0.05);
+  }
+  .talk-card::after{
+    box-shadow:inset 0 0 15px rgba(184,134,11,0.08);
+  }
+
+  /* Talks utilities (filter, bulk expand/collapse) */
+  .talks-tools{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    margin:8px 0 12px;
+    flex-wrap:wrap;
+  }
+  .talks-filter{
+    padding:6px 10px;
+    border:1px solid rgba(139,0,0,0.2);
+    border-radius:6px;
+    font-size:0.86rem;
+    min-width:200px;
+    background:#fffef9;
+    color:#222;
+    transition:border-color 0.2s, box-shadow 0.2s;
+  }
+  .talks-filter:focus{
+    outline:none;
+    border-color:var(--accent-gold1);
+    box-shadow:0 0 0 2px rgba(218,165,32,0.2);
+  }
+  .mini-link{
+    border:1px solid rgba(139,0,0,0.25);
+    background:transparent;
+    color:var(--accent-dark);
+    border-radius:6px;
+    padding:4px 8px;
+    font-size:0.8rem;
+    cursor:pointer;
+  }
+  .mini-link:hover{ background:rgba(139,0,0,0.06); }
+
+  
+
+  .active-talk{
+    outline:2px solid rgba(184,134,11,0.6);
+    box-shadow:0 0 0 2px rgba(184,134,11,0.15) inset;
+  }
+
+  /* Carousel Styles - GPU-accelerated smooth animations */
+  .radial-section{
+    margin-top:28px;
+    padding:20px 0;
+  }
+  .radial-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    position:relative;
+    overflow:hidden;
+    touch-action: pan-y;
+  }
+  /* Hover hint arrows over the carousel */
+  .carousel-edge{
+    position:absolute;
+    top:0; bottom:0;
+    width:32%;
+    display:flex;
+    align-items:center;
+    z-index:3;
+    pointer-events:none; /* purely visual; clicks pass through */
+    opacity:0; /* revealed by hover-left/right classes */
+    transition:opacity 120ms ease;
+  }
+  .carousel-edge.left{ left:0; justify-content:flex-start; }
+  .carousel-edge.right{ right:0; justify-content:flex-end; }
+  .radial-container.hover-left .carousel-edge.left{ opacity:0.22; }
+  .radial-container.hover-right .carousel-edge.right{ opacity:0.22; }
+  .carousel-edge .edge-arrow{
+    display:inline-flex;
+    align-items:center; justify-content:center;
+    width:54px; height:54px;
+    border-radius:50%;
+    font-size:34px;
+    color:rgba(139,0,0,0.8); /* accent-dark, faint */
+    background:rgba(255,255,255,0.65);
+    border:1px solid rgba(218,165,32,0.35); /* gold tint */
+    box-shadow:0 2px 12px rgba(0,0,0,0.08);
+  }
+  .carousel-instruction{
+    text-align:center;
+    color:var(--muted);
+    font-size:0.88rem;
+    margin-bottom:8px;
+    font-style:italic;
+  }
+  .carousel-instruction strong{
+    color:var(--accent-dark);
+    font-style:normal;
+  }
+
+  .schedule-hint{
+    text-align:center;
+    color:var(--muted);
+    font-size:0.9rem;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:8px 12px;
+    border-radius:12px;
+    background:rgba(255,255,255,0.65);
+    border:1px solid rgba(218,165,32,0.22);
+  }
+  .schedule-hint strong{ color:var(--accent-dark); }
+  .schedule-hint.blink{ animation: scheduleHintBlink 1.1s ease-in-out 6; }
+  @keyframes scheduleHintBlink{
+    0%, 100%{ opacity:1; box-shadow:none; }
+    50%{ opacity:0.25; box-shadow:0 0 0 3px rgba(218,165,32,0.18); }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .schedule-hint.blink{ animation:none; }
+  }
+  .carousel-track{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    min-height:380px;
+    position:relative;
+    perspective:1800px;
+    transform-style:preserve-3d;
+  }
+  .carousel-slide{
+    position:absolute;
+    backface-visibility:hidden;
+    -webkit-backface-visibility:hidden;
+    transform-origin:center center;
+    will-change:transform, opacity;
+    transition:
+      transform 450ms cubic-bezier(0.32, 0.72, 0, 1),
+      opacity 350ms cubic-bezier(0.32, 0.72, 0, 1),
+      filter 300ms ease-out;
+  }
+  .carousel-slide.active{
+    width:80%;
+    max-width:900px;
+    z-index:10;
+    transform:translate3d(0, 0, 0) scale(1);
+    opacity:1;
+    filter:none;
+  }
+  .carousel-slide.prev{
+    width:18%;
+    max-width:200px;
+    left:0;
+    z-index:5;
+    transform:translate3d(-15%, 0, -150px) rotateY(40deg) scale(0.8);
+    opacity:0.5;
+    filter:blur(2px);
+    cursor:pointer;
+  }
+  .carousel-slide.next{
+    width:18%;
+    max-width:200px;
+    right:0;
+    z-index:5;
+    transform:translate3d(15%, 0, -150px) rotateY(-40deg) scale(0.8);
+    opacity:0.5;
+    filter:blur(2px);
+    cursor:pointer;
+  }
+  .carousel-slide.hidden{
+    opacity:0;
+    pointer-events:none;
+    transform:translate3d(0, 0, -300px) scale(0.5);
+    transition:
+      transform 300ms cubic-bezier(0.32, 0.72, 0, 1),
+      opacity 200ms ease-out;
+  }
+  .carousel-slide.exiting-left{
+    transform:translate3d(-60%, 0, -200px) rotateY(50deg) scale(0.7);
+    opacity:0;
+  }
+  .carousel-slide.exiting-right{
+    transform:translate3d(60%, 0, -200px) rotateY(-50deg) scale(0.7);
+    opacity:0;
+  }
+  .carousel-slide.prev:hover,
+  .carousel-slide.next:hover{
+    opacity:0.7;
+    filter:blur(1px);
+    transform:translate3d(-10%, 0, -100px) rotateY(35deg) scale(0.85);
+    transition:
+      transform 200ms cubic-bezier(0.32, 0.72, 0, 1),
+      opacity 150ms ease-out,
+      filter 150ms ease-out;
+  }
+  .carousel-slide.next:hover{
+    transform:translate3d(10%, 0, -100px) rotateY(-35deg) scale(0.85);
+  }
+  .carousel-slide.active{
+    cursor:default;
+  }
+  .carousel-slide.active .carousel-card{
+    position:relative;
+  }
+  .carousel-slide.active .carousel-card::after{
+    content:'';
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:30%;
+    pointer-events:none;
+    opacity:0;
+    transition:opacity 200ms ease;
+  }
+  /* Hovering a past slide should behave like normal (remove dim) */
+  .carousel-slide.past:hover .carousel-card,
+  .carousel-slide.past:focus-within .carousel-card{ opacity:1; filter:none; pointer-events:auto; }
+  .carousel-card{
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.08);
+    border:2px solid transparent;
+    overflow:hidden;
+    transition:border-color 300ms ease, box-shadow 300ms ease;
+  }
+  .carousel-slide.active .carousel-card{
+    border-color:var(--accent-gold1);
+    box-shadow:0 20px 60px rgba(139,0,0,0.12), 0 0 0 1px var(--accent-gold2);
+  }
+  /* Download badge on carousel card */
+  .carousel-card .download-btn{
+    position:absolute; top:12px; right:12px;
+    animation: pulse-yellow 2.5s infinite;
+  }
+  .carousel-card .download-btn.disabled{ opacity:0.5; animation:none; cursor:not-allowed; }
+  .carousel-card-inner{
+    display:flex;
+    flex-direction:row;
+  }
+  .carousel-datetime{
+    flex:0 0 100px;
+    background:linear-gradient(135deg, var(--accent-dark) 0%, #5a0000 100%);
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:20px 14px;
+    text-align:center;
+  }
+  .carousel-datetime .c-day{
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    opacity:0.9;
+    margin-bottom:4px;
+  }
+  .carousel-datetime .c-date{
+    font-size:1.6rem;
+    font-weight:700;
+    line-height:1;
+    margin-bottom:2px;
+  }
+  .carousel-datetime .c-month{
+    font-size:0.85rem;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    opacity:0.9;
+    margin-bottom:10px;
+  }
+  .carousel-datetime .c-time{
+    font-size:0.85rem;
+    font-weight:600;
+    background:rgba(255,255,255,0.15);
+    padding:5px 10px;
+    border-radius:4px;
+  }
+  .carousel-content{
+    flex:1;
+    padding:20px 24px;
+    display:flex;
+    flex-direction:column;
+  }
+  .carousel-header{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    margin-bottom:14px;
+  }
+  .carousel-avatar{
+    width:64px;
+    height:64px;
+    border-radius:50%;
+    overflow:hidden;
+    border:3px solid var(--accent-gold2);
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+    flex-shrink:0;
+  }
+  .carousel-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+  .carousel-avatar-placeholder{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg, #f5f5f5, #e8e8e8);
+    font-weight:700;
+    color:var(--accent-dark);
+    font-size:1.2rem;
+  }
+  .carousel-speaker-info h3{
+    margin:0 0 4px 0;
+    color:var(--accent-dark);
+    font-size:1.15rem;
+  }
+  .carousel-speaker-info .affiliation{
+    color:var(--muted);
+    font-style:italic;
+    font-size:0.88rem;
+  }
+  .carousel-title{
+    font-size:1.05rem;
+    font-weight:700;
+    color:#222;
+    margin-bottom:10px;
+    line-height:1.4;
+  }
+  .carousel-abstract{
+    color:#444;
+    font-size:0.9rem;
+    line-height:1.6;
+    max-height:140px;
+    overflow-y:auto;
+    flex:1;
+  }
+  .carousel-nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:16px;
+    margin-top:16px;
+  }
+  .carousel-nav-btn{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    border:2px solid var(--accent-dark);
+    background:#fff;
+    color:var(--accent-dark);
+    font-size:1.3rem;
+    cursor:pointer;
+    transition:all 200ms ease;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .carousel-nav-btn:hover:not(:disabled){
+    background:var(--accent-dark);
+    color:#fff;
+    transform:scale(1.08);
+  }
+  .carousel-nav-btn:disabled{
+    opacity:0.3;
+    cursor:not-allowed;
+  }
+  .carousel-nav-btn:active:not(:disabled){
+    transform:scale(0.95);
+  }
+  .carousel-indicator{
+    color:var(--muted);
+    font-size:0.9rem;
+    min-width:120px;
+    text-align:center;
+  }
+  .carousel-dots{
+    display:flex;
+    justify-content:center;
+    gap:6px;
+    margin-top:12px;
+    flex-wrap:wrap;
+    max-width:400px;
+  }
+  .carousel-dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:rgba(139,0,0,0.2);
+    cursor:pointer;
+    transition:all 200ms ease;
+  }
+  .carousel-dot:hover{
+    background:rgba(139,0,0,0.4);
+    transform:scale(1.2);
+  }
+  .carousel-dot.active{
+    background:var(--accent-dark);
+    transform:scale(1.3);
+  }
+  @media (max-width:768px){
+    .carousel-slide.active{
+      width:95%;
+    }
+    .carousel-slide.prev,
+    .carousel-slide.next{
+      display:none;
+    }
+    .carousel-card-inner{
+      flex-direction:column;
+    }
+    .carousel-datetime{
+      flex:0 0 auto;
+      flex-direction:row;
+      gap:12px;
+      padding:12px 16px;
+    }
+    .carousel-datetime .c-month{
+      margin-bottom:0;
+    }
+  }
+  @media (max-width:600px){
+    .carousel-title{ font-size:0.98rem; overflow-wrap:anywhere; }
+    .carousel-abstract{ font-size:0.88rem; }
+    .carousel-avatar{ width:52px; height:52px; }
+    .carousel-datetime{ padding:10px 12px; }
+    .carousel-dot{ width:10px; height:10px; }
+    .carousel-nav-btn{ width:44px; height:44px; }
+    .speaker{ flex:1 1 100%; }
+    .speaker-avatar{ width:42px; height:42px; flex:0 0 42px; }
+    .speaker-affiliation{ font-size:0.78rem; }
+  }
+
+  .speaker a.speaker-talklink,
+  .schedule a.schedule-talklink{
+    color:inherit;
+    text-decoration:none;
+    border-bottom:1px solid rgba(218,165,32,0.35);
+    transition: border-color 180ms ease;
+  }
+  .speaker a.speaker-talklink:hover,
+  .schedule a.schedule-talklink:hover{
+    border-bottom-color: var(--accent-gold2);
+  }
+
+  .speaker{
+    position:relative;
+    background:linear-gradient(145deg, rgba(255,255,255,0.98), rgba(250,246,240,0.9));
+    border-radius:16px;
+    padding:12px 16px;
+    border:1px solid rgba(0,0,0,0.04);
+    min-width:220px;
+    min-height:58px;
+    flex:1 1 230px;
+    display:flex;
+    align-items:center;
+    gap:14px;
+    box-shadow:0 6px 16px rgba(0,0,0,0.08);
+    transition:transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+    overflow:hidden;
+  }
+
+  .speaker::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:inherit;
+    border:1px solid transparent;
+    background:linear-gradient(120deg, rgba(218,165,32,0.18), rgba(255,255,255,0)) border-box;
+    opacity:0;
+    transition:opacity 200ms ease;
+    pointer-events:none;
+  }
+
+  .speaker:hover,
+  .speaker.hovered{
+    transform:translateY(-3px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.12);
+    border-color:rgba(218,165,32,0.35);
+  }
+
+  .speaker:hover::after,
+  .speaker.hovered::after{
+    opacity:1;
+  }
+
+  .speaker-avatar{
+    flex:0 0 46px;
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    overflow:hidden;
+    position:relative;
+    box-shadow:0 6px 14px rgba(0,0,0,0.12);
+  }
+
+  .speaker-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:50%;
+    border:2px solid var(--accent-gold1);
+    display:block;
+  }
+
+  .speaker-content{
+    flex:1;
+    text-align:left;
+  }
+
+  .speaker strong{
+    color:var(--accent-dark);
+    display:block;
+    margin-bottom:2px;
+  }
+
+  .speaker-affiliation{
+    font-family: Georgia, "Times New Roman", serif;
+    font-size:0.82rem;
+    color:#555;
+    font-style:italic;
+  }
+
+  /* Remove old golden wave animation */
+
+  /* Schedule table redesign */
+  .schedule-wrap{
+    margin-top:12px;
+    padding:16px;
+    border-radius:18px;
+    background:linear-gradient(135deg, rgba(255,250,240,0.95), #fffdf5);
+    box-shadow:0 20px 45px rgba(0,0,0,0.08);
+    border:1px solid rgba(218,165,32,0.25);
+  }
+  .schedule-scroll{
+    /* Let enlarged hovered cells show fully; horizontal scroll stays on schedule-wrap */
+    overflow:visible;
+    border-radius:14px;
+  }
+  .schedule-scroll::-webkit-scrollbar{
+    height:10px;
+  }
+  .schedule-scroll::-webkit-scrollbar-thumb{
+    background:rgba(139,0,0,0.35);
+    border-radius:999px;
+  }
+  table.schedule{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0;
+    min-width:720px;
+    font-size:0.94rem;
+    position: relative;
+    overflow: visible;
+  }
+  table.schedule thead,
+  table.schedule tbody,
+  table.schedule tr{ overflow: visible; position: relative; }
+  table.schedule thead th{
+    text-transform:uppercase;
+    font-size:0.8rem;
+    letter-spacing:1.3px;
+    background:linear-gradient(135deg, rgba(139,0,0,0.88), #5a0000);
+    color:#fffef8;
+    padding:12px 12px;
+    border-bottom:2px solid rgba(255,255,255,0.25);
+    position:static;
+    top:auto;
+    z-index:auto;
+  }
+  table.schedule th,
+  table.schedule td{
+    border:1px solid rgba(0,0,0,0.06);
+    padding:12px 12px;
+    text-align:left;
+    background:#fff;
+    vertical-align:middle;
+    position:relative;
+    transform-origin:center center;
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    border-radius:12px;
+    transition: transform 520ms cubic-bezier(0.25, 0.8, 0.25, 1), background 260ms ease, box-shadow 320ms ease;
+  }
+  table.schedule tbody th{
+    text-align:right;
+    font-weight:700;
+    color:var(--accent-dark);
+    background:linear-gradient(90deg, rgba(139,0,0,0.07), rgba(255,255,255,0));
+    position:sticky;
+    left:0;
+    z-index:2;
+    min-width:130px;
+  }
+  /* Sticky first column for better schedule usability */
+  table.schedule thead th:first-child,
+  table.schedule tbody th{
+    position:sticky;
+    left:0;
+    z-index:3;
+    background:#fffdf7;
+    box-shadow:2px 0 0 rgba(218,165,32,0.15);
+  }
+  table.schedule thead th:first-child{
+    z-index:4;
+    background:#fff7e6;
+  }
+  table.schedule tbody tr:nth-child(even) td{
+    background:#fffdf7;
+  }
+  table.schedule tbody tr:hover td,
+  table.schedule tbody tr:hover th{
+    background:rgba(255,229,180,0.45);
+    transition:background 200ms ease;
+  }
+  table.schedule tbody td{
+    font-weight:500;
+    color:#1f1f1f;
+    line-height:1.35;
+    transition: background 260ms ease, box-shadow 320ms ease, transform 520ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  table.schedule .cell{ display:flex; flex-direction:column; align-items:flex-start; gap:4px; }
+  table.schedule .cell-speaker{ font-weight:700; color:#241f1e; }
+  table.schedule .cell-speaker a{ color:inherit; text-decoration:none; border-bottom:1px dashed rgba(139,0,0,0.25); }
+  table.schedule .cell-speaker a:hover{ border-bottom-color: var(--accent-gold2); }
+  /* Minimal underline animation for links */
+  table.schedule .cell-speaker a,
+  table.schedule td > a.schedule-talklink{
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size 160ms ease;
+  }
+  table.schedule .cell-speaker a:hover,
+  table.schedule td > a.schedule-talklink:hover{
+    background-size: 100% 1px;
+  }
+
+  /* Cell hover/active effects */
+  table.schedule td:hover{
+    background: linear-gradient(135deg, #fff3d1, #ffe8a3);
+    box-shadow:
+      inset 0 0 0 2px rgba(218,165,32,0.45),
+      0 14px 45px rgba(0,0,0,0.18);
+  }
+  table.schedule td:active{
+    transform: translateY(1px);
+  }
+
+  /* Golden zoom pop: only on precise pointing devices; skip break rows */
+  @media (hover: hover) and (pointer: fine){
+    table.schedule tr:not(.break) td:hover{
+      transform: scale(1.3);
+      transition: transform 320ms cubic-bezier(0.25, 0.8, 0.25, 1),
+                  background 260ms ease,
+                  box-shadow 320ms ease;
+      z-index: 8; /* above regular and sticky cells */
+    }
+    /* Unclamp and reveal full content on hover */
+    table.schedule tr:not(.break) td:hover .cell-title{
+      -webkit-line-clamp: unset;
+      line-clamp: unset;
+      overflow: visible;
+      white-space: normal;
+      max-height: none;
+    }
+  }
+
+  /* Keep subtle emphasis for current/next on hover */
+  table.schedule td.current-cell:hover{
+    box-shadow: inset 0 0 0 1px rgba(34,197,94,0.35), 0 3px 10px rgba(0,0,0,0.05);
+  }
+  table.schedule td.next-cell:hover{
+    box-shadow: inset 0 0 0 1px rgba(234,179,8,0.35), 0 3px 10px rgba(0,0,0,0.05);
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    table.schedule tbody td{ transition: background 0.15s ease, box-shadow 0.15s ease; }
+    table.schedule td:active{ transform:none; }
+    table.schedule td:hover{ transform:none !important; }
+    table.schedule .cell-speaker a,
+    table.schedule td > a.schedule-talklink{ transition: none; }
+  }
+  table.schedule .cell-title{ font-size:0.82rem; color:#555; max-width:100%; display:-webkit-box; -webkit-line-clamp:2; line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  table.schedule .cell-meta{ font-size:0.75rem; color:#7a7a7a; }
+
+  table.schedule td.current-cell{ background:rgba(34,197,94,0.08); box-shadow: inset 0 0 0 1px rgba(34,197,94,0.15); }
+  table.schedule td.next-cell{ background:rgba(234,179,8,0.08); box-shadow: inset 0 0 0 1px rgba(234,179,8,0.15); }
+  table.schedule tbody td span.session-meta{
+    display:block;
+    font-size:0.75rem;
+    color:#7a7a7a;
+    font-weight:400;
+    margin-top:4px;
+  }
+  table.schedule tr.break th,
+  table.schedule tr.break td{
+    background:rgba(0,0,0,0.03);
+    font-style:italic;
+    color:#666;
+    text-transform:uppercase;
+    letter-spacing:1px;
+  }
+  table.schedule tr.break.coffee td{
+    background:rgba(255,215,0,0.08);
+    color:#8b6500;
+  }
+  table.schedule tr.break.lunch td{
+    background:rgba(34,139,34,0.08);
+    color:#2f6b2f;
+  }
+  table.schedule td:empty::after{
+    content:'—';
+    color:#bbb;
+  }
+  table.schedule td a.schedule-talklink{
+    font-weight:700;
+    color:inherit;
+    text-decoration:none;
+  }
+  table.schedule td a.schedule-talklink:focus{
+    outline:2px solid var(--accent-gold1);
+    outline-offset:2px;
+    border-radius:4px;
+  }
+  table.schedule td a.schedule-talklink:hover{
+    text-decoration:underline;
+  }
+  /* Mobile-first stacked schedule layout */
+  @media(max-width:640px){
+    .schedule-wrap{ padding:10px; }
+    .schedule-scroll{ overflow-x:visible; }
+    table.schedule{ min-width:0; border-collapse:separate; border-spacing:0; font-size:0.95rem; }
+    table.schedule thead{ display:none; }
+    table.schedule, table.schedule tbody, table.schedule tr, table.schedule td, table.schedule th{ display:block; width:100%; }
+    table.schedule tbody tr{ margin-bottom:14px; border:1px solid rgba(0,0,0,0.06); border-radius:12px; overflow:hidden; background:#fff; }
+    table.schedule tbody th{ position:static; left:auto; z-index:auto; background:#fff7e6; box-shadow:none; text-align:left; min-width:0; padding:10px 12px; border-bottom:1px solid rgba(0,0,0,0.06); }
+    table.schedule tbody td{ text-align:left; padding:10px 12px 10px 86px; border:none; border-top:1px solid rgba(0,0,0,0.05); position:relative; }
+    table.schedule tbody tr:nth-child(even) td{ background:#fff; }
+    table.schedule tbody tr:hover td, table.schedule tbody tr:hover th{ background:inherit; }
+    table.schedule td a.schedule-talklink{ font-weight:700; }
+    /* Day labels before each cell */
+    table.schedule tbody tr td:nth-child(2)::before{ content:'Mon'; }
+    table.schedule tbody tr td:nth-child(3)::before{ content:'Tue'; }
+    table.schedule tbody tr td:nth-child(4)::before{ content:'Wed'; }
+    table.schedule tbody tr td:nth-child(5)::before{ content:'Thu'; }
+    table.schedule tbody tr td::before{
+      position:absolute; left:12px; top:10px; font-size:0.78rem; font-weight:700; color:var(--accent-dark); opacity:0.85;
+    }
+    /* Break rows */
+    table.schedule tr.break td{ padding:12px; }
+  }
+  @media(max-width:820px){
+    .schedule-scroll{
+      margin:0 -12px;
+      padding-bottom:8px;
+    }
+  }
+
+  /* Schedule wrapper + break rows (from schx_temp) */
+  .schedule-wrap{ overflow:visible; }
+  tr.break td{ font-style:italic; font-size:0.9rem; text-align:center; }
+  tr.coffee td{ background:rgba(218,165,32,0.15); color:#7a5200; }
+  tr.tea td{ background:rgba(139,0,0,0.08); color:var(--accent-dark); }
+  tr.lunch td{ background:rgba(46,139,87,0.15); color:#1f5e3b; font-weight:600; }
+
+  /* Let the schedule section extend into the right column on desktop */
+  section.schedule-wide{ width: calc(100% + 380px); margin-right: -380px; }
+  @media (max-width:920px){ section.schedule-wide{ width: 100%; margin-right: 0; } }
+
+  /* Pulsating dots for schedule table */
+  .schedule-dot {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    z-index: 10;
+  }
+ 
+  .schedule-dot.current {
+    background: #22c55e;
+    animation: pulse-green 2.5s infinite;
+  }
+ 
+  .schedule-dot.next {
+    background: #eab308;
+    opacity: 0.25;
+    animation: pulse-yellow 2.5s infinite;
+  }
+
+  /* Download UI for schedule cells */
+  table.schedule .cell-actions{ margin-top:6px; display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+  .download-btn{
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:0.72rem; font-weight:700; color:var(--accent-dark);
+    background:#fffef9; border:1px solid rgba(139,0,0,0.15);
+    border-radius:8px; padding:3px 7px; text-decoration:none;
+    box-shadow:0 1px 2px rgba(0,0,0,0.06);
+    transition: background 160ms ease, box-shadow 160ms ease, transform 140ms ease;
+  }
+  a.download-btn:hover{ background:#fff7e6; box-shadow:0 2px 6px rgba(139,0,0,0.08); transform: translateY(-1px); }
+  .download-btn .icon{ font-size:0.86rem; line-height:1; }
+  .download-btn.disabled{ opacity:0.5; cursor:not-allowed; }
+  .download-btn.download-na{
+    background:#f5f1eb;
+    border:1px solid rgba(0,0,0,0.08);
+    color:var(--muted);
+    pointer-events:none;
+    cursor:default;
+    gap:0;
+  }
+
+  .talk-actions{ margin-top:8px; display:flex; gap:8px; }
+
+  @keyframes pulse-green {
+    0%, 100% {
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5);
+      transform: scale(1);
+    }
+    50% {
+      box-shadow: 0 0 0 4px rgba(34, 197, 94, 0);
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes pulse-yellow {
+    0%, 100% {
+      box-shadow: 0 0 0 0 rgba(234, 179, 8, 0.4);
+      transform: scale(1);
+    }
+    50% {
+      box-shadow: 0 0 0 4px rgba(234, 179, 8, 0);
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes blink-green {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+  }
+  /* Footer / contact */
+  .footer{ margin-top:26px; color:var(--muted); font-size:.92rem; display:flex; justify-content:space-between; gap:10px; align-items:center; flex-wrap:wrap; }
+  a { color:var(--accent-dark); text-decoration:underline; }
+
+  /* Small helpers */
+  .muted{ color:var(--muted); font-size:0.95rem; }
+
+  /* Small responsive tweak: keep the aside left-aligned area visually separate */
+  @media (max-width:920px){
+    .qr-wrap{ text-align:left; }
+  }
+
+  /* Participants conveyor belt */
+  .participants-wrapper{
+    margin-top:20px;
+    position:static;
+    padding-top:0;
+    z-index:auto;
+  }
+  .participants-wrapper::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:18px;
+    background:linear-gradient(120deg, rgba(20,38,113,0.06), transparent 70%);
+    pointer-events:none;
+  }
+  .participants-container{
+    margin-top:14px;
+    background: linear-gradient(140deg, rgba(255,253,242,0.96), rgba(255,245,224,0.92));
+    border-radius:18px;
+    border:1px solid rgba(139,0,0,0.08);
+    box-shadow:0 24px 48px rgba(17,17,17,0.08);
+    padding:20px 22px 22px;
+    position:relative;
+    overflow:hidden;
+    max-width:100%;
+    height:auto;
+  }
+  .participants-container::before{
+    content:"";
+    position:absolute;
+    top:0; left:0; right:0;
+    height:160px;
+    background: radial-gradient(circle at 0% 0%, rgba(20,38,113,0.18), transparent 60%);
+    pointer-events:none;
+  }
+  .participants-container::after{
+    content:"";
+    position:absolute;
+    bottom:0; left:0; right:0;
+    height:180px;
+    background: radial-gradient(circle at 100% 100%, rgba(144,192,117,0.14), transparent 65%);
+    pointer-events:none;
+  }
+  .participants-container > *{ position:relative; z-index:1; }
+  .participants-header{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; flex-wrap:wrap; }
+  .participants-title{ font-weight:800; color:var(--accent-dark); font-size:1.12rem; letter-spacing:0.01em; text-transform:uppercase; }
+  .participants-controls{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .participants-search{ 
+    padding:8px 14px; 
+    border:1px solid rgba(139,0,0,0.22); 
+    border-radius:999px; 
+    font-size:0.86rem; 
+    min-width:200px; 
+    background:rgba(255,255,255,0.82);
+    color:#1f1f1f;
+    transition:border-color 0.2s, box-shadow 0.2s, background 0.2s;
+  }
+  .participants-search:focus{
+    outline:none;
+    border-color:var(--accent-gold1);
+    background:#fffdf5;
+    box-shadow:0 0 0 3px rgba(218,165,32,0.18);
+  }
+  .participants-search::placeholder{
+    color:var(--muted);
+  }
+  .participants-toggle{ border:none; background:rgba(255,255,255,0.68); color:var(--accent-dark); cursor:pointer; display:flex; align-items:center; gap:6px; font-size:0.84rem; padding:6px 12px; border-radius:999px; font-weight:600; box-shadow:0 6px 12px rgba(20,38,113,0.12); transition:transform 0.18s ease, box-shadow 0.18s ease; }
+  .participants-toggle:hover{ transform:translateY(-1px); box-shadow:0 10px 18px rgba(20,38,113,0.16); }
+  .participants-toggle span{ font-size:0.86rem; }
+  .participants-toggle-icon{ font-size:0.86rem; }
+  .participants-topline{ display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:18px; }
+  .participants-badge{ display:inline-flex; align-items:center; gap:8px; padding:8px 14px; border-radius:999px; background:rgba(20,38,113,0.12); color:var(--accent-dark); font-weight:700; font-size:0.88rem; letter-spacing:0.04em; text-transform:uppercase; box-shadow:0 10px 20px rgba(20,38,113,0.12); }
+  .participants-badge .icon{ font-size:1.05rem; }
+  .participants-summary{ margin:0; flex:1 1 260px; font-size:0.9rem; line-height:1.5; color:rgba(17,17,17,0.72); }
+  .participants-belt-view{ overflow:hidden; border-radius:16px; border:1px solid rgba(20,38,113,0.12); background:rgba(255,255,255,0.82); padding:12px 10px; width:100%; height:358px; position:relative; backdrop-filter:blur(6px); max-height:min(45vh, 400px); }
+  .participants-belt-track{ display:flex; flex-direction:column; gap:10px; will-change:transform; }
+  .participant-card{ min-width:0; background:linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,252,235,0.92)); border-radius:14px; padding:12px 14px; border:1px solid rgba(20,38,113,0.08); box-shadow:0 14px 32px rgba(17,17,17,0.08); opacity:0; transform:translateY(12px); animation: ncap-entrance 0.6s cubic-bezier(0.4,0,0.2,1) forwards; flex-shrink:0; position:relative; overflow:hidden; }
+  .participant-card::after{
+    content:"";
+    position:absolute;
+    inset:auto -40% -70% -10%;
+    height:180px;
+    background:radial-gradient(circle at bottom right, rgba(218,165,32,0.18), transparent 70%);
+    pointer-events:none;
+  }
+  .participant-card > *{ position:relative; z-index:1; }
+  .participant-card:nth-child(1){ animation-delay:0s; }
+  .participant-card:nth-child(2){ animation-delay:0.1s; }
+  .participant-card:nth-child(3){ animation-delay:0.2s; }
+  .participant-card:nth-child(4){ animation-delay:0.3s; }
+  .participant-card:nth-child(n+5){ animation-delay:0.4s; }
+  @keyframes ncap-entrance{
+    0%{ opacity:0; transform:translateY(12px); }
+    100%{ opacity:1; transform:translateY(0); }
+  }
+  .participant-name{ font-weight:700; color:#111; margin-bottom:6px; font-size:1rem; letter-spacing:0.01em; }
+  .participant-meta{ color:rgba(17,17,17,0.64); font-size:0.82rem; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .participant-meta .accommodation-tag{ background:rgba(218,165,32,0.18); padding:2px 6px; border-radius:999px; font-size:0.75rem; letter-spacing:0.04em; }
+  .participant-actions{ margin-top:14px; display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .participant-cert-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:0.82rem;
+    font-weight:700;
+    text-decoration:none;
+    color:var(--accent-dark);
+    background:linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,247,214,0.95));
+    border:1px solid rgba(20,38,113,0.16);
+    border-radius:999px;
+    padding:8px 16px;
+    box-shadow:0 12px 24px rgba(20,38,113,0.14);
+    transition:transform 0.18s ease, box-shadow 0.18s ease, background 0.18s;
+  }
+  .participant-cert-btn .icon{ font-size:0.95rem; }
+  .participant-cert-btn .label{ letter-spacing:0.02em; }
+  .participant-cert-btn:hover{ transform:translateY(-2px); box-shadow:0 18px 32px rgba(20,38,113,0.18); background:linear-gradient(135deg, rgba(255,255,255,0.98), rgba(255,243,191,0.98)); }
+  .participant-cert-btn:focus{ outline:2px solid var(--accent-gold1); outline-offset:2px; }
+  .participant-cert-btn.is-compact{ font-size:0.76rem; padding:6px 12px; box-shadow:0 8px 18px rgba(20,38,113,0.12); }
+  .participant-cert-btn.disabled{ opacity:0.5; cursor:not-allowed; pointer-events:none; }
+  .participants-full-view{ display:none; max-height:364px; overflow:auto; border-radius:14px; border:1px solid rgba(20,38,113,0.12); background:rgba(255,255,255,0.86); padding:12px 14px; font-size:0.9rem; box-shadow:0 10px 26px rgba(17,17,17,0.06); max-height:min(50vh, 420px); }
+  .participants-full-view ol{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:8px; }
+  .participant-full-item{ display:flex; align-items:center; justify-content:space-between; gap:14px; padding:10px 12px; border-radius:12px; background:rgba(255,255,255,0.78); border:1px solid rgba(20,38,113,0.08); box-shadow:0 4px 10px rgba(17,17,17,0.05); }
+  .participant-full-text{ display:flex; flex-direction:column; gap:4px; color:#1c1c1c; font-size:0.88rem; }
+  .participant-full-text strong{ font-weight:700; color:var(--accent-dark); letter-spacing:0.01em; }
+  .participant-full-meta{ color:rgba(17,17,17,0.6); font-size:0.78rem; display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .participant-full-meta .accommodation-tag{ background:rgba(218,165,32,0.18); padding:2px 6px; border-radius:999px; font-size:0.72rem; letter-spacing:0.04em; }
+  @media (max-width:600px){
+    .participants-wrapper{ margin-top:16px; padding-top:0; }
+    .participants-container{ padding:14px 12px; }
+    .participants-topline{ flex-direction:column; align-items:flex-start; }
+    .participants-summary{ font-size:0.88rem; }
+    .participants-belt-view{ height:252px; max-height:min(40vh, 300px); }
+    .participants-full-view{ max-height:266px; max-height:min(45vh, 320px); }
+    .participant-card{ padding:12px; }
+    .participant-full-item{ flex-direction:column; align-items:flex-start; }
+    .participant-cert-btn{ width:100%; justify-content:center; }
+  }
+
+  /* Tablet optimizations without affecting desktop */
+  @media (max-width:820px){
+    .participants-container{ padding:16px; }
+    .participants-title{ font-size:1rem; }
+    .participants-search{ min-width:160px; }
+    .participants-toggle{ font-size:0.82rem; padding:6px 10px; }
+    .participants-belt-view{ max-height:min(42vh, 340px); }
+    .participants-full-view{ max-height:min(48vh, 380px); }
+  }
+
+  /* CVH/JVH tag styling */
+  .accommodation-tag {
+    font-weight: bold;
+    color: var(--accent-dark);
+    margin-left: 4px;
+  }
+
+  /* ==== Popup styles (keeps the SPARC theme) ==== */
+  .ncap-popup {
+    position: absolute;
+    max-width: 300px;
+    min-width: 220px;
+    background: linear-gradient(180deg,#fffefc,#fffdf5);
+    border: 1px solid rgba(139,0,0,0.08);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.10);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.92rem;
+    color: #111;
+    z-index: 9999;
+    transform-origin: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .14s cubic-bezier(.2,.9,.3,1), transform .14s;
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+  }
+
+  .ncap-popup.show { opacity: 1; pointer-events: none; transform: translateY(0) scale(1); }
+
+  .ncap-popup .pp-img {
+    width:56px; height:56px; flex:0 0 56px;
+    border-radius:6px; object-fit:cover; border:1px solid rgba(0,0,0,0.05);
+    background:#f6f6f6;
+  }
+
+  .ncap-popup .pp-text { font-size:0.88rem; line-height:1.2; color:#222; }
+  .ncap-popup .pp-title { font-weight:700; color:var(--accent-dark); margin-bottom:4px; font-size:0.95rem; }
+
+  .ncap-popup::after{
+    content: "";
+    position: absolute;
+    width: 14px; height:14px;
+    transform: rotate(45deg);
+    background: linear-gradient(180deg,#fffefc,#fffdf5);
+    border-left: 1px solid rgba(139,0,0,0.06);
+    border-top: 1px solid rgba(139,0,0,0.06);
+    box-shadow: -6px -6px 12px rgba(0,0,0,0.02);
+  }
+
+  /* Left/right variants for arrow position */
+  .ncap-popup.left::after { right: -7px; top: 14px; }
+  .ncap-popup.right::after { left: -7px; top: 14px; }
+
+  .speaker.hovered { transform: translateY(-3px); transition: transform .12s; }
+  .speaker { cursor: pointer; }
+
+  @media (max-width:720px){
+    .ncap-popup { display:none; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- Back link to the SPARC activities page -->
+    <a href="https://math.iisc.ac.in/~tirtha/sparc.html" style="text-decoration:none;color:inherit;"><small class="muted">← back to SPARC Activities</small></a>
+
+    <h1 class="title">Workshop on Noncommutative Analysis and Probability</h1>
+    <div class="subtitle">January 5 - January 8, 2026 • Lecture Hall 1 • Department of Mathematics</div>
+
+    <div class="card">
+      <div class="grid">
+        <!-- Left side: description + schedule -->
+        <div>
+          <!-- WHEN section (same look as before) -->
+          <section class="when-where" aria-labelledby="when-heading">
+            <div id="when-heading" class="info-label">When</div>
+            <div class="info-value">
+              <strong>January 5 - January 8, 2026</strong><br>
+              <!--
+                Daily: 09:30 AM — 05:00 PM (with coffee breaks and lunch break)                ###############EDIT THIS WHEN TIME IS FINALIZED################
+              -->
+            </div>
+          </section>
+
+          <section class="about" style="margin-top:12px;">
+            <div class="info-label">About</div>
+            <div class="info-value">
+              This four-day workshop brings together researchers working on aspects of noncommutative analysis and probability. <br>
+              Sponsored by SPARC and ANRF.<br>
+            </div>
+          </section>
+
+          <section class="speakers" id="speakersSection" aria-labelledby="spk" style="margin-top:24px;">
+
+            <div id="spk" class="info-label" style="display:block; text-align:center;">Speakers</div>
+
+            <div class="speaker-list">
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/Alex-Belton.jpg" alt="Alexander Belton">
+                </div>
+                <div class="speaker-content">
+                  <strong>Alexander Belton</strong>
+                  <div class="speaker-affiliation">University of Plymouth</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/bvrb.jpg" alt="B. V. Rajarama Bhat">
+                </div>
+                <div class="speaker-content">
+                  <strong>B. V. Rajarama Bhat</strong>
+                  <div class="speaker-affiliation">Indian Statistical Institute, Bangalore</div>
+                </div>
+              </div>
+
+              <!-- <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/jb.jpg" alt="Jyotishman Bhowmick">
+                </div>
+                <div class="speaker-content">
+                  <strong>Jyotishman Bhowmick</strong>
+                  <div class="speaker-affiliation">Indian Statistical Institute, Kolkata</div>
+                </div>
+              </div> -->
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/ac.jpg" alt="Arup Chattopadhyay">
+                </div>
+                <div class="speaker-content">
+                  <strong>Arup Chattopadhyay</strong>
+                  <div class="speaker-affiliation">Indian Institute of Technology, Guwahati</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/ssd.jpg" alt="Sujit Damase">
+                </div>
+                <div class="speaker-content">
+                  <strong>Sujit Damase</strong>
+                  <div class="speaker-affiliation">Indian Institute of Science, Bangalore</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/cks.jpg" alt="Chaman Kumar Sahu">
+                </div>
+                <div class="speaker-content">
+                  <strong>Chaman Kumar Sahu</strong>
+                  <div class="speaker-affiliation">Indian Institute of Technology, Bombay</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/sd.jpg" alt="Santanu Dey">
+                </div>
+                <div class="speaker-content">
+                  <strong>Santanu Dey</strong>
+                  <div class="speaker-affiliation">Indian Institute of Technology, Bombay</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/dg.jpg" alt="Debashish Goswami">
+                </div>
+                <div class="speaker-content">
+                  <strong>Debashish Goswami</strong>
+                  <div class="speaker-affiliation">Indian Statistical Institute, Kolkata</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/sj.jpg" alt="Soumalya Joardar">
+                </div>
+                <div class="speaker-content">
+                  <strong>Soumalya Joardar</strong>
+                  <div class="speaker-affiliation">IISER Kolkata</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/tcj.jpg" alt="Tiju Cherian John">
+                </div>
+                <div class="speaker-content">
+                  <strong>Tiju Cherian John</strong>
+                  <div class="speaker-affiliation">Birla Institute of Technology and Science</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/ak.jpg" alt="Apoorva Khare">
+                </div>
+                <div class="speaker-content">
+                  <strong>Apoorva Khare</strong>
+                  <div class="speaker-affiliation">Indian Institute of Science, Bangalore</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/ml.jpg" alt="Martin Lindsay">
+                </div>
+                <div class="speaker-content">
+                  <strong>Martin Lindsay</strong>
+                  <div class="speaker-affiliation">Lancaster University</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/gm.jpg" alt="Gadadhar Misra">
+                </div>
+                <div class="speaker-content">
+                  <strong>Gadadhar Misra</strong>
+                  <div class="speaker-affiliation">IIT Gandhinagar &amp; ISI</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/Nayak.jpg" alt="Soumyashant Nayak">
+                </div>
+                <div class="speaker-content">
+                  <strong>Soumyashant Nayak</strong>
+                  <div class="speaker-affiliation">Indian Statistical Institute, Bangalore</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/akp.jpg" alt="Arup Kumar Pal">
+                </div>
+                <div class="speaker-content">
+                  <strong>Arup Kumar Pal</strong>
+                  <div class="speaker-affiliation">Indian Statistical Institute, Delhi</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/sp.jpg" alt="Sourav Pal">
+                </div>
+                <div class="speaker-content">
+                  <strong>Sourav Pal</strong>
+                  <div class="speaker-affiliation">Indian Institute of Technology Bombay</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/sr.jpg" alt="Sutanu Roy">
+                </div>
+                <div class="speaker-content">
+                  <strong>Sutanu Roy</strong>
+                  <div class="speaker-affiliation">Indian Institute of Technology Bombay</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/js.jpg" alt="Jaydeb Sarkar">
+                </div>
+                <div class="speaker-content">
+                  <strong>Jaydeb Sarkar</strong>
+                  <div class="speaker-affiliation">Indian Statistical Institute, Bangalore</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/rs.jpg" alt="Ritabrata Sengupta">
+                </div>
+                <div class="speaker-content">
+                  <strong>Ritabrata Sengupta</strong>
+                  <div class="speaker-affiliation">IISER Berhampur</div>
+                </div>
+              </div>
+
+              <div class="speaker">
+                <div class="speaker-avatar">
+                  <img src="ncapjpg/kbs.jpg" alt="K. B. Sinha">
+                </div>
+                <div class="speaker-content">
+                  <strong>K. B. Sinha</strong>
+                  <div class="speaker-affiliation">ISI &amp; JNCASR, Bangalore</div>
+                </div>
+              </div>
+
+            </div>
+
+          </section>
+
+          <section class="schedule schedule-wide" id="scheduleSection" style="margin-top:14px;">
+            <!-- Tentative schedule label uses same red uppercase style as When -->
+            <div class="info-label">Schedule</div>
+
+            <div class="schedule-hint blink"><strong>Tip:</strong> Click on any cell in the schedule to jump to that talk below.</div>
+
+            <div class="schedule-wrap" style="margin-top:12px;">
+              <div class="schedule-scroll">
+                <table class="schedule">
+                <colgroup>
+                  <col style="width: 140px;">
+                  <col style="width: 21.5%;">
+                  <col style="width: 21.5%;">
+                  <col style="width: 21.5%;">
+                  <col style="width: 21.5%;">
+                </colgroup>
+                <thead>
+                  <tr>
+                    <th>Time</th>
+                    <th>Monday · Jan 5</th>
+                    <th>Tuesday · Jan 6</th>
+                    <th>Wednesday · Jan 7</th>
+                    <th>Thursday · Jan 8</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>09:45–10:35</th>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Alexander Belton" style="color:inherit;text-decoration:none;">Alexander Belton</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Sutanu Roy" style="color:inherit;text-decoration:none;">Sutanu Roy</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Chaman Kumar Sahu" style="color:inherit;text-decoration:none;">Chaman Kumar Sahu</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Sujit Damase" style="color:inherit;text-decoration:none;">Sujit Damase</a></td>
+                  </tr>
+
+                  <tr class="break coffee">
+                    <th>10:35–11:15</th>
+                    <td colspan="4">Coffee</td>
+                  </tr>
+
+                  <tr>
+                    <th>11:15–12:05</th>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Soumyashant Nayak" style="color:inherit;text-decoration:none;">Soumyashant Nayak</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Arup Chattopadhyay" style="color:inherit;text-decoration:none;">Arup Chattopadhyay</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Gadadhar Misra" style="color:inherit;text-decoration:none;">Gadadhar Misra</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Apoorva Khare" style="color:inherit;text-decoration:none;">Apoorva Khare</a></td>
+                  </tr>
+
+                  <tr>
+                    <th>12:10–13:00</th>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Arup Kumar Pal" style="color:inherit;text-decoration:none;">Arup Kumar Pal</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: K. B. Sinha" style="color:inherit;text-decoration:none;">K. B. Sinha</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Jaydeb Sarkar" style="color:inherit;text-decoration:none;">Jaydeb Sarkar</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: B. V. Rajarama Bhat" style="color:inherit;text-decoration:none;">B. V. Rajarama Bhat</a></td>
+                  </tr>
+
+                  <tr class="break lunch">
+                    <th>13:00–14:30</th>
+                    <td colspan="4">Lunch</td>
+                  </tr>
+
+                  <tr>
+                    <th>14:30–15:20</th>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Soumalya Joardar" style="color:inherit;text-decoration:none;">Soumalya Joardar</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Debashish Goswami" style="color:inherit;text-decoration:none;">Debashish Goswami</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Sourav Pal" style="color:inherit;text-decoration:none;">Sourav Pal</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Martin Lindsay" style="color:inherit;text-decoration:none;">Martin Lindsay</a></td>
+                  </tr>
+
+                  <tr class="break coffee">
+                    <th>15:20–16:00</th>
+                    <td colspan="4">Tea / Coffee</td>
+                  </tr>
+
+                  <tr>
+                    <th>16:00–16:50</th>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Tiju Cherian John" style="color:inherit;text-decoration:none;">Tiju Cherian John</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Santanu Dey" style="color:inherit;text-decoration:none;">Santanu Dey</a></td>
+                    <td><a class="schedule-talklink" href="#" aria-label="Go to talk: Ritabrata Sengupta" style="color:inherit;text-decoration:none;">Ritabrata Sengupta</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+            </div>
+
+            <!-- Talks: Titles & Abstracts Carousel -->
+            <div class="radial-section" id="radialSection">
+              <div class="radial-heading">
+                <div class="info-label" style="margin-bottom:0;">Talks: Titles &amp; Abstracts</div>
+                <button class="talks-panel-btn" id="talksPanelToggle">
+                  <span class="btn-icon">▼</span>
+                  <span class="toggle-text">Expand all talks</span>
+                </button>
+              </div>
+              <div class="radial-container">
+                <div class="carousel-track" id="carouselTrack"></div>
+                <!-- Visual hover hints (non-interactive) -->
+                <div class="carousel-edge left" aria-hidden="true"><span class="edge-arrow">◀</span></div>
+                <div class="carousel-edge right" aria-hidden="true"><span class="edge-arrow">▶</span></div>
+                <div class="carousel-nav">
+                  <button class="carousel-nav-btn" id="carouselPrev" title="Previous" aria-label="Previous talk">◀</button>
+                  <div class="carousel-indicator" id="carouselIndicator" aria-live="polite" aria-atomic="true">1 / 19</div>
+                  <button class="carousel-nav-btn" id="carouselNext" title="Next" aria-label="Next talk">▶</button>
+                </div>
+                <div class="carousel-dots" id="carouselDots"></div>
+              </div>
+            </div>
+
+            <div class="talks-section" id="talksSection" style="display: none;">
+              <div class="talks-tools">
+                <input type="text" id="talksFilter" class="talks-filter" placeholder="Filter talks by name, title, abstract...">
+                <div>
+                  <button type="button" class="mini-link" id="talksExpandAll">Expand all</button>
+                  <button type="button" class="mini-link" id="talksCollapseAll">Collapse all</button>
+                </div>
+              </div>
+              <div class="talks-list" id="talksList"></div>
+            </div>
+
+          </section>
+
+          
+          <script type="text/plain" id="talksCSV">Timestamp,Name of the Speaker,Title,Abstract
+23/12/2025 20:47:45,Soumalya Joardar,On (K)outer automorphisms of certain graph C*-algebras,"Given a countable abelian group A, we construct a row finite directed graph Γ(A) such that the K_0-group of the graph C*-algebra C*(Γ(A)) is canonically isomorphic to A. Moreover, each element of Aut(A) is a lift of an automorphism of the graph C*-algebra C*(Γ(A)). The talk is based on a joint work with Dr. Swarnendu Datta and Prof. Debashish Goswami."
+24/12/2025 08:37:44,Santanu Dey,On the rank of extremal marginal states,"For a given states $\rho_1$ and $\rho_2$ on $\mathbb{C}^{d_1}$ and $\mathbb{C}^{d_2}$ respectively, the marginal state space $\mathcal{C}(\rho_1,\rho_2)$, be the set of all states $\rho$ on $\mathbb{C}^{d_1}\otimes $\mathbb{C}^{d_2}$ with partial traces $\rho_1, $\rho_2$. A fundamental result by K. R. Parthasarathy establishes that if $\rho$ is an extreme point of $\mathcal{C}(\rho_1,\rho_2)$, then the rank of $\rho$ does not exceed $\sqrt{d_1^2+d_2^2-1}$. A naturally raised question also posed by Rudolph is that are there any extreme points of $\mathcal{C}(\rho_1,\rho_2)$ whose rank is equal to $\sqrt{d_1^2 + d_2^2 - 1}$, where $a$ indicates the largest integer that does not exceed $a$. In 2010, Ohno gave an affirmative answer for low-dimensional matrix algebras $\M{3}$ and $\M{4}$. We would present a positive answer to the Rudolph question in various matrix algebras by explicitly constructing the examples of extreme points of $\mathcal{C}(\rho_1,\rho_2)$ whose rank is equal to $\sqrt{d_1^2 + d_2^2 - 1}$. "
+24/12/2025 11:47:03,Kalyan B. Sinha,Operators in RKHS-- Hankel/ Hilbert / Helson  Matrices ,"Many Classical Operators in  infinite-dimensional spaces ( infinite matrices !) occur or can be housed , in the context of Reproducing Kernel Hilbert Spaces( RKHS ) -- e.g. Carleman
+operator ( 1920 ),  Hankel ( 1860's) , Hilbert (1894 ) matrices and Helson (2006 )-matrices.
+Their properties and spectral  theory  will be discuused ."
+24/12/2025 19:35:40,Arup Chattopadhyay,Operator smoothness in Schatten norms,"Let $\mathcal{H}$ be a complex separable Hilbert space, and let $\mathcal{S}^{p}(\mathcal{H})$ denote the Schatten class of order $p$. Let $f:\mathbb{R}\to\mathbb{C}$ be a Lipschitz function. A result of Potapov and Sukochev states that if $1<p<\infty$ and $A,B$ are self-adjoint operators on $\mathcal{H}$ with $A-B\in\mathcal{S}^{p}(\mathcal{H})$, then $$f(A)-f(B)\in\mathcal{S}^{p}(\mathcal{H}).$$
+Now let $1<p<\infty$, and let $A,K$ be two self-adjoint operators on $\mathcal{H}$ such that $K\in\mathcal{S}^{p}(\mathcal{H})$. Then the question arises: for a differentiable function $f:\mathbb{R}\to\mathbb{C}$, is the function 
+\[\varphi:t\in\mathbb{R}\mapsto f(A+tK)-f(A)\in\mathcal{S}^{p}(\mathcal{H})\]
+differentiable?
+
+In this talk, we mainly focus on the above problem, along with related questions for unitary operators and contractions. We also discuss the higher order derivatives of $\varphi$. As an application, we apply these results to estimate trace of the Taylor remainder. This talk is based on joint work with Cl\'ement Coine, Saikat Giri, and Chandan Pradhan."
+25/12/2025 10:12:55,Ritabrata Sengupta,Quantum maximal likelihood estimator,"In quantum theory, there are various possibilities of defining logarithmic-derivative operators, each giving rise to  a different Likelihood operator,  and also to quantum Fisher information (QFI). In each case, the Cramér-Rao (CR) bound is derived from the first principles. It is also noted that if one does not make  (often tacitly made) an assumption that the density operator $\rho_\theta$ and its derivative commute, then they lead to different QFI's. Applications to one-mode coherent states (an infinite-dimensional quantum system) and to two-level quantum systems are studied. 
+(In collaboration with Prof K B Sinha)"
+25/12/2025 17:15:11,Chaman Kumar Sahu,Multiplier algebras of CNP Dirichlet series kernels,"Complete Nevanlinna–Pick (CNP) kernels associated with Dirichlet series form a rich class of reproducing kernels connecting operator-theoretic and function-theoretic phenomena. In this talk, we shall classify all normalised CNP Dirichlet series kernels in terms of their underlying weight and frequency data.
+
+The structure of the associated multiplier varieties plays a central role in understanding the corresponding multiplier algebras. We shall determine these varieties explicitly and use them to analyse algebraic and isometric isomorphisms between multiplier algebras arising from a broad class of CNP Dirichlet series kernels. In particular, we shall resolve an open problem posed by McCarthy and Shalit.
+
+This talk is based on joint work with H. Ahmed and B. K. Das. "
+27/12/2025 20:45:02,Jaydeb Sarkar,Interpolation on the unit ball,We will present a solution to the interpolation problem in the context of Schur functions defined on the unit ball of C*n. This talk is based on joint work with Jaydeep Bhattacharjee and Deepak K.D.
+29/12/2025 18:35:27,Sujit Sakharam Damase,Three Avatars of Schoenberg's Theorem: From Matrix Preservers to Sphere Packing," Schoenberg's seminal work on positive definite functions manifests in three distinct ""avatars"" across mathematics: the combinatorial study of matrix preservers, the geometric analysis of homogeneous spaces, and the representation theory of infinite-dimensional groups. In this talk, I will explore these connections, starting with the classical entrywise calculus of the Schur product theorem and extending to the asymptotic behavior of spherical functions on Olshanski spherical pairs.
+
+Schoenberg's theorem characterizes positive definite zonal kernels on the Euclidean sphere as precisely the non-negative linear combinations of Gegenbauer polynomials. In this talk, I will explain how this characterization leads to the linear programming method of Delsarte–Goethals–Seidel / Kabatiansky–Levenshtein for bounding spherical codes, and how these bounds give upper bounds for sphere packing densities. I will then outline the Cohn–Elkies approach to sphere packing, emphasizing the role of radial positive definite functions, and briefly discuss how Viazovska's Fourier interpolation method produces sharp bounds in dimensions 8 and 24. In the final part of the talk, I will describe recent joint work with James Pascoe that extends Schoenberg's framework to partially defined positivity preservers on discrete domains. I will also explain how this viewpoint sheds light on constrained spherical codes and linear programming bounds."
+29/12/2025 19:42:12,Sourav Pal,"Bohr radius, Bohr zone and von Neumann's inequality","We shall introduce the notion of Bohr zone for a Reinhardt domain and more general quasi-balanced domain. Then we show interplay between multi-dimensional Bohr radius, Bohr zone and von Neumann's inequality for Banach space operators in one and several variables. This talk is based on a joint work with Himadri Halder and Swapan Jana."
+30/12/2025 06:32:31,Apoorva Khare,Cholesky decomposition and Wishart densities for non-positive matrices,"The Cholesky decomposition is a fundamental and important result in matrix theory. It only applies to the positive definite matrices, aka the PD-cone. A parallel factorization is the LDU procedure, which applies to the larger open dense cone of LPM matrices - these are real symmetric, with all Leading Principal Minors nonzero.
+
+Motivated by LDU, we extend the Cholesky factorization to one for every LPM matrix. Moreover, the LPM cone splits into 2^n LPM sub-cones of ""equal"" measure, one of which is the PD-cone. We show that each of these sub-cones admits uncountably many factorizations generalizing the Cholesky decomposition. Each factorization is moreover algorithmic, and a smooth diffeomorphism of the LPM sub-cone with lower triangular matrices. These diffeomorphisms equip each sub-cone with a rich structure: it is an abelian Lie group with a bi-invariant Riemannian metric, and isometrically isomorphic to a Euclidean space. We also explain how to transfer the Wishart distribution from the PD-cone to every LPM cone. (Joint with Prateek Kumar Vishwakarma.)"
+30/12/2025 10:02:10,B V RAJARAMA BHAT,On regions of mixed unitarity for semigroups of unital quantum channels.,"It is established that both discrete and continuous semigroups of unital quantum channels are eventually mixed unitary. However, after introducing the mixed unitary index of a unital quantum channel as the least time beyond which all subsequent powers of the channel are mixed unitary, we demonstrate that for any fixed finite dimension d>2 , there exists no universal upper bound for this index. Furthermore, for a continuous semigroup that is not mixed unitary for some time t>0 , we prove that it remains non-mixed unitary for all times t>0, sufficiently close to the origin. Finally, a necessary and sufficient condition is derived for a quantum dynamical semigroup to be a convex combination of maps implemented solely by Weyl unitaries. This talk is based on a joint work with R. Devendra."
+30/12/2025 13:03:39,Gadadhar Misra,Adventures in the Bergman Land,"This talk explores the flag structure in the Cowen-Douglas class through a duality between algebraic and geometric perspectives. On one side, we use the Ext group in the category of Hilbert modules. On the other, we employ the curvature reflected in the second fundamental form of a holomorphic sub-bundle. We will discuss this correspondence and its implications. The talk is based on my conversations with Kui Ji,  Shanshan Ji, Yufang Xie and E. K. Narayanan, Cherian Varughese. "
+31/12/2025 09:41:31,Arup K. Pal,Quantized function algebras and their $q=0$ counterparts,"I will give a brief survey on quantized function algebras associated with deformations of compact Lie groups that have appeared in the literature starting in the late 1980's with the work of Woronowicz on one hand and Vaksman \& Soibelman on the other. I will also discuss  the $q=0$ counterparts of these algebras and the recent developments on them, in particular, the work of Matassa \& Yuncken that connects these algebras to the theory of crystal bases."
+01/01/2026 03:30:21,Sutanu Roy,Braided quantum symmetries of graph C*-algebras,"In this talk, we present quantum symmetries of graph C*-algebras within the framework of braided quantum groups. We use braided compact quantum groups to extend the usual theory of quantum automorphism groups, revealing twisted symmetry phenomena that arise in the setting of $\mathbb{T}$-C*-algebras. We construct universal braided symmetry objects, and in particular we discuss braided quantum symmetries of Cuntz algebras. This is joint work with Suvrajit Bhattacharjee and Soumalya Joardar."
+01/01/2026 15:31:42,Soumyashant Nayak,The Jordan-Chevalley-Dunford decomposition and unbounded operators,"In this talk, we will discuss a computational proof of the Jordan-Chevalley decomposition for matrices in Mn(C) and some of its advantages. For example, it makes it easy to find examples showing that for n >= 3, the mapping on Mn(C) which sends a matrix to its diagonalizable part in its Jordan-Chevalley decomposition, is norm-unbounded on any neighbourhood of the zero matrix. Motivated by this observation, we will see that every operator in a type I_n von Neumann algebra admits a unique Jordan-Chevalley-Dunford decomposition, but only if one allows unbounded affiliated operators."
+01/01/2026 23:01:43,Tiju Cherian John,From Symplectic Spectrum to Quantum Engineering: New Frontiers in Non-Commutative Analysis and Probability,"As quantum technologies transition from theory to implementation, non-commutative analysis provides the essential mathematical framework for both fundamental theory and practical applications. In this talk, we bridge the gap between abstract analysis and engineering utility through the lens of quantum probabilistic models. We first discuss symplectic spectral theory, offering deeper insights into the behavior of continuous-variable quantum information. Leveraging these insights, we present recent results on quantum Gaussian channels, specifically resolving several open questions posed by K.R. Parthasarathy. Furthermore, we address the emerging theory of quantum change detection, a critical component for fault detection and signal monitoring in quantum networks. We conclude by outlining a roadmap for applying these frameworks to next-generation quantum sensors, demonstrating the practical power of non-commutative analysis in modern engineering."
+02/01/2026 19:55:27,Martin Lindsay,Convolution semigroups on quantum groups,"The generator of a convolution semigroup of states on a compact quantum group
+may or may not enjoy a ‘gaussian’/‘wholly non-gaussian’ decomposition, corresponding to
+the Levy–Khintchine decomposition of the characteristic exponent of an infinitely divisible
+probability measure on Rd. We conjecture that such a decomposition does exist in the case
+of q-deformed compact Lie groups. In this talk I shall describe strategies for proving this,
+and indicate what works for the families SUq(N) and Uq(N). Refinements are currently
+being honed for the classes of q-deformed symplectic and special orthogonal groups. 
+This is joint work with Uwe Franz, Anna Kula and Michael Skeide."
+04/01/2026 13:03:04,Debashish Goswami,On K1 of compact quantum groups,"We prove that for any separable residually finite compact quantum group Q, the group K1(Q) is generated by the classes [U] of finite dimensional unitary corepresentations U."
+03/01/2026 17:19:17,Alexander Belton,From normal martingales to quantum stopping times,"Quantum stochastic calculus is a beautiful theory that flows naturally from its classical counterpart. We will start with basic ideas from the latter and demonstrate this natural development, including probabilistic interpretations of Boson Fock space, quantum stochastic integration and the quantum stopping times corresponding to the jump times of the Poisson process."
+          </script>
+
+        </div>
+
+        <!-- Right: venue + QR -->
+        <aside class="qr-wrap" aria-labelledby="venue-heading">
+          <div id="venue-heading" class="info-label">Where</div>
+          <div class="info-value" style="margin-bottom:10px;">
+            <strong>Lecture Hall - 1</strong><br>
+            Department of Mathematics<br>
+            Indian Institute of Science, Bangalore
+          </div>
+
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d257.1207906043537!2d77.56974927024278!3d13.018500469135073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17d10cd6c65f%3A0xc4cf17bb095e7a3a!2sDepartment%20of%20Mathematics%2C%20IISc%20Bangalore!5e0!3m2!1sen!2sin!4v1763920137702!5m2!1sen!2sin" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          <div class="participants-wrapper">
+              <div class="participants-container" id="participants">
+                <div class="participants-topline">
+                  <div class="participants-badge"><span class="icon">🎓</span><span>Certificate desk</span></div>
+                  <p class="participants-summary">Search for your name to download an officially signed participation certificate.</p>
+                  <p class="participants-summary" style="font-size: 0.85rem; color: #006400; margin-top: 8px; animation: blink-green 1.5s infinite; text-decoration: underline; text-decoration-color: var(--accent-dark); text-decoration-thickness: 2px; text-underline-offset: 2px;">In case of discrepancy, contact <a href="https://math.iisc.ac.in/~nitishs/" target="_blank" style="color: #0066ff; text-decoration: underline;">Nitish ↗</a> : snkkgp@gmail.com</p>
+                </div>
+                <div class="participants-header">
+                  <div class="participants-title">Participants</div>
+                  <div class="participants-controls">
+                    <input type="text" class="participants-search" id="participantsSearch" placeholder="Search participants...">
+                    <button type="button" class="participants-toggle" id="participantsToggle">
+                      <span id="participantsToggleText">Show all</span>
+                      <span class="participants-toggle-icon" id="participantsToggleIcon">&#9660;</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="participants-belt-view" id="participantsBeltView" aria-label="Participants conveyor list">
+                  <div class="participants-belt-track" id="participantsBeltTrack"></div>
+                </div>
+                <div class="participants-full-view" id="participantsFullView" aria-label="All participants full list">
+                  <ol id="participantsFullList" role="list"></ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div> <!-- grid -->
+    </div> <!-- card -->
+
+    <div class="footer">
+      <div>Organizers: Tirthankar Bhattacharyya and Martin Lindsay. Website design: <a href="https://math.iisc.ac.in/~nitishs/" target="_blank" style="color: #0066ff;">Nitish Kumar Sodagudi ↗</a>.</div>
+      <div> Indian Institute of Science, 2025</div>
+    </div>
+
+    <nav class="mobile-quicknav" aria-label="Quick navigation">
+      <a href="#scheduleSection">Schedule</a>
+      <a href="#radialSection">Talks</a>
+      <a href="#speakersSection">Speakers</a>
+    </nav>
+    <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top">↑ Top</button>
+
+  </div>
+
+  <script>
+  (function(){
+    var participantsData = [
+      { name: "Hiran Das", meta: "CUSAT" },
+	{ name: "Harikrishnan T.U", meta: "CUSAT" },
+	{ name: "Swethamol M", meta: "CUSAT" },
+	{ name: "Noufal Ashraf", meta: "CUSAT" },
+	{ name: "Anusree Sreedharan", meta: "CUSAT" },
+	{ name: "Anjali V A", meta: "CUSAT" },
+	{ name: "Priyanka Aroda", meta: "IITB" },
+	{ name: "Bhawani Singh", meta: "IITB" },
+	{ name: "Arunkumar C S", meta: "Government College Kasaragod, Kerala" },
+	{ name: "Sourav Khatua", meta: "IITB" },
+	{ name: "Manabendra Giri", meta: "IITB" },
+	{ name: "Anmary Tonny", meta: "CUSAT" },
+	{ name: "Mithun Mukherjee", meta: "IACS" },
+	{ name: "Rahul Rajan", meta: "Government College Kasaragod, Kerala" },
+	{ name: "Samir Panja", meta: "ISIB" },
+	{ name: "Arghya Chongdar", meta: "ISIB" },
+	{ name: "Barun Sarkar", meta: "IITM" },
+	{ name: "Biswarup Saha", meta: "ISIB" },
+	{ name: "Sumesh Kappil", meta: "IITM" },
+	{ name: "Devendra R.", meta: "IITB" },
+	{ name: "Vaishakh K. J.", meta: "CUSAT" },
+	{ name: "Soma Das", meta: "ISIB" },
+	{ name: "Shankar P.", meta: "CUSAT" },
+	{ name: "Atanu Dhang", meta: "IACS" },
+	{ name: "Somnath Jana", meta: "ISIB" },
+	{ name: "Abhinand M", meta: "ISIB" },
+	{ name: "Sneha B", meta: "ISIB" },
+	{ name: "Dipankar Dey", meta: "ISIB" },
+	{ name: "Nayanthara", meta: "CUSAT" },
+	{ name: "Sreelakshmi M P", meta: "IIT Palakkad" }, 
+	{ name: "Jaydeep Bhattacharjee", meta: "ISIB" }, 	
+	{ name: "Athul Augustine", meta: "CUSAT" }, 
+	{ name: "Pankaj Dey", meta: "ISIB" },
+	{ name: "Chaitanya G K", meta: "ISIB" },
+	{ name: "Saurabh Dhar Dwivedi", meta: "IISER Bhopal" },
+	{ name: "Divya Pandey", meta: "IISER Bhopal" },
+	{ name: "Nirupama Mallick", meta: "SRM University, Chennai" },
+	{ name: "Anand O.R.", meta: "IITM" },
+	//{ name: "Adith P.", meta: "University of Kerala, Kariavattom Campus, Trivandrum" },
+	//{ name: "Akhitha M S", meta: "University of Kerala" },
+	{ name: "Shikha Shereef P", meta: "BITS Pilani K K Birla Goa Campus" },
+	//{ name: "Vidhya Venugopal", meta: "BITS Pilani K K Birla Goa Campus" },
+	{ name: "Astrid Swizell Dias", meta: "IMSc" },
+	{ name: "Rishab Goriya", meta: "University of Delhi" },
+	{ name: "Hamidul Ahmed", meta: "IIT Bombay" },
+	{ name: "Saheb Alla Rakkha", meta: "BITS Pilani K K Birla Goa Campus" },
+	{ name: "Mahesh Krishna K", meta: "Chanakya University" },
+	{ name: "Himadri Halder", meta: "ISIB" },
+	{ name: "Arindam Sutradhar", meta: "IITM" },
+	{ name: "Chaman Kumar Sahu", meta: "IITB" },
+	//{ name: "Sureshkumar M", meta: "IISER Bhopal" },
+	//{ name: "Neha Hotwani", meta: "Shiv Nadar University" },
+	{ name: "Yasmin Giles", meta: "Lancaster University" },
+	{ name: "Sachi Srivastava", meta: "University of Delhi" },
+	{ name: "Mainak Bhowmik", meta: "IITB" },
+	{ name: "Pappu Anuragi", meta: "University of Delhi" },
+	{ name: "Deepak Gothwal", meta: "ISIB" },
+	{ name: "Sibaprasad Barik", meta: "ISIB"},
+	{ name: "G. Ramesh", meta: "IITH" },
+	{ name: "E.K. Narayanan", meta: "IISc Bangalore" },
+	{ name: "Shubham R. Bais", meta: "IISc Bangalore" },
+	{ name: "Sayan Adhikari", meta: "IISc Bangalore" },
+	{ name: "Pallab Kumar Hembram", meta: "IISc Bangalore" }
+
+
+
+    ];
+
+    // Helper: get a last name so we can sort nicely
+    function getLastName(fullName) {
+      var parts = fullName.trim().split(/\s+/);
+      if (parts.length === 1) {
+        // Single name: just reuse the first name
+        return parts[0];
+      } else {
+        // Multiple words: take the last word as the last name
+        return parts[parts.length - 1];
+      }
+    }
+
+    // Sort participants alphabetically by last name
+    participantsData.sort(function(a, b) {
+      var lastNameA = getLastName(a.name).toLowerCase();
+      var lastNameB = getLastName(b.name).toLowerCase();
+      return lastNameA.localeCompare(lastNameB);
+    });
+
+    var beltTrack = document.getElementById('participantsBeltTrack');
+    var beltView = document.getElementById('participantsBeltView');
+    var fullView = document.getElementById('participantsFullView');
+    var fullList = document.getElementById('participantsFullList');
+    var toggleBtn = document.getElementById('participantsToggle');
+    var toggleText = document.getElementById('participantsToggleText');
+    var toggleIcon = document.getElementById('participantsToggleIcon');
+    var searchInput = document.getElementById('participantsSearch');
+    var participantsContainer = document.querySelector('.participants-container');
+
+    if(!beltTrack || !fullList || !toggleBtn || !searchInput) return;
+
+    // Search/filter
+    function buildCertLink(name) {
+      if (!name) return '#';
+      var sanitized = name.replace(/\./g, '');
+      sanitized = sanitized.replace(/[^A-Za-z0-9 ]+/g, '');
+      sanitized = sanitized.trim().replace(/\s+/g, '_');
+      if (!sanitized) return '#';
+      return 'certx/build/' + sanitized + '.pdf';
+    }
+
+    function markCertAvailable(btn, href){
+      btn.classList.remove('disabled');
+      btn.href = href;
+      btn.dataset.state = 'available';
+      var label = btn.querySelector('.label');
+      if (label) label.textContent = 'Download certificate';
+    }
+
+    function markCertUnavailable(btn){
+      btn.classList.add('disabled');
+      btn.href = '#';
+      btn.dataset.state = 'unavailable';
+      var label = btn.querySelector('.label');
+      if (label) label.textContent = 'Certificate not found';
+    }
+
+    function checkCertPDF(btn){
+      if (!btn) return;
+      if (btn.dataset.state && btn.dataset.state !== 'checking') return;
+      var href = btn.getAttribute('href') || '#';
+      if (!href || href === '#') { markCertUnavailable(btn); return; }
+      fetch(href, { method:'HEAD', cache:'no-store' })
+        .then(function(res){
+          if (res && res.ok) { markCertAvailable(btn, href); }
+          else { markCertUnavailable(btn); }
+        })
+        .catch(function(){ markCertUnavailable(btn); });
+    }
+
+    function initCertButtons(scope){
+      var root = scope || document;
+      var buttons = root.querySelectorAll('.participant-cert-btn[data-participant]');
+      buttons.forEach(function(b){
+        if (!b.dataset.state) b.dataset.state = 'checking';
+        checkCertPDF(b);
+      });
+    }
+
+    function buildCard(participant) {
+      var card = document.createElement('div');
+      card.className = 'participant-card';
+
+      var nameDiv = document.createElement('div');
+      nameDiv.className = 'participant-name';
+      nameDiv.textContent = participant.name;
+
+      var metaDiv = document.createElement('div');
+      metaDiv.className = 'participant-meta';
+      metaDiv.innerHTML = participant.meta || '';
+
+      var actionsDiv = document.createElement('div');
+      actionsDiv.className = 'participant-actions';
+
+      var btn = document.createElement('a');
+      btn.className = 'participant-cert-btn';
+      btn.href = buildCertLink(participant.name);
+      btn.target = '_blank';
+      btn.rel = 'noopener';
+      btn.setAttribute('data-participant', participant.name);
+      btn.innerHTML = '<span class="icon">⬇</span><span class="label">Download certificate</span>';
+      btn.dataset.state = 'checking';
+
+      actionsDiv.appendChild(btn);
+
+      card.appendChild(nameDiv);
+      card.appendChild(metaDiv);
+      card.appendChild(actionsDiv);
+
+      return card;
+    }
+
+    function buildFullListItem(participant) {
+      var li = document.createElement('li');
+      li.className = 'participant-full-item';
+
+      var textWrap = document.createElement('div');
+      textWrap.className = 'participant-full-text';
+
+      var nameEl = document.createElement('strong');
+      nameEl.textContent = participant.name;
+
+      var metaEl = document.createElement('div');
+      metaEl.className = 'participant-full-meta';
+      metaEl.innerHTML = participant.meta || '';
+
+      textWrap.appendChild(nameEl);
+      textWrap.appendChild(metaEl);
+
+      var btn = document.createElement('a');
+      btn.className = 'participant-cert-btn is-compact';
+      btn.href = buildCertLink(participant.name);
+      btn.target = '_blank';
+      btn.rel = 'noopener';
+      btn.setAttribute('data-participant', participant.name);
+      btn.innerHTML = '<span class="icon">⬇</span><span class="label">Certificate</span>';
+      btn.dataset.state = 'checking';
+
+      li.appendChild(textWrap);
+      li.appendChild(btn);
+
+      return li;
+    }
+
+    // Dynamically size the belt/full views and measure card heights
+    function setDynamicHeights(){
+      if (!beltView || !fullView) return;
+      var vw = window.innerWidth || 1200;
+      var vh = window.innerHeight || 800;
+      // Use responsive max-height caps to avoid overlap
+      var beltH = Math.min(358, Math.floor(vh * 0.4));
+      var fullH = Math.min(364, Math.floor(vh * 0.45));
+      beltView.style.height = beltH + 'px';
+      fullView.style.maxHeight = fullH + 'px';
+    }
+
+    function measureCardHeight(){
+      var first = beltTrack.querySelector('.participant-card');
+      if (first) {
+        var rect = first.getBoundingClientRect();
+        cardHeight = Math.ceil(rect.height) + 10; // include gap
+        totalHeight = participantsData.length * cardHeight;
+      }
+    }
+
+    function filterParticipants(searchTerm) {
+      var filteredData = participantsData.filter(function(p) {
+        var searchText = (p.name + " " + p.meta).toLowerCase();
+        return searchText.includes(searchTerm.toLowerCase());
+      });
+
+      
+      // Keep the filtered results sorted too
+      filteredData.sort(function(a, b) {
+        var lastNameA = getLastName(a.name).toLowerCase();
+        var lastNameB = getLastName(b.name).toLowerCase();
+        return lastNameA.localeCompare(lastNameB);
+      });
+      
+      // Update the full list
+      fullList.innerHTML = '';
+      filteredData.forEach(function(p){
+        fullList.appendChild(buildFullListItem(p));
+      });
+
+      // Update the rolling (belt) view
+      beltTrack.innerHTML = '';
+      filteredData.forEach(function(p){
+        beltTrack.appendChild(buildCard(p));
+      });
+
+      // Duplicate for a seamless loop (only if we have results)
+      if(filteredData.length > 0) {
+        beltTrack.innerHTML += beltTrack.innerHTML;
+      }
+      
+      // Update scroll speed based on how many cards are showing
+      measureCardHeight();
+      initCertButtons(beltTrack);
+      initCertButtons(fullView);
+      updateScrollSpeed();
+      
+      return filteredData;
+    }
+
+    // Search input listener
+    searchInput.addEventListener('input', function(e) {
+      var searchTerm = e.target.value.trim();
+      filterParticipants(searchTerm);
+      if(searchTerm){
+        showFullView();
+      }
+    });
+
+    function showFullView(){
+      fullView.style.display = 'block';
+      beltView.style.display = 'none';
+      toggleText.textContent = 'Start Rolling';
+      toggleIcon.textContent = '\u25B2';
+    }
+
+    function showBeltView(){
+      fullView.style.display = 'none';
+      beltView.style.display = 'block';
+      toggleText.textContent = 'Show all';
+      toggleIcon.textContent = '\u25BC';
+    }
+
+    // Initial render
+    participantsData.forEach(function(p){
+      fullList.appendChild(buildFullListItem(p));
+    });
+
+    // Render all cards for the continuous roll
+    participantsData.forEach(function(p){
+      beltTrack.appendChild(buildCard(p));
+    });
+
+    // Duplicate for seamless loop
+    beltTrack.innerHTML += beltTrack.innerHTML;
+    initCertButtons(document);
+    setDynamicHeights();
+    measureCardHeight();
+
+    // Continuous scroll using transform
+    var scrollPos = 0;
+    var cardHeight = 96; // approximate card height including gap after redesign
+    var totalHeight = participantsData.length * cardHeight;
+    var scrollSpeed = 1;
+    function updateScrollSpeed(){
+      if(!beltView) return;
+      var visibleHeight = beltView.clientHeight;
+      // Adjust speed so a full loop takes ~20 seconds, regardless of height
+      scrollSpeed = Math.max(0.5, Math.min(3, totalHeight / (20 * 60)));
+    }
+    function scrollLoop(){
+      scrollPos += scrollSpeed;
+      if(scrollPos >= totalHeight){
+        scrollPos = 0;
+      }
+      beltTrack.style.transform = 'translateY(-' + scrollPos + 'px)';
+      requestAnimationFrame(scrollLoop);
+    }
+    updateScrollSpeed();
+    scrollLoop();
+
+    window.addEventListener('resize', function(){
+      setDynamicHeights();
+      measureCardHeight();
+      updateScrollSpeed();
+    }, {passive:true});
+
+    toggleBtn.addEventListener('click', function(){
+      var showingAll = fullView.style.display === 'block';
+      if(showingAll){
+        showBeltView();
+      } else {
+        showFullView();
+      }
+    });
+
+    beltView.addEventListener('mouseenter', function(){
+      showFullView();
+    });
+
+    participantsContainer.addEventListener('mouseleave', function(){
+      if(!searchInput.value.trim()){
+        showBeltView();
+      }
+    });
+  })();
+  </script>
+
+  <!-- ==== Popup script: attach hover popups (keeps SPARC theme) ==== -->
+  <script>
+  (function(){
+    // Centralized speaker database using file IDs as unique identifiers
+    // ID is based on the filename in ncapjpg folder (without .jpg extension)
+    var speakerDB = {
+      'Alex-Belton': { name: 'Alexander Belton', affiliation: 'University of Plymouth', url: 'https://www.plymouth.ac.uk/staff/alex-belton', synopsis: 'Professor at University of Plymouth; expert in quantum probability and matrix positivity; extensive research and leadership experience.', schedule: { date: '5', month: 'Jan', year: '2026', dayName: 'Monday', time: '09:45–10:35', sortOrder: 1 } },
+      'Nayak': { name: 'Soumyashant Nayak', affiliation: 'Indian Statistical Institute, Bangalore', url: 'https://www.isibang.ac.in/~soumyashant/', synopsis: 'Assistant professor at ISI Bangalore; works in operator algebras, quantum information theory and statistical methods in bioinformatics.', schedule: { date: '5', month: 'Jan', year: '2026', dayName: 'Monday', time: '11:15–12:05', sortOrder: 2 } },
+      'akp': { name: 'Arup K. Pal', affiliation: 'Indian Statistical Institute, Delhi', url: 'https://www.isid.ac.in/~arup/', synopsis: 'Professor at ISI Delhi; expert in quantum groups and noncommutative geometry.', schedule: { date: '5', month: 'Jan', year: '2026', dayName: 'Monday', time: '12:10–13:00', sortOrder: 3 } },
+      'sj': { name: 'Soumalya Joardar', affiliation: 'IISER Kolkata', url: 'https://math.iiserkol.ac.in/faculties/joardar.html', synopsis: 'Assistant Professor at IISER Kolkata; works in quantum groups, operator algebras and noncommutative geometry.', schedule: { date: '5', month: 'Jan', year: '2026', dayName: 'Monday', time: '14:30–15:20', sortOrder: 4 } },
+      'tcj': { name: 'Tiju Cherian John', affiliation: 'Birla Institute of Technology and Science', url: 'https://www.bits-pilani.ac.in/goa/achievements/?faculty=tiju-cherian-john', synopsis: 'Assistant Professor at BITS Pilani; works in quantum information theory and operator theory, with engineering applications.', schedule: { date: '5', month: 'Jan', year: '2026', dayName: 'Monday', time: '16:00–16:50', sortOrder: 5 } },
+      'sr': { name: 'Sutanu Roy', affiliation: 'Indian Institute of Technology Bombay', url: 'https://www.math.iitb.ac.in/~sutanu/', synopsis: 'Associate Professor at IIT Bombay; works in quantum groups and noncommutative functional analysis, in particular, braided quantum symmetries.', schedule: { date: '6', month: 'Jan', year: '2026', dayName: 'Tuesday', time: '09:45–10:35', sortOrder: 6 } },
+      'ac': { name: 'Arup Chattopadhyay', affiliation: 'Indian Institute of Technology, Guwahati', url: 'https://sites.google.com/view/arupchattopadhyay/home', synopsis: 'Associate Professor at IIT Guwahati; works in functional analysis and operator theory, including trace formulas and Hankel operators.', schedule: { date: '6', month: 'Jan', year: '2026', dayName: 'Tuesday', time: '11:15–12:05', sortOrder: 7 } },
+      'kbs': { name: 'Kalyan B. Sinha', affiliation: 'ISI & JNCASR, Bangalore', url: 'https://www.jncasr.ac.in/faculty/kbs', synopsis: 'Professor Emeritus at ISI and Honorary Professor at JNCASR; distinguished quantum probabilist and operator theorist; influential mentor and leader.', schedule: { date: '6', month: 'Jan', year: '2026', dayName: 'Tuesday', time: '12:10–13:00', sortOrder: 8 } },
+      'dg': { name: 'Debashish Goswami', affiliation: 'Indian Statistical Institute, Kolkata', url: 'https://ssbprize.gov.in/content/Detail.aspx?AID=145', synopsis: 'Professor at ISI Kolkata; expert in noncommutative geometry, founder of the theory of quantum isometry groups.', schedule: { date: '6', month: 'Jan', year: '2026', dayName: 'Tuesday', time: '14:30–15:20', sortOrder: 9 } },
+      'sd': { name: 'Santanu Dey', affiliation: 'Indian Institute of Technology, Bombay', url: 'https://www.math.iitb.ac.in/~dey/', synopsis: 'Professor at IIT Bombay; works in multivariable operator theory and C*-algebras related to noncommutative probability.', schedule: { date: '6', month: 'Jan', year: '2026', dayName: 'Tuesday', time: '16:00–16:50', sortOrder: 10 } },
+      'cks': { name: 'Chaman Kumar Sahu', affiliation: 'Indian Institute of Technology, Bombay', url: 'https://sites.google.com/view/chamankumarsahu/home', synopsis: 'Postdoctoral fellow at IIT Bombay; works on Dirichlet series spaces and operator theory.', schedule: { date: '7', month: 'Jan', year: '2026', dayName: 'Wednesday', time: '09:45–10:35', sortOrder: 11 } },
+      'gm': { name: 'Gadadhar Misra', affiliation: 'IIT Gandhinagar & ISI', url: 'https://math.iisc.ac.in/~gm/', synopsis: 'Distinguished operator-theorist at IIT Gandhinagar and ISI; known for homogeneous operators and Hilbert module techniques.', schedule: { date: '7', month: 'Jan', year: '2026', dayName: 'Wednesday', time: '11:15–12:05', sortOrder: 12 } },
+      'js': { name: 'Jaydeb Sarkar', affiliation: 'Indian Statistical Institute, Bangalore', url: 'https://www.isibang.ac.in/~jay/', synopsis: 'Professor at ISI Bangalore; expert in operator theory and analytic function spaces; active in mentoring and leadership.', schedule: { date: '7', month: 'Jan', year: '2026', dayName: 'Wednesday', time: '12:10–13:00', sortOrder: 13 } },
+      'sp': { name: 'Sourav Pal', affiliation: 'Indian Institute of Technology Bombay', url: 'https://sites.google.com/view/pal-sourav/home', synopsis: 'Associate Professor at IIT Bombay; works in operator theory and analytic function spaces.', schedule: { date: '7', month: 'Jan', year: '2026', dayName: 'Wednesday', time: '14:30–15:20', sortOrder: 14 } },
+      'rs': { name: 'Ritabrata Sengupta', affiliation: 'IISER Berhampur', url: 'https://sites.google.com/site/ritabratasengupta', synopsis: 'Assistant Professor at IISER Berhampur; works in quantum information and matrix analysis; also active in academic outreach.', schedule: { date: '7', month: 'Jan', year: '2026', dayName: 'Wednesday', time: '16:00–16:50', sortOrder: 15 } },
+      'ssd': { name: 'Sujit Sakharam Damase', affiliation: 'Indian Institute of Science, Bangalore', url: 'https://in.linkedin.com/in/sujit-damase-9b1388220', synopsis: 'PhD scholar at IISc Bangalore; focuses on operator theory and total positivity; emerging research collaborator on transforms and semigroup theory.', schedule: { date: '8', month: 'Jan', year: '2026', dayName: 'Thursday', time: '09:45–10:35', sortOrder: 16 } },
+      'ak': { name: 'Apoorva Khare', affiliation: 'Indian Institute of Science, Bangalore', url: 'https://math.iisc.ac.in/~khare/', synopsis: 'Associate Professor at IISc Bangalore; works on matrix positivity, combinatorics and representation theory.', schedule: { date: '8', month: 'Jan', year: '2026', dayName: 'Thursday', time: '11:15–12:05', sortOrder: 17 } },
+      'bvrb': { name: 'B V RAJARAMA BHAT', affiliation: 'Indian Statistical Institute, Bangalore', url: 'https://www.isibang.ac.in/~bhat/', synopsis: 'Distinguished noncommutative analyst; known for contributions in quantum probability, operator algebras and quantum dynamical semigroups.', schedule: { date: '8', month: 'Jan', year: '2026', dayName: 'Thursday', time: '12:10–13:00', sortOrder: 18 } },
+      'ml': { name: 'Martin Lindsay', affiliation: 'Lancaster University', url: 'https://www.lancaster.ac.uk/maths/people/martin-lindsay', synopsis: 'Distinguished noncommutative probabilist; known for quantum stochastic analysis and noncommutative Markov semigroups; extensive Indian collaboration.', schedule: { date: '8', month: 'Jan', year: '2026', dayName: 'Thursday', time: '14:30–15:20', sortOrder: 19 } },
+    };
+
+    // Build speakerMap from speakerDB for backward compatibility (keyed by name)
+    var speakerMap = {};
+    for (var id in speakerDB) {
+      var s = speakerDB[id];
+      speakerMap[s.name] = { id: id, img: getSpeakerImgPath(id), url: s.url, synopsis: s.synopsis, affiliation: s.affiliation };
+    }
+
+    // Map speaker IDs to actual image filenames (some are not <id>.jpg)
+    function getSpeakerImgPath(id){
+      var map = {
+        'Alex-Belton': 'Alex-Belton.jpg',
+        'Nayak': 'Nayak.jpg',
+        'ac': 'ac.jpg',
+        'ak': 'ak.jpg',
+        'akp': 'akp.jpg',
+        'bvrb': 'bvrb.jpg',
+        'cks': 'cks.jpg',
+        'dg': 'dg.jpg',
+        'gm': 'gm.jpg',
+        'js': 'js.jpg',
+        'kbs': 'kbs.jpg',
+        'ml': 'ml.jpg',
+        'rs': 'rs.jpg',
+        'sd': 'sd.jpg',
+        'sj': 'sj.jpg',
+        'sp': 'sp.jpg',
+        'sr': 'sr.jpg',
+        'ssd': 'ssd.jpg',
+        'tcj': 'tcj.jpg',
+        'jb': 'jb.jpg',
+        'ss': 'ss.jpg'
+      };
+      return 'ncapjpg/' + (map[id] || (id + '.jpg'));
+    }
+
+    // Build lookup by ID
+    function getSpeakerById(id) {
+      return speakerDB[id] || null;
+    }
+
+    // Get speaker info by name (fuzzy match with multiple strategies)
+    function getSpeakerByName(name) {
+      if (!name) return null;
+      // Exact match first
+      var info = speakerMap[name];
+      if (info) return info;
+      
+      // Normalize: lowercase, collapse spaces, remove periods
+      var normInput = name.toLowerCase().replace(/\./g, '').replace(/\s+/g, ' ').trim();
+      
+      for (var n in speakerMap) {
+        var normKey = n.toLowerCase().replace(/\./g, '').replace(/\s+/g, ' ').trim();
+        
+        // Exact normalized match
+        if (normKey === normInput) return speakerMap[n];
+        
+        // Substring match
+        if (normKey.indexOf(normInput) !== -1 || normInput.indexOf(normKey) !== -1) {
+          return speakerMap[n];
+        }
+        
+        // Last name match (for cases like "K. B. Sinha" vs "Kalyan B. Sinha")
+        var inputParts = normInput.split(' ');
+        var keyParts = normKey.split(' ');
+        var inputLast = inputParts[inputParts.length - 1];
+        var keyLast = keyParts[keyParts.length - 1];
+        if (inputLast === keyLast && inputLast.length > 2) {
+          // Check if initials match too
+          var inputInitials = inputParts.filter(function(p) { return p.length <= 2; }).join('');
+          var keyInitials = keyParts.filter(function(p) { return p.length <= 2; }).join('');
+          if (inputInitials === keyInitials || inputInitials.indexOf(keyInitials) !== -1 || keyInitials.indexOf(inputInitials) !== -1) {
+            return speakerMap[n];
+          }
+        }
+      }
+      return null;
+    }
+
+    function normName(s){
+      return String(s || '').trim().replace(/\s+/g,' ').toLowerCase();
+    }
+
+    function slugify(s){
+      return String(s || '').trim().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');
+    }
+
+    function parseCSV(text){
+      var rows = [];
+      var row = [];
+      var field = '';
+      var i = 0;
+      var inQuotes = false;
+      while(i < text.length){
+        var c = text[i];
+        if(inQuotes){
+          if(c === '"'){
+            if(text[i+1] === '"'){
+              field += '"';
+              i += 2;
+              continue;
+            }
+            inQuotes = false;
+            i += 1;
+            continue;
+          }
+          field += c;
+          i += 1;
+          continue;
+        }
+        if(c === '"'){
+          inQuotes = true;
+          i += 1;
+          continue;
+        }
+        if(c === ','){
+          row.push(field);
+          field = '';
+          i += 1;
+          continue;
+        }
+        if(c === '\n'){
+          row.push(field);
+          field = '';
+          var isEmpty = row.length === 1 && row[0].trim() === '';
+          if(!isEmpty) rows.push(row);
+          row = [];
+          i += 1;
+          continue;
+        }
+        if(c === '\r'){
+          i += 1;
+          continue;
+        }
+        field += c;
+        i += 1;
+      }
+      row.push(field);
+      if(!(row.length === 1 && row[0].trim() === '')) rows.push(row);
+      return rows;
+    }
+
+    function parseTimestamp(tsStr){
+      if (!tsStr) return 0;
+      var s = String(tsStr).trim();
+      var m = s.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})\s+(\d{1,2}):(\d{2}):(\d{2})/);
+      if (!m) {
+        var t = Date.parse(s);
+        return isNaN(t) ? 0 : t;
+      }
+      var dd = +m[1], mm = +m[2] - 1, yyyy = +m[3];
+      var hh = +m[4], mi = +m[5], ss = +m[6];
+      return new Date(yyyy, mm, dd, hh, mi, ss).getTime();
+    }
+
+    var talksBySpeaker = {};
+    var allTalksIndex = [];
+    var talksReady = false;
+
+    function normalizeForMatch(s){
+      return String(s || '')
+        .toLowerCase()
+        .replace(/\([^\)]*\)/g,' ')
+        .replace(/[^a-z0-9\s]/g,' ')
+        .replace(/\s+/g,' ')
+        .trim();
+    }
+
+    function tokensForMatch(s){
+      var n = normalizeForMatch(s);
+      return n ? n.split(' ').filter(Boolean) : [];
+    }
+
+    function initialsForTokens(tokens){
+      return tokens.map(function(t){ return t ? t[0] : ''; }).join('');
+    }
+
+    function bestTalkForName(name){
+      var key = normName(name);
+      var exact = talksBySpeaker[key];
+      if(exact && exact.length) return exact[0];
+
+      var qNorm = normalizeForMatch(name);
+      if(!qNorm) return null;
+
+      var qTokens = tokensForMatch(name);
+      var qLast = qTokens.length ? qTokens[qTokens.length - 1] : '';
+      var qInit = initialsForTokens(qTokens);
+
+      var best = null;
+      var bestScore = 0;
+
+      for(var i = 0; i < allTalksIndex.length; i++){
+        var cand = allTalksIndex[i];
+        var score = 0;
+
+        if(cand.norm === qNorm) score += 1;
+
+        if(cand.last && qLast && cand.last === qLast) score += 0.55;
+
+        if(cand.norm && qNorm){
+          if(cand.norm.indexOf(qNorm) !== -1 || qNorm.indexOf(cand.norm) !== -1) score += 0.2;
+        }
+
+        if(qTokens.length && cand.tokens.length){
+          var set = {};
+          qTokens.forEach(function(t){ set[t] = 1; });
+          var inter = 0;
+          cand.tokens.forEach(function(t){ if(set[t]) inter += 1; });
+          var overlap = inter / Math.max(qTokens.length, cand.tokens.length);
+          score += 0.35 * overlap;
+        }
+
+        if(qInit && cand.init){
+          if(cand.init.indexOf(qInit) !== -1 || qInit.indexOf(cand.init) !== -1) score += 0.1;
+        }
+
+        if(score > bestScore){
+          bestScore = score;
+          best = cand.talk;
+        }
+      }
+
+      if(best && bestScore >= 0.55) return best;
+      return null;
+    }
+
+    function attachTalkLinks(){
+      var speakerCards = document.querySelectorAll('.speaker-list .speaker');
+      speakerCards.forEach(function(card){
+        var nameEl = card.querySelector('strong');
+        if(!nameEl) return;
+        var name = nameEl.textContent.trim();
+        var talk = bestTalkForName(name);
+        if(!talk || !talk.anchor) return;
+        var existingLink = nameEl.querySelector('a.speaker-talklink');
+        if (existingLink) {
+          existingLink.href = '#' + talk.anchor;
+          existingLink.textContent = name;
+        } else {
+          var a = document.createElement('a');
+          a.className = 'speaker-talklink';
+          a.href = '#' + talk.anchor;
+          a.textContent = name;
+          nameEl.textContent = '';
+          nameEl.appendChild(a);
+        }
+      });
+
+      var scheduleCells = document.querySelectorAll('table.schedule td');
+      scheduleCells.forEach(function(td){
+        if(td.colSpan && td.colSpan > 1) return;
+        var text = td.textContent;
+        if(!text) return;
+        var name = text.trim();
+        if(!name) return;
+        var talk = bestTalkForName(name);
+        if(!talk || !talk.anchor) return;
+        var link = td.querySelector('a.schedule-talklink');
+        if (link) {
+          link.href = '#' + talk.anchor;
+        } else {
+          td.textContent = '';
+          var a = document.createElement('a');
+          a.className = 'schedule-talklink';
+          a.href = '#' + talk.anchor;
+          a.textContent = name;
+          td.appendChild(a);
+        }
+      });
+    }
+
+    function attachScheduleNavigation(){
+      var table = document.querySelector('table.schedule');
+      if (!table) return;
+      if (table.dataset.navBound === '1') return;
+
+      // Make cells feel clickable (skip break rows)
+      table.querySelectorAll('tbody td').forEach(function(td){
+        if (td.colSpan && td.colSpan > 1) return;
+        td.style.cursor = 'pointer';
+      });
+
+      table.addEventListener('click', function(e){
+        // Let PDF download buttons inside the schedule work normally
+        if (e.target && e.target.closest && e.target.closest('.download-btn')) return;
+
+        var td = e.target && e.target.closest ? e.target.closest('td') : null;
+        if (!td) return;
+        if (td.colSpan && td.colSpan > 1) return;
+
+        var link = (e.target && e.target.closest) ? e.target.closest('a.schedule-talklink') : null;
+        if (!link) link = td.querySelector('a.schedule-talklink');
+        if (!link) return;
+
+        var href = (link.getAttribute('href') || '').trim();
+        if (!href || href === '#') return;
+
+        if (href.charAt(0) === '#') {
+          e.preventDefault();
+          var anchorId = href.slice(1);
+          if (!anchorId) return;
+
+          var talksSection = document.getElementById('talksSection');
+          var needsExpand = talksSection && !talksSection.classList.contains('visible');
+
+          if (needsExpand && typeof toggleTalksView === 'function') {
+            toggleTalksView();
+            // Wait a tick for the expanded panel to become visible, then scroll.
+            setTimeout(function(){
+              if (typeof goToTalkByAnchor === 'function') goToTalkByAnchor(anchorId);
+              else {
+                var el = document.getElementById(anchorId);
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              }
+            }, 120);
+          } else {
+            if (typeof goToTalkByAnchor === 'function') goToTalkByAnchor(anchorId);
+            else {
+              var el2 = document.getElementById(anchorId);
+              if (el2) el2.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+          }
+        }
+      }, true);
+
+      table.dataset.navBound = '1';
+    }
+
+    // Enrich schedule cells to display speaker and talk title
+    function enrichScheduleCells(){
+      var scheduleCells = document.querySelectorAll('table.schedule td');
+      scheduleCells.forEach(function(td){
+        if (td.colSpan && td.colSpan > 1) return; // skip break rows
+        if (td.dataset.enriched === '1') return;
+
+        var link = td.querySelector('a.schedule-talklink');
+        var speakerName = link ? link.textContent.trim() : (td.textContent || '').trim();
+        if (!speakerName) return;
+
+        var talk = bestTalkForName(speakerName);
+        var speakerInfo = getSpeakerByName(speakerName);
+        var talkId = speakerInfo && speakerInfo.id ? speakerInfo.id : '';
+        var titleText = (talk && talk.talk_title && talk.talk_title.trim()) ? talk.talk_title : '';
+
+        // Build structured cell
+        var wrapper = document.createElement('div');
+        wrapper.className = 'cell';
+
+        var sp = document.createElement('div');
+        sp.className = 'cell-speaker';
+        if (link) {
+          sp.appendChild(link); // reuse existing link
+        } else {
+          var a = document.createElement('a');
+          a.className = 'schedule-talklink';
+          a.href = talk.anchor ? ('#' + talk.anchor) : '#';
+          a.textContent = speakerName;
+          sp.appendChild(a);
+        }
+
+        var title = document.createElement('div');
+        title.className = 'cell-title';
+        title.textContent = titleText;
+
+        // Actions row (download)
+        var actions = document.createElement('div');
+        actions.className = 'cell-actions';
+
+        if (talkId) {
+          var btn = createDownloadButton(talkId);
+          actions.appendChild(btn);
+          checkTalkPDF(talkId, btn);
+        }
+
+        td.innerHTML = '';
+        wrapper.appendChild(sp);
+        wrapper.appendChild(title);
+        wrapper.appendChild(actions);
+        td.appendChild(wrapper);
+        td.dataset.enriched = '1';
+      });
+    }
+
+    // Get schedule info for a speaker name (uses speakerDB as single source of truth)
+    function getScheduleFor(name) {
+      var info = getSpeakerByName(name);
+      if (info && info.id && speakerDB[info.id]) {
+        return speakerDB[info.id].schedule;
+      }
+      return null;
+    }
+
+    // Download button contract:
+    // <a class="download-btn" data-talk-id="cks" data-state="checking" href="#">
+    //   <span class="icon">⬇</span> PDF
+    // </a>
+    var talkPdfMap = {
+      'Alex-Belton': 'alltalks/ab.pdf',
+      'sr': 'alltalks/sr.pdf',
+      'cks': 'alltalks/cks.pdf',
+      'ssd': 'alltalks/ssd.pdf',
+      'Nayak': 'alltalks/sn.pdf',
+      'ac': 'alltalks/ac.pdf',
+      'gm': 'alltalks/gm.pdf',
+      'ak': 'alltalks/ak.pdf',
+      'akp': 'alltalks/akp.pdf',
+      'kbs': 'alltalks/kbs.pdf',
+      'js': 'alltalks/js.pdf',
+      'bvrb': 'alltalks/bvrb.pdf',
+      'sj': 'alltalks/sj.pdf',
+      'dg': 'alltalks/dg.pdf',
+      'sp': 'alltalks/sp.pdf',
+      'ml': 'alltalks/ml.pdf',
+      'tcj': 'alltalks/tcj.pdf',
+      'sd': 'alltalks/sd.pdf',
+      'rs': 'alltalks/rs.pdf'
+    };
+
+    function createDownloadButton(talkId){
+      var btn = document.createElement('a');
+      btn.className = 'download-btn';
+      btn.dataset.talkId = talkId;
+      btn.dataset.state = 'checking';
+      btn.href = '#';
+      if (talkId === 'dg') {
+        btn.classList.add('download-na');
+        btn.textContent = 'N/A';
+      } else {
+        btn.innerHTML = '<span class="icon">⬇</span> PDF';
+        btn.addEventListener('click', function(ev){ ev.stopPropagation(); });
+      }
+      return btn;
+    }
+
+    function checkTalkPDF(talkId, btn){
+      if (!talkId || !btn) return;
+      if (talkId === 'dg' || btn.tagName !== 'A') return;
+
+      var pdfUrl = talkPdfMap[talkId] || ('alltalks/' + talkId + '.pdf');
+      btn.href = pdfUrl;
+
+      var availableLabel = '<span class="icon">⬇</span> PDF';
+
+      function handleUnavailable(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        alert('Talk file not public yet');
+      }
+
+      function clearUnavailableHandler(){
+        if (btn.dataset.unavailableBound) {
+          btn.removeEventListener('click', handleUnavailable);
+          delete btn.dataset.unavailableBound;
+        }
+      }
+
+      function markAvailable(){
+        btn.dataset.state = 'available';
+        btn.href = pdfUrl;
+        btn.classList.remove('disabled');
+        btn.innerHTML = availableLabel;
+        clearUnavailableHandler();
+      }
+
+      function markUnavailable(){
+        btn.dataset.state = 'unavailable';
+        btn.href = '#';
+        btn.classList.add('disabled');
+        btn.innerHTML = '- PDF NOT PUBLIC YET';
+        if (!btn.dataset.unavailableBound) {
+          btn.addEventListener('click', handleUnavailable);
+          btn.dataset.unavailableBound = '1';
+        }
+      }
+
+      function markUnknown(){
+        btn.dataset.state = 'unknown';
+        btn.href = pdfUrl;
+        btn.classList.remove('disabled');
+        btn.innerHTML = availableLabel;
+        clearUnavailableHandler();
+      }
+
+      fetch(pdfUrl, { method: 'HEAD', cache: 'no-store' })
+        .then(function(res){
+          if (res && res.ok) {
+            markAvailable();
+          } else if (res && (res.status === 404 || res.status === 410)) {
+            markUnavailable();
+          } else {
+            markUnknown();
+          }
+        })
+        .catch(function(){
+          markUnknown();
+        });
+    }
+
+    function initDownloadButtons(){
+      var buttons = document.querySelectorAll('.download-btn[data-talk-id]');
+      buttons.forEach(function(btn){
+        if (!btn.dataset || btn.dataset.state !== 'checking') return;
+        checkTalkPDF(btn.dataset.talkId, btn);
+      });
+    }
+
+    // Create a talk card element consistently
+    function talkCard(talk) {
+      var card = document.createElement('article');
+      card.className = 'talk-card';
+      card.id = talk.anchor;
+
+      // Get speaker info using the centralized lookup
+      var speakerInfo = getSpeakerByName(talk.speaker_name);
+      var sched = speakerInfo && speakerInfo.id && speakerDB[speakerInfo.id] ? speakerDB[speakerInfo.id].schedule : null;
+
+      // Date/time panel on the left
+      var datetime = document.createElement('div');
+      datetime.className = 'talk-datetime';
+      if (sched) {
+        datetime.innerHTML = 
+          '<div class="talk-day">' + sched.dayName + '</div>' +
+          '<div class="talk-date">' + sched.date + '</div>' +
+          '<div class="talk-month">' + sched.month + '</div>' +
+          '<div class="talk-time">' + sched.time + '</div>';
+      } else {
+        datetime.innerHTML = 
+          '<div class="talk-day">TBA</div>' +
+          '<div class="talk-date">—</div>' +
+          '<div class="talk-month"></div>' +
+          '<div class="talk-time">TBA</div>';
+      }
+
+      // Content area
+      var content = document.createElement('div');
+      content.className = 'talk-content';
+
+      // Header with avatar and speaker info
+      var header = document.createElement('div');
+      header.className = 'talk-header';
+
+      // Avatar
+      var avatar = document.createElement('div');
+      avatar.className = 'talk-avatar';
+      if (speakerInfo && speakerInfo.img) {
+        var img = document.createElement('img');
+        img.src = speakerInfo.img;
+        img.alt = talk.speaker_name;
+        img.onerror = function() {
+          this.style.display = 'none';
+          var placeholder = document.createElement('div');
+          placeholder.className = 'talk-avatar-placeholder';
+          placeholder.textContent = initialsFrom(talk.speaker_name);
+          avatar.appendChild(placeholder);
+        };
+        avatar.appendChild(img);
+      } else {
+        var placeholder = document.createElement('div');
+        placeholder.className = 'talk-avatar-placeholder';
+        placeholder.textContent = initialsFrom(talk.speaker_name);
+        avatar.appendChild(placeholder);
+      }
+
+      // Speaker info
+      var speakerInfoDiv = document.createElement('div');
+      speakerInfoDiv.className = 'talk-speaker-info';
+      
+      var speakerName = document.createElement('div');
+      speakerName.className = 'talk-speaker';
+      speakerName.textContent = talk.speaker_name;
+
+      var affiliation = document.createElement('div');
+      affiliation.className = 'talk-affiliation';
+      // Use affiliation directly from speakerDB
+      if (speakerInfo && speakerInfo.affiliation) {
+        affiliation.textContent = speakerInfo.affiliation;
+      }
+
+      speakerInfoDiv.appendChild(speakerName);
+      speakerInfoDiv.appendChild(affiliation);
+
+      header.appendChild(avatar);
+      header.appendChild(speakerInfoDiv);
+
+      // Title
+      var title = document.createElement('div');
+      title.className = 'talk-title';
+      title.textContent = (talk.talk_title && talk.talk_title.trim()) ? talk.talk_title : 'TBA';
+
+      // Abstract
+      var abstract = document.createElement('div');
+      abstract.className = 'talk-abstract';
+      abstract.textContent = (talk.talk_abstract && talk.talk_abstract.trim()) ? talk.talk_abstract : 'To be announced.';
+
+      content.appendChild(header);
+      content.appendChild(title);
+      content.appendChild(abstract);
+
+      var actions = document.createElement('div');
+      actions.className = 'talk-actions';
+      if (speakerInfo && speakerInfo.id) {
+        var btn = createDownloadButton(speakerInfo.id);
+        actions.appendChild(btn);
+        checkTalkPDF(speakerInfo.id, btn);
+      }
+      content.appendChild(actions);
+
+      card.appendChild(datetime);
+      card.appendChild(content);
+
+      // Navigate carousel when a talk card is clicked
+      card.style.cursor = 'pointer';
+      card.addEventListener('click', function(){
+        if (typeof goToTalkByAnchor === 'function') {
+          goToTalkByAnchor(card.id);
+        }
+      });
+
+      return card;
+    }
+
+    // Small helper to show initials
+    function initialsFrom(name) {
+      var parts = name.split(/\s+/);
+      var inits = parts.map(function(p){ return p[0]; }).slice(0,2).join('').toUpperCase();
+      return inits;
+    }
+
+    
+    function renderTalks(){
+      var list = document.getElementById('talksList');
+      if(!list) return;
+      list.innerHTML = '';
+
+      var speakers = Object.keys(talksBySpeaker);
+      if(speakers.length === 0){
+        var empty = document.createElement('div');
+        empty.className = 'muted';
+        empty.textContent = 'Talk details will be updated soon.';
+        list.appendChild(empty);
+        return;
+      }
+
+      // Collect all talks
+      var allTalks = [];
+      speakers.forEach(function(k){
+        talksBySpeaker[k].forEach(function(t){ allTalks.push(t); });
+      });
+
+      // Sort talks by schedule order (date/time)
+      allTalks.sort(function(a, b) {
+        var schedA = getScheduleFor(a.speaker_name);
+        var schedB = getScheduleFor(b.speaker_name);
+        var orderA = schedA ? schedA.sortOrder : 999;
+        var orderB = schedB ? schedB.sortOrder : 999;
+        return orderA - orderB;
+      });
+
+      // Group talks by day
+      var dayGroups = {};
+      var dayOrder = [];
+      allTalks.forEach(function(t){
+        var sched = getScheduleFor(t.speaker_name);
+        var dayKey = sched ? (sched.dayName + ', ' + sched.date + ' ' + sched.month + ' ' + sched.year) : 'TBA';
+        var sortKey = sched ? sched.sortOrder : 999;
+        if(!dayGroups[dayKey]){
+          dayGroups[dayKey] = { talks: [], sortKey: sortKey, sched: sched };
+          dayOrder.push(dayKey);
+        }
+        dayGroups[dayKey].talks.push(t);
+      });
+
+      // Sort day order by first talk's sortOrder
+      dayOrder.sort(function(a, b){
+        return dayGroups[a].sortKey - dayGroups[b].sortKey;
+      });
+
+      // Render each day group
+      dayOrder.forEach(function(dayKey, idx){
+        var group = dayGroups[dayKey];
+        var dayDiv = document.createElement('div');
+        dayDiv.className = 'day-group collapsed';
+
+        var header = document.createElement('div');
+        header.className = 'day-group-header';
+        header.innerHTML = '<div><span class="day-group-title">' + dayKey + '</span><span class="day-group-subtitle">(' + group.talks.length + ' talk' + (group.talks.length > 1 ? 's' : '') + ')</span></div><span class="day-group-toggle">▼</span>';
+
+        header.addEventListener('click', function(){
+          dayDiv.classList.toggle('collapsed');
+        });
+
+        var content = document.createElement('div');
+        content.className = 'day-group-content';
+
+        var inner = document.createElement('div');
+        inner.className = 'day-group-inner';
+
+        group.talks.forEach(function(t){
+          var card = talkCard(t);
+          inner.appendChild(card);
+        });
+
+        content.appendChild(inner);
+        dayDiv.appendChild(header);
+        dayDiv.appendChild(content);
+        list.appendChild(dayDiv);
+      });
+
+      if(window.MathJax && window.MathJax.typesetPromise){
+        window.MathJax.typesetPromise([list]);
+      }
+    }
+
+    // View All Talks toggle functionality
+    var talksPanelToggle = document.getElementById('talksPanelToggle');
+    var radialSection = document.getElementById('radialSection');
+    var talksSection = document.getElementById('talksSection');
+    var isTalksExpanded = false;
+
+    function toggleTalksView() {
+      if (!talksPanelToggle || !radialSection || !talksSection) return;
+      
+      isTalksExpanded = !isTalksExpanded;
+      var toggleText = talksPanelToggle.querySelector('.toggle-text');
+      var btnIcon = talksPanelToggle.querySelector('.btn-icon');
+      
+      if (isTalksExpanded) {
+        // Expand talks view
+        talksPanelToggle.classList.add('active');
+        if (toggleText) toggleText.textContent = 'Collapse';
+        if (btnIcon) btnIcon.textContent = '▲';
+        talksPanelToggle.setAttribute('aria-expanded', 'true');
+        // Pause carousel while reading
+        if (typeof carouselState !== 'undefined') carouselState.isPaused = true;
+        
+        // Show talks section with animation (carousel remains visible)
+        talksSection.style.display = 'block';
+        setTimeout(function() {
+          talksSection.classList.add('visible');
+        }, 50);
+        
+        // Ensure talks are rendered
+        if (talksReady) {
+          renderTalks();
+        }
+        // Attach tools and expand day groups for convenience
+        attachTalksTools();
+        setTimeout(function(){ setDayGroupsCollapsed(false); }, 50);
+        
+      } else {
+        // Collapse talks view
+        talksPanelToggle.classList.remove('active');
+        if (toggleText) toggleText.textContent = 'Expand all talks';
+        if (btnIcon) btnIcon.textContent = '▼';
+        talksPanelToggle.setAttribute('aria-expanded', 'false');
+        // Resume carousel
+        if (typeof carouselState !== 'undefined') carouselState.isPaused = false;
+        
+        // Hide talks section
+        talksSection.classList.remove('visible');
+        setTimeout(function() {
+          talksSection.style.display = 'none';
+        }, 400);
+        // Collapse all groups for compactness
+        setDayGroupsCollapsed(true);
+      }
+    }
+
+    // Initialize toggle button
+    if (talksPanelToggle) {
+      talksPanelToggle.setAttribute('aria-controls', 'talksSection');
+      talksPanelToggle.setAttribute('aria-expanded', 'false');
+      talksPanelToggle.addEventListener('click', toggleTalksView);
+    }
+
+    // Talks utilities
+    function setDayGroupsCollapsed(collapsed) {
+      var groups = document.querySelectorAll('.day-group');
+      groups.forEach(function(g){ g.classList.toggle('collapsed', collapsed); });
+    }
+
+    function attachTalksTools(){
+      var filter = document.getElementById('talksFilter');
+      if (filter && !filter.dataset.bound) {
+        filter.addEventListener('input', function(){
+          var q = (filter.value || '').toLowerCase();
+          var list = document.getElementById('talksList');
+          if (!list) return;
+          var groups = list.querySelectorAll('.day-group');
+          groups.forEach(function(group){
+            var cards = group.querySelectorAll('.talk-card');
+            var visibleCount = 0;
+            cards.forEach(function(card){
+              var hay = (card.textContent || '').toLowerCase();
+              var show = !q || hay.indexOf(q) !== -1;
+              card.style.display = show ? '' : 'none';
+              if (show) visibleCount++;
+            });
+            group.style.display = visibleCount ? '' : 'none';
+            if (q) group.classList.remove('collapsed');
+          });
+        });
+        filter.dataset.bound = '1';
+      }
+      var exp = document.getElementById('talksExpandAll');
+      if (exp && !exp.dataset.bound) {
+        exp.addEventListener('click', function(){ setDayGroupsCollapsed(false); });
+        exp.dataset.bound = '1';
+      }
+      var col = document.getElementById('talksCollapseAll');
+      if (col && !col.dataset.bound) {
+        col.addEventListener('click', function(){ setDayGroupsCollapsed(true); });
+        col.dataset.bound = '1';
+      }
+    }
+
+    // Sync carousel with a talk anchor and highlight in the list
+    function highlightActiveTalk(){
+      var list = document.getElementById('talksList');
+      if (!list || !carouselState || !carouselState.talks.length) return;
+      var current = carouselState.talks[carouselState.currentIndex];
+      if (!current) return;
+      list.querySelectorAll('.talk-card').forEach(function(c){ c.classList.remove('active-talk'); });
+      var el = document.getElementById(current.anchor);
+      if (el) el.classList.add('active-talk');
+    }
+
+    function goToTalkByAnchor(anchorId){
+      if (!carouselState || !carouselState.talks.length) return;
+      var idx = carouselState.talks.findIndex(function(t){ return t.anchor === anchorId; });
+      if (idx >= 0) {
+        carouselGoTo(idx);
+        // If list is visible, scroll the card into view
+        var el = document.getElementById(anchorId);
+        if (el && document.getElementById('talksSection').classList.contains('visible')) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else {
+          var rs = document.getElementById('radialSection');
+          if (rs) rs.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+    }
+
+    function loadTalks(){
+      var el = document.getElementById('talksCSV');
+      var text = el ? el.textContent : '';
+      if(!text || !text.trim()){
+        talksReady = false;
+        renderTalks();
+        return;
+      }
+
+      var rows = parseCSV(text);
+      if(rows.length < 2){
+        talksReady = false;
+        renderTalks();
+        return;
+      }
+
+      var header = rows[0].map(function(h){ return String(h || '').trim(); });
+      var idx = {};
+      header.forEach(function(h, i){ idx[h] = i; });
+
+      talksBySpeaker = {};
+      allTalksIndex = [];
+
+      // Keep only the latest submission per speaker (by Timestamp)
+      var latestByKey = {};
+      for(var ri = 1; ri < rows.length; ri++){
+        var r = rows[ri];
+        var tsStr = idx['Timestamp'] != null ? r[idx['Timestamp']] : '';
+        var ts = parseTimestamp(tsStr);
+        var speaker_name = (r[idx['Name of the Speaker']] || '').trim();
+        var talk_title = (r[idx['Title']] || '').trim();
+        var talk_abstract = (r[idx['Abstract']] || '').trim();
+        if(!speaker_name && !talk_title && !talk_abstract) continue;
+        if(!speaker_name) continue;
+        var key = normName(speaker_name);
+        if(!latestByKey[key] || ts > latestByKey[key].ts){
+          var anchorBase = slugify(speaker_name) + '-' + slugify(talk_title || 'talk');
+          latestByKey[key] = {
+            ts: ts,
+            talk: {
+              speaker_name: speaker_name,
+              talk_title: talk_title,
+              talk_abstract: talk_abstract,
+              anchor: 'talk-' + anchorBase
+            }
+          };
+        }
+      }
+
+      // Build talksBySpeaker and search index from latest
+      Object.keys(latestByKey).forEach(function(key){
+        var t = latestByKey[key].talk;
+        talksBySpeaker[key] = [t];
+        var candTokens = tokensForMatch(t.speaker_name);
+        allTalksIndex.push({
+          norm: normalizeForMatch(t.speaker_name),
+          tokens: candTokens,
+          init: initialsForTokens(candTokens),
+          last: candTokens.length ? candTokens[candTokens.length - 1] : '',
+          talk: t
+        });
+      });
+
+      talksReady = true;
+      renderTalks();
+      attachTalkLinks();
+      // Populate schedule cells with titles once talks are known
+      enrichScheduleCells();
+      attachScheduleNavigation();
+    }
+
+    // Create the popup once and reuse it for all speakers
+    var popup = document.createElement('div');
+    popup.className = 'ncap-popup';
+    popup.innerHTML = '<img class="pp-img" src="" alt=""><div class="pp-text"><div class="pp-title"></div><div class="pp-body"></div></div>';
+    document.body.appendChild(popup);
+
+    // Place popup on the LEFT for left-column speakers, and on the RIGHT for right-column ones
+    function showPopupFor(el, name) {
+      var info = speakerMap[name] || getSpeakerByName(name);
+      if(!info) return;
+      var imgEl = popup.querySelector('.pp-img');
+      var titleEl = popup.querySelector('.pp-title');
+      var bodyEl = popup.querySelector('.pp-body');
+
+      // Set content
+      titleEl.textContent = name;
+      bodyEl.textContent = info.synopsis || '';
+
+      // Set image (fallback to initials if the file is missing)
+      imgEl.src = info.img;
+      imgEl.alt = name;
+      imgEl.onerror = function(){
+        // If the image is missing, show initials instead
+        this.style.display = 'none';
+        if(!popup.querySelector('.pp-initials')) {
+          var f = document.createElement('div');
+          f.className = 'pp-initials';
+          f.style.cssText = "width:56px;height:56px;border-radius:6px;background:#f2f2f2;border:1px solid rgba(0,0,0,0.04);display:flex;align-items:center;justify-content:center;font-weight:700;color:#333;";
+          f.textContent = initialsFrom(name);
+          popup.querySelector('.pp-text').insertBefore(f, popup.querySelector('.pp-text').firstChild);
+        }
+      };
+      // Remove the initials fallback again if the image loads fine
+      imgEl.onload = function(){
+        var old = popup.querySelector('.pp-initials');
+        if(old) old.remove();
+        this.style.display = 'block';
+      };
+
+      // Decide which side to place the popup on, based on where the speaker card sits
+      var rect = el.getBoundingClientRect();
+      var listRect = el.parentElement.getBoundingClientRect();
+      var elCenter = (rect.left + rect.right)/2;
+      var listCenter = listRect.left + listRect.width/2;
+
+      // Left column -> popup on the left; right column -> popup on the right
+      var side = (elCenter < listCenter) ? 'left' : 'right';
+
+      // Prepare popup (clear old classes)
+      popup.classList.remove('left','right');
+      popup.classList.add(side);
+
+      // Position popup: vertically centered to the card, and left/right based on side
+      popup.style.top = (window.scrollY + rect.top + (rect.height - popup.offsetHeight)/2) + 'px';
+
+      // Measure after content set (forces a reflow)
+      popup.style.left = '0px';
+      popup.classList.add('show');
+      var popupRect = popup.getBoundingClientRect();
+      var margin = 12;
+
+      if(side === 'left') {
+        // Popup to the element's LEFT: popup.right = element.left - margin
+        var left = window.scrollX + rect.left - popupRect.width - margin;
+        if(left < 6) left = 6 + window.scrollX; // keep it inside the viewport
+        popup.style.left = left + 'px';
+      } else {
+        // Popup to the element's RIGHT
+        var left2 = window.scrollX + rect.right + margin;
+        popup.style.left = left2 + 'px';
+      }
+
+      // Make the whole popup clickable (opens the speaker's link)
+      popup.onclick = function(){ if(info.url) window.open(info.url, '_blank'); };
+      popup.setAttribute('role','dialog');
+    }
+
+    function hidePopup(){
+      popup.classList.remove('show','left','right');
+      popup.onclick = null;
+      // Clean up initials fallback (if any)
+      var alt = popup.querySelector('.pp-initials');
+      if(alt) alt.remove();
+      popup.querySelector('.pp-img').style.display = 'block';
+      popup.querySelector('.pp-img').src = '';
+    }
+
+    // Attach handlers to speaker cards (no HTML changes needed)
+    var speakers = document.querySelectorAll('.speaker-list .speaker');
+    speakers.forEach(function(s){
+      var nameEl = s.querySelector('strong');
+      if(!nameEl) return;
+      var name = nameEl.textContent.trim();
+      var info = speakerMap[name] || getSpeakerByName(name);
+
+      // Make the speaker clickable (opens their homepage)
+      if(info && info.url) {
+        s.style.cursor = 'pointer';
+        s.addEventListener('click', function(e){
+          window.open(info.url, '_blank');
+        });
+      }
+
+      // Hover behavior
+      s.addEventListener('mouseenter', function(){
+        s.classList.add('hovered');
+        showPopupFor(s, name);
+      });
+      s.addEventListener('mouseleave', function(){
+        s.classList.remove('hovered');
+        hidePopup();
+      });
+
+      // Keyboard accessible
+      s.setAttribute('tabindex','0');
+      s.addEventListener('focus', function(){ s.classList.add('hovered'); showPopupFor(s, name); });
+      s.addEventListener('blur', function(){ s.classList.remove('hovered'); hidePopup(); });
+      s.addEventListener('keydown', function(ev){
+        if(ev.key === 'Enter' || ev.key === ' '){
+          if(info && info.url) window.open(info.url, '_blank');
+        }
+      });
+    });
+
+    // Hide popup on scroll/resize (prevents it from drifting out of place)
+    window.addEventListener('scroll', function(){ if(popup.classList.contains('show')) hidePopup(); }, {passive:true});
+    window.addEventListener('resize', function(){ if(popup.classList.contains('show')) hidePopup(); });
+
+    loadTalks();
+
+    // ========== HORIZONTAL CAROUSEL ==========
+    var carouselState = {
+      talks: [],
+      currentIndex: 0,
+      trackEl: null,
+      slides: [],
+      initialized: false,
+      autoPlayTimer: null,
+      autoPlayDelay: 5000,
+      isPaused: false,
+      mathJaxTimer: null
+    };
+
+    function initCarousel() {
+      carouselState.trackEl = document.getElementById('carouselTrack');
+      if (!carouselState.trackEl) return;
+
+      // Collect all talks sorted by schedule order
+      var speakers = Object.keys(talksBySpeaker);
+      var allTalks = [];
+      speakers.forEach(function(k) {
+        talksBySpeaker[k].forEach(function(t) { allTalks.push(t); });
+      });
+
+      allTalks.sort(function(a, b) {
+        var schedA = getScheduleFor(a.speaker_name);
+        var schedB = getScheduleFor(b.speaker_name);
+        var orderA = schedA ? schedA.sortOrder : 999;
+        var orderB = schedB ? schedB.sortOrder : 999;
+        return orderA - orderB;
+      });
+
+      carouselState.talks = allTalks;
+      if (allTalks.length === 0) return;
+
+      // Build carousel slides
+      carouselState.trackEl.innerHTML = '';
+      carouselState.slides = [];
+
+      allTalks.forEach(function(talk, idx) {
+        var slide = createCarouselSlide(talk, idx);
+        carouselState.slides.push(slide);
+        carouselState.trackEl.appendChild(slide);
+      });
+
+      // Build dots
+      var dotsEl = document.getElementById('carouselDots');
+      dotsEl.innerHTML = '';
+      allTalks.forEach(function(talk, idx) {
+        var dot = document.createElement('div');
+        dot.className = 'carousel-dot';
+        dot.setAttribute('data-index', idx);
+        dot.addEventListener('click', function() {
+          carouselGoTo(idx);
+          resetAutoPlay();
+        });
+        dotsEl.appendChild(dot);
+      });
+
+      // Set up navigation buttons
+      var prevBtn = document.getElementById('carouselPrev');
+      var nextBtn = document.getElementById('carouselNext');
+
+      prevBtn.addEventListener('click', function() {
+        if (carouselState.currentIndex > 0) {
+          carouselGoTo(carouselState.currentIndex - 1);
+          resetAutoPlay();
+        }
+      });
+
+      nextBtn.addEventListener('click', function() {
+        var newIdx = (carouselState.currentIndex + 1) % carouselState.talks.length;
+        carouselGoTo(newIdx);
+        resetAutoPlay();
+      });
+
+      // Pause auto-play on hover/focus
+      var container = document.getElementById('radialSection');
+      var radialContainer = document.querySelector('.radial-container');
+      container.addEventListener('mouseenter', function() {
+        carouselState.isPaused = true;
+      });
+      container.addEventListener('mouseleave', function() {
+        carouselState.isPaused = false;
+        resetAutoPlay();
+      });
+
+      // Keyboard navigation (accessibility)
+      try { container.setAttribute('tabindex','0'); } catch(e){}
+      container.addEventListener('keydown', function(e){
+        if (e.key === 'ArrowLeft') {
+          if (carouselState.currentIndex > 0) {
+            carouselGoTo(carouselState.currentIndex - 1);
+            resetAutoPlay();
+          }
+        } else if (e.key === 'ArrowRight') {
+          var newIdx = (carouselState.currentIndex + 1) % carouselState.talks.length;
+          carouselGoTo(newIdx);
+          resetAutoPlay();
+        }
+      });
+
+      // Click on blurred background areas to navigate
+      if (radialContainer) {
+        // Show faint directional arrows on hover (left/right thirds)
+        radialContainer.addEventListener('mousemove', function(e){
+          var rect = radialContainer.getBoundingClientRect();
+          var x = e.clientX - rect.left;
+          var w = rect.width;
+          var onLeft = x < w * 0.3;
+          var onRight = x > w * 0.7;
+          radialContainer.classList.toggle('hover-left', onLeft);
+          radialContainer.classList.toggle('hover-right', onRight);
+          if (!onLeft && !onRight) {
+            radialContainer.classList.remove('hover-left');
+            radialContainer.classList.remove('hover-right');
+          }
+        });
+        radialContainer.addEventListener('mouseleave', function(){
+          radialContainer.classList.remove('hover-left');
+          radialContainer.classList.remove('hover-right');
+        });
+
+        // Basic swipe gestures for mobile: horizontal swipe to navigate
+        (function(){
+          function shouldIgnoreTarget(el){
+            return el.closest('.carousel-nav') || el.closest('.carousel-dots') || el.closest('.carousel-abstract');
+          }
+          var swipe = { active:false, sx:0, sy:0, dx:0, dy:0 };
+          function startSwipe(x, y, target){
+            if (shouldIgnoreTarget(target)) return;
+            swipe.active = true; swipe.sx = x; swipe.sy = y; swipe.dx = 0; swipe.dy = 0;
+          }
+          function moveSwipe(x, y){
+            if (!swipe.active) return;
+            swipe.dx = x - swipe.sx; swipe.dy = y - swipe.sy;
+          }
+          function endSwipe(){
+            if (!swipe.active) return;
+            var dx = swipe.dx, dy = swipe.dy;
+            var horizontal = Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.2;
+            if (horizontal){
+              if (dx > 0){
+                if (carouselState.currentIndex > 0) {
+                  carouselGoTo(carouselState.currentIndex - 1);
+                  resetAutoPlay();
+                }
+              } else {
+                var newIdx = (carouselState.currentIndex + 1) % carouselState.talks.length;
+                carouselGoTo(newIdx);
+                resetAutoPlay();
+              }
+            }
+            swipe.active = false; swipe.dx = 0; swipe.dy = 0;
+          }
+
+          // Pointer events (modern browsers)
+          radialContainer.addEventListener('pointerdown', function(e){
+            if (e.pointerType === 'mouse') return; // keep mouse as-is
+            startSwipe(e.clientX, e.clientY, e.target);
+          });
+          radialContainer.addEventListener('pointermove', function(e){
+            if (!swipe.active) return;
+            var dx = e.clientX - swipe.sx; var dy = e.clientY - swipe.sy;
+            if (Math.abs(dx) > Math.abs(dy) * 1.2 && Math.abs(dx) > 20){
+              // Intercept horizontal swipes
+              if (e.cancelable) e.preventDefault();
+            }
+            moveSwipe(e.clientX, e.clientY);
+          });
+          radialContainer.addEventListener('pointerup', function(){ endSwipe(); });
+          radialContainer.addEventListener('pointercancel', function(){ swipe.active = false; });
+
+          // Touch fallback (older Safari)
+          radialContainer.addEventListener('touchstart', function(e){
+            if (!e.touches || e.touches.length !== 1) return;
+            var t = e.touches[0];
+            startSwipe(t.clientX, t.clientY, e.target);
+          }, {passive:true});
+          radialContainer.addEventListener('touchmove', function(e){
+            if (!swipe.active || !e.touches || e.touches.length !== 1) return;
+            var t = e.touches[0];
+            var dx = t.clientX - swipe.sx; var dy = t.clientY - swipe.sy;
+            if (Math.abs(dx) > Math.abs(dy) * 1.2 && Math.abs(dx) > 20){
+              // Intercept horizontal swipes
+              if (e.cancelable) e.preventDefault();
+            }
+            moveSwipe(t.clientX, t.clientY);
+          }, {passive:false});
+          radialContainer.addEventListener('touchend', function(){ endSwipe(); }, {passive:true});
+          radialContainer.addEventListener('touchcancel', function(){ swipe.active = false; }, {passive:true});
+        })();
+
+        radialContainer.addEventListener('click', function(e) {
+          // Only handle clicks on the container itself, not on slides or controls
+          if (e.target === radialContainer || e.target.classList.contains('carousel-track')) {
+            var rect = radialContainer.getBoundingClientRect();
+            var clickX = e.clientX - rect.left;
+            var containerWidth = rect.width;
+            
+            // Left 30% = previous, Right 30% = next
+            if (clickX < containerWidth * 0.3) {
+              if (carouselState.currentIndex > 0) {
+                carouselGoTo(carouselState.currentIndex - 1);
+                resetAutoPlay();
+              }
+            } else if (clickX > containerWidth * 0.7) {
+              var newIdx = (carouselState.currentIndex + 1) % carouselState.talks.length;
+              carouselGoTo(newIdx);
+              resetAutoPlay();
+            }
+          }
+        });
+      }
+
+      // Initialize to first talk
+      carouselState.currentIndex = 0; // start at first slide
+      carouselState.initialized = true;
+      
+      // Show the first slide
+      carouselGoTo(0, true);
+      
+      highlightActiveTalk();
+
+      // Start auto-play
+      startAutoPlay();
+    }
+
+    function startAutoPlay() {
+      if (carouselState.autoPlayTimer) clearInterval(carouselState.autoPlayTimer);
+      carouselState.autoPlayTimer = setInterval(function() {
+        if (!carouselState.isPaused && carouselState.initialized) {
+          var newIdx = (carouselState.currentIndex + 1) % carouselState.talks.length;
+          carouselGoTo(newIdx);
+        }
+      }, carouselState.autoPlayDelay);
+    }
+
+    function resetAutoPlay() {
+      startAutoPlay();
+    }
+
+    function createCarouselSlide(talk, idx) {
+      var slide = document.createElement('div');
+      slide.className = 'carousel-slide hidden';
+      slide.setAttribute('data-index', idx);
+
+      var speakerInfo = getSpeakerByName(talk.speaker_name);
+      var sched = speakerInfo && speakerInfo.id && speakerDB[speakerInfo.id] ? speakerDB[speakerInfo.id].schedule : null;
+
+      // Build card HTML
+      var card = document.createElement('div');
+      card.className = 'carousel-card';
+
+      var inner = document.createElement('div');
+      inner.className = 'carousel-card-inner';
+
+      // DateTime panel
+      var datetime = document.createElement('div');
+      datetime.className = 'carousel-datetime';
+      if (sched) {
+        datetime.innerHTML = 
+          '<div class="c-day">' + sched.dayName + '</div>' +
+          '<div class="c-date">' + sched.date + '</div>' +
+          '<div class="c-month">' + sched.month + '</div>' +
+          '<div class="c-time">' + sched.time + '</div>';
+      } else {
+        datetime.innerHTML = 
+          '<div class="c-day">TBA</div>' +
+          '<div class="c-date">—</div>' +
+          '<div class="c-month"></div>' +
+          '<div class="c-time">TBA</div>';
+      }
+
+      // Content area
+      var content = document.createElement('div');
+      content.className = 'carousel-content';
+
+      // Header with avatar
+      var header = document.createElement('div');
+      header.className = 'carousel-header';
+
+      var avatar = document.createElement('div');
+      avatar.className = 'carousel-avatar';
+      if (speakerInfo && speakerInfo.img) {
+        avatar.innerHTML = '<img src="' + speakerInfo.img + '" alt="' + talk.speaker_name + '">';
+      } else {
+        avatar.innerHTML = '<div class="carousel-avatar-placeholder">' + initialsFrom(talk.speaker_name) + '</div>';
+      }
+
+      var speakerInfoDiv = document.createElement('div');
+      speakerInfoDiv.className = 'carousel-speaker-info';
+      speakerInfoDiv.innerHTML = 
+        '<h3>' + talk.speaker_name + '</h3>' +
+        '<div class="affiliation">' + (speakerInfo ? speakerInfo.affiliation : '') + '</div>';
+
+      header.appendChild(avatar);
+      header.appendChild(speakerInfoDiv);
+
+      // Title
+      var title = document.createElement('div');
+      title.className = 'carousel-title';
+      title.textContent = talk.talk_title || 'TBA';
+
+      // Abstract
+      var abstract = document.createElement('div');
+      abstract.className = 'carousel-abstract';
+      abstract.textContent = talk.talk_abstract || 'Abstract to be announced.';
+
+      content.appendChild(header);
+      content.appendChild(title);
+      content.appendChild(abstract);
+
+      inner.appendChild(datetime);
+      inner.appendChild(content);
+      card.appendChild(inner);
+
+      if (speakerInfo && speakerInfo.id) {
+        var downloadBtn = createDownloadButton(speakerInfo.id);
+        card.appendChild(downloadBtn);
+        checkTalkPDF(speakerInfo.id, downloadBtn);
+      }
+      slide.appendChild(card);
+
+      // Click on prev/next slides to navigate
+      slide.addEventListener('click', function(e) {
+        if (slide.classList.contains('prev')) {
+          carouselGoTo(idx);
+          resetAutoPlay();
+        } else if (slide.classList.contains('next')) {
+          carouselGoTo(idx);
+          resetAutoPlay();
+        } else if (slide.classList.contains('active')) {
+          // Click on left/right side of active card to navigate
+          var rect = slide.getBoundingClientRect();
+          var clickX = e.clientX - rect.left;
+          var cardWidth = rect.width;
+          
+          if (clickX < cardWidth * 0.3) {
+            // Clicked on left 30% - go previous
+            if (carouselState.currentIndex > 0) {
+              carouselGoTo(carouselState.currentIndex - 1);
+              resetAutoPlay();
+            }
+          } else if (clickX > cardWidth * 0.7) {
+            // Clicked on right 30% - go next
+            var newIdx = (carouselState.currentIndex + 1) % carouselState.talks.length;
+            carouselGoTo(newIdx);
+            resetAutoPlay();
+          }
+        }
+      });
+
+      return slide;
+    }
+
+    function carouselGoTo(targetIndex, skipAnimation) {
+      if (!carouselState.initialized || carouselState.talks.length === 0) return;
+      if (targetIndex === carouselState.currentIndex && !skipAnimation) return;
+
+      var numSlides = carouselState.talks.length;
+      var oldIndex = carouselState.currentIndex;
+      var direction = targetIndex > oldIndex ? 1 : -1;
+      var isFirst = targetIndex === 0;
+
+      // Use requestAnimationFrame for smooth GPU-accelerated transitions
+      requestAnimationFrame(function() {
+        carouselState.slides.forEach(function(slide, idx) {
+          // Remove all state classes
+          slide.classList.remove('active', 'prev', 'next', 'hidden', 'exiting-left', 'exiting-right');
+
+          if (idx === targetIndex) {
+            slide.classList.add('active');
+          } else if (idx === targetIndex - 1 && !isFirst) {
+            slide.classList.add('prev');
+          } else if (idx === targetIndex + 1) {
+            slide.classList.add('next');
+          } else {
+            // Add directional exit for smoother animation
+            if (idx === oldIndex && !skipAnimation) {
+              slide.classList.add(direction > 0 ? 'exiting-left' : 'exiting-right');
+              // Clean up exit class after animation
+              setTimeout(function() {
+                slide.classList.remove('exiting-left', 'exiting-right');
+                slide.classList.add('hidden');
+              }, 350);
+            } else {
+              slide.classList.add('hidden');
+            }
+          }
+        });
+      });
+
+      // Update prev button state
+      var prevBtn = document.getElementById('carouselPrev');
+      prevBtn.disabled = isFirst;
+
+      carouselState.currentIndex = targetIndex;
+
+      // Update indicator
+      document.getElementById('carouselIndicator').textContent = (targetIndex + 1) + ' / ' + numSlides;
+      if (typeof highlightActiveTalk === 'function') {
+        highlightActiveTalk();
+      }
+
+      // Update dots with micro-delay for visual feedback
+      requestAnimationFrame(function() {
+        var dots = document.querySelectorAll('.carousel-dot');
+        dots.forEach(function(dot, idx) {
+          dot.classList.toggle('active', idx === targetIndex);
+        });
+      });
+
+      // Typeset MathJax for active slide (debounced)
+      if (window.MathJax && window.MathJax.typesetPromise) {
+        clearTimeout(carouselState.mathJaxTimer);
+        carouselState.mathJaxTimer = setTimeout(function() {
+          window.MathJax.typesetPromise([carouselState.slides[targetIndex]]);
+        }, 100);
+      }
+    }
+
+    // Initialize carousel after talks are loaded
+    setTimeout(function() {
+      if (talksReady) {
+        initCarousel();
+      }
+    }, 200);
+
+    // Mobile back-to-top
+    (function(){
+      var btn = document.getElementById('backToTop');
+      if(!btn) return;
+
+      function update(){
+        var show = (window.scrollY || document.documentElement.scrollTop || 0) > 300;
+        btn.classList.toggle('show', show);
+      }
+      window.addEventListener('scroll', update, {passive:true});
+      window.addEventListener('resize', update, {passive:true});
+      update();
+
+      btn.addEventListener('click', function(){
+        try{
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }catch(e){
+          window.scrollTo(0, 0);
+        }
+      });
+    })();
+
+    // Abstract show more/less on small screens (only when needed)
+    (function(){
+      function isSmall(){
+        return window.matchMedia && window.matchMedia('(max-width:720px)').matches;
+      }
+
+      function ensureToggleFor(card, absSel){
+        if(!card || card.dataset.absInit) return;
+        var abs = card.querySelector(absSel);
+        if(!abs){ card.dataset.absInit = '1'; return; }
+
+        card.classList.add('abstract-collapsible');
+
+        // Measure overflow after styles apply
+        var overflows = abs.scrollHeight > abs.clientHeight + 6;
+        if(!overflows){
+          card.classList.remove('abstract-collapsible');
+          card.dataset.absInit = '1';
+          return;
+        }
+
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'abstract-toggle';
+        btn.textContent = 'Show more';
+        btn.addEventListener('click', function(e){
+          e.preventDefault();
+          var expanded = card.classList.toggle('abstract-expanded');
+          btn.textContent = expanded ? 'Show less' : 'Show more';
+        });
+
+        abs.insertAdjacentElement('afterend', btn);
+        card.dataset.absInit = '1';
+      }
+
+      function init(){
+        if(!isSmall()) return;
+
+        document.querySelectorAll('.talk-card').forEach(function(card){
+          ensureToggleFor(card, '.talk-abstract');
+        });
+        document.querySelectorAll('.carousel-card').forEach(function(card){
+          ensureToggleFor(card, '.carousel-abstract');
+        });
+      }
+
+      var t = null;
+      function schedule(){
+        clearTimeout(t);
+        t = setTimeout(init, 60);
+      }
+
+      schedule();
+      window.addEventListener('resize', schedule, {passive:true});
+      window.addEventListener('orientationchange', schedule, {passive:true});
+
+      if(window.MutationObserver){
+        var talksList = document.getElementById('talksList');
+        var carouselTrack = document.getElementById('carouselTrack');
+        var obs = new MutationObserver(schedule);
+        if(talksList) obs.observe(talksList, {childList:true, subtree:true});
+        if(carouselTrack) obs.observe(carouselTrack, {childList:true, subtree:true});
+      }
+    })();
+
+  })();
+  </script>
+</body>
+</html>
+
