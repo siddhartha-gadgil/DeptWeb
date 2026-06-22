@@ -88,4 +88,128 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('scroll', scrollSpy);
   scrollSpy(); // Initial call
+
+  // Titles & Abstracts jump links
+  const normalizeTalkName = (value) => (value || '')
+    .toLowerCase()
+    .replace(/[‪]/g, '')
+    .replace(/\bprof\.?\s*/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  const talkAliases = new Map([
+    ['k. balachandran', 'talk-k-balachandran'],
+    ['patrizia donato', 'talk-p-donato'],
+    ['p. donato', 'talk-p-donato'],
+    ['antonio gaudiello', 'talk-antonio-gaudiello'],
+    ['raju k. george', 'talk-raju-k-george'],
+    ['tuhin ghosh', 'talk-tuhin-ghosh'],
+    ['harsha hutridurga', 'talk-harsha-hutridurga'],
+    ['k. t. joseph', 'talk-k-t-joseph'],
+    ['p. k. ratnakumar', 'talk-ratnakumar-pk'],
+    ['ratnakumar p k', 'talk-ratnakumar-pk'],
+    ['ratnakumar p.k.', 'talk-ratnakumar-pk'],
+    ['venky krishnan', 'talk-venky-krishnan'],
+    ['sandeep kunnath', 'talk-sandeep-k'],
+    ['k. sandeep', 'talk-sandeep-k'],
+    ['sandeep k.', 'talk-sandeep-k'],
+    ['rajesh mahadevan', 'talk-rajesh-mahadevan'],
+    ['t. muthukumar', 'talk-t-muthukumar'],
+    ['m. t. nair', 'talk-m-t-nair'],
+    ['m.t. nair', 'talk-m-t-nair'],
+    ['mythily ramaswamy', 'talk-mythily-ramaswamy'],
+    ['mallikarjuna rao', ''],
+    ['p.n. srikanth', 'talk-p-n-srikanth'],
+    ['p. n. srikanth', 'talk-p-n-srikanth'],
+    ['sivaguru sritharan', 'talk-sivaguru-sritharan'],
+    ['sivaguru s. sritharan', 'talk-sivaguru-sritharan'],
+    ['s. sundar', 'talk-s-sundar'],
+    ['s. thangavelu', 'talk-s-thangavelu'],
+    ['hari varma', 'talk-hari-varma']
+  ]);
+
+  const talksCard = document.getElementById('titles-abstracts');
+  const talks = talksCard ? Array.from(talksCard.querySelectorAll('.talk-card')) : [];
+  const talksToggle = document.getElementById('talks-toggle');
+  const talksPrev = document.getElementById('talks-prev');
+  const talksNext = document.getElementById('talks-next');
+  const talksCounter = document.getElementById('talks-counter');
+  let currentTalkIndex = 0;
+
+  const setActiveTalk = (index) => {
+    if (!talks.length) return;
+    currentTalkIndex = (index + talks.length) % talks.length;
+    talks.forEach((talk, talkIndex) => {
+      talk.classList.toggle('active-talk', talkIndex === currentTalkIndex);
+    });
+    if (talksCounter) {
+      talksCounter.textContent = `${currentTalkIndex + 1} / ${talks.length}`;
+    }
+  };
+
+  const scrollToTalk = (targetId) => {
+    if (!targetId) return;
+    const card = document.getElementById(targetId);
+    if (!card) return;
+    const talkIndex = talks.indexOf(card);
+    if (talkIndex >= 0) setActiveTalk(talkIndex);
+    talksCard?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  const resolveTalkTarget = (speakerName) => {
+    const key = normalizeTalkName(speakerName);
+    return talkAliases.get(key) || '';
+  };
+
+  document.querySelectorAll('.speaker-card').forEach((card) => {
+    const speaker = card.querySelector('.speaker-info strong')?.textContent || '';
+    const targetId = resolveTalkTarget(speaker);
+    if (!targetId) return;
+    card.dataset.talkTarget = targetId;
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', `Go to title and abstract for ${speaker}`);
+    card.addEventListener('click', () => scrollToTalk(targetId));
+    card.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        scrollToTalk(targetId);
+      }
+    });
+  });
+
+  document.querySelectorAll('#programme tbody td').forEach((cell) => {
+    const speaker = cell.querySelector('.schedule-speaker')?.textContent.trim() || cell.textContent.trim();
+    const targetId = resolveTalkTarget(speaker);
+    if (!targetId) return;
+    cell.dataset.talkTarget = targetId;
+    cell.setAttribute('tabindex', '0');
+    cell.setAttribute('role', 'button');
+    cell.setAttribute('aria-label', `Go to title and abstract for ${speaker}`);
+    cell.addEventListener('click', () => scrollToTalk(targetId));
+    cell.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        scrollToTalk(targetId);
+      }
+    });
+  });
+
+  setActiveTalk(0);
+
+  if (talksPrev) {
+    talksPrev.addEventListener('click', () => setActiveTalk(currentTalkIndex - 1));
+  }
+
+  if (talksNext) {
+    talksNext.addEventListener('click', () => setActiveTalk(currentTalkIndex + 1));
+  }
+
+  if (talksToggle && talksCard) {
+    talksToggle.addEventListener('click', () => {
+      const expanded = talksCard.classList.toggle('expanded');
+      talksToggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      talksToggle.textContent = expanded ? 'Show one talk' : 'Expand all talks';
+    });
+  }
 });

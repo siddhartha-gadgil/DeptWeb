@@ -294,6 +294,25 @@ tr.lunch td {
   color: #1f5e3b;
 }
 
+.schedule-speaker {
+  display: block;
+  color: var(--accent-dark);
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+.schedule-title {
+  display: -webkit-box;
+  color: #3a3330;
+  font-size: 0.84rem;
+  font-weight: 500;
+  line-height: 1.35;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 /* Animations */
 @keyframes pulse-green {
   0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5); transform: scale(1); }
@@ -416,6 +435,149 @@ tr.lunch td {
   border-color: var(--accent-gold1);
   box-shadow: 0 0 0 4px rgba(218, 165, 32, 0.15);
   background: #fff;
+}
+
+/* Titles & Abstracts */
+.talks-card {
+  scroll-margin-top: 95px;
+}
+
+.talks-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.talks-toggle {
+  border: 1px solid var(--accent-dark);
+  background: transparent;
+  color: var(--accent-dark);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.talks-toggle:hover,
+.talks-toggle[aria-expanded="true"] {
+  background: var(--accent-dark);
+  color: #fff;
+}
+
+.talks-carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0 6px;
+}
+
+.talks-nav {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid var(--card-border);
+  background: rgba(255,255,255,0.86);
+  color: var(--accent-dark);
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 5px 14px var(--card-shadow);
+}
+
+.talks-nav:hover {
+  border-color: var(--accent-gold1);
+}
+
+.talks-counter {
+  min-width: 70px;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.talks-list {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.talks-card:not(.expanded) .talk-card {
+  display: none;
+}
+
+.talks-card:not(.expanded) .talk-card.active-talk {
+  display: block;
+}
+
+.talks-card.expanded .talks-carousel-controls {
+  display: none;
+}
+
+.talk-card {
+  background: rgba(255,255,255,0.82);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  padding: 22px 24px;
+  box-shadow: 0 8px 22px var(--card-shadow);
+  scroll-margin-top: 95px;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.talk-card:hover,
+.talk-card.active-talk {
+  border-color: var(--accent-gold1);
+  box-shadow: 0 14px 32px rgba(139, 0, 0, 0.11);
+  transform: translateY(-2px);
+}
+
+.talk-speaker {
+  color: var(--accent-dark);
+  font-weight: 800;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.talk-title {
+  color: var(--text-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  line-height: 1.3;
+  margin: 0 0 14px;
+}
+
+.talk-abstract {
+  color: #2e2b29;
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.talk-abstract p,
+.talk-abstract ol {
+  margin: 0 0 12px;
+}
+
+.talk-abstract p:last-child,
+.talk-abstract ol:last-child {
+  margin-bottom: 0;
+}
+
+.speaker-card[data-talk-target],
+#programme td[data-talk-target] {
+  cursor: pointer;
+}
+
+#programme td[data-talk-target] {
+  color: inherit;
+}
+
+#programme td[data-talk-target]:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-gold1);
+  text-underline-offset: 4px;
 }
 
 /* Important Dates List */

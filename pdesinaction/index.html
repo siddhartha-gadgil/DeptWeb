@@ -224,14 +224,17 @@
     <div class="schedule-hint blink"><strong>Note:</strong> The schedule is tentative. So, please DO NOT rely on screenshots. Always visit the page to refer to the schedule.</div>
     <div class="card">
       <span class="label">Tentative Schedule</span>
+      <div class="schedule-hint" style="margin-top: 8px;">
+        Click on a speaker's name to see the talk's title and abstract.
+      </div>
       <div class="table-container">
         <table>
           <thead>
             <tr><th>Time</th><th>June 22 (Day 1)</th><th>June 23 (Day 2)</th><th>June 24 (Day 3)</th></tr>
           </thead>
 <tbody>
-  <tr><td>9:30–10:10 AM</td><td>S. Thangavelu</td><td>Antonio Gaudiello</td><td>Raju K. George</td></tr>
-  <tr><td>10:10–10:50 AM</td><td>Patrizia Donato</td><td>K. Sandeep</td><td>K. Balachandran</td></tr>
+  <tr><td>9:30–10:10 AM</td><td><span class="schedule-speaker">S. Thangavelu</span><span class="schedule-title">Quantum Hermite functions and a Fourier transform for operators</span></td><td><span class="schedule-speaker">Antonio Gaudiello</span><span class="schedule-title">Stokes flow with injection in a thin T-like shaped structure</span></td><td><span class="schedule-speaker">Raju K. George</span><span class="schedule-title">Mathematical Theory of Controllability</span></td></tr>
+  <tr><td>10:10–10:50 AM</td><td><span class="schedule-speaker">Patrizia Donato</span><span class="schedule-title">Homogenization of a Steklov problem in a domain with a thin rough boundary</span></td><td><span class="schedule-speaker">K. Sandeep</span><span class="schedule-title">Nonlinear perturbations of Critical elliptic equations</span></td><td><span class="schedule-speaker">K. Balachandran</span><span class="schedule-title">On the Solvability of Fractional Partial Differential Equations</span></td></tr>
 
   <tr class="break tea">
     <td>10:50–11:30 AM</td>
@@ -240,8 +243,8 @@
     <td>Tea Break</td>
   </tr>
 
-  <tr><td>11:30–12:10 PM</td><td>Sivaguru S. Sritharan</td><td>Mythily Ramaswamy</td><td>P. K. Ratnakumar</td></tr>
-  <tr><td>12:10–12:50 PM</td><td>P.N. Srikanth</td><td>Rajesh Mahadevan</td><td>Venky Krishnan</td></tr>
+  <tr><td>11:30–12:10 PM</td><td><span class="schedule-speaker">Sivaguru S. Sritharan</span><span class="schedule-title">Compressible Navier-Stokes Equations: Rigorous Issues, Control and Stochastic Analysis</span></td><td><span class="schedule-speaker">Mythily Ramaswamy</span><span class="schedule-title">Spectral theory in Control and Inverse problems.</span></td><td><span class="schedule-speaker">P. K. Ratnakumar</span><span class="schedule-title">Young’s inequality for the twisted convolution</span></td></tr>
+  <tr><td>12:10–12:50 PM</td><td><span class="schedule-speaker">P.N. Srikanth</span><span class="schedule-title">On a Class of Semilinear Elliptic Equations: −ε²∆u + u = u^(p) in A, u = 0 on ∂A</span></td><td><span class="schedule-speaker">Rajesh Mahadevan</span><span class="schedule-title">About a few results in asymptotic analysis</span></td><td><span class="schedule-speaker">Venky Krishnan</span><span class="schedule-title">Ray transform of symmetric tensor fields on Riemannian manifolds with conjugate points</span></td></tr>
 
   <tr class="break lunch">
     <td>12:50–2:30 PM</td>
@@ -250,8 +253,8 @@
     <td>Lunch Break</td>
   </tr>
 
-  <tr><td>2:30–3:10 PM</td><td>K. T. Joseph</td><td>T. Muthukumar</td><td>Mallikarjuna Rao</td></tr>
-  <tr><td>3:10–3:50 PM</td><td>M. T. Nair</td><td>S. Sundar</td><td>Harsha Hutridurga</td></tr>
+  <tr><td>2:30–3:10 PM</td><td><span class="schedule-speaker">K. T. Joseph</span><span class="schedule-title">On δ-Waves</span></td><td><span class="schedule-speaker">T. Muthukumar</span><span class="schedule-title">Traces of Some Critical Sobolev Functions</span></td><td><span class="schedule-speaker">Mallikarjuna Rao</span></td></tr>
+  <tr><td>3:10–3:50 PM</td><td><span class="schedule-speaker">M. T. Nair</span><span class="schedule-title">Regularization of Backward Heat Conduction Problem - A time fractional approach</span></td><td><span class="schedule-speaker">S. Sundar</span><span class="schedule-title">High-Resolution Meshfree Method for Continuum Crowd Models with Applications to Evacuations During Flood Inundation and Smoke Propagation</span></td><td><span class="schedule-speaker">Harsha Hutridurga</span><span class="schedule-title">Eigenvalue problems in perforated domains — periodic and random</span></td></tr>
 
   <tr class="break tea">
     <td>3:50–4:30 PM</td>
@@ -260,9 +263,172 @@
     <td>Tea Break</td>
   </tr>
 
-  <tr><td>4:30–5:10 PM</td><td>Hari Varma</td><td>Special Programme</td><td>Tuhin Ghosh</td></tr>
+  <tr><td>4:30–5:10 PM</td><td><span class="schedule-speaker">Hari Varma</span><span class="schedule-title">The Role of PDEs in Medical Optical Sensing and Imaging</span></td><td>Special Programme</td><td><span class="schedule-speaker">Tuhin Ghosh</span><span class="schedule-title">An inverse homogenization problem for the Maxwell equations</span></td></tr>
 </tbody>
         </table>
+      </div>
+    </div>
+    <div class="card talks-card" id="titles-abstracts">
+      <div class="talks-heading">
+        <span class="label">Titles &amp; Abstracts</span>
+        <button type="button" class="talks-toggle" id="talks-toggle" aria-expanded="false">Expand all talks</button>
+      </div>
+      <div class="talks-carousel-controls" aria-label="Talk navigation">
+        <button type="button" class="talks-nav" id="talks-prev" aria-label="Previous talk">‹</button>
+        <span class="talks-counter" id="talks-counter">1 / 19</span>
+        <button type="button" class="talks-nav" id="talks-next" aria-label="Next talk">›</button>
+      </div>
+      <div class="talks-list" id="talks-list">
+        <article class="talk-card" id="talk-sivaguru-sritharan" data-speaker="Sivaguru Sritharan">
+          <div class="talk-speaker">Prof. Sivaguru Sritharan</div>
+          <h3 class="talk-title">Compressible Navier-Stokes Equations: Rigorous Issues, Control and Stochastic Analysis</h3>
+          <div class="talk-abstract">
+            <p>In this talk we will describe the compressible counterpart of Leray-Hopf weak solutions to the Navier-Stokes equations and then will also describe local strong solutions:</p>
+            <ol>
+              <li>The work of P. L. Lions generalizing Leray-Hopy weak solutions to the com-pressible case.</li>
+              <li>The work of V. Solonnikov on local solvability of strong solutions.</li>
+            </ol>
+            <p>We will then discuss stochastic analysis and control of these system of equations.</p>
+          </div>
+        </article>
+        <article class="talk-card" id="talk-p-donato" data-speaker="Patrizia Donato">
+          <div class="talk-speaker">Prof. P. Donato</div>
+          <h3 class="talk-title">Homogenization of a Steklov problem in a domain with a thin rough boundary</h3>
+          <div class="talk-abstract">
+            <p>We present here some homogenization results for a Steklov problem in an oscil-lating domain Q_(ε) ⊂ R^(N) , N ≥ 2, which presents a thin rough oscillating boundary Γ_(ε) whose height goes to zero (see Figure below).</p>
+            <p>Figure 1: The domain Q_(ε) with a rough boundary portion Γ^(ε)</p>
+            <p>More precisely we study the asymptotic behaviour of the eigenvalues and the associated eigenspaces of the following spectral problem:</p>
+            <p>(A^(ε)∇u_(ε)) · n_(ε) + ε^(γ)h^(ε)u_(ε) = λ^(ε)u_(ε) on Γ^(ε),</p>
+            <p>u_(ε) = 0 on Γ₂,</p>
+            <p>that, when h^(ε) ≡ 0, reduces to the Skeklov problem usually studied in literature.</p>
+            <p>(1)</p>
+            <p>Here γ ∈ R , n_(ε) is the unit outward normal to Q_(ε), A is a given elliptic symmetric</p>
+            <p>matrix field, h is a given periodic bounded function, and for any ε &gt; 0, we set</p>
+            <p>ε x ε ′ x′</p>
+            <p>We describe the different limit problems that we obtain, which depend on the values of γ. To this aim, we first study the homogenization of the following problem:</p>
+            <p>A^(ε)∇u_(ε) · n_(ε) + ε^(γ)h^(ε)u_(ε) = σ^(ε) u_(ε) on Γ^(ε),</p>
+            <p>u_(ε) = 0 on Γ₂,</p>
+            <p>which seems interesting by itself.</p>
+            <p>(2)</p>
+            <p>For both problems, we consider the self-similar case where the interface is ob-tained by a homothetic dilatation of a fixed periodic profile, which allows us to pass to the limit in the right-hand side. Let us mention that we also study the usual spec-tral problem where all the heights of oscillations are allowed, ad the limit problems depends both on the size of oscillations and γ.</p>
+            <p>Joint work with Sara Monsurro` and Federica Raimondi, University of Salerno Italy.</p>
+          </div>
+        </article>
+        <article class="talk-card" id="talk-t-muthukumar" data-speaker="T. Muthukumar">
+          <div class="talk-speaker">Prof. T. Muthukumar</div>
+          <h3 class="talk-title">Traces of Some Critical Sobolev Functions</h3>
+          <div class="talk-abstract"><p>Briefly recall and present some notion of traces for some real exponent Sobolev spaces ‘near’ L².</p></div>
+        </article>
+        <article class="talk-card" id="talk-p-n-srikanth" data-speaker="P.N. Srikanth">
+          <div class="talk-speaker">Prof. P. N. Srikanth</div>
+          <h3 class="talk-title">On a Class of Semilinear Elliptic Equations: −ε²∆u + u = u^(p) in A, u = 0 on ∂A</h3>
+          <div class="talk-abstract"><p>We will discuss Break of symmetry, concentration, Orbit concentration etc.</p></div>
+        </article>
+        <article class="talk-card" id="talk-k-t-joseph" data-speaker="K. T. Joseph">
+          <div class="talk-speaker">Prof. K. T. Joseph</div>
+          <h3 class="talk-title">On δ-Waves</h3>
+          <div class="talk-abstract"><p>In this talk, we study initial value problem for a system of PDEs in non-conservative form which is one of the models that describe the evolution of the universe. Global solutions of this system are not smooth and are generally mea-sures. We discuss different weak formulations of solutions and use the adhesion approximation to study them. Many questions remains on the well-posedness the-ory and properties of solutions and they are related to better understanding of the dual of the BV space.</p></div>
+        </article>
+        <article class="talk-card" id="talk-m-t-nair" data-speaker="M. T. Nair">
+          <div class="talk-speaker">Prof. M.T. Nair</div>
+          <h3 class="talk-title">Regularization of Backward Heat Conduction Problem - A time fractional approach</h3>
+          <div class="talk-abstract">
+            <p>It is well known that the “backward heat conduction problem (BHCP)”, namely, the problem of determining the heat profile u(·, t) for 0 &lt; t &lt; τ from the knowledge of the final temperature u(·, τ ), is an ill-posed problem. In order to obtain stable approximations for this problem, many regularization methods are available in the</p>
+            <p>literature. In this talk we shall consider a new regularization based on the time-fractional analogue of BHCP, devised by observing the crucial fact that the α-time-fractional BHCP for each 0 &lt; t &lt; τ and for each 0 &lt; α &lt; 1 is a well posed problem, and the corresponding solution u_(α)(·, t) satisfies []u_(α)(·, t) − u(·, t) [] _(L)2 → 0 as α → 1.</p>
+            <p>In this talk, we shall consider u_(α)(·, t) as the regularized solution when the data</p>
+            <p>g := u(·, τ ) is noisy, namely, that the available data is g˜ such that []g − g˜ [] _(L)2 ≤ δ</p>
+            <p>for some error level, and obtain estimates corresponding to the resulting regularized</p>
+            <p>solution u˜_(α)(·, t) by choosing the regularization parameter α appropriately.</p>
+            <p>The results to be presented in this talk are based on a paper under preparation co-authored by V. Alavani and P. Danumjaya.</p>
+          </div>
+        </article>
+        <article class="talk-card" id="talk-hari-varma" data-speaker="Hari Varma">
+          <div class="talk-speaker">Prof. Hari Varma</div>
+          <h3 class="talk-title">The Role of PDEs in Medical Optical Sensing and Imaging</h3>
+          <div class="talk-abstract"><p>Light propagation in media ranging from transparent optical elements to highly scattering biological tissue is governed by a hierarchy of mathematical models based on differential equations. This talk will provide an overview of light transport across these regimes, beginning with the electromagnetic wave equation and progressing to diffusion-based descriptions of multiple scattering in tissue. Particular empha-sis will be placed on the photon diffusion equation, which underpins near-infrared spectroscopy and related diffuse optical techniques for non-invasive tissue monitor-ing. The formulation of forward and inverse problems associated with these models will be discussed, with applications to the recovery of tissue optical properties and oxygenation. The talk will also introduce diffuse correlation spectroscopy, a related technique that exploits temporal fluctuations of laser speckle patterns to quantify blood flow in deep tissue. Examples will be drawn from biomedical optics applica-tions, including non-invasive monitoring of cerebral blood flow and tissue hemody-namics in human subjects. The aim is to illustrate how differential equations and inverse problem methodologies underpin modern optical approaches for functional tissue imaging.</p></div>
+        </article>
+        <article class="talk-card" id="talk-antonio-gaudiello" data-speaker="Antonio Gaudiello">
+          <div class="talk-speaker">Prof. Antonio Gaudiello</div>
+          <h3 class="talk-title">Stokes flow with injection in a thin T-like shaped structure</h3>
+          <div class="talk-abstract"><p>In my talk I will present a paper written in collaboration with Renata Bunoiu (Universit´e de Lorraine - France) where we consider the steady incompressible flow of a Newtonian fluid injected in a thin two-dimensional T-like shaped structure and also subjected to an external force. We study the asymptotic behavior of such a problem when the small parameter describing the thickness of the branches of the structure vanishes. We derive the limit problem satisfied by the limit velocity and the limit pressure. We obtain a flux coupling condition due to the injection. We prove that the limit pressure is defined and continuous on the T-graph underpinning the initial thin structure. If the external force depends only on the variable along the branches, we explicitly calculate the solution to the limit problem. Moreover, if the external force is zero, we obtain a Kirchhoff type relation for the derivatives of the pressure at the junction of the T-graph.</p></div>
+        </article>
+        <article class="talk-card" id="talk-sandeep-k" data-speaker="K. Sandeep">
+          <div class="talk-speaker">Prof. Sandeep K.</div>
+          <h3 class="talk-title">Nonlinear perturbations of Critical elliptic equations</h3>
+          <div class="talk-abstract"><p>The solvability of critical semilinear elliptic equations with linear perturbations has been a topic of study for many decades. One of the main questions in these problems has been to understand the conditions under which the energy of the problem can be shown to be at a safe noncompact level. In this talk we will mainly discuss similar questions for certain critical equations with nonlinearity of Hardy-Sobolev type.</p></div>
+        </article>
+        <article class="talk-card" id="talk-mythily-ramaswamy" data-speaker="Mythily Ramaswamy">
+          <div class="talk-speaker">Prof. Mythily Ramaswamy</div>
+          <h3 class="talk-title">Spectral theory in Control and Inverse problems.</h3>
+          <div class="talk-abstract"><p>Spectral theoretic tools play a crucial role in control and inverse problems. A few instances of the use of point spectrum and essential spectrum will be indicated in certain PDE systems.</p></div>
+        </article>
+        <article class="talk-card" id="talk-rajesh-mahadevan" data-speaker="Rajesh Mahadevan">
+          <div class="talk-speaker">Prof. Rajesh Mahadevan</div>
+          <h3 class="talk-title">About a few results in asymptotic analysis</h3>
+          <div class="talk-abstract"><p>This talk is a retrospective of some results in the theory of homogenization and asymptotic analysis obtained by the speaker at different points of time with his mentors or with collaborators of Prof. Nandakumaran some of whom were his students. The selection is meant to be a tribute to Prof. Nandakumaran’s influence on the speaker’s journey in research.</p></div>
+        </article>
+        <article class="talk-card" id="talk-raju-k-george" data-speaker="Raju K. George">
+          <div class="talk-speaker">Prof. Raju K. George</div>
+          <h3 class="talk-title">Mathematical Theory of Controllability</h3>
+          <div class="talk-abstract"><p>In this talk, an overview of the mathematical theory of control systems, and in particular, their controllability properties will be discussed. We will begin by find-ing the solution of a control system using transition matrix and then analyze the controllability of linear systems. The analysis is done using tools from functional analysis, operator theory and monotone operators. After establishing the theory for finite dimensional linear systems, we will focus on non-linearly perturbed systems, namely the semi-linear systems. Controllability analysis of semi-linear systems is established using the fixed point theory and monotone operator theory. The dis-cussion on finite dimensional systems will further generalized to infinite dimensional systems, which come from partial differential equations. Here the notion of ap-proximate controllability and exact controllability are different which is not the case when dealing with finite dimensional systems. Exact controllability of thermo-elastic system is also established.</p></div>
+        </article>
+        <article class="talk-card" id="talk-s-sundar" data-speaker="S. Sundar">
+          <div class="talk-speaker">Prof. S. Sundar</div>
+          <h3 class="talk-title">High-Resolution Meshfree Method for Continuum Crowd Models with Applications to Evacuations During Flood Inundation and Smoke Propagation</h3>
+          <div class="talk-abstract">
+            <p>A profound understanding of the human motion dynamics in a large built environ-ment during mass gatherings is essential in comprehending emergency evacuation interventions and safety- related protocols. Recent advancements in empirical ob-servations of human psychological responses have revealed that the governing rules of human behavioral aspects can not only be predicted with adequate deterministic precision but also forged into mathematical formulations. These modeling studies enable crisis managers with reliable simulation tools to gain insights into critical facets of crowd disasters and enhance their decision-making abilities to facilitate safe egress in emergency situations.</p>
+            <p>However, an accurate description of intelligent living systems such as humans requires a rigorous mathematical modeling theory, which not only exhibits qualita-tively consistent results but also replicates some of the inherent key features, such as self-organization, decision- making capability, and nonlinear interactions. The macroscopic scale of representation in this context is often invoked to comprehend large-scale collective human pattern formation in vast built environments, owing to its computational viability. The associated governing equations are typically constructed in a system of hyperbolic conservation law form, and the successful implementation of such models in real-world complex geometric configurations ne-cessitates precise computational algorithms that are numerically stable, reasonably efficient, and robust. This work puts forward a high-resolution, shock-capturing</p>
+            <p>meshfree particle method in an Eulerian framework for the numerical approxima-tion of several widely adopted macroscopic pedestrian flow models. Then to study the collective behavior of crowds in a flooded evacuation scenario, we combine a macroscopic description of a crowd evacuation model with a hydrodynamic model of flood inundation described by a two-dimensional depth-averaged Shallow Water Equation (SWE), considering two-way dynamic coupling. Finally, a multi-group continuum crowd evacuation model is presented to simulate the emergent behavior of crowds from a smoke-impacted space.</p>
+            <p>Keywords Macroscopic pedestrian model; Crowd evacuation; Collective behav-ior; Traffic instability; Stop-and-go waves; Meshfree method; Geometric conserva-tion; Flood evacuation; Coupled flood-crowd model; Multi-group continuum model; Smoke propagation; Behavioral dynamics in smoke</p>
+          </div>
+        </article>
+        <article class="talk-card" id="talk-s-thangavelu" data-speaker="S. Thangavelu">
+          <div class="talk-speaker">Prof. S. Thangavelu</div>
+          <h3 class="talk-title">Quantum Hermite functions and a Fourier transform for operators</h3>
+          <div class="talk-abstract"><p>In this talk we describe operator analogues of Hermite functions forming an orthonormal basis for the Hilbert space of Hilbert-Schmidt operators on L²(R^(n)). We also define a Fourier transform for such operators and state some important properties and results in this context.</p></div>
+        </article>
+        <article class="talk-card" id="talk-k-balachandran" data-speaker="K. Balachandran">
+          <div class="talk-speaker">Prof. K. Balachandran</div>
+          <h3 class="talk-title">On the Solvability of Fractional Partial Differential Equations</h3>
+          <div class="talk-abstract">
+            <p>Many physical and biological problems can be modeled by partial differential equations, integral equations, or integro-differential equations. Recently, many mod-els have been reformulated and expressed in terms of fractional differential equations so that their physical meaning can be incorporated into the mathematical models more realistically. In fact, fractional calculus attracts many physicists, engineers, bi-ologists, and mathematicians because of its interdisciplinary applications. Therefore, it becomes important to study the existence and qualitative behavior of solutions to such equations in infinite-dimensional spaces. An attempt has thus been made to extend the existence results for partial differential equations to fractional partial differential and integro-differential equations in abstract spaces.</p>
+            <p>The main aim of this talk is to discuss the existence results and solution represen-tations of fractional partial differential and integro-differential equations, including abstract fractional differential equations. It is shown that resolvent operators are more useful than semigroups of operators in dealing with abstract fractional differ-ential equations.</p>
+          </div>
+        </article>
+        <article class="talk-card" id="talk-ratnakumar-pk" data-speaker="P. K. Ratnakumar">
+          <div class="talk-speaker">Prof. Ratnakumar P.K.</div>
+          <h3 class="talk-title">Young’s inequality for the twisted convolution</h3>
+          <div class="talk-abstract">
+            <p>The classical generalised Young’s inequality says that the convolution inequality</p>
+            <p>[][][][][][]1 1 1</p>
+            <p>f ∗g _(L)r (Rn) ≤ f _(L)p(Rn) g _(L)q (Rn) holds for 1 ≤ p, q, r ≤ ∞ if and only if p + q = 1+ r .</p>
+            <p>We explore similar inequality for the twisted convolution on C^(n) given by</p>
+            <p>λ</p>
+            <p>f ×_(λ) g(z) = f (z − w) g(w) e^(i) ^(im(z·w¯)) dw, 0 ̸= λ ∈ R</p>
+            <p>Cn</p>
+            <p>which has better mapping properties for λ ̸= 0.</p>
+            <p>We prove a geometric characterisation of the triples (p, q, r), 1 ≤ p, q, r ≤ ∞ for which the bi-linear λ-twisted convolution map B_(λ) : (f, g) → f ×_(λ) g is bounded from L^(p)(C^(n))× L^(q)(C^(n)) → L^(r)(C^(n)), leading to an analogue of Young’s inequality for twisted convolution.</p>
+          </div>
+        </article>
+        <article class="talk-card" id="talk-venky-krishnan" data-speaker="Venky Krishnan">
+          <div class="talk-speaker">Prof. Venky Krishnan</div>
+          <h3 class="talk-title">Ray transform of symmetric tensor fields on Riemannian manifolds with conjugate points</h3>
+          <div class="talk-abstract"><p>In this talk, we consider microlocal properties of the geodesic ray transform of symmetric m-tensor fields on Riemannian manifolds with boundary allowing the possibility of conjugate points. In the presence of conjugate points, under the as-sumption of no singular conjugate pairs, it is known from earlier works that the normal operator can be decomposed into a sum of a pseudodifferential operator and a finite number of Fourier integral operators. In 2-dimensions, we explicitly compute the principal symbols of these operators. We construct a parametrix recovering the solenoidal component of the tensor field modulo FIOs, and prove a cancellation of singularities result.</p></div>
+        </article>
+        <article class="talk-card" id="talk-harsha-hutridurga" data-speaker="Harsha Hutridurga">
+          <div class="talk-speaker">Prof. Harsha Hutridurga</div>
+          <h3 class="talk-title">Eigenvalue problems in perforated domains — periodic and random</h3>
+          <div class="talk-abstract">
+            <p>This talk focuses on eigenvalue problems — for the Laplacian, Elasticity, Bi-Laplacian, and Stokes operators — posed in perforated domains. We begin by revisiting classi-cal results for periodically perforated domains, drawing on the works of Vanninathan and Nandakumaran, and adopt the perspective of homogenization theory to derive asymptotic expansions for the eigenvalues and eigenfunctions in terms of a small parameter representing the perforation size.</p>
+            <p>We then turn to the setting of randomly perforated domains, where the hole radii and positions are random. In this context, we highlight the role of the 2-capacity of sets in understanding the asymptotic behaviour of eigenvalues when the perforations are critically scaled.</p>
+            <p>This talk is based on joint works with Chetan Pahlajani (IIT Gandhinagar), Manas Rachh (IIT Bombay), and Kshitij Sinha (IIT Bombay).</p>
+          </div>
+        </article>
+        <article class="talk-card" id="talk-tuhin-ghosh" data-speaker="Tuhin Ghosh">
+          <div class="talk-speaker">Prof. Tuhin Ghosh</div>
+          <h3 class="talk-title">An inverse homogenization problem for the Maxwell equations</h3>
+          <div class="talk-abstract"><p>Abstract: The method of transformation optics has enabled the design of elec-tromagnetic parameters that cloak a region from external observation. However, these constructions are singular and anisotropic, making practical implementation difficult. Thus, regular approximations to these cloaks have been constructed that cloak a given region to any desired degree of accuracy. In this talk, we discuss how to construct isotropic approximations to these regularized cloaks using homogenization techniques.</p></div>
+        </article>
       </div>
     </div>
   </section>
