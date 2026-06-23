@@ -617,12 +617,7 @@
     if (btn.dataset.state && btn.dataset.state !== 'checking') return;
     var href = btn.getAttribute('href') || '#';
     if (!href || href === '#') { markCertUnavailable(btn); return; }
-    fetch(href, { method:'HEAD', cache:'no-store' })
-      .then(function(res){
-        if (res && res.ok) { markCertAvailable(btn, href); }
-        else { markCertUnavailable(btn); }
-      })
-      .catch(function(){ markCertUnavailable(btn); });
+    markCertAvailable(btn, href);
   }
 
   function initCertButtons(scope){
