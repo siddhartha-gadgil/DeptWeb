@@ -790,6 +790,16 @@
     }
   });
 
+  // Pause scrolling on hover
+  participantsContainer.addEventListener('mouseenter', function() {
+    stopAnimation();
+  });
+  participantsContainer.addEventListener('mouseleave', function() {
+    if (!showingFull) {
+      startAnimation();
+    }
+  });
+
   // Initial render
   participantsData.forEach(function(p){
     fullList.appendChild(buildFullListItem(p));

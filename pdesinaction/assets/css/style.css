@@ -802,8 +802,17 @@ footer {
 }
 
 .participant-cert-btn .label {
+  color: inherit;
   font-size: 0.8rem;
+  font-weight: inherit;
+  letter-spacing: normal;
+  text-transform: none;
   margin: 0;
+  display: inline;
+}
+
+.participant-cert-btn .label::after {
+  content: none;
 }
 
 /* Full View (list) */
