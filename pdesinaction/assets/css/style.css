@@ -722,6 +722,8 @@ footer {
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--card-border);
+  height: 400px;
+  max-height: 400px;
 }
 
 .participants-belt-track {
@@ -808,7 +810,8 @@ footer {
 .participants-full-view {
   display: none;
   overflow-y: auto;
-  max-height: 364px;
+  height: 400px;
+  max-height: 400px;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--card-border);
