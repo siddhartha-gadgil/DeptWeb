@@ -311,6 +311,7 @@ tr.lunch td {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 
 /* Animations */
@@ -606,4 +607,304 @@ footer {
 @media (max-width: 768px) {
   .hero h1 { font-size: 2.5rem; }
   .grid-2 { grid-template-columns: 1fr; }
+}
+
+/* Certificate Desk Participants Styles */
+.participants-wrapper {
+  position: relative;
+}
+
+.participants-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.participants-topline {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.participants-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(139, 0, 0, 0.1);
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-size: 0.9rem;
+  align-self: flex-start;
+}
+
+.participants-badge .icon {
+  font-size: 1.1rem;
+}
+
+.participants-summary {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.participants-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.participants-title {
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.participants-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.participants-search {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+  min-width: 200px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.participants-search:focus {
+  border-color: var(--accent-gold1);
+  box-shadow: 0 0 0 3px rgba(218, 165, 32, 0.15);
+  background: #fff;
+}
+
+.participants-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1px solid var(--accent-dark);
+  background: transparent;
+  color: var(--accent-dark);
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.participants-toggle:hover {
+  background: var(--accent-dark);
+  color: #fff;
+}
+
+.participants-toggle-icon {
+  font-size: 0.8rem;
+  transition: transform 0.3s;
+}
+
+/* Belt View (scrolling cards) */
+.participants-belt-view {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--card-border);
+}
+
+.participants-belt-track {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  will-change: transform;
+}
+
+.participant-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px var(--card-shadow);
+  transition: all 0.3s;
+}
+
+.participant-card:hover {
+  border-color: var(--accent-gold1);
+  box-shadow: 0 6px 16px var(--card-shadow);
+  transform: translateX(4px);
+}
+
+.participant-name {
+  font-weight: 700;
+  color: var(--accent-dark);
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.participant-meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  flex: 2;
+}
+
+.participant-actions {
+  flex-shrink: 0;
+}
+
+.participant-cert-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: var(--accent-dark);
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.participant-cert-btn:hover:not(.disabled) {
+  background: var(--accent-gold1);
+  transform: translateY(-2px);
+}
+
+.participant-cert-btn.disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.participant-cert-btn .icon {
+  font-size: 0.9rem;
+}
+
+.participant-cert-btn .label {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+/* Full View (list) */
+.participants-full-view {
+  display: none;
+  overflow-y: auto;
+  max-height: 364px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--card-border);
+  padding: 12px;
+}
+
+.participants-full-view::-webkit-scrollbar {
+  width: 8px;
+}
+
+.participants-full-view::-webkit-scrollbar-thumb {
+  background: var(--accent-dark);
+  border-radius: 4px;
+}
+
+.participants-full-view::-webkit-scrollbar-track {
+  background: rgba(139, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#participantsFullList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.participant-full-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.participant-full-item:hover {
+  border-color: var(--accent-gold1);
+  background: #fff;
+}
+
+.participant-full-text {
+  flex: 1;
+}
+
+.participant-full-text strong {
+  display: block;
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.participant-full-meta {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.participant-cert-btn.is-compact {
+  padding: 5px 10px;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .participants-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .participants-controls {
+    flex-direction: column;
+  }
+  
+  .participants-search {
+    width: 100%;
+  }
+  
+  .participant-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .participant-meta {
+    flex: 1;
+  }
+  
+  .participant-actions {
+    width: 100%;
+  }
+  
+  .participant-cert-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }

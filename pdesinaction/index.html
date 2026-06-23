@@ -22,7 +22,10 @@
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#speakers">Speakers</a>
-      <a href="#participants">Participants</a>
+      <a href="#participants" style="position: relative;">
+        Certificates
+        <span style="position: absolute; top: -8px; right: -12px; background: #ff4444; color: white; font-size: 0.65rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; text-transform: uppercase;">NEW</span>
+      </a>
       <a href="#programme">Programme</a>
       <a href="#information">Information</a>
       <a href="#application">Application</a>
@@ -169,52 +172,31 @@
   <section id="participants">
     <div class="hero"><h2>Participants</h2></div>
     <div class="card">
-      <input type="text" id="participant-search" class="search-box" placeholder="Search participants by name or institution...">
-      <ul id="participant-list">
-        <li>Abu Sufian, IISER Tirupati</li>
-        <li>Adi Adimurthi, IIT Kanpur</li>
-        <li>Aditi Chattaraj, IIT Hyderabad</li>
-        <li>Ajay Kumar, South Asian University</li>
-        <li>Akhilesh Verma, IIT Roorkee</li>
-        <li>Akhlaq Husain, Jamia Millia Islamia</li>
-        <li>Anoop T. V., IIT Madras</li>
-        <li>Anoop V. P., Kannur University</li>
-        <li>Balaje Kalyanaraman, Umeå University, Sweden</li>
-        <li>Barani Balan Natesan, Central Univ. of Tamil Nadu</li>
-        <li>Bikram Dholey, Jadavpur University</li>
-        <li>Darshne S M, Periyar University</li>
-        <li>Dharmendra Kumar, University of Hyderabad</li>
-        <li>G D Veerappa Gowda, Mahindra University</li>
-        <li>Gagan Sahoo, SR University</li>
-        <li>Garvita, IIT Madras</li>
-        <li>German Philo H, IIT Madras</li>
-        <li>Gnanavel Soundararajan, Central Univ. of Karnataka</li>
-        <li>Hari Shankar Mahato, IIT Kharagpur</li>
-        <li>Kalpana Rawat, IIST Thiruvananthapuram</li>
-        <li>Keerthivasan K, Sri Vasavi College</li>
-        <li>Neeraj Rawat, IIT Bombay</li>
-        <li>P. Karthikeyan, Sri Vasavi College</li>
-        <li>M Vanninathan, TIFR CAM</li>
-        <li>Muslim Malik, IIT Mandi</li>
-        <li>Pradeep S, Periyar University</li>
-        <li>Pranab Jyoti Hazarika, Gauhati University</li>
-        <li>Ram Gopal Jaiswal, IIT Bombay</li>
-        <li>Renjith T, Govt College Kasaragod</li>
-        <li>Ritesh Ranjan Patel, IIT Hyderabad</li>
-        <li>Ritu Raj, IIT Ropar</li>
-        <li>Riya K Nair, BITS Pilani Hyderabad</li>
-        <li>Rohit Khandelwal, South Asian University</li>
-        <li>S. Karthikeyan, Periyar University</li>
-        <li>S. Kesavan, IMSc Chennai</li>
-        <li>Sakthivel K. IIST Thiruvananthapuram</li>
-        <li>Sanchita Satpathy, IIT Jodhpur</li>
-        <li>Sandip Maji, Shanghai University</li>
-        <li>Sankar K, SRM Institute</li>
-        <li>Sayana K Jacob, SRM University Amaravati</li>
-        <li>Shallu, LNM Institute</li>
-        <li>Somnath Pradhan, IISER Bhopal</li>
-        <li>V Sadhasivam, Thiruvalluvar Govt Arts College</li>
-      </ul>
+      <div class="participants-wrapper">
+        <div class="participants-container" id="participants">
+          <div class="participants-topline">
+            <div class="participants-badge"><span class="icon">🎓</span><span>Certificate desk</span></div>
+            <p class="participants-summary">Search for your Name to download an officially signed participation certificate.</p>
+            <p class="participants-summary" style="font-size: 0.85rem; color: #006400; margin-top: 8px; animation: blink-green 1.5s infinite; text-decoration: underline; text-decoration-color: var(--accent-dark); text-decoration-thickness: 2px; text-underline-offset: 2px;">In case of discrepancy, contact <a href="https://math.iisc.ac.in/~nitishs/" target="_blank" style="color: #0066ff; text-decoration: underline;">Nitish ↗</a> : snkkgp@gmail.com</p>
+          </div>
+          <div class="participants-header">
+            <div class="participants-title">Participants</div>
+            <div class="participants-controls">
+              <input type="text" class="participants-search" id="participantsSearch" placeholder="Search participants...">
+              <button type="button" class="participants-toggle" id="participantsToggle">
+                <span id="participantsToggleText">Show all</span>
+                <span class="participants-toggle-icon" id="participantsToggleIcon">&#9660;</span>
+              </button>
+            </div>
+          </div>
+          <div class="participants-belt-view" id="participantsBeltView" aria-label="Participants conveyor list">
+            <div class="participants-belt-track" id="participantsBeltTrack"></div>
+          </div>
+          <div class="participants-full-view" id="participantsFullView" aria-label="All participants full list">
+            <ol id="participantsFullList" role="list"></ol>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -532,5 +514,353 @@
 
 <script src="assets/js/main.js"></script>
 <script src="assets/js/simulations.js"></script>
+<script>
+(function(){
+  var participantsData = [
+    { name: "Gnanavel Soundararajan", meta: "Central University of Karnataka" },
+    { name: "Barani Balan Natesan", meta: "Central University of Tami Nadu" },
+    { name: "Renjith T", meta: "Govt College Kasaragod" },
+    { name: "Mathiyalagan Kalidass", meta: "Bharathiar University" },
+    { name: "Abu Sufian", meta: "IISER Tirupati" },
+    { name: "Akhlaq Husain", meta: "Jamia Millia Islamia New Delhi" },
+    { name: "S. Karthikeyan", meta: "Periyar University, Salem, Tamil Nadu" },
+    { name: "Gagan Sahoo", meta: "SR University" },
+    { name: "Sankar K", meta: "SRMST KTR campus" },
+    { name: "Dharmendra Kumar", meta: "UOH, Hyderabad" },
+    { name: "Sakthivel K.", meta: "IIST TVM" },
+    { name: "Rohit Khandelwal", meta: "South Asian University" },
+    { name: "Dr V Sadhasivam", meta: "Thiruvalluvar Govt Arts College, Rasipuram" },
+    { name: "P. Karthikeyan", meta: "Sri Vasavi College, Erode." },
+    { name: "Chakravarthula S K Raju", meta: "SR University" },
+    { name: "B. Sundaravadivoo", meta: "Central University of Tamil Nadu" },
+    { name: "Nishad Bapatdhar", meta: "Osaka University" },
+    { name: "Muthuselvan. K", meta: "Amrita Vishwa Vidyapeetham" },
+    { name: "Sanchita Satpathy", meta: "IIT Jodhpur" },
+    { name: "Garvita", meta: "IIT Madras" },
+    { name: "Darshne S M", meta: "Periyar University" },
+    { name: "German Philo H", meta: "IIT Madras" },
+    { name: "Riya K Nair", meta: "BITS, Hyderabad campus" },
+    { name: "Neeraj Rawat", meta: "IIT Bombay" },
+    { name: "RAM GOPAL JAISWAL", meta: "IIT BOMBAY" },
+    { name: "Sandip Maji", meta: "Shanghai University" },
+    { name: "Balaje Kalyanaraman", meta: "Umeå University, Sweden (Previously)" },
+    { name: "Keerthivasan K", meta: "Sri Vasavi College, Erode." },
+    { name: "Ritesh Ranjan Patel", meta: "IIT Hyderabad" },
+    { name: "Bikram Dholey", meta: "Jadavpur University" },
+    { name: "Pranab Jyoti Hazarika", meta: "Gauhati University, Assam India" },
+    { name: "Pradeep S", meta: "Periyar University" },
+    { name: "Akhilesh Verma", meta: "IIT Roorkee" },
+    { name: "Somnath Pradhan", meta: "IISER Bhopal" },
+    { name: "Dr. Ruma Rani Maity", meta: "IISc Bangalore" },
+    { name: "Dr. Vaibhav Kumar Jena", meta: "IISc Bangalore" },
+    { name: "Dr. Aniruddha Seal", meta: "IISc Bangalore" },
+    { name: "Dr. Sudheer Mishra", meta: "IISc Bangalore" },
+    { name: "Sourav Ghosh", meta: "IISc Bangalore" },
+    { name: "Shallu", meta: "LNMIIT, JAIPUR" },
+    { name: "Aditi Chattaraj", meta: "IIT Hyderabad" },
+    { name: "Kalpana Rawat", meta: "IIST, Thiruvananthapuram" }
+  ];
+
+  function getLastName(fullName) {
+    if (!fullName) return '';
+    var parts = fullName.trim().split(/\s+/);
+    return parts[parts.length - 1];
+  }
+
+  // Sort participants alphabetically by last name
+  participantsData.sort(function(a, b) {
+    var lastNameA = getLastName(a.name).toLowerCase();
+    var lastNameB = getLastName(b.name).toLowerCase();
+    return lastNameA.localeCompare(lastNameB);
+  });
+
+  var beltTrack = document.getElementById('participantsBeltTrack');
+  var beltView = document.getElementById('participantsBeltView');
+  var fullView = document.getElementById('participantsFullView');
+  var fullList = document.getElementById('participantsFullList');
+  var toggleBtn = document.getElementById('participantsToggle');
+  var toggleText = document.getElementById('participantsToggleText');
+  var toggleIcon = document.getElementById('participantsToggleIcon');
+  var searchInput = document.getElementById('participantsSearch');
+  var participantsContainer = document.querySelector('.participants-container');
+
+  if(!beltTrack || !fullList || !toggleBtn || !searchInput) return;
+
+  // Search/filter
+  function buildCertLink(name) {
+    if (!name) return '#';
+    var sanitized = name.replace(/\./g, '');
+    sanitized = sanitized.replace(/[^A-Za-z0-9 ]+/g, '');
+    sanitized = sanitized.trim().replace(/\s+/g, '_');
+    if (!sanitized) return '#';
+    return 'certificatepdfs/' + sanitized + '.pdf';
+  }
+
+  function markCertAvailable(btn, href){
+    btn.classList.remove('disabled');
+    btn.href = href;
+    btn.dataset.state = 'available';
+    var label = btn.querySelector('.label');
+    if (label) label.textContent = 'Download certificate';
+  }
+
+  function markCertUnavailable(btn){
+    btn.classList.add('disabled');
+    btn.href = '#';
+    btn.dataset.state = 'unavailable';
+    var label = btn.querySelector('.label');
+    if (label) label.textContent = 'Certificate not found';
+  }
+
+  function checkCertPDF(btn){
+    if (!btn) return;
+    if (btn.dataset.state && btn.dataset.state !== 'checking') return;
+    var href = btn.getAttribute('href') || '#';
+    if (!href || href === '#') { markCertUnavailable(btn); return; }
+    fetch(href, { method:'HEAD', cache:'no-store' })
+      .then(function(res){
+        if (res && res.ok) { markCertAvailable(btn, href); }
+        else { markCertUnavailable(btn); }
+      })
+      .catch(function(){ markCertUnavailable(btn); });
+  }
+
+  function initCertButtons(scope){
+    var root = scope || document;
+    var buttons = root.querySelectorAll('.participant-cert-btn[data-participant]');
+    buttons.forEach(function(b){
+      if (!b.dataset.state) b.dataset.state = 'checking';
+      checkCertPDF(b);
+    });
+  }
+
+  function buildCard(participant) {
+    var card = document.createElement('div');
+    card.className = 'participant-card';
+
+    var nameDiv = document.createElement('div');
+    nameDiv.className = 'participant-name';
+    nameDiv.textContent = participant.name;
+
+    var metaDiv = document.createElement('div');
+    metaDiv.className = 'participant-meta';
+    metaDiv.innerHTML = participant.meta || '';
+
+    var actionsDiv = document.createElement('div');
+    actionsDiv.className = 'participant-actions';
+
+    var btn = document.createElement('a');
+    btn.className = 'participant-cert-btn';
+    btn.href = buildCertLink(participant.name);
+    btn.target = '_blank';
+    btn.rel = 'noopener';
+    btn.setAttribute('data-participant', participant.name);
+    btn.innerHTML = '<span class="icon">⬇</span><span class="label">Download certificate</span>';
+    btn.dataset.state = 'checking';
+
+    actionsDiv.appendChild(btn);
+
+    card.appendChild(nameDiv);
+    card.appendChild(metaDiv);
+    card.appendChild(actionsDiv);
+
+    return card;
+  }
+
+  function buildFullListItem(participant) {
+    var li = document.createElement('li');
+    li.className = 'participant-full-item';
+
+    var textWrap = document.createElement('div');
+    textWrap.className = 'participant-full-text';
+
+    var nameEl = document.createElement('strong');
+    nameEl.textContent = participant.name;
+
+    var metaEl = document.createElement('div');
+    metaEl.className = 'participant-full-meta';
+    metaEl.innerHTML = participant.meta || '';
+
+    textWrap.appendChild(nameEl);
+    textWrap.appendChild(metaEl);
+
+    var btn = document.createElement('a');
+    btn.className = 'participant-cert-btn is-compact';
+    btn.href = buildCertLink(participant.name);
+    btn.target = '_blank';
+    btn.rel = 'noopener';
+    btn.setAttribute('data-participant', participant.name);
+    btn.innerHTML = '<span class="icon">⬇</span><span class="label">Certificate</span>';
+    btn.dataset.state = 'checking';
+
+    li.appendChild(textWrap);
+    li.appendChild(btn);
+
+    return li;
+  }
+
+  // Dynamically size the belt/full views and measure card heights
+  function setDynamicHeights(){
+    if (!beltView || !fullView) return;
+    var vw = window.innerWidth || 1200;
+    var vh = window.innerHeight || 800;
+    // Use responsive max-height caps to avoid overlap
+    var beltH = Math.min(358, Math.floor(vh * 0.4));
+    var fullH = Math.min(364, Math.floor(vh * 0.45));
+    beltView.style.height = beltH + 'px';
+    fullView.style.maxHeight = fullH + 'px';
+  }
+
+  function measureCardHeight(){
+    var first = beltTrack.querySelector('.participant-card');
+    if (first) {
+      var rect = first.getBoundingClientRect();
+      cardHeight = Math.ceil(rect.height) + 10; // include gap
+      totalHeight = participantsData.length * cardHeight;
+    }
+  }
+
+  function filterParticipants(searchTerm) {
+    var filteredData = participantsData.filter(function(p) {
+      var searchText = (p.name + " " + p.meta).toLowerCase();
+      return searchText.includes(searchTerm.toLowerCase());
+    });
+
+    
+    // Keep the filtered results sorted too
+    filteredData.sort(function(a, b) {
+      var lastNameA = getLastName(a.name).toLowerCase();
+      var lastNameB = getLastName(b.name).toLowerCase();
+      return lastNameA.localeCompare(lastNameB);
+    });
+    
+    // Update the full list
+    fullList.innerHTML = '';
+    filteredData.forEach(function(p){
+      fullList.appendChild(buildFullListItem(p));
+    });
+
+    // Update the rolling (belt) view
+    beltTrack.innerHTML = '';
+    filteredData.forEach(function(p){
+      beltTrack.appendChild(buildCard(p));
+    });
+
+    // Duplicate for a seamless loop (only if we have results)
+    if(filteredData.length > 0) {
+      beltTrack.innerHTML += beltTrack.innerHTML;
+    }
+    
+    // Update scroll speed based on how many cards are showing
+    measureCardHeight();
+    initCertButtons(beltTrack);
+    initCertButtons(fullView);
+    updateScrollSpeed();
+    
+    return filteredData;
+  }
+
+  // Search input listener
+  searchInput.addEventListener('input', function(e) {
+    var searchTerm = e.target.value.trim();
+    filterParticipants(searchTerm);
+    if(searchTerm){
+      showFullView();
+    }
+  });
+
+  // Toggle between belt and full view
+  var showingFull = false;
+  function showFullView(){
+    showingFull = true;
+    beltView.style.display = 'none';
+    fullView.style.display = 'block';
+    toggleText.textContent = 'Show belt';
+    toggleIcon.innerHTML = '&#9650;';
+    stopAnimation();
+  }
+  function showBeltView(){
+    showingFull = false;
+    beltView.style.display = 'block';
+    fullView.style.display = 'none';
+    toggleText.textContent = 'Show all';
+    toggleIcon.innerHTML = '&#9660;';
+    startAnimation();
+  }
+  toggleBtn.addEventListener('click', function(){
+    if(showingFull){
+      showBeltView();
+    } else {
+      showFullView();
+    }
+  });
+
+  // Initial render
+  participantsData.forEach(function(p){
+    fullList.appendChild(buildFullListItem(p));
+  });
+
+  // Render all cards for the continuous roll
+  participantsData.forEach(function(p){
+    beltTrack.appendChild(buildCard(p));
+  });
+
+  // Duplicate for seamless loop
+  beltTrack.innerHTML += beltTrack.innerHTML;
+
+  // Continuous scroll using transform
+  var scrollPos = 0;
+  var cardHeight = 96; // approximate card height including gap after redesign
+  var totalHeight = participantsData.length * cardHeight;
+  var scrollSpeed = 1;
+  var animationFrameId = null;
+  function updateScrollSpeed(){
+    if(!beltView) return;
+    var visibleCount = Math.ceil(beltView.clientHeight / cardHeight);
+    if(visibleCount < 5){
+      scrollSpeed = 0.5;
+    } else if(visibleCount < 10){
+      scrollSpeed = 1;
+    } else {
+      scrollSpeed = 2;
+    }
+  }
+  function animateBelt(){
+    if(!beltView || beltView.style.display === 'none') return;
+    scrollPos += scrollSpeed;
+    if(scrollPos >= totalHeight){
+      scrollPos = 0;
+    }
+    beltTrack.style.transform = 'translateY(-' + scrollPos + 'px)';
+    animationFrameId = requestAnimationFrame(animateBelt);
+  }
+  function stopAnimation(){
+    if(animationFrameId !== null){
+      cancelAnimationFrame(animationFrameId);
+      animationFrameId = null;
+    }
+  }
+  function startAnimation(){
+    stopAnimation();
+    animateBelt();
+  }
+
+  // Initialize
+  setDynamicHeights();
+  measureCardHeight();
+  initCertButtons(beltTrack);
+  initCertButtons(fullView);
+  showBeltView();
+  startAnimation();
+
+  // Recalculate on resize
+  window.addEventListener('resize', function(){
+    setDynamicHeights();
+    measureCardHeight();
+    updateScrollSpeed();
+  });
+
+})();
+</script>
 </body>
 </html>
