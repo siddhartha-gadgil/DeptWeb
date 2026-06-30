@@ -3,7 +3,7 @@ speaker: Projesh Nath Choudhury (IIT Gandhinagar)
 title: "Distance matrices of graphs and stable polynomials"
 date: 6 Jul, 2026
 time: 11:30 am
-venue:  LH-1, Mathematics Department
+venue:  LH-5, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
 ---
