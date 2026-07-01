@@ -142,6 +142,15 @@
   office: N24
   image: true
   
+- name: Animesh Sarkar
+  webpage: https://4nimesh.github.io/
+  phd: Indian Institute of Technology (Banaras Hindu University) Varanasi
+  user-id: sanimesh
+  position: NBHM Postdoctoral Fellow
+  image: true
+  research-area: Number Theory
+  office: N13
+  
 - name: Sudheer Mishra
   webpage: https://scholar.google.com/citations?user=tSdY5E0AAAAJ&hl=en
   phd: Indian Institute of Space Science and Technology, Thiruvananthapuram
@@ -150,3 +159,12 @@
   image: true
   research-area: Numerical Analysis for Partial Differential Equations
   office: L-16
+  
+- name: Mallika Roy
+  webpage: https://sites.google.com/view/mallika-roy/home
+  phd: Universitat Politècnica de Catalunya (UPC), Spain.
+  user-id: mallikaroy1
+  position: NBHM Postdoctoral Fellow
+  image: true
+  research-area: Geometric and Combinatorial Group Theory
+  office: L28
