@@ -33,10 +33,10 @@ The present members and chairs are as follows:
 
 ### Wellness committee
 
-* [Radhika Ganapathy](https://iisc.ac.in/women-scientists-in-iisc-dr-radhika-ganapathy/)
-* Bharathwaj Palvannan
+* [Bharathwaj Palvannan](https://math.iisc.ac.in/~bharathwaj/)
+* [Purvi Gupta](https://math.iisc.ac.in/~purvigupta/)
 * Karambir Das
-* Sudeshna Bhattacharjee
+* Ritabrata Das
 
 ---
 
