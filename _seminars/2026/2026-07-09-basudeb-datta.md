@@ -2,7 +2,7 @@
 speaker: Basudeb Datta (TCG CREST, Kolkata)
 title: "Crystallizations of generalized lens spaces"
 date: 9 Jul, 2026
-time: 11:30 am
+time: 11 am
 venue:  LH-5, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
