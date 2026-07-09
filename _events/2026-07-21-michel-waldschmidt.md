@@ -1,8 +1,8 @@
 ---
-title: Lectures by Michel Waldschmidt (Institut de mathématiques de Jussieu – Paris Rive Gauche), from Tuesday, July 21, 2026
+title: Lectures by Michel Waldschmidt (IMJ-PRG, France) from Tuesday, July 21, 2026
 ---
 
-Professor Michel Waldschmidt of IMJ-PRG, France would be visiting
+Professor Michel Waldschmidt (Institut de mathématiques de Jussieu – Paris Rive Gauche) would be visiting
 Department of Mathematics, IISc during the period Jul 21 - 26, 2026.
 
 
