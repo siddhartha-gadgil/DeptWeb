@@ -1,7 +1,7 @@
 ---
 speaker: Sumit Kumar (IIT Bombay)
 title: "Subconvexity for Rankin-Selberg L-functions"
-date: 13 July, 2026
+date: 17 July, 2026
 time: 11 am
 series: "Number Theory Seminar"
 venue: LH-1
