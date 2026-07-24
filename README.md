@@ -388,7 +388,7 @@ date: 2026-05-19
 ```
 
 - The title links to the generated post page.
-- The listing shows an excerpt (`post.excerpt`) from the post body.
+- The listing shows an excerpt (`post.excerpt`) from the post body. By default this is only the **first paragraph** (Jekyll splits on the first blank line). If a post needs its full, multi-paragraph body to appear in the listing, add `excerpt_separator: "<!--more-->"` to the top-matter — any marker that does not occur in the body works, and it forces the whole body to be treated as the excerpt.
 
 #### External-link announcement (`redirect`)
 
@@ -421,11 +421,12 @@ poster_alt: "Poster: ..."
 - Clicking the title (and the thumbnail) follows the same link target as usual: `redirect` if present, otherwise the post page.
 - The list markup is centralized in `_includes/news_item.html` so the homepage and `news.html` stay consistent.
 
-#### Interaction with `pinned`, `archived`, `expiry-date`
+#### Interaction with `pinned`, `pin-expiry`, `archived`, `expiry-date`
 
 Some posts use additional fields (used sparingly in the current repository):
 
-- `pinned: true` shows first on the homepage news list.
+- `pinned: true` shows first on the homepage news list, above the date-sorted items.
+- `pin-expiry: YYYY-MM-DD` makes a **pinned** post stop being pinned after that date. The post stays pinned up to and including `pin-expiry`, then drops off the homepage the following day; it still remains on `news.html` (which always lists every post). A pinned post with no `pin-expiry` stays pinned indefinitely. Use this for time-bound highlights so you don't have to remember to unpin them by hand.
 - `archived: true` hides the post from the homepage news list.
 - `expiry-date: YYYY-MM-DD` hides the post from the homepage news list after the date (used for time-sensitive notices).
 

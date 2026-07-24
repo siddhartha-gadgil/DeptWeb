@@ -93,8 +93,11 @@
             {% assign postcounter = 0 %}
             {% for post in futposts %}
             {% if post.pinned %}
+            {% assign pinExpiry = post["pin-expiry"] | date: '%s' | plus: 0 %}
+            {% if post["pin-expiry"] == nil or pinExpiry >= curDate %}
             {% assign postcounter=postcounter | plus: 1 %}
             {% include news_item.html post=post %}
+            {% endif %}
               {% endif %}{% endfor %}
             {% for post in futposts %}{% unless post.pinned or post.archived %}{% assign expiry-dateDate = post.expiry-date | date: '%s' | plus: 604800 %}
             {% assign postDate = post.date | date: '%s' | plus: 604800 %}
