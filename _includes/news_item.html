@@ -7,17 +7,19 @@
 
 {% assign show_date = include.show_date %}
 
+{% capture pin_marker %}{% if p.pinned %}<img class="pin-marker" src="{{ site.baseurl }}/images/pin-icon.png" alt="Pinned" title="Pinned">{% endif %}{% endcapture %}
+
 {% if p.featured and p.poster %}
   {% assign slug = p.url | split: '/' | last | replace: '.html', '' %}
   {% capture poster_path %}/assets/posters/{{ p.date | date: "%Y-%m-%d" }}-{{ slug }}.png{% endcapture %}
-<li class="news-item news-item-featured">
+<li class="news-item news-item-featured{% if p.pinned %} news-item-pinned{% endif %}">
   <div class="row no-gutters">
     <div class="col pr-3">
       {% if show_date %}
       <span class="post-meta">{{ p.date | date: "%b %-d, %Y" }}</span>
       {% endif %}
       <h5>
-        <a class="post-link" href="{{ href }}">{{ p.title | escape }}</a>
+        {{ pin_marker }}<a class="post-link" href="{{ href }}">{{ p.title | escape }}</a>
       </h5>
       {{ p.excerpt }}
       <div class="news-poster-link">
@@ -32,12 +34,12 @@
   </div>
 </li>
 {% else %}
-<li>
+<li{% if p.pinned %} class="news-item-pinned"{% endif %}>
   {% if show_date %}
   <span class="post-meta">{{ p.date | date: "%b %-d, %Y" }}</span>
   {% endif %}
   <h5>
-    <a class="post-link" href="{{ href }}">{{ p.title | escape }}</a>
+    {{ pin_marker }}<a class="post-link" href="{{ href }}">{{ p.title | escape }}</a>
   </h5>
   {{ p.excerpt }}
 </li>

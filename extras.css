@@ -38,6 +38,18 @@ a {
   font-size: 90%;
 }
 
+/* ---- Pinned news item: pushpin marker in place of the list bullet ---- */
+.news-item-pinned {
+  list-style: none;
+}
+
+.pin-marker {
+  height: 0.85em;
+  width: auto;
+  vertical-align: -0.12em;
+  margin-right: 0.4em;
+}
+
 @media (max-width: 576px) {
   .news-poster-thumb {
     width: 70px;
