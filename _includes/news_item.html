@@ -7,12 +7,12 @@
 
 {% assign show_date = include.show_date %}
 
-{% capture pin_marker %}{% if p.pinned %}<img class="pin-marker" src="{{ site.baseurl }}/images/pin-icon.png" alt="Pinned" title="Pinned">{% endif %}{% endcapture %}
+{% capture pin_marker %}{% if p.pinned %}<img class="pin-marker" src="{{ site.baseurl }}/images/pin-icon.png" alt="Pinned" title="Pinned" style="height: 1em; width: auto; vertical-align: -0.12em; margin-left: -1.5em; margin-right: 0.45em;">{% endif %}{% endcapture %}
 
 {% if p.featured and p.poster %}
   {% assign slug = p.url | split: '/' | last | replace: '.html', '' %}
   {% capture poster_path %}/assets/posters/{{ p.date | date: "%Y-%m-%d" }}-{{ slug }}.png{% endcapture %}
-<li class="news-item news-item-featured{% if p.pinned %} news-item-pinned{% endif %}">
+<li class="news-item news-item-featured{% if p.pinned %} news-item-pinned{% endif %}"{% if p.pinned %} style="list-style: none;"{% endif %}>
   <div class="row no-gutters">
     <div class="col pr-3">
       {% if show_date %}
@@ -34,7 +34,7 @@
   </div>
 </li>
 {% else %}
-<li{% if p.pinned %} class="news-item-pinned"{% endif %}>
+<li{% if p.pinned %} class="news-item-pinned" style="list-style: none;"{% endif %}>
   {% if show_date %}
   <span class="post-meta">{{ p.date | date: "%b %-d, %Y" }}</span>
   {% endif %}
