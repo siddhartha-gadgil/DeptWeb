@@ -3,7 +3,7 @@ speaker: Raghavendra Tripathi (NYU, Abu Dhabi)
 title: "Douglas-Rudin approximation for operator-valued unimodular functions"
 date: 30 Jul, 2026
 time: 3:30 pm
-venue: LH-1, Department of Mathematics
+venue: Hybrid - LH-1, Department of Mathematics and MS Teams
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 ---
