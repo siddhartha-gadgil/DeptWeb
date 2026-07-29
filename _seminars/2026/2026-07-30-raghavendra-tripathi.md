@@ -3,7 +3,7 @@ speaker: Raghavendra Tripathi (NYU, Abu Dhabi)
 title: "Douglas-Rudin approximation for operator-valued unimodular functions"
 date: 30 Jul, 2026
 time: 3:30 pm
-venue: LH-1, Department of Mathematics
+venue: Hybrid - LH-1, Department of Mathematics and MS Teams
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 ---
@@ -14,3 +14,7 @@ prove a similar approximation result for the operator-valued unimodular function
 proof. Our proof exploits the spectral theorem to upgrade the Douglas--Rudin type approximation result for the scalar unimodular function to the operator-valued unimodular
 functions. This also allows us to extend Douglas--Rudin approximation to operator-valued settings on the unit sphere as well as the boundary of polydiscs. This is based on
 joint work with Poornendu Kumar and Shubham Rastogi.
+
+Join Microsoft Teams meeting: <https://teams.microsoft.com/meet/432720034867607?p=64EprWjw8IeSPxff53>
+Meeting ID: 432 720 034 867 607
+Passcode: Du6nh7NC
