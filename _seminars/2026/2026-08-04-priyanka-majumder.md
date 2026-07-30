@@ -1,8 +1,8 @@
 ---
 speaker: Priyanka Majumder (IIT Bombay)
 title: "Bounds for the canonical Green's function and its application in Arakelov theory"
-date: 5 August, 2026
-time: 4 pm
+date: 4 August, 2026
+time: 4:30 pm
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
