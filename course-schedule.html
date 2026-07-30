@@ -86,6 +86,10 @@ title: Course Schedule
   <span style="background-color: #f4f4f4;">Elective</span>
 </p>
 
+<p class="text-muted no-print" style="margin: -6px 0 14px; font-size: 0.85em;">
+  Courses with a small "i" icon have extra details (first class date, Teams/website link, midterm and final exam dates). Click it to view them.
+</p>
+
 <div id="cs-loading">Loading schedule&hellip;</div>
 <div class="cs-wrap"><div id="cs-grid"></div></div>
 
@@ -222,7 +226,7 @@ title: Course Schedule
       return extra[f.key] ? '<div><b>' + f.label + ':</b> ' + linkify(extra[f.key]) + '</div>' : '';
     }).join("");
     return '<div class="cs-course-wrap">' + card +
-      '<span class="cs-info-toggle">i</span>' +
+      '<span class="cs-info-toggle" title="Click for more details">i</span>' +
       '<div class="cs-info-panel">' + panelRows + '</div>' +
       '</div>';
   }
