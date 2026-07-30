@@ -7,6 +7,8 @@ title: Course Schedule
   .cs-head { display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; margin-bottom: 12px; }
   .cs-legend { margin: 6px 0 14px; }
   .cs-legend span { display: inline-block; padding: 2px 9px; border-radius: 3px; margin-right: 6px; margin-bottom: 4px; font-size: 0.82em; border: 1px solid rgba(0,0,0,0.08); }
+  .cs-legend-info { margin-top: -8px; }
+  .cs-info-key { display: inline-flex; align-items: center; gap: 7px; font-size: 0.85em; color: #444; }
 
   .cs-wrap { overflow-x: auto; }
   table.cs-week { border-collapse: collapse; width: 100%; min-width: 860px; table-layout: fixed; }
@@ -33,6 +35,7 @@ title: Course Schedule
      never loads, the schedule itself is completely unaffected. */
   .cs-info-toggle { position: absolute; top: 2px; right: 3px; width: 15px; height: 15px; line-height: 15px; text-align: center; border-radius: 50%; background: rgba(255,255,255,0.75); color: #772953; font-size: 10px; cursor: pointer; z-index: 5; }
   .cs-info-toggle:hover { background: #fff; }
+  .cs-info-toggle.cs-info-toggle-legend { position: static; flex: none; width: 18px; height: 18px; line-height: 18px; font-size: 11px; background: #772953; color: #fff; cursor: default; }
   .cs-info-panel { display: none; position: absolute; top: 100%; left: 0; margin-top: 2px; min-width: 190px; max-width: 260px; background: #fff; border: 1px solid #ccc; border-radius: 5px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); padding: 7px 9px; font-size: 0.76em; color: #333; z-index: 20; }
   .cs-info-panel.open { display: block; }
   .cs-info-panel div + div { margin-top: 3px; }
@@ -86,8 +89,8 @@ title: Course Schedule
   <span style="background-color: #f4f4f4;">Elective</span>
 </p>
 
-<p class="text-muted no-print" style="margin: -6px 0 14px; font-size: 0.85em;">
-  Courses with a small "i" icon have extra details (first class date, Teams/website link, midterm and final exam dates). Click it to view them.
+<p class="cs-legend cs-legend-info no-print">
+  <span class="cs-info-key"><span class="cs-info-toggle cs-info-toggle-legend">i</span> Extra details (first class date, Teams/website link, exam dates). Click the icon on any course to view them.</span>
 </p>
 
 <div id="cs-loading">Loading schedule&hellip;</div>
