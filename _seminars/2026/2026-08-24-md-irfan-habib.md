@@ -2,7 +2,7 @@
 speaker: Md. Irfan Habib (Technical University of Munich, Germany)
 title: "The combinatorics of the graded embeddings for Lie (super)algebras"
 date: 24 Aug, 2026
-time: 4 pm
+time: 11 am
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
 website: https://math.iisc.ac.in/~khare/algcomb25-26.html
