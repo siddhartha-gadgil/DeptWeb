@@ -234,7 +234,7 @@ aug2026:
     - code: MA 333
       name: Riemannian Geometry
       instructor: Ved Datar
-      timing: "Mon, Wed, Fri: 2:00 - 3:00"
+      timing: "Mon, Wed: 1:30 - 3:00"
       venue: "LH-4"
     - code: MA 215
       name: Introduction to Modular Forms

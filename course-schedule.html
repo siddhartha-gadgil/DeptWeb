@@ -123,9 +123,12 @@ title: Course Schedule
     { key: "wed", label: "Wednesday" }, { key: "thu", label: "Thursday" },
     { key: "fri", label: "Friday" }
   ];
-  // Boundary times (minutes from midnight) used by the two lecture patterns.
-  var MORNING = [480, 510, 540, 600, 660, 690, 720, 780];      // 8:00 .. 1:00
-  var AFTERNOON = [840, 900, 930, 960, 1020];                  // 2:00 .. 5:00
+  // Boundary times (minutes from midnight) used by the lecture patterns.
+  var MORNING = [480, 510, 540, 600, 660, 690, 720, 780];       // 8:00 .. 1:00
+  // 1:00 .. 1:30 .. 2:00 .. 5:00. The 780/810 split lets a class run into the
+  // first half of the lunch hour (e.g. a 1:30 start) while days with no such
+  // class still show one merged "Lunch" block across both halves.
+  var MIDDAY_AFTERNOON = [780, 810, 840, 900, 930, 960, 1020];
 
   // Faculty-editable "extras" (First Meeting, WebSite/Teams link etc, Midterm, Final),
   // matching the columns used in every past semester's sheet. That sheet also carries
@@ -197,9 +200,10 @@ title: Course Schedule
   }
   function parseTiming(t) {
     if (!t) return null;
-    var m = /^(Mon, Wed, Fri|Tue, Thu):\s*(.+?)\s*-\s*(.+)$/.exec(t.trim());
+    var m = /^(Mon, Wed, Fri|Mon, Wed|Tue, Thu):\s*(.+?)\s*-\s*(.+)$/.exec(t.trim());
     if (!m) return null;
-    return { pattern: m[1] === "Mon, Wed, Fri" ? "mwf" : "tuth", start: parseTime(m[2]), end: parseTime(m[3]) };
+    var pattern = m[1] === "Mon, Wed, Fri" ? "mwf" : m[1] === "Mon, Wed" ? "mw" : "tuth";
+    return { pattern: pattern, start: parseTime(m[2]), end: parseTime(m[3]) };
   }
 
   function escapeHTML(s) {
@@ -239,11 +243,35 @@ title: Course Schedule
     flat.forEach(function (c) {
       var p = parseTiming(c.timing);
       if (!p) return; // unscheduled (TBA) courses are omitted
-      var days = p.pattern === "mwf" ? ["mon", "wed", "fri"] : ["tue", "thu"];
+      var days = p.pattern === "mwf" ? ["mon", "wed", "fri"] : p.pattern === "mw" ? ["mon", "wed"] : ["tue", "thu"];
       days.forEach(function (d) {
         var g = byDay[d][p.start] || (byDay[d][p.start] = { end: p.end, courses: [] });
         g.courses.push(c);
       });
+    });
+
+    // Fill whatever part of the 1:00-2:00 lunch hour isn't already taken by a
+    // real class with a synthetic "Lunch" block, so an ordinary day still
+    // shows one merged ribbon, while a day with a class starting mid-lunch
+    // (e.g. Riemannian Geometry's Mon/Wed 1:30 start) only shows Lunch for
+    // the leading uncovered stretch before that class begins.
+    DAYS.forEach(function (d) {
+      var dayMap = byDay[d.key];
+      var t = 780;
+      while (t < 840) {
+        var covered = Object.keys(dayMap).some(function (s) {
+          s = +s;
+          return s <= t && dayMap[s].end > t;
+        });
+        if (covered) { t += 30; continue; }
+        var end = 840;
+        Object.keys(dayMap).forEach(function (s) {
+          s = +s;
+          if (s > t && s < end) end = s;
+        });
+        dayMap[t] = { end: end, courses: [{ lunch: true }] };
+        t = end;
+      }
     });
 
     function segRows(bounds) {
@@ -255,12 +283,13 @@ title: Course Schedule
         DAYS.forEach(function (d) {
           if (bi < skip[d.key]) return; // covered by a rowspan from above
           var g = byDay[d.key][bs];
-          if (g) {
-            var span = bounds.indexOf(g.end) - bi;
-            skip[d.key] = bi + span;
-            rows += '<td class="cs-cell" rowspan="' + span + '"><div class="cs-conc">' + g.courses.map(courseHTML).join("") + '</div></td>';
+          if (!g) { rows += '<td class="cs-empty"></td>'; return; }
+          var span = bounds.indexOf(g.end) - bi;
+          skip[d.key] = bi + span;
+          if (g.courses[0].lunch) {
+            rows += '<td class="cs-lunch" rowspan="' + span + '">Lunch</td>';
           } else {
-            rows += '<td class="cs-empty"></td>';
+            rows += '<td class="cs-cell" rowspan="' + span + '"><div class="cs-conc">' + g.courses.map(courseHTML).join("") + '</div></td>';
           }
         });
         rows += '</tr>';
@@ -270,14 +299,12 @@ title: Course Schedule
 
     var head = '<tr><th class="cs-corner"></th>' +
       DAYS.map(function (d) { return '<th class="cs-day">' + d.label + '</th>'; }).join("") + '</tr>';
-    var lunch = '<tr><td class="cs-time" style="height:calc(var(--csp) * 60)">' + minLabel(780) +
-      '</td><td class="cs-lunch" colspan="5">Lunch</td></tr>';
     // segRows only labels the START of each segment, so the very last boundary
     // (end of day) never gets a row of its own -- add one explicitly here.
     var dayEnd = '<tr><td class="cs-time" style="height:calc(var(--csp) * 20)">' +
-      minLabel(AFTERNOON[AFTERNOON.length - 1]) + '</td><td class="cs-empty" colspan="5"></td></tr>';
+      minLabel(MIDDAY_AFTERNOON[MIDDAY_AFTERNOON.length - 1]) + '</td><td class="cs-empty" colspan="5"></td></tr>';
     return '<table class="cs-week"><thead>' + head + '</thead><tbody>' +
-      segRows(MORNING) + lunch + segRows(AFTERNOON) + dayEnd + '</tbody></table>';
+      segRows(MORNING) + segRows(MIDDAY_AFTERNOON) + dayEnd + '</tbody></table>';
   }
 
   document.addEventListener("DOMContentLoaded", function () {
