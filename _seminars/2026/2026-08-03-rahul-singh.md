@@ -5,7 +5,7 @@ date: 3 Aug, 2026
 time: 4 pm
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: https://math.iisc.ac.in/~khare/algcomb25-26.html
+website: https://math.iisc.ac.in/~khare/algcomb26-27.html
 ---
 
 Opers and their $q$-deformations provide a geometric way to encode solutions of the Bethe Ansatz equations that arise in quantum integrable systems such as Gaudin models
