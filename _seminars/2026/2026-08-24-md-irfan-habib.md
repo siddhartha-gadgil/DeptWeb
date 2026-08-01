@@ -5,7 +5,7 @@ date: 24 Aug, 2026
 time: 11 am
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
-website: https://math.iisc.ac.in/~khare/algcomb25-26.html
+website: https://math.iisc.ac.in/~khare/algcomb26-27.html
 ---
 
 In this talk, I will discuss the combinatorial aspects of graded embedding problems for Lie (super)algebras. Dynkin started the study in the 1950s in one of his seminal
