@@ -59,7 +59,7 @@
   position: NBHM PDF
   image: true
   research-area: Analysis of PDEs and control theory
-  office: X-13
+  office: X13
 
 - name: Aniruddha Seal
   webpage: https://sites.google.com/view/aniruddhaseal/home
@@ -68,7 +68,7 @@
   position: Axis Bank Centre Postdoctoral Fellow
   image: true
   research-area: Numerical Analysis for Fractional Differential Equations, Finite Element Method
-  office: L-16
+  office: L16
   
 - name: Shubham R. Bais
   webpage: https://sites.google.com/view/shubhambais007
@@ -95,7 +95,7 @@
   position: NPDF
   image: true
   research-area: Representation theory and combinatorics
-  office: N-13
+  office: N13
   
 - name: Priyanshu Chakraborty
   webpage: https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=d6oo8ewAAAAJ
@@ -130,7 +130,7 @@
   user-id: vinayakmanit
   position: NBHM Postdoctoral Fellow
   research-area: Analysis of Partial Differential Equations
-  office: R 28
+  office: R28
   image: true
 
 - name: Guru Sharan N
@@ -158,7 +158,7 @@
   position: NBHM Postdoctoral Fellow
   image: true
   research-area: Numerical Analysis for Partial Differential Equations
-  office: L-16
+  office: L16
   
 - name: Mallika Roy
   webpage: https://sites.google.com/view/mallika-roy/home
@@ -186,3 +186,12 @@
   image: true
   research-area: Functional Analysis, Operator Algebras
   office: N11
+  
+- name: Apeksha Sanghi
+  webpage: https://sites.google.com/view/apekshasanghi/home
+  phd: Indian Institute of Science Education and Research Bhopal
+  user-id: apekshas
+  position: NBHM Postdoctoral Fellow
+  image: true
+  research-area: Low Dimensional Topology, Mapping Class Groups
+  office: N13
