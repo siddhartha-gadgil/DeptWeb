@@ -21,9 +21,9 @@ By tradition, these committees have the same members but different members are c
 
 The present members and chairs are as follows:
 
-* [Apoorva Khare](https://math.iisc.ac.in/~khare/) (Chair, DCC)
+* [R. Venkatesh](https://sites.google.com/view/rvenkateshiisc) (Chair, DCC)
 * [Vamsi Pritham Pingali](https://math.iisc.ac.in/~vamsipingali/) (Chair, UG-DCC)
-* R. Venkatesh
+* Apoorva Khare
 * Subhojoy Gupta (Int PhD coordinator)
 * Purvi Gupta
 * Swarnendu Sil
@@ -50,8 +50,7 @@ The present members and chairs are as follows:
 ---
 
 ### Computer committee
-* Ganesh Vaidya
-#* [Shaunak Deo](https://sites.google.com/view/shaunakdeo/) (Convener)
+* [Ganesh Vaidya](https://www.ganeshvaidya.in/) (Convener)
 #* Arka Mallick
 
 ---
