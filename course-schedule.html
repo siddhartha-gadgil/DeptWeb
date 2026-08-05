@@ -97,15 +97,15 @@ title: Course Schedule
     <p class="text-muted" style="margin-bottom:0;">August-December 2026</p>
   </div>
   <div class="cs-head-right no-print">
-    <button id="cs-pdf-btn" class="btn" style="display:none; background-color:#772953; color:#fff;" onclick="window.print()">
+    <button id="cs-pdf-btn" class="btn" style="background-color:#772953; color:#fff;" onclick="window.print()">
       <i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp; Download as PDF
     </button>
     <div class="cs-view-seg" role="group" aria-label="View mode">
-      <button id="cs-seg-sheet" class="cs-seg-active" onclick="csSetView('sheet')" aria-pressed="true">
+      <button id="cs-seg-sheet" onclick="csSetView('sheet')" aria-pressed="false">
         <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M14 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1ZM5 12H3v-2h2v2Zm0-3H3V7h2v2Zm0-3H3V4h2v2Zm8 6H6v-2h7v2Zm0-3H6V7h7v2Zm0-3H6V4h7v2Z"/></svg>
         Spreadsheet
       </button>
-      <button id="cs-seg-grid" onclick="csSetView('grid')" aria-pressed="false">
+      <button id="cs-seg-grid" class="cs-seg-active" onclick="csSetView('grid')" aria-pressed="true">
         <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3ZM9 2.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3ZM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3ZM9 10.5A1.5 1.5 0 0 1 10.5 9h3A1.5 1.5 0 0 1 15 10.5v3A1.5 1.5 0 0 1 13.5 15h-3A1.5 1.5 0 0 1 9 13.5v-3Z"/></svg>
         Timetable
       </button>
@@ -113,16 +113,20 @@ title: Course Schedule
   </div>
 </div>
 
-<!-- default: embedded spreadsheet -->
-<div id="cs-view-sheet">
+<!-- optional: embedded spreadsheet -->
+<div id="cs-view-sheet" style="display:none;">
   <iframe class="cs-sheet-frame"
     src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSwdnB3T8cBqYxS-uHSwmPm0G0T1gCzY9vWWIvXU5wQWSvPhOKJYHgrj-kpLKukGmMVWFSd4cNRjEpY/pubhtml?widget=true&amp;headers=false"
     title="Course schedule spreadsheet">
   </iframe>
+  <p class="text-muted" style="margin-top:8px; font-size:0.85em;">
+    If the embedded spreadsheet does not load in your browser,
+    <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSwdnB3T8cBqYxS-uHSwmPm0G0T1gCzY9vWWIvXU5wQWSvPhOKJYHgrj-kpLKukGmMVWFSd4cNRjEpY/pubhtml" target="_blank" rel="noopener">open it in a new tab</a>.
+  </p>
 </div>
 
-<!-- timetable grid (hidden until toggled) -->
-<div id="cs-view-grid" style="display:none;">
+<!-- default: timetable grid -->
+<div id="cs-view-grid">
   <p class="cs-legend">
     <span style="background-color: lightcyan;">Core for Int. Ph.D. 1st year and UG 3rd year</span>
     <span style="background-color: lavender;">Core for UG 3rd year only</span>
@@ -150,14 +154,7 @@ title: Course Schedule
     document.getElementById('cs-seg-grid').classList.toggle('cs-seg-active',  isGrid);
     document.getElementById('cs-seg-sheet').setAttribute('aria-pressed', String(!isGrid));
     document.getElementById('cs-seg-grid').setAttribute('aria-pressed',  String(isGrid));
-    try { localStorage.setItem('cs-view', v); } catch(e) {}
   }
-  // restore saved preference (default: sheet)
-  (function() {
-    var saved;
-    try { saved = localStorage.getItem('cs-view'); } catch(e) {}
-    if (saved === 'grid') csSetView('grid');
-  })();
 </script>
 
 <script type="application/json" id="cs-course-data">
