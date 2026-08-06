@@ -2,8 +2,8 @@
 speaker: Jitendra Rathore (University of California, Santa Barbara, USA)
 title: "Brauer Group and Cycle Class Maps over Local Fields"
 date: 7 August, 2026
-time: TBA
-start_time: TBA
+time: 2 pm
+start_time: 14:00
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
