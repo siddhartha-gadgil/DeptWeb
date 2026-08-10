@@ -3,7 +3,7 @@ speaker: Suman Kumar Sahoo (IIT Bombay)
 title: "The Calderón problem for elliptic equations"
 date: 14 August, 2026
 time: 3:30 pm
-venue: LH-1, Mathematics Department
+venue: LH-4, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar26-27
 ---
