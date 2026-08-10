@@ -1,29 +1,14 @@
 
 
-- name: K. Hariram
-  user-id: hariramk
-  year-of-joining: 2016
-  programme: PhD
-  guide: Soumya Das
-  scholarship: IISc
-  image: true
-  office: R21(4)
+#- name: Surjadipta De Sarkar
+ # user-id: surjadiptade
+  #year-of-joining: 2015
+  #programme: Integrated PhD
+ # guide: Arvind Ayyer
+ # scholarship: IISc
+ # office: N11(4)
 
-- name: Surjadipta De Sarkar
-  user-id: surjadiptade
-  year-of-joining: 2015
-  programme: Integrated PhD
-  guide: Arvind Ayyer
-  scholarship: IISc
-  office: N11(4)
 
-- name: Purba Banerjee
-  year-of-joining: 2017
-  programme: Integrated PhD
-  user-id: purbab
-  guide: M. K. Ghosh
-  scholarship: IISc
-  office: L26(4)
 
 - name: Karambir Das
   year-of-joining: 2020
@@ -46,26 +31,12 @@
   image: true
   office: X20(6)
 
-- name: Subhajit Das
-  year-of-joining: 2020
-  programme: PhD
-  user-id: subhajitdas
-  image: true
-  office: N11(4)
-
-- name: Arnab Pal
-  year-of-joining: 2020
-  programme: PhD
-  user-id: arnabpalp
-  image: true
-  office: N04(6)
-
-- name: Lalit Thuwal
-  year-of-joining: 2021
-  programme: PhD
-  user-id: lalitthuwal
-  image: true
-  office: N04(6)
+#- name: Lalit Thuwal
+ # year-of-joining: 2021
+  #programme: PhD
+#  user-id: lalitthuwal
+#  image: true
+#  office: N04(6)
 
 - name: Arghyadeep Chatterjee
   year-of-joining: 2021
@@ -78,13 +49,6 @@
   year-of-joining: 2021
   programme: PhD
   user-id: ritabratadas
-  image: true
-  office: L26(4)
-
-- name: "<a href='https://sites.google.com/view/sudeshnabhattacharjee/home'>Sudeshna Bhattacharjee</a>"
-  year-of-joining: 2021
-  programme: PhD
-  user-id: sudeshnab
   image: true
   office: L26(4)
 
@@ -135,13 +99,6 @@
   year-of-joining: 2022
   programme: Integrated PhD
   user-id: dakshs
-  image: true
-  office: N11(4)
-
-- name: Chavda Sahil Ramjibhai
-  year-of-joining: 2022
-  programme: Integrated PhD
-  user-id: sahilchavda
   image: true
   office: N11(4)
 
