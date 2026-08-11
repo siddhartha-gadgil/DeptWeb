@@ -89,3 +89,12 @@ The present members and chairs are as follows:
 ### Safety Champion
 
 * [T. Gudi](https://math.iisc.ac.in/~gudi/)
+
+---
+
+### K. Venkatchalaienger Scholarship Committee, 2026
+
+* Apoorva Khare (convener)
+* Radhika Ganapthy
+* Ved Datar
+* Sanchayan Sen
