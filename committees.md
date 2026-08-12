@@ -92,7 +92,7 @@ The present members and chairs are as follows:
 
 ---
 
-### K. Venkatchalaienger Scholarship Committee, 2026
+### K. Venkatachalaiengar Scholarship Committee, 2026
 
 * [Apoorva Khare](https://math.iisc.ac.in/~khare/) (convener)
 * Radhika Ganapthy
