@@ -2,7 +2,7 @@
 title: K.Venkatachaliengar scholarship
 ---
 
-# Professor K.Venkatachaliengar Scholarship
+<h1 style="text-align: center;">Professor K.Venkatachaliengar Scholarship</h1>
 
 The Department of Mathematics, IISc, is happy to announce a new scholarship named after Professor K.Venkatachaliengar which is made possible through a generous donation received from an admirer and a student of Professor K.Venkatachaliengar.
 
