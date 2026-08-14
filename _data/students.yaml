@@ -346,17 +346,11 @@
   user-id: vaibhavis
   image: true
   office: To be allotted
+
 - name: Kalmanje Avyaktha Achar
   year-of-joining: 2026
   programme: Integrated PhD
   user-id: avyakthaach1
-  image: true
-  office: To be allotted
-
-- name: Sourish Dey
-  year-of-joining: 2026
-  programme: Integrated PhD
-  user-id: sourishdey
   image: true
   office: To be allotted
 
@@ -374,6 +368,20 @@
   image: true
   office: To be allotted
 
+- name: Shubham P Pimple
+  year-of-joining: 2026
+  programme: Integrated PhD
+  user-id: nil
+  image: true
+  office: To be allotted
+
+- name: Sourish Dey
+  year-of-joining: 2026
+  programme: Integrated PhD
+  user-id: sourishdey
+  image: true
+  office: To be allotted
+
 - name: Swati Ramnani
   year-of-joining: 2026
   programme: Integrated PhD
@@ -385,13 +393,6 @@
   year-of-joining: 2026
   programme: Integrated PhD
   user-id: gnaveenkumar
-  image: true
-  office: To be allotted
-
-- name: Shubham P Pimple
-  year-of-joining: 2026
-  programme: Integrated PhD
-  user-id: nil
   image: true
   office: To be allotted
 
@@ -409,14 +410,7 @@
   image: true
   office: L24
 
-- name: Vignesh R D
-  year-of-joining: 2026
-  programme: PhD
-  user-id: vigneshd
-  image: true
-  office: R21
-
-- name: Abhisruta Marty
+- name: Abhisruta Maity
   year-of-joining: 2026
   programme: PhD
   user-id: abhisrutama1
@@ -436,3 +430,10 @@
   user-id: arameswarpa1
   image: true
   office: X22
+
+- name: Vignesh R D
+  year-of-joining: 2026
+  programme: PhD
+  user-id: vigneshd
+  image: true
+  office: R21
