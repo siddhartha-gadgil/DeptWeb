@@ -1,5 +1,5 @@
 ---
-speaker: Sharvaree N. Tikekar (ISI Bangalore)
+speaker: Sharvari N. Tikekar (ISI Bangalore)
 title: "TBA"
 date: 25 August, 2026
 time: 11 am
