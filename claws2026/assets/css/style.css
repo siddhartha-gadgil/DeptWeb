@@ -795,3 +795,14 @@ footer {
 body[data-scroll="true"] #dynamic-bg {
   transform: translateX(-2.28%) translateY(5%) scale(1);
 }
+
+/* Map frames */
+.map-frame {
+  border: 2px solid var(--accent-dark);
+  border-radius: 6px;
+  width: 100%;
+  height: 280px;
+  margin-top: 12px;
+  flex-shrink: 0;
+  display: block;
+}
