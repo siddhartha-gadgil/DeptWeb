@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=1200">
   <title>Conservation Laws — IISc Bangalore</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,42 +52,18 @@
   <!-- About Section -->
   <section id="about">
     <div class="hero"><h2>Focal Themes</h2></div>
-    <div class="card" style="margin-bottom: 30px;">
+    <div class="card">
+      <span class="label" style="text-align: center; display: block; margin-bottom: 20px;">Focal Themes</span>
       <p>Hyperbolic conservation laws constitute one of the central areas of modern applied mathematics, with deep connections to nonlinear partial differential equations, numerical analysis, and scientific computing. They provide the mathematical framework for modeling transport and wave propagation phenomena arising in fluid dynamics, traffic flow, multiphase flows, geophysical hazards, environmental sciences, and several other engineering and industrial applications. Recent developments in conservation laws and machine learning-based computational methods have further broadened the scope and impact of the subject.</p>
-    </div>
-    <div class="grid">
-      <div class="card">
-        <span class="label">Scalar and Systems of Hyperbolic Conservation Laws</span>
-        <p>Theoretical and numerical analysis of hyperbolic conservation laws in one and multiple dimensions.</p>
-      </div>
-      <div class="card">
-        <span class="label">Nonlocal Conservation Laws</span>
-        <p>Analysis and applications of nonlocal conservation laws in various contexts.</p>
-      </div>
-      <div class="card">
-        <span class="label">Well-Posedness and Qualitative Theory</span>
-        <p>Existence, uniqueness, and qualitative properties of solutions to conservation laws.</p>
-      </div>
-      <div class="card">
-        <span class="label">Numerical Methods</span>
-        <p>Finite Volume, Front Tracking, and related schemes for solving conservation laws.</p>
-      </div>
-      <div class="card">
-        <span class="label">Machine Learning-Based Algorithms</span>
-        <p>ML and AI techniques for solving and analyzing conservation laws.</p>
-      </div>
-      <div class="card">
-        <span class="label">Current Trends and Emerging Research</span>
-        <p>Recent developments and future directions in conservation laws research.</p>
-      </div>
-      <div class="card">
-        <span class="label">Industrial Applications</span>
-        <p>Real-world applications of conservation laws in engineering and industry.</p>
-      </div>
-      <div class="card">
-        <span class="label">Multidisciplinary Applications</span>
-        <p>Applications across disciplines including environmental sciences and geophysics.</p>
-      </div>
+      <ul style="margin-top: 20px; line-height: 1.8;">
+        <li>Scalar and Systems of Hyperbolic Conservation Laws</li>
+        <li>Nonlocal Conservation Laws</li>
+        <li>Well-Posedness and Qualitative Theory</li>
+        <li>Numerical Methods (Finite Volume, Front Tracking, and Related Schemes)</li>
+        <li>Machine Learning-Based Algorithms for Conservation Laws</li>
+        <li>Current Trends and Emerging Research Directions</li>
+        <li>Industrial and Multidisciplinary Applications of Conservation Laws</li>
+      </ul>
     </div>
   </section>
   <!-- Speakers Section -->
@@ -260,86 +236,193 @@
   <!-- Programme Section -->
   <section id="programme">
     <div class="hero"><h2>Programme</h2></div>
-    <div class="schedule-hint blink"><strong>Note:</strong> The schedule is being finalized. Please visit this page regularly for the latest updates.</div>
-    <div class="card">
-      <span class="label">Conference Schedule</span>
-      <div class="table-container">
-        <table>
+    <div class="conference-schedule">
+      <div class="schedule-scroll">
+        <table class="conference-table">
           <thead>
-            <tr><th>Time</th><th>Day 1 – 16 Dec (Wed)</th><th>Day 2 – 17 Dec (Thu)</th><th>Day 3 – 18 Dec (Fri)</th></tr>
+            <tr>
+              <th class="time-column">Time</th>
+              <th>
+                <span class="day-number">DAY 1</span>
+                <span class="day-date">16 DEC · WED</span>
+              </th>
+              <th>
+                <span class="day-number">DAY 2</span>
+                <span class="day-date">17 DEC · THU</span>
+              </th>
+              <th>
+                <span class="day-number">DAY 3</span>
+                <span class="day-date">18 DEC · FRI</span>
+              </th>
+            </tr>
           </thead>
+
           <tbody>
             <tr>
-              <td>9:30-10:00</td>
-              <td>Opening Ceremony</td>
-              <td>Invited Talks (1)</td>
-              <td>Invited Talks (1)</td>
+              <td class="time">09:30–10:00</td>
+              <td class="event ceremony">
+                <span class="event-title">Opening Ceremony</span>
+              </td>
+              <td class="event talk">
+                <span class="talk-number">01</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
+              <td class="event talk">
+                <span class="talk-number">01</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
             </tr>
+
             <tr>
-              <td>10:00-10:30</td>
-              <td>Invited Talks (1)</td>
-              <td>Invited Talks (1)</td>
-              <td>Invited Talks (1)</td>
+              <td class="time">10:00–10:30</td>
+              <td class="event talk">
+                <span class="talk-number">01</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
+              <td class="event talk">
+                <span class="talk-number">01</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
+              <td class="event talk">
+                <span class="talk-number">01</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
             </tr>
-            <tr class="break tea">
-              <td>10:30–11:00</td>
-              <td>Coffee Break</td>
-              <td>Coffee Break</td>
-              <td>Coffee Break</td>
+
+            <tr class="break-row">
+              <td class="time">10:30–11:00</td>
+              <td class="break-cell"><span>Coffee Break</span></td>
+              <td class="break-cell"><span>Coffee Break</span></td>
+              <td class="break-cell"><span>Coffee Break</span></td>
             </tr>
+
             <tr>
-              <td>11:00–12:30</td>
-              <td>Invited Talks (3)</td>
-              <td>Invited Talks (3)</td>
-              <td>Invited Talks (3)</td>
+              <td class="time">11:00–11:30</td>
+              <td class="event talk"><span class="talk-number">01</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">01</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">01</span><span class="event-title">Invited Talk</span></td>
             </tr>
-            <tr class="break lunch">
-              <td>12:30–14:00</td>
-              <td>Lunch</td>
-              <td>Lunch</td>
-              <td>Lunch</td>
-            </tr>
+
             <tr>
-              <td>14:00–15:30</td>
-              <td>Invited Talks (3)</td>
-              <td>Invited Talks (3)</td>
-              <td>Invited Talks (3)</td>
+              <td class="time">11:30–12:00</td>
+              <td class="event talk"><span class="talk-number">02</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">02</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">02</span><span class="event-title">Invited Talk</span></td>
             </tr>
-            <tr class="break tea">
-              <td>15:30–16:00</td>
-              <td>Coffee Break</td>
-              <td>Coffee Break</td>
-              <td>Coffee Break</td>
-            </tr>
+
             <tr>
-              <td>16:00–17:00</td>
-              <td>Invited Talks (3)</td>
-              <td>Thematic Lecture (2)</td>
-              <td>Thematic Lecture</td>
+              <td class="time">12:00–12:30</td>
+              <td class="event talk"><span class="talk-number">03</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">03</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">03</span><span class="event-title">Invited Talk</span></td>
             </tr>
-            <tr>
-              <td>17:00–18:30</td>
-              <td>Poster Session</td>
-              <td>Conference Ends</td>
-              <td></td>
+
+            <tr class="meal-row">
+              <td class="time">12:30–14:00</td>
+              <td class="meal-cell"><span>Lunch</span></td>
+              <td class="meal-cell"><span>Lunch</span></td>
+              <td class="meal-cell"><span>Lunch</span></td>
             </tr>
+
             <tr>
-              <td>18:30–19:00</td>
-              <td>Invited Talk (1)</td>
-              <td></td>
-              <td></td>
+              <td class="time">14:00–14:30</td>
+              <td class="event talk"><span class="talk-number">01</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">01</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">01</span><span class="event-title">Invited Talk</span></td>
             </tr>
+
             <tr>
-              <td>19:00–20:00</td>
-              <td>Thematic Lecture (1)</td>
-              <td></td>
-              <td>Gala Dinner</td>
+              <td class="time">14:30–15:00</td>
+              <td class="event talk"><span class="talk-number">02</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">02</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">02</span><span class="event-title">Invited Talk</span></td>
             </tr>
+
             <tr>
-              <td>20:00 onwards</td>
-              <td>Dinner</td>
-              <td></td>
-              <td>Gala Dinner</td>
+              <td class="time">15:00–15:30</td>
+              <td class="event talk"><span class="talk-number">03</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">03</span><span class="event-title">Invited Talk</span></td>
+              <td class="event talk"><span class="talk-number">03</span><span class="event-title">Invited Talk</span></td>
+            </tr>
+
+            <tr class="break-row">
+              <td class="time">15:30–16:00</td>
+              <td class="break-cell"><span>Coffee Break</span></td>
+              <td class="break-cell"><span>Coffee Break</span></td>
+              <td class="break-cell"><span>Coffee Break</span></td>
+            </tr>
+
+            <tr>
+              <td class="time">16:00–16:30</td>
+              <td class="event talk">
+                <span class="talk-number">01</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
+              <td class="event lecture">
+                <span class="event-title">Thematic Lecture</span>
+                <span class="talk-count">02</span>
+              </td>
+              <td class="event lecture">
+                <span class="event-title">Thematic Lecture</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="time">16:30–17:00</td>
+              <td class="event talk">
+                <span class="talk-number">02</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
+              <td class="event lecture">
+                <span class="event-title">Thematic Lecture</span>
+              </td>
+              <td class="event lecture">
+                <span class="event-title">Thematic Lecture</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="time">17:00–18:30</td>
+              <td class="empty-cell"></td>
+              <td class="event poster">
+                <span class="event-title">Poster Session</span>
+              </td>
+              <td class="event ending">
+                <span class="event-title">Conference Ends</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="time">18:30–19:00</td>
+              <td class="event talk">
+                <span class="talk-number">01</span>
+                <span class="event-title">Invited Talk</span>
+              </td>
+              <td class="empty-cell"></td>
+              <td class="empty-cell"></td>
+            </tr>
+
+            <tr>
+              <td class="time">19:00–20:00</td>
+              <td class="event lecture">
+                <span class="event-title">Thematic Lecture</span>
+                <span class="talk-count">01</span>
+              </td>
+              <td class="event gala">
+                <span class="event-title">Gala Dinner</span>
+              </td>
+              <td class="empty-cell"></td>
+            </tr>
+
+            <tr>
+              <td class="time">20:00 onwards</td>
+              <td class="event dinner">
+                <span class="event-title">Dinner</span>
+              </td>
+              <td class="event gala">
+                <span class="event-title">Gala Dinner</span>
+              </td>
+              <td class="empty-cell"></td>
             </tr>
           </tbody>
         </table>
@@ -352,7 +435,7 @@
     
     <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch;">
       <!-- Venue -->
-      <div class="card" style="flex: 3; min-width: 300px; display: flex; flex-direction: column;">
+      <div class="card" style="flex: 1; min-width: 250px; display: flex; flex-direction: column; border: 2px double var(--accent-dark);">
         <span class="label">Venue</span>
         <div style="flex-grow: 1;">
           <p><strong>Department of Mathematics</strong>, IISC Bangalore, Gulmohar Marg, Mathikere, Bengaluru, Karnataka 560012</p>
@@ -361,7 +444,7 @@
       </div>
       
       <!-- Hoysala -->
-      <div class="card" style="flex: 1; min-width: 200px; display: flex; flex-direction: column;">
+      <div class="card" style="flex: 1; min-width: 250px; display: flex; flex-direction: column; border: 2px double var(--accent-dark);">
         <span class="label" style="font-size: 0.7rem;">Hoysala House</span>
         <div style="flex-grow: 1;">
           <p>Accommodation: Student Council Rd, Devasandra Layout, Bengaluru, Karnataka 560012</p>
@@ -370,7 +453,7 @@
       </div>
 
       <!-- Jawahar -->
-      <div class="card" style="flex: 1; min-width: 200px; display: flex; flex-direction: column;">
+      <div class="card" style="flex: 1; min-width: 250px; display: flex; flex-direction: column; border: 2px double var(--accent-dark);">
         <span class="label" style="font-size: 0.7rem;">Jawahar House</span>
         <div style="flex-grow: 1;">
           <p>Accommodation: Jawahar Visitors House, Malleshwaram, Bengaluru, Karnataka 560012</p>
@@ -379,7 +462,7 @@
       </div>
 
       <!-- Centenary -->
-      <div class="card" style="flex: 1; min-width: 200px; display: flex; flex-direction: column;">
+      <div class="card" style="flex: 1; min-width: 250px; display: flex; flex-direction: column; border: 2px double var(--accent-dark);">
         <span class="label" style="font-size: 0.7rem;">Centenary House</span>
         <div style="flex-grow: 1;">
           <p>Accommodation: IISC Bangalore, Mathikere, Bengaluru, Karnataka 560012</p>
