@@ -656,9 +656,12 @@ footer {
   line-height: 1.1;
 }
 
+.conference-table tbody td {
+  text-align: center;
+}
+
 .conference-table tbody td.break-cell,
 .conference-table tbody td.meal-cell {
-  text-align: center;
   padding: 5px 10px;
   font-style: italic;
   font-size: 0.75rem;
@@ -747,6 +750,7 @@ footer {
   position: sticky;
   top: 0;
   z-index: 10;
+  text-align: center;
 }
 
 .conference-table thead th.time-column {
