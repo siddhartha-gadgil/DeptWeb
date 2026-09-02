@@ -48,13 +48,12 @@ TBD
 | Boris Andreianov | Université de Tours, France | | | | |
 | Raimund Bürger | Universidad de Concepción, Chile | | | | |
 | Emil Wiedemann | University of Erlangen-Nürnberg, Germany | | | | |
-| Deep Ray | University of Maryland, College Park, USA | | | | |
 
 ### National Speakers
 
 | Speaker | Affiliation | Day | Time | Title | Abstract |
 |---------|-------------|-----|------|-------|----------|
-| Adimurthi | IIT Kanpur | | | | |
+| A. Adimurthi | IIT Kanpur | | | | |
 | G. D. Veerappa Gowda | Mahindra University, Hyderabad | | | | |
 | Praveen Chandrashekar | TIFR-CAM, Bangalore | | | | |
 | Jim Thomas | TIFR-CAM, Bangalore | | | | |
