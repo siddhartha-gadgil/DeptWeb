@@ -158,11 +158,31 @@
     </ul>
 
     </ul>
-    <form class="form-inline my-2 my-lg-0" action="https://www.google.com/search" method="get">
-      <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
+    <form class="form-inline my-2 my-lg-0" id="site-search-form" action="https://www.google.com/search" method="get">
+      <input class="form-control mr-sm-2" type="search" name="q" id="site-search-input" placeholder="Search" aria-label="Search">
       <input type="hidden" name="sitesearch" value="{{ site.url }}{{ site.baseurl }}">
       <button class="btn btn-info my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
     </form>
-  
+
   </div>
 </nav>
+
+<script>
+  (function () {
+    var searchRedirects = {
+      "r14letterhead": "https://math.iisc.ac.in/~sysadmin/letterhead.html"
+    };
+
+    var form = document.getElementById("site-search-form");
+    var input = document.getElementById("site-search-input");
+    if (!form || !input) return;
+
+    form.addEventListener("submit", function (e) {
+      var key = input.value.trim().toLowerCase();
+      if (Object.prototype.hasOwnProperty.call(searchRedirects, key)) {
+        e.preventDefault();
+        window.location.href = searchRedirects[key];
+      }
+    });
+  })();
+</script>
