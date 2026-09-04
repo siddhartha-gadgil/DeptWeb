@@ -88,7 +88,7 @@ The present members and chairs are as follows:
 
 ### Safety Champion
 
-* [T. Gudi](https://math.iisc.ac.in/~gudi/)
+* [Ganesh Vaidya](https://www.ganeshvaidya.in/)
 
 ---
 
