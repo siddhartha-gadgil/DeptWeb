@@ -2,8 +2,8 @@
 speaker: Ramanujan Srihari (University of California, San Diego, USA)
 title: "Values of equivariant zeta functions of varieties over finite fields"
 date: 7 September, 2026
-time: 11 am
-start_time: 11:00
+time: 11.30 am
+start_time: 11:30
 series: "Number Theory Seminar"
 venue: LH-1
 website: https://math.iisc.ac.in/number-theory-seminar.html
