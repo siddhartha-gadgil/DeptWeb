@@ -6,6 +6,7 @@ time:  3 – 5 pm (with a 15 minute break in between)
 start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
+slides: "2026-08-04-SabyasachiMukherjee.pdf"
 ---
 
 Eigenvalue ensembles of certain random matrix models can be viewed as two-dimensional Coulomb gases confined by an external potential. In the large-$N$ limit, their
