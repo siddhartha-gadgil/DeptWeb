@@ -305,3 +305,27 @@ td {
     box-shadow: 0 0 0 0 rgba(253, 126, 20, 0);
   }
 }
+
+/* ---- Homepage: join the seminar mailing list ---- */
+.seminar-subscribe {
+  display: inline-block;
+  padding: 3px 12px;
+  font-size: 90%;
+  line-height: 1.5;
+  color: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.seminar-subscribe:hover,
+.seminar-subscribe:focus {
+  color: #ffffff;
+  background-color: #3498db;
+  text-decoration: none;
+}
+
+.seminar-subscribe .fa {
+  margin-right: 5px;
+}
