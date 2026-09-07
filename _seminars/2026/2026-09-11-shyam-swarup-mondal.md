@@ -1,7 +1,7 @@
 ---
 speaker: Shyam Swarup Mondal (ISI Kolkata)
 title: "Refined Strichartz estimates and their orthonormal counterparts for Schrödinger equations on torus"
-date: 8 September, 2026
+date: 11 September, 2026
 time: 11:30 am
 venue: LH-1, Mathematics Department
 series: "APRG Seminar"
