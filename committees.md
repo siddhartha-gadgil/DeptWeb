@@ -51,7 +51,7 @@ The present members and chairs are as follows:
 
 ### Computer committee
 * [Ganesh Vaidya](https://www.ganeshvaidya.in/) (Convener)
-#* Arka Mallick
+
 
 ---
 
