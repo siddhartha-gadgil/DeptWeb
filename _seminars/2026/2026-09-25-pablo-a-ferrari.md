@@ -4,7 +4,7 @@ title: "Invariant measures for the KMP process"
 date: 25 September, 2026
 time: 2:30 PM
 start_time: 14:30
-venue: LH-1
+venue: LH-1, Mathematics Department
 series: Bangalore Probability Seminar
 website: https://math.iisc.ac.in/~manju/Seminar/seminar.html
 ---
