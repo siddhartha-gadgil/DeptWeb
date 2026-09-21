@@ -4,8 +4,8 @@ permalink: /getamailid/
 ---
 <!--
   New postdocs fill this in. submit.php (same folder) builds the office's
-  Email_ID_Creation.xlsx from it and mails both to the office, the reporting
-  faculty and the postdoc; the office forwards it to IISc email support by hand. The faculty dropdown
+  Email_ID_Creation.xlsx from it and mails both to sysadmin.math, who reviews
+  and forwards the request to IISc email support by hand. The faculty dropdown
   comes from _data/faculty.yaml at build time; submit.php keeps its own copy of
   that list, so regenerate it there when faculty.yaml changes.
 -->
@@ -22,7 +22,7 @@ permalink: /getamailid/
 <p>Fill in the details exactly as they should appear on your IISc account, and
 attach your <strong>joining report / joining memo</strong> as a PDF, signed by the
 Registrar, Deputy Registrar or Assistant Registrar (HR). The office forwards the
-request to IISc email support; you and your reporting faculty receive a copy.</p>
+request to IISc email support.</p>
 
 <form id="gm" action="submit.php" method="post" enctype="multipart/form-data">
   <label for="first">Given names (first name and expanded middle names)</label>

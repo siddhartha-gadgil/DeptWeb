@@ -5,9 +5,8 @@
  * WHAT IT DOES
  *   POST (from index.html, served at /getamailid)
  *     validates the form + the signed joining report (PDF), fills the office's
- *     Email_ID_Creation.xlsx, and mails both at once to sysadmin.math, cc
- *     chair.math, office.math, the reporting faculty and the postdoc. The office
- *     forwards it to IISc email support by hand.
+ *     Email_ID_Creation.xlsx, and mails both at once to sysadmin.math, who
+ *     reviews and forwards to IISc email support by hand.
  *   php submit.php --selftest you@iisc.ac.in
  *     sends one test mail and prints the SMTP conversation.
  *
@@ -34,9 +33,7 @@ const DATA_DIR = '/var/lib/getamailid';
 const TEMPLATE = __DIR__ . '/../assets/Email_ID_Creation.xlsx';
 
 const TO          = 'sysadmin.math@iisc.ac.in';
-const CC          = ['chair.math@iisc.ac.in', 'office.math@iisc.ac.in'];
-const DOMAIN      = 'iisc.ac.in';
-const LIST_NAME   = 'postdocs.math';
+const CC          = [];
 
 const MAX_PDF     = 10 * 1024 * 1024;
 const PER_IP_HOUR = 5;
@@ -184,12 +181,17 @@ function send_mail(array $to, array $cc, string $subject, string $body, array $f
 
 // ------------------------------------------------------------------ send
 function send_request(array $r, string $base, array &$trace): bool {
-    $body = "Dear Team,\n\n"
-          . "Could you please create an IISc email account for a PostDoc who has recently joined the Department of Mathematics? The details are attached.\n\n"
-          . "Kindly add the user to " . LIST_NAME . " as well.\n\n"
-          . "Thank you.\nNitish\n080-2293-2514\n";
-    return send_mail([TO], array_merge(CC, [$r['faculty'] . '@' . DOMAIN, $r['email']]),
-        'Email ID creation request - ' . $r['name'], $body,
+    $body = "Hi Nitish,\n\n"
+          . "This is an automated email. {$r['name']} has just submitted a request for an IISc email ID at "
+          . "https://math.iisc.ac.in/getamailid. The filled Email_ID_Creation.xlsx and the joining report are attached. "
+          . "Please review them and forward the request to emailsupport@iisc.ac.in.\n\n"
+          . "Name:              {$r['name']}\n"
+          . "Designation:       {$r['designation']}\n"
+          . "Reporting faculty: {$r['faculty_name']}\n"
+          . "Joining / ending:  {$r['joining']} to {$r['ending']}\n"
+          . "Personal email:    {$r['email']}\n"
+          . "Mobile:            {$r['mobile']}\n";
+    return send_mail([TO], CC, 'Email ID creation request - ' . $r['name'], $body,
         ['Email_ID_Creation.xlsx' => "$base.xlsx", 'Joining_Report.pdf' => "$base.pdf"], $trace);
 }
 
@@ -235,11 +237,12 @@ function handle_post(): void {
     fill_xlsx(['Mathematics', $first, $last, $desig, $mobile, $email, 'Prof. ' . FACULTY[$fac], $join, $end, $proj], "$base.xlsx");
 
     $trace = [];
-    if (!send_request(['name' => $name, 'email' => $email, 'faculty' => $fac], $base, $trace)) {
+    if (!send_request(['name' => $name, 'email' => $email, 'designation' => $desig, 'faculty_name' => FACULTY[$fac],
+                       'joining' => $join, 'ending' => $end, 'mobile' => $mobile], $base, $trace)) {
         error_log("getamailid: send failed for $id\n" . implode("\n", $trace));
         reply(500, 'Your details were saved but the email could not be sent. Please write to office.math@iisc.ac.in.');
     }
-    reply(200, "Thank you. Your request has been sent to the department office; you and $fac@iisc.ac.in are in copy.");
+    reply(200, 'Thank you. Your request has been sent to the department office, which will forward it to IISc email support.');
 }
 
 // ------------------------------------------------------------------ main
