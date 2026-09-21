@@ -22,7 +22,7 @@ permalink: /get-iisc-email-math/
 <p>Fill in the details exactly as they should appear on your IISc account, and
 attach your <strong>joining report / joining memo</strong> as a PDF, signed by the
 Registrar, Deputy Registrar or Assistant Registrar (HR). The office forwards the
-request to IISc email support.</p>
+request to IISc email support; a copy comes to you.</p>
 
 <form id="gm" action="submit.php" method="post" enctype="multipart/form-data">
   <label for="first">Given names (first name and expanded middle names)</label>
@@ -31,8 +31,21 @@ request to IISc email support.</p>
   <label for="last">Last name(s)</label>
   <input id="last" name="last" required maxlength="200">
 
-  <label for="designation">Designation (e.g. NBHM PDF, IoE PDF, Project PDF)</label>
-  <input id="designation" name="designation" required maxlength="200">
+  <label for="designation">Designation (pick one or type your own)</label>
+  <input id="designation" name="designation" list="designations" required maxlength="200" autocomplete="off">
+  <datalist id="designations">
+    <option value="NBHM PDF">
+    <option value="IoE PDF">
+    <option value="Raman PDF">
+    <option value="NPDF">
+    <option value="Kothari PDF">
+    <option value="Institute PDF">
+    <option value="IISc RA">
+    <option value="CPDF">
+    <option value="Axis Bank Centre PDF">
+    <option value="DST Women Scientist">
+    <option value="INSPIRE Faculty">
+  </datalist>
 
   <label for="mobile">Mobile number</label>
   <input id="mobile" name="mobile" type="tel" required pattern="\+?[0-9 \-]{6,20}">
@@ -40,12 +53,12 @@ request to IISc email support.</p>
   <label for="email">Personal email address (the account details will be sent here)</label>
   <input id="email" name="email" type="email" required maxlength="200">
 
-  <label for="faculty">Reporting faculty</label>
-  <select id="faculty" name="faculty" required>
-    <option value="">— select —</option>
-    {% for f in site.data.faculty %}<option value="{{ f.user-id | strip }}">{{ f.name | strip }}</option>
+  <label for="faculty">Reporting faculty (start typing the name)</label>
+  <input id="faculty" name="faculty" list="faculty-list" required autocomplete="off">
+  <datalist id="faculty-list">
+    {% for f in site.data.faculty %}<option value="{{ f.name | strip }}">
     {% endfor %}
-  </select>
+  </datalist>
 
   <label for="joining">Joining date</label>
   <input id="joining" name="joining" type="date" required>
@@ -53,14 +66,20 @@ request to IISc email support.</p>
   <label for="ending">Ending date</label>
   <input id="ending" name="ending" type="date" required>
 
-  <label for="project">Project ID</label>
+  <label for="project">Project ID (leave unchanged if you are unsure)</label>
   <select id="project" name="project" required>
     <option value="CSSP">CSSP</option>
     <option value="FnA" selected>FnA</option>
     <option value="SID">SID</option>
   </select>
 
-  <label for="report">Joining report / memo (PDF, signed, max 10 MB)</label>
+  <label for="doctype">Supporting document</label>
+  <select id="doctype" name="doctype" required>
+    <option value="Joining Report">Joining report</option>
+    <option value="Joining Memo">Joining memo</option>
+  </select>
+
+  <label for="report">Upload it (PDF, signed, max 10 MB)</label>
   <input id="report" name="report" type="file" accept="application/pdf" required>
 
   <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>

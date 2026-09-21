@@ -5,8 +5,8 @@
  * WHAT IT DOES
  *   POST (from index.html, served at /get-iisc-email-math)
  *     validates the form + the signed joining report (PDF), fills the office's
- *     Email_ID_Creation.xlsx, and mails both at once to sysadmin.math, who
- *     reviews and forwards to IISc email support by hand.
+ *     Email_ID_Creation.xlsx, and mails both at once to sysadmin.math (cc the
+ *     requester), who reviews and forwards to IISc email support by hand.
  *   php submit.php --selftest you@iisc.ac.in
  *     sends one test mail and prints the SMTP conversation.
  *
@@ -38,6 +38,7 @@ const CC          = [];
 const MAX_PDF     = 10 * 1024 * 1024;
 const PER_IP_HOUR = 5;
 const PROJECTS    = ['CSSP', 'FnA', 'SID'];
+const DOCTYPES    = ['Joining Report', 'Joining Memo'];
 
 $CFG = [];
 if (is_readable(DATA_DIR . '/config.php')) {
@@ -53,9 +54,8 @@ define('SMTP_USER', $c('smtp_user', ''));
 define('SMTP_PASS', $c('smtp_pass', ''));
 define('SMTP_HELO', $c('smtp_helo', 'math.iisc.ac.in'));
 
-// Copied from booking.php (generated from _data/faculty.yaml). The browser sends a
-// user-id; the server decides what name and address that means, so a form
-// cannot cc an arbitrary address.
+// Copied from booking.php (generated from _data/faculty.yaml). The form sends the
+// name (typed against a datalist); it must match one of these exactly.
 const FACULTY = [
     'arvind'         => 'Arvind Ayyer',
     'abhi'           => 'Abhishek Banerjee',
@@ -182,17 +182,18 @@ function send_mail(array $to, array $cc, string $subject, string $body, array $f
 // ------------------------------------------------------------------ send
 function send_request(array $r, string $base, array &$trace): bool {
     $body = "Hi Nitish,\n\n"
-          . "This is an automated email. {$r['name']} has just submitted a request for an IISc email ID at "
-          . "https://math.iisc.ac.in/get-iisc-email-math. The filled Email_ID_Creation.xlsx and the joining report are attached. "
-          . "Please review them and forward the request to emailsupport@iisc.ac.in.\n\n"
+          . "This is an automated email. Dr. {$r['name']} has just submitted a request for an IISc email ID at "
+          . "https://math.iisc.ac.in/get-iisc-email-math. The filled Email_ID_Creation.xlsx and the {$r['doctype']} are attached. "
+          . "Please review them and forward the request to emailsupport@iisc.ac.in. The requester is in copy.\n\n"
           . "Name:              {$r['name']}\n"
           . "Designation:       {$r['designation']}\n"
           . "Reporting faculty: {$r['faculty_name']}\n"
           . "Joining / ending:  {$r['joining']} to {$r['ending']}\n"
           . "Personal email:    {$r['email']}\n"
           . "Mobile:            {$r['mobile']}\n";
-    return send_mail([TO], CC, 'Email ID creation request - ' . $r['name'], $body,
-        ['Email_ID_Creation.xlsx' => "$base.xlsx", 'Joining_Report.pdf' => "$base.pdf"], $trace);
+    $tag = preg_replace('/[^A-Za-z0-9]+/', '_', $r['name']);
+    return send_mail([TO], array_merge(CC, [$r['email']]), 'Email ID creation request - Dr. ' . $r['name'], $body,
+        ["Email_ID_Creation_$tag.xlsx" => "$base.xlsx", str_replace(' ', '_', $r['doctype']) . "_$tag.pdf" => "$base.pdf"], $trace);
 }
 
 // ------------------------------------------------------------------ web
@@ -215,12 +216,13 @@ function handle_post(): void {
     file_put_contents($ipf, implode("\n", array_merge($hits, [time()])));
 
     $first = $p('first'); $last = $p('last'); $desig = $p('designation'); $mobile = $p('mobile');
-    $email = $p('email'); $fac = $p('faculty'); $join = $p('joining'); $end = $p('ending'); $proj = $p('project');
+    $email = $p('email'); $fac = $p('faculty'); $join = $p('joining'); $end = $p('ending'); $proj = $p('project'); $doctype = $p('doctype');
     foreach (['first' => $first, 'last' => $last, 'designation' => $desig, 'email' => $email, 'joining' => $join, 'ending' => $end] as $k => $v)
         if ($v === '' || strlen($v) > 200) reply(400, "Missing or too long: $k");
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) reply(400, 'Invalid personal email');
-    if (!isset(FACULTY[$fac])) reply(400, 'Unknown reporting faculty');
+    if (!in_array($fac, FACULTY, true)) reply(400, 'Reporting faculty must be picked from the list');
     if (!in_array($proj, PROJECTS, true)) reply(400, 'Invalid project ID');
+    if (!in_array($doctype, DOCTYPES, true)) reply(400, 'Invalid supporting document type');
     $d = static fn(string $s) => ($t = strtotime($s)) && preg_match('/^\d{4}-\d\d-\d\d$/', $s) ? date('d-m-Y', $t) : reply(400, 'Invalid date');
     $join = $d($join); $end = $d($end);
     if (!preg_match('/^\+?[0-9 \-]{6,20}$/', $mobile)) reply(400, 'Invalid mobile number');
@@ -234,11 +236,11 @@ function handle_post(): void {
     $id = date('Ymd-His') . '-' . preg_replace('/[^a-z0-9]+/', '-', strtolower($name));
     $base = DATA_DIR . "/requests/$id";
     if (!move_uploaded_file($up['tmp_name'], "$base.pdf")) reply(500, 'Could not store the PDF');
-    fill_xlsx(['Mathematics', $first, $last, $desig, $mobile, $email, 'Prof. ' . FACULTY[$fac], $join, $end, $proj], "$base.xlsx");
+    fill_xlsx(['Mathematics', $first, $last, $desig, $mobile, $email, 'Prof. ' . $fac, $join, $end, $proj], "$base.xlsx");
 
     $trace = [];
-    if (!send_request(['name' => $name, 'email' => $email, 'designation' => $desig, 'faculty_name' => FACULTY[$fac],
-                       'joining' => $join, 'ending' => $end, 'mobile' => $mobile], $base, $trace)) {
+    if (!send_request(['name' => $name, 'email' => $email, 'designation' => $desig, 'faculty_name' => $fac,
+                       'joining' => $join, 'ending' => $end, 'mobile' => $mobile, 'doctype' => $doctype], $base, $trace)) {
         error_log("getamailid: send failed for $id\n" . implode("\n", $trace));
         reply(500, 'Your details were saved but the email could not be sent. Please write to office.math@iisc.ac.in.');
     }
