@@ -5,34 +5,25 @@
  * WHAT IT DOES
  *   POST (from index.html, served at /getamailid)
  *     validates the form + the signed joining report (PDF), fills the office's
- *     Email_ID_Creation.xlsx, queues the request, and at once mails Nitish
- *     "X has filled the form; the request goes out in 4 working hours".
- *   php submit.php --cron        (crontab, every minute)
- *     sends every queued request whose time has come: to emailsupport, cc
- *     office.math, chair.math and the reporting faculty, with the
- *     xlsx and the PDF attached, From nitishs@iisc.ac.in.
+ *     Email_ID_Creation.xlsx, and mails both at once to sysadmin.math, cc
+ *     chair.math, office.math, the reporting faculty and the postdoc. The office
+ *     forwards it to IISc email support by hand.
  *   php submit.php --selftest you@iisc.ac.in
  *     sends one test mail and prints the SMTP conversation.
- *   php submit.php --when "2026-09-25 17:29"
- *     prints when a form filled at that moment would be sent (sanity check).
  *
  * INSTALLING
  *   1. Deploys with the site to /var/www/html/getamailid/submit.php (assets/Email_ID_Creation.xlsx
- *      rides along as the template).
+ *      rides along as the template). Needs php-zip.
  *   2. mkdir -p /var/lib/getamailid && chown www-data:www-data /var/lib/getamailid && chmod 700 /var/lib/getamailid
+ *      Every request's xlsx + pdf is kept there under requests/.
  *   3. Credentials live OUTSIDE the repo (deploy.sh ships committed files, so a
  *      password here would land on GitHub), in /var/lib/getamailid/config.php:
  *        <?php return [
- *          'smtp_host' => 'iisc-ac-in.mail.protection.outlook.com', 'smtp_port' => 25, 'smtp_tls' => 'starttls',
- *          'smtp_user' => '',   // M365 Direct Send: no auth, iisc.ac.in recipients only
- *          'mail_from' => 'nitishs@iisc.ac.in',
+ *          'smtp_host' => 'smtp.gmail.com', 'smtp_port' => 587, 'smtp_tls' => 'starttls',
+ *          'smtp_user' => 'tamathiisc@gmail.com', 'smtp_pass' => '<gmail app password>',
+ *          'mail_from' => 'tamathiisc@gmail.com',
  *        ];
  *      chown www-data:www-data, chmod 600.
- *   4. crontab -u www-data -e:
- *        * * * * * php /var/www/html/getamailid/submit.php --cron
- *   5. To cancel a queued request before it goes out:
- *        rm /var/lib/getamailid/queue/<id>.*
- *      (the id is in the notification mail's subject.)
  */
 
 declare(strict_types=1);
@@ -42,17 +33,10 @@ date_default_timezone_set('Asia/Kolkata');
 const DATA_DIR = '/var/lib/getamailid';
 const TEMPLATE = __DIR__ . '/../assets/Email_ID_Creation.xlsx';
 
-const ME          = 'nitishs@iisc.ac.in';
-const TO          = 'emailsupport@iisc.ac.in';
-const CC          = ['office.math@iisc.ac.in', 'chair.math@iisc.ac.in'];
+const TO          = 'sysadmin.math@iisc.ac.in';
+const CC          = ['chair.math@iisc.ac.in', 'office.math@iisc.ac.in'];
 const DOMAIN      = 'iisc.ac.in';
 const LIST_NAME   = 'postdocs.math';
-
-// "4 working hours": Mon-Fri, 09:00-17:30. A form filled Friday 17:29 goes out
-// Monday 12:59. ponytail: no holiday calendar; add a HOLIDAYS list here if it bites.
-const WORK_START  = 9 * 60;
-const WORK_END    = 17 * 60 + 30;
-const DELAY_MIN   = 4 * 60;
 
 const MAX_PDF     = 10 * 1024 * 1024;
 const PER_IP_HOUR = 5;
@@ -64,7 +48,7 @@ if (is_readable(DATA_DIR . '/config.php')) {
     if (is_array($loaded)) $CFG = $loaded;
 }
 $c = static fn(string $k, $d) => $CFG[$k] ?? $d;
-define('MAIL_FROM', $c('mail_from', ME));
+define('MAIL_FROM', $c('mail_from', 'no-reply@math.iisc.ac.in'));
 define('SMTP_HOST', $c('smtp_host', ''));
 define('SMTP_PORT', (int) $c('smtp_port', 25));
 define('SMTP_TLS',  $c('smtp_tls',  ''));
@@ -105,25 +89,6 @@ const FACULTY = [
     'rvenkat'        => 'R. Venkatesh',
     'kverma'         => 'Kaushal Verma'
 ];
-
-// ------------------------------------------------------------------ scheduling
-// Advance $ts by $mins working minutes. Outside working hours the clock does not
-// run: minutes still owed carry to the next working morning.
-function add_working_minutes(int $ts, int $mins): int {
-    while (true) {
-        $dow = (int) date('N', $ts);
-        $tod = (int) date('G', $ts) * 60 + (int) date('i', $ts);
-        if ($dow > 5 || $tod >= WORK_END) {                         // jump to next working 09:00
-            $ts = strtotime('tomorrow', $ts) + WORK_START * 60;
-            continue;
-        }
-        if ($tod < WORK_START) { $ts = strtotime('today', $ts) + WORK_START * 60; $tod = WORK_START; }
-        $left = WORK_END - $tod;
-        if ($mins <= $left) return $ts + $mins * 60;
-        $mins -= $left;
-        $ts += $left * 60;
-    }
-}
 
 // ------------------------------------------------------------------ xlsx
 // The template is a zip; row 2 of sheet1 is the one data row. Rewrite just that
@@ -217,32 +182,15 @@ function send_mail(array $to, array $cc, string $subject, string $body, array $f
     } finally { @fclose($fh); }
 }
 
-// ------------------------------------------------------------------ queue
-function qdir(): string { return DATA_DIR . '/queue'; }
-
+// ------------------------------------------------------------------ send
 function send_request(array $r, string $base, array &$trace): bool {
     $body = "Dear Team,\n\n"
           . "Could you please create an IISc email account for a PostDoc who has recently joined the Department of Mathematics? The details are attached.\n\n"
           . "Kindly add the user to " . LIST_NAME . " as well.\n\n"
           . "Thank you.\nNitish\n080-2293-2514\n";
-    return send_mail([TO], array_merge(CC, [$r['faculty'] . '@' . DOMAIN]),
+    return send_mail([TO], array_merge(CC, [$r['faculty'] . '@' . DOMAIN, $r['email']]),
         'Email ID creation request - ' . $r['name'], $body,
         ['Email_ID_Creation.xlsx' => "$base.xlsx", 'Joining_Report.pdf' => "$base.pdf"], $trace);
-}
-
-function run_cron(): void {
-    foreach (glob(qdir() . '/*.json') ?: [] as $f) {
-        $r = json_decode(file_get_contents($f), true);
-        if (!$r || $r['send_at'] > time()) continue;
-        $base = substr($f, 0, -5);
-        $trace = [];
-        if (send_request($r, $base, $trace)) {
-            @mkdir(DATA_DIR . '/sent', 0700);
-            foreach (['json', 'xlsx', 'pdf'] as $e) @rename("$base.$e", DATA_DIR . '/sent/' . basename($base) . ".$e");
-        } else {
-            error_log("getamailid: send failed for " . basename($base) . "\n" . implode("\n", $trace));
-        }
-    }
 }
 
 // ------------------------------------------------------------------ web
@@ -257,7 +205,7 @@ function handle_post(): void {
     $p = static fn(string $k) => trim((string) ($_POST[$k] ?? ''));
     if ($p('website') !== '') reply(200, 'ok');                         // honeypot
 
-    @mkdir(qdir(), 0700, true);
+    @mkdir(DATA_DIR . '/requests', 0700, true);
     $ip = preg_replace('/[^0-9a-f.:]/i', '', $_SERVER['REMOTE_ADDR'] ?? '');
     $ipf = DATA_DIR . "/ip-$ip";
     $hits = array_filter(file_exists($ipf) ? explode("\n", trim(file_get_contents($ipf))) : [], fn($t) => (int) $t > time() - 3600);
@@ -282,38 +230,27 @@ function handle_post(): void {
 
     $name = "$first $last";
     $id = date('Ymd-His') . '-' . preg_replace('/[^a-z0-9]+/', '-', strtolower($name));
-    $base = qdir() . "/$id";
+    $base = DATA_DIR . "/requests/$id";
     if (!move_uploaded_file($up['tmp_name'], "$base.pdf")) reply(500, 'Could not store the PDF');
     fill_xlsx(['Mathematics', $first, $last, $desig, $mobile, $email, 'Prof. ' . FACULTY[$fac], $join, $end, $proj], "$base.xlsx");
 
-    $send_at = add_working_minutes(time(), DELAY_MIN);
-    file_put_contents("$base.json", json_encode([
-        'name' => $name, 'email' => $email, 'faculty' => $fac, 'send_at' => $send_at, 'filed_at' => time(),
-    ]));
-
     $trace = [];
-    send_mail([ME], [], "New email ID form: $name [$id]",
-        "Hello Nitish,\n\nThis is an automated email to notify you that $name has filled the form to get a new iisc email and an email to the email support is scheduled to be sent out exactly after 4 working hours.\n",
-        ['Email_ID_Creation.xlsx' => "$base.xlsx", 'Joining_Report.pdf' => "$base.pdf"], $trace);
-
-    reply(200, "Thank you. Your request has been recorded and will be forwarded to IISc email support on " . date('l, d M Y \a\t H:i', $send_at) . '.');
+    if (!send_request(['name' => $name, 'email' => $email, 'faculty' => $fac], $base, $trace)) {
+        error_log("getamailid: send failed for $id\n" . implode("\n", $trace));
+        reply(500, 'Your details were saved but the email could not be sent. Please write to office.math@iisc.ac.in.');
+    }
+    reply(200, "Thank you. Your request has been sent to the department office; you and $fac@iisc.ac.in are in copy.");
 }
 
 // ------------------------------------------------------------------ main
 if (PHP_SAPI === 'cli') {
     $a = $argv[1] ?? '';
-    if ($a === '--cron') { run_cron(); exit; }
-    if ($a === '--when') { echo date('D d M Y H:i', add_working_minutes(strtotime($argv[2] ?? 'now'), DELAY_MIN)), "\n"; exit; }
     if ($a === '--selftest') {
         $trace = [];
-        $ok = send_mail([$argv[2] ?? ME], [], 'getamailid self-test', "It works.\n", [], $trace);
+        $ok = send_mail([$argv[2] ?? TO], [], 'getamailid self-test', "It works.\n", [], $trace);
         echo implode("\n", $trace), "\n", $ok ? "sent\n" : "FAILED\n"; exit((int) !$ok);
     }
-    // Self-check for the working-hours arithmetic: Fri 17:29 -> Mon 12:59, Mon 09:00 -> Mon 13:00.
-    assert(date('D H:i', add_working_minutes(strtotime('2026-09-25 17:29'), DELAY_MIN)) === 'Mon 12:59');
-    assert(date('D H:i', add_working_minutes(strtotime('2026-09-21 09:00'), DELAY_MIN)) === 'Mon 13:00');
-    assert(date('D H:i', add_working_minutes(strtotime('2026-09-26 11:00'), DELAY_MIN)) === 'Mon 13:00');
-    echo "usage: --cron | --when 'YYYY-MM-DD HH:MM' | --selftest addr\n"; exit;
+    echo "usage: --selftest addr\n"; exit;
 }
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') reply(405, 'POST only');
 handle_post();
