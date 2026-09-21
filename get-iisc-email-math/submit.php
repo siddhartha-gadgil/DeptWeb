@@ -1,9 +1,9 @@
 <?php
 /**
- * New-postdoc email-ID request for math.iisc.ac.in/getamailid
+ * New-postdoc email-ID request for math.iisc.ac.in/get-iisc-email-math
  *
  * WHAT IT DOES
- *   POST (from index.html, served at /getamailid)
+ *   POST (from index.html, served at /get-iisc-email-math)
  *     validates the form + the signed joining report (PDF), fills the office's
  *     Email_ID_Creation.xlsx, and mails both at once to sysadmin.math, who
  *     reviews and forwards to IISc email support by hand.
@@ -11,12 +11,12 @@
  *     sends one test mail and prints the SMTP conversation.
  *
  * INSTALLING
- *   1. Deploys with the site to /var/www/html/getamailid/submit.php (assets/Email_ID_Creation.xlsx
+ *   1. Deploys with the site to /var/www/html/get-iisc-email-math/submit.php (assets/Email_ID_Creation.xlsx
  *      rides along as the template). Needs php-zip.
  *   2. mkdir -p /var/lib/getamailid && chown www-data:www-data /var/lib/getamailid && chmod 700 /var/lib/getamailid
  *      Every request's xlsx + pdf is kept there under requests/.
  *   3. Credentials live OUTSIDE the repo (deploy.sh ships committed files, so a
- *      password here would land on GitHub), in /var/lib/getamailid/config.php:
+ *      password here would land on GitHub), in /var/lib/get-iisc-email-math/config.php:
  *        <?php return [
  *          'smtp_host' => 'smtp.gmail.com', 'smtp_port' => 587, 'smtp_tls' => 'starttls',
  *          'smtp_user' => 'tamathiisc@gmail.com', 'smtp_pass' => '<gmail app password>',
@@ -183,7 +183,7 @@ function send_mail(array $to, array $cc, string $subject, string $body, array $f
 function send_request(array $r, string $base, array &$trace): bool {
     $body = "Hi Nitish,\n\n"
           . "This is an automated email. {$r['name']} has just submitted a request for an IISc email ID at "
-          . "https://math.iisc.ac.in/getamailid. The filled Email_ID_Creation.xlsx and the joining report are attached. "
+          . "https://math.iisc.ac.in/get-iisc-email-math. The filled Email_ID_Creation.xlsx and the joining report are attached. "
           . "Please review them and forward the request to emailsupport@iisc.ac.in.\n\n"
           . "Name:              {$r['name']}\n"
           . "Designation:       {$r['designation']}\n"
