@@ -136,7 +136,7 @@
   title: Some problems in fluid mechanics with special reference to turbomechanary
   advisor: G. Nath
 
-- name: R. Girija Devi 
+- name: R. Girija Devi
   year: 1974
   title: Theoretical studies on flow problems in polar fluids
   advisor: Rathna Devenathan, Renuka Ravindran
@@ -410,7 +410,7 @@
   year: 1989
   title: Ergodic and adaptive control of Markov Processes
   advisor: V. Borkar, V. G. Tikekar
-  present: IISc 
+  present: IISc
 
 - name: M. S. Ganagi
   year: 1989
@@ -456,7 +456,7 @@
 
 - name: B. R. Shankar
   year: 1992
-  title: Finite section convolution integral operations structure  of resolvent and solution of equations of the first kind 
+  title: Finite section convolution integral operations structure  of resolvent and solution of equations of the first kind
   advisor: R. Vittal Rao
   present: NIT Surathkal
 
@@ -517,7 +517,7 @@
   advisor: P. L. Sachdev
   present: M. K. University (Madurai)
 
-- name: T. Chitra 
+- name: T. Chitra
   year: 1995
   title: Combat modelling simulation of aerial combact of m vs n aircraft
   advisor: G. Nath, A. Chakrabarti
@@ -678,7 +678,7 @@
   title: Non-Darcy non-newtonian free or mixed convection flow heat transfer problems in porous media
   advisor: A. Chakrabarti, M. K. Ghosh
 
-- name: Srinivasa Rao Manam 
+- name: Srinivasa Rao Manam
   year: 2003
   title: Singular integral equations in water wave scattering
   advisor: A. Chakrabarti
@@ -699,7 +699,7 @@
   year: 2005
   title: Peristaltic flows with some applications
   advisor: A. Ramachandra Rao
-  present: 	Associate Professor, IIT Ropar
+  present:  Associate Professor, IIT Ropar
 
 - name: Dharmathi Sheetal
   year: 2005
@@ -717,7 +717,7 @@
   year: 2005
   title: Analysis and numerical approximation of conservation laws with discontinuous coefficients
   advisor: M. K. Ghosh, Adimurthi
-  present: 	Professor ETH Zurich
+  present:  Professor ETH Zurich
 
 - name: N. Hariharan
   year: 2005
@@ -745,7 +745,7 @@
   year: 2007
   title: Orbit model analysis and dynamic filter compensation for onboard autonomy
   advisor: M. K. Ghosh, R. Pandian (ISRO)
-  present: 	ISRO (Retd.)
+  present:  ISRO (Retd.)
 
 - name: Prabal Paul
   year: 2007
@@ -763,7 +763,7 @@
   year: 2008
   title: Semi-Markov processes in dynamic games and quantitative finance
   advisor: M. K. Ghosh
-  present: 	Associate Professor, IISER Pune
+  present:  Associate Professor, IISER Pune
 
 - name: Nedungadi Atira G.
   year: 2010
@@ -774,7 +774,7 @@
   year: 2010
   title: Some aspects of the Kobayashi and Caratheodory metrics on pseudoconvex domains
   advisor: K. Verma
-  present: 	Assiatant Professor, IIT Bombay
+  present:  Assiatant Professor, IIT Bombay
 
 - name: Hari Shankar Gupta
   year: 2010
@@ -803,7 +803,7 @@
   year: 2011
   title: Segal-Bargmann transform and Paley-Wiener theorems on motion groups
   advisor: E. K. Narayanan
-  present: 	Assitant Professor, University of Calcutta
+  present:  Assitant Professor, University of Calcutta
 
 - name: Rahul Garg
   year: 2012
@@ -863,7 +863,7 @@
   title: On the study of certain Riemannian functionals
   advisor: H. Seshadri
 
-- name: Sanjay P. K. 
+- name: Sanjay P. K.
   year: 2013
   title: Riesz transforms associated with Heisenberg groups and Grushin operators
   advisor: S. Thangavelu
@@ -885,7 +885,7 @@
   advisor: M. K. Ghosh
   present: IIT Guwahati
 
-- name: Jaikrishnan J. 
+- name: Jaikrishnan J.
   year: 2014
   title: On the structure of proper holomorphic mappings
   advisor: G. Bharali
@@ -965,7 +965,7 @@
 
 - name: Rajeev Gupta
   year: 2015
-  title: The Caratheodory-Fejer interpolation problems and the von Neumann inequality, 
+  title: The Caratheodory-Fejer interpolation problems and the von Neumann inequality,
   advisor: Gadadhar Misra
   present: Assistant Professor, IIT Goa
 
@@ -973,7 +973,7 @@
   year: 2016
   title: $L^p$ asymptotics of Fourier transform of fractal measures
   advisor: E. K. Narayanan
-  present: Assitant Professor, IISER Berhampur, Odisha				
+  present: Assitant Professor, IISER Berhampur, Odisha
 
 - name: Tulasi Ram Reddy A.
   year: 2016
@@ -1002,7 +1002,7 @@
   year: 2016
   title: "Operator theory on symmetrized  bidisc  and tetrablock - some explicit  Contructions"
   advisor: Tirthankar Bhattacharyya
-  present: INSPIRE faculty at TIFR CAM, Bangalore	
+  present: INSPIRE faculty at TIFR CAM, Bangalore
 
 - name: Sudipto Chowdhury
   year: 2016
@@ -1052,7 +1052,7 @@
   year: 2018
   title: Analytic Models, Dilations Wandering subspaces and inner functions
   advisor:  Jaydeb Sarkar and Gadadhar Misra
-  present: Postdoc, IIT, Bombay 
+  present: Postdoc, IIT, Bombay
 
 - name: Gaddam Sharat
   year: 2018
@@ -1087,7 +1087,7 @@
   title: On the Kobayashi geometry of domains
   advisor: Gautam Bharali
 
-- name : Hassain M. (IISc Mathematics)
+- name: Hassain M.
   year: 2019
   title: 'Representations of Special Compact Linear Groups of Order Two: Construction, Representation Growth, Group Algebras, and Branching Laws'
   advisor: Pooja Singla
@@ -1098,194 +1098,198 @@
   advisor: Soumya Das
   present: Postdoc (HRI)
 
-- name: Sanjay Jhawar	
-  year: 2019	
+- name: Sanjay Jhawar
+  year: 2019
   title: Phase transition, percolation at criticality, Poisson convergence of isolated vertices and connectivity in random connection models
-  advisor: Srikanth Iyer	
-  present: Postdoc (ISI Bangalore) 
+  advisor: Srikanth Iyer
+  present: Postdoc (ISI Bangalore)
 
-- name : Raghavendra Tripathi 
+# MS thesis (title matches the MS defence seminar), no PhD thesis seminar
+# - name: Raghavendra Tripathi
+#   year: 2020
+#   title: Determinantal processes and stochastic domination
+#   advisor:
+
+- name: Samrat Sen
   year: 2020
-  title: Determinantal processes and stochastic domination
-  advisor: 
-
-- name: Samrat Sen	
-  year: 2020	
-  title: Geometric invariants for a class of submodules of analytic Hilbert modules	
+  title: Geometric invariants for a class of submodules of analytic Hilbert modules
   advisor: Gadadhar Misra
-  
-- name: Sourav Hait	
-  year: 2020	
+
+- name: Sourav Hait
+  year: 2020
   title: Sparse bounds for various maximal functions
   advisor: S. Thangavelu
-  
-- name : Subhajit Ghosh (IISc Mathematics)
+
+- name: Subhajit Ghosh
   year: 2020
   title: Total variation cutoff for random walks on some finite groups
   advisor: Arvind Ayyer
-  
-- name : Paramita Pramanick (IISc Mathematics)
+
+- name: Paramita Pramanick
   year: 2021
   title: Trace Estimate For The Determinant Operator and K-Homogeneous Operators
   advisor: Tirthankar Bhattacharyya
-  
-- name : Neeladri Maitra (IISc Mathematics)
-  year: 2021
-  title: Random graphs with given degree sequence
-  advisor:
-  
-- name : Nidhi Rathi (IISc Mathematics)
+
+# MS thesis (title matches the MS defence seminar), no PhD thesis seminar
+# - name: Neeladri Maitra
+#   year: 2021
+#   title: Random graphs with given degree sequence
+#   advisor:
+
+- name: Nidhi Rathi
   year: 2021
   title: Algorithmic and Hardness Results for Fundamental Fair-Division Problems
-  advisor: 
-  
-- name : Lakshmi Priya M. E. (IISc Mathematics)
+  advisor:
+
+- name: Lakshmi Priya M. E.
   year: 2021
   title: Nodal sets of random functions
   advisor: Manjunath Krishnapur
-  
-- name : Anindya Biswas (IISc Mathematics)
+
+- name: Anindya Biswas
   year: 2021
   title: On the geometry and operator theory of the bidisc and the symmetrized bidisc
   advisor: Tirthankar Bhattacharyya
-  
-- name : Rakesh Kumar (IISc Mathematics)
+
+- name: Rakesh Kumar
   year: 2021
   title: Hardy's inequalities for Grushin operator and Hermite multipliers on modulation spaces
   advisor: S. Thangavelu
-  
-- name : Mayuresh Londhe (IISc Mathematics)
+
+- name: Mayuresh Londhe
   year: 2021
   title: On certain invariant measures for correspondences, their analysis, and an application to recurrence
   advisor: Gautam Bharali
-  
-- name : Sahil Gehlawat (IISc Mathematics)
+
+- name: Sahil Gehlawat
   year: 2021
   title: Hermitian metrics and singular Riemann surface foliations
   advisor: Kaushal Verma
-  
-- name : Prateek Kumar Vishwakarma (IISc Mathematics)
+
+- name: Prateek Kumar Vishwakarma
   year: 2021
   title: Positivity preservers forbidden to operate on diagonal blocks
   advisor: Apoorva Khare
-  
-- name : Ramesh Chandra Sau (IISc Mathematics)
+
+- name: Ramesh Chandra Sau
   year: 2021
   title: Finite Element Analysis of Dirichlet Boundary Control Problems Governed by Certain PDEs
-  advisor: 
-  
-- name : Abu Sufian (IISc Mathematics)
+  advisor:
+
+- name: Abu Sufian
   year: 2022
   title: Homogenization of certain PDEs and associated optimal control problems on various rough domains
   advisor: E. K. Nandakumaran
-  
-- name : Sruthi Sekar (IISc Mathematics)
+
+- name: Sruthi Sekar
   year: 2022
   title: Near-optimal Non-malleable Codes and Leakage Resilient Secret Sharing Schemes
-  advisor: 
-  
-- name : Pritam Ganguly (IISc Mathematics)
+  advisor:
+
+- name: Pritam Ganguly
   year: 2022
   title: Quasi-analytic functions, spherical means, and uncertainty principles on Heisenberg groups and symmetric spaces
-  advisor: 
-  
-- name : G V Krishna Teja (IISc Mathematics)
+  advisor:
+
+- name: G V Krishna Teja
   year: 2022
   title: Weights of highest weight modules over Kac–Moody algebras
-  advisor: 
-  
-- name : Thummala Vamsi Krishna (IISc Mathematics)
-  year: 2022
-  title: Local Langlands correspondence for GL(1) and GL(2)
-  advisor: 
-  
-- name : Mansimar Singh (IISc Mathematics)
-  year: 2022
-  title: Attaching Galois Representations to Modular Forms of weight 2
-  advisor: 
-  
-- name : Rahul Biswas (IISc Mathematics)
+  advisor:
+
+# MS thesis (title matches the MS defence seminar), no PhD thesis seminar
+# - name: Thummala Vamsi Krishna
+#   year: 2022
+#   title: Local Langlands correspondence for GL(1) and GL(2)
+#   advisor:
+
+# MS thesis (title matches the MS defence seminar), no PhD thesis seminar
+# - name: Mansimar Singh
+#   year: 2022
+#   title: Attaching Galois Representations to Modular Forms of weight 2
+#   advisor:
+
+- name: Rahul Biswas
   year: 2023
   title: Local Projection Stabilization Methods for the Oseen Problem
-  advisor: 
-  
-- name : Renjith T. (IISc Mathematics)
+  advisor:
+
+- name: Renjith T.
   year: 2023
   title: Homogenization of PDEs on oscillating boundary domains with L1 data and Optimal control problems
-  advisor: 
-  
-- name : Nimisha Pahuja (IISc Mathematics)
+  advisor:
+
+- name: Nimisha Pahuja
   year: 2023
   title: Correlations in multispecies asymmetric exclusion process
   advisor: Arvind Ayyer
-  
-- name : Poornendu Kumar (IISc Mathematics)
+
+- name: Poornendu Kumar
   year: 2023
   title: Interaction of distinguished varieties and the Nevanlinna-Pick interpolation problem in some domains
-  advisor: 
-  
-- name : Kartick Ghosh (IISc Mathematics)
+  advisor:
+
+- name: Kartick Ghosh
   year: 2023
   title: On some canonical metrics on holomorphic vector bundles over Kähler manifolds
-  advisor: 
-  
-- name: Gobinda Sau (IISc Mathematics)
+  advisor:
+
+- name: Gobinda Sau
   year: 2024
   title: On two complex Hessian equations and convergence of corresponding flows
   advisor: Subhojoy Gupta
 
-- name: Arindam Mandal (IISc Mathematics)
+- name: Arindam Mandal
   year: 2024
   title: Existence and implications of positively curved metrics on holomorphic vector bundles
   advisor: Vamsi Pritam Pingali
 
-- name: Pranab Sarkar (IISc Mathematics)
+- name: Pranab Sarkar
   year: 2024
   title: Integrated PhD
   advisor: Subhojoy Gupta
 
-- name: MD Irfan Habib (IISc Mathematics)
+- name: MD Irfan Habib
   year: 2024
   title: On regular subalgebras of Kac-Moody algebras and related combinatorics
   advisor: Venkatesh R
 
-- name: Sivaram P (IISc Mathematics)
+- name: Sivaram P
   year: 2024
   title: On existence and regularity of some complex Hessian equations on Kahler and transverse Kahler manifolds
   advisor: Kaushal Verma
 
-- name: Londhe Mayuresh Mahadeo (IISc Mathematics)
+- name: Londhe Mayuresh Mahadeo
   year: 2024
   title: On certain invariant measures for correspondences, their analysis, and an application to recurrence
   advisor: Gautam Bharali
 
 
-- name: Shubham Rastogi (IISc Mathematics)
+- name: Shubham Rastogi
   year: 2024
   title: On commuting isometries and commuting isometric semigroups
   advisor: Tirthankar Bhattacharyya
 
-- name: Pabitra Barman (IISc Mathematics)
+- name: Pabitra Barman
   year: 2024
   title: Dominating surface-group representations via Fock-Goncharov coordinates
   advisor: Subhojoy Gupta
 
-- name: Babhrubahan Bose (IISc Mathematics)
+- name: Babhrubahan Bose
   year: 2024
   title: Geometry of Normed Linear Spaces in Light of Birkhoff-James Orthogonality
   advisor: Apoorva Khare
 
-- name: Aakanksha Jain (IISc Mathematics)
+- name: Aakanksha Jain
   year: 2024
   title: Some aspects of weighted kernel functions on planar domains
   advisor: Kaushal Verma
 
-- name: Nishu Kumari (IISc Mathematics)
+- name: Nishu Kumari
   year: 2024
   title: Characters of classical groups twisted by roots of unity
   advisor: Arvind Ayyer
 
-- name: Ramesh Mete (IISc Mathematics)
+- name: Ramesh Mete
   year: 2024
   title: On two complex Hessian equations and convergence of corresponding flows.
   advisor: Ved V. Datar
@@ -1294,170 +1298,260 @@
   year: 2024
   title: The monopole-dimer model and eccentricities for Cartesian product of graphs
   advisor: Arvind Ayyer
-  
-  
+
+
+# Entries below were copied from the students page (year-of-joining, programme, office...);
+# year = year of degree, title = thesis title are unknown. Original keys kept as comments.
+
 - name: Annapurna Banik
-  user-id: annapurnab
-  year-of-joining: 2018
-  programme: PhD
-  image: true
-  guide: Gautam Bharali
-  scholarship: NBHM
-  office: L24(4)
-  
+  year: 2024
+  title: Holomorphic mappings and Kobayashi geometry of domains
+  advisor: Gautam Bharali
+  # year/title from _seminars/2024/2024-10-04-annapurna-banik.md
+  # user-id: annapurnab
+  # year-of-joining: 2018
+  # programme: PhD
+  # image: true
+  # guide: Gautam Bharali
+  # scholarship: NBHM
+  # office: L24(4)
+
 - name: Sompurkar Rajas Sandeep
-  user-id: rajass
-  year-of-joining: 2018
-  programme: PhD
-  image: true
-  guide: Vamsi Pritham Pingali
-  scholarship: Inspire
-  office: X20(6)
-  
+  year: 2024
+  title: The Momentum Construction Method for Higher Extremal Kähler and Conical Higher cscK Metrics
+  advisor: Vamsi Pritham Pingali
+  # year/title from _seminars/2024/2024-10-04-rajas-sompurkar.md
+  # user-id: rajass
+  # year-of-joining: 2018
+  # programme: PhD
+  # image: true
+  # guide: Vamsi Pritham Pingali
+  # scholarship: Inspire
+  # office: X20(6)
+
 - name: Sumanta Das
-  year-of-joining: 2019
-  programme: PhD
-  user-id: sumantadas
-  image: true
-  office: LH-I
-  
+  year: 2024
+  title: Maps between non-compact surfaces
+  advisor: 
+  # year/title from _seminars/2024/2024-09-19-sumanta-das.md
+  # year-of-joining: 2019
+  # programme: PhD
+  # user-id: sumantadas
+  # image: true
+  # office: LH-I
+
 - name: Abhay Jindal
-  year-of-joining: 2017
-  programme: Integrated PhD
-  user-id: abjayj
-  email: abhayjindal.999@gmail.com
-  guide: Vamsi Pritham Pingali
-  scholarship: IISc
-  webpage: https://sites.google.com/view/abhayjindal
-  image: true
-  office: X22(6)
-  
+  year: 2024
+  title: Invariants Associated with Complete Nevanlinna-Pick Spaces
+  advisor: Vamsi Pritham Pingali
+  # year/title from _seminars/2024/2024-10-01-abhay-jindal.md
+  # year-of-joining: 2017
+  # programme: Integrated PhD
+  # user-id: abjayj
+  # email: abhayjindal.999@gmail.com
+  # guide: Vamsi Pritham Pingali
+  # scholarship: IISc
+  # webpage: https://sites.google.com/view/abhayjindal
+  # image: true
+  # office: X22(6)
+
 - name: Ramesh Mete
-  year-of-joining: 2017
-  programme: Integrated PhD
-  user-id: rameshmete
-  guide: Ved Datar
-  scholarship: IISc
-  image: true
-  office: X22(6)
-  
+  year: 2024
+  title: On two complex Hessian equations and convergence of corresponding flows
+  advisor: Ved Datar
+  # year/title from _seminars/2024/2024-08-22-ramesh-mete.md
+  # year-of-joining: 2017
+  # programme: Integrated PhD
+  # user-id: rameshmete
+  # guide: Ved Datar
+  # scholarship: IISc
+  # image: true
+  # office: X22(6)
+
 - name: Dipnit Biswas
-  user-id: dipnitbiswas
-  year-of-joining: 2018
-  programme: Integrated PhD
-  guide: yet to decide
-  scholarship: IISc
-  office: N06(4)
-  
-- name: Sushobhan Das
-  year-of-joining: 2021
-  programme: Integrated PhD
-  user-id: sushobhandas
-  office: N04(6)
-  
+  year: 2024
+  title: Symmetric real-closed subsets of affine Kac-Moody Lie Algebras
+  advisor: 
+  # year/title from _seminars/2024/2024-12-30-dipnit-biswas.md
+  # user-id: dipnitbiswas
+  # year-of-joining: 2018
+  # programme: Integrated PhD
+  # guide: yet to decide
+  # scholarship: IISc
+  # office: N06(4)
+
+# MS colloquium only, no PhD thesis seminar
+# - name: Sushobhan Das
+#   year:
+#   title:
+#   advisor: 
+#   # year-of-joining: 2021
+#   # programme: Integrated PhD
+#   # user-id: sushobhandas
+#   # office: N04(6)
+
 - name: M V Ajay Kumar Nair
-  year-of-joining: 2019
-  programme: PhD
-  user-id: ajaynair
-  image: true
-  office: N04(6)
-  
+  year: 2025
+  title: Mapping class group dynamics, relative character varieties and hyperbolic cone-surfaces
+  advisor: 
+  # year/title from _seminars/2025/2025-08-28-ajay-kumar-nair.md
+  # year-of-joining: 2019
+  # programme: PhD
+  # user-id: ajaynair
+  # image: true
+  # office: N04(6)
+
 - name: Rumpa Masanta
-  year-of-joining: 2020
-  programme: PhD
-  user-id: rumpamasanta
-  image: true
-  office: L26(4)
-  
+  year: 2025
+  title: Kobayashi geometry and a metric notion of negative curvature
+  advisor: 
+  # year/title from _seminars/2025/2025-11-29-rumpa-masanta.md
+  # year-of-joining: 2020
+  # programme: PhD
+  # user-id: rumpamasanta
+  # image: true
+  # office: L26(4)
+
 - name: Mainak Bhowmik
-  year-of-joining: 2020
-  programme: PhD
-  user-id: mainakb
-  image: true
-  webpage:
-  office: X21(6)
-  
+  year: 2025
+  title: Herglotz representation, approximation by inner functions, and Hankel operators
+  advisor: 
+  # year/title from _seminars/2025/2025-09-26-mainak-bhowmik.md
+  # year-of-joining: 2020
+  # programme: PhD
+  # user-id: mainakb
+  # image: true
+  # webpage:
+  # office: X21(6)
+
 - name: Chaithra P
-  year-of-joining: 2021
-  programme: PhD
-  user-id: chaithrap
-  image: true
-  office: L24(4)
-  
-- name: B.S. Jnaneshwar
-  user-id: jnaneshwarb
-  year-of-joining: 2018
-  programme: Integrated PhD
-  guide: yet to decide
-  scholarship: IISc
-  office: N06(4)
-  
+  year: 2026
+  title: On some structural problems in the theory of infinite-dimensional Lie (super)algebras
+  advisor: 
+  # year/title from _seminars/2026/2026-02-02-chaithra-p.md
+  # year-of-joining: 2021
+  # programme: PhD
+  # user-id: chaithrap
+  # image: true
+  # office: L24(4)
+
+# no thesis seminar on record
+# - name: B.S. Jnaneshwar
+#   year:
+#   title:
+#   advisor: 
+#   # user-id: jnaneshwarb
+#   # year-of-joining: 2018
+#   # programme: Integrated PhD
+#   # guide: yet to decide
+#   # scholarship: IISc
+#   # office: N06(4)
+
 - name: Aashirwad Ballal
-  user-id: aashirwadb
-  year-of-joining: 2018
-  programme: Integrated PhD
-  guide: yet to decide
-  scholarship: IISc
-  image: true
-  office: N06(4)
-  
-- name: "<a href='https://sites.google.com/view/agnivachatterjee'>Agniva Chatterjee</a>"
-  user-id: agnivac
-  year-of-joining: 2018
-  programme: Integrated PhD
-  guide: yet to decide
-  scholarship: IISc
-  image: true
-  office: X22(6)
-  
-- name: "<a href='https://mkanant17.github.io/math/'>Anant Narayanan</a>"
-  year-of-joining: 2022
-  programme: Integrated PhD
-  user-id: anantn
-  image: true
-  office: X21(6)
-  
+  year: 2025
+  title: Positivity properties of the deformed Hermitian Yang Mills and related equations
+  advisor: 
+  # year/title from _seminars/2025/2025-07-25-aashirwad-n-ballal.md
+  # user-id: aashirwadb
+  # year-of-joining: 2018
+  # programme: Integrated PhD
+  # guide: yet to decide
+  # scholarship: IISc
+  # image: true
+  # office: N06(4)
+
+- name: Agniva Chatterjee
+  year: 2025
+  title: Some dual realizations of Bergman and Hardy spaces on convex domains via integral transforms
+  advisor: 
+  # year/title from _seminars/2025/2025-11-25-agniva-chatterjee.md
+  # user-id: agnivac
+  # year-of-joining: 2018
+  # programme: Integrated PhD
+  # guide: yet to decide
+  # scholarship: IISc
+  # image: true
+  # office: X22(6)
+  # name: <a href='https://sites.google.com/view/agnivachatterjee'>Agniva Chatterjee</a>
+
+# MS defence only (2024), no PhD thesis seminar
+# - name: Anant Narayanan
+#   year:
+#   title:
+#   advisor: 
+#   # year-of-joining: 2022
+#   # programme: Integrated PhD
+#   # user-id: anantn
+#   # image: true
+#   # office: X21(6)
+#   # name: <a href='https://mkanant17.github.io/math/'>Anant Narayanan</a>
+
 - name: K. Hariram
-  user-id: hariramk
-  year-of-joining: 2016
-  programme: PhD
-  guide: Soumya Das
-  scholarship: IISc
-  image: true
-  office: R21(4)
-  
+  year: 2026
+  title: "The Bergman kernel of Siegel modular forms: bounds on the sup-norm"
+  advisor: Soumya Das
+  # year/title from _seminars/2026/2026-03-18-k-hariram.md
+  # user-id: hariramk
+  # year-of-joining: 2016
+  # programme: PhD
+  # guide: Soumya Das
+  # scholarship: IISc
+  # image: true
+  # office: R21(4)
+
 - name: Subhajit Das
-  year-of-joining: 2020
-  programme: PhD
-  user-id: subhajitdas
-  image: true
-  office: N11(4)
+  year: 2026
+  title: Schemes relative to actegories, heavy separability of the second kind and Eilenberg-Moore objects in the 2-category vDbl
+  advisor: 
+  # year/title from _seminars/2026/2026-06-10-subhajit-das.md
+  # year-of-joining: 2020
+  # programme: PhD
+  # user-id: subhajitdas
+  # image: true
+  # office: N11(4)
 
 - name: Arnab Pal
-  year-of-joining: 2020
-  programme: PhD
-  user-id: arnabpalp
-  image: true
-  office: N04(6)
-  
-- name: "<a href='https://sites.google.com/view/sudeshnabhattacharjee/home'>Sudeshna Bhattacharjee</a>"
-  year-of-joining: 2021
-  programme: PhD
-  user-id: sudeshnab
-  image: true
-  office: L26(4)
-  
+  year: 2026
+  title: A Study of Convergence, Quasi-Optimality, and Error Analysis of Adaptive Finite Element Methods for a class of PDEs
+  advisor: 
+  # year/title from _seminars/2026/2026-02-19-arnab-pal.md
+  # year-of-joining: 2020
+  # programme: PhD
+  # user-id: arnabpalp
+  # image: true
+  # office: N04(6)
+
+- name: Sudeshna Bhattacharjee
+  year: 2026
+  title: Geodesic geometry in the KPZ universality class and some related problems
+  advisor: Riddhipratim Basu, Manjunath Krishnapur
+  # year/title from _seminars/2026/2026-05-15-sudeshna-bhattacharjee.md
+  # year-of-joining: 2021
+  # programme: PhD
+  # user-id: sudeshnab
+  # image: true
+  # office: L26(4)
+  # name: <a href='https://sites.google.com/view/sudeshnabhattacharjee/home'>Sudeshna Bhattacharjee</a>
+
 - name: Purba Banerjee
-  year-of-joining: 2017
-  programme: Integrated PhD
-  user-id: purbab
-  guide: M. K. Ghosh
-  scholarship: IISc
-  office: L26(4)
-  
-- name: Chavda Sahil Ramjibhai
-  year-of-joining: 2022
-  programme: Integrated PhD
-  user-id: sahilchavda
-  image: true
-  office: N11(4)
+  year: 2026
+  title: Advanced numerical techniques for pricing and hedging of exotic options
+  advisor: M. K. Ghosh
+  # year/title from _seminars/2026/2026-07-10-purba-banerjee.md
+  # year-of-joining: 2017
+  # programme: Integrated PhD
+  # user-id: purbab
+  # guide: M. K. Ghosh
+  # scholarship: IISc
+  # office: L26(4)
+
+# MS defence only, no PhD thesis seminar
+# - name: Chavda Sahil Ramjibhai
+#   year:
+#   title:
+#   advisor: 
+#   # year-of-joining: 2022
+#   # programme: Integrated PhD
+#   # user-id: sahilchavda
+#   # image: true
+#   # office: N11(4)
