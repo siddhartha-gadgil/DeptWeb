@@ -9,7 +9,7 @@
  *     "X has filled the form; the request goes out in 4 working hours".
  *   php submit.php --cron        (crontab, every minute)
  *     sends every queued request whose time has come: to emailsupport, cc
- *     office.math, chair.math, the reporting faculty and the postdoc, with the
+ *     office.math, chair.math and the reporting faculty, with the
  *     xlsx and the PDF attached, From nitishs@iisc.ac.in.
  *   php submit.php --selftest you@iisc.ac.in
  *     sends one test mail and prints the SMTP conversation.
@@ -23,8 +23,8 @@
  *   3. Credentials live OUTSIDE the repo (deploy.sh ships committed files, so a
  *      password here would land on GitHub), in /var/lib/getamailid/config.php:
  *        <?php return [
- *          'smtp_host' => 'smtp.office365.com', 'smtp_port' => 587, 'smtp_tls' => 'starttls',
- *          'smtp_user' => 'nitishs@iisc.ac.in', 'smtp_pass' => '...',
+ *          'smtp_host' => 'iisc-ac-in.mail.protection.outlook.com', 'smtp_port' => 25, 'smtp_tls' => 'starttls',
+ *          'smtp_user' => '',   // M365 Direct Send: no auth, iisc.ac.in recipients only
  *          'mail_from' => 'nitishs@iisc.ac.in',
  *        ];
  *      chown www-data:www-data, chmod 600.
@@ -225,7 +225,7 @@ function send_request(array $r, string $base, array &$trace): bool {
           . "Could you please create an IISc email account for a PostDoc who has recently joined the Department of Mathematics? The details are attached.\n\n"
           . "Kindly add the user to " . LIST_NAME . " as well.\n\n"
           . "Thank you.\nNitish\n080-2293-2514\n";
-    return send_mail([TO], array_merge(CC, [$r['faculty'] . '@' . DOMAIN, $r['email']]),
+    return send_mail([TO], array_merge(CC, [$r['faculty'] . '@' . DOMAIN]),
         'Email ID creation request - ' . $r['name'], $body,
         ['Email_ID_Creation.xlsx' => "$base.xlsx", 'Joining_Report.pdf' => "$base.pdf"], $trace);
 }
