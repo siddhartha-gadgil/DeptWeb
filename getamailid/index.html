@@ -1,0 +1,84 @@
+---
+title: Request an IISc email ID
+permalink: /getamailid/
+---
+<!--
+  New postdocs fill this in. submit.php (same folder) builds the office's
+  Email_ID_Creation.xlsx from it, notifies the office at once, and sends the
+  request to IISc email support four working hours later. The faculty dropdown
+  comes from _data/faculty.yaml at build time; submit.php keeps its own copy of
+  that list, so regenerate it there when faculty.yaml changes.
+-->
+<style>
+  #gm { max-width: 42em; }
+  #gm label { display: block; margin: .9em 0 .2em; font-weight: 600; }
+  #gm input, #gm select { width: 100%; padding: .4em; box-sizing: border-box; }
+  #gm .hp { position: absolute; left: -9999px; }
+  #gm button { margin-top: 1.2em; padding: .5em 1.4em; }
+  #gm-out { margin-top: 1em; white-space: pre-wrap; }
+</style>
+
+<h2>Request an IISc email ID (new postdocs)</h2>
+<p>Fill in the details exactly as they should appear on your IISc account, and
+attach your <strong>joining report / joining memo</strong> as a PDF, signed by the
+Registrar, Deputy Registrar or Assistant Registrar (HR). The office forwards the
+request to IISc email support within four working hours.</p>
+
+<form id="gm" action="submit.php" method="post" enctype="multipart/form-data">
+  <label for="first">Given names (first name and expanded middle names)</label>
+  <input id="first" name="first" required maxlength="200">
+
+  <label for="last">Last name(s)</label>
+  <input id="last" name="last" required maxlength="200">
+
+  <label for="designation">Designation (e.g. NBHM PDF, IoE PDF, Project PDF)</label>
+  <input id="designation" name="designation" required maxlength="200">
+
+  <label for="mobile">Mobile number</label>
+  <input id="mobile" name="mobile" type="tel" required pattern="\+?[0-9 \-]{6,20}">
+
+  <label for="email">Personal email address (the account details will be sent here)</label>
+  <input id="email" name="email" type="email" required maxlength="200">
+
+  <label for="faculty">Reporting faculty</label>
+  <select id="faculty" name="faculty" required>
+    <option value="">— select —</option>
+    {% for f in site.data.faculty %}<option value="{{ f.user-id | strip }}">{{ f.name | strip }}</option>
+    {% endfor %}
+  </select>
+
+  <label for="joining">Joining date</label>
+  <input id="joining" name="joining" type="date" required>
+
+  <label for="ending">Ending date</label>
+  <input id="ending" name="ending" type="date" required>
+
+  <label for="project">Project ID</label>
+  <select id="project" name="project" required>
+    <option value="CSSP">CSSP</option>
+    <option value="FnA" selected>FnA</option>
+    <option value="SID">SID</option>
+  </select>
+
+  <label for="report">Joining report / memo (PDF, signed, max 10 MB)</label>
+  <input id="report" name="report" type="file" accept="application/pdf" required>
+
+  <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+
+  <button type="submit">Submit request</button>
+</form>
+<p id="gm-out"></p>
+
+<script>
+document.getElementById('gm').addEventListener('submit', async function (e) {
+  e.preventDefault();
+  var out = document.getElementById('gm-out'), btn = this.querySelector('button');
+  btn.disabled = true; out.textContent = 'Submitting…';
+  try {
+    var r = await fetch(this.action, { method: 'POST', body: new FormData(this) });
+    out.textContent = await r.text();
+    if (r.ok) this.reset();
+  } catch (err) { out.textContent = 'Could not submit: ' + err; }
+  btn.disabled = false;
+});
+</script>
