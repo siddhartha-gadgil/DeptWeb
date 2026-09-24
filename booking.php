@@ -18,12 +18,15 @@
  *       ^ who is booking
  *
  *   They send that to the office, by any means at all -- mail, a message, read out
- *   over the phone. The office pastes it with the office code on the end after a
- *   dot, and the booking is made. Nothing else is needed from the requester.
+ *   over the phone. The code carries no authority of its own: the office unlocks
+ *   the page first, and then entering the code makes the booking.
  *
- *   The office code is checked HERE, on the server, and never appears in the page
+ *   What unlocks it is checked HERE, on the server, and never appears in the page
  *   -- which is the whole difference between this and the version that had no
  *   backend. Reading the site's source teaches nobody how to book.
+ *
+ *   It changes every day, so anyone who watches it being typed has until midnight
+ *   to use what they saw and nothing after that.
  *
  *   No mail is needed for any of it, which is the point of trying it this way:
  *   the OTP version cannot work until an SMTP relay exists.
@@ -35,7 +38,12 @@
 declare(strict_types=1);
 
 // ------------------------------------------------------------------ config
-const DATA_DIR    = '/var/lib/lhcal';
+// Outside the web root, so nothing in it is ever served. --selftest can be given
+// a scratch one instead, which is the only reason this is not a constant: a test
+// run must not be able to touch, or create, the real store.
+$cli = PHP_SAPI === 'cli' ? ($argv ?? []) : [];
+$at  = array_search('--data', $cli, true);
+define('DATA_DIR', $at === false ? '/var/lib/lhcal' : (string) ($cli[$at + 1] ?? ''));
 const DOMAIN      = 'iisc.ac.in';
 
 // The office code. In the real thing this would come from
@@ -47,11 +55,22 @@ if (is_readable(DATA_DIR . '/config.php')) {
     if (is_array($loaded)) $LH_CFG = $loaded;
 }
 // No default, deliberately: this file is committed to a public repository, so a
-// code written here would be a code anyone can read. Set it in
+// word written here would be a word anyone can read. Set it in
 // /var/lib/lhcal/config.php (chmod 600, outside the web root):
-//     <?php return ['office_code' => '...'];
+//     <?php return ['office_word' => '...'];
 // Until that exists nothing can be booked, which is the safe way to fail.
-define('OFFICE_CODE', (string) ($LH_CFG['office_code'] ?? ''));
+//
+// What the office types is the day of the month and then this word, run together
+// -- so it is different every day without anyone having to be told a new one.
+define('OFFICE_WORD', (string) ($LH_CFG['office_word'] ?? ''));
+
+// Which day it is has to be the day here, not in UTC: PHP defaults to UTC, and a
+// five and a half hour disagreement would lock the office out every evening.
+date_default_timezone_set($LH_CFG['timezone'] ?? 'Asia/Kolkata');
+
+const TOKEN_TTL  = 900;   // an unlocked page goes back to being an ordinary one
+const TRY_LIMIT  = 8;     // wrong answers one address may give
+const TRY_WINDOW = 900;   // before it has to wait this long
 define('CALENDAR_URL', $LH_CFG['calendar_url'] ?? 'http://localhost:8001/lecture-hall-calendar.html');
 
 const MAX_BODY      = 8192;   // no request needs more than this
@@ -165,6 +184,48 @@ function sign(string $msg): string {
     return hash_hmac('sha256', $msg, secret());
 }
 
+// What the office holds once it has said the day's word: a deadline and a
+// signature over it, so nothing has to be remembered between requests and a
+// stolen one stops working by itself. Signed with the same key as everything
+// else, which lives in a file only the server can read.
+function office_token(): string {
+    $exp = time() + TOKEN_TTL;
+    return $exp . '.' . substr(sign('office:' . $exp), 0, 32);
+}
+
+function token_ok(string $t): bool {
+    $p = explode('.', $t, 2);
+    if (count($p) !== 2 || !ctype_digit($p[0])) return false;
+    if ((int) $p[0] < time()) return false;
+    return hash_equals(substr(sign('office:' . (int) $p[0]), 0, 32), $p[1]);
+}
+
+// The word is short enough to be said out loud, which means it is short enough to
+// be guessed at speed. Wrong answers are counted per address and the door shuts
+// for a while once there have been too many, so guessing costs time rather than
+// nothing. Returns false while the door is shut.
+function may_try(bool $wrong): bool {
+    return with_lock(function () use ($wrong) {
+        $who  = (string) ($_SERVER['REMOTE_ADDR'] ?? 'unknown');
+        $file = data_path('tries.json');
+        $all  = read_json($file);
+        $now  = time();
+
+        // Anything older than the window is gone, which is also what clears an
+        // address that has served its wait.
+        $keep = [];
+        foreach ($all as $row) {
+            if (is_array($row) && ($row['at'] ?? 0) > $now - TRY_WINDOW) $keep[] = $row;
+        }
+        $mine = 0;
+        foreach ($keep as $row) if (($row['ip'] ?? '') === $who) $mine++;
+
+        if ($wrong) { $keep[] = ['ip' => $who, 'at' => $now]; $mine++; }
+        write_json($file, $keep);
+        return $mine <= TRY_LIMIT;
+    });
+}
+
 // Read, change, write -- under a lock, so two bookings in the same second cannot
 // each write a file that does not know about the other.
 function with_lock(callable $fn) {
@@ -227,32 +288,19 @@ function clash(string $room, string $date, int $s, int $e, array $bookings, stri
 // Must stay in step with encodeRequest() in the page: one side writes these and
 // the other reads them, joined only by whatever the requester passed along.
 //
-//     <who>-lh<hall>-<ddmmyyyy>-<hhmm>-<hhmm>[+lh<hall>-...][-purpose][.<office code>]
+//     <who>-lh<hall>-<ddmmyyyy>-<hhmm>-<hhmm>[+lh<hall>-...][-purpose]
 //
 // Every field but the purpose is a fixed shape, so where each one stops is known
-// rather than guessed. The office code is the one part the requester never sees;
-// it is fenced off behind a dot, which no slug can contain, so a purpose ending
-// in digits cannot be mistaken for it and a code with no dot is simply a request
-// that has not been authorised yet.
+// rather than guessed. Nothing in a code is secret and nothing in it is trusted:
+// it says what is wanted, and whether that may happen is settled separately.
 function unslug_(string $s): string {
     return trim(preg_replace('/-+/', ' ', ltrim($s, '-')) ?? '');
 }
 
 // Pulls a code apart, or returns null if anything at all is off. Never a
 // half-reading: a booking that is nearly right is worse than one that is refused.
-// The office code is returned as it was written, not compared here -- the caller
-// decides what a wrong one means, and only enact() cares.
 function decode_code(string $raw): ?array {
     $s = strtolower(preg_replace('/\s+/', '', $raw) ?? '');
-
-    // The office code first, so the rest is exactly what the requester was given.
-    $office = '';
-    $dot = strrpos($s, '.');
-    if ($dot !== false) {
-        $office = substr($s, $dot + 1);
-        $s = substr($s, 0, $dot);
-        if (!preg_match('/^[a-z0-9]+$/', $office)) return null;
-    }
 
     // Whether the name is one we know is the caller's business: "nobody here is
     // called that" is worth saying out loud, where a malformed code is not.
@@ -280,7 +328,7 @@ function decode_code(string $raw): ?array {
     if ($rest !== '' && !preg_match('/^-[a-z0-9-]+$/', $rest)) return null;
 
     return ['who' => $who, 'name' => PEOPLE[$who] ?? '', 'runs' => $runs,
-            'purpose' => unslug_($rest), 'office' => $office];
+            'purpose' => unslug_($rest)];
 }
 
 // Says which of a code's slots are already taken, so the office can be told
@@ -314,22 +362,27 @@ function public_view(array $b): array {
 }
 
 // ------------------------------------------------------------------ command line
-// Two things worth doing without a browser. Both touch no files and neither can
-// be reached over HTTP.
+// Two things worth doing without a browser. Neither can be reached over HTTP, and
+// the selftest writes only inside the scratch directory it is given.
 //
-//   php booking.php --decode <code>    what does this code actually say?
-//   php booking.php --selftest         checks the one piece of logic here that is
-//                                      easy to get subtly wrong: taking a code
-//                                      apart. Run it after changing the format or
-//                                      the page's encodeRequest(), which has to
-//                                      agree with it.
-$argv = $argv ?? [];
-if (PHP_SAPI === 'cli' && ($i = array_search('--decode', $argv, true)) !== false) {
-    echo json_encode(decode_code((string) ($argv[$i + 1] ?? '')), JSON_PRETTY_PRINT), "\n";
+//   php booking.php --decode <code>            what does this code actually say?
+//   php booking.php --data <dir> --selftest    checks the two pieces of logic here
+//                                              that are easy to get subtly wrong:
+//                                              taking a code apart, and whether a
+//                                              token is still good. Run it after
+//                                              changing the format or the page's
+//                                              encodeRequest(), which has to agree.
+if (($i = array_search('--decode', $cli, true)) !== false) {
+    echo json_encode(decode_code((string) ($cli[$i + 1] ?? '')), JSON_PRETTY_PRINT), "\n";
     exit(0);
 }
 
-if (PHP_SAPI === 'cli' && in_array('--selftest', $argv, true)) {
+if (in_array('--selftest', $cli, true)) {
+    if (DATA_DIR === '/var/lib/lhcal') {
+        fwrite(STDERR, "Give it a scratch directory:  php booking.php --data /tmp/lhcal-test --selftest\n");
+        exit(2);
+    }
+    ensure_dirs();
     $fail = 0;
     $check = function (string $what, $got, $want) use (&$fail) {
         if ($got === $want) return;
@@ -337,32 +390,33 @@ if (PHP_SAPI === 'cli' && in_array('--selftest', $argv, true)) {
         fwrite(STDERR, "FAIL $what: got " . json_encode($got) . ", wanted " . json_encode($want) . "\n");
     };
 
-    $c = decode_code('ak-lh3-24092026-1500-1600-number-theory-seminar.1234');
+    $c = decode_code('ak-lh3-24092026-1500-1600-number-theory-seminar');
     $check('who',     $c['who'],     'ak');
     $check('name',    $c['name'],    'Apoorva Khare');
     $check('purpose', $c['purpose'], 'number theory seminar');
-    $check('office',  $c['office'],  '1234');
     $check('runs',    $c['runs'],    [['room' => 'LH-3', 'date' => '2026-09-24',
                                        'start' => '15:00', 'end' => '16:00']]);
 
-    // A word token, two slots, no purpose, no office code.
+    // A word token, two slots, no purpose.
     $c = decode_code('manju-lh1-01012027-0900-1000+lh5-02012027-1100-1230');
     $check('word token', $c['name'], 'Manjunath Krishnapur');
     $check('two slots',  count($c['runs']), 2);
     $check('no purpose', $c['purpose'], '');
-    $check('no office',  $c['office'], '');
 
-    // A purpose ending in digits is not mistaken for an office code: that was the
-    // whole reason for fencing the office code off behind a dot.
-    $c = decode_code('ak-lh3-24092026-1500-1600-ma-231');
-    $check('digits in purpose', $c['purpose'], 'ma 231');
-    $check('no office either',  $c['office'],  '');
+    // A purpose may end in digits: there is nothing after it to be confused with.
+    $check('digits in purpose', decode_code('ak-lh3-24092026-1500-1600-ma-231')['purpose'], 'ma 231');
+
+    // A token outlives its deadline and nothing else.
+    $check('token now',  token_ok(office_token()), true);
+    $check('token past', token_ok((time() - 1) . '.' . substr(sign('office:' . (time() - 1)), 0, 32)), false);
+    $check('token bent', token_ok((time() + 600) . '.' . str_repeat('0', 32)), false);
+    $check('token junk', token_ok('nonsense'), false);
 
     foreach ([
         'ak-lh9-24092026-1500-1600-x'     => 'no such hall',
         'ak-lh3-31092026-1500-1600-x'     => 'no such date',
         'ak-lh3-24092026-1600-1500-x'     => 'ends before it starts',
-        'ak-lh3-24092026-1500-1600-x.a-b' => 'punctuation in the office code',
+        'ak-lh3-24092026-1500-1600-x.y'   => 'punctuation in the purpose',
         'lh3-24092026-1500-1600-x'        => 'nobody named',
         'ak-24092026-1500-1600-x'         => 'no hall at all',
         'seminar on friday'               => 'an ordinary search',
@@ -392,32 +446,38 @@ if (!is_array($in)) reply(['ok' => false, 'error' => 'Bad request.']);
 
 $action = is_string($in['action'] ?? null) ? $in['action'] : '';
 
-// ---- what does this code say? (no office code needed, so anyone can check) ----
+// ---- the office saying today's word ----
+// The one place a secret is compared, and it is compared here rather than in the
+// page because the page is public. What comes back is good for a quarter of an
+// hour and for nothing else.
+if ($action === 'unlock') {
+    if (OFFICE_WORD === '') reply(['ok' => false, 'error' => 'Nothing is set up on the server yet.']);
+    $said = strtolower(preg_replace('/\s+/', '', (string) ($in['word'] ?? '')) ?? '');
+    $want = strtolower(date('d') . OFFICE_WORD);
+    $right = hash_equals($want, $said);
+    // Counted whether it was right or not, so a correct answer cannot be used to
+    // tell that the door is shut, and the same answer comes back either way.
+    if (!may_try(!$right) || !$right) reply(['ok' => false, 'error' => 'unauthorised']);
+    reply(['ok' => true, 'token' => office_token()]);
+}
+
+// ---- what does this code say? (anyone may ask; nothing happens) ----
 if ($action === 'read') {
     $c = decode_code((string) ($in['value'] ?? ''));
     if (!$c) reply(['ok' => false, 'error' => 'That code is damaged; ask for it again.']);
     if ($c['name'] === '') reply(['ok' => false, 'error' => 'No one here books as "' . $c['who'] . '".']);
 
-    reply(['ok' => true,
-           'authorised' => OFFICE_CODE !== '' && $c['office'] !== ''
-                           && hash_equals(OFFICE_CODE, $c['office']),
-           'who' => $c['name'], 'purpose' => $c['purpose'],
+    reply(['ok' => true, 'who' => $c['name'], 'purpose' => $c['purpose'],
            'slots' => $c['runs'], 'clashes' => clashes_for($c['runs'])]);
 }
 
 // ---- enact it ----
 if ($action === 'enact') {
+    if (!token_ok((string) ($in['token'] ?? ''))) reply(['ok' => false, 'error' => 'unauthorised']);
+
     $c = decode_code((string) ($in['value'] ?? ''));
     if (!$c) reply(['ok' => false, 'error' => 'That code is damaged; ask for it again.']);
     if ($c['name'] === '') reply(['ok' => false, 'error' => 'No one here books as "' . $c['who'] . '".']);
-
-    if (OFFICE_CODE === '') reply(['ok' => false, 'error' => 'No office code is set up on the server.']);
-
-    // Deliberately vague: whether the code was absent or merely wrong is not
-    // something worth telling whoever is trying.
-    if ($c['office'] === '' || !hash_equals(OFFICE_CODE, $c['office'])) {
-        reply(['ok' => false, 'error' => 'unauthorised']);
-    }
     if ($c['purpose'] === '') reply(['ok' => false, 'error' => 'That code carries no purpose.']);
 
     $runs = $c['runs']; $purpose = $c['purpose']; $by = $c['name'];
@@ -462,11 +522,9 @@ if ($action === 'enact') {
            'slots' => $runs, 'bookings' => array_map('public_view', live_bookings())]);
 }
 
-// ---- withdraw, which also needs the office code ----
+// ---- withdraw, which the office has to be unlocked for too ----
 if ($action === 'cancel') {
-    if (OFFICE_CODE === '' || !hash_equals(OFFICE_CODE, (string) ($in['code'] ?? ''))) {
-        reply(['ok' => false, 'error' => 'unauthorised']);
-    }
+    if (!token_ok((string) ($in['token'] ?? ''))) reply(['ok' => false, 'error' => 'unauthorised']);
     $id = (string) ($in['id'] ?? '');
     $out = with_lock(function () use ($id) {
         $all = read_json(bookings_file());

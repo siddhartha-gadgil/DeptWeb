@@ -1366,8 +1366,8 @@ null]
   // different codes.
   //
   // Nothing here is a secret. The code says what it wants in the open and carries
-  // no authority: the office code, which the requester never sees, is what turns
-  // one of these into a booking.
+  // no authority of its own: what turns one of these into a booking is something
+  // only the office knows, and that never travels with the code.
   function slug(s) {
     return String(s == null ? "" : s).toLowerCase()
       .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")
@@ -1492,36 +1492,86 @@ null]
   }
 
   // ── the office acting on a code ──────────────────────────────────────
-  // No button: the navbar's search box doubles as the way in, and only on this
-  // page -- the handler lives here, so everywhere else the box just searches.
-  // Paste the code, put a dot and the office code on the end, press enter.
-  //
-  // Nothing is checked here beyond the shape, and the shape only decides whether
-  // this was meant as a booking or as an ordinary search. The server holds the
-  // office code and decides; a wrong one comes back "unauthorised" and the box is
-  // left alone.
-  var CODE_RE = /^[a-z]{2,12}-lh[1-5]-\d{8}-\d{4}-\d{4}[-+.a-z0-9]*$/i;
+  // No button and nothing in the navbar: the search box doubles as the way in,
+  // and only on this page, so everywhere else it just searches.
+  var CODE_RE = /^[a-z]{2,12}-lh[1-5]-\d{8}-\d{4}-\d{4}[-+a-z0-9]*$/i;
+
+  var ICON_STEPS = 3;
+  var ICON_IDLE_MS = 3 * 60 * 1000;
+  var iconStep = 0, iconTimer = null, iconOn = false, pass = "";
 
   function wireSearchBox() {
     var form = document.getElementById("site-search-form");
     var input = document.getElementById("site-search-input");
     if (!form || !input) return;
+    var glyph = form.querySelector("button i");
+
+    function setIcon(on) {
+      iconOn = on;
+      if (glyph) glyph.className = on ? "fa fa-key" : "fa fa-search";
+    }
+    function rest() {
+      clearTimeout(iconTimer);
+      iconStep = 0; pass = "";
+      setIcon(false);
+    }
+    function keepAwake() {
+      clearTimeout(iconTimer);
+      iconTimer = setTimeout(rest, ICON_IDLE_MS);
+    }
+
+    // Counting only happens with the box empty, where the button has nothing to
+    // do anyway, so an ordinary search is never in the way.
+    form.querySelector("button[type=submit]").addEventListener("click", function (e) {
+      if (iconOn || input.value.trim() !== "") return;
+      e.preventDefault();
+      if (++iconStep >= ICON_STEPS) { setIcon(true); input.focus(); }
+      keepAwake();
+    });
+
+    input.addEventListener("keydown", function (e) { if (e.key === "Escape") rest(); });
 
     form.addEventListener("submit", function (e) {
-      var v = input.value.replace(/\s+/g, "");
-      if (!CODE_RE.test(v)) return;                 // an ordinary search: let it go
+      if (!iconOn) return;                          // an ordinary search: let it go
       e.preventDefault();
+      var v = input.value.trim();
+      if (!v) return;
       input.value = "";
-      input.blur();
+      keepAwake();
+      pass ? enact(v, input) : open_(v, input);
+    });
 
-      post({ action: "enact", value: v })
+    function open_(word, at) {
+      post({ action: "unlock", word: word })
         .then(function (r) {
           if (!r.ok) {
+            rest();
+            return showPop('<div class="rb-pop-msg rb-err">' +
+              esc(r.error === "unauthorised" ? "No." : (r.error || "No.")) + "</div>", at);
+          }
+          pass = r.token;
+          showPop('<div class="rb-pop-msg rb-ok">Ready. Enter the code.</div>', at);
+          at.focus();
+        })
+        .catch(function () {
+          showPop('<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', at);
+        });
+    }
+
+    function enact(v, at) {
+      if (!CODE_RE.test(v.replace(/\s+/g, ""))) {
+        return showPop('<div class="rb-pop-msg rb-err">That is not a booking code.</div>', at);
+      }
+      post({ action: "enact", value: v, token: pass })
+        .then(function (r) {
+          if (!r.ok) {
+            // A token that has run out is the ordinary way this fails, and it
+            // fails safe: the box goes back to being a search box.
+            if (r.error === "unauthorised") rest();
             return showPop("<h5>Not booked</h5>" +
               '<div class="rb-pop-msg rb-err">' +
-              esc(r.error === "unauthorised"
-                  ? "That code has no valid office code on the end."
-                  : (r.error || "Refused.")) + "</div>", input);
+              esc(r.error === "unauthorised" ? "Start again." : (r.error || "Refused.")) +
+              "</div>", at);
           }
           if (r.bookings) takeBookings(r.bookings);
           render();
@@ -1533,13 +1583,14 @@ null]
               }).join("<br>") + "</div>" +
             "<div>" + esc(r.purpose || "") +
               (r.who ? " · " + esc(r.who) : "") + "</div>" +
-            '<div class="rb-pop-msg rb-ok">It is on the calendar now.</div>', input);
+            '<div class="rb-pop-msg rb-ok">It is on the calendar now.</div>', at);
+          at.focus();
         })
         .catch(function () {
           showPop("<h5>Not booked</h5>" +
-            '<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', input);
+            '<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', at);
         });
-    });
+    }
   }
 
   function banner(text) {
@@ -1548,8 +1599,8 @@ null]
     el.style.display = text ? "" : "none";
   }
 
-  // Reading the calendar needs no office code, so this is a plain GET and there is
-  // no token and no session. A hall that is booked but missing here is a code the
+  // Reading the calendar is open to anyone, so this is a plain GET with no token
+  // and no session. A hall that is booked but missing here is a code the
   // office has not entered yet, not a bug.
   // ── talking to booking.php ───────────────────────────────────────────
   // Same origin, so no CORS and no preflight to worry about. Sent as text/plain
