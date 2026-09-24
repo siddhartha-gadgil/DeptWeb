@@ -70,7 +70,20 @@ date_default_timezone_set($LH_CFG['timezone'] ?? 'Asia/Kolkata');
 
 const TOKEN_TTL  = 900;   // an unlocked page goes back to being an ordinary one
 const TRY_LIMIT  = 8;     // wrong answers one address may give
+const TRY_KNOWN  = 60;    // ... unless the office has ever answered from it
+const TRY_KNOWN_FOR = 30 * 86400;   // how long an address stays known
 const TRY_WINDOW = 900;   // before it has to wait this long
+const TRY_SLOW   = 250;   // milliseconds every answer costs, right or wrong
+const TRY_ROWS   = 500;   // addresses remembered at once, oldest dropped first
+
+// Ceilings. Nothing here is a limit anyone doing this by hand would ever meet;
+// they are here because the file has to stay small and the work per request
+// bounded even when whoever is asking is not doing it by hand.
+const MAX_SLOTS    = 24;     // hours in one code
+const MAX_PURPOSE  = 60;     // characters, after slugging
+const MAX_AHEAD    = 500;    // days from today a booking may be made
+const MAX_BEHIND   = 2;      // days into the past, so late entry still works
+const KEEP_DAYS    = 400;    // how long a spent booking stays in the file
 define('CALENDAR_URL', $LH_CFG['calendar_url'] ?? 'http://localhost:8001/lecture-hall-calendar.html');
 
 const MAX_BODY      = 8192;   // no request needs more than this
@@ -145,6 +158,7 @@ const CLASSES = [
 // ------------------------------------------------------------------ plumbing
 function reply(array $o): never {
     header('Content-Type: application/json; charset=utf-8');
+    header('X-Content-Type-Options: nosniff');
     header('Cache-Control: no-store');
     echo json_encode($o);
     exit;
@@ -155,7 +169,7 @@ function data_path(string ...$bits): string {
 }
 
 function ensure_dirs(): void {
-    foreach ([DATA_DIR, data_path('otp')] as $d) {
+    foreach ([DATA_DIR] as $d) {
         if (!is_dir($d) && !@mkdir($d, 0700, true) && !is_dir($d)) {
             reply(['ok' => false, 'error' => 'The booking store is not set up on the server.']);
         }
@@ -201,29 +215,80 @@ function token_ok(string $t): bool {
 }
 
 // The word is short enough to be said out loud, which means it is short enough to
-// be guessed at speed. Wrong answers are counted per address and the door shuts
-// for a while once there have been too many, so guessing costs time rather than
-// nothing. Returns false while the door is shut.
+// be guessed at speed. Three things make that expensive: every answer costs a
+// fixed wait whether it was right or wrong, wrong ones are counted per address,
+// and the door shuts for that address once there have been too many.
+//
+// The count is per address and not per attempt, so a flood writes the same small
+// file over and over instead of growing one, and the table itself is capped.
+// Addresses are bucketed by /64 for IPv6, where a single machine is usually
+// handed more addresses than it could ever need to rotate through.
+//
+// This has its own lock. Sharing the booking one would mean anyone could hold up
+// every booking on the site simply by guessing badly, quickly.
+//
+// One address is treated more generously: the one the office has answered
+// correctly from before. The department sits behind one address as far as the
+// outside world is concerned, so without this a student on the same network
+// could lock the office out of its own portal all day by guessing badly on
+// purpose, which is a way of messing with it that needs no secret at all. Sixty
+// wrong answers in a quarter of an hour is still nowhere near enough to find a
+// word, and it is far more than anyone mistyping one will ever need.
+function try_bucket(): string {
+    $ip = (string) ($_SERVER['REMOTE_ADDR'] ?? '');
+    if ($ip === '') return 'unknown';
+    $packed = @inet_pton($ip);
+    if ($packed !== false && strlen($packed) === 16) return bin2hex(substr($packed, 0, 8)) . '::';
+    return $ip;
+}
+
 function may_try(bool $wrong): bool {
-    return with_lock(function () use ($wrong) {
-        $who  = (string) ($_SERVER['REMOTE_ADDR'] ?? 'unknown');
+    $lock = fopen(data_path('.trylock'), 'c');
+    if ($lock === false) return false;               // cannot count, so do not allow
+    flock($lock, LOCK_EX);
+    try {
+        $who  = try_bucket();
         $file = data_path('tries.json');
-        $all  = read_json($file);
         $now  = time();
 
-        // Anything older than the window is gone, which is also what clears an
-        // address that has served its wait.
+        // A row is kept while it is either still counting or still known. The
+        // first clears an address that has served its wait; the second is what
+        // remembers where the office works from.
         $keep = [];
-        foreach ($all as $row) {
-            if (is_array($row) && ($row['at'] ?? 0) > $now - TRY_WINDOW) $keep[] = $row;
+        foreach (read_json($file) as $k => $row) {
+            if (!is_array($row)) continue;
+            if (($row['at'] ?? 0) > $now - TRY_WINDOW
+                || ($row['ok'] ?? 0) > $now - TRY_KNOWN_FOR) $keep[$k] = $row;
         }
-        $mine = 0;
-        foreach ($keep as $row) if (($row['ip'] ?? '') === $who) $mine++;
+        $row = $keep[$who] ?? [];
 
-        if ($wrong) { $keep[] = ['ip' => $who, 'at' => $now]; $mine++; }
+        // The right word is never turned away. Being shut out is a thing that
+        // happens to wrong answers, and a lock the office itself can be caught
+        // behind is a way of attacking it rather than a defence of it.
+        if (!$wrong) {
+            $keep[$who] = ['n' => 0, 'at' => 0, 'ok' => $now];
+            write_json($file, $keep);
+            return true;
+        }
+
+        $limit = ($row['ok'] ?? 0) > $now - TRY_KNOWN_FOR ? TRY_KNOWN : TRY_LIMIT;
+        $mine  = (($row['at'] ?? 0) > $now - TRY_WINDOW ? (int) ($row['n'] ?? 0) : 0) + 1;
+        $keep[$who] = ['n' => $mine, 'at' => $now, 'ok' => $row['ok'] ?? 0];
+
+        // Full table: drop whoever was heard from longest ago, never the row just
+        // written, so filling it cannot clear someone else's count.
+        while (count($keep) > TRY_ROWS) {
+            $oldest = null;
+            foreach ($keep as $k => $r) {
+                if ($k !== $who && ($oldest === null || $r['at'] < $keep[$oldest]['at'])) $oldest = $k;
+            }
+            if ($oldest === null) break;
+            unset($keep[$oldest]);
+        }
+
         write_json($file, $keep);
-        return $mine <= TRY_LIMIT;
-    });
+        return $mine <= $limit;
+    } finally { flock($lock, LOCK_UN); fclose($lock); }
 }
 
 // Read, change, write -- under a lock, so two bookings in the same second cannot
@@ -258,11 +323,6 @@ function mins(string $hm): ?int {
     if (!preg_match('/^(\d{1,2}):(\d{2})$/', trim($hm), $m)) return null;
     $v = ((int) $m[1]) * 60 + (int) $m[2];
     return ($v >= 0 && $v <= 1440) ? $v : null;
-}
-
-function valid_date(string $d): bool {
-    if (!preg_match('/^(\d{4})-(\d{2})-(\d{2})$/', $d, $m)) return false;
-    return checkdate((int) $m[2], (int) $m[3], (int) $m[1]);
 }
 
 // What is already in this hall at this time -- a class, or a booking.
@@ -311,11 +371,22 @@ function decode_code(string $raw): ?array {
     // One or more slots, then whatever is left is the purpose.
     if (!preg_match('/^lh[1-5]-\d{8}-\d{4}-\d{4}(?:\+lh[1-5]-\d{8}-\d{4}-\d{4})*/', $s, $m)) return null;
     $slots = $m[0];
-    $runs  = [];
-    foreach (explode('+', $slots) as $part) {
+    $parts = explode('+', $slots);
+    if (count($parts) > MAX_SLOTS) return null;
+
+    // A booking has to be for a day somewhere near this one. Without this a code
+    // is free to name the year 9999, and a file this small has no business
+    // holding a hall for a century.
+    $floor = (new DateTimeImmutable('today'))->modify('-' . MAX_BEHIND . ' days');
+    $roof  = (new DateTimeImmutable('today'))->modify('+' . MAX_AHEAD . ' days');
+
+    $runs = [];
+    foreach ($parts as $part) {
         preg_match('/^lh([1-5])-(\d{2})(\d{2})(\d{4})-(\d{4})-(\d{4})$/', $part, $f);
         [, $hall, $dd, $mm, $yyyy, $from, $to] = $f;
         if (!checkdate((int) $mm, (int) $dd, (int) $yyyy)) return null;
+        $day = DateTimeImmutable::createFromFormat('!Y-m-d', "$yyyy-$mm-$dd");
+        if ($day === false || $day < $floor || $day > $roof) return null;
         $st = mins(substr($from, 0, 2) . ':' . substr($from, 2));
         $en = mins(substr($to, 0, 2) . ':' . substr($to, 2));
         if ($st === null || $en === null || $en <= $st) return null;
@@ -325,7 +396,7 @@ function decode_code(string $raw): ?array {
     }
 
     $rest = substr($s, strlen($slots));
-    if ($rest !== '' && !preg_match('/^-[a-z0-9-]+$/', $rest)) return null;
+    if ($rest !== '' && !preg_match('/^-[a-z0-9-]{1,' . MAX_PURPOSE . '}$/', $rest)) return null;
 
     return ['who' => $who, 'name' => PEOPLE[$who] ?? '', 'runs' => $runs,
             'purpose' => unslug_($rest)];
@@ -346,9 +417,24 @@ function clashes_for(array $runs): array {
 // ------------------------------------------------------------------ bookings
 function bookings_file(): string { return data_path('bookings.json'); }
 
+// Every request reads this file whole, so it must not be allowed to grow for
+// ever. A booking that is long past, and one that was withdrawn, are of no
+// further use to anybody: they go when the file is next written. Done here
+// rather than on a timer so there is nothing to install and nothing to forget.
+function prune(array $all): array {
+    $cut = (new DateTimeImmutable('today'))->modify('-' . KEEP_DAYS . ' days')->format('Y-m-d');
+    $keep = [];
+    foreach ($all as $b) {
+        if (!is_array($b) || !isset($b['date'], $b['room'], $b['start'], $b['end'])) continue;
+        if (($b['status'] ?? 'active') !== 'active') continue;
+        if ($b['date'] < $cut) continue;
+        $keep[] = $b;
+    }
+    return $keep;
+}
+
 function live_bookings(): array {
-    return array_values(array_filter(read_json(bookings_file()),
-        fn($b) => is_array($b) && ($b['status'] ?? 'active') === 'active'));
+    return prune(read_json(bookings_file()));
 }
 
 // What the calendar is shown. The address stays in the file: this list is public.
@@ -357,7 +443,6 @@ function public_view(array $b): array {
         'id' => $b['id'], 'room' => $b['room'], 'date' => $b['date'],
         'start' => $b['start'], 'end' => $b['end'],
         'purpose' => $b['purpose'], 'bookedBy' => $b['name'],
-        'owner' => substr(sign('owner:' . $b['email']), 0, 12),
     ];
 }
 
@@ -405,6 +490,25 @@ if (in_array('--selftest', $cli, true)) {
 
     // A purpose may end in digits: there is nothing after it to be confused with.
     $check('digits in purpose', decode_code('ak-lh3-24092026-1500-1600-ma-231')['purpose'], 'ma 231');
+
+    // The ceilings. Each of these is a request nobody would type by hand, and
+    // each of them used to be accepted.
+    $soon = (new DateTimeImmutable('+30 days'))->format('dmY');
+    $one  = fn(int $n) => 'ak-' . implode('+', array_fill(0, $n, "lh1-$soon-0900-1000")) . '-x';
+    $check('slots at the limit', count(decode_code($one(MAX_SLOTS))['runs']), MAX_SLOTS);
+    $check('slots over it',      decode_code($one(MAX_SLOTS + 1)), null);
+    $check('purpose at limit',   strlen(decode_code("ak-lh1-$soon-0900-1000-" . str_repeat('a', MAX_PURPOSE))['purpose']), MAX_PURPOSE);
+    $check('purpose over it',    decode_code("ak-lh1-$soon-0900-1000-" . str_repeat('a', MAX_PURPOSE + 1)), null);
+    $check('far future',         decode_code('ak-lh1-01019999-0900-1000-x'), null);
+    $check('long past',          decode_code('ak-lh1-01012001-0900-1000-x'), null);
+
+    // Pruning: withdrawn and long past go, everything else stays.
+    $old  = (new DateTimeImmutable('-' . (KEEP_DAYS + 10) . ' days'))->format('Y-m-d');
+    $new_ = (new DateTimeImmutable('+10 days'))->format('Y-m-d');
+    $row  = fn($d, $st) => ['id' => 'x', 'room' => 'LH-1', 'date' => $d, 'start' => '09:00',
+                            'end' => '10:00', 'purpose' => 'p', 'name' => 'n', 'status' => $st];
+    $check('prune', count(prune([$row($new_, 'active'), $row($old, 'active'),
+                                 $row($new_, 'cancelled'), ['junk' => 1]])), 1);
 
     // A token outlives its deadline and nothing else.
     $check('token now',  token_ok(office_token()), true);
@@ -455,20 +559,18 @@ if ($action === 'unlock') {
     $said = strtolower(preg_replace('/\s+/', '', (string) ($in['word'] ?? '')) ?? '');
     $want = strtolower(date('d') . OFFICE_WORD);
     $right = hash_equals($want, $said);
-    // Counted whether it was right or not, so a correct answer cannot be used to
-    // tell that the door is shut, and the same answer comes back either way.
-    if (!may_try(!$right) || !$right) reply(['ok' => false, 'error' => 'unauthorised']);
+
+    // Checked before the wait below, so an address that has been shut out is
+    // turned away at once: made to wait, it could hold a worker open for a
+    // quarter of a second at a time and that is a cheaper attack than guessing.
+    if (!may_try(!$right)) reply(['ok' => false, 'error' => 'unauthorised']);
+
+    // An answer that was allowed costs the same wait whether it was right or
+    // wrong, so the two cannot be told apart by how long they took, and eight
+    // guesses take two seconds rather than none.
+    usleep(TRY_SLOW * 1000);
+    if (!$right) reply(['ok' => false, 'error' => 'unauthorised']);
     reply(['ok' => true, 'token' => office_token()]);
-}
-
-// ---- what does this code say? (anyone may ask; nothing happens) ----
-if ($action === 'read') {
-    $c = decode_code((string) ($in['value'] ?? ''));
-    if (!$c) reply(['ok' => false, 'error' => 'That code is damaged; ask for it again.']);
-    if ($c['name'] === '') reply(['ok' => false, 'error' => 'No one here books as "' . $c['who'] . '".']);
-
-    reply(['ok' => true, 'who' => $c['name'], 'purpose' => $c['purpose'],
-           'slots' => $c['runs'], 'clashes' => clashes_for($c['runs'])]);
 }
 
 // ---- enact it ----
@@ -483,8 +585,7 @@ if ($action === 'enact') {
     $runs = $c['runs']; $purpose = $c['purpose']; $by = $c['name'];
 
     $out = with_lock(function () use ($runs, $purpose, $by) {
-        $all  = read_json(bookings_file());
-        $live = array_values(array_filter($all, fn($b) => is_array($b) && ($b['status'] ?? 'active') === 'active'));
+        $live = prune(read_json(bookings_file()));
 
         // Every slot is checked before any is written: a request for three halls
         // that collides on the third must not leave the first two booked.
@@ -508,12 +609,12 @@ if ($action === 'enact') {
         $id = bin2hex(random_bytes(4));
         $now = gmdate('c');
         foreach ($runs as $r) {
-            $all[] = ['id' => $id, 'room' => $r['room'], 'date' => $r['date'],
-                      'start' => $r['start'], 'end' => $r['end'],
-                      'purpose' => $purpose, 'name' => $by, 'email' => '',
-                      'status' => 'active', 'made' => $now];
+            $live[] = ['id' => $id, 'room' => $r['room'], 'date' => $r['date'],
+                       'start' => $r['start'], 'end' => $r['end'],
+                       'purpose' => $purpose, 'name' => $by, 'email' => '',
+                       'status' => 'active', 'made' => $now];
         }
-        write_json(bookings_file(), $all);
+        write_json(bookings_file(), $live);
         return ['ok' => true, 'id' => $id];
     });
     if (!$out['ok']) reply($out);
@@ -527,16 +628,10 @@ if ($action === 'cancel') {
     if (!token_ok((string) ($in['token'] ?? ''))) reply(['ok' => false, 'error' => 'unauthorised']);
     $id = (string) ($in['id'] ?? '');
     $out = with_lock(function () use ($id) {
-        $all = read_json(bookings_file());
-        $found = false;
-        foreach ($all as &$b) {
-            if (!is_array($b) || ($b['id'] ?? '') !== $id) continue;
-            $b['status'] = 'cancelled';
-            $found = true;
-        }
-        unset($b);
-        if (!$found) return ['ok' => false, 'error' => 'No such booking.'];
-        write_json(bookings_file(), $all);
+        $all  = prune(read_json(bookings_file()));
+        $keep = array_values(array_filter($all, fn($b) => ($b['id'] ?? '') !== $id));
+        if (count($keep) === count($all)) return ['ok' => false, 'error' => 'No such booking.'];
+        write_json(bookings_file(), $keep);
         return ['ok' => true];
     });
     if ($out['ok']) $out['bookings'] = array_map('public_view', live_bookings());
