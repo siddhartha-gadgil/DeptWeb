@@ -206,16 +206,12 @@ title: Lecture Hall Calendar
      the list off, a cell that overflows rolls its own list slowly up and back
      down, so everything in it comes past. Neighbouring cells roll in opposite
      directions: in step they would read as one sheet sliding, out of step each
-     cell stays its own.
-     The list is masked at both ends while it rolls, which is what says there is
-     more here than you can see. Rolling stops under the pointer or a keyboard
-     focus, so nothing has to be caught to be clicked, and it never starts at all
-     for a reader who has asked for less motion. */
+     cell stays its own. The movement is what says there is more here than you can
+     see; the edges stay hard, since a cell this small has no room to fade one.
+     Rolling stops under the pointer or a keyboard focus, so nothing has to be
+     caught to be clicked, and it never starts at all for a reader who has asked
+     for less motion. */
   .rb-mstack { height: 64px; overflow: hidden; position: relative; }
-  .rb-mstack.rb-rolling {
-    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 7px, #000 calc(100% - 7px), transparent);
-            mask-image: linear-gradient(to bottom, transparent, #000 7px, #000 calc(100% - 7px), transparent);
-  }
   .rb-mstack.rb-rolling .rb-mroll {
     animation: rb-roll var(--rb-roll-time) ease-in-out infinite alternate;
   }
@@ -231,7 +227,6 @@ title: Lecture Hall Calendar
   @media (prefers-reduced-motion: reduce) {
     .rb-mroll { animation: none !important; transform: none !important; }
     .rb-mstack { overflow-y: auto; }
-    .rb-mstack.rb-rolling { -webkit-mask-image: none; mask-image: none; }
   }
 
   /* ── popovers / dialog ── */
@@ -291,8 +286,7 @@ title: Lecture Hall Calendar
     .container { border: none !important; background: none !important; }
     .rb-app { border: none; }
     .rb-scroll { max-height: none !important; overflow: visible !important; }
-    .rb-mstack { height: auto !important; overflow: visible !important;
-                 -webkit-mask-image: none !important; mask-image: none !important; }
+    .rb-mstack { height: auto !important; overflow: visible !important; }
     .rb-mroll { animation: none !important; transform: none !important; }
     table.rb-month td { height: auto; }
     .rb-ev, .rb-mchip, .rb-col-head, td.rb-mout {
