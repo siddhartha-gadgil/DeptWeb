@@ -16,5 +16,6 @@ The KRS Sastry Prize honours an Indian mathematician, working in India, for thei
 
 <p style="margin-top: 0;">
 <strong>Invitations for nominations sent:</strong> March 25, 2026<br>
-<strong>Nominations closed:</strong> May 25, 2026
+<strong>Nominations closed:</strong> May 25, 2026<br>
+<strong>The 2026 KRS Sastry Prize announced:</strong> September 24, 2026 (<a href="https://math.iisc.ac.in/sastry-prize/">read more.</a>)
 </p>
