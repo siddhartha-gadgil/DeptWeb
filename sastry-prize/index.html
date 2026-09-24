@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <!-- Sets character encoding to UTF-8 - important for displaying special characters correctly -->
   
+  <meta name="viewport" content="width=1200">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Makes the page responsive on mobile devices. This is SUPER important! -->
   <!-- width=device-width: tells the browser to use the device's actual screen width -->
@@ -15,14 +16,19 @@
   <title>The KRS Sastry Prize</title>
   <!-- This appears in the browser tab and search engine results. Keep it descriptive but not too long! -->
   
-  <meta name="keywords" content="KRS Sastry Prize, Sastry Prize, Sastry Prize IISc">
-  <!-- Keywords for SEO (search engine optimization). Modern search engines don't use these much, but they don't hurt -->
+  <meta name="description" content="The KRS Sastry Prize honours an Indian mathematician, working in India, for long-term contributions of fundamental importance to mathematics. Awarded once every four years by the Indian Institute of Science.">
+  <!-- The one-line summary search engines show under the page title. (The old "keywords" meta was removed - search engines ignore it) -->
   
   <link rel="icon" type="image/png" href="images/iisclogo_black.png">
   <!-- The favicon - the little icon that appears in the browser tab. Make sure this image exists! -->
   <style>
     /* All our CSS styling goes here. I'm using internal styles for simplicity, but you could move this to a separate .css file! */
     
+    /* ========================================================================== */
+    /*  1. THEME COLOURS                                                        */
+    /*  Change a colour here and it changes everywhere it's used.               */
+    /* ========================================================================== */
+
     /* Root variables for consistent theming */
     /* This is like creating custom CSS variables that we can reuse throughout the stylesheet */
     /* It's great for maintaining consistent colors and makes it easy to change the whole theme! */
@@ -39,6 +45,11 @@
       --border-color: #e0c5c5;
       /* Border color for content boxes. A light pinkish-gray that complements the purple theme */
     }
+
+    /* ========================================================================== */
+    /*  2. PAGE BASICS                                                          */
+    /*  Fonts and text colour for the whole page.                               */
+    /* ========================================================================== */
 
     /* Body reset and global styles */
     /* The body is the main container for all visible content on the page */
@@ -59,23 +70,35 @@
 
     /* Heading styles */
     /* This targets all h1, h2, and h3 headings within the body */
-    body h1, body h2, body h3 {
+    h1, h2, h3, h4, h5, h6 {
       font-family: Arial, Helvetica, sans-serif;
       /* Using a different font family for headings to make them stand out from body text */
       /* Arial is a clean, sans-serif font that's widely supported. You could try 'Georgia' for a serif look! */
     }
 
-    .subhead {
-      cursor: default;
-      /* Changes the mouse cursor to default (not a text cursor) when hovering over subheadings */
-      /* This is a subtle UX detail that tells users this isn't editable text */
-    }
+    /* Heading sizes: the browser's standard ladder, written out explicitly so nothing below can quietly change it */
+    /* These are the ONLY places heading sizes are set. The tag (h1/h2/h3) decides the size, nothing else */
+    h1 { font-size: 2rem; }      /* 32px - the page title in the banner */
+    h2 { font-size: 1.5rem; }    /* 24px - a tab's main heading */
+    h3 { font-size: 1.17rem; }   /* 18.7px - a subsection within a tab */
+    h4 { font-size: 1rem; }      /* 16px - same as body text. Not used yet */
+    h5 { font-size: 0.83rem; }   /* 13.3px - not used */
+    h6 { font-size: 0.67rem; }   /* 10.7px - not used */
+
+    /* ========================================================================== */
+    /*  3. PAGE WIDTH                                                           */
+    /*  How wide the page is at each screen size.                               */
+    /* ========================================================================== */
 
     /* Main container with responsive max-widths */
     /* This container wraps all our content and makes it responsive */
     .container {
       width: 100%;
       /* Takes up the full width on small screens */
+      
+      box-sizing: border-box;
+      /* Makes the padding below count as part of the 100% width, not extra on top of it */
+      /* Without this the container is 30px wider than the phone screen and the page scrolls sideways. Ask me how I know! */
       
       margin: 24px auto;
       /* 24px top/bottom margin, auto left/right to center the container */
@@ -122,6 +145,10 @@
         /* Maximum width for very large screens. Content won't get too wide on huge monitors! */
       }
     }
+
+    /* ========================================================================== */
+    /*  4. PURPLE BANNER (top of page)                                          */
+    /* ========================================================================== */
 
     /* Page box matching homepage container */
     /* This creates the white box that contains all our content */
@@ -187,9 +214,7 @@
       font-weight: 550;
       /* Medium-bold weight. 400 is normal, 700 is bold. 550 is a nice in-between! */
       
-      font-size: 1.9rem;
-      /* 1.9 times the root font size. 'rem' units are relative to the root font size, making them accessible */
-      /* You could make this larger (2.5rem) for a more dramatic header, or smaller (1.5rem) for subtlety */
+      /* No font-size here: it's an h1, so it gets the standard 2rem from the heading ladder in section 2 */
       
       color: #ffffff;
       /* White text to match the banner background color */
@@ -235,6 +260,11 @@
       /* If your logo is already white, you can remove this filter */
     }
 
+    /* ========================================================================== */
+    /*  5. CONTENT BOX AND TABS                                                 */
+    /*  The rounded box and the tab buttons inside it.                          */
+    /* ========================================================================== */
+
     /* Main content area */
     /* This is where all the main page content lives (the tabs, text, etc.) */
     main {
@@ -267,6 +297,10 @@
       display: flex;
       /* Flexbox layout makes tabs arrange horizontally and handle spacing nicely */
       
+      flex-wrap: wrap;
+      /* With three tabs they no longer fit on one line on small phones, so let them wrap onto a second row */
+      /* Without this the third tab would just poke out of the box on the right */
+      
       gap: 12px;
       /* Creates 12px space between each tab. Modern CSS that's much cleaner than using margins! */
       
@@ -278,8 +312,8 @@
     }
 
     .tab-button {
-      padding: 8px 16px;
-      /* Comfortable padding for clickable area. Top/bottom: 8px, left/right: 16px */
+      padding: 8px 1px;
+      /* Comfortable padding for clickable area. Top/bottom: 8px, left/right: 1px */
       
       border: none;
       /* Removes default button border for cleaner look */
@@ -310,17 +344,13 @@
     }
 
     /* Tab panels */
-    /* These are the content sections that show/hide when you click tabs */
-    .tab-panel {
-      display: none;
-      /* Hides all tab panels by default. Only the active one will be shown */
-    }
+    /* No CSS needed to show/hide them: inactive panels carry the standard HTML "hidden" attribute, */
+    /* which the browser already renders as display: none. The JavaScript just moves that attribute around */
 
-    .tab-panel.active {
-      display: block;
-      /* Shows the active tab panel. The JavaScript adds/removes this class */
-      /* 'block' makes it take up the full width available */
-    }
+    /* ========================================================================== */
+    /*  6. TEXT INSIDE THE TABS                                                 */
+    /*  Subheads, paragraphs and bullet lists. Shared by ALL tabs.              */
+    /* ========================================================================== */
 
     /* Subheading styles */
     /* These are the purple section headers like "ABOUT THE PRIZE" and "RULES OF THE PRIZE" */
@@ -334,13 +364,20 @@
       font-weight: 700;
       /* Bold weight (700). Makes these headings stand out from regular text */
       
-      margin-top: 0;
+      margin-top: 1.5em;
       margin-bottom: 5px;
-      /* Tight spacing. 0 top margin, 5px bottom margin. Keeps layout compact */
+      /* THE knob for the gap ABOVE each subhead (em = relative to the heading's own size, so h2s get a bit more than h3s) */
+      /* This replaces the old <br></br> hacks that used to fake this spacing in the HTML */
       
-      font-size: 1.05rem;
-      /* Slightly larger than body text. 'rem' units are accessible and scale with user preferences */
-      /* You could make this larger (1.2rem) for more emphasis or smaller (0.9rem) for subtlety */
+      cursor: default;
+      /* Shows the arrow cursor rather than the text cursor over headings. A small hint that they aren't editable text */
+      
+      /* No font-size here: an h2 subhead is 1.5rem and an h3 subhead is 1.17rem, from the ladder in section 2 */
+    }
+
+    .tab-panel > :first-child {
+      margin-top: 0;
+      /* Whatever comes first in a tab (usually its heading) sits flush against the tab bar - no gap above it */
     }
 
     /* Paragraph and list styles */
@@ -350,7 +387,7 @@
       /* You could increase this to 1.8 for more airy feel, or decrease to 1.4 for tighter layout */
       
       margin-top: 0;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       /* Removes top margin (since headings handle spacing above) and adds small bottom margin */
     }
 
@@ -368,6 +405,71 @@
       /* Adds space between list items. Makes long lists easier to read */
       /* You could increase this to 12px for more breathing room between rules */
     }
+
+    /* ========================================================================== */
+    /*  7. THE 2026 PRIZE TAB ONLY                                              */
+    /*  Title size, photo size, and the purple line. Most tweaks happen here.   */
+    /* ========================================================================== */
+
+    /* The main heading of the 2026 prize tab */
+    /* It reuses the .subhead class for the colour, weight and uppercase, and only overrides what's different */
+    .prize-title {
+      text-align: center;
+      /* This is the ONLY centered heading on the site. All the other subheads stay left-aligned */
+
+      color: var(--banner-bg);
+      /* Uses our purple color to match the theme and create visual hierarchy */
+      
+      font-weight: 800;
+
+      /* No font-size here: it's an h2, so it's 1.5rem from the ladder, one step above the h3 subheads at 1.17rem */
+      
+      margin-bottom: 16px;
+      /* A bit more breathing room below than the regular subheads get (5px) */
+    }
+
+    /* VARIANT C: the photo floats on the right and the text flows continuously around it */
+    /* Like a newspaper: the lead-in, the JURY CITATION heading and the citation all wrap past the photo */
+    /* Note this means JURY CITATION can start beside the photo, not below it */
+    .laureate-photo {
+      float: right;
+      /* Takes the photo out of the normal flow and lets text wrap around its left side */
+      
+      width: 25%;
+      /* Exactly half the content box, whatever the screen size. Shrinks and grows with the browser window */
+      /* Careful: the real photo is only 413px wide, so on any screen where half the box is wider than that it gets upscaled and looks soft */
+      
+      height: auto;
+      /* Keeps the photo's proportions whatever width we pick */
+      
+      margin: 0 0 6px 30px;
+      /* Gap between the photo and the text: 12px below it, 24px to its left. (Order: top, right, bottom, left) */
+      
+      border-radius: 0px;
+      /* Rounded corners to match the page box and the content box */
+    }
+
+    /* The horizontal line that separates the laureate section from the jury list */
+    .rule {
+      clear: both;
+      /* Makes sure the line always sits below the photo, never beside it */
+      
+      width: 90%;
+      /* Not full width - leaves a little gap at each end so it doesn't touch the box edges */
+      
+      margin: 20px auto 24px;
+      /* auto left/right centers the line. 20px above and 24px below - tweak these to change the spacing around it */
+      
+      border: 0;
+      /* Removes the browser's default grey 3D-looking line... */
+      
+      border-top: 2px solid var(--banner-bg);
+      /* ...and draws our own in the theme purple. Change 2px to 1px for a finer line */
+    }
+
+    /* ========================================================================== */
+    /*  8. PURPLE FOOTER (bottom of page)                                       */
+    /* ========================================================================== */
 
     /* Footer styles */
     /* This is the purple footer at the bottom of the page */
@@ -406,9 +508,14 @@
       /* You could change this to a regular font if you prefer consistency */
     }
 
+    /* ========================================================================== */
+    /*  9. PHONE OVERRIDES                                                      */
+    /*  Only applies on screens 640px or narrower. Overrides the rules above.   */
+    /* ========================================================================== */
+
     /* Mobile responsiveness */
     /* These styles kick in on smaller screens to make everything look good on mobile */
-    @media (max-width: 640px) {
+   @media (max-width: 640px) {
       /* For screens 640px and smaller (most phones in portrait mode) */
       
       .banner-inner {
@@ -420,9 +527,19 @@
       }
 
       .banner-title {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         /* Smaller font size for mobile. Prevents text from wrapping or looking too big */
-        /* 1.4rem instead of 1.9rem. You could go even smaller (1.2rem) for very tight layouts */
+        /* 1.5rem (the h2 size) instead of the h1's 2rem. This is the one deliberate exception to the ladder */
+      }
+
+      .laureate-photo {
+        float: none;
+        display: block;
+        margin: 0 auto 16px;
+        /* On phones, stop floating: the photo becomes a centered block above the lead-in text */
+        
+        width: 160px;
+        /* Same size as desktop */
       }
 
       .footer-inner {
@@ -436,6 +553,11 @@
         /* Adds small space between the email and date when stacked */
       }
     }
+
+    /* ========================================================================== */
+    /*  10. LINKS                                                               */
+    /*  The underlined links to IISc etc.                                       */
+    /* ========================================================================== */
 
     /* Minimal hover effects */
     /* These add subtle interactivity to links. Less is more for professional sites! */
@@ -461,11 +583,6 @@
       color: inherit;
     }
 
-    .institution-link:hover::after {
-      width: 100%;
-      /* Expands the underline to full width on hover. Creates the drawing effect! */
-    }
-
 
     .banner-title .institution-link {
       text-decoration: none;
@@ -482,6 +599,9 @@
   <div class="page-box">
   <!-- This creates the white box with rounded corners and border that contains everything -->
 
+  <!-- ========================================================================== -->
+  <!--  BANNER                                                                   -->
+  <!-- ========================================================================== -->
   <header>
     <!-- The header contains the banner with title and logo -->
     <div class="banner-inner">
@@ -490,13 +610,16 @@
       <!-- The class="institution-link" gives it the hover effects we defined in the CSS -->
       
       <div class="banner-logo">
-        <img src="images/iisclogo.png" alt="IISc logo">
+        <img src="images/iisclogo.png" alt="IISc logo" width="1880" height="1832">
         <!-- The IISc logo in the top right corner. Make sure this image file exists in the images folder! -->
         <!-- The alt text is important for accessibility - screen readers read this to visually impaired users -->
       </div>
     </div>
   </header>
 
+  <!-- ========================================================================== -->
+  <!--  MAIN CONTENT: the box with the three tabs                                -->
+  <!-- ========================================================================== -->
   <main>
     <!-- Main content area. This is where the tabs and all the important information lives -->
     <div class="oblong-box">
@@ -505,19 +628,67 @@
       <div class="tabs" role="tablist" aria-label="KRS Sastry Prize sections">
         <!-- Tab navigation. These are the clickable buttons that switch content -->
         <!-- role="tablist" and aria-label are for accessibility - helps screen reader users understand this is tab navigation -->
-        
-        <button class="tab-button" id="tab-about" role="tab" aria-controls="panel-about" aria-selected="true">About</button>
-        <!-- The "About" tab. It's active by default (aria-selected="true") -->
+        <button type="button" class="tab-button" id="tab-prize2026" role="tab" aria-controls="panel-prize2026" aria-selected="true" tabindex="0">The 2026 Prize</button>
+        <!-- The "2026 Prize" tab. This is the one that's active when the page loads (aria-selected="true") -->
+        <!-- The tab that's selected here must be the same one whose panel is NOT hidden below! -->
+        <!-- You could add more tabs by following the same pattern - the script at the bottom picks them up automatically -->
+        <button type="button" class="tab-button" id="tab-about" role="tab" aria-controls="panel-about" aria-selected="false" tabindex="-1">About</button>
+        <!-- The "About" tab. Inactive by default (aria-selected="false") -->
         <!-- aria-controls tells screen readers which content panel this button controls -->
+        <!-- type="button" says "this is not a form submit button". tabindex="-1" means only the SELECTED tab is reachable with the Tab key; -->
+        <!-- the arrow keys move between tabs instead (that's the standard keyboard behaviour for tabs, handled by the script at the bottom) -->
         
-        <button class="tab-button" id="tab-nomination" role="tab" aria-controls="panel-nomination" aria-selected="false">The Nomination Process</button>
-        <!-- The "Nomination Process" tab. It's inactive by default -->
-        <!-- You could add more tabs here by following the same pattern! -->
+        <button type="button" class="tab-button" id="tab-nomination" role="tab" aria-controls="panel-nomination" aria-selected="false" tabindex="-1">Nomination</button>
+        <!-- The "Nomination" tab. Also inactive by default -->        
       </div>
 
-      <section id="panel-about" class="tab-panel active" role="tabpanel" aria-labelledby="tab-about">
+      <!-- ========================================================================== -->
+      <!--  TAB 3 CONTENT: The 2026 KRS Sastry Prize (the landing tab)               -->
+      <!-- ========================================================================== -->
+      <section id="panel-prize2026" class="tab-panel" role="tabpanel" aria-labelledby="tab-prize2026" tabindex="0">
+        <!-- This is the content panel for the 2026 prize - the landing page -->
+        <!-- Visible on load: it's the only panel WITHOUT the "hidden" attribute. tabindex="0" lets keyboard users Tab into the content -->
+
+        <h2 class="prize-title">The 2026 KRS Sastry Prize</h2>
+        
+<p>The inaugural KRS Sastry Prize is awarded to Prof. Mahan Mj for his contributions of fundamental importance to the study of geometry, groups, dynamics, and probability, and of connections between these subjects.</p>
+<p> 
+</p>
+        <img class="laureate-photo" src="images/mmj_framed.jpg" alt="Mahan Mj" width="413" height="531">
+        <!-- width/height are the photo's real pixel size. The browser reserves the space before the image loads so the text doesn't jump. -->
+        <!-- The CSS still decides the displayed size. Don't display it wider than 413px or it'll pixelate -->
+
+	
+
+        <h3 class="subhead">JURY CITATION</h3>
+
+        <p>The 2026 KRS Sastry Prize is awarded to Mahan Mj for his fundamental research in geometry, groups, dynamics, and probability. By uncovering deep connections between these areas, his works have resolved central questions across these fields. In particular, Mahan's series of papers on Cannon–Thurston maps culminated in a proof of the existence of such maps for all finitely generated Kleinian groups. This settled one of the key open problems in the Thurston programme for studying hyperbolic 3-manifolds.</p>
+
+	<p align="center"><font color="#772953">&#10087; &nbsp; &#10087; &nbsp; &#10087; &nbsp; &#10087; &nbsp; &#10087; &nbsp; &#10087; &nbsp; &#10087; &nbsp; &#10087;</font></p>
+        <h3 class="subhead">ABOUT THE LAUREATE</h3>
+
+        <p>Mahan Mj was born in 1968 in West Bengal, India. He is currently a Professor at the School of Mathematics at the Tata Institute of Fundamental Research (TIFR) in Mumbai, and is a monk of the Ramakrishna Order. He received his Master's degree from the Indian Institute of Technology Kanpur in 1992 and his PhD from the University of California, Berkeley in 1997. After working briefly at the Institute of Mathematical Sciences in Chennai in 1998, he joined the Ramakrishna Order. Before joining TIFR, he served as a Professor and as the Dean of Research at the Ramakrishna Mission Vivekananda University. Mahan Mj was awarded the Sloan Research Fellowship in 1996 and the Shanti Swarup Bhatnagar Prize in 2011. He was an invited speaker at the 2018 International Congress of Mathematicians in Rio de Janeiro.</p>
+
+        <hr class="rule">
+        <!-- The purple horizontal line. See .rule in the styles above -->
+
+        <h3 class="subhead">JURY</h3>
+
+        <!-- One name per line, in this exact order. <br> is a line break within the same paragraph -->
+        <p>Peter Sarnak (Chair)<br>
+        Nalini Anantharaman (Member)<br>
+        Gautam Bharali (Member ex-officio)<br>
+        Yakov Eliashberg (Member)<br>
+        François Labourie (Member)<br>
+        Nikhil Srivastava (Member)</p>
+      </section>
+
+      <!-- ========================================================================== -->
+      <!--  TAB 1 CONTENT: About                                                     -->
+      <!-- ========================================================================== -->
+      <section id="panel-about" class="tab-panel" role="tabpanel" aria-labelledby="tab-about" tabindex="0" hidden>
         <!-- This is the content panel for the "About" tab -->
-        <!-- It's visible by default because of the "active" class -->
+        <!-- Hidden on load via the "hidden" attribute. Clicking the About tab removes it -->
         <!-- role="tabpanel" and aria-labelledby are accessibility attributes -->
         
         <h2 class="subhead">ABOUT THE PRIZE</h2>
@@ -530,14 +701,9 @@
         <!-- Second paragraph with more details about the prize's origin and administration -->
         <!-- The links use the institution-link class for consistent styling and hover effects -->
 
-        <p>The prize consists of a cash award of 5 lakh rupees and an accompanying citation. Following a nomination process, the recipient is selected by an independent jury of eminent mathematicians of international renown. <br></br></p>
+        <p>The prize consists of a cash award of 5 lakh rupees and an accompanying citation. Following a nomination process, the recipient is selected by an independent jury of eminent mathematicians of international renown.</p>
         <!-- Third paragraph describing the prize details and selection process -->
-        <!-- The <br></br> adds extra line spacing. You could remove this if you want tighter spacing -->
 
-	<!-- <p><font color="FFFFFF">...</font></p>-->
-        <!-- This is a commented-out paragraph. It was probably used for testing or as a placeholder -->
-        <!-- The white font color would make it invisible against the white background -->
-        <!-- You can delete this or repurpose it for future content -->
 
         <h2 class="subhead">RULES OF THE PRIZE</h2>
         <!-- Another purple subheading for the rules section -->
@@ -578,7 +744,10 @@
         <!-- End of rules list. You could easily add more rules by adding more <li> elements! -->
       </section>
 
-      <section id="panel-nomination" class="tab-panel" role="tabpanel" aria-labelledby="tab-nomination">
+      <!-- ========================================================================== -->
+      <!--  TAB 2 CONTENT: The Nomination Process                                    -->
+      <!-- ========================================================================== -->
+      <section id="panel-nomination" class="tab-panel" role="tabpanel" aria-labelledby="tab-nomination" tabindex="0" hidden>
         <!-- This is the content panel for the "Nomination Process" tab -->
         <!-- It's hidden by default (no "active" class) and becomes visible when the tab is clicked -->
         
@@ -586,7 +755,7 @@
 
         <p>Names of candidates for the KRS Sastry Prize may be proposed by anyone who has received an invitation to nominate. The KRS Sastry Endowment Standing Committee strives to reach a discerning, yet diverse, body of nominators whose composition will be reviewed by this Committee from time to time.</p>
 
-        <p><strong>Only those nominations and supporting materials received from an institutional e-mail address will be accepted.</strong> All nominations will be kept strictly confidential. <br></br></p>
+        <p><strong>Only those nominations and supporting materials received from an institutional e-mail address will be accepted.</strong> All nominations will be kept strictly confidential.</p>
 
         <h3 class="subhead">ELIGIBILITY</h3>
 
@@ -598,8 +767,7 @@
           <li>A nomination will be valid for one more cycle provided all the eligibility criteria are met.</li>
 
           <li>Past winners of the KRS Sastry Prize and anyone holding a permanent position at the Indian Institute of Science either at the time of nomination or during the period of consideration for the prize cannot be nominated.</li>
-        </ul><br></br>
-
+        </ul>
 
         <h3 class="subhead">DEADLINE</h3>
 
@@ -611,6 +779,9 @@
   </main>
   <!-- End of main content area -->
 
+  <!-- ========================================================================== -->
+  <!--  FOOTER                                                                   -->
+  <!-- ========================================================================== -->
   <footer>
     <!-- The footer at the bottom of the page with contact info and last updated date -->
     <div class="footer-inner">
@@ -618,7 +789,7 @@
       <!-- Contact email. Uses the monospace font style we defined in CSS -->
       
       <!-- 🔧 UPDATE THIS DATE MANUALLY WHEN CONTENT CHANGES -->
-      <div id="last-updated">Last updated: 18 March 2026</div>
+      <div id="last-updated">Last updated: 17 September 2026</div>
     </div>
   </footer>
   <!-- End of footer -->
@@ -630,43 +801,45 @@
 
 <script>
   // Tab switching logic
-  // This JavaScript makes the tabs functional - clicking buttons switches content panels
+  // This JavaScript makes the tabs functional - clicking a button (or using the arrow keys) switches the content panel
   
-  (function() {
+  (function () {
     // Wrap everything in an IIFE (Immediately Invoked Function Expression)
     // This prevents polluting the global namespace with our variables
     
-    // Get references to all the tab buttons and content panels
-    var tabAbout = document.getElementById('tab-about');
-    var tabNom = document.getElementById('tab-nomination');
-    var panelAbout = document.getElementById('panel-about');
-    var panelNom = document.getElementById('panel-nomination');
-    // These variables hold references to our DOM elements so we can manipulate them
+    const tabs = Array.from(document.querySelectorAll('.tab-button'));
+    const panels = document.querySelectorAll('.tab-panel');
+    // Grab ALL the tab buttons and ALL the panels, however many there are
+    // This is why adding a fourth tab needs no changes down here - just follow the HTML pattern above
 
-    function activate(tab, panel) {
-      // This function switches which tab and panel are active
+    function select(tab) {
+      // Make 'tab' the selected one and every other tab unselected
       
-      // Update the aria-selected attributes for accessibility
-      tabAbout.setAttribute('aria-selected', tab === tabAbout ? 'true' : 'false');
-      tabNom.setAttribute('aria-selected', tab === tabNom ? 'true' : 'false');
-      // This tells screen readers which tab is currently selected
+      tabs.forEach(t => {
+        const on = t === tab;
+        t.setAttribute('aria-selected', on);
+        // aria-selected is what screen readers use, and also what the CSS uses to colour the active tab purple
+        t.tabIndex = on ? 0 : -1;
+        // Only the selected tab is in the Tab-key order; the arrow keys move between tabs (see below)
+      });
       
-      // Toggle the 'active' class to show/hide the content panels
-      panelAbout.classList.toggle('active', panel === panelAbout);
-      panelNom.classList.toggle('active', panel === panelNom);
-      // The toggle method adds/removes the 'active' class based on the condition
-      // Only the matching panel gets the 'active' class, making it visible
+      panels.forEach(p => { p.hidden = p.id !== tab.getAttribute('aria-controls'); });
+      // Show only the panel this button controls (its aria-controls attribute is the panel's id) and hide the rest
+      // 'hidden' is the standard HTML attribute - the browser hides the element, no CSS needed
     }
 
-    // Add click event listeners to the tab buttons
-    tabAbout.addEventListener('click', function() {
-      // When the About tab is clicked, activate the About tab and panel
-      activate(tabAbout, panelAbout);
-    });
-
-    tabNom.addEventListener('click', function() {
-      // When the Nomination tab is clicked, activate the Nomination tab and panel
-      activate(tabNom, panelNom);
+    tabs.forEach((tab, i) => {
+      tab.addEventListener('click', () => select(tab));
+      
+      tab.addEventListener('keydown', e => {
+        // Left/Right arrow moves to the previous/next tab and wraps around at the ends. Home/End jump to first/last
+        const last = tabs.length - 1;
+        const next = { ArrowLeft: i === 0 ? last : i - 1, ArrowRight: i === last ? 0 : i + 1, Home: 0, End: last }[e.key];
+        if (next === undefined) return;
+        e.preventDefault();
+        select(tabs[next]);
+        tabs[next].focus();
+      });
     });
   })();
   // End of IIFE - the function runs immediately and keeps everything contained
