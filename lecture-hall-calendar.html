@@ -118,16 +118,14 @@ title: Lecture Hall Calendar
   .rb-col { flex: 1 1 0; min-width: 0; border-left: 1px solid var(--rb-line); position: relative; }
   .rb-cell { height: var(--rb-hour); border-top: 1px solid var(--rb-line); box-sizing: border-box; }
   .rb-cell:first-child { border-top: none; }
-  #rb-knock { -webkit-user-select: none; user-select: none; }
-  /* The last word of the heading answers the knock: from the fourth click on it
-     shows the mode being knocked towards, getting more certain each time. It is
-     inline-block so it can be scaled on arrival. */
-  #rb-morph {
+  #rb-h1 { -webkit-user-select: none; user-select: none; }
+  /* Inline-block so the last word of the heading can be scaled. */
+  #rb-h2 {
     display: inline-block;
     transition: opacity 0.18s ease, color 0.18s ease;
   }
-  #rb-morph.rb-morph-hint { color: var(--rb-accent); }
-  #rb-morph.rb-morph-done { color: var(--rb-accent); animation: rb-settle 0.5s ease; }
+  #rb-h2.rb-h2-hint { color: var(--rb-accent); }
+  #rb-h2.rb-h2-done { color: var(--rb-accent); animation: rb-settle 0.5s ease; }
   @keyframes rb-settle {
     0%   { transform: scale(1);    opacity: 0.8; }
     35%  { transform: scale(1.07); opacity: 1; }
@@ -255,7 +253,7 @@ title: Lecture Hall Calendar
 </style>
 
 <div class="rb-head" style="margin-bottom:12px;">
-  <h2 style="margin-bottom:2px;">Lecture <span id="rb-knock">Hall</span> <span id="rb-morph">Calendar</span></h2>
+  <h2 style="margin-bottom:2px;">Lecture <span id="rb-h1">Hall</span> <span id="rb-h2">Calendar</span></h2>
   <p class="text-muted" style="margin-bottom:0;">Lecture halls LH-1 to LH-5 &middot; August&ndash;December 2026</p>
 </div>
 
@@ -312,13 +310,13 @@ title: Lecture Hall Calendar
 
 <p class="rb-note" id="rb-foot">
   Hatched blocks are scheduled classes from the
-  <a href="{{ site.baseurl }}/course-schedule.html">course schedule</a> &mdash; those halls are not
+  <a href="{{ site.baseurl }}/course-schedule.html">course schedule</a>, so those halls are not
   free at those times. Blocks with a pale left edge are seminars from the
   <a href="{{ site.baseurl }}/seminars-all.html">seminar listing</a>. Plain solid blocks
   are bookings the office has confirmed.
   <span id="rb-compose-help" hidden>
     <br>
-    To ask for a hall, click the hours you want &mdash; a click takes the whole hour,
+    To ask for a hall, click the hours you want. A click takes the whole hour
     and dragging takes any stretch down to a quarter of an hour. Then press
     <b>Book</b>, say what it is for, and you are handed a <b>booking code</b> to send
     to the office. Nothing is held until they enter it.
@@ -389,7 +387,16 @@ null]
   // Classes repeat weekly with nothing in the data to say when they stop, so
   // without this the grid would keep blocking halls for courses that finished.
   // Set it to the last day of teaching and move it each semester, with CLASSES.
-  var SEM_END = "2026-11-30";
+  // Which semester the timetable below belongs to. Terms run August to November
+  // and January to April; outside its own term the grid shows no classes, so
+  // stale data cannot quietly block halls a year later.
+  var SEMESTER = "aug2026";
+  var SEM = (function (key) {
+    var m = /^([a-z]{3})(\d{4})$/.exec(key) || [];
+    var y = +m[2] || new Date().getFullYear();
+    return m[1] === "jan" ? { start: y + "-01-01", end: y + "-04-30" }
+                          : { start: y + "-08-01", end: y + "-11-30" };
+  })(SEMESTER);
 
   // Seminar front matter carries a start and almost never an end, so one has to
   // be assumed. An hour is the house length -- except the Eigenfunctions Seminar,
@@ -682,7 +689,7 @@ null]
 
   // ─────────────────────────────────────────────────────── state
   var state = {
-    view: "week",
+    view: "day",
     cursor: new Date(),                                     // the focused date
     mini: new Date(),                                       // month shown in the sidebar
     rooms: ROOM_IDS.slice(),                                // which halls are ticked
@@ -730,7 +737,7 @@ null]
   function eventsFor(date, room) {
     var out = [], wd = date.getDay(), key = ymd(date);
     CLASSES.forEach(function (c) {
-      if (key > SEM_END) return;                  // term over: the halls are free again
+      if (key < SEM.start || key > SEM.end) return;   // out of term: the halls are free
       if (c.room === room && c.days.indexOf(wd) >= 0) {
         out.push({ room: room, start: c.start, end: c.end, title: c.title,
                    sub: c.sub, name: c.name, kind: "class" });
@@ -1106,7 +1113,7 @@ null]
   // changing one is an email to them, the same way making one is.
   function showEvent(ev, anchor) {
     showPop(
-      "<h5>" + esc(ev.title) + (ev.name ? " &mdash; " + esc(ev.name) : "") + "</h5>" +
+      "<h5>" + esc(ev.title) + (ev.name ? ": " + esc(ev.name) : "") + "</h5>" +
       '<div class="rb-pop-meta">' +
         esc(ev.room) + " &middot; " + ampm(ev.start) + " \u2013 " + ampm(ev.end) +
         (ev.kind === "class" ? " &middot; scheduled class"
@@ -1289,7 +1296,7 @@ null]
                        clockTime(r.start) + " – " + clockTime(r.end));
           }).join("<br>") + "</div>" +
         '<div class="rb-code-out" id="rb-code-out">' + esc(code) + "</div>" +
-        '<div class="rb-pop-msg">Nothing is booked yet. Send this to the office — ' +
+        '<div class="rb-pop-msg">Nothing is booked yet. Send this to the office; ' +
           "the hall is yours once they enter it.</div>" +
         '<textarea class="rb-mail" id="rb-mail-text" readonly>' + esc(text) + "</textarea>" +
         '<div class="rb-pop-actions">' +
@@ -1397,7 +1404,7 @@ null]
           return { ok: false, error: r.status === 404
             ? "booking.php is not where the page expects it (404). Check the API path."
             : (/^\s*<\?php/.test(body)
-                ? "The server is sending booking.php as plain text — PHP is not running for this directory."
+                ? "The server is sending booking.php as plain text, so PHP is not running for this directory."
                 : "The server answered with something that is not JSON (HTTP " + r.status +
                   "). The browser console has the first few lines.") };
         }
@@ -1415,7 +1422,7 @@ null]
 
   function load() {
     if (!API) {
-      banner("Showing scheduled classes only — the booking service is not connected yet.");
+      banner("Showing scheduled classes only; the booking service is not connected yet.");
       return Promise.resolve();
     }
     return fetch(API, { cache: "no-store" })
@@ -1609,58 +1616,44 @@ null]
   });
 
   // ─────────────────────────────────────────────────────── go
-  // Composing a request is a mode, not a privilege: it reveals a form that writes
-  // an email, and anyone could write that email themselves. It is kept off the
-  // page everyone sees so the calendar stays a calendar -- and it is reached by
-  // clicking the word "Hall" in the heading seven times.
-  //
-  // The last word of the heading is the only thing that answers. The first three
-  // clicks do nothing at all, so nobody stumbles in; from the fourth it shows the
-  // word for the mode being knocked towards, faint at first and more certain each
-  // time, so somebody who knows the trick can see it working. The seventh arrives:
-  // the word settles into place and the heading now reads Lecture Hall Booking,
-  // which is also how you can tell afterwards which mode you are in.
-  //
-  // Stop half way and it forgets: three seconds of quiet puts the heading back.
-  var KNOCKS_NEEDED = 7, KNOCK_HINT_FROM = 4, KNOCK_FORGET = 3000;
+  var HEAD_STEPS = 7, HEAD_FADE_FROM = 4, HEAD_RESET_MS = 3000;
   var FADE = { 4: 0.3, 5: 0.55, 6: 0.8 };
 
-  var knocks = 0, knockTimer = null;
-  var morph = document.getElementById("rb-morph");
+  var headStep = 0, headTimer = null;
+  var h2 = document.getElementById("rb-h2");
 
   function modeWord(composing) { return composing ? "Booking" : "Calendar"; }
 
-  // Where the heading rests between knocks: the mode you are actually in.
-  function restHeading() {
-    morph.textContent = modeWord(state.compose);
-    morph.style.opacity = "";
-    morph.classList.remove("rb-morph-hint");
+  function resetHeading() {
+    h2.textContent = modeWord(state.compose);
+    h2.style.opacity = "";
+    h2.classList.remove("rb-h2-hint");
   }
 
-  function showKnock(count) {
-    if (count < KNOCK_HINT_FROM) return restHeading();
-    morph.textContent = modeWord(!state.compose);      // where this is heading
-    morph.style.opacity = String(FADE[count] || 1);
-    morph.classList.add("rb-morph-hint");
+  function showHeadStep(count) {
+    if (count < HEAD_FADE_FROM) return resetHeading();
+    h2.textContent = modeWord(!state.compose);      // where this is heading
+    h2.style.opacity = String(FADE[count] || 1);
+    h2.classList.add("rb-h2-hint");
   }
 
-  document.getElementById("rb-knock").addEventListener("click", function () {
-    knocks++;
-    clearTimeout(knockTimer);
+  document.getElementById("rb-h1").addEventListener("click", function () {
+    headStep++;
+    clearTimeout(headTimer);
 
-    if (knocks < KNOCKS_NEEDED) {
-      showKnock(knocks);
-      knockTimer = setTimeout(function () { knocks = 0; restHeading(); }, KNOCK_FORGET);
+    if (headStep < HEAD_STEPS) {
+      showHeadStep(headStep);
+      headTimer = setTimeout(function () { headStep = 0; resetHeading(); }, HEAD_RESET_MS);
       return;
     }
-    knocks = 0;
+    headStep = 0;
     setCompose(!state.compose);
 
     // Arrived: the word is now the mode, and says so once.
-    morph.classList.remove("rb-morph-hint", "rb-morph-done");
-    void morph.offsetWidth;                            // restart the animation
-    morph.classList.add("rb-morph-done");
-    setTimeout(function () { morph.classList.remove("rb-morph-done"); }, 600);
+    h2.classList.remove("rb-h2-hint", "rb-h2-done");
+    void h2.offsetWidth;                            // restart the animation
+    h2.classList.add("rb-h2-done");
+    setTimeout(function () { h2.classList.remove("rb-h2-done"); }, 600);
   });
 
   function setCompose(on) {
@@ -1670,8 +1663,10 @@ null]
       else sessionStorage.removeItem("rb-compose");
     } catch (e) {}
     document.querySelector(".rb-app").classList.toggle("rb-compose", on);
+    // A booking is for one day, so that is the view to be in.
+    if (on) state.view = "day";
     if (!on) state.sel = {};              // leaving takes the half-made request with it
-    restHeading();
+    resetHeading();
     render();
   }
 
@@ -1679,12 +1674,12 @@ null]
   // into the read-only view mid-request.
   try { state.compose = sessionStorage.getItem("rb-compose") === "1"; } catch (e) {}
   document.querySelector(".rb-app").classList.toggle("rb-compose", state.compose);
-  restHeading();
+  resetHeading();
 
   readURL();
   renderRoomList();
   document.getElementById("rb-sem-note").textContent =
-    "Classes are shown through " + longDate(SEM_END) + ".";
+    "Classes are shown for " + longDate(SEM.start) + " to " + longDate(SEM.end) + ".";
   (function () {
     var a = auditSeminars(RAW_SEMINARS, SEMINAR_MINS, LONG_SEMINAR_MINS);
     if (!a.unplaced.length) return;

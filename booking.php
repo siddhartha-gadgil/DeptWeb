@@ -279,7 +279,7 @@ $action = is_string($in['action'] ?? null) ? $in['action'] : '';
 if ($action === 'read') {
     $split = split_input((string) ($in['value'] ?? ''));
     $runs  = $split ? decode_slots($split['slots']) : null;
-    if (!$runs) reply(['ok' => false, 'error' => 'That code is damaged — ask for it again.']);
+    if (!$runs) reply(['ok' => false, 'error' => 'That code is damaged; ask for it again.']);
 
     // Only the reading whose code checks out may say it is authorised.
     $authorised = false; $purpose = $split['readings'][count($split['readings']) - 1]['purpose'];
@@ -296,7 +296,7 @@ if ($action === 'read') {
 if ($action === 'enact') {
     $split = split_input((string) ($in['value'] ?? ''));
     $runs  = $split ? decode_slots($split['slots']) : null;
-    if (!$runs) reply(['ok' => false, 'error' => 'That code is damaged — ask for it again.']);
+    if (!$runs) reply(['ok' => false, 'error' => 'That code is damaged; ask for it again.']);
 
     if (OFFICE_CODE === '') reply(['ok' => false, 'error' => 'No office code is set up on the server.']);
 
