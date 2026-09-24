@@ -84,6 +84,7 @@ const MAX_PURPOSE  = 60;     // characters, after slugging
 const MAX_AHEAD    = 500;    // days from today a booking may be made
 const MAX_BEHIND   = 2;      // days into the past, so late entry still works
 const KEEP_DAYS    = 400;    // how long a spent booking stays in the file
+const UNDO_DAYS    = 30;     // ... and a withdrawn one, so a slip can be undone
 define('CALENDAR_URL', $LH_CFG['calendar_url'] ?? 'http://localhost:8001/lecture-hall-calendar.html');
 
 const MAX_BODY      = 8192;   // no request needs more than this
@@ -418,23 +419,32 @@ function clashes_for(array $runs): array {
 function bookings_file(): string { return data_path('bookings.json'); }
 
 // Every request reads this file whole, so it must not be allowed to grow for
-// ever. A booking that is long past, and one that was withdrawn, are of no
-// further use to anybody: they go when the file is next written. Done here
-// rather than on a timer so there is nothing to install and nothing to forget.
+// ever. A booking long past is of no further use to anybody and goes when the
+// file is next written. Done here rather than on a timer so there is nothing to
+// install and nothing to forget.
+//
+// A withdrawn one is kept for a month rather than removed. Withdrawing is one
+// click and there is no undo in the page, so the row is what an undo would be
+// made of: editing the file by hand is not pleasant, but it beats telling
+// somebody their booking is gone and cannot be got back.
 function prune(array $all): array {
-    $cut = (new DateTimeImmutable('today'))->modify('-' . KEEP_DAYS . ' days')->format('Y-m-d');
+    $cut  = (new DateTimeImmutable('today'))->modify('-' . KEEP_DAYS . ' days')->format('Y-m-d');
+    $undo = time() - UNDO_DAYS * 86400;
     $keep = [];
     foreach ($all as $b) {
         if (!is_array($b) || !isset($b['date'], $b['room'], $b['start'], $b['end'])) continue;
-        if (($b['status'] ?? 'active') !== 'active') continue;
         if ($b['date'] < $cut) continue;
+        if (($b['status'] ?? 'active') !== 'active'
+            && strtotime((string) ($b['dropped'] ?? '')) < $undo) continue;
         $keep[] = $b;
     }
     return $keep;
 }
 
+// What the calendar has in it: everything still standing.
 function live_bookings(): array {
-    return prune(read_json(bookings_file()));
+    return array_values(array_filter(prune(read_json(bookings_file())),
+        fn($b) => ($b['status'] ?? 'active') === 'active'));
 }
 
 // What the calendar is shown. The address stays in the file: this list is public.
@@ -507,8 +517,14 @@ if (in_array('--selftest', $cli, true)) {
     $new_ = (new DateTimeImmutable('+10 days'))->format('Y-m-d');
     $row  = fn($d, $st) => ['id' => 'x', 'room' => 'LH-1', 'date' => $d, 'start' => '09:00',
                             'end' => '10:00', 'purpose' => 'p', 'name' => 'n', 'status' => $st];
+    $just = $row($new_, 'cancelled'); $just['dropped'] = gmdate('c');
+    $stale = $row($new_, 'cancelled');   // withdrawn, but long ago enough to forget
+    $stale['dropped'] = gmdate('c', time() - (UNDO_DAYS + 1) * 86400);
     $check('prune', count(prune([$row($new_, 'active'), $row($old, 'active'),
-                                 $row($new_, 'cancelled'), ['junk' => 1]])), 1);
+                                 $just, $stale, ['junk' => 1]])), 2);
+    $check('withdrawn stays out of the calendar',
+           count(array_filter(prune([$row($new_, 'active'), $just]),
+                              fn($b) => ($b['status'] ?? 'active') === 'active')), 1);
 
     // A token outlives its deadline and nothing else.
     $check('token now',  token_ok(office_token()), true);
@@ -585,7 +601,8 @@ if ($action === 'enact') {
     $runs = $c['runs']; $purpose = $c['purpose']; $by = $c['name'];
 
     $out = with_lock(function () use ($runs, $purpose, $by) {
-        $live = prune(read_json(bookings_file()));
+        $all  = prune(read_json(bookings_file()));
+        $live = array_values(array_filter($all, fn($b) => ($b['status'] ?? 'active') === 'active'));
 
         // Every slot is checked before any is written: a request for three halls
         // that collides on the third must not leave the first two booked.
@@ -609,12 +626,12 @@ if ($action === 'enact') {
         $id = bin2hex(random_bytes(4));
         $now = gmdate('c');
         foreach ($runs as $r) {
-            $live[] = ['id' => $id, 'room' => $r['room'], 'date' => $r['date'],
-                       'start' => $r['start'], 'end' => $r['end'],
-                       'purpose' => $purpose, 'name' => $by, 'email' => '',
-                       'status' => 'active', 'made' => $now];
+            $all[] = ['id' => $id, 'room' => $r['room'], 'date' => $r['date'],
+                      'start' => $r['start'], 'end' => $r['end'],
+                      'purpose' => $purpose, 'name' => $by, 'email' => '',
+                      'status' => 'active', 'made' => $now];
         }
-        write_json(bookings_file(), $live);
+        write_json(bookings_file(), $all);
         return ['ok' => true, 'id' => $id];
     });
     if (!$out['ok']) reply($out);
@@ -628,11 +645,21 @@ if ($action === 'cancel') {
     if (!token_ok((string) ($in['token'] ?? ''))) reply(['ok' => false, 'error' => 'unauthorised']);
     $id = (string) ($in['id'] ?? '');
     $out = with_lock(function () use ($id) {
-        $all  = prune(read_json(bookings_file()));
-        $keep = array_values(array_filter($all, fn($b) => ($b['id'] ?? '') !== $id));
-        if (count($keep) === count($all)) return ['ok' => false, 'error' => 'No such booking.'];
-        write_json(bookings_file(), $keep);
-        return ['ok' => true];
+        $all   = prune(read_json(bookings_file()));
+        $now   = gmdate('c');
+        $gone  = [];
+        foreach ($all as &$b) {
+            if (($b['id'] ?? '') !== $id || ($b['status'] ?? 'active') !== 'active') continue;
+            $b['status'] = 'cancelled';
+            $b['dropped'] = $now;
+            $gone[] = $b;
+        }
+        unset($b);
+        if (!$gone) return ['ok' => false, 'error' => 'That booking is not there to withdraw.'];
+        write_json(bookings_file(), $all);
+        return ['ok' => true, 'purpose' => $gone[0]['purpose'], 'who' => $gone[0]['name'],
+                'slots' => array_map(fn($b) => ['room' => $b['room'], 'date' => $b['date'],
+                                                'start' => $b['start'], 'end' => $b['end']], $gone)];
     });
     if ($out['ok']) $out['bookings'] = array_map('public_view', live_bookings());
     reply($out);
