@@ -113,8 +113,7 @@ title: Lecture Hall Calendar
   .rb-slots { display: flex; position: relative; }
   .rb-hours { width: 56px; flex: 0 0 56px; }
   .rb-hour-label { height: var(--rb-hour); position: relative; }
-  .rb-hour-label span { position: absolute; top: -7px; right: 8px; font-size: 0.63rem; color: var(--rb-mute); background: #fff; }
-  .rb-hour-label:first-child span { display: none; }
+  .rb-hour-label span { position: absolute; top: 3px; right: 8px; font-size: 0.63rem; color: var(--rb-mute); background: #fff; }
   .rb-col { flex: 1 1 0; min-width: 0; border-left: 1px solid var(--rb-line); position: relative; }
   .rb-cell { height: var(--rb-hour); border-top: 1px solid var(--rb-line); box-sizing: border-box; }
   .rb-cell:first-child { border-top: none; }
@@ -170,7 +169,21 @@ title: Lecture Hall Calendar
   .rb-ev-class { background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.22) 0 5px, transparent 5px 10px); }
   /* Seminars are one-off and come from the website, not the office: solid like a
      booking, but railed on the left so the two are never mistaken for each other. */
-  .rb-ev-seminar { box-shadow: inset 4px 0 0 rgba(255,255,255,0.92); }
+  /* A chequerboard down the left edge: the usual pair of 45-degree gradients,
+     the second offset by half a tile so the squares interlock. Two columns of
+     4px tiles, which is the narrowest that still reads as a chequerboard rather
+     than a dotted line. */
+  .rb-ev-seminar::before {
+    content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 8px;
+    background-image:
+      linear-gradient(45deg, rgba(255,255,255,0.92) 25%, transparent 25%,
+                             transparent 75%, rgba(255,255,255,0.92) 75%),
+      linear-gradient(45deg, rgba(255,255,255,0.92) 25%, transparent 25%,
+                             transparent 75%, rgba(255,255,255,0.92) 75%);
+    background-size: 8px 8px;
+    background-position: 0 0, 4px 4px;
+  }
+  .rb-ev-seminar { padding-left: 12px; }
 
   .rb-nowline { position: absolute; left: 0; right: 0; height: 2px; background: var(--rb-now); z-index: 5; pointer-events: none; }
   .rb-nowline-dot::before { content: ""; position: absolute; left: -5px; top: -4px; width: 10px; height: 10px; border-radius: 50%; background: var(--rb-now); }
@@ -311,19 +324,33 @@ title: Lecture Hall Calendar
 <p class="rb-note" id="rb-foot">
   Hatched blocks are scheduled classes from the
   <a href="{{ site.baseurl }}/course-schedule.html">course schedule</a>, so those halls are not
-  free at those times. Blocks with a pale left edge are seminars from the
+  free at those times. Blocks with a chequered left edge are seminars from the
   <a href="{{ site.baseurl }}/seminars-all.html">seminar listing</a>. Plain solid blocks
   are bookings the office has confirmed.
   <span id="rb-compose-help" hidden>
     <br>
     To ask for a hall, click the hours you want. A click takes the whole hour
     and dragging takes any stretch down to a quarter of an hour. Then press
-    <b>Book</b>, say what it is for, and you are handed a <b>booking code</b> to send
-    to the office. Nothing is held until they enter it.
+    <b>Book</b>, say who it is for and what for, and you are handed a
+    <b>booking code</b>. Get that to the office by any means and the hall is yours
+    once they enter it. Nothing is held until then.
     <span id="rb-week-hint"></span>
   </span>
   <span id="rb-sem-note"></span> <span id="rb-seminar-warn"></span>
 </p>
+
+<!-- Who may be named in a booking code, from _data/faculty.yaml, so a new
+     colleague appears here the moment they appear on the People page. booking.php
+     keeps its own copy and refuses a code naming anyone it does not know, so that
+     list is the one that has to be regenerated when this one changes. -->
+<script type="application/json" id="rb-people-data">
+[
+{% for f in site.data.faculty %}
+{"name": {{ f.name | strip | jsonify }}, "id": {{ f["user-id"] | jsonify }}},
+{% endfor %}
+{"name": "S Nitish Kumar", "id": "nitishs"},
+null]
+</script>
 
 <!-- Classes, straight from _data/courses.yaml so this page and the course-schedule
      page can never disagree about when a hall is occupied. -->
@@ -368,15 +395,10 @@ null]
     { id: "LH-5", color: "#4a7c2f" }
   ];
 
-  // Confirmed bookings, read from the sheet the office keeps:
-  //   File > Share > Publish to web > the Bookings sheet > CSV > Publish.
-  // Paste that URL here. It is public and read-only; nothing on this page writes
-  // to it. Leave "" and the class timetable still draws, with a notice.
   // The endpoint on the department's own server (booking.php), beside this page.
   // Written through Liquid rather than hardcoded: the site builds twice, once with
   // baseurl "/DeptWeb" and once -- the one that is actually deployed -- with
   // baseurl "". A literal path would be right in a preview and wrong in production.
-  // Set to "" to draw the class timetable read-only, with a notice.
   var API = "{{ site.baseurl }}/booking.php";
 
 
@@ -384,9 +406,6 @@ null]
   // enacts it. This is the address that email goes to.
   var OFFICE = "office.math@iisc.ac.in";
 
-  // Classes repeat weekly with nothing in the data to say when they stop, so
-  // without this the grid would keep blocking halls for courses that finished.
-  // Set it to the last day of teaching and move it each semester, with CLASSES.
   // Which semester the timetable below belongs to. Terms run August to November
   // and January to April; outside its own term the grid shows no classes, so
   // stale data cannot quietly block halls a year later.
@@ -408,7 +427,7 @@ null]
   var SEMINAR_MINS = 60;
   var LONG_SEMINAR_MINS = 120;
 
-  var DAY_START = 7 * 60, DAY_END = 21 * 60;   // grid spans 7:00 - 21:00
+  var DAY_START = 7 * 60, DAY_END = 24 * 60;   // grid spans 7:00 to midnight
   var PX_PER_MIN = 48 / 60;                    // 48px per hour, as in the CSS
   var SCROLL_TO  = 8 * 60;                     // open showing the 8:00 start of teaching
   var WEEK_DAYS  = 7;                          // Mon .. Sun
@@ -445,12 +464,16 @@ null]
   }
   function hhmm(min) { return pad(Math.floor(min / 60)) + ":" + pad(min % 60); }
   function ampm(min) {
+    if (min >= 24 * 60) return "midnight";
+    if (min === 12 * 60) return "noon";
     var h = Math.floor(min / 60), m = min % 60, suf = h < 12 ? "am" : "pm", h12 = h % 12;
     if (h12 === 0) h12 = 12;
     return h12 + (m ? ":" + pad(m) : "") + suf;
   }
   function minutesOf(hm) { var p = String(hm).split(":"); return (+p[0]) * 60 + (+(p[1] || 0)); }
   function clockTime(min) {
+    if (min >= 24 * 60) return "midnight";
+    if (min === 12 * 60) return "noon";
     var h = Math.floor(min / 60), suf = h < 12 ? "AM" : "PM";
     return (h % 12 || 12) + ":" + pad(min % 60) + " " + suf;
   }
@@ -528,6 +551,7 @@ null]
                      "   (" + spanLabel(r.end - r.start) + ")";
             }).join("\n") +
             "\n\nPurpose: " + (d.purpose || "") +
+            (d.name ? "\nBooking for: " + d.name : "") +
             "\n\nThank you," + (d.name ? "\n" + d.name : "")
     };
   }
@@ -684,6 +708,52 @@ null]
     return acc;
   }, []);
 
+  // ── who is booking ───────────────────────────────────────────────────
+  // A code names the person it is for, so the office can see whose booking it is
+  // before enacting it and the calendar can say afterwards. The token is their
+  // initials: first letter of the given name, first letter of the family name.
+  //
+  // Four pairs of colleagues share initials, and rather than keep a list of
+  // exceptions the tie is broken by a rule -- whoever has the shorter server
+  // user-id uses that instead, which is a name they already answer to. So
+  // Manjunath Krishnapur is "manju" and Mahesh Kakde keeps "mk". A new colleague
+  // whose initials collide is handled without editing anything here; booking.php
+  // still needs its own copy regenerated, which is where such a change bites.
+  var PEOPLE = (function () {
+    var rows = readJSON("rb-people-data").filter(function (r) { return r && r.name && r.id; });
+    var groups = {};
+    rows.forEach(function (r) {
+      var parts = r.name.replace(/\./g, " ").split(/\s+/).filter(Boolean);
+      r.token = (parts[0].charAt(0) + parts[parts.length - 1].charAt(0)).toLowerCase();
+      (groups[r.token] = groups[r.token] || []).push(r);
+    });
+    Object.keys(groups).forEach(function (t) {
+      var tied = groups[t];
+      if (tied.length < 2) return;
+      var shortest = tied.reduce(function (a, b) { return b.id.length < a.id.length ? b : a; });
+      shortest.token = shortest.id;
+    });
+    return rows;
+  })();
+
+  function personByName(name) {
+    var want = String(name || "").trim().toLowerCase();
+    for (var i = 0; i < PEOPLE.length; i++) {
+      if (PEOPLE[i].name.toLowerCase() === want) return PEOPLE[i];
+    }
+    return null;
+  }
+
+  // The last name typed, so this is a one-field popup from the second booking on.
+  // Storage can be switched off or full, and a forgotten name is no loss.
+  function lastBooker(name) {
+    try {
+      if (name === undefined) return localStorage.getItem("rb-booker") || "";
+      localStorage.setItem("rb-booker", name);
+    } catch (e) {}
+    return "";
+  }
+
   var RAW_SEMINARS = readJSON("rb-seminar-data");
   var SEMINARS = toSeminars(RAW_SEMINARS, SEMINAR_MINS, LONG_SEMINAR_MINS);
 
@@ -694,7 +764,7 @@ null]
     mini: new Date(),                                       // month shown in the sidebar
     rooms: ROOM_IDS.slice(),                                // which halls are ticked
     compose: false,
-    bookings: [],                                           // from the office's sheet
+    bookings: [],                                           // confirmed, from the server
     sel: {}                                                 // hours ticked for the email
   };
   var TODAY = new Date();
@@ -806,7 +876,7 @@ null]
   // Anything that could be shown in a popover is worth having as hover text too:
   // in a narrow column the chip is usually an ellipsis.
   function evTitle(e) {
-    return e.title + (e.name ? " \u2014 " + e.name : "") + " \u00b7 " + e.room +
+    return e.title + (e.name ? ": " + e.name : "") + " \u00b7 " + e.room +
            " \u00b7 " + ampm(e.start) + "\u2013" + ampm(e.end) +
            (e.sub ? " \u00b7 " + e.sub : "");
   }
@@ -1044,7 +1114,7 @@ null]
 
     var sc = main.querySelector(".rb-scroll");
     // back off a few pixels so the 8am label is not sliced by the scroll edge
-    if (sc) sc.scrollTop = keep === null ? (SCROLL_TO - DAY_START) * PX_PER_MIN - 10 : keep;
+    if (sc) sc.scrollTop = keep === null ? (SCROLL_TO - DAY_START) * PX_PER_MIN : keep;
 
     renderMini();
     renderSelection();
@@ -1071,7 +1141,7 @@ null]
     if (hint) {
       hint.textContent = (state.view === "week" && state.rooms.length > 1)
         ? "In week view the hours you pick belong to " + weekRoom() +
-          ", the first ticked hall \u2014 use \u201conly\u201d in the sidebar to choose another."
+          ", the first ticked hall. Use \u201conly\u201d in the sidebar to choose another."
         : "";
     }
   }
@@ -1109,8 +1179,8 @@ null]
     return pop;
   }
 
-  // Reading a block. Read-only: bookings are the office's row in the sheet, so
-  // changing one is an email to them, the same way making one is.
+  // Reading a block. Read-only: only the office can change a booking, so altering
+  // one is an email to them, the same way making one is.
   function showEvent(ev, anchor) {
     showPop(
       "<h5>" + esc(ev.title) + (ev.name ? ": " + esc(ev.name) : "") + "</h5>" +
@@ -1184,9 +1254,8 @@ null]
   // Copy first, then show what was copied. The textarea is not a nicety: a page
   // served over plain http, or an older browser, has no clipboard to write to,
   // and then selecting the text by hand is the only way through.
-  // The page asks for a purpose before it writes the email, rather than leaving a
-  // blank line in the draft for people to miss. Name and address are remembered so
-  // this is a one-field popup from the second booking onward.
+  // The page asks who and what for before it writes the email, rather than leaving
+  // blanks in the draft for people to miss.
   // Writing to the clipboard can sit there forever -- a browser waiting on a
   // permission prompt, a window that is not focused, an older browser with no
   // clipboard at all. So it is raced against a short timer, and anything that has
@@ -1214,34 +1283,51 @@ null]
 
   // ── the booking code ─────────────────────────────────────────────────
   // What the requester is given and the office pastes back. It spells the request
-  // out so it can be read by eye as well as by machine:
+  // out so it can be read by eye as well as by machine, and can therefore travel
+  // by any route at all -- an email, a message, read out over the phone:
   //
-  //     1 21092026 1500 to 1600 -number-theory-seminar
-  //     ^ hall     ^ ddmmyyyy    ^ what for
-  //                  ^ from ^ to
+  //     ak-lh3-24092026-1500-1600-number-theory-seminar
+  //     ^  ^   ^        ^    ^    ^ what for
+  //     |  |   |        |    ^ until
+  //     |  |   |        ^ from
+  //     |  |   ^ ddmmyyyy
+  //     |  ^ hall
+  //     ^ who it is for
   //
-  // Several slots join with "+". The purpose rides along, which also means two
-  // people asking for the very same slot produce two different codes.
+  // Several slots join with "+", repeating only the hall and the times, since the
+  // person and the purpose are the same for all of them. The purpose rides along,
+  // which also means two people asking for the very same slot produce two
+  // different codes.
+  //
+  // Nothing here is a secret. The code says what it wants in the open and carries
+  // no authority: the office code, which the requester never sees, is what turns
+  // one of these into a booking.
   function slug(s) {
     return String(s == null ? "" : s).toLowerCase()
       .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")
       .slice(0, 40).replace(/-+$/, "");
   }
 
-  function encodeRequest(runs, purpose) {
+  function encodeRequest(runs, purpose, token) {
     var slots = runs.map(function (r) {
       var d = r.date.split("-");                       // yyyy-mm-dd -> ddmmyyyy
-      return r.room.replace("LH-", "") + d[2] + d[1] + d[0] +
-             hhmm(r.start).replace(":", "") + "to" + hhmm(r.end).replace(":", "");
+      return "lh" + r.room.replace("LH-", "") + "-" + d[2] + d[1] + d[0] + "-" +
+             hhmm(r.start).replace(":", "") + "-" + hhmm(r.end).replace(":", "");
     }).join("+");
     var what = slug(purpose);
-    return slots + (what ? "-" + what : "");
+    return token + "-" + slots + (what ? "-" + what : "");
   }
 
   // ── asking for a hall ────────────────────────────────────────────────
   // No sign-in: the page hands back a code and the office is the one who acts on
   // it. Nothing is booked at this point, and the popup says so plainly rather
   // than letting anyone think the hall is theirs.
+  //
+  // The name is asked for because the code carries it, and it is picked from the
+  // department rather than typed freely -- a code naming nobody would be refused
+  // by the server anyway, and being told so here is better than being told so
+  // after sending it to the office. A datalist does the suggesting, which costs
+  // nothing and behaves the way the browser's own fields behave.
   function askPurpose(anchor) {
     var cells = Object.keys(state.sel).map(function (k) { return state.sel[k]; });
     if (!cells.length) return;
@@ -1254,6 +1340,12 @@ null]
           return esc(r.room + " · " + longDate(r.date) + " · " +
                      clockTime(r.start) + " – " + clockTime(r.end));
         }).join("<br>") + "</div>" +
+      '<label for="rb-q-who">Booking for</label>' +
+      '<input id="rb-q-who" list="rb-who-list" autocomplete="off" ' +
+        'placeholder="Start typing a name" value="' + esc(lastBooker()) + '">' +
+      '<datalist id="rb-who-list">' +
+        PEOPLE.map(function (x) { return '<option value="' + esc(x.name) + '">'; }).join("") +
+      "</datalist>" +
       '<label for="rb-q-purpose">Purpose</label>' +
       '<input id="rb-q-purpose" maxlength="80" placeholder="Seminar, viva, meeting…">' +
       '<div class="rb-pop-msg" id="rb-q-msg"></div>' +
@@ -1262,18 +1354,28 @@ null]
       "</div>",
       anchor);
 
+    var who = document.getElementById("rb-q-who");
     var purpose = document.getElementById("rb-q-purpose");
-    purpose.focus();
+    (who.value ? purpose : who).focus();
+
+    function complain(text, field) {
+      var msg = document.getElementById("rb-q-msg");
+      msg.className = "rb-pop-msg rb-err";
+      msg.textContent = text;
+      field.focus();
+    }
 
     function go() {
-      var what = purpose.value.trim();
-      if (!what) {
-        var msg = document.getElementById("rb-q-msg");
-        msg.className = "rb-pop-msg rb-err";
-        msg.textContent = "The office needs to know what the hall is for.";
-        return purpose.focus();
+      var person = personByName(who.value);
+      if (!person) {
+        return complain(who.value.trim()
+          ? "No one in the department goes by that name. Pick one from the list."
+          : "A code has to say who the hall is for.", who);
       }
-      showCode(runs, what, anchor);
+      var what = purpose.value.trim();
+      if (!what) return complain("The office needs to know what the hall is for.", purpose);
+      lastBooker(person.name);
+      showCode(runs, what, person, anchor);
     }
     document.getElementById("rb-q-go").addEventListener("click", go);
     pop.addEventListener("keydown", function (e) {
@@ -1282,9 +1384,9 @@ null]
   }
 
   // ── here is your code ────────────────────────────────────────────────
-  function showCode(runs, purpose, anchor) {
-    var code = encodeRequest(runs, purpose);
-    var mail = composeMail(runs, OFFICE, { purpose: purpose, code: code });
+  function showCode(runs, purpose, person, anchor) {
+    var code = encodeRequest(runs, purpose, person.token);
+    var mail = composeMail(runs, OFFICE, { purpose: purpose, code: code, name: person.name });
     var text = "To: " + mail.to + "\nSubject: " + mail.subject + "\n\n" + mail.body;
 
     copyText(text).then(function (copied) {
@@ -1296,8 +1398,8 @@ null]
                        clockTime(r.start) + " – " + clockTime(r.end));
           }).join("<br>") + "</div>" +
         '<div class="rb-code-out" id="rb-code-out">' + esc(code) + "</div>" +
-        '<div class="rb-pop-msg">Nothing is booked yet. Send this to the office; ' +
-          "the hall is yours once they enter it.</div>" +
+        '<div class="rb-pop-msg">Nothing is booked yet. Get this code to the office ' +
+          "any way you like; the hall is yours once they enter it.</div>" +
         '<textarea class="rb-mail" id="rb-mail-text" readonly>' + esc(text) + "</textarea>" +
         '<div class="rb-pop-actions">' +
           '<button class="rb-btn" id="rb-mail-done">Done</button>' +
@@ -1326,11 +1428,13 @@ null]
   // ── the office acting on a code ──────────────────────────────────────
   // No button: the navbar's search box doubles as the way in, and only on this
   // page -- the handler lives here, so everywhere else the box just searches.
-  // Paste the code with the office code stuck on the end and press enter.
+  // Paste the code, put a dot and the office code on the end, press enter.
   //
-  // Nothing is checked here. The server holds the office code and decides; a
-  // wrong one comes back "unauthorised" and the box is left alone.
-  var CODE_RE = /^[1-5]\d{12}to\d{4}(?:\+[1-5]\d{12}to\d{4})*[-a-z0-9]*$/i;
+  // Nothing is checked here beyond the shape, and the shape only decides whether
+  // this was meant as a booking or as an ordinary search. The server holds the
+  // office code and decides; a wrong one comes back "unauthorised" and the box is
+  // left alone.
+  var CODE_RE = /^[a-z]{2,12}-lh[1-5]-\d{8}-\d{4}-\d{4}[-+.a-z0-9]*$/i;
 
   function wireSearchBox() {
     var form = document.getElementById("site-search-form");
@@ -1361,7 +1465,8 @@ null]
                 return esc(s.room + " · " + longDate(s.date) + " · " +
                            clockTime(minutesOf(s.start)) + " – " + clockTime(minutesOf(s.end)));
               }).join("<br>") + "</div>" +
-            "<div>" + esc(r.purpose || "") + "</div>" +
+            "<div>" + esc(r.purpose || "") +
+              (r.who ? " · " + esc(r.who) : "") + "</div>" +
             '<div class="rb-pop-msg rb-ok">It is on the calendar now.</div>', input);
         })
         .catch(function () {
@@ -1377,9 +1482,9 @@ null]
     el.style.display = text ? "" : "none";
   }
 
-  // The sheet is published read-only, so this is a plain GET and there is no
-  // token, no session and nothing to keep in localStorage. A hall that is booked
-  // but missing here is a row the office has not entered yet, not a bug.
+  // Reading the calendar needs no office code, so this is a plain GET and there is
+  // no token and no session. A hall that is booked but missing here is a code the
+  // office has not entered yet, not a bug.
   // ── talking to booking.php ───────────────────────────────────────────
   // Same origin, so no CORS and no preflight to worry about. Sent as text/plain
   // all the same, which keeps the request "simple" whatever a proxy does to it.
