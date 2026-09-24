@@ -1,0 +1,1715 @@
+---
+title: Lecture Hall Calendar
+---
+<!--
+  Lecture-hall booking calendar for LH-1 .. LH-5.
+
+  NOBODY BOOKS FROM THIS PAGE. It reads; it never writes. Anyone can see when a
+  hall is free, and anyone can compose a request -- but a request is an email to
+  the office, and the office is what enters the row. There is no login, no server
+  of our own, and nothing here to break or re-deploy.
+
+  DATA, all of it read-only
+    Classes   -- _data/courses.yaml, at build time. Recurring and immovable, drawn
+                 hatched. A hall is not free during its classes, so they have to be
+                 on this grid or "free when" is a lie.
+    Seminars  -- the _seminars collection, at build time. Put a seminar on the
+                 website in a lecture hall and the hall is blocked here, the same
+                 build, with nobody doing anything.
+    Bookings  -- a Google Sheet the office keeps, published as CSV. The same
+                 pattern the course-schedule extras sheet already uses.
+
+  ASKING FOR A HALL
+    Click the hours wanted -- a click takes the whole hour, a drag takes any
+    stretch down to a quarter of an hour -- then Book. The page asks what it is
+    for and writes the email, which carries a short booking string (see
+    encodeRequest). The office pastes that string back into the site search box with
+    its code on the end, and this page reads it, re-checks the slot against
+    everything on the calendar, and hands over a row to paste into the sheet.
+
+  If the sheet is unset or unreachable the class timetable still draws and the page
+  says so. Nothing here can break the rest of the site.
+-->
+<style>
+  /* Google-Calendar-shaped grid, in the department's colours (#772953 chrome).
+     Layout conventions only -- no Google branding, fonts or icon art. */
+  :root {
+    --rb-line:   #dadce0;
+    --rb-line-2: #ececee;
+    --rb-ink:    #3c4043;
+    --rb-mute:   #70757a;
+    --rb-accent: #772953;
+    --rb-now:    #d93025;
+    --rb-hour:   48px;
+  }
+
+  .rb-app { border: 1px solid var(--rb-line); border-radius: 8px; overflow: hidden; background: #fff; color: var(--rb-ink); }
+
+  /* ── toolbar ── */
+  .rb-bar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 9px 12px; border-bottom: 1px solid var(--rb-line); background: #fff; }
+  .rb-bar h2 { font-size: 1.15rem; margin: 0 4px 0 6px; font-weight: 400; color: var(--rb-ink); white-space: nowrap; }
+  .rb-spacer { flex: 1 1 auto; }
+  .rb-btn {
+    border: 1px solid var(--rb-line); background: #fff; color: var(--rb-ink);
+    border-radius: 4px; padding: 5px 13px; font-size: 0.82rem; font-family: inherit;
+    cursor: pointer; white-space: nowrap; transition: background 0.15s;
+  }
+  .rb-btn:hover { background: #f1f3f4; }
+  .rb-nav { border: none; background: transparent; color: var(--rb-mute); cursor: pointer; width: 28px; height: 28px; border-radius: 50%; font-size: 1rem; line-height: 1; padding: 0; }
+  .rb-nav:hover { background: #f1f3f4; }
+  .rb-seg { display: inline-flex; border: 1px solid var(--rb-line); border-radius: 4px; overflow: hidden; }
+  .rb-seg button { border: none; background: #fff; color: var(--rb-mute); padding: 5px 14px; font-size: 0.82rem; font-family: inherit; cursor: pointer; }
+  .rb-seg button + button { border-left: 1px solid var(--rb-line); }
+  .rb-seg button.rb-on { background: var(--rb-accent); color: #fff; }
+  .rb-seg button:not(.rb-on):hover { background: #f1f3f4; }
+
+  /* ── two-pane body ── */
+  .rb-body { display: flex; align-items: stretch; }
+  .rb-side { width: 218px; flex: 0 0 218px; border-right: 1px solid var(--rb-line); padding: 12px 10px; box-sizing: border-box; }
+  .rb-main { flex: 1 1 auto; min-width: 0; overflow-x: auto; }
+
+  /* ── mini month ── */
+  .rb-mini-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+  .rb-mini-head span { font-size: 0.8rem; font-weight: 600; }
+  table.rb-mini { border-collapse: collapse; width: 100%; }
+  table.rb-mini th { font-size: 0.62rem; color: var(--rb-mute); font-weight: 500; text-align: center; padding: 2px 0; }
+  table.rb-mini td { text-align: center; padding: 0; }
+  table.rb-mini button {
+    width: 24px; height: 24px; border: none; background: transparent; border-radius: 50%;
+    font-size: 0.7rem; color: var(--rb-ink); cursor: pointer; padding: 0; font-family: inherit;
+  }
+  table.rb-mini button:hover { background: #f1f3f4; }
+  table.rb-mini button.rb-mini-out { color: #bdc1c6; }
+  table.rb-mini button.rb-mini-today { color: var(--rb-accent); font-weight: 700; }
+  table.rb-mini button.rb-mini-sel { background: var(--rb-accent); color: #fff; }
+
+  /* ── room filter ── */
+  .rb-side h6 { font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--rb-mute); margin: 16px 0 6px; }
+  .rb-room { display: flex; align-items: center; gap: 8px; padding: 3px 4px; border-radius: 4px; cursor: pointer; font-size: 0.84rem; }
+  .rb-room:hover { background: #f1f3f4; }
+  .rb-room input { margin: 0; cursor: pointer; }
+  .rb-swatch { width: 12px; height: 12px; border-radius: 3px; flex: 0 0 12px; }
+  .rb-room-name { flex: 1 1 auto; }
+  .rb-only { font-size: 0.66rem; color: var(--rb-accent); opacity: 0; border: none; background: none; padding: 0 2px; cursor: pointer; font-family: inherit; }
+  .rb-room:hover .rb-only { opacity: 1; }
+
+  /* ── free-now readout ── */
+
+  /* ── time grid ── */
+  .rb-grid { min-width: 640px; }
+  .rb-grid-head { display: flex; border-bottom: 1px solid var(--rb-line); position: sticky; top: 0; background: #fff; z-index: 6; }
+  .rb-gutter { width: 56px; flex: 0 0 56px; }
+  .rb-col-head { flex: 1 1 0; min-width: 0; text-align: center; padding: 6px 2px 8px; border-left: 1px solid var(--rb-line); }
+  .rb-col-head .rb-dow { font-size: 0.63rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--rb-mute); }
+  .rb-col-head .rb-dom { font-size: 1.45rem; font-weight: 400; line-height: 1.5; color: var(--rb-ink); }
+  .rb-col-head.rb-is-today .rb-dow { color: var(--rb-accent); }
+  .rb-col-head.rb-is-today .rb-dom {
+    background: var(--rb-accent); color: #fff; border-radius: 50%;
+    width: 34px; height: 34px; line-height: 34px; display: inline-block;
+  }
+  .rb-col-head .rb-roomlabel { font-size: 0.78rem; font-weight: 600; padding: 8px 2px; }
+
+  .rb-scroll { max-height: 620px; overflow-y: auto; position: relative; }
+  .rb-slots { display: flex; position: relative; }
+  .rb-hours { width: 56px; flex: 0 0 56px; }
+  .rb-hour-label { height: var(--rb-hour); position: relative; }
+  .rb-hour-label span { position: absolute; top: -7px; right: 8px; font-size: 0.63rem; color: var(--rb-mute); background: #fff; }
+  .rb-hour-label:first-child span { display: none; }
+  .rb-col { flex: 1 1 0; min-width: 0; border-left: 1px solid var(--rb-line); position: relative; }
+  .rb-cell { height: var(--rb-hour); border-top: 1px solid var(--rb-line); box-sizing: border-box; }
+  .rb-cell:first-child { border-top: none; }
+  #rb-knock { -webkit-user-select: none; user-select: none; }
+  /* The last word of the heading answers the knock: from the fourth click on it
+     shows the mode being knocked towards, getting more certain each time. It is
+     inline-block so it can be scaled on arrival. */
+  #rb-morph {
+    display: inline-block;
+    transition: opacity 0.18s ease, color 0.18s ease;
+  }
+  #rb-morph.rb-morph-hint { color: var(--rb-accent); }
+  #rb-morph.rb-morph-done { color: var(--rb-accent); animation: rb-settle 0.5s ease; }
+  @keyframes rb-settle {
+    0%   { transform: scale(1);    opacity: 0.8; }
+    35%  { transform: scale(1.07); opacity: 1; }
+    100% { transform: scale(1);    opacity: 1; }
+  }
+  .rb-compose .rb-col .rb-cell { cursor: pointer; }
+  /* The 15-minute band under the cursor. It only ever paints -- nothing moves and
+     nothing resizes, so the thing being aimed at stays where it was. */
+  .rb-band {
+    position: absolute; left: 0; right: 0; pointer-events: none; z-index: 2;
+    background: rgba(119,41,83,0.09); border-top: 1px solid rgba(119,41,83,0.35);
+  }
+  .rb-band-tag {
+    position: absolute; right: 3px; top: -1px; font-size: 0.6rem; line-height: 1.1;
+    color: #fff; background: var(--rb-accent); border-radius: 2px; padding: 0 3px;
+  }
+  /* What a drag is about to book. */
+  .rb-drag {
+    position: absolute; left: 0; right: 3px; pointer-events: none; z-index: 4;
+    background: rgba(119,41,83,0.22); border: 1px solid var(--rb-accent);
+    border-radius: 4px; font-size: 0.68rem; color: var(--rb-accent);
+    padding: 1px 5px; overflow: hidden; font-weight: 600;
+  }
+  .rb-sel {
+    position: absolute; left: 0; right: 3px; z-index: 3; pointer-events: none;
+    background-color: rgba(119,41,83,0.22); border: 1px solid var(--rb-accent);
+    border-radius: 4px; box-sizing: border-box; font-size: 0.66rem; line-height: 1.2;
+    color: var(--rb-accent); font-weight: 600; padding: 0 5px; overflow: hidden;
+  }
+  .rb-cell.rb-half { background-image: linear-gradient(to bottom, transparent 50%, var(--rb-line-2) 50%, var(--rb-line-2) calc(50% + 1px), transparent calc(50% + 1px)); }
+
+  /* ── events ── */
+  .rb-ev {
+    position: absolute; box-sizing: border-box; border-radius: 4px;
+    padding: 1px 6px; overflow: hidden; font-size: 0.7rem; line-height: 1.25;
+    color: #fff; border: 1px solid rgba(255,255,255,0.85); cursor: pointer;
+    text-align: left; font-family: inherit; display: block; width: 100%;
+  }
+  .rb-ev b { font-weight: 600; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .rb-ev small { font-size: 0.92em; opacity: 0.9; display: block; }
+  /* Classes are fixed timetable, not bookings: hatched so the two never read alike. */
+  .rb-ev-class { background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.22) 0 5px, transparent 5px 10px); }
+  /* Seminars are one-off and come from the website, not the office: solid like a
+     booking, but railed on the left so the two are never mistaken for each other. */
+  .rb-ev-seminar { box-shadow: inset 4px 0 0 rgba(255,255,255,0.92); }
+
+  .rb-nowline { position: absolute; left: 0; right: 0; height: 2px; background: var(--rb-now); z-index: 5; pointer-events: none; }
+  .rb-nowline-dot::before { content: ""; position: absolute; left: -5px; top: -4px; width: 10px; height: 10px; border-radius: 50%; background: var(--rb-now); }
+
+  /* ── month view ── */
+  table.rb-month { border-collapse: collapse; width: 100%; table-layout: fixed; }
+  table.rb-month th { font-size: 0.63rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--rb-mute); font-weight: 500; padding: 6px 2px; border: 1px solid var(--rb-line); text-align: center; }
+  table.rb-month td { border: 1px solid var(--rb-line); vertical-align: top; height: 92px; padding: 3px; }
+  .rb-mday { font-size: 0.72rem; color: var(--rb-mute); text-align: center; margin-bottom: 2px; }
+  .rb-mday.rb-is-today { background: var(--rb-accent); color: #fff; border-radius: 50%; width: 20px; height: 20px; line-height: 20px; margin: 0 auto 2px; }
+  td.rb-mout { background: #fafafa; }
+  td.rb-mout .rb-mday { color: #bdc1c6; }
+  .rb-mchip { font-size: 0.62rem; border-radius: 3px; padding: 0 4px; color: #fff; margin-bottom: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; }
+  .rb-mmore { font-size: 0.6rem; color: var(--rb-mute); padding: 0 0 0 4px;
+              border: none; background: none; font-family: inherit; cursor: pointer; }
+  .rb-mmore:hover { color: var(--rb-accent); text-decoration: underline; }
+
+  /* ── popovers / dialog ── */
+  .rb-pop {
+    position: absolute; z-index: 40; width: 300px; background: #fff;
+    border: 1px solid var(--rb-line); border-radius: 8px; box-shadow: 0 4px 18px rgba(0,0,0,0.22);
+    padding: 14px 16px; font-size: 0.82rem;
+  }
+  .rb-pop h5 { font-size: 0.98rem; margin: 0 0 2px; font-weight: 600; }
+  .rb-pop .rb-pop-meta { color: var(--rb-mute); font-size: 0.78rem; margin-bottom: 8px; }
+  .rb-create { background: var(--rb-accent); color: #fff; border-color: var(--rb-accent); font-weight: 600; }
+  .rb-create:hover { background: #8e3164; }
+  .rb-create[disabled] { opacity: 0.55; cursor: default; }
+  .rb-pop label { display: block; font-size: 0.7rem; color: var(--rb-mute); margin: 7px 0 2px; }
+  .rb-pop input, .rb-pop select {
+    width: 100%; box-sizing: border-box; border: 1px solid var(--rb-line);
+    border-radius: 4px; padding: 5px 7px; font-size: 0.82rem; font-family: inherit; color: var(--rb-ink);
+  }
+  .rb-suffix { display: flex; align-items: center; gap: 5px; }
+  .rb-suffix span { font-size: 0.8rem; color: var(--rb-mute); white-space: nowrap; }
+  .rb-code-out {
+    font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.86rem;
+    background: #f6f2f4; border: 1px solid var(--rb-line); border-radius: 4px;
+    padding: 7px 9px; margin: 8px 0 2px; word-break: break-all; cursor: text;
+    color: var(--rb-accent); font-weight: 600;
+  }
+  .rb-code { letter-spacing: 0.3em; font-size: 1.1rem !important; text-align: center; }
+  .rb-who { font-size: 0.72rem; color: var(--rb-mute); margin-bottom: 8px; }
+  .rb-who button {
+    border: none; background: none; padding: 0; font: inherit; font-size: 0.72rem;
+    color: var(--rb-accent); text-decoration: underline; cursor: pointer;
+  }
+  .rb-pop-close { position: absolute; top: 8px; right: 8px; border: none; background: none; color: var(--rb-mute); font-size: 1.05rem; cursor: pointer; line-height: 1; }
+  .rb-pop-actions { margin-top: 12px; display: flex; gap: 8px; justify-content: flex-end; align-items: center; }
+  .rb-pop-msg { font-size: 0.74rem; margin-top: 8px; }
+  .rb-err { color: #c5221f; }
+  .rb-ok  { color: #188038; }
+  .rb-backdrop { position: fixed; inset: 0; z-index: 39; }
+
+  .rb-note { font-size: 0.76rem; color: var(--rb-mute); margin-top: 10px; }
+  .rb-mail { width: 100%; box-sizing: border-box; font-family: ui-monospace, Menlo, Consolas, monospace;
+             font-size: 0.72rem; line-height: 1.45; height: 190px; margin-top: 8px;
+             border: 1px solid var(--rb-line); border-radius: 4px; padding: 8px; resize: vertical; }
+  .rb-banner { font-size: 0.78rem; padding: 7px 12px; border-bottom: 1px solid var(--rb-line); background: #fdf6ea; color: #8a6d3b; }
+
+  @media (max-width: 820px) {
+    .rb-side { display: none; }
+    .rb-bar h2 { font-size: 1rem; }
+  }
+  @media print {
+    .navbar, .bg-dark, .rb-side, .rb-note, .rb-banner { display: none !important; }
+    /* The controls go, but the heading stays -- it carries the dates and, when the
+       view is filtered, which halls are on the page. */
+    .rb-btn, .rb-nav, .rb-seg { display: none !important; }
+    .rb-bar { border-bottom: none; padding: 0 0 6px; }
+    .rb-bar h2 { font-size: 13px; margin: 0; }
+    .container { border: none !important; background: none !important; }
+    .rb-app { border: none; }
+    .rb-scroll { max-height: none !important; overflow: visible !important; }
+    .rb-ev, .rb-mchip, .rb-col-head, td.rb-mout {
+      -webkit-print-color-adjust: exact; print-color-adjust: exact;
+    }
+    @page { size: A4 landscape; margin: 8mm; }
+  }
+</style>
+
+<div class="rb-head" style="margin-bottom:12px;">
+  <h2 style="margin-bottom:2px;">Lecture <span id="rb-knock">Hall</span> <span id="rb-morph">Calendar</span></h2>
+  <p class="text-muted" style="margin-bottom:0;">Lecture halls LH-1 to LH-5 &middot; August&ndash;December 2026</p>
+</div>
+
+<div class="rb-app">
+  <div id="rb-banner" class="rb-banner" style="display:none;"></div>
+
+  <div class="rb-bar">
+    <button class="rb-btn" id="rb-today-btn" title="Today (t)">Today</button>
+    <button class="rb-nav" id="rb-prev" aria-label="Previous" title="Previous (&larr;)">&#8249;</button>
+    <button class="rb-nav" id="rb-next" aria-label="Next" title="Next (&rarr;)">&#8250;</button>
+    <h2 id="rb-period">&nbsp;</h2>
+    <span class="rb-spacer"></span>
+    <div class="rb-seg" role="group" aria-label="View">
+      <button id="rb-v-day"   data-view="day"   aria-pressed="false" title="Day (d)">Day</button>
+      <button id="rb-v-week"  data-view="week"  aria-pressed="true"  title="Week (w)">Week</button>
+      <button id="rb-v-month" data-view="month" aria-pressed="false" title="Month (m)">Month</button>
+    </div>
+    <button class="rb-btn" id="rb-print" title="Print this view" aria-label="Print">
+      <i class="fa fa-print" aria-hidden="true"></i>
+    </button>
+    <button class="rb-btn" id="rb-clear" hidden>Clear</button>
+    <button class="rb-btn rb-create" id="rb-new" disabled hidden>
+      <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;<span id="rb-new-label">Pick free hours</span>
+    </button>
+  </div>
+
+  <div class="rb-body">
+    <aside class="rb-side">
+      <div class="rb-mini-head">
+        <button class="rb-nav" id="rb-mini-prev" aria-label="Previous month">&#8249;</button>
+        <span id="rb-mini-label"></span>
+        <button class="rb-nav" id="rb-mini-next" aria-label="Next month">&#8250;</button>
+      </div>
+      <table class="rb-mini"><thead><tr>
+        <th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th><th>S</th>
+      </tr></thead><tbody id="rb-mini-body"></tbody></table>
+
+      <h6>Lecture halls</h6>
+      <div id="rb-room-list"></div>
+
+    </aside>
+
+    <main class="rb-main" id="rb-main"></main>
+  </div>
+</div>
+
+<datalist id="rb-faculty">
+  {% for f in site.data.faculty %}{% if f.user-id and f.user-id != "" %}
+  <option value="{{ f.user-id | strip }}@iisc.ac.in" label="{{ f.name | strip }}">
+  {% endif %}{% endfor %}
+  <!-- Not in faculty.yaml, but may book: keep in step with EXTRA in booking.php. -->
+  <option value="nitishs@iisc.ac.in" label="S Nitish Kumar">
+</datalist>
+
+<p class="rb-note" id="rb-foot">
+  Hatched blocks are scheduled classes from the
+  <a href="{{ site.baseurl }}/course-schedule.html">course schedule</a> &mdash; those halls are not
+  free at those times. Blocks with a pale left edge are seminars from the
+  <a href="{{ site.baseurl }}/seminars-all.html">seminar listing</a>. Plain solid blocks
+  are bookings the office has confirmed.
+  <span id="rb-compose-help" hidden>
+    <br>
+    To ask for a hall, click the hours you want &mdash; a click takes the whole hour,
+    and dragging takes any stretch down to a quarter of an hour. Then press
+    <b>Book</b>, say what it is for, and you are handed a <b>booking code</b> to send
+    to the office. Nothing is held until they enter it.
+    <span id="rb-week-hint"></span>
+  </span>
+  <span id="rb-sem-note"></span> <span id="rb-seminar-warn"></span>
+</p>
+
+<!-- Classes, straight from _data/courses.yaml so this page and the course-schedule
+     page can never disagree about when a hall is occupied. -->
+<script type="application/json" id="rb-class-data">
+[
+{% assign sem = site.data.courses.aug2026 %}
+{% assign cats = "core1,core-ug,core-intphd,core2,electives,ug" | split: "," %}
+{% for cat in cats %}{% assign list = sem[cat] %}{% if list %}{% for c in list %}
+{"code": {{ c.code | jsonify }}, "name": {{ c.name | jsonify }}, "instructor": {{ c.instructor | jsonify }}, "timing": {{ c.timing | jsonify }}, "venue": {{ c.venue | jsonify }}},
+{% endfor %}{% endif %}{% endfor %}
+null]
+</script>
+
+<!-- Seminars, from the _seminars collection, so a talk that is on the website is
+     on this grid too. Only the halls matter here, and only the years either side
+     of this one -- there are 1500-odd seminars and the calendar never shows the
+     2011 ones. The date comes from the filename, which is the one field nobody
+     has ever typed inconsistently. -->
+<script type="application/json" id="rb-seminar-data">
+[
+{% assign ynow = site.time | date: "%Y" | plus: 0 %}
+{% assign ymin = ynow | minus: 1 %}
+{% assign ymax = ynow | plus: 1 %}
+{% for s in site.seminars %}{% assign fn = s.path | split: "/" | last %}{% assign fy = fn | slice: 0, 4 | plus: 0 %}{% if fy >= ymin and fy <= ymax %}
+{"date": {{ fn | slice: 0, 10 | jsonify }}, "time": {{ s.time | jsonify }}, "start_time": {{ s.start_time | jsonify }}, "venue": {{ s.venue | jsonify }}, "location": {{ s.location | jsonify }}, "speaker": {{ s.speaker | jsonify }}, "title": {{ s.title | jsonify }}, "series": {{ s.series | jsonify }}},
+{% endif %}{% endfor %}
+null]
+</script>
+
+
+<script>
+(function () {
+  "use strict";
+
+  // ─────────────────────────────────────────────────────── config
+  // Colours are the department palette (aubergine #772953 leading), not Google's.
+  var ROOMS = [
+    { id: "LH-1", color: "#772953" },
+    { id: "LH-2", color: "#0f6e77" },
+    { id: "LH-3", color: "#b5541b" },
+    { id: "LH-4", color: "#2c5282" },
+    { id: "LH-5", color: "#4a7c2f" }
+  ];
+
+  // Confirmed bookings, read from the sheet the office keeps:
+  //   File > Share > Publish to web > the Bookings sheet > CSV > Publish.
+  // Paste that URL here. It is public and read-only; nothing on this page writes
+  // to it. Leave "" and the class timetable still draws, with a notice.
+  // The endpoint on the department's own server (booking.php), beside this page.
+  // Written through Liquid rather than hardcoded: the site builds twice, once with
+  // baseurl "/DeptWeb" and once -- the one that is actually deployed -- with
+  // baseurl "". A literal path would be right in a preview and wrong in production.
+  // Set to "" to draw the class timetable read-only, with a notice.
+  var API = "{{ site.baseurl }}/booking.php";
+
+
+  // Booking is a request, not a click: the page composes the email, the office
+  // enacts it. This is the address that email goes to.
+  var OFFICE = "office.math@iisc.ac.in";
+
+  // Classes repeat weekly with nothing in the data to say when they stop, so
+  // without this the grid would keep blocking halls for courses that finished.
+  // Set it to the last day of teaching and move it each semester, with CLASSES.
+  var SEM_END = "2026-11-30";
+
+  // Seminar front matter carries a start and almost never an end, so one has to
+  // be assumed. An hour is the house length -- except the Eigenfunctions Seminar,
+  // which runs two, usually as two talks with a break in between.
+  //
+  // A stated range always wins over both: 100 of the 103 Eigenfunctions seminars
+  // on the site give one, and are read from the file rather than guessed at. This
+  // is only what to assume when an entry does not say.
+  var SEMINAR_MINS = 60;
+  var LONG_SEMINAR_MINS = 120;
+
+  var DAY_START = 7 * 60, DAY_END = 21 * 60;   // grid spans 7:00 - 21:00
+  var PX_PER_MIN = 48 / 60;                    // 48px per hour, as in the CSS
+  var SCROLL_TO  = 8 * 60;                     // open showing the 8:00 start of teaching
+  var WEEK_DAYS  = 7;                          // Mon .. Sun
+  var STEP       = 15;                         // bookings snap to a quarter hour
+  var DEFAULT_LEN = 60;                        // a plain click books an hour
+  var DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MONTHS = ["January", "February", "March", "April", "May", "June",
+                "July", "August", "September", "October", "November", "December"];
+
+  // ─────────────────────────────────────────────────────── helpers
+  // Everything between the <test> markers is pure -- no document, no state --
+  // which is what lets test.js slice it out and run it under node.
+  // <test>
+  function pad(n) { return n < 10 ? "0" + n : "" + n; }
+  function ymd(d) { return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
+  function fromYmd(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function addDays(d, n) { var x = new Date(d.getTime()); x.setDate(x.getDate() + n); return x; }
+  function sameDay(a, b) { return ymd(a) === ymd(b); }
+  function startOfWeek(d) {                     // Monday
+    var x = new Date(d.getTime()), wd = (x.getDay() + 6) % 7;
+    return addDays(x, -wd);
+  }
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+
+  // "9:30" -> 570.  Bare hours 1..5 mean the afternoon, matching course-schedule.html.
+  function classTime(s) {
+    var p = s.trim().split(":"), h = parseInt(p[0], 10), m = parseInt(p[1] || "0", 10);
+    if (h === 12) return 720 + m;
+    if (h >= 8) return h * 60 + m;
+    return (h + 12) * 60 + m;
+  }
+  function hhmm(min) { return pad(Math.floor(min / 60)) + ":" + pad(min % 60); }
+  function ampm(min) {
+    var h = Math.floor(min / 60), m = min % 60, suf = h < 12 ? "am" : "pm", h12 = h % 12;
+    if (h12 === 0) h12 = 12;
+    return h12 + (m ? ":" + pad(m) : "") + suf;
+  }
+  function minutesOf(hm) { var p = String(hm).split(":"); return (+p[0]) * 60 + (+(p[1] || 0)); }
+  function clockTime(min) {
+    var h = Math.floor(min / 60), suf = h < 12 ? "AM" : "PM";
+    return (h % 12 || 12) + ":" + pad(min % 60) + " " + suf;
+  }
+  function longDate(key) {
+    return fromYmd(key).toLocaleDateString("en-GB",
+      { weekday: "short", day: "numeric", month: "short", year: "numeric" });
+  }
+
+  // ── the office's sheet ──
+  // A spreadsheet is typed by hand and exported by Google, so neither the column
+  // order nor the cell formats are ours to assume. Read the header for the order,
+  // accept the date and time shapes Sheets actually emits, and drop anything that
+  // still will not parse rather than drawing it in the wrong place.
+  function normDate(v) {
+    var t = String(v == null ? "" : v).trim(), m;
+    if ((m = t.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/))) return m[1] + "-" + pad(+m[2]) + "-" + pad(+m[3]);
+    if ((m = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/))) return m[3] + "-" + pad(+m[1]) + "-" + pad(+m[2]);
+    return "";                                   // Sheets' default export is M/D/YYYY
+  }
+
+  function normTime(v) {
+    var m = String(v == null ? "" : v).trim().match(/^(\d{1,2}):(\d{2})(?::\d{2})?\s*(?:([ap])\.?m?\.?)?$/i);
+    if (!m) return null;
+    var h = +m[1], ap = (m[2 + 1] || "").toLowerCase();
+    if (h > 23 || +m[2] > 59) return null;
+    if (ap === "p" && h < 12) h += 12;
+    if (ap === "a" && h === 12) h = 0;
+    return h * 60 + (+m[2]);
+  }
+
+
+  // ── turning ticked hours into an email ──
+  // Cells are an hour each. Four contiguous ticks in one hall are one line in the
+  // mail -- "2:00 PM - 6:00 PM" -- not four the office has to read as a block.
+  function mergeRuns(cells) {
+    var out = [];
+    cells.slice().sort(function (a, b) {
+      return a.date < b.date ? -1 : a.date > b.date ? 1
+           : a.room < b.room ? -1 : a.room > b.room ? 1 : a.min - b.min;
+    }).forEach(function (c) {
+      // A cell says how long it is. Older callers tick whole hours and say nothing.
+      var end = c.min + (c.len || 60);
+      var last = out[out.length - 1];
+      if (last && last.room === c.room && last.date === c.date && last.end === c.min) last.end = end;
+      else out.push({ room: c.room, date: c.date, start: c.min, end: end });
+    });
+    return out;
+  }
+
+  // Left deliberately plain: it is going to be pasted into a mail client, and the
+  // purpose line is blank because only the sender can fill it in.
+
+  // A span of minutes, said the way a person would say it.
+  function spanLabel(mins) {
+    var h = Math.floor(mins / 60), m = mins % 60;
+    if (!h) return m + " min";
+    return h + " hr" + (h === 1 ? "" : "s") + (m ? " " + m + " min" : "");
+  }
+
+  // The note asking the office to enter a code. Nothing is booked until they do,
+  // so it asks rather than reports.
+  function composeMail(runs, office, d) {
+    d = d || {};
+    var many = runs.length > 1;
+    return {
+      to: office,
+      subject: "Lecture hall request" +
+               (many ? "" : ": " + runs[0].room + ", " + longDate(runs[0].date)),
+      body: "Dear Office Math,\n\n" +
+            "This is my booking code:\n\n    " + (d.code || "") + "\n\n" +
+            "Which is for:\n\n" +
+            runs.map(function (r) {
+              return "    " + r.room + "   " + longDate(r.date) +
+                     "   " + clockTime(r.start) + " - " + clockTime(r.end) +
+                     "   (" + spanLabel(r.end - r.start) + ")";
+            }).join("\n") +
+            "\n\nPurpose: " + (d.purpose || "") +
+            "\n\nThank you," + (d.name ? "\n" + d.name : "")
+    };
+  }
+  // ── seminars ──
+  // Fifteen years of hand-typed front matter, so nothing here may assume a shape.
+  // Venues run from "LH-1" through "Lecture Hall - I, Dept. of Mathematics" to
+  // "Hybrid - Microsoft Teams (online) and LH-3". A struck-out venue is a
+  // correction, so the <del> is dropped rather than read. Anything that does not
+  // resolve to one of our five halls is not ours to draw -- "CHEP Lecture Hall"
+  // carries no numeral and falls out here, which is the point of demanding one.
+  function hallOf(venue) {
+    var t = String(venue == null ? "" : venue)
+              .replace(/<del>[\s\S]*?<\/del>/gi, " ")
+              .replace(/<[^>]*>/g, " ");
+    var m = t.match(/\b(?:LH|Lecture\s+Hall)\s*[-‐-―]?\s*(IV|V|III|II|I|[1-5])\b/i);
+    if (!m) return "";
+    var r = { I: 1, II: 2, III: 3, IV: 4, V: 5 }[m[1].toUpperCase()];
+    return "LH-" + (r || m[1]);
+  }
+
+  // "4 pm" | "11.30 am" | "3 - 5 pm (with a 15 minute break)" | "3:00-4:00 pm",
+  // and a start_time that YAML hands over as 870 as often as "09:00" -- 14:30
+  // reads as sexagesimal and becomes a number, 09:00 keeps its leading zero and
+  // stays a string. Both happen in the real files.
+  function seminarTimes(timeStr, startTime, fallbackMins) {
+    var start = null, end = null;
+
+    if (typeof startTime === "number" && isFinite(startTime) && startTime >= 0 && startTime < 1440) {
+      start = Math.round(startTime);
+    } else if (startTime != null && String(startTime).trim()) {
+      start = normTime(String(startTime).trim().replace(".", ":"));
+    }
+
+    // Trailing parentheses are always a note, never a time; cutting them keeps
+    // "a 15 minute break" from being read as a quarter past.
+    var toks = [], text = String(timeStr == null ? "" : timeStr).split("(")[0];
+    var re = /(\d{1,2})(?:[:.](\d{2}))?(?:\s*([ap])\.?\s*m\.?)?/gi, m;
+    while ((m = re.exec(text))) {
+      if (m[0].trim() === "") { re.lastIndex++; continue; }
+      toks.push({ h: +m[1], m: m[2] ? +m[2] : 0, ap: (m[3] || "").toLowerCase() });
+    }
+    toks = toks.filter(function (t) { return t.h <= 23 && t.m <= 59; });
+
+    function at(t, ap) {
+      var h = t.h;
+      if (ap === "p" && h < 12) h += 12;
+      else if (ap === "a" && h === 12) h = 0;
+      return h * 60 + t.m;
+    }
+
+    if (toks.length >= 2) {
+      var first = toks[0], last = toks[toks.length - 1];
+      end = at(last, last.ap || first.ap);
+      if (start === null) {
+        if (first.ap) start = at(first, first.ap);
+        else {
+          // "3 - 5 pm" is the afternoon, "11 - 1 pm" is late morning. Read the
+          // start whichever way makes the shortest seminar that still ends after
+          // it begins, rather than inheriting the suffix and getting 11pm to 1pm.
+          ["", "a", "p"].forEach(function (ap) {
+            var c = at(first, ap);
+            if (end > c && (start === null || end - c < end - start)) start = c;
+          });
+        }
+      }
+    } else if (toks.length === 1 && start === null) {
+      // A bare "4" on a seminar notice has never meant four in the morning.
+      start = at(toks[0], toks[0].ap || (toks[0].h >= 1 && toks[0].h <= 7 ? "p" : ""));
+    }
+
+    if (start === null) return null;
+    if (end === null || end <= start || end - start > 6 * 60) end = start + fallbackMins;
+    return { start: start, end: end };
+  }
+
+  // Matched on the series, not on the whole entry: a talk *about* eigenfunctions
+  // ("Perron-Frobenius eigenfunctions of perturbed stochastic matrices") turns up
+  // in other series, and stretching those to two hours would block a hall that is
+  // free.
+  function fallbackFor(series, mins, longMins) {
+    return /eigenfunction/i.test(String(series == null ? "" : series)) ? longMins : mins;
+  }
+
+  // Front matter is prose, so a venue nobody anticipated cannot be *parsed* --
+  // but it can be counted. Anything that names a place, is not obviously an online
+  // talk, and still does not resolve to a hall is a spelling we have not seen; the
+  // page says so under the calendar rather than quietly dropping it. This is the
+  // difference between failing safe and failing silently.
+  var ONLINE_RE = /online|teams|zoom|meet|webex|skype|virtual|hybrid/i;
+
+  function auditSeminars(raw, mins, longMins) {
+    var placed = toSeminars(raw, mins, longMins).length, online = 0, unplaced = [];
+    raw.forEach(function (s) {
+      var where = String(s.venue || s.location || "").trim();
+      if (hallOf(where)) {
+        // it named a hall; if it still did not draw, the date or time is the problem
+        if (!normDate(s.date) || !seminarTimes(s.time, s.start_time, mins)) {
+          unplaced.push({ date: s.date, where: where, why: "date or time" });
+        }
+        return;
+      }
+      if (!where) { unplaced.push({ date: s.date, where: "(blank)", why: "no venue" }); return; }
+      if (ONLINE_RE.test(where)) { online++; return; }
+      unplaced.push({ date: s.date, where: where, why: "venue" });
+    });
+    return { placed: placed, online: online, unplaced: unplaced };
+  }
+
+  function toSeminars(raw, mins, longMins) {
+    return raw.reduce(function (acc, s) {
+      var room = hallOf(s.venue || s.location), date = normDate(s.date);
+      if (!room || !date) return acc;                 // online, elsewhere, or undated
+      var t = seminarTimes(s.time, s.start_time, fallbackFor(s.series, mins, longMins));
+      if (!t) return acc;
+      acc.push({ room: room, date: date, start: t.start, end: t.end,
+                 title: String(s.series || "Seminar").trim() || "Seminar",
+                 sub: String(s.speaker || "").trim(),
+                 name: String(s.title || "").trim(), kind: "seminar" });
+      return acc;
+    }, []);
+  }
+  // </test>
+
+  // ─────────────────────────────────────────────────────── class timetable
+  // "Mon, Wed, Fri: 9:00 - 10:00" -> weekday numbers + minute range.
+  var DAY_WORDS = { Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6, Sun: 0 };
+  function parseTiming(t) {
+    if (!t) return null;
+    var m = /^(.+?):\s*([\d:]+)\s*-\s*([\d:]+)\s*$/.exec(String(t).trim());
+    if (!m) return null;
+    var days = [];
+    m[1].split(/\s*,\s*/).forEach(function (w) {
+      var n = DAY_WORDS[w.slice(0, 3)];
+      if (n !== undefined) days.push(n);
+    });
+    if (!days.length) return null;
+    return { days: days, start: classTime(m[2]), end: classTime(m[3]) };
+  }
+
+  function readJSON(id) {
+    var el = document.getElementById(id);
+    if (!el) return [];
+    try {
+      return (JSON.parse(el.textContent) || []).filter(function (x) { return x; });
+    } catch (e) { return []; }
+  }
+
+  var ROOM_IDS = ROOMS.map(function (r) { return r.id; });
+  var CLASSES = readJSON("rb-class-data").reduce(function (acc, c) {
+    var p = parseTiming(c.timing);
+    if (!p || ROOM_IDS.indexOf(c.venue) < 0) return acc;   // TBA venues cannot block a hall
+    acc.push({ room: c.venue, days: p.days, start: p.start, end: p.end,
+               title: c.code, sub: c.instructor, name: c.name, kind: "class" });
+    return acc;
+  }, []);
+
+  var RAW_SEMINARS = readJSON("rb-seminar-data");
+  var SEMINARS = toSeminars(RAW_SEMINARS, SEMINAR_MINS, LONG_SEMINAR_MINS);
+
+  // ─────────────────────────────────────────────────────── state
+  var state = {
+    view: "week",
+    cursor: new Date(),                                     // the focused date
+    mini: new Date(),                                       // month shown in the sidebar
+    rooms: ROOM_IDS.slice(),                                // which halls are ticked
+    compose: false,
+    bookings: [],                                           // from the office's sheet
+    sel: {}                                                 // hours ticked for the email
+  };
+  var TODAY = new Date();
+
+
+  // The address bar is kept describing whatever is on screen, so "here is when
+  // LH-3 is free next week" is a copy-and-paste rather than an explanation.
+  // Defaults are left out, so the everyday URL stays bare.
+  // Grabbed before anything can rewrite the address bar: syncURL drops the
+  // fragment on the first render, which is also what keeps the office's code out
+  // of the browser history.
+  function readURL() {
+    var q = new URLSearchParams(location.search);
+    var v = q.get("v");
+    if (v === "day" || v === "week" || v === "month") state.view = v;
+
+    var d = q.get("d");
+    if (d && /^\d{4}-\d{2}-\d{2}$/.test(d)) {
+      var dt = fromYmd(d);
+      if (!isNaN(dt.getTime())) { state.cursor = dt; state.mini = new Date(dt.getTime()); }
+    }
+    var r = q.get("r");
+    if (r) {
+      var picked = r.split(",").filter(function (x) { return ROOM_IDS.indexOf(x) >= 0; });
+      if (picked.length) state.rooms = picked;
+    }
+  }
+
+  function syncURL() {
+    var q = new URLSearchParams(location.search);
+    if (state.view === "week") q.delete("v"); else q.set("v", state.view);
+    if (sameDay(state.cursor, TODAY)) q.delete("d"); else q.set("d", ymd(state.cursor));
+    if (state.rooms.length === ROOM_IDS.length) q.delete("r");
+    else q.set("r", state.rooms.join(","));
+    var qs = q.toString();
+    history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
+  }
+
+  // Everything drawn on a given date, for the given room, as uniform blocks.
+  function eventsFor(date, room) {
+    var out = [], wd = date.getDay(), key = ymd(date);
+    CLASSES.forEach(function (c) {
+      if (key > SEM_END) return;                  // term over: the halls are free again
+      if (c.room === room && c.days.indexOf(wd) >= 0) {
+        out.push({ room: room, start: c.start, end: c.end, title: c.title,
+                   sub: c.sub, name: c.name, kind: "class" });
+      }
+    });
+    SEMINARS.forEach(function (s) {
+      if (s.room === room && s.date === key) {
+        out.push({ room: room, start: s.start, end: s.end, title: s.title,
+                   sub: s.sub, name: s.name, kind: "seminar" });
+      }
+    });
+    state.bookings.forEach(function (b) {
+      if (b.room === room && b.date === key) {
+        out.push({ room: room, start: b.start, end: b.end,
+                   title: b.title, sub: b.bookedBy, kind: "booking" });
+      }
+    });
+    return out.sort(function (a, b) { return a.start - b.start || b.end - a.end; });
+  }
+
+  // ─────────────────────────────────────────────────────── event geometry
+  // Overlapping blocks share the column width, the way a calendar grid does:
+  // cluster anything that transitively overlaps, then pack each cluster into the
+  // fewest lanes by putting every block in the first lane that has room for it.
+  function layout(evs) {
+    var placed = [], cluster = [], clusterEnd = -1;
+
+    function flush() {
+      if (!cluster.length) return;
+      var lanes = [];
+      cluster.forEach(function (e) {
+        var i = 0;
+        while (i < lanes.length && lanes[i] > e.start) i++;
+        if (i === lanes.length) lanes.push(0);
+        lanes[i] = e.end;
+        e._lane = i;
+      });
+      cluster.forEach(function (e) { e._lanes = lanes.length; });
+      placed = placed.concat(cluster);
+      cluster = []; clusterEnd = -1;
+    }
+
+    evs.forEach(function (e) {
+      if (cluster.length && e.start >= clusterEnd) flush();
+      cluster.push(e);
+      clusterEnd = Math.max(clusterEnd, e.end);
+    });
+    flush();
+    return placed;
+  }
+
+  function evStyle(e, color) {
+    var top    = (Math.max(e.start, DAY_START) - DAY_START) * PX_PER_MIN;
+    var height = Math.max((Math.min(e.end, DAY_END) - Math.max(e.start, DAY_START)) * PX_PER_MIN, 14);
+    var w = 100 / (e._lanes || 1), left = (e._lane || 0) * w;
+    return "top:" + top.toFixed(1) + "px; height:" + (height - 1).toFixed(1) + "px;" +
+           "left:" + left.toFixed(2) + "%; width:calc(" + w.toFixed(2) + "% - 3px);" +
+           "background:" + color + ";";
+  }
+
+  function colorOf(room) {
+    for (var i = 0; i < ROOMS.length; i++) if (ROOMS[i].id === room) return ROOMS[i].color;
+    return "#5f6368";
+  }
+
+  // Anything that could be shown in a popover is worth having as hover text too:
+  // in a narrow column the chip is usually an ellipsis.
+  function evTitle(e) {
+    return e.title + (e.name ? " \u2014 " + e.name : "") + " \u00b7 " + e.room +
+           " \u00b7 " + ampm(e.start) + "\u2013" + ampm(e.end) +
+           (e.sub ? " \u00b7 " + e.sub : "");
+  }
+
+  function evHTML(e, showRoom) {
+    var cls = "rb-ev" + (e.kind === "class" ? " rb-ev-class"
+                       : e.kind === "seminar" ? " rb-ev-seminar" : "");
+    var label = esc(e.title) + (showRoom ? " &middot; " + esc(e.room) : "");
+    return '<button type="button" class="' + cls + '" style="' + evStyle(e, colorOf(e.room)) + '"' +
+      ' title="' + esc(evTitle(e)) + '"' +
+      ' data-ev="' + esc(JSON.stringify({
+        room: e.room, start: e.start, end: e.end, title: e.title, sub: e.sub,
+        name: e.name || "", notes: e.notes || "", id: e.id || "",
+        owner: e.owner || "", kind: e.kind
+      })) + '">' +
+      '<b>' + label + '</b><small>' + ampm(e.start) + " – " + ampm(e.end) +
+      (e.sub ? " &middot; " + esc(e.sub) : "") + '</small></button>';
+  }
+
+  // Minutes at a pixel offset inside a column, snapped down to the nearest step.
+  // The hour cells are only a backdrop now; this is what decides the time, so a
+  // 15-minute booking needs no smaller thing to hit.
+  function minuteAt(col, clientY, snap) {
+    var box = col.getBoundingClientRect();
+    var raw = DAY_START + (clientY - box.top) / PX_PER_MIN;
+    var m = Math.round(raw / snap) * snap;
+    return Math.max(DAY_START, Math.min(DAY_END - snap, m));
+  }
+  function topOf(min) { return (min - DAY_START) * PX_PER_MIN; }
+
+  // The stack of hour cells behind one column.
+  function cellsHTML(room, key) {
+    var h = "";
+    for (var m = DAY_START; m < DAY_END; m += 60) {
+      h += '<div class="rb-cell rb-half" data-min="' + m + '"></div>';
+    }
+    return h;
+  }
+
+  // What is ticked, drawn over the cells. Contiguous quarters become one block so
+  // a picked hour reads as an hour rather than as four stripes.
+  function selHTML(room, key) {
+    var mine = [];
+    for (var k in state.sel) {
+      var c = state.sel[k];
+      if (c.room === room && c.date === key) mine.push(c);
+    }
+    if (!mine.length) return "";
+    return mergeRuns(mine).map(function (r) {
+      var h = (r.end - r.start) * PX_PER_MIN - 1;
+      return '<div class="rb-sel" style="top:' + topOf(r.start).toFixed(1) +
+             "px; height:" + Math.max(h, 10).toFixed(1) + 'px;">' +
+             (h >= 16 ? ampm(r.start) + " – " + ampm(r.end) : "") + "</div>";
+    }).join("");
+  }
+  function gutterHTML() {
+    var h = '<div class="rb-hours">';
+    for (var m = DAY_START; m < DAY_END; m += 60) {
+      h += '<div class="rb-hour-label"><span>' + ampm(m) + '</span></div>';
+    }
+    return h + '</div>';
+  }
+  function nowLineHTML(date, withDot) {
+    if (!sameDay(date, new Date())) return "";
+    var now = new Date(), min = now.getHours() * 60 + now.getMinutes();
+    if (min < DAY_START || min > DAY_END) return "";
+    return '<div class="rb-nowline' + (withDot ? " rb-nowline-dot" : "") +
+           '" style="top:' + ((min - DAY_START) * PX_PER_MIN).toFixed(1) + 'px;"></div>';
+  }
+
+  // ─────────────────────────────────────────────────────── views
+  // Week: one column per weekday, for whichever halls are ticked.
+  function renderWeek() {
+    var mon = startOfWeek(state.cursor), rooms = state.rooms;
+    var head = '<div class="rb-grid-head"><div class="rb-gutter"></div>';
+    var cols = "";
+
+    for (var i = 0; i < WEEK_DAYS; i++) {
+      var d = addDays(mon, i), isToday = sameDay(d, TODAY);
+      head += '<div class="rb-col-head' + (isToday ? " rb-is-today" : "") + '">' +
+              '<div class="rb-dow">' + DOW[d.getDay()] + '</div>' +
+              '<div class="rb-dom">' + d.getDate() + '</div></div>';
+
+      var evs = [];
+      rooms.forEach(function (r) { evs = evs.concat(eventsFor(d, r)); });
+      evs.sort(function (a, b) { return a.start - b.start || b.end - a.end; });
+
+      var body = layout(evs).map(function (e) { return evHTML(e, rooms.length > 1); }).join("");
+      cols += '<div class="rb-col" data-date="' + ymd(d) + '">' +
+              cellsHTML(weekRoom(), ymd(d)) + selHTML(weekRoom(), ymd(d)) +
+              nowLineHTML(d, true) + body + '</div>';
+    }
+    return '<div class="rb-scroll">' + head + '</div><div class="rb-slots">' +
+           gutterHTML() + cols + '</div></div>';
+  }
+
+  // Day: one column per hall, side by side. This is the view that answers
+  // "which hall is free at 3 o'clock" at a glance.
+  function renderDay() {
+    var d = state.cursor;
+    var rooms = ROOMS.filter(function (r) { return state.rooms.indexOf(r.id) >= 0; });
+    if (!rooms.length) return '<p class="rb-note" style="padding:24px;">No halls selected.</p>';
+
+    var head = '<div class="rb-grid-head"><div class="rb-gutter"></div>';
+    var cols = "";
+    rooms.forEach(function (r, ri) {
+      head += '<div class="rb-col-head"><div class="rb-roomlabel" style="color:' + r.color + ';">' +
+              r.id + '</div></div>';
+      var body = layout(eventsFor(d, r.id)).map(function (e) { return evHTML(e, false); }).join("");
+      cols += '<div class="rb-col" data-date="' + ymd(d) + '" data-room="' + r.id + '">' +
+              cellsHTML(r.id, ymd(d)) + selHTML(r.id, ymd(d)) +
+              nowLineHTML(d, ri === 0) + body + '</div>';
+    });
+    return '<div class="rb-scroll">' + head + '</div><div class="rb-slots">' +
+           gutterHTML() + cols + '</div></div>';
+  }
+
+  function renderMonth() {
+    var first = new Date(state.cursor.getFullYear(), state.cursor.getMonth(), 1);
+    var start = startOfWeek(first);
+    var h = '<table class="rb-month"><thead><tr>';
+    for (var i = 0; i < 7; i++) h += '<th scope="col">' + DOW[(i + 1) % 7] + "</th>";
+    h += "</tr></thead><tbody>";
+
+    for (var w = 0; w < 6; w++) {
+      h += "<tr>";
+      for (var dd = 0; dd < 7; dd++) {
+        var d = addDays(start, w * 7 + dd);
+        var out = d.getMonth() !== state.cursor.getMonth();
+        var evs = [];
+        state.rooms.forEach(function (r) { evs = evs.concat(eventsFor(d, r)); });
+        // Only three chips fit in a month cell. Classes repeat every week and are
+        // already on the course-schedule page, so bookings -- the news -- go first.
+        evs.sort(function (a, b) {
+          if ((a.kind === "booking") !== (b.kind === "booking")) return a.kind === "booking" ? -1 : 1;
+          return a.start - b.start;
+        });
+
+        h += '<td class="' + (out ? "rb-mout" : "") + '">' +
+             '<div class="rb-mday' + (sameDay(d, TODAY) ? " rb-is-today" : "") + '">' + d.getDate() + "</div>";
+        evs.slice(0, 3).forEach(function (e) {
+          h += '<div class="rb-mchip" style="background:' + colorOf(e.room) + ';"' +
+               ' title="' + esc(evTitle(e)) + '" data-ev="' +
+               esc(JSON.stringify({ room: e.room, start: e.start, end: e.end, title: e.title,
+                                    sub: e.sub, name: e.name || "", notes: e.notes || "",
+                                    id: e.id || "", owner: e.owner || "", kind: e.kind })) + '">' +
+               ampm(e.start) + " " + esc(e.title) + " &middot; " + esc(e.room) + "</div>";
+        });
+        // Only three chips fit; the rest are reachable by opening the day.
+        if (evs.length > 3) {
+          h += '<button type="button" class="rb-mmore" data-day="' + ymd(d) + '">+' +
+               (evs.length - 3) + " more</button>";
+        }
+        h += "</td>";
+      }
+      h += "</tr>";
+    }
+    return h + "</tbody></table>";
+  }
+
+  // ─────────────────────────────────────────────────────── sidebar
+  function renderMini() {
+    var y = state.mini.getFullYear(), mo = state.mini.getMonth();
+    document.getElementById("rb-mini-label").textContent = MONTHS[mo] + " " + y;
+    var start = startOfWeek(new Date(y, mo, 1)), h = "";
+    for (var w = 0; w < 6; w++) {
+      h += "<tr>";
+      for (var i = 0; i < 7; i++) {
+        var d = addDays(start, w * 7 + i), cls = [];
+        if (d.getMonth() !== mo) cls.push("rb-mini-out");
+        if (sameDay(d, TODAY)) cls.push("rb-mini-today");
+        if (sameDay(d, state.cursor)) cls.push("rb-mini-sel");
+        h += '<td><button class="' + cls.join(" ") + '" data-date="' + ymd(d) + '">' +
+             d.getDate() + "</button></td>";
+      }
+      h += "</tr>";
+    }
+    document.getElementById("rb-mini-body").innerHTML = h;
+  }
+
+  function renderRoomList() {
+    document.getElementById("rb-room-list").innerHTML = ROOMS.map(function (r) {
+      var on = state.rooms.indexOf(r.id) >= 0;
+      return '<label class="rb-room">' +
+        '<input type="checkbox" data-room="' + r.id + '"' + (on ? " checked" : "") + '>' +
+        '<span class="rb-swatch" style="background:' + r.color + ';"></span>' +
+        '<span class="rb-room-name">' + r.id + '</span>' +
+        '<button type="button" class="rb-only" data-only="' + r.id + '">only</button>' +
+        '</label>';
+    }).join("");
+  }
+
+  // Free/busy for right now, or -- outside teaching hours, or on a day that is not
+  // today -- for the start of the working day being looked at.
+  // ─────────────────────────────────────────────────────── chrome
+  function periodLabel() {
+    var d = state.cursor, label;
+    if (state.view === "month") {
+      label = MONTHS[d.getMonth()] + " " + d.getFullYear();
+    } else if (state.view === "day") {
+      label = DOW[d.getDay()] + ", " + MONTHS[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+    } else {
+      var mon = startOfWeek(d), end = addDays(mon, WEEK_DAYS - 1);
+      var a = MONTHS[mon.getMonth()].slice(0, 3) + " " + mon.getDate();
+      var b = (mon.getMonth() === end.getMonth() ? "" : MONTHS[end.getMonth()].slice(0, 3) + " ") + end.getDate();
+      label = a + " – " + b + ", " + end.getFullYear();
+    }
+    // Day view names the halls in its column headings. Week and month do not, so
+    // a filtered view has to say which halls it is showing -- on screen, and on
+    // the printout, where the sidebar is gone.
+    if (state.view !== "day" && state.rooms.length < ROOM_IDS.length) {
+      label += " \u00b7 " + state.rooms.join(", ");
+    }
+    return label;
+  }
+
+  function render() {
+    document.getElementById("rb-period").textContent = periodLabel();
+    ["day", "week", "month"].forEach(function (v) {
+      var b = document.getElementById("rb-v-" + v);
+      b.classList.toggle("rb-on", state.view === v);
+      b.setAttribute("aria-pressed", String(state.view === v));
+    });
+
+    var main = document.getElementById("rb-main");
+    // Ticking an hour redraws the whole grid, so without this every pick would
+    // throw the reader back to 8am. Keep where they were; only the first draw
+    // (and coming back from the month view, which has no scroller) opens at 8.
+    var was = main.querySelector(".rb-scroll");
+    var keep = was ? was.scrollTop : null;
+
+    main.innerHTML = state.view === "month" ? renderMonth()
+                   : state.view === "day"   ? '<div class="rb-grid">' + renderDay() + "</div>"
+                   :                          '<div class="rb-grid">' + renderWeek() + "</div>";
+
+    var sc = main.querySelector(".rb-scroll");
+    // back off a few pixels so the 8am label is not sliced by the scroll edge
+    if (sc) sc.scrollTop = keep === null ? (SCROLL_TO - DAY_START) * PX_PER_MIN - 10 : keep;
+
+    renderMini();
+    renderSelection();
+    syncURL();
+  }
+
+  // The button is the only thing that says how many hours are ticked, and the
+  // week-view hint only earns its place while that view is actually ambiguous.
+  function renderSelection() {
+    var n = Object.keys(state.sel).length;
+    var btn = document.getElementById("rb-new");
+    btn.hidden = !state.compose;
+    document.getElementById("rb-compose-help").hidden = !state.compose;
+    if (!state.compose) {
+      document.getElementById("rb-clear").hidden = true;
+      return;
+    }
+    btn.disabled = !n;
+    document.getElementById("rb-new-label").textContent =
+      n ? "Book (" + spanLabel(n * STEP) + ")" : "Pick free hours";
+    document.getElementById("rb-clear").hidden = !n;
+
+    var hint = document.getElementById("rb-week-hint");
+    if (hint) {
+      hint.textContent = (state.view === "week" && state.rooms.length > 1)
+        ? "In week view the hours you pick belong to " + weekRoom() +
+          ", the first ticked hall \u2014 use \u201conly\u201d in the sidebar to choose another."
+        : "";
+    }
+  }
+
+  // ─────────────────────────────────────────────────────── popovers
+  var openPop = null;
+  function closePop() {
+    if (openPop) { openPop.remove(); openPop = null; }
+    var b = document.getElementById("rb-backdrop");
+    if (b) b.remove();
+  }
+  function showPop(html, anchor) {
+    closePop();
+    var back = document.createElement("div");
+    back.className = "rb-backdrop"; back.id = "rb-backdrop";
+    back.addEventListener("click", closePop);
+    document.body.appendChild(back);
+
+    var pop = document.createElement("div");
+    pop.className = "rb-pop";
+    pop.innerHTML = '<button class="rb-pop-close" aria-label="Close">&times;</button>' + html;
+    document.body.appendChild(pop);
+    pop.querySelector(".rb-pop-close").addEventListener("click", closePop);
+
+    var r = anchor.getBoundingClientRect();
+    var top  = window.pageYOffset + r.top;
+    var left = window.pageXOffset + r.right + 8;
+    if (left + 300 > window.pageXOffset + document.documentElement.clientWidth) {
+      left = window.pageXOffset + Math.max(8, r.left - 308);
+    }
+    var maxTop = window.pageYOffset + document.documentElement.clientHeight - pop.offsetHeight - 12;
+    pop.style.top = Math.max(window.pageYOffset + 8, Math.min(top, maxTop)) + "px";
+    pop.style.left = left + "px";
+    openPop = pop;
+    return pop;
+  }
+
+  // Reading a block. Read-only: bookings are the office's row in the sheet, so
+  // changing one is an email to them, the same way making one is.
+  function showEvent(ev, anchor) {
+    showPop(
+      "<h5>" + esc(ev.title) + (ev.name ? " &mdash; " + esc(ev.name) : "") + "</h5>" +
+      '<div class="rb-pop-meta">' +
+        esc(ev.room) + " &middot; " + ampm(ev.start) + " \u2013 " + ampm(ev.end) +
+        (ev.kind === "class" ? " &middot; scheduled class"
+         : ev.kind === "seminar" ? " &middot; seminar" : "") +
+      "</div>" +
+      (ev.sub ? "<div>" + esc(ev.sub) + "</div>" : "") +
+      '<div class="rb-pop-msg" style="color:#70757a;">' +
+        (ev.kind === "class"
+          ? "From the course schedule. This hall is not free at this time."
+          : ev.kind === "seminar"
+          ? "From the seminar listing. This hall is not free at this time."
+          : "Confirmed by the office. To change or withdraw it, email " + esc(OFFICE) + ".") +
+      "</div>",
+      anchor);
+  }
+
+  // ─────────────────────────────────────────────────────── picking hours
+  // Nothing here books a hall. Ticking hours is local to this browser; the only
+  // thing that leaves the page is text on the clipboard, which the sender reads
+  // before they send it.
+  function selKey(room, key, min) { return room + "|" + key + "|" + min; }
+
+  // Week view merges every ticked hall into one column, so a click there has no
+  // hall of its own -- it goes to the first one ticked, which is also what the
+  // sidebar's "only" button exists to control.
+  function weekRoom() { return state.rooms[0] || ROOMS[0].id; }
+
+  // Ticks or unticks everything between two times, a quarter hour at a time. A
+  // plain click hands in a whole hour, a drag hands in whatever was swept, and
+  // both end up here so there is only one set of rules about what may be picked.
+  function toggleSlot(date, room, start, end, anchor) {
+    var key = ymd(date);
+    start = Math.max(DAY_START, start);
+    end = Math.min(DAY_END, end);
+    if (end <= start) return;
+
+    // Already ticked, whole and entire? Then this is an untick.
+    var all = true;
+    for (var m = start; m < end; m += STEP) if (!state.sel[selKey(room, key, m)]) { all = false; break; }
+    if (all) {
+      for (var u = start; u < end; u += STEP) delete state.sel[selKey(room, key, u)];
+      return render();
+    }
+
+    // The grid draws chips over the cells, but a class starting at half past
+    // leaves the top of its hour exposed, so the range has to be checked itself.
+    var hit = clashes(room, key, start, end);
+    if (hit) {
+      return showPop("<h5>" + esc(room) + " is taken</h5>" +
+                     '<div class="rb-pop-meta">' + esc(hit.title) + " &middot; " +
+                     ampm(hit.start) + " \u2013 " + ampm(hit.end) + "</div>", anchor);
+    }
+    for (var v = start; v < end; v += STEP) {
+      state.sel[selKey(room, key, v)] = { room: room, date: key, min: v, len: STEP };
+    }
+    render();
+  }
+
+  function clearSelection() { state.sel = {}; render(); }
+
+  // Client-side clash check against everything already drawn -- classes and
+  // confirmed bookings alike.
+  function clashes(room, dateKey, s, e) {
+    var hit = eventsFor(fromYmd(dateKey), room).filter(function (x) { return s < x.end && e > x.start; });
+    return hit.length ? hit[0] : null;
+  }
+
+  // Copy first, then show what was copied. The textarea is not a nicety: a page
+  // served over plain http, or an older browser, has no clipboard to write to,
+  // and then selecting the text by hand is the only way through.
+  // The page asks for a purpose before it writes the email, rather than leaving a
+  // blank line in the draft for people to miss. Name and address are remembered so
+  // this is a one-field popup from the second booking onward.
+  // Writing to the clipboard can sit there forever -- a browser waiting on a
+  // permission prompt, a window that is not focused, an older browser with no
+  // clipboard at all. So it is raced against a short timer, and anything that has
+  // not landed by then counts as a no, which sends the caller down the
+  // select-it-by-hand path instead of leaving the user staring at nothing.
+  function copyText(text) {
+    if (!navigator.clipboard || !navigator.clipboard.writeText) return Promise.resolve(false);
+    return Promise.race([
+      navigator.clipboard.writeText(text).then(function () { return true; }, function () { return false; }),
+      new Promise(function (r) { setTimeout(function () { r(false); }, 600); })
+    ]);
+  }
+
+  // Says what happened on the button itself, which is where the eye already is,
+  // and falls back to selecting the text.
+  function wireCopy(btn, getText, box, label) {
+    btn.addEventListener("click", function () {
+      copyText(getText()).then(function (ok) {
+        btn.textContent = ok ? "Copied ✓" : "Select it and copy";
+        if (!ok && box) { box.focus(); box.select(); }
+        setTimeout(function () { btn.textContent = label; }, 2000);
+      });
+    });
+  }
+
+  // ── the booking code ─────────────────────────────────────────────────
+  // What the requester is given and the office pastes back. It spells the request
+  // out so it can be read by eye as well as by machine:
+  //
+  //     1 21092026 1500 to 1600 -number-theory-seminar
+  //     ^ hall     ^ ddmmyyyy    ^ what for
+  //                  ^ from ^ to
+  //
+  // Several slots join with "+". The purpose rides along, which also means two
+  // people asking for the very same slot produce two different codes.
+  function slug(s) {
+    return String(s == null ? "" : s).toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")
+      .slice(0, 40).replace(/-+$/, "");
+  }
+
+  function encodeRequest(runs, purpose) {
+    var slots = runs.map(function (r) {
+      var d = r.date.split("-");                       // yyyy-mm-dd -> ddmmyyyy
+      return r.room.replace("LH-", "") + d[2] + d[1] + d[0] +
+             hhmm(r.start).replace(":", "") + "to" + hhmm(r.end).replace(":", "");
+    }).join("+");
+    var what = slug(purpose);
+    return slots + (what ? "-" + what : "");
+  }
+
+  // ── asking for a hall ────────────────────────────────────────────────
+  // No sign-in: the page hands back a code and the office is the one who acts on
+  // it. Nothing is booked at this point, and the popup says so plainly rather
+  // than letting anyone think the hall is theirs.
+  function askPurpose(anchor) {
+    var cells = Object.keys(state.sel).map(function (k) { return state.sel[k]; });
+    if (!cells.length) return;
+    var runs = mergeRuns(cells);
+
+    var pop = showPop(
+      "<h5>What is the hall for?</h5>" +
+      '<div class="rb-pop-meta">' +
+        runs.map(function (r) {
+          return esc(r.room + " · " + longDate(r.date) + " · " +
+                     clockTime(r.start) + " – " + clockTime(r.end));
+        }).join("<br>") + "</div>" +
+      '<label for="rb-q-purpose">Purpose</label>' +
+      '<input id="rb-q-purpose" maxlength="80" placeholder="Seminar, viva, meeting…">' +
+      '<div class="rb-pop-msg" id="rb-q-msg"></div>' +
+      '<div class="rb-pop-actions">' +
+        '<button class="rb-btn rb-create" id="rb-q-go">Get my booking code</button>' +
+      "</div>",
+      anchor);
+
+    var purpose = document.getElementById("rb-q-purpose");
+    purpose.focus();
+
+    function go() {
+      var what = purpose.value.trim();
+      if (!what) {
+        var msg = document.getElementById("rb-q-msg");
+        msg.className = "rb-pop-msg rb-err";
+        msg.textContent = "The office needs to know what the hall is for.";
+        return purpose.focus();
+      }
+      showCode(runs, what, anchor);
+    }
+    document.getElementById("rb-q-go").addEventListener("click", go);
+    pop.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") { e.preventDefault(); go(); }
+    });
+  }
+
+  // ── here is your code ────────────────────────────────────────────────
+  function showCode(runs, purpose, anchor) {
+    var code = encodeRequest(runs, purpose);
+    var mail = composeMail(runs, OFFICE, { purpose: purpose, code: code });
+    var text = "To: " + mail.to + "\nSubject: " + mail.subject + "\n\n" + mail.body;
+
+    copyText(text).then(function (copied) {
+      showPop(
+        "<h5>Your booking code</h5>" +
+        '<div class="rb-pop-meta">' +
+          runs.map(function (r) {
+            return esc(r.room + " · " + longDate(r.date) + " · " +
+                       clockTime(r.start) + " – " + clockTime(r.end));
+          }).join("<br>") + "</div>" +
+        '<div class="rb-code-out" id="rb-code-out">' + esc(code) + "</div>" +
+        '<div class="rb-pop-msg">Nothing is booked yet. Send this to the office — ' +
+          "the hall is yours once they enter it.</div>" +
+        '<textarea class="rb-mail" id="rb-mail-text" readonly>' + esc(text) + "</textarea>" +
+        '<div class="rb-pop-actions">' +
+          '<button class="rb-btn" id="rb-mail-done">Done</button>' +
+          '<a class="rb-btn" style="text-decoration:none;" href="' +
+            "mailto:" + encodeURIComponent(mail.to) +
+            "?subject=" + encodeURIComponent(mail.subject) +
+            "&body=" + encodeURIComponent(mail.body) + '">Open mail app</a>' +
+          '<button class="rb-btn rb-create" id="rb-mail-copy">' +
+            (copied ? "Copied ✓" : "Copy note") + "</button>" +
+        "</div>",
+        anchor);
+
+      var ta = document.getElementById("rb-mail-text");
+      ta.addEventListener("focus", function () { this.select(); });
+      wireCopy(document.getElementById("rb-mail-copy"), function () { return text; }, ta, "Copy note");
+      document.getElementById("rb-code-out").addEventListener("click", function () {
+        var r = document.createRange(); r.selectNodeContents(this);
+        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      });
+      document.getElementById("rb-mail-done").addEventListener("click", function () {
+        closePop(); clearSelection();
+      });
+    });
+  }
+
+  // ── the office acting on a code ──────────────────────────────────────
+  // No button: the navbar's search box doubles as the way in, and only on this
+  // page -- the handler lives here, so everywhere else the box just searches.
+  // Paste the code with the office code stuck on the end and press enter.
+  //
+  // Nothing is checked here. The server holds the office code and decides; a
+  // wrong one comes back "unauthorised" and the box is left alone.
+  var CODE_RE = /^[1-5]\d{12}to\d{4}(?:\+[1-5]\d{12}to\d{4})*[-a-z0-9]*$/i;
+
+  function wireSearchBox() {
+    var form = document.getElementById("site-search-form");
+    var input = document.getElementById("site-search-input");
+    if (!form || !input) return;
+
+    form.addEventListener("submit", function (e) {
+      var v = input.value.replace(/\s+/g, "");
+      if (!CODE_RE.test(v)) return;                 // an ordinary search: let it go
+      e.preventDefault();
+      input.value = "";
+      input.blur();
+
+      post({ action: "enact", value: v })
+        .then(function (r) {
+          if (!r.ok) {
+            return showPop("<h5>Not booked</h5>" +
+              '<div class="rb-pop-msg rb-err">' +
+              esc(r.error === "unauthorised"
+                  ? "That code has no valid office code on the end."
+                  : (r.error || "Refused.")) + "</div>", input);
+          }
+          if (r.bookings) takeBookings(r.bookings);
+          render();
+          showPop("<h5>Booked</h5>" +
+            '<div class="rb-pop-meta">' +
+              (r.slots || []).map(function (s) {
+                return esc(s.room + " · " + longDate(s.date) + " · " +
+                           clockTime(minutesOf(s.start)) + " – " + clockTime(minutesOf(s.end)));
+              }).join("<br>") + "</div>" +
+            "<div>" + esc(r.purpose || "") + "</div>" +
+            '<div class="rb-pop-msg rb-ok">It is on the calendar now.</div>', input);
+        })
+        .catch(function () {
+          showPop("<h5>Not booked</h5>" +
+            '<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', input);
+        });
+    });
+  }
+
+  function banner(text) {
+    var el = document.getElementById("rb-banner");
+    el.textContent = text;
+    el.style.display = text ? "" : "none";
+  }
+
+  // The sheet is published read-only, so this is a plain GET and there is no
+  // token, no session and nothing to keep in localStorage. A hall that is booked
+  // but missing here is a row the office has not entered yet, not a bug.
+  // ── talking to booking.php ───────────────────────────────────────────
+  // Same origin, so no CORS and no preflight to worry about. Sent as text/plain
+  // all the same, which keeps the request "simple" whatever a proxy does to it.
+  // Three things can go wrong and they want telling apart, because they are fixed
+  // in completely different places: the request never arrived, it arrived and the
+  // server refused, or it arrived and something answered with prose instead of
+  // JSON -- which is what you get when PHP is not running and the browser is
+  // handed the source of booking.php. Lumping those together as "could not reach
+  // the service" sends whoever is debugging it to the wrong place.
+  function post(payload) {
+    return fetch(API, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain;charset=utf-8" },
+      body: JSON.stringify(payload)
+    }).then(function (r) {
+      return r.text().then(function (body) {
+        try {
+          return JSON.parse(body);
+        } catch (e) {
+          console.error("booking.php did not answer with JSON (HTTP " + r.status + "):",
+                        body.slice(0, 400));
+          return { ok: false, error: r.status === 404
+            ? "booking.php is not where the page expects it (404). Check the API path."
+            : (/^\s*<\?php/.test(body)
+                ? "The server is sending booking.php as plain text — PHP is not running for this directory."
+                : "The server answered with something that is not JSON (HTTP " + r.status +
+                  "). The browser console has the first few lines.") };
+        }
+      });
+    });
+  }
+
+  function takeBookings(list) {
+    state.bookings = (list || []).map(function (b) {
+      return { room: b.room, date: b.date, start: minutesOf(b.start), end: minutesOf(b.end),
+               title: b.purpose || "Booked", bookedBy: b.bookedBy || "",
+               id: b.id, owner: b.owner || "" };
+    }).filter(function (b) { return ROOM_IDS.indexOf(b.room) >= 0; });
+  }
+
+  function load() {
+    if (!API) {
+      banner("Showing scheduled classes only — the booking service is not connected yet.");
+      return Promise.resolve();
+    }
+    return fetch(API, { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        if (!res || !res.ok) throw new Error("bad reply");
+        takeBookings(res.bookings);
+        banner("");
+      })
+      .catch(function () {
+        state.bookings = [];
+        banner("Bookings could not be loaded; the class timetable below is still accurate.");
+      });
+  }
+
+  // ─────────────────────────────────────────────────────── wiring
+  function step(n) {
+    state.cursor = state.view === "month"
+      ? new Date(state.cursor.getFullYear(), state.cursor.getMonth() + n, 1)
+      : addDays(state.cursor, n * (state.view === "week" ? 7 : 1));
+    state.mini = new Date(state.cursor.getTime());
+    render();
+  }
+
+  document.getElementById("rb-prev").addEventListener("click", function () { step(-1); });
+  document.getElementById("rb-next").addEventListener("click", function () { step(1); });
+  document.getElementById("rb-today-btn").addEventListener("click", function () {
+    state.cursor = new Date(); state.mini = new Date(); render();
+  });
+  ["day", "week", "month"].forEach(function (v) {
+    document.getElementById("rb-v-" + v).addEventListener("click", function () {
+      state.view = v; render();
+    });
+  });
+  document.getElementById("rb-mini-prev").addEventListener("click", function () {
+    state.mini = new Date(state.mini.getFullYear(), state.mini.getMonth() - 1, 1); renderMini();
+  });
+  document.getElementById("rb-mini-next").addEventListener("click", function () {
+    state.mini = new Date(state.mini.getFullYear(), state.mini.getMonth() + 1, 1); renderMini();
+  });
+  document.getElementById("rb-mini-body").addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-date]");
+    if (!b) return;
+    state.cursor = fromYmd(b.getAttribute("data-date"));
+    state.mini = new Date(state.cursor.getTime());
+    render();
+  });
+
+  // Ticking a hall, or "only" to isolate one -- the click on "only" must not also
+  // toggle the checkbox it sits inside.
+  document.getElementById("rb-room-list").addEventListener("click", function (e) {
+    var only = e.target.closest("button[data-only]");
+    if (only) {
+      e.preventDefault(); e.stopPropagation();
+      state.rooms = [only.getAttribute("data-only")];
+      renderRoomList(); render();
+    }
+  });
+  document.getElementById("rb-room-list").addEventListener("change", function (e) {
+    var cb = e.target.closest("input[data-room]");
+    if (!cb) return;
+    var id = cb.getAttribute("data-room"), i = state.rooms.indexOf(id);
+    if (cb.checked && i < 0) state.rooms.push(id);
+    if (!cb.checked && i >= 0) state.rooms.splice(i, 1);
+    render();
+  });
+
+  document.getElementById("rb-new").addEventListener("click", function () {
+    askPurpose(this);
+  });
+  document.getElementById("rb-clear").addEventListener("click", clearSelection);
+  document.getElementById("rb-print").addEventListener("click", function () { window.print(); });
+
+  // ── picking hours ────────────────────────────────────────────────────
+  // A plain click ticks the hour it landed in: one big target, which is what
+  // almost every booking wants. Dragging ticks whatever is swept, to the quarter
+  // hour. Hovering shows which quarter is under the cursor, so a drag can be
+  // aimed before it begins -- the band only paints, nothing moves or resizes, so
+  // the thing being aimed at stays where it was.
+  var main = document.getElementById("rb-main");
+  var band = null, drag = null;
+
+  function clearBand() { if (band) { band.remove(); band = null; } }
+
+  function gridCol(e) {
+    if (!state.compose) return null;               // a calendar, until asked otherwise
+    if (!e.target.closest || e.target.closest("[data-ev]")) return null;
+    return e.target.closest(".rb-col");
+  }
+  function colRoom(col) { return col.getAttribute("data-room") || weekRoom(); }
+
+  main.addEventListener("mousemove", function (e) {
+    if (drag) return moveDrag(e);
+    var col = gridCol(e);
+    if (!col) return clearBand();
+    var m = minuteAt(col, e.clientY, STEP);
+    if (!band || band.parentNode !== col) {
+      clearBand();
+      band = document.createElement("div");
+      band.className = "rb-band";
+      band.style.height = (STEP * PX_PER_MIN) + "px";
+      band.innerHTML = '<span class="rb-band-tag"></span>';
+      col.appendChild(band);
+    }
+    band.style.top = topOf(m).toFixed(1) + "px";
+    band.firstChild.textContent = ampm(m);
+  });
+  main.addEventListener("mouseleave", clearBand);
+
+  main.addEventListener("mousedown", function (e) {
+    if (e.button !== 0) return;
+    var col = gridCol(e);
+    if (!col) return;
+    e.preventDefault();                        // no text selection while dragging
+    var m = minuteAt(col, e.clientY, STEP);
+    drag = { col: col, from: m, to: m, moved: false, el: null };
+  });
+
+  function moveDrag(e) {
+    var m = minuteAt(drag.col, e.clientY, STEP);
+    if (m !== drag.from) drag.moved = true;
+    drag.to = m;
+    if (!drag.moved) return;
+    clearBand();
+    if (!drag.el) {
+      drag.el = document.createElement("div");
+      drag.el.className = "rb-drag";
+      drag.col.appendChild(drag.el);
+    }
+    var a = Math.min(drag.from, drag.to), b = Math.max(drag.from, drag.to) + STEP;
+    drag.el.style.top = topOf(a).toFixed(1) + "px";
+    drag.el.style.height = Math.max((b - a) * PX_PER_MIN - 1, 12).toFixed(1) + "px";
+    drag.el.textContent = ampm(a) + " – " + ampm(b);
+  }
+
+  document.addEventListener("mouseup", function () {
+    if (!drag) return;
+    var d = drag; drag = null;
+    if (d.el) d.el.remove();
+    clearBand();
+
+    var start, end;
+    if (d.moved) {
+      start = Math.min(d.from, d.to);
+      end = Math.max(d.from, d.to) + STEP;
+    } else {
+      // Never moved: they meant the hour, not the quarter they happened to be over.
+      start = Math.floor(d.from / 60) * 60;
+      end = start + DEFAULT_LEN;
+    }
+    toggleSlot(fromYmd(d.col.getAttribute("data-date")), colRoom(d.col), start, end, d.col);
+  });
+
+  // Clicks that are not on the time grid: an existing block, or a month overflow.
+  main.addEventListener("click", function (e) {
+    var chip = e.target.closest("[data-ev]");
+    if (chip) {
+      try { showEvent(JSON.parse(chip.getAttribute("data-ev")), chip); } catch (err) {}
+      return;
+    }
+    var more = e.target.closest("[data-day]");
+    if (more) {
+      state.cursor = fromYmd(more.getAttribute("data-day"));
+      state.mini = new Date(state.cursor.getTime());
+      state.view = "day";
+      render();
+    }
+  });
+
+  // t = today, d/w/m = views, arrows (or j/k) to step -- the same letters Google
+  // Calendar uses, so anyone who lives in that app already knows them. The button
+  // tooltips are where they are discoverable. Ignored while a popover is open or a
+  // field has focus, so the navbar search box never moves the calendar.
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { closePop(); return; }
+    if (openPop || e.ctrlKey || e.metaKey || e.altKey) return;
+
+    var t = e.target, tag = t && t.tagName;
+    if (tag === "INPUT" || tag === "SELECT" || tag === "TEXTAREA" || (t && t.isContentEditable)) return;
+
+    var k = (e.key || "").toLowerCase();
+    if (k === "t") { state.cursor = new Date(); state.mini = new Date(); render(); }
+    else if (k === "d" || k === "w" || k === "m") {
+      state.view = k === "d" ? "day" : k === "w" ? "week" : "month";
+      render();
+    }
+    else if (k === "arrowleft" || k === "k") step(-1);
+    else if (k === "arrowright" || k === "j") step(1);
+    else return;
+    e.preventDefault();
+  });
+
+  // ─────────────────────────────────────────────────────── go
+  // Composing a request is a mode, not a privilege: it reveals a form that writes
+  // an email, and anyone could write that email themselves. It is kept off the
+  // page everyone sees so the calendar stays a calendar -- and it is reached by
+  // clicking the word "Hall" in the heading seven times.
+  //
+  // The last word of the heading is the only thing that answers. The first three
+  // clicks do nothing at all, so nobody stumbles in; from the fourth it shows the
+  // word for the mode being knocked towards, faint at first and more certain each
+  // time, so somebody who knows the trick can see it working. The seventh arrives:
+  // the word settles into place and the heading now reads Lecture Hall Booking,
+  // which is also how you can tell afterwards which mode you are in.
+  //
+  // Stop half way and it forgets: three seconds of quiet puts the heading back.
+  var KNOCKS_NEEDED = 7, KNOCK_HINT_FROM = 4, KNOCK_FORGET = 3000;
+  var FADE = { 4: 0.3, 5: 0.55, 6: 0.8 };
+
+  var knocks = 0, knockTimer = null;
+  var morph = document.getElementById("rb-morph");
+
+  function modeWord(composing) { return composing ? "Booking" : "Calendar"; }
+
+  // Where the heading rests between knocks: the mode you are actually in.
+  function restHeading() {
+    morph.textContent = modeWord(state.compose);
+    morph.style.opacity = "";
+    morph.classList.remove("rb-morph-hint");
+  }
+
+  function showKnock(count) {
+    if (count < KNOCK_HINT_FROM) return restHeading();
+    morph.textContent = modeWord(!state.compose);      // where this is heading
+    morph.style.opacity = String(FADE[count] || 1);
+    morph.classList.add("rb-morph-hint");
+  }
+
+  document.getElementById("rb-knock").addEventListener("click", function () {
+    knocks++;
+    clearTimeout(knockTimer);
+
+    if (knocks < KNOCKS_NEEDED) {
+      showKnock(knocks);
+      knockTimer = setTimeout(function () { knocks = 0; restHeading(); }, KNOCK_FORGET);
+      return;
+    }
+    knocks = 0;
+    setCompose(!state.compose);
+
+    // Arrived: the word is now the mode, and says so once.
+    morph.classList.remove("rb-morph-hint", "rb-morph-done");
+    void morph.offsetWidth;                            // restart the animation
+    morph.classList.add("rb-morph-done");
+    setTimeout(function () { morph.classList.remove("rb-morph-done"); }, 600);
+  });
+
+  function setCompose(on) {
+    state.compose = on;
+    try {
+      if (on) sessionStorage.setItem("rb-compose", "1");
+      else sessionStorage.removeItem("rb-compose");
+    } catch (e) {}
+    document.querySelector(".rb-app").classList.toggle("rb-compose", on);
+    if (!on) state.sel = {};              // leaving takes the half-made request with it
+    restHeading();
+    render();
+  }
+
+  // Remembered for the tab, so paging around the calendar does not drop you back
+  // into the read-only view mid-request.
+  try { state.compose = sessionStorage.getItem("rb-compose") === "1"; } catch (e) {}
+  document.querySelector(".rb-app").classList.toggle("rb-compose", state.compose);
+  restHeading();
+
+  readURL();
+  renderRoomList();
+  document.getElementById("rb-sem-note").textContent =
+    "Classes are shown through " + longDate(SEM_END) + ".";
+  (function () {
+    var a = auditSeminars(RAW_SEMINARS, SEMINAR_MINS, LONG_SEMINAR_MINS);
+    if (!a.unplaced.length) return;
+    var el = document.getElementById("rb-seminar-warn");
+    el.style.color = "#8a6d3b";
+    el.textContent = a.unplaced.length + " seminar" + (a.unplaced.length === 1 ? " is" : "s are") +
+      " not shown here because the venue, date or time could not be read: " +
+      a.unplaced.slice(0, 4).map(function (u) { return u.date + " (" + u.where + ")"; }).join(", ") +
+      (a.unplaced.length > 4 ? ", and others" : "") + ".";
+  })();
+  render();
+  wireSearchBox();
+  load().then(render);
+
+  // Left open all afternoon, two things go stale: the red "now" line, and the
+  // bookings themselves once the office has added one. Move the line every minute
+  // and re-read the sheet every five -- but never while a popover is open, which
+  // would pull the anchor out from under it mid-sentence, and never mid-drag,
+  // which would detach the column the drag is being measured against.
+  var ticks = 0;
+  setInterval(function () {
+    if (openPop || drag) return;
+    ticks++;
+    if (API && ticks % 5 === 0) { load().then(render); }
+    else if (state.view !== "month") { render(); }
+  }, 60000);
+})();
+</script>
