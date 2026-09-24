@@ -198,8 +198,41 @@ title: Lecture Hall Calendar
   td.rb-mout .rb-mday { color: #bdc1c6; }
   .rb-mchip { font-size: 0.62rem; border-radius: 3px; padding: 0 4px; color: #fff; margin-bottom: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; }
   .rb-mmore { font-size: 0.6rem; color: var(--rb-mute); padding: 0 0 0 4px;
-              border: none; background: none; font-family: inherit; cursor: pointer; }
+              border: none; background: none; font-family: inherit; cursor: pointer;
+              display: block; text-align: left; }
   .rb-mmore:hover { color: var(--rb-accent); text-decoration: underline; }
+
+  /* A month cell holds about four chips and some days have more. Rather than cut
+     the list off, a cell that overflows rolls its own list slowly up and back
+     down, so everything in it comes past. Neighbouring cells roll in opposite
+     directions: in step they would read as one sheet sliding, out of step each
+     cell stays its own.
+     The list is masked at both ends while it rolls, which is what says there is
+     more here than you can see. Rolling stops under the pointer or a keyboard
+     focus, so nothing has to be caught to be clicked, and it never starts at all
+     for a reader who has asked for less motion. */
+  .rb-mstack { height: 64px; overflow: hidden; position: relative; }
+  .rb-mstack.rb-rolling {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 7px, #000 calc(100% - 7px), transparent);
+            mask-image: linear-gradient(to bottom, transparent, #000 7px, #000 calc(100% - 7px), transparent);
+  }
+  .rb-mstack.rb-rolling .rb-mroll {
+    animation: rb-roll var(--rb-roll-time) ease-in-out infinite alternate;
+  }
+  .rb-mstack.rb-rolling.rb-roll-down .rb-mroll { animation-direction: alternate-reverse; }
+  .rb-mstack:hover .rb-mroll,
+  .rb-mstack:focus-within .rb-mroll { animation-play-state: paused; }
+  /* Held at each end for a seventh of the cycle, so the top and the bottom of the
+     list are both readable rather than only passed through. */
+  @keyframes rb-roll {
+    0%, 14%   { transform: translateY(0); }
+    86%, 100% { transform: translateY(calc(-1 * var(--rb-roll-dist))); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .rb-mroll { animation: none !important; transform: none !important; }
+    .rb-mstack { overflow-y: auto; }
+    .rb-mstack.rb-rolling { -webkit-mask-image: none; mask-image: none; }
+  }
 
   /* ── popovers / dialog ── */
   .rb-pop {
@@ -258,6 +291,10 @@ title: Lecture Hall Calendar
     .container { border: none !important; background: none !important; }
     .rb-app { border: none; }
     .rb-scroll { max-height: none !important; overflow: visible !important; }
+    .rb-mstack { height: auto !important; overflow: visible !important;
+                 -webkit-mask-image: none !important; mask-image: none !important; }
+    .rb-mroll { animation: none !important; transform: none !important; }
+    table.rb-month td { height: auto; }
     .rb-ev, .rb-mchip, .rb-col-head, td.rb-mout {
       -webkit-print-color-adjust: exact; print-color-adjust: exact;
     }
@@ -431,6 +468,7 @@ null]
   var PX_PER_MIN = 48 / 60;                    // 48px per hour, as in the CSS
   var SCROLL_TO  = 8 * 60;                     // open showing the 8:00 start of teaching
   var WEEK_DAYS  = 7;                          // Mon .. Sun
+  var MONTH_CHIPS = 10;                        // most a month cell will roll through
   var STEP       = 15;                         // bookings snap to a quarter hour
   var DEFAULT_LEN = 60;                        // a plain click books an hour
   var DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
@@ -1008,16 +1046,20 @@ null]
         var out = d.getMonth() !== state.cursor.getMonth();
         var evs = [];
         state.rooms.forEach(function (r) { evs = evs.concat(eventsFor(d, r)); });
-        // Only three chips fit in a month cell. Classes repeat every week and are
-        // already on the course-schedule page, so bookings -- the news -- go first.
+        // Classes repeat every week and are already on the course-schedule page,
+        // so bookings -- the news -- go first, and are seen without waiting for
+        // the cell to roll round to them.
         evs.sort(function (a, b) {
           if ((a.kind === "booking") !== (b.kind === "booking")) return a.kind === "booking" ? -1 : 1;
           return a.start - b.start;
         });
 
+        // The date opens the day, which is what "+ n more" used to be for.
         h += '<td class="' + (out ? "rb-mout" : "") + '">' +
-             '<div class="rb-mday' + (sameDay(d, TODAY) ? " rb-is-today" : "") + '">' + d.getDate() + "</div>";
-        evs.slice(0, 3).forEach(function (e) {
+             '<div class="rb-mday' + (sameDay(d, TODAY) ? " rb-is-today" : "") + '"' +
+             ' data-day="' + ymd(d) + '" title="Open this day">' + d.getDate() + "</div>" +
+             '<div class="rb-mstack"><div class="rb-mroll">';
+        evs.slice(0, MONTH_CHIPS).forEach(function (e) {
           h += '<div class="rb-mchip" style="background:' + colorOf(e.room) + ';"' +
                ' title="' + esc(evTitle(e)) + '" data-ev="' +
                esc(JSON.stringify({ room: e.room, start: e.start, end: e.end, title: e.title,
@@ -1025,16 +1067,44 @@ null]
                                     id: e.id || "", owner: e.owner || "", kind: e.kind })) + '">' +
                ampm(e.start) + " " + esc(e.title) + " &middot; " + esc(e.room) + "</div>";
         });
-        // Only three chips fit; the rest are reachable by opening the day.
-        if (evs.length > 3) {
+        // A day with more than a rolling cell can get through in a sensible time
+        // keeps the old tail, which opens the day rather than scrolling for ever.
+        if (evs.length > MONTH_CHIPS) {
           h += '<button type="button" class="rb-mmore" data-day="' + ymd(d) + '">+' +
-               (evs.length - 3) + " more</button>";
+               (evs.length - MONTH_CHIPS) + " more</button>";
         }
+        h += "</div></div>";
         h += "</td>";
       }
       h += "</tr>";
     }
     return h + "</tbody></table>";
+  }
+
+  // Which cells roll, and which way. A cell whose list fits stays still: motion
+  // that means nothing is worse than none. The rest alternate along the row and
+  // flip at every row, so the direction of any cell is the opposite of the one
+  // before it, counting only the cells that move.
+  //
+  // Speed is fixed rather than the duration, so a long list rolls for longer
+  // instead of rolling faster; a list that whips past is no more readable than
+  // one that is cut off. The floor keeps a cell that overflows by one chip from
+  // twitching.
+  function wireMonthRoll() {
+    var rows = document.querySelectorAll("table.rb-month tbody tr");
+    Array.prototype.forEach.call(rows, function (tr, row) {
+      var moving = 0;
+      Array.prototype.forEach.call(tr.querySelectorAll(".rb-mstack"), function (stack) {
+        var roll = stack.querySelector(".rb-mroll");
+        var over = roll.scrollHeight - stack.clientHeight;
+        if (over < 6) return;
+        stack.classList.add("rb-rolling");
+        if ((row + moving) % 2) stack.classList.add("rb-roll-down");
+        moving++;
+        stack.style.setProperty("--rb-roll-dist", over + "px");
+        stack.style.setProperty("--rb-roll-time", Math.max(8, over / 9).toFixed(1) + "s");
+      });
+    });
   }
 
   // ─────────────────────────────────────────────────────── sidebar
@@ -1111,6 +1181,8 @@ null]
     main.innerHTML = state.view === "month" ? renderMonth()
                    : state.view === "day"   ? '<div class="rb-grid">' + renderDay() + "</div>"
                    :                          '<div class="rb-grid">' + renderWeek() + "</div>";
+
+    if (state.view === "month") wireMonthRoll();
 
     var sc = main.querySelector(".rb-scroll");
     // back off a few pixels so the 8am label is not sliced by the scroll edge
