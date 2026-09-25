@@ -577,11 +577,11 @@ null]
   // so it asks rather than reports.
   function composeMail(runs, office, d) {
     d = d || {};
-    var many = runs.length > 1;
     return {
       to: office,
-      subject: "Lecture hall request" +
-               (many ? "" : ": " + runs[0].room + ", " + longDate(runs[0].date)),
+      // The code and nothing else. The office works from the subject line, and a
+      // reply asking to withdraw carries it back unchanged.
+      subject: d.code || "",
       body: "Dear Office Math,\n\n" +
             "This is my booking code:\n\n    " + (d.code || "") + "\n\n" +
             "Which is for:\n\n" +
