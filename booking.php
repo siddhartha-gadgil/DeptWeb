@@ -95,7 +95,17 @@ define('CALENDAR_URL', $LH_CFG['calendar_url'] ?? 'http://localhost:8001/lecture
 
 const MAX_BODY      = 8192;   // no request needs more than this
 
-const ROOMS = ['LH-1', 'LH-2', 'LH-3', 'LH-4', 'LH-5'];
+// Every room a code may name. The page has the same list. A room is written in a
+// code as its name lowercased without the dash -- 'LH-1' as lh1, 'R-15' as r15 --
+// so adding one here is the whole change on this side.
+const ROOMS = ['LH-1', 'LH-2', 'LH-3', 'LH-4', 'LH-5', 'R-15'];
+
+// 'lh1' => 'LH-1'. Built rather than written out, so the two cannot drift apart.
+function room_tokens(): array {
+    $out = [];
+    foreach (ROOMS as $r) $out[strtolower(str_replace('-', '', $r))] = $r;
+    return $out;
+}
 
 // Who may be named in a code, and what that name spells out to. Generated from
 // _data/faculty.yaml: first letter of the given name, first letter of the family
@@ -376,7 +386,9 @@ function decode_code(string $raw): ?array {
     $s = substr($s, strlen($who) + 1);
 
     // One or more slots, then whatever is left is the purpose.
-    if (!preg_match('/^lh[1-5]-\d{8}-\d{4}-\d{4}(?:\+lh[1-5]-\d{8}-\d{4}-\d{4})*/', $s, $m)) return null;
+    $rooms = room_tokens();
+    $hall  = '(?:' . implode('|', array_keys($rooms)) . ')';
+    if (!preg_match('/^' . $hall . '-\d{8}-\d{4}-\d{4}(?:\+' . $hall . '-\d{8}-\d{4}-\d{4})*/', $s, $m)) return null;
     $slots = $m[0];
     $parts = explode('+', $slots);
     if (count($parts) > MAX_SLOTS) return null;
@@ -389,15 +401,15 @@ function decode_code(string $raw): ?array {
 
     $runs = [];
     foreach ($parts as $part) {
-        preg_match('/^lh([1-5])-(\d{2})(\d{2})(\d{4})-(\d{4})-(\d{4})$/', $part, $f);
-        [, $hall, $dd, $mm, $yyyy, $from, $to] = $f;
+        preg_match('/^(' . $hall . ')-(\d{2})(\d{2})(\d{4})-(\d{4})-(\d{4})$/', $part, $f);
+        [, $room, $dd, $mm, $yyyy, $from, $to] = $f;
         if (!checkdate((int) $mm, (int) $dd, (int) $yyyy)) return null;
         $day = DateTimeImmutable::createFromFormat('!Y-m-d', "$yyyy-$mm-$dd");
         if ($day === false || $day < $floor || $day > $roof) return null;
         $st = mins(substr($from, 0, 2) . ':' . substr($from, 2));
         $en = mins(substr($to, 0, 2) . ':' . substr($to, 2));
         if ($st === null || $en === null || $en <= $st) return null;
-        $runs[] = ['room' => "LH-$hall", 'date' => "$yyyy-$mm-$dd",
+        $runs[] = ['room' => $rooms[$room], 'date' => "$yyyy-$mm-$dd",
                    'start' => substr($from, 0, 2) . ':' . substr($from, 2),
                    'end'   => substr($to, 0, 2) . ':' . substr($to, 2)];
     }
@@ -506,6 +518,11 @@ if (in_array('--selftest', $cli, true)) {
     $check('word token', $c['name'], 'Manjunath Krishnapur');
     $check('two slots',  count($c['runs']), 2);
     $check('no purpose', $c['purpose'], '');
+
+    // The Chairman's room, which is not an LH and so takes a different token.
+    $check('r15',      decode_code('ak-r15-24092026-1500-1600-x')['runs'][0]['room'], 'R-15');
+    $check('no r14',   decode_code('ak-r14-24092026-1500-1600-x'), null);
+    $check('no lh6',   decode_code('ak-lh6-24092026-1500-1600-x'), null);
 
     // A purpose may end in digits: there is nothing after it to be confused with.
     $check('digits in purpose', decode_code('ak-lh3-24092026-1500-1600-ma-231')['purpose'], 'ma 231');

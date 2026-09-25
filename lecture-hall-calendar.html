@@ -2,7 +2,7 @@
 title: Lecture Hall Calendar
 ---
 <!--
-  Lecture-hall booking calendar for LH-1 .. LH-5.
+  Lecture-hall booking calendar for LH-1 .. LH-5 and the Chairman's Room (R-15).
 
   NOBODY BOOKS FROM THIS PAGE. It reads; it never writes. Anyone can see when a
   hall is free, and anyone can compose a request -- but a request is an email to
@@ -90,6 +90,7 @@ title: Lecture Hall Calendar
   .rb-room input { margin: 0; cursor: pointer; }
   .rb-swatch { width: 12px; height: 12px; border-radius: 3px; flex: 0 0 12px; }
   .rb-room-name { flex: 1 1 auto; }
+  .rb-room-sub { color: var(--rb-mute); font-size: 0.76rem; }
   .rb-only { font-size: 0.66rem; color: var(--rb-accent); opacity: 0; border: none; background: none; padding: 0 2px; cursor: pointer; font-family: inherit; }
   .rb-room:hover .rb-only { opacity: 1; }
 
@@ -298,7 +299,7 @@ title: Lecture Hall Calendar
 
 <div class="rb-head" style="margin-bottom:12px;">
   <h2 style="margin-bottom:2px;">Lecture <span id="rb-h1">Hall</span> <span id="rb-h2">Calendar</span></h2>
-  <p class="text-muted" style="margin-bottom:0;">Lecture halls LH-1 to LH-5 &middot; August&ndash;December 2026</p>
+  <p class="text-muted" style="margin-bottom:0;">Lecture halls LH-1 to LH-5 and the Chairman's Room &middot; August&ndash;December 2026</p>
 </div>
 
 <div class="rb-app">
@@ -423,8 +424,15 @@ null]
     { id: "LH-2", color: "#0f6e77" },
     { id: "LH-3", color: "#b5541b" },
     { id: "LH-4", color: "#2c5282" },
-    { id: "LH-5", color: "#4a7c2f" }
+    { id: "LH-5", color: "#4a7c2f" },
+    { id: "R-15", color: "#6a4c93", name: "Chairman's Room" }
   ];
+
+  // What a hall is called inside a booking code: the id, lowercased, without the
+  // dash. "LH-1" -> "lh1", "R-15" -> "r15". One rule, so adding a room to the
+  // list above is the whole change on this side.
+  function roomTok(id) { return id.toLowerCase().replace(/-/g, ""); }
+  var ROOM_TOKS = ROOMS.map(function (r) { return roomTok(r.id); }).join("|");
 
   // The endpoint on the department's own server (booking.php), beside this page.
   // Written through Liquid rather than hardcoded: the site builds twice, once with
@@ -592,7 +600,7 @@ null]
   // Venues run from "LH-1" through "Lecture Hall - I, Dept. of Mathematics" to
   // "Hybrid - Microsoft Teams (online) and LH-3". A struck-out venue is a
   // correction, so the <del> is dropped rather than read. Anything that does not
-  // resolve to one of our five halls is not ours to draw -- "CHEP Lecture Hall"
+  // resolve to one of the five lecture halls is not ours to draw -- "CHEP Lecture Hall"
   // carries no numeral and falls out here, which is the point of demanding one.
   function hallOf(venue) {
     var t = String(venue == null ? "" : venue)
@@ -1126,7 +1134,8 @@ null]
       return '<label class="rb-room">' +
         '<input type="checkbox" data-room="' + r.id + '"' + (on ? " checked" : "") + '>' +
         '<span class="rb-swatch" style="background:' + r.color + ';"></span>' +
-        '<span class="rb-room-name">' + r.id + '</span>' +
+        '<span class="rb-room-name">' + r.id +
+          (r.name ? ' <span class="rb-room-sub">' + r.name + '</span>' : "") + '</span>' +
         '<button type="button" class="rb-only" data-only="' + r.id + '">only</button>' +
         '</label>';
     }).join("");
@@ -1377,7 +1386,7 @@ null]
   function encodeRequest(runs, purpose, token) {
     var slots = runs.map(function (r) {
       var d = r.date.split("-");                       // yyyy-mm-dd -> ddmmyyyy
-      return "lh" + r.room.replace("LH-", "") + "-" + d[2] + d[1] + d[0] + "-" +
+      return roomTok(r.room) + "-" + d[2] + d[1] + d[0] + "-" +
              hhmm(r.start).replace(":", "") + "-" + hhmm(r.end).replace(":", "");
     }).join("+");
     var what = slug(purpose);
@@ -1494,7 +1503,8 @@ null]
   // ── the office acting on a code ──────────────────────────────────────
   // No button and nothing in the navbar: the search box doubles as the way in,
   // and only on this page, so everywhere else it just searches.
-  var CODE_RE = /^[a-z]{2,12}-lh[1-5]-\d{8}-\d{4}-\d{4}[-+a-z0-9]*$/i;
+  var CODE_RE = new RegExp("^[a-z]{2,12}-(?:" + ROOM_TOKS +
+                           ")-\\d{8}-\\d{4}-\\d{4}[-+a-z0-9]*$", "i");
 
   var ICON_STEPS = 3;
   var ICON_IDLE_MS = 3 * 60 * 1000;
