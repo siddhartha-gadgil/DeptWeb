@@ -252,6 +252,7 @@ title: Lecture Hall Calendar
   @media (prefers-reduced-motion: reduce) {
     .rb-mroll { animation: none !important; transform: none !important; }
     .rb-mstack { overflow-y: auto; }
+    .rb-count.rb-bump { animation: none !important; }
   }
 
   /* ── popovers / dialog ── */
@@ -292,7 +293,37 @@ title: Lecture Hall Calendar
   .rb-backdrop { position: fixed; inset: 0; z-index: 39; }
 
   .rb-note { font-size: 0.76rem; color: var(--rb-mute); margin-top: 10px; }
-  .rb-picked { font-size: 0.72rem; color: var(--rb-accent); }
+  /* The tally of what has been picked, and the thing that flies into it. A pick
+     happens in the grid and the button is somewhere else entirely, so the comet
+     is the line drawn between the two. Both are decoration: the button's own
+     label already says how many hours are picked, and the count is aria-hidden
+     so a screen reader is not told the same thing twice. */
+  #rb-new { position: relative; overflow: visible; }
+  .rb-count {
+    position: absolute; top: -8px; right: -8px; min-width: 19px; height: 19px;
+    padding: 0 5px; box-sizing: border-box; border-radius: 10px;
+    background: var(--rb-ink); color: #fff; border: 2px solid #fff;
+    font-size: 0.64rem; line-height: 15px; font-weight: 700; text-align: center;
+  }
+  .rb-count.rb-bump { animation: rb-count-pop 0.3s cubic-bezier(.3,1.6,.5,1); }
+  @keyframes rb-count-pop {
+    0%   { transform: scale(0.5); }
+    60%  { transform: scale(1.22); }
+    100% { transform: scale(1); }
+  }
+  .rb-comet {
+    position: fixed; top: 0; left: 0; width: 9px; height: 9px; border-radius: 50%;
+    background: var(--rb-accent); pointer-events: none; z-index: 60;
+    box-shadow: 0 0 0 3px rgba(119,41,83,0.16), 0 0 13px 2px rgba(119,41,83,0.5);
+    will-change: transform, opacity;
+  }
+  .rb-comet::before {
+    content: ""; position: absolute; top: 50%; left: 50%; width: 26px; height: 3px;
+    margin-top: -1.5px; transform-origin: 0 50%;
+    transform: rotate(var(--rb-tail, 0deg)) translateX(2px);
+    background: linear-gradient(to right, rgba(119,41,83,0.45), rgba(119,41,83,0));
+    border-radius: 2px;
+  }
   .rb-mail { width: 100%; box-sizing: border-box; font-family: ui-monospace, Menlo, Consolas, monospace;
              font-size: 0.72rem; line-height: 1.45; height: 190px; margin-top: 8px;
              border: 1px solid var(--rb-line); border-radius: 4px; padding: 8px; resize: vertical; }
@@ -344,10 +375,10 @@ title: Lecture Hall Calendar
     <button class="rb-btn" id="rb-print" title="Print this view" aria-label="Print">
       <i class="fa fa-print" aria-hidden="true"></i>
     </button>
-    <span class="rb-picked" id="rb-picked" hidden></span>
     <button class="rb-btn" id="rb-clear" hidden>Clear</button>
     <button class="rb-btn rb-create" id="rb-new" disabled hidden>
       <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;<span id="rb-new-label">Pick free hours</span>
+      <span class="rb-count" id="rb-count" hidden aria-hidden="true"></span>
     </button>
   </div>
 
@@ -1223,24 +1254,9 @@ null]
       n ? "Book (" + spanLabel(n * STEP) + ")" : "Pick free hours";
     document.getElementById("rb-clear").hidden = !n;
 
-    // The worry is that changing the day throws the pick away, and it arrives
-    // before anyone has dared to try, so the answer has to be on screen from the
-    // first hour picked rather than after the first move. It stops saying so once
-    // a second day is picked, by which point the page has shown rather than told.
-    //
-    // "Held" is not the word for this: a few lines down the page promises that
-    // nothing is held until the office acts, and that promise is about the hall.
-    var picked = document.getElementById("rb-picked");
-    var days = {}, here = ymd(state.cursor);
-    for (var k in state.sel) days[state.sel[k].date] = true;
-    var list = Object.keys(days).sort();
-    picked.hidden = !list.length;
-    if (list.length) {
-      picked.textContent = "Picked: " + list.map(function (d) {
-          return fromYmd(d).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-        }).join(", ") +
-        (list.length === 1 && list[0] === here ? " (stays if you change day)" : "");
-    }
+    // While something is still in the air the tally stays on its old number, so
+    // the comet is what changes it rather than arriving after the fact.
+    if (!flying) paintCount(blockCount());
 
     var hint = document.getElementById("rb-week-hint");
     if (hint) {
@@ -1345,10 +1361,91 @@ null]
     for (var v = start; v < end; v += STEP) {
       state.sel[selKey(room, key, v)] = { room: room, date: key, min: v, len: STEP };
     }
+    // Measured before the redraw, while the hours picked are still where they were.
+    flyToBook(anchor, start, end);
     render();
   }
 
   function clearSelection() { state.sel = {}; render(); }
+
+  // ── the tally, and the comet that feeds it ───────────────────────────
+  // Picking happens in the grid and the button that acts on it is up in the bar,
+  // so without something crossing the gap a pick lands silently and the count
+  // just happens to be different next time anyone looks. The comet is that
+  // crossing. It is decoration and nothing depends on it: if the browser will not
+  // animate, or the person has asked for stillness, the count simply changes.
+  var flying = 0;
+  var COMET_MS = 950;                  // how long the flight takes, in milliseconds
+
+  // Contiguous hours in one hall on one day are one booking, and read as one on
+  // the code and in the popup, so they count as one here too.
+  function blockCount() {
+    var cells = Object.keys(state.sel).map(function (k) { return state.sel[k]; });
+    return cells.length ? mergeRuns(cells).length : 0;
+  }
+
+  function paintCount(n) {
+    var el = document.getElementById("rb-count");
+    if (!el) return;
+    var was = el.textContent;
+    el.hidden = !n;
+    el.textContent = n ? String(n) : "";
+    if (n && String(n) !== was) {
+      el.classList.remove("rb-bump");
+      void el.offsetWidth;                       // restart it
+      el.classList.add("rb-bump");
+    }
+  }
+
+  function stillPlease() {
+    return window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  }
+
+  // From the middle of the hours just picked to the corner of the button.
+  function flyToBook(col, start, end) {
+    var btn = document.getElementById("rb-new");
+    if (!btn || btn.hidden || !col || !col.getBoundingClientRect ||
+        !document.body.animate || stillPlease()) return paintCount(blockCount());
+
+    var c = col.getBoundingClientRect(), b = btn.getBoundingClientRect();
+    var x  = c.left + c.width / 2;
+    var y  = c.top + topOf(start) + (end - start) * PX_PER_MIN / 2;
+    var tx = b.right - 8, ty = b.top - 2;
+    // Scrolled past the toolbar, or picking an hour that is off the top of the
+    // grid: there is nothing to watch, so do not send anything into the margin.
+    var h = document.documentElement.clientHeight;
+    if (ty < 0 || ty > h || y < -40 || y > h + 40) return paintCount(blockCount());
+    var dx = tx - x, dy = ty - y;
+    if (!isFinite(dx) || !isFinite(dy)) return paintCount(blockCount());
+
+    var el = document.createElement("span");
+    el.className = "rb-comet";
+    el.style.setProperty("--rb-tail", (Math.atan2(-dy, -dx) * 180 / Math.PI).toFixed(1) + "deg");
+    document.body.appendChild(el);
+
+    // A shallow arc rather than a straight line: a comet falls towards something.
+    var lift = Math.min(110, Math.abs(dx) * 0.22 + 46);
+    var at = function (px, py, sc, op) {
+      return { transform: "translate(" + px.toFixed(1) + "px," + py.toFixed(1) + "px) scale(" + sc + ")",
+               opacity: op };
+    };
+    flying++;
+    var run = el.animate([
+      at(x, y, 0.7, 0),
+      Object.assign(at(x + dx * 0.10, y + dy * 0.10 - lift * 0.35, 1, 1), { offset: 0.14 }),
+      Object.assign(at(x + dx * 0.55, y + dy * 0.55 - lift, 0.92, 1),     { offset: 0.6 }),
+      at(tx, ty, 0.22, 0)
+    ], { duration: COMET_MS, easing: "cubic-bezier(.32,.05,.2,1)" });
+
+    var land = function () {
+      el.remove();
+      flying = Math.max(0, flying - 1);
+      paintCount(blockCount());
+    };
+    run.onfinish = land;
+    run.oncancel = land;
+    setTimeout(function () { if (el.isConnected) land(); }, COMET_MS + 800);  // never strand it
+  }
 
   // Client-side clash check against everything already drawn -- classes and
   // confirmed bookings alike.
