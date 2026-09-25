@@ -107,47 +107,45 @@ function room_tokens(): array {
     return $out;
 }
 
-// Who may be named in a code, and what that name spells out to. Generated from
-// _data/faculty.yaml: first letter of the given name, first letter of the family
-// name. Where two people would land on the same pair, whichever of them has the
-// shorter server user-id takes that user-id as their token instead and the other
-// keeps the initials -- which is why four entries below are words. Regenerate
-// when someone joins or leaves.
+// Who may be named in a code, and what that name spells out to. The token is the
+// server user-id, straight out of _data/faculty.yaml: it is already unique, every
+// colleague knows their own, and it reads as a name rather than as a puzzle.
+// Regenerate when someone joins or leaves.
 //
 // The page has its own copy of this, built by Liquid from the same file. Both are
 // needed: the page uses it to offer names, and this one to refuse a code that
 // names nobody. A browser can claim anything, so the server does not take the
 // page's word for who exists.
 const PEOPLE = [
-    'aa'          => 'Arvind Ayyer',
-    'ab'          => 'Abhishek Banerjee',
-    'ak'          => 'Apoorva Khare',
-    'am'          => 'Arka Mallick',
-    'bp'          => 'Bharathwaj Palvannan',
-    'en'          => 'E. K. Narayanan',
-    'gb'          => 'Gautam Bharali',
-    'gr'          => 'Govindan Rangarajan',
-    'gv'          => 'Ganesh Vaidya',
-    'hs'          => 'Harish Seshadri',
-    'kv'          => 'Kaushal Verma',
-    'mk'          => 'Mahesh Kakde',
-    'mn'          => 'Muna Naik',
-    'pg'          => 'Purvi Gupta',
-    'rg'          => 'Radhika Ganapathy',
-    'rv'          => 'R. Venkatesh',
-    'sd'          => 'Shaunak Deo',
-    'sg'          => 'Subhojoy Gupta',
-    'si'          => 'Srikanth K. Iyer',
-    'sk'          => 'S Nitish Kumar',
-    'ss'          => 'Swarnendu Sil',
-    'tb'          => 'Tirthankar Bhattacharyya',
-    'tg'          => 'Thirupathi Gudi',
-    'vd'          => 'Ved Datar',
-    'vp'          => 'Vamsi Pritham Pingali',
-    'manju'       => 'Manjunath Krishnapur',
-    'gadgil'      => 'Siddhartha Gadgil',
-    'soumya'      => 'Soumya Das',
-    'sanchayan'   => 'Sanchayan Sen',
+    'abhi'         => 'Abhishek Banerjee',
+    'arkamallick'  => 'Arka Mallick',
+    'arvind'       => 'Arvind Ayyer',
+    'bharali'      => 'Gautam Bharali',
+    'bharathwaj'   => 'Bharathwaj Palvannan',
+    'gadgil'       => 'Siddhartha Gadgil',
+    'gudi'         => 'Thirupathi Gudi',
+    'harish'       => 'Harish Seshadri',
+    'khare'        => 'Apoorva Khare',
+    'kverma'       => 'Kaushal Verma',
+    'maheshkakde'  => 'Mahesh Kakde',
+    'manju'        => 'Manjunath Krishnapur',
+    'muna'         => 'Muna Naik',
+    'naru'         => 'E. K. Narayanan',
+    'nitishs'      => 'S Nitish Kumar',
+    'purvigupta'   => 'Purvi Gupta',
+    'radhikag'     => 'Radhika Ganapathy',
+    'rangaraj'     => 'Govindan Rangarajan',
+    'rvenkat'      => 'R. Venkatesh',
+    'sanchayan'    => 'Sanchayan Sen',
+    'shaunakdeo'   => 'Shaunak Deo',
+    'skiyer'       => 'Srikanth K. Iyer',
+    'soumya'       => 'Soumya Das',
+    'subhojoy'     => 'Subhojoy Gupta',
+    'swarnendusil' => 'Swarnendu Sil',
+    'tirtha'       => 'Tirthankar Bhattacharyya',
+    'vaidyaganesh' => 'Ganesh Vaidya',
+    'vamsipingali' => 'Vamsi Pritham Pingali',
+    'vvdatar'      => 'Ved Datar',
 ];
 
 // The Aug-Dec 2026 timetable: weekday numbers (0 = Sunday), minutes from midnight.
@@ -367,31 +365,23 @@ function clash(string $room, string $date, int $s, int $e, array $bookings, stri
 //
 //     <who>-lh<hall>-<ddmmyyyy>-<hhmm>-<hhmm>[+lh<hall>-...][-purpose]
 //
-// Every field but the purpose is a fixed shape, so where each one stops is known
-// rather than guessed. Nothing in a code is secret and nothing in it is trusted:
-// it says what is wanted, and whether that may happen is settled separately.
+// Nothing in a code is secret and nothing in it is trusted: it says what is
+// wanted, and whether that may happen is settled separately.
+//
+// The pieces are read by shape rather than by position, so they may be given in
+// any order. Eight digits is a date, four is a clock time, a word that names a
+// room is the room, a word that names a colleague is who it is for, and whatever
+// is left is the purpose. That is what lets a code survive being read down a
+// telephone and typed back in by someone who did not write it.
 function unslug_(string $s): string {
-    return trim(preg_replace('/-+/', ' ', ltrim($s, '-')) ?? '');
+    return trim(preg_replace('/[_\s-]+/', ' ', $s) ?? '');
 }
 
 // Pulls a code apart, or returns null if anything at all is off. Never a
 // half-reading: a booking that is nearly right is worse than one that is refused.
 function decode_code(string $raw): ?array {
     $s = strtolower(preg_replace('/\s+/', '', $raw) ?? '');
-
-    // Whether the name is one we know is the caller's business: "nobody here is
-    // called that" is worth saying out loud, where a malformed code is not.
-    if (!preg_match('/^([a-z]{2,12})-/', $s, $m)) return null;
-    $who = $m[1];
-    $s = substr($s, strlen($who) + 1);
-
-    // One or more slots, then whatever is left is the purpose.
-    $rooms = room_tokens();
-    $hall  = '(?:' . implode('|', array_keys($rooms)) . ')';
-    if (!preg_match('/^' . $hall . '-\d{8}-\d{4}-\d{4}(?:\+' . $hall . '-\d{8}-\d{4}-\d{4})*/', $s, $m)) return null;
-    $slots = $m[0];
-    $parts = explode('+', $slots);
-    if (count($parts) > MAX_SLOTS) return null;
+    if ($s === '' || !preg_match('/^[a-z0-9_+-]+$/', $s)) return null;
 
     // A booking has to be for a day somewhere near this one. Without this a code
     // is free to name the year 9999, and a file this small has no business
@@ -399,29 +389,72 @@ function decode_code(string $raw): ?array {
     $floor = (new DateTimeImmutable('today'))->modify('-' . MAX_BEHIND . ' days');
     $roof  = (new DateTimeImmutable('today'))->modify('+' . MAX_AHEAD . ' days');
 
-    $runs = [];
-    foreach ($parts as $part) {
-        preg_match('/^(' . $hall . ')-(\d{2})(\d{2})(\d{4})-(\d{4})-(\d{4})$/', $part, $f);
-        [, $room, $dd, $mm, $yyyy, $from, $to] = $f;
+    $rooms  = room_tokens();
+    $groups = explode('+', $s);
+    if (count($groups) > MAX_SLOTS) return null;
+
+    $words = [];                       // neither a room, nor a date, nor a time
+    $runs  = [];
+    foreach ($groups as $group) {
+        $room = null; $date = null; $times = [];
+        foreach (explode('-', $group) as $tok) {
+            if ($tok === '') continue;
+            if (isset($rooms[$tok])) {
+                if ($room !== null) return null;             // two halls, one slot
+                $room = $rooms[$tok];
+            } elseif (preg_match('/^\d{8}$/', $tok)) {
+                if ($date !== null) return null;
+                $date = $tok;
+            } elseif (preg_match('/^\d{4}$/', $tok)) {
+                $times[] = $tok;
+            } elseif (preg_match('/^[a-z][a-z0-9_]*$/', $tok)) {
+                $words[] = $tok;
+            } else {
+                return null;                                 // a shape we cannot read
+            }
+        }
+        if ($room === null || $date === null || count($times) !== 2) return null;
+
+        // Either way round: the earlier clock time is the start. A slot that ran
+        // backwards would be a typo, and reading it the only way it can be meant
+        // is kinder than refusing it.
+        sort($times);
+        [$from, $to] = $times;
+        [$dd, $mm, $yyyy] = [substr($date, 0, 2), substr($date, 2, 2), substr($date, 4)];
         if (!checkdate((int) $mm, (int) $dd, (int) $yyyy)) return null;
         $day = DateTimeImmutable::createFromFormat('!Y-m-d', "$yyyy-$mm-$dd");
         if ($day === false || $day < $floor || $day > $roof) return null;
         $st = mins(substr($from, 0, 2) . ':' . substr($from, 2));
         $en = mins(substr($to, 0, 2) . ':' . substr($to, 2));
         if ($st === null || $en === null || $en <= $st) return null;
-        $runs[] = ['room' => $rooms[$room], 'date' => "$yyyy-$mm-$dd",
+        $runs[] = ['room' => $room, 'date' => "$yyyy-$mm-$dd",
                    'start' => substr($from, 0, 2) . ':' . substr($from, 2),
                    'end'   => substr($to, 0, 2) . ':' . substr($to, 2)];
     }
 
-    $rest = substr($s, strlen($slots));
-    if ($rest !== '' && !preg_match('/^-[a-z0-9-]{1,' . MAX_PURPOSE . '}$/', $rest)) return null;
+    // The first word that names somebody is who the hall is for; the rest is what
+    // it is for. If no word names anybody, the first one is still handed back as
+    // the name, so the caller can say "nobody here is called that" rather than
+    // quietly booking it for the purpose.
+    $who = '';
+    $purpose = [];
+    foreach ($words as $wd) {
+        if ($who === '' && isset(PEOPLE[$wd])) $who = $wd;
+        else $purpose[] = $wd;
+    }
+    if ($who === '') {
+        if (!$purpose) return null;
+        $who = array_shift($purpose);
+    }
+
+    $text = unslug_(implode(' ', $purpose));
+    if (strlen($text) > MAX_PURPOSE) return null;
     // A purpose ending in the marker would make its own code unreadable: taking
     // the marker off would leave a code nobody was ever given.
-    if (str_ends_with($rest, DROP_MARK)) return null;
+    if (str_ends_with(str_replace(' ', '', $text), DROP_MARK)) return null;
 
     return ['who' => $who, 'name' => PEOPLE[$who] ?? '', 'runs' => $runs,
-            'purpose' => unslug_($rest)];
+            'purpose' => $text];
 }
 
 // Says which of a code's slots are already taken, so the office can be told
@@ -506,37 +539,67 @@ if (in_array('--selftest', $cli, true)) {
         fwrite(STDERR, "FAIL $what: got " . json_encode($got) . ", wanted " . json_encode($want) . "\n");
     };
 
-    $c = decode_code('ak-lh3-24092026-1500-1600-number-theory-seminar');
-    $check('who',     $c['who'],     'ak');
+    $c = decode_code('khare-lh3-24092026-1500-1600-number_theory_seminar');
+    $check('who',     $c['who'],     'khare');
     $check('name',    $c['name'],    'Apoorva Khare');
     $check('purpose', $c['purpose'], 'number theory seminar');
     $check('runs',    $c['runs'],    [['room' => 'LH-3', 'date' => '2026-09-24',
                                        'start' => '15:00', 'end' => '16:00']]);
 
-    // A word token, two slots, no purpose.
-    $c = decode_code('manju-lh1-01012027-0900-1000+lh5-02012027-1100-1230');
+    // The same request said in any order at all. Every one of these is the code
+    // above with its pieces shuffled, and every one has to come back the same.
+    $same = $c;
+    foreach ([
+        'lh3-khare-24092026-1500-1600-number_theory_seminar',
+        '24092026-1500-1600-lh3-number_theory_seminar-khare',
+        'number_theory_seminar-1600-1500-24092026-khare-lh3',
+        '1500-24092026-number_theory_seminar-lh3-khare-1600',
+    ] as $i => $shuffled) {
+        $check("shuffled $i", decode_code($shuffled), $same);
+    }
+
+    // Two slots, no purpose, and the second slot's pieces out of order too.
+    $c = decode_code('manju-lh1-01012027-0900-1000+02012027-lh5-1230-1100');
     $check('word token', $c['name'], 'Manjunath Krishnapur');
     $check('two slots',  count($c['runs']), 2);
     $check('no purpose', $c['purpose'], '');
+    $check('slot 2 read', $c['runs'][1], ['room' => 'LH-5', 'date' => '2027-01-02',
+                                          'start' => '11:00', 'end' => '12:30']);
 
     // The Chairman's room, which is not an LH and so takes a different token.
-    $check('r15',      decode_code('ak-r15-24092026-1500-1600-x')['runs'][0]['room'], 'R-15');
-    $check('no r14',   decode_code('ak-r14-24092026-1500-1600-x'), null);
-    $check('no lh6',   decode_code('ak-lh6-24092026-1500-1600-x'), null);
+    $check('r15',      decode_code('khare-r15-24092026-1500-1600-x')['runs'][0]['room'], 'R-15');
+    $check('no r14',   decode_code('khare-r14-24092026-1500-1600-x'), null);
+    $check('no lh6',   decode_code('khare-lh6-24092026-1500-1600-x'), null);
 
-    // A purpose may end in digits: there is nothing after it to be confused with.
-    $check('digits in purpose', decode_code('ak-lh3-24092026-1500-1600-ma-231')['purpose'], 'ma 231');
+    // Underscores are what hold a purpose together now, so a hyphen inside one
+    // still reads rather than throwing the whole code away.
+    $check('hyphen purpose', decode_code('khare-lh3-24092026-1500-1600-oral-exam')['purpose'], 'oral exam');
+    $check('digits in purpose', decode_code('khare-lh3-24092026-1500-1600-ma_231')['purpose'], 'ma 231');
+
+    // A name nobody has comes back as itself with no name against it, so the
+    // caller can say which part was wrong.
+    $c = decode_code('nobody-lh3-24092026-1500-1600');
+    $check('unknown who',  $c['who'],  'nobody');
+    $check('unknown name', $c['name'], '');
+
+    // Two halls or two dates in one slot is not a request anyone can act on.
+    $check('two halls', decode_code('khare-lh1-lh2-24092026-1500-1600'), null);
+    $check('two dates', decode_code('khare-lh1-24092026-25092026-1500-1600'), null);
+    $check('one time',  decode_code('khare-lh1-24092026-1500'), null);
+    $check('no hall',   decode_code('khare-24092026-1500-1600'), null);
+    $check('junk token', decode_code('khare-lh1-24092026-1500-1600-12345'), null);
 
     // The ceilings. Each of these is a request nobody would type by hand, and
     // each of them used to be accepted.
     $soon = (new DateTimeImmutable('+30 days'))->format('dmY');
-    $one  = fn(int $n) => 'ak-' . implode('+', array_fill(0, $n, "lh1-$soon-0900-1000")) . '-x';
+    $one  = fn(int $n) => 'khare-' . implode('+', array_fill(0, $n, "lh1-$soon-0900-1000")) . '-x';
     $check('slots at the limit', count(decode_code($one(MAX_SLOTS))['runs']), MAX_SLOTS);
     $check('slots over it',      decode_code($one(MAX_SLOTS + 1)), null);
-    $check('purpose at limit',   strlen(decode_code("ak-lh1-$soon-0900-1000-" . str_repeat('a', MAX_PURPOSE))['purpose']), MAX_PURPOSE);
-    $check('purpose over it',    decode_code("ak-lh1-$soon-0900-1000-" . str_repeat('a', MAX_PURPOSE + 1)), null);
-    $check('far future',         decode_code('ak-lh1-01019999-0900-1000-x'), null);
-    $check('long past',          decode_code('ak-lh1-01012001-0900-1000-x'), null);
+    $check('purpose at limit',   strlen(decode_code("khare-lh1-$soon-0900-1000-" . str_repeat('a', MAX_PURPOSE))['purpose']), MAX_PURPOSE);
+    $check('purpose over it',    decode_code("khare-lh1-$soon-0900-1000-" . str_repeat('a', MAX_PURPOSE + 1)), null);
+    $check('far future',         decode_code('khare-lh1-01019999-0900-1000-x'), null);
+    $check('long past',          decode_code('khare-lh1-01012001-0900-1000-x'), null);
+    $check('drop mark',          decode_code('khare-lh1-' . $soon . '-0900-1000-vivaxxx'), null);
 
     // Pruning: withdrawn and long past go, everything else stays.
     $old  = (new DateTimeImmutable('-' . (KEEP_DAYS + 10) . ' days'))->format('Y-m-d');
@@ -561,16 +624,21 @@ if (in_array('--selftest', $cli, true)) {
     $check('token junk', token_ok('nonsense'), false);
 
     foreach ([
-        'ak-lh9-24092026-1500-1600-x'     => 'no such hall',
-        'ak-lh3-31092026-1500-1600-x'     => 'no such date',
-        'ak-lh3-24092026-1600-1500-x'     => 'ends before it starts',
-        'ak-lh3-24092026-1500-1600-x.y'   => 'punctuation in the purpose',
-        'lh3-24092026-1500-1600-x'        => 'nobody named',
-        'ak-24092026-1500-1600-x'         => 'no hall at all',
-        'seminar on friday'               => 'an ordinary search',
+        'khare-lh9-24092026-1500-1600-x'   => 'no such hall',
+        'khare-lh3-31092026-1500-1600-x'   => 'no such date',
+        'khare-lh3-24092026-1500-1500-x'   => 'no time at all between them',
+        'khare-lh3-24092026-1500-1600-x.y' => 'punctuation in the purpose',
+        'khare-24092026-1500-1600-x'       => 'no hall at all',
+        'lh3-24092026-1500-1600'           => 'nobody named and nothing else to go on',
+        'seminar on friday'                => 'an ordinary search',
     ] as $bad => $why) {
         $check("refuses: $why", decode_code($bad), null);
     }
+
+    // Given backwards, a slot is read the only way it can be meant rather than
+    // refused. This is the one shape that used to be turned away and now is not.
+    $check('backwards slot', decode_code('khare-lh3-24092026-1600-1500-x')['runs'][0],
+           ['room' => 'LH-3', 'date' => '2026-09-24', 'start' => '15:00', 'end' => '16:00']);
 
     // An unknown name parses -- it is the caller that turns it away, and with a
     // message worth reading rather than "damaged".

@@ -285,14 +285,14 @@ title: Lecture Hall Calendar
     color: var(--rb-accent); text-decoration: underline; cursor: pointer;
   }
   .rb-pop-close { position: absolute; top: 8px; right: 8px; border: none; background: none; color: var(--rb-mute); font-size: 1.05rem; cursor: pointer; line-height: 1; }
-  .rb-pop-actions { margin-top: 12px; display: flex; gap: 8px; justify-content: flex-end; align-items: center; }
+  .rb-pop-actions { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; align-items: center; }
   .rb-pop-msg { font-size: 0.74rem; margin-top: 8px; }
   .rb-err { color: #c5221f; }
   .rb-ok  { color: #188038; }
   .rb-backdrop { position: fixed; inset: 0; z-index: 39; }
 
   .rb-note { font-size: 0.76rem; color: var(--rb-mute); margin-top: 10px; }
-  .rb-held { font-size: 0.72rem; color: var(--rb-accent); white-space: nowrap; }
+  .rb-picked { font-size: 0.72rem; color: var(--rb-accent); }
   .rb-mail { width: 100%; box-sizing: border-box; font-family: ui-monospace, Menlo, Consolas, monospace;
              font-size: 0.72rem; line-height: 1.45; height: 190px; margin-top: 8px;
              border: 1px solid var(--rb-line); border-radius: 4px; padding: 8px; resize: vertical; }
@@ -344,7 +344,7 @@ title: Lecture Hall Calendar
     <button class="rb-btn" id="rb-print" title="Print this view" aria-label="Print">
       <i class="fa fa-print" aria-hidden="true"></i>
     </button>
-    <span class="rb-held" id="rb-held" hidden></span>
+    <span class="rb-picked" id="rb-picked" hidden></span>
     <button class="rb-btn" id="rb-clear" hidden>Clear</button>
     <button class="rb-btn rb-create" id="rb-new" disabled hidden>
       <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;<span id="rb-new-label">Pick free hours</span>
@@ -779,28 +779,12 @@ null]
   // ── who is booking ───────────────────────────────────────────────────
   // A code names the person it is for, so the office can see whose booking it is
   // before enacting it and the calendar can say afterwards. The token is their
-  // initials: first letter of the given name, first letter of the family name.
-  //
-  // Four pairs of colleagues share initials, and rather than keep a list of
-  // exceptions the tie is broken by a rule -- whoever has the shorter server
-  // user-id uses that instead, which is a name they already answer to. So
-  // Manjunath Krishnapur is "manju" and Mahesh Kakde keeps "mk". A new colleague
-  // whose initials collide is handled without editing anything here; booking.php
-  // still needs its own copy regenerated, which is where such a change bites.
+  // server user-id: already unique, already a name they answer to, and nothing
+  // to look up. A new colleague needs nothing changed here; booking.php keeps
+  // its own copy of the roster, which is where such a change bites.
   var PEOPLE = (function () {
     var rows = readJSON("rb-people-data").filter(function (r) { return r && r.name && r.id; });
-    var groups = {};
-    rows.forEach(function (r) {
-      var parts = r.name.replace(/\./g, " ").split(/\s+/).filter(Boolean);
-      r.token = (parts[0].charAt(0) + parts[parts.length - 1].charAt(0)).toLowerCase();
-      (groups[r.token] = groups[r.token] || []).push(r);
-    });
-    Object.keys(groups).forEach(function (t) {
-      var tied = groups[t];
-      if (tied.length < 2) return;
-      var shortest = tied.reduce(function (a, b) { return b.id.length < a.id.length ? b : a; });
-      shortest.token = shortest.id;
-    });
+    rows.forEach(function (r) { r.token = String(r.id).toLowerCase(); });
     return rows;
   })();
 
@@ -1239,18 +1223,24 @@ null]
       n ? "Book (" + spanLabel(n * STEP) + ")" : "Pick free hours";
     document.getElementById("rb-clear").hidden = !n;
 
-    // Hours picked on a day that is no longer on screen are held but invisible,
-    // and an hour you cannot see is one you think you have lost. Name the days.
-    var held = document.getElementById("rb-held");
+    // The worry is that changing the day throws the pick away, and it arrives
+    // before anyone has dared to try, so the answer has to be on screen from the
+    // first hour picked rather than after the first move. It stops saying so once
+    // a second day is picked, by which point the page has shown rather than told.
+    //
+    // "Held" is not the word for this: a few lines down the page promises that
+    // nothing is held until the office acts, and that promise is about the hall.
+    var picked = document.getElementById("rb-picked");
     var days = {}, here = ymd(state.cursor);
     for (var k in state.sel) days[state.sel[k].date] = true;
-    var away = Object.keys(days).filter(function (d) { return d !== here; }).sort();
-    held.hidden = !away.length;
-    held.textContent = away.length
-      ? "also holding " + away.map(function (d) {
+    var list = Object.keys(days).sort();
+    picked.hidden = !list.length;
+    if (list.length) {
+      picked.textContent = "Picked: " + list.map(function (d) {
           return fromYmd(d).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-        }).join(", ")
-      : "";
+        }).join(", ") +
+        (list.length === 1 && list[0] === here ? " (stays if you change day)" : "");
+    }
 
     var hint = document.getElementById("rb-week-hint");
     if (hint) {
@@ -1418,10 +1408,12 @@ null]
   // Nothing here is a secret. The code says what it wants in the open and carries
   // no authority of its own: what turns one of these into a booking is something
   // only the office knows, and that never travels with the code.
+  // Underscores, not hyphens: a hyphen separates one piece of a code from the
+  // next, so a purpose spelled with them would come apart into pieces of its own.
   function slug(s) {
     return String(s == null ? "" : s).toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")
-      .slice(0, 40).replace(/-+$/, "");
+      .replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "")
+      .slice(0, 40).replace(/_+$/, "");
   }
 
   function encodeRequest(runs, purpose, token) {
@@ -1514,11 +1506,15 @@ null]
                        clockTime(r.start) + " – " + clockTime(r.end));
           }).join("<br>") + "</div>" +
         '<div class="rb-code-out" id="rb-code-out">' + esc(code) + "</div>" +
-        '<div class="rb-pop-msg">Nothing is booked yet. Get this code to the office ' +
-          "any way you like; the hall is yours once they enter it.</div>" +
+        '<div class="rb-pop-msg">' + (unlocked()
+          ? "Nothing is booked yet. Book it now to put it straight on the calendar for " +
+            esc(person.name) + ", or send this code the usual way."
+          : "Nothing is booked yet. Get this code to the office " +
+            "any way you like; the hall is yours once they enter it.") + "</div>" +
         '<textarea class="rb-mail" id="rb-mail-text" readonly>' + esc(text) + "</textarea>" +
         '<div class="rb-pop-actions">' +
           '<button class="rb-btn" id="rb-mail-done">Done</button>' +
+          (unlocked() ? '<button class="rb-btn rb-create" id="rb-book-now">Book it now</button>' : "") +
           '<a class="rb-btn" style="text-decoration:none;" href="' +
             "mailto:" + encodeURIComponent(mail.to) +
             "?subject=" + encodeURIComponent(mail.subject) +
@@ -1538,18 +1534,33 @@ null]
       document.getElementById("rb-mail-done").addEventListener("click", function () {
         closePop(); clearSelection();
       });
+      // The office standing at the desk with somebody in front of them: the same
+      // code, entered by the same hand, without the round trip through the box.
+      var now = document.getElementById("rb-book-now");
+      if (now) now.addEventListener("click", function () {
+        clearSelection();
+        officeEnact(code, document.getElementById("site-search-input") || document.body);
+      });
     });
   }
 
   // ── the office acting on a code ──────────────────────────────────────
   // No button and nothing in the navbar: the search box doubles as the way in,
   // and only on this page, so everywhere else it just searches.
-  var CODE_RE = new RegExp("^[a-z]{2,12}-(?:" + ROOM_TOKS +
-                           ")-\\d{8}-\\d{4}-\\d{4}[-+a-z0-9]*$", "i");
+  // This only has to tell a booking code from somebody searching the site, and a
+  // code may arrive with its pieces in any order, so it asks for the two things
+  // no search query has: the name of a hall, and a date written as eight digits.
+  // Whether it is a code worth acting on is booking.php's business, not this.
+  var CODE_RE = new RegExp("^(?=.*\\b(?:" + ROOM_TOKS + ")\\b)(?=.*\\d{8})" +
+                           "[a-z0-9_+-]{16,}$", "i");
 
   var ICON_STEPS = 3;
   var ICON_IDLE_MS = 3 * 60 * 1000;
   var iconStep = 0, iconTimer = null, iconOn = false, pass = "";
+  // Set once the box has been wired, so the booking popup can offer the office
+  // the same action without knowing anything about how the box works.
+  var officeEnact = null;
+  function unlocked() { return !!pass && !!officeEnact; }
 
   function wireSearchBox() {
     var form = document.getElementById("site-search-form");
@@ -1640,6 +1651,8 @@ null]
             '<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', at);
         });
     }
+
+    officeEnact = enact;
 
     function enact(v, at) {
       if (!CODE_RE.test(v.replace(/\s+/g, ""))) {
