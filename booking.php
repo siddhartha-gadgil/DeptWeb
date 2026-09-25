@@ -85,6 +85,12 @@ const MAX_AHEAD    = 500;    // days from today a booking may be made
 const MAX_BEHIND   = 2;      // days into the past, so late entry still works
 const KEEP_DAYS    = 400;    // how long a spent booking stays in the file
 const UNDO_DAYS    = 30;     // ... and a withdrawn one, so a slip can be undone
+
+// Put on the end of a booking code, it withdraws that booking instead of making
+// it. Three letters rather than a word because the office types it by hand onto
+// the end of something already in front of them, and nothing else a code can end
+// with looks like it.
+const DROP_MARK    = 'xxx';
 define('CALENDAR_URL', $LH_CFG['calendar_url'] ?? 'http://localhost:8001/lecture-hall-calendar.html');
 
 const MAX_BODY      = 8192;   // no request needs more than this
@@ -398,6 +404,9 @@ function decode_code(string $raw): ?array {
 
     $rest = substr($s, strlen($slots));
     if ($rest !== '' && !preg_match('/^-[a-z0-9-]{1,' . MAX_PURPOSE . '}$/', $rest)) return null;
+    // A purpose ending in the marker would make its own code unreadable: taking
+    // the marker off would leave a code nobody was ever given.
+    if (str_ends_with($rest, DROP_MARK)) return null;
 
     return ['who' => $who, 'name' => PEOPLE[$who] ?? '', 'runs' => $runs,
             'purpose' => unslug_($rest)];
@@ -450,7 +459,7 @@ function live_bookings(): array {
 // What the calendar is shown. The address stays in the file: this list is public.
 function public_view(array $b): array {
     return [
-        'id' => $b['id'], 'room' => $b['room'], 'date' => $b['date'],
+        'room' => $b['room'], 'date' => $b['date'],
         'start' => $b['start'], 'end' => $b['end'],
         'purpose' => $b['purpose'], 'bookedBy' => $b['name'],
     ];
@@ -525,6 +534,8 @@ if (in_array('--selftest', $cli, true)) {
     $check('withdrawn stays out of the calendar',
            count(array_filter(prune([$row($new_, 'active'), $just]),
                               fn($b) => ($b['status'] ?? 'active') === 'active')), 1);
+
+    $check('purpose ending in the marker', decode_code('ak-lh1-' . $soon . '-0900-1000-fixxx'), null);
 
     // A token outlives its deadline and nothing else.
     $check('token now',  token_ok(office_token()), true);
@@ -641,13 +652,47 @@ if ($action === 'enact') {
 }
 
 // ---- withdraw, which the office has to be unlocked for too ----
+// The same code that made the booking, with the marker on the end. Nothing new
+// is issued for this: whoever booked has the code already, in the mail they sent
+// asking for it, and replying to that mail is how they ask for it back.
+//
+// The code is matched against what is on the calendar rather than trusted, so a
+// code that was never enacted, or was enacted and already withdrawn, withdraws
+// nothing and says so.
 if ($action === 'cancel') {
     if (!token_ok((string) ($in['token'] ?? ''))) reply(['ok' => false, 'error' => 'unauthorised']);
-    $id = (string) ($in['id'] ?? '');
-    $out = with_lock(function () use ($id) {
-        $all   = prune(read_json(bookings_file()));
-        $now   = gmdate('c');
-        $gone  = [];
+
+    $said = strtolower(preg_replace('/\s+/', '', (string) ($in['value'] ?? '')) ?? '');
+    if (!str_ends_with($said, DROP_MARK)) reply(['ok' => false, 'error' => 'That is not a withdrawal.']);
+    $c = decode_code(substr($said, 0, -strlen(DROP_MARK)));
+    if (!$c || $c['name'] === '') reply(['ok' => false, 'error' => 'That code is damaged; ask for it again.']);
+
+    $out = with_lock(function () use ($c) {
+        $all = prune(read_json(bookings_file()));
+
+        // Which booking this code made: one whose every slot, purpose and person
+        // are on the calendar now. Several may share a slot over the years, so
+        // the match has to be on all of it, and has to land on exactly one.
+        $ids = null;
+        foreach ($c['runs'] as $r) {
+            $here = [];
+            foreach ($all as $b) {
+                if (($b['status'] ?? 'active') !== 'active') continue;
+                if ($b['room'] === $r['room'] && $b['date'] === $r['date']
+                    && $b['start'] === $r['start'] && $b['end'] === $r['end']
+                    && $b['purpose'] === $c['purpose'] && $b['name'] === $c['name']) {
+                    $here[$b['id']] = true;
+                }
+            }
+            $ids = $ids === null ? $here : array_intersect_key($ids, $here);
+            if (!$ids) break;
+        }
+        if (!$ids) return ['ok' => false, 'error' => 'Nothing on the calendar matches that code.'];
+        if (count($ids) > 1) return ['ok' => false, 'error' => 'More than one booking matches that code.'];
+
+        $id = array_key_first($ids);
+        $now = gmdate('c');
+        $gone = [];
         foreach ($all as &$b) {
             if (($b['id'] ?? '') !== $id || ($b['status'] ?? 'active') !== 'active') continue;
             $b['status'] = 'cancelled';
@@ -655,7 +700,6 @@ if ($action === 'cancel') {
             $gone[] = $b;
         }
         unset($b);
-        if (!$gone) return ['ok' => false, 'error' => 'That booking is not there to withdraw.'];
         write_json(bookings_file(), $all);
         return ['ok' => true, 'purpose' => $gone[0]['purpose'], 'who' => $gone[0]['name'],
                 'slots' => array_map(fn($b) => ['room' => $b['room'], 'date' => $b['date'],

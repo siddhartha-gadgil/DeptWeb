@@ -853,7 +853,7 @@ null]
     });
     state.bookings.forEach(function (b) {
       if (b.room === room && b.date === key) {
-        out.push({ room: room, start: b.start, end: b.end, id: b.id,
+        out.push({ room: room, start: b.start, end: b.end,
                    title: b.title, sub: b.bookedBy, kind: "booking" });
       }
     });
@@ -921,7 +921,7 @@ null]
       ' title="' + esc(evTitle(e)) + '"' +
       ' data-ev="' + esc(JSON.stringify({
         room: e.room, start: e.start, end: e.end, title: e.title, sub: e.sub,
-        name: e.name || "", notes: e.notes || "", id: e.id || "", kind: e.kind
+        name: e.name || "", notes: e.notes || "", kind: e.kind
       })) + '">' +
       '<b>' + label + '</b><small>' + ampm(e.start) + " – " + ampm(e.end) +
       (e.sub ? " &middot; " + esc(e.sub) : "") + '</small></button>';
@@ -1057,7 +1057,7 @@ null]
                ' title="' + esc(evTitle(e)) + '" data-ev="' +
                esc(JSON.stringify({ room: e.room, start: e.start, end: e.end, title: e.title,
                                     sub: e.sub, name: e.name || "", notes: e.notes || "",
-                                    id: e.id || "", kind: e.kind })) + '">' +
+                                    kind: e.kind })) + '">' +
                ampm(e.start) + " " + esc(e.title) + " &middot; " + esc(e.room) + "</div>";
         });
         // A day with more than a rolling cell can get through in a sensible time
@@ -1244,13 +1244,10 @@ null]
     return pop;
   }
 
-  // Reading a block. A booking is the only kind that can be taken away again, and
-  // only by the office: withdrawing is the same authority as making one, so the
-  // button is there when the office has said the day's word and not otherwise.
-  // Everyone else is told what to ask for, which is the id, because "my booking
-  // on Tuesday" is not enough to act on when somebody has three.
+  // Reading a block. Read-only, whoever is looking: a booking is made and taken
+  // away by the same means, which is a code sent to the office, and neither of
+  // them happens here.
   function showEvent(ev, anchor) {
-    var mine = ev.kind === "booking";
     showPop(
       "<h5>" + esc(ev.title) + (ev.name ? ": " + esc(ev.name) : "") + "</h5>" +
       '<div class="rb-pop-meta">' +
@@ -1264,61 +1261,9 @@ null]
           ? "From the course schedule. This hall is not free at this time."
           : ev.kind === "seminar"
           ? "From the seminar listing. This hall is not free at this time."
-          : "Confirmed by the office. To withdraw it, ask them to, quoting " +
-            "<b>" + esc(ev.id || "?") + "</b>, or email " + esc(OFFICE) + ".") +
-      "</div>" +
-      (mine && pass && ev.id
-        ? '<div class="rb-pop-actions">' +
-            '<button class="rb-btn" id="rb-drop">Withdraw</button></div>' +
-          '<div class="rb-pop-msg" id="rb-drop-msg"></div>'
-        : ""),
+          : "Confirmed by the office. To change it, write to " + esc(OFFICE) + ".") +
+      "</div>",
       anchor);
-
-    var drop = document.getElementById("rb-drop");
-    if (!drop) return;
-
-    // Two presses, because one press of a button in a popover is how a booking
-    // gets withdrawn by somebody who meant to close the popover.
-    var armed = false;
-    drop.addEventListener("click", function () {
-      if (!armed) {
-        armed = true;
-        drop.textContent = "Yes, withdraw it";
-        drop.className = "rb-btn rb-create";
-        document.getElementById("rb-drop-msg").textContent =
-          "The hall goes back to being free. Press again to do it.";
-        return;
-      }
-      drop.disabled = true;
-      post({ action: "cancel", id: ev.id, token: pass })
-        .then(function (r) {
-          if (!r.ok) {
-            drop.disabled = false; armed = false;
-            drop.textContent = "Withdraw"; drop.className = "rb-btn";
-            var m = document.getElementById("rb-drop-msg");
-            m.className = "rb-pop-msg rb-err";
-            m.textContent = r.error === "unauthorised"
-              ? "That has run out. Start again." : (r.error || "Refused.");
-            return;
-          }
-          if (r.bookings) takeBookings(r.bookings);
-          render();
-          showPop("<h5>Withdrawn</h5>" +
-            '<div class="rb-pop-meta">' +
-              (r.slots || []).map(function (x) {
-                return esc(x.room + " · " + longDate(x.date) + " · " +
-                           clockTime(minutesOf(x.start)) + " – " + clockTime(minutesOf(x.end)));
-              }).join("<br>") + "</div>" +
-            "<div>" + esc(r.purpose || "") + (r.who ? " · " + esc(r.who) : "") + "</div>" +
-            '<div class="rb-pop-msg rb-ok">The hall is free again.</div>', anchor);
-        })
-        .catch(function () {
-          drop.disabled = false;
-          var m = document.getElementById("rb-drop-msg");
-          m.className = "rb-pop-msg rb-err";
-          m.textContent = "Could not reach the booking service.";
-        });
-    });
   }
 
   // ─────────────────────────────────────────────────────── picking hours
@@ -1593,7 +1538,11 @@ null]
       if (!v) return;
       input.value = "";
       keepAwake();
-      pass ? enact(v, input) : open_(v, input);
+      if (!pass) return open_(v, input);
+      // Same code, marked, and it gives the hall back instead of taking it.
+      var bare = v.replace(/\s+/g, "");
+      if (/xxx$/i.test(bare)) return undo(bare, input);
+      enact(v, input);
     });
 
     function open_(word, at) {
@@ -1610,6 +1559,34 @@ null]
         })
         .catch(function () {
           showPop('<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', at);
+        });
+    }
+
+    function undo(v, at) {
+      post({ action: "cancel", value: v, token: pass })
+        .then(function (r) {
+          if (!r.ok) {
+            if (r.error === "unauthorised") rest();
+            return showPop("<h5>Not withdrawn</h5>" +
+              '<div class="rb-pop-msg rb-err">' +
+              esc(r.error === "unauthorised" ? "Start again." : (r.error || "Refused.")) +
+              "</div>", at);
+          }
+          if (r.bookings) takeBookings(r.bookings);
+          render();
+          showPop("<h5>Withdrawn</h5>" +
+            '<div class="rb-pop-meta">' +
+              (r.slots || []).map(function (x) {
+                return esc(x.room + " \u00b7 " + longDate(x.date) + " \u00b7 " +
+                           clockTime(minutesOf(x.start)) + " \u2013 " + clockTime(minutesOf(x.end)));
+              }).join("<br>") + "</div>" +
+            "<div>" + esc(r.purpose || "") + (r.who ? " \u00b7 " + esc(r.who) : "") + "</div>" +
+            '<div class="rb-pop-msg rb-ok">The hall is free again.</div>', at);
+          at.focus();
+        })
+        .catch(function () {
+          showPop("<h5>Not withdrawn</h5>" +
+            '<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', at);
         });
     }
 
@@ -1692,8 +1669,7 @@ null]
   function takeBookings(list) {
     state.bookings = (list || []).map(function (b) {
       return { room: b.room, date: b.date, start: minutesOf(b.start), end: minutesOf(b.end),
-               title: b.purpose || "Booked", bookedBy: b.bookedBy || "",
-               id: b.id };
+               title: b.purpose || "Booked", bookedBy: b.bookedBy || "" };
     }).filter(function (b) { return ROOM_IDS.indexOf(b.room) >= 0; });
   }
 
