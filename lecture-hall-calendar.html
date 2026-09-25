@@ -115,10 +115,34 @@ title: Lecture Hall Calendar
   .rb-hours { width: 56px; flex: 0 0 56px; }
   .rb-hour-label { height: var(--rb-hour); position: relative; }
   .rb-hour-label span { position: absolute; top: 3px; right: 8px; font-size: 0.63rem; color: var(--rb-mute); background: #fff; }
+  /* A stub of the hour rule, reaching back into the gutter so a label is joined to
+     its own line rather than floating beside seventeen identical ones. The first
+     hour has no rule to reach for, the same way its cell has no top border. */
+  .rb-hour-label::after {
+    content: ""; position: absolute; top: 0; right: 0; width: 16px;
+    border-top: 1px solid var(--rb-line);
+  }
+  .rb-hour-label:first-child::after { content: none; }
   .rb-col { flex: 1 1 0; min-width: 0; border-left: 1px solid var(--rb-line); position: relative; }
   .rb-cell { height: var(--rb-hour); border-top: 1px solid var(--rb-line); box-sizing: border-box; }
   .rb-cell:first-child { border-top: none; }
   #rb-h1 { -webkit-user-select: none; user-select: none; }
+  /* The countdown that appears once the word behind the heading starts to show.
+     It only ever tells you how far you have left to go, so it never takes the
+     pointer and never needs dismissing. */
+  .rb-head { position: relative; }
+  .rb-h2-tip {
+    position: absolute; z-index: 20; pointer-events: none; white-space: nowrap;
+    transform: translateX(-50%); background: var(--rb-ink); color: #fff;
+    font-size: 0.7rem; line-height: 1.5; padding: 2px 8px; border-radius: 4px;
+    opacity: 0; transition: opacity 0.15s ease;
+  }
+  .rb-h2-tip::before {
+    content: ""; position: absolute; top: -4px; left: 50%; margin-left: -4px;
+    border-left: 4px solid transparent; border-right: 4px solid transparent;
+    border-bottom: 4px solid var(--rb-ink);
+  }
+  .rb-h2-tip.rb-on { opacity: 1; }
   /* Inline-block so the last word of the heading can be scaled. */
   #rb-h2 {
     display: inline-block;
@@ -1887,10 +1911,31 @@ null]
 
   function modeWord(composing) { return composing ? "Booking" : "Calendar"; }
 
+  // The tip lives beside the word rather than inside it: the word's text is
+  // rewritten on every step, which would take any child with it.
+  var headTip = null;
+  function tipEl() {
+    if (!headTip) {
+      headTip = document.createElement("span");
+      headTip.className = "rb-h2-tip";
+      h2.parentNode.parentNode.appendChild(headTip);
+    }
+    return headTip;
+  }
+  function showTip(left) {
+    var t = tipEl();
+    t.textContent = left + (left === 1 ? " click away" : " clicks away");
+    t.style.left = (h2.offsetLeft + h2.offsetWidth / 2) + "px";
+    t.style.top  = (h2.offsetTop + h2.offsetHeight + 4) + "px";
+    t.classList.add("rb-on");
+  }
+  function hideTip() { if (headTip) headTip.classList.remove("rb-on"); }
+
   function resetHeading() {
     h2.textContent = modeWord(state.compose);
     h2.style.opacity = "";
     h2.classList.remove("rb-h2-hint");
+    hideTip();
   }
 
   function showHeadStep(count) {
@@ -1898,6 +1943,7 @@ null]
     h2.textContent = modeWord(!state.compose);      // where this is heading
     h2.style.opacity = String(FADE[count] || 1);
     h2.classList.add("rb-h2-hint");
+    showTip(HEAD_STEPS - count);
   }
 
   document.getElementById("rb-h1").addEventListener("click", function () {
