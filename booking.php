@@ -148,6 +148,49 @@ const PEOPLE = [
     'vvdatar'      => 'Ved Datar',
 ];
 
+// ---- a bridge, to be deleted ----
+// Before 25 September 2026 a code named somebody by their initials. Codes handed
+// out under that scheme are still in people's drafts and sent folders, so they go
+// on working for a week rather than failing in front of whoever typed one in.
+// Nothing generates these any more. On 3 October 2026 this stops of its own
+// accord, and the constant below, LEGACY_UNTIL, and legacy_name() are to be
+// deleted along with this comment.
+const LEGACY_UNTIL  = '2026-10-02';
+const LEGACY_PEOPLE = [
+    'aa' => 'Arvind Ayyer',
+    'ab' => 'Abhishek Banerjee',
+    'ak' => 'Apoorva Khare',
+    'am' => 'Arka Mallick',
+    'bp' => 'Bharathwaj Palvannan',
+    'en' => 'E. K. Narayanan',
+    'gb' => 'Gautam Bharali',
+    'gr' => 'Govindan Rangarajan',
+    'gv' => 'Ganesh Vaidya',
+    'hs' => 'Harish Seshadri',
+    'kv' => 'Kaushal Verma',
+    'mk' => 'Mahesh Kakde',
+    'mn' => 'Muna Naik',
+    'pg' => 'Purvi Gupta',
+    'rg' => 'Radhika Ganapathy',
+    'rv' => 'R. Venkatesh',
+    'sd' => 'Shaunak Deo',
+    'sg' => 'Subhojoy Gupta',
+    'si' => 'Srikanth K. Iyer',
+    'sk' => 'S Nitish Kumar',
+    'ss' => 'Swarnendu Sil',
+    'tb' => 'Tirthankar Bhattacharyya',
+    'tg' => 'Thirupathi Gudi',
+    'vd' => 'Ved Datar',
+    'vp' => 'Vamsi Pritham Pingali',
+];
+
+// $on is there so the selftest can stand on either side of the deadline without
+// touching the clock; nothing else passes it.
+function legacy_name(string $tok, ?string $on = null): string {
+    if (($on ?? date('Y-m-d')) > LEGACY_UNTIL) return '';
+    return LEGACY_PEOPLE[$tok] ?? '';
+}
+
 // The Aug-Dec 2026 timetable: weekday numbers (0 = Sunday), minutes from midnight.
 // Generated from _data/courses.yaml.
 const CLASSES = [
@@ -432,19 +475,25 @@ function decode_code(string $raw): ?array {
                    'end'   => substr($to, 0, 2) . ':' . substr($to, 2)];
     }
 
-    // The first word that names somebody is who the hall is for; the rest is what
-    // it is for. If no word names anybody, the first one is still handed back as
-    // the name, so the caller can say "nobody here is called that" rather than
-    // quietly booking it for the purpose.
+    // The word that names somebody is who the hall is for; the rest is what it is
+    // for. A user-id is looked for before an old initials token, so a purpose that
+    // happens to read like somebody's initials cannot take the name away from the
+    // person actually named. If no word names anybody, the first one is still
+    // handed back, so the caller can say "nobody here is called that" rather than
+    // quietly booking the hall for the purpose.
     $who = '';
+    foreach ($words as $wd) if (isset(PEOPLE[$wd]))        { $who = $wd; break; }
+    if ($who === '')
+        foreach ($words as $wd) if (legacy_name($wd) !== '') { $who = $wd; break; }
+    if ($who === '') $who = $words[0] ?? '';
+    if ($who === '') return null;
+
+    // Exactly one occurrence of the name comes out; a second is the purpose.
     $purpose = [];
+    $taken = false;
     foreach ($words as $wd) {
-        if ($who === '' && isset(PEOPLE[$wd])) $who = $wd;
-        else $purpose[] = $wd;
-    }
-    if ($who === '') {
-        if (!$purpose) return null;
-        $who = array_shift($purpose);
+        if (!$taken && $wd === $who) { $taken = true; continue; }
+        $purpose[] = $wd;
     }
 
     $text = unslug_(implode(' ', $purpose));
@@ -453,7 +502,7 @@ function decode_code(string $raw): ?array {
     // the marker off would leave a code nobody was ever given.
     if (str_ends_with(str_replace(' ', '', $text), DROP_MARK)) return null;
 
-    return ['who' => $who, 'name' => PEOPLE[$who] ?? '', 'runs' => $runs,
+    return ['who' => $who, 'name' => PEOPLE[$who] ?? legacy_name($who), 'runs' => $runs,
             'purpose' => $text];
 }
 
@@ -575,6 +624,19 @@ if (in_array('--selftest', $cli, true)) {
     // still reads rather than throwing the whole code away.
     $check('hyphen purpose', decode_code('khare-lh3-24092026-1500-1600-oral-exam')['purpose'], 'oral exam');
     $check('digits in purpose', decode_code('khare-lh3-24092026-1500-1600-ma_231')['purpose'], 'ma 231');
+
+    // The bridge. An old code, initials and hyphenated purpose and all, still
+    // books for the right person until LEGACY_UNTIL. Delete this with the rest.
+    $c = decode_code('ak-lh3-24092026-1500-1600-number-theory-seminar');
+    $check('old code name',    $c['name'],    'Apoorva Khare');
+    $check('old code purpose', $c['purpose'], 'number theory seminar');
+    $check('old word token',   decode_code('manju-lh1-24092026-0900-1000-x')['name'], 'Manjunath Krishnapur');
+    $check('bridge open',      legacy_name('ak', LEGACY_UNTIL), 'Apoorva Khare');
+    $check('bridge shuts',     legacy_name('ak', date('Y-m-d', strtotime(LEGACY_UNTIL . ' +1 day'))), '');
+    $check('bridge is soon',   LEGACY_UNTIL < (new DateTimeImmutable('+30 days'))->format('Y-m-d'), true);
+    // A current user-id wins over anything that merely looks like an old token.
+    $check('id beats initials', decode_code('khare-lh3-24092026-1500-1600-ab')['name'], 'Apoorva Khare');
+    $check('and ab is the why', decode_code('khare-lh3-24092026-1500-1600-ab')['purpose'], 'ab');
 
     // A name nobody has comes back as itself with no name against it, so the
     // caller can say which part was wrong.
