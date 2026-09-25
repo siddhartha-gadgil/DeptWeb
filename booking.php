@@ -157,7 +157,7 @@ const CLASSES = [
     ['room' => 'LH-4', 'days' => [1, 3, 5], 'start' => 540, 'end' => 600, 'code' => 'MA 219'],
     ['room' => 'LH-4', 'days' => [1, 3, 5], 'start' => 600, 'end' => 660, 'code' => 'MA 231'],
     ['room' => 'LH-4', 'days' => [2, 4], 'start' => 690, 'end' => 780, 'code' => 'MA 200'],
-    ['room' => 'LH-1', 'days' => [2, 4], 'start' => 510, 'end' => 600, 'code' => 'MA 221'],
+    ['room' => 'LH-4', 'days' => [2, 4], 'start' => 510, 'end' => 600, 'code' => 'MA 221'],
     ['room' => 'LH-4', 'days' => [1, 3, 5], 'start' => 660, 'end' => 720, 'code' => 'MA 261'],
     ['room' => 'LH-5', 'days' => [1, 3, 5], 'start' => 660, 'end' => 720, 'code' => 'MA 223'],
     ['room' => 'LH-5', 'days' => [1, 3, 5], 'start' => 900, 'end' => 960, 'code' => 'MA 232'],

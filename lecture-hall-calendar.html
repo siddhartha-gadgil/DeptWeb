@@ -292,6 +292,7 @@ title: Lecture Hall Calendar
   .rb-backdrop { position: fixed; inset: 0; z-index: 39; }
 
   .rb-note { font-size: 0.76rem; color: var(--rb-mute); margin-top: 10px; }
+  .rb-held { font-size: 0.72rem; color: var(--rb-accent); white-space: nowrap; }
   .rb-mail { width: 100%; box-sizing: border-box; font-family: ui-monospace, Menlo, Consolas, monospace;
              font-size: 0.72rem; line-height: 1.45; height: 190px; margin-top: 8px;
              border: 1px solid var(--rb-line); border-radius: 4px; padding: 8px; resize: vertical; }
@@ -343,6 +344,7 @@ title: Lecture Hall Calendar
     <button class="rb-btn" id="rb-print" title="Print this view" aria-label="Print">
       <i class="fa fa-print" aria-hidden="true"></i>
     </button>
+    <span class="rb-held" id="rb-held" hidden></span>
     <button class="rb-btn" id="rb-clear" hidden>Clear</button>
     <button class="rb-btn rb-create" id="rb-new" disabled hidden>
       <i class="fa fa-calendar-check-o" aria-hidden="true"></i>&nbsp;<span id="rb-new-label">Pick free hours</span>
@@ -389,7 +391,9 @@ title: Lecture Hall Calendar
     and dragging takes any stretch down to a quarter of an hour. Then press
     <b>Book</b>, say who it is for and what for, and you are handed a
     <b>booking code</b>. Get that to the office by any means and the hall is yours
-    once they enter it. Nothing is held until then.
+    once they enter it. Nothing is held until then. Hours you have picked keep
+    their place when you move to another day, so a course that meets on several
+    days is one request and one code.
     <span id="rb-week-hint"></span>
   </span>
   <span id="rb-sem-note"></span> <span id="rb-seminar-warn"></span>
@@ -1234,6 +1238,19 @@ null]
     document.getElementById("rb-new-label").textContent =
       n ? "Book (" + spanLabel(n * STEP) + ")" : "Pick free hours";
     document.getElementById("rb-clear").hidden = !n;
+
+    // Hours picked on a day that is no longer on screen are held but invisible,
+    // and an hour you cannot see is one you think you have lost. Name the days.
+    var held = document.getElementById("rb-held");
+    var days = {}, here = ymd(state.cursor);
+    for (var k in state.sel) days[state.sel[k].date] = true;
+    var away = Object.keys(days).filter(function (d) { return d !== here; }).sort();
+    held.hidden = !away.length;
+    held.textContent = away.length
+      ? "also holding " + away.map(function (d) {
+          return fromYmd(d).toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+        }).join(", ")
+      : "";
 
     var hint = document.getElementById("rb-week-hint");
     if (hint) {
