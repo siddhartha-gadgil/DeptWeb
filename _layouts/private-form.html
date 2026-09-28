@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; form-action 'self'; base-uri 'none'">
+  <title>{{ page.title | escape }} · Mathematics at IISc</title>
+  <style>
+    body { max-width: 42em; margin: 2em auto; padding: 0 1em; color: #263238; font: 1rem/1.55 system-ui, sans-serif; }
+    header { border-bottom: 2px solid #325b78; padding-bottom: .7em; }
+    header a { color: #204967; text-decoration: none; font-weight: 700; }
+    main { padding: 1em 0; }
+    input, button { font: inherit; }
+    button { padding: .5em 1.2em; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header><a href="{{ site.baseurl }}/">Department of Mathematics, IISc</a></header>
+  <main>{{ content }}</main>
+</body>
+</html>

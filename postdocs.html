@@ -19,41 +19,40 @@ title: Postdocs
                             <div>
                                 <h4>
                                     {% if stu.webpage and stu.webpage != "" %}
-                                        <a href="{{ stu.webpage}}">{{ stu.name }}</a>
+                                        <a href="{{ stu.webpage | escape }}">{{ stu.name | escape }}</a>
                                         {% if stu.phd and stu.phd != "" %}
                                         (Ph.D.,
-                                        {{ stu.phd}})
+                                        {{ stu.phd | escape }})
                                         {% endif %}
                                     {% else %}
-                                        {{ stu.name }}
+                                        {{ stu.name | escape }}
                                         {% if stu.phd and stu.phd != "" %}
                                         (Ph.D.,
-                                        {{ stu.phd}})
+                                        {{ stu.phd | escape }})
                                         {% endif %}
                                     {% endif %}
                                 </h4>
                                 </div>
                                 <div>
                                     <strong>Research Areas:</strong>
-                                    {{stu.research-area}}
+                                    {{stu.research-area | escape}}
                                 </div>
                                 <div>
                                     <strong>UserID: </strong>
-                                    {{stu.user-id}}
+                                    {{stu.user-id | escape}}
                                 </div>
-                                <div>
-    				<strong>Office: </strong>
-    				Room {{stu.office}}
-				</div>
+                                {% if stu.office and stu.office != "" %}
+                                <div><strong>Office: </strong>Room {{stu.office | escape}}</div>
+                                {% endif %}
 
                                 <div>
                                     <strong>Fellowship:</strong>
-                                    {{stu.position}}
+                                    {{stu.position | escape}}
                                 </div>
                             </div>
                             <div class="col-md-2">
                                 {% if stu.image %}
-                                    <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{stu.user-id}}.jpg">
+                                    <img class="img-fluid" src="{{site.baseurl}}/images/stu-{{stu.user-id | escape}}.jpg" alt="{{stu.name | escape}}">
                                 {% endif %}
                             </div>
                         </div>

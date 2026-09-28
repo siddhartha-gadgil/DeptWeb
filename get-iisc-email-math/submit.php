@@ -6,8 +6,11 @@
  *   POST (from index.html, served at /get-iisc-email-math)
  *     validates the form, signed joining report (PDF), and website photo (JPEG),
  *     fills the office's Email_ID_Creation.xlsx, and mails the files and website
- *     details to sysadmin.math (cc the requester). The office reviews and
- *     forwards the email request to IISc email support by hand.
+ *     details to sysadmin.math (cc the requester), with a private Step 2 link.
+ *     The office reviews and forwards the email request to IISc email support.
+ *   POST mode=complete_profile (from step2.html) records the issued IISc user ID
+ *     and office, then sends a confirmation link to that IISc email address.
+ *   POST mode=confirm_profile queues the verified profile for publication.
  *   php submit.php --selftest you@iisc.ac.in
  *     sends one test mail and prints the SMTP conversation.
  *
@@ -17,15 +20,16 @@
  *      to at least 10M and post_max_size to at least 20M in the web PHP config
  *      to accept the 10 MB PDF and 5 MB JPEG in one submission.
  *   2. mkdir -p /var/lib/getamailid && chown www-data:www-data /var/lib/getamailid && chmod 700 /var/lib/getamailid
- *      Every request's xlsx + pdf is kept there under requests/.
+ *      Every request's xlsx, pdf, JPEG and private metadata are kept under requests/.
  *   3. Credentials live OUTSIDE the repo (deploy.sh ships committed files, so a
- *      password here would land on GitHub), in /var/lib/get-iisc-email-math/config.php:
+ *      password here would land on GitHub), in /var/lib/getamailid/config.php:
  *        <?php return [
  *          'smtp_host' => 'smtp.gmail.com', 'smtp_port' => 587, 'smtp_tls' => 'starttls',
  *          'smtp_user' => 'tamathiisc@gmail.com', 'smtp_pass' => '<gmail app password>',
  *          'mail_from' => 'tamathiisc@gmail.com',
  *        ];
  *      chown www-data:www-data, chmod 600.
+ *   4. Install the private publisher described in _scripts/postdoc-publisher/README.md.
  */
 
 declare(strict_types=1);
@@ -43,6 +47,15 @@ const MAX_PHOTO   = 5 * 1024 * 1024;
 const PER_IP_HOUR = 5;
 const PROJECTS    = ['CSSP', 'FnA', 'SID'];
 const DOCTYPES    = ['Joining Report', 'Joining Memo'];
+const EMAIL_DOMAINS = ['gmail.com', 'outlook.com', 'yahoo.com', 'hotmail.com', 'icloud.com', 'proton.me'];
+// One label per common fellowship/role; variants and uncommon historical
+// appointments can be entered through Others. Keep in sync with index.html.
+const DESIGNATIONS = [
+    'NBHM Postdoctoral Fellow', 'Institute Postdoctoral Fellow', 'NPDF',
+    'Raman PDF', 'Dr. D.S. Kothari', 'IoE Postdoctoral Fellow', 'CPDF',
+    'IISc RA', 'Research Associate', 'DST Women Scientist', 'INSPIRE Faculty',
+    'Axis Bank Centre Postdoctoral Fellow'
+];
 
 $CFG = [];
 if (is_readable(DATA_DIR . '/config.php')) {
@@ -186,30 +199,29 @@ function send_mail(array $to, array $cc, string $subject, string $body, array $f
 // ------------------------------------------------------------------ send
 function send_request(array $r, string $base, array &$trace): bool {
     $body = "Hi Nitish,\n\n"
-          . "This is an automated email. Dr. {$r['name']} has just submitted a request for an IISc email ID at "
-          . "https://math.iisc.ac.in/get-iisc-email-math. The filled Email_ID_Creation.xlsx, {$r['doctype']}, and website photograph are attached. "
-          . "Please review the spreadsheet and joining document and forward only those two files to emailsupport@iisc.ac.in. "
-          . "The website details and photograph are for the department postdocs page. "
-          . "After confirming the IISc user ID, add the details to _data/postdocs.yaml and save the photo as images/stu-USERID.jpg (using that user ID). "
-          . "The requester is in copy.\n\n"
-          . "Name:              {$r['name']}\n"
-          . "Designation:       {$r['designation']}\n"
+          . "Dr. {$r['name']} has submitted the new postdoc form. The email creation spreadsheet, "
+          . "{$r['doctype']}, and photograph are attached. Please review the spreadsheet and joining document, "
+          . "then forward only those two files to emailsupport@iisc.ac.in. The photograph is for the department website.\n\n"
+          . "Email request\n"
+          . "Name: {$r['name']}\n"
+          . "Designation: {$r['designation']}\n"
           . "Reporting faculty: {$r['faculty_name']}\n"
-          . "Joining / ending:  {$r['joining']} to {$r['ending']}\n"
-          . "Personal email:    {$r['email']}\n"
-          . "Mobile:            {$r['mobile']}\n\n"
-          . "Website profile (https://math.iisc.ac.in/postdocs.html):\n"
+          . "Joining / ending: {$r['joining']} to {$r['ending']}\n"
+          . "Personal email: {$r['email']}\n"
+          . "Mobile: {$r['mobile']}\n\n"
+          . "Department website details\n"
           . "name: {$r['name']}\n"
           . "webpage: {$r['webpage']}\n"
           . "phd: {$r['phd']}\n"
-          . "user-id: " . ($r['user_id'] ?: '(awaiting IISc account)') . "\n"
-          . "position: {$r['position']}\n"
+          . "position: {$r['designation']}\n"
           . "research-area: {$r['research_area']}\n"
-          . "office: " . ($r['office'] ?: '(awaiting room assignment)') . "\n"
-          . "image: attached JPEG photograph\n\n"
-          . "Please ask the postdoc to visit Nitish in Room R-14 for biometrics and computer lab access.\n";
+          . "photo: attached JPEG\n\n"
+          . "For the postdoc (copied here): once your IISc email ID is ready, enter your user ID and office room at:\n"
+          . "{$r['step2_url']}\n\n"
+          . "We’ll ask you to confirm the profile from your IISc inbox before it appears on the website. "
+          . "Please also visit Nitish in Room R-14 for biometrics and computer lab access.\n";
     $tag = preg_replace('/[^A-Za-z0-9]+/', '_', $r['name']);
-    return send_mail([TO], array_merge(CC, [$r['email']]), 'Email ID creation request - Dr. ' . $r['name'], $body,
+    return send_mail([TO], array_merge(CC, [$r['email']]), 'New postdoc details - Dr. ' . $r['name'], $body,
         ["Email_ID_Creation_$tag.xlsx" => "$base.xlsx", str_replace(' ', '_', $r['doctype']) . "_$tag.pdf" => "$base.pdf",
          "Postdoc_Photo_$tag.jpg" => "$base.jpg"], $trace);
 }
@@ -218,8 +230,89 @@ function send_request(array $r, string $base, array &$trace): bool {
 function reply(int $status, string $text): never {
     http_response_code($status);
     header('Content-Type: text/plain; charset=utf-8');
+    header('Cache-Control: no-store');
+    header('X-Content-Type-Options: nosniff');
     echo $text;
     exit;
+}
+
+function handle_profile(): void {
+    $id = trim((string) ($_POST['request_id'] ?? ''));
+    $token = trim((string) ($_POST['token'] ?? ''));
+    if (!preg_match('/^\d{8}-\d{6}-[a-z0-9-]+-[a-f0-9]{12}$/', $id) || !preg_match('/^[a-f0-9]{64}$/', $token))
+        reply(400, 'Invalid Step 2 link. Please use the link in your email.');
+    $base = DATA_DIR . "/requests/$id";
+    if (!is_file("$base.pending.json") && !is_file("$base.verify.json") &&
+        !is_file("$base.ready.json") && !is_file("$base.published.json"))
+        reply(400, 'Invalid Step 2 link. Please use the link in your email.');
+    $lock = fopen("$base.step2.lock", 'c');
+    if (!$lock || !flock($lock, LOCK_EX)) reply(500, 'Could not open this request. Please try again.');
+    $state = null;
+    foreach (['pending', 'verify', 'ready', 'published'] as $candidate) {
+        if (is_file("$base.$candidate.json")) { $state = $candidate; break; }
+    }
+    if ($state === null) reply(400, 'Invalid Step 2 link. Please use the link in your email.');
+    $record = json_decode((string) file_get_contents("$base.$state.json"), true);
+    if (!is_array($record) || !isset($record['token_hash']) || !is_string($record['token_hash']) ||
+        !hash_equals($record['token_hash'], hash('sha256', $token)))
+        reply(400, 'Invalid Step 2 link. Please use the link in your email.');
+    if ($state === 'ready' || $state === 'published') reply(200, 'Your profile has already been confirmed.');
+    if ($state === 'verify' && filemtime("$base.verify.json") > time() - 300)
+        reply(200, 'Please check your IISc inbox for the confirmation link.');
+
+    $user_id = trim((string) ($_POST['user_id'] ?? ''));
+    $office = trim((string) ($_POST['office'] ?? ''));
+    if (!preg_match('/^[A-Za-z0-9._-]{1,100}$/', $user_id)) reply(400, 'Invalid IISc user ID');
+    if (strlen($office) > 100 || preg_match('/[\r\n]/', $office)) reply(400, 'Invalid office room');
+    if (!is_file("$base.jpg")) reply(500, 'Photograph could not be found. Please contact office.math@iisc.ac.in.');
+    $recipient = $user_id . '@iisc.ac.in';
+    if (!filter_var($recipient, FILTER_VALIDATE_EMAIL)) reply(400, 'Invalid IISc user ID');
+    $record['user_id'] = $user_id;
+    $record['office'] = $office;
+    $record['completed_at'] = date(DATE_ATOM);
+    $confirm_token = bin2hex(random_bytes(32));
+    $record['confirm_hash'] = hash('sha256', $confirm_token);
+    $confirm_url = 'https://math.iisc.ac.in/get-iisc-email-math/verify/#id=' . rawurlencode($id) . '&token=' . $confirm_token;
+    $temp = "$base.verify-" . bin2hex(random_bytes(6)) . '.tmp';
+    $encoded = json_encode($record, JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE);
+    if ($encoded === false || file_put_contents($temp, $encoded, LOCK_EX) === false)
+        reply(500, 'Could not save Step 2. Please try again.');
+    @chmod($temp, 0600);
+    $trace = [];
+    if (!send_mail([$recipient], [], 'Confirm your Mathematics postdoc profile',
+        "Hello {$record['name']},\n\nYour department profile and photograph are ready. Please confirm that we may add them to the website:\n$confirm_url\n\nIf this wasn't you, you can ignore this email.\n\nDepartment of Mathematics, IISc\n",
+        [], $trace)) {
+        @unlink($temp);
+        error_log("getamailid: profile confirmation failed for $id\n" . implode("\n", $trace));
+        reply(500, 'Could not send confirmation to your IISc address. Please try again later.');
+    }
+    if (!rename($temp, "$base.verify.json")) reply(500, 'Could not save Step 2. Please contact office.math@iisc.ac.in.');
+    @unlink("$base.pending.json");
+    reply(200, 'Please check your IISc inbox and confirm your profile using the link we sent.');
+}
+
+function confirm_profile(): void {
+    $id = trim((string) ($_POST['request_id'] ?? ''));
+    $token = trim((string) ($_POST['token'] ?? ''));
+    if (!preg_match('/^\d{8}-\d{6}-[a-z0-9-]+-[a-f0-9]{12}$/', $id) || !preg_match('/^[a-f0-9]{64}$/', $token))
+        reply(400, 'Invalid confirmation link.');
+    $base = DATA_DIR . "/requests/$id";
+    if (!is_file("$base.verify.json") && !is_file("$base.ready.json") && !is_file("$base.published.json"))
+        reply(400, 'Invalid confirmation link.');
+    $lock = fopen("$base.step2.lock", 'c');
+    if (!$lock || !flock($lock, LOCK_EX)) reply(500, 'Could not open this request. Please try again.');
+    foreach (['verify', 'ready', 'published'] as $state) {
+        $path = "$base.$state.json";
+        if (!is_file($path)) continue;
+        $record = json_decode((string) file_get_contents($path), true);
+        if (!is_array($record) || !isset($record['confirm_hash']) || !is_string($record['confirm_hash']) ||
+            !hash_equals($record['confirm_hash'], hash('sha256', $token)))
+            reply(400, 'Invalid confirmation link.');
+        if ($state !== 'verify') reply(200, 'Your profile has already been confirmed.');
+        if (!rename($path, "$base.ready.json")) reply(500, 'Could not queue your profile. Please try again.');
+        reply(200, 'Thanks for confirming. Your profile and photograph will appear on the department website shortly.');
+    }
+    reply(400, 'Invalid confirmation link.');
 }
 
 function handle_post(): void {
@@ -233,19 +326,24 @@ function handle_post(): void {
     if (count($hits) >= PER_IP_HOUR) reply(429, 'Too many submissions; try again later.');
     file_put_contents($ipf, implode("\n", array_merge($hits, [time()])));
 
-    $first = $p('first'); $last = $p('last'); $desig = $p('designation'); $mobile = $p('mobile');
-    $email = $p('email'); $fac = $p('faculty'); $join = $p('joining'); $end = $p('ending'); $proj = $p('project'); $doctype = $p('doctype');
-    $webpage = $p('webpage'); $phd = $p('phd'); $position = $p('position'); $research_area = $p('research_area');
-    $user_id = $p('user_id'); $office = $p('office');
+    $first = $p('first'); $last = $p('last'); $choice = $p('designation'); $mobile = $p('mobile');
+    $email_local = $p('email_local'); $domain_choice = $p('email_domain');
+    $email_domain = $domain_choice === 'Others' ? $p('email_domain_other') : $domain_choice;
+    if ($domain_choice !== 'Others' && !in_array($domain_choice, EMAIL_DOMAINS, true)) reply(400, 'Please select an email domain');
+    if ($email_local === '' || strlen($email_local) > 100 || preg_match('/[@\s]/', $email_local)) reply(400, 'Invalid email username');
+    if ($email_domain === '' || strlen($email_domain) > 150 || !preg_match('/^[A-Za-z0-9.-]+$/', $email_domain)) reply(400, 'Invalid email domain');
+    $email = $email_local . '@' . $email_domain;
+    $fac = $p('faculty'); $join = $p('joining'); $end = $p('ending'); $proj = $p('project'); $doctype = $p('doctype');
+    $webpage = $p('webpage'); $phd = $p('phd'); $research_area = $p('research_area');
+    $desig = $choice === 'Others' ? $p('designation_other') : $choice;
+    if ($choice !== 'Others' && !in_array($choice, DESIGNATIONS, true)) reply(400, 'Please select a designation from the list');
     foreach (['first' => $first, 'last' => $last, 'designation' => $desig, 'email' => $email, 'joining' => $join, 'ending' => $end] as $k => $v)
         if ($v === '' || strlen($v) > 200) reply(400, "Missing or too long: $k");
-    foreach (['phd' => $phd, 'position' => $position, 'research_area' => $research_area] as $k => $v)
+    foreach (['phd' => $phd, 'research_area' => $research_area] as $k => $v)
         if ($v === '' || strlen($v) > ($k === 'research_area' ? 500 : 200)) reply(400, "Missing or too long: $k");
     if (strlen($webpage) > 500 || ($webpage !== '' && (!filter_var($webpage, FILTER_VALIDATE_URL) || !preg_match('~^https?://~i', $webpage))))
         reply(400, 'Invalid webpage URL');
-    if (strlen($user_id) > 100 || ($user_id !== '' && !preg_match('/^[A-Za-z0-9._-]+$/', $user_id))) reply(400, 'Invalid IISc user ID');
-    if (strlen($office) > 100) reply(400, 'Office room is too long');
-    foreach ([$first, $last, $desig, $mobile, $fac, $phd, $position, $research_area, $office] as $value)
+    foreach ([$first, $last, $desig, $mobile, $fac, $phd, $research_area] as $value)
         if (preg_match('/[\r\n]/', $value)) reply(400, 'Please enter each detail on one line');
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) reply(400, 'Invalid personal email');
     if (!in_array($fac, FACULTY, true)) reply(400, 'Reporting faculty must be picked from the list');
@@ -265,23 +363,35 @@ function handle_post(): void {
     if ($photo['size'] > MAX_PHOTO) reply(400, 'Photograph is larger than 5 MB');
     $image = @getimagesize($photo['tmp_name']);
     if (!$image || $image[2] !== IMAGETYPE_JPEG) reply(400, 'The photograph must be a JPEG image');
+    if ($image[0] * 4 !== $image[1] * 3) reply(400, 'The photograph must have a portrait 3:4 crop');
 
     $name = "$first $last";
-    $id = date('Ymd-His') . '-' . preg_replace('/[^a-z0-9]+/', '-', strtolower($name));
+    $slug = trim(preg_replace('/[^a-z0-9]+/', '-', strtolower($name)), '-') ?: 'postdoc';
+    $id = date('Ymd-His') . '-' . $slug . '-' . bin2hex(random_bytes(6));
     $base = DATA_DIR . "/requests/$id";
     if (!move_uploaded_file($up['tmp_name'], "$base.pdf")) reply(500, 'Could not store the PDF');
     if (!move_uploaded_file($photo['tmp_name'], "$base.jpg")) reply(500, 'Could not store the photograph');
     fill_xlsx(['Mathematics', $first, $last, $desig, $mobile, $email, 'Prof. ' . $fac, $join, $end, $proj], "$base.xlsx");
 
+    $token = bin2hex(random_bytes(32));
+    $record = ['id' => $id, 'token_hash' => hash('sha256', $token), 'name' => $name,
+               'webpage' => $webpage, 'phd' => $phd, 'position' => $desig,
+               'research_area' => $research_area, 'created_at' => date(DATE_ATOM)];
+    $encoded = json_encode($record, JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE);
+    if ($encoded === false || file_put_contents("$base.pending.json", $encoded, LOCK_EX) === false)
+        reply(500, 'Could not save the website details. Please contact office.math@iisc.ac.in.');
+    @chmod("$base.pending.json", 0600);
+    $step2_url = 'https://math.iisc.ac.in/get-iisc-email-math/step2/#id=' . rawurlencode($id) . '&token=' . $token;
+
     $trace = [];
     if (!send_request(['name' => $name, 'email' => $email, 'designation' => $desig, 'faculty_name' => $fac,
                        'joining' => $join, 'ending' => $end, 'mobile' => $mobile, 'doctype' => $doctype,
-                       'webpage' => $webpage, 'phd' => $phd, 'position' => $position, 'research_area' => $research_area,
-                       'user_id' => $user_id, 'office' => $office], $base, $trace)) {
+                       'webpage' => $webpage, 'phd' => $phd, 'research_area' => $research_area,
+                       'step2_url' => $step2_url], $base, $trace)) {
         error_log("getamailid: send failed for $id\n" . implode("\n", $trace));
         reply(500, 'Your details were saved but the email could not be sent. Please write to office.math@iisc.ac.in.');
     }
-    reply(200, 'Thank you. Your email request and website details have been sent to the department office. Please visit Nitish in Room R-14 for biometrics and computer lab access.');
+    reply(200, 'Thanks. Your details have reached the department office, and your Step 2 link is in the email copied to you. Use it when your IISc email ID is ready. Please visit Nitish in Room R-14 for biometrics and computer lab access.');
 }
 
 // ------------------------------------------------------------------ main
@@ -295,4 +405,6 @@ if (PHP_SAPI === 'cli') {
     echo "usage: --selftest addr\n"; exit;
 }
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') reply(405, 'POST only');
+if (($_POST['mode'] ?? '') === 'complete_profile') handle_profile();
+if (($_POST['mode'] ?? '') === 'confirm_profile') confirm_profile();
 handle_post();

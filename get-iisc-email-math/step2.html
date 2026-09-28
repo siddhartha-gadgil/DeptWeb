@@ -1,0 +1,59 @@
+---
+title: Complete new postdoc details
+permalink: /get-iisc-email-math/step2/
+layout: private-form
+---
+<style>
+  #postdoc-step2 { max-width: 32em; }
+  #postdoc-step2 label { display: block; margin: .9em 0 .2em; font-weight: 600; }
+  #postdoc-step2 input { width: 100%; padding: .4em; box-sizing: border-box; }
+  #postdoc-step2 button { margin-top: 1.2em; padding: .5em 1.4em; }
+  #step2-out { margin-top: 1em; white-space: pre-wrap; }
+</style>
+
+<h2>Step 2: IISc user ID and office</h2>
+<p>Now that you have your IISc email ID, enter the part before @iisc.ac.in.
+You can add your office room if you know it. We’ll send a confirmation link to
+your IISc inbox before your profile goes online.</p>
+
+<form id="postdoc-step2" action="{{ site.baseurl }}/get-iisc-email-math/submit.php" method="post">
+  <input type="hidden" name="mode" value="complete_profile">
+  <input type="hidden" name="request_id" id="request_id">
+  <input type="hidden" name="token" id="token">
+
+  <label for="user_id">IISc user ID</label>
+  <input id="user_id" name="user_id" required maxlength="100" pattern="[A-Za-z0-9._-]+" placeholder="The part before @iisc.ac.in">
+
+  <label for="office">Office room (if assigned)</label>
+  <input id="office" name="office" maxlength="100" placeholder="e.g. N28">
+
+  <button type="submit">Complete details</button>
+</form>
+<p id="step2-out" role="status"></p>
+
+<script>
+(function () {
+  var params = new URLSearchParams(location.hash.slice(1));
+  if (location.hash) history.replaceState(null, '', location.pathname);
+  var form = document.getElementById('postdoc-step2');
+  var out = document.getElementById('step2-out');
+  document.getElementById('request_id').value = params.get('id') || '';
+  document.getElementById('token').value = params.get('token') || '';
+  if (!params.get('id') || !params.get('token')) {
+    out.textContent = 'Please open the Step 2 link sent to your personal email address.';
+    form.hidden = true;
+  }
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    var button = this.querySelector('button');
+    button.disabled = true;
+    out.textContent = 'Submitting…';
+    try {
+      var response = await fetch(this.action, { method: 'POST', body: new FormData(this) });
+      out.textContent = await response.text();
+      if (response.ok) form.hidden = true;
+    } catch (err) { out.textContent = 'Could not submit: ' + err; }
+    button.disabled = false;
+  });
+})();
+</script>

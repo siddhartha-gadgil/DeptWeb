@@ -1,5 +1,5 @@
 ---
-title: Request an IISc email ID
+title: New postdoc details
 permalink: /get-iisc-email-math/
 ---
 <!--
@@ -14,53 +14,71 @@ permalink: /get-iisc-email-math/
   #gm { max-width: 42em; }
   #gm label { display: block; margin: .9em 0 .2em; font-weight: 600; }
   #gm input, #gm select, #gm textarea { width: 100%; padding: .4em; box-sizing: border-box; }
-  #gm fieldset { margin: 1.3em 0; padding: 0 1em 1em; }
-  #gm legend { font-weight: 700; }
-  #gm .hint { font-size: .95em; margin: .2em 0 .7em; }
+  #gm .email-parts { display: flex; align-items: center; gap: .4em; }
+  #gm .email-parts input { flex: 1; min-width: 0; }
+  #gm .email-parts select { flex: 0 1 10em; min-width: 0; }
+  #gm #photo-preview { display: block; width: 100%; max-width: 360px; height: auto; margin-top: .6em; border: 1px solid #999; cursor: grab; touch-action: none; }
+  #gm #photo-preview:active { cursor: grabbing; }
   #gm .hp { position: absolute; left: -9999px; }
   #gm button { margin-top: 1.2em; padding: .5em 1.4em; }
   #gm-out { margin-top: 1em; white-space: pre-wrap; }
 </style>
 
-<h2>New postdoc details</h2>
-<p>Use this form to request your IISc email ID and send your details for the
-<a href="{{ site.baseurl }}/postdocs.html">department postdocs page</a>. The office
-will review the email request and add your profile after your IISc user ID is
-confirmed. A copy of your submission comes to your personal email address.</p>
+<h2>Step 1: New postdoc details</h2>
+<p>Please fill in your details and attach a joining report or joining memo (PDF)
+signed by the Registrar, Deputy Registrar or Assistant Registrar (HR), and a
+photograph. We’ll email you a Step 2 link to use after your IISc address is ready.</p>
 
 <form id="gm" action="submit.php" method="post" enctype="multipart/form-data">
-  <fieldset>
-  <legend>1. IISc email ID request</legend>
-  <p class="hint">Enter your account details exactly as they should appear at IISc.
-  Attach your joining report or joining memo as a PDF, signed by the Registrar,
-  Deputy Registrar or Assistant Registrar (HR).</p>
   <label for="first">Given names (first name and expanded middle names)</label>
   <input id="first" name="first" required maxlength="200">
 
   <label for="last">Last name(s)</label>
   <input id="last" name="last" required maxlength="200">
 
-  <label for="designation">Designation (pick one or type your own)</label>
-  <input id="designation" name="designation" list="designations" required maxlength="200" autocomplete="off">
-  <datalist id="designations">
-    <option value="NBHM PDF">
-    <option value="IoE PDF">
-    <option value="Raman PDF">
-    <option value="NPDF">
-    <option value="Kothari PDF">
-    <option value="Institute PDF">
-    <option value="IISc RA">
-    <option value="CPDF">
-    <option value="Axis Bank Centre PDF">
-    <option value="DST Women Scientist">
-    <option value="INSPIRE Faculty">
-  </datalist>
+  <label for="designation">Designation / fellowship</label>
+  <select id="designation" name="designation" required>
+    <option value="">Select your designation</option>
+    <option>NBHM Postdoctoral Fellow</option>
+    <option>Institute Postdoctoral Fellow</option>
+    <option>NPDF</option>
+    <option>Raman PDF</option>
+    <option>Dr. D.S. Kothari</option>
+    <option>IoE Postdoctoral Fellow</option>
+    <option>CPDF</option>
+    <option>IISc RA</option>
+    <option>Research Associate</option>
+    <option>DST Women Scientist</option>
+    <option>INSPIRE Faculty</option>
+    <option>Axis Bank Centre Postdoctoral Fellow</option>
+    <option value="Others">Others</option>
+  </select>
+  <div id="designation-other-wrap" hidden>
+    <label for="designation_other">Please specify your designation</label>
+    <input id="designation_other" name="designation_other" maxlength="200" disabled>
+  </div>
 
   <label for="mobile">Mobile number</label>
   <input id="mobile" name="mobile" type="tel" required pattern="\+?[0-9 \-]{6,20}">
 
-  <label for="email">Personal email address (the account details will be sent here)</label>
-  <input id="email" name="email" type="email" required maxlength="200">
+  <label for="email_local">Personal email address (we’ll send your Step 2 link here)</label>
+  <div class="email-parts">
+    <input id="email_local" name="email_local" required maxlength="100" pattern="[^@\s]+" autocomplete="off" aria-label="Part before the at sign" placeholder="your.name">
+    <span aria-hidden="true">@</span>
+    <select id="email_domain" name="email_domain" aria-label="Email domain">
+      <option value="gmail.com">gmail.com</option>
+      <option value="outlook.com">outlook.com</option>
+      <option value="yahoo.com">yahoo.com</option>
+      <option value="hotmail.com">hotmail.com</option>
+      <option value="icloud.com">icloud.com</option>
+      <option value="proton.me">proton.me</option>
+      <option value="Others">Other domain</option>
+    </select>
+  </div>
+  <div id="email-domain-other-wrap" hidden>
+    <label for="email_domain_other">Type your email domain (after @)</label>
+    <input id="email_domain_other" name="email_domain_other" maxlength="150" placeholder="example.com" disabled>
+  </div>
 
   <label for="faculty">Reporting faculty (start typing the name)</label>
   <input id="faculty" name="faculty" list="faculty-list" required autocomplete="off">
@@ -90,12 +108,6 @@ confirmed. A copy of your submission comes to your personal email address.</p>
 
   <label for="report">Upload it (PDF, signed, max 10 MB)</label>
   <input id="report" name="report" type="file" accept="application/pdf" required>
-  </fieldset>
-
-  <fieldset>
-  <legend>2. Department website profile</legend>
-  <p class="hint">Your name above will appear on the website. The office can add
-  your IISc user ID and room number after they are assigned.</p>
 
   <label for="webpage">Personal webpage or Google Scholar profile (optional)</label>
   <input id="webpage" name="webpage" type="url" maxlength="500" placeholder="https://">
@@ -103,40 +115,158 @@ confirmed. A copy of your submission comes to your personal email address.</p>
   <label for="phd">PhD institution</label>
   <input id="phd" name="phd" required maxlength="200">
 
-  <label for="position">Fellowship or position as it should appear on the website</label>
-  <input id="position" name="position" required maxlength="200" placeholder="e.g. NBHM Postdoctoral Fellow">
-
   <label for="research_area">Research area(s)</label>
   <textarea id="research_area" name="research_area" required maxlength="500" rows="2"></textarea>
 
-  <label for="user_id">IISc user ID (if already assigned)</label>
-  <input id="user_id" name="user_id" maxlength="100" pattern="[A-Za-z0-9._-]+" placeholder="The part before @iisc.ac.in">
-
-  <label for="office">Office room (if already assigned)</label>
-  <input id="office" name="office" maxlength="100" placeholder="e.g. N28">
-
-  <label for="photo">Photograph for the website (JPEG, max 5 MB)</label>
-  <input id="photo" name="photo" type="file" accept="image/jpeg,.jpg,.jpeg" required>
-  </fieldset>
-
+  <label for="photo">Photograph (JPEG, PNG or WebP; portrait crop)</label>
+  <input id="photo" name="photo" type="file" accept="image/jpeg,image/png,image/webp" required>
+  <div id="photo-crop" hidden>
+    <p>Drag the photo or use the arrow keys to position it in the portrait 3:4 frame.</p>
+    <canvas id="photo-preview" width="900" height="1200" tabindex="0" aria-label="Portrait 3:4 photo crop preview; drag or use arrow keys to position"></canvas>
+    <label for="photo-zoom">Zoom</label>
+    <input id="photo-zoom" type="range" min="1" max="3" step="0.01" value="1">
+  </div>
+  <p>Once you receive your IISc email ID, use the Step 2 link we send you to
+  enter your user ID and office room.</p>
   <p>After arriving, please visit Nitish in Room R-14 to register your biometrics
   and enable access to the computer lab.</p>
 
   <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
 
-  <button type="submit">Submit email request and website details</button>
+  <button type="submit">Submit details</button>
 </form>
 <p id="gm-out"></p>
 
 <script>
+var designation = document.getElementById('designation');
+var designationOther = document.getElementById('designation_other');
+designation.addEventListener('change', function () {
+  var show = this.value === 'Others';
+  document.getElementById('designation-other-wrap').hidden = !show;
+  designationOther.disabled = !show;
+  designationOther.required = show;
+  if (!show) designationOther.value = '';
+});
+var emailDomain = document.getElementById('email_domain');
+var emailDomainOther = document.getElementById('email_domain_other');
+emailDomain.addEventListener('change', function () {
+  var show = this.value === 'Others';
+  document.getElementById('email-domain-other-wrap').hidden = !show;
+  emailDomainOther.disabled = !show;
+  emailDomainOther.required = show;
+  if (!show) emailDomainOther.value = '';
+});
+
+var photoInput = document.getElementById('photo');
+var cropWrap = document.getElementById('photo-crop');
+var preview = document.getElementById('photo-preview');
+var zoomInput = document.getElementById('photo-zoom');
+var ctx = preview.getContext('2d');
+var photoImage = null, baseScale = 1, zoom = 1, offsetX = 0, offsetY = 0;
+var activePointer = null, lastX = 0, lastY = 0, photoVersion = 0;
+
+function cropScale() { return baseScale * zoom; }
+function clampCrop() {
+  var width = photoImage.naturalWidth * cropScale();
+  var height = photoImage.naturalHeight * cropScale();
+  offsetX = Math.min(0, Math.max(preview.width - width, offsetX));
+  offsetY = Math.min(0, Math.max(preview.height - height, offsetY));
+}
+function drawCrop() {
+  if (!photoImage) return;
+  ctx.fillStyle = '#fff';
+  ctx.fillRect(0, 0, preview.width, preview.height);
+  ctx.imageSmoothingQuality = 'high';
+  ctx.drawImage(photoImage, offsetX, offsetY,
+    photoImage.naturalWidth * cropScale(), photoImage.naturalHeight * cropScale());
+}
+function moveCrop(dx, dy) {
+  offsetX += dx; offsetY += dy;
+  clampCrop(); drawCrop();
+}
+photoInput.addEventListener('change', function () {
+  var file = this.files[0], version = ++photoVersion;
+  photoImage = null;
+  cropWrap.hidden = true;
+  if (!file) return;
+  if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) {
+    this.value = '';
+    document.getElementById('gm-out').textContent = 'Choose a JPEG, PNG or WebP photograph.';
+    return;
+  }
+  var url = URL.createObjectURL(file);
+  var img = new Image();
+  img.onload = function () {
+    URL.revokeObjectURL(url);
+    if (version !== photoVersion) return;
+    photoImage = img;
+    baseScale = Math.max(preview.width / img.naturalWidth, preview.height / img.naturalHeight);
+    zoom = 1; zoomInput.value = '1';
+    offsetX = (preview.width - img.naturalWidth * baseScale) / 2;
+    offsetY = (preview.height - img.naturalHeight * baseScale) / 2;
+    cropWrap.hidden = false;
+    drawCrop();
+    document.getElementById('gm-out').textContent = '';
+  };
+  img.onerror = function () {
+    URL.revokeObjectURL(url);
+    if (version !== photoVersion) return;
+    photoInput.value = '';
+    document.getElementById('gm-out').textContent = 'Could not read the photograph. Please choose another image.';
+  };
+  img.src = url;
+});
+preview.addEventListener('pointerdown', function (e) {
+  if (!photoImage) return;
+  activePointer = e.pointerId; lastX = e.clientX; lastY = e.clientY;
+  preview.setPointerCapture(e.pointerId);
+  e.preventDefault();
+});
+preview.addEventListener('pointermove', function (e) {
+  if (e.pointerId !== activePointer) return;
+  var rect = preview.getBoundingClientRect();
+  moveCrop((e.clientX - lastX) * preview.width / rect.width,
+    (e.clientY - lastY) * preview.height / rect.height);
+  lastX = e.clientX; lastY = e.clientY;
+});
+function stopCropDrag(e) { if (e.pointerId === activePointer) activePointer = null; }
+preview.addEventListener('pointerup', stopCropDrag);
+preview.addEventListener('pointercancel', stopCropDrag);
+preview.addEventListener('keydown', function (e) {
+  if (!photoImage) return;
+  var step = e.shiftKey ? 5 : 20;
+  var moves = {ArrowLeft: [step, 0], ArrowRight: [-step, 0],
+    ArrowUp: [0, step], ArrowDown: [0, -step]};
+  if (moves[e.key]) { e.preventDefault(); moveCrop(moves[e.key][0], moves[e.key][1]); }
+});
+zoomInput.addEventListener('input', function () {
+  if (!photoImage) return;
+  var centerX = (preview.width / 2 - offsetX) / cropScale();
+  var centerY = (preview.height / 2 - offsetY) / cropScale();
+  zoom = Number(this.value);
+  offsetX = preview.width / 2 - centerX * cropScale();
+  offsetY = preview.height / 2 - centerY * cropScale();
+  clampCrop(); drawCrop();
+});
 document.getElementById('gm').addEventListener('submit', async function (e) {
   e.preventDefault();
   var out = document.getElementById('gm-out'), btn = this.querySelector('button');
   btn.disabled = true; out.textContent = 'Submitting…';
   try {
-    var r = await fetch(this.action, { method: 'POST', body: new FormData(this) });
+    if (!photoImage) throw new Error('Please choose a photograph and wait for the crop preview.');
+    var cropped = await new Promise(function (resolve) { preview.toBlob(resolve, 'image/jpeg', 0.9); });
+    if (!cropped) throw new Error('Could not crop the photograph. Please choose another image.');
+    if (cropped.size > 5 * 1024 * 1024) throw new Error('The cropped photo is too large. Please choose a smaller image.');
+    var data = new FormData(this);
+    data.set('photo', cropped, 'postdoc-photo.jpg');
+    var r = await fetch(this.action, { method: 'POST', body: data });
     out.textContent = await r.text();
-    if (r.ok) this.reset();
+    if (r.ok) {
+      this.reset();
+      photoVersion++; photoImage = null; cropWrap.hidden = true;
+      designation.dispatchEvent(new Event('change'));
+      emailDomain.dispatchEvent(new Event('change'));
+    }
   } catch (err) { out.textContent = 'Could not submit: ' + err; }
   btn.disabled = false;
 });

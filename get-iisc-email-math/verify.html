@@ -1,0 +1,40 @@
+---
+title: Confirm postdoc profile
+permalink: /get-iisc-email-math/verify/
+layout: private-form
+---
+<h2>Confirm your postdoc profile</h2>
+<p>Ready to add your profile and photograph to the department website?</p>
+<form id="confirm-postdoc" action="{{ site.baseurl }}/get-iisc-email-math/submit.php" method="post">
+  <input type="hidden" name="mode" value="confirm_profile">
+  <input type="hidden" name="request_id" id="request_id">
+  <input type="hidden" name="token" id="token">
+  <button type="submit">Confirm profile</button>
+</form>
+<p id="confirm-out" role="status"></p>
+<script>
+(function () {
+  var params = new URLSearchParams(location.hash.slice(1));
+  if (location.hash) history.replaceState(null, '', location.pathname);
+  var form = document.getElementById('confirm-postdoc');
+  var out = document.getElementById('confirm-out');
+  document.getElementById('request_id').value = params.get('id') || '';
+  document.getElementById('token').value = params.get('token') || '';
+  if (!params.get('id') || !params.get('token')) {
+    form.hidden = true;
+    out.textContent = 'Please open the confirmation link sent to your IISc address.';
+  }
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+    var button = this.querySelector('button');
+    button.disabled = true;
+    out.textContent = 'Confirming…';
+    try {
+      var response = await fetch(this.action, { method: 'POST', body: new FormData(this) });
+      out.textContent = await response.text();
+      if (response.ok) form.hidden = true;
+    } catch (err) { out.textContent = 'Could not confirm: ' + err; }
+    button.disabled = false;
+  });
+})();
+</script>

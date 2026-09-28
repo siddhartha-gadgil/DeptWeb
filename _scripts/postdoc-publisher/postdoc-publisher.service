@@ -1,0 +1,9 @@
+[Unit]
+Description=Publish confirmed Mathematics postdoc profiles to GitHub and the live site
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory=/srv/postdoc-publisher/DeptWeb
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+ExecStart=/usr/bin/python3 /srv/postdoc-publisher/DeptWeb/_scripts/postdoc-publisher/publish.py --repo /srv/postdoc-publisher/DeptWeb --data-dir /var/lib/getamailid --web-root /var/www/html
