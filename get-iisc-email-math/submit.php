@@ -4,15 +4,18 @@
  *
  * WHAT IT DOES
  *   POST (from index.html, served at /get-iisc-email-math)
- *     validates the form + the signed joining report (PDF), fills the office's
- *     Email_ID_Creation.xlsx, and mails both at once to sysadmin.math (cc the
- *     requester), who reviews and forwards to IISc email support by hand.
+ *     validates the form, signed joining report (PDF), and website photo (JPEG),
+ *     fills the office's Email_ID_Creation.xlsx, and mails the files and website
+ *     details to sysadmin.math (cc the requester). The office reviews and
+ *     forwards the email request to IISc email support by hand.
  *   php submit.php --selftest you@iisc.ac.in
  *     sends one test mail and prints the SMTP conversation.
  *
  * INSTALLING
  *   1. Deploys with the site to /var/www/html/get-iisc-email-math/submit.php (assets/Email_ID_Creation.xlsx
- *      rides along as the template). Needs php-zip.
+ *      rides along as the template). Needs php-zip. Set upload_max_filesize
+ *      to at least 10M and post_max_size to at least 20M in the web PHP config
+ *      to accept the 10 MB PDF and 5 MB JPEG in one submission.
  *   2. mkdir -p /var/lib/getamailid && chown www-data:www-data /var/lib/getamailid && chmod 700 /var/lib/getamailid
  *      Every request's xlsx + pdf is kept there under requests/.
  *   3. Credentials live OUTSIDE the repo (deploy.sh ships committed files, so a
@@ -36,6 +39,7 @@ const TO          = 'sysadmin.math@iisc.ac.in';
 const CC          = [];
 
 const MAX_PDF     = 10 * 1024 * 1024;
+const MAX_PHOTO   = 5 * 1024 * 1024;
 const PER_IP_HOUR = 5;
 const PROJECTS    = ['CSSP', 'FnA', 'SID'];
 const DOCTYPES    = ['Joining Report', 'Joining Memo'];
@@ -183,17 +187,31 @@ function send_mail(array $to, array $cc, string $subject, string $body, array $f
 function send_request(array $r, string $base, array &$trace): bool {
     $body = "Hi Nitish,\n\n"
           . "This is an automated email. Dr. {$r['name']} has just submitted a request for an IISc email ID at "
-          . "https://math.iisc.ac.in/get-iisc-email-math. The filled Email_ID_Creation.xlsx and the {$r['doctype']} are attached. "
-          . "Please review them and forward the request to emailsupport@iisc.ac.in. The requester is in copy.\n\n"
+          . "https://math.iisc.ac.in/get-iisc-email-math. The filled Email_ID_Creation.xlsx, {$r['doctype']}, and website photograph are attached. "
+          . "Please review the spreadsheet and joining document and forward only those two files to emailsupport@iisc.ac.in. "
+          . "The website details and photograph are for the department postdocs page. "
+          . "After confirming the IISc user ID, add the details to _data/postdocs.yaml and save the photo as images/stu-USERID.jpg (using that user ID). "
+          . "The requester is in copy.\n\n"
           . "Name:              {$r['name']}\n"
           . "Designation:       {$r['designation']}\n"
           . "Reporting faculty: {$r['faculty_name']}\n"
           . "Joining / ending:  {$r['joining']} to {$r['ending']}\n"
           . "Personal email:    {$r['email']}\n"
-          . "Mobile:            {$r['mobile']}\n";
+          . "Mobile:            {$r['mobile']}\n\n"
+          . "Website profile (https://math.iisc.ac.in/postdocs.html):\n"
+          . "name: {$r['name']}\n"
+          . "webpage: {$r['webpage']}\n"
+          . "phd: {$r['phd']}\n"
+          . "user-id: " . ($r['user_id'] ?: '(awaiting IISc account)') . "\n"
+          . "position: {$r['position']}\n"
+          . "research-area: {$r['research_area']}\n"
+          . "office: " . ($r['office'] ?: '(awaiting room assignment)') . "\n"
+          . "image: attached JPEG photograph\n\n"
+          . "Please ask the postdoc to visit Nitish in Room R-14 for biometrics and computer lab access.\n";
     $tag = preg_replace('/[^A-Za-z0-9]+/', '_', $r['name']);
     return send_mail([TO], array_merge(CC, [$r['email']]), 'Email ID creation request - Dr. ' . $r['name'], $body,
-        ["Email_ID_Creation_$tag.xlsx" => "$base.xlsx", str_replace(' ', '_', $r['doctype']) . "_$tag.pdf" => "$base.pdf"], $trace);
+        ["Email_ID_Creation_$tag.xlsx" => "$base.xlsx", str_replace(' ', '_', $r['doctype']) . "_$tag.pdf" => "$base.pdf",
+         "Postdoc_Photo_$tag.jpg" => "$base.jpg"], $trace);
 }
 
 // ------------------------------------------------------------------ web
@@ -217,8 +235,18 @@ function handle_post(): void {
 
     $first = $p('first'); $last = $p('last'); $desig = $p('designation'); $mobile = $p('mobile');
     $email = $p('email'); $fac = $p('faculty'); $join = $p('joining'); $end = $p('ending'); $proj = $p('project'); $doctype = $p('doctype');
+    $webpage = $p('webpage'); $phd = $p('phd'); $position = $p('position'); $research_area = $p('research_area');
+    $user_id = $p('user_id'); $office = $p('office');
     foreach (['first' => $first, 'last' => $last, 'designation' => $desig, 'email' => $email, 'joining' => $join, 'ending' => $end] as $k => $v)
         if ($v === '' || strlen($v) > 200) reply(400, "Missing or too long: $k");
+    foreach (['phd' => $phd, 'position' => $position, 'research_area' => $research_area] as $k => $v)
+        if ($v === '' || strlen($v) > ($k === 'research_area' ? 500 : 200)) reply(400, "Missing or too long: $k");
+    if (strlen($webpage) > 500 || ($webpage !== '' && (!filter_var($webpage, FILTER_VALIDATE_URL) || !preg_match('~^https?://~i', $webpage))))
+        reply(400, 'Invalid webpage URL');
+    if (strlen($user_id) > 100 || ($user_id !== '' && !preg_match('/^[A-Za-z0-9._-]+$/', $user_id))) reply(400, 'Invalid IISc user ID');
+    if (strlen($office) > 100) reply(400, 'Office room is too long');
+    foreach ([$first, $last, $desig, $mobile, $fac, $phd, $position, $research_area, $office] as $value)
+        if (preg_match('/[\r\n]/', $value)) reply(400, 'Please enter each detail on one line');
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) reply(400, 'Invalid personal email');
     if (!in_array($fac, FACULTY, true)) reply(400, 'Reporting faculty must be picked from the list');
     if (!in_array($proj, PROJECTS, true)) reply(400, 'Invalid project ID');
@@ -228,23 +256,32 @@ function handle_post(): void {
     if (!preg_match('/^\+?[0-9 \-]{6,20}$/', $mobile)) reply(400, 'Invalid mobile number');
 
     $up = $_FILES['report'] ?? null;
-    if (!$up || $up['error'] !== UPLOAD_ERR_OK) reply(400, 'Joining report PDF is required');
+    if (!$up || $up['error'] !== UPLOAD_ERR_OK) reply(400, 'Joining report PDF is required; check that both files fit the server upload limits');
     if ($up['size'] > MAX_PDF) reply(400, 'PDF is larger than 10 MB');
     if (substr((string) file_get_contents($up['tmp_name'], false, null, 0, 5), 0, 5) !== '%PDF-') reply(400, 'The joining report must be a PDF');
+
+    $photo = $_FILES['photo'] ?? null;
+    if (!$photo || $photo['error'] !== UPLOAD_ERR_OK) reply(400, 'A website photograph is required; check that both files fit the server upload limits');
+    if ($photo['size'] > MAX_PHOTO) reply(400, 'Photograph is larger than 5 MB');
+    $image = @getimagesize($photo['tmp_name']);
+    if (!$image || $image[2] !== IMAGETYPE_JPEG) reply(400, 'The photograph must be a JPEG image');
 
     $name = "$first $last";
     $id = date('Ymd-His') . '-' . preg_replace('/[^a-z0-9]+/', '-', strtolower($name));
     $base = DATA_DIR . "/requests/$id";
     if (!move_uploaded_file($up['tmp_name'], "$base.pdf")) reply(500, 'Could not store the PDF');
+    if (!move_uploaded_file($photo['tmp_name'], "$base.jpg")) reply(500, 'Could not store the photograph');
     fill_xlsx(['Mathematics', $first, $last, $desig, $mobile, $email, 'Prof. ' . $fac, $join, $end, $proj], "$base.xlsx");
 
     $trace = [];
     if (!send_request(['name' => $name, 'email' => $email, 'designation' => $desig, 'faculty_name' => $fac,
-                       'joining' => $join, 'ending' => $end, 'mobile' => $mobile, 'doctype' => $doctype], $base, $trace)) {
+                       'joining' => $join, 'ending' => $end, 'mobile' => $mobile, 'doctype' => $doctype,
+                       'webpage' => $webpage, 'phd' => $phd, 'position' => $position, 'research_area' => $research_area,
+                       'user_id' => $user_id, 'office' => $office], $base, $trace)) {
         error_log("getamailid: send failed for $id\n" . implode("\n", $trace));
         reply(500, 'Your details were saved but the email could not be sent. Please write to office.math@iisc.ac.in.');
     }
-    reply(200, 'Thank you. Your request has been sent to the department office, which will forward it to IISc email support.');
+    reply(200, 'Thank you. Your email request and website details have been sent to the department office. Please visit Nitish in Room R-14 for biometrics and computer lab access.');
 }
 
 // ------------------------------------------------------------------ main

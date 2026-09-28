@@ -4,27 +4,36 @@ permalink: /get-iisc-email-math/
 ---
 <!--
   New postdocs fill this in. submit.php (same folder) builds the office's
-  Email_ID_Creation.xlsx from it and mails both to sysadmin.math, who reviews
-  and forwards the request to IISc email support by hand. The faculty dropdown
+  Email_ID_Creation.xlsx from it and mails the spreadsheet, joining document,
+  and website details/photo to sysadmin.math. The office reviews and forwards
+  the email request to IISc email support by hand. The faculty dropdown
   comes from _data/faculty.yaml at build time; submit.php keeps its own copy of
   that list, so regenerate it there when faculty.yaml changes.
 -->
 <style>
   #gm { max-width: 42em; }
   #gm label { display: block; margin: .9em 0 .2em; font-weight: 600; }
-  #gm input, #gm select { width: 100%; padding: .4em; box-sizing: border-box; }
+  #gm input, #gm select, #gm textarea { width: 100%; padding: .4em; box-sizing: border-box; }
+  #gm fieldset { margin: 1.3em 0; padding: 0 1em 1em; }
+  #gm legend { font-weight: 700; }
+  #gm .hint { font-size: .95em; margin: .2em 0 .7em; }
   #gm .hp { position: absolute; left: -9999px; }
   #gm button { margin-top: 1.2em; padding: .5em 1.4em; }
   #gm-out { margin-top: 1em; white-space: pre-wrap; }
 </style>
 
-<h2>Request an IISc email ID (new postdocs)</h2>
-<p>Fill in the details exactly as they should appear on your IISc account, and
-attach your <strong>joining report / joining memo</strong> as a PDF, signed by the
-Registrar, Deputy Registrar or Assistant Registrar (HR). The office forwards the
-request to IISc email support; a copy comes to you.</p>
+<h2>New postdoc details</h2>
+<p>Use this form to request your IISc email ID and send your details for the
+<a href="{{ site.baseurl }}/postdocs.html">department postdocs page</a>. The office
+will review the email request and add your profile after your IISc user ID is
+confirmed. A copy of your submission comes to your personal email address.</p>
 
 <form id="gm" action="submit.php" method="post" enctype="multipart/form-data">
+  <fieldset>
+  <legend>1. IISc email ID request</legend>
+  <p class="hint">Enter your account details exactly as they should appear at IISc.
+  Attach your joining report or joining memo as a PDF, signed by the Registrar,
+  Deputy Registrar or Assistant Registrar (HR).</p>
   <label for="first">Given names (first name and expanded middle names)</label>
   <input id="first" name="first" required maxlength="200">
 
@@ -81,10 +90,41 @@ request to IISc email support; a copy comes to you.</p>
 
   <label for="report">Upload it (PDF, signed, max 10 MB)</label>
   <input id="report" name="report" type="file" accept="application/pdf" required>
+  </fieldset>
+
+  <fieldset>
+  <legend>2. Department website profile</legend>
+  <p class="hint">Your name above will appear on the website. The office can add
+  your IISc user ID and room number after they are assigned.</p>
+
+  <label for="webpage">Personal webpage or Google Scholar profile (optional)</label>
+  <input id="webpage" name="webpage" type="url" maxlength="500" placeholder="https://">
+
+  <label for="phd">PhD institution</label>
+  <input id="phd" name="phd" required maxlength="200">
+
+  <label for="position">Fellowship or position as it should appear on the website</label>
+  <input id="position" name="position" required maxlength="200" placeholder="e.g. NBHM Postdoctoral Fellow">
+
+  <label for="research_area">Research area(s)</label>
+  <textarea id="research_area" name="research_area" required maxlength="500" rows="2"></textarea>
+
+  <label for="user_id">IISc user ID (if already assigned)</label>
+  <input id="user_id" name="user_id" maxlength="100" pattern="[A-Za-z0-9._-]+" placeholder="The part before @iisc.ac.in">
+
+  <label for="office">Office room (if already assigned)</label>
+  <input id="office" name="office" maxlength="100" placeholder="e.g. N28">
+
+  <label for="photo">Photograph for the website (JPEG, max 5 MB)</label>
+  <input id="photo" name="photo" type="file" accept="image/jpeg,.jpg,.jpeg" required>
+  </fieldset>
+
+  <p>After arriving, please visit Nitish in Room R-14 to register your biometrics
+  and enable access to the computer lab.</p>
 
   <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
 
-  <button type="submit">Submit request</button>
+  <button type="submit">Submit email request and website details</button>
 </form>
 <p id="gm-out"></p>
 
