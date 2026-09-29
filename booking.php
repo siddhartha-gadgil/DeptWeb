@@ -553,10 +553,34 @@ function live_bookings(): array {
 // What the calendar is shown. The address stays in the file: this list is public.
 function public_view(array $b): array {
     return [
+        'id' => $b['id'] ?? '',
         'room' => $b['room'], 'date' => $b['date'],
         'start' => $b['start'], 'end' => $b['end'],
         'purpose' => $b['purpose'], 'bookedBy' => $b['name'],
     ];
+}
+
+function slot_matches(array $b, string $id, string $room, string $date, string $start, string $end): bool {
+    return ($b['id'] ?? '') === $id
+        && ($b['status'] ?? 'active') === 'active'
+        && ($b['room'] ?? '') === $room
+        && ($b['date'] ?? '') === $date
+        && ($b['start'] ?? '') === $start
+        && ($b['end'] ?? '') === $end;
+}
+
+function one_slot_from_input(array $in): ?array {
+    $id = trim((string) ($in['id'] ?? ''));
+    $room = (string) ($in['room'] ?? '');
+    $date = (string) ($in['date'] ?? '');
+    $start = (string) ($in['start'] ?? '');
+    $end = (string) ($in['end'] ?? '');
+    if ($id === '' || !in_array($room, ROOMS, true)) return null;
+    if (!preg_match('/^\d{4}-\d{2}-\d{2}$/', $date)) return null;
+    $day = DateTimeImmutable::createFromFormat('!Y-m-d', $date);
+    if ($day === false || $day->format('Y-m-d') !== $date) return null;
+    if (mins($start) === null || mins($end) === null || mins($end) <= mins($start)) return null;
+    return ['id' => $id, 'room' => $room, 'date' => $date, 'start' => $start, 'end' => $end];
 }
 
 // ------------------------------------------------------------------ command line
@@ -851,6 +875,85 @@ if ($action === 'cancel') {
         return ['ok' => true, 'purpose' => $gone[0]['purpose'], 'who' => $gone[0]['name'],
                 'slots' => array_map(fn($b) => ['room' => $b['room'], 'date' => $b['date'],
                                                 'start' => $b['start'], 'end' => $b['end']], $gone)];
+    });
+    if ($out['ok']) $out['bookings'] = array_map('public_view', live_bookings());
+    reply($out);
+}
+
+// ---- direct office actions from the unlocked calendar ----
+if ($action === 'cancel_event') {
+    if (!token_ok((string) ($in['token'] ?? ''))) reply(['ok' => false, 'error' => 'unauthorised']);
+    $slot = one_slot_from_input($in);
+    if (!$slot) reply(['ok' => false, 'error' => 'That booking could not be read.']);
+
+    $out = with_lock(function () use ($slot) {
+        $all = prune(read_json(bookings_file()));
+        $gone = null;
+        foreach ($all as &$b) {
+            if (!slot_matches($b, $slot['id'], $slot['room'], $slot['date'], $slot['start'], $slot['end'])) continue;
+            if ($gone !== null) return ['ok' => false, 'error' => 'More than one booking matches that slot.'];
+            $b['status'] = 'cancelled';
+            $b['dropped'] = gmdate('c');
+            $gone = $b;
+        }
+        unset($b);
+        if ($gone === null) return ['ok' => false, 'error' => 'That booking is no longer on the calendar.'];
+        write_json(bookings_file(), $all);
+        return ['ok' => true, 'purpose' => $gone['purpose'], 'who' => $gone['name'],
+                'slots' => [['room' => $gone['room'], 'date' => $gone['date'],
+                             'start' => $gone['start'], 'end' => $gone['end']]]];
+    });
+    if ($out['ok']) $out['bookings'] = array_map('public_view', live_bookings());
+    reply($out);
+}
+
+if ($action === 'update_event') {
+    if (!token_ok((string) ($in['token'] ?? ''))) reply(['ok' => false, 'error' => 'unauthorised']);
+    $old = one_slot_from_input((array) ($in['old'] ?? []));
+    $new = one_slot_from_input((array) ($in['new'] ?? []));
+    if (!$old || !$new || $old['id'] !== $new['id']) {
+        reply(['ok' => false, 'error' => 'That move could not be read.']);
+    }
+
+    $out = with_lock(function () use ($old, $new) {
+        $all = prune(read_json(bookings_file()));
+        $target = null; $targetIndex = null;
+        foreach ($all as $i => $b) {
+            if (!slot_matches($b, $old['id'], $old['room'], $old['date'], $old['start'], $old['end'])) continue;
+            if ($target !== null) return ['ok' => false, 'error' => 'More than one booking matches that slot.'];
+            $target = $b; $targetIndex = $i;
+        }
+        if ($target === null) return ['ok' => false, 'error' => 'That booking is no longer on the calendar.'];
+
+        $wd = (int) (new DateTimeImmutable($new['date']))->format('w');
+        $ns = mins($new['start']); $ne = mins($new['end']);
+        foreach (CLASSES as $c) {
+            if ($c['room'] === $new['room'] && in_array($wd, $c['days'], true)
+                && $ns < $c['end'] && $ne > $c['start']) {
+                return ['ok' => false, 'error' => $new['room'] . ' on ' . $new['date']
+                        . ' is already taken by ' . $c['code'] . '.'];
+            }
+        }
+        foreach ($all as $i => $b) {
+            if ($i === $targetIndex || ($b['status'] ?? 'active') !== 'active') continue;
+            if (($b['room'] ?? '') !== $new['room'] || ($b['date'] ?? '') !== $new['date']) continue;
+            if ($ns < mins($b['end']) && $ne > mins($b['start'])) {
+                $what = $b['purpose'] ?: 'another booking';
+                $by = ($b['name'] ?? '') !== '' ? $b['name'] . ' (' . $what . ')' : $what;
+                return ['ok' => false, 'error' => $new['room'] . ' on ' . $new['date']
+                        . ' is already taken by ' . $by . '.'];
+            }
+        }
+
+        $all[$targetIndex]['room'] = $new['room'];
+        $all[$targetIndex]['date'] = $new['date'];
+        $all[$targetIndex]['start'] = $new['start'];
+        $all[$targetIndex]['end'] = $new['end'];
+        $all[$targetIndex]['updated'] = gmdate('c');
+        write_json(bookings_file(), $all);
+        return ['ok' => true, 'purpose' => $target['purpose'], 'who' => $target['name'],
+                'slots' => [['room' => $new['room'], 'date' => $new['date'],
+                             'start' => $new['start'], 'end' => $new['end']]]];
     });
     if ($out['ok']) $out['bookings'] = array_map('public_view', live_bookings());
     reply($out);

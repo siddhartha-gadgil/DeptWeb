@@ -190,6 +190,20 @@ title: Lecture Hall Calendar
   }
   .rb-ev b { font-weight: 600; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .rb-ev small { font-size: 0.92em; opacity: 0.9; display: block; }
+  .rb-office .rb-ev-booking { cursor: move; padding-right: 22px; }
+  .rb-x {
+    position: absolute; top: 2px; right: 3px; width: 16px; height: 16px;
+    border: none; border-radius: 50%; background: rgba(255,255,255,0.9);
+    color: var(--rb-accent); font-size: 13px; line-height: 16px; padding: 0;
+    cursor: pointer; font-weight: 700;
+  }
+  .rb-x:hover { background: #fff; }
+  .rb-office-move {
+    position: absolute; left: 0; right: 3px; pointer-events: none; z-index: 7;
+    background: rgba(60,64,67,0.14); border: 2px dashed var(--rb-accent);
+    border-radius: 4px; color: var(--rb-accent); font-size: 0.68rem;
+    font-weight: 700; padding: 1px 5px; box-sizing: border-box;
+  }
   /* Classes are fixed timetable, not bookings: hatched so the two never read alike. */
   .rb-ev-class { background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.22) 0 5px, transparent 5px 10px); }
   /* Seminars are one-off and come from the website, not the office: solid like a
@@ -904,7 +918,7 @@ null]
     });
     state.bookings.forEach(function (b) {
       if (b.room === room && b.date === key) {
-        out.push({ room: room, start: b.start, end: b.end,
+        out.push({ id: b.id, room: b.room, date: b.date, start: b.start, end: b.end,
                    title: b.title, sub: b.bookedBy, kind: "booking" });
       }
     });
@@ -966,14 +980,17 @@ null]
 
   function evHTML(e, showRoom) {
     var cls = "rb-ev" + (e.kind === "class" ? " rb-ev-class"
-                       : e.kind === "seminar" ? " rb-ev-seminar" : "");
+                       : e.kind === "seminar" ? " rb-ev-seminar"
+                       : e.kind === "booking" ? " rb-ev-booking" : "");
     var label = esc(e.title) + (showRoom ? " &middot; " + esc(e.room) : "");
+    var data = {
+      id: e.id || "", room: e.room, date: e.date || "", start: e.start, end: e.end,
+      title: e.title, sub: e.sub, name: e.name || "", notes: e.notes || "", kind: e.kind
+    };
     return '<button type="button" class="' + cls + '" style="' + evStyle(e, colorOf(e.room)) + '"' +
       ' title="' + esc(evTitle(e)) + '"' +
-      ' data-ev="' + esc(JSON.stringify({
-        room: e.room, start: e.start, end: e.end, title: e.title, sub: e.sub,
-        name: e.name || "", notes: e.notes || "", kind: e.kind
-      })) + '">' +
+      ' data-ev="' + esc(JSON.stringify(data)) + '">' +
+      (unlocked() && e.kind === "booking" ? '<span class="rb-x" data-cancel-booking="1" title="Cancel booking">&times;</span>' : "") +
       '<b>' + label + '</b><small>' + ampm(e.start) + " – " + ampm(e.end) +
       (e.sub ? " &middot; " + esc(e.sub) : "") + '</small></button>';
   }
@@ -1106,7 +1123,8 @@ null]
         evs.slice(0, MONTH_CHIPS).forEach(function (e) {
           h += '<div class="rb-mchip" style="background:' + colorOf(e.room) + ';"' +
                ' title="' + esc(evTitle(e)) + '" data-ev="' +
-               esc(JSON.stringify({ room: e.room, start: e.start, end: e.end, title: e.title,
+               esc(JSON.stringify({ id: e.id || "", room: e.room, date: e.date || "",
+                                    start: e.start, end: e.end, title: e.title,
                                     sub: e.sub, name: e.name || "", notes: e.notes || "",
                                     kind: e.kind })) + '">' +
                ampm(e.start) + " " + esc(e.title) + " &middot; " + esc(e.room) + "</div>";
@@ -1322,6 +1340,62 @@ null]
       anchor);
   }
 
+  function eventSlot(ev) {
+    return {
+      id: ev.id || "", room: ev.room, date: ev.date,
+      start: hhmm(ev.start), end: hhmm(ev.end)
+    };
+  }
+
+  function cancelBookingEvent(ev, anchor) {
+    if (!unlocked() || !ev.id) return;
+    if (!window.confirm("Cancel this booking?\n\n" + ev.room + "  " +
+        longDate(ev.date) + "  " + clockTime(ev.start) + " - " + clockTime(ev.end) +
+        "\n" + (ev.title || "Booked") + (ev.sub ? " · " + ev.sub : ""))) return;
+    post(Object.assign({ action: "cancel_event", token: pass }, eventSlot(ev)))
+      .then(function (r) {
+        if (!r.ok) {
+          if (r.error === "unauthorised") paintOfficeMode();
+          return showPop("<h5>Not cancelled</h5><div class=\"rb-pop-msg rb-err\">" +
+                         esc(r.error || "Refused.") + "</div>", anchor);
+        }
+        if (r.bookings) takeBookings(r.bookings);
+        render();
+        showPop("<h5>Cancelled</h5>" +
+          '<div class="rb-pop-msg rb-ok">The hall is free again.</div>', anchor);
+      })
+      .catch(function () {
+        showPop("<h5>Not cancelled</h5>" +
+          '<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', anchor);
+      });
+  }
+
+  function moveBookingEvent(ev, next, anchor) {
+    if (!unlocked() || !ev.id) return;
+    post({ action: "update_event", token: pass, old: eventSlot(ev), new: {
+      id: ev.id, room: next.room, date: next.date, start: hhmm(next.start), end: hhmm(next.end)
+    }})
+      .then(function (r) {
+        if (!r.ok) {
+          if (r.error === "unauthorised") paintOfficeMode();
+          render();
+          return showPop("<h5>Not moved</h5><div class=\"rb-pop-msg rb-err\">" +
+                         esc(r.error || "Refused.") + "</div>", anchor);
+        }
+        if (r.bookings) takeBookings(r.bookings);
+        render();
+        showPop("<h5>Moved</h5>" +
+          '<div class="rb-pop-meta">' + esc(next.room + " · " + longDate(next.date) + " · " +
+          clockTime(next.start) + " – " + clockTime(next.end)) + "</div>" +
+          '<div class="rb-pop-msg rb-ok">The booking has been updated.</div>', anchor);
+      })
+      .catch(function () {
+        render();
+        showPop("<h5>Not moved</h5>" +
+          '<div class="rb-pop-msg rb-err">Could not reach the booking service.</div>', anchor);
+      });
+  }
+
   // ─────────────────────────────────────────────────────── picking hours
   // Nothing here books a hall. Ticking hours is local to this browser; the only
   // thing that leaves the page is text on the clipboard, which the sender reads
@@ -1449,8 +1523,10 @@ null]
 
   // Client-side clash check against everything already drawn -- classes and
   // confirmed bookings alike.
-  function clashes(room, dateKey, s, e) {
-    var hit = eventsFor(fromYmd(dateKey), room).filter(function (x) { return s < x.end && e > x.start; });
+  function clashes(room, dateKey, s, e, ignoreId) {
+    var hit = eventsFor(fromYmd(dateKey), room).filter(function (x) {
+      return (!ignoreId || x.id !== ignoreId) && s < x.end && e > x.start;
+    });
     return hit.length ? hit[0] : null;
   }
 
@@ -1658,6 +1734,10 @@ null]
   // the same action without knowing anything about how the box works.
   var officeEnact = null;
   function unlocked() { return !!pass && !!officeEnact; }
+  function paintOfficeMode() {
+    var app = document.querySelector(".rb-app");
+    if (app) app.classList.toggle("rb-office", unlocked());
+  }
 
   function wireSearchBox() {
     var form = document.getElementById("site-search-form");
@@ -1673,6 +1753,8 @@ null]
       clearTimeout(iconTimer);
       iconStep = 0; pass = "";
       setIcon(false);
+      paintOfficeMode();
+      render();
     }
     function keepAwake() {
       clearTimeout(iconTimer);
@@ -1713,7 +1795,9 @@ null]
               esc(r.error === "unauthorised" ? "No." : (r.error || "No.")) + "</div>", at);
           }
           pass = r.token;
-          showPop('<div class="rb-pop-msg rb-ok">Ready. Enter the code.</div>', at);
+          paintOfficeMode();
+          render();
+          showPop('<div class="rb-pop-msg rb-ok">Office mode is on. Enter a code, or edit bookings on the calendar.</div>', at);
           at.focus();
         })
         .catch(function () {
@@ -1829,7 +1913,7 @@ null]
 
   function takeBookings(list) {
     state.bookings = (list || []).map(function (b) {
-      return { room: b.room, date: b.date, start: minutesOf(b.start), end: minutesOf(b.end),
+      return { id: b.id || "", room: b.room, date: b.date, start: minutesOf(b.start), end: minutesOf(b.end),
                title: b.purpose || "Booked", bookedBy: b.bookedBy || "" };
     }).filter(function (b) { return ROOM_IDS.indexOf(b.room) >= 0; });
   }
@@ -1917,7 +2001,7 @@ null]
   // aimed before it begins -- the band only paints, nothing moves or resizes, so
   // the thing being aimed at stays where it was.
   var main = document.getElementById("rb-main");
-  var band = null, drag = null;
+  var band = null, drag = null, officeDrag = null, suppressOfficeClick = false;
 
   function clearBand() { if (band) { band.remove(); band = null; } }
 
@@ -1927,8 +2011,13 @@ null]
     return e.target.closest(".rb-col");
   }
   function colRoom(col) { return col.getAttribute("data-room") || weekRoom(); }
+  function colAt(clientX, clientY) {
+    var el = document.elementFromPoint(clientX, clientY);
+    return el && el.closest ? el.closest(".rb-col") : null;
+  }
 
   main.addEventListener("mousemove", function (e) {
+    if (officeDrag) return moveOfficeDrag(e);
     if (drag) return moveDrag(e);
     var col = gridCol(e);
     if (!col) return clearBand();
@@ -1948,12 +2037,49 @@ null]
 
   main.addEventListener("mousedown", function (e) {
     if (e.button !== 0) return;
+    var evBtn = e.target.closest && e.target.closest("[data-ev]");
+    if (unlocked() && evBtn && !e.target.closest("[data-cancel-booking]")) {
+      try {
+        var ev = JSON.parse(evBtn.getAttribute("data-ev"));
+        if (ev.kind === "booking" && ev.id) {
+          e.preventDefault();
+          officeDrag = { ev: ev, fromX: e.clientX, fromY: e.clientY, el: null, next: null, anchor: evBtn };
+          return;
+        }
+      } catch (err) {}
+    }
     var col = gridCol(e);
     if (!col) return;
     e.preventDefault();                        // no text selection while dragging
     var m = minuteAt(col, e.clientY, STEP);
     drag = { col: col, from: m, to: m, moved: false, el: null };
   });
+
+  function moveOfficeDrag(e) {
+    var d = officeDrag, dur = d.ev.end - d.ev.start;
+    if (!d.el && Math.abs(e.clientX - d.fromX) + Math.abs(e.clientY - d.fromY) < 4) return;
+    clearBand();
+    var col = colAt(e.clientX, e.clientY);
+    if (!col) return;
+    var date = col.getAttribute("data-date");
+    if (!date) return;
+    var room = col.getAttribute("data-room") || d.ev.room;
+    var start = minuteAt(col, e.clientY, STEP);
+    if (start + dur > DAY_END) start = DAY_END - dur;
+    start = Math.max(DAY_START, start);
+    var next = { id: d.ev.id, room: room, date: date, start: start, end: start + dur };
+    d.next = next;
+
+    if (!d.el || d.el.parentNode !== col) {
+      if (d.el) d.el.remove();
+      d.el = document.createElement("div");
+      d.el.className = "rb-office-move";
+      col.appendChild(d.el);
+    }
+    d.el.style.top = topOf(start).toFixed(1) + "px";
+    d.el.style.height = Math.max(dur * PX_PER_MIN - 1, 14).toFixed(1) + "px";
+    d.el.textContent = room + " · " + ampm(start) + " – " + ampm(start + dur);
+  }
 
   function moveDrag(e) {
     var m = minuteAt(drag.col, e.clientY, STEP);
@@ -1973,6 +2099,23 @@ null]
   }
 
   document.addEventListener("mouseup", function () {
+    if (officeDrag) {
+      var od = officeDrag; officeDrag = null;
+      if (od.el) od.el.remove();
+      if (!od.next) return;
+      var same = od.next.room === od.ev.room && od.next.date === od.ev.date &&
+                 od.next.start === od.ev.start && od.next.end === od.ev.end;
+      if (same) return;
+      suppressOfficeClick = true;
+      setTimeout(function () { suppressOfficeClick = false; }, 0);
+      var hit = clashes(od.next.room, od.next.date, od.next.start, od.next.end, od.ev.id);
+      if (hit) {
+        return showPop("<h5>" + esc(od.next.room) + " is taken</h5>" +
+                       '<div class="rb-pop-meta">' + esc(hit.title) + " &middot; " +
+                       ampm(hit.start) + " \u2013 " + ampm(hit.end) + "</div>", od.anchor);
+      }
+      return moveBookingEvent(od.ev, od.next, od.anchor);
+    }
     if (!drag) return;
     var d = drag; drag = null;
     if (d.el) d.el.remove();
@@ -1992,9 +2135,22 @@ null]
 
   // Clicks that are not on the time grid: an existing block, or a month overflow.
   main.addEventListener("click", function (e) {
+    if (suppressOfficeClick) {
+      e.preventDefault();
+      e.stopPropagation();
+      return;
+    }
     var chip = e.target.closest("[data-ev]");
     if (chip) {
-      try { showEvent(JSON.parse(chip.getAttribute("data-ev")), chip); } catch (err) {}
+      try {
+        var ev = JSON.parse(chip.getAttribute("data-ev"));
+        if (e.target.closest("[data-cancel-booking]")) {
+          e.preventDefault();
+          e.stopPropagation();
+          return cancelBookingEvent(ev, chip);
+        }
+        showEvent(ev, chip);
+      } catch (err) {}
       return;
     }
     var more = e.target.closest("[data-day]");
