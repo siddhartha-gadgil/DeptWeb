@@ -26,9 +26,8 @@
   });
   var nodes = Array.prototype.slice.call(document.querySelectorAll('.email-tree-node'));
   var result = document.getElementById('email-tree-result');
-  var answer = document.getElementById('email-tree-answer');
-  var prompt = document.getElementById('email-tree-prompt');
-  var pathLine = document.getElementById('email-tree-path');
+  var headingText = document.getElementById('email-tree-heading-text');
+  var selectHint = document.getElementById('email-tree-select-hint');
   var popup = document.getElementById('email-tree-popup');
   var popupAddress = document.getElementById('email-tree-popup-address');
   var popupStatus = document.getElementById('email-tree-popup-status');
@@ -60,9 +59,15 @@
     popup.hidden = false;
     var box = node.getBoundingClientRect();
     var popupRect = popup.getBoundingClientRect();
-    var below = box.top - popupRect.height - 10 < 16;
-    var left = Math.max(16, Math.min(box.left + (box.width - popupRect.width) / 2, window.innerWidth - popupRect.width - 16));
-    var top = below ? box.bottom + 10 : box.top - popupRect.height - 10;
+    var isRoot = node.dataset.list === 'all.math';
+    var fitsRight = box.right + popupRect.width + 26 <= window.innerWidth;
+    var below = isRoot || box.top - popupRect.height - 10 < 16;
+    var left = isRoot && fitsRight
+      ? box.right + 10
+      : Math.max(16, Math.min(box.left + (box.width - popupRect.width) / 2, window.innerWidth - popupRect.width - 16));
+    var top = isRoot && fitsRight
+      ? box.top + (box.height - popupRect.height) / 2
+      : below ? box.bottom + 10 : box.top - popupRect.height - 10;
     popup.style.left = left + 'px';
     popup.style.top = Math.max(16, Math.min(top, window.innerHeight - popupRect.height - 16)) + 'px';
     popupCopy.focus({ preventScroll: true });
@@ -104,12 +109,10 @@
       button.setAttribute('aria-pressed', 'false');
       button.classList.remove('is-selected', 'is-active', 'is-path');
     });
-    answer.hidden = true;
-    prompt.hidden = false;
-    document.getElementById('email-tree-list').textContent = '';
-    document.getElementById('email-tree-scope').textContent = '';
-    pathLine.textContent = '';
-    pathLine.hidden = true;
+    headingText.textContent = 'Who are you writing to?';
+    headingText.classList.remove('email-tree-heading-selection');
+    selectHint.hidden = false;
+    result.textContent = '';
     if (restoreFocus && previous) previous.focus({ preventScroll: true });
   }
   nodes.forEach(function (node) { byList[node.dataset.list] = node; });
@@ -135,12 +138,17 @@
         button.classList.toggle('is-active', button === node);
         button.classList.toggle('is-path', !selected && path.indexOf(button.dataset.list) !== -1);
       });
-      prompt.hidden = true;
-      answer.hidden = false;
-      document.getElementById('email-tree-list').textContent = emailFor(node);
-      document.getElementById('email-tree-scope').textContent = node.dataset.scope;
-      pathLine.textContent = path.join(' → ');
-      pathLine.hidden = path.length < 2;
+      var resultText = 'Use ' + emailFor(node) + ' to write to ' + node.dataset.scope;
+      headingText.textContent = '';
+      headingText.appendChild(document.createTextNode('Use '));
+      var address = document.createElement('code');
+      address.className = 'email-tree-exact-list';
+      address.textContent = emailFor(node);
+      headingText.appendChild(address);
+      headingText.appendChild(document.createTextNode(' to write to ' + node.dataset.scope));
+      headingText.classList.add('email-tree-heading-selection');
+      selectHint.hidden = true;
+      result.textContent = resultText;
       showPopup(node, emailFor(node));
     });
   });
@@ -159,5 +167,4 @@
   window.addEventListener('scroll', hidePopup, { passive: true });
   window.addEventListener('resize', hidePopup);
   document.getElementById('email-tree-legend').hidden = false;
-  result.hidden = false;
 }());
