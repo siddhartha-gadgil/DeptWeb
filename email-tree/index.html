@@ -1,0 +1,112 @@
+---
+layout: default
+title: Email tree
+permalink: /email-tree.html
+email_tree:
+  - list: all.math
+    audience: Everyone
+  - list: students.math
+    parent: all.math
+    audience: All students
+  - list: phd.math
+    parent: students.math
+    audience: PhD students
+    cohort_prefix: phd
+    cohort_suffix: .math
+    cohort_years: 6
+  - list: intphd.math
+    parent: students.math
+    audience: Integrated PhD students
+    cohort_prefix: intphd
+    cohort_suffix: .math
+    cohort_years: 8
+  - list: ug.math
+    parent: students.math
+    audience: All undergraduate students
+  - list: bsc.math
+    parent: ug.math
+    audience: B.Sc. students
+    cohort_prefix: bsc
+    cohort_suffix: .math
+    cohort_years: 4
+  - list: btech.math
+    parent: ug.math
+    audience: B.Tech Mathematics & Computing students
+    cohort_prefix: btech
+    cohort_suffix: .math
+    cohort_years: 4
+  - list: faculty.math
+    parent: all.math
+    audience: All faculty
+  - list: prof.math
+    parent: faculty.math
+    audience: Professors
+  - list: acp.math
+    parent: faculty.math
+    audience: Associate professors
+  - list: ap.math
+    parent: faculty.math
+    audience: Assistant professors
+  - list: staff.math
+    parent: all.math
+    audience: Permanent employees
+  - list: projectstaff.math
+    parent: all.math
+    audience: All project staff and postdocs
+  - list: postdocs.math
+    parent: projectstaff.math
+    audience: All postdocs
+  - list: honprof.math
+    parent: all.math
+    audience: Honorary professors
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/email-tree/email-tree.css">
+
+<main class="email-tree pb-4" id="main-content">
+  <div class="email-tree-heading">
+    <h1 class="h2">Who do you want to email?</h1>
+  </div>
+
+  <section aria-label="Choose a mailing list">
+    <div id="email-tree-result" class="email-tree-result" hidden>
+      <div role="status" aria-live="polite" aria-atomic="true">
+        <p id="email-tree-prompt" class="mb-0">Select a mailing list.</p>
+        <div id="email-tree-answer" hidden>
+          <p class="mb-1">Use <code id="email-tree-list" class="email-tree-exact-list"></code> to write to <span id="email-tree-scope"></span></p>
+          <p id="email-tree-path" class="mb-0 text-muted" hidden></p>
+        </div>
+      </div>
+    </div>
+    <p class="email-tree-direction"><strong>ALL@Math mailing lists</strong></p>
+    <ul class="email-tree-tree" aria-label="Mailing list hierarchy">
+      {% assign root = page.email_tree | first %}
+      {% include_relative _email-tree-node.html node=root %}
+    </ul>
+  </section>
+
+  <div id="email-tree-popup" class="email-tree-popup" role="group" aria-label="Email address" hidden>
+    <code id="email-tree-popup-address"></code>
+    <button id="email-tree-popup-copy" class="email-tree-popup-copy" type="button" aria-label="Copy email address to clipboard" title="Copy email address">
+      <i class="fa fa-copy" aria-hidden="true"></i>
+    </button>
+    <span id="email-tree-popup-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
+  </div>
+
+  <aside class="email-tree-year-note" aria-labelledby="email-tree-reading">
+    <h2 id="email-tree-reading" class="h5">How to read the chart</h2>
+    <p id="email-tree-legend" class="email-tree-legend" hidden><span class="email-tree-key email-tree-key-active"></span> Selected list <span class="email-tree-key email-tree-key-included"></span> Also included</p>
+    <ul class="pl-3 mb-3">
+      <li>The number is the year students joined the Department: <code>24</code> means <strong>2024</strong>.
+        It is not their year of study, the current academic year, or their graduation year.
+        <code>XX</code> stands for the last two digits of the joining year.</li>
+      <li>Everything else is obvious.</li>
+    </ul>
+    <div class="email-tree-shortcuts" aria-label="Student mailing list examples">
+      <p><strong>Only PhD students</strong><br>→ <code>phd.math</code></p>
+      <p><strong>Only Integrated PhD students</strong><br>→ <code>intphd.math</code></p>
+      <p><strong>PhD students who joined in 2024</strong><br>→ <code>phd24.math</code></p>
+    </div>
+    <noscript><p class="mb-0">Add <code>@iisc.ac.in</code> to the list name shown in a box to get its email address.</p></noscript>
+  </aside>
+</main>
+<script src="{{ site.baseurl }}/email-tree/email-tree.js" defer></script>

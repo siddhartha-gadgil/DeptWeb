@@ -1,0 +1,103 @@
+.email-tree [hidden] { display: none !important; }
+.email-tree .text-muted { color: #595959 !important; }
+.email-tree code { color: #772953; background: transparent; overflow-wrap: anywhere; }
+.email-tree-shortcuts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.email-tree-shortcuts p { border-left: 3px solid #772953; background: #f5f5f5; padding: .6rem .8rem; margin-bottom: .7rem; }
+.email-tree-result { position: sticky; top: .5rem; z-index: 10; min-height: 72px; border: 1px solid #c7b2c0; background: #faf7f9; padding: .7rem 1rem; margin-bottom: 1rem; }
+.email-tree-popup { display: flex; align-items: center; gap: .4rem; position: fixed; z-index: 30; width: max-content; max-width: calc(100vw - 32px); padding: .35rem .5rem; border: 1px solid #aa8b9e; border-radius: .35rem; background: #fff; box-shadow: 0 2px 6px rgba(51, 51, 51, .1); font-size: .8rem; line-height: 1.4; }
+.email-tree-popup code { min-width: 0; font-size: inherit; }
+.email-tree-popup-copy { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; padding: 0; border: 0; border-radius: .2rem; background: transparent; color: #772953; font-size: .8rem; cursor: pointer; }
+.email-tree-popup-copy:hover { background: #f5edf2; }
+.email-tree-popup-copy:focus-visible { outline: 2px solid #772953; outline-offset: 1px; }
+.email-tree-legend { display: flex; align-items: center; gap: .4rem; font-size: .8rem; margin-bottom: .5rem; }
+.email-tree-key { width: .8rem; height: .8rem; border: 1px solid #772953; }
+.email-tree-key-active { background: #772953; }
+.email-tree-key-included { background: #945773; margin-left: .7rem; }
+.email-tree-exact-list { font-size: 1.15rem; font-weight: 700; margin-right: .5rem; }
+.email-tree-direction { font-size: .9rem; margin-bottom: .5rem; }
+.email-tree-tree, .email-tree-tree ul { list-style: none; padding: 0; margin: 0; }
+.email-tree-tree { padding: .5rem 0 1rem; }
+.email-tree-tree li { position: relative; min-width: 0; text-align: center; }
+.email-tree-node { display: inline-flex; flex-direction: column; justify-content: center; width: 100%; max-width: 180px; min-height: 60px; padding: .45rem .3rem; border: 1px solid #aa8b9e; border-radius: 3px; background: #fff; color: #333; font: inherit; line-height: 1.25; vertical-align: top; }
+.email-tree-node-label { display: block; font-size: .8rem; margin-bottom: .2rem; }
+.email-tree-node code { display: block; font-size: .79rem; font-weight: 700; }
+.email-tree-node:disabled { opacity: 1; }
+.email-tree-node:enabled { cursor: pointer; }
+.email-tree-node:enabled:hover { background: #faf7f9; border-color: #772953; }
+.email-tree-node.is-path { border-style: dashed; }
+.email-tree-node:focus-visible { outline: 3px solid #772953; outline-offset: 3px; }
+.email-tree-node.is-selected, .email-tree-node.is-selected:enabled:hover { background: #945773; color: #fff; border-color: #772953; }
+.email-tree-node.is-selected code { color: #fff; }
+.email-tree-node.is-active, .email-tree-node.is-active:enabled:hover { background: #772953; color: #fff; border-color: #772953; }
+.email-tree-node.is-active code { color: #fff; }
+.email-tree-tree > li > .email-tree-node { background: #fff; }
+.email-tree-tree > li > .email-tree-node.is-selected { background: #945773; }
+.email-tree-tree > li > .email-tree-node.is-active { background: #772953; }
+.email-tree-branches { display: grid; gap: .6rem; position: relative; padding-top: 1.3rem !important; }
+.email-tree-branches::before, .email-tree-cohorts::before { content: ""; position: absolute; top: 0; left: 50%; height: 1.3rem; border-left: 1px solid #aa8b9e; }
+.email-tree-branches > li::before { content: ""; position: absolute; left: 50%; top: -1.3rem; height: 1.3rem; border-left: 1px solid #aa8b9e; }
+.email-tree-tree > li > .email-tree-branches { grid-template-columns: minmax(0, 8fr) minmax(0, 1.8fr) minmax(0, 1.8fr) minmax(0, 2.1fr) minmax(0, 1.6fr); gap: 1rem; padding-top: 1.7rem !important; }
+.email-tree-tree > li > .email-tree-branches > li::before { top: -1rem; height: 1rem; }
+.email-tree-tree > li > .email-tree-branches > li::after { content: ""; position: absolute; top: -1rem; left: -.5rem; right: -.5rem; border-top: 1px solid #aa8b9e; }
+.email-tree-tree > li > .email-tree-branches > li:first-child::after { left: 50%; }
+.email-tree-tree > li > .email-tree-branches > li:last-child::after { right: 50%; }
+.email-tree-tree > li > .email-tree-branches::before { height: .7rem; }
+.email-tree-tree [data-kind="students-math"] > .email-tree-branches { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr); }
+.email-tree-tree [data-kind="ug-math"] > .email-tree-branches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.email-tree-tree [data-kind="students-math"] > .email-tree-branches,
+.email-tree-tree [data-kind="ug-math"] > .email-tree-branches { padding-top: 1.7rem !important; }
+.email-tree-tree [data-kind="students-math"] > .email-tree-branches::before,
+.email-tree-tree [data-kind="ug-math"] > .email-tree-branches::before { height: .7rem; }
+.email-tree-tree [data-kind="students-math"] > .email-tree-branches > li::before,
+.email-tree-tree [data-kind="ug-math"] > .email-tree-branches > li::before { top: -1rem; height: 1rem; }
+.email-tree-tree [data-kind="students-math"] > .email-tree-branches > li::after,
+.email-tree-tree [data-kind="ug-math"] > .email-tree-branches > li::after { content: ""; position: absolute; top: -1rem; left: -.3rem; right: -.3rem; border-top: 1px solid #aa8b9e; }
+.email-tree-tree [data-kind="students-math"] > .email-tree-branches > li:first-child::after,
+.email-tree-tree [data-kind="ug-math"] > .email-tree-branches > li:first-child::after { left: 50%; }
+.email-tree-tree [data-kind="students-math"] > .email-tree-branches > li:last-child::after,
+.email-tree-tree [data-kind="ug-math"] > .email-tree-branches > li:last-child::after { right: 50%; }
+.email-tree-cohorts { position: relative; padding-top: 1.3rem !important; }
+.email-tree-cohorts > li + li { margin-top: .35rem; }
+.email-tree-cohort { min-height: 40px; padding-top: .25rem; padding-bottom: .25rem; border-color: #ccc; }
+.email-tree-cohort code { font-size: .75rem; }
+.email-tree-tree [data-kind="faculty-math"] > .email-tree-branches,
+.email-tree-tree [data-kind="projectstaff-math"] > .email-tree-branches { margin-left: .35rem; border-left: 1px solid #aa8b9e; padding: .7rem 0 0 .65rem !important; }
+.email-tree-tree [data-kind="faculty-math"] > .email-tree-branches::before,
+.email-tree-tree [data-kind="projectstaff-math"] > .email-tree-branches::before { display: none; }
+.email-tree-tree [data-kind="faculty-math"] > .email-tree-branches > li::before,
+.email-tree-tree [data-kind="projectstaff-math"] > .email-tree-branches > li::before { left: -.65rem; top: 30px; width: .65rem; height: 0; border-top: 1px solid #aa8b9e; border-left: 0; }
+.email-tree-pattern { font-size: .72rem; color: #595959; overflow-wrap: anywhere; }
+.email-tree-pattern code { font-size: inherit; }
+.email-tree-year-note { border-top: 1px solid #ddd; padding-top: .8rem; font-size: .9rem; }
+@media (max-width: 1199px) {
+  .email-tree-tree > li > .email-tree-branches { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; padding-left: 1rem !important; border-left: 1px solid #aa8b9e; margin-left: .5rem; }
+  .email-tree-tree > li > .email-tree-branches::before { left: -1px; height: 1.7rem; }
+  .email-tree-tree > li > .email-tree-branches > li::before { left: -1rem; top: 30px; width: 1rem; height: 0; border-left: 0; border-top: 1px solid #aa8b9e; }
+  .email-tree-tree > li > .email-tree-branches > li::after { display: none; }
+  .email-tree-tree > li > .email-tree-node { display: flex; }
+  .email-tree-tree > li > .email-tree-branches > li { text-align: left; }
+  .email-tree-tree [data-kind="students-math"] > .email-tree-branches { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr); }
+  .email-tree-tree [data-kind="faculty-math"] > .email-tree-branches,
+  .email-tree-tree [data-kind="projectstaff-math"] > .email-tree-branches { margin-left: 1rem; border-left: 1px solid #aa8b9e; padding: .7rem 0 0 1rem !important; }
+  .email-tree-tree [data-kind="faculty-math"] > .email-tree-branches::before,
+  .email-tree-tree [data-kind="projectstaff-math"] > .email-tree-branches::before { display: none; }
+  .email-tree-tree [data-kind="faculty-math"] > .email-tree-branches > li,
+  .email-tree-tree [data-kind="projectstaff-math"] > .email-tree-branches > li { text-align: left; }
+  .email-tree-tree [data-kind="faculty-math"] > .email-tree-branches > li::before,
+  .email-tree-tree [data-kind="projectstaff-math"] > .email-tree-branches > li::before { left: -1rem; top: 30px; width: 1rem; height: 0; border-top: 1px solid #aa8b9e; }
+}
+@media (max-width: 575px) {
+  .email-tree-result { top: 0; padding: .6rem .7rem; }
+  .email-tree-shortcuts { grid-template-columns: 1fr; gap: 0; }
+  .email-tree-shortcuts p { padding: .4rem .7rem; }
+  .email-tree-shortcuts br { display: none; }
+  .email-tree-tree [data-kind="students-math"] > .email-tree-branches { grid-template-columns: 1fr; gap: 1rem; margin-left: 1rem; border-left: 1px solid #aa8b9e; padding: .7rem 0 0 1rem !important; }
+  .email-tree-tree [data-kind="students-math"] > .email-tree-branches::before { display: none; }
+  .email-tree-tree [data-kind="students-math"] > .email-tree-branches > li { text-align: left; }
+  .email-tree-tree [data-kind="students-math"] > .email-tree-branches > li::before { left: -1rem; top: 30px; width: 1rem; height: 0; border-top: 1px solid #aa8b9e; }
+  .email-tree-tree [data-kind="students-math"] > .email-tree-branches > li::after { display: none; }
+  .email-tree-cohorts { margin-left: 1rem !important; padding-left: 1rem !important; border-left: 1px solid #ccc; }
+  .email-tree-cohorts::before { display: none; }
+  .email-tree-cohorts > li { text-align: left; }
+  .email-tree-cohorts > li::before { content: ""; position: absolute; left: -1rem; top: 24px; width: 1rem; border-top: 1px solid #ccc; }
+}

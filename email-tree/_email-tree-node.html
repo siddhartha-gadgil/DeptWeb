@@ -1,0 +1,32 @@
+{% assign node = include.node %}
+<li data-kind="{{ node.list | replace: '.', '-' }}">
+  <button type="button" class="email-tree-node" disabled data-list="{{ node.list }}" data-parent="{{ node.parent }}" data-scope="{% if node.cohort_prefix %}All {% endif %}{{ node.audience }}">
+    <span class="email-tree-node-label">{% if node.cohort_prefix %}All {% endif %}{{ node.audience | split: ':' | first }}</span>
+    <code>{{ node.list }}</code>
+  </button>
+  {% if node.cohort_prefix %}
+  {% assign current_year = site.time | date: '%Y' | plus: 0 %}
+  <ul class="email-tree-cohorts" data-prefix="{{ node.cohort_prefix }}" data-suffix="{{ node.cohort_suffix }}" data-count="{{ node.cohort_years }}" data-parent="{{ node.list }}" data-audience="{{ node.audience }}" data-year="{{ current_year }}">
+    {% for offset in (1..node.cohort_years) %}
+    {% assign year = current_year | minus: offset | plus: 1 %}
+    {% assign short_year = year | modulo: 100 | prepend: '0' | slice: -2, 2 %}
+    <li>
+      <button type="button" class="email-tree-node email-tree-cohort" disabled data-list="{{ node.cohort_prefix }}{{ short_year }}{{ node.cohort_suffix }}" data-parent="{{ node.list }}" data-scope="All {{ node.audience }} who joined the Department in {{ year }}">
+        <span class="email-tree-node-label">Joined in {{ year }}</span>
+        <code>{{ node.cohort_prefix }}{{ short_year }}{{ node.cohort_suffix }}</code>
+      </button>
+    </li>
+    {% endfor %}
+    <li class="email-tree-pattern">… <code>{{ node.cohort_prefix }}XX{{ node.cohort_suffix }}</code></li>
+  </ul>
+  {% else %}
+    {% assign children = page.email_tree | where: 'parent', node.list %}
+    {% if children.size > 0 %}
+    <ul class="email-tree-branches">
+      {% for child in children %}
+        {% include_relative _email-tree-node.html node=child %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% endif %}
+</li>
