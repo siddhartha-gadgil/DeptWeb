@@ -1,7 +1,7 @@
 {% assign node = include.node %}
 <li data-kind="{{ node.list | replace: '.', '-' }}">
   <button type="button" class="email-tree-node" disabled data-list="{{ node.list }}" data-parent="{{ node.parent }}" data-scope="{% if node.cohort_prefix %}All {% endif %}{{ node.audience }}">
-    <span class="email-tree-node-label">{% if node.cohort_prefix %}All {% endif %}{{ node.audience | split: ':' | first }}</span>
+    <span class="email-tree-node-label">{% if node.cohort_prefix %}all {% endif %}{{ node.audience | split: ':' | first }}</span>
     <code>{{ node.list }}</code>
   </button>
   {% if node.cohort_prefix %}
