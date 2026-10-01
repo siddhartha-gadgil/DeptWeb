@@ -77,7 +77,6 @@ email_tree:
         </div>
       </div>
     </div>
-    <p class="email-tree-direction"><strong>ALL@Math mailing lists</strong></p>
     <ul class="email-tree-tree" aria-label="Mailing list hierarchy">
       {% assign root = page.email_tree | first %}
       {% include_relative _email-tree-node.html node=root %}
@@ -96,16 +95,9 @@ email_tree:
     <h2 id="email-tree-reading" class="h5">How to read the chart</h2>
     <p id="email-tree-legend" class="email-tree-legend" hidden><span class="email-tree-key email-tree-key-active"></span> Selected list <span class="email-tree-key email-tree-key-included"></span> Also included</p>
     <ul class="pl-3 mb-3">
-      <li>The number is the year students joined the Department: <code>24</code> means <strong>2024</strong>.
-        It is not their year of study, the current academic year, or their graduation year.
-        <code>XX</code> stands for the last two digits of the joining year.</li>
+      <li>In students’ year-wise lists, <code>XX</code> stands for the last two digits of the joining year.</li>
       <li>Everything else is obvious.</li>
     </ul>
-    <div class="email-tree-shortcuts" aria-label="Student mailing list examples">
-      <p><strong>Only PhD students</strong><br>→ <code>phd.math</code></p>
-      <p><strong>Only Integrated PhD students</strong><br>→ <code>intphd.math</code></p>
-      <p><strong>PhD students who joined in 2024</strong><br>→ <code>phd24.math</code></p>
-    </div>
     <noscript><p class="mb-0">Add <code>@iisc.ac.in</code> to the list name shown in a box to get its email address.</p></noscript>
   </aside>
 </main>
