@@ -13,7 +13,7 @@
       var button = template.cloneNode(true);
       var exact = group.dataset.prefix + String(joiningYear).slice(-2) + group.dataset.suffix;
       button.dataset.list = exact;
-      button.dataset.scope = 'All ' + group.dataset.audience + ' who joined the Department in ' + joiningYear;
+      button.dataset.scope = 'all ' + group.dataset.audience + ' who joined the Department in ' + joiningYear;
       button.querySelector('.email-tree-node-label').textContent = 'Joined in ' + joiningYear;
       button.querySelector('code').textContent = exact;
       item.appendChild(button);

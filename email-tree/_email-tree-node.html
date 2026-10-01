@@ -1,6 +1,6 @@
 {% assign node = include.node %}
 <li data-kind="{{ node.list | replace: '.', '-' }}">
-  <button type="button" class="email-tree-node" disabled data-list="{{ node.list }}" data-parent="{{ node.parent }}" data-scope="{% if node.cohort_prefix %}All {% endif %}{{ node.audience }}">
+  <button type="button" class="email-tree-node" disabled data-list="{{ node.list }}" data-parent="{{ node.parent }}" data-scope="{% if node.cohort_prefix %}all {% endif %}{{ node.audience | replace_first: 'All ', 'all ' }}">
     <span class="email-tree-node-label">{% if node.cohort_prefix %}all {% endif %}{{ node.audience | split: ':' | first }}</span>
     <code>{{ node.list }}</code>
   </button>
@@ -11,7 +11,7 @@
     {% assign year = current_year | minus: offset | plus: 1 %}
     {% assign short_year = year | modulo: 100 | prepend: '0' | slice: -2, 2 %}
     <li>
-      <button type="button" class="email-tree-node email-tree-cohort" disabled data-list="{{ node.cohort_prefix }}{{ short_year }}{{ node.cohort_suffix }}" data-parent="{{ node.list }}" data-scope="All {{ node.audience }} who joined the Department in {{ year }}">
+      <button type="button" class="email-tree-node email-tree-cohort" disabled data-list="{{ node.cohort_prefix }}{{ short_year }}{{ node.cohort_suffix }}" data-parent="{{ node.list }}" data-scope="all {{ node.audience }} who joined the Department in {{ year }}">
         <span class="email-tree-node-label">Joined in {{ year }}</span>
         <code>{{ node.cohort_prefix }}{{ short_year }}{{ node.cohort_suffix }}</code>
       </button>
