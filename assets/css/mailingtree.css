@@ -36,7 +36,7 @@
 .mailingtree-branches { display: grid; gap: .6rem; position: relative; padding-top: 1.3rem !important; }
 .mailingtree-branches::before, .mailingtree-cohorts::before { content: ""; position: absolute; top: 0; left: 50%; height: 1.3rem; border-left: 1px solid #aa8b9e; }
 .mailingtree-branches > li::before { content: ""; position: absolute; left: 50%; top: -1.3rem; height: 1.3rem; border-left: 1px solid #aa8b9e; }
-.mailingtree-tree > li > .mailingtree-branches { grid-template-columns: minmax(0, 7fr) minmax(0, 1.8fr) minmax(0, 2.1fr) minmax(0, 1.6fr); gap: 1rem; padding-top: 1.7rem !important; }
+.mailingtree-tree > li > .mailingtree-branches { grid-template-columns: minmax(0, 8fr) minmax(0, 1.8fr) minmax(0, 1.8fr) minmax(0, 2.1fr) minmax(0, 1.6fr); gap: 1rem; padding-top: 1.7rem !important; }
 .mailingtree-tree > li > .mailingtree-branches > li::before { top: -1rem; height: 1rem; }
 .mailingtree-tree > li > .mailingtree-branches > li::after { content: ""; position: absolute; top: -1rem; left: -.5rem; right: -.5rem; border-top: 1px solid #aa8b9e; }
 .mailingtree-tree > li > .mailingtree-branches > li:first-child::after { left: 50%; }
@@ -59,16 +59,17 @@
 .mailingtree-cohorts { position: relative; padding-top: 1.3rem !important; }
 .mailingtree-cohorts > li + li { margin-top: .35rem; }
 .mailingtree-cohort { min-height: 40px; padding-top: .25rem; padding-bottom: .25rem; border-color: #ccc; }
+.mailingtree-cohort code { font-size: .75rem; }
 .mailingtree-tree [data-kind="faculty-math"] > .mailingtree-branches,
-.mailingtree-tree [data-kind="staff-math"] > .mailingtree-branches { margin-left: .35rem; border-left: 1px solid #aa8b9e; padding: .7rem 0 0 .65rem !important; }
+.mailingtree-tree [data-kind="projectstaff-math"] > .mailingtree-branches { margin-left: .35rem; border-left: 1px solid #aa8b9e; padding: .7rem 0 0 .65rem !important; }
 .mailingtree-tree [data-kind="faculty-math"] > .mailingtree-branches::before,
-.mailingtree-tree [data-kind="staff-math"] > .mailingtree-branches::before { display: none; }
+.mailingtree-tree [data-kind="projectstaff-math"] > .mailingtree-branches::before { display: none; }
 .mailingtree-tree [data-kind="faculty-math"] > .mailingtree-branches > li::before,
-.mailingtree-tree [data-kind="staff-math"] > .mailingtree-branches > li::before { left: -.65rem; top: 30px; width: .65rem; height: 0; border-top: 1px solid #aa8b9e; border-left: 0; }
+.mailingtree-tree [data-kind="projectstaff-math"] > .mailingtree-branches > li::before { left: -.65rem; top: 30px; width: .65rem; height: 0; border-top: 1px solid #aa8b9e; border-left: 0; }
 .mailingtree-pattern { font-size: .72rem; color: #595959; overflow-wrap: anywhere; }
 .mailingtree-pattern code { font-size: inherit; }
 .mailingtree-year-note { border-top: 1px solid #ddd; padding-top: .8rem; font-size: .9rem; }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .mailingtree-tree > li > .mailingtree-branches { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; padding-left: 1rem !important; border-left: 1px solid #aa8b9e; margin-left: .5rem; }
   .mailingtree-tree > li > .mailingtree-branches::before { left: -1px; height: 1.7rem; }
   .mailingtree-tree > li > .mailingtree-branches > li::before { left: -1rem; top: 30px; width: 1rem; height: 0; border-left: 0; border-top: 1px solid #aa8b9e; }
@@ -77,13 +78,13 @@
   .mailingtree-tree > li > .mailingtree-branches > li { text-align: left; }
   .mailingtree-tree [data-kind="students-math"] > .mailingtree-branches { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 2fr); }
   .mailingtree-tree [data-kind="faculty-math"] > .mailingtree-branches,
-  .mailingtree-tree [data-kind="staff-math"] > .mailingtree-branches { margin-left: 1rem; border-left: 1px solid #aa8b9e; padding: .7rem 0 0 1rem !important; }
+  .mailingtree-tree [data-kind="projectstaff-math"] > .mailingtree-branches { margin-left: 1rem; border-left: 1px solid #aa8b9e; padding: .7rem 0 0 1rem !important; }
   .mailingtree-tree [data-kind="faculty-math"] > .mailingtree-branches::before,
-  .mailingtree-tree [data-kind="staff-math"] > .mailingtree-branches::before { display: none; }
+  .mailingtree-tree [data-kind="projectstaff-math"] > .mailingtree-branches::before { display: none; }
   .mailingtree-tree [data-kind="faculty-math"] > .mailingtree-branches > li,
-  .mailingtree-tree [data-kind="staff-math"] > .mailingtree-branches > li { text-align: left; }
+  .mailingtree-tree [data-kind="projectstaff-math"] > .mailingtree-branches > li { text-align: left; }
   .mailingtree-tree [data-kind="faculty-math"] > .mailingtree-branches > li::before,
-  .mailingtree-tree [data-kind="staff-math"] > .mailingtree-branches > li::before { left: -1rem; top: 30px; width: 1rem; height: 0; border-top: 1px solid #aa8b9e; }
+  .mailingtree-tree [data-kind="projectstaff-math"] > .mailingtree-branches > li::before { left: -1rem; top: 30px; width: 1rem; height: 0; border-top: 1px solid #aa8b9e; }
 }
 @media (max-width: 575px) {
   .mailingtree-result { top: 0; padding: .6rem .7rem; }
