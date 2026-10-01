@@ -1,5 +1,5 @@
 ---
-title: ICTP--IMU Ramanujan Prize
+title: ICTP-IMU Ramanujan Prize
 date: September 30, 2026
 ---
 
