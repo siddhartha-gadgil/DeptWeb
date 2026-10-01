@@ -1,0 +1,56 @@
+- list: all.math
+  audience: Everyone
+- list: students.math
+  parent: all.math
+  audience: All students
+- list: phd.math
+  parent: students.math
+  audience: PhD students
+  cohort_prefix: phd
+  cohort_suffix: .math
+  cohort_years: 6
+- list: intphd.math
+  parent: students.math
+  audience: Integrated PhD students
+  cohort_prefix: intphd
+  cohort_suffix: .math
+  cohort_years: 8
+- list: ug.math
+  parent: students.math
+  audience: All undergraduate students
+- list: bsc.ug.math
+  parent: ug.math
+  audience: B.Sc. students
+  cohort_prefix: bsc
+  cohort_suffix: .ug.math
+  cohort_years: 4
+- list: btech.ug.math
+  parent: ug.math
+  audience: B.Tech Mathematics & Computing students
+  cohort_prefix: btech
+  cohort_suffix: .ug.math
+  cohort_years: 4
+- list: faculty.math
+  parent: all.math
+  audience: All faculty
+- list: prof.math
+  parent: faculty.math
+  audience: Professors
+- list: acp.math
+  parent: faculty.math
+  audience: Associate professors
+- list: ap.math
+  parent: faculty.math
+  audience: Assistant professors
+- list: staff.math
+  parent: all.math
+  audience: All staff
+- list: employees.math
+  parent: staff.math
+  audience: Permanent employees
+- list: projectstaff.math
+  parent: staff.math
+  audience: Project/temporary staff
+- list: postdocs.math
+  parent: all.math
+  audience: All postdocs
