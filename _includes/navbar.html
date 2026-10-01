@@ -130,7 +130,6 @@
           Resources <span class="caret"></span></a>
         <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
           <li><a class="dropdown-item" href="https://outlook.office.com/owa/" target="_blank"> IISc Mail</a></li>
-          <li><a class="dropdown-item" href="{{ site.baseurl }}/email-tree.html">Email tree</a></li>
           <!-- <li><a class="dropdown-item" href="https://indianinstituteofscience.sharepoint.com/sites/Academics/Pages/Departments.aspx">IISc Intranet</a></li> -->
           <li><a class="dropdown-item" href="https://mathscinet.ams.org/mathscinet/search/" target="_blank">MathSciNet</a></li>
           <li><a class="dropdown-item" href="{{ site.baseurl }}/computerfaqs.html">Computer/Network FAQs</a></li>
@@ -145,6 +144,10 @@
           <li><a class="dropdown-item" href="{{ site.baseurl }}/contact-us.html"> Contact Us </a></li>
           <hr/>
           <li class="dropdown-header"> <font color="#000000"><strong>UTILITIES</strong></font> </li>
+          {% assign email_tree_new_until = '2026-10-08T13:29:22Z' %}
+          {% assign navbar_now = site.time | date: '%s' | plus: 0 %}
+          {% assign email_tree_new_expiry = email_tree_new_until | date: '%s' | plus: 0 %}
+          <li><a class="dropdown-item" href="{{ site.baseurl }}/email-tree.html">Email tree{% if navbar_now < email_tree_new_expiry %} <span id="email-tree-new" class="badge badge-light ml-1" style="font-weight: 400;" data-new-until="{{ email_tree_new_until }}">new</span>{% endif %}</a></li>
           <li><a class="dropdown-item" href="{{site.baseurl}}/comprehensive-report-templates.html">Comprehensive Report Templates</a> </li>
           <li><a class="dropdown-item" href="{{site.baseurl}}/TAform.docx">TA form</a> </li>
           <li><a class="dropdown-item" href="{{site.baseurl}}/fileIndex.html">Department Forms</a></li>
@@ -170,6 +173,13 @@
 
 <script>
   (function () {
+    var newBadge = document.getElementById("email-tree-new");
+    if (newBadge) {
+      var remaining = Date.parse(newBadge.dataset.newUntil) - Date.now();
+      if (remaining <= 0) newBadge.remove();
+      else setTimeout(function () { newBadge.remove(); }, remaining);
+    }
+
     var searchRedirects = {
       "r14letterhead": "https://math.iisc.ac.in/~sysadmin/letterhead.html"
     };
