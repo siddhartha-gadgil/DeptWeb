@@ -6,7 +6,7 @@ time:  3 – 5 pm (with a 15 minute break in between)
 start_time: 15:00
 venue: LH-1, Mathematics Department
 series: "Eigenfunctions Seminar"
-slides: "2026-10-16-SushmitaVenugopalan.pdf.pdf"
+slides: "2026-10-16-SushmitaVenugopalan.pdf"
 ---
 
 We introduce Gromov's non-squeezing theorem, which is a foundational result in the field of symplectic geometry. We will see an outline of the proof of this result, which
