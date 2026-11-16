@@ -838,3 +838,22 @@ body[data-scroll="true"] #dynamic-bg {
   flex-shrink: 0;
   display: block;
 }
+
+.sponsors {
+  margin-top: 60px;
+}
+
+.sponsor-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.sponsor-logos img {
+  max-width: min(100%, 360px);
+  max-height: 150px;
+  object-fit: contain;
+}
