@@ -192,7 +192,9 @@ function legacy_name(string $tok, ?string $on = null): string {
 }
 
 // The Aug-Dec 2026 timetable: weekday numbers (0 = Sunday), minutes from midnight.
-// Generated from _data/courses.yaml.
+// Generated from _data/courses.yaml. The timetable ends with the term, so after
+// CLASSES_UNTIL the halls are free of classes (the page's SEM.end says the same).
+const CLASSES_UNTIL = '2026-11-30';
 const CLASSES = [
     ['room' => 'LH-4', 'days' => [2, 4], 'start' => 600, 'end' => 690, 'code' => 'MA 212'],
     ['room' => 'LH-4', 'days' => [1, 3, 5], 'start' => 540, 'end' => 600, 'code' => 'MA 219'],
@@ -386,7 +388,7 @@ function mins(string $hm): ?int {
 // What is already in this hall at this time -- a class, or a booking.
 function clash(string $room, string $date, int $s, int $e, array $bookings, string $skipId = ''): ?string {
     $wd = (int) (new DateTimeImmutable($date))->format('w');
-    foreach (CLASSES as $c) {
+    foreach ($date > CLASSES_UNTIL ? [] : CLASSES as $c) {
         if ($c['room'] === $room && in_array($wd, $c['days'], true)
             && $s < $c['end'] && $e > $c['start']) {
             return $c['code'];

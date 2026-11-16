@@ -1,0 +1,33 @@
+name: seminar venue check
+
+# A seminar put in a hall that is already taken is marked and unpublished,
+# see _scripts/seminar-venue-check.js. Pushes made with GITHUB_TOKEN do not
+# start workflows, so the commit below does not run this again.
+on:
+  push:
+    paths: ['_seminars/**']
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+    - name: Check venues of the seminars in this push
+      run: |
+        files=$(git diff --name-only --diff-filter=AM ${{ github.event.before }} ${{ github.sha }} -- _seminars 2>/dev/null \
+                || git diff --name-only --diff-filter=AM HEAD~1 HEAD -- _seminars)
+        if [ -n "$files" ]; then node _scripts/seminar-venue-check.js $files; fi
+    - name: Commit what was marked
+      run: |
+        git diff --quiet && exit 0
+        git config user.name "github-actions[bot]"
+        git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+        git commit -am "LHCal-Seminar held back: its venue is already booked" && git push
