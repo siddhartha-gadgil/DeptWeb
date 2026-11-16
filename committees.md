@@ -35,7 +35,7 @@ The present members and chairs are as follows:
 
 * [Bharathwaj Palvannan](https://math.iisc.ac.in/~bharathwaj/)
 * [Purvi Gupta](https://math.iisc.ac.in/~purvigupta/)
-* Karambir Das
+* Sachin Shukla
 * Ritabrata Das
 
 ---
