@@ -857,3 +857,63 @@ body[data-scroll="true"] #dynamic-bg {
   max-height: 150px;
   object-fit: contain;
 }
+
+/* Selected participants and the data-driven programme */
+.schedule-note { color: var(--muted); text-align: center; }
+.conference-table .schedule-time {
+  color: var(--accent-dark);
+  background: #f8f5ed;
+  border-right: 2px solid var(--accent-gold1);
+  border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+  padding: 10px;
+}
+.participant-search-label { display: block; font-weight: 600; color: var(--accent-dark); margin-bottom: 8px; }
+#participant-search { width: 100%; max-width: 400px; padding: 11px 14px; border: 1px solid #b6aa92; background: #fff; font: inherit; }
+#participant-search:focus { outline: 2px solid var(--accent-dark-light); outline-offset: 2px; }
+.participant-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 32px; list-style: none; padding: 0; margin: 20px 0 0; }
+.participant-list li { border-bottom: 1px solid var(--card-border); padding: 12px 0; }
+.participant-list li[hidden] { display: none; }
+.participant-list strong, .participant-list span { display: block; }
+.participant-list span { color: var(--muted); font-size: .9rem; }
+
+/* Search in the top ribbon */
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.site-search { position: relative; flex: 0 0 150px; }
+.site-search input { width: 100%; padding: 8px 11px; border: 1px solid #b6aa92; border-radius: 3px; background: #fff; font: inherit; font-size: .85rem; }
+.site-search input:focus { outline: 2px solid var(--accent-dark-light); outline-offset: 2px; }
+.site-search-results { position: absolute; right: 0; top: calc(100% + 8px); width: 320px; max-height: 60vh; overflow-y: auto; background: #fff; border: 1px solid var(--card-border); box-shadow: 0 8px 24px var(--card-shadow); }
+.site-search-results[hidden] { display: none; }
+.site-search-results a { display: block; padding: 10px 14px; border-bottom: 1px solid var(--card-border); color: var(--text-color); text-decoration: none; line-height: 1.4; }
+.site-search-results a:hover, .site-search-results a:focus { background: var(--card-bg); }
+.site-search-results strong, .site-search-results span { display: block; }
+.site-search-results span { color: var(--muted); font-size: .75rem; }
+.site-search-results p { margin: 0; padding: 12px 14px; color: var(--muted); }
+[id^="site-search-target-"] { scroll-margin-top: 110px; }
+
+/* Collapsible participant list */
+.participants-details summary { cursor: pointer; color: var(--accent-dark); font-weight: 700; padding: 5px 0; }
+.participants-details summary:focus-visible { outline: 2px solid var(--accent-dark-light); outline-offset: 4px; }
+.participants-full { padding-top: 22px; }
+.participant-preview { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 18px; }
+.participant-preview[hidden] { display: none; }
+.participant-preview > div { border-left: 3px solid var(--accent-gold1); padding: 4px 12px; }
+.participant-preview strong, .participant-preview span { display: block; }
+.participant-preview span { color: var(--muted); font-size: .9rem; }
+
+/* A gentle stagger gives the rotating names a sense of movement. */
+.participant-preview > div { animation: participant-arrive .7s cubic-bezier(.22, 1, .36, 1) both; }
+.participant-preview > div:nth-child(2) { animation-delay: .08s; }
+.participant-preview > div:nth-child(3) { animation-delay: .16s; }
+.participant-preview.is-changing > div { animation: participant-depart .4s ease-in both; }
+.participant-preview.is-changing > div:nth-child(2) { animation-delay: .025s; }
+.participant-preview.is-changing > div:nth-child(3) { animation-delay: .05s; }
+@keyframes participant-arrive {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes participant-depart {
+  to { opacity: 0; transform: translateY(-8px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .participant-preview > div, .participant-preview.is-changing > div { animation: none; }
+}

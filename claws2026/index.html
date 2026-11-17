@@ -1,9 +1,11 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=1200">
-  <title>Conservation Laws — IISc Bangalore</title>
+  <title>Conservation Laws | IISc Bangalore</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
@@ -23,8 +25,14 @@
       <a href="#about">About</a>
       <a href="#speakers">Speakers</a>
       <a href="#programme">Programme</a>
+      <a href="#participants">Participants</a>
       <a href="#contact">Contact</a>
     </nav>
+    <div class="site-search" role="search">
+      <label class="visually-hidden" for="site-search-input">Search the website</label>
+      <input id="site-search-input" type="search" placeholder="Search site" autocomplete="off" aria-controls="site-search-results" aria-expanded="false">
+      <div id="site-search-results" class="site-search-results" hidden></div>
+    </div>
   </div>
 </header>
 
@@ -232,6 +240,29 @@
   <!-- Programme Section -->
   <section id="programme">
     <div class="hero"><h2>Programme</h2></div>
+    {% capture programme_text %}{% include_relative _data/programme.md %}{% endcapture %}
+    {% assign programme_rows = programme_text | strip | newline_to_br | split: '<br />' | slice: 2, 10000 %}
+    {% if programme_rows.size > 0 %}
+    <div class="conference-schedule">
+      <div class="schedule-scroll">
+        <table class="conference-table">
+          <thead><tr><th class="time-column" scope="col">Time (IST)</th><th scope="col">16 Dec · Wed</th><th scope="col">17 Dec · Thu</th><th scope="col">18 Dec · Fri</th></tr></thead>
+          <tbody>
+            {% for row in programme_rows %}
+            {% assign cells = row | split: ' | ' %}
+            <tr>
+              <th class="time schedule-time" scope="row">{{ cells[0] | strip | escape }}</th>
+              <td class="event talk">{{ cells[1] | strip | escape | replace: '&lt;br&gt;', '<br>' }}</td>
+              <td class="event talk">{{ cells[2] | strip | escape | replace: '&lt;br&gt;', '<br>' }}</td>
+              <td class="event talk">{{ cells[3] | strip | escape | replace: '&lt;br&gt;', '<br>' }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% else %}
+    <p class="schedule-note">The final schedule will be published here soon. The outline below is provisional.</p>
     <div class="conference-schedule">
       <div class="schedule-scroll">
         <table class="conference-table">
@@ -422,6 +453,41 @@
         </table>
       </div>
     </div>
+    {% endif %}
+  </section>
+
+  <section id="participants">
+    <div class="hero"><h2>Selected Participants</h2></div>
+    <div class="card participant-card">
+      {% capture participants_text %}{% include_relative _data/participants.md %}{% endcapture %}
+      {% assign participants = participants_text | strip | newline_to_br | split: '<br />' | slice: 2, 10000 %}
+      {% if participants.size > 0 %}
+      <details id="participants-details" class="participants-details">
+        <summary>View all {{ participants.size }} participants</summary>
+        <div class="participants-full">
+      <label class="participant-search-label" for="participant-search">Search by name or institution</label>
+      <input id="participant-search" type="search" placeholder="Search participants" autocomplete="off">
+      <ul id="participant-list" class="participant-list">
+        {% for participant in participants %}
+        {% assign person = participant | split: ' | ' %}
+        {% assign institution = person[1] | strip %}
+        <li><strong>{{ person[0] | strip | escape }}</strong>{% if institution != empty %}<span>{{ institution | escape }}</span>{% endif %}</li>
+        {% endfor %}
+      </ul>
+      <p id="participant-empty" hidden>No participants match your search.</p>
+        </div>
+      </details>
+      <div id="participant-preview" class="participant-preview" aria-label="Participant preview">
+        {% for participant in participants limit:3 %}
+        {% assign person = participant | split: ' | ' %}
+        {% assign institution = person[1] | strip %}
+        <div><strong>{{ person[0] | strip | escape }}</strong>{% if institution != empty %}<span>{{ institution | escape }}</span>{% endif %}</div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p>The list of selected participants will be published here soon.</p>
+      {% endif %}
+    </div>
   </section>
   <!-- Information Section (removed for now, will add locations back later)
   <section id="information">
@@ -472,9 +538,9 @@
     <div class="card">
         <span class="label">Organizing Committee</span>
         <ul class="organizer-list">
-          <li><img src="assets/aekta.png" alt="Aekta Aggarwal"><div><strong>Aekta Aggarwal</strong> — Full Time Visiting Faculty, Decision Sciences, Indian Institute of Management Bangalore, Dorabji Tata School of Undergraduate Studies. (<a href="mailto:aekta.aggarwal@iimb.ac.in">aekta.aggarwal@iimb.ac.in</a>)</div></li>
-          <li><img class="shyam-photo" src="assets/img/shyam-ghoshal.png" alt="Shyam Ghoshal"><div><strong>Shyam Ghoshal</strong> — Associate Professor, TIFR-CAM, Bengaluru (<a href="mailto:ghoshal@tifrbng.res.in">ghoshal@tifrbng.res.in</a>)</div></li>
-          <li><img src="assets/img/ganesh-vaidya.png" alt="Ganesh Vaidya"><div><strong>Ganesh Vaidya</strong> — Assistant Professor, Department of Mathematics, IISc Bengaluru (<a href="mailto:vaidyaganesh@iisc.ac.in">vaidyaganesh@iisc.ac.in</a>)</div></li>
+          <li><img src="assets/aekta.png" alt="Aekta Aggarwal"><div><strong>Aekta Aggarwal</strong>, Full Time Visiting Faculty, Decision Sciences, Indian Institute of Management Bangalore, Dorabji Tata School of Undergraduate Studies. (<a href="mailto:aekta.aggarwal@iimb.ac.in">aekta.aggarwal@iimb.ac.in</a>)</div></li>
+          <li><img class="shyam-photo" src="assets/img/shyam-ghoshal.png" alt="Shyam Ghoshal"><div><strong>Shyam Ghoshal</strong>, Associate Professor, TIFR-CAM, Bengaluru (<a href="mailto:ghoshal@tifrbng.res.in">ghoshal@tifrbng.res.in</a>)</div></li>
+          <li><img src="assets/img/ganesh-vaidya.png" alt="Ganesh Vaidya"><div><strong>Ganesh Vaidya</strong>, Assistant Professor, Department of Mathematics, IISc Bengaluru (<a href="mailto:vaidyaganesh@iisc.ac.in">vaidyaganesh@iisc.ac.in</a>)</div></li>
         </ul>
     </div>
   </section>
@@ -501,7 +567,7 @@
 </main>
 
 <footer style="margin-top: 40px;">
-  <p>&copy; 2026 Conservation Laws — Department of Mathematics, IISc Bangalore</p>
+  <p>&copy; 2026 Conservation Laws, Department of Mathematics, IISc Bangalore</p>
 </footer>
 
 <script src="assets/js/main.js"></script>

@@ -1,1 +1,11 @@
 /playground/
+
+# Local Jekyll output
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+
+# Local reference documents
+/Website changes (1).docx
+/Shared accomodation List.xlsx
+/Final schedule (formatted).xlsx

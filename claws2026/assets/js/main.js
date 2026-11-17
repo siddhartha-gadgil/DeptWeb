@@ -59,10 +59,127 @@ document.addEventListener('DOMContentLoaded', () => {
     
     searchInput.addEventListener('input', (e) => {
       const query = e.target.value.toLowerCase();
+      let visible = 0;
       participants.forEach(li => {
-        const text = li.textContent.toLowerCase();
-        li.style.display = text.includes(query) ? '' : 'none';
+        const matches = li.textContent.toLowerCase().includes(query);
+        li.hidden = !matches;
+        if (matches) visible += 1;
       });
+      const emptyMessage = document.getElementById('participant-empty');
+      if (emptyMessage) emptyMessage.hidden = visible !== 0;
+    });
+  }
+
+  // Rotate the short preview while the full list is closed.
+  const participantDetails = document.getElementById('participants-details');
+  const participantPreview = document.getElementById('participant-preview');
+  if (participantDetails && participantPreview && participantList) {
+    const people = Array.from(participantList.children);
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let previewOffset = 0;
+    const updatePreview = () => {
+      participantPreview.replaceChildren();
+      for (let i = 0; i < Math.min(3, people.length); i += 1) {
+        const card = document.createElement('div');
+        const person = people[(previewOffset + i) % people.length];
+        const name = document.createElement('strong');
+        name.textContent = person.querySelector('strong')?.textContent || '';
+        card.append(name);
+        const institution = person.querySelector('span')?.textContent;
+        if (institution) {
+          const affiliation = document.createElement('span');
+          affiliation.textContent = institution;
+          card.append(affiliation);
+        }
+        participantPreview.append(card);
+      }
+    };
+    participantDetails.addEventListener('toggle', () => {
+      participantPreview.hidden = participantDetails.open;
+    });
+    if (people.length > 3) {
+      window.setInterval(() => {
+        if (participantDetails.open || reducedMotion.matches || document.hidden) return;
+        participantPreview.classList.add('is-changing');
+        window.setTimeout(() => {
+          if (!participantDetails.open && !document.hidden && !reducedMotion.matches) {
+            previewOffset = (previewOffset + 3) % people.length;
+            updatePreview();
+          }
+          participantPreview.classList.remove('is-changing');
+        }, 450);
+      }, 5000);
+    }
+  }
+
+  // Search the page's people, programme and main sections.
+  const siteSearch = document.getElementById('site-search-input');
+  const searchResults = document.getElementById('site-search-results');
+  if (siteSearch && searchResults) {
+    const entries = [];
+    const addEntry = (element, label, category, searchable) => {
+      if (!label || !element) return;
+      if (!element.id) element.id = `site-search-target-${entries.length}`;
+      entries.push({ element, label, category, searchable: (searchable || label).toLowerCase() });
+    };
+    document.querySelectorAll('.speaker-card').forEach(card => {
+      addEntry(card, card.querySelector('.speaker-info strong')?.textContent.trim(), 'Speaker', card.textContent);
+    });
+    document.querySelectorAll('#participant-list li').forEach(item => {
+      addEntry(item, item.querySelector('strong')?.textContent.trim(), 'Participant', item.textContent);
+    });
+    document.querySelectorAll('#programme tbody td').forEach(cell => {
+      const label = cell.textContent.replace(/\s+/g, ' ').trim();
+      if (label) addEntry(cell, label, 'Programme', label);
+    });
+    document.querySelectorAll('main section[id]').forEach(section => {
+      const heading = section.querySelector('h1, h2')?.textContent.trim() || section.id;
+      addEntry(section, heading, 'Section', section.textContent);
+    });
+    const closeResults = () => {
+      searchResults.hidden = true;
+      siteSearch.setAttribute('aria-expanded', 'false');
+    };
+    siteSearch.addEventListener('input', () => {
+      const query = siteSearch.value.trim().toLowerCase();
+      searchResults.replaceChildren();
+      if (!query) { closeResults(); return; }
+      const matches = entries.filter(entry => entry.searchable.includes(query)).slice(0, 8);
+      if (!matches.length) {
+        const message = document.createElement('p');
+        message.textContent = 'No results found.';
+        searchResults.append(message);
+      }
+      matches.forEach(entry => {
+        const link = document.createElement('a');
+        link.href = `#${entry.element.id}`;
+        const title = document.createElement('strong');
+        title.textContent = entry.label;
+        const category = document.createElement('span');
+        category.textContent = entry.category;
+        link.append(title, category);
+        link.addEventListener('click', () => {
+          if (entry.category === 'Participant' && searchInput && participantList) {
+            if (participantDetails) participantDetails.open = true;
+            searchInput.value = '';
+            searchInput.dispatchEvent(new Event('input'));
+          }
+          closeResults();
+        });
+        searchResults.append(link);
+      });
+      searchResults.hidden = false;
+      siteSearch.setAttribute('aria-expanded', 'true');
+    });
+    siteSearch.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeResults();
+      if (event.key === 'Enter') {
+        const firstResult = searchResults.querySelector('a');
+        if (firstResult && !searchResults.hidden) { event.preventDefault(); firstResult.click(); }
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!event.target.closest('.site-search')) closeResults();
     });
   }
 
