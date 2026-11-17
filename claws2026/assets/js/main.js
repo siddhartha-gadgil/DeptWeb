@@ -40,12 +40,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (menuToggle && navLinksContainer) {
     menuToggle.addEventListener('click', () => {
-      navLinksContainer.classList.toggle('active');
+      const isOpen = navLinksContainer.classList.toggle('active');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
     });
 
     navLinks.forEach(link => {
       link.addEventListener('click', () => {
         navLinksContainer.classList.remove('active');
+        menuToggle.setAttribute('aria-expanded', 'false');
       });
     });
   }
