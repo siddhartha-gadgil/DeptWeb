@@ -244,7 +244,9 @@ layout: null
     <div class="hero"><h2>Programme</h2></div>
     {% capture programme_text %}{% include_relative _data/programme.md %}{% endcapture %}
     {% assign programme_rows = programme_text | strip | newline_to_br | split: '<br />' | slice: 2, 10000 %}
-    {% if programme_rows.size > 0 %}
+    {% capture programme_display %}{% include_relative _data/programme-display.md %}{% endcapture %}
+    {% assign programme_display = programme_display | strip %}
+    {% if programme_display == 'detailed' and programme_rows.size > 0 %}
     <div class="conference-schedule">
       <div class="schedule-scroll">
         <table class="conference-table">
@@ -264,7 +266,6 @@ layout: null
       </div>
     </div>
     {% else %}
-    <p class="schedule-note">The final schedule will be published here soon. The outline below is provisional.</p>
     <div class="conference-schedule">
       <div class="schedule-scroll">
         <table class="conference-table">
