@@ -10,7 +10,7 @@ layout: null
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=20261117-2">
+  <link rel="stylesheet" href="assets/css/style.css?v={{ site.time | date: '%s' }}">
 </head>
 <body>
 
@@ -26,6 +26,7 @@ layout: null
       <a href="#about">About</a>
       <a href="#speakers">Speakers</a>
       <a href="#programme">Programme</a>
+      <a href="#talks">Talks</a>
       <a href="#participants">Participants</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -39,7 +40,6 @@ layout: null
 </header>
 
 <main class="page">
-  <!-- Home Section -->
   <section id="home">
     <div class="hero">
       <h1>Conservation Laws</h1>
@@ -53,19 +53,18 @@ layout: null
       </div>
       <div class="card">
         <span class="label">Conference Goal</span>
-        <p style="font-size: 1.15rem; line-height: 1.7; margin-top: 10px;">To bring together India's active research community in hyperbolic conservation laws with leading international experts, strengthen collaborations, expose students and early-career researchers to the research area and its current developments, and build a cohesive research community in this domain.</p>
+        <p class="goal">To bring together India's active research community in hyperbolic conservation laws with leading international experts, strengthen collaborations, expose students and early-career researchers to the research area and its current developments, and build a cohesive research community in this domain.</p>
       </div>
     </div>
   </section>
-  <!-- About Section -->
   <section id="about">
     
 <div class="card">
-  <span class="label" style="text-align: center; display: block; margin-bottom: 20px;">Focal Themes</span>
+  <span class="label">Focal Themes</span>
 
   <p>Hyperbolic conservation laws provide the mathematical framework for modeling real-world phenomena such as wave propagation in fluid dynamics, traffic flow, crowd flow, geophysical hazards, environmental sciences, and several other engineering and industrial applications. Recent developments in conservation laws and their machine learning-based approximations have further broadened the impact of the subject. The conference will focus on the following major themes:</p>
 
-  <ul style="margin-top: 20px; line-height: 1.8;">
+  <ul>
     <li>Well-Posedness and Qualitative Theory</li>
     <li>Numerical Methods</li>
     <li>Machine Learning-Based Algorithm</li>
@@ -73,397 +72,109 @@ layout: null
   </ul>
 </div>
   </section>
-  <!-- Speakers Section -->
+  <!-- Data rows: one per line in _data/*.md, cells separated by |, first two lines are the header. -->
+{% capture nl %}
+{% endcapture %}
+  {% capture talks_text %}{% include_relative _data/talks.md %}{% endcapture %}
+  {% assign talk_rows = talks_text | strip | split: nl | slice: 2, 10000 | where_exp: 'row', "row contains '|'" %}
+  {% capture speakers_text %}{% include_relative _data/speakers.md %}{% endcapture %}
+  {% assign speaker_rows = speakers_text | strip | split: nl | slice: 2, 10000 | where_exp: 'row', "row contains '|'" %}
+  {% capture talk_names %}{% for row in talk_rows %}{% assign cells = row | split: '|' %}|{{ cells[2] | strip }}|{% endfor %}{% endcapture %}
+
   <section id="speakers">
     <div class="hero"><h2>Confirmed Speakers</h2></div>
     <div class="speaker-grid">
+      {% for row in speaker_rows %}
+      {% assign cells = row | split: '|' %}
+      {% assign name = cells[0] | strip %}
+      {% assign link = cells[3] | strip %}
+      {% capture key %}|{{ name }}|{% endcapture %}
       <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/remi-abgrall.jpeg" alt="Rémi Abgrall">
+        <div class="speaker-avatar"><img src="assets/img/speakers/{{ cells[2] | strip }}" alt="" loading="lazy"></div>
+        <div class="speaker-info">
+          {% if link != '' %}<a href="{{ link | escape }}" target="_blank"><strong>{{ name | escape }}</strong></a>{% else %}<strong>{{ name | escape }}</strong>{% endif %}
+          <span>{{ cells[1] | strip | escape }}</span>
+          {% if talk_names contains key %}<a class="talk-link" href="#talk-{{ name | slugify: 'latin' }}">View talk</a>{% endif %}
         </div>
-        <div class="speaker-info"><a href="https://share.google/dKlAdnU69CnvwTrCT" target="_blank"><strong>Rémi Abgrall</strong></a><span> University of Zurich, Switzerland</span></div>
       </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/bandreianov.jpg" alt="Boris Andreianov">
-        </div>
-        <div class="speaker-info"><a href="https://scholar.google.com/citations?hl=en&user=zmjv6zMAAAAJ" target="_blank"><strong>Boris Andreianov</strong></a><span> Université de Tours, France</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/karun.jpg" alt="K. R. Arun">
-        </div>
-        <div class="speaker-info"><a href="https://iisertvm.irins.org/profile/94144" target="_blank"><strong>K. R. Arun</strong></a><span> IISER Thiruvananthapuram</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/sbaskar.jpg" alt="S. Baskar">
-        </div>
-        <div class="speaker-info"><a href="https://www.math.iitb.ac.in/~baskar/" target="_blank"><strong>S. Baskar</strong></a><span> IIT Bombay</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar"><img src="assets/img/speakers/deepak-bhoriya.png" alt="Deepak Bhoriya"></div>
-        <div class="speaker-info"><strong>Deepak Bhoriya</strong><span> BITS Pilani, Pilani Campus</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/bbiswas.jpg" alt="Biswarup Biswas">
-        </div>
-        <div class="speaker-info"><a href="https://www.mahindrauniversity.edu.in/faculty/biswarup-biswas/" target="_blank"><strong>Biswarup Biswas</strong></a><span> Mahindra University, Hyderabad</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/abressan.jpg" alt="Alberto Bressan">
-        </div>
-        <div class="speaker-info"><a href="https://science.psu.edu/math/people/axb62" target="_blank"><strong>Alberto Bressan</strong></a><span> Penn State University, USA</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/rburger.jpg" alt="Raimund Bürger">
-        </div>
-        <div class="speaker-info"><a href="https://www.ing-mat.udec.cl/~rburger/" target="_blank"><strong>Raimund Bürger</strong></a><span> Universidad de Concepción, Chile</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/pchandrashekar.jpg" alt="Praveen Chandrashekar">
-        </div>
-        <div class="speaker-info"><a href="https://cpraveen.github.io/" target="_blank"><strong>Praveen Chandrashekar</strong></a><span> TIFR-CAM, Bangalore</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/rdutta.jpg" alt="Rajib Dutta">
-        </div>
-        <div class="speaker-info"><a href="https://www.iiserkol.ac.in/web/faculty-details/rajib-dutta" target="_blank"><strong>Rajib Dutta</strong></a><span> IISER Kolkata</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/ngarg.jpg" alt="Naveen Kumar Garg">
-        </div>
-        <div class="speaker-info"><a href="https://www.iitkgp.ac.in/department/MA/faculty/ma-gargnk" target="_blank"><strong>Naveen Kumar Garg</strong></a><span> IIT Kharagpur</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/gdgowda.jpg" alt="G. D. Veerappa Gowda">
-        </div>
-        <div class="speaker-info"><a href="https://www.mahindrauniversity.edu.in/faculty/veerappa-gowda-g-d/" target="_blank"><strong>G. D. Veerappa Gowda</strong></a><span> Mahindra University, Hyderabad</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/hholden.jpg" alt="Helge Holden">
-        </div>
-        <div class="speaker-info"><a href="https://www.ntnu.edu/employees/helge.holden" target="_blank"><strong>Helge Holden</strong></a><span> NTNU, Trondheim, Norway</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/ajana.jpg" alt="Animesh Jana">
-        </div>
-        <div class="speaker-info"><a href="https://sites.google.com/view/animesh-jana/home" target="_blank"><strong>Animesh Jana</strong></a><span> HRI, Prayagraj</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar"><img src="assets/img/speakers/stephane-junca.png" alt="Stéphane Junca"></div>
-        <div class="speaker-info"><strong>Stéphane Junca</strong><span> Université Côte d'Azur, France</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar"><img src="assets/img/speakers/konduri-aditya.png" alt="Konduri Aditya"></div>
-        <div class="speaker-info"><strong>Konduri Aditya</strong><span> Indian Institute of Science, Bengaluru</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/hkumar.jpg" alt="Harish Kumar">
-        </div>
-        <div class="speaker-info"><a href="https://maths.iitd.ac.in/faculty" target="_blank"><strong>Harish Kumar</strong></a><span> IIT Delhi</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/rkumar.jpg" alt="Rakesh Kumar">
-        </div>
-        <div class="speaker-info"><a href="https://www.mahindrauniversity.edu.in/faculty/rakesh-kumar/" target="_blank"><strong>Rakesh Kumar</strong></a><span> Mahindra University, Hyderabad</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/skkumar.jpg" alt="Sudarshan Kumar K.">
-        </div>
-        <div class="speaker-info"><a href="https://maths.iisertvm.ac.in/" target="_blank"><strong>Sudarshan Kumar K.</strong></a><span> IISER Thiruvananthapuram</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/smishra.jpg" alt="Siddhartha Mishra">
-        </div>
-        <div class="speaker-info"><a href="https://math.ethz.ch/sam/the-institute/people/siddhartha-mishra.html" target="_blank"><strong>Siddhartha Mishra</strong></a><span> ETH Zürich, Switzerland</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/apchoudhury.jpg" alt="Anupam Pal Choudhury">
-        </div>
-        <div class="speaker-info"><a href="https://www.niser.ac.in/profile/anupampcmath" target="_blank"><strong>Anupam Pal Choudhury</strong></a><span> NISER Bhubaneswar</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar"><img src="assets/img/speakers/raghuram-rao.png" alt="S. V. Raghuram Rao"></div>
-        <div class="speaker-info"><strong>S. V. Raghuram Rao</strong><span> Indian Institute of Science, Bengaluru</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/srathan.jpg" alt="Samala Rathan">
-        </div>
-        <div class="speaker-info"><a href="https://iipe.ac.in/faculty_profile_details?id=27" target="_blank"><strong>Samala Rathan</strong></a><span> IIPE, Visakhapatnam</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/t-raja-sekhar.jpg" alt="T. Raja Sekhar">
-        </div>
-        <div class="speaker-info"><strong>T. Raja Sekhar</strong><span> Indian Institute of Technology Kharagpur, India</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/mrsahoo.jpg" alt="Manas R. Sahoo">
-        </div>
-        <div class="speaker-info"><a href="https://www.niser.ac.in/" target="_blank"><strong>Manas R. Sahoo</strong></a><span> NISER Bhubaneswar</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/jthomas.jpg" alt="Jim Thomas">
-        </div>
-        <div class="speaker-info"><a href="https://jimthomasedu.github.io/" target="_blank"><strong>Jim Thomas</strong></a><span> TIFR-CAM, Bangalore</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/pvenkatesh.jpg" alt="Parasuram Venkatesh">
-        </div>
-        <div class="speaker-info"><a href="https://parasuramv.github.io/" target="_blank"><strong>Parasuram Venkatesh</strong></a><span> TIFR-CAM, Bangalore</span></div>
-      </div>
-      <div class="speaker-card">
-        <div class="speaker-avatar">
-          <img src="assets/img/speakers/ewiedemann.jpg" alt="Emil Wiedemann">
-        </div>
-        <div class="speaker-info"><a href="https://www.math.fau.de/ls-analysis/prof-dr-emil-wiedemann/" target="_blank"><strong>Emil Wiedemann</strong></a><span> University of Erlangen-Nürnberg, Germany</span></div>
-      </div>
+      {% endfor %}
     </div>
   </section>
-  <!-- Programme Section -->
+
   <section id="programme">
     <div class="hero"><h2>Programme</h2></div>
     {% capture programme_text %}{% include_relative _data/programme.md %}{% endcapture %}
-    {% assign programme_rows = programme_text | strip | newline_to_br | split: '<br />' | slice: 2, 10000 %}
-    {% capture programme_display %}{% include_relative _data/programme-display.md %}{% endcapture %}
-    {% assign programme_display = programme_display | strip %}
-    {% if programme_display == 'detailed' and programme_rows.size > 0 %}
-    <div class="conference-schedule">
-      <div class="schedule-scroll">
-        <table class="conference-table">
-          <thead><tr><th class="time-column" scope="col">Time (IST)</th><th scope="col">16 Dec · Wed</th><th scope="col">17 Dec · Thu</th><th scope="col">18 Dec · Fri</th></tr></thead>
-          <tbody>
-            {% for row in programme_rows %}
-            {% assign cells = row | split: ' | ' %}
-            <tr>
-              <th class="time schedule-time" scope="row">{{ cells[0] | strip | escape }}</th>
-              <td class="event talk">{{ cells[1] | strip | escape | replace: '&lt;br&gt;', '<br>' }}</td>
-              <td class="event talk">{{ cells[2] | strip | escape | replace: '&lt;br&gt;', '<br>' }}</td>
-              <td class="event talk">{{ cells[3] | strip | escape | replace: '&lt;br&gt;', '<br>' }}</td>
-            </tr>
+    {% assign programme_rows = programme_text | strip | split: nl | slice: 2, 10000 | where_exp: 'row', "row contains '|'" %}
+    <div class="schedule-scroll">
+      <table class="conference-table">
+        <thead><tr><th class="time-column" scope="col">Time (IST)</th><th scope="col">16 Dec · Wed</th><th scope="col">17 Dec · Thu</th><th scope="col">18 Dec · Fri</th></tr></thead>
+        <tbody>
+          {% for row in programme_rows %}
+          {% assign cells = row | split: '|' %}
+          <tr>
+            <th class="schedule-time" scope="row">{{ cells[0] | strip | escape }}</th>
+            {% for i in (1..3) %}
+            {% assign cell = cells[i] | strip | escape | replace: '&lt;br&gt;', '<br>' %}
+            {% for talk in talk_rows %}{% assign t = talk | split: '|' %}{% assign speaker = t[2] | strip | escape %}{% capture link %}<a href="#talk-{{ speaker | slugify: 'latin' }}">{{ speaker }}</a>{% endcapture %}{% assign cell = cell | replace: speaker, link %}{% endfor %}
+            <td{% if cell contains 'Break' %} class="break-cell"{% endif %}>{{ cell }}</td>
             {% endfor %}
-          </tbody>
-        </table>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="talks">
+    <div class="hero"><h2>Talks</h2></div>
+    <div id="talks-carousel" class="talks expanded" role="region" aria-roledescription="carousel" aria-label="Talk titles and abstracts" tabindex="0">
+      <div class="talks-toolbar"><button type="button" id="talks-toggle" class="talks-toggle" hidden>View all {{ talk_rows.size }} talks</button></div>
+      <div class="talk-track">
+        {% for row in talk_rows %}
+        {% assign cells = row | split: '|' %}
+        {% assign speaker = cells[2] | strip %}
+        {% assign abstract = cells | slice: 5, 10000 | join: '|' | strip %}
+        {% assign affiliation = '' %}{% assign photo = '' %}
+        {% for s in speaker_rows %}{% assign sc = s | split: '|' %}{% assign sn = sc[0] | strip %}{% if sn == speaker %}{% assign affiliation = sc[1] | strip %}{% assign photo = sc[2] | strip %}{% endif %}{% endfor %}
+        {% assign words = speaker | split: ' ' %}
+        <article id="talk-{{ speaker | slugify: 'latin' }}" class="talk-card" data-speaker="{{ speaker | escape }}" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ talk_rows.size }}">
+          <div class="talk-when">
+            <span class="talk-day">{{ cells[0] | strip | date: '%a' }}</span>
+            <span class="talk-date">{{ cells[0] | strip | date: '%-d' }}</span>
+            <span class="talk-month">{{ cells[0] | strip | date: '%b' }}</span>
+            <span class="talk-time">{{ cells[1] | strip | escape }}</span>
+          </div>
+          <div class="talk-body">
+            <div class="talk-speaker">
+              <div class="speaker-avatar">{% if photo != '' %}<img src="assets/img/speakers/{{ photo }}" alt="" loading="lazy">{% else %}<span class="initials">{{ words.first | slice: 0 }}{{ words.last | slice: 0 }}</span>{% endif %}</div>
+              <p><strong>{{ speaker | escape }}</strong> {{ affiliation | escape }}{% assign mode = cells[3] | strip %}{% if mode == 'Online' %} <span class="talk-mode">Online</span>{% endif %}</p>
+            </div>
+            <h3 class="talk-title">{{ cells[4] | strip | escape }}</h3>
+            <div class="talk-abstract">{% if abstract != '' %}{{ abstract | escape | replace: '&lt;br&gt;', '<br>' }}{% else %}<em>Abstract to be announced.</em>{% endif %}</div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      <div class="talks-nav">
+        <button type="button" id="talks-prev" aria-label="Previous talk">&#8249;</button>
+        <span id="talks-counter" aria-live="polite"></span>
+        <button type="button" id="talks-next" aria-label="Next talk">&#8250;</button>
+      </div>
+      <div class="talk-dots">
+        {% assign day = '' %}
+        {% for row in talk_rows %}{% assign cells = row | split: '|' %}{% assign date = cells[0] | strip %}
+        {% if date != day %}{% unless forloop.first %}</span>{% endunless %}<span class="talk-dots-day"><span>{{ date | date: '%a %-d' }}</span>{% assign day = date %}{% endif %}
+        <button type="button" tabindex="-1" aria-label="Talk {{ forloop.index }}: {{ cells[2] | strip | escape }}"></button>
+        {% if forloop.last %}</span>{% endif %}{% endfor %}
       </div>
     </div>
-    {% else %}
-    <div class="conference-schedule">
-      <div class="schedule-scroll">
-        <table class="conference-table">
-          <thead>
-            <tr>
-              <th class="time-column">Time</th>
-              <th>
-                <span class="day-number">DAY 1</span>
-                <span class="day-date">16 DEC · WED</span>
-              </th>
-              <th>
-                <span class="day-number">DAY 2</span>
-                <span class="day-date">17 DEC · THU</span>
-              </th>
-              <th>
-                <span class="day-number">DAY 3</span>
-                <span class="day-date">18 DEC · FRI</span>
-              </th>
-            </tr>
-          </thead>
-
-          <tbody>
-  <tr>
-    <td class="time">9.30-10.00</td>
-    <td class="event ceremony">
-      <span class="event-title">Opening Ceremony/Registration</span>
-    </td>
-    <td class="event talk"><span class="event-title">Talk-11</span></td>
-    <td class="event talk"><span class="event-title">Talk-19</span></td>
-  </tr>
-
-  <tr>
-    <td class="time">10:00-10:30</td>
-    <td class="event talk"><span class="event-title">Talk-1</span></td>
-    <td class="event talk"><span class="event-title">Talk-12</span></td>
-    <td class="event talk"><span class="event-title">Talk-20</span></td>
-  </tr>
-
-  <tr class="break-row">
-    <td class="time">10:30–11:00</td>
-    <td class="break-cell"><span>Coffee Break</span></td>
-    <td class="break-cell"><span>Coffee Break</span></td>
-    <td class="break-cell"><span>Coffee Break</span></td>
-  </tr>
-
-  <tr>
-    <td class="time">11:00–11:30</td>
-    <td class="event talk"><span class="event-title">Talk-2</span></td>
-    <td class="event talk"><span class="event-title">Talk-13</span></td>
-    <td class="event talk"><span class="event-title">Talk-21</span></td>
-  </tr>
-
-  <tr>
-    <td class="time">11:30-12:00</td>
-    <td class="event talk"><span class="event-title">Talk-3</span></td>
-    <td class="event talk"><span class="event-title">Talk-14</span></td>
-    <td class="event talk"><span class="event-title">Talk-22</span></td>
-  </tr>
-
-  <tr>
-    <td class="time">12:00-12:30</td>
-    <td class="event talk"><span class="event-title">Talk-4</span></td>
-    <td class="event talk"><span class="event-title">Talk-15</span></td>
-    <td class="event talk"><span class="event-title">Talk-23</span></td>
-  </tr>
-
-  <tr class="meal-row">
-    <td class="time">12:30–13:00</td>
-    <td class="meal-cell" rowspan="3"><span>Lunch</span></td>
-    <td class="meal-cell" rowspan="3"><span>Lunch</span></td>
-    <td class="meal-cell" rowspan="3"><span>Lunch</span></td>
-  </tr>
-
-  <tr class="meal-row">
-    <td class="time">13:00–13:30</td>
-  </tr>
-
-  <tr class="meal-row">
-    <td class="time">13:30–14:00</td>
-  </tr>
-
-  <tr>
-    <td class="time">14:00–14:30</td>
-    <td class="event talk"><span class="event-title">Talk-5</span></td>
-    <td class="event talk"><span class="event-title">Talk-16</span></td>
-    <td class="event talk"><span class="event-title">Talk-24</span></td>
-  </tr>
-
-  <tr>
-    <td class="time">14:30–15:00</td>
-    <td class="event talk"><span class="event-title">Talk-6</span></td>
-    <td class="event talk"><span class="event-title">Talk-17</span></td>
-    <td class="event talk"><span class="event-title">Talk-25</span></td>
-  </tr>
-
-  <tr>
-    <td class="time">15:00-15:30</td>
-    <td class="event talk"><span class="event-title">Talk-7</span></td>
-    <td class="event talk"><span class="event-title">Talk-18</span></td>
-    <td class="event talk"><span class="event-title">Talk-26</span></td>
-  </tr>
-
-  <tr class="break-row">
-    <td class="time">15:30–16:00</td>
-    <td class="break-cell"><span>Coffee Break</span></td>
-    <td class="break-cell"><span>Coffee Break</span></td>
-    <td class="break-cell"><span>Coffee Break</span></td>
-  </tr>
-
-  <!-- 16:00–17:00 -->
-  <tr>
-    <td class="time">16:00–16:30</td>
-
-    <td class="event talk"><span class="event-title">Talk-8</span></td>
-
-    <td class="event lecture" rowspan="2">
-      <span class="event-title">Thematic Lecture-2</span>
-    </td>
-
-    <td class="event lecture" rowspan="2">
-      <span class="event-title">Thematic Lecture-3</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="time">16:30-17:00</td>
-
-    <td class="event talk"><span class="event-title">Talk-9</span></td>
-  </tr>
-
-  <!-- 17:00–20:00 -->
-  <tr>
-    <td class="time">17:00–17:30</td>
-    <td class="break-cell" rowspan="3"><span>Break</span></td>
-    <td class="event poster" rowspan="2">
-      <span class="event-title">Poster Session</span>
-    </td>
-    <td class="event ending">
-      <span class="event-title">Conference Ends</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="time">17:00–18:00</td>
-    <td class="break-cell" rowspan="5"><span>Break</span></td>
-  </tr>
-
-  <!-- 18:00–18:30 -->
-  <tr>
-    <td class="time">18:00–18:30</td>
-    <td class="break-cell" rowspan="3"><span>Break</span></td>
-  </tr>
-
-  <!-- 18:30–19:00 -->
-  <tr>
-    <td class="time">18:30–19:00</td>
-    <td class="event talk"><span class="event-title">Talk-10</span></td>
-  </tr>
-
-  <!-- 19:00–20:00 -->
-  <tr>
-    <td class="time">19:00–19:30</td>
-
-    <td class="event lecture" rowspan="2">
-      <span class="event-title">Thematic Lecture-1</span>
-    </td>
-  </tr>
-
-  <tr>
-    <td class="time">19:30-20:00</td>
-
-    <td class="event gala" rowspan="2">
-      <span class="event-title">Gala Dinner</span>
-    </td>
-  </tr>
-
-  <!-- 20:00 onwards -->
-  <tr>
-    <td class="time">20:00 onwards</td>
-    <td class="event dinner">
-      <span class="event-title">Dinner</span>
-    </td>
-    <td class="event dinner">
-      <span class="event-title">Dinner</span>
-    </td>
-  </tr>
-</tbody>
-        </table>
-      </div>
-    </div>
-    {% endif %}
   </section>
 
   <section id="participants">
     <div class="hero"><h2>Selected Participants</h2></div>
-    <div class="card participant-card">
+    <div class="card">
       {% capture participants_text %}{% include_relative _data/participants.md %}{% endcapture %}
-      {% assign participants = participants_text | strip | newline_to_br | split: '<br />' | slice: 2, 10000 %}
+      {% assign participants = participants_text | strip | split: nl | slice: 2, 10000 | where_exp: 'row', "row contains '|'" %}
       {% if participants.size > 0 %}
       <details id="participants-details" class="participants-details">
         <summary>View all {{ participants.size }} participants</summary>
@@ -472,7 +183,7 @@ layout: null
       <input id="participant-search" type="search" placeholder="Search participants" autocomplete="off">
       <ul id="participant-list" class="participant-list">
         {% for participant in participants %}
-        {% assign person = participant | split: ' | ' %}
+        {% assign person = participant | split: '|' %}
         {% assign institution = person[1] | strip %}
         <li><strong>{{ person[0] | strip | escape }}</strong>{% if institution != empty %}<span>{{ institution | escape }}</span>{% endif %}</li>
         {% endfor %}
@@ -482,7 +193,7 @@ layout: null
       </details>
       <div id="participant-preview" class="participant-preview" aria-label="Participant preview">
         {% for participant in participants limit:3 %}
-        {% assign person = participant | split: ' | ' %}
+        {% assign person = participant | split: '|' %}
         {% assign institution = person[1] | strip %}
         <div><strong>{{ person[0] | strip | escape }}</strong>{% if institution != empty %}<span>{{ institution | escape }}</span>{% endif %}</div>
         {% endfor %}
@@ -535,7 +246,6 @@ layout: null
     </div>
   </section>
   -->
-  <!-- Contact Section -->
   <section id="contact">
     <div class="hero"><h2>Contact</h2></div>
     <div class="card">
@@ -557,23 +267,14 @@ layout: null
     </div>
   </section>
 
-  <!-- Partners Section -->
-  <!--
-  <section class="card text-center" style="margin-top: 60px;">
-    <span class="label">Supported By</span>
-    <div style="display: flex; justify-content: center; gap: 50px; align-items: center; flex-wrap: wrap; margin-top: 30px;">
-      <img src="assets/img/iisc-seal.png" alt="IISc" style="height: 90px;">
-      <img src="https://www.nbhm.dae.gov.in/images/logo.png" alt="NBHM" style="height: 70px;">
-    </div>
-    <p style="margin-top: 30px; font-style: italic; font-size: 0.95rem; color: var(--muted); max-width: 800px; margin-left: auto; margin-right: auto;">Supported by the Indian Institute of Science (IISc) and the National Board for Higher Mathematics (NBHM), Department of Atomic Energy.</p>
-  </section>
-  -->
 </main>
 
-<footer style="margin-top: 40px;">
+<footer>
   <p>&copy; 2026 Conservation Laws, Department of Mathematics, IISc Bangalore</p>
 </footer>
 
-<script src="assets/js/main.js?v=20261117-2"></script>
+<script src="assets/js/main.js?v={{ site.time | date: '%s' }}"></script>
+<!-- Renders the LaTeX in talk abstracts: \( inline \) and \[ display \]. -->
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 </body>
 </html>

@@ -5,7 +5,8 @@ Dr. Sandeep Kumar | CUNEF Universidad, Spain
 Dr. Sahadeb Kuila | SRM Institute of Science and Technology, Chennai
 Dr. Anupam Sen | VIT Bhopal University
 Dr. Abhijit Biswas | IIT Kanpur
-Sanjibanee Sudha | IIPE Visakhapatnam
+Dr. Akhlaq Husain | Jamia Millia Islamia, New Delhi
+Anshu Yadav | JKLU
 Sudipta Sahu | IIPE Visakhapatnam
 Anamika Pandey | IIT Kharagpur
 Aswini N. K. | IIST Thiruvananthapuram
@@ -31,7 +32,6 @@ Sumantha Kanale Suresha | Pennsylvania State University, USA
 Kanad Sen | Purdue University, USA
 Souryajit Roy | TIFR-CAM, Bengaluru
 Sarthak Sourav Dash | IIT Gandhinagar
-Dr. Akhlaq Husain | Jamia Millia Islamia, New Delhi
 Dr. Ashish Kumar Pandey | IIIT Delhi
 Dr. Gautam Singh | NIT Tiruchirappalli
 Dr. Ramakanta Meher | SVNIT Surat

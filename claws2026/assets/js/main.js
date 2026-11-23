@@ -1,74 +1,41 @@
-/* newsite/assets/js/main.js */
 document.addEventListener('DOMContentLoaded', () => {
-  // --- Dynamic Background ---
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  // The faint IISc drawing behind the page (styled in CSS) zooms in as you scroll.
   const bg = document.createElement('div');
   bg.id = 'dynamic-bg';
-  Object.assign(bg.style, {
-    position: 'fixed',
-    top: '0',
-    left: '0',
-    width: '100vw',
-    height: '100vh',
-    zIndex: '-1',
-    pointerEvents: 'none',
-    backgroundImage: 'url("assets/img/IISC.svg")',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundSize: 'contain',
-    opacity: '0.1',
-    transformOrigin: 'center',
-    transition: 'transform 0.1s ease-out',
-    transform: 'translateX(-2.28%) translateY(5%) scale(1)',
-  });
   document.body.prepend(bg);
-
-  const updateBackgroundZoom = () => {
-    const scrollY = window.scrollY;
+  const zoomBackground = () => {
     const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
-    const scrollPercent = Math.min(scrollY / Math.max(maxScroll, 1), 1);
-    const scale = 1 + scrollPercent * 0.6; // Zoom up to 1.6x (doubled intensity)
-    bg.style.transform = `translateX(-2.28%) translateY(5%) scale(${scale})`;
+    const progress = Math.min(window.scrollY / Math.max(maxScroll, 1), 1);
+    bg.style.transform = `translateX(-2.28%) translateY(5%) scale(${1 + progress * 0.6})`;
   };
+  window.addEventListener('scroll', zoomBackground, { passive: true });
+  zoomBackground();
 
-  window.addEventListener('scroll', updateBackgroundZoom);
-  updateBackgroundZoom(); // Initial call
-
-  // Mobile Menu
+  // Mobile menu
   const menuToggle = document.getElementById('menu-toggle');
-  const navLinksContainer = document.getElementById('nav-links');
-  const navLinks = navLinksContainer.querySelectorAll('a');
+  const nav = document.getElementById('nav-links');
+  const setMenu = (open) => {
+    nav.classList.toggle('active', open);
+    menuToggle.setAttribute('aria-expanded', String(open));
+  };
+  menuToggle.addEventListener('click', () => setMenu(!nav.classList.contains('active')));
+  nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => setMenu(false)));
 
-  if (menuToggle && navLinksContainer) {
-    menuToggle.addEventListener('click', () => {
-      const isOpen = navLinksContainer.classList.toggle('active');
-      menuToggle.setAttribute('aria-expanded', String(isOpen));
-    });
-
-    navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        navLinksContainer.classList.remove('active');
-        menuToggle.setAttribute('aria-expanded', 'false');
-      });
-    });
-  }
-
-  // Participant Search
+  // Participant search
   const searchInput = document.getElementById('participant-search');
   const participantList = document.getElementById('participant-list');
-
   if (searchInput && participantList) {
-    const participants = Array.from(participantList.getElementsByTagName('li'));
-    
-    searchInput.addEventListener('input', (e) => {
-      const query = e.target.value.toLowerCase();
+    const participants = Array.from(participantList.children);
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.toLowerCase();
       let visible = 0;
       participants.forEach(li => {
-        const matches = li.textContent.toLowerCase().includes(query);
-        li.hidden = !matches;
-        if (matches) visible += 1;
+        li.hidden = !li.textContent.toLowerCase().includes(query);
+        if (!li.hidden) visible += 1;
       });
-      const emptyMessage = document.getElementById('participant-empty');
-      if (emptyMessage) emptyMessage.hidden = visible !== 0;
+      document.getElementById('participant-empty').hidden = visible !== 0;
     });
   }
 
@@ -77,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const participantPreview = document.getElementById('participant-preview');
   if (participantDetails && participantPreview && participantList) {
     const people = Array.from(participantList.children);
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     let previewOffset = 0;
     const updatePreview = () => {
       participantPreview.replaceChildren();
@@ -114,221 +80,161 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Search the page's people, programme and main sections.
+  // Search the page's people, talks, programme and main sections.
   const siteSearch = document.getElementById('site-search-input');
   const searchResults = document.getElementById('site-search-results');
-  if (siteSearch && searchResults) {
-    const entries = [];
-    const addEntry = (element, label, category, searchable) => {
-      if (!label || !element) return;
-      if (!element.id) element.id = `site-search-target-${entries.length}`;
-      entries.push({ element, label, category, searchable: (searchable || label).toLowerCase() });
-    };
-    document.querySelectorAll('.speaker-card').forEach(card => {
-      addEntry(card, card.querySelector('.speaker-info strong')?.textContent.trim(), 'Speaker', card.textContent);
-    });
-    document.querySelectorAll('#participant-list li').forEach(item => {
-      addEntry(item, item.querySelector('strong')?.textContent.trim(), 'Participant', item.textContent);
-    });
-    document.querySelectorAll('#programme tbody td').forEach(cell => {
-      const label = cell.textContent.replace(/\s+/g, ' ').trim();
-      if (label) addEntry(cell, label, 'Programme', label);
-    });
-    document.querySelectorAll('main section[id]').forEach(section => {
-      const heading = section.querySelector('h1, h2')?.textContent.trim() || section.id;
-      addEntry(section, heading, 'Section', section.textContent);
-    });
-    const closeResults = () => {
-      searchResults.hidden = true;
-      siteSearch.setAttribute('aria-expanded', 'false');
-    };
-    siteSearch.addEventListener('input', () => {
-      const query = siteSearch.value.trim().toLowerCase();
-      searchResults.replaceChildren();
-      if (!query) { closeResults(); return; }
-      const matches = entries.filter(entry => entry.searchable.includes(query)).slice(0, 8);
-      if (!matches.length) {
-        const message = document.createElement('p');
-        message.textContent = 'No results found.';
-        searchResults.append(message);
-      }
-      matches.forEach(entry => {
-        const link = document.createElement('a');
-        link.href = `#${entry.element.id}`;
-        const title = document.createElement('strong');
-        title.textContent = entry.label;
-        const category = document.createElement('span');
-        category.textContent = entry.category;
-        link.append(title, category);
-        link.addEventListener('click', () => {
-          if (entry.category === 'Participant' && searchInput && participantList) {
-            if (participantDetails) participantDetails.open = true;
-            searchInput.value = '';
-            searchInput.dispatchEvent(new Event('input'));
-          }
-          closeResults();
-        });
-        searchResults.append(link);
-      });
-      searchResults.hidden = false;
-      siteSearch.setAttribute('aria-expanded', 'true');
-    });
-    siteSearch.addEventListener('keydown', event => {
-      if (event.key === 'Escape') closeResults();
-      if (event.key === 'Enter') {
-        const firstResult = searchResults.querySelector('a');
-        if (firstResult && !searchResults.hidden) { event.preventDefault(); firstResult.click(); }
-      }
-    });
-    document.addEventListener('click', event => {
-      if (!event.target.closest('.site-search')) closeResults();
-    });
-  }
-
-  // Scroll Spy
-  const sections = document.querySelectorAll('section[id]');
-  
-  function scrollSpy() {
-    const scrollY = window.pageYOffset;
-
-    sections.forEach(current => {
-      const sectionHeight = current.offsetHeight;
-      const sectionTop = current.offsetTop - 150;
-      const sectionId = current.getAttribute('id');
-
-      if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-        document.querySelector('.nav-links a[href*=' + sectionId + ']')?.classList.remove('active');
-        document.querySelector('.nav-links a[href*=' + sectionId + ']')?.classList.add('active');
-      } else {
-        document.querySelector('.nav-links a[href*=' + sectionId + ']')?.classList.remove('active');
-      }
-    });
-  }
-
-  window.addEventListener('scroll', scrollSpy);
-  scrollSpy(); // Initial call
-
-  // Titles & Abstracts jump links
-  const normalizeTalkName = (value) => (value || '')
-    .toLowerCase()
-    .replace(/[‪]/g, '')
-    .replace(/\bprof\.?\s*/g, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-
-  const talkAliases = new Map([
-    ['k. balachandran', 'talk-k-balachandran'],
-    ['patrizia donato', 'talk-p-donato'],
-    ['p. donato', 'talk-p-donato'],
-    ['antonio gaudiello', 'talk-antonio-gaudiello'],
-    ['raju k. george', 'talk-raju-k-george'],
-    ['tuhin ghosh', 'talk-tuhin-ghosh'],
-    ['harsha hutridurga', 'talk-harsha-hutridurga'],
-    ['k. t. joseph', 'talk-k-t-joseph'],
-    ['p. k. ratnakumar', 'talk-ratnakumar-pk'],
-    ['ratnakumar p k', 'talk-ratnakumar-pk'],
-    ['ratnakumar p.k.', 'talk-ratnakumar-pk'],
-    ['venky krishnan', 'talk-venky-krishnan'],
-    ['sandeep kunnath', 'talk-sandeep-k'],
-    ['k. sandeep', 'talk-sandeep-k'],
-    ['sandeep k.', 'talk-sandeep-k'],
-    ['rajesh mahadevan', 'talk-rajesh-mahadevan'],
-    ['t. muthukumar', 'talk-t-muthukumar'],
-    ['m. t. nair', 'talk-m-t-nair'],
-    ['m.t. nair', 'talk-m-t-nair'],
-    ['mythily ramaswamy', 'talk-mythily-ramaswamy'],
-    ['mallikarjuna rao', ''],
-    ['p.n. srikanth', 'talk-p-n-srikanth'],
-    ['p. n. srikanth', 'talk-p-n-srikanth'],
-    ['sivaguru sritharan', 'talk-sivaguru-sritharan'],
-    ['sivaguru s. sritharan', 'talk-sivaguru-sritharan'],
-    ['s. sundar', 'talk-s-sundar'],
-    ['s. thangavelu', 'talk-s-thangavelu'],
-    ['hari varma', 'talk-hari-varma']
-  ]);
-
-  const talksCard = document.getElementById('titles-abstracts');
-  const talks = talksCard ? Array.from(talksCard.querySelectorAll('.talk-card')) : [];
-  const talksToggle = document.getElementById('talks-toggle');
-  const talksPrev = document.getElementById('talks-prev');
-  const talksNext = document.getElementById('talks-next');
-  const talksCounter = document.getElementById('talks-counter');
-  let currentTalkIndex = 0;
-
-  const setActiveTalk = (index) => {
-    if (!talks.length) return;
-    currentTalkIndex = (index + talks.length) % talks.length;
-    talks.forEach((talk, talkIndex) => {
-      talk.classList.toggle('active-talk', talkIndex === currentTalkIndex);
-    });
-    if (talksCounter) {
-      talksCounter.textContent = `${currentTalkIndex + 1} / ${talks.length}`;
+  const entries = [];
+  const addEntry = (element, label, category, searchable) => {
+    if (!label) return;
+    if (!element.id) element.id = `site-search-target-${entries.length}`;
+    entries.push({ element, label, category, searchable: (searchable || label).toLowerCase() });
+  };
+  document.querySelectorAll('.speaker-card').forEach(card => {
+    addEntry(card, card.querySelector('.speaker-info strong').textContent.trim(), 'Speaker', card.textContent);
+  });
+  document.querySelectorAll('.talk-card').forEach(card => {
+    addEntry(card, card.querySelector('.talk-title').textContent.trim(), `Talk · ${card.dataset.speaker}`, card.textContent);
+  });
+  document.querySelectorAll('#participant-list li').forEach(item => {
+    addEntry(item, item.querySelector('strong').textContent.trim(), 'Participant', item.textContent);
+  });
+  document.querySelectorAll('#programme tbody td').forEach(cell => {
+    const label = cell.textContent.replace(/\s+/g, ' ').trim();
+    addEntry(cell, label, 'Programme', label);
+  });
+  document.querySelectorAll('main section[id]').forEach(section => {
+    addEntry(section, section.querySelector('h1, h2')?.textContent.trim() || section.id, 'Section', section.textContent);
+  });
+  const closeResults = () => {
+    searchResults.hidden = true;
+    siteSearch.setAttribute('aria-expanded', 'false');
+  };
+  siteSearch.addEventListener('input', () => {
+    const query = siteSearch.value.trim().toLowerCase();
+    searchResults.replaceChildren();
+    if (!query) { closeResults(); return; }
+    const matches = entries.filter(entry => entry.searchable.includes(query)).slice(0, 8);
+    if (!matches.length) {
+      const message = document.createElement('p');
+      message.textContent = 'No results found.';
+      searchResults.append(message);
     }
-  };
-
-  const scrollToTalk = (targetId) => {
-    if (!targetId) return;
-    const card = document.getElementById(targetId);
-    if (!card) return;
-    const talkIndex = talks.indexOf(card);
-    if (talkIndex >= 0) setActiveTalk(talkIndex);
-    talksCard?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
-
-  const resolveTalkTarget = (speakerName) => {
-    const key = normalizeTalkName(speakerName);
-    return talkAliases.get(key) || '';
-  };
-
-  document.querySelectorAll('.speaker-card').forEach((card) => {
-    const speaker = card.querySelector('.speaker-info strong')?.textContent || '';
-    const targetId = resolveTalkTarget(speaker);
-    if (!targetId) return;
-    card.dataset.talkTarget = targetId;
-    card.setAttribute('tabindex', '0');
-    card.setAttribute('role', 'button');
-    card.setAttribute('aria-label', `Go to title and abstract for ${speaker}`);
-    card.addEventListener('click', () => scrollToTalk(targetId));
-    card.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        scrollToTalk(targetId);
-      }
+    matches.forEach(entry => {
+      const link = document.createElement('a');
+      link.href = `#${entry.element.id}`;
+      const title = document.createElement('strong');
+      title.textContent = entry.label;
+      const category = document.createElement('span');
+      category.textContent = entry.category;
+      link.append(title, category);
+      link.addEventListener('click', () => {
+        if (entry.category === 'Participant') {
+          participantDetails.open = true;
+          searchInput.value = '';
+          searchInput.dispatchEvent(new Event('input'));
+        }
+        closeResults();
+      });
+      searchResults.append(link);
     });
+    searchResults.hidden = false;
+    siteSearch.setAttribute('aria-expanded', 'true');
+  });
+  siteSearch.addEventListener('keydown', event => {
+    if (event.key === 'Escape') closeResults();
+    if (event.key === 'Enter') {
+      const firstResult = searchResults.querySelector('a');
+      if (firstResult && !searchResults.hidden) { event.preventDefault(); firstResult.click(); }
+    }
+  });
+  document.addEventListener('click', event => {
+    if (!event.target.closest('.site-search')) closeResults();
   });
 
-  document.querySelectorAll('#programme tbody td').forEach((cell) => {
-    const speaker = cell.querySelector('.schedule-speaker')?.textContent.trim() || cell.textContent.trim();
-    const targetId = resolveTalkTarget(speaker);
-    if (!targetId) return;
-    cell.dataset.talkTarget = targetId;
-    cell.setAttribute('tabindex', '0');
-    cell.setAttribute('role', 'button');
-    cell.setAttribute('aria-label', `Go to title and abstract for ${speaker}`);
-    cell.addEventListener('click', () => scrollToTalk(targetId));
-    cell.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        scrollToTalk(targetId);
-      }
+  // Highlight the nav link of the section in view.
+  const sections = document.querySelectorAll('main section[id]');
+  const scrollSpy = () => {
+    sections.forEach(section => {
+      const top = section.offsetTop - 150;
+      const inView = window.scrollY > top && window.scrollY <= top + section.offsetHeight;
+      document.querySelector(`.nav-links a[href="#${section.id}"]`)?.classList.toggle('active', inView);
     });
+  };
+  window.addEventListener('scroll', scrollSpy, { passive: true });
+  scrollSpy();
+
+  // Talks: without JS the cards are a plain list; here they become a carousel
+  // with the previous and next talk receding on either side.
+  const talksBox = document.getElementById('talks-carousel');
+  const cards = Array.from(talksBox.querySelectorAll('.talk-card'));
+  const dots = Array.from(talksBox.querySelectorAll('.talk-dots button'));
+  const counter = document.getElementById('talks-counter');
+  const toggle = document.getElementById('talks-toggle');
+  const track = talksBox.querySelector('.talk-track');
+  const listLabel = toggle.textContent;
+  const isList = () => talksBox.classList.contains('expanded');
+  let current = 0;
+
+  const show = (index) => {
+    const n = cards.length;
+    current = (index + n) % n;
+    const list = isList();
+    cards.forEach((card, i) => {
+      card.classList.toggle('active', !list && i === current);
+      card.classList.toggle('prev', !list && n > 2 && i === (current - 1 + n) % n);
+      card.classList.toggle('next', !list && n > 1 && i === (current + 1) % n);
+      card.inert = !list && i !== current;
+    });
+    dots.forEach((dot, i) => dot.setAttribute('aria-current', String(i === current)));
+    counter.textContent = `${current + 1} / ${n}`;
+  };
+
+  talksBox.classList.remove('expanded');
+  toggle.hidden = false;
+  toggle.addEventListener('click', () => {
+    toggle.textContent = talksBox.classList.toggle('expanded') ? 'Show as carousel' : listLabel;
+    show(current);
+  });
+  document.getElementById('talks-prev').addEventListener('click', () => show(current - 1));
+  document.getElementById('talks-next').addEventListener('click', () => show(current + 1));
+  dots.forEach((dot, i) => dot.addEventListener('click', () => show(i)));
+
+  talksBox.addEventListener('keydown', event => {
+    const step = { ArrowLeft: -1, ArrowRight: 1 }[event.key];
+    if (!step || isList() || event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest('.talk-card')) talksBox.focus(); // the focused card is about to slide away
+    show(current + step);
   });
 
-  setActiveTalk(0);
+  // Hidden cards are inert, so clicks on the side cards land on the track.
+  track.addEventListener('click', event => {
+    if (isList()) return;
+    const { left, right } = cards[current].getBoundingClientRect();
+    if (event.clientX < left) show(current - 1);
+    else if (event.clientX > right) show(current + 1);
+  });
 
-  if (talksPrev) {
-    talksPrev.addEventListener('click', () => setActiveTalk(currentTalkIndex - 1));
-  }
+  // Touch swipe; mouse users have the arrows, dots and side cards.
+  let swipeX = null;
+  track.addEventListener('pointerdown', event => {
+    swipeX = event.pointerType === 'mouse' || isList() ? null : event.clientX;
+  });
+  track.addEventListener('pointerup', event => {
+    if (swipeX !== null && Math.abs(event.clientX - swipeX) > 50) show(current + (event.clientX < swipeX ? 1 : -1));
+    swipeX = null;
+  });
+  track.addEventListener('pointercancel', () => { swipeX = null; });
 
-  if (talksNext) {
-    talksNext.addEventListener('click', () => setActiveTalk(currentTalkIndex + 1));
-  }
-
-  if (talksToggle && talksCard) {
-    talksToggle.addEventListener('click', () => {
-      const expanded = talksCard.classList.toggle('expanded');
-      talksToggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-      talksToggle.textContent = expanded ? 'Show one talk' : 'Expand all talks';
-    });
-  }
+  // Links to #talk-… (speaker grid, programme, search, shared URLs) open that talk.
+  const openFromHash = (hash) => {
+    const index = cards.findIndex(card => `#${card.id}` === hash);
+    if (index >= 0) show(index);
+  };
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#talk-"]');
+    if (link) openFromHash(link.getAttribute('href'));
+  });
+  window.addEventListener('hashchange', () => openFromHash(location.hash));
+  show(0);
+  openFromHash(location.hash);
 });
