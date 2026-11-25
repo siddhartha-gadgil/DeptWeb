@@ -1,4 +1,6 @@
 ---
+# The Venue you wanted has already been booked. Please visit https://math.iisc.ac.in/lecture-hall-calendar.html and change venue accordingly.
+published: false
 speaker: Luz Roncal (BCAM - Basque Center for Applied Mathematics, Spain)
 title: "Circular maximal functions and smoothing estimates over fractal time sets"
 date: 1 December, 2026
