@@ -3,8 +3,7 @@ speaker: Luz Roncal (BCAM - Basque Center for Applied Mathematics, Spain)
 title: "Circular maximal functions and smoothing estimates over fractal time sets"
 date: 1 December, 2026
 time: 11:30 am
-start_time: 11:00
-venue: LH-1, Mathematics Department
+venue: LH-5, Mathematics Department
 series: "APRG Seminar"
 website: https://math.iisc.ac.in/~aprg/index.php?id=seminar25-26
 ---
