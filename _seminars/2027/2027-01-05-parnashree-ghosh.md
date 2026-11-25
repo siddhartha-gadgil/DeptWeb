@@ -1,7 +1,7 @@
 ---
 speaker: Parnashree Ghosh (University of Neuchatel, Switzerland and IISc Mathematics)
 title: TBA
-date: 5 Jan, 2026
+date: 5 Jan, 2027
 time: 4 pm
 venue:  LH-1, Mathematics Department
 series: "Algebra & Combinatorics Seminar"
