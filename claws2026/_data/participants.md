@@ -47,9 +47,10 @@ Dr. Vivek Sahu | ISI Delhi
 Dr. Sachin Kumar | IIT Kanpur
 Dr. Apratim Bhattacharya | TIFR-CAM, Bengaluru
 Dr. Balakrishna Chhatria | TIFR-CAM, Bengaluru
-Vanshika Mittal | IISc Bengaluru
+Vanshika Mittal | Indian Institute of Science
 Neelam | NIT Warangal
 Sanu Adhikary | IIT Roorkee
 Ajeena Joseph | IIST Thiruvananthapuram
 Dr. Harish Nagula | IISER Thiruvananthapuram
 Vishwesh Tiwari | IISER Pune
+Sanjibanee Sudha | Indian Institute of Science
